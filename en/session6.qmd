@@ -1,0 +1,67 @@
+---
+title: "Session 6 · Analyse: from sample to answer"
+subtitle: "Weekend 3 · Sunday · 3 hours (15-minute break)"
+---
+
+## Agenda
+
+- Recap quiz on Session 5 (10 min)
+- 6.1 From sample to population: CI, p-value, power, sample size, choosing a test
+- 6.2 Compare groups in the course dataset (live R demo)
+- 6.3 Relationships and models: regression, Kaplan-Meier and Cox
+- 6.4 Model the course dataset: adjusted OR, Cox HR, missing data, the SAP
+- Proposal builder 6: sample size, analysis plan, missing-data plan
+
+## Timetable
+
+| Start | Clock* | Min | Segment |
+|:----|:----|---:|:------------------------------------------------------------|
+| 0:00 | 08:00 | 10 | Recap quiz |
+| 0:10 | 08:10 | 40 | **6.1 From sample to population:** CI, p-values & misinterpretations, type I/II errors, power, sample size (**live demo**), choosing a test, paired vs unpaired, multiple comparisons |
+| 0:50 | 08:50 | 20 | **6.2 [L2] Compare groups in the course dataset:** live demo (t-test / Mann–Whitney / chi-square); groups interpret their outputs |
+| 1:10 | 09:10 | 15 | BREAK |
+| 1:25 | 09:25 | 35 | **6.3 Relationships and models:** correlation, linear and logistic regression, adjustment, interaction, overfitting, Kaplan–Meier & Cox, prediction/ML; reading regression tables & forest plots |
+| 2:00 | 10:00 | 25 | **6.4 [L2] Model the course dataset:** crude vs adjusted OR (confounding by indication made visible), Kaplan–Meier + Cox HR, complete-case vs multiple imputation; the SAP that was written before the analysis |
+| 2:25 | 10:25 | 30 | **Proposal builder 6:** sample size, analysis plan, missing-data plan |
+| 2:55 | 10:55 | 5 | Wrap-up |
+
+\*Times are relative to the start of the session; the clock column shows an example 08:00–11:00 session. **[L2]** = Level 2 (course dataset).
+
+## Slides
+
+```{=html}
+<div class="slides-embed"><iframe src="slides-s6.html" title="Session 6 · Analyse: from sample to answer" loading="lazy" allowfullscreen></iframe></div>
+```
+
+[Open the slides full screen](slides-s6.qmd){.btn .btn-primary role="button"} — Press **F** for full screen, **S** for speaker notes, **E** to print, **Esc** for an overview.
+
+## Downloads
+
+| | |
+|:--|:--|
+| 🎞️ **Slides (PowerPoint)** | [English](files/slides/Session_6_EN.pptx) · [Tiếng Việt](../vi/files/slides/Session_6_VN.pptx) |
+| 📝 **Exercise sheet** | [Read online](exercises-s6.qmd) · [PDF](files/sessions/s6_exercises.pdf) |
+| ✅ **Solutions** | [Read online](solutions-s6.qmd) · [PDF](files/sessions/s6_solutions.pdf) |
+| 💻 **Live-demo script** | [Read online](demo-s6.qmd) · [PDF](files/sessions/s6_demo.pdf) |
+
+## Before this session
+
+- Your group's results pack read (Table 1 and figures).
+- Proposal Part 3 started (variables table, mini-CRF, data-management plan).
+
+## After this session (homework)
+
+- **Group:** finish Proposal Part 3 (sample size, analysis plan, missing-data plan).
+- Read [Papers 1 and 2](papers.qmd).
+- Start your group's 6-slide proposal presentation ([presentation guide](presentation-guide.qmd)).
+- Homework exercises on the Session 6 sheet (CIs and p-values, choose the test, match r, read a Kaplan–Meier curve, why is it missing?).
+
+## Related materials
+
+- [Statistical analysis plan for FLUID-ICU](sap.qmd)
+- [Results packs Q1–Q5](dataset.qmd)
+- [Sample-size calculator](resources.qmd)
+
+---
+
+[← Previous session](session5.qmd) · [Schedule](schedule.qmd) · [Next session →](session7.qmd)

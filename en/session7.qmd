@@ -1,0 +1,66 @@
+---
+title: "Session 7 · Protect & write: ethics, integrity, Methods and Results"
+subtitle: "Weekend 4 · Saturday · 3 hours (15-minute break)"
+---
+
+## Agenda
+
+- Recap quiz: Session 6
+- 7.1  Protocol, ethics, consent, registration, feasibility
+- 7.2  Research integrity: authorship, conflicts of interest, data sharing, AI
+- Proposal builder 7: ethics + publication plan
+- 7.3  Writing the paper (I): Methods, Results, tables, STROBE
+- Manuscript workshop 1: draft Methods + Results
+
+## Timetable
+
+| Start | Clock* | Min | Segment |
+|:----|:----|---:|:------------------------------------------------------------|
+| 0:00 | 08:00 | 10 | Recap quiz |
+| 0:10 | 08:10 | 30 | **7.1 Protocol, ethics and consent:** protocol (SPIRIT), Helsinki & GCP, ethics committee journey, consent incl. ICU consent, registration, confidentiality, feasibility |
+| 0:40 | 08:40 | 20 | **7.2 Research integrity:** FFP, duplicate/salami, authorship & CRediT, conflicts of interest, data sharing, AI use |
+| 1:00 | 09:00 | 15 | **Proposal builder 7:** ethics, registration, feasibility, publication plan |
+| 1:15 | 09:15 | 15 | BREAK |
+| 1:30 | 09:30 | 35 | **7.3 Writing the paper (I):** writing order, Methods (incl. statistical paragraph), Results (participants first, numbers with CIs, no interpretation), stand-alone tables & figures, STROBE for the course-dataset paper |
+| 2:05 | 10:05 | 50 | **[L2] Manuscript workshop 1:** each group drafts Methods + Results (~600 words) with Table 1 and one figure/table from its results pack |
+| 2:55 | 10:55 | 5 | Wrap-up |
+
+\*Times are relative to the start of the session; the clock column shows an example 08:00–11:00 session. **[L2]** = Level 2 (course dataset).
+
+## Slides
+
+```{=html}
+<div class="slides-embed"><iframe src="slides-s7.html" title="Session 7 · Protect &amp; write: ethics, integrity, Methods and Results" loading="lazy" allowfullscreen></iframe></div>
+```
+
+[Open the slides full screen](slides-s7.qmd){.btn .btn-primary role="button"} — Press **F** for full screen, **S** for speaker notes, **E** to print, **Esc** for an overview.
+
+## Downloads
+
+| | |
+|:--|:--|
+| 🎞️ **Slides (PowerPoint)** | [English](files/slides/Session_7_EN.pptx) · [Tiếng Việt](../vi/files/slides/Session_7_VN.pptx) |
+| 📝 **Exercise sheet** | [Read online](exercises-s7.qmd) · [PDF](files/sessions/s7_exercises.pdf) |
+| ✅ **Solutions** | [Read online](solutions-s7.qmd) · [PDF](files/sessions/s7_solutions.pdf) |
+
+## Before this session
+
+- Proposal Part 3 finished; presentation started.
+- Your group's results pack and Table 1 at hand for the manuscript workshop.
+
+## After this session (homework)
+
+- **Group:** finish Proposal Part 4 and your 6-slide presentation.
+- Re-read your Methods + Results draft.
+- Read the abstracts of Papers 1 and 2 the evening before Session 8 (for *Be the reviewer*).
+- The integrity scenarios on the Session 7 sheet that were not done in class.
+
+## Related materials
+
+- [Manuscript brief](manuscript-brief.qmd)
+- [Manuscript (IMRaD), protocol and consent templates](templates.qmd)
+- [Sample ethics application](resources.qmd)
+
+---
+
+[← Previous session](session6.qmd) · [Schedule](schedule.qmd) · [Next session →](session8.qmd)

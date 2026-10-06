@@ -1,0 +1,127 @@
+---
+title: "Session 3 — Exercise sheet"
+---
+
+📥 [PDF](files/sessions/s3_exercises.pdf) · [Session page](session3.qmd)
+
+**Foundations of Clinical Research** · Weekend 2 · Saturday · Neudata · #ClearDataClearImpact
+
+This handout has three parts. No computer or calculator is needed.
+
+| Part | Activity | When | How |
+|---|---|---|---|
+| A | Name that design (8 abstracts + 1 optional) | End of section 3.1 (15 min) | Pairs |
+| B | Choose the design for 5 questions (4 given + your own; 2 optional bonus) | After section 3.2 (20 min) | Your group |
+| C | Proposal builder 3 — design, setting and population | End of the session (35 min) | Your group |
+
+**Key words of the day:** exposure (what comes first) · outcome (what we count later) · comparison group · observational (we watch) · experimental (we assign) · randomised (chance assigns) · cross-sectional (snapshot) · case-control (look back) · cohort (follow forward) · cluster / crossover / factorial trial · non-inferiority · pilot · interrupted time series · qualitative.
+
+
+* * *
+
+## Part A — Name that design
+
+**Instructions**
+
+1. Work in pairs. Read each short abstract.
+2. Ask the three questions from the decision tree:
+   - **Did the investigator ASSIGN the exposure or treatment?** If yes: **was it assigned at random?**
+   - If not assigned: **is there a comparison group?**
+   - If there is: **in which direction does time run?** Exposure first, then outcome (cohort); outcome first, then look back (case-control); both at the same moment (cross-sectional).
+3. Write the design and **one word or phrase from the abstract that proves it**.
+4. Put a star next to the abstract you found hardest.
+
+> **Design choices:** case report / case series · cross-sectional · case-control · cohort (prospective or retrospective) · non-randomised intervention study · randomised controlled trial (RCT) · systematic review / meta-analysis
+
+**Abstract 1.** Two hundred and forty adults on mechanical ventilation were randomly allocated by a central computer to oral care with chlorhexidine twice daily or to standard oral care. Ventilator-associated pneumonia was recorded over 28 days by an assessor who did not know the group.
+
+Design: ______________________  Evidence: ______________________
+
+**Abstract 2.** On one day in March, two trained nurses examined all 412 inpatients of a hospital for pressure injuries and recorded the type of mattress each patient was lying on. Pressure injuries were present in 9% of patients on standard mattresses and 4% on pressure-relieving mattresses.
+
+Design: ______________________  Evidence: ______________________
+
+**Abstract 3.** Forty ICU patients who developed candidaemia were compared with 80 ICU patients from the same units who did not, matched on age and month of admission. The investigators then searched the records of both groups for parenteral nutrition in the 14 days before the culture date.
+
+Design: ______________________  Evidence: ______________________
+
+**Abstract 4.** All 600 adults admitted with acute ischaemic stroke who received thrombolysis were classified on arrival by door-to-needle time (under 60 minutes or 60 minutes and over). Each patient was then followed up to record functional independence at 90 days.
+
+Design: ______________________  Evidence: ______________________
+
+**Abstract 5.** Using electronic records from 2019 to 2022, the investigators identified 1,150 ICU patients and divided them into those who did and did not receive a continuous benzodiazepine infusion for 3 days or more. They then compared how many patients in each group had delirium recorded later in the ICU stay.
+
+Design: ______________________  Evidence: ______________________
+
+**Abstract 6.** We describe five patients who developed severe hypernatraemia within a week of a new fluid protocol being introduced on our unit, with their laboratory results and clinical course.
+
+Design: ______________________  Evidence: ______________________
+
+**Abstract 7.** Central-line infection rates were compared for the six months before and the six months after a unit-wide insertion-bundle education programme, which the research team introduced on all beds on the same day.
+
+Design: ______________________  Evidence: ______________________
+
+**Abstract 8.** We searched three databases for randomised trials comparing restrictive with liberal fluid strategies in adults with septic shock, assessed each trial's risk of bias, and pooled 28-day mortality across nine trials.
+
+Design: ______________________  Evidence: ______________________
+
+**Abstract 9 (optional).** Twelve hospital wards were randomly allocated, ward by ward, to a new hand-hygiene feedback programme or to usual practice. Hospital-acquired infections were counted in all patients on those wards for six months.
+
+Design: ______________________  Evidence: ______________________
+
+**Extra (if you finish early):** for each design, write one strength and one weakness.
+
+
+
+* * *
+
+## Part B — Choose the design for 5 questions
+
+**Instructions.** For each question, name the best **feasible** design (use the decision tree and the "Match the design to the question" slide), give **one reason**, and name the design's **main weakness**. Question 5 is your group's own research question from Part 1.
+
+| # | Question | Design | Reason | Main weakness |
+|---|---|---|---|---|
+| 1 | How many inpatients have a pressure injury today, and is it more common on standard mattresses? | | | |
+| 2 | Does daily chlorhexidine bathing reduce bloodstream infections? It will be introduced ward by ward, and nurses on one ward cannot bathe only half their patients. | | | |
+| 3 | A sepsis bundle was introduced in our hospital in 2023. We have monthly sepsis mortality for 3 years before and 2 years after. Did mortality fall? | | | |
+| 4 | Why do nurses not report near-miss medication errors? | | | |
+| 5 | **Our own question:** ______________________________ | | | |
+
+**Bonus (optional, if you finish early)**
+
+| # | Question | Design | Reason |
+|---|---|---|---|
+| 6 | What are the risk factors for a rare event: Stevens–Johnson syndrome in hospital patients? | | |
+| 7 | A new 5-day antibiotic course is cheaper and easier than the 10-day course. We only need to show it is not worse for cure. | | |
+
+For your own question (5), also answer: **at the end, will you be allowed to say "caused" or "associated with"?** ____________
+
+
+* * *
+
+## Part C — Proposal builder 3: design, setting and population
+
+**Instructions.** As a group, complete the first three rows of Part 2 of the proposal, then copy them into the template (`Templates/Research_Proposal_Template.docx`). The rest of Part 2 (exposure, comparator, outcomes, biases) is built in Session 4.
+
+**Our research question (from Part 1):** _______________________________________________
+
+| # | Section | What to write | Our answer |
+|---|---|---|---|
+| 1 | **Study design** and **justification** | Name the design. In 3–5 sentences explain why it fits YOUR question, and why the "ideal" design is or is not feasible. | |
+| 2 | **Setting** | Where (type of unit, how many sites), when (study period), source of patients or records. Do not name a specific hospital in the course version. | |
+| 3 | **Population** | **Inclusion criteria** (3–5): who is eligible. **Exclusion criteria** (3–5): who is removed, and why. Exclusions should not just repeat the inclusions in the negative. | |
+
+**Draw your study on a timeline** (exposure → outcome; mark when each is measured):
+
+```
+ ______________________  ------------------------------->  ______________________
+   exposure / start                                         outcome / end
+```
+
+**Group self-check before you finish**
+
+- [ ] The design matches the type of question.
+- [ ] It is feasible in our setting (patients, time, data).
+- [ ] Inclusion criteria describe the P of our PICO and can be checked from records on day 1.
+- [ ] Every exclusion criterion has a reason (safety, outcome cannot be measured …) and is not just the opposite of an inclusion.
+- [ ] We know what we will be allowed to claim: "caused" or "associated with".

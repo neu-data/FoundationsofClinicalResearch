@@ -1,0 +1,7 @@
+/.quarto/
+**/.quarto/
+**/_site/
+/public/
+**/_freeze/
+.DS_Store
+Thumbs.db

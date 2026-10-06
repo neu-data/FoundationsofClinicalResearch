@@ -1,0 +1,106 @@
+---
+title: "Session 8 — Solutions"
+---
+
+📥 [PDF](files/sessions/s8_solutions.pdf) · [Session page](session8.qmd)
+
+Answer keys for `Practicals/s8_exercises.md`, Parts A–C. Model answers for the appraisal (Part D) are in `Resources/appraisal_instructor_guide.md`. Numbers in Part B are from `Course/Data/key_results.md` (SIMULATED data).
+
+
+* * *
+
+## Part A — Writing exercises
+
+### A1. Fix the spin (model rewrites)
+| # | Model rewrite | Why |
+|---|---|---|
+| a | "The point estimate favoured the restrictive strategy, but the 95% CI was wide (−15.2 to 41.6 ml/kg) and included no difference; a larger trial would be needed to detect a smaller effect." | p = 0.42 is not a trend; report the estimate and its uncertainty (annotation #41). |
+| b | "A positive fluid balance on the first ICU day was not associated with 28-day mortality (HR 1.17, 95% CI 0.85 to 1.60)." | "Impact" is causal; the cohort shows association only (#27). |
+| c | "Positive cumulative fluid balance during the first three ICU days and 28-day mortality in sepsis: a propensity score-matched cohort study" | Title must match the observational design (#1). |
+| d | "To our knowledge, this is among the lowest day-5 fluid balances reported in septic shock trials [refs]" — or delete. | Superlatives need protection and a citation (#40). |
+
+### A2. Verb ladder
+a — **was observed in** (case series) · b — **is associated with** (cohort) · c — **did not reduce** (one RCT; add "in this pilot" because it is small) · d — **reduces / causes** (consistent large RCTs and meta-analysis) · e — **was observed / was … %** (descriptive cross-sectional).
+
+### A3. Results sentences
+1. "In the Day-3 matched cohort, a positive cumulative fluid balance was associated with higher 28-day mortality (HR 1.56, 95% CI 1.10 to 2.22; P = 0.012)."
+2. "By day 28, 6 of 24 patients had died in each group (relative risk 1.0, 95% CI 0.38 to 2.66)." — and in the Discussion: "the trial was too small to assess mortality".
+3. "In the Day-1 cohort, a positive fluid balance was not associated with 28-day mortality (HR 1.17, 95% CI 0.85 to 1.60; P = 0.354)." — not "had no effect".
+
+### A4. Title from PICO — running example
+"Restrictive vs usual fluids and 28-day mortality in septic shock: a randomised controlled trial" (14 words) — or, for an observational group proposal: "Cumulative fluid balance and 28-day mortality in adults with septic shock: a retrospective cohort study". Check: 10–16 words, design named, no "impact", observational = "and" / "association between".
+
+
+* * *
+
+## Part B — [L2] Manuscript workshop 2: model Introduction, Discussion, Abstract and Title for Q1
+
+All numbers from `Course/Data/key_results.md` and results pack Q1 (**SIMULATED DATA**). References are placeholders [n]; groups use their Session 1–2 references and Papers 1–2.
+
+### Model title and keywords
+**Positive fluid balance by day 3 and 28-day mortality in adults with sepsis: a multicentre cohort study** (16 words; design named; calibrated).
+Keywords: Fluid Therapy; Water-Electrolyte Balance; Critical Care; Mortality; Cohort Studies.
+
+### Model Introduction (~300 words, three paragraphs)
+1. *Known.* Intravenous fluids are a cornerstone of early sepsis treatment, but fluid given beyond the resuscitation phase accumulates. A positive cumulative fluid balance has been associated with higher mortality in several observational studies, including a large propensity-matched cohort in which a positive balance on ICU day 2 was associated with higher 28-day mortality (HR 2.13) [Paper 2].
+2. *Not known.* Because sicker patients receive more fluid, it remains uncertain how much of this association reflects illness severity (confounding by indication) rather than fluid itself [refs]. Randomised trials of restrictive strategies, such as a recent pilot targeting non-resuscitative fluids [Paper 1], have been small and inconclusive.
+3. *Aim.* We therefore examined whether a positive cumulative fluid balance by ICU day 3 was associated with 28-day mortality in adults with sepsis, before and after adjustment for severity.
+
+### Model Discussion (~500 words, six moves)
+1. **Answer.** In this multicentre cohort, a positive fluid balance by ICU day 3 was associated with higher 28-day mortality after adjustment for severity (adjusted OR 1.62, 95% CI 1.02 to 2.59).
+2. **Compare.** The direction agrees with Paper 2 (day-2 HR 2.13, 95% CI 1.48 to 3.06), although our adjusted estimate was smaller; differences in case mix, timing of the balance and adjustment sets may explain this.
+3. **Explain.** Most of the crude association (OR 2.49) disappeared after adjustment, consistent with confounding by indication: patients with a positive balance were sicker (median SOFA 8 vs 6; vasopressors 55.0% vs 24.9%). Fluid accumulation may contribute to organ oedema, but our data cannot show this.
+4. **Limitations.** Residual confounding by unmeasured severity is likely and would exaggerate the association; reverse causation (patients who deteriorate accumulate fluid) acts in the same direction. Patients who died before day 3 had less time to accumulate fluid. The adjusted Cox HR (1.46, 95% CI 1.00 to 2.13) had a lower limit at 1. Lactate was missing in 15%, but multiple imputation gave a similar estimate (OR 1.70). The association looked stronger in heart failure (adjusted OR 4.39 vs 1.29; p for interaction 0.031) but was based on 90 patients and should be treated as a hypothesis. The data are simulated.
+5. **Implications.** These findings do not justify restricting fluid in clinical practice; a randomised trial of fluid strategies after the resuscitation phase is needed.
+6. **Conclusion.** A positive cumulative fluid balance by ICU day 3 was modestly associated with higher 28-day mortality; most of the crude association reflected severity of illness.
+
+### Model abstract (≈190 words)
+**Background:** A positive fluid balance is associated with death in sepsis, but sicker patients receive more fluid. We examined the association after adjustment for severity.
+**Methods:** Multicentre prospective cohort (simulated teaching data) of 620 adults with sepsis in four ICUs, 2023–2024. Exposure: positive cumulative fluid balance by ICU day 3. Outcome: 28-day mortality. Logistic and Cox regression adjusted for age, SOFA, lactate, vasopressors, mechanical ventilation and chronic kidney disease; multiple imputation for missing lactate.
+**Results:** Of 618 patients analysed, 373 (60.4%) had a positive balance; 134/373 (35.9%) vs 45/245 (18.4%) died. The crude OR was 2.49 (95% CI 1.70 to 3.70) and the adjusted OR 1.62 (95% CI 1.02 to 2.59); with imputation 1.70 (1.09 to 2.64). The adjusted HR was 1.46 (95% CI 1.00 to 2.13).
+**Conclusions:** A positive fluid balance by day 3 was modestly associated with 28-day mortality; most of the crude association reflected illness severity. A randomised trial is needed before fluid strategies are changed.
+
+### Group-specific Discussion points (from the packs)
+| Group | Answer sentence (numbers from key_results.md) | Key limitation |
+|---|---|---|
+| Q2 AKI | Adjusted OR 1.27 per 10 ml/kg (95% CI 1.16 to 1.40) | Reverse causation: oliguric AKI causes fluid accumulation |
+| Q3 VFD | Adjusted −0.61 days per 10 ml/kg (95% CI −1.00 to −0.21) | VFD combines death and ventilation; skewed outcome |
+| Q4 Lactate | Adjusted OR per mmol/L 1.39 (CC, n = 527) vs 1.45 (MI, n = 620) | Missing not at random cannot be excluded; MAR plausible (missing in less sick patients) |
+| Q5 ICU stay | Adjusted ratio of geometric means 1.24 (95% CI 1.10 to 1.39), survivors (n = 366 adjusted) | Survivors only — conditioning on survival; skewed outcome |
+
+## Part C — Getting published
+
+### C1. Spot the predatory journal
+
+**1. Red flags in the invitation (at least 8):**
+1. Generic flattering greeting ("Respected Professor/Doctor"), unsolicited mass e-mail.
+2. Free e-mail address, not a publisher domain.
+3. Vague claim to have read "your excellent article" (no title).
+4. Absurdly broad scope (medicine, nursing, engineering, management; "all areas of science").
+5. A fake metric ("International Universal Index" impact factor — only Clarivate issues the Journal Impact Factor).
+6. Guaranteed review in 48 h and publication in 5 days.
+7. Fees hidden until after acceptance.
+8. Pressure tactics ("this week only"), multiple exclamation marks, unusual grammar.
+9. Submission by replying to an e-mail instead of an editorial system.
+
+**2. Journal profiles:**
+| Journal | Verdict | Reason |
+|---|---|---|
+| J1 | **Trust** | Indexing verified at source, transparent fees and timelines, verifiable editors, uses reporting checklists. |
+| J2 | **Avoid** | Google Scholar / Index Copernicus are not quality indexes; 72-h acceptance; hidden fees; unverifiable board. |
+| J3 | **Trust / check further** | DOAJ listing and clear policies are good signs; no impact factor is normal for a new or small journal. Check it publishes work like yours. |
+| J4 | **Avoid** | A "hijacked" or look-alike journal. Always reach the real journal through its publisher's website or the NLM Catalog, not through an e-mail link. |
+
+
+* * *
+
+### C2. Responding to reviewers (model rows)
+
+| # | Model response | Change |
+|---|---|---|
+| R1.1 | "Thank you. We agree that our design supports association, not causation. We have changed the title to '… and …: a cohort study' and replaced 'improves' with 'was associated with' throughout." | Title p.1; abstract; Discussion p.x |
+| R1.2 | "Thank you. The main result is now reported as RR 0.78 (95% CI 0.61 to 0.99) in the abstract, Results and Table 2." | Abstract; Results p.x |
+| R1.3 | "Thank you for spotting this. 212 patients were included and 4 were excluded from the adjusted model because of missing lactate; the flow diagram and text now show 212 → 208 with reasons." | Fig. 1; Results p.x |
+| R2.1 | (polite rebuttal) "We agree 1-year mortality is important. Our protocol, approved by the ethics committee, followed patients to day 28 only, so these data were not collected. We now mention this as a limitation and suggest it for future studies." | Limitations p.x |
+
+Marking points: every comment answered; thanks without grovelling; concrete location of every change; no new data invented; disagreement supported by a reason (protocol, ethics approval).

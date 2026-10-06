@@ -1,0 +1,53 @@
+---
+title: "Course dataset: FLUID-ICU"
+---
+
+::: {.simulated}
+**Simulated data — not real patients.** FLUID-ICU is an invented study: every value was produced by a computer program with a fixed random seed. It does not describe any real patient, hospital or ICU. Any manuscript written from it must say that the data are simulated and must never be submitted as real research.
+:::
+
+FLUID-ICU is a simulated multicentre prospective cohort of **620 adults with sepsis** admitted to 4 ICUs ("ICU A" to "ICU D") from January 2023 to December 2024. It carries the course's running example into Sessions 5–8: *is a positive cumulative fluid balance by day 3 associated with higher 28-day mortality?* The data were built so that the classic lessons show up in the results: **confounding by indication** (sicker patients receive more fluid and die more often, so the crude odds ratio is clearly larger than the adjusted one), **missing data** (lactate missing in about 15%), a **skewed outcome** (ICU length of stay) and an **interaction** worth discussing (heart failure). A raw version with realistic data-quality errors is used in the Session 5 cleaning demo.
+
+Each of the five groups answers a different question on the same data and writes it up as its draft manuscript, using its **results pack** (Table 1, figures, regression tables and plain-language notes).
+
+## The five group questions
+
+| | Question | Main method | Results pack |
+|:-:|:------------------------------|:------------------------|:------------------|
+| 1 | Positive fluid balance by day 3 and 28-day mortality (primary) | Logistic regression (crude vs adjusted), Kaplan–Meier, Cox, interaction with heart failure | [Read online](results-q1.qmd) · [Word](files/data/results_packs/Results_Pack_Q1.docx) · [PDF](files/data/results_packs/Results_Pack_Q1.pdf) · [zip](files/data/results_packs/Results_Pack_Q1.zip) |
+| 2 | Cumulative fluid balance and acute kidney injury | Logistic regression, balance per 10 ml/kg | [Read online](results-q2.qmd) · [Word](files/data/results_packs/Results_Pack_Q2.docx) · [PDF](files/data/results_packs/Results_Pack_Q2.pdf) · [zip](files/data/results_packs/Results_Pack_Q2.zip) |
+| 3 | Cumulative fluid balance and ventilator-free days | Mann–Whitney; linear regression | [Read online](results-q3.qmd) · [Word](files/data/results_packs/Results_Pack_Q3.docx) · [PDF](files/data/results_packs/Results_Pack_Q3.pdf) · [zip](files/data/results_packs/Results_Pack_Q3.zip) |
+| 4 | Admission lactate and 28-day mortality; the effect of missing lactate | Complete case vs multiple imputation (mice, m = 20) | [Read online](results-q4.qmd) · [Word](files/data/results_packs/Results_Pack_Q4.docx) · [PDF](files/data/results_packs/Results_Pack_Q4.pdf) · [zip](files/data/results_packs/Results_Pack_Q4.zip) |
+| 5 | Fluid balance and ICU length of stay in survivors | Median (IQR); Mann–Whitney; linear regression on the log scale | [Read online](results-q5.qmd) · [Word](files/data/results_packs/Results_Pack_Q5.docx) · [PDF](files/data/results_packs/Results_Pack_Q5.pdf) · [zip](files/data/results_packs/Results_Pack_Q5.zip) |
+
+## Downloads
+
+| | |
+|:--|:--|
+| Raw data (as the 4 ICUs sent it: 623 rows with errors) | [CSV](files/data/fluid_icu_raw.csv) · [Excel](files/data/fluid_icu_raw.xlsx) |
+| Clean data (620 patients, 32 variables) | [CSV](files/data/fluid_icu_clean.csv) · [R (.rds, keeps factor levels)](files/data/fluid_icu_clean.rds) |
+| Data dictionary | [CSV](files/data/data_dictionary.csv) · [PDF](files/data/Data_Dictionary.pdf) |
+| Statistical analysis plan | [PDF](files/data/SAP_FLUID-ICU.pdf) |
+| R project: scripts 00–06, data, dictionary, README | [zip](files/data/FLUID-ICU_R_project.zip) |
+| Read online | [Data dictionary](data-dictionary.qmd) · [Cleaning log](cleaning-log.qmd) · [Statistical analysis plan](sap.qmd) |
+
+## How the analyses are run
+
+**Participants never need to run anything:** in Sessions 5 and 6 the trainers run the R scripts live (block by block in RStudio) and you read the printed outputs and your group's results pack. The scripts are provided for participants who completed the free Neudata course *Clinical Data Analysis in R* and want to reproduce the analyses: unzip the R project, open `FLUID-ICU.Rproj` in RStudio (it sets the working folder) and run the scripts **in order**. Script `01_clean.R` ends by checking that its output equals the clean file value for value. Script `00_generate_fluid_icu.R` re-creates the simulated data (course team only; it overwrites the data files with the same values, because the seeds are fixed).
+
+```bash
+cd Course/Data      # or the folder where you unzipped FLUID-ICU_R_project.zip
+Rscript R/01_clean.R          # S5 demo: raw -> clean; checks the result equals the clean file
+Rscript R/02_describe.R       # S5 demo: Table 1 + histogram, boxplot, bar chart
+Rscript R/03_compare.R        # S6 demo: t-test, Mann-Whitney, chi-square
+Rscript R/04_models.R         # S6 demo: crude vs adjusted OR, forest plot, KM, Cox, interaction
+Rscript R/05_missing.R        # S6 demo: missing lactate, complete case vs multiple imputation
+Rscript R/06_results_packs.R  # (course team) rebuilds the results packs
+```
+
+R 4.3 or later with these packages:
+
+```r
+install.packages(c("tidyverse", "janitor", "writexl", "readxl", "gtsummary", "gt",
+                   "flextable", "officer", "broom", "survival", "survminer", "mice"))
+```

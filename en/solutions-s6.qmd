@@ -1,0 +1,176 @@
+---
+title: "Session 6 — Solutions"
+---
+
+📥 [PDF](files/sessions/s6_solutions.pdf) · [Session page](session6.qmd)
+
+**Foundations of Clinical Research** · instructor copy (do not distribute before the session)
+
+Exercise numbers follow `Practicals/s6_exercises.md`. All FLUID-ICU numbers come from `Course/Data/key_results.md` (simulated data).
+
+
+* * *
+
+## Exercise 1 — True or false
+
+| # | Answer | One-line explanation |
+|---|:-:|---|
+| 1 | **T** | That is the practical reading of a 95% CI: the range of values compatible with the data. |
+| 2 | **F** | Absence of evidence is not evidence of absence. The CI (−15.2 to 41.6 ml/kg) is wide: the pilot cannot tell. |
+| 3 | **F** | p is calculated *assuming* the null is true; it is the probability of data at least this extreme under the null, not the probability of the null. |
+| 4 | **T** | A 95% CI that includes the null value corresponds to p > 0.05 (two-sided), and vice versa. |
+| 5 | **T** | More patients → more precision → narrower CI. |
+| 6 | **F** | A tiny p can accompany a trivial effect in a large study. Judge size from the estimate and CI. |
+| 7 | **T** | This is the strict definition: the 95% refers to the method over repeated studies (the "dance of the CIs"). |
+| 8 | **T** | A small study has low power; a real effect can be missed (missed fire). |
+| 9 | **T** | Alpha = type I error rate = risk of a false alarm. |
+| 10 | **F** | p-values do not "trend". Report the estimate and CI and call it what it is: not statistically significant. |
+| 11 | **T** | With 20 independent tests and no real effect, the chance of at least one p < 0.05 is about 64% (the jelly-bean problem). |
+| 12 | **F** | Same patients measured twice: use a **paired** test (paired t-test, or Wilcoxon signed-rank if skewed). |
+
+
+* * *
+
+## Exercise 2 — Choose the test
+
+| # | Test | Why |
+|---|---|---|
+| a | **Independent (unpaired) t-test** | Numerical, roughly symmetric outcome, two independent groups. |
+| b | **Mann–Whitney U** | Numerical but skewed, small groups. (Same choice as Paper 1 for fluid balance.) |
+| c | **Chi-square test** | Binary outcome, two independent groups, large expected counts. |
+| d | **Fisher's exact test** | Binary outcome, very small counts (expected counts < 5). |
+| e | **Paired t-test** | Same patients measured twice; differences roughly symmetric. (Wilcoxon signed-rank if skewed.) |
+| f | **McNemar test** | Binary outcome measured twice in the same patients (paired categorical). |
+
+Facilitation: if someone suggests "chi-square" for (f), ask "are these two independent groups?" → no, same patients → paired → McNemar.
+
+
+* * *
+
+## Exercise 3 — Match r to the scatter plots
+
+| Plot | r | Why |
+|---|---|---|
+| A | **−0.58** | Points fall from left to right, moderate scatter |
+| B | **0.01** | Round cloud, no straight-line trend |
+| C | **0.86** | Tight rising band |
+| D | **0.30** | Weak rising trend, lots of scatter |
+
+(The plotted data were simulated with exactly these correlations.)
+
+Bonus: **no**, not on correlation alone. High r means the two methods rise and fall together, not that they give the same value. Look at **agreement**: a Bland–Altman plot (difference against average), the mean difference (bias) and the 95% limits of agreement, and decide whether those differences are clinically acceptable.
+
+
+* * *
+
+## Exercise 4 — [L2] Interpret your group's comparison
+
+Numbers from `Course/Data/key_results.md` (all unadjusted; simulated data).
+
+| Q | Test | Result | Model sentence |
+|---|---|---|---|
+| Q1 | Chi-square (binary outcome, two large groups) | 134/373 (35.9%) vs 45/245 (18.4%); RD 17.6 points (95% CI 10.7 to 24.4); RR 1.96; p < 0.001 | "Twenty-eight-day mortality was 35.9% with a positive and 18.4% with a negative balance (risk difference 17.6 percentage points, 95% CI 10.7 to 24.4)." |
+| Q2 | Chi-square | AKI 230/373 (61.7%) vs 71/245 (29.0%); p < 0.001; gradient 29%, 54%, 63%, 75% across balance groups | "AKI occurred in 61.7% of patients with a positive and 29.0% with a negative balance." |
+| Q3 | Mann–Whitney (count, piled at 0 and 28) | Median 20 (0 to 28) vs 28 (22 to 28) days; p < 0.001 | "Patients with a positive balance had fewer ventilator-free days (median 20 vs 28)." |
+| Q4 | Mann–Whitney (lactate skewed) | Median lactate 3.1 (2.2 to 4.5) in non-survivors vs 2.3 (1.6 to 3.4) mmol/L in survivors; mortality < 2: 19%, 2–4: 31%, > 4: 50% | "Non-survivors had higher admission lactate (median 3.1 vs 2.3 mmol/L)." |
+| Q5 | Mann–Whitney (skewed, survivors) | Median 7.5 (5.2 to 11.2) vs 4.8 (3.3 to 7.1) days; Hodges–Lehmann difference 2.5 days (95% CI 1.8 to 3.2); p < 0.001 | "Among survivors, ICU stay was longer with a positive balance (median 7.5 vs 4.8 days; difference 2.5 days, 95% CI 1.8 to 3.2)." Note: the t-test difference in means (2.7 days) is the wrong summary for this skewed outcome. |
+
+Reason for bias (all groups): confounding by indication — the positive-balance group was sicker at baseline (Table 1).
+
+
+* * *
+
+## Exercise 5 — Read a regression table
+
+The table is mock data; p-values are consistent with the CIs (computed from the log-scale standard error).
+
+1. **Binary outcome** (delirium yes/no) → logistic regression, which reports odds ratios.
+2. **1** (a ratio). An OR of 1 means equal odds.
+3. CI excludes 1 (✔) or includes 1 (✖):
+
+| Row | OR (95% CI) | Excludes 1? |
+|---|---|:-:|
+| Benzodiazepine | 2.10 (1.40–3.20) | ✔ |
+| Age per 10 y | 1.30 (1.12–1.51) | ✔ |
+| Mechanical ventilation | 1.60 (0.95–2.70) | ✖ |
+| Female sex | 0.85 (0.60–1.20) | ✖ |
+| Dementia | 3.40 (1.90–6.10) | ✔ |
+| Sleep protocol | 0.62 (0.41–0.94) | ✔ |
+
+4. Model sentence: *"After adjusting for age, sex, ventilation, dementia, sleep protocol and illness severity, patients who received a benzodiazepine infusion had about twice the odds of developing delirium (OR 2.10, 95% CI 1.40 to 3.20)."*
+5. The OR multiplies for each 10 years: 20 years older → 1.30 × 1.30 ≈ **1.69 times the odds** (all else equal).
+6. **Mechanical ventilation** and **female sex** (CIs include 1).
+7. Problems in the conclusion:
+   - **Causal language** ("cause", "reduces") from an observational cohort: should be "associated with". Confounding by indication is likely (sicker or more agitated patients receive benzodiazepines).
+   - **"Trend"** for p = 0.08: the CI (0.95–2.70) includes 1; it is not statistically significant. Report the estimate and CI.
+   - **"Reduces delirium by 38%"** confuses odds with risk (OR 0.62 is a 38% lower *odds*, not risk; delirium is common, so the risk reduction is smaller) and again implies causation. The sleep protocol was not randomised.
+
+
+* * *
+
+## Exercise 6 — Read a Kaplan–Meier curve (simulated trial; values computed from the plotted data)
+
+1. About **82%** alive in the restrictive group and about **67%** in the usual-care group at day 28 (read where each curve ends). Accept ±3%.
+2. Each tick is a **censored** patient: follow-up stopped (lost to follow-up, transferred, withdrew) without death being observed. They count as alive up to that day.
+3. **67** usual-care patients were at risk at day 21. The number falls because of **deaths and censoring**; in the restrictive group 16 died but 33 left the risk set (100 → 67 at day 28) because 17 were censored before day 28.
+4. The log-rank test gives evidence that the two survival curves differ (p = 0.009: results this different would be unusual if the strategies had the same survival). It does **not** give the size of the effect, its 95% CI, or any adjustment for confounders (and in a trial, it is not "proof" of causation without a good design).
+5. **Cox regression** gives the hazard ratio with a 95% CI. Check the **proportional-hazards** assumption: curves that cross or converge strongly suggest the HR is not constant over time.
+6. No: without numbers at risk the reader cannot see how many patients support each part of the curve; the right-hand end may rest on very few patients. Reporting guidelines and reviewers expect them.
+
+
+* * *
+
+## Exercise 7 — Why is it missing? MCAR, MAR or MNAR
+
+| # | Mechanism | Consequence for complete-case analysis |
+|---|---|---|
+| a | **MCAR** — an accident unrelated to the patients | Unbiased, just less precise (fewer patients) |
+| b | **MAR** — depends on admission time, which is recorded | Possibly biased if night admissions differ; multiple imputation using admission time can correct it |
+| c | **MNAR** — depends on the missing value itself (the worst pain) | Biased (pain looks better than it is); no guaranteed fix: sensitivity analysis |
+| d | **MNAR** (deteriorating patients are transferred); at best MAR if the reason for transfer is recorded | Biased (mortality underestimated); chase day-28 status by phone/records; sensitivity analysis |
+| e | **MCAR** (missing by design for one month, unrelated to patients) — unless patients in the first month differed | Usually unbiased; check whether early patients differed |
+| f | **MAR** — depends on age, recorded for all | Biased towards younger patients' quality of life; multiple imputation including age |
+
+Bonus (d): report the main result plus a **best-case** (all transferred patients alive) and **worst-case** (all died) analysis, or vary the assumed mortality among transferred patients; if the conclusion holds under all scenarios, it is robust.
+
+
+* * *
+
+## Exercise 8 — [L2] Interpret your group's model
+
+Numbers from `Course/Data/key_results.md` (simulated data).
+
+| Q | Crude | Adjusted (complete case, n = 527 unless stated) | Missing-data sensitivity |
+|---|---|---|---|
+| Q1 | OR 2.49 (1.70 to 3.70), n = 618; same 527 patients 2.22 (1.48 to 3.39) | OR 1.62 (1.02 to 2.59), p = 0.044; Cox HR crude 2.17 (1.55 to 3.05) → adjusted 1.46 (1.00 to 2.13), p = 0.053; PH test p = 0.10 | MI (m = 20, n = 620): OR 1.70 (1.09 to 2.64), p = 0.020 |
+| Q2 | OR per 10 ml/kg 1.37 (1.27 to 1.47) | 1.27 (1.16 to 1.40), p < 0.001 | — |
+| Q3 | −1.48 (−1.84 to −1.13) days per 10 ml/kg | −0.61 (−1.00 to −0.21) days, p = 0.003 | — |
+| Q4 | OR per 1 mmol/L: CC 1.38 (1.23 to 1.55) vs MI 1.44 (1.28 to 1.61) | Adjusted (age, sex, diabetes, CKD, HF): CC 1.39 (1.24 to 1.57), n = 527 vs MI 1.45 (1.29 to 1.64), n = 620; + SOFA: CC 1.21 (1.05 to 1.39) vs MI 1.23 (1.07 to 1.42) | Lactate missing 93/620 (15.0%), mostly less sick patients (SOFA 5 vs 8; mortality 19.4% vs 30.6%): not MCAR, MAR plausible |
+| Q5 | Ratio of geometric means 1.50 (1.34 to 1.68) | 1.24 (1.10 to 1.39), p < 0.001 (n = 366 survivors with complete data) | — |
+
+1. Q1 confounders (pre-specified in the SAP): age, SOFA, lactate, vasopressor, mechanical ventilation, CKD. AKI and dialysis were deliberately NOT adjusted for (they occur after day 3 — outcomes or mediators).
+2. In every question the adjusted estimate is closer to "no effect" than the crude one: part of the crude association was severity (confounding by indication).
+3. All adjusted CIs above exclude the null, but Q1's lower limit is close to 1 (1.02; Cox 1.00): a modest, imprecise association.
+4. Complete case 527 of 620; the left-out patients were mostly those without lactate, who were less sick.
+5. MI changed the estimates only slightly (Q1 1.62 → 1.70; Q4 1.39 → 1.45): the conclusions are robust to how missing lactate was handled.
+6. (Q1) Day-28 survival 81.6% (negative) vs 64.1% (positive); log-rank p < 0.001 (unadjusted). Adjusted OR 1.62 (p = 0.044) and HR 1.46 (p = 0.053) are in the same direction and of similar size with overlapping CIs; whether p falls just below or above 0.05 does not change the interpretation.
+
+Model sentences (Q1): "Positive fluid balance was associated with higher 28-day mortality (crude OR 2.49, 95% CI 1.70 to 3.70). After adjustment for age, SOFA, lactate, vasopressor use, mechanical ventilation and chronic kidney disease, the association was smaller (adjusted OR 1.62, 95% CI 1.02 to 2.59)."
+
+
+* * *
+
+## Exercise 9 — Proposal builder 6 (what a good answer looks like)
+
+**Sample size (running example):** 40% vs 30% mortality, alpha 5% two-sided, power 80% → 356 per group (spreadsheet sheet 2); /(1 − 0.10) → 396 per group, 792 in total.
+
+**Analysis plan:** describe with mean (SD) / median (IQR) / n (%); compare 28-day mortality with a chi-square test; report RR and risk difference with 95% CIs. Observational designs: adjusted OR (logistic) or HR (Cox) with confounders chosen in advance, about 1 model term per 10 events.
+
+**Missing-data plan (good enough):** names the variables likely to be missing and why; prevention; main handling (complete case if little missing and plausibly MCAR, otherwise multiple imputation); one sensitivity analysis (e.g. complete case vs MI, or best/worst case for a missing outcome); reporting (n missing per variable, flow diagram). FLUID-ICU's SAP section 10 is a model.
+
+| Element | Good enough | Needs work |
+|---|---|---|
+| Sample size | 4 inputs with a stated source | "All patients in one year" |
+| Analysis plan | Summary + test/model + effect measure with 95% CI | "Data will be analysed with SPSS" |
+| Confounders | Named, justified, within events-per-variable | Stepwise selection; mediators adjusted |
+| Missing data | Expected gaps + prevention + handling + sensitivity | Nothing, or "missing data will be excluded" |

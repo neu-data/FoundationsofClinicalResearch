@@ -1,0 +1,50 @@
+# Neudata · publish the bilingual course website to GitHub Pages
+# Settings -> Pages -> Build and deployment -> Source: GitHub Actions
+# The pages are static (no R or Python code is executed), so only Quarto is needed.
+name: Publish course website
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: quarto-dev/quarto-actions/setup@v2
+      - name: Render English site
+        run: quarto render en
+      - name: Render Vietnamese site
+        run: quarto render vi
+      - name: Assemble
+        run: |
+          mkdir -p public
+          cp _shared/index.html public/
+          cp -r en/_site public/en
+          cp -r vi/_site public/vi
+          cp en/_site/404.html public/404.html
+          touch public/.nojekyll
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

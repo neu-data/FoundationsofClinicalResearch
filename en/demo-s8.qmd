@@ -1,0 +1,75 @@
+---
+title: "Session 8 — Live-demo script"
+---
+
+📥 [PDF](files/sessions/s8_demo.pdf) · [Session page](session8.qmd)
+
+**When:** Session 8, section 8.2 (Getting published), 1:24–1:27 (3 minutes), after the predatory-journal slide · **Who:** instructor at the projector · **Participants:** watch only (no software)
+
+**Goal:** participants see (1) where the free reporting checklists live and (2) three quick checks that tell a real journal from a predatory one. They leave knowing the three web addresses.
+
+
+* * *
+
+## Before the session (10 minutes, the day before)
+
+1. Open these pages in separate browser tabs and check they load on the venue network:
+   - EQUATOR Network: `https://www.equator-network.org`
+   - DOAJ (Directory of Open Access Journals): `https://doaj.org`
+   - NLM Catalog: `https://www.ncbi.nlm.nih.gov/nlmcatalog`
+   - Think.Check.Submit: `https://thinkchecksubmit.org`
+2. Choose **one real journal** relevant to the room (a critical-care or nursing journal your unit reads) to use for the check. Avoid naming or demonstrating a journal you believe is predatory — use the invented e-mail on the slide for that.
+3. Prepare the **offline fallback** (below): take 5 screenshots and put them in a folder, or print the CONSORT 2025 and STROBE checklists.
+4. Zoom the browser to 150% so the back row can read it.
+
+
+* * *
+
+## Script (3 minutes)
+
+| Time | Click / show | Say |
+|---|---|---|
+| 0:00 | **EQUATOR home page.** Point to the search box and the "Reporting guidelines for main study types" panel. | "Every design has a reporting checklist, and they are all here, free." |
+| 0:30 | Type **CONSORT** → open the CONSORT page (CONSORT 2025). Scroll to the checklist and the **flow diagram**. | "Paper 1 is a randomised trial, so CONSORT. Here is the flow diagram — Paper 1 has one on page 5: 1201 screened, 50 randomised." |
+| 1:00 | Back → search **STROBE** → open the checklist (cohort / case-control / cross-sectional versions). | "Paper 2 is a cohort, so STROBE — and so is your FLUID-ICU manuscript: the items you ticked yesterday (4–17) are on this checklist. Neither paper actually names its guideline — reviewers would ask for it." |
+| 1:20 | **DOAJ** → search the chosen journal title. Show the journal record (licence, fees, peer review). | "For open-access journals, DOAJ lists those that meet basic standards. Not being listed is a reason to check further." |
+| 1:50 | **NLM Catalog** → search the journal title, then add `AND currentlyindexed[All]` (or use the "Journals currently indexed in MEDLINE" filter). | "If a journal says it is in MEDLINE, check here — predatory journals often claim indexing they do not have." |
+| 2:30 | **Think.Check.Submit** → open the checklist. | "Before you submit anywhere: do you know the journal, can you contact the publisher, is the peer review clear, are the fees clear? Three minutes that can save your paper." |
+| 2:50 | Back to the slides. | "Check the journal and guideline in your publication plan (Proposal builder 7) - and note that your FLUID-ICU draft follows STROBE (cohort)." Then continue with the submission-package slide. |
+
+**Optional extra (only if ahead of time):** open orcid.org and show that registering an ORCID iD takes two minutes - it is needed on the title page (next slide).
+
+**Do not:** go into individual checklist items, compare impact factors, or demonstrate submission systems — that is Level 2.
+
+
+* * *
+
+## Expected screens (what participants should see)
+
+1. EQUATOR home page with a large search box and links to the main guidelines (CONSORT, STROBE, PRISMA, STARD, SPIRIT, CARE …).
+2. CONSORT page: the statement, a downloadable checklist (Word/PDF) and the participant flow diagram.
+3. STROBE page: checklists for cohort, case-control and cross-sectional studies.
+4. DOAJ journal record: title, publisher, licence (e.g. CC BY), article-processing charge, peer-review type.
+5. NLM Catalog record: the journal's title, ISSN and "Current Indexing Status: Currently indexed for MEDLINE" (or not).
+
+(Website layouts change; if a page looks different, use its search box — the content is the same.)
+
+
+* * *
+
+## Offline fallback (no internet / projector failure)
+
+1. Show the 5 screenshots prepared above, in the same order, using the same script.
+2. If you have no screenshots: hold up the printed **CONSORT 2025 checklist and flow diagram** and point to Paper 1's flow chart (page 5) — "this is the picture CONSORT asks for".
+3. Write the three addresses on the flip chart: **equator-network.org · doaj.org · thinkchecksubmit.org** (plus "NLM Catalog" for MEDLINE).
+4. Do the Part B "spot the predatory journal" e-mail from the handout aloud instead (1 minute).
+
+
+* * *
+
+## Common questions
+
+- **"Is Google Scholar an index?"** No — it is a search engine that lists almost anything, including predatory journals. Check MEDLINE (NLM Catalog), DOAJ, Scopus or Web of Science.
+- **"Is a journal without an impact factor bad?"** Not necessarily — new or small society journals often have none. Fake "impact factors" from unknown agencies are a red flag.
+- **"Do I have to fill in the checklist?"** Many journals require it at submission, with page numbers. Use it while writing, not only at the end.
+- **"What about the protocol?"** Trial protocols follow SPIRIT (SPIRIT 2025); observational protocols follow the same logic.

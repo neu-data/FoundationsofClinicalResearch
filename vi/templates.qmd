@@ -1,0 +1,20 @@
+---
+title: "Biểu mẫu"
+---
+
+Các mẫu Word cho mọi bước từ câu hỏi đến công bố, theo phong cách Neudata. Các mẫu dùng chung: thay `[Institution]`, `[Ethics committee name]` và các `[chỗ điền màu xám]` khác bằng thông tin của bạn. Mỗi tệp Word có bản PDF tương ứng để in. Các mẫu hiện bằng tiếng Anh.
+
+| Tệp | Mục đích | Dùng ở | Tải về |
+|:--------------|:--------------------------------------------|:--------------|:----------|
+| **Mẫu đề cương nghiên cứu** | Đề cương của nhóm và kế hoạch công bố, gồm 4 phần tương ứng với các cuối tuần; mỗi mục có hướng dẫn, ví dụ và chỗ điền. Khoảng 6–8 trang khi hoàn thành. | Part 1 S1–S2 · Part 2 S3–S4 · Part 3 S5–S6 · Part 4 S7 · presented in S8 | [Word](files/templates/Research_Proposal_Template.docx) · [PDF](files/templates/Research_Proposal_Template.pdf) |
+| **Phiếu tổng quan tài liệu** | Chuyển PICO thành bảng từ khóa (từ đồng nghĩa, MeSH, Boolean); nhật ký tìm kiếm, ma trận bằng chứng có hai dòng mẫu từ hai bài báo của khóa học, tóm tắt "đã biết / còn thiếu" và 5 tài liệu chính. | S2 (2.1 Finding the evidence, 2.4 literature matrix; proposal Part 1) | [Word](files/templates/Literature_Review_Worksheet.docx) · [PDF](files/templates/Literature_Review_Worksheet.pdf) |
+| **Mẫu phiếu thu thập dữ liệu (CRF) + từ điển dữ liệu** | Phiếu thu thập dữ liệu theo nguyên tắc thiết kế CRF tốt, với các mục ví dụ của tình huống xuyên suốt, kèm từ điển dữ liệu. | S5 (5.1 Good data by design; proposal Part 3) | [Word](files/templates/CRF_Template.docx) · [PDF](files/templates/CRF_Template.pdf) |
+| **Mẫu kế hoạch phân tích thống kê (SAP)** | SAP viết trước khi khóa dữ liệu, gồm 14 mục; có SAP mẫu hoàn chỉnh cho bộ dữ liệu FLUID-ICU. | S6 (6.4; proposal Part 3) | [Word](files/templates/Statistical_Analysis_Plan_Template.docx) · [PDF](files/templates/Statistical_Analysis_Plan_Template.pdf) |
+| **Mẫu đề cương chi tiết (protocol)** | Đề cương chi tiết theo SPIRIT cho nghiên cứu quan sát hoặc thử nghiệm đơn giản. | S7 (7.1 Protocol, ethics and consent); take-home | [Word](files/templates/Study_Protocol_Template.docx) · [PDF](files/templates/Study_Protocol_Template.pdf) |
+| **Mẫu thông tin và chấp thuận tham gia** | Phiếu thông tin cho người tham gia bằng ngôn ngữ dễ hiểu và phiếu chấp thuận, kể cả chấp thuận tại ICU/cấp cứu và chấp thuận trì hoãn. | S7 (7.1); take-home | [Word](files/templates/Informed_Consent_Template.docx) · [PDF](files/templates/Informed_Consent_Template.pdf) |
+| **Mẫu bản thảo bài báo (IMRaD)** | Bài báo nghiên cứu gốc: trang tiêu đề, tóm tắt có cấu trúc, Đặt vấn đề, Phương pháp, Kết quả, Bàn luận (sáu bước), Kết luận, các tuyên bố, khung bảng/biểu đồ và nhắc nhở về hướng dẫn báo cáo. | S7 (7.3, Methods + Results) and S8 (8.1, rest of the draft) | [Word](files/templates/Manuscript_Template_IMRaD.docx) · [PDF](files/templates/Manuscript_Template_IMRaD.pdf) |
+| **Mẫu thư gửi tạp chí** | Thư gửi tạp chí một trang: câu hỏi, kết quả chính, lý do chọn tạp chí và các tuyên bố chuẩn. | S8 (8.2 Getting published) | [Word](files/templates/Cover_Letter_Template.docx) · [PDF](files/templates/Cover_Letter_Template.pdf) |
+| **Mẫu thư trả lời phản biện** | Hướng dẫn giọng văn, thư gửi biên tập viên, ví dụ trả lời và bảng trả lời từng ý kiến. | S8 (8.2); peer-review swap after S8 | [Word](files/templates/Response_to_Reviewers_Template.docx) · [PDF](files/templates/Response_to_Reviewers_Template.pdf) |
+| **Mẫu tóm tắt hội nghị và poster** | Tóm tắt có cấu trúc 250–300 từ kèm ví dụ; trang 2 hướng dẫn bố cục poster. | S8 (8.2) | [Word](files/templates/Conference_Abstract_Template.docx) · [PDF](files/templates/Conference_Abstract_Template.pdf) |
+
+**Mẹo.** Dùng **Ctrl + H → Find `[`** để đi qua từng chỗ điền. Để xóa toàn bộ phần hướng dẫn màu xám: **Home → Styles**, nhấp chuột phải vào **Guidance** (hoặc **Example**), **Select All**, **Delete**. Với phiếu chấp thuận, thư gửi tạp chí hoặc bản thảo, thay phần đầu trang Neudata bằng tiêu đề của cơ sở hoặc định dạng của tạp chí.

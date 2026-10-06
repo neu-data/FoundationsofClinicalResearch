@@ -1,0 +1,67 @@
+---
+title: "Session 2 · Find & read: the evidence"
+subtitle: "Weekend 1 · Sunday · 3 hours (15-minute break)"
+---
+
+## Agenda
+
+- Recap quiz on Session 1
+- 2.1  Finding the evidence: PICO to search, Boolean, MeSH, live PubMed demo
+- 2.2  Managing and citing: Zotero demo, citation styles, paraphrasing, grey literature
+- Break
+- 2.3  Reading a paper in 15 minutes - and 2.4 from literature to introduction
+- Proposal builder 2: search string, 5 references, problem statement, working title
+
+## Timetable
+
+| Start | Clock* | Min | Segment |
+|:----|:----|---:|:------------------------------------------------------------|
+| 0:00 | 08:00 | 10 | Recap quiz |
+| 0:10 | 08:10 | 40 | **2.1 Finding the evidence:** search funnel, PICO → search blocks, Boolean, MeSH, search tools, PubMed vs Google Scholar, **live PubMed demo** |
+| 0:50 | 08:50 | 20 | **2.2 Managing and citing:** reference managers (**Zotero demo**), citation styles, paraphrasing safely, grey literature & trial registries |
+| 1:10 | 09:10 | 15 | BREAK |
+| 1:25 | 09:25 | 40 | **2.3 Reading a paper in 15 minutes:** IMRaD, reading order, what an abstract must contain, spin; individual task on Paper 1's abstract |
+| 2:05 | 10:05 | 15 | **2.4 From literature to introduction:** literature matrix, problem-statement funnel, working title & keywords |
+| 2:20 | 10:20 | 35 | **Proposal builder 2:** search string, 5 references in the matrix, problem statement, working title |
+| 2:55 | 10:55 | 5 | Wrap-up |
+
+\*Times are relative to the start of the session; the clock column shows an example 08:00–11:00 session. **[L2]** = Level 2 (course dataset).
+
+## Slides
+
+```{=html}
+<div class="slides-embed"><iframe src="slides-s2.html" title="Session 2 · Find &amp; read: the evidence" loading="lazy" allowfullscreen></iframe></div>
+```
+
+[Open the slides full screen](slides-s2.qmd){.btn .btn-primary role="button"} — Press **F** for full screen, **S** for speaker notes, **E** to print, **Esc** for an overview.
+
+## Downloads
+
+| | |
+|:--|:--|
+| 🎞️ **Slides (PowerPoint)** | [English](files/slides/Session_2_EN.pptx) · [Tiếng Việt](../vi/files/slides/Session_2_VN.pptx) |
+| 📝 **Exercise sheet** | [Read online](exercises-s2.qmd) · [PDF](files/sessions/s2_exercises.pdf) |
+| ✅ **Solutions** | [Read online](solutions-s2.qmd) · [PDF](files/sessions/s2_solutions.pdf) |
+| 💻 **Live-demo script** | [Read online](demo-s2.qmd) · [PDF](files/sessions/s2_demo.pdf) |
+
+## Before this session
+
+- Your group's PICO question and your synonym list (Session 1 homework).
+- One laptop or phone per group for the PubMed search; Zotero installed if you can.
+
+## After this session (homework)
+
+- **Group:** finish the five key references and the problem statement — Proposal Part 1 complete, with working title and keywords.
+- **Each member:** read one paper with the 15-minute routine and fill its row in the literature matrix.
+- **Everyone:** read the abstract of [Paper 2](papers.qmd) (Hyun 2023) with the Exercise 3 grid.
+- **Optional:** look up Paper 1's registration (NCT04947904) on ClinicalTrials.gov.
+
+## Related materials
+
+- [The two papers (Paper 1 abstract task)](papers.qmd)
+- [Literature review worksheet (Templates)](templates.qmd)
+- [Further reading](further-reading.qmd)
+
+---
+
+[← Previous session](session1.qmd) · [Schedule](schedule.qmd) · [Next session →](session3.qmd)

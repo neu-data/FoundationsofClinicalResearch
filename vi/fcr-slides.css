@@ -1,0 +1,78 @@
+/* Foundations of Clinical Research - extra slide layouts for the Neudata revealjs format.
+   Mirrors the PowerPoint slide types: cards, steps, activity, statement, image2, takeaway. */
+.reveal .neu-intro { color: #595959; font-style: italic; font-size: 0.8em; margin: 0 0 0.5em; }
+.reveal .neu-caption { color: #595959; font-style: italic; font-size: 0.55em; text-align: center; margin-top: 0.2em; }
+.reveal .neu-fig-wrap { text-align: center; }
+.reveal img.neu-fig { max-height: 560px; max-width: 100%; width: auto; margin: 0 auto; display: block; }
+.reveal img.neu-fig-half { max-height: 470px; max-width: 100%; width: auto; margin: 0 auto; display: block; }
+.reveal img.neu-fig-side { max-height: 600px; max-width: 100%; width: auto; margin: 0 auto; display: block; }
+.reveal .neu-side-notes { font-size: 0.8em; }
+.reveal .neu-side-notes h3 { font-size: 1.15em; }
+
+/* key message band */
+.reveal .neu-takeaway {
+  background: #0D7377; color: #fff; border-radius: 12px; padding: 0.35em 0.8em;
+  font-size: 0.76em; margin-top: 0.6em;
+}
+.reveal .neu-takeaway p { margin: 0; }
+.reveal .neu-takeaway strong { letter-spacing: 0.06em; margin-right: 0.6em; font-size: 0.85em; }
+
+/* statement */
+.reveal .neu-statement { text-align: center; margin-top: 2.2em; }
+.reveal .neu-statement .neu-big { color: #0D7377; font-size: 1.5em; font-weight: 700; line-height: 1.25; }
+.reveal .neu-statement .neu-sub { color: #595959; font-style: italic; font-size: 0.8em; margin-top: 1em; }
+
+/* cards */
+.reveal .neu-cards { display: grid; gap: 0.6em; grid-template-columns: repeat(var(--n, 3), 1fr); margin-top: 0.3em; }
+.reveal .neu-card {
+  border: 2px solid var(--c, #0D7377); border-radius: 12px; overflow: hidden; font-size: 0.78em;
+  background: #fff;
+}
+.reveal .neu-card > p:first-child { margin: 0; }
+.reveal .neu-card .neu-card-title {
+  display: block; background: var(--c, #0D7377); color: #fff; font-weight: 700; text-align: center;
+  padding: 0.45em 0.5em; font-size: 1.12em;
+}
+.reveal .neu-card ul { margin: 0.6em 0.8em 0.6em 1.6em; }
+.reveal .neu-card.plain ul { list-style: none; margin-left: 0.8em; padding-left: 0; }
+.reveal .neu-card li { margin-bottom: 0.35em; }
+
+/* steps */
+.reveal .neu-steps { display: flex; gap: 0.5em; align-items: stretch; margin-top: 0.4em; }
+.reveal .neu-step {
+  flex: 1 1 0; border-top: 10px solid var(--c, #0D7377); background: #EAF2F5; border-radius: 10px;
+  padding: 0.5em 0.6em; font-size: 0.74em; position: relative;
+}
+.reveal .neu-step p { margin: 0 0 0.35em; }
+.reveal .neu-step .neu-step-num {
+  display: inline-block; background: var(--c, #0D7377); color: #fff; border-radius: 50%;
+  width: 1.7em; height: 1.7em; line-height: 1.7em; text-align: center; font-weight: 700; margin-right: 0.35em;
+}
+.reveal .neu-step .neu-step-label { color: var(--c, #0D7377); font-weight: 700; font-size: 1.1em; }
+.reveal .neu-step ul { margin: 0.3em 0 0 1.1em; }
+
+/* activity */
+.reveal .neu-banner {
+  background: var(--c, #0D7377); color: #fff; font-weight: 700; border-radius: 10px;
+  padding: 0.3em 0.8em; font-size: 0.7em; letter-spacing: 0.04em; margin-bottom: 0.5em;
+}
+.reveal .neu-banner p { margin: 0; }
+.reveal .neu-activity-steps { font-size: 0.86em; }
+.reveal .neu-activity-steps ol li::marker { color: var(--c, #0D7377); }
+.reveal .neu-side {
+  background: #EAF2F5; border-left: 8px solid var(--c, #0D7377); border-radius: 0 10px 10px 0;
+  padding: 0.5em 0.8em; font-size: 0.76em;
+}
+.reveal .neu-side p:first-child { color: var(--c, #0D7377); font-weight: 700; margin-top: 0; }
+.reveal .neu-side.plain ul { list-style: none; padding-left: 0; margin-left: 0; }
+.reveal .neu-output {
+  border: 2px dashed var(--c, #0D7377); border-radius: 10px; padding: 0.3em 0.8em;
+  font-size: 0.74em; margin-top: 0.6em;
+}
+.reveal .neu-output p { margin: 0; }
+.reveal .neu-output strong { color: var(--c, #0D7377); letter-spacing: 0.05em; margin-right: 0.6em; }
+
+/* tables */
+.reveal table { font-size: 0.72em; }
+.reveal table th { background: #04242F; color: #fff; }
+.reveal .neu-table-caption { color: #595959; font-style: italic; font-size: 0.55em; }

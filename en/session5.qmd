@@ -1,0 +1,66 @@
+---
+title: "Session 5 · Data: collect it well, describe it honestly"
+subtitle: "Weekend 3 · Saturday · 3 hours (15-minute break)"
+---
+
+## Agenda
+
+- Recap quiz on Sessions 3-4 (10 min)
+- 5.1 Good data by design: variables, CRF, data dictionary, checks, data management
+- 5.2 Meet the course dataset FLUID-ICU (live R cleaning demo)
+- 5.3 Describing and showing data: summaries, figures, tables
+- 5.4 Describe the course dataset: Table 1 and figures
+- Proposal builder 5: variables, mini-CRF, data dictionary, data management
+
+## Timetable
+
+| Start | Clock* | Min | Segment |
+|:----|:----|---:|:------------------------------------------------------------|
+| 0:00 | 08:00 | 10 | Recap quiz |
+| 0:10 | 08:10 | 35 | **5.1 Good data by design:** variable types, CRF principles, data dictionary, validation, data management (EDC, double entry, audit trail, backups), preventing missing data |
+| 0:45 | 08:45 | 25 | **5.2 [L2] Meet the course dataset:** the FLUID-ICU study, its data dictionary, raw vs clean data, the data-quality problems found, **live R demo of cleaning** and the cleaning log; group questions assigned |
+| 1:10 | 09:10 | 15 | BREAK |
+| 1:25 | 09:25 | 35 | **5.3 Describing and showing data:** mean/median, SD/IQR, shapes, which graph for which data, good vs bad figures, publication-quality tables, Table 1 |
+| 2:00 | 10:00 | 25 | **5.4 [L2] Describe the course dataset:** live demo of Table 1 and figures; each group reads its results pack's Table 1 and figures (worksheet) |
+| 2:25 | 10:25 | 30 | **Proposal builder 5:** variables table, mini-CRF, data dictionary rows, data-management plan |
+| 2:55 | 10:55 | 5 | Wrap-up |
+
+\*Times are relative to the start of the session; the clock column shows an example 08:00–11:00 session. **[L2]** = Level 2 (course dataset).
+
+## Slides
+
+```{=html}
+<div class="slides-embed"><iframe src="slides-s5.html" title="Session 5 · Data: collect it well, describe it honestly" loading="lazy" allowfullscreen></iframe></div>
+```
+
+[Open the slides full screen](slides-s5.qmd){.btn .btn-primary role="button"} — Press **F** for full screen, **S** for speaker notes, **E** to print, **Esc** for an overview.
+
+## Downloads
+
+| | |
+|:--|:--|
+| 🎞️ **Slides (PowerPoint)** | [English](files/slides/Session_5_EN.pptx) · [Tiếng Việt](../vi/files/slides/Session_5_VN.pptx) |
+| 📝 **Exercise sheet** | [Read online](exercises-s5.qmd) · [PDF](files/sessions/s5_exercises.pdf) |
+| ✅ **Solutions** | [Read online](solutions-s5.qmd) · [PDF](files/sessions/s5_solutions.pdf) |
+| 💻 **Live-demo script** | [Read online](demo-s5.qmd) · [PDF](files/sessions/s5_demo.pdf) |
+
+## Before this session
+
+- Proposal Part 2 finished.
+- Have a first look at the [course dataset](dataset.qmd) page: what FLUID-ICU is and its data dictionary.
+
+## After this session (homework)
+
+- Read your group's results pack (Table 1 and figures) — see [Course dataset](dataset.qmd).
+- Exercises 3–5 on the Session 5 sheet (choose the right summary, judge a bad figure, spot the problems in the raw FLUID-ICU data).
+
+## Related materials
+
+- [The FLUID-ICU course dataset](dataset.qmd)
+- [Data dictionary](data-dictionary.qmd)
+- [Cleaning log](cleaning-log.qmd)
+- [CRF + data dictionary template](templates.qmd)
+
+---
+
+[← Previous session](session4.qmd) · [Schedule](schedule.qmd) · [Next session →](session6.qmd)

@@ -1,0 +1,135 @@
+project:
+  type: website
+  output-dir: _site
+
+lang: vi
+language:
+  toc-title-document: "Trong trang này"
+  toc-title-website: "Trong trang này"
+  search-text-placeholder: "Tìm kiếm"
+  search-no-results-text: "Không có kết quả"
+  search-more-match-text: "kết quả khác trong tài liệu này"
+  search-more-matches-text: "kết quả khác trong tài liệu này"
+  search-clear-button-title: "Xóa"
+  search-detached-cancel-button-title: "Hủy"
+  search-submit-button-title: "Tìm"
+  callout-tip-title: "Mẹo"
+  callout-note-title: "Ghi chú"
+  callout-warning-title: "Cảnh báo"
+  callout-important-title: "Quan trọng"
+  code-tools-show-all-code: "Hiện toàn bộ mã"
+  copy-button-tooltip: "Sao chép"
+  copy-button-tooltip-success: "Đã sao chép!"
+
+
+website:
+  title: "Nền tảng Nghiên cứu Lâm sàng"
+  site-url: "https://neu-data.github.io/FoundationsofClinicalResearch/vi/"
+  repo-url: "https://github.com/neu-data/FoundationsofClinicalResearch"
+  favicon: images/neudata-logo.png
+  search: true
+  page-navigation: true
+  navbar:
+    logo: images/neudata-logo.png
+    logo-alt: "Neudata Consulting Ltd"
+    title: false
+    background: "#04242F"
+    foreground: "#FFFFFF"
+    left:
+      - href: index.qmd
+        text: "Trang chủ"
+      - href: schedule.qmd
+        text: "Lịch học"
+      - text: "Buổi học"
+        menu:
+          - href: session1.qmd
+            text: "Buổi 1 · Hỏi: từ vấn đề lâm sàng đến câu hỏi nghiên cứu"
+          - href: session2.qmd
+            text: "Buổi 2 · Tìm & đọc: bằng chứng"
+          - href: session3.qmd
+            text: "Buổi 3 · Thiết kế: chọn đúng loại nghiên cứu"
+          - href: session4.qmd
+            text: "Buổi 4 · Sai lệch và tác động: có tin được không, lớn đến đâu?"
+          - href: session5.qmd
+            text: "Buổi 5 · Dữ liệu: thu thập tốt, mô tả trung thực"
+          - href: session6.qmd
+            text: "Buổi 6 · Phân tích: từ mẫu đến câu trả lời"
+          - href: session7.qmd
+            text: "Buổi 7 · Bảo vệ & viết: đạo đức, liêm chính, Phương pháp và Kết quả"
+          - href: session8.qmd
+            text: "Buổi 8 · Công bố: hoàn thiện bài báo, gửi đăng, trình bày"
+      - text: "Bộ dữ liệu"
+        menu:
+          - href: dataset.qmd
+            text: "Tổng quan"
+          - href: data-dictionary.qmd
+            text: "Từ điển dữ liệu"
+          - href: cleaning-log.qmd
+            text: "Nhật ký làm sạch"
+          - href: sap.qmd
+            text: "Kế hoạch phân tích thống kê"
+          - href: results-q1.qmd
+            text: "Gói kết quả Q1"
+          - href: results-q2.qmd
+            text: "Gói kết quả Q2"
+          - href: results-q3.qmd
+            text: "Gói kết quả Q3"
+          - href: results-q4.qmd
+            text: "Gói kết quả Q4"
+          - href: results-q5.qmd
+            text: "Gói kết quả Q5"
+      - text: "Tài liệu"
+        menu:
+          - href: handbook.qmd
+            text: "Sổ tay học viên"
+          - href: workbook.qmd
+            text: "Sách bài tập học viên"
+          - href: templates.qmd
+            text: "Biểu mẫu"
+          - href: resources.qmd
+            text: "Tài liệu và công cụ"
+          - href: glossary.qmd
+            text: "Thuật ngữ Anh–Việt"
+          - href: further-reading.qmd
+            text: "Tài liệu đọc thêm"
+          - href: papers.qmd
+            text: "Hai bài báo"
+          - href: advanced.qmd
+            text: "Học phần nâng cao"
+          - href: downloads.qmd
+            text: "Tất cả tệp tải xuống"
+      - text: "Bài tập nhóm"
+        menu:
+          - href: assignments.qmd
+            text: "Tổng quan"
+          - href: proposal-brief.qmd
+            text: "Hướng dẫn đề cương"
+          - href: presentation-guide.qmd
+            text: "Hướng dẫn trình bày"
+          - href: proposal-rubric.qmd
+            text: "Thang chấm đề cương"
+          - href: manuscript-brief.qmd
+            text: "Hướng dẫn bản thảo"
+          - href: manuscript-rubric.qmd
+            text: "Thang chấm bản thảo"
+          - href: peer-review.qmd
+            text: "Hướng dẫn phản biện chéo"
+    right:
+      - href: ../en/index.html
+        text: "English"
+      - icon: globe
+        href: https://www.neu-data.com
+        aria-label: Neudata
+  page-footer:
+    left: "**Neudata Consulting Ltd** · *Insight. Impact. Innovation.*"
+    center: "Neudata | #ClearDataClearImpact"
+    right: "[www.neu-data.com](https://www.neu-data.com) · [contact@neu-data.com](mailto:contact@neu-data.com)"
+
+format:
+  html:
+    theme: [cosmo, course.scss]
+    toc: true
+    code-copy: true
+    code-overflow: wrap
+    include-after-body: lang-switch.html
+    include-in-header: access-gate.html

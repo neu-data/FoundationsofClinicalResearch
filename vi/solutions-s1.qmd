@@ -1,0 +1,229 @@
+---
+title: "Buổi 1 — Lời giải"
+---
+
+::: {.lang-note}
+Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
+:::
+
+📥 [PDF](files/sessions/s1_solutions.pdf) · [Trang buổi học](session1.qmd)
+
+**Foundations of Clinical Research — Level 1** · Neudata · *Instructor copy — do not hand out before the exercises*
+
+These are **model** answers. Many other answers are acceptable: reward work that is specific, consistent and could be acted on. Use the "what good looks like" boxes when you circulate.
+
+
+* * *
+
+## Quick quiz (segment 1.1) — Rank the evidence
+
+**Answer (weakest → strongest):** A (expert opinion) → B (registry cohort) → C (randomised trial, CLASSIC) → D (systematic review / meta-analysis of trials).
+
+| Source | Design | Real example |
+|---|---|---|
+| A | Expert opinion | — |
+| B | Observational cohort | Similar to Paper 2: Hyun 2023, *Ann Intensive Care* — positive cumulative fluid balance on ICU days 2–3 associated with higher 28-day mortality (day 2 cohort HR 2.13, 95% CI 1.48–3.06) |
+| C | Randomised controlled trial | CLASSIC: Meyhoff et al., *N Engl J Med* 2022 — 1,554 ICU adults with septic shock; 90-day mortality 42.3% restrictive vs 42.1% standard |
+| D | Systematic review / meta-analysis | Pooled analyses of fluid-restriction trials |
+
+**Discussion points**
+- Why might B and C disagree? In a cohort, sicker patients receive more fluid, so fluid can look harmful even if it is not — **confounding by indication** (taught in Session 4). Randomisation removes this.
+- What could make C weaker than B? Very small size, many losses to follow-up, poor allocation concealment, an outcome that does not matter to patients, or a population unlike ours.
+- The pyramid ranks **designs**, not individual papers. Quality must still be checked (Session 8).
+
+
+* * *
+
+## Check your understanding (segment 1.1) — types of research
+
+| Item | Answer |
+|---|---|
+| A Counting ICU pressure injuries this year | Quantitative, primary |
+| B Interviewing families about visiting rules | Qualitative, primary |
+| C Re-analysing 3 years of discharge records | Quantitative, **secondary** (data already exist; still needs ethics review) |
+| D Hand-hygiene survey + nurse focus groups | Mixed methods, primary |
+
+
+* * *
+
+## Check your understanding (segment 1.1) — research, audit or QI?
+
+Use these if the room wants more examples after the slide.
+
+| Project | Answer | Ethics route |
+|---|---|---|
+| Checking whether fluid balance is charted daily, against the unit protocol | **Audit** | Local/clinical-governance approval; usually no ethics committee |
+| Introducing a daily fluid-balance checklist and refining it in PDSA cycles | **Quality improvement** | Local approval; ethics review if it adds risk or goes beyond routine care |
+| Randomising patients to restrictive or usual fluids | **Research** | Ethics committee approval + trial registration before the first patient |
+| Interviewing nurses about why they hesitate to stop fluids | **Research** (qualitative) | Ethics committee approval (consent, confidentiality) |
+| Reviewing 3 years of ICU records to see if fluid balance is linked to mortality | **Research** (secondary data, observational) | Ethics committee approval or a formal waiver of consent |
+
+Key point: rules differ between institutions. When in doubt, ask the ethics committee **before** starting; journals ask for approval or a waiver at submission.
+
+
+* * *
+
+## Check your understanding (segment 1.2) — spot the PICO (Exercise 1 warm-up)
+
+| P | I | C | O | T |
+|---|---|---|---|---|
+| Adults 65+ after hip-fracture surgery | Daily non-drug delirium bundle | Usual care | Delirium (screened daily, e.g. 4AT or CAM) | First 7 days after surgery |
+
+Common error: labelling "hip fracture" as the outcome — it has already happened and defines who is eligible (P).
+
+
+* * *
+
+## Exercise 1 — Model PICO(T) answers
+
+### Scenario A — Ventilator-associated pneumonia (experimental)
+| P | Adults on invasive mechanical ventilation for ≥ 48 h in the ICU |
+|---|---|
+| I | Twice-daily nurse checklist for head-of-bed elevation 30–45° |
+| C | Usual care (no checklist) |
+| O | Ventilator-associated pneumonia (using a stated definition) |
+| T | During ventilation, up to ICU day 28 |
+
+*In adults ventilated for at least 48 hours in the ICU, does a twice-daily nurse checklist for head-of-bed elevation, compared with usual care, reduce the incidence of ventilator-associated pneumonia by ICU day 28?*
+Type: analytical — experimental (could be a before–after study or a cluster trial; designs are Session 3).
+FINER watch-point: **F** — VAP definitions vary and VAP is not very common; the group must state the definition and estimate how many cases occur per year.
+
+### Scenario B — Pressure injuries (descriptive first)
+The honest first question is descriptive, because nobody knows the size of the problem:
+*What is the incidence of hospital-acquired pressure injuries (stage 2 or worse) among adults admitted to our medical ward over 6 months?*
+| P | Adults admitted to the medical ward |
+|---|---|
+| O | New pressure injury, stage 2 or worse |
+| T | During the admission, over a 6-month period |
+
+Type: descriptive. No hypothesis needed — we **estimate** incidence (with a 95% CI).
+A later analytical question: *does 2-hourly vs 4-hourly repositioning reduce new pressure injuries in at-risk adults?*
+
+### Scenario C — Delirium (experimental)
+| P | Adults aged 65+ after hip-fracture surgery |
+|---|---|
+| I | Daily multicomponent non-drug delirium-prevention bundle |
+| C | Usual care |
+| O | Incident delirium (screened daily with a validated tool, e.g. 4AT or CAM) |
+| T | During the first 7 postoperative days |
+
+*In adults aged 65 and over after hip-fracture surgery, does a daily non-drug prevention bundle, compared with usual care, reduce incident delirium in the first 7 postoperative days?*
+FINER watch-point: **E** — consent from patients who may become confused; **F** — staff time to deliver the bundle every day.
+
+### Scenario D — Stroke door-to-needle time (observational or before–after)
+| P | Adults with acute ischaemic stroke receiving intravenous thrombolysis in our emergency department |
+|---|---|
+| E | Pre-hospital ambulance alert |
+| C | No pre-alert |
+| O | Door-to-needle time (minutes) |
+| T | From hospital arrival to start of thrombolysis |
+
+*In adults with acute ischaemic stroke who receive thrombolysis in our emergency department, is a pre-hospital ambulance alert associated with a shorter door-to-needle time than no alert?*
+Type: analytical — observational (PECO). Note: the outcome is continuous (minutes), so the hypothesis is about a difference in median or mean time.
+
+### Scenario E — Medication errors (experimental or before–after)
+| P | Adults transferred from ICU to a general ward |
+|---|---|
+| I | Pharmacist-led medication reconciliation at transfer |
+| C | Usual transfer process |
+| O | Patients with at least one medication discrepancy |
+| T | Within 48 hours of transfer |
+
+*In adults transferred from the ICU to a ward, does pharmacist-led medication reconciliation at transfer, compared with the usual process, reduce the proportion of patients with at least one medication discrepancy within 48 hours?*
+Watch-point: "medication error" must be defined (discrepancy vs harmful error); one primary outcome only.
+
+**What good looks like (Exercise 1)**
+- All boxes filled; the comparison is named, not "nothing".
+- One primary outcome, **measurable**, with a **time point**.
+- The sentence reads naturally and contains every PICO element.
+- Common faults to correct: two outcomes in one question ("mortality and length of stay"); outcome without time; population too broad ("all patients"); intervention not defined ("better care").
+
+
+* * *
+
+## Exercise 2 — FINER
+
+**Part A:** answers vary. Push pairs to justify each colour. A red **F** is the commonest and the most useful to discuss.
+
+**Part B — model answers**
+| # | Main problem | Why |
+|---|---|---|
+| 1 | **Feasible** | Whole country, 10 years, mortality — far beyond any department's resources. (Large vitamin D trials already exist too — Novel.) |
+| 2 | **Ethical** | Withholding antibiotics in septic shock causes harm; there is no equipoise. An ethics committee would refuse it. |
+| 3 | **Novel** | The answer is already measured monthly. This is an audit question, not a research question — use the existing data. |
+| 4 | **Relevant** (and Interesting) | No plausible mechanism and no impact on practice. |
+
+**Part B is also an extra slide.** **Running example (slide):** F red (a mortality difference needs well over a thousand patients — CLASSIC 1,554, CLOVERS 1,563); N amber (large trials exist, no mortality difference found); E amber (equipoise exists, but consent in septic shock is difficult); I and R green.
+**Feasible rewrites:** a pilot with cumulative fluid balance at day 5 as the primary outcome (as Paper 1 did); a descriptive study of fluid balance in our unit; an observational study of fluid balance and organ support.
+
+
+* * *
+
+## Exercise 3 — Aim, objectives and hypothesis
+
+**Model answer — delirium example**
+- *Aim:* To compare a daily non-drug delirium-prevention bundle with usual care in adults aged 65 and over after hip-fracture surgery.
+- *Objectives:* 1 (primary) To compare the incidence of delirium in the first 7 postoperative days between groups. 2 To compare length of hospital stay between groups.
+- *Hypothesis:* H0 — the incidence of delirium in the first 7 days is the same in both groups. H1 — it differs.
+- *Descriptive version (no hypothesis):* To estimate the proportion of patients aged 65+ who develop delirium in the first 7 days after hip-fracture surgery.
+
+**Vague-verb check:** "To understand pressure injuries on our ward" → *"To estimate the incidence of new stage 2 or worse pressure injuries among adults admitted to our ward over 6 months."*
+
+**a) Early mobilisation**
+- H0: ICU length of stay is the **same** with early mobilisation and with usual care.
+- H1: ICU length of stay **differs** between early mobilisation and usual care (two-sided).
+
+**b) Proportion with positive fluid balance** — **No hypothesis needed.** This is descriptive: we *estimate* a proportion with its 95% confidence interval.
+
+**What good looks like**
+- H0 always states "no difference / no association".
+- H1 is usually two-sided ("differs"), even when we expect benefit, because the intervention could also harm.
+- The hypothesis uses the **same** outcome and time point as the primary objective.
+- Correct the misconception: data can **reject** H0 or **fail to reject** it; we never "prove H0". "No significant difference" is not "no difference" (Paper 1, n = 48, could not detect a mortality difference — it was not powered for it).
+
+
+* * *
+
+## Exercise 4 — Proposal builder 1: what good looks like
+
+A worked model using the **feasible rewrite** of the running example (a pilot). Groups choose their own topics; use this as the quality benchmark, not as the answer. The references, problem statement and title are added tomorrow (Session 2, Exercise 4).
+
+**Type of project:** research (randomised; changes care) → ethics committee approval and prospective trial registration.
+
+**PICO(T):** P adults with septic shock within 24 h of starting vasopressors · I restrictive fluid protocol · C usual care · O cumulative fluid balance (ml/kg) · T at day 5.
+
+**Question:** *In adults with septic shock in our ICU, does a restrictive fluid protocol, compared with usual care, reduce cumulative fluid balance at day 5?*
+
+**FINER:** F green/amber (pilot of about 50 patients over 12–18 months) · I green · N amber → green (local setting, different protocol) · E amber (deferred or surrogate consent — Session 7) · R green.
+
+**Aim:** To compare a restrictive fluid protocol with usual care in adults with septic shock in our ICU.
+**Objectives:**
+1. *(Primary)* To compare cumulative fluid balance (ml/kg) at day 5 between groups.
+2. To estimate recruitment rate and protocol adherence (feasibility).
+3. To describe 28-day mortality and kidney injury needing dialysis in each group (exploratory).
+
+**Hypothesis:** H0 — cumulative fluid balance at day 5 is the same in both groups. H1 — it differs.
+
+**Marking guide for circulating (not a grade)**
+| Element | Good | Needs work |
+|---|---|---|
+| Topic | One focused problem from the unit | Three problems merged; "improve care in the ICU" |
+| Question | All PICO(T) elements; one primary outcome with time point | Two outcomes; no comparison; vague population |
+| FINER | Each letter justified; red letters fixed | Ticked without thought |
+| Research / audit / QI | Correctly classified; approval route noted | "It's only an audit" for a randomised project |
+| Aim/objectives | One aim; 2–3 measurable objectives; primary marked | "To understand…", "to study…"; more than 4 objectives |
+| Hypothesis | Matches primary objective; H0 and H1; or correctly "descriptive" | Hypothesis about a different outcome |
+
+
+* * *
+
+## Exercise 5 — Synonym list (homework)
+
+Model for the running example: **P** septic shock · sepsis · vasopressor-dependent sepsis; **I** fluid restriction · restrictive fluid · conservative fluid · de-resuscitation; **O** mortality · death · survival. For the pressure-injury example: pressure ulcer · pressure injury · bedsore · decubitus ulcer; repositioning · turning · position change.
+
+
+* * *
+
+## Exit question — answers
+1. **Feasible** — a mortality outcome needs well over a thousand patients (Novel is also amber because large trials already exist).
+2. e.g. *"To estimate the incidence of new stage 2 or worse pressure injuries among adults on our ward over 6 months."*

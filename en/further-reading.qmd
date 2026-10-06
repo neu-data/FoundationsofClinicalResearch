@@ -1,0 +1,115 @@
+---
+title: "Further reading"
+---
+
+## Foundations of Clinical Research: From Clinical Question to Publication
+
+**Organisation:** Neudata — *#ClearDataClearImpact*
+
+A short list, not a library. Everything below is **free to read online** unless marked *(not free)*. If you only have one hour a week, read the item marked ★ for that weekend. Web addresses are given only for stable home pages; search the title on the site to find the exact page.
+
+
+* * *
+
+## Weekend 1 (Sessions 1–2) — Ask, find and read
+
+| Resource | Who publishes it | Why read it |
+|---|---|---|
+| ★ **PubMed User Guide** and **PubMed online training** (Help pages) — pubmed.ncbi.nlm.nih.gov | US National Library of Medicine | How to build a search with MeSH, Boolean operators and filters — repeats the live demo at your own pace. |
+| **MeSH Browser** — meshb.nlm.nih.gov | US National Library of Medicine | Find the official MeSH term for your topic and see its narrower and broader terms. |
+| **Cochrane Handbook for Systematic Reviews of Interventions**, Chapters 1–4 (starting a review; scope and questions; eligibility criteria; searching for studies) — training.cochrane.org/handbook | Cochrane | The gold standard on turning a question into PICO and searching systematically. Read the "Key points" box at the start of each chapter. |
+| **Oxford CEBM Levels of Evidence** — cebm.ox.ac.uk | Centre for Evidence-Based Medicine, University of Oxford | A one-page table of which study type answers which kind of question best. |
+| **"How to read a paper"** series, *BMJ* 1997 (first article: "Getting your bearings") | T. Greenhalgh, *BMJ* | Classic short articles on reading research critically; the first ones help with framing questions. |
+| *Designing Clinical Research*, chapters on the research question *(not free — check your library)* | S.B. Hulley and colleagues | The book that introduced the FINER criteria. |
+| **Zotero** (free reference manager) — zotero.org | Corporation for Digital Scholarship (open source) | Store references, insert citations and switch to Vancouver style with one click. Its documentation has short start-up guides. |
+| **"Misrepresentation and distortion of research in biomedical literature"**, *PNAS* 2018;115(11):2613–2619 (open access) | I. Boutron and P. Ravaud | What spin is, how common it is, and how to spot it in abstracts. |
+| **"Reporting and interpretation of randomized controlled trials with statistically nonsignificant results for primary outcomes"**, *JAMA* 2010;303(20):2058–2064 | I. Boutron and colleagues | The classic study of spin in trial reports — useful background for segment 1.4. |
+| **SQUIRE 2.0** guidelines (Standards for QUality Improvement Reporting Excellence) — squire-statement.org | SQUIRE group (via EQUATOR) | How quality-improvement work is reported; helps separate QI from research and audit. |
+
+## Weekend 2 (Sessions 3–4) — Design, bias and measures of effect
+
+| Resource | Who publishes it | Why read it |
+|---|---|---|
+| ★ ***Epidemiology for the Uninitiated*** (online book) | D. Coggon, G. Rose, D.J.P. Barker, *BMJ* | Short, plain-language chapters on measuring disease, comparing rates, case-control and cohort studies. |
+| **Catalogue of Bias** — catalogofbias.org | Centre for Evidence-Based Medicine, University of Oxford | One page per type of bias, each with a clinical example and how to prevent it. Look up "confounding by indication" and "recall bias". |
+| ***Statistics at Square One***, chapter on study design and choosing a statistical test (online book) | T.D.V. Swinscow and M.J. Campbell, *BMJ* | Links study design to the analysis that follows. |
+| **CEBM study design pages** — cebm.ox.ac.uk | Centre for Evidence-Based Medicine, University of Oxford | Brief descriptions and a flow chart for identifying study designs (useful for "Name that design"). |
+| **"The environment and disease: association or causation?"**, *Proceedings of the Royal Society of Medicine* 1965;58:295–300 (free online) | A. Bradford Hill | The original nine "viewpoints" for judging causation — short and very readable. |
+| **CONSORT extensions** for cluster, non-inferiority and crossover trials (via equator-network.org) | CONSORT group | What is different about reporting these trial variants. |
+| **Risk-of-bias tools: RoB 2 and ROBINS-I** — riskofbias.info | Developers of the Cochrane risk-of-bias tools | The official tools, guidance documents and templates for randomised (RoB 2) and non-randomised (ROBINS-I) studies of interventions. |
+| **QUADAS-2** (diagnostic accuracy studies) — University of Bristol, *Annals of Internal Medicine* 2011;155:529–536 | P. Whiting and colleagues | The standard tool for appraising diagnostic accuracy studies. |
+| **AMSTAR 2** (systematic reviews) — amstar.ca; *BMJ* 2017;358:j4008 | B. Shea and colleagues | A 16-item tool for judging how far a systematic review can be trusted. |
+| **Newcastle–Ottawa Scale** (cohort and case-control studies) — Ottawa Hospital Research Institute website | G. Wells and colleagues | A short star-based checklist widely used in systematic reviews of observational studies. |
+| **PRISMA 2020** statement, checklist and flow diagram — prisma-statement.org | PRISMA group | How systematic reviews are reported; use the flow-diagram template when reading a review. |
+| **STARD 2015** (diagnostic accuracy studies) — via equator-network.org | STARD group | What a diagnostic accuracy paper must report (sensitivity, specificity, flow of participants). |
+| **Cochrane Handbook**, chapter on undertaking meta-analyses (forest plots, heterogeneity, I²) — training.cochrane.org/handbook | Cochrane | Plain explanation of pooled estimates and heterogeneity; read the key-points box. |
+
+## Weekend 3 (Sessions 5–6) — Data and analysis (with the FLUID-ICU course dataset)
+
+| Resource | Who publishes it | Why read it |
+|---|---|---|
+| ★ ***Statistics at Square One*** (online book), chapters on data display and summary, confidence intervals, t-tests and the chi-squared test | T.D.V. Swinscow and M.J. Campbell, *BMJ* | The clearest free introduction to the statistics in this course, with medical examples. |
+| **Statistics Notes** series, *BMJ* (1994 onwards) | J.M. Bland and D.G. Altman | One-page notes on single ideas; start with "Absence of evidence is not evidence of absence" (*BMJ* 1995). |
+| **"Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations"**, *European Journal of Epidemiology* 2016;31:337–350 (open access) | S. Greenland, S.J. Senn, K.J. Rothman and colleagues | A list of common misreadings of p-values and CIs — the source behind "5 common misinterpretations". Read the numbered list; skip the technical parts. |
+| **"The ASA statement on p-values: context, process, and purpose"**, *The American Statistician* 2016;70:129–133 (open access) | R.L. Wasserstein and N.A. Lazar, American Statistical Association | Six short principles on what a p-value can and cannot tell you. |
+| **OpenEpi** — openepi.com | Open-source project (Emory University and partners) | Free online calculators for 2×2 tables and sample size — the kind of tool used in the live demo. |
+| **REDCap** — project-redcap.org; **KoBoToolbox** — kobotoolbox.org | Vanderbilt University (REDCap consortium); KoBoToolbox (non-profit) | Free electronic data capture tools with validation and audit trails; REDCap is free for non-profit institutions that join the consortium. |
+| **"Beyond bar and line graphs: time for a new data presentation paradigm"**, *PLoS Biology* 2015;13(4):e1002128 (open access) | T.L. Weissgerber and colleagues | Why "dynamite plots" hide data and what to use instead. |
+| **Statistics Notes**: "Multiple significance tests: the Bonferroni method" (*BMJ* 1995;310:170) and "Survival probabilities (the Kaplan-Meier method)" (*BMJ* 1998;317:1572) | J.M. Bland and D.G. Altman | One-page explanations of multiple comparisons and Kaplan–Meier curves. |
+| **"Multiple imputation for missing data in epidemiological and clinical research: potential and pitfalls"**, *BMJ* 2009;338:b2393 | J.A.C. Sterne and colleagues | MCAR, MAR and MNAR, complete-case analysis and multiple imputation, with reporting advice. |
+| **"Guidelines for the content of statistical analysis plans in clinical trials"**, *JAMA* 2017;318(23):2337–2343 | C. Gamble and colleagues | What a statistical analysis plan (SAP) should contain — a checklist to use with the SAP template. |
+| **TRIPOD+AI** statement, *BMJ* 2024;385:e078378 — tripod-statement.org | G.S. Collins and colleagues | How prediction models, including machine-learning models, should be reported; a good checklist for judging them. |
+| **"Calculating the sample size required for developing a clinical prediction model"**, *BMJ* 2020;368:m441 | R.D. Riley and colleagues | Why overfitting happens and why "10 events per variable" is only a rough guide. |
+| ***Clinical Data Analysis in R*** (free online course) | Neudata | Learn to clean, describe and analyse a clinical dataset yourself — the prerequisite for reproducing the FLUID-ICU analyses with the course R scripts, and for the advanced modules. |
+
+## Weekend 4 (Sessions 7–8) — Protect, write and publish (with the group manuscript and peer review)
+
+### Ethics and good practice
+
+| Resource | Who publishes it | Why read it |
+|---|---|---|
+| ★ **Declaration of Helsinki** (2024 revision) — wma.net | World Medical Association | The core ethical principles for research involving people; short enough to read in 20 minutes. |
+| **ICH E6(R3) Guideline for Good Clinical Practice** (2025) — ich.org | International Council for Harmonisation | The international GCP standard. Read the "Principles of ICH GCP" section first. |
+| **International Ethical Guidelines for Health-related Research Involving Humans** (2016) — cioms.ch | Council for International Organizations of Medical Sciences (CIOMS) with WHO | Detailed guidance, including research with people who cannot consent and research in emergencies. |
+| **Free GCP e-learning** — globalhealthtrainingcentre.tghn.org | The Global Health Network | Free online Good Clinical Practice courses. Check which version of ICH E6 a course covers. |
+| **ClinicalTrials.gov** — clinicaltrials.gov; **WHO International Clinical Trials Registry Platform (ICTRP)** — who.int/clinical-trials-registry-platform | US National Library of Medicine; World Health Organization | Where trials are registered and searched; ICTRP links the WHO-recognised primary registries. |
+| **PROSPERO** — crd.york.ac.uk/prospero | Centre for Reviews and Dissemination, University of York | International register for systematic review protocols. |
+| **SPIRIT 2025** statement (trial protocols) — via equator-network.org | SPIRIT group | Checklist of what a trial protocol must contain; use it with the protocol template. |
+
+### Integrity, authorship and AI
+
+| Resource | Who publishes it | Why read it |
+|---|---|---|
+| ★ **Recommendations for the Conduct, Reporting, Editing, and Publication of Scholarly Work in Medical Journals** — icmje.org | International Committee of Medical Journal Editors (ICMJE) | The four authorship criteria, conflicts of interest and the current position on AI-assisted work. Read "Defining the Role of Authors and Contributors". |
+| **COPE guidance, flowcharts and position statement "Authorship and AI tools"** — publicationethics.org | Committee on Publication Ethics (COPE) | What to do about plagiarism, duplicate publication or authorship disputes, step by step. |
+| **CRediT — Contributor Role Taxonomy** — credit.niso.org | NISO (National Information Standards Organization) | The 14 contributor roles to use in your publication plan and author statement. |
+| **ORCID** — orcid.org | ORCID (non-profit) | Get a free researcher identifier before your first submission. |
+| **ICMJE disclosure form** (conflicts of interest) — icmje.org | ICMJE | The standard form most journals use for declaring competing interests. |
+
+### Reporting, publishing and appraisal
+
+| Resource | Who publishes it | Why read it |
+|---|---|---|
+| ★ **EQUATOR Network** — equator-network.org | EQUATOR Network | The library of reporting guidelines; use its "Toolkits" and the guideline finder to pick the right checklist. |
+| **CONSORT 2025** statement and checklist (randomised trials) | CONSORT group (via EQUATOR) | What a trial report must contain — used to appraise Paper 1. |
+| **STROBE** statement and checklists (cohort, case-control, cross-sectional) — strobe-statement.org | STROBE initiative | What an observational study report must contain — used to appraise Paper 2. |
+| **SPIRIT 2025** (trial protocols), **STARD 2015** (diagnostic accuracy), **PRISMA 2020** (systematic reviews) — prisma-statement.org | Respective groups (via EQUATOR) | The other guidelines named in the course; open only the one that fits your design. |
+| **Think. Check. Submit.** — thinkchecksubmit.org | Cross-industry initiative of publishers and library organisations | A short checklist to decide whether a journal is trustworthy before you submit. |
+| **Directory of Open Access Journals (DOAJ)** — doaj.org | DOAJ | Check whether an open-access journal is listed and what it charges. |
+| **CASP checklists** — casp-uk.net | Critical Appraisal Skills Programme | Free one-page appraisal checklists for each design; a natural next step after the course's 10-question checklist. |
+| **ICMJE Recommendations**, section "Manuscript Preparation and Submission" — icmje.org | ICMJE | What goes in each part of a manuscript (title page, abstract, IMRaD sections, references) and in the submission package. |
+| **EQUATOR Network toolkits** ("Writing research", "Using reporting guidelines") — equator-network.org | EQUATOR Network | Practical guidance on writing each section and on using checklists at submission. |
+| **AuthorAID** — authoraid.info | INASP | Free online courses and mentoring in research writing and publishing for researchers in low- and middle-income countries. |
+| **medRxiv** — medrxiv.org | Cold Spring Harbor Laboratory, BMJ and Yale University | The main preprint server for health research; check your target journal's preprint policy first. |
+| **COPE "Ethical guidelines for peer reviewers"** — publicationethics.org | Committee on Publication Ethics | What reviewers are expected to do — useful when writing a response to reviewers and for the "Be the reviewer" exercise. |
+
+
+* * *
+
+## Going further (advanced modules — `Advanced_Modules/advanced_modules.md`)
+
+- **Cochrane Handbook**, chapters on risk of bias and on meta-analysis — for the meta-analysis module.
+- ***Statistics at Square One***, chapters on regression and survival analysis — preparation for the hands-on R and survival modules.
+- **TRIPOD+AI** and **STARD 2015** — for the prediction-model and diagnostic-accuracy modules.
+
+*All resources were selected for being free, stable and from recognised organisations. Versions change (e.g. CONSORT, ICMJE): always use the current version on the publisher's site.*

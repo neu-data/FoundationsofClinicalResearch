@@ -1,0 +1,109 @@
+---
+title: "Buổi 7 — Lời giải"
+---
+
+::: {.lang-note}
+Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
+:::
+
+📥 [PDF](files/sessions/s7_solutions.pdf) · [Trang buổi học](session7.qmd)
+
+Answer keys for `Practicals/s7_exercises.md`, Parts A–C. Numbers in Part C are from `Course/Data/key_results.md` (SIMULATED data).
+
+
+* * *
+
+## Part A — Integrity scenarios
+
+| # | Colour | Why | What to do instead |
+|---|---|---|---|
+| 1 | **RED** — fabrication | Values "remembered" are invented data. | Record the values as missing, report the number missing, and (Level 2) handle them in the analysis. Prevent it next time: a data-collection timetable and source-document checks. |
+| 2 | **RED** — falsification | Removing data after seeing that they weaken the result, without saying so, changes the findings. | Pre-specify rules for implausible values in the data-quality plan (Saturday 3); check the values against the source; if exclusion is justified, report it and show a sensitivity analysis with and without the patients. |
+| 3 | **RED** — gift authorship | Seniority is not a contribution. All four ICMJE criteria are needed. | Thank the head of department in the Acknowledgements — or invite a real contribution (e.g. critical revision) so that all four criteria are met. Agree the author list in writing at the protocol stage. |
+| 4a | **GREEN** (with disclosure) | Language editing of the author's own text, checked by the author and disclosed, is accepted by ICMJE and COPE. The author remains responsible. | Check the target journal's AI policy; disclose tool, version and purpose. |
+| 4b | **RED** — breach of confidentiality | Identifiable patient data must never be pasted into a public AI tool; the analysis is also not accountable or reproducible. | De-identify; use institution-approved software; the analysis is done and checked by a named person. |
+| 5 | **AMBER → RED** — salami slicing / redundant publication | Splitting one cohort into undisclosed separate papers distorts the evidence and can double-count patients. | One main paper with all pre-specified outcomes; any genuine secondary paper must cross-reference the main one and add something new. |
+| 6 | **RED** (amber if minor and fixed before submission) — plagiarism | Copying words verbatim without quotation marks is plagiarism even with a citation. | Paraphrase in your own words and cite, or quote with quotation marks (rare in clinical writing). Similarity-check software will flag it. |
+
+**Example on the slide** (a colleague lent an ultrasound machine and asks for authorship): **AMBER/RED** — providing equipment is not authorship; thank them in the Acknowledgements.
+
+Facilitation: when groups disagree (often on 4a and 5), ask each side for one reason; then state the rule. Emphasise that honest error is not misconduct but must be corrected openly.
+
+
+* * *
+
+## Part B — Proposal builder 7: what a good Part 4 looks like (example: observational ICU study)
+
+### B1–B3. Ethics, confidentiality, feasibility
+
+> *Ethics and consent.* The protocol will be submitted to the institutional research ethics committee before any data collection. Data are collected from routine ICU charts with no change in care; we will request a waiver of individual consent because most patients lack capacity on admission and the study carries no more than minimal risk. If the committee requires consent, it will be sought from the patient when able or from the legally authorised representative.
+>
+> *Confidentiality.* Each patient receives a study code (FLU-001 …). Names, hospital numbers and dates of birth are recorded only on a key file stored on the institution's password-protected drive, accessible to the principal investigator and one data manager. The analysis file contains the study code, age, admission month and study variables only.
+>
+> *Feasibility.* The unit admitted about 180 adults with septic shock last year; we expect to enrol 120 eligible patients in 12 months. Two nurses per shift have been trained on the CRF; data are checked weekly. Budget headings: staff time for data entry, printing, open-access fee.
+>
+> *Dissemination.* Target journal: a critical-care nursing journal indexed in MEDLINE; back-up: a general critical-care journal. Reporting guideline: STROBE.
+
+Common errors to correct: "consent will be obtained" with no who/when/how; assuming retrospective studies need no ethics review; recruitment numbers copied from the sample-size calculation instead of the unit's admissions; no named place for the key file.
+
+### B4. Example publication plan (same observational ICU study)
+
+| Item | Example |
+|---|---|
+| Working title | "Cumulative fluid balance and 28-day mortality in adults with septic shock: a retrospective cohort study" |
+| Target journal | A critical-care or critical-care-nursing journal indexed in MEDLINE (checked in the NLM Catalog), APC and licence known; back-up: a general critical-care open-access journal listed in DOAJ |
+| Reporting guideline | STROBE (cohort) — not CONSORT |
+| Registration | Not mandatory for an observational study; recommended (e.g. ClinicalTrials.gov) |
+| Authors and CRediT | PI: Conceptualization, Methodology, Writing – original draft; two nurses: Investigation, Data curation; pharmacist: Investigation, Writing – review & editing; statistician: Formal analysis; head of department: Supervision (only if all four ICMJE criteria are met — otherwise Acknowledgements) |
+| COI / funding | None declared / internal departmental support |
+| Data sharing | De-identified dataset and data dictionary available from the corresponding author under a data-use agreement (if the ethics committee and consent allow) |
+| Conference | National critical-care congress abstract after the first analysis |
+
+**Abstract skeleton.** Background: positive fluid balance may be linked to death in septic shock; local data are lacking; we aimed to assess its association with 28-day mortality. Methods: retrospective cohort, adults with septic shock, one ICU, 12 months; exposure = cumulative fluid balance at day 3; outcome = 28-day mortality; logistic regression adjusted for severity. Results (expected): "n patients; 28-day mortality x% vs y%; adjusted OR (95% CI)". Conclusion (if positive): "A positive day-3 fluid balance was associated with higher 28-day mortality"; (if not): "We found no evidence of an association; the CI does not exclude a clinically relevant effect".
+
+Common errors: CONSORT named for a cohort; "impact" or "effect" in the title; an author list that includes people who only collected data; expected results written as numbers ("mortality fell by 30%").
+
+
+* * *
+
+## Part C — [L2] Manuscript workshop 1: model Methods and Results for Q1
+
+All numbers are from `Course/Data/key_results.md` and `Course/Data/results_packs/Q1/results_pack_Q1.md` (**SIMULATED DATA — NOT REAL PATIENTS**). Show these to groups only AFTER the workshop, or use them to coach. Other groups (Q2–Q5) take the same structure and their own pack.
+
+### Model Methods (~300 words)
+
+**Study design and setting.** We analysed FLUID-ICU, a multicentre prospective cohort of consecutive adults with sepsis admitted to four intensive care units (ICUs A–D) between January 2023 and December 2024. FLUID-ICU is a simulated teaching dataset; no ethics approval or consent was required.
+
+**Participants.** All adults with sepsis enrolled in the cohort were eligible. Patients without a cumulative fluid balance on day 3 were excluded from the exposure analysis.
+
+**Variables.** The exposure was a positive cumulative fluid balance by ICU day 3, defined as total fluid input minus total fluid output over ICU days 1–3 greater than 0 ml/kg, compared with a negative or zero balance. The primary outcome was death from any cause within 28 days of ICU admission; for survival analysis, time to death was censored at day 28. Confounders were pre-specified in the statistical analysis plan: age, SOFA score, lactate, vasopressor use, mechanical ventilation and chronic kidney disease. Heart failure was pre-specified as a possible effect modifier.
+
+**Data sources and bias.** Data were collected from ICU charts on a standard case report form. To address confounding by indication — sicker patients receive more fluid — we adjusted for markers of illness severity and comorbidity.
+
+**Study size.** All eligible patients in the cohort were included; no separate sample-size calculation was performed.
+
+**Statistical analysis.** Baseline characteristics are presented as mean (SD), median (IQR) or n (%), by fluid-balance group. 28-day mortality was compared with the chi-square test, and crude and adjusted odds ratios (ORs) were estimated by logistic regression. Survival to day 28 was described with Kaplan–Meier curves (log-rank test) and analysed with Cox regression using the same covariates; the proportional-hazards assumption was checked. Effect modification by heart failure was tested with an interaction term. The main analysis used complete cases; missing lactate was handled by multiple imputation (20 data sets) in a sensitivity analysis. Estimates are reported with 95% confidence intervals (CIs). Analyses used R 4.6 (packages gtsummary, survival, mice).
+
+### Model Results (~300 words)
+
+**Participants.** Of 620 patients enrolled, 618 had a day-3 fluid balance and were included in the analysis; 527 had complete data for the adjusted model (91 without lactate or age). Mean age was 62.6 years (SD 15.2), 376 of 620 (60.6%) were men, and the median SOFA score was 7 (IQR 5 to 9).
+
+**Descriptive data.** A positive balance by day 3 occurred in 373 of 618 patients (60.4%). These patients were sicker at baseline (median SOFA 8 [6 to 10] vs 6 [4 to 8]; vasopressors 205/373 [55.0%] vs 61/245 [24.9%]; mechanical ventilation 216/373 [57.9%] vs 97/245 [39.6%]) and less often had heart failure (43/373 [11.5%] vs 54/245 [22.0%]) (Table 1). Lactate was missing in 93 of 620 patients (15.0%).
+
+**Outcome data.** By day 28, 134 of 373 patients (35.9%) with a positive balance and 45 of 245 (18.4%) with a negative balance had died (risk difference 17.6 percentage points, 95% CI 10.7 to 24.4). Kaplan–Meier survival at day 28 was 64.1% and 81.6%, respectively (log-rank p < 0.001; Figure 1).
+
+**Main results.** The crude OR for death with a positive balance was 2.49 (95% CI 1.70 to 3.70); after adjustment it was 1.62 (95% CI 1.02 to 2.59; p = 0.044; n = 527) (Table 3). The crude hazard ratio (HR) was 2.17 (95% CI 1.55 to 3.05) and the adjusted HR 1.46 (95% CI 1.00 to 2.13; p = 0.053).
+
+**Other analyses.** With multiple imputation (n = 620) the adjusted OR was 1.70 (95% CI 1.09 to 2.64). The association differed by heart failure (p for interaction = 0.031): adjusted OR 4.39 (95% CI 1.65 to 12.38) with heart failure (n = 90) and 1.29 (95% CI 0.77 to 2.19) without (n = 437).
+
+### Coaching checklist (any group)
+| Check | Typical fix |
+|---|---|
+| Statistical paragraph names a method for every result | Add the test/model and the covariates |
+| Results start with participants and flow | Add "Of 620 enrolled, 618 … 527 …" (Q1) |
+| Crude AND adjusted estimates (STROBE 16) | Add the missing one, with n |
+| No interpretation in Results | Move "because sicker patients…" to the Discussion |
+| Every effect has a 95% CI | Copy it from the pack |
+| Q4: complete-case AND imputed | CC OR 1.39 (1.24 to 1.57) vs MI 1.45 (1.29 to 1.64) per mmol/L (adjusted for age, sex, diabetes, CKD, heart failure) |
+| Q5: medians/IQR, survivors only | 439 survivors; median 7.5 vs 4.8 days |
+| Simulated data stated | Add the course ethics sentence |

@@ -1,0 +1,215 @@
+---
+title: "Session 2 — Exercise sheet"
+---
+
+📥 [PDF](files/sessions/s2_exercises.pdf) · [Session page](session2.qmd)
+
+**Foundations of Clinical Research — Level 1** · Neudata · *#ClearDataClearImpact* · Weekend 1 · Sunday
+
+Name / group: ______________________________   Date: ____________
+
+> **How to use this sheet.**
+> - Recap quiz on Session 1 — on your own (8 minutes, start of the session).
+> - Exercise 1 (Boolean search builder) — **on your own**, segment 2.1 (5 minutes).
+> - Exercise 2 (paraphrasing) — at home.
+> - Exercise 3 (reading Paper 1's abstract) — **on your own**, segment 2.3 (12 minutes).
+> - Exercise 4 — your **group's Proposal builder 2** (33 minutes).
+>
+> The answers are discussed in the room — there is no mark.
+
+
+* * *
+
+## Recap quiz — Session 1  *(individual, 8 minutes)*
+
+1. Checking whether fluid balance is charted daily as the protocol says: research, audit or QI? ____________
+2. "In ICU staff, does hand-hygiene feedback vs none increase compliance at 3 months?" — P ______ I ______ C ______ O ______ T ______
+3. Which FINER letter did our running example fail? ____________
+4. Which is an objective: "to understand delirium" or "to estimate the proportion with delirium"? ____________
+5. Write H0 for: "Does early mobilisation shorten ICU stay?" ________________________________________
+
+
+* * *
+
+## The running example (for reference)
+
+| | |
+|---|---|
+| **P** — Population | Adults (18+) with septic shock in the ICU |
+| **I** — Intervention | Restrictive fluid strategy |
+| **C** — Comparison | Usual care (standard fluids) |
+| **O** — Outcome | Death from any cause |
+| **T** — Time | Within 28 days |
+
+**Question:** *In adults with septic shock in the ICU, does a restrictive fluid strategy, compared with usual care, reduce 28-day mortality?*
+
+
+* * *
+
+## Exercise 1 — Boolean search builder  *(individual, 5 minutes, segment 2.1)*
+
+**Rules:** synonyms inside a block are joined with **OR**; blocks are joined with **AND**; put each block in **brackets**. Write operators in CAPITALS. Use English search words.
+
+**Warm-up — which gives MORE hits?** (circle)
+- `septic shock AND fluids`  or  `septic shock OR fluids`
+- `sepsis`  or  `sepsis NOT neonatal`
+
+**Build your search** from your group's PICO question (Session 1) and your synonym list. The comparison (C) is usually *not* searched.
+
+| Block | Concept | Synonyms (2–4). Mark possible MeSH terms with (M) |
+|---|---|---|
+| **P** | | |
+| **I / E** | | |
+| **O** | | |
+
+**My search string:**
+
+`( ______ OR ______ OR ______ ) AND ( ______ OR ______ OR ______ ) AND ( ______ OR ______ )`
+
+**One filter I would add, and why:** __________________________________________
+
+**Swap with your neighbour.** One synonym they suggest adding: ______________________
+
+**The search string from the live demo (copy it here to run at home):**
+
+```
+("Shock, Septic"[Mesh] OR "septic shock"[tiab] OR sepsis[tiab])
+AND ("Fluid Therapy"[Mesh] OR "fluid restrict*"[tiab] OR "restrictive fluid*"[tiab] OR "conservative fluid*"[tiab])
+AND ("Mortality"[Mesh] OR mortality[tiab] OR death[tiab])
+```
+
+| Field tag / symbol | Meaning |
+|---|---|
+| `[Mesh]` or `[mh]` | MeSH term (includes narrower terms automatically) |
+| `[tiab]` | word in the title or abstract |
+| `[pt]` | publication type, e.g. `randomized controlled trial[pt]` |
+| `"..."` | exact phrase |
+| `*` | any ending (truncation): `restrict*` = restrict, restricted, restriction, restrictive |
+
+
+* * *
+
+## Exercise 2 — Citing vs copying: paraphrase safely  *(individual, at home, 10 minutes)*
+
+**Method:** read → close the paper → write from memory → check the facts → cite.
+Patchwriting (copying the sentence and swapping a few words) is plagiarism **even with a reference**.
+
+**Part A — Spot the problem.** The source is the Results section of Paper 2's abstract (Hyun 2023):
+
+> "The positive fluid groups in both the D2 (HR, 2.13; 95% CI 1.48–3.06; P < 0.001) and D3 (HR, 1.56; 95% CI 1.10–2.22; P = 0.012) cohorts had significantly higher mortality rates than the negative fluid groups."
+
+For each version, tick **OK** or **Problem**, and say why.
+
+| Version | OK | Problem | Why? |
+|---|---|---|---|
+| a) "The positive fluid groups in the D2 and D3 cohorts had significantly higher death rates than the negative fluid groups [2]." | ☐ | ☐ | |
+| b) "In a matched registry cohort, a positive cumulative fluid balance on ICU days 2 and 3 was associated with higher 28-day mortality (hazard ratios 2.13 and 1.56) [2]." | ☐ | ☐ | |
+| c) "Giving more fluid on days 2 and 3 doubles the risk of death [2]." | ☐ | ☐ | |
+| d) "In a matched registry cohort, a positive cumulative fluid balance on ICU days 2 and 3 was associated with higher 28-day mortality." (no citation) | ☐ | ☐ | |
+
+**Part B — Your turn.** Paraphrase this sentence from Paper 1's abstract in your own words, with a citation:
+
+> "After 28 days, mortality and the numbers of days alive without life support were similar between groups."
+
+My paraphrase: ______________________________________________________________
+
+______________________________________________________________________________
+
+**Check:** different structure? ☐  facts still correct? ☐  no stronger claim than the source? ☐  citation? ☐
+
+
+* * *
+
+## Exercise 3 — Read Paper 1's abstract  *(individual, 12 minutes, segment 2.3)*
+
+Use the **abstract only** of Paper 1: Boulet N, et al. *Crit Care* 2024;28:429 (in `Papers/`). 8 minutes reading, 4 minutes comparing with your neighbour.
+
+**The 15-minute reading order (for later):** title (30 s) → abstract (3 min) → figures & tables (4 min) → methods (5 min) → discussion & limitations (2–3 min). Stop early if the paper does not answer your question.
+
+| Item | What the abstract says |
+|---|---|
+| **Design** (and blinding) | |
+| **P** — who was included? | |
+| **I vs C** — what was compared? | |
+| **Primary outcome** (and when) | |
+| **Numbers** — screened / randomised / analysed | |
+| **Main result** — estimate with 95% CI and p | |
+| **Conclusion** — one line | |
+| Does the conclusion **match** the main result? | ☐ yes ☐ no — why? |
+| Any **spin** (words stronger than the numbers)? | ☐ yes ☐ no — where? |
+| **Registration** number | |
+| Does this paper answer **our** running-example question (28-day mortality)? | ☐ yes ☐ no — why? |
+
+**Fast finishers:** read the **title and abstract** of Paper 2 (Hyun 2023). Which word in the title is stronger than the design allows? Which word does the abstract conclusion use instead?
+
+**Spin checklist — words to look for**
+
+| Data say | Spin says |
+|---|---|
+| p = 0.42 for the primary outcome | "a non-significant trend" |
+| primary outcome: no difference | headline = a positive secondary outcome |
+| observational association | "impact", "effect", "reduces" |
+| change within one group only | "patients improved" |
+
+
+* * *
+
+## Exercise 4 — Proposal builder 2  *(group, 33 minutes)*
+
+Complete Part 1 of the **Research Proposal template** (`Templates/Research_Proposal_Template.docx`) and the **literature review worksheet**, building on yesterday's question, aim and objectives. This sheet is your checklist.
+
+**Suggested roles:** chair · scribe (types into the template) · searcher (phone or laptop — runs your PubMed string) · timekeeper.
+
+| Time | Task | Done |
+|---|---|---|
+| 0–8 min | **1. Run your search string** (Exercise 1) in PubMed; write the date, the filters and the number of hits | ☐ |
+| 8–16 min | **2. Screen** titles and abstracts; pick **5 key papers**; export them (*Send to → Citation manager*) into Zotero | ☐ |
+| 16–22 min | **3. Literature matrix** — one row per paper (split the papers between members) | ☐ |
+| 22–28 min | **4. Problem statement** — three short paragraphs (about 300 words): (a) what is known, (b) what is not known — the gap, (c) why it matters *here* (your local number) | ☐ |
+| 28–31 min | **5. Working title** and **keywords** (see below) | ☐ |
+| 31–33 min | One group reads its title and its gap sentence aloud; the room suggests one improvement | ☐ |
+
+**Working title and keywords**
+
+| | |
+|---|---|
+| Working title (10–16 words; population, comparison or exposure, and design visible; no abbreviations; no "impact" or "effect" for observational designs) | |
+| Number of words | |
+| Keywords (3–6; MeSH terms **not** already in the title) | 1. ____________ 2. ____________ 3. ____________ 4. ____________ |
+
+*Example (feasible rewrite of the running example):* "Restrictive versus usual fluids in adults with septic shock: a pilot randomised trial" (13 words). Keywords: Fluid Therapy; Water-Electrolyte Balance; Critical Care; Vasoconstrictor Agents.
+
+**Literature review worksheet — one row per paper**
+
+| # | Study (first author, year, journal) | Design, size | Compared | Primary outcome: result | Key limitation | Why it matters for our question |
+|---|---|---|---|---|---|---|
+| 1 | | | | | | |
+| 2 | | | | | | |
+| 3 | | | | | | |
+| 4 | | | | | | |
+| 5 | | | | | | |
+
+**Search used for the references** (paste the string, the database and the date):
+
+______________________________________________________________________________
+
+**Quality checks before you stop**
+- [ ] The problem statement ends with your question; the title names the same population and outcome as the question.
+- [ ] At least one reference is a randomised trial or a systematic review, if one exists; you checked a trial registry for ongoing trials.
+- [ ] References are saved in a reference manager or exported from PubMed (*Send to → Citation manager*). No sentence is copied from a source.
+
+
+* * *
+
+## Exit question  *(on a sticky note, no names)*
+
+1. Which gives MORE hits: `septic shock AND fluids` or `septic shock OR fluids`?
+2. What was the primary outcome of Paper 1?
+
+## Homework before Session 3 (next weekend)
+
+- **Group:** finish the five key references and the problem statement — Proposal Part 1 complete, with working title and keywords.
+- **Each member:** read one paper with the 15-minute routine and fill its row in the matrix.
+- **Everyone:** read the **abstract** of Paper 2 (Hyun 2023, *Ann Intensive Care*) with the Exercise 3 grid.
+- Exercise 2 (paraphrasing) if not done in class.
+- **Optional:** look up Paper 1's registration (NCT04947904) on ClinicalTrials.gov.

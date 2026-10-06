@@ -1,0 +1,19 @@
+---
+title: "Resources and tools"
+---
+
+Checklists, worked (fictional) examples and calculators used in the sessions.
+
+| File | Purpose | Used in | Download |
+|:--------------|:--------------------------------------------|:--------------|:----------|
+| **Critical appraisal checklist (10 questions)** | "Be the reviewer": one page with the 10 questions. Each question is answered Yes / No / Can't tell, with "where in the paper". Includes a how-to-use box and a verdict row. | S4 (introduced, 4.3); S8 (8.3 jigsaw appraisal); manuscript peer review after S8 | [Word](files/resources/Critical_Appraisal_Checklist.docx) · [PDF](files/resources/Critical_Appraisal_Checklist.pdf) |
+| **Risk-of-bias tool chooser** | One page mapping each design to its tool: RCT to RoB 2; non-randomised intervention to ROBINS-I; cohort and case-control to Newcastle–Ottawa or ROBINS-E; diagnostic accuracy to QUADAS-2; systematic review to AMSTAR 2; qualitative to CASP. Each row says what the tool checks and where to get it free. | S4 (4.3 Beyond single studies); S8 (8.3) | [Word](files/resources/Risk_of_Bias_Tool_Chooser.docx) · [PDF](files/resources/Risk_of_Bias_Tool_Chooser.pdf) |
+| **Writing and submission checklist** | A pre-submission tick list covering the title, abstract, IMRaD sections, numbers, tables and figures, reporting guideline, declarations, references, journal fit, cover letter and submission package, and proofs. | S7–S8 (7.3, 8.1–8.2); take-home | [Word](files/resources/Writing_and_Submission_Checklist.docx) · [PDF](files/resources/Writing_and_Submission_Checklist.pdf) |
+| **Sample ethics application (fictional)** | A completed **fictional** ethics application for a prospective cohort (FLUID-BAL: fluid balance and 28-day mortality in ICU sepsis). Includes a waiver/deferred-consent justification and "why this is a good answer" notes. | S7 (7.1; proposal Part 4) | [Word](files/resources/Sample_Ethics_Application.docx) · [PDF](files/resources/Sample_Ethics_Application.pdf) |
+| **Sample grant concept note (fictional)** | A completed **fictional** 2-page concept note for the same study, with funder tips in the right-hand margin column. | S7 (7.1 feasibility); take-home | [Word](files/resources/Sample_Grant_Concept_Note.docx) · [PDF](files/resources/Sample_Grant_Concept_Note.pdf) |
+| **2×2 calculator (Excel)** | Type the four cells of a 2×2 table: risks, RR, RD, NNT/NNH and OR, plus sensitivity, specificity, PPV and NPV. Pre-filled with the Session 4 examples. | S4 | [Excel](files/resources/2x2_calculator.xlsx) |
+| **Sample-size calculator (Excel)** | One proportion (prevalence survey), two proportions and two means, with drop-out; checked against textbook values. | S6 | [Excel](files/resources/sample_size_calculator.xlsx) |
+
+See also: the [glossary](glossary.qmd), [further reading](further-reading.qmd), [the two papers](papers.qmd) and the [course dataset](dataset.qmd).
+
+A short anonymous quiz is taken in Session 1 and Session 8.

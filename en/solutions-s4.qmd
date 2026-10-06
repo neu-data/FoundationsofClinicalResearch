@@ -1,0 +1,166 @@
+---
+title: "Session 4 — Solutions"
+---
+
+📥 [PDF](files/sessions/s4_solutions.pdf) · [Session page](session4.qmd)
+
+**Foundations of Clinical Research** · Weekend 2 · Sunday · Neudata · Instructor copy
+
+Answer keys for `Practicals/s4_exercises.md`. All numbers were checked with `Resources/tools/2x2_calculator.xlsx`.
+
+
+* * *
+
+## Part A — Spot the bias
+
+| # | Main bias | Why | One way to reduce it (any of these) |
+|---|---|---|---|
+| 1 | **Recall bias** (a type of information bias) | Cases search their memory harder than controls, so exposures look more common in cases. | Use exposure data recorded before the outcome was known (prescription or pharmacy records); ask cases and controls the same structured questions; blind interviewers to case/control status. |
+| 2 | **Observer bias** (information bias) | A soft, judgement-based outcome assessed by someone who knows the group. | Blinded outcome assessor; objective, pre-defined discharge criteria; choose a harder outcome (e.g. actual days to discharge). |
+| 3 | **Selection bias** (including loss to follow-up) | Survivors who return to clinic are probably healthier and more motivated than those who do not; the sample no longer represents all ICU survivors. | Contact every survivor (phone/post), record and report non-responders and compare them with responders, plan follow-up from the start. |
+| 4 | **Confounding (by indication)** | Lactate (severity) leads to more fluid AND independently predicts death. The crude association overstates (or creates) the effect of fluid. | Randomise; or measure severity at baseline (lactate, SOFA, vasopressor dose) and restrict, match or adjust; state "associated with", not "increases". |
+
+
+
+* * *
+
+## Part B — Confounding or effect modification?
+
+| # | Answer | Why | What to report |
+|---|---|---|---|
+| 1 | **Confounding** (by indication: lactate) | Both strata give RR 1.00 — they agree with each other but not with the crude RR 1.80. Lactate drove the choice of drug and predicts death. | The lactate-adjusted (or stratified) estimate, RR about 1.0. The crude 1.80 is misleading. |
+| 2 | **Effect modification** (by age) | The strata differ from each other: RR 0.50 under 65, 0.95 at 65 and over. | Each age group separately (ideally a pre-specified subgroup with a test for interaction). Do not report only the average 0.70. |
+| 3 | **Neither** | Strata agree with each other (0.80, 0.79) and with the crude result (0.80). | The overall RR 0.80; shift neither confounds nor modifies the effect. |
+
+Facilitation: participants often call scenario 2 "confounding" because the numbers change. Ask: *"Do the two strata agree with EACH OTHER?"* If not, it is a finding about who benefits, not a bias to remove.
+
+
+
+* * *
+
+## Part C — Two 2×2 calculations
+
+### Calculation 1 — pressure-relieving mattress trial
+
+|  | Pressure injury: YES | NO | Total |
+|---|---|---|---|
+| New mattress | a = 10 | b = 190 | 200 |
+| Standard mattress | c = 20 | d = 180 | 200 |
+
+| Measure | Working | Answer |
+|---|---|---|
+| Risk, new mattress | 10 / 200 | **0.05 (5%)** |
+| Risk, standard mattress | 20 / 200 | **0.10 (10%)** |
+| RR | 0.05 / 0.10 | **0.50** |
+| RD | 0.05 − 0.10 | **−0.05 (5 percentage points fewer)** |
+| NNT | 1 / 0.05 | **20** |
+| OR | (10 × 180) / (190 × 20) = 1800 / 3800 | **0.47** |
+
+- **Is OR close to RR?** Yes, fairly (0.47 vs 0.50), because the outcome is uncommon (5–10%). With rarer outcomes they converge further.
+- **Model sentence:** "With the new mattress, pressure injuries were halved (5% vs 10%): about 1 injury prevented for every 20 patients who use it."
+
+Common errors: dividing by the wrong total (using 30 or 400 as denominators); writing RD as 5 instead of 0.05 and then NNT = 0.2; table drawn with outcome in rows.
+
+### Calculation 2 — candidaemia case-control study
+
+|  | Cases | Controls |
+|---|---|---|
+| Parenteral nutrition: YES | a = 24 | b = 16 |
+| Parenteral nutrition: NO | c = 16 | d = 64 |
+
+- **OR** = (24 × 64) / (16 × 16) = 1536 / 256 = **6.0**
+- **Why no risk, RR or NNT?** The investigators chose how many people with and without candidaemia to include (40 and 80, a 1:2 ratio). The proportion with candidaemia in the study is fixed by design, not by nature, so "risk" calculated from the rows is meaningless. The OR is valid because it does not depend on the sampling ratio.
+- **Model sentence:** "ICU patients with candidaemia had about six times the odds of having received parenteral nutrition, compared with similar ICU patients without candidaemia. Because candidaemia is rare, this OR approximates the relative risk — but an observational study cannot show that the nutrition caused the infection (sicker patients receive parenteral nutrition)."
+
+Check of the calculator caution: if participants type these numbers into the Association sheet, it shows "risks" of 60% and 20%. Use this to reinforce the red warning on the sheet: for case-control data, read only the OR.
+
+
+
+* * *
+
+## Part D — PPV in two settings
+
+**Setting 1 — ICU, prevalence 20% (500 people)**
+
+|  | Disease present | Disease absent | Total |
+|---|---|---|---|
+| Test positive | TP = 90 | FP = 80 | 170 |
+| Test negative | FN = 10 | TN = 320 | 330 |
+| Total | 100 | 400 | 500 |
+
+PPV = 90 / 170 = **52.9%** · NPV = 320 / 330 = **97.0%**
+
+**Setting 2 — screening, prevalence 2% (500 people)**
+
+|  | Disease present | Disease absent | Total |
+|---|---|---|---|
+| Test positive | TP = 9 | FP = 98 | 107 |
+| Test negative | FN = 1 | TN = 392 | 393 |
+| Total | 10 | 490 | 500 |
+
+PPV = 9 / 107 = **8.4%** · NPV = 392 / 393 = **99.7%**
+
+1. **Why different?** With a rare disease, even a small false-positive rate (20%) applied to the many healthy people produces far more false positives (98) than true positives (9). Sensitivity and specificity did not change; the population did.
+2. **LR+** = 0.90 / 0.20 = **4.5** in both settings. Likelihood ratios do not depend on prevalence.
+3. **Prevalence 50%:** TP 225, FN 25, FP 50, TN 200 → PPV 225 / 275 = **81.8%**, NPV 200 / 225 = **88.9%**.
+
+These match the slide "Same test, different setting" (4.3) and the prevalence table on the Diagnostic sheet of the 2×2 calculator.
+
+
+
+* * *
+
+## Part E — Read a forest plot and choose the risk-of-bias tool
+
+Numbers are computed by inverse-variance (fixed-effect) pooling of the log risk ratios in `figs_sat2.py`.
+
+| Trial | RR (95% CI) | Weight |
+|---|---|---|
+| Trial 1 | 0.80 (0.41–1.56) | 10% |
+| Trial 2 | 0.83 (0.54–1.28) | 25% |
+| Trial 3 | 1.14 (0.46–2.85) | 5% |
+| Trial 4 | 0.78 (0.55–1.10) | 38% |
+| Trial 5 | 0.74 (0.45–1.23) | 18% |
+| Trial 6 | 0.62 (0.23–1.69) | 5% |
+| **Pooled** | **0.79 (0.64–0.98)** | I² = 0% |
+
+1. **Most weight:** Trial 4 (38%) — the largest trial with the most deaths (103), so the narrowest CI.
+2. **Any single trial clear?** No. Every individual CI crosses 1.
+3. **Pooled:** the diamond does not cross 1. *"Across these six trials, a restrictive strategy was associated with about 21% lower relative risk of death (RR 0.79, 95% CI 0.64 to 0.98); the upper limit is close to no effect."* (For randomised trials "reduced" is acceptable; the point is to give the CI.)
+4. **Trial 3:** No great concern. It is small (5% weight, 15 deaths) with a very wide CI that overlaps all the others; I² = 0% means the spread is compatible with chance.
+
+**Choosing the tool**
+
+| # | Study | Tool |
+|---|---|---|
+| a | Boulet 2024 (RCT) | **RoB 2** |
+| b | Hyun 2023 (cohort, exposure) | **Newcastle–Ottawa** (or **ROBINS-E**) |
+| c | Before–after bundle study | **ROBINS-I** (non-randomised study of an intervention) |
+| d | Point-of-care vs laboratory lactate | **QUADAS-2** (diagnostic accuracy) |
+| e | Systematic review / meta-analysis | **AMSTAR 2** |
+| f | Cluster-randomised hand-hygiene trial | **RoB 2** (its cluster-randomised version) |
+
+Common error: choosing ROBINS-I for Hyun. Accept it with discussion — fluid balance is partly a treatment decision — but the usual choice for an exposure cohort is Newcastle–Ottawa or ROBINS-E.
+
+
+
+* * *
+
+## Part F — Proposal builder 4: what a good answer looks like
+
+Use this model to coach groups; do not hand it out before they have tried. (Rows 1–3 — design, setting, population — are in `s3_solutions.md`.)
+
+| Section | Model answer (observational version of the running question) |
+|---|---|
+| Exposure + comparator | Exposure: positive cumulative fluid balance (ml/kg) at 72 h after ICU admission. Comparator: zero or negative cumulative balance at 72 h. |
+| Outcomes | Primary: all-cause death by day 28 after ICU admission (from the hospital record). Secondary: days alive and free of mechanical ventilation by day 28; new renal-replacement therapy; ICU length of stay. |
+| Biases + mitigation | Confounding by indication (sicker patients receive more fluid): record SOFA, lactate, vasopressor dose, age and comorbidity at admission and adjust or match. Selection bias (requiring 72 h of ICU stay excludes early deaths): state it as a limitation and report how many were excluded and why. Information bias (fluid charts incomplete): pre-specified definitions, two data collectors with a double-entry check on a 10% sample. |
+
+Claim: "associated with" (observational design).
+
+**Common problems to catch while circulating**
+
+1. No comparator ("we will study patients who receive X").
+2. Three "primary" outcomes, or a primary outcome without a time point.
+3. Observational design with no mention of confounding.
+4. A bias named with no concrete mitigation ("we will be careful").

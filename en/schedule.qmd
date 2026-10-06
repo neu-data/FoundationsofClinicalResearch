@@ -1,0 +1,170 @@
+---
+title: "Schedule"
+---
+
+Four weekends, eight sessions of **3 hours** (with a 15-minute break): Session *n* on Saturday, Session *n*+1 on Sunday. Weekends 1–2 build understanding and design skills (Level 1); Weekends 3–4 analyse the simulated **FLUID-ICU** dataset and write it up (Level 2).
+
+| Weekend | Session | Day | Theme | Your group builds |
+|:---:|:--------|:--------|:----------|:------------------------------------|
+| 1 | [Session 1](session1.qmd) | Saturday | **Ask** | Proposal: topic, PICO, question, aims |
+| 1 | [Session 2](session2.qmd) | Sunday | **Find & read** | Proposal: search, 5 references, problem statement, title |
+| 2 | [Session 3](session3.qmd) | Saturday | **Design** | Proposal: design, setting, population |
+| 2 | [Session 4](session4.qmd) | Sunday | **Bias & effect** | Proposal: exposure, outcomes, bias plan |
+| 3 | [Session 5](session5.qmd) | Saturday | **Data** | Proposal: variables, CRF, data plan · Manuscript: Table 1 understood |
+| 3 | [Session 6](session6.qmd) | Sunday | **Analyse** | Proposal: sample size, analysis plan · Manuscript: results interpreted |
+| 4 | [Session 7](session7.qmd) | Saturday | **Protect & write** | Proposal: ethics, feasibility, publication plan · Manuscript: Methods + Results |
+| 4 | [Session 8](session8.qmd) | Sunday | **Publish** | Manuscript: complete draft · Proposal presented |
+
+## Detailed timetables
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Session 1 · Ask: from clinical problem to research question
+
+| Start | Clock* | Min | Segment |
+|:----|:----|---:|:------------------------------------------------------------|
+| 0:00 | 08:00 | 20 | Welcome, introductions, course map, groups and roles, ground rules |
+| 0:20 | 08:20 | 15 | Pre-course quiz |
+| 0:35 | 08:35 | 35 | **1.1 Why research?** Anecdote vs evidence, evidence pyramid, research cycle, types of research, research vs audit vs QI, the journey from idea to publication |
+| 1:10 | 09:10 | 15 | BREAK |
+| 1:25 | 09:25 | 40 | **1.2 From problem to question:** where questions come from, PICO(T) with several worked examples, descriptive vs analytical questions, vague vs answerable, FINER (pair task) |
+| 2:05 | 10:05 | 20 | **1.3 Aims, objectives, hypotheses** (null vs alternative) + quick exercise |
+| 2:25 | 10:25 | 30 | **Proposal builder 1:** choose topic, PICO, research question, FINER check, aim & objectives |
+| 2:55 | 10:55 | 5 | Wrap-up, homework |
+
+\*Times are relative to the start of the session; the clock column shows an example 08:00–11:00 session. **[L2]** = Level 2 (course dataset).
+
+[Session page →](session1.qmd)
+:::
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Session 2 · Find & read: the evidence
+
+| Start | Clock* | Min | Segment |
+|:----|:----|---:|:------------------------------------------------------------|
+| 0:00 | 08:00 | 10 | Recap quiz |
+| 0:10 | 08:10 | 40 | **2.1 Finding the evidence:** search funnel, PICO → search blocks, Boolean, MeSH, search tools, PubMed vs Google Scholar, **live PubMed demo** |
+| 0:50 | 08:50 | 20 | **2.2 Managing and citing:** reference managers (**Zotero demo**), citation styles, paraphrasing safely, grey literature & trial registries |
+| 1:10 | 09:10 | 15 | BREAK |
+| 1:25 | 09:25 | 40 | **2.3 Reading a paper in 15 minutes:** IMRaD, reading order, what an abstract must contain, spin; individual task on Paper 1's abstract |
+| 2:05 | 10:05 | 15 | **2.4 From literature to introduction:** literature matrix, problem-statement funnel, working title & keywords |
+| 2:20 | 10:20 | 35 | **Proposal builder 2:** search string, 5 references in the matrix, problem statement, working title |
+| 2:55 | 10:55 | 5 | Wrap-up |
+
+\*Times are relative to the start of the session; the clock column shows an example 08:00–11:00 session. **[L2]** = Level 2 (course dataset).
+
+[Session page →](session2.qmd)
+:::
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Session 3 · Design: choosing the right study
+
+| Start | Clock* | Min | Segment |
+|:----|:----|---:|:------------------------------------------------------------|
+| 0:00 | 08:00 | 10 | Recap quiz |
+| 0:10 | 08:10 | 45 | **3.1 Study designs in pictures:** descriptive vs analytical, case report/series, cross-sectional, case-control, cohort, RCT, systematic review/meta-analysis, evidence pyramid, decision tree, strengths & weaknesses, what each design can claim |
+| 0:55 | 08:55 | 15 | Exercise: Name that design |
+| 1:10 | 09:10 | 15 | BREAK |
+| 1:25 | 09:25 | 35 | **3.2 More designs:** trial variants (parallel, crossover, cluster, factorial; superiority vs non-inferiority), pilot/feasibility, before–after & interrupted time series (QI), qualitative designs; matching design to question |
+| 2:00 | 10:00 | 20 | Exercise: choose the design for 5 questions (incl. your own) |
+| 2:20 | 10:20 | 35 | **Proposal builder 3:** design + justification, setting, population (inclusion/exclusion) |
+| 2:55 | 10:55 | 5 | Wrap-up |
+
+\*Times are relative to the start of the session; the clock column shows an example 08:00–11:00 session. **[L2]** = Level 2 (course dataset).
+
+[Session page →](session3.qmd)
+:::
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Session 4 · Bias & effect: can we trust it, how big is it?
+
+| Start | Clock* | Min | Segment |
+|:----|:----|---:|:------------------------------------------------------------|
+| 0:00 | 08:00 | 10 | Recap quiz |
+| 0:10 | 08:10 | 40 | **4.1 Bias, confounding and causation:** random error vs bias, selection, information, confounding (by indication), interaction, validity, Bradford Hill, reverse causation, how designs fight bias; spot-the-bias quiz |
+| 0:50 | 08:50 | 30 | **4.2 Measuring disease and association:** prevalence vs incidence, risk, 2×2, RR / OR / RD / NNT, OR vs RR; **live 2×2 calculator demo** |
+| 1:20 | 09:20 | 15 | BREAK |
+| 1:35 | 09:35 | 20 | Exercise: two 2×2 calculations |
+| 1:55 | 09:55 | 30 | **4.3 Beyond single studies:** diagnostic accuracy (sens/spec, PPV & prevalence, ROC), systematic reviews & forest plots, heterogeneity, risk-of-bias tools, "are the conclusions supported?" (pair task) |
+| 2:25 | 10:25 | 30 | **Proposal builder 4:** exposure & comparator, outcomes, main biases & mitigation |
+| 2:55 | 10:55 | 5 | Wrap-up |
+
+\*Times are relative to the start of the session; the clock column shows an example 08:00–11:00 session. **[L2]** = Level 2 (course dataset).
+
+[Session page →](session4.qmd)
+:::
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Session 5 · Data: collect it well, describe it honestly
+
+| Start | Clock* | Min | Segment |
+|:----|:----|---:|:------------------------------------------------------------|
+| 0:00 | 08:00 | 10 | Recap quiz |
+| 0:10 | 08:10 | 35 | **5.1 Good data by design:** variable types, CRF principles, data dictionary, validation, data management (EDC, double entry, audit trail, backups), preventing missing data |
+| 0:45 | 08:45 | 25 | **5.2 [L2] Meet the course dataset:** the FLUID-ICU study, its data dictionary, raw vs clean data, the data-quality problems found, **live R demo of cleaning** and the cleaning log; group questions assigned |
+| 1:10 | 09:10 | 15 | BREAK |
+| 1:25 | 09:25 | 35 | **5.3 Describing and showing data:** mean/median, SD/IQR, shapes, which graph for which data, good vs bad figures, publication-quality tables, Table 1 |
+| 2:00 | 10:00 | 25 | **5.4 [L2] Describe the course dataset:** live demo of Table 1 and figures; each group reads its results pack's Table 1 and figures (worksheet) |
+| 2:25 | 10:25 | 30 | **Proposal builder 5:** variables table, mini-CRF, data dictionary rows, data-management plan |
+| 2:55 | 10:55 | 5 | Wrap-up |
+
+\*Times are relative to the start of the session; the clock column shows an example 08:00–11:00 session. **[L2]** = Level 2 (course dataset).
+
+[Session page →](session5.qmd)
+:::
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Session 6 · Analyse: from sample to answer
+
+| Start | Clock* | Min | Segment |
+|:----|:----|---:|:------------------------------------------------------------|
+| 0:00 | 08:00 | 10 | Recap quiz |
+| 0:10 | 08:10 | 40 | **6.1 From sample to population:** CI, p-values & misinterpretations, type I/II errors, power, sample size (**live demo**), choosing a test, paired vs unpaired, multiple comparisons |
+| 0:50 | 08:50 | 20 | **6.2 [L2] Compare groups in the course dataset:** live demo (t-test / Mann–Whitney / chi-square); groups interpret their outputs |
+| 1:10 | 09:10 | 15 | BREAK |
+| 1:25 | 09:25 | 35 | **6.3 Relationships and models:** correlation, linear and logistic regression, adjustment, interaction, overfitting, Kaplan–Meier & Cox, prediction/ML; reading regression tables & forest plots |
+| 2:00 | 10:00 | 25 | **6.4 [L2] Model the course dataset:** crude vs adjusted OR (confounding by indication made visible), Kaplan–Meier + Cox HR, complete-case vs multiple imputation; the SAP that was written before the analysis |
+| 2:25 | 10:25 | 30 | **Proposal builder 6:** sample size, analysis plan, missing-data plan |
+| 2:55 | 10:55 | 5 | Wrap-up |
+
+\*Times are relative to the start of the session; the clock column shows an example 08:00–11:00 session. **[L2]** = Level 2 (course dataset).
+
+[Session page →](session6.qmd)
+:::
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Session 7 · Protect & write: ethics, integrity, Methods and Results
+
+| Start | Clock* | Min | Segment |
+|:----|:----|---:|:------------------------------------------------------------|
+| 0:00 | 08:00 | 10 | Recap quiz |
+| 0:10 | 08:10 | 30 | **7.1 Protocol, ethics and consent:** protocol (SPIRIT), Helsinki & GCP, ethics committee journey, consent incl. ICU consent, registration, confidentiality, feasibility |
+| 0:40 | 08:40 | 20 | **7.2 Research integrity:** FFP, duplicate/salami, authorship & CRediT, conflicts of interest, data sharing, AI use |
+| 1:00 | 09:00 | 15 | **Proposal builder 7:** ethics, registration, feasibility, publication plan |
+| 1:15 | 09:15 | 15 | BREAK |
+| 1:30 | 09:30 | 35 | **7.3 Writing the paper (I):** writing order, Methods (incl. statistical paragraph), Results (participants first, numbers with CIs, no interpretation), stand-alone tables & figures, STROBE for the course-dataset paper |
+| 2:05 | 10:05 | 50 | **[L2] Manuscript workshop 1:** each group drafts Methods + Results (~600 words) with Table 1 and one figure/table from its results pack |
+| 2:55 | 10:55 | 5 | Wrap-up |
+
+\*Times are relative to the start of the session; the clock column shows an example 08:00–11:00 session. **[L2]** = Level 2 (course dataset).
+
+[Session page →](session7.qmd)
+:::
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Session 8 · Publish: finish the paper, get it out, present
+
+| Start | Clock* | Min | Segment |
+|:----|:----|---:|:------------------------------------------------------------|
+| 0:00 | 08:00 | 5 | Recap |
+| 0:05 | 08:05 | 25 | **8.1 Writing the paper (II):** Introduction funnel, Discussion six moves, calibrated language, conclusion, abstract, title & keywords |
+| 0:30 | 08:30 | 30 | **[L2] Manuscript workshop 2:** Introduction, Discussion, Abstract and Title → complete draft |
+| 1:00 | 09:00 | 15 | BREAK |
+| 1:15 | 09:15 | 25 | **8.2 Getting published:** reporting guidelines (**EQUATOR demo**), choosing a journal, open access & licences, predatory journals, submission package, peer review, responding to reviewers, rejection & resubmission, proofs, conference abstracts |
+| 1:40 | 09:40 | 20 | **8.3 Be the reviewer:** simplified appraisal of Papers 1–2 (jigsaw, 10-question checklist) — training for the manuscript peer review after the course |
+| 2:00 | 10:00 | 45 | **Group presentations:** own-topic research proposal + publication plan (5 groups × 6 min + 2 min feedback) + 5-min summary of the manuscript work |
+| 2:45 | 10:45 | 15 | Post-course quiz, evaluation, next steps (peer-review swap of manuscripts as homework) |
+
+\*Times are relative to the start of the session; the clock column shows an example 08:00–11:00 session. **[L2]** = Level 2 (course dataset).
+
+[Session page →](session8.qmd)
+:::

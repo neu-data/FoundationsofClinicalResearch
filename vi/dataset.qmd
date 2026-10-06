@@ -1,0 +1,53 @@
+---
+title: "Bộ dữ liệu khóa học: FLUID-ICU"
+---
+
+::: {.simulated}
+**Dữ liệu mô phỏng — không phải bệnh nhân thật.** FLUID-ICU là một nghiên cứu giả định: mọi giá trị đều do chương trình máy tính tạo ra với hạt giống ngẫu nhiên cố định. Dữ liệu không mô tả bất kỳ bệnh nhân, bệnh viện hay ICU thật nào. Mọi bản thảo viết từ bộ dữ liệu này phải ghi rõ dữ liệu là mô phỏng và không bao giờ được nộp như một nghiên cứu thật.
+:::
+
+FLUID-ICU là một nghiên cứu thuần tập tiến cứu đa trung tâm mô phỏng gồm **620 người lớn bị nhiễm khuẩn huyết** nhập 4 ICU ("ICU A" đến "ICU D") từ tháng 1/2023 đến tháng 12/2024. Bộ dữ liệu đưa ví dụ xuyên suốt của khóa học vào Buổi 5–8: *cân bằng dịch tích lũy dương vào ngày 3 có liên quan với tử vong 28 ngày cao hơn không?* Dữ liệu được xây dựng để các bài học kinh điển hiện ra trong kết quả: **nhiễu do chỉ định** (bệnh nhân nặng hơn được truyền nhiều dịch hơn và tử vong nhiều hơn, nên OR thô lớn hơn rõ rệt so với OR hiệu chỉnh), **dữ liệu thiếu** (lactate thiếu khoảng 15%), **kết cục lệch** (thời gian nằm ICU) và một **tương tác** đáng bàn (suy tim). Bản dữ liệu thô với các lỗi chất lượng thực tế được dùng trong trình diễn làm sạch ở Buổi 5.
+
+Mỗi nhóm trong năm nhóm trả lời một câu hỏi khác nhau trên cùng bộ dữ liệu và viết thành bản thảo, dựa trên **gói kết quả** của nhóm (Bảng 1, biểu đồ, bảng hồi quy và ghi chú bằng lời đơn giản).
+
+## Năm câu hỏi của các nhóm
+
+| | Câu hỏi | Phương pháp chính | Gói kết quả |
+|:-:|:------------------------------|:------------------------|:------------------|
+| 1 | Cân bằng dịch dương vào ngày 3 và tử vong 28 ngày (câu hỏi chính) | Hồi quy logistic (thô và hiệu chỉnh), Kaplan–Meier, Cox, tương tác với suy tim | [Đọc trực tuyến](results-q1.qmd) · [Word](files/data/results_packs/Results_Pack_Q1.docx) · [PDF](files/data/results_packs/Results_Pack_Q1.pdf) · [zip](files/data/results_packs/Results_Pack_Q1.zip) |
+| 2 | Cân bằng dịch tích lũy và tổn thương thận cấp | Hồi quy logistic, cân bằng dịch theo mỗi 10 ml/kg | [Đọc trực tuyến](results-q2.qmd) · [Word](files/data/results_packs/Results_Pack_Q2.docx) · [PDF](files/data/results_packs/Results_Pack_Q2.pdf) · [zip](files/data/results_packs/Results_Pack_Q2.zip) |
+| 3 | Cân bằng dịch tích lũy và số ngày không thở máy | Mann–Whitney; hồi quy tuyến tính | [Đọc trực tuyến](results-q3.qmd) · [Word](files/data/results_packs/Results_Pack_Q3.docx) · [PDF](files/data/results_packs/Results_Pack_Q3.pdf) · [zip](files/data/results_packs/Results_Pack_Q3.zip) |
+| 4 | Lactate lúc nhập viện và tử vong 28 ngày; ảnh hưởng của lactate bị thiếu | Phân tích ca đầy đủ và đa quy gán (mice, m = 20) | [Đọc trực tuyến](results-q4.qmd) · [Word](files/data/results_packs/Results_Pack_Q4.docx) · [PDF](files/data/results_packs/Results_Pack_Q4.pdf) · [zip](files/data/results_packs/Results_Pack_Q4.zip) |
+| 5 | Cân bằng dịch và thời gian nằm ICU ở người sống sót | Trung vị (IQR); Mann–Whitney; hồi quy tuyến tính trên thang log | [Đọc trực tuyến](results-q5.qmd) · [Word](files/data/results_packs/Results_Pack_Q5.docx) · [PDF](files/data/results_packs/Results_Pack_Q5.pdf) · [zip](files/data/results_packs/Results_Pack_Q5.zip) |
+
+## Tải xuống
+
+| | |
+|:--|:--|
+| Dữ liệu thô (như 4 ICU gửi về: 623 dòng có lỗi) | [CSV](files/data/fluid_icu_raw.csv) · [Excel](files/data/fluid_icu_raw.xlsx) |
+| Dữ liệu sạch (620 bệnh nhân, 32 biến) | [CSV](files/data/fluid_icu_clean.csv) · [R (.rds, giữ nhãn biến phân loại)](files/data/fluid_icu_clean.rds) |
+| Từ điển dữ liệu | [CSV](files/data/data_dictionary.csv) · [PDF](files/data/Data_Dictionary.pdf) |
+| Kế hoạch phân tích thống kê | [PDF](files/data/SAP_FLUID-ICU.pdf) |
+| Dự án R: script 00–06, dữ liệu, từ điển, README | [zip](files/data/FLUID-ICU_R_project.zip) |
+| Đọc trực tuyến (tiếng Anh) | [Từ điển dữ liệu](data-dictionary.qmd) · [Nhật ký làm sạch](cleaning-log.qmd) · [Kế hoạch phân tích thống kê](sap.qmd) |
+
+## Các phân tích được thực hiện thế nào
+
+**Học viên không cần chạy gì cả:** ở Buổi 5 và 6, giảng viên chạy trực tiếp các script R (từng khối trong RStudio), học viên đọc kết quả in sẵn và gói kết quả của nhóm. Các script dành cho học viên đã học khóa miễn phí *Phân tích Dữ liệu Lâm sàng bằng R* của Neudata và muốn tự chạy lại: giải nén dự án R, mở `FLUID-ICU.Rproj` trong RStudio (tự đặt thư mục làm việc) và chạy các script **theo thứ tự**. Script `01_clean.R` kết thúc bằng việc kiểm tra kết quả trùng khớp từng giá trị với tệp dữ liệu sạch. Script `00_generate_fluid_icu.R` tạo lại dữ liệu mô phỏng (chỉ dành cho nhóm giảng dạy; cho cùng kết quả vì hạt giống cố định).
+
+```bash
+cd Course/Data      # or the folder where you unzipped FLUID-ICU_R_project.zip
+Rscript R/01_clean.R          # S5 demo: raw -> clean; checks the result equals the clean file
+Rscript R/02_describe.R       # S5 demo: Table 1 + histogram, boxplot, bar chart
+Rscript R/03_compare.R        # S6 demo: t-test, Mann-Whitney, chi-square
+Rscript R/04_models.R         # S6 demo: crude vs adjusted OR, forest plot, KM, Cox, interaction
+Rscript R/05_missing.R        # S6 demo: missing lactate, complete case vs multiple imputation
+Rscript R/06_results_packs.R  # (course team) rebuilds the results packs
+```
+
+R 4.3 trở lên với các gói sau:
+
+```r
+install.packages(c("tidyverse", "janitor", "writexl", "readxl", "gtsummary", "gt",
+                   "flextable", "officer", "broom", "survival", "survminer", "mice"))
+```

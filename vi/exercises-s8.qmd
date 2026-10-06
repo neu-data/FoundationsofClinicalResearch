@@ -1,0 +1,212 @@
+---
+title: "Buổi 8 — Phiếu bài tập"
+---
+
+::: {.lang-note}
+Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
+:::
+
+📥 [PDF](files/sessions/s8_exercises.pdf) · [Trang buổi học](session8.qmd)
+
+**Foundations of Clinical Research · Session 8 (Weekend 4, Sunday): Publish — finish the paper, get it out, present**
+
+| Part | Exercise | When | Time |
+|---|---|---|---|
+| A | Writing exercises: fix the spin, verb ladder, results sentence, title from PICO | warm-up / homework | 15 min |
+| B | **[L2] Manuscript workshop 2** — Introduction, Discussion, Abstract, Title | 0:30 | 30 min |
+| C | Getting published: spot the predatory journal; responding to reviewers | at home | 25 min |
+| D | **Student appraisal pack — "Be the reviewer"** | 1:40 | 20 min |
+
+
+* * *
+
+## Part A — Writing exercises (section 8.1; warm-up or homework)
+
+Use these to practise before or after Manuscript workshop 2: A2 and A3 can be done in class if a group finishes early; the rest are homework.
+
+### A1. Fix the spin
+Rewrite each sentence so it says only what the data and the design allow.
+
+| # | Original sentence (from the papers) | Your rewrite |
+|---|---|---|
+| a | Paper 1 (p.10), primary outcome p = 0.42, difference 13.2 ml/kg (95% CI −15.2 to 41.6): the authors base the case for a larger trial on "the non-significant trend in fluid balance reduction". | |
+| b | Paper 2 (p.4): "a positive fluid balance on the first ICU day did not impact the 28-day mortality". | |
+| c | Paper 2 (title): "Impact of a cumulative positive fluid balance during the first three ICU days in patients with sepsis …" | |
+| d | Paper 1 (p.10): the protocol obtained "the lowest fluid balance on Day 5 ever published". | |
+
+### A2. Climb the verb ladder
+Choose the strongest verb each design allows: **was observed in · is associated with · may contribute to · reduced / did not reduce · causes**.
+
+| # | Study | Strongest honest verb |
+|---|---|---|
+| a | A case series of 12 ICU patients who developed pressure injuries under a new mattress | |
+| b | A cohort of 3,000 septic patients: positive fluid balance and mortality, adjusted for severity | |
+| c | A single randomised trial of 48 patients: restrictive protocol and day-5 fluid balance | |
+| d | Five large randomised trials and a meta-analysis, all consistent | |
+| e | A cross-sectional survey of hand-hygiene compliance on two wards | |
+
+### A3. Write the results sentence (number + CI, no adjectives)
+Write one sentence for each, in the style "In [whom], [outcome] was [effect] ([measure] [value], 95% CI [lower] to [upper])".
+
+1. Paper 2, Day-3 cohort: 28-day mortality, positive vs negative fluid balance, HR 1.56, 95% CI 1.10 to 2.22, P = 0.012.
+2. Paper 1: death by day 28, 6/24 (restrictive) vs 6/24 (control), relative risk 1.0, 95% CI 0.38 to 2.66.
+3. Paper 2, Day-1 cohort: HR 1.17, 95% CI 0.85 to 1.60, P = 0.354.
+
+### A4. A title from your PICO
+Formula: **[Design] of [Intervention / exposure] vs [Comparator] in [Population]: effect on / association with [Outcome]**. 10–16 words, design stated, no "impact", "novel", "first".
+
+Our PICO: P ______________ I/E ______________ C ______________ O ______________
+
+Working title: ________________________________________________________________
+
+Word count: ____  Design named? ☐  Calibrated verb (association for observational designs)? ☐
+
+
+* * *
+
+## Part B — [L2] Manuscript workshop 2: complete the draft (30 minutes)
+
+Start from yesterday's file (`FLUID-ICU_Q[n]_draft1`). Today you add the **Introduction, Discussion, Abstract and Title** — and the draft is complete.
+
+### Roles and timing
+| Minute | Who | Task |
+|---|---|---|
+| 0–8 | 2 people | **Introduction** — three paragraphs (known → not known → aim), ~350 words, references from Sessions 1–2 + Papers 1–2 |
+| 0–15 | 3 people | **Discussion** — six moves (answer, compare, explain, limitations with direction, implications, conclusion), ~600 words |
+| 0–15 | 1 person | Number and verb checker: reads Methods + Results again; prepares the abstract numbers |
+| 15–23 | all | **Abstract** — Background / Methods / Results / Conclusions, ≤ 250 words, numbers copied from the Results |
+| 23–27 | all | **Title** (10–16 words, design stated, calibrated verb) + 3–6 keywords (MeSH, not already in the title) |
+| 27–30 | checker | Verb check: every "cause", "impact", "effect of", "show" → "associated with"; every number identical in abstract and Results |
+
+### Discussion — six moves checklist
+- [ ] **1 Answer**: first sentence answers the question with the main number (adjusted estimate + 95% CI)
+- [ ] **2 Compare**: with Paper 2 and at least one other study — and why results may differ
+- [ ] **3 Explain**: one short paragraph on mechanism / plausibility
+- [ ] **4 Limitations**: observational design (residual confounding — especially severity), simulated/teaching data, missing data, single time point… each with its likely *direction*
+- [ ] **5 Implications**: for practice (cautious) and research (e.g. a randomised trial such as Paper 1)
+- [ ] **6 Conclusion**: one sentence, same verb and message as the abstract and title
+
+### Group-specific reminders
+- **Q1:** crude and adjusted ORs differ — explain confounding by indication in move 3/4.
+- **Q2:** AKI may also *cause* fluid accumulation (reverse causation) — say so.
+- **Q3:** ventilator-free days are skewed and include death as zero — explain what the measure means.
+- **Q4:** compare complete-case and multiple-imputation estimates; say what the missing-data assumption (MAR) means for your conclusion.
+- **Q5:** survivors only — those who died are excluded, so say who the result applies to.
+
+### Deliverable
+A complete draft (~2,000 words, Template: `Templates/Manuscript_Template_IMRaD.docx`) saved as `FLUID-ICU_Q[n]_draft2`. After the course: peer-review swap (2 weeks) using the 10-question checklist (Part D) and a response letter (`Templates/Response_to_Reviewers_Template.docx`).
+
+## Part C — Getting published (section 8.2, at home)
+
+### C1. Spot the predatory journal
+
+**1. Circle the red flags** in this (invented) invitation. How many can you find?
+
+> **From:** editorial.board.gjcmr@freemail.com
+> **Subject:** Invitation to publish in our esteemed journal!!
+>
+> Dear Respected Professor/Doctor,
+>
+> Greetings! We have gone through your excellent article and are delighted to invite you to submit to the *Global Journal of Clinical Medicine, Nursing, Engineering and Management Research*. We publish all areas of science.
+>
+> Our journal has an Impact Factor of 9.2 (International Universal Index). We guarantee peer review within 48 hours and publication in 5 days. Processing charges will be communicated after acceptance. Special discount this week only!
+>
+> Kindly submit your manuscript by replying to this e-mail.
+
+**2. Which journal would you trust?** For each (invented) profile, write *Trust / Check further / Avoid* and one reason.
+
+| Journal profile | Your verdict | Reason |
+|---|---|---|
+| J1: Indexed in MEDLINE (confirmed in the NLM Catalog), editor names verifiable at universities, fee (APC) shown on the website, median 9 weeks to first decision, uses CONSORT/STROBE checklists. | | |
+| J2: Says "indexed in Google Scholar and Index Copernicus", promises acceptance in 72 hours, no fee information, editorial board photos without affiliations. | | |
+| J3: Open access, listed in DOAJ, small society journal, no impact factor yet, clear peer-review and retraction policy. | | |
+| J4: Its name differs by one word from a well-known journal; the website address is different from the real journal's; it e-mailed you first. | | |
+
+**3. Three checks you can always do:** Think.Check.Submit checklist · DOAJ (open-access journals) · NLM Catalog ("currently indexed in MEDLINE") — and ask your librarian.
+
+
+* * *
+
+### C2. Responding to reviewers
+
+Imagine your group's study has been completed and submitted. Write a response row for each comment (thank, answer, say exactly what changed). One of them deserves a polite rebuttal.
+
+| # | Reviewer comment | Our response | Change made (page, line) |
+|---|---|---|---|
+| R1.1 | "The title says your intervention *improves* outcomes, but this is an observational study." | | |
+| R1.2 | "Please report the main result with a confidence interval, not only the p-value." | | |
+| R1.3 | "Text and Table 2 give different numbers of patients analysed (212 vs 208)." | | |
+| R2.1 | "Please add 1-year mortality." (Your protocol followed patients to day 28 only.) | | |
+
+Tone checklist: ☐ thanked the reviewer ☐ answered every point ☐ said where the manuscript changed ☐ disagreed only with evidence, politely
+
+
+* * *
+
+## Part D — Student appraisal pack: "Be the reviewer" (20 minutes, 1:40)
+
+### What you are doing
+Two published papers answer our running question — **fluids in septic shock** — with different designs:
+
+| | Paper | Design | Who appraises it |
+|---|---|---|---|
+| **Paper 1** | Boulet N, et al. *Crit Care* 2024;28:429 — restrictive strategy targeting non-resuscitative fluids (OPTIFLUID) | Randomised controlled pilot trial, 48 patients | **Groups 1, 2, 3** |
+| **Paper 2** | Hyun D-G, et al. *Ann Intensive Care* 2023;13:105 — cumulative positive fluid balance in the first three ICU days | Propensity-score-matched cohort from a sepsis registry, 2516 patients | **Groups 4, 5** |
+
+You do **not** need to understand every statistic. Answer each question **Yes / No / Can't tell** and write **the page** where you found the answer. "Can't tell" is a good answer when the paper does not say.
+
+> **Page numbers** are the journal's own page numbers printed at the top of each page ("Page X of 13" for Paper 1, "Page X of 9" for Paper 2). Use the original (unannotated) PDF or printout.
+
+### Step by step (10 minutes of group work)
+| Minute | What to do |
+|---|---|
+| 0–1 | Choose a **timekeeper** and a **speaker**. Split into three pairs: pair A = questions 1–3, pair B = 4–6, pair C = 7–10. |
+| 1–7 | Each pair reads **only the pages listed** for its questions (table below) and fills in its rows of the grid. |
+| 7–9 | The group goes through all 10 questions together and agrees the answers. |
+| 9–10 | Write your **one-sentence verdict** ("This paper shows / suggests … but …"). |
+
+Then the plenary (8 minutes): each group reports for 1 minute on the questions the instructor assigns, and we compare what each design may claim.
+
+> **Tip:** read the papers' abstracts at home the evening before (Session 7 homework) — the 10 minutes then go much further.
+> **After the course** you use the **same 10 questions** to review another group's FLUID-ICU manuscript (peer-review swap, 2 weeks).
+
+### Where to look
+| Question | Paper 1 (RCT) — pages | Paper 2 (cohort) — pages |
+|---|---|---|
+| 1 Question | Abstract (p.1); last paragraph of Background (p.3) | Abstract (p.1); end of Background (p.2) |
+| 2 Design | Title (p.1); "Trial design and oversight" (p.3) | Title (p.1); Methods (pp.2–3) |
+| 3 Participants | "Patients" (p.3); flow chart Fig. 1 (p.5); Discussion limitations (p.10) | "Data source and patient selection" (p.2); Results first paragraph (p.3) |
+| 4 Comparison groups | "Randomization and blinding" (p.3); Table 1 (p.6) | "Propensity score matching" (pp.2–3); Table 1 (pp.5–6); text p.4 |
+| 5 Bias | "Randomization and blinding" (p.3); Discussion (p.8) | Methods (pp.2–3); Discussion limitations (pp.7–8) |
+| 6 Outcome | "Outcomes" (p.4) | "Propensity score matching and outcomes" (p.3) |
+| 7 Numbers | "Primary outcome" (p.6); Table 3 (p.10) | Abstract (p.1); "Outcomes" (p.4) |
+| 8 Words vs design | Abstract conclusion (p.1); Discussion (pp.8, 10); Conclusions (p.11) | Title (p.1); Abstract conclusion (p.1); Discussion (pp.4, 7); Conclusions (p.8) |
+| 9 Limitations | Discussion (pp.8–10) | Discussion (pp.7–8) |
+| 10 Use | Your judgement — whole paper | Your judgement — whole paper |
+
+### Answer grid
+Group number: ____   Paper: 1 / 2   Speaker: ______________
+
+| # | Question (simplified appraisal checklist) | Yes | No | Can't tell | Page | Notes (one line) |
+|---|---|---|---|---|---|---|
+| 1 | **Question** — Can you write the study's PICO in one line? | ☐ | ☐ | ☐ | | P: … I/E: … C: … O: … |
+| 2 | **Design** — What is the design, and is it the right one for the question? | ☐ | ☐ | ☐ | | |
+| 3 | **Participants** — Who was included, and who was left out? Would your patients have been included? | ☐ | ☐ | ☐ | | |
+| 4 | **Comparison groups** — Were the groups similar at the start (Table 1)? How was this achieved (randomisation / matching / adjustment)? | ☐ | ☐ | ☐ | | |
+| 5 | **Bias** — Who knew which group patients were in (blinding)? Could that change the outcome? | ☐ | ☐ | ☐ | | |
+| 6 | **Outcome** — Was there ONE pre-specified primary outcome, measured the same way in both groups? | ☐ | ☐ | ☐ | | |
+| 7 | **Numbers** — What is the main result as an effect size with 95% CI? Is the CI narrow or wide? | ☐ | ☐ | ☐ | | Effect: ……… 95% CI: ……… |
+| 8 | **Words vs design** — Do the conclusions match the design ("associated" vs "caused"; no "trend" for p = 0.42)? | ☐ | ☐ | ☐ | | Words found: |
+| 9 | **Limitations** — Are the main limitations stated honestly? Name one the authors missed. | ☐ | ☐ | ☐ | | Missed: |
+| 10 | **Use** — Would this change practice in your unit? Why / why not? | ☐ | ☐ | ☐ | | |
+
+**Our verdict in one sentence:** ______________________________________________
+
+**One thing we would copy into our own proposal:** ______________________________
+
+### Hints if you are stuck
+- **Q1:** the PICO is usually in the last paragraph of the Introduction ("we aimed to …"). Is the paper's outcome the same as in our running question (28-day mortality)?
+- **Q4:** a randomised trial makes groups similar by chance; a cohort can only match or adjust for what was measured. Find the sentence that says which.
+- **Q5:** who decided how much fluid each patient received — and did they know the group?
+- **Q7:** look for "difference" or "HR" followed by brackets. Does the interval include 0 (for a difference) or 1 (for a ratio)?
+- **Q8:** search for the words *impact, show, trend, ever, regardless*.

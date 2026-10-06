@@ -1,0 +1,63 @@
+---
+title: "Session 4 · Bias & effect: can we trust it, how big is it?"
+subtitle: "Weekend 2 · Sunday · 3 hours (15-minute break)"
+---
+
+## Agenda
+
+- Recap quiz on Session 3 (10 min)
+- 4.1  Bias, confounding and causation (40 min)
+- 4.2  Measuring disease and association + live 2x2 demo (30 min)
+- Break (15 min) - then two 2x2 calculations (20 min)
+- 4.3  Beyond single studies: tests, meta-analysis, appraisal (30 min)
+- Proposal builder 4: exposure, outcomes, biases (30 min) - wrap-up
+
+## Timetable
+
+| Start | Clock* | Min | Segment |
+|:----|:----|---:|:------------------------------------------------------------|
+| 0:00 | 08:00 | 10 | Recap quiz |
+| 0:10 | 08:10 | 40 | **4.1 Bias, confounding and causation:** random error vs bias, selection, information, confounding (by indication), interaction, validity, Bradford Hill, reverse causation, how designs fight bias; spot-the-bias quiz |
+| 0:50 | 08:50 | 30 | **4.2 Measuring disease and association:** prevalence vs incidence, risk, 2×2, RR / OR / RD / NNT, OR vs RR; **live 2×2 calculator demo** |
+| 1:20 | 09:20 | 15 | BREAK |
+| 1:35 | 09:35 | 20 | Exercise: two 2×2 calculations |
+| 1:55 | 09:55 | 30 | **4.3 Beyond single studies:** diagnostic accuracy (sens/spec, PPV & prevalence, ROC), systematic reviews & forest plots, heterogeneity, risk-of-bias tools, "are the conclusions supported?" (pair task) |
+| 2:25 | 10:25 | 30 | **Proposal builder 4:** exposure & comparator, outcomes, main biases & mitigation |
+| 2:55 | 10:55 | 5 | Wrap-up |
+
+\*Times are relative to the start of the session; the clock column shows an example 08:00–11:00 session. **[L2]** = Level 2 (course dataset).
+
+## Slides
+
+```{=html}
+<div class="slides-embed"><iframe src="slides-s4.html" title="Session 4 · Bias &amp; effect: can we trust it, how big is it?" loading="lazy" allowfullscreen></iframe></div>
+```
+
+[Open the slides full screen](slides-s4.qmd){.btn .btn-primary role="button"} — Press **F** for full screen, **S** for speaker notes, **E** to print, **Esc** for an overview.
+
+## Downloads
+
+| | |
+|:--|:--|
+| 🎞️ **Slides (PowerPoint)** | [English](files/slides/Session_4_EN.pptx) · [Tiếng Việt](../vi/files/slides/Session_4_VN.pptx) |
+| 📝 **Exercise sheet** | [Read online](exercises-s4.qmd) · [PDF](files/sessions/s4_exercises.pdf) |
+| ✅ **Solutions** | [Read online](solutions-s4.qmd) · [PDF](files/sessions/s4_solutions.pdf) |
+| 💻 **Live-demo script** | [Read online](demo-s4.qmd) · [PDF](files/sessions/s4_demo.pdf) |
+
+## Before this session
+
+- Your group's design, setting and population (Proposal Part 2, started in Session 3).
+
+## After this session (homework)
+
+- **Group:** finish Proposal Part 2 (exposure and comparator, outcomes, main biases and mitigation).
+- Exercises B and D on the Session 4 sheet if not done in class (confounding or effect modification; PPV in two settings).
+
+## Related materials
+
+- [2×2 calculator and risk-of-bias tool chooser (Resources)](resources.qmd)
+- [Critical appraisal checklist](resources.qmd)
+
+---
+
+[← Previous session](session3.qmd) · [Schedule](schedule.qmd) · [Next session →](session5.qmd)

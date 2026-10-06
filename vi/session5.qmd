@@ -1,0 +1,66 @@
+---
+title: "Buổi 5 · Dữ liệu: thu thập tốt, mô tả trung thực"
+subtitle: "Cuối tuần 3 · Thứ Bảy · 3 giờ (giải lao 15 phút)"
+---
+
+## Nội dung
+
+- Câu hỏi ôn tập Buổi 3-4 (10 phút)
+- 5.1 Dữ liệu tốt từ khâu thiết kế: biến số, CRF, từ điển dữ liệu, kiểm tra, quản lý dữ liệu
+- 5.2 Làm quen bộ dữ liệu khóa học FLUID-ICU (trình diễn làm sạch bằng R)
+- 5.3 Mô tả và trình bày dữ liệu: tóm tắt, biểu đồ, bảng
+- 5.4 Mô tả bộ dữ liệu khóa học: Bảng 1 và biểu đồ
+- Xây dựng đề cương 5: biến số, CRF thu gọn, từ điển dữ liệu, quản lý dữ liệu
+
+## Thời gian biểu
+
+| Bắt đầu | Giờ* | Phút | Hoạt động |
+|:----|:----|---:|:------------------------------------------------------------|
+| 0:00 | 08:00 | 10 | Câu hỏi ôn tập |
+| 0:10 | 08:10 | 35 | **5.1 Dữ liệu tốt từ khâu thiết kế:** loại biến, nguyên tắc thiết kế CRF, từ điển dữ liệu, kiểm tra hợp lệ, quản lý dữ liệu (EDC, nhập liệu kép, nhật ký thay đổi, sao lưu), phòng tránh dữ liệu thiếu |
+| 0:45 | 08:45 | 25 | **5.2 [L2] Làm quen bộ dữ liệu khóa học:** nghiên cứu FLUID-ICU, từ điển dữ liệu, dữ liệu thô và dữ liệu sạch, các vấn đề chất lượng dữ liệu đã phát hiện, **trình diễn làm sạch dữ liệu bằng R** và nhật ký làm sạch; giao câu hỏi cho các nhóm |
+| 1:10 | 09:10 | 15 | GIẢI LAO |
+| 1:25 | 09:25 | 35 | **5.3 Mô tả và trình bày dữ liệu:** trung bình/trung vị, SD/IQR, hình dạng phân phối, biểu đồ nào cho dữ liệu nào, biểu đồ tốt và chưa tốt, bảng đạt chuẩn công bố, Bảng 1 |
+| 2:00 | 10:00 | 25 | **5.4 [L2] Mô tả bộ dữ liệu khóa học:** trình diễn Bảng 1 và biểu đồ; mỗi nhóm đọc Bảng 1 và các biểu đồ trong gói kết quả của nhóm (phiếu bài tập) |
+| 2:25 | 10:25 | 30 | **Xây dựng đề cương 5:** bảng biến số, CRF thu gọn, các dòng từ điển dữ liệu, kế hoạch quản lý dữ liệu |
+| 2:55 | 10:55 | 5 | Tổng kết |
+
+\*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[L2]** = Cấp độ 2 (bộ dữ liệu khóa học).
+
+## Bài giảng
+
+```{=html}
+<div class="slides-embed"><iframe src="slides-s5.html" title="Buổi 5 · Dữ liệu: thu thập tốt, mô tả trung thực" loading="lazy" allowfullscreen></iframe></div>
+```
+
+[Mở bài giảng toàn màn hình](slides-s5.qmd){.btn .btn-primary role="button"} — Nhấn **F** để toàn màn hình, **S** để xem ghi chú, **E** để in, **Esc** để xem tổng quan.
+
+## Tải xuống
+
+| | |
+|:--|:--|
+| 🎞️ **Bài giảng (PowerPoint)** | [English](../en/files/slides/Session_5_EN.pptx) · [Tiếng Việt](files/slides/Session_5_VN.pptx) |
+| 📝 **Phiếu bài tập** | [Đọc trực tuyến](exercises-s5.qmd) · [PDF](files/sessions/s5_exercises.pdf) |
+| ✅ **Lời giải** | [Đọc trực tuyến](solutions-s5.qmd) · [PDF](files/sessions/s5_solutions.pdf) |
+| 💻 **Kịch bản trình diễn** | [Đọc trực tuyến](demo-s5.qmd) · [PDF](files/sessions/s5_demo.pdf) |
+
+## Chuẩn bị trước buổi học
+
+- Hoàn thành Phần 2 của đề cương.
+- Xem trước trang [bộ dữ liệu khóa học](dataset.qmd): FLUID-ICU là gì và từ điển dữ liệu.
+
+## Sau buổi học (bài về nhà)
+
+- Đọc gói kết quả của nhóm (Bảng 1 và biểu đồ) — xem [Bộ dữ liệu](dataset.qmd).
+- Bài tập 3–5 trong phiếu Buổi 5 (chọn cách tóm tắt phù hợp, nhận xét một biểu đồ chưa tốt, tìm lỗi trong dữ liệu thô FLUID-ICU).
+
+## Tài liệu liên quan
+
+- [Bộ dữ liệu khóa học FLUID-ICU](dataset.qmd)
+- [Từ điển dữ liệu](data-dictionary.qmd)
+- [Nhật ký làm sạch](cleaning-log.qmd)
+- [Mẫu CRF + từ điển dữ liệu](templates.qmd)
+
+---
+
+[← Buổi trước](session4.qmd) · [Lịch học](schedule.qmd) · [Buổi sau →](session6.qmd)

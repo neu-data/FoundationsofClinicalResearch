@@ -1,0 +1,148 @@
+---
+title: "Session 2 — Live-demo script"
+---
+
+📥 [PDF](files/sessions/s2_demo.pdf) · [Session page](session2.qmd)
+
+**Foundations of Clinical Research — Level 1** · Neudata · *Instructor script*
+
+| | |
+|---|---|
+| **When** | **Part A — PubMed:** segment 2.1 (0:10–0:50), slide "Live demo: searching PubMed for our question" (about 0:30). **Part B — Zotero:** segment 2.2 (0:50–1:10), slide "Live demo: from PubMed to Zotero to Word" (about 0:53). **Part C — Google Scholar:** optional extra slide |
+| **Length** | Part A 10 minutes (Steps 1–5 plus Send to citation manager); Part B 5 minutes (Step 6); Part C 3 minutes, only if time allows |
+| **Question** | *In adults with septic shock in the ICU, does a restrictive fluid strategy, compared with usual care, reduce 28-day mortality?* |
+| **Goal** | Participants see a PICO question become a documented, repeatable search, and watch the hits fall step by step |
+| **Participants** | Watch and note hit counts on their exercise sheet. They do **not** search during the demo |
+
+> **Golden rule on numbers.** Never promise a hit count. Say: *"Expect tens of thousands for one keyword and a few thousand for the full string — the numbers change every day as new papers are added."* Ask participants to write down **today's** numbers and the date: that *is* the lesson.
+
+
+* * *
+
+## Before the session (the day before and during the break)
+
+1. **Rehearse once, end to end**, on the room's computer and network.
+2. Open two browser tabs:
+   - `https://pubmed.ncbi.nlm.nih.gov/`
+   - `https://scholar.google.com/`
+3. Set browser zoom to 125–150% so the back row can read the screen.
+4. Paste the three blocks below into a text file you can copy from (typing long strings live is slow and error-prone).
+5. **Offline fallback:** the day before, capture screenshots of each step below (search box, results count, Search details, filters, an abstract page, Send to → Citation manager, the Zotero import, the Word citation in both styles, Google Scholar results and "Cited by"). Put them, in order, in a short slide set or a folder. Write the date and hit counts on each.
+6. Do **not** log into a personal My NCBI or Google account on a shared screen.
+7. **Reference manager:** install Zotero desktop (free, zotero.org) and its Word plug-in on the presenter laptop; start with an empty test library called "Session 1 demo"; open a blank Word document. Check once that a `.nbib` file imports (File → Import…). If Zotero cannot be installed, use the screenshots instead.
+
+### Strings to copy
+
+**Step 1 — one keyword**
+```
+septic shock
+```
+
+**Step 2 — the three PICO blocks**
+```
+("Shock, Septic"[Mesh] OR "septic shock"[tiab] OR sepsis[tiab])
+```
+```
+("Fluid Therapy"[Mesh] OR "fluid restrict*"[tiab] OR "restrictive fluid*"[tiab] OR "conservative fluid*"[tiab])
+```
+```
+("Mortality"[Mesh] OR mortality[tiab] OR death[tiab])
+```
+
+**Step 3 — the full string (all on one line in the search box)**
+```
+("Shock, Septic"[Mesh] OR "septic shock"[tiab] OR sepsis[tiab]) AND ("Fluid Therapy"[Mesh] OR "fluid restrict*"[tiab] OR "restrictive fluid*"[tiab] OR "conservative fluid*"[tiab]) AND ("Mortality"[Mesh] OR mortality[tiab] OR death[tiab])
+```
+
+
+* * *
+
+## Part A — PubMed (10 min), step by step
+
+Go slowly: this audience has never seen PubMed's advanced features. After every step, pause 20–30 seconds so participants can write the number of hits on their sheet (Exercise 1).
+
+### Step 1 — One keyword (1.5 min)
+- **Do:** type `septic shock` in the PubMed box → **Search**.
+- **Audience sees:** a results page; the number of results above the list (tens of thousands).
+- **Say:** *"This is everything that mentions septic shock — far too many to read. Write down the number and today's date."*
+- **Point out:** the **sort** menu (Best match vs Most recent) and the **filters** column on the left (on a narrow screen it may be behind a "Filters" button).
+
+### Step 2 — Build the blocks with OR, join them with AND (2.5 min)
+- **Do (fast route, default):** paste the full string from Step 3 into the main box → **Search**.
+- **Do (if ahead of time):** go to **Advanced**, run the **P**, **I** and **O** blocks one by one (they appear as #1, #2, #3 in **History and Search Details**), then combine them with `#1 AND #2 AND #3`.
+- **Audience sees:** each block has many hits; the combination has far fewer (expect a few thousand).
+- **Say:** *"OR inside a block makes it wider — every synonym counts. AND between blocks keeps only papers that talk about all three ideas."* Point back to the Venn slide if needed.
+
+### Step 3 — Look at "Search details" (1.5 min)
+- **Do:** on the Advanced page, in **History and Search Details**, click the arrow (›) next to the latest line to expand the details.
+- **Audience sees:** how PubMed translated the search — the MeSH term includes narrower terms, the truncated words, the field tags.
+- **Say:** *"This is the single best way to check your search. Copy this line into your proposal with the date."*
+- **Teaching point:** the asterisk finds all endings; `[tiab]` = title/abstract; `[Mesh]` explodes to narrower headings.
+
+### Step 4 — Add filters (2 min)
+- **Do:** on the results page, left-hand filters:
+  - **Article type:** tick *Randomized Controlled Trial*, *Systematic Review* and *Meta-Analysis*. (If one is missing, use **Additional filters → Article type** to add it.)
+  - **Publication date:** *10 years*.
+  - **Additional filters → Age:** *Adult: 19+ years* (optional — explain the trade-off below).
+- **Audience sees:** the count falls to the hundreds or fewer; filters appear above the results with an option to clear them.
+- **Say:** *"Every filter needs a reason you can write down. Article type because ours is a treatment question. Ten years because practice has changed."*
+- **Caution to voice:** age and species filters rely on indexing, so the very newest papers (not yet indexed) can be lost. Never use *Free full text* as a quality filter.
+
+### Step 5 — Open one result (2 min), then Send to citation manager (30 s)
+- **Do:** scan the titles aloud. Look for the large randomised trials and the course papers. Useful title words to watch for:
+  - *Restriction of Intravenous Fluid in ICU Patients with Septic Shock* (CLASSIC, Meyhoff 2022, *N Engl J Med*)
+  - *Early Restrictive or Liberal Fluid Management for Sepsis-Induced Hypotension* (CLOVERS, Shapiro 2023, *N Engl J Med*)
+  - *Impact on fluid balance of an optimized restrictive strategy targeting non-resuscitative fluids…* (Paper 1, Boulet 2024, *Crit Care*)
+- If one is not visible in the filtered list (it may be outside the filters, or ranked lower), say so honestly — that is a teaching point — and search its title words directly, e.g. `restriction intravenous fluid septic shock`.
+- **Do:** open one record (CLASSIC is ideal).
+- **Audience sees:** the abstract, authors, journal, the **MeSH terms** list (scroll down), **Similar articles**, **Cited by**, and full-text links (top right).
+- **Say:** *"The MeSH terms list here is a free gift: it tells you the vocabulary to use in your own search."*
+
+## Part B — Zotero (5 min)
+
+### Step 6 — Send to citation manager → Zotero → Word (5 min)
+- **Do (PubMed):** back on the results, tick 2–3 papers (e.g. CLASSIC and Paper 1) → **Send to** → **Citation manager** → **Create file**. A `.nbib` file downloads.
+- **Do (Zotero):** in Zotero desktop, **File → Import…** → choose the `.nbib` file. (Double-clicking the file often works too.)
+- **Audience sees:** each paper appears as one entry with authors, title, journal, year, volume, pages, PMID and DOI — nothing typed by hand.
+- **Do (Word):** in the blank document type one sentence, e.g. *"Restricting IV fluid did not change 90-day mortality"*, then **Zotero tab → Add/Edit Citation** → type `Meyhoff` → Enter. Then **Add/Edit Bibliography**. Then **Document Preferences** → switch the style from a numbered (Vancouver-type) style to **APA** and back.
+- **Audience sees:** `[1]` becomes `(Meyhoff et al., 2022)` and the reference list reformats itself — the citation-styles slide, live.
+- **Say:** *"Collect, export, import, cite, list. Never type a reference by hand — and never cite a paper you have not read."*
+- **Mention (do not demo):** the **Cite** button on each PubMed record (one reference); **Clipboard**; a free **My NCBI** account to save searches and get e-mail alerts (*Create alert*); the **Zotero Connector** browser button that saves a paper from a journal page in one click. Mendeley and EndNote work the same way.
+
+## Part C — Google Scholar (optional extra slide, 3 min)
+
+### Step 7 — Google Scholar, for comparison
+- **Do:** in the Scholar tab, search `restrictive fluid septic shock mortality`.
+- **Audience sees:** a broad mix (journal articles, theses, reports, preprints), ranked by a hidden algorithm, with "Cited by N" under each result.
+- **Do:** click **Cited by** under a large trial (e.g. CLASSIC) → **Search within citing articles**: `mortality`.
+- **Say:** *"Scholar is excellent for following citations forward and for grey literature, but there is no MeSH, few filters, and the same search may give different results next month. Use PubMed for the search you report; use Scholar to check you have not missed anything."*
+- **Optional:** show the **Cite** (quote-mark icon) button → export formats such as EndNote or RefMan.
+
+### Close (30 seconds)
+Ask: *"Which step reduced the hits most?"* Expected answer: combining the blocks with AND and the article-type filter.
+After Part A, participants do Exercise 1 (Boolean search builder, 5 minutes). After Part B, continue with the "Citation styles" slide.
+
+
+* * *
+
+## Teaching points to land (say each once)
+1. **Write down** the database, the date, the exact string, the filters and the number of hits — so the search can be repeated.
+2. **OR inside, AND between**; NOT only with a reason.
+3. **MeSH + free text** in every block — the newest papers may not have MeSH yet.
+4. **Filters need a reason**; never filter for free full text.
+5. **Screen by reading**: the computer narrows; people choose.
+6. **Export, don't type** references.
+
+## If something goes wrong
+| Problem | What to do |
+|---|---|
+| No internet / PubMed slow | Switch immediately to the offline screenshots. Narrate the same steps. Do not troubleshoot in front of the room |
+| A "Too many results" or error page | Paste the full string from the text file rather than typing |
+| Zero results | A missing bracket or quote. Show Search details — it becomes a teaching moment |
+| A known paper does not appear | Explain why (filters, indexing delay, different words) and search its title directly — this is a real-world lesson |
+| Google Scholar shows a CAPTCHA | Do not try to solve it on a shared machine; skip to the screenshot of Scholar results |
+| Running over time | Skip Step 7; use the fast route in Step 2; show only the Zotero import (not Word) in Step 6 |
+| Zotero import fails or not installed | Show the screenshots of the import and the Word citation; say "the same file works in Mendeley and EndNote" |
+
+## After the demo
+Participants copy the demo string on their sheet (Exercise 1). In Proposal builder 2 (2:20–2:55) each group's "searcher" runs the group's own string and exports the five references to Zotero — trainers circulate to help.

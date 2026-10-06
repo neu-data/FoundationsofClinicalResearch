@@ -1,0 +1,157 @@
+---
+title: "Kế hoạch phân tích thống kê — FLUID-ICU"
+---
+
+::: {.lang-note}
+Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
+:::
+
+::: {.simulated}
+**Dữ liệu mô phỏng — không phải bệnh nhân thật.** FLUID-ICU là một nghiên cứu giả định: mọi giá trị đều do chương trình máy tính tạo ra với hạt giống ngẫu nhiên cố định. Dữ liệu không mô tả bất kỳ bệnh nhân, bệnh viện hay ICU thật nào. Mọi bản thảo viết từ bộ dữ liệu này phải ghi rõ dữ liệu là mô phỏng và không bao giờ được nộp như một nghiên cứu thật.
+:::
+
+📥 [PDF](files/data/SAP_FLUID-ICU.pdf)
+
+> **SIMULATED STUDY - FOR TEACHING.** FLUID-ICU and its data are invented. This SAP shows what a plan written **before** the analysis looks like. It follows the 14 sections of `Course/Templates/Statistical_Analysis_Plan_Template.docx`.
+
+| | |
+|---|---|
+| **Study title** | FLUID-ICU: cumulative fluid balance in the first three ICU days and outcomes in adults with sepsis. A multicentre prospective cohort study |
+| **Protocol version** | 2.0 (simulated) |
+| **SAP version / date** | 1.0, signed before database lock |
+| **Written by** | Study statistician and principal investigator (course team) |
+
+## 1. Study summary and objectives
+
+Multicentre prospective cohort study. Consecutive adults (18 years or older) admitted with sepsis (Sepsis-3) to 4 ICUs (ICU A-D) over 2 years (January 2023 to December 2024). Patients receive usual care; the study only records data.
+
+- **Primary objective:** to estimate the association between a positive cumulative fluid balance at day 3 and 28-day all-cause mortality, adjusted for pre-specified confounders.
+- **Secondary objectives:**
+  1. association between cumulative fluid balance (ml/kg) and acute kidney injury (AKI);
+  2. association between cumulative fluid balance and ventilator-free days to day 28;
+  3. association between admission lactate and 28-day mortality, and the effect of missing lactate;
+  4. association between positive balance and ICU length of stay among 28-day survivors.
+
+Each secondary objective matches one group question (Q2-Q5); the primary objective is Q1.
+
+## 2. Outcomes and their definitions
+
+| Outcome | Type | Definition (variables) | Time point |
+|---|---|---|---|
+| **Primary:** all-cause mortality | Binary | `died_28d` = Yes | Day 28 |
+| Time to death | Time-to-event | `time_to_event_28d` (days from ICU admission to death; survivors censored at 28) with `died_28d` | Up to day 28 |
+| AKI | Binary (ordinal stage) | `aki_any` = KDIGO stage >= 1 (`aki_stage`, maximum stage, ICU days 1-7) | Days 1-7 |
+| Ventilator-free days | Count 0-28 | `vent_free_days_28`; 0 if died before day 28 | Day 28 |
+| ICU length of stay | Continuous, skewed | `icu_los_days`, analysed in 28-day survivors | ICU discharge |
+
+**Exposure.** Cumulative fluid balance at day 3, `cum_fluid_balance_d3_ml_kg` = (fluid in days 1-3 - fluid out days 1-3) / admission weight (ml/kg). Analysed as binary `positive_balance_d3` (> 0 ml/kg) for the primary objective and as continuous (per 10 ml/kg) for AKI and ventilator-free days.
+
+## 3. Analysis populations
+
+| Population | Definition | Used for |
+|---|---|---|
+| Enrolled | All patients after removal of duplicate records | Description, Table 1, missing-data summary, Q4 |
+| Exposure population | Enrolled patients with a computable day-3 fluid balance | Q1, Q2, Q3 |
+| Complete-case population | Exposure population with no missing value in the model variables | Adjusted models (main for Q1-Q3, Q5; sensitivity for Q4) |
+| Survivors | Exposure population alive at day 28 | Q5 |
+
+A STROBE flow diagram will report the number at each step.
+
+## 4. Descriptive analysis (Table 1)
+
+Baseline characteristics by fluid-balance group (negative vs positive), with an overall column. Continuous variables: mean (SD) if roughly symmetric (age, weight), otherwise median (IQR) (SOFA, APACHE II, lactate, MAP). Categorical variables: n (%). Number missing reported for each variable. **No p-values in Table 1**: it describes the groups; it does not test them.
+
+## 5. Primary analysis
+
+| | |
+|---|---|
+| **Outcome** | 28-day mortality, exposure population |
+| **Method** | Multivariable logistic regression |
+| **Effect measure** | Odds ratio (positive vs negative balance) with 95% CI; the crude OR and the risk difference are also reported |
+| **Adjustment** | Age, SOFA score, lactate, vasopressor, mechanical ventilation, chronic kidney disease (see section 7) |
+| **Significance** | Two-sided, 5% level. The estimate and its CI are the result; the p-value supports it |
+
+Supportive analysis: Kaplan-Meier curves by group with numbers at risk and the log-rank test; Cox proportional-hazards model (crude and adjusted for the same confounders), hazard ratio with 95% CI; proportional hazards checked with Schoenfeld residuals (`cox.zph`).
+
+## 6. Secondary analyses (supportive / exploratory)
+
+| Objective | Summary | Test / model | Effect measure |
+|---|---|---|---|
+| AKI (Q2) | n (%) by group and by balance category (<= 0, > 0-20, > 20-40, > 40 ml/kg) | Chi-square; logistic regression, balance per 10 ml/kg, adjusted as in section 7 | OR per 10 ml/kg (95% CI) |
+| Ventilator-free days (Q3) | Median (IQR) by group; distribution shown | Mann-Whitney; linear regression, balance per 10 ml/kg, adjusted | Difference in days (95% CI); Hodges-Lehmann difference |
+| Lactate (Q4) | Median (IQR) by vital status; mortality by lactate category (< 2, 2-4, > 4 mmol/L) | Logistic regression, lactate per 1 mmol/L, adjusted for age, sex, diabetes, CKD, heart failure; second model adds SOFA | OR per 1 mmol/L (95% CI) |
+| ICU stay (Q5) | Median (IQR), survivors | Mann-Whitney; linear regression on log(ICU stay), adjusted | Ratio of geometric means (95% CI) |
+
+Group comparisons that are not in the table (age, SOFA, lactate between groups) use the t-test for symmetric variables and the Mann-Whitney test for skewed variables or scores.
+
+## 7. Confounders and adjustment
+
+Chosen **in advance** from clinical knowledge with a simple causal diagram: sicker patients receive more fluid and die more often (**confounding by indication**). Confounders: age; severity (SOFA score, lactate, vasopressor, mechanical ventilation on admission); chronic kidney disease (affects fluid prescribing and outcomes). APACHE II overlaps with SOFA and age and is not added. Variables measured after day 3 (AKI, RRT) are outcomes or mediators and are **not** adjusted for. With about 160-180 deaths and 7 model terms there are more than 20 events per term.
+
+## 8. Subgroups and interaction (pre-specified)
+
+One pre-specified effect modifier: **heart failure** (expected direction: a stronger association between positive balance and death in heart failure, because these patients tolerate fluid less well). Tested with a positive_balance_d3 x heart_failure interaction term in the primary model (Wald and likelihood-ratio tests). The ORs within each subgroup are reported with 95% CIs. A p for interaction < 0.05 will be described as evidence of effect modification needing confirmation, not as a definite finding.
+
+## 9. Multiple comparisons
+
+One primary outcome tested at 5%. Secondary outcomes and the subgroup analysis are reported with 95% CIs and interpreted as exploratory; no adjustment for multiplicity.
+
+## 10. Missing data
+
+| | |
+|---|---|
+| **Assessment** | n (%) missing for every variable and by group; patients with and without lactate compared (SOFA, MAP, vasopressor, ICU, mortality) to judge the mechanism (MCAR vs MAR) |
+| **Expected** | Lactate missing in 10-20% (not measured in less severe patients and in the ICU without a point-of-care analyser); all other variables < 2% |
+| **Main approach** | Q1-Q3, Q5: complete case. Q4 (where lactate is the exposure): multiple imputation by chained equations (`mice`), m = 20, predictive mean matching for continuous and logistic regression for binary variables. The imputation model includes the outcome (`died_28d`), all model covariates and the predictors of missingness (SOFA, APACHE II, MAP, vasopressor, ventilation, ICU, source of infection, fluid-balance group). Results pooled with Rubin's rules |
+| **Sensitivity** | Q1 primary model repeated with multiple imputation; Q4 reported with both complete case and multiple imputation |
+
+## 11. Sample size
+
+FLUID-ICU enrols all eligible patients during 2 years in 4 ICUs (expected about 600). Assumptions: 28-day mortality about 20% in patients with a negative balance, about 40% of patients with a negative balance (Paper 2 and local audit). With 240 vs 360 patients and two-sided 5% significance, the study has about 80% power to detect an OR of 1.7 (20% vs 30% mortality) and about 55% power for an OR of 1.5. The study is therefore adequately powered for a moderate association only; the 95% CI will show the precision achieved.
+
+## 12. Software
+
+R version 4.6 with packages tidyverse, gtsummary, flextable, broom, survival, survminer, mice and janitor. Code in `Course/Data/R/` (scripts 01-06), run in order; data cleaning and analysis are fully scripted and reproducible (fixed random seeds).
+
+## 13. Table and figure shells
+
+**Table 1. Baseline characteristics by cumulative fluid balance at day 3**
+
+| Characteristic | Overall (n = __) | Negative balance (n = __) | Positive balance (n = __) |
+|---|---|---|---|
+| Age, years, mean (SD) | | | |
+| Male sex, n (%) | | | |
+| Heart failure / CKD / diabetes, n (%) | | | |
+| SOFA score, median (IQR) | | | |
+| Lactate, mmol/L, median (IQR); missing n | | | |
+| Vasopressor / mechanical ventilation, n (%) | | | |
+
+**Table 2. Outcomes by group and adjusted associations**
+
+| Outcome | Negative | Positive | Crude effect (95% CI) | Adjusted effect (95% CI) | p |
+|---|---|---|---|---|---|
+| 28-day mortality, n (%) | | | OR __ | OR __ | |
+| AKI (KDIGO >= 1), n (%) | | | OR per 10 ml/kg __ | __ | |
+| Ventilator-free days, median (IQR) | | | Difference __ | __ | |
+| ICU stay in survivors, days, median (IQR) | | | Ratio __ | __ | |
+
+**Figures**
+
+- Figure 1: STROBE participant flow diagram.
+- Figure 2: Kaplan-Meier survival to day 28 by fluid-balance group, with numbers at risk and log-rank p.
+- Figure 3: Forest plot of adjusted odds ratios (primary model).
+- Figure 4: OR for positive balance by heart-failure subgroup, with p for interaction.
+- Supplementary: missing lactate by SOFA; complete case vs multiple imputation.
+
+## 14. Version history and sign-off before data lock
+
+| Version | Date | Changes and reason |
+|---|---|---|
+| 1.0 | Before database lock | First version |
+
+| Role | Name | Signature | Date |
+|---|---|---|---|
+| Statistician | [simulated] | | |
+| Principal investigator | [simulated] | | |
+
+*Any change after data lock gets a new version, the date and the reason, and is reported in the paper.*

@@ -1,0 +1,208 @@
+---
+title: "Buổi 1 — Phiếu bài tập"
+---
+
+::: {.lang-note}
+Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
+:::
+
+📥 [PDF](files/sessions/s1_exercises.pdf) · [Trang buổi học](session1.qmd)
+
+**Foundations of Clinical Research — Level 1** · Neudata · *#ClearDataClearImpact* · Weekend 1 · Saturday
+
+Name / group: ______________________________   Date: ____________
+
+> **How to use this sheet.** You do not need a computer today. Write on the sheet.
+> - Exercise 1 (warm-up) — spot the PICO, on your own (3 minutes, segment 1.2).
+> - Exercises 1–2 — **pairs**, segment 1.2 (11 minutes).
+> - Exercise 3 — aim, objectives and hypothesis, on your own (segment 1.3, 7 minutes).
+> - Exercise 4 — your **group's Proposal builder 1** (28 minutes).
+> - Exercise 5 — homework for tomorrow (synonym list).
+>
+> The answers are discussed in the room — there is no mark.
+
+
+* * *
+
+## The running example (for reference)
+
+| | |
+|---|---|
+| **P** — Population | Adults (18+) with septic shock in the ICU |
+| **I** — Intervention | Restrictive fluid strategy |
+| **C** — Comparison | Usual care (standard fluids) |
+| **O** — Outcome | Death from any cause |
+| **T** — Time | Within 28 days |
+
+**Question:** *In adults with septic shock in the ICU, does a restrictive fluid strategy, compared with usual care, reduce 28-day mortality?*
+
+
+* * *
+
+## Exercise 1 — From clinical scenario to PICO(T)  *(warm-up on your own 3 minutes, then pairs 8 minutes)*
+
+**Warm-up — spot the PICO** *(on your own, 3 minutes)*
+
+*"In adults aged 65+ after hip-fracture surgery, does a daily non-drug bundle, compared with usual care, reduce delirium in the first 7 days?"*
+
+| P | I | C | O | T |
+|---|---|---|---|---|
+| | | | | |
+
+**Pair task.** Pick **ONE** scenario. Fill the PICO(T) boxes, then write the question as **one sentence**.
+
+**Tips**
+- For an observational question, **I** becomes **E** (exposure) — "PECO".
+- A descriptive question (how many? how often?) may only need **P** and **O**.
+- Choose **one** primary outcome and say **when** it is measured.
+
+**Scenario A — Ventilator-associated pneumonia.** Your ICU raises the head of the bed to 30–45° for ventilated patients, but compliance is patchy at night. A colleague wonders whether a twice-daily nurse checklist would reduce ventilator-associated pneumonia.
+
+**Scenario B — Pressure injuries.** Several patients in your medical ward developed pressure injuries last quarter. Some staff turn patients every 2 hours, others every 4 hours. Nobody knows how often pressure injuries occur in your unit.
+
+**Scenario C — Delirium.** Older patients after hip-fracture surgery often become confused. The geriatric team suggests a daily non-drug bundle (glasses and hearing aids on, orientation, sleep protection, early mobilisation).
+
+**Scenario D — Stroke door-to-needle time.** Your emergency department wants to know whether a pre-hospital alert from the ambulance shortens the time from arrival to thrombolysis.
+
+**Scenario E — Medication errors.** The pharmacy notices many errors when patients move from ICU to the ward. They propose a pharmacist-led medication reconciliation at transfer.
+
+| | My scenario: ___ |
+|---|---|
+| **P** — who? | |
+| **I / E** — what is given or what are they exposed to? | |
+| **C** — compared with what? | |
+| **O** — which outcome? | |
+| **T** — measured when? | |
+
+**My question in one sentence:**
+
+______________________________________________________________________________
+
+______________________________________________________________________________
+
+**Type of question** (tick one): ☐ descriptive  ☐ analytical — observational  ☐ analytical — experimental
+
+
+* * *
+
+## Exercise 2 — FINER traffic light  *(pairs, part of the same 8 minutes; Part B is extra practice)*
+
+**Part A.** Rate *your* question from Exercise 1. Colour or write **G** (green — fine), **A** (amber — needs thought) or **R** (red — must change).
+
+| Letter | Test | G / A / R | Why? |
+|---|---|---|---|
+| **F** — Feasible | Enough patients, time, money, skills, data? | | |
+| **I** — Interesting | To you, your team and readers? | | |
+| **N** — Novel | Confirms, refutes or extends what is known? | | |
+| **E** — Ethical | Could an ethics committee approve it? | | |
+| **R** — Relevant | Could the answer change practice, policy or research? | | |
+
+If any letter is **red**, rewrite the question here:
+
+______________________________________________________________________________
+
+**Part B (if time).** Which FINER letter is the main problem in each question below?
+
+1. "In all hospitalised adults in our country, does vitamin D supplementation reduce mortality over 10 years?" — Main problem: ______
+2. "In ICU patients with septic shock, does withholding antibiotics for 24 hours reduce resistance?" — Main problem: ______
+3. "Do nurses in our ICU wash their hands?" (already measured monthly by the infection-control audit for 5 years) — Main problem: ______
+4. "In adults with community-acquired pneumonia, does the colour of the drug chart affect 28-day mortality?" — Main problem: ______
+
+
+* * *
+
+## Exercise 3 — Aim, objectives and hypothesis  *(individual, 7 minutes, segment 1.3)*
+
+Use the question from your pair task (or the delirium warm-up question).
+
+**Aim** (one sentence, starting "To compare…", "To describe…" or "To estimate…"):
+
+______________________________________________________________________________
+
+**Objectives** (2, each with a measurable verb — compare, estimate, describe, determine, measure; tick the primary one):
+
+1. ☐ __________________________________________________________________________
+2. ☐ __________________________________________________________________________
+
+**Vague-verb check:** rewrite "To understand pressure injuries on our ward" as a measurable objective:
+
+______________________________________________________________________________
+
+**Hypothesis.** Write **H0** (null: no difference) and **H1** (alternative: a difference) for your primary objective.
+If your question is **descriptive**, write "No hypothesis — descriptive" and say what you will *estimate* instead.
+
+**H0:** ___________________________________________________________________________
+
+**H1:** ___________________________________________________________________________
+
+**Practice — write H0 and H1 for:**
+
+a) "In ventilated ICU adults, does early mobilisation, compared with usual care, shorten ICU length of stay?"
+
+H0: _____________________________________________________________________
+
+H1: _____________________________________________________________________
+
+b) "What proportion of our septic shock patients have a positive cumulative fluid balance on day 3?"
+
+H0 / H1 needed? ☐ yes ☐ no — because: ______________________________________
+
+
+* * *
+
+## Exercise 4 — Proposal builder 1  *(group, 28 minutes)*
+
+Write your answers into the **Research Proposal template** (`Templates/Research_Proposal_Template.docx`), Part 1. This sheet is your checklist. The search, references, problem statement and working title are **tomorrow** (Proposal builder 2).
+
+**Suggested roles:** chair · scribe (types into the template) · timekeeper · "devil's advocate" (checks FINER).
+
+| Time | Task | Done |
+|---|---|---|
+| 0–7 min | **1. Choose ONE problem** from your unit: list 3 ideas, vote, pick one | ☐ |
+| 7–14 min | **2. PICO(T) table** and the **research question** in one sentence | ☐ |
+| 14–19 min | **3. FINER check** — traffic light for every letter; rewrite the question if any letter is red | ☐ |
+| | **4. Research, audit or QI?** Write the approval route (ethics committee or local approval) | ☐ |
+| 19–25 min | **5. Aim** (one sentence), **2–3 objectives** (measurable verbs; mark the primary), **H0 / H1** (or "descriptive — no hypothesis") | ☐ |
+| 25–28 min | One group reads its question and aim aloud; the room suggests one improvement | ☐ |
+
+**Our question:** ________________________________________________________________
+
+**FINER:** F ☐  I ☐  N ☐  E ☐  R ☐  (G / A / R)      **Type:** ☐ research ☐ audit ☐ QI
+
+**Quality checks before you stop**
+- [ ] Every PICO box is filled, and there is only **one** primary outcome with a time point.
+- [ ] The question, aim, primary objective and hypothesis all talk about the **same** outcome.
+- [ ] No FINER letter is red.
+- [ ] You know whether it is research, audit or QI, and who must approve it.
+
+
+* * *
+
+## Exercise 5 — Homework: synonyms for tomorrow's search  *(individual, about 15 minutes)*
+
+PubMed searches in **English**. For each PICO word in your group's question, write 2–3 English words or phrases that authors might use.
+
+| PICO element | Our word | English synonyms (2–3) |
+|---|---|---|
+| **P** | | |
+| **I / E** | | |
+| **O** | | |
+
+*Example (pressure injury):* pressure ulcer · pressure injury · bedsore · decubitus ulcer.
+
+**One local number that shows the problem** (an audit result, a count, an incident): ______________________
+
+
+* * *
+
+## Exit question  *(on a sticky note, no names)*
+
+1. Which FINER letter did our running example fail, and why?
+2. Rewrite as an objective: "To understand pressure injuries on our ward".
+
+## Homework for tomorrow (Session 2)
+
+- **Group:** finish the PICO, question, aim and objectives if not done.
+- **Everyone:** Exercise 5 — synonym list; one local number that shows the problem.
+- **Optional:** install Zotero (free, zotero.org) on your laptop.
+- **Bring:** your group's PICO question, your synonym list, a laptop or phone per group.

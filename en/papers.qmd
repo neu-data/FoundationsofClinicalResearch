@@ -1,0 +1,44 @@
+---
+title: "The two papers"
+---
+
+The two published papers answer the course's running-example question in two different ways:
+
+> *In adults with septic shock in the ICU, does a restrictive fluid strategy, compared with usual care, reduce mortality?*
+
+Paper 1 is a randomised trial and Paper 2 is an observational cohort. Reading them side by side shows how the study
+design limits what a paper is allowed to claim. Both are **open access**: read or download them from the publisher
+with the DOI links below.
+
+## Paper 1 — randomised controlled trial
+
+| | |
+|:--|:--|
+| **Citation** | Boulet N, Quenot J-P, Serrand C, et al. Impact on fluid balance of an optimized restrictive strategy targeting non-resuscitative fluids in intensive care patients with septic shock: a single-blind, multicenter, randomized, controlled, pilot study. *Crit Care.* 2024;28:429. |
+| **DOI** | [10.1186/s13054-024-05155-z](https://doi.org/10.1186/s13054-024-05155-z) |
+| **Design** | Single-blind, multicentre, parallel-group pilot RCT; 48 patients analysed. Primary outcome: cumulative fluid balance at day 5. Registered as NCT04947904. |
+| **Reporting guideline** | CONSORT |
+| **Licence** | CC BY-NC-ND 4.0 |
+
+## Paper 2 — observational cohort
+
+| | |
+|:--|:--|
+| **Citation** | Hyun D-G, Ahn JH, Huh JW, et al., on behalf of the Korean Sepsis Alliance (KSA) Investigators. Impact of a cumulative positive fluid balance during the first three ICU days in patients with sepsis: a propensity score-matched cohort study. *Ann Intensive Care.* 2023;13:105. |
+| **DOI** | [10.1186/s13613-023-01178-x](https://doi.org/10.1186/s13613-023-01178-x) |
+| **Design** | Propensity score-matched cohort from a prospective multicentre sepsis registry (20 hospitals). Primary outcome: 28-day mortality. |
+| **Reporting guideline** | STROBE |
+| **Licence** | CC BY 4.0 |
+
+## How the papers are used in the course
+
+| Session | Use |
+|:--|:--|
+| 2 | Example records for the PubMed search demo; reading Paper 1's abstract against the abstract checklist and looking for spin |
+| 3–4 | One question answered by two designs; confounding by indication; which risk-of-bias tool fits each paper |
+| 5–6 | Fluid balance as a CRF variable; reading hazard ratios, CIs, p-values and Kaplan–Meier curves; Paper 2 is the published model for the FLUID-ICU analysis |
+| 7–8 | Worked examples of titles, abstracts, introductions, results and discussions; reporting guidelines; **Be the reviewer**: groups appraise Paper 1 or Paper 2 with the [critical appraisal checklist](resources.qmd) |
+
+::: {.callout-note}
+Read the papers on the publishers' websites (DOI links above). The course does not redistribute copies of the articles.
+:::

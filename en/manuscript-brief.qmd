@@ -1,0 +1,140 @@
+---
+title: "Manuscript brief"
+---
+
+📥 [Word](files/assignments/Manuscript_Brief.docx) · [PDF](files/assignments/Manuscript_Brief.pdf) · [Assignments](assignments.qmd)
+
+## Foundations of Clinical Research: From Clinical Question to Publication
+
+**Organisation:** Neudata — *#ClearDataClearImpact*
+**Assessment type:** Group assignment — analysed in Sessions 5–6, written in Sessions 7–8, peer reviewed in the 2 weeks after Session 8
+**Groups:** the same 5 groups as for the proposal; each group answers a **different question on the same dataset**
+**Output:** a STROBE-guided original article of about **2,000 words**, a review of another group's draft, and a response-to-reviewers letter
+**Marked with:** `manuscript_rubric.md` (formative); peer review follows `peer_review_instructions.md`
+
+
+* * *
+
+## 1. Purpose
+
+In the proposal you plan a study that has not been done. In this assignment you do the other half of the research journey: you take the results of a study that **has** been done and turn them into a paper that a journal could review. You will practise everything from Sessions 5–8 — reading Table 1 and regression outputs, writing Methods and Results, calibrated language in the Discussion, the abstract and title, a reporting checklist, peer review and responding to reviewers.
+
+Nobody needs to run any software. The instructor runs the analyses live in R in Sessions 5–6, and every group gets a **results pack** with all the numbers, tables and figures it needs. Participants who completed the free Neudata course *Clinical Data Analysis in R* may reproduce the analyses with the scripts in `Course/Data/`, but this is optional.
+
+> **Important — simulated data.** FLUID-ICU is a **simulated training dataset**. Your manuscript is a training exercise. Say so in the Methods and on the title page ("This manuscript uses simulated data created for training; it reports no real patients"), and never submit it to a journal or present it as real research.
+
+
+* * *
+
+## 2. The course dataset: FLUID-ICU
+
+A simulated multicentre prospective cohort of about **600 adults with sepsis** admitted to 4 ICUs. It contains demographics, comorbidities (diabetes, chronic kidney disease, heart failure, hypertension), infection source, severity (SOFA, APACHE II), lactate, mean arterial pressure, vasopressors, mechanical ventilation, daily fluid in and out on days 1–3, weight, cumulative fluid balance at day 3 (ml/kg) and positive balance (yes/no), acute kidney injury (KDIGO), renal replacement therapy, ventilator-free days, ICU length of stay and 28-day mortality with time to death or censoring.
+
+What you will find in `Course/Data/`: the raw and clean data, the data dictionary, the **cleaning log**, the statistical analysis plan (written before the analysis), the R scripts, and one results pack per question.
+
+
+* * *
+
+## 3. The five group questions
+
+Questions are assigned in Session 5. By default Group *N* takes Question *N*; the course lead may swap questions to balance the groups.
+
+| Q | Research question | Exposure | Outcome | Main analysis in the results pack |
+|---|---|---|---|---|
+| **1** | Is a positive fluid balance by day 3 associated with higher 28-day mortality? (the primary question) | Positive cumulative fluid balance by day 3 (yes/no) | 28-day mortality | Crude and adjusted logistic regression (OR); Kaplan–Meier curves and Cox model (HR) |
+| **2** | Is cumulative fluid balance associated with acute kidney injury? | Cumulative fluid balance at day 3 (ml/kg) | AKI (KDIGO) | Crude and adjusted logistic regression |
+| **3** | Is cumulative fluid balance associated with fewer ventilator-free days? | Cumulative fluid balance at day 3 (ml/kg) | Ventilator-free days to day 28 | Linear regression and a non-parametric comparison |
+| **4** | Is initial lactate associated with 28-day mortality, and does the answer change with how missing lactate is handled? | Initial lactate (mmol/l) | 28-day mortality | Logistic regression; complete-case analysis vs multiple imputation |
+| **5** | Among survivors, is fluid balance associated with a longer ICU stay? | Cumulative fluid balance at day 3 (ml/kg) | ICU length of stay in survivors | Median (IQR); linear regression on the log scale or non-parametric tests |
+
+Your results pack is `Course/Data/results_packs/QN/results_pack_QN.md`, where N is your question number (e.g. `results_packs/Q4/results_pack_Q4.md`). Each results pack contains Table 1, figures, regression tables and plain-language notes. **Use only the numbers in your results pack.** If something you need is missing, ask the instructor rather than estimating it.
+
+
+* * *
+
+## 4. What you write, and when
+
+Use the Word template **`Course/Templates/Manuscript_Template_IMRaD.docx`** and follow the **STROBE** checklist for cohort studies.
+
+| Step | When | What your group does | Output |
+|---|---|---|---|
+| 1. Understand the data | **Session 5** (5.2, 5.4) | Receive your question; read the data dictionary, the cleaning log and your Table 1 and figures (worksheet) | Notes: who is in the cohort, how variables are defined, what was cleaned |
+| 2. Interpret the results | **Session 6** (6.2, 6.4) | Read your group comparisons and regression or Kaplan–Meier/Cox outputs, the crude vs adjusted estimates and the missing-data sensitivity analysis | A "key numbers" list: the main effect with 95% CI, plus 3–5 supporting results |
+| 3. Methods + Results | **Session 7** (manuscript workshop 1) | Draft the Methods (design, setting, participants, variables, data sources, bias, statistical methods incl. missing data) and the Results (participants first, then descriptive, main and other analyses) | About 600 words + Table 1 + one further table or figure |
+| 4. Introduction, Discussion, Abstract, Title | **Session 8** (manuscript workshop 2) | Write the Introduction (funnel), the Discussion (six moves, calibrated language), the structured abstract and the title | **Complete draft** |
+| 5. Final tidy and submission | **By 23:59 on the day of Session 8** | Fill the STROBE checklist with page numbers, check the numbers, add the AI-use statement, submit | Draft manuscript |
+| 6. Peer-review swap | **Within 1 week after Session 8** | Review another group's draft (`peer_review_instructions.md`) | Review report |
+| 7. Response and revision | **Within 2 weeks after Session 8** | Respond point by point and revise your draft | Response letter + revised manuscript |
+
+### Length and format
+
+| Part | Target | Notes |
+|---|---|---|
+| Title page | — | Title, group authors with CRediT roles, word count, the simulated-data statement |
+| Structured abstract | ≤ 250 words | Background, Methods, Results (main effect with 95% CI), Conclusions |
+| Introduction | about 350 words | Three paragraphs: what is known → what is not known → the aim |
+| Methods | about 550 words | STROBE items 4–12; include the statistical-analysis paragraph and how missing data were handled |
+| Results | about 450 words | Participants first; numbers with denominators and 95% CIs; no interpretation |
+| Discussion | about 650 words | Main finding → comparison with literature (incl. Paper 2) → possible explanations → strengths and limitations → implications → conclusion |
+| **Main text total** | **about 2,000 words** | Introduction to Discussion (± 10%); abstract, tables and references not counted |
+| Tables and figures | Table 1 + up to 2 more | Each must stand alone (title, units, n, abbreviations explained) |
+| References | 10–20 | Vancouver style, managed in Zotero or another reference manager |
+| STROBE checklist | Completed | With the page number for each item, or "not applicable" |
+
+
+* * *
+
+## 5. Roles
+
+Agree roles in Session 6. Everyone reads the whole draft before submission. In a group of five, combine the Introduction and Discussion roles.
+
+| Role | Responsibilities |
+|---|---|
+| **Lead author (coordinator)** | Keeps the single master file, sets internal deadlines, writes the title page, submits the draft, coordinates the response to reviewers. |
+| **Methods writer** | Drafts the Methods from the data dictionary, cleaning log and SAP; makes sure the statistical paragraph matches what the results pack actually did. |
+| **Results and tables writer** | Drafts the Results; builds Table 1 and the other table or figure from the results pack; checks every number against the pack. |
+| **Introduction and references lead** | Drafts the Introduction; manages the references in a reference manager; finds 2–3 papers for the Discussion comparison. |
+| **Discussion writer** | Drafts the Discussion and Conclusion in calibrated language; leads the limitations paragraph. |
+| **STROBE and consistency checker** | Completes the STROBE checklist; checks that numbers agree between abstract, text and tables; checks word counts, the AI-use statement and the simulated-data statement. |
+
+**Authorship:** all group members who meet the ICMJE criteria are authors. Add a **CRediT** statement (e.g. "Writing – original draft: …; Formal analysis: course instructors; Data curation: course instructors"). Instructors who produced the analysis are acknowledged, not listed as authors.
+
+
+* * *
+
+## 6. Rules
+
+- **Numbers:** report only numbers from your results pack (or from your own reproduction with the course scripts, if you used them, and say so). Never round in ways that change the meaning; give 95% CIs with every main estimate.
+- **Language:** FLUID-ICU is observational. Write "associated with", not "caused" or "led to". No "trend towards significance".
+- **Missing data:** say how much was missing and how it was handled, as shown in your results pack.
+- **Originality:** write in your own words; cite every source; quote sparingly and with quotation marks.
+- **AI-use statement (required):** at the end of the manuscript, add one of these:
+  - "AI use: none."
+  - "AI use: [tool name] was used to [improve the English / translate drafts / suggest wording]. The authors checked every sentence and reference and take full responsibility for the content."
+
+  AI tools must **not** be used to produce results, invent or find references you have not read, or write the interpretation for you. AI tools cannot be authors. When you review another group's manuscript, **do not paste it into an AI tool** — it is confidential.
+
+
+* * *
+
+## 7. Submission and file names
+
+Send everything to the course lead (or upload to the course folder):
+
+| File | Due |
+|---|---|
+| `GroupN_Manuscript_QN_draft.docx` (draft + completed STROBE checklist as an appendix) | 23:59 on the day of Session 8 |
+| `GroupN_Review_of_GroupM.docx` (review report) | 1 week after Session 8 |
+| `GroupN_Manuscript_QN_revised.docx` (with tracked changes) and `GroupN_Response_to_Reviewers.docx` (using `Course/Templates/Response_to_Reviewers_Template.docx`) | 2 weeks after Session 8 |
+
+The course lead sends each group the draft it will review within 2 days of Session 8. Review pairs rotate: Group 1 reviews Group 2, Group 2 reviews Group 3, … Group 5 reviews Group 1.
+
+
+* * *
+
+## 8. Feedback
+
+- In Session 8, each group gives a **1-minute manuscript pitch** (question, main result with 95% CI, one-sentence conclusion) in the presentation block — see `presentation_guide.md`.
+- Instructors mark the revised manuscript and the response letter with `manuscript_rubric.md` and return written comments within about 3 weeks.
+- **The marks are formative.**
+

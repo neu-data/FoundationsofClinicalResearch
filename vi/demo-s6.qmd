@@ -1,0 +1,120 @@
+---
+title: "Buổi 6 — Kịch bản trình diễn"
+---
+
+::: {.lang-note}
+Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
+:::
+
+📥 [PDF](files/sessions/s6_demo.pdf) · [Trang buổi học](session6.qmd)
+
+**Foundations of Clinical Research** · Weekend 3, Sunday · Neudata · instructor script
+
+| | Part A — sample size | Part B — compare groups | Part C — models and missing data |
+|---|---|---|---|
+| **Slot** | 6.1, after the slide *Sample size: bigger effect, less noise* (about 0:35) | 6.2 (about 0:52) | 6.4, while showing its slides (about 2:00) |
+| **Duration** | 8 min | 6 min | woven into the 6.4 slides (about 8 min of R in total, optional) |
+| **Tool** | free online calculator (e.g. OpenEpi) + `Course/Resources/tools/sample_size_calculator.xlsx` | `Course/Data/R/03_compare.R` | `Course/Data/R/04_models.R`, `05_missing.R` |
+
+Participants **watch and predict**; they never calculate or run code. FLUID-ICU is **simulated**; all its numbers below come from `Course/Data/key_results.md`.
+
+
+* * *
+
+## Before the session
+
+- [ ] Browser tab on the online calculator, zoomed to 150%; the spreadsheet open on sheet `3_Means` as fallback.
+- [ ] `Course/Data/FLUID-ICU.Rproj` open; run `03_compare.R`, `04_models.R` and `05_missing.R` once end to end the night before (`05_missing.R` runs 20 imputations: allow about a minute).
+- [ ] Fallback figures open: `Course/Resources/figures/en/data/` (`crude_vs_adjusted.png`, `forest_adjusted.png`, `km_balance.png`, `missing_lactate.png`, `cc_vs_mi.png`) and my comparison table `Course/Resources/figures/en/sat3/fluid_icu_tests.png`.
+- [ ] Flip chart: the four sample-size inputs (expected effect · noise (SD) · alpha · power) + drop-out.
+
+
+* * *
+
+## Part A — Sample size in 8 minutes (online calculator + spreadsheet)
+
+**Step 1 — Frame it (1 min).** *"Every sample-size calculation needs the same ingredients: what you expect in each group, how noisy the measurement is, the false-alarm risk you accept (alpha) and how sure you want to be of detecting a real effect (power). The software does the arithmetic; the ingredients are your clinical job."*
+
+**Step 2 — Reproduce Paper 1 (two means, 2 min).** Mean difference / two independent means: group 1 = 70 ml/kg, group 2 = 40 ml/kg, SD 35 in both, 95% confidence (alpha 5% two-sided), power 80%, ratio 1.
+Expected: **22 per group (44 total)**; +10% for deaths → 25 per group, **50 total** — exactly Paper 1's methods. Spreadsheet `3_Means`: B20 = 22, B21 = 25, B22 = 50.
+
+**Step 3 — Our real question: mortality (two proportions, 2 min).** 40% (usual care) vs 30% (restrictive), alpha 5%, power 80%, ratio 1.
+Expected per group: Fleiss **356**; with continuity correction **376** (the tool may show ±1–2; Kelsey about 358). Spreadsheet `2_Proportions`: B20 = 356, B21 = 376, after 10% loss B22 = 396 per group, B23 = 792 total.
+*"Same clinical question, different outcome: fluid balance needed 50 patients, mortality needs almost 800."*
+
+**Step 4 — Change one input at a time (2 min).** Ask the room to predict up or down first.
+
+| Change (two proportions, Fleiss, no correction) | n per group | Message |
+|---|:-:|---|
+| Baseline 40% vs 30%, power 80% | 356 | |
+| Power 90% | 477 | more certainty costs patients |
+| 40% vs 35% | 1,471 | halving the difference roughly quadruples n |
+| 40% vs 25% | 152 | big effects need few patients — but are they realistic? |
+| Alpha 1% | 530 | a stricter alarm needs more patients |
+
+**Step 5 — The sentence (1 min).** Show the green sentence at the bottom of sheet `2_Proportions`: *"Assuming the outcome occurs in 40% of patients in group 1 and 30% in group 2, 356 patients per group give 80% power ... we will recruit 396 patients per group (792 in total)."*
+
+Link to FLUID-ICU: its SAP (section 11) states that about 600 patients give about 80% power for an OR of 1.7 and about 55% for an OR of 1.5 — *"adequately powered for a moderate association only."* That is why its adjusted CI is wide.
+
+
+* * *
+
+## Part B — Comparing two groups in FLUID-ICU (03_compare.R, 6 minutes)
+
+Before each block, ask the room for the test using the decision chart.
+
+| Block | Outcome (type) | Test | Expected output (key_results.md) |
+|---|---|---|---|
+| 1 | Age (symmetric) | Welch t-test | mean 64.6 vs 61.4 years |
+| 2–3 | SOFA, lactate (skewed / score) | Mann–Whitney | SOFA 6 vs 8; lactate 2.2 vs 2.9 mmol/L (91 without lactate drop out) |
+| 4 | 28-day death (binary) | 2×2 table + chi-square | **134/373 (35.9%) vs 45/245 (18.4%)**; RD **17.6** points (95% CI 10.7 to 24.4); RR **1.96**; p < 0.001 |
+| 5 | AKI (binary) | chi-square | **230/373 (61.7%) vs 71/245 (29.0%)** |
+| 6 | Ventilator-free days (0–28, two piles) | Mann–Whitney | median **20 (0 to 28) vs 28 (22 to 28)**; p < 0.001 |
+| 7 | ICU stay in survivors (skewed) — the common mistake | t-test vs Mann–Whitney | t-test difference in means **2.7** days vs Hodges–Lehmann **2.5** days (95% CI 1.8 to 3.2); medians **7.5 vs 4.8** |
+
+Teaching points: the test follows the outcome type; report the effect with a 95% CI, not just p; every comparison here is **unadjusted** (the positive group was sicker: Table 1).
+Fallback: the slide *FLUID-ICU: four outcomes, four comparisons* (all results in one table).
+
+
+* * *
+
+## Part C — Models and missing data (04_models.R, 05_missing.R; with the 6.4 slides)
+
+Run each block as you reach the matching slide; if time is short, show only the figures (they are the slides).
+
+| Slide | Script block | Expected output (key_results.md) | Say |
+|---|---|---|---|
+| The SAP came first | open `SAP_FLUID-ICU.md` | confounders: age, SOFA, lactate, vasopressor, ventilation, CKD; one interaction (heart failure); CC + MI | "Decided before anyone saw a result." |
+| Crude vs adjusted | 04: blocks 1–2 | crude OR **2.49 (1.70 to 3.70)**, n = 618; crude in the same 527: **2.22 (1.48 to 3.39)**; adjusted **1.62 (1.02 to 2.59)**, p = 0.044, n = 527 | "Confounding by indication, made visible." |
+| Forest plot | 04: blocks 3–4 | the adjusted model, exposure row 1.62 | "Only the exposure row is the question." |
+| Kaplan–Meier | 04: block 5 | day-28 survival **81.6% vs 64.1%**; log-rank p < 0.001 (chi-square 21.4) | "Steps, ticks, gap, numbers at risk." |
+| Cox | 04: block 6 | crude HR **2.17 (1.55 to 3.05)** → adjusted **1.46 (1.00 to 2.13)**, p = 0.053; PH global test p = 0.10 | "0.044 vs 0.053: the same story." |
+| (extra) Interaction | 04: block 7 | heart failure OR **4.39 (1.65 to 12.38)**, n = 90; no HF **1.29 (0.77 to 2.19)**, n = 437; p interaction **0.031** | "Pre-specified, plausible, needs confirmation." |
+| Who is missing? | 05: blocks 1–2 | lactate missing **93/620 (15.0%)**; SOFA 5 vs 8; mortality **19.4% vs 30.6%** | "Not MCAR; MAR plausible." |
+| CC vs MI | 05: blocks 3–5 | Q4 adjusted OR per mmol/L: CC **1.39 (1.24 to 1.57)**, n = 527 vs MI **1.45 (1.29 to 1.64)**, n = 620; Q1 MI adjusted OR **1.70 (1.09 to 2.64)** | "Robust: the answer barely moves." |
+
+Point out in `05_missing.R` block 4: the imputation model includes the **outcome** and the predictors of missingness (SOFA, MAP, vasopressor, site), 20 imputed data sets, pooled with Rubin's rules; the density plot shows imputed lactates are lower (median 2.4 vs 2.6 mmol/L in complete cases), as expected because the missing patients were less sick.
+
+
+* * *
+
+## Fallback plan
+
+| Problem | Do this |
+|---|---|
+| No internet (Part A) | Run Steps 2–4 in the spreadsheet (yellow cells = inputs). |
+| R fails (Parts B–C) | Every result is on the slides; talk through them. |
+| `mice` slow | Skip the live run; show `cc_vs_mi.png`. |
+| Running late | Part A: Steps 2–3 only. Part B: blocks 4 and 7. Part C: figures only. |
+
+## Anticipated questions
+
+**"Which sample-size result is right, 356 or 376?"** Both are standard; they use slightly different approximations. Name the method in the protocol and stay with it.
+
+**"Why did the OR go down after adjustment?"** Sicker patients received more fluid and died more often; adjustment compares patients of similar severity, so the part of the association due to severity disappears.
+
+**"The Cox p is 0.053 — so there is no effect?"** No. The HR (1.46) and OR (1.62) are similar with overlapping CIs; the evidence is the same. Read the estimate and CI, not the side of 0.05.
+
+**"Isn't multiple imputation making up data?"** It fills each gap many times with plausible values predicted from recorded data and widens the CI for the uncertainty. Valid when data are MAR; always compare with complete case.
+
+**"Why not adjust for AKI?"** It happens after the fluid and may be on the causal pathway (a mediator); adjusting for it would remove part of the effect we want to estimate. The SAP excludes it for that reason.

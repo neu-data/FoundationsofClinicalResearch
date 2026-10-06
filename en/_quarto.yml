@@ -1,0 +1,117 @@
+project:
+  type: website
+  output-dir: _site
+
+lang: en
+
+website:
+  title: "Foundations of Clinical Research"
+  site-url: "https://neu-data.github.io/FoundationsofClinicalResearch/en/"
+  repo-url: "https://github.com/neu-data/FoundationsofClinicalResearch"
+  favicon: images/neudata-logo.png
+  search: true
+  page-navigation: true
+  navbar:
+    logo: images/neudata-logo.png
+    logo-alt: "Neudata Consulting Ltd"
+    title: false
+    background: "#04242F"
+    foreground: "#FFFFFF"
+    left:
+      - href: index.qmd
+        text: "Home"
+      - href: schedule.qmd
+        text: "Schedule"
+      - text: "Sessions"
+        menu:
+          - href: session1.qmd
+            text: "Session 1 · Ask: from clinical problem to research question"
+          - href: session2.qmd
+            text: "Session 2 · Find & read: the evidence"
+          - href: session3.qmd
+            text: "Session 3 · Design: choosing the right study"
+          - href: session4.qmd
+            text: "Session 4 · Bias & effect: can we trust it, how big is it?"
+          - href: session5.qmd
+            text: "Session 5 · Data: collect it well, describe it honestly"
+          - href: session6.qmd
+            text: "Session 6 · Analyse: from sample to answer"
+          - href: session7.qmd
+            text: "Session 7 · Protect & write: ethics, integrity, Methods and Results"
+          - href: session8.qmd
+            text: "Session 8 · Publish: finish the paper, get it out, present"
+      - text: "Course dataset"
+        menu:
+          - href: dataset.qmd
+            text: "Overview"
+          - href: data-dictionary.qmd
+            text: "Data dictionary"
+          - href: cleaning-log.qmd
+            text: "Cleaning log"
+          - href: sap.qmd
+            text: "Statistical analysis plan"
+          - href: results-q1.qmd
+            text: "Results pack Q1"
+          - href: results-q2.qmd
+            text: "Results pack Q2"
+          - href: results-q3.qmd
+            text: "Results pack Q3"
+          - href: results-q4.qmd
+            text: "Results pack Q4"
+          - href: results-q5.qmd
+            text: "Results pack Q5"
+      - text: "Materials"
+        menu:
+          - href: handbook.qmd
+            text: "Participant handbook"
+          - href: workbook.qmd
+            text: "Participant workbook"
+          - href: templates.qmd
+            text: "Templates"
+          - href: resources.qmd
+            text: "Resources and tools"
+          - href: glossary.qmd
+            text: "Glossary EN–VN"
+          - href: further-reading.qmd
+            text: "Further reading"
+          - href: papers.qmd
+            text: "The two papers"
+          - href: advanced.qmd
+            text: "Advanced modules"
+          - href: downloads.qmd
+            text: "All downloads"
+      - text: "Assignments"
+        menu:
+          - href: assignments.qmd
+            text: "Overview"
+          - href: proposal-brief.qmd
+            text: "Proposal brief"
+          - href: presentation-guide.qmd
+            text: "Presentation guide"
+          - href: proposal-rubric.qmd
+            text: "Proposal rubric"
+          - href: manuscript-brief.qmd
+            text: "Manuscript brief"
+          - href: manuscript-rubric.qmd
+            text: "Manuscript rubric"
+          - href: peer-review.qmd
+            text: "Peer-review instructions"
+    right:
+      - href: ../vi/index.html
+        text: "Tiếng Việt"
+      - icon: globe
+        href: https://www.neu-data.com
+        aria-label: Neudata
+  page-footer:
+    left: "**Neudata Consulting Ltd** · *Insight. Impact. Innovation.*"
+    center: "Neudata | #ClearDataClearImpact"
+    right: "[www.neu-data.com](https://www.neu-data.com) · [contact@neu-data.com](mailto:contact@neu-data.com)"
+
+format:
+  html:
+    theme: [cosmo, course.scss]
+    toc: true
+    code-copy: true
+    code-overflow: wrap
+    include-after-body: lang-switch.html
+    include-in-header: access-gate.html

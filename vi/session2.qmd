@@ -1,0 +1,67 @@
+---
+title: "Buổi 2 · Tìm & đọc: bằng chứng"
+subtitle: "Cuối tuần 1 · Chủ Nhật · 3 giờ (giải lao 15 phút)"
+---
+
+## Nội dung
+
+- Câu hỏi ôn tập Buổi 1
+- 2.1  Tìm bằng chứng: từ PICO đến tìm kiếm, Boolean, MeSH, trình diễn PubMed
+- 2.2  Quản lý và trích dẫn: trình diễn Zotero, kiểu trích dẫn, diễn đạt lại, y văn xám
+- Giải lao
+- 2.3  Đọc một bài báo trong 15 phút - và 2.4 từ y văn đến phần đặt vấn đề
+- Xây dựng đề cương 2: chuỗi tìm kiếm, 5 tài liệu, đặt vấn đề, tên đề tài
+
+## Thời gian biểu
+
+| Bắt đầu | Giờ* | Phút | Hoạt động |
+|:----|:----|---:|:------------------------------------------------------------|
+| 0:00 | 08:00 | 10 | Câu hỏi ôn tập |
+| 0:10 | 08:10 | 40 | **2.1 Tìm bằng chứng:** phễu tìm kiếm, từ PICO đến các khối tìm kiếm, Boolean, MeSH, công cụ tìm kiếm, PubMed và Google Scholar, **trình diễn PubMed trực tiếp** |
+| 0:50 | 08:50 | 20 | **2.2 Quản lý và trích dẫn:** phần mềm quản lý tài liệu (**trình diễn Zotero**), kiểu trích dẫn, diễn đạt lại an toàn, y văn xám và cơ sở dữ liệu đăng ký thử nghiệm |
+| 1:10 | 09:10 | 15 | GIẢI LAO |
+| 1:25 | 09:25 | 40 | **2.3 Đọc một bài báo trong 15 phút:** IMRaD, thứ tự đọc, một bản tóm tắt cần có gì, "spin"; bài tập cá nhân với phần tóm tắt của Bài báo 1 |
+| 2:05 | 10:05 | 15 | **2.4 Từ y văn đến phần đặt vấn đề:** ma trận y văn, phễu đặt vấn đề, tên đề tài tạm thời và từ khóa |
+| 2:20 | 10:20 | 35 | **Xây dựng đề cương 2:** chuỗi tìm kiếm, 5 tài liệu trong ma trận, đặt vấn đề, tên đề tài tạm thời |
+| 2:55 | 10:55 | 5 | Tổng kết |
+
+\*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[L2]** = Cấp độ 2 (bộ dữ liệu khóa học).
+
+## Bài giảng
+
+```{=html}
+<div class="slides-embed"><iframe src="slides-s2.html" title="Buổi 2 · Tìm &amp; đọc: bằng chứng" loading="lazy" allowfullscreen></iframe></div>
+```
+
+[Mở bài giảng toàn màn hình](slides-s2.qmd){.btn .btn-primary role="button"} — Nhấn **F** để toàn màn hình, **S** để xem ghi chú, **E** để in, **Esc** để xem tổng quan.
+
+## Tải xuống
+
+| | |
+|:--|:--|
+| 🎞️ **Bài giảng (PowerPoint)** | [English](../en/files/slides/Session_2_EN.pptx) · [Tiếng Việt](files/slides/Session_2_VN.pptx) |
+| 📝 **Phiếu bài tập** | [Đọc trực tuyến](exercises-s2.qmd) · [PDF](files/sessions/s2_exercises.pdf) |
+| ✅ **Lời giải** | [Đọc trực tuyến](solutions-s2.qmd) · [PDF](files/sessions/s2_solutions.pdf) |
+| 💻 **Kịch bản trình diễn** | [Đọc trực tuyến](demo-s2.qmd) · [PDF](files/sessions/s2_demo.pdf) |
+
+## Chuẩn bị trước buổi học
+
+- Câu hỏi PICO của nhóm và danh sách từ đồng nghĩa (bài về nhà Buổi 1).
+- Mỗi nhóm một máy tính hoặc điện thoại để tìm kiếm PubMed; cài Zotero nếu có thể.
+
+## Sau buổi học (bài về nhà)
+
+- **Nhóm:** hoàn thành 5 tài liệu chính và phần đặt vấn đề — xong Phần 1 của đề cương, kèm tên đề tài tạm thời và từ khóa.
+- **Mỗi thành viên:** đọc một bài báo theo quy trình 15 phút và điền dòng của bài đó vào ma trận y văn.
+- **Mọi người:** đọc phần tóm tắt của [Bài báo 2](papers.qmd) (Hyun 2023) với bảng ở Bài tập 3.
+- **Tùy chọn:** tra cứu đăng ký của Bài báo 1 (NCT04947904) trên ClinicalTrials.gov.
+
+## Tài liệu liên quan
+
+- [Hai bài báo (bài tập với tóm tắt Bài báo 1)](papers.qmd)
+- [Phiếu tổng quan tài liệu (Biểu mẫu)](templates.qmd)
+- [Tài liệu đọc thêm](further-reading.qmd)
+
+---
+
+[← Buổi trước](session1.qmd) · [Lịch học](schedule.qmd) · [Buổi sau →](session3.qmd)

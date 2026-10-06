@@ -1,0 +1,151 @@
+---
+title: "Buổi 5 — Lời giải"
+---
+
+::: {.lang-note}
+Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
+:::
+
+📥 [PDF](files/sessions/s5_solutions.pdf) · [Trang buổi học](session5.qmd)
+
+**Foundations of Clinical Research** · instructor copy (do not distribute before the session)
+
+Exercise numbers follow `Practicals/s5_exercises.md`. All FLUID-ICU numbers come from `Course/Data/key_results.md` (simulated data).
+
+
+* * *
+
+## Exercise 1 — Classify the variables
+
+| # | Variable | Answer | Explanation |
+|---|---|---|---|
+| a | Age (years) | **Continuous** | Measured on a scale; keep the exact number on the CRF (or collect date of birth). |
+| b | Sex | **Binary** | Two categories. Coding 1/2 does not make it numerical. |
+| c | Glasgow Coma Scale | **Ordinal** | Ordered scores (3–15) with unequal steps. Often *analysed* like a number, which is acceptable if stated, but it is ordinal by nature. |
+| d | Source of sepsis | **Nominal** | Several categories, no natural order. |
+| e | Number of vasopressors | **Count** | Whole numbers 0–3. Accept "ordinal" if the pair argues it well; not continuous. |
+| f | Cumulative fluid balance (ml/kg) | **Continuous** | Can be negative or positive; any value on the scale. The Paper 1 primary outcome. |
+| g | Alive at day 28 | **Binary** | Yes/no. |
+| h | Time to death, censored at day 28 | **Time-to-event** | Two pieces of information: how long, and whether the event happened. Analysed with Kaplan–Meier / Cox. |
+| i | Pain none–severe | **Ordinal** | Ordered categories. |
+| j | Blood group | **Nominal** | No order. |
+
+**Bonus:** any continuous variable (age, fluid balance, lactate). You can always group later; you cannot recover the exact value from a group.
+
+**Common errors:** GCS called continuous; time-to-death called continuous (ignores censoring); number of vasopressors called continuous.
+
+
+* * *
+
+## Exercise 2 — Fix the bad CRF items (model answers)
+
+| # | Bad item | Problem | Model rewrite |
+|---|---|---|---|
+| a | Fluid given: ____ | No unit, no time window, no definition (crystalloid? blood? drug diluents?) | "Total IV fluid received from ICU admission to 24 h (ml), including crystalloids, colloids and drug diluents: [ ][ ][ ][ ][ ] ml   ☐ not recorded" |
+| b | Weight: ____ | No unit; measured or estimated? when? | "Body weight at ICU admission (kg): [ ][ ][ ].[ ]   ☐ measured  ☐ estimated  ☐ not available" |
+| c | Comorbidities: ________ | Free text: impossible to analyse, spelling varies | Tick list: "Comorbidities present at admission (tick ALL that apply): ☐ diabetes ☐ chronic kidney disease ☐ heart failure ☐ COPD ☐ cirrhosis ☐ cancer ☐ none ☐ unknown" |
+| d | Lactate high? Y / N | Opinion ("high" by whose cut-off?), loses the value, no time point | "Serum lactate at ICU admission (mmol/L): [ ][ ].[ ]   ☐ not done" (define "high" later, in the analysis) |
+
+Accept any version that passes the four checks (unit, time point, one reading, unknown option). Praise pairs who notice that collecting the *number* is better than collecting a yes/no.
+
+
+* * *
+
+## Exercise 3 — Choose the right summary
+
+| # | Variable | Shape / type | Summary | Graph |
+|---|---|---|---|---|
+| a | Age, bell-shaped | Symmetric continuous | **Mean (SD)** | Histogram |
+| b | ICU length of stay | Right-skewed | **Median (IQR)** | Histogram or boxplot |
+| c | Died in hospital | Binary | **n (%)** | Bar chart |
+| d | CRP | Right-skewed | **Median (IQR)** | Histogram / boxplot |
+| e | Source of sepsis | Nominal | **n (%) per category** | Bar chart (not 3-D pie) |
+| f | SBP by treatment group | Symmetric, two groups | **Mean (SD) per group** | Side-by-side boxplots |
+
+
+* * *
+
+## Exercise 4 — Judge a bad figure
+
+1. Each bar is the **mean** fluid balance per group; the error bar is the **standard error (SE)**, shown in one direction only. Missing: the individual patients, the spread (SD or IQR), the shape (skew), the n per group on the figure, and what the error bar represents.
+2. Any two of: the data are **skewed**; **one extreme patient** (160 ml/kg) pulls the usual-care mean up; the groups **overlap** a lot; the median; the number of patients; negative values.
+3. Dots (one per patient) plus a boxplot per group (see the "dots + box" slide), y-axis labelled with units, n under each group. You gain: shape, spread, outliers and overlap become visible, and the reader can judge the comparison.
+4. The truncated axis makes a 2-percentage-point difference (31% vs 29%) look like a three-fold difference. Fix: start bars at 0 and label the values (or show the difference with its 95% CI).
+5. (i) The author chose the two scales, so the lines can be made to cross or move together wherever wanted; (ii) two trends over time moving together is **correlation, not causation** (other changes may have happened at the same time). Better: two panels sharing the time axis, and an appropriate design (e.g. interrupted time series, Session 3).
+
+
+* * *
+
+## Exercise 5 — [L2] Spot the problems in the raw FLUID-ICU data
+
+(See `Course/Data/cleaning_log.md` for the full log.)
+
+| # | What is wrong | What the script does |
+|---|---|---|
+| a | One variable coded many ways (and a leading space) | Recode to `Female` / `Male` |
+| b | Dates in different formats (03/04: March or April?) | Read each format explicitly and convert to one date format (YYYY-MM-DD) |
+| c | ICU C reported lactate in mg/dL, not mmol/L (about 9 times larger; found by comparing medians by ICU) | Divide ICU C values by 9.01 (1 mmol/L = 9.01 mg/dL); confirm with the site laboratory |
+| d | `999` is a missing-value code, not a lactate | Set to missing (NA) |
+| e | Impossible age (outside the allowed range) | Set to missing, send a query to the site; keep the patient |
+| f | Duplicate record | Check the two rows are identical, keep one copy (623 rows → 620 patients) |
+
+Bonus: editing by hand is invisible and not reproducible; a script plus a log lets anyone check and repeat every change. The log records the problem, how many records, what was done, and why (plus queries sent).
+
+
+* * *
+
+## Exercise 6 — [L2] Read your group's Table 1
+
+All numbers from `Course/Data/key_results.md` (simulated data).
+
+1. Negative balance n = 245, positive n = 373, overall 618. Two of the 620 enrolled patients have no computable day-3 fluid balance (an impossible weight or fluid output was set to missing during cleaning), so they cannot be placed in a group.
+2. Expected answers: age — mean (SD), roughly symmetric (64.6 vs 61.4 years); SOFA — median (IQR), a skewed score (6 (4 to 8) vs 8 (6 to 10)); lactate — median (IQR), right-skewed (2.2 (1.4 to 3.0) vs 2.9 (1.9 to 4.0) mmol/L); vasopressor, ventilation, heart failure, sex — n (%).
+3. Severity: SOFA 8 vs 6; vasopressor 205/373 (55.0%) vs 61/245 (24.9%); mechanical ventilation 216/373 (57.9%) vs 97/245 (39.6%). (Heart failure goes the other way: 43/373 (11.5%) vs 54/245 (22.0%) — clinicians give less fluid in heart failure.)
+4. Lactate: 91 missing among the 618 (93 of all 620 enrolled, 15.0%).
+5. Model sentences: "Of 620 enrolled patients, 618 had a computable day-3 fluid balance, of whom 373 (60.4%) had a positive balance. Patients with a positive balance were more severely ill at admission (median SOFA 8 vs 6; vasopressor 55.0% vs 24.9%; mechanical ventilation 57.9% vs 39.6%)."
+6. Larger: the positive-balance group was sicker, and sicker patients die more, so the crude association mixes fluid with severity (confounding by indication). Confirmed in Session 6: crude OR 2.49 vs adjusted 1.62.
+
+
+* * *
+
+## Exercise 7 — [L2] Your group's question
+
+| Q | Outcome (type) | Exposure (type) | Planned comparison / model |
+|---|---|---|---|
+| Q1 | Death by day 28 (binary; also time-to-event) | Positive balance by day 3 (binary) | Chi-square; logistic regression; Kaplan–Meier + Cox |
+| Q2 | AKI, KDIGO ≥ 1 (binary) | Cumulative balance, ml/kg (continuous, per 10 ml/kg) | Chi-square by group; logistic regression |
+| Q3 | Ventilator-free days to day 28 (count 0–28, skewed, piled at 0 and 28) | Cumulative balance (continuous) | Mann–Whitney; linear regression |
+| Q4 | Death by day 28 (binary) | Lactate at admission, mmol/L (continuous, 15% missing) | Logistic regression; complete case vs multiple imputation |
+| Q5 | ICU length of stay in survivors (continuous, right-skewed) | Positive balance (binary) | Mann–Whitney; linear regression on log scale |
+
+Example (Q1): "In adults with sepsis admitted to the ICU, is a positive cumulative fluid balance by day 3, compared with a negative balance, associated with higher 28-day mortality?"
+
+
+* * *
+
+## Exercise 8 — Proposal builder 5 (what a good answer looks like)
+
+**Variables table**
+
+| Role | Variable | How measured | Type |
+|---|---|---|---|
+| Primary outcome | Death by day 28 | Hospital records / phone call at day 28 | Binary |
+| Secondary outcome | Cumulative fluid balance at day 5 | Fluid charts, ml/kg of admission weight | Continuous |
+| Intervention | Restrictive vs usual fluid strategy | Randomised allocation | Binary |
+| Baseline / confounders | Age, SOFA score, lactate at admission, source of sepsis | CRF at ICU admission | Continuous, ordinal-like score, continuous, nominal |
+
+**Sample size:** 40% vs 30% mortality, alpha 5% two-sided, power 80% → 356 per group (spreadsheet sheet 2); /(1 − 0.10) → 396 per group, 792 in total.
+
+**Analysis plan:** describe with mean (SD) / median (IQR) / n (%); compare 28-day mortality with a chi-square test; report the risk ratio and risk difference with 95% CIs; fluid balance compared with Mann–Whitney and reported as median (IQR) per group. (Observational designs: add "adjusted for age, SOFA and lactate using logistic regression".)
+
+**Marking guide for facilitators (quick check while circulating):**
+
+| Element | Good enough | Needs work |
+|---|---|---|
+| Variables table | Outcome, exposure and ≥ 3 confounders, all with a type | Confounders that are actually outcomes; no types |
+| Mini-CRF | 6–10 items, units, time points, unknown option | > 15 items; free text; no units |
+| Data dictionary | 3–5 rows with codes and allowed ranges | Names with spaces, no codes |
+| Sample size | 4 inputs with a stated source | "All patients in one year" |
+| Analysis plan | Summary + test + effect measure with 95% CI | "Data will be analysed with SPSS" |
+
+**Data management (good enough):** EDC with range and logic checks at entry (or paper with double entry of key variables); coded study IDs with the linking log kept separately and locked; audit trail/cleaning log; raw export read-only, dated versions, encrypted 3-2-1 backups; data-sharing statement in the consent form.
