@@ -6,12 +6,12 @@ title: "Further reading"
 
 **Organisation:** Neudata — *#ClearDataClearImpact*
 
-A short list, not a library. Everything below is **free to read online** unless marked *(not free)*. If you only have one hour a week, read the item marked ★ for that weekend. Web addresses are given only for stable home pages; search the title on the site to find the exact page.
+A short list, not a library. Everything below is **free to read online** unless marked *(not free)*. If you only have one hour a week, read the item marked ★ for those two weeks. Web addresses are given only for stable home pages; search the title on the site to find the exact page.
 
 
 * * *
 
-## Weekend 1 (Sessions 1–2) — Ask, find and read
+## Weeks 1–2 (Sessions 1–2) — Ask, find and read
 
 | Resource | Who publishes it | Why read it |
 |---|---|---|
@@ -26,7 +26,7 @@ A short list, not a library. Everything below is **free to read online** unless 
 | **"Reporting and interpretation of randomized controlled trials with statistically nonsignificant results for primary outcomes"**, *JAMA* 2010;303(20):2058–2064 | I. Boutron and colleagues | The classic study of spin in trial reports — useful background for segment 1.4. |
 | **SQUIRE 2.0** guidelines (Standards for QUality Improvement Reporting Excellence) — squire-statement.org | SQUIRE group (via EQUATOR) | How quality-improvement work is reported; helps separate QI from research and audit. |
 
-## Weekend 2 (Sessions 3–4) — Design, bias and measures of effect
+## Weeks 3–4 (Sessions 3–4) — Design, bias and measures of effect
 
 | Resource | Who publishes it | Why read it |
 |---|---|---|
@@ -44,7 +44,7 @@ A short list, not a library. Everything below is **free to read online** unless 
 | **STARD 2015** (diagnostic accuracy studies) — via equator-network.org | STARD group | What a diagnostic accuracy paper must report (sensitivity, specificity, flow of participants). |
 | **Cochrane Handbook**, chapter on undertaking meta-analyses (forest plots, heterogeneity, I²) — training.cochrane.org/handbook | Cochrane | Plain explanation of pooled estimates and heterogeneity; read the key-points box. |
 
-## Weekend 3 (Sessions 5–6) — Data and analysis (with the FLUID-ICU course dataset)
+## Weeks 5–6 (Sessions 5–6) — Data and analysis (with the FLUID-ICU course dataset)
 
 | Resource | Who publishes it | Why read it |
 |---|---|---|
@@ -62,7 +62,7 @@ A short list, not a library. Everything below is **free to read online** unless 
 | **"Calculating the sample size required for developing a clinical prediction model"**, *BMJ* 2020;368:m441 | R.D. Riley and colleagues | Why overfitting happens and why "10 events per variable" is only a rough guide. |
 | ***Clinical Data Analysis in R*** (free online course) | Neudata | Learn to clean, describe and analyse a clinical dataset yourself — the prerequisite for reproducing the FLUID-ICU analyses with the course R scripts, and the entry requirement for Level 2 (hands-on analysis). |
 
-## Weekend 4 (Sessions 7–8) — Protect, write and publish (with the group manuscript and peer review)
+## Weeks 7–8 (Sessions 7–8) — Protect, write and publish (with the group manuscript and peer review)
 
 ### Ethics and good practice
 

@@ -14,7 +14,7 @@ format:
 
 # Session 6 · Analyse: from sample to answer
 
-## Weekend 3 · Sunday
+## Week 6 · Saturday
 
 - Recap quiz on Session 5 (10 min)
 - 6.1 From sample to population: CI, p-value, power, sample size, choosing a test
@@ -24,11 +24,11 @@ format:
 - Proposal builder 6: sample size, analysis plan, missing-data plan
 
 ::: {.notes}
-Welcome back. Yesterday (Session 5) we collected, cleaned and described the data. Today we ANALYSE: how a sample answers a question about a population, and how to read the numbers a computer gives us.
+Welcome back. Last Saturday (Session 5) we collected, cleaned and described the data. Today we ANALYSE: how a sample answers a question about a population, and how to read the numbers a computer gives us.
 
 Key promise: still no formulas. Every idea is a picture, a worked example from the running example, then a one-minute check.
 
-The course dataset FLUID-ICU comes back twice: in 6.2 (comparing groups) and 6.4 (models, survival and missing data). Each group interprets its own results pack; those interpretations become the Results section of the manuscript in Weekend 4.
+The course dataset FLUID-ICU comes back twice: in 6.2 (comparing groups) and 6.4 (models, survival and missing data). Each group interprets its own results pack; those interpretations become the Results section of the manuscript in Weeks 7-8.
 
 Timing: recap 0:00, 6.1 at 0:10, 6.2 at 0:50, break at 1:10, 6.3 at 1:25, 6.4 at 2:00, proposal builder at 2:25, wrap-up at 2:55.
 
@@ -1044,7 +1044,7 @@ Adjust for what you planned, read the CI, and be honest about the gaps.
 ::: {.notes}
 Section 6.4 opener (25 minutes: the SAP, crude vs adjusted OR, the adjusted model, Kaplan-Meier and Cox, missing lactate, complete-case vs multiple imputation, then a 7-minute group worksheet).
 
-Key message: this is 6.3 (models) applied to FLUID-ICU, and the payoff of the whole weekend: you will SEE confounding by indication shrink an odds ratio.
+Key message: this is 6.3 (models) applied to FLUID-ICU, and the payoff of Weeks 5-6: you will SEE confounding by indication shrink an odds ratio.
 :::
 
 ## The SAP came first
@@ -1544,7 +1544,7 @@ Adjust honestly: FLUID-ICU showed confounding by indication: the crude OR shrank
 
 Plan first: the FLUID-ICU SAP was written before the analysis; missing lactate was reported, handled with multiple imputation and checked against complete-case analysis.
 
-Next weekend: write it up (Methods and Results in Session 7, the rest and publication in Session 8).
+Next two Saturdays: write it up (Methods and Results in Session 7, the rest and publication in Session 8).
 :::
 
 ## Wrap-up and homework
@@ -1564,7 +1564,7 @@ DISCUSSION · 5 min
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#1F5C7A"}
-Next weekend
+Weeks 7-8
 
 - Protocol, ethics, registration
 - Research integrity

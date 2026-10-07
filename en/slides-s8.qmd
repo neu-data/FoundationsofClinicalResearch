@@ -14,7 +14,7 @@ format:
 
 # Session 8 · Publish: finish the paper, get it out, present
 
-## Weekend 4 · Sunday
+## Week 8 · Saturday
 
 - Recap (5 min)
 - 8.1  Writing the paper (II): Introduction, Discussion, Abstract, Title
@@ -24,7 +24,7 @@ format:
 - Group presentations: proposal + publication plan
 
 ::: {.notes}
-SESSION 8 (0:00). Weekend 4, Sunday - the last session. Today the FLUID-ICU manuscripts become complete drafts, we follow a paper from submission to publication, practise reviewing, and every group presents its own proposal.
+SESSION 8 (0:00). Week 8, Saturday - the last session. Today the FLUID-ICU manuscripts become complete drafts, we follow a paper from submission to publication, practise reviewing, and every group presents its own proposal.
 
 The closing block (post-course quiz, evaluation, peer-review swap) is the last 15 minutes and has its own slides.
 
@@ -81,7 +81,7 @@ Introduction, Discussion, Abstract and Title - in that order
 ::: {.notes}
 SECTION 8.1 (0:05-0:30). Eleven slides with three worked examples from FLUID-ICU Q1 and a 2-minute check.
 
-Order follows the writing order from yesterday: Introduction, Discussion, then the Abstract and the Title last.
+Order follows the writing order from last Saturday: Introduction, Discussion, then the Abstract and the Title last.
 
 Pace: about 2 minutes per slide; slow down on the worked Discussion example.
 :::
@@ -386,7 +386,7 @@ Introduction, Discussion, Abstract and Title
 ::::
 
 ::: {.notes}
-MANUSCRIPT WORKSHOP 2 (0:30-1:00). Course dataset. Groups add the Introduction, Discussion, Abstract and Title to yesterday's Methods + Results.
+MANUSCRIPT WORKSHOP 2 (0:30-1:00). Course dataset. Groups add the Introduction, Discussion, Abstract and Title to last Saturday's Methods + Results.
 
 Instructions: Practicals/s8\_exercises.md, Part B. Model paragraphs for Q1: Solutions/s8\_solutions.md.
 :::
@@ -1425,7 +1425,7 @@ INDIVIDUAL TASK · 3 min
 :::
 
 ::: {.neu-activity-steps style="--c:#0B376C"}
-1. Rate each weekend: content, pace, usefulness
+1. Rate each session: content, pace, usefulness
 2. One thing to keep, one thing to change
 3. Interested in Level 2 (hands-on R)?
 :::

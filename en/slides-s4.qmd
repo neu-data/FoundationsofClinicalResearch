@@ -14,7 +14,7 @@ format:
 
 # Session 4 · Bias & effect: can we trust it, how big is it?
 
-## Weekend 2 · Sunday
+## Week 4 · Saturday
 
 - Recap quiz on Session 3 (10 min)
 - 4.1  Bias, confounding and causation (40 min)
@@ -24,7 +24,7 @@ format:
 - Proposal builder 4: exposure, outcomes, biases (30 min) - wrap-up
 
 ::: {.notes}
-SESSION 4 OPENING (0:00). Yesterday we chose HOW to answer a question. Today two questions about any result: can we TRUST it (bias, confounding, causation) and how BIG is it (risk, RR, OR, RD, NNT)? Then we look beyond single studies: diagnostic tests, meta-analysis and appraisal tools.
+SESSION 4 OPENING (0:00). Last Saturday we chose HOW to answer a question. Today two questions about any result: can we TRUST it (bias, confounding, causation) and how BIG is it (risk, RR, OR, RD, NNT)? Then we look beyond single studies: diagnostic tests, meta-analysis and appraisal tools.
 
 Read three exit-question sticky notes from Session 3 first (the flu-vaccine cohort) - it leads straight into confounding.
 
@@ -883,7 +883,7 @@ BREAK · 15 min
 ::: {.notes}
 15-minute break. Put a visible countdown on the screen.
 
-During the break, walk past the groups and check that each has its Part 2a from yesterday - they will need it in the proposal builder.
+During the break, walk past the groups and check that each has its Part 2a from last Saturday - they will need it in the proposal builder.
 
 Restart on time.
 :::
@@ -1315,7 +1315,7 @@ Timing: give a 10-minute and a 2-minute warning.
 ::: {.notes}
 Session recap. Ask four people to explain one card each.
 
-This also closes Weekend 2: the proposal now has its question (Part 1) and its design (Part 2).
+This also closes Weeks 3-4: the proposal now has its question (Part 1) and its design (Part 2).
 
 Timing: 2 minutes (part of the 5-minute wrap-up).
 :::
@@ -1330,7 +1330,7 @@ DISCUSSION · 5 min
 1. Exit question: ICU patients who received more fluid died more often. Give one reason other than the fluid
 2. Homework: finish Proposal Part 2 (exposure, comparator, outcomes, biases)
 3. Optional: handout Parts B and D (effect modification, PPV in two settings)
-4. Next weekend (Sessions 5-6): data - the FLUID-ICU course dataset
+4. Next two Saturdays (Sessions 5-6): data - the FLUID-ICU course dataset
 :::
 
 ::: {.neu-output style="--c:#1F5C7A"}
@@ -1340,7 +1340,7 @@ DISCUSSION · 5 min
 ::: {.notes}
 Exit question answers: confounding by indication (sicker patients receive more fluid and die more), or reverse causation (failing kidneys make less urine, so the balance becomes positive).
 
-Preview: in Weekend 3 we turn the design into data - variables, data collection forms - and the course dataset FLUID-ICU, a simulated cohort that answers the observational version of our fluid question.
+Preview: in Weeks 5-6 we turn the design into data - variables, data collection forms - and the course dataset FLUID-ICU, a simulated cohort that answers the observational version of our fluid question.
 
 Timing: 3 minutes after the recap slide. Finish on time.
 :::

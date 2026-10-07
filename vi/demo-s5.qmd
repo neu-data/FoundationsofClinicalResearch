@@ -8,7 +8,7 @@ Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng 
 
 📥 [PDF](files/sessions/s5_demo.pdf) · [Trang buổi học](session5.qmd)
 
-**Foundations of Clinical Research** · Weekend 3, Saturday · Neudata · instructor script
+**Foundations of Clinical Research** · Week 5, Saturday · Neudata · instructor script
 
 | | Part A — cleaning | Part B — Table 1 and figures |
 |---|---|---|
@@ -69,7 +69,7 @@ Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng 
 | 4. Histogram | fluid balance by group | median **8.8 ml/kg (IQR -10.3 to 26.2)** | "Continuous exposure, cut at 0." |
 | 5. Boxplot | SOFA by group, with dots | medians 6 vs 8 | "Show every patient." |
 | 6. Bar chart | infection source, sorted | respiratory most common | "Categories → sorted bars, not a 3-D pie." |
-| 7. Outcomes | described, not compared | 28-day mortality **179/620 (28.9%)**; ICU stay mean 7.3 vs median 6.0 days | "Described today, compared tomorrow." |
+| 7. Outcomes | described, not compared | 28-day mortality **179/620 (28.9%)**; ICU stay mean 7.3 vs median 6.0 days | "Described today, compared next Saturday." |
 
 **Close Part B:** *"This Table 1 is in every group's results pack. Your worksheet now: read it as a reviewer would."* → Exercise 6.
 

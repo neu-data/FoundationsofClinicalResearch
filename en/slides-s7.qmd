@@ -14,7 +14,7 @@ format:
 
 # Session 7 · Protect & write: ethics, integrity, Methods and Results
 
-## Weekend 4 · Saturday
+## Week 7 · Saturday
 
 - Recap quiz: Session 6
 - 7.1  Protocol, ethics, consent, registration, feasibility
@@ -24,7 +24,7 @@ format:
 - Manuscript workshop 1: draft Methods + Results
 
 ::: {.notes}
-SESSION 7 (0:00). Weekend 4, Saturday. Two halves today: before the break we protect the patient and the science (ethics, integrity) and finish Proposal Part 4; after the break we start WRITING the FLUID-ICU manuscript.
+SESSION 7 (0:00). Week 7, Saturday. Two halves today: before the break we protect the patient and the science (ethics, integrity) and finish Proposal Part 4; after the break we start WRITING the FLUID-ICU manuscript.
 
 Pace: slow. Every block has a worked example and a 1-minute check. If time is short, drop slides from the 'Extra slides - Session 7' section at the end, never the workshop.
 
@@ -85,9 +85,9 @@ Show of hands for each question; spend longest where the room is split.
 :::
 
 ::: {.notes}
-Two products, two rows. Product 1 - your own research proposal - gets its last part today (ethics, registration, feasibility, publication plan) and is presented tomorrow.
+Two products, two rows. Product 1 - your own research proposal - gets its last part today (ethics, registration, feasibility, publication plan) and is presented next Saturday.
 
-Product 2 - the FLUID-ICU draft manuscript - moves from 'reading the analysis' (Session 6) to WRITING: today Methods and Results, tomorrow Introduction, Discussion, Abstract and Title.
+Product 2 - the FLUID-ICU draft manuscript - moves from 'reading the analysis' (Session 6) to WRITING: today Methods and Results, next Saturday Introduction, Discussion, Abstract and Title.
 
 Ask: which group question does your group have? (Q1-Q5.) Make sure everyone knows.
 :::
@@ -683,8 +683,8 @@ PROPOSAL BUILDER · 15 min
 Worksheet
 
 - Practicals/s7\_exercises.md, Part B
-- Your slide 5 and 6 for tomorrow
-- Finish at home tonight
+- Your slide 5 and 6 for next Saturday
+- Finish at home this week
 :::
 :::
 ::::
@@ -698,9 +698,9 @@ PROPOSAL BUILDER 7 (1:00-1:15). Call the sub-timings aloud.
 
 Circulate. Typical problems: (1) 'consent will be obtained' with no who/when/how - push for the ICU pathway; (2) retrospective chart reviews assuming no ethics review is needed - wrong, the committee decides and may grant a waiver; (3) recruitment numbers taken from the sample-size calculation instead of the unit's admissions; (4) CONSORT chosen for an observational proposal.
 
-The journal choice and EQUATOR checklist will be checked again in 8.2 tomorrow - a provisional answer is fine today.
+The journal choice and EQUATOR checklist will be checked again in 8.2 next Saturday - a provisional answer is fine today.
 
-Remind: tomorrow each group presents (6 minutes, 6 slides) - slides 5 (ethics & feasibility) and 6 (publication plan) come from this worksheet.
+Remind: next Saturday each group presents (6 minutes, 6 slides) - slides 5 (ethics & feasibility) and 6 (publication plan) come from this worksheet.
 :::
 
 ## Break
@@ -904,7 +904,7 @@ Positive balance 373/618 (60.4%); SOFA median 8 (6 to 10) vs 6 (4 to 8); vasopre
 
 Deaths: 134/373 (35.9%) vs 45/245 (18.4%). Crude OR 2.49 (1.70 to 3.70); adjusted OR 1.62 (1.02 to 2.59), p 0.044. Sensitivity: multiple imputation OR 1.70 (1.09 to 2.64); adjusted Cox HR 1.46 (1.00 to 2.13).
 
-Point out what is NOT in the paragraph: no 'because', no 'significant', no explanation of why the OR shrank - that belongs to the Discussion tomorrow.
+Point out what is NOT in the paragraph: no 'because', no 'significant', no explanation of why the OR shrank - that belongs to the Discussion next Saturday.
 
 Ask: which STROBE item does the crude-AND-adjusted sentence satisfy? Expected: 16.
 :::
@@ -969,7 +969,7 @@ Teaching point: FLUID-ICU is a cohort, so the paper follows STROBE (cohort versi
 
 Items groups most often forget: 9 (bias - say how you addressed confounding by indication: adjustment for severity); 10 (study size - for a fixed dataset say 'all eligible patients in the cohort were included'); 12 (missing data - how lactate was handled); 16 (give BOTH crude and adjusted estimates, with the variables adjusted for).
 
-The full checklist is in the s7 exercise sheet and on equator-network.org (demo tomorrow).
+The full checklist is in the s7 exercise sheet and on equator-network.org (demo next Saturday).
 
 Ask: which item covers Table 1? Expected: 14 (descriptive data).
 :::
@@ -1088,7 +1088,7 @@ Prompts: 'Where is your statistical paragraph?' 'What was adjusted for?' 'Where 
 
 Q4 group (lactate): make sure they report BOTH complete-case and imputed estimates. Q5 group (length of stay): medians and IQR, not means. Q3 group: ventilator-free days are skewed - check the summary they chose.
 
-At 2:52 ask each group to save and send its draft (email or shared folder) - it is the starting file for tomorrow's workshop 2.
+At 2:52 ask each group to save and send its draft (email or shared folder) - it is the starting file for next Saturday's workshop 2.
 :::
 
 ## Key words of Session 7
@@ -1109,10 +1109,10 @@ Full glossary (EN-VN): Course/References/
 ::: {.notes}
 Read the six terms with the room - ask someone to explain each in their own words before you read the right-hand column.
 
-These are also the words most likely to appear in the post-course quiz tomorrow.
+These are also the words most likely to appear in the post-course quiz next Saturday.
 :::
 
-## Wrap-up and homework for tomorrow
+## Wrap-up and homework for next Saturday
 
 ::: {.neu-banner style="--c:#1F5C7A"}
 DISCUSSION · 5 min
@@ -1122,9 +1122,9 @@ DISCUSSION · 5 min
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#1F5C7A"}
 1. Three take-home messages (next to this list)
-2. Tonight: finish Proposal Part 4 and your 6 presentation slides
-3. Tonight: read your Methods + Results draft once, aloud
-4. Tomorrow: Introduction, Discussion, Abstract, Title - then present
+2. This week: finish Proposal Part 4 and your 6 presentation slides
+3. This week: read your Methods + Results draft once, aloud
+4. Next Saturday: Introduction, Discussion, Abstract, Title - then present
 :::
 :::
 ::: {.column width="40%"}
@@ -1145,7 +1145,7 @@ Take home
 ::: {.notes}
 WRAP-UP (2:55-3:00). Read the three take-home messages; ask one person to add a fourth.
 
-Homework: proposal slides (presentation guide: 6 minutes, 6 slides), and a read-through of the manuscript draft. Tomorrow starts with a 5-minute recap and goes straight into writing.
+Homework: proposal slides (presentation guide: 6 minutes, 6 slides), and a read-through of the manuscript draft. Next Saturday starts with a 5-minute recap and goes straight into writing.
 :::
 
 ## Extra slides  \|  Session 7

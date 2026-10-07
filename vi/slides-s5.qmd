@@ -14,7 +14,7 @@ format:
 
 # Buổi 5 · Dữ liệu: thu thập tốt, mô tả trung thực
 
-## Cuối tuần 3 · Thứ Bảy
+## Tuần 5 · Thứ Bảy
 
 - Câu hỏi ôn tập Buổi 3-4 (10 phút)
 - 5.1 Dữ liệu tốt từ khâu thiết kế: biến số, CRF, từ điển dữ liệu, kiểm tra, quản lý dữ liệu
@@ -24,11 +24,11 @@ format:
 - Xây dựng đề cương 5: biến số, CRF thu gọn, từ điển dữ liệu, quản lý dữ liệu
 
 ::: {.notes}
-Chào mừng đến Cuối tuần 3. Buổi 1-4 đã đặt câu hỏi, tìm bằng chứng và chọn thiết kế. Cuối tuần này chúng ta ĐO LƯỜNG và PHÂN TÍCH: hôm nay (Buổi 5) là dữ liệu, ngày mai (Buổi 6) là phân tích.
+Chào mừng đến Tuần 5. Buổi 1-4 đã đặt câu hỏi, tìm bằng chứng và chọn thiết kế. Trong hai thứ Bảy này chúng ta ĐO LƯỜNG và PHÂN TÍCH: hôm nay (Buổi 5) là dữ liệu, thứ Bảy tuần sau (Buổi 6) là phân tích.
 
 Lời hứa: không có công thức. Mỗi ý tưởng đi theo thứ tự: hình ảnh, ví dụ minh họa, rồi kiểm tra nhanh một phút. Việc của anh chị là diễn giải, không phải tính toán.
 
-Mới trong cuối tuần này: bộ dữ liệu khóa học FLUID-ICU, một đoàn hệ thực tế (mô phỏng) gồm khoảng 600 người lớn bị nhiễm khuẩn huyết. Anh chị sẽ thấy dữ liệu được làm sạch và mô tả trực tiếp bằng R, và mỗi nhóm nhận một câu hỏi nghiên cứu cùng một gói kết quả, sẽ trở thành bản thảo bài báo ở Cuối tuần 4.
+Mới trong Tuần 5-6: bộ dữ liệu khóa học FLUID-ICU, một đoàn hệ thực tế (mô phỏng) gồm khoảng 600 người lớn bị nhiễm khuẩn huyết. Anh chị sẽ thấy dữ liệu được làm sạch và mô tả trực tiếp bằng R, và mỗi nhóm nhận một câu hỏi nghiên cứu cùng một gói kết quả, sẽ trở thành bản thảo bài báo ở Tuần 7-8.
 
 Ví dụ xuyên suốt: dịch truyền trong sốc nhiễm khuẩn. Biến số 'cân bằng dịch tích lũy (ml/kg)' đi cùng chúng ta cả ngày: trên phiếu, trong từ điển dữ liệu, trong bộ dữ liệu đã làm sạch, trong Bảng 1.
 
@@ -446,7 +446,7 @@ Vì sao? Vì việc thiếu dữ liệu liên quan đến chính kết cục. Nh
 
 Quan niệm sai: 'chỉ mất 15%, không sao'. Số lượng ít quan trọng hơn việc AI bị thiếu.
 
-Ngày mai (Buổi 6, phần 6.4) chúng ta sẽ gọi tên các cơ chế (MCAR, MAR, MNAR) và xem ý tưởng đa phép gán. Nhưng cách xử lý thống kê luôn kém hơn phòng ngừa.
+Thứ Bảy tuần sau (Buổi 6, phần 6.4) chúng ta sẽ gọi tên các cơ chế (MCAR, MAR, MNAR) và xem ý tưởng đa phép gán. Nhưng cách xử lý thống kê luôn kém hơn phòng ngừa.
 
 Hỏi: ở khoa anh chị, bệnh nhân nào dễ có hồ sơ không đầy đủ nhất? Dự kiến: chuyển viện, tử vong, nhập viện ban đêm, nằm rất ngắn ngày.
 :::
@@ -776,7 +776,7 @@ Mỗi dòng: vấn đề phát hiện, số bản ghi, đã làm gì và vì sao
 
 Câu hỏi gửi cơ sở: giá trị vô lý được đặt là thiếu và gửi câu hỏi đến cơ sở; không xóa bệnh nhân (xóa sẽ làm sai lệch mẫu).
 
-Phần còn lại sau làm sạch là dữ liệu thiếu THẬT: lactat 93 trên 620 (15.0%), mọi biến khác 1% hoặc ít hơn. Các ô trống này là chủ đề của phần 6.4 ngày mai.
+Phần còn lại sau làm sạch là dữ liệu thiếu THẬT: lactat 93 trên 620 (15.0%), mọi biến khác 1% hoặc ít hơn. Các ô trống này là chủ đề của phần 6.4 thứ Bảy tuần sau.
 
 Hỏi: vì sao không xóa luôn bệnh nhân có tuổi 210? Dự kiến: phần còn lại của hồ sơ vẫn đúng; xóa bệnh nhân vì lỗi gõ có thể làm sai lệch mẫu.
 
@@ -786,7 +786,7 @@ Phần Phương pháp trong bản thảo sẽ ghi: 'Dữ liệu được làm s�
 ## Năm nhóm, năm câu hỏi, một bộ dữ liệu
 
 ::: {.neu-intro}
-Mỗi nhóm trả lời một câu hỏi và viết thành bản thảo ở Cuối tuần 4.
+Mỗi nhóm trả lời một câu hỏi và viết thành bản thảo ở Tuần 7-8.
 :::
 
 :::: {.neu-cards style="--n:5"}
@@ -846,7 +846,7 @@ Q5 (nhóm 5): cân bằng dịch và thời gian nằm ICU ở người sống: 
 
 Mỗi nhóm có một gói kết quả trong Course/Data/results\_packs (Bảng 1, biểu đồ, bảng hồi quy, ghi chú dễ hiểu). Đây là nguyên liệu cho bản thảo viết ở Buổi 7-8.
 
-Phân công câu hỏi ngay bây giờ (hoặc xác nhận phân công đã làm trước cuối tuần).
+Phân công câu hỏi ngay bây giờ (hoặc xác nhận phân công đã làm trước buổi học).
 :::
 
 ## Câu hỏi của nhóm
@@ -1499,7 +1499,7 @@ Từ điển dữ liệu: 3 đến 5 dòng với tên biến ngắn, nhãn, lo�
 
 Kế hoạch quản lý dữ liệu: một hai câu: EDC hoặc giấy với nhập hai lần, mã số với sổ liên kết khóa riêng, nhật ký thay đổi, sao lưu, và tuyên bố chia sẻ dữ liệu trong phiếu đồng thuận.
 
-Ngày mai (Buổi 6) các nhóm bổ sung cỡ mẫu, kế hoạch phân tích và kế hoạch xử lý dữ liệu thiếu.
+Thứ Bảy tuần sau (Buổi 6) các nhóm bổ sung cỡ mẫu, kế hoạch phân tích và kế hoạch xử lý dữ liệu thiếu.
 :::
 
 ## Xây dựng đề cương 5: biến số, CRF và quản lý dữ liệu
@@ -1645,7 +1645,7 @@ Giữ dữ liệu sạch: FLUID-ICU cho thấy dữ liệu thật trông thế n
 
 Mô tả trung thực: trung vị hay trung bình, chấm thay cho biểu đồ thuốc nổ, Bảng 1 người đọc hiểu được mà không cần đọc phần chữ.
 
-Ngày mai (Buổi 6): từ mẫu đến câu trả lời: khoảng tin cậy, giá trị p, kiểm định, hồi quy, sống còn và dữ liệu thiếu, tất cả chạy trực tiếp trên FLUID-ICU.
+Thứ Bảy tuần sau (Buổi 6): từ mẫu đến câu trả lời: khoảng tin cậy, giá trị p, kiểm định, hồi quy, sống còn và dữ liệu thiếu, tất cả chạy trực tiếp trên FLUID-ICU.
 :::
 
 ## Tổng kết và bài tập về nhà
@@ -1665,7 +1665,7 @@ THẢO LUẬN · 5 phút
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#1F5C7A"}
-Ngày mai: Buổi 6
+Thứ Bảy tuần sau: Buổi 6
 
 - Khoảng tin cậy, giá trị p
 - Chọn kiểm định
@@ -1687,7 +1687,7 @@ Câu hỏi cuối buổi trên giấy nhớ: nêu một lỗi chất lượng d�
 
 Về nhà: hoàn thành CRF và các dòng từ điển dữ liệu của đề cương; đọc gói kết quả của nhóm (Bảng 1, biểu đồ); bài tập tùy chọn trong phiếu bài tập Buổi 5.
 
-Cảm ơn cả lớp: hôm nay có nhiều từ mới; ngày mai xây dựng trực tiếp trên đó.
+Cảm ơn cả lớp: hôm nay có nhiều từ mới; thứ Bảy tuần sau xây dựng trực tiếp trên đó.
 :::
 
 ## Trang bổ sung — Buổi 5

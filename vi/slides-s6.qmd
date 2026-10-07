@@ -14,7 +14,7 @@ format:
 
 # Buổi 6 · Phân tích: từ mẫu đến câu trả lời
 
-## Cuối tuần 3 · Chủ Nhật
+## Tuần 6 · Thứ Bảy
 
 - Câu hỏi ôn tập Buổi 5 (10 phút)
 - 6.1 Từ mẫu đến quần thể: CI, giá trị p, power, cỡ mẫu, chọn kiểm định
@@ -24,11 +24,11 @@ format:
 - Xây dựng đề cương 6: cỡ mẫu, kế hoạch phân tích, dữ liệu thiếu
 
 ::: {.notes}
-Chào mừng trở lại. Hôm qua (Buổi 5) chúng ta đã thu thập, làm sạch và mô tả dữ liệu. Hôm nay chúng ta PHÂN TÍCH: một mẫu trả lời câu hỏi về quần thể như thế nào, và đọc các con số máy tính đưa ra ra sao.
+Chào mừng trở lại. Thứ Bảy tuần trước (Buổi 5) chúng ta đã thu thập, làm sạch và mô tả dữ liệu. Hôm nay chúng ta PHÂN TÍCH: một mẫu trả lời câu hỏi về quần thể như thế nào, và đọc các con số máy tính đưa ra ra sao.
 
 Lời hứa: vẫn không có công thức. Mỗi ý tưởng là một hình ảnh, một ví dụ minh họa từ ví dụ xuyên suốt, rồi kiểm tra nhanh một phút.
 
-Bộ dữ liệu khóa học FLUID-ICU quay lại hai lần: ở 6.2 (so sánh các nhóm) và 6.4 (mô hình, sống còn và dữ liệu thiếu). Mỗi nhóm diễn giải gói kết quả của mình; các diễn giải đó trở thành phần Kết quả của bản thảo ở Cuối tuần 4.
+Bộ dữ liệu khóa học FLUID-ICU quay lại hai lần: ở 6.2 (so sánh các nhóm) và 6.4 (mô hình, sống còn và dữ liệu thiếu). Mỗi nhóm diễn giải gói kết quả của mình; các diễn giải đó trở thành phần Kết quả của bản thảo ở Tuần 7-8.
 
 Thời lượng: ôn tập 0:00, 6.1 lúc 0:10, 6.2 lúc 0:50, giải lao 1:10, 6.3 lúc 1:25, 6.4 lúc 2:00, xây dựng đề cương 2:25, tổng kết 2:55.
 
@@ -1044,7 +1044,7 @@ Hiệu chỉnh theo kế hoạch, đọc CI, và trung thực về các ô trố
 ::: {.notes}
 Mở đầu phần 6.4 (25 phút: SAP, OR thô và hiệu chỉnh, mô hình hiệu chỉnh, Kaplan-Meier và Cox, lactat bị thiếu, ca đầy đủ so với đa phép gán, rồi phiếu bài tập nhóm 7 phút).
 
-Thông điệp chính: đây là phần 6.3 (mô hình) áp dụng cho FLUID-ICU, và là thành quả của cả cuối tuần: anh chị sẽ THẤY nhiễu do chỉ định làm một tỉ số chênh nhỏ lại.
+Thông điệp chính: đây là phần 6.3 (mô hình) áp dụng cho FLUID-ICU, và là thành quả của cả Tuần 5-6: anh chị sẽ THẤY nhiễu do chỉ định làm một tỉ số chênh nhỏ lại.
 :::
 
 ## SAP có trước
@@ -1544,7 +1544,7 @@ Hiệu chỉnh trung thực: FLUID-ICU cho thấy nhiễu do chỉ định: OR t
 
 Lập kế hoạch trước: SAP của FLUID-ICU được viết trước khi phân tích; lactat bị thiếu được báo cáo, xử lý bằng đa phép gán và đối chiếu với phân tích ca đầy đủ.
 
-Cuối tuần tới: viết bài (Phương pháp và Kết quả ở Buổi 7, phần còn lại và công bố ở Buổi 8).
+Hai thứ Bảy tới: viết bài (Phương pháp và Kết quả ở Buổi 7, phần còn lại và công bố ở Buổi 8).
 :::
 
 ## Tổng kết và bài tập về nhà
@@ -1564,7 +1564,7 @@ THẢO LUẬN · 5 phút
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#1F5C7A"}
-Cuối tuần tới
+Tuần 7-8
 
 - Đề cương, đạo đức, đăng ký
 - Liêm chính nghiên cứu

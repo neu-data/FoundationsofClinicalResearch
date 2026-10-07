@@ -14,7 +14,7 @@ format:
 
 # Buổi 7 · Bảo vệ & viết: đạo đức, liêm chính, Phương pháp và Kết quả
 
-## Cuối tuần 4 · Thứ Bảy
+## Tuần 7 · Thứ Bảy
 
 - Câu hỏi ôn tập: Buổi 6
 - 7.1  Đề cương, đạo đức, chấp thuận, đăng ký, tính khả thi
@@ -24,7 +24,7 @@ format:
 - Thực hành bản thảo 1: soạn Phương pháp + Kết quả
 
 ::: {.notes}
-BUỔI 7 (0:00). Cuối tuần 4, Thứ Bảy. Hôm nay có hai nửa: trước giải lao chúng ta bảo vệ người bệnh và khoa học (đạo đức, liêm chính) và hoàn thành Đề cương Phần 4; sau giải lao chúng ta bắt đầu VIẾT bản thảo FLUID-ICU.
+BUỔI 7 (0:00). Tuần 7, Thứ Bảy. Hôm nay có hai nửa: trước giải lao chúng ta bảo vệ người bệnh và khoa học (đạo đức, liêm chính) và hoàn thành Đề cương Phần 4; sau giải lao chúng ta bắt đầu VIẾT bản thảo FLUID-ICU.
 
 Nhịp: chậm. Mỗi phần có một ví dụ mẫu và 1 phút kiểm tra hiểu bài. Nếu thiếu thời gian, bỏ các slide trong mục 'Slide bổ sung - Buổi 7' ở cuối, không bao giờ bỏ phần thực hành.
 
@@ -85,9 +85,9 @@ Giơ tay cho từng câu; dành nhiều thời gian nhất cho câu mà lớp ch
 :::
 
 ::: {.notes}
-Hai sản phẩm, hai hàng. Sản phẩm 1 - đề cương nghiên cứu của chính nhóm - hôm nay có phần cuối cùng (đạo đức, đăng ký, khả thi, kế hoạch công bố) và được trình bày ngày mai.
+Hai sản phẩm, hai hàng. Sản phẩm 1 - đề cương nghiên cứu của chính nhóm - hôm nay có phần cuối cùng (đạo đức, đăng ký, khả thi, kế hoạch công bố) và được trình bày thứ Bảy tuần sau.
 
-Sản phẩm 2 - bản thảo FLUID-ICU - chuyển từ 'đọc kết quả phân tích' (Buổi 6) sang VIẾT: hôm nay Phương pháp và Kết quả, ngày mai Đặt vấn đề, Bàn luận, Tóm tắt và Tiêu đề.
+Sản phẩm 2 - bản thảo FLUID-ICU - chuyển từ 'đọc kết quả phân tích' (Buổi 6) sang VIẾT: hôm nay Phương pháp và Kết quả, thứ Bảy tuần sau Đặt vấn đề, Bàn luận, Tóm tắt và Tiêu đề.
 
 Hỏi: nhóm bạn có câu hỏi nào (Q1-Q5)? Bảo đảm mọi người đều biết.
 :::
@@ -683,8 +683,8 @@ XÂY DỰNG ĐỀ CƯƠNG · 15 phút
 Phiếu bài tập
 
 - Practicals/s7\_exercises.md, Phần B
-- Slide 5 và 6 cho ngày mai
-- Hoàn thiện ở nhà tối nay
+- Slide 5 và 6 cho thứ Bảy tuần sau
+- Hoàn thiện ở nhà trong tuần
 :::
 :::
 ::::
@@ -698,9 +698,9 @@ XÂY DỰNG ĐỀ CƯƠNG 7 (1:00-1:15). Nhắc to từng mốc thời gian.
 
 Đi quanh các bàn. Vấn đề thường gặp: (1) 'sẽ xin chấp thuận' mà không nói ai, khi nào, thế nào - hướng theo sơ đồ ICU; (2) nghiên cứu hồi cứu hồ sơ cho rằng không cần hội đồng - sai, hội đồng quyết định và có thể miễn chấp thuận; (3) số bệnh nhân lấy từ tính cỡ mẫu thay vì từ số nhập viện của khoa; (4) chọn CONSORT cho đề cương quan sát.
 
-Tạp chí và bảng kiểm EQUATOR sẽ được kiểm tra lại ở 8.2 ngày mai - hôm nay trả lời tạm là được.
+Tạp chí và bảng kiểm EQUATOR sẽ được kiểm tra lại ở 8.2 thứ Bảy tuần sau - hôm nay trả lời tạm là được.
 
-Nhắc: ngày mai mỗi nhóm trình bày (6 phút, 6 slide) - slide 5 (đạo đức & khả thi) và 6 (kế hoạch công bố) lấy từ phiếu này.
+Nhắc: thứ Bảy tuần sau mỗi nhóm trình bày (6 phút, 6 slide) - slide 5 (đạo đức & khả thi) và 6 (kế hoạch công bố) lấy từ phiếu này.
 :::
 
 ## Giải lao
@@ -904,7 +904,7 @@ Cân bằng dương 373/618 (60,4%); SOFA trung vị 8 (6 đến 10) so với 6 
 
 Tử vong: 134/373 (35,9%) so với 45/245 (18,4%). OR thô 2,49 (1,70 đến 3,70); OR hiệu chỉnh 1,62 (1,02 đến 2,59), p 0,044. Độ nhạy: quy gán đa bội OR 1,70 (1,09 đến 2,64); HR Cox hiệu chỉnh 1,46 (1,00 đến 2,13).
 
-Chỉ ra điều KHÔNG có trong đoạn: không 'vì', không 'có ý nghĩa', không giải thích vì sao OR giảm - đó là việc của Bàn luận ngày mai.
+Chỉ ra điều KHÔNG có trong đoạn: không 'vì', không 'có ý nghĩa', không giải thích vì sao OR giảm - đó là việc của Bàn luận thứ Bảy tuần sau.
 
 Hỏi: câu thô-VÀ-hiệu chỉnh đáp ứng mục STROBE nào? Đáp án: 16.
 :::
@@ -969,7 +969,7 @@ Bảng 1 đầy đủ, có các dòng dữ liệu thiếu, nằm trong mỗi gó
 
 Các mục hay bị quên: 9 (sai lệch - nói rõ cách xử lý nhiễu do chỉ định: hiệu chỉnh theo mức độ nặng); 10 (cỡ mẫu - với bộ dữ liệu cố định ghi 'đưa vào toàn bộ bệnh nhân đủ tiêu chuẩn trong đoàn hệ'); 12 (dữ liệu thiếu - xử lý lactat thiếu thế nào); 16 (báo cáo CẢ ước lượng thô và hiệu chỉnh, kèm các biến hiệu chỉnh).
 
-Bảng kiểm đầy đủ có trong phiếu bài tập s7 và trên equator-network.org (trình diễn ngày mai).
+Bảng kiểm đầy đủ có trong phiếu bài tập s7 và trên equator-network.org (trình diễn thứ Bảy tuần sau).
 
 Hỏi: mục nào nói về Bảng 1? Đáp án: 14 (dữ liệu mô tả).
 :::
@@ -1088,7 +1088,7 @@ Câu gợi ý: 'Đoạn phân tích thống kê ở đâu?' 'Đã hiệu chỉnh
 
 Nhóm Q4 (lactat): bảo đảm báo cáo CẢ ước lượng phân tích ca đầy đủ và quy gán. Nhóm Q5 (thời gian nằm ICU): trung vị và KTPV, không dùng trung bình. Nhóm Q3: số ngày không thở máy bị lệch - kiểm tra cách tóm tắt.
 
-Lúc 2:52 đề nghị mỗi nhóm lưu và gửi bản nháp (email hoặc thư mục chung) - đây là tệp khởi đầu cho thực hành 2 ngày mai.
+Lúc 2:52 đề nghị mỗi nhóm lưu và gửi bản nháp (email hoặc thư mục chung) - đây là tệp khởi đầu cho thực hành 2 thứ Bảy tuần sau.
 :::
 
 ## Từ khóa của Buổi 7
@@ -1109,10 +1109,10 @@ Bảng thuật ngữ đầy đủ (Anh-Việt): Course/References/
 ::: {.notes}
 Đọc sáu thuật ngữ cùng cả lớp - mời một người giải thích bằng lời của mình trước khi đọc cột bên phải.
 
-Đây cũng là những từ dễ xuất hiện nhất trong bài kiểm tra cuối khóa ngày mai.
+Đây cũng là những từ dễ xuất hiện nhất trong bài kiểm tra cuối khóa thứ Bảy tuần sau.
 :::
 
-## Tổng kết và bài tập về nhà cho ngày mai
+## Tổng kết và bài tập về nhà cho thứ Bảy tuần sau
 
 ::: {.neu-banner style="--c:#1F5C7A"}
 THẢO LUẬN · 5 phút
@@ -1122,9 +1122,9 @@ THẢO LUẬN · 5 phút
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#1F5C7A"}
 1. Ba thông điệp mang về (bên cạnh danh sách này)
-2. Tối nay: hoàn thiện Đề cương Phần 4 và 6 slide trình bày
-3. Tối nay: đọc to bản nháp Phương pháp + Kết quả một lần
-4. Ngày mai: Đặt vấn đề, Bàn luận, Tóm tắt, Tiêu đề - rồi trình bày
+2. Trong tuần: hoàn thiện Đề cương Phần 4 và 6 slide trình bày
+3. Trong tuần: đọc to bản nháp Phương pháp + Kết quả một lần
+4. Thứ Bảy tuần sau: Đặt vấn đề, Bàn luận, Tóm tắt, Tiêu đề - rồi trình bày
 :::
 :::
 ::: {.column width="40%"}
@@ -1145,7 +1145,7 @@ Mang về
 ::: {.notes}
 TỔNG KẾT (2:55-3:00). Đọc ba thông điệp; mời một người thêm thông điệp thứ tư.
 
-Bài về nhà: slide đề cương (hướng dẫn trình bày: 6 phút, 6 slide) và đọc lại bản nháp. Ngày mai bắt đầu bằng 5 phút ôn tập và đi thẳng vào phần viết.
+Bài về nhà: slide đề cương (hướng dẫn trình bày: 6 phút, 6 slide) và đọc lại bản nháp. Thứ Bảy tuần sau bắt đầu bằng 5 phút ôn tập và đi thẳng vào phần viết.
 :::
 
 ## Slide bổ sung  \|  Buổi 7

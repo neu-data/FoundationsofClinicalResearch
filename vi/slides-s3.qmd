@@ -14,7 +14,7 @@ format:
 
 # Buổi 3 · Thiết kế: chọn đúng loại nghiên cứu
 
-## Cuối tuần 2 · Thứ Bảy
+## Tuần 3 · Thứ Bảy
 
 - Câu hỏi ôn tập Buổi 2 (10 phút)
 - 3.1  Thiết kế nghiên cứu qua hình ảnh (45 phút) + bài tập "Gọi tên thiết kế" (15 phút)
@@ -24,7 +24,7 @@ format:
 - Xây dựng đề cương 3: thiết kế, bối cảnh và đối tượng (35 phút) - tổng kết
 
 ::: {.notes}
-MỞ ĐẦU BUỔI 3 (0:00). Chào mừng đến Cuối tuần 2. Ở Buổi 1 và 2 chúng ta đặt câu hỏi và tìm bằng chứng. Hôm nay chọn CÁCH một nghiên cứu trả lời câu hỏi; ngày mai (Buổi 4) đánh giá có tin được câu trả lời không và tác động lớn đến đâu.
+MỞ ĐẦU BUỔI 3 (0:00). Chào mừng đến Tuần 3. Ở Buổi 1 và 2 chúng ta đặt câu hỏi và tìm bằng chứng. Hôm nay chọn CÁCH một nghiên cứu trả lời câu hỏi; thứ Bảy tuần sau (Buổi 4) đánh giá có tin được câu trả lời không và tác động lớn đến đâu.
 
 Ý chính: thiết kế quyết định điều được phép kết luận ở cuối nghiên cứu. Câu hỏi hay mà chọn sai thiết kế sẽ cho ra một nghiên cứu yếu.
 
@@ -352,7 +352,7 @@ Câu hỏi: nuôi ăn tĩnh mạch có phải yếu tố nguy cơ của nhiễm 
 ::: {.notes}
 Ví dụ này xuất hiện lại trong bài tính toán ở Buổi 4, nên hãy đi chậm.
 
-Bước 1: ca bệnh là người CÓ kết cục. Bước 2: ca chứng là những người tương tự KHÔNG có kết cục, từ cùng nguồn (cùng ICU, cùng thời gian) - chọn ca chứng tốt là phần khó nhất. Bước 3: nhìn lại phơi nhiễm, cùng một cách cho cả hai nhóm. Bước 4: 60% ca bệnh so với 20% ca chứng có phơi nhiễm. Bước 5: kết quả là tỷ số chênh (OR = 6,0, sẽ tính ngày mai).
+Bước 1: ca bệnh là người CÓ kết cục. Bước 2: ca chứng là những người tương tự KHÔNG có kết cục, từ cùng nguồn (cùng ICU, cùng thời gian) - chọn ca chứng tốt là phần khó nhất. Bước 3: nhìn lại phơi nhiễm, cùng một cách cho cả hai nhóm. Bước 4: 60% ca bệnh so với 20% ca chứng có phơi nhiễm. Bước 5: kết quả là tỷ số chênh (OR = 6,0, sẽ tính thứ Bảy tuần sau).
 
 Quan niệm sai: 'ca chứng nên là người tình nguyện khỏe mạnh'. Không - ca chứng phải đến từ quần thể đã sinh ra ca bệnh, nếu không phép so sánh không công bằng.
 
@@ -1200,7 +1200,7 @@ THẢO LUẬN · 5 phút
 1. Câu hỏi cuối buổi: so sánh người tự chọn tiêm vắc xin cúm với người không tiêm. Thiết kế gì? Gây ra hay có liên quan?
 2. Bài về nhà: hoàn thành Phần 2a của đề cương (thiết kế, bối cảnh, đối tượng)
 3. Bài về nhà: đọc đoạn 'Patients' của Boulet và đoạn 'Data source' của Hyun
-4. Ngày mai (Buổi 4): có tin được kết quả không, và tác động lớn đến đâu?
+4. Thứ Bảy tuần sau (Buổi 4): có tin được kết quả không, và tác động lớn đến đâu?
 :::
 
 ::: {.neu-output style="--c:#1F5C7A"}
@@ -1208,7 +1208,7 @@ THẢO LUẬN · 5 phút
 :::
 
 ::: {.notes}
-Đáp án câu hỏi cuối buổi: thuần tập (chia theo phơi nhiễm họ tự chọn, theo dõi về sau); chỉ được nói 'có liên quan' - người chọn tiêm vắc xin khác biệt ở nhiều mặt (hiệu ứng người dùng khỏe mạnh), một bước dẫn vào yếu tố nhiễu ngày mai.
+Đáp án câu hỏi cuối buổi: thuần tập (chia theo phơi nhiễm họ tự chọn, theo dõi về sau); chỉ được nói 'có liên quan' - người chọn tiêm vắc xin khác biệt ở nhiều mặt (hiệu ứng người dùng khỏe mạnh), một bước dẫn vào yếu tố nhiễu thứ Bảy tuần sau.
 
 Thu giấy dán; đọc to ba tờ khi mở đầu Buổi 4.
 

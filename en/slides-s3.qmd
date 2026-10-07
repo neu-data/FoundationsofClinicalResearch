@@ -14,7 +14,7 @@ format:
 
 # Session 3 · Design: choosing the right study
 
-## Weekend 2 · Saturday
+## Week 3 · Saturday
 
 - Recap quiz on Session 2 (10 min)
 - 3.1  Study designs in pictures (45 min) + exercise "Name that design" (15 min)
@@ -24,7 +24,7 @@ format:
 - Proposal builder 3: design, setting and population (35 min) - wrap-up
 
 ::: {.notes}
-SESSION 3 OPENING (0:00). Welcome to Weekend 2. In Sessions 1 and 2 we asked a question and found the evidence. Today we choose HOW a study answers a question; tomorrow (Session 4) we judge whether we can trust the answer and how big the effect is.
+SESSION 3 OPENING (0:00). Welcome to Week 3. In Sessions 1 and 2 we asked a question and found the evidence. Today we choose HOW a study answers a question; next Saturday (Session 4) we judge whether we can trust the answer and how big the effect is.
 
 Teaching point: the design decides what you are allowed to claim at the end. A good question with the wrong design produces a weak study.
 
@@ -352,7 +352,7 @@ Question: is parenteral nutrition a risk factor for ICU candidaemia?
 ::: {.notes}
 The same example appears in the Session 4 calculation exercise, so take your time.
 
-Step 1: cases are people WITH the outcome. Step 2: controls are similar people WITHOUT it, from the same source (same ICUs, same period) - choosing controls well is the hardest part. Step 3: look back for the exposure, the same way for both groups. Step 4: 60% of cases vs 20% of controls were exposed. Step 5: the result is an odds ratio (OR = 6.0, which we calculate tomorrow).
+Step 1: cases are people WITH the outcome. Step 2: controls are similar people WITHOUT it, from the same source (same ICUs, same period) - choosing controls well is the hardest part. Step 3: look back for the exposure, the same way for both groups. Step 4: 60% of cases vs 20% of controls were exposed. Step 5: the result is an odds ratio (OR = 6.0, which we calculate next Saturday).
 
 Misconception: 'controls should be healthy volunteers'. No - controls must come from the population that produced the cases, otherwise the comparison is unfair.
 
@@ -1200,7 +1200,7 @@ DISCUSSION · 5 min
 1. Exit question: a study compares patients who chose to get a flu vaccine with those who did not. Design? Caused or associated?
 2. Homework: finish Proposal Part 2a (design, setting, population)
 3. Homework: read the 'Patients' paragraph of Boulet and the 'Data source' paragraph of Hyun
-4. Tomorrow (Session 4): can we trust the result, and how big is the effect?
+4. Next Saturday (Session 4): can we trust the result, and how big is the effect?
 :::
 
 ::: {.neu-output style="--c:#1F5C7A"}
@@ -1208,7 +1208,7 @@ DISCUSSION · 5 min
 :::
 
 ::: {.notes}
-Exit question answer: a cohort (grouped by the exposure they chose, followed forward); it may only say 'associated' - people who choose vaccination differ in many ways (healthy-user effect), a preview of confounding tomorrow.
+Exit question answer: a cohort (grouped by the exposure they chose, followed forward); it may only say 'associated' - people who choose vaccination differ in many ways (healthy-user effect), a preview of confounding next Saturday.
 
 Collect the sticky notes; read three aloud at the start of Session 4.
 

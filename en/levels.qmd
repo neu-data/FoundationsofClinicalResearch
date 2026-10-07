@@ -23,7 +23,7 @@ Neudata's clinical-research training runs in three levels. Each level builds on 
 | **In one line** | Understand research from question to publication | Do the analysis yourself, properly, in R | Tackle complex designs and data with Neudata |
 | **Who** | A whole department (~30 doctors, nurses, pharmacists) | An interested subgroup (8–12) who want to run their own analyses | Researchers with a specific complex project or dataset |
 | **Prerequisites** | None | Level 1 + the free Neudata course *Clinical Data Analysis in R* (or equivalent basics) | Level 2 (or equivalent experience), plus a real question or dataset |
-| **Format** | 8 × 3 h over 4 weekends | 8 × 3 h over about 4–6 weeks, with homework | Workshops of 1–2 sessions, or consultancy, on request |
+| **Format** | 8 × 3 h, every Saturday for 8 weeks | 8 × 3 h over about 4–6 weeks, with homework | Workshops of 1–2 sessions, or consultancy, on request |
 | **Software** | None for participants (instructor demos) | R and RStudio on own laptops | R (and specialised packages) |
 | **Hands-on?** | Concepts, reading and interpreting; analyses demonstrated live on FLUID-ICU | Every session is hands-on coding | Hands-on on the participant's own data |
 | **Outcome** | A group research proposal and a group draft manuscript | A reproducible analysis and a draft Results section, on own or course data | A completed analysis plan or analysis for a real project, with Neudata support |

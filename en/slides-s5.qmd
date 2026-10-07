@@ -14,7 +14,7 @@ format:
 
 # Session 5 · Data: collect it well, describe it honestly
 
-## Weekend 3 · Saturday
+## Week 5 · Saturday
 
 - Recap quiz on Sessions 3-4 (10 min)
 - 5.1 Good data by design: variables, CRF, data dictionary, checks, data management
@@ -24,11 +24,11 @@ format:
 - Proposal builder 5: variables, mini-CRF, data dictionary, data management
 
 ::: {.notes}
-Welcome to Weekend 3. Sessions 1-4 asked a question, found the evidence and chose a design. This weekend we MEASURE and ANALYSE: today (Session 5) the data, tomorrow (Session 6) the analysis.
+Welcome to Week 5. Sessions 1-4 asked a question, found the evidence and chose a design. Over these two Saturdays we MEASURE and ANALYSE: today (Session 5) the data, next Saturday (Session 6) the analysis.
 
 Key promise: no formulas. Every idea comes as a picture, then a worked example, then a one-minute check. Your job is to interpret, not to calculate.
 
-New this weekend: the course dataset FLUID-ICU, a realistic (simulated) cohort of about 600 adults with sepsis. You will see it cleaned and described live in R, and each group gets one research question and a results pack that becomes its manuscript in Weekend 4.
+New in Weeks 5-6: the course dataset FLUID-ICU, a realistic (simulated) cohort of about 600 adults with sepsis. You will see it cleaned and described live in R, and each group gets one research question and a results pack that becomes its manuscript in Weeks 7-8.
 
 Running example: fluids in septic shock. The variable 'cumulative fluid balance (ml/kg)' follows us all day: on the form, in the data dictionary, in the cleaned dataset, in Table 1.
 
@@ -446,7 +446,7 @@ Why? Because missing is linked to the outcome itself. The sickest, most chaotic 
 
 Common misconception: 'we lost only 15%, that is fine'. The amount matters less than WHO is missing.
 
-Tomorrow (Session 6, 6.4) we name the mechanisms (MCAR, MAR, MNAR) and see the idea of multiple imputation. But statistical fixes are always second best to prevention.
+Next Saturday (Session 6, 6.4) we name the mechanisms (MCAR, MAR, MNAR) and see the idea of multiple imputation. But statistical fixes are always second best to prevention.
 
 Ask: in your unit, which patients are most likely to have incomplete records? Expected: transfers, deaths, night admissions, very short stays.
 :::
@@ -633,7 +633,7 @@ Other variables: demographics, comorbidities, infection source, severity scores,
 
 The full data dictionary is Course/Data/data\_dictionary.md: the same structure as the one you saw in 5.1.
 
-Ask: from what you know of Saturday 2 and Paper 2, which patients do you expect to have a positive balance? Expected: the sickest ones. Keep that in mind for Table 1 and Session 6.
+Ask: from what you know of Sessions 3-4 and Paper 2, which patients do you expect to have a positive balance? Expected: the sickest ones. Keep that in mind for Table 1 and Session 6.
 :::
 
 ## From 623 rows to 527 complete cases
@@ -776,7 +776,7 @@ Each row: the problem found, how many records, what was done and why (for exampl
 
 Queries: impossible values are set to missing and a query is sent to the site; the patient is not deleted (deleting would bias the sample).
 
-What is left after cleaning is REAL missing data: lactate 93 of 620 (15.0%), every other variable 1% or less. These gaps are the subject of 6.4 tomorrow.
+What is left after cleaning is REAL missing data: lactate 93 of 620 (15.0%), every other variable 1% or less. These gaps are the subject of 6.4 next Saturday.
 
 Ask: why not just delete the patient with an age of 210? Expected: the rest of the record is valid; deleting patients for typing errors can bias the sample.
 
@@ -786,7 +786,7 @@ Your manuscript's Methods will say: 'Data were cleaned with a script; all change
 ## Five groups, five questions, one dataset
 
 ::: {.neu-intro}
-Each group answers one question and writes it up as a manuscript in Weekend 4.
+Each group answers one question and writes it up as a manuscript in Weeks 7-8.
 :::
 
 :::: {.neu-cards style="--n:5"}
@@ -846,7 +846,7 @@ Q5 (group 5): fluid balance and ICU length of stay among survivors: a skewed out
 
 Each group has a results pack in Course/Data/results\_packs (Table 1, figures, regression tables, plain-language notes). It is the raw material of the manuscript drafted in Sessions 7-8.
 
-Assign the questions now (or confirm the assignment made before the weekend).
+Assign the questions now (or confirm the assignment made before the session).
 :::
 
 ## Your group's question
@@ -1499,7 +1499,7 @@ Data dictionary: 3 to 5 rows with short variable names, labels, types, units or 
 
 Data-management plan: one or two sentences: EDC or paper with double entry, coded IDs with a separately locked linking log, audit trail, backups, and a data-sharing statement in the consent form.
 
-Tomorrow (Session 6) the groups add the sample size, the analysis plan and the missing-data plan.
+Next Saturday (Session 6) the groups add the sample size, the analysis plan and the missing-data plan.
 :::
 
 ## Proposal builder 5: variables, CRF and data management
@@ -1645,7 +1645,7 @@ Keep it clean: FLUID-ICU showed what real data look like before cleaning and why
 
 Describe honestly: median vs mean, dots instead of dynamite plots, a Table 1 a reader understands without the text.
 
-Tomorrow (Session 6): from the sample to an answer: confidence intervals, p-values, tests, regression, survival and missing data, all run live on FLUID-ICU.
+Next Saturday (Session 6): from the sample to an answer: confidence intervals, p-values, tests, regression, survival and missing data, all run live on FLUID-ICU.
 :::
 
 ## Wrap-up and homework
@@ -1665,7 +1665,7 @@ DISCUSSION · 5 min
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#1F5C7A"}
-Tomorrow: Session 6
+Next Saturday: Session 6
 
 - Confidence intervals, p-values
 - Choosing a test
@@ -1687,7 +1687,7 @@ Exit question on a sticky note: name one data-quality problem found in the raw F
 
 Homework: finish the CRF and data-dictionary rows of the proposal; read the group's results pack (Table 1, figures); optional exercises from the Session 5 worksheet.
 
-Thank the room: today was a lot of new vocabulary; tomorrow builds directly on it.
+Thank the room: today was a lot of new vocabulary; next Saturday builds directly on it.
 :::
 
 ## Extra slides — Session 5

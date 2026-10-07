@@ -5,7 +5,7 @@
 <p align="center"><img src="en/images/course-poster.png" alt="Course poster" width="520"></p>
 
 The bilingual website of the Neudata course *Foundations of Clinical Research — From Clinical Question to
-Publication* (8 sessions · 4 weekends · 24 contact hours), with trainers Vương Mỹ Lượng & Bernard Osang'ir.
+Publication* (8 Saturdays · one session per week · 24 contact hours), with trainers Vương Mỹ Lượng & Bernard Osang'ir.
 
 This repository only holds the **generated website sources**. The course materials and the generator
 (`site/build.py`) live in a private Neudata repository; do not edit the files here by hand — change the course
