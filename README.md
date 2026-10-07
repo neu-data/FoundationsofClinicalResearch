@@ -2,6 +2,8 @@
 
 **Live site:** <https://neu-data.github.io/FoundationsofClinicalResearch/> (English: `/en/` · Tiếng Việt: `/vi/`)
 
+<p align="center"><img src="en/images/course-poster.png" alt="Course poster" width="520"></p>
+
 The bilingual website of the Neudata course *Foundations of Clinical Research — From Clinical Question to
 Publication* (8 sessions · 4 weekends · 24 contact hours), with trainers Vương Mỹ Lượng & Bernard Osang'ir.
 

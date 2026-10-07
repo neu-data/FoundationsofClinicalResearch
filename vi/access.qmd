@@ -26,8 +26,8 @@ Toàn bộ tài liệu khóa học đều **miễn phí**. Để mở tài liệ
 .acc-row input { flex:1 1 260px; padding:.55rem .7rem; border:1.5px solid #c9d6dc; border-radius:8px; font-size:1rem; }
 .acc-hint { color:#5f6f78; font-size:.92rem; }
 .acc-msg { display:none; padding:.7rem .9rem; border-radius:8px; margin-top:.5rem; }
-.acc-msg.ok { display:block; background:#EAF2F5; border-left:5px solid #055F56; }
-.acc-msg.err { display:block; background:#FEF3F2; border-left:5px solid #B42318; color:#7A271A; }
+.acc-msg.ok { display:block; background:#EAF2F5; border:1px solid rgba(5,95,86,.3); border-radius:8px; }
+.acc-msg.err { display:block; background:#FEF3F2; border:1px solid rgba(180,35,24,.3); border-radius:8px; color:#7A271A; }
 </style>
 <script>
 (function () {
