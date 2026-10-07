@@ -5,7 +5,7 @@ project:
 lang: en
 
 website:
-  title: "Foundations of Clinical Research"
+  title: "Foundations of Clinical Research · Level 1"
   site-url: "https://neu-data.github.io/FoundationsofClinicalResearch/en/"
   repo-url: "https://github.com/neu-data/FoundationsofClinicalResearch"
   favicon: images/neudata-logo.png
@@ -76,8 +76,6 @@ website:
             text: "Further reading"
           - href: papers.qmd
             text: "The two papers"
-          - href: advanced.qmd
-            text: "Advanced modules"
           - href: downloads.qmd
             text: "All downloads"
       - text: "Assignments"
@@ -96,6 +94,14 @@ website:
             text: "Manuscript rubric"
           - href: peer-review.qmd
             text: "Peer-review instructions"
+      - text: "Course levels"
+        menu:
+          - href: levels.qmd
+            text: "Overview: three levels"
+          - href: level2.qmd
+            text: "Level 2 — hands-on in R (in preparation)"
+          - href: level3.qmd
+            text: "Level 3 — advanced (on request)"
     right:
       - href: ../vi/index.html
         text: "Tiếng Việt"

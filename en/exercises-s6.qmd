@@ -6,18 +6,18 @@ title: "Session 6 — Exercise sheet"
 
 **Foundations of Clinical Research** · Weekend 3, Sunday · Neudata · #ClearDataClearImpact
 
-No calculator is needed. Exercises marked **[L2]** use the course dataset FLUID-ICU (simulated) and your group's results pack; your answers to Exercises 4 and 8 become the core of your manuscript's Results (Session 7). Exercise 9 completes Part 3 of your proposal.
+No calculator is needed. Exercises marked **[DS]** use the course dataset FLUID-ICU (simulated) and your group's results pack; your answers to Exercises 4 and 8 become the core of your manuscript's Results (Session 7). Exercise 9 completes Part 3 of your proposal.
 
 | # | Exercise | When | Time |
 |---|---|---|---|
 | 1 | True or false: CIs, p-values and multiple tests | 6.1 / homework | 5 min |
 | 2 | Choose the test | 6.1 check / homework | 5 min |
 | 3 | Match r to the scatter plots | homework | 3 min |
-| 4 | [L2] Interpret your group's comparison | 6.2 group worksheet | 7 min |
+| 4 | [DS] Interpret your group's comparison | 6.2 group worksheet | 7 min |
 | 5 | Read a regression table | 6.3 check (pairs) | 5 min |
 | 6 | Read a Kaplan–Meier curve | homework | 5 min |
 | 7 | Why is it missing? MCAR, MAR or MNAR | homework | 5 min |
-| 8 | [L2] Interpret your group's model | 6.4 group worksheet | 7 min |
+| 8 | [DS] Interpret your group's model | 6.4 group worksheet | 7 min |
 | 9 | Proposal builder 6 worksheet | proposal builder | 30 min |
 
 Figures for Exercises 3 and 6 are in `Resources/figures/en/sat3/` (Vietnamese versions in `.../vi/sat3/`).
@@ -81,7 +81,7 @@ Bonus: a bedside glucose meter and the laboratory have r = 0.97 in 50 patients. 
 
 * * *
 
-## Exercise 4 — [L2] Interpret your group's comparison (6.2)
+## Exercise 4 — [DS] Interpret your group's comparison (6.2)
 
 Use the comparison table in your results pack.
 
@@ -168,7 +168,7 @@ Bonus: for scenario (d), describe one **sensitivity analysis** you could report.
 
 * * *
 
-## Exercise 8 — [L2] Interpret your group's model: crude vs adjusted, complete case vs imputation (6.4)
+## Exercise 8 — [DS] Interpret your group's model: crude vs adjusted, complete case vs imputation (6.4)
 
 Use the regression table and the missing-data table in your results pack.
 

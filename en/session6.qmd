@@ -18,14 +18,14 @@ subtitle: "Weekend 3 · Sunday · 3 hours (15-minute break)"
 |:----|:----|---:|:------------------------------------------------------------|
 | 0:00 | 08:00 | 10 | Recap quiz |
 | 0:10 | 08:10 | 40 | **6.1 From sample to population:** CI, p-values & misinterpretations, type I/II errors, power, sample size (**live demo**), choosing a test, paired vs unpaired, multiple comparisons |
-| 0:50 | 08:50 | 20 | **6.2 [L2] Compare groups in the course dataset:** live demo (t-test / Mann–Whitney / chi-square); groups interpret their outputs |
+| 0:50 | 08:50 | 20 | **6.2 [DS] Compare groups in the course dataset:** live demo (t-test / Mann–Whitney / chi-square); groups interpret their outputs |
 | 1:10 | 09:10 | 15 | BREAK |
 | 1:25 | 09:25 | 35 | **6.3 Relationships and models:** correlation, linear and logistic regression, adjustment, interaction, overfitting, Kaplan–Meier & Cox, prediction/ML; reading regression tables & forest plots |
-| 2:00 | 10:00 | 25 | **6.4 [L2] Model the course dataset:** crude vs adjusted OR (confounding by indication made visible), Kaplan–Meier + Cox HR, complete-case vs multiple imputation; the SAP that was written before the analysis |
+| 2:00 | 10:00 | 25 | **6.4 [DS] Model the course dataset:** crude vs adjusted OR (confounding by indication made visible), Kaplan–Meier + Cox HR, complete-case vs multiple imputation; the SAP that was written before the analysis |
 | 2:25 | 10:25 | 30 | **Proposal builder 6:** sample size, analysis plan, missing-data plan |
 | 2:55 | 10:55 | 5 | Wrap-up |
 
-\*Times are relative to the start of the session; the clock column shows an example 08:00–11:00 session. **[L2]** = Level 2 (course dataset).
+\*Times are relative to the start of the session; the clock column shows an example 08:00–11:00 session. **[DS]** = course-dataset content (FLUID-ICU analysis and manuscript writing).
 
 ## Slides
 

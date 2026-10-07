@@ -41,7 +41,7 @@ Ghi các ví dụ lên bảng lật - đó là những chủ đề tiềm năng 
 ::: {.notes}
 Đi dọc con đường: Cuối tuần 1 là câu hỏi và bằng chứng; Cuối tuần 2 thiết kế và sai lệch; Cuối tuần 3 dữ liệu và phân tích; Cuối tuần 4 đạo đức, viết và công bố.
 
-Cuối tuần 1-2 là Cấp độ 1 (hiểu và thiết kế); Cuối tuần 3-4 là Cấp độ 2 (phân tích và công bố) - trong cùng một khóa học.
+Toàn bộ khóa học này là Cấp độ 1, bao gồm mọi bước từ câu hỏi đến công bố: Cuối tuần 1-2 xây dựng hiểu biết và kỹ năng thiết kế; Cuối tuần 3-4 áp dụng vào dữ liệu, viết bài và công bố.
 
 Một ví dụ xuyên suốt: dịch truyền trong sốc nhiễm khuẩn. Đồng nghiệp không thuộc ICU: mọi khái niệm đều có ví dụ ở khoa phòng (loét tì đè, vệ sinh tay, sai sót dùng thuốc, mê sảng).
 :::
@@ -51,13 +51,13 @@ Một ví dụ xuyên suốt: dịch truyền trong sốc nhiễm khuẩn. Đồ
 ![](images/figures/common/two_levels.png){.neu-fig}
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Trước hết hiểu và thiết kế nghiên cứu - sau đó phân tích một bộ dữ liệu và viết bài báo.
+**THÔNG ĐIỆP CHÍNH** Cấp độ 1 là khóa học này; Cấp độ 2 là thực hành phân tích bằng R; Cấp độ 3 là phương pháp nâng cao.
 :::
 
 ::: {.notes}
-Khái niệm Cấp độ 1 đi trước: đọc bài báo có phản biện, đặt câu hỏi tốt, thiết kế nghiên cứu chặt chẽ.
+Khóa học này (Cấp độ 1) đưa bạn từ câu hỏi lâm sàng đến bài báo được công bố. Cấp độ 2 là khóa thực hành R cho những ai muốn tự phân tích; Cấp độ 3 gồm các phương pháp nâng cao, chuyên sâu.
 
-Cấp độ 2 áp dụng các khái niệm đó trên một bộ dữ liệu thực tế gồm 600 bệnh nhân ICU: mô tả, phân tích và viết thành bài báo. Giảng viên chạy phần mềm; các bạn đọc và diễn giải kết quả.
+Trong Cấp độ 1, chúng ta dùng một bộ dữ liệu thực tế gồm 620 bệnh nhân ICU: mô tả, phân tích và viết thành bài báo. Giảng viên chạy phần mềm; các bạn đọc và diễn giải kết quả.
 
 Quan niệm sai cần gỡ bỏ: 'nghiên cứu chỉ dành cho nhà thống kê hay giáo sư'. Phần lớn câu hỏi lâm sàng tốt xuất phát từ điều dưỡng và bác sĩ tại giường bệnh.
 :::

@@ -1,0 +1,177 @@
+---
+title: "Cấp độ 2 — thực hành R (đang chuẩn bị)"
+---
+
+::: {.callout-important title="Trạng thái: đang chuẩn bị"}
+Cấp độ 2 là một **khóa học riêng**, không thuộc 8 buổi học này. Tài liệu đang được chuẩn bị và sẽ được phát triển sau khi Cấp độ 1 diễn ra.
+:::
+
+Cấp độ 2 dành cho học viên muốn **tự làm phân tích**: 8 buổi thực hành, mỗi buổi 3 giờ, với R và RStudio, tự xây dựng lại các phân tích FLUID-ICU của Cấp độ 1 (làm sạch dữ liệu, Bảng 1 và biểu đồ, hồi quy tuyến tính và logistic, dữ liệu thiếu) rồi áp dụng cho dữ liệu của chính mình. Điều kiện: đã học Cấp độ 1 và khóa miễn phí *Phân tích Dữ liệu Lâm sàng bằng R* của Neudata (hoặc kiến thức cơ bản tương đương).
+
+::: {.callout-note title="Bạn quan tâm?"}
+Liên hệ **Vương Mỹ Lượng** — [myluong1710@gmail.com](mailto:myluong1710@gmail.com).
+:::
+
+📥 [PDF](files/docs/Level2_Hands_On.pdf) · [Các cấp độ](levels.qmd)
+
+::: {.lang-note}
+Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
+:::
+
+## Hands-on clinical data analysis in R
+
+**Organisation:** Neudata — *#ClearDataClearImpact*
+
+> **Status: Outline — materials to be developed after Level 1.**
+
+
+* * *
+
+## 1. Why Level 2
+
+Level 1 shows the whole research journey, and the analyses are run by the instructor while participants read and interpret the output. Level 2 is for the participants who want to **do the job themselves**. It goes deeper into a small number of methods that cover most clinical papers — describing data, linear regression and logistic regression — and asks, for each one: *What do the parameters mean? What are the assumptions? How do I check them? How do I interpret and report the results?* It gives the same care to the practical skills that make research possible: managing data properly, writing reproducible R scripts and producing publication-ready tables and figures.
+
+By the end of Level 2, participants will be able to:
+
+1. Organise an analysis as a reproducible R project (folders, scripts, Quarto report) that someone else could re-run.
+2. Import, clean, recode and validate a clinical dataset, documenting every change in a cleaning log and a data dictionary.
+3. Produce a publication-ready Table 1 and figures that meet journal requirements.
+4. Fit, check, interpret and report linear and logistic regression models, including confounding, interaction, assumptions and diagnostics.
+5. Handle missing data openly: describe it, run complete-case and multiple-imputation analyses, and report a sensitivity analysis.
+6. Turn analysis output into a STROBE- or CONSORT-compliant Results section with tables and figures.
+
+## 2. Who it is for and prerequisites
+
+| | |
+|---|---|
+| **Participants** | 8–12 motivated staff from the client department (doctors, nurses, pharmacists) who want to analyse their own data. |
+| **Prerequisites** | (1) **Level 1** completed. (2) The free Neudata course ***Clinical Data Analysis in R***, or equivalent basics: RStudio, objects and data frames, importing a CSV, basic tidyverse verbs, a simple plot. A short readiness check (30 minutes, self-marked) is sent before the course. |
+| **Equipment** | Own laptop with R, RStudio and the course packages installed before Session 1 (installation guide and a 30-minute online set-up clinic). |
+| **Commitment** | 3 hours per session plus about 2–3 hours of homework per week; agreement from the line manager for protected time. |
+
+## 3. Format
+
+| | |
+|---|---|
+| **Sessions** | **8 × 3 hours** over about **4–6 weeks** (e.g. two sessions a week, or one per week with a one-week break mid-course). |
+| **Session rhythm** | 20–30 min concept recap → 2 h live coding and exercises (instructor codes, participants follow, then practise) → 20 min "my data" reflection and homework briefing. 15-minute break. |
+| **Shared dataset** | **FLUID-ICU** (`Course/Data/`): the simulated ICU sepsis cohort (raw and clean data, data dictionary, cleaning log, SAP, R scripts) already used in Level 1. Participants rebuild the Level 1 results pack analyses themselves. |
+| **Own data** | Each participant may bring a de-identified dataset (with the necessary ethics or data-protection approval). Two **one-to-one slots** of 30–45 minutes (after Sessions 3 and 6) help adapt the course scripts to their data. |
+| **Support** | Shared course folder (scripts, solutions after each session), an online question channel, and an instructor "office hour" each week. |
+| **Main R packages** | tidyverse (readr, dplyr, tidyr, ggplot2), here, janitor, readxl, gtsummary, flextable, broom, car, performance, pROC, mice, quarto/rmarkdown; optional: git via RStudio or GitHub Desktop. |
+
+## 4. Session-by-session outline
+
+### Session 1 — Reproducible projects: folders, scripts and reports
+
+- **Concepts:** why reproducibility matters (the "re-run in a year" test); the analysis pipeline raw → clean → analysis → report.
+- **Hands-on:** create an RStudio Project with a standard folder structure (`data/raw`, `data/clean`, `R/`, `output/`, `report/`); paths with `here`; script headers, comments and numbered scripts; packages loaded at the top; `sessionInfo()`.
+- **Quarto/R Markdown:** a first report mixing text, code and output; rendering to Word and HTML; inline numbers in sentences.
+- **FLUID-ICU:** set up the project and render a one-page "data overview" report.
+- **Deliverable:** a working project folder and a rendered Quarto report.
+
+### Session 2 — Data management: import, cleaning, validation and documentation
+
+- **Concepts:** raw data are never edited; the cleaning log; the data dictionary as the contract between data and analysis; tidy data.
+- **Hands-on (FLUID-ICU raw file):** import CSV and Excel; check structure and types; find duplicates; recode sentinel values (999, −99) to missing; harmonise categories (M/Male/1); parse dates; find impossible values with range and consistency checks; derive variables (cumulative fluid balance in ml/kg); set factor levels and reference categories.
+- **Documentation:** write the cleaning log as you go; generate a data dictionary from the clean data; compare your clean file with the course clean file.
+- **Version control basics:** dated versions and a change log at minimum; optional introduction to Git (commit, history, restore) through RStudio.
+- **Deliverable:** `01_clean.R`, a cleaning log and a data dictionary for FLUID-ICU (and a first look at the participant's own data).
+
+### Session 3 — Describing data and a publication-ready Table 1
+
+- **Concepts:** choosing the right summary (mean/SD vs median/IQR, n/%); distributions and skewness; missing values in tables; what Table 1 is for (and why p-values do not belong in Table 1 of an RCT).
+- **Hands-on:** summaries with dplyr; Table 1 by exposure group with **gtsummary** (labels, units, statistics per variable type, missing counts, footnotes); export to Word with **flextable**; consistent decimals and journal style.
+- **FLUID-ICU:** Table 1 by positive vs non-positive fluid balance, matching the Level 1 results pack.
+- **Deliverable:** `02_describe.R` and Table 1 as a Word table. *One-to-one slot 1 follows this session.*
+
+### Session 4 — Publication-ready figures with ggplot2
+
+- **Concepts:** principles of good scientific figures (show the data, one message per figure, honest axes, colour-blind-safe palettes, no 3-D or dynamite plots); which figure for which data.
+- **Hands-on:** the grammar of graphics; histograms, box and dot plots, scatter plots with smoothers, bar charts of proportions with CIs, Kaplan–Meier curves (via a ready-made function), forest plots of model estimates; facets; a reusable course theme; labels with units; exporting at journal resolution (300–600 dpi; TIFF/PDF/PNG; exact width in mm) with `ggsave`.
+- **FLUID-ICU:** a two-panel figure (fluid balance by outcome; mortality by fluid-balance group).
+- **Deliverable:** two exported, journal-ready figures and the script that makes them.
+
+### Session 5 — Linear regression in depth
+
+- **Concepts:** the model as a line; what the intercept and slope mean (in the units of the data); continuous and categorical predictors; centring and scaling; adjusted coefficients; confidence intervals and p-values for coefficients; R².
+- **Assumptions and diagnostics:** linearity, independence, constant variance, normality of residuals; influential points; residual and Q–Q plots (`performance::check_model`, `car`); multicollinearity (VIF).
+- **When assumptions fail:** transformations (log of a skewed outcome and how to back-transform to ratios), non-linear terms (splines, introduced), robust alternatives and non-parametric comparisons.
+- **Interaction in a linear model:** fitting, interpreting and plotting an interaction term.
+- **Reporting:** a regression table with `broom`/gtsummary; the sentence "each 10 ml/kg higher fluid balance was associated with …".
+- **FLUID-ICU:** ventilator-free days and ICU length of stay among survivors (Questions 3 and 5).
+- **Deliverable:** `04_linear.R`, a diagnostics figure and a reporting table with a written interpretation.
+
+### Session 6 — Logistic regression in depth
+
+- **Concepts:** odds and odds ratios; the logit link; what the coefficients mean; ORs for continuous predictors (per meaningful unit); crude vs adjusted ORs (confounding by indication made visible).
+- **Model building:** choosing confounders from the question and a simple causal diagram (DAG), not from p-values; events per variable and overfitting; why stepwise selection misleads; confounding vs interaction (effect modification) and how to test and report an interaction.
+- **Assumptions and checks:** linearity in the logit (splines or categorisation, compared); separation and sparse data; influential observations.
+- **Performance basics:** discrimination (ROC curve, AUC with `pROC`) and calibration (calibration plot by risk groups); why these matter more for prediction than for explanation.
+- **Reporting:** a table of crude and adjusted ORs with 95% CIs; a forest plot; STROBE wording.
+- **FLUID-ICU:** positive fluid balance and 28-day mortality (Question 1), with the heart-failure interaction; AKI (Question 2).
+- **Deliverable:** `05_logistic.R`, a crude-vs-adjusted OR table, a forest plot and a short interpretation. *One-to-one slot 2 follows this session.*
+
+### Session 7 — Missing data in practice and sensitivity analyses
+
+- **Concepts (recap from Level 1):** MCAR, MAR and MNAR; why complete-case analysis can mislead; what multiple imputation does and does not do.
+- **Hands-on:** describe and visualise missingness (patterns, comparison of patients with and without missing lactate); complete-case analysis; multiple imputation with **mice** (choosing variables for the imputation model, including the outcome; number of imputations; checking convergence and imputed distributions; pooling with Rubin's rules); comparing complete-case and imputed estimates.
+- **Sensitivity analyses:** what to vary (missing-data assumptions, outliers, definitions of exposure); how to report them briefly.
+- **FLUID-ICU:** lactate and 28-day mortality (Question 4).
+- **Deliverable:** `06_missing.R` and a sensitivity-analysis table with two sentences of interpretation.
+
+### Session 8 — From output to manuscript
+
+- **Concepts:** the reproducible report as the single source of every number; one home for each number; consistency between text, tables and figures.
+- **Hands-on:** a Quarto report that runs the whole pipeline (clean → describe → model → missing data) and renders Word tables and figures in journal format; inline results in sentences; the participant flow diagram; the STROBE (or CONSORT) items for Methods and Results; writing the statistical-analysis paragraph and the Results text from the output.
+- **Peer check:** participants swap reports and re-run each other's project from scratch ("does it reproduce?").
+- **Final-project clinic:** plan and start the final project.
+- **Deliverable:** a rendered report that reproduces all FLUID-ICU results from the raw file.
+
+## 5. Per-session deliverables (summary)
+
+| Session | Deliverable |
+|---|---|
+| 1 | Project folder + rendered Quarto report |
+| 2 | Cleaning script, cleaning log, data dictionary |
+| 3 | Table 1 (Word) and script |
+| 4 | Two journal-ready figures and script |
+| 5 | Linear model script, diagnostics, reporting table and interpretation |
+| 6 | Logistic model script, crude vs adjusted OR table, forest plot, interpretation |
+| 7 | Missing-data script and sensitivity-analysis table |
+| 8 | Full reproducible report from raw data to results |
+
+Each deliverable is submitted to the course folder before the next session; instructors give short written feedback.
+
+## 6. Final project
+
+Within **4 weeks after Session 8**, each participant (or pair) submits:
+
+1. A **reproducible analysis**: a project folder that runs from the raw data to all tables and figures with one command (renders the Quarto report), including a cleaning log, a data dictionary and a short statistical analysis plan written before the main analysis.
+2. A **draft Results section** (about 500–800 words) with Table 1, one main results table (regression) and one figure, written to the relevant reporting guideline, plus the statistical-analysis paragraph for the Methods.
+
+The data can be **the participant's own** (preferred, with approval) or a **FLUID-ICU question** not used in their Level 1 group. A 10-minute presentation of the final project at a closing meeting is recommended.
+
+## 7. Assessment
+
+| Component | Weight | How it is assessed |
+|---|---|---|
+| Session deliverables (8) | 40% | Completed and running (pass/fail per deliverable, with short feedback) |
+| Final project — reproducibility | 20% | An instructor re-runs the project on a clean computer; all results reproduce |
+| Final project — analysis | 20% | Appropriate methods, assumptions checked, missing data handled, interpretation correct |
+| Final project — reporting | 20% | Publication-ready tables and figures; Results text with effect sizes and 95% CIs; guideline items covered; calibrated language |
+
+Marks are used for feedback; there is no ranking.
+
+## 8. Materials to be developed
+
+| Material | Content |
+|---|---|
+| Slides (EN + VN) | 8 short concept decks (20–30 slides each) with speaker notes |
+| R scripts | Session starter scripts (with gaps) and complete instructor scripts, built from the Level 1 FLUID-ICU scripts in `Course/Data/R/` |
+| Exercises | One exercise sheet per session (core + stretch tasks) on FLUID-ICU, with a "your data" task |
+| Solutions | Full worked solutions and rendered outputs, released after each session |
+| Quarto templates | Report template (Word output in journal style), Table 1 and regression-table helpers, a ggplot2 course theme |
+| Checklists | Reproducibility checklist; regression assumptions checklist; Results-section checklist (STROBE/CONSORT) |
+| Set-up guide | Installation guide, package list and readiness check |
+| Assessment | Deliverable checklists and the final-project rubric |

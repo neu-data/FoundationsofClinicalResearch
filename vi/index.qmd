@@ -1,14 +1,14 @@
 ---
-pagetitle: "Nền tảng Nghiên cứu Lâm sàng"
+pagetitle: "Nền tảng Nghiên cứu Lâm sàng · Cấp độ 1"
 toc: false
 ---
 
 ::: {.course-hero}
-# Nền tảng Nghiên cứu Lâm sàng
+# Nền tảng Nghiên cứu Lâm sàng · Cấp độ 1
 Từ câu hỏi lâm sàng đến công bố
 
 ::: {.badges}
-[8 buổi]{} [4 cuối tuần (T7 + CN)]{} [24 giờ học]{} [Không cần phần mềm]{} [Anh + Việt]{}
+[Cấp độ 1]{} [8 buổi]{} [4 cuối tuần (T7 + CN)]{} [24 giờ học]{} [Không cần phần mềm]{} [Anh + Việt]{}
 :::
 
 [Lịch học](schedule.qmd){.btn .btn-light role="button"} [Nhận mã truy cập miễn phí](access.qmd){.btn .btn-light role="button"}
@@ -25,7 +25,8 @@ Từ câu hỏi lâm sàng đến công bố
 Nhân viên y tế đưa ra quyết định lâm sàng mỗi ngày mà nghiên cứu có thể giúp cải thiện — nhưng ít ai được hướng dẫn cách biến một điều chưa chắc chắn tại giường bệnh thành một nghiên cứu được công bố. Trong **bốn cuối tuần (tám buổi, mỗi buổi 3 giờ)**, khóa học đi hết **con đường nghiên cứu**: đặt câu hỏi tốt, tìm và đọc bằng chứng, chọn thiết kế, nhận biết sai lệch, thu thập và phân tích dữ liệu, bảo vệ người tham gia, viết bài báo và công bố.
 
 - **Chậm và trực quan.** Dành cho người chưa có nền tảng nghiên cứu: hình ảnh trước, kiểm tra mức hiểu mỗi 20 phút, không có công thức nào ngoài bảng 2×2, và mỗi buổi có slide bổ sung để ai muốn có thể đọc thêm ở nhà.
-- **Cấp độ 1 + Cấp độ 2 trong một khóa.** Cuối tuần 1–2 xây dựng hiểu biết và kỹ năng thiết kế; cuối tuần 3–4 phân tích bộ dữ liệu mô phỏng **FLUID-ICU (620 bệnh nhân ICU)** qua các trình diễn R của giảng viên và viết thành bản thảo bài báo.
+- **Cả con đường trong một khóa.** Cuối tuần 1–2 xây dựng hiểu biết và kỹ năng thiết kế; cuối tuần 3–4 phân tích bộ dữ liệu mô phỏng **FLUID-ICU (620 bệnh nhân ICU)** qua các trình diễn R của giảng viên và viết thành bản thảo bài báo.
+- **Cấp độ 1 trong ba cấp độ.** Khóa học này là **Cấp độ 1**. **Cấp độ 2** là một khóa thực hành R riêng cho những ai muốn tự phân tích (đang chuẩn bị); **Cấp độ 3** gồm các phương pháp nâng cao, chuyên sâu theo yêu cầu. Xem [Các cấp độ](levels.qmd).
 - **Một ví dụ xuyên suốt:** dịch truyền trong sốc nhiễm khuẩn — đặt câu hỏi và tìm kiếm, thiết kế, phân tích, viết và công bố, và thẩm định qua hai bài báo thực tế.
 
 ## Bốn cuối tuần, tám buổi học

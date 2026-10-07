@@ -2,7 +2,7 @@
 title: "Lịch học"
 ---
 
-Bốn cuối tuần, tám buổi học, mỗi buổi **3 giờ** (giải lao 15 phút): một buổi vào Thứ Bảy và một buổi vào Chủ Nhật. Cuối tuần 1–2 xây dựng hiểu biết và kỹ năng thiết kế (Cấp độ 1); cuối tuần 3–4 phân tích bộ dữ liệu mô phỏng **FLUID-ICU** và viết thành bài báo (Cấp độ 2).
+Bốn cuối tuần, tám buổi học, mỗi buổi **3 giờ** (giải lao 15 phút): một buổi vào Thứ Bảy và một buổi vào Chủ Nhật. Cuối tuần 1–2 xây dựng hiểu biết và kỹ năng thiết kế; cuối tuần 3–4 phân tích bộ dữ liệu mô phỏng **FLUID-ICU** qua trình diễn của giảng viên và viết thành bản thảo bài báo. Toàn bộ khóa học là **Cấp độ 1** ([các cấp độ](levels.qmd)).
 
 | Cuối tuần | Buổi | Ngày | Chủ đề | Nhóm xây dựng |
 |:---:|:--------|:--------|:----------|:------------------------------------|
@@ -31,7 +31,7 @@ Bốn cuối tuần, tám buổi học, mỗi buổi **3 giờ** (giải lao 15 
 | 2:25 | 10:25 | 30 | **Xây dựng đề cương 1:** chọn chủ đề, PICO, câu hỏi nghiên cứu, kiểm tra FINER, mục đích và mục tiêu |
 | 2:55 | 10:55 | 5 | Tổng kết, bài về nhà |
 
-\*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[L2]** = Cấp độ 2 (bộ dữ liệu khóa học).
+\*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
 
 [Trang buổi học →](session1.qmd)
 :::
@@ -50,7 +50,7 @@ Bốn cuối tuần, tám buổi học, mỗi buổi **3 giờ** (giải lao 15 
 | 2:20 | 10:20 | 35 | **Xây dựng đề cương 2:** chuỗi tìm kiếm, 5 tài liệu trong ma trận, đặt vấn đề, tên đề tài tạm thời |
 | 2:55 | 10:55 | 5 | Tổng kết |
 
-\*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[L2]** = Cấp độ 2 (bộ dữ liệu khóa học).
+\*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
 
 [Trang buổi học →](session2.qmd)
 :::
@@ -69,7 +69,7 @@ Bốn cuối tuần, tám buổi học, mỗi buổi **3 giờ** (giải lao 15 
 | 2:20 | 10:20 | 35 | **Xây dựng đề cương 3:** thiết kế và lý do chọn, bối cảnh, đối tượng (tiêu chuẩn chọn và loại trừ) |
 | 2:55 | 10:55 | 5 | Tổng kết |
 
-\*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[L2]** = Cấp độ 2 (bộ dữ liệu khóa học).
+\*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
 
 [Trang buổi học →](session3.qmd)
 :::
@@ -88,7 +88,7 @@ Bốn cuối tuần, tám buổi học, mỗi buổi **3 giờ** (giải lao 15 
 | 2:25 | 10:25 | 30 | **Xây dựng đề cương 4:** phơi nhiễm và nhóm so sánh, kết cục, các sai lệch chính và cách hạn chế |
 | 2:55 | 10:55 | 5 | Tổng kết |
 
-\*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[L2]** = Cấp độ 2 (bộ dữ liệu khóa học).
+\*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
 
 [Trang buổi học →](session4.qmd)
 :::
@@ -100,14 +100,14 @@ Bốn cuối tuần, tám buổi học, mỗi buổi **3 giờ** (giải lao 15 
 |:----|:----|---:|:------------------------------------------------------------|
 | 0:00 | 08:00 | 10 | Câu hỏi ôn tập |
 | 0:10 | 08:10 | 35 | **5.1 Dữ liệu tốt từ khâu thiết kế:** loại biến, nguyên tắc thiết kế CRF, từ điển dữ liệu, kiểm tra hợp lệ, quản lý dữ liệu (EDC, nhập liệu kép, nhật ký thay đổi, sao lưu), phòng tránh dữ liệu thiếu |
-| 0:45 | 08:45 | 25 | **5.2 [L2] Làm quen bộ dữ liệu khóa học:** nghiên cứu FLUID-ICU, từ điển dữ liệu, dữ liệu thô và dữ liệu sạch, các vấn đề chất lượng dữ liệu đã phát hiện, **trình diễn làm sạch dữ liệu bằng R** và nhật ký làm sạch; giao câu hỏi cho các nhóm |
+| 0:45 | 08:45 | 25 | **5.2 [DS] Làm quen bộ dữ liệu khóa học:** nghiên cứu FLUID-ICU, từ điển dữ liệu, dữ liệu thô và dữ liệu sạch, các vấn đề chất lượng dữ liệu đã phát hiện, **trình diễn làm sạch dữ liệu bằng R** và nhật ký làm sạch; giao câu hỏi cho các nhóm |
 | 1:10 | 09:10 | 15 | GIẢI LAO |
 | 1:25 | 09:25 | 35 | **5.3 Mô tả và trình bày dữ liệu:** trung bình/trung vị, SD/IQR, hình dạng phân phối, biểu đồ nào cho dữ liệu nào, biểu đồ tốt và chưa tốt, bảng đạt chuẩn công bố, Bảng 1 |
-| 2:00 | 10:00 | 25 | **5.4 [L2] Mô tả bộ dữ liệu khóa học:** trình diễn Bảng 1 và biểu đồ; mỗi nhóm đọc Bảng 1 và các biểu đồ trong gói kết quả của nhóm (phiếu bài tập) |
+| 2:00 | 10:00 | 25 | **5.4 [DS] Mô tả bộ dữ liệu khóa học:** trình diễn Bảng 1 và biểu đồ; mỗi nhóm đọc Bảng 1 và các biểu đồ trong gói kết quả của nhóm (phiếu bài tập) |
 | 2:25 | 10:25 | 30 | **Xây dựng đề cương 5:** bảng biến số, CRF thu gọn, các dòng từ điển dữ liệu, kế hoạch quản lý dữ liệu |
 | 2:55 | 10:55 | 5 | Tổng kết |
 
-\*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[L2]** = Cấp độ 2 (bộ dữ liệu khóa học).
+\*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
 
 [Trang buổi học →](session5.qmd)
 :::
@@ -119,14 +119,14 @@ Bốn cuối tuần, tám buổi học, mỗi buổi **3 giờ** (giải lao 15 
 |:----|:----|---:|:------------------------------------------------------------|
 | 0:00 | 08:00 | 10 | Câu hỏi ôn tập |
 | 0:10 | 08:10 | 40 | **6.1 Từ mẫu đến quần thể:** khoảng tin cậy, giá trị p và những hiểu lầm, sai lầm loại I/II, power, cỡ mẫu (**trình diễn trực tiếp**), chọn kiểm định, ghép cặp và không ghép cặp, so sánh bội |
-| 0:50 | 08:50 | 20 | **6.2 [L2] So sánh các nhóm trong bộ dữ liệu khóa học:** trình diễn (t-test / Mann–Whitney / khi bình phương); các nhóm diễn giải kết quả của mình |
+| 0:50 | 08:50 | 20 | **6.2 [DS] So sánh các nhóm trong bộ dữ liệu khóa học:** trình diễn (t-test / Mann–Whitney / khi bình phương); các nhóm diễn giải kết quả của mình |
 | 1:10 | 09:10 | 15 | GIẢI LAO |
 | 1:25 | 09:25 | 35 | **6.3 Mối liên quan và mô hình:** tương quan, hồi quy tuyến tính và logistic, hiệu chỉnh, tương tác, quá khớp, Kaplan–Meier và Cox, mô hình dự báo/học máy; đọc bảng hồi quy và biểu đồ rừng |
-| 2:00 | 10:00 | 25 | **6.4 [L2] Mô hình hóa bộ dữ liệu khóa học:** OR thô và OR hiệu chỉnh (thấy rõ nhiễu do chỉ định), Kaplan–Meier + HR Cox, phân tích ca đầy đủ và đa quy gán; SAP được viết trước khi phân tích |
+| 2:00 | 10:00 | 25 | **6.4 [DS] Mô hình hóa bộ dữ liệu khóa học:** OR thô và OR hiệu chỉnh (thấy rõ nhiễu do chỉ định), Kaplan–Meier + HR Cox, phân tích ca đầy đủ và đa quy gán; SAP được viết trước khi phân tích |
 | 2:25 | 10:25 | 30 | **Xây dựng đề cương 6:** cỡ mẫu, kế hoạch phân tích, kế hoạch xử lý dữ liệu thiếu |
 | 2:55 | 10:55 | 5 | Tổng kết |
 
-\*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[L2]** = Cấp độ 2 (bộ dữ liệu khóa học).
+\*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
 
 [Trang buổi học →](session6.qmd)
 :::
@@ -142,10 +142,10 @@ Bốn cuối tuần, tám buổi học, mỗi buổi **3 giờ** (giải lao 15 
 | 1:00 | 09:00 | 15 | **Xây dựng đề cương 7:** đạo đức, đăng ký, tính khả thi, kế hoạch công bố |
 | 1:15 | 09:15 | 15 | GIẢI LAO |
 | 1:30 | 09:30 | 35 | **7.3 Viết bài báo (I):** thứ tự viết, Phương pháp (kể cả đoạn thống kê), Kết quả (đối tượng trước, số liệu kèm CI, không diễn giải), bảng và biểu đồ tự đứng được, STROBE cho bài báo từ bộ dữ liệu khóa học |
-| 2:05 | 10:05 | 50 | **[L2] Thực hành bản thảo 1:** mỗi nhóm soạn Phương pháp + Kết quả (~600 từ) với Bảng 1 và một biểu đồ/bảng từ gói kết quả của nhóm |
+| 2:05 | 10:05 | 50 | **[DS] Thực hành bản thảo 1:** mỗi nhóm soạn Phương pháp + Kết quả (~600 từ) với Bảng 1 và một biểu đồ/bảng từ gói kết quả của nhóm |
 | 2:55 | 10:55 | 5 | Tổng kết |
 
-\*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[L2]** = Cấp độ 2 (bộ dữ liệu khóa học).
+\*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
 
 [Trang buổi học →](session7.qmd)
 :::
@@ -157,14 +157,14 @@ Bốn cuối tuần, tám buổi học, mỗi buổi **3 giờ** (giải lao 15 
 |:----|:----|---:|:------------------------------------------------------------|
 | 0:00 | 08:00 | 5 | Ôn tập |
 | 0:05 | 08:05 | 25 | **8.1 Viết bài báo (II):** phễu Đặt vấn đề, sáu bước của Bàn luận, ngôn ngữ chừng mực, kết luận, tóm tắt, tiêu đề và từ khóa |
-| 0:30 | 08:30 | 30 | **[L2] Thực hành bản thảo 2:** Đặt vấn đề, Bàn luận, Tóm tắt và Tiêu đề → bản nháp hoàn chỉnh |
+| 0:30 | 08:30 | 30 | **[DS] Thực hành bản thảo 2:** Đặt vấn đề, Bàn luận, Tóm tắt và Tiêu đề → bản nháp hoàn chỉnh |
 | 1:00 | 09:00 | 15 | GIẢI LAO |
 | 1:15 | 09:15 | 25 | **8.2 Công bố:** hướng dẫn báo cáo (**trình diễn EQUATOR**), chọn tạp chí, truy cập mở và giấy phép, tạp chí săn mồi, hồ sơ nộp bài, phản biện, trả lời phản biện, bị từ chối và nộp lại, bản in thử, tóm tắt hội nghị |
 | 1:40 | 09:40 | 20 | **8.3 Làm người phản biện:** thẩm định đơn giản Bài báo 1–2 (ghép mảnh, bảng kiểm 10 câu hỏi) — luyện tập cho phản biện bản thảo sau khóa học |
 | 2:00 | 10:00 | 45 | **Các nhóm trình bày:** đề cương nghiên cứu của nhóm + kế hoạch công bố (5 nhóm × 6 phút + 2 phút góp ý) + 5 phút tóm tắt phần bản thảo |
 | 2:45 | 10:45 | 15 | Bài kiểm tra cuối khóa, đánh giá khóa học, bước tiếp theo (trao đổi bản thảo để phản biện chéo — bài về nhà) |
 
-\*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[L2]** = Cấp độ 2 (bộ dữ liệu khóa học).
+\*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
 
 [Trang buổi học →](session8.qmd)
 :::

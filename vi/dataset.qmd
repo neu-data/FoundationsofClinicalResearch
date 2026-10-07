@@ -8,7 +8,7 @@ title: "Bộ dữ liệu khóa học: FLUID-ICU"
 
 FLUID-ICU là một nghiên cứu thuần tập tiến cứu đa trung tâm mô phỏng gồm **620 người lớn bị nhiễm khuẩn huyết** nhập 4 ICU ("ICU A" đến "ICU D") từ tháng 1/2023 đến tháng 12/2024. Bộ dữ liệu đưa ví dụ xuyên suốt của khóa học vào Buổi 5–8: *cân bằng dịch tích lũy dương vào ngày 3 có liên quan với tử vong 28 ngày cao hơn không?* Dữ liệu được xây dựng để các bài học kinh điển hiện ra trong kết quả: **nhiễu do chỉ định** (bệnh nhân nặng hơn được truyền nhiều dịch hơn và tử vong nhiều hơn, nên OR thô lớn hơn rõ rệt so với OR hiệu chỉnh), **dữ liệu thiếu** (lactate thiếu khoảng 15%), **kết cục lệch** (thời gian nằm ICU) và một **tương tác** đáng bàn (suy tim). Bản dữ liệu thô với các lỗi chất lượng thực tế được dùng trong trình diễn làm sạch ở Buổi 5.
 
-Mỗi nhóm trong năm nhóm trả lời một câu hỏi khác nhau trên cùng bộ dữ liệu và viết thành bản thảo, dựa trên **gói kết quả** của nhóm (Bảng 1, biểu đồ, bảng hồi quy và ghi chú bằng lời đơn giản).
+Mỗi nhóm trong năm nhóm trả lời một câu hỏi khác nhau trên cùng bộ dữ liệu và viết thành bản thảo, dựa trên **gói kết quả** của nhóm (Bảng 1, biểu đồ, bảng hồi quy và ghi chú bằng lời đơn giản). Bộ dữ liệu được dùng ở cuối tuần 3–4 của khóa học này (Cấp độ 1) và được dùng lại để thực hành ở [Cấp độ 2](level2.qmd), nơi học viên tự chạy các phân tích.
 
 ## Năm câu hỏi của các nhóm
 

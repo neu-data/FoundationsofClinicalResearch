@@ -12,7 +12,7 @@ Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng 
 Các tệp được nhắc đến trong bảng bộ công cụ bên dưới có ở các trang [Biểu mẫu](templates.qmd), [Tài liệu và công cụ](resources.qmd) và [Bộ dữ liệu](dataset.qmd).
 :::
 
-## Foundations of Clinical Research — From Clinical Question to Publication
+## Foundations of Clinical Research · Level 1 — From Clinical Question to Publication
 
 **Provider:** Neudata · **#ClearDataClearImpact**
 
@@ -90,7 +90,7 @@ A pen, a notebook, and (optional) a laptop or phone for PubMed and the online qu
 In Session 1 and again at the end of Session 8 you answer the same 24 questions. It is anonymous (participant number only) and measures what the **course** achieved, not you.
 
 ## After the course
-Take your proposal to the ethics committee, keep improving your manuscript, and — if you want to run analyses yourself — follow the free *Clinical Data Analysis in R* course and the optional advanced modules (`Advanced_Modules/`).
+Take your proposal to the ethics committee and keep improving your manuscript. This course is **Level 1**. If you want to run analyses yourself, **Level 2** is a hands-on course in R (prerequisite: this course and the free *Clinical Data Analysis in R* course); **Level 3** offers advanced, specialised methods on request (`Course_Levels/`).
 
 
 * * *

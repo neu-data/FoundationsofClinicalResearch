@@ -2,7 +2,7 @@
 title: "Further reading"
 ---
 
-## Foundations of Clinical Research: From Clinical Question to Publication
+## Foundations of Clinical Research — Level 1: From Clinical Question to Publication
 
 **Organisation:** Neudata — *#ClearDataClearImpact*
 
@@ -60,7 +60,7 @@ A short list, not a library. Everything below is **free to read online** unless 
 | **"Guidelines for the content of statistical analysis plans in clinical trials"**, *JAMA* 2017;318(23):2337–2343 | C. Gamble and colleagues | What a statistical analysis plan (SAP) should contain — a checklist to use with the SAP template. |
 | **TRIPOD+AI** statement, *BMJ* 2024;385:e078378 — tripod-statement.org | G.S. Collins and colleagues | How prediction models, including machine-learning models, should be reported; a good checklist for judging them. |
 | **"Calculating the sample size required for developing a clinical prediction model"**, *BMJ* 2020;368:m441 | R.D. Riley and colleagues | Why overfitting happens and why "10 events per variable" is only a rough guide. |
-| ***Clinical Data Analysis in R*** (free online course) | Neudata | Learn to clean, describe and analyse a clinical dataset yourself — the prerequisite for reproducing the FLUID-ICU analyses with the course R scripts, and for the advanced modules. |
+| ***Clinical Data Analysis in R*** (free online course) | Neudata | Learn to clean, describe and analyse a clinical dataset yourself — the prerequisite for reproducing the FLUID-ICU analyses with the course R scripts, and the entry requirement for Level 2 (hands-on analysis). |
 
 ## Weekend 4 (Sessions 7–8) — Protect, write and publish (with the group manuscript and peer review)
 
@@ -106,10 +106,11 @@ A short list, not a library. Everything below is **free to read online** unless 
 
 * * *
 
-## Going further (advanced modules — `Advanced_Modules/advanced_modules.md`)
+## Going further — Level 2 (hands-on) and Level 3 (advanced)
 
-- **Cochrane Handbook**, chapters on risk of bias and on meta-analysis — for the meta-analysis module.
-- ***Statistics at Square One***, chapters on regression and survival analysis — preparation for the hands-on R and survival modules.
-- **TRIPOD+AI** and **STARD 2015** — for the prediction-model and diagnostic-accuracy modules.
+This course is **Level 1**. The next steps are described in `Course_Levels/`.
+
+- **Level 2 — Doing the analysis** (hands-on R): the free Neudata course ***Clinical Data Analysis in R*** is the entry requirement; ***Statistics at Square One*** (regression chapters) and the Sterne *BMJ* 2009 paper on multiple imputation support Sessions 5–7; the EQUATOR toolkits support the final Results section.
+- **Level 3 — Advanced topics**: the **Cochrane Handbook** and **PRISMA 2020** (meta-analysis); **TRIPOD+AI** and the Riley *BMJ* 2020 sample-size paper (prediction models and ML); **STARD 2015** and **QUADAS-2** (diagnostic accuracy); *Statistics at Square One* and the Bland–Altman Statistics Notes on survival (advanced survival analysis); the **CONSORT** extension for cluster trials (clustered and multicentre data).
 
 *All resources were selected for being free, stable and from recognised organisations. Versions change (e.g. CONSORT, ICMJE): always use the current version on the publisher's site.*

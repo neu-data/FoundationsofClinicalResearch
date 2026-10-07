@@ -41,7 +41,7 @@ Write the examples on the flip chart - they are candidate topics for the group p
 ::: {.notes}
 Walk along the road: Weekend 1 the question and the evidence; Weekend 2 design and bias; Weekend 3 data and analysis; Weekend 4 ethics, writing and publishing.
 
-Weekends 1-2 are what we call Level 1 (understand and design); Weekends 3-4 are Level 2 (analyse and publish) - in one course.
+This whole course is Level 1: it covers every step from question to publication. Weeks 1-2 build understanding and design skills; Weekends 3-4 apply them to data, writing and publishing.
 
 One running example travels with us: fluids in septic shock. Non-ICU colleagues: every concept is also shown with ward examples (pressure injuries, hand hygiene, medication errors, delirium).
 :::
@@ -51,13 +51,13 @@ One running example travels with us: fluids in septic shock. Non-ICU colleagues:
 ![](images/figures/common/two_levels.png){.neu-fig}
 
 ::: {.neu-takeaway}
-**KEY MESSAGE** First understand and design research - then analyse a dataset and write the paper.
+**KEY MESSAGE** Level 1 is this course; Level 2 is hands-on analysis in R; Level 3 is advanced methods.
 :::
 
 ::: {.notes}
-Level 1 concepts come first: reading papers critically, asking a good question, designing a sound study.
+This course (Level 1) takes you from a clinical question to a published paper. Level 2 is a hands-on course in R for those who want to run analyses themselves; Level 3 covers advanced, specialised methods.
 
-Level 2 uses those concepts on a realistic dataset of 600 ICU patients: we describe it, analyse it and write it up. The trainers run the software; you read and interpret the results.
+Within Level 1 we use a realistic dataset of 620 ICU patients: we describe it, analyse it and write it up. The trainers run the software; you read and interpret the results.
 
 Misconception to defuse: 'research is only for statisticians or professors'. Most good clinical questions come from nurses and doctors at the bedside.
 :::

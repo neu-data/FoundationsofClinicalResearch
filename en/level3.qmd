@@ -1,0 +1,117 @@
+---
+title: "Level 3 — advanced (on request)"
+---
+
+::: {.callout-note title="Status: on request"}
+Level 3 modules are run on request, as workshops or consultancy, after Levels 1 and 2.
+:::
+
+Level 3 offers **specialised modules** for data and questions that need more advanced methods — such as systematic review and meta-analysis, prediction models, diagnostic accuracy, advanced survival, longitudinal and multilevel models — with hands-on work on the participant's own project. To request a module, contact [myluong1710@gmail.com](mailto:myluong1710@gmail.com).
+
+📥 [PDF](files/docs/Level3_Advanced.pdf) · [Course levels](levels.qmd)
+
+## Specialised methods for complex clinical data — workshops and consultancy
+
+**Organisation:** Neudata — *#ClearDataClearImpact*
+
+> **Status: Outline — modules developed on request, after Level 1 and Level 2 have run.**
+
+
+* * *
+
+## 1. What Level 3 is
+
+Real clinical data are often more complex than the cohort used in Levels 1 and 2: repeated measurements on the same patients, patients clustered in wards or hospitals, competing outcomes, large routine registries, or questions about prediction and diagnosis rather than association. Level 3 offers **specialised modules**, each tied to the kind of data or question participants meet in their own work. Neudata runs them **workshop and consultancy style**: a short, intensive teaching block followed by hands-on work on the participant's own project, with Neudata support until a defensible analysis plan or analysis is in place.
+
+## 2. Format
+
+| | |
+|---|---|
+| **Who** | Level 2 graduates (or researchers with equivalent R and regression experience), usually 3–10 per workshop; individual researchers or project teams for consultancy. |
+| **Prerequisites** | **Level 2** (or equivalent): reproducible R projects, data cleaning, linear and logistic regression with diagnostics, multiple imputation. A real question or dataset is strongly recommended. |
+| **Workshop format** | 1–2 sessions of 3 hours: concepts → worked example in R → participants apply it to their own data. |
+| **Consultancy format** | A scoping meeting, then 2–4 follow-up meetings over 1–3 months; the participant does the analysis, Neudata reviews the plan, code and interpretation. |
+| **Software** | R and RStudio; module-specific packages (named per module). |
+| **Output** | A statistical analysis plan, a reviewed analysis script and draft Methods/Results text for the participant's project, or a structured appraisal for the appraisal-focused modules. |
+| **How to request** | The department or a project team contacts Neudata with a short description of the question and data; Neudata proposes the module(s) and the format. |
+
+## 3. The modules
+
+### Module A — Systematic review and meta-analysis
+
+**Aims.** Participants will be able to (1) write and register (PROSPERO) a systematic-review protocol; (2) build a reproducible multi-database search and screen records in pairs; (3) extract data and assess risk of bias (RoB 2, ROBINS-I); (4) pool effect estimates with fixed- and random-effects models, interpret heterogeneity (I², prediction intervals) and draw forest and funnel plots; and (5) report to PRISMA 2020 and grade certainty (GRADE).
+
+**Prerequisites.** Level 2; a review question (PICO) agreed with Neudata. Packages: meta, metafor.
+
+| Session | Content | Product |
+|---|---|---|
+| A1 — Protocol, search and screening | Review question and eligibility; PROSPERO; search strategy across databases; dual screening; PRISMA flow diagram; data-extraction form | Registered (or ready-to-register) protocol and search strategy |
+| A2 — Bias, pooling and reporting | Risk-of-bias assessment; pooling ORs/RRs/mean differences in R; fixed vs random effects; I², subgroups and meta-regression (introduced); small-study effects and funnel plots; GRADE; PRISMA 2020 | Forest plot and draft Results for the participant's review |
+
+### Module B — Prediction models and machine learning
+
+**Aims.** Participants will be able to (1) distinguish prediction from causal questions; (2) calculate the sample size needed to develop a model; (3) develop a logistic or survival prediction model, assess discrimination and calibration, and validate it internally (bootstrapping); (4) understand what machine-learning methods add and where they mislead (data leakage, overfitting, fairness); and (5) report with TRIPOD+AI and appraise with PROBAST.
+
+**Prerequisites.** Level 2 (logistic regression in depth). Packages: rms, pmsampsize, pROC, glmnet, tidymodels (introduced).
+
+| Session | Content | Product |
+|---|---|---|
+| B1 — Building a model properly | Prediction vs causation; candidate predictors; sample size for prediction models; development on FLUID-ICU or own data; discrimination and calibration plots; bootstrap internal validation; presenting the model (nomogram, risk chart) | Model report with optimism-corrected AUC and a calibration plot |
+| B2 — Machine learning and appraisal | Penalised regression and a tree-based method compared with logistic regression; data leakage; external validation and updating; fairness; appraising a published AI/ML model with TRIPOD+AI and PROBAST | Structured appraisal of a published model, or a validation plan for one's own model |
+
+### Module C — Diagnostic-accuracy studies
+
+**Aims.** Participants will be able to (1) design a diagnostic-accuracy study (index test, reference standard, spectrum, blinding, verification); (2) calculate sensitivity, specificity, predictive values and likelihood ratios with 95% CIs, and draw ROC curves with AUC; (3) choose and justify a cut-off; (4) compare two tests on the same patients; and (5) report to STARD 2015 and appraise with QUADAS-2.
+
+**Prerequisites.** Level 2. Packages: epiR, pROC.
+
+| Session | Content | Product |
+|---|---|---|
+| C1 — Design, analysis and reporting | Diagnostic questions and designs; spectrum, verification and incorporation bias; accuracy table with CIs; predictive values across prevalences; ROC/AUC and cut-offs (e.g. lactate for 28-day mortality); comparing two tests (paired ROC); STARD 2015 and QUADAS-2 | Completed accuracy analysis and a STARD-based study outline |
+| C2 (optional) — Your own diagnostic question | Protocol for a unit-level accuracy study; sample size for sensitivity and specificity; data-collection form | Protocol outline |
+
+### Module D — Advanced survival analysis
+
+**Aims.** Participants will be able to (1) fit and check Cox models (proportional hazards, functional form, influential points); (2) use time-varying covariates and avoid immortal-time bias; (3) analyse competing risks (cumulative incidence functions, cause-specific and Fine–Gray models) — for example ICU discharge alive vs death; (4) present restricted mean survival time as an alternative to the HR; and (5) report time-to-event analyses clearly.
+
+**Prerequisites.** Level 2; the Kaplan–Meier and Cox basics from Level 1 (FLUID-ICU Question 1). Packages: survival, survminer, tidycmprsk, cmprsk.
+
+| Session | Content | Product |
+|---|---|---|
+| D1 — Beyond the basic Cox model | Checking proportional hazards; stratification and time-varying effects; time-varying covariates and the counting-process format; immortal-time bias and landmark analysis; restricted mean survival time | Cox analysis with PH checks and a time-varying covariate |
+| D2 — Competing risks | Why 1 − KM overestimates risk with competing events; cumulative incidence; cause-specific vs Fine–Gray models and when to use each; plotting and reporting | Competing-risk analysis of FLUID-ICU or own data |
+
+### Module E — Longitudinal data and multilevel (mixed) models
+
+**Aims.** Participants will be able to (1) structure repeated-measures data (long vs wide) and plot individual trajectories; (2) fit linear and logistic mixed-effects models with random intercepts and slopes; (3) interpret fixed effects, random effects and intraclass correlation; (4) handle missing data and dropout in repeated measures; and (5) know when generalised estimating equations (GEE) are the better choice.
+
+**Prerequisites.** Level 2 (linear and logistic regression in depth). Packages: lme4, glmmTMB, geepack, ggeffects.
+
+| Session | Content | Product |
+|---|---|---|
+| E1 — Repeated measures over time | Long vs wide data; spaghetti plots; why ordinary regression is wrong for repeated measures; linear mixed models for daily measurements (e.g. fluid balance or SOFA on days 1–3); random intercepts and slopes; time as a predictor | Mixed-model analysis of a repeated outcome with a Results paragraph |
+| E2 — Clustered outcomes and GEE | Binary repeated or clustered outcomes; logistic mixed models; GEE and population-average vs subject-specific effects; ICC; model checking; reporting | Comparison of mixed-model and GEE estimates for one question |
+
+### Module F — Complex data: clustered designs, repeated measures and large registries
+
+**Aims.** Participants will be able to (1) recognise clustering (patients within wards, ICUs or hospitals) and its consequences for standard errors and sample size; (2) analyse cluster-randomised and multicentre data (centre effects, design effect); (3) work with large routine datasets and registries (data linkage, data quality checks at scale, coding systems such as ICD, efficient data handling in R); and (4) plan causal analyses of observational data (DAGs, propensity scores, the target-trial idea, introduced).
+
+**Prerequisites.** Level 2; Module E recommended. Packages: data.table or arrow, MatchIt, WeightIt, cobalt, dagitty.
+
+| Session | Content | Product |
+|---|---|---|
+| F1 — Clustered and multicentre data | Design effect and ICC; centre as fixed vs random effect; cluster-robust standard errors; analysing a cluster-randomised or multicentre study; reporting (CONSORT cluster extension) | Analysis plan for a clustered or multicentre dataset |
+| F2 — Large registries and routine data | Data linkage and de-identification; data quality at scale; coding systems; efficient data handling; causal questions from routine data — DAGs, propensity scores (matching and weighting, balance checks), target-trial emulation (introduced); RECORD reporting | Data-management and analysis plan for a registry-based question |
+
+## 4. Choosing a module
+
+| If you want to… | Module |
+|---|---|
+| Summarise all the evidence on a question | **A** — Meta-analysis |
+| Build or judge a risk score, prediction tool or AI model | **B** — Prediction and ML |
+| Test how good a test, score or sign is at detecting a condition | **C** — Diagnostic accuracy |
+| Analyse time-to-event outcomes with competing events or changing exposures | **D** — Advanced survival |
+| Analyse measurements repeated over time on the same patients | **E** — Longitudinal and mixed models |
+| Analyse multicentre, cluster-randomised or registry data | **F** — Complex data |
+
+Key free resources for each module are listed in `Course/References/further_reading.md`: the Cochrane Handbook and PRISMA 2020 (A); TRIPOD+AI and the Riley sample-size paper (B); STARD 2015 and QUADAS-2 (C); *Statistics at Square One* and the Bland–Altman Statistics Notes (D, E); the CONSORT cluster extension (F).

@@ -386,7 +386,7 @@ Introduction, Discussion, Abstract and Title
 ::::
 
 ::: {.notes}
-MANUSCRIPT WORKSHOP 2 (0:30-1:00). Level 2. Groups add the Introduction, Discussion, Abstract and Title to yesterday's Methods + Results.
+MANUSCRIPT WORKSHOP 2 (0:30-1:00). Course dataset. Groups add the Introduction, Discussion, Abstract and Title to yesterday's Methods + Results.
 
 Instructions: Practicals/s8\_exercises.md, Part B. Model paragraphs for Q1: Solutions/s8\_solutions.md.
 :::
@@ -1427,7 +1427,7 @@ INDIVIDUAL TASK · 3 min
 ::: {.neu-activity-steps style="--c:#0B376C"}
 1. Rate each weekend: content, pace, usefulness
 2. One thing to keep, one thing to change
-3. Which advanced topics would you want next?
+3. Interested in Level 2 (hands-on R)?
 :::
 
 ::: {.neu-output style="--c:#0B376C"}
@@ -1493,13 +1493,15 @@ This is the last step of the whole research process - exactly what happens after
 [Keep going]{.neu-card-title}
 
 - Take your proposal to ethics
-- Free R course: run analyses yourself
-- Optional advanced modules
+- Level 2: hands-on analysis in R
+- Level 3: advanced methods
 :::
 ::::
 
 ::: {.notes}
-Advanced modules (optional, see Advanced\_Modules/): hands-on analysis of your own data in R, meta-analysis, prediction models and machine learning, diagnostic-accuracy studies.
+Level 2 (hands-on, for those who want to run analyses themselves): reproducible R projects, data management, linear and logistic regression in depth, missing data, publication-ready tables and figures. Prerequisite: this course plus the free Neudata course Clinical Data Analysis in R.
+
+Level 3 (on request): advanced, specialised methods for complex data - meta-analysis, prediction and machine learning, diagnostic accuracy, advanced survival, longitudinal and multilevel models. See Course\_Levels/.
 
 Give the trainers' contact details for follow-up questions.
 :::

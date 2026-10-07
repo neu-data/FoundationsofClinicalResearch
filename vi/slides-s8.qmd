@@ -386,7 +386,7 @@ Hoàn thiện bản nháp
 ::::
 
 ::: {.notes}
-THỰC HÀNH BẢN THẢO 2 (0:30-1:00). Cấp độ 2. Các nhóm thêm Đặt vấn đề, Bàn luận, Tóm tắt và Tiêu đề vào phần Phương pháp + Kết quả hôm qua.
+THỰC HÀNH BẢN THẢO 2 (0:30-1:00). Bộ dữ liệu khóa học. Các nhóm thêm Đặt vấn đề, Bàn luận, Tóm tắt và Tiêu đề vào phần Phương pháp + Kết quả hôm qua.
 
 Hướng dẫn: Practicals/s8\_exercises.md, Phần B. Đoạn văn mẫu cho Q1: Solutions/s8\_solutions.md.
 :::
@@ -1427,7 +1427,7 @@ BÀI TẬP CÁ NHÂN · 3 phút
 ::: {.neu-activity-steps style="--c:#0B376C"}
 1. Chấm điểm từng cuối tuần: nội dung, tốc độ, mức hữu ích
 2. Một điều nên giữ, một điều nên thay đổi
-3. Bạn muốn học chủ đề nâng cao nào tiếp theo?
+3. Bạn có quan tâm đến Cấp độ 2 (thực hành R)?
 :::
 
 ::: {.neu-output style="--c:#0B376C"}
@@ -1493,13 +1493,15 @@ Phản biện theo Assignment/peer\_review\_instructions.md và bảng kiểm 10
 [Tiếp tục]{.neu-card-title}
 
 - Đưa đề cương đến hội đồng đạo đức
-- Khóa R miễn phí: tự chạy phân tích
-- Các học phần nâng cao tùy chọn
+- Cấp độ 2: thực hành phân tích bằng R
+- Cấp độ 3: phương pháp nâng cao
 :::
 ::::
 
 ::: {.notes}
-Học phần nâng cao (tùy chọn, xem Advanced\_Modules/): tự phân tích dữ liệu của mình bằng R, phân tích gộp, mô hình dự báo và học máy, nghiên cứu độ chính xác chẩn đoán.
+Cấp độ 2 (thực hành, cho những ai muốn tự phân tích): dự án R có thể tái lập, quản lý dữ liệu, hồi quy tuyến tính và logistic chuyên sâu, dữ liệu thiếu, bảng và hình đạt chuẩn công bố. Điều kiện: đã học khóa này và khóa miễn phí Phân tích dữ liệu lâm sàng với R của Neudata.
+
+Cấp độ 3 (theo yêu cầu): phương pháp nâng cao cho dữ liệu phức tạp - phân tích gộp, mô hình dự báo và học máy, độ chính xác chẩn đoán, phân tích sống còn nâng cao, mô hình dọc và đa tầng. Xem Course\_Levels/.
 
 Cung cấp thông tin liên hệ của giảng viên để hỏi thêm.
 :::

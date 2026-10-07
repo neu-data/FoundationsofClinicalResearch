@@ -76,7 +76,7 @@ Accept any version that passes the four checks (unit, time point, one reading, u
 
 * * *
 
-## Exercise 5 — [L2] Spot the problems in the raw FLUID-ICU data
+## Exercise 5 — [DS] Spot the problems in the raw FLUID-ICU data
 
 (See `Course/Data/cleaning_log.md` for the full log.)
 
@@ -94,7 +94,7 @@ Bonus: editing by hand is invisible and not reproducible; a script plus a log le
 
 * * *
 
-## Exercise 6 — [L2] Read your group's Table 1
+## Exercise 6 — [DS] Read your group's Table 1
 
 All numbers from `Course/Data/key_results.md` (simulated data).
 
@@ -108,7 +108,7 @@ All numbers from `Course/Data/key_results.md` (simulated data).
 
 * * *
 
-## Exercise 7 — [L2] Your group's question
+## Exercise 7 — [DS] Your group's question
 
 | Q | Outcome (type) | Exposure (type) | Planned comparison / model |
 |---|---|---|---|

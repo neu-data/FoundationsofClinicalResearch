@@ -23,7 +23,7 @@ language:
 
 
 website:
-  title: "Nền tảng Nghiên cứu Lâm sàng"
+  title: "Nền tảng Nghiên cứu Lâm sàng · Cấp độ 1"
   site-url: "https://neu-data.github.io/FoundationsofClinicalResearch/vi/"
   repo-url: "https://github.com/neu-data/FoundationsofClinicalResearch"
   favicon: images/neudata-logo.png
@@ -94,8 +94,6 @@ website:
             text: "Tài liệu đọc thêm"
           - href: papers.qmd
             text: "Hai bài báo"
-          - href: advanced.qmd
-            text: "Học phần nâng cao"
           - href: downloads.qmd
             text: "Tất cả tệp tải xuống"
       - text: "Bài tập nhóm"
@@ -114,6 +112,14 @@ website:
             text: "Thang chấm bản thảo"
           - href: peer-review.qmd
             text: "Hướng dẫn phản biện chéo"
+      - text: "Các cấp độ"
+        menu:
+          - href: levels.qmd
+            text: "Tổng quan: ba cấp độ"
+          - href: level2.qmd
+            text: "Cấp độ 2 — thực hành R (đang chuẩn bị)"
+          - href: level3.qmd
+            text: "Cấp độ 3 — nâng cao (theo yêu cầu)"
     right:
       - href: ../en/index.html
         text: "English"

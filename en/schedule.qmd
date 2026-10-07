@@ -2,7 +2,7 @@
 title: "Schedule"
 ---
 
-Four weekends, eight sessions of **3 hours** (with a 15-minute break): Session *n* on Saturday, Session *n*+1 on Sunday. Weekends 1–2 build understanding and design skills (Level 1); Weekends 3–4 analyse the simulated **FLUID-ICU** dataset and write it up (Level 2).
+Four weekends, eight sessions of **3 hours** (with a 15-minute break): Session *n* on Saturday, Session *n*+1 on Sunday. Weekends 1–2 build understanding and design skills; Weekends 3–4 analyse the simulated **FLUID-ICU** dataset through live instructor demos and write it up as a manuscript. The whole course is **Level 1** ([course levels](levels.qmd)).
 
 | Weekend | Session | Day | Theme | Your group builds |
 |:---:|:--------|:--------|:----------|:------------------------------------|
@@ -31,7 +31,7 @@ Four weekends, eight sessions of **3 hours** (with a 15-minute break): Session *
 | 2:25 | 10:25 | 30 | **Proposal builder 1:** choose topic, PICO, research question, FINER check, aim & objectives |
 | 2:55 | 10:55 | 5 | Wrap-up, homework |
 
-\*Times are relative to the start of the session; the clock column shows an example 08:00–11:00 session. **[L2]** = Level 2 (course dataset).
+\*Times are relative to the start of the session; the clock column shows an example 08:00–11:00 session. **[DS]** = course-dataset content (FLUID-ICU analysis and manuscript writing).
 
 [Session page →](session1.qmd)
 :::
@@ -50,7 +50,7 @@ Four weekends, eight sessions of **3 hours** (with a 15-minute break): Session *
 | 2:20 | 10:20 | 35 | **Proposal builder 2:** search string, 5 references in the matrix, problem statement, working title |
 | 2:55 | 10:55 | 5 | Wrap-up |
 
-\*Times are relative to the start of the session; the clock column shows an example 08:00–11:00 session. **[L2]** = Level 2 (course dataset).
+\*Times are relative to the start of the session; the clock column shows an example 08:00–11:00 session. **[DS]** = course-dataset content (FLUID-ICU analysis and manuscript writing).
 
 [Session page →](session2.qmd)
 :::
@@ -69,7 +69,7 @@ Four weekends, eight sessions of **3 hours** (with a 15-minute break): Session *
 | 2:20 | 10:20 | 35 | **Proposal builder 3:** design + justification, setting, population (inclusion/exclusion) |
 | 2:55 | 10:55 | 5 | Wrap-up |
 
-\*Times are relative to the start of the session; the clock column shows an example 08:00–11:00 session. **[L2]** = Level 2 (course dataset).
+\*Times are relative to the start of the session; the clock column shows an example 08:00–11:00 session. **[DS]** = course-dataset content (FLUID-ICU analysis and manuscript writing).
 
 [Session page →](session3.qmd)
 :::
@@ -88,7 +88,7 @@ Four weekends, eight sessions of **3 hours** (with a 15-minute break): Session *
 | 2:25 | 10:25 | 30 | **Proposal builder 4:** exposure & comparator, outcomes, main biases & mitigation |
 | 2:55 | 10:55 | 5 | Wrap-up |
 
-\*Times are relative to the start of the session; the clock column shows an example 08:00–11:00 session. **[L2]** = Level 2 (course dataset).
+\*Times are relative to the start of the session; the clock column shows an example 08:00–11:00 session. **[DS]** = course-dataset content (FLUID-ICU analysis and manuscript writing).
 
 [Session page →](session4.qmd)
 :::
@@ -100,14 +100,14 @@ Four weekends, eight sessions of **3 hours** (with a 15-minute break): Session *
 |:----|:----|---:|:------------------------------------------------------------|
 | 0:00 | 08:00 | 10 | Recap quiz |
 | 0:10 | 08:10 | 35 | **5.1 Good data by design:** variable types, CRF principles, data dictionary, validation, data management (EDC, double entry, audit trail, backups), preventing missing data |
-| 0:45 | 08:45 | 25 | **5.2 [L2] Meet the course dataset:** the FLUID-ICU study, its data dictionary, raw vs clean data, the data-quality problems found, **live R demo of cleaning** and the cleaning log; group questions assigned |
+| 0:45 | 08:45 | 25 | **5.2 [DS] Meet the course dataset:** the FLUID-ICU study, its data dictionary, raw vs clean data, the data-quality problems found, **live R demo of cleaning** and the cleaning log; group questions assigned |
 | 1:10 | 09:10 | 15 | BREAK |
 | 1:25 | 09:25 | 35 | **5.3 Describing and showing data:** mean/median, SD/IQR, shapes, which graph for which data, good vs bad figures, publication-quality tables, Table 1 |
-| 2:00 | 10:00 | 25 | **5.4 [L2] Describe the course dataset:** live demo of Table 1 and figures; each group reads its results pack's Table 1 and figures (worksheet) |
+| 2:00 | 10:00 | 25 | **5.4 [DS] Describe the course dataset:** live demo of Table 1 and figures; each group reads its results pack's Table 1 and figures (worksheet) |
 | 2:25 | 10:25 | 30 | **Proposal builder 5:** variables table, mini-CRF, data dictionary rows, data-management plan |
 | 2:55 | 10:55 | 5 | Wrap-up |
 
-\*Times are relative to the start of the session; the clock column shows an example 08:00–11:00 session. **[L2]** = Level 2 (course dataset).
+\*Times are relative to the start of the session; the clock column shows an example 08:00–11:00 session. **[DS]** = course-dataset content (FLUID-ICU analysis and manuscript writing).
 
 [Session page →](session5.qmd)
 :::
@@ -119,14 +119,14 @@ Four weekends, eight sessions of **3 hours** (with a 15-minute break): Session *
 |:----|:----|---:|:------------------------------------------------------------|
 | 0:00 | 08:00 | 10 | Recap quiz |
 | 0:10 | 08:10 | 40 | **6.1 From sample to population:** CI, p-values & misinterpretations, type I/II errors, power, sample size (**live demo**), choosing a test, paired vs unpaired, multiple comparisons |
-| 0:50 | 08:50 | 20 | **6.2 [L2] Compare groups in the course dataset:** live demo (t-test / Mann–Whitney / chi-square); groups interpret their outputs |
+| 0:50 | 08:50 | 20 | **6.2 [DS] Compare groups in the course dataset:** live demo (t-test / Mann–Whitney / chi-square); groups interpret their outputs |
 | 1:10 | 09:10 | 15 | BREAK |
 | 1:25 | 09:25 | 35 | **6.3 Relationships and models:** correlation, linear and logistic regression, adjustment, interaction, overfitting, Kaplan–Meier & Cox, prediction/ML; reading regression tables & forest plots |
-| 2:00 | 10:00 | 25 | **6.4 [L2] Model the course dataset:** crude vs adjusted OR (confounding by indication made visible), Kaplan–Meier + Cox HR, complete-case vs multiple imputation; the SAP that was written before the analysis |
+| 2:00 | 10:00 | 25 | **6.4 [DS] Model the course dataset:** crude vs adjusted OR (confounding by indication made visible), Kaplan–Meier + Cox HR, complete-case vs multiple imputation; the SAP that was written before the analysis |
 | 2:25 | 10:25 | 30 | **Proposal builder 6:** sample size, analysis plan, missing-data plan |
 | 2:55 | 10:55 | 5 | Wrap-up |
 
-\*Times are relative to the start of the session; the clock column shows an example 08:00–11:00 session. **[L2]** = Level 2 (course dataset).
+\*Times are relative to the start of the session; the clock column shows an example 08:00–11:00 session. **[DS]** = course-dataset content (FLUID-ICU analysis and manuscript writing).
 
 [Session page →](session6.qmd)
 :::
@@ -142,10 +142,10 @@ Four weekends, eight sessions of **3 hours** (with a 15-minute break): Session *
 | 1:00 | 09:00 | 15 | **Proposal builder 7:** ethics, registration, feasibility, publication plan |
 | 1:15 | 09:15 | 15 | BREAK |
 | 1:30 | 09:30 | 35 | **7.3 Writing the paper (I):** writing order, Methods (incl. statistical paragraph), Results (participants first, numbers with CIs, no interpretation), stand-alone tables & figures, STROBE for the course-dataset paper |
-| 2:05 | 10:05 | 50 | **[L2] Manuscript workshop 1:** each group drafts Methods + Results (~600 words) with Table 1 and one figure/table from its results pack |
+| 2:05 | 10:05 | 50 | **[DS] Manuscript workshop 1:** each group drafts Methods + Results (~600 words) with Table 1 and one figure/table from its results pack |
 | 2:55 | 10:55 | 5 | Wrap-up |
 
-\*Times are relative to the start of the session; the clock column shows an example 08:00–11:00 session. **[L2]** = Level 2 (course dataset).
+\*Times are relative to the start of the session; the clock column shows an example 08:00–11:00 session. **[DS]** = course-dataset content (FLUID-ICU analysis and manuscript writing).
 
 [Session page →](session7.qmd)
 :::
@@ -157,14 +157,14 @@ Four weekends, eight sessions of **3 hours** (with a 15-minute break): Session *
 |:----|:----|---:|:------------------------------------------------------------|
 | 0:00 | 08:00 | 5 | Recap |
 | 0:05 | 08:05 | 25 | **8.1 Writing the paper (II):** Introduction funnel, Discussion six moves, calibrated language, conclusion, abstract, title & keywords |
-| 0:30 | 08:30 | 30 | **[L2] Manuscript workshop 2:** Introduction, Discussion, Abstract and Title → complete draft |
+| 0:30 | 08:30 | 30 | **[DS] Manuscript workshop 2:** Introduction, Discussion, Abstract and Title → complete draft |
 | 1:00 | 09:00 | 15 | BREAK |
 | 1:15 | 09:15 | 25 | **8.2 Getting published:** reporting guidelines (**EQUATOR demo**), choosing a journal, open access & licences, predatory journals, submission package, peer review, responding to reviewers, rejection & resubmission, proofs, conference abstracts |
 | 1:40 | 09:40 | 20 | **8.3 Be the reviewer:** simplified appraisal of Papers 1–2 (jigsaw, 10-question checklist) — training for the manuscript peer review after the course |
 | 2:00 | 10:00 | 45 | **Group presentations:** own-topic research proposal + publication plan (5 groups × 6 min + 2 min feedback) + 5-min summary of the manuscript work |
 | 2:45 | 10:45 | 15 | Post-course quiz, evaluation, next steps (peer-review swap of manuscripts as homework) |
 
-\*Times are relative to the start of the session; the clock column shows an example 08:00–11:00 session. **[L2]** = Level 2 (course dataset).
+\*Times are relative to the start of the session; the clock column shows an example 08:00–11:00 session. **[DS]** = course-dataset content (FLUID-ICU analysis and manuscript writing).
 
 [Session page →](session8.qmd)
 :::

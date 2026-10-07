@@ -1,14 +1,14 @@
 ---
-pagetitle: "Foundations of Clinical Research"
+pagetitle: "Foundations of Clinical Research · Level 1"
 toc: false
 ---
 
 ::: {.course-hero}
-# Foundations of Clinical Research
+# Foundations of Clinical Research · Level 1
 From Clinical Question to Publication
 
 ::: {.badges}
-[8 sessions]{} [4 weekends (Sat + Sun)]{} [24 contact hours]{} [No software needed]{} [EN + VN]{}
+[Level 1]{} [8 sessions]{} [4 weekends (Sat + Sun)]{} [24 contact hours]{} [No software needed]{} [EN + VN]{}
 :::
 
 [Schedule](schedule.qmd){.btn .btn-light role="button"} [Get your free access code](access.qmd){.btn .btn-light role="button"}
@@ -25,7 +25,8 @@ From Clinical Question to Publication
 Clinical staff make decisions every day that research could improve — but few have been taught how to turn a bedside uncertainty into a published study. Over **four weekends (eight 3-hour sessions)** this course walks the **whole road of research**: asking a good question, finding and reading the evidence, choosing a design, recognising bias, collecting and analysing data, protecting participants, writing the paper and getting it published.
 
 - **Slow and visual.** Built for participants with no research background: pictures first, a "check your understanding" every 20 minutes, no formulas beyond a 2×2 table, and extra slides at the end of each session for anyone who wants to read further at home.
-- **Level 1 + Level 2 in one course.** Weekends 1–2 build understanding and design skills; Weekends 3–4 analyse a realistic **simulated dataset (FLUID-ICU, 620 ICU patients)** through live instructor demos in R, and write it up as a manuscript.
+- **The whole road in one course.** Weekends 1–2 build understanding and design skills; Weekends 3–4 analyse a realistic **simulated dataset (FLUID-ICU, 620 ICU patients)** through live instructor demos in R, and write it up as a manuscript.
+- **Level 1 of three.** This course is **Level 1**. **Level 2** is a separate hands-on course in R for those who want to run analyses themselves (in preparation); **Level 3** covers advanced, specialised methods on request. See [Course levels](levels.qmd).
 - **One running example:** fluids in septic shock — asked and searched, designed, analysed, written up and published, and appraised through two real papers.
 
 ## Four weekends, eight sessions

@@ -8,7 +8,7 @@ title: "Course dataset: FLUID-ICU"
 
 FLUID-ICU is a simulated multicentre prospective cohort of **620 adults with sepsis** admitted to 4 ICUs ("ICU A" to "ICU D") from January 2023 to December 2024. It carries the course's running example into Sessions 5–8: *is a positive cumulative fluid balance by day 3 associated with higher 28-day mortality?* The data were built so that the classic lessons show up in the results: **confounding by indication** (sicker patients receive more fluid and die more often, so the crude odds ratio is clearly larger than the adjusted one), **missing data** (lactate missing in about 15%), a **skewed outcome** (ICU length of stay) and an **interaction** worth discussing (heart failure). A raw version with realistic data-quality errors is used in the Session 5 cleaning demo.
 
-Each of the five groups answers a different question on the same data and writes it up as its draft manuscript, using its **results pack** (Table 1, figures, regression tables and plain-language notes).
+Each of the five groups answers a different question on the same data and writes it up as its draft manuscript, using its **results pack** (Table 1, figures, regression tables and plain-language notes). The dataset is used in Weekends 3–4 of this course (Level 1) and reused hands-on in [Level 2](level2.qmd), where participants run the same analyses themselves.
 
 ## The five group questions
 

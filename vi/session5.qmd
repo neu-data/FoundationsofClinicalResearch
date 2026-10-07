@@ -18,14 +18,14 @@ subtitle: "Cuối tuần 3 · Thứ Bảy · 3 giờ (giải lao 15 phút)"
 |:----|:----|---:|:------------------------------------------------------------|
 | 0:00 | 08:00 | 10 | Câu hỏi ôn tập |
 | 0:10 | 08:10 | 35 | **5.1 Dữ liệu tốt từ khâu thiết kế:** loại biến, nguyên tắc thiết kế CRF, từ điển dữ liệu, kiểm tra hợp lệ, quản lý dữ liệu (EDC, nhập liệu kép, nhật ký thay đổi, sao lưu), phòng tránh dữ liệu thiếu |
-| 0:45 | 08:45 | 25 | **5.2 [L2] Làm quen bộ dữ liệu khóa học:** nghiên cứu FLUID-ICU, từ điển dữ liệu, dữ liệu thô và dữ liệu sạch, các vấn đề chất lượng dữ liệu đã phát hiện, **trình diễn làm sạch dữ liệu bằng R** và nhật ký làm sạch; giao câu hỏi cho các nhóm |
+| 0:45 | 08:45 | 25 | **5.2 [DS] Làm quen bộ dữ liệu khóa học:** nghiên cứu FLUID-ICU, từ điển dữ liệu, dữ liệu thô và dữ liệu sạch, các vấn đề chất lượng dữ liệu đã phát hiện, **trình diễn làm sạch dữ liệu bằng R** và nhật ký làm sạch; giao câu hỏi cho các nhóm |
 | 1:10 | 09:10 | 15 | GIẢI LAO |
 | 1:25 | 09:25 | 35 | **5.3 Mô tả và trình bày dữ liệu:** trung bình/trung vị, SD/IQR, hình dạng phân phối, biểu đồ nào cho dữ liệu nào, biểu đồ tốt và chưa tốt, bảng đạt chuẩn công bố, Bảng 1 |
-| 2:00 | 10:00 | 25 | **5.4 [L2] Mô tả bộ dữ liệu khóa học:** trình diễn Bảng 1 và biểu đồ; mỗi nhóm đọc Bảng 1 và các biểu đồ trong gói kết quả của nhóm (phiếu bài tập) |
+| 2:00 | 10:00 | 25 | **5.4 [DS] Mô tả bộ dữ liệu khóa học:** trình diễn Bảng 1 và biểu đồ; mỗi nhóm đọc Bảng 1 và các biểu đồ trong gói kết quả của nhóm (phiếu bài tập) |
 | 2:25 | 10:25 | 30 | **Xây dựng đề cương 5:** bảng biến số, CRF thu gọn, các dòng từ điển dữ liệu, kế hoạch quản lý dữ liệu |
 | 2:55 | 10:55 | 5 | Tổng kết |
 
-\*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[L2]** = Cấp độ 2 (bộ dữ liệu khóa học).
+\*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
 
 ## Bài giảng
 
