@@ -82,8 +82,8 @@ website:
         menu:
           - href: handbook.qmd
             text: "Sổ tay học viên"
-          - href: workbook.qmd
-            text: "Sách bài tập học viên"
+          - href: book.qmd
+            text: "Sách"
           - href: templates.qmd
             text: "Biểu mẫu"
           - href: resources.qmd

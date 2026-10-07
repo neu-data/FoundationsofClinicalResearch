@@ -64,8 +64,8 @@ website:
         menu:
           - href: handbook.qmd
             text: "Participant handbook"
-          - href: workbook.qmd
-            text: "Participant workbook"
+          - href: book.qmd
+            text: "The book"
           - href: templates.qmd
             text: "Templates"
           - href: resources.qmd
