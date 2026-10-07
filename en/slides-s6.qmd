@@ -1306,7 +1306,7 @@ GROUP WORK · 7 min
 1. Find your crude and adjusted estimates in your results pack
 2. How much did adjustment change the estimate? Why?
 3. Does the adjusted 95% CI include 1 (or 0)?
-4. Did the missing-data sensitivity analysis change the answer?
+4. Look at the imputation result in your pack: close to the main one? (details in Level 2)
 5. Write two Results sentences: crude, then adjusted, with CIs
 :::
 :::
@@ -1396,7 +1396,7 @@ Analysis plan in plain language: the summary for each variable type, the test or
 
 Confounders: for observational designs, name them (from Part 2's bias section) within the events-per-variable budget; no stepwise selection.
 
-Missing-data plan: expected missingness and why (MCAR / MAR / MNAR thinking), prevention (Session 5), the main handling and one sensitivity analysis, as FLUID-ICU did.
+Missing-data plan: expected missingness and why (MCAR / MAR / MNAR thinking), prevention (Session 5), and how missing data will be reported (how many, in whom). Imputation and sensitivity analyses are Level 2 topics.
 :::
 
 ## Proposal builder 6: sample size and analysis plan
@@ -1411,7 +1411,7 @@ PROPOSAL BUILDER · 30 min
 1. Sample-size statement: the 4 inputs and where they come from (8 min)
 2. Analysis plan: summary, test or model, effect measure + 95% CI (10 min)
 3. Confounders to adjust for, within about 10 events per variable (5 min)
-4. Missing-data plan: expected gaps, prevention, main handling, one sensitivity analysis (7 min)
+4. Missing-data plan: expected gaps, prevention, how missing data will be reported (7 min)
 :::
 :::
 ::: {.column width="40%"}
@@ -2009,11 +2009,11 @@ Four things a reviewer will look for.
 - Are they different?
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
-[Sensitivity]{.neu-card-title}
+[Sensitivity (Level 2)]{.neu-card-title}
 
 - Complete-case vs MI
-- Best / worst case
-- Same answer?
+- Example script: 05\_missing.R
+- Done hands-on in Level 2
 :::
 ::: {.neu-card .plain style="--c:#0070C0"}
 [Plan]{.neu-card-title}
@@ -2037,7 +2037,7 @@ Compare: patients with complete data against those with gaps on baseline charact
 
 Sensitivity analysis: repeat the main analysis in a different way: complete-case vs multiple imputation; for a missing binary outcome, a best case (all missing survived) and worst case (all missing died). If the conclusion holds in all versions, it is robust. If it flips, say so.
 
-Plan: all of this goes in the SAP and in Part 3 of your proposal today: expected missingness, prevention (5.1), main handling, one sensitivity analysis.
+Plan: all of this goes in the SAP and in Part 3 of your proposal today: expected missingness, prevention (5.1), and how missing data will be reported.
 
 Ask: Paper 1 analysed 48 of 50 randomised patients; two control patients withdrew. Is that a problem? Expected: small loss (4%), reported transparently; a sensitivity analysis would still be good practice.
 

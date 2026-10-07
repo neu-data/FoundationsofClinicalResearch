@@ -1306,7 +1306,7 @@ LÀM VIỆC NHÓM · 7 phút
 1. Tìm ước lượng thô và hiệu chỉnh trong gói kết quả
 2. Hiệu chỉnh làm ước lượng thay đổi bao nhiêu? Vì sao?
 3. 95% CI hiệu chỉnh có chứa 1 (hoặc 0) không?
-4. Phân tích độ nhạy dữ liệu thiếu có thay đổi câu trả lời không?
+4. Xem kết quả đa phép gán trong gói kết quả: có gần kết quả chính? (chi tiết ở Cấp độ 2)
 5. Viết hai câu Kết quả: thô, rồi hiệu chỉnh, kèm CI
 :::
 :::
@@ -1396,7 +1396,7 @@ Kế hoạch phân tích dễ hiểu: cách tóm tắt cho từng loại biến,
 
 Yếu tố gây nhiễu: với thiết kế quan sát, nêu tên (từ phần sai lệch ở Phần 2) trong giới hạn số biến cố mỗi biến; không chọn từng bước.
 
-Kế hoạch dữ liệu thiếu: mức thiếu dự kiến và vì sao (tư duy MCAR / MAR / MNAR), phòng ngừa (Buổi 5), cách xử lý chính và một phân tích độ nhạy, như FLUID-ICU đã làm.
+Kế hoạch dữ liệu thiếu: mức thiếu dự kiến và vì sao (tư duy MCAR / MAR / MNAR), phòng ngừa (Buổi 5), và cách báo cáo dữ liệu thiếu (bao nhiêu, ở ai). Đa phép gán và phân tích độ nhạy thuộc Cấp độ 2.
 :::
 
 ## Xây dựng đề cương 6: cỡ mẫu và kế hoạch phân tích
@@ -1411,7 +1411,7 @@ XÂY DỰNG ĐỀ CƯƠNG · 30 phút
 1. Câu phát biểu cỡ mẫu: 4 đầu vào và nguồn của chúng (8 phút)
 2. Kế hoạch phân tích: tóm tắt, kiểm định hoặc mô hình, số đo tác động + 95% CI (10 phút)
 3. Yếu tố gây nhiễu cần hiệu chỉnh, khoảng 10 biến cố mỗi biến (5 phút)
-4. Kế hoạch dữ liệu thiếu: dự kiến, phòng ngừa, cách xử lý chính, một phân tích độ nhạy (7 phút)
+4. Kế hoạch dữ liệu thiếu: dự kiến, phòng ngừa, cách báo cáo dữ liệu thiếu (7 phút)
 :::
 :::
 ::: {.column width="40%"}
@@ -2009,11 +2009,11 @@ Bốn điều người phản biện sẽ tìm.
 - Họ có khác nhau không?
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
-[Độ nhạy]{.neu-card-title}
+[Độ nhạy (Cấp độ 2)]{.neu-card-title}
 
 - Ca đầy đủ so với đa phép gán
-- Kịch bản tốt nhất / xấu nhất
-- Cùng kết luận?
+- Script mẫu: 05\_missing.R
+- Thực hành ở Cấp độ 2
 :::
 ::: {.neu-card .plain style="--c:#0070C0"}
 [Kế hoạch]{.neu-card-title}
@@ -2037,7 +2037,7 @@ So sánh: bệnh nhân có dữ liệu đầy đủ với những người có �
 
 Phân tích độ nhạy: lặp lại phân tích chính theo một cách khác: ca đầy đủ so với đa phép gán; với kết cục nhị phân bị thiếu, kịch bản tốt nhất (mọi ca thiếu đều sống) và xấu nhất (mọi ca thiếu đều tử vong). Nếu kết luận giữ nguyên ở mọi phiên bản, nó vững. Nếu đảo chiều, hãy nói rõ.
 
-Kế hoạch: tất cả những điều này đưa vào SAP và vào Phần 3 đề cương hôm nay: mức thiếu dự kiến, phòng ngừa (5.1), cách xử lý chính, một phân tích độ nhạy.
+Kế hoạch: tất cả những điều này đưa vào SAP và vào Phần 3 đề cương hôm nay: mức thiếu dự kiến, phòng ngừa (5.1), và cách báo cáo dữ liệu thiếu.
 
 Hỏi: Bài báo 1 phân tích 48 trong 50 bệnh nhân được phân bổ ngẫu nhiên; hai bệnh nhân nhóm chứng rút lui. Có vấn đề không? Dự kiến: mất ít (4%), được báo cáo minh bạch; một phân tích độ nhạy vẫn là thực hành tốt.
 

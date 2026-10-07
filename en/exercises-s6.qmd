@@ -163,7 +163,7 @@ For each scenario, choose the most likely mechanism (**MCAR**, **MAR** or **MNAR
 | e | A form version used in the first month did not include the "smoking" question. | | |
 | f | Older patients are less likely to return a quality-of-life questionnaire at 3 months; age is recorded for all. | | |
 
-Bonus: for scenario (d), describe one **sensitivity analysis** you could report.
+*(How to test whether missing data change the answer — sensitivity analyses — is covered hands-on in Level 2.)*
 
 
 * * *
@@ -183,10 +183,10 @@ Use the regression table and the missing-data table in your results pack.
 2. How much did the estimate move after adjustment, and in which direction? What does that tell you about confounding by indication?
 3. Does the adjusted 95% CI include the "no effect" value (1 for a ratio, 0 for a difference)?
 
-**Part B — complete case vs multiple imputation**
+**Part B — complete case vs multiple imputation** *(read the result from your pack; it was produced by the example script `Course/Data/R/05_missing.R`. How imputation works is covered in Level 2.)*
 
 4. How many patients were in the complete-case model, and how many in the multiple-imputation model? Who was left out of the complete-case analysis?
-5. Did multiple imputation change the answer? Is the result robust?
+5. Is the multiple-imputation estimate close to the complete-case estimate?
 
 **Part C — (Q1 only) Kaplan–Meier and Cox**
 
@@ -243,6 +243,6 @@ Expected number of events: ____ → maximum number of model terms (about 1 per 1
 |---|---|
 | Which variables are most likely to be missing, and why? (MCAR / MAR / MNAR thinking) | |
 | How will we prevent it? (form design, training, weekly checks, chasing outcome status) | |
-| Main analysis: complete case or multiple imputation? Why? | |
-| One sensitivity analysis | |
+| Which variables may be missing, and why? | |
+| How missing data will be reported (how many, in whom) | |
 | How will we report missingness? (n missing per variable, flow diagram) | |

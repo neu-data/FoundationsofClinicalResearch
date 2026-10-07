@@ -144,7 +144,7 @@ Bonus (d): report the main result plus a **best-case** (all transferred patients
 
 Numbers from `Course/Data/key_results.md` (simulated data).
 
-| Q | Crude | Adjusted (complete case, n = 527 unless stated) | Missing-data sensitivity |
+| Q | Crude | Adjusted (complete case, n = 527 unless stated) | Multiple imputation (from the pack) |
 |---|---|---|---|
 | Q1 | OR 2.49 (1.70 to 3.70), n = 618; same 527 patients 2.22 (1.48 to 3.39) | OR 1.62 (1.02 to 2.59), p = 0.044; Cox HR crude 2.17 (1.55 to 3.05) → adjusted 1.46 (1.00 to 2.13), p = 0.053; PH test p = 0.10 | MI (m = 20, n = 620): OR 1.70 (1.09 to 2.64), p = 0.020 |
 | Q2 | OR per 10 ml/kg 1.37 (1.27 to 1.47) | 1.27 (1.16 to 1.40), p < 0.001 | — |
@@ -170,11 +170,11 @@ Model sentences (Q1): "Positive fluid balance was associated with higher 28-day 
 
 **Analysis plan:** describe with mean (SD) / median (IQR) / n (%); compare 28-day mortality with a chi-square test; report RR and risk difference with 95% CIs. Observational designs: adjusted OR (logistic) or HR (Cox) with confounders chosen in advance, about 1 model term per 10 events.
 
-**Missing-data plan (good enough):** names the variables likely to be missing and why; prevention; main handling (complete case if little missing and plausibly MCAR, otherwise multiple imputation); one sensitivity analysis (e.g. complete case vs MI, or best/worst case for a missing outcome); reporting (n missing per variable, flow diagram). FLUID-ICU's SAP section 10 is a model.
+**Missing-data plan (good enough):** names the variables likely to be missing and why; prevention; main handling (complete case if little missing and plausibly MCAR, otherwise multiple imputation); how missing data will be reported (n missing per variable, who). Imputation and sensitivity analyses are Level 2 topics; reporting (n missing per variable, flow diagram). FLUID-ICU's SAP section 10 is a model.
 
 | Element | Good enough | Needs work |
 |---|---|---|
 | Sample size | 4 inputs with a stated source | "All patients in one year" |
 | Analysis plan | Summary + test/model + effect measure with 95% CI | "Data will be analysed with SPSS" |
 | Confounders | Named, justified, within events-per-variable | Stepwise selection; mediators adjusted |
-| Missing data | Expected gaps + prevention + handling + sensitivity | Nothing, or "missing data will be excluded" |
+| Missing data | Expected gaps + prevention + reporting | Nothing, or "missing data will be excluded" |
