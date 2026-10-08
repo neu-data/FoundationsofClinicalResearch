@@ -2,18 +2,18 @@
 title: "Lịch học"
 ---
 
-Tám tuần, mỗi **thứ Bảy** một buổi: tám buổi học, mỗi buổi **3 giờ** (giải lao 15 phút), Buổi *n* vào Tuần *n*. Tuần 1–4 xây dựng hiểu biết và kỹ năng thiết kế; tuần 5–8 phân tích bộ dữ liệu mô phỏng **FLUID-ICU** qua trình diễn của giảng viên và viết thành bản thảo bài báo. Toàn bộ khóa học là **Cấp độ 1** ([các cấp độ](levels.qmd)).
+Tám tuần, mỗi **thứ Bảy** một buổi, từ **31/10 đến 19/12/2026**: tám buổi học, mỗi buổi **3 giờ** (giải lao 15 phút), Buổi *n* vào Tuần *n*. Tuần 1–4 xây dựng hiểu biết và kỹ năng thiết kế; tuần 5–8 phân tích bộ dữ liệu mô phỏng **FLUID-ICU** qua trình diễn của giảng viên và viết thành bản thảo bài báo. Toàn bộ khóa học là **Cấp độ 1** ([các cấp độ](levels.qmd)).
 
 | Tuần | Buổi | Ngày | Chủ đề | Nhóm xây dựng |
 |:---:|:--------|:--------|:----------|:------------------------------------|
-| 1 | [Buổi 1](session1.qmd) | Thứ Bảy | **Hỏi** | Đề cương: chủ đề, PICO, câu hỏi, mục tiêu |
-| 2 | [Buổi 2](session2.qmd) | Thứ Bảy | **Tìm & đọc** | Đề cương: tìm kiếm, 5 tài liệu, đặt vấn đề, tên đề tài |
-| 3 | [Buổi 3](session3.qmd) | Thứ Bảy | **Thiết kế** | Đề cương: thiết kế, bối cảnh, đối tượng |
-| 4 | [Buổi 4](session4.qmd) | Thứ Bảy | **Sai lệch & tác động** | Đề cương: phơi nhiễm, kết cục, kế hoạch hạn chế sai lệch |
-| 5 | [Buổi 5](session5.qmd) | Thứ Bảy | **Dữ liệu** | Đề cương: biến số, CRF, kế hoạch dữ liệu · Bản thảo: hiểu Bảng 1 |
-| 6 | [Buổi 6](session6.qmd) | Thứ Bảy | **Phân tích** | Đề cương: cỡ mẫu, kế hoạch phân tích · Bản thảo: diễn giải kết quả |
-| 7 | [Buổi 7](session7.qmd) | Thứ Bảy | **Bảo vệ & viết** | Đề cương: đạo đức, khả thi, kế hoạch công bố · Bản thảo: Phương pháp + Kết quả |
-| 8 | [Buổi 8](session8.qmd) | Thứ Bảy | **Công bố** | Bản thảo: bản nháp hoàn chỉnh · Trình bày đề cương |
+| 1 | [Buổi 1](session1.qmd) | Thứ Bảy 31/10/2026 | **Hỏi** | Đề cương: chủ đề, PICO, câu hỏi, mục tiêu |
+| 2 | [Buổi 2](session2.qmd) | Thứ Bảy 07/11/2026 | **Tìm & đọc** | Đề cương: tìm kiếm, 5 tài liệu, đặt vấn đề, tên đề tài |
+| 3 | [Buổi 3](session3.qmd) | Thứ Bảy 14/11/2026 | **Thiết kế** | Đề cương: thiết kế, bối cảnh, đối tượng |
+| 4 | [Buổi 4](session4.qmd) | Thứ Bảy 21/11/2026 | **Sai lệch & tác động** | Đề cương: phơi nhiễm, kết cục, kế hoạch hạn chế sai lệch |
+| 5 | [Buổi 5](session5.qmd) | Thứ Bảy 28/11/2026 | **Dữ liệu** | Đề cương: biến số, CRF, kế hoạch dữ liệu · Bản thảo: hiểu Bảng 1 |
+| 6 | [Buổi 6](session6.qmd) | Thứ Bảy 05/12/2026 | **Phân tích** | Đề cương: cỡ mẫu, kế hoạch phân tích · Bản thảo: diễn giải kết quả |
+| 7 | [Buổi 7](session7.qmd) | Thứ Bảy 12/12/2026 | **Bảo vệ & viết** | Đề cương: đạo đức, khả thi, kế hoạch công bố · Bản thảo: Phương pháp + Kết quả |
+| 8 | [Buổi 8](session8.qmd) | Thứ Bảy 19/12/2026 | **Công bố** | Bản thảo: bản nháp hoàn chỉnh · Trình bày đề cương |
 
 ## Thời gian biểu chi tiết
 
