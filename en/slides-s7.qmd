@@ -42,22 +42,22 @@ QUICK QUIZ · 10 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. A crude OR is 2.1; the adjusted OR is 1.4. What happened?
-2. HR 0.85 (95% CI 0.60 to 1.20): clear benefit?
-3. Lactate is missing for 15% of patients. Name one way to handle it
-4. Kaplan-Meier: what does a 'censored' patient mean?
-5. Your group's FLUID-ICU question: what is its main result?
+- A crude OR is 2.1; the adjusted OR is 1.4. What happened?
+- HR 0.85 (95% CI 0.60 to 1.20): clear benefit?
+- Lactate is missing for 15% of patients. Name one way to handle it
+- Kaplan-Meier: what does a 'censored' patient mean?
+- Your group's FLUID-ICU question: what is its main result?
 :::
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#6C3483"}
 Answers
 
-- 1. Confounding: part of the crude link came from severity
-- 2. No: the CI includes 1
-- 3. Complete-case, or multiple imputation + sensitivity
-- 4. Left the study alive, outcome unknown after that
-- 5. From your results pack
+- Confounding: part of the crude link came from severity
+- No: the CI includes 1
+- Complete-case, or multiple imputation + sensitivity
+- Left the study alive, outcome unknown after that
+- From your results pack
 :::
 :::
 ::::
@@ -207,21 +207,21 @@ QUICK QUIZ · 2 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. A randomised trial of two dressings for pressure injuries
-2. A systematic review of fluid strategies in sepsis
-3. A retrospective cohort from ICU charts (like FLUID-ICU)
-4. A clinical audit of hand-hygiene compliance
-5. Show: 1 finger = must, 2 = should, 3 = not needed
+- A randomised trial of two dressings for pressure injuries
+- A systematic review of fluid strategies in sepsis
+- A retrospective cohort from ICU charts (like FLUID-ICU)
+- A clinical audit of hand-hygiene compliance
+- Show: 1 finger = must, 2 = should, 3 = not needed
 :::
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#6C3483"}
 Answers
 
-- 1. Must: trial registry, before patient 1
-- 2. Should: PROSPERO
-- 3. Recommended, not required
-- 4. Audit: not research registration; local approval
+- Must: trial registry, before patient 1
+- Should: PROSPERO
+- Recommended, not required
+- Audit: not research registration; local approval
 :::
 :::
 ::::
@@ -630,10 +630,10 @@ QUICK QUIZ · 5 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. Read the scenario on the screen or in your handout (6 scenarios)
-2. Each group holds up GREEN (fine), AMBER (fine only if fixed or disclosed) or RED (misconduct)
-3. The instructor asks one group to justify its colour
-4. We do 3 together now; the rest are in the handout
+- Read the scenario on the screen or in your handout (6 scenarios)
+- Each group holds up GREEN (fine), AMBER (fine only if fixed or disclosed) or RED (misconduct)
+- The instructor asks one group to justify its colour
+- We do 3 together now; the rest are in the handout
 :::
 :::
 ::: {.column width="40%"}
@@ -671,11 +671,11 @@ PROPOSAL BUILDER · 15 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#055F56"}
-1. Who consents in your study? Use the ICU flowchart (5 min)
-2. Registration: needed? which registry? Where is the key file?
-3. Feasibility: biggest risk and one fix (3 min)
-4. Publication plan: target journal, guideline, authors + CRediT (5 min)
-5. Working title from your PICO (2 min)
+- Who consents in your study? Use the ICU flowchart (5 min)
+- Registration: needed? which registry? Where is the key file?
+- Feasibility: biggest risk and one fix (3 min)
+- Publication plan: target journal, guideline, authors + CRediT (5 min)
+- Working title from your PICO (2 min)
 :::
 :::
 ::: {.column width="40%"}
@@ -712,10 +712,10 @@ BREAK · 15 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#8A99A3"}
-1. Collect your group's FLUID-ICU results pack
-2. Open the manuscript template (or take paper)
-3. Decide who writes Methods, who writes Results
-4. Back at 1:30 sharp
+- Collect your group's FLUID-ICU results pack
+- Open the manuscript template (or take paper)
+- Decide who writes Methods, who writes Results
+- Back at 1:30 sharp
 :::
 :::
 ::: {.column width="40%"}
@@ -983,11 +983,11 @@ QUICK QUIZ · 3 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. 'We used logistic regression adjusted for SOFA and age.'
-2. 'Of 640 patients screened, 600 were included.'
-3. 'This may be because sicker patients received more fluid.'
-4. 'Lactate was missing in 15% and was imputed.'
-5. '28-day mortality was higher with a positive balance (OR ..., 95% CI ...).'
+- 'We used logistic regression adjusted for SOFA and age.'
+- 'Of 640 patients screened, 600 were included.'
+- 'This may be because sicker patients received more fluid.'
+- 'Lactate was missing in 15% and was imputed.'
+- '28-day mortality was higher with a positive balance (OR ..., 95% CI ...).'
 :::
 :::
 ::: {.column width="40%"}
@@ -1056,11 +1056,11 @@ GROUP WORK · 50 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0D7377"}
-1. 0-5: read your results pack; agree the main result in one sentence
-2. 5-25: Methods (design, setting, participants, variables, statistics)
-3. 25-40: Results (participants, Table 1, crude + adjusted main result)
-4. 40-47: Table 1 + one figure/table with titles and footnotes
-5. 47-50: tick STROBE items 4-17; check every number
+- 0-5: read your results pack; agree the main result in one sentence
+- 5-25: Methods (design, setting, participants, variables, statistics)
+- 25-40: Results (participants, Table 1, crude + adjusted main result)
+- 40-47: Table 1 + one figure/table with titles and footnotes
+- 47-50: tick STROBE items 4-17; check every number
 :::
 :::
 ::: {.column width="40%"}
@@ -1121,10 +1121,10 @@ DISCUSSION · 5 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#1F5C7A"}
-1. Three take-home messages (next to this list)
-2. This week: finish Proposal Part 4 and your 6 presentation slides
-3. This week: read your Methods + Results draft once, aloud
-4. Next Saturday: Introduction, Discussion, Abstract, Title, then present
+- Three take-home messages (next to this list)
+- This week: finish Proposal Part 4 and your 6 presentation slides
+- This week: read your Methods + Results draft once, aloud
+- Next Saturday: Introduction, Discussion, Abstract, Title, then present
 :::
 :::
 ::: {.column width="40%"}
@@ -1179,7 +1179,7 @@ Introduction: from what is known, to what is not known, to your question (a funn
 
 Running example: Paper 1's introduction is a textbook funnel in three paragraphs (pages 2-3), ending 'The primary objective was to assess the fluid balance after the first 5 days'. Its Discussion opens by answering that question (page 8).
 
-Tip for the appraisal after the break: the hourglass tells you where to look. PICO is in the last paragraph of the Introduction, design and outcome in the Methods, the main effect in the first paragraph of the Results, limitations near the end of the Discussion.
+Tip for the appraisal in Session 8: the hourglass tells you where to look. PICO is in the last paragraph of the Introduction, design and outcome in the Methods, the main effect in the first paragraph of the Results, limitations near the end of the Discussion.
 
 Ask: which section do you read first in a paper? Many will say the abstract and conclusion. That is fine, but the answer to 'can I believe it?' is in the Methods.
 :::

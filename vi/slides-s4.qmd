@@ -42,10 +42,10 @@ CÂU HỎI NHANH · 10 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. C1. BN ICU mê sảng được so sánh với BN không mê sảng về việc dùng benzodiazepine trước đó. Thiết kế?
-2. C2. Thiết kế nào phân nhóm ngẫu nhiên cả khoa thay vì từng bệnh nhân?
-3. C3. Chiến lược mới vs cũ, hiệu số tử vong KTC 95% -1 đến +3 điểm; ngưỡng +4 điểm. Kết quả?
-4. Các nhóm: đọc lại Phần 2a của đề cương (thiết kế, bối cảnh, đối tượng): 2 phút
+- C1. BN ICU mê sảng được so sánh với BN không mê sảng về việc dùng benzodiazepine trước đó. Thiết kế?
+- C2. Thiết kế nào phân nhóm ngẫu nhiên cả khoa thay vì từng bệnh nhân?
+- C3. Chiến lược mới vs cũ, hiệu số tử vong KTC 95% -1 đến +3 điểm; ngưỡng +4 điểm. Kết quả?
+- Các nhóm: đọc lại Phần 2a của đề cương (thiết kế, bối cảnh, đối tượng): 2 phút
 :::
 :::
 ::: {.column width="40%"}
@@ -215,9 +215,9 @@ CÂU HỎI NHANH · 2 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. A. Chỉ phỏng vấn những BN sống đến lúc ra viện về chăm sóc tại ICU
-2. B. Điều dưỡng biết BN thuộc nhóm nào chấm điểm đau
-3. C. Một cái cân luôn chỉ cao 0,5 kg chỉ được dùng ở một khoa
+- A. Chỉ phỏng vấn những BN sống đến lúc ra viện về chăm sóc tại ICU
+- B. Điều dưỡng biết BN thuộc nhóm nào chấm điểm đau
+- C. Một cái cân luôn chỉ cao 0,5 kg chỉ được dùng ở một khoa
 :::
 :::
 ::: {.column width="40%"}
@@ -561,10 +561,10 @@ CÂU HỎI NHANH · 4 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. Mẹ của trẻ dị tật bẩm sinh nhớ thuốc dùng khi mang thai rõ hơn các bà mẹ khác
-2. Điều dưỡng nghiên cứu biết nhóm chấm điểm 'đủ điều kiện ra viện'
-3. Khảo sát chất lượng sống sau ICU chỉ tuyển người đến tái khám
-4. BN có lactate cao được truyền nhiều dịch hơn và tử vong nhiều hơn
+- Mẹ của trẻ dị tật bẩm sinh nhớ thuốc dùng khi mang thai rõ hơn các bà mẹ khác
+- Điều dưỡng nghiên cứu biết nhóm chấm điểm 'đủ điều kiện ra viện'
+- Khảo sát chất lượng sống sau ICU chỉ tuyển người đến tái khám
+- BN có lactate cao được truyền nhiều dịch hơn và tử vong nhiều hơn
 :::
 :::
 ::: {.column width="40%"}
@@ -793,10 +793,10 @@ CÂU HỎI NHANH · 3 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. Mỗi nhóm 200 BN: 20 tử vong với điều trị mới, 30 với thường quy
-2. Nguy cơ ở mỗi nhóm?
-3. RR? Hiệu số nguy cơ? NNT?
-4. Câu thêm: OR = (a x d) / (b x c)?
+- Mỗi nhóm 200 BN: 20 tử vong với điều trị mới, 30 với thường quy
+- Nguy cơ ở mỗi nhóm?
+- RR? Hiệu số nguy cơ? NNT?
+- Câu thêm: OR = (a x d) / (b x c)?
 :::
 :::
 ::: {.column width="40%"}
@@ -832,11 +832,11 @@ TRÌNH DIỄN TRỰC TIẾP · 8 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#B5651D"}
-1. Mở 2x2\_calculator.xlsx, trang Association
-2. Nhập a, b, c, d của ví dụ: 20, 80, 30, 70
-3. Đọc nguy cơ, RR, RD, NNT, OR, và các câu diễn giải
-4. Đổi số tử vong thành 2 và 3 trên 100: xem OR tiến gần RR
-5. Chỉ vào dòng chữ đỏ: dữ liệu bệnh-chứng chỉ cho OR
+- Mở 2x2\_calculator.xlsx, trang Association
+- Nhập a, b, c, d của ví dụ: 20, 80, 30, 70
+- Đọc nguy cơ, RR, RD, NNT, OR, và các câu diễn giải
+- Đổi số tử vong thành 2 và 3 trên 100: xem OR tiến gần RR
+- Chỉ vào dòng chữ đỏ: dữ liệu bệnh-chứng chỉ cho OR
 :::
 :::
 ::: {.column width="40%"}
@@ -875,9 +875,9 @@ GIẢI LAO · 15 phút
 :::
 
 ::: {.neu-activity-steps style="--c:#8A99A3"}
-1. Vận động, uống cà phê, hít thở không khí
-2. Sau giải lao: hai bài tính bảng 2x2, hãy chuẩn bị bút
-3. Rồi phần 4.3: vượt ra ngoài một nghiên cứu
+- Vận động, uống cà phê, hít thở không khí
+- Sau giải lao: hai bài tính bảng 2x2, hãy chuẩn bị bút
+- Rồi phần 4.3: vượt ra ngoài một nghiên cứu
 :::
 
 ::: {.notes}
@@ -897,10 +897,10 @@ BÀI TẬP CÁ NHÂN · 20 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0B376C"}
-1. Tài liệu Phần C: vẽ mỗi bảng 2x2 trước, phơi nhiễm ở hàng
-2. Bài 1 (thử nghiệm): nguy cơ, RR, RD, NNT, OR, và một câu diễn giải
-3. Bài 2 (bệnh-chứng): chỉ tính OR, và giải thích vì sao không tính RR
-4. Đối chiếu với người bên cạnh, rồi với công cụ tính
+- Tài liệu Phần C: vẽ mỗi bảng 2x2 trước, phơi nhiễm ở hàng
+- Bài 1 (thử nghiệm): nguy cơ, RR, RD, NNT, OR, và một câu diễn giải
+- Bài 2 (bệnh-chứng): chỉ tính OR, và giải thích vì sao không tính RR
+- Đối chiếu với người bên cạnh, rồi với công cụ tính
 :::
 :::
 ::: {.column width="40%"}
@@ -1174,10 +1174,10 @@ THẢO LUẬN · 6 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#1F5C7A"}
-1. Tài liệu Phần E: biểu đồ rừng của sáu thử nghiệm về dịch truyền
-2. Thử nghiệm nào có trọng số lớn nhất? Có thử nghiệm riêng lẻ nào cho tác động rõ không?
-3. Hình thoi có cắt RR = 1 không? Nói kết quả bằng một câu
-4. Chọn công cụ đánh giá sai lệch cho Boulet, cho Hyun và cho một tổng quan về dịch truyền
+- Tài liệu Phần E: biểu đồ rừng của sáu thử nghiệm về dịch truyền
+- Thử nghiệm nào có trọng số lớn nhất? Có thử nghiệm riêng lẻ nào cho tác động rõ không?
+- Hình thoi có cắt RR = 1 không? Nói kết quả bằng một câu
+- Chọn công cụ đánh giá sai lệch cho Boulet, cho Hyun và cho một tổng quan về dịch truyền
 :::
 :::
 ::: {.column width="40%"}
@@ -1239,12 +1239,12 @@ XÂY DỰNG ĐỀ CƯƠNG · 30 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#055F56"}
-1. Phơi nhiễm hoặc can thiệp: chính xác là gì, bao nhiêu, khi nào
-2. Nhóm so sánh: so sánh với ai hoặc với điều gì
-3. MỘT kết cục chính: cái gì, thế nào, khi nào
-4. 2-3 kết cục phụ, mỗi kết cục có cái gì, thế nào, khi nào
-5. Hai sai lệch chính và bước thiết kế làm giảm từng sai lệch
-6. Viết một câu: sẽ kết luận 'gây ra' hay 'có liên quan'?
+- Phơi nhiễm hoặc can thiệp: chính xác là gì, bao nhiêu, khi nào
+- Nhóm so sánh: so sánh với ai hoặc với điều gì
+- MỘT kết cục chính: cái gì, thế nào, khi nào
+- 2-3 kết cục phụ, mỗi kết cục có cái gì, thế nào, khi nào
+- Hai sai lệch chính và bước thiết kế làm giảm từng sai lệch
+- Viết một câu: sẽ kết luận 'gây ra' hay 'có liên quan'?
 :::
 :::
 ::: {.column width="40%"}
@@ -1327,10 +1327,10 @@ THẢO LUẬN · 5 phút
 :::
 
 ::: {.neu-activity-steps style="--c:#1F5C7A"}
-1. Câu hỏi cuối buổi: BN ICU được truyền nhiều dịch hơn tử vong nhiều hơn. Nêu một lý do khác ngoài bản thân dịch truyền
-2. Bài về nhà: hoàn thành Phần 2 đề cương (phơi nhiễm, so sánh, kết cục, sai lệch)
-3. Tùy chọn: Phần B và D của tài liệu (thay đổi tác động, PPV ở hai bối cảnh)
-4. Hai thứ Bảy tới (Buổi 5-6): dữ liệu và bộ dữ liệu khóa học FLUID-ICU
+- Câu hỏi cuối buổi: BN ICU được truyền nhiều dịch hơn tử vong nhiều hơn. Nêu một lý do khác ngoài bản thân dịch truyền
+- Bài về nhà: hoàn thành Phần 2 đề cương (phơi nhiễm, so sánh, kết cục, sai lệch)
+- Tùy chọn: Phần B và D của tài liệu (thay đổi tác động, PPV ở hai bối cảnh)
+- Hai thứ Bảy tới (Buổi 5-6): dữ liệu và bộ dữ liệu khóa học FLUID-ICU
 :::
 
 ::: {.neu-output style="--c:#1F5C7A"}
@@ -1437,23 +1437,23 @@ Thời gian: 1,5 phút. Buổi 8 dùng bảng kiểm 10 câu đơn giản của 
 
 :::: {.neu-steps}
 ::: {.neu-step style="--c:#0D7377"}
-[1]{.neu-step-num}[1. Hôm nay]{.neu-step-label}
+[Hôm nay]{.neu-step-label}
 
 - 200 BN ở khoa; 20 BN có loét tì đè
 - Hiện mắc 10%
 :::
 ::: {.neu-step style="--c:#0B376C"}
-[2]{.neu-step-num}[2. Có nguy cơ]{.neu-step-label}
+[Có nguy cơ]{.neu-step-label}
 
 - 180 BN chưa bị loét
 :::
 ::: {.neu-step style="--c:#5FA39B"}
-[3]{.neu-step-num}[3. Một tuần]{.neu-step-label}
+[Một tuần]{.neu-step-label}
 
 - 9 BN bị loét mới
 :::
 ::: {.neu-step style="--c:#0070C0"}
-[4]{.neu-step-num}[4. Mới mắc]{.neu-step-label}
+[Mới mắc]{.neu-step-label}
 
 - 9 / 180 = 5% mỗi tuần
 - (mẫu số = người có nguy cơ)

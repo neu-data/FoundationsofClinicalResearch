@@ -42,10 +42,10 @@ QUICK QUIZ · 10 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. Q1. ICU patients with delirium are compared with patients without delirium for earlier benzodiazepine use. Design?
-2. Q2. Which design randomises whole wards instead of patients?
-3. Q3. New vs old strategy, mortality difference 95% CI -1 to +3 points; margin +4 points. Result?
-4. Groups: re-read your Proposal Part 2a (design, setting, population): 2 min
+- Q1. ICU patients with delirium are compared with patients without delirium for earlier benzodiazepine use. Design?
+- Q2. Which design randomises whole wards instead of patients?
+- Q3. New vs old strategy, mortality difference 95% CI -1 to +3 points; margin +4 points. Result?
+- Groups: re-read your Proposal Part 2a (design, setting, population): 2 min
 :::
 :::
 ::: {.column width="40%"}
@@ -215,9 +215,9 @@ QUICK QUIZ · 2 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. A. Only patients who survived to hospital discharge are interviewed about their ICU care
-2. B. The nurse who knows each patient's group scores their pain
-3. C. A scale that always reads 0.5 kg too high is used on one ward only
+- A. Only patients who survived to hospital discharge are interviewed about their ICU care
+- B. The nurse who knows each patient's group scores their pain
+- C. A scale that always reads 0.5 kg too high is used on one ward only
 :::
 :::
 ::: {.column width="40%"}
@@ -561,10 +561,10 @@ QUICK QUIZ · 4 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. Mothers of babies with a birth defect recall medicines in pregnancy better than other mothers
-2. A trial nurse who knows the group scores 'ready for discharge'
-3. A survey of ICU survivors' quality of life recruits only those who attend clinic
-4. Patients with higher lactate get more fluid and die more often
+- Mothers of babies with a birth defect recall medicines in pregnancy better than other mothers
+- A trial nurse who knows the group scores 'ready for discharge'
+- A survey of ICU survivors' quality of life recruits only those who attend clinic
+- Patients with higher lactate get more fluid and die more often
 :::
 :::
 ::: {.column width="40%"}
@@ -793,10 +793,10 @@ QUICK QUIZ · 3 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. 200 patients per group: 20 die with the new treatment, 30 with usual care
-2. Risk in each group?
-3. RR? Risk difference? NNT?
-4. Bonus: OR = (a x d) / (b x c)?
+- 200 patients per group: 20 die with the new treatment, 30 with usual care
+- Risk in each group?
+- RR? Risk difference? NNT?
+- Bonus: OR = (a x d) / (b x c)?
 :::
 :::
 ::: {.column width="40%"}
@@ -832,11 +832,11 @@ LIVE DEMO · 8 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#B5651D"}
-1. Open 2x2\_calculator.xlsx, sheet Association
-2. Enter a, b, c, d from the worked example: 20, 80, 30, 70
-3. Read risks, RR, RD, NNT and OR, and the plain-language lines
-4. Change the deaths to 2 and 3 of 100: watch OR approach RR
-5. Point at the red line: case-control data give an OR only
+- Open 2x2\_calculator.xlsx, sheet Association
+- Enter a, b, c, d from the worked example: 20, 80, 30, 70
+- Read risks, RR, RD, NNT and OR, and the plain-language lines
+- Change the deaths to 2 and 3 of 100: watch OR approach RR
+- Point at the red line: case-control data give an OR only
 :::
 :::
 ::: {.column width="40%"}
@@ -875,9 +875,9 @@ BREAK · 15 min
 :::
 
 ::: {.neu-activity-steps style="--c:#8A99A3"}
-1. Stretch, coffee, fresh air
-2. After the break: two 2x2 calculations, so have a pen ready
-3. Then 4.3: beyond single studies
+- Stretch, coffee, fresh air
+- After the break: two 2x2 calculations, so have a pen ready
+- Then 4.3: beyond single studies
 :::
 
 ::: {.notes}
@@ -897,10 +897,10 @@ INDIVIDUAL TASK · 20 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0B376C"}
-1. Handout Part C: draw each 2x2 table first, exposure in rows
-2. Calculation 1 (trial): risks, RR, RD, NNT, OR, and one sentence
-3. Calculation 2 (case-control): OR only, and say why not RR
-4. Check with your neighbour, then with the calculator
+- Handout Part C: draw each 2x2 table first, exposure in rows
+- Calculation 1 (trial): risks, RR, RD, NNT, OR, and one sentence
+- Calculation 2 (case-control): OR only, and say why not RR
+- Check with your neighbour, then with the calculator
 :::
 :::
 ::: {.column width="40%"}
@@ -1174,10 +1174,10 @@ DISCUSSION · 6 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#1F5C7A"}
-1. Handout Part E: the forest plot of six fluid trials
-2. Which trial carries the most weight? Does any single trial show a clear effect?
-3. Does the diamond cross RR = 1? Say the result in one sentence
-4. Pick the risk-of-bias tool for Boulet, for Hyun and for a review of fluid trials
+- Handout Part E: the forest plot of six fluid trials
+- Which trial carries the most weight? Does any single trial show a clear effect?
+- Does the diamond cross RR = 1? Say the result in one sentence
+- Pick the risk-of-bias tool for Boulet, for Hyun and for a review of fluid trials
 :::
 :::
 ::: {.column width="40%"}
@@ -1239,12 +1239,12 @@ PROPOSAL BUILDER · 30 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#055F56"}
-1. Exposure or intervention: exactly what, how much, when
-2. Comparator: who or what you compare against
-3. ONE primary outcome: what, how, when
-4. 2-3 secondary outcomes, each with what, how, when
-5. Two main biases and the design step that reduces each
-6. Write one sentence: will you claim 'caused' or 'associated'?
+- Exposure or intervention: exactly what, how much, when
+- Comparator: who or what you compare against
+- ONE primary outcome: what, how, when
+- 2-3 secondary outcomes, each with what, how, when
+- Two main biases and the design step that reduces each
+- Write one sentence: will you claim 'caused' or 'associated'?
 :::
 :::
 ::: {.column width="40%"}
@@ -1327,10 +1327,10 @@ DISCUSSION · 5 min
 :::
 
 ::: {.neu-activity-steps style="--c:#1F5C7A"}
-1. Exit question: ICU patients who received more fluid died more often. Give one reason other than the fluid
-2. Homework: finish Proposal Part 2 (exposure, comparator, outcomes, biases)
-3. Optional: handout Parts B and D (effect modification, PPV in two settings)
-4. Next two Saturdays (Sessions 5-6): data and the FLUID-ICU course dataset
+- Exit question: ICU patients who received more fluid died more often. Give one reason other than the fluid
+- Homework: finish Proposal Part 2 (exposure, comparator, outcomes, biases)
+- Optional: handout Parts B and D (effect modification, PPV in two settings)
+- Next two Saturdays (Sessions 5-6): data and the FLUID-ICU course dataset
 :::
 
 ::: {.neu-output style="--c:#1F5C7A"}
@@ -1437,23 +1437,23 @@ Timing: 1.5 minutes. Session 8 uses our simplified 10-question checklist; the Ad
 
 :::: {.neu-steps}
 ::: {.neu-step style="--c:#0D7377"}
-[1]{.neu-step-num}[1. Today]{.neu-step-label}
+[Today]{.neu-step-label}
 
 - 200 ward patients; 20 have a pressure injury
 - Prevalence 10%
 :::
 ::: {.neu-step style="--c:#0B376C"}
-[2]{.neu-step-num}[2. At risk]{.neu-step-label}
+[At risk]{.neu-step-label}
 
 - 180 patients without an injury
 :::
 ::: {.neu-step style="--c:#5FA39B"}
-[3]{.neu-step-num}[3. One week]{.neu-step-label}
+[One week]{.neu-step-label}
 
 - 9 develop a new injury
 :::
 ::: {.neu-step style="--c:#0070C0"}
-[4]{.neu-step-num}[4. Incidence]{.neu-step-label}
+[Incidence]{.neu-step-label}
 
 - 9 / 180 = 5% per week
 - (denominator = at risk)

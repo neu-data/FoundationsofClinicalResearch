@@ -58,7 +58,7 @@
 }
 .reveal .neu-banner p { margin: 0; }
 .reveal .neu-activity-steps { font-size: 0.86em; }
-.reveal .neu-activity-steps ol li::marker { color: var(--c, #0D7377); }
+.reveal .neu-activity-steps li::marker { color: var(--c, #0D7377); }
 .reveal .neu-side {
   background: #EAF2F5; border-left: 8px solid var(--c, #0D7377); border-radius: 0 10px 10px 0;
   padding: 0.5em 0.8em; font-size: 0.76em;

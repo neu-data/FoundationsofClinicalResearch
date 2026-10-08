@@ -42,11 +42,11 @@ CÂU HỎI NHANH · 8 phút
 :::
 
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. Kiểm tra cân bằng dịch có được ghi hằng ngày theo quy trình: nghiên cứu, audit hay QI?
-2. 'Ở nhân viên ICU, phản hồi vệ sinh tay so với không phản hồi có tăng tuân thủ sau 3 tháng?' Nêu P, I, C, O, T
-3. Ví dụ xuyên suốt trượt tiêu chí FINER nào?
-4. Câu nào là mục tiêu: 'tìm hiểu về mê sảng' hay 'ước tính tỷ lệ mê sảng'?
-5. Viết H0 cho: vận động sớm có rút ngắn thời gian nằm ICU không?
+- Kiểm tra cân bằng dịch có được ghi hằng ngày theo quy trình: nghiên cứu, audit hay QI?
+- 'Ở nhân viên ICU, phản hồi vệ sinh tay so với không phản hồi có tăng tuân thủ sau 3 tháng?' Nêu P, I, C, O, T
+- Ví dụ xuyên suốt trượt tiêu chí FINER nào?
+- Câu nào là mục tiêu: 'tìm hiểu về mê sảng' hay 'ước tính tỷ lệ mê sảng'?
+- Viết H0 cho: vận động sớm có rút ngắn thời gian nằm ICU không?
 :::
 
 ::: {.neu-output style="--c:#6C3483"}
@@ -67,13 +67,13 @@ Thời gian: 8 phút.
 
 :::: {.neu-cards style="--n:5"}
 ::: {.neu-card .plain style="--c:#0D7377"}
-[1. Audit]{.neu-card-title}
+[Audit]{.neu-card-title}
 
 - Kiểm tra thực hành
 - so với tiêu chuẩn
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
-[2. PICO(T)]{.neu-card-title}
+[PICO(T)]{.neu-card-title}
 
 - P nhân viên ICU
 - I phản hồi  C không
@@ -81,19 +81,19 @@ Thời gian: 8 phút.
 - T 3 tháng
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
-[3. Khả thi]{.neu-card-title}
+[Khả thi]{.neu-card-title}
 
 - Tử vong cần
 - \>1.000 bệnh nhân
 :::
 ::: {.neu-card .plain style="--c:#0070C0"}
-[4. Ước tính]{.neu-card-title}
+[Ước tính]{.neu-card-title}
 
 - Động từ đo được;
 - 'tìm hiểu' thì không
 :::
 ::: {.neu-card .plain style="--c:#055F56"}
-[5. H0]{.neu-card-title}
+[H0]{.neu-card-title}
 
 - Thời gian nằm ICU
 - như nhau giữa vận
@@ -229,10 +229,10 @@ CÂU HỎI NHANH · 2 phút
 :::
 
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. Bạn muốn bài có CẢ mê sảng VÀ gãy cổ xương đùi: dùng toán tử nào?
-2. Bạn muốn bài dùng HOẶC 'pressure ulcer' HOẶC 'bedsore': toán tử nào?
-3. Tìm kiếm ra 40.000 kết quả. Thêm khối AND thứ ba sẽ nhiều hơn hay ít hơn?
-4. Vì sao 'sepsis NOT children' là rủi ro?
+- Bạn muốn bài có CẢ mê sảng VÀ gãy cổ xương đùi: dùng toán tử nào?
+- Bạn muốn bài dùng HOẶC 'pressure ulcer' HOẶC 'bedsore': toán tử nào?
+- Tìm kiếm ra 40.000 kết quả. Thêm khối AND thứ ba sẽ nhiều hơn hay ít hơn?
+- Vì sao 'sepsis NOT children' là rủi ro?
 :::
 
 ::: {.neu-output style="--c:#6C3483"}
@@ -341,12 +341,12 @@ TRÌNH DIỄN TRỰC TIẾP · 10 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#B5651D"}
-1. Tìm một từ khóa, septic shock, và ghi lại số kết quả
-2. Dán chuỗi PICO đầy đủ: khối P, I và O nối bằng AND
-3. Xem 'Search details': PubMed thực sự đã tìm gì?
-4. Thêm bộ lọc: RCT và tổng quan hệ thống, người lớn, 10 năm gần đây
-5. Mở một kết quả: tóm tắt, MeSH, 'Similar articles', 'Cited by'
-6. Send to: Citation manager (sẽ nhập vào ở phần 2.2)
+- Tìm một từ khóa, septic shock, và ghi lại số kết quả
+- Dán chuỗi PICO đầy đủ: khối P, I và O nối bằng AND
+- Xem 'Search details': PubMed thực sự đã tìm gì?
+- Thêm bộ lọc: RCT và tổng quan hệ thống, người lớn, 10 năm gần đây
+- Mở một kết quả: tóm tắt, MeSH, 'Similar articles', 'Cited by'
+- Send to: Citation manager (sẽ nhập vào ở phần 2.2)
 :::
 :::
 ::: {.column width="40%"}
@@ -383,11 +383,11 @@ BÀI TẬP CÁ NHÂN · 5 phút
 :::
 
 ::: {.neu-activity-steps style="--c:#0B376C"}
-1. Lấy câu hỏi PICO của nhóm và danh sách từ đồng nghĩa
-2. Bài tập 1: viết 2-4 từ đồng nghĩa (tiếng Anh) cho P, I (hoặc E) và O
-3. Nối từ đồng nghĩa bằng OR trong ngoặc, các khối bằng AND
-4. Đánh dấu từ nào có thể là thuật ngữ MeSH
-5. Đổi phiếu với người bên cạnh: tìm một từ đồng nghĩa còn thiếu
+- Lấy câu hỏi PICO của nhóm và danh sách từ đồng nghĩa
+- Bài tập 1: viết 2-4 từ đồng nghĩa (tiếng Anh) cho P, I (hoặc E) và O
+- Nối từ đồng nghĩa bằng OR trong ngoặc, các khối bằng AND
+- Đánh dấu từ nào có thể là thuật ngữ MeSH
+- Đổi phiếu với người bên cạnh: tìm một từ đồng nghĩa còn thiếu
 :::
 
 ::: {.neu-output style="--c:#0B376C"}
@@ -428,35 +428,35 @@ Thời gian: 30 giây.
 
 :::: {.neu-steps}
 ::: {.neu-step style="--c:#0D7377"}
-[1]{.neu-step-num}[Gom]{.neu-step-label}
+[Gom]{.neu-step-label}
 
 - Đánh dấu bài trên
 - PubMed: Clipboard
 - hoặc Collections
 :::
 ::: {.neu-step style="--c:#0B376C"}
-[2]{.neu-step-num}[Xuất]{.neu-step-label}
+[Xuất]{.neu-step-label}
 
 - Send to:
 - Citation manager
 - (tệp .nbib)
 :::
 ::: {.neu-step style="--c:#5FA39B"}
-[3]{.neu-step-num}[Nhập]{.neu-step-label}
+[Nhập]{.neu-step-label}
 
 - Zotero hoặc Mendeley
 - (miễn phí), EndNote
 - (trả phí)
 :::
 ::: {.neu-step style="--c:#0070C0"}
-[4]{.neu-step-num}[Trích dẫn]{.neu-step-label}
+[Trích dẫn]{.neu-step-label}
 
 - Chèn trích dẫn
 - trong Word bằng
 - plug-in
 :::
 ::: {.neu-step style="--c:#055F56"}
-[5]{.neu-step-num}[Danh mục]{.neu-step-label}
+[Danh mục]{.neu-step-label}
 
 - Danh mục tài liệu
 - tự động, theo
@@ -489,11 +489,11 @@ TRÌNH DIỄN TRỰC TIẾP · 5 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#B5651D"}
-1. Nhập tệp .nbib từ phần trình diễn PubMed vào Zotero
-2. Xem: tác giả, tiêu đề, tạp chí, năm, DOI, không gõ tay gì cả
-3. Trong Word: thẻ Zotero, Add/Edit Citation, gõ 'Meyhoff'
-4. Add/Edit Bibliography: danh mục tài liệu xuất hiện
-5. Document Preferences: đổi Vancouver sang APA rồi đổi lại
+- Nhập tệp .nbib từ phần trình diễn PubMed vào Zotero
+- Xem: tác giả, tiêu đề, tạp chí, năm, DOI, không gõ tay gì cả
+- Trong Word: thẻ Zotero, Add/Edit Citation, gõ 'Meyhoff'
+- Add/Edit Bibliography: danh mục tài liệu xuất hiện
+- Document Preferences: đổi Vancouver sang APA rồi đổi lại
 :::
 :::
 ::: {.column width="40%"}
@@ -620,10 +620,10 @@ CÂU HỎI NHANH · 2 phút
 :::
 
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. Bạn chép một câu từ tóm tắt, đổi hai từ và thêm \[3\]
-2. Bạn trích nguyên văn một câu, trong ngoặc kép, có \[3\]
-3. Bạn viết một phát hiện bằng lời của mình nhưng quên trích dẫn
-4. Bạn trích dẫn một bài thấy được nhắc trong bài tổng quan, mà không đọc
+- Bạn chép một câu từ tóm tắt, đổi hai từ và thêm \[3\]
+- Bạn trích nguyên văn một câu, trong ngoặc kép, có \[3\]
+- Bạn viết một phát hiện bằng lời của mình nhưng quên trích dẫn
+- Bạn trích dẫn một bài thấy được nhắc trong bài tổng quan, mà không đọc
 :::
 
 ::: {.neu-output style="--c:#6C3483"}
@@ -667,8 +667,8 @@ GIẢI LAO · 15 phút
 :::
 
 ::: {.neu-activity-steps style="--c:#8A99A3"}
-1. Thư giãn, uống cà phê, trò chuyện với người khác nghề
-2. Suy nghĩ: nhóm bạn có thể làm vấn đề nào từ khoa mình hôm nay?
+- Thư giãn, uống cà phê, trò chuyện với người khác nghề
+- Suy nghĩ: nhóm bạn có thể làm vấn đề nào từ khoa mình hôm nay?
 :::
 
 ::: {.notes}
@@ -820,10 +820,10 @@ CÂU HỎI NHANH · 3 phút
 :::
 
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. Một nghiên cứu đoàn hệ: 'Cho ăn sớm LÀM GIẢM viêm phổi ở bệnh nhân đột quỵ'
-2. Kết cục chính p = 0,31: 'một xu hướng có lợi đầy hứa hẹn'
-3. Kết cục chính không khác biệt; tiêu điểm tóm tắt: 'cải thiện sự hài lòng của bệnh nhân'
-4. 'Tử vong giảm từ 30% xuống 22% sau quy trình mới' (không có nhóm chứng)
+- Một nghiên cứu đoàn hệ: 'Cho ăn sớm LÀM GIẢM viêm phổi ở bệnh nhân đột quỵ'
+- Kết cục chính p = 0,31: 'một xu hướng có lợi đầy hứa hẹn'
+- Kết cục chính không khác biệt; tiêu điểm tóm tắt: 'cải thiện sự hài lòng của bệnh nhân'
+- 'Tử vong giảm từ 30% xuống 22% sau quy trình mới' (không có nhóm chứng)
 :::
 
 ::: {.neu-output style="--c:#6C3483"}
@@ -845,12 +845,12 @@ BÀI TẬP CÁ NHÂN · 12 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0B376C"}
-1. Lấy phần tóm tắt của Bài báo 1 (Boulet 2024, Crit Care)
-2. Điền bảng đọc (Bài tập 3): thiết kế, P, I vs C
-3. Kết cục chính, số sàng lọc và số phân tích
-4. Kết quả chính kèm KTC 95% và giá trị p
-5. Kết luận có khớp với kết quả? Có thổi phồng không?
-6. So sánh bảng của bạn với người bên cạnh
+- Lấy phần tóm tắt của Bài báo 1 (Boulet 2024, Crit Care)
+- Điền bảng đọc (Bài tập 3): thiết kế, P, I vs C
+- Kết cục chính, số sàng lọc và số phân tích
+- Kết quả chính kèm KTC 95% và giá trị p
+- Kết luận có khớp với kết quả? Có thổi phồng không?
+- So sánh bảng của bạn với người bên cạnh
 :::
 :::
 ::: {.column width="40%"}
@@ -892,7 +892,7 @@ Thời gian: 12 phút. Đáp án ở slide sau.
 
 Điểm chính: (1) thử nghiệm PILOT với 48 bệnh nhân được phân tích; (2) kết cục chính là cân bằng dịch tích lũy ngày 5, không phải tử vong; (3) KTC của chênh lệch (-15,2 đến 41,6 ml/kg) chứa số 0, nên không có bằng chứng khác biệt; (4) kết luận tóm tắt khớp với kết quả (thực hành tốt); (5) thử nghiệm đã được đăng ký.
 
-Nếu có học viên tinh ý hỏi: trung vị (6,9 vs 35,0 ml/kg) chênh nhau nhiều hơn mức chênh lệch được báo cáo 13,2 vì chênh lệch được ước tính theo cách khác. Bản chú giải của khóa học có nêu điểm không khớp này. Để dành cho Buổi 6-8.
+Nếu có học viên tinh ý hỏi: trung vị (6,9 vs 35,0 ml/kg) chênh nhau nhiều hơn mức chênh lệch được báo cáo 13,2 vì 13,2 là chênh lệch giữa hai trung bình (phần Phương pháp báo cáo chênh lệch trung bình kèm KTC 95%), không phải chênh lệch giữa hai trung vị. Bản chú giải của khóa học có nêu điểm không khớp này. Để dành cho Buổi 6-8.
 
 Liên hệ câu hỏi của ta: thử nghiệm này KHÔNG trả lời câu hỏi tử vong 28 ngày. Nó trả lời câu hỏi kiểu khả thi về cân bằng dịch. Đó chính là 'phiên bản khả thi' ở slide FINER.
 
@@ -1036,12 +1036,12 @@ XÂY DỰNG ĐỀ CƯƠNG · 33 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#055F56"}
-1. Chạy chuỗi tìm kiếm trên PubMed; ghi ngày và số kết quả
-2. Sàng lọc tiêu đề và tóm tắt; chọn 5 bài chính; xuất sang Zotero
-3. Điền mỗi bài một dòng trong bảng ma trận tài liệu
-4. Viết nháp đặt vấn đề: đã biết, chưa biết, vì sao ở đây
-5. Tên đề tài tạm (10-16 từ) + 3-6 từ khóa
-6. Một nhóm đọc to tên đề tài và khoảng trống
+- Chạy chuỗi tìm kiếm trên PubMed; ghi ngày và số kết quả
+- Sàng lọc tiêu đề và tóm tắt; chọn 5 bài chính; xuất sang Zotero
+- Điền mỗi bài một dòng trong bảng ma trận tài liệu
+- Viết nháp đặt vấn đề: đã biết, chưa biết, vì sao ở đây
+- Tên đề tài tạm (10-16 từ) + 3-6 từ khóa
+- Một nhóm đọc to tên đề tài và khoảng trống
 :::
 :::
 ::: {.column width="40%"}
@@ -1101,21 +1101,21 @@ Thời gian: 1 phút.
 
 :::: {.neu-cards style="--n:3"}
 ::: {.neu-card .plain style="--c:#0D7377"}
-[1. Tìm kiếm]{.neu-card-title}
+[Tìm kiếm]{.neu-card-title}
 
 - Khối PICO, MeSH +
 - từ tự do; OR trong khối,
 - AND giữa khối; ghi lại
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
-[2. Trích dẫn trung thực]{.neu-card-title}
+[Trích dẫn trung thực]{.neu-card-title}
 
 - Phần mềm quản lý tài
 - liệu từ ngày đầu; lời
 - của mình; đọc bài mình trích
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
-[3. Đọc thông minh]{.neu-card-title}
+[Đọc thông minh]{.neu-card-title}
 
 - Tiêu đề, tóm tắt,
 - hình bảng, phương pháp;
@@ -1142,9 +1142,9 @@ CÂU HỎI NHANH · 2 phút
 :::
 
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. Chuỗi nào cho NHIỀU kết quả hơn: septic shock AND fluids, hay septic shock OR fluids?
-2. Kết cục chính của Bài báo 1 là gì?
-3. Viết cả hai câu trả lời lên giấy dán (không cần ghi tên) và dán lên cửa khi ra về
+- Chuỗi nào cho NHIỀU kết quả hơn: septic shock AND fluids, hay septic shock OR fluids?
+- Kết cục chính của Bài báo 1 là gì?
+- Viết cả hai câu trả lời lên giấy dán (không cần ghi tên) và dán lên cửa khi ra về
 :::
 
 ::: {.neu-output style="--c:#6C3483"}
@@ -1168,11 +1168,11 @@ BÀI TẬP CÁ NHÂN
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0B376C"}
-1. Nhóm: hoàn thành 5 tài liệu chính và phần đặt vấn đề
-2. Mỗi thành viên: đọc một bài (quy trình 15 phút) và điền dòng của bài đó
-3. Mọi người: đọc tóm tắt Bài báo 2 (Hyun) với bảng đọc
-4. Bài tập 2 (diễn đạt lại) nếu chưa làm trên lớp
-5. Không bắt buộc: tra Bài báo 1 (NCT04947904) trên ClinicalTrials.gov
+- Nhóm: hoàn thành 5 tài liệu chính và phần đặt vấn đề
+- Mỗi thành viên: đọc một bài (quy trình 15 phút) và điền dòng của bài đó
+- Mọi người: đọc tóm tắt Bài báo 2 (Hyun) với bảng đọc
+- Bài tập 2 (diễn đạt lại) nếu chưa làm trên lớp
+- Không bắt buộc: tra Bài báo 1 (NCT04947904) trên ClinicalTrials.gov
 :::
 :::
 ::: {.column width="40%"}
@@ -1274,28 +1274,28 @@ Thời gian: 2 phút nếu dùng.
 
 :::: {.neu-steps}
 ::: {.neu-step style="--c:#0D7377"}
-[1]{.neu-step-num}[Mở]{.neu-step-label}
+[Mở]{.neu-step-label}
 
 - Trang chủ PubMed:
 - Clinical Queries
 - (mục Find)
 :::
 ::: {.neu-step style="--c:#0B376C"}
-[2]{.neu-step-num}[Gõ]{.neu-step-label}
+[Gõ]{.neu-step-label}
 
 - Từ khóa chủ đề,
 - ví dụ septic shock
 - fluid restriction
 :::
 ::: {.neu-step style="--c:#5FA39B"}
-[3]{.neu-step-num}[Chọn]{.neu-step-label}
+[Chọn]{.neu-step-label}
 
 - Loại: điều trị,
 - chẩn đoán, nguyên nhân,
 - tiên lượng...
 :::
 ::: {.neu-step style="--c:#0070C0"}
-[4]{.neu-step-num}[Phạm vi]{.neu-step-label}
+[Phạm vi]{.neu-step-label}
 
 - Rộng (tìm nhiều hơn)
 - hoặc hẹp (chính xác
@@ -1326,10 +1326,10 @@ TRÌNH DIỄN TRỰC TIẾP · 3 phút
 :::
 
 ::: {.neu-activity-steps style="--c:#B5651D"}
-1. Tìm: restrictive fluid septic shock mortality
-2. Xem: tạp chí, luận văn, bản thảo trước in, xếp hạng bằng thuật toán ẩn
-3. Dưới một thử nghiệm chính, bấm 'Cited by', rồi tìm trong các bài trích dẫn
-4. Bấm biểu tượng ngoặc kép để xem các định dạng xuất
+- Tìm: restrictive fluid septic shock mortality
+- Xem: tạp chí, luận văn, bản thảo trước in, xếp hạng bằng thuật toán ẩn
+- Dưới một thử nghiệm chính, bấm 'Cited by', rồi tìm trong các bài trích dẫn
+- Bấm biểu tượng ngoặc kép để xem các định dạng xuất
 :::
 
 ::: {.neu-output style="--c:#B5651D"}

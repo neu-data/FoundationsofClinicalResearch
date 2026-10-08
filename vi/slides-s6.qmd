@@ -44,10 +44,10 @@ CÂU HỎI NHANH · 10 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. C1. Thời gian nằm ICU của 300 bệnh nhân lệch phải. Đưa cách tóm tắt nào vào Bảng 1?
-2. C2. Một mục CRF ghi 'Lactat: \_\_\_\_'. Nêu hai điều còn thiếu.
-3. C3. Trong dữ liệu thô FLUID-ICU, có một tuổi là 210. Phép kiểm tra nào bắt được, và ghi gì vào nhật ký làm sạch?
-4. Trả lời một mình (2 phút), rồi so sánh với người bên cạnh (2 phút)
+- C1. Thời gian nằm ICU của 300 bệnh nhân lệch phải. Đưa cách tóm tắt nào vào Bảng 1?
+- C2. Một mục CRF ghi 'Lactat: \_\_\_\_'. Nêu hai điều còn thiếu.
+- C3. Trong dữ liệu thô FLUID-ICU, có một tuổi là 210. Phép kiểm tra nào bắt được, và ghi gì vào nhật ký làm sạch?
+- Trả lời một mình (2 phút), rồi so sánh với người bên cạnh (2 phút)
 :::
 :::
 ::: {.column width="40%"}
@@ -159,31 +159,31 @@ Mỗi câu dưới đây đều xuất hiện trong các bài báo đã đăng. 
 
 :::: {.neu-cards style="--n:5"}
 ::: {.neu-card .plain style="--c:#0D7377"}
-[1. 'Xác suất H0']{.neu-card-title}
+['Xác suất H0']{.neu-card-title}
 
 - p KHÔNG phải xác suất
 - không có tác động
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
-[2. 'Tác động lớn']{.neu-card-title}
+['Tác động lớn']{.neu-card-title}
 
 - p nhỏ KHÔNG có nghĩa
 - tác động lớn hay quan trọng
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
-[3. 'Không tác động']{.neu-card-title}
+['Không tác động']{.neu-card-title}
 
 - p \> 0.05 KHÔNG chứng minh
 - không có tác động
 :::
 ::: {.neu-card .plain style="--c:#0070C0"}
-[4. 'Xu hướng']{.neu-card-title}
+['Xu hướng']{.neu-card-title}
 
 - p = 0.08 KHÔNG phải
 - 'gần có ý nghĩa'
 :::
 ::: {.neu-card .plain style="--c:#055F56"}
-[5. 'Chỉ có p']{.neu-card-title}
+['Chỉ có p']{.neu-card-title}
 
 - Chỉ p là KHÔNG đủ:
 - cần tác động + 95% CI
@@ -219,10 +219,10 @@ CÂU HỎI NHANH · 3 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. 'HR 2.13 (95% CI 1.48-3.06)': dữ liệu phù hợp với HR thật từ khoảng 1.5 đến 3.1. Đúng hay sai?
-2. 'p = 0.42, vậy hai chiến lược tương đương.' Đúng hay sai?
-3. 'p = 0.03 nghĩa là có 3% khả năng không có tác động.' Đúng hay sai?
-4. 'Nghiên cứu lớn hơn thường cho CI hẹp hơn.' Đúng hay sai?
+- 'HR 2.13 (95% CI 1.48-3.06)': dữ liệu phù hợp với HR thật từ khoảng 1.5 đến 3.1. Đúng hay sai?
+- 'p = 0.42, vậy hai chiến lược tương đương.' Đúng hay sai?
+- 'p = 0.03 nghĩa là có 3% khả năng không có tác động.' Đúng hay sai?
+- 'Nghiên cứu lớn hơn thường cho CI hẹp hơn.' Đúng hay sai?
 :::
 :::
 ::: {.column width="40%"}
@@ -310,11 +310,11 @@ TRÌNH DIỄN TRỰC TIẾP · 8 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#B5651D"}
-1. Mở một công cụ tính trực tuyến miễn phí (ví dụ OpenEpi) trên trình duyệt
-2. Hai trung bình: 70 so với 40 ml/kg, SD 35, power 80%, alpha 5% → 22 mỗi nhóm
-3. Hai tỉ lệ: tử vong 40% so với 30% → khoảng 356 mỗi nhóm
-4. Thay đổi từng đầu vào một và xem con số thay đổi
-5. Dự phòng không cần mạng: bảng tính cỡ mẫu của Neudata
+- Mở một công cụ tính trực tuyến miễn phí (ví dụ OpenEpi) trên trình duyệt
+- Hai trung bình: 70 so với 40 ml/kg, SD 35, power 80%, alpha 5% → 22 mỗi nhóm
+- Hai tỉ lệ: tử vong 40% so với 30% → khoảng 356 mỗi nhóm
+- Thay đổi từng đầu vào một và xem con số thay đổi
+- Dự phòng không cần mạng: bảng tính cỡ mẫu của Neudata
 :::
 :::
 ::: {.column width="40%"}
@@ -450,10 +450,10 @@ CÂU HỎI NHANH · 3 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. Thời gian nằm ICU (lệch) ở nhóm cân bằng dịch dương và âm
-2. Tử vong 28 ngày (có/không) ở 300 so với 300 bệnh nhân
-3. Lactat lúc vào và sau 6 giờ trên cùng 40 bệnh nhân
-4. Lọc máu (có/không): 2/24 so với 5/24 bệnh nhân
+- Thời gian nằm ICU (lệch) ở nhóm cân bằng dịch dương và âm
+- Tử vong 28 ngày (có/không) ở 300 so với 300 bệnh nhân
+- Lactat lúc vào và sau 6 giờ trên cùng 40 bệnh nhân
+- Lọc máu (có/không): 2/24 so với 5/24 bệnh nhân
 :::
 :::
 ::: {.column width="40%"}
@@ -513,11 +513,11 @@ TRÌNH DIỄN TRỰC TIẾP · 6 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#B5651D"}
-1. Mở 03\_compare.R
-2. Tuổi (đối xứng): kiểm định t
-3. SOFA và lactat (lệch): Mann-Whitney
-4. Tử vong 28 ngày (có/không): bảng 2x2 và khi bình phương
-5. Lỗi thường gặp: kiểm định t trên thời gian nằm ICU lệch
+- Mở 03\_compare.R
+- Tuổi (đối xứng): kiểm định t
+- SOFA và lactat (lệch): Mann-Whitney
+- Tử vong 28 ngày (có/không): bảng 2x2 và khi bình phương
+- Lỗi thường gặp: kiểm định t trên thời gian nằm ICU lệch
 :::
 :::
 ::: {.column width="40%"}
@@ -578,31 +578,31 @@ Q1, chưa hiệu chỉnh: cân bằng dịch dương so với âm đến ngày 3
 
 :::: {.neu-steps}
 ::: {.neu-step style="--c:#0D7377"}
-[1]{.neu-step-num}[Nguy cơ]{.neu-step-label}
+[Nguy cơ]{.neu-step-label}
 
 - 134/373 = 35.9%
 - 45/245 = 18.4%
 :::
 ::: {.neu-step style="--c:#0B376C"}
-[2]{.neu-step-num}[Hiệu số]{.neu-step-label}
+[Hiệu số]{.neu-step-label}
 
 - 17.6 điểm phần trăm
 - 95% CI 10.7 đến 24.4
 :::
 ::: {.neu-step style="--c:#5FA39B"}
-[3]{.neu-step-num}[Tỉ số]{.neu-step-label}
+[Tỉ số]{.neu-step-label}
 
 - RR 1.96:
 - nguy cơ khoảng gấp đôi
 :::
 ::: {.neu-step style="--c:#0070C0"}
-[4]{.neu-step-num}[Kiểm định]{.neu-step-label}
+[Kiểm định]{.neu-step-label}
 
 - Khi bình phương
 - p \< 0.001
 :::
 ::: {.neu-step style="--c:#055F56"}
-[5]{.neu-step-num}[Nhưng...]{.neu-step-label}
+[Nhưng...]{.neu-step-label}
 
 - Chưa hiệu chỉnh:
 - bệnh nhân nặng hơn
@@ -638,11 +638,11 @@ LÀM VIỆC NHÓM · 7 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0D7377"}
-1. Tìm kết cục của nhóm trong gói kết quả (bảng so sánh)
-2. Kiểm định nào được dùng, và vì sao?
-3. Viết kết quả như một tác động kèm 95% CI (hoặc trung vị kèm IQR)
-4. Viết một câu cho phần Kết quả: không chỉ ghi 'có ý nghĩa', không dùng từ nhân quả
-5. Ghi một lý do khiến phép so sánh có thể bị sai lệch
+- Tìm kết cục của nhóm trong gói kết quả (bảng so sánh)
+- Kiểm định nào được dùng, và vì sao?
+- Viết kết quả như một tác động kèm 95% CI (hoặc trung vị kèm IQR)
+- Viết một câu cho phần Kết quả: không chỉ ghi 'có ý nghĩa', không dùng từ nhân quả
+- Ghi một lý do khiến phép so sánh có thể bị sai lệch
 :::
 :::
 ::: {.column width="40%"}
@@ -690,9 +690,9 @@ GIẢI LAO · 15 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#8A99A3"}
-1. Vận động, cà phê, hít thở không khí
-2. Các nhóm: ghi một câu hỏi về kết quả so sánh của nhóm
-3. Chúng ta bắt đầu lại với 6.3: mối liên quan và mô hình
+- Vận động, cà phê, hít thở không khí
+- Các nhóm: ghi một câu hỏi về kết quả so sánh của nhóm
+- Chúng ta bắt đầu lại với 6.3: mối liên quan và mô hình
 :::
 :::
 ::: {.column width="40%"}
@@ -903,10 +903,10 @@ LÀM VIỆC NHÓM · 5 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0D7377"}
-1. Phiếu bài tập 'Buổi 6, bài 5': bảng giả định về sảng mắc phải trong bệnh viện
-2. Mỗi dòng: so sánh gì, tác động, 95% CI, có chứa 1 không?
-3. Viết MỘT câu bằng ngôn ngữ dễ hiểu cho phơi nhiễm chính
-4. Về nhà: bài 6 (đọc đường cong Kaplan-Meier)
+- Phiếu bài tập 'Buổi 6, bài 5': bảng giả định về sảng mắc phải trong bệnh viện
+- Mỗi dòng: so sánh gì, tác động, 95% CI, có chứa 1 không?
+- Viết MỘT câu bằng ngôn ngữ dễ hiểu cho phơi nhiễm chính
+- Về nhà: bài 6 (đọc đường cong Kaplan-Meier)
 :::
 :::
 ::: {.column width="40%"}
@@ -1020,7 +1020,7 @@ Thời lượng: 2 phút.
 
 4. Số còn theo dõi (number at risk) dưới hình cho biết còn bao nhiêu bệnh nhân đang được theo dõi. Khi con số này giảm, phần cuối bên phải của đường cong dựa trên ít bệnh nhân và kém chắc chắn hơn. Hình không có số còn theo dõi che giấu điều này; người phản biện sẽ yêu cầu bổ sung.
 
-Kiểm định log-rank so sánh toàn bộ hai đường cong và cho giá trị p (ở đây p = 0.040). Nó không cho biết độ lớn tác động; điều đó đến từ mô hình Cox (trang sau).
+Kiểm định log-rank so sánh toàn bộ hai đường cong và cho giá trị p (ở đây p = 0.040). Nó không cho biết độ lớn tác động; điều đó đến từ mô hình Cox (mục 6.4).
 
 Bài báo 2 có đúng loại hình này (ước lượng Kaplan-Meier sống còn đến ngày 28 trong các đoàn hệ ghép cặp).
 
@@ -1055,31 +1055,31 @@ SAP\_FLUID-ICU.md: được viết và ký trước khi khóa cơ sở dữ li�
 
 :::: {.neu-steps}
 ::: {.neu-step style="--c:#0D7377"}
-[1]{.neu-step-num}[Chính]{.neu-step-label}
+[Chính]{.neu-step-label}
 
 - Tử vong 28 ngày
 - hồi quy logistic, OR
 :::
 ::: {.neu-step style="--c:#0B376C"}
-[2]{.neu-step-num}[Gây nhiễu]{.neu-step-label}
+[Gây nhiễu]{.neu-step-label}
 
 - Tuổi, SOFA, lactat,
 - vận mạch, thở máy, CKD
 :::
 ::: {.neu-step style="--c:#5FA39B"}
-[3]{.neu-step-num}[Hỗ trợ]{.neu-step-label}
+[Hỗ trợ]{.neu-step-label}
 
 - Kaplan-Meier, log-rank
 - tỉ số nguy cơ Cox
 :::
 ::: {.neu-step style="--c:#0070C0"}
-[4]{.neu-step-num}[Phân nhóm]{.neu-step-label}
+[Phân nhóm]{.neu-step-label}
 
 - MỘT, định trước:
 - suy tim
 :::
 ::: {.neu-step style="--c:#055F56"}
-[5]{.neu-step-num}[Dữ liệu thiếu]{.neu-step-label}
+[Dữ liệu thiếu]{.neu-step-label}
 
 - Ca đầy đủ +
 - đa phép gán
@@ -1303,11 +1303,11 @@ LÀM VIỆC NHÓM · 7 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0D7377"}
-1. Tìm ước lượng thô và hiệu chỉnh trong gói kết quả
-2. Hiệu chỉnh làm ước lượng thay đổi bao nhiêu? Vì sao?
-3. 95% CI hiệu chỉnh có chứa 1 (hoặc 0) không?
-4. Xem kết quả đa phép gán trong gói kết quả: có gần kết quả chính? (chi tiết ở Cấp độ 2)
-5. Viết hai câu Kết quả: thô, rồi hiệu chỉnh, kèm CI
+- Tìm ước lượng thô và hiệu chỉnh trong gói kết quả
+- Hiệu chỉnh làm ước lượng thay đổi bao nhiêu? Vì sao?
+- 95% CI hiệu chỉnh có chứa 1 (hoặc 0) không?
+- Xem kết quả đa phép gán trong gói kết quả: có gần kết quả chính? (chi tiết ở Cấp độ 2)
+- Viết hai câu Kết quả: thô, rồi hiệu chỉnh, kèm CI
 :::
 :::
 ::: {.column width="40%"}
@@ -1408,10 +1408,10 @@ XÂY DỰNG ĐỀ CƯƠNG · 30 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#055F56"}
-1. Câu phát biểu cỡ mẫu: 4 đầu vào và nguồn của chúng (8 phút)
-2. Kế hoạch phân tích: tóm tắt, kiểm định hoặc mô hình, số đo tác động + 95% CI (10 phút)
-3. Yếu tố gây nhiễu cần hiệu chỉnh, khoảng 10 biến cố mỗi biến (5 phút)
-4. Kế hoạch dữ liệu thiếu: dự kiến, phòng ngừa, cách báo cáo dữ liệu thiếu (7 phút)
+- Câu phát biểu cỡ mẫu: 4 đầu vào và nguồn của chúng (8 phút)
+- Kế hoạch phân tích: tóm tắt, kiểm định hoặc mô hình, số đo tác động + 95% CI (10 phút)
+- Yếu tố gây nhiễu cần hiệu chỉnh, khoảng 10 biến cố mỗi biến (5 phút)
+- Kế hoạch dữ liệu thiếu: dự kiến, phòng ngừa, cách báo cáo dữ liệu thiếu (7 phút)
 :::
 :::
 ::: {.column width="40%"}
@@ -1509,21 +1509,21 @@ Ba thông điệp mang về.
 
 :::: {.neu-cards style="--n:3"}
 ::: {.neu-card .plain style="--c:#0D7377"}
-[1. Đọc CI]{.neu-card-title}
+[Đọc CI]{.neu-card-title}
 
 - Tác động + 95% CI
 - Giá trị không tác động?
 - p chỉ là vai phụ
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
-[2. Hiệu chỉnh trung thực]{.neu-card-title}
+[Hiệu chỉnh trung thực]{.neu-card-title}
 
 - Thô so với hiệu chỉnh
 - Gây nhiễu chọn
 - từ trước
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
-[3. Lập kế hoạch trước]{.neu-card-title}
+[Lập kế hoạch trước]{.neu-card-title}
 
 - SAP trước dữ liệu
 - Dữ liệu thiếu: báo cáo,
@@ -1556,10 +1556,10 @@ THẢO LUẬN · 5 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#1F5C7A"}
-1. Từ khóa và tóm tắt (hai trang trước)
-2. Câu hỏi cuối buổi: viết một câu giải thích '95% CI 1.48 đến 3.06' cho biết điều gì
-3. Về nhà: hoàn thành Phần 3 đề cương; chuẩn bị bài trình bày 6 phút
-4. Đọc lại gói kết quả: đó sẽ là phần Phương pháp và Kết quả ở Buổi 7
+- Từ khóa và tóm tắt (hai trang trước)
+- Câu hỏi cuối buổi: viết một câu giải thích '95% CI 1.48 đến 3.06' cho biết điều gì
+- Về nhà: hoàn thành Phần 3 đề cương; chuẩn bị bài trình bày 6 phút
+- Đọc lại gói kết quả: đó sẽ là phần Phương pháp và Kết quả ở Buổi 7
 :::
 :::
 ::: {.column width="40%"}
@@ -1682,7 +1682,7 @@ Khoảng tin cậy 95% (17% đến 47%) thể hiện sự không chắc chắn �
 
 Hai điều kiện để mẫu phản ánh được quần thể: mẫu phải đại diện (sai lệch chọn lựa, Buổi 4) và đủ lớn (độ chính xác, sắp học).
 
-Hỏi: nếu nghiên cứu 400 bệnh nhân thay vì 40, khoảng tin cậy sẽ thế nào? Dự kiến: hẹp hơn. Đó là trang tiếp theo.
+Hỏi: nếu nghiên cứu 400 bệnh nhân thay vì 40, khoảng tin cậy sẽ thế nào? Dự kiến: hẹp hơn. Đó là trang 'Vũ điệu của các khoảng tin cậy' và trang cỡ mẫu trong mục 6.1.
 :::
 
 ## Bổ sung: Đọc khoảng tin cậy 95% trong một bài báo thật
@@ -1827,7 +1827,7 @@ BỔ SUNG: Ý chính: hai cách dùng sai kinh điển của tương quan.
 
 Bên trái, đồng thuận: máy đo lactat tại giường so với xét nghiệm trung tâm (mô phỏng). r = 0.98, nên nhiều tác giả viết 'đồng thuận tuyệt vời'. Nhưng mọi điểm nằm dưới đường đồng thuận hoàn hảo: máy đọc thấp hơn khoảng 0.9 mmol/L. Tương quan đo việc các giá trị có cùng tăng hay không, không phải chúng có bằng nhau không. Để so sánh hai phương pháp đo, dùng biểu đồ Bland-Altman (hiệu số theo trung bình, kèm giới hạn đồng thuận).
 
-Bên phải, nhân quả: truyền nhiều dịch ngày 1 đi kèm nằm ICU lâu hơn (r = 0.85). Nhưng trong từng nhóm mức độ nặng hoàn toàn không có liên quan; mức độ nặng chi phối cả hai. Đây lại là yếu tố gây nhiễu (Buổi 4), và là lý do ta hiệu chỉnh trong mô hình (các trang sau).
+Bên phải, nhân quả: truyền nhiều dịch ngày 1 đi kèm nằm ICU lâu hơn (r = 0.85). Nhưng trong từng nhóm mức độ nặng hoàn toàn không có liên quan; mức độ nặng chi phối cả hai. Đây lại là yếu tố gây nhiễu (Buổi 4), và là lý do ta hiệu chỉnh trong mô hình (mục 6.3 và 6.4).
 
 Hỏi: một máy đo hemoglobin tại chỗ mới có r = 0.95 với xét nghiệm trung tâm. Có thể thay thế xét nghiệm trung tâm không? Dự kiến: chưa; trước hết phải kiểm tra đồng thuận (độ chệch và giới hạn).
 
@@ -1843,7 +1843,7 @@ Thời lượng: 2 phút.
 :::
 
 ::: {.notes}
-BỔ SUNG: Ý chính: hiệu chỉnh (các trang trước) giả định phơi nhiễm có cùng tác động ở mọi người. Tương tác (còn gọi là thay đổi tác động, Buổi 4) nghĩa là tác động khác nhau ở các nhóm khác nhau.
+BỔ SUNG: Ý chính: hiệu chỉnh (mục 6.3 và 6.4) giả định phơi nhiễm có cùng tác động ở mọi người. Tương tác (còn gọi là thay đổi tác động, Buổi 4) nghĩa là tác động khác nhau ở các nhóm khác nhau.
 
 Bên trái, không tương tác: tử vong tăng theo cân bằng dịch với cùng tốc độ ở bệnh nhân có và không có ARDS; bệnh nhân ARDS chỉ đơn giản bắt đầu ở mức cao hơn. Một ước lượng hiệu chỉnh là đủ.
 

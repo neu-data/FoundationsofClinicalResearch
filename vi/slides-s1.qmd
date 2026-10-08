@@ -158,10 +158,10 @@ LÀM VIỆC NHÓM · 10 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0D7377"}
-1. Ngồi theo nhóm (5 nhóm, mỗi nhóm khoảng 6 người, trộn các nghề)
-2. Giới thiệu: tên, khoa, một câu hỏi bạn mong nghiên cứu trả lời được
-3. Thống nhất các vai trò bên cạnh (có thể luân phiên mỗi tuần)
-4. Chọn tên nhóm
+- Ngồi theo nhóm (5 nhóm, mỗi nhóm khoảng 6 người, trộn các nghề)
+- Giới thiệu: tên, khoa, một câu hỏi bạn mong nghiên cứu trả lời được
+- Thống nhất các vai trò bên cạnh (có thể luân phiên mỗi tuần)
+- Chọn tên nhóm
 :::
 :::
 ::: {.column width="40%"}
@@ -236,10 +236,10 @@ CÂU HỎI NHANH · 15 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. Làm cá nhân, không thảo luận, không dùng điện thoại (trừ biểu mẫu trực tuyến)
-2. 24 câu trắc nghiệm, chọn một đáp án cho mỗi câu
-3. Nếu không chắc, hãy đoán: đây không phải kỳ thi
-4. Chỉ ghi mã số học viên, không ghi tên
+- Làm cá nhân, không thảo luận, không dùng điện thoại (trừ biểu mẫu trực tuyến)
+- 24 câu trắc nghiệm, chọn một đáp án cho mỗi câu
+- Nếu không chắc, hãy đoán: đây không phải kỳ thi
+- Chỉ ghi mã số học viên, không ghi tên
 :::
 :::
 ::: {.column width="40%"}
@@ -405,12 +405,12 @@ CÂU HỎI NHANH · 3 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. Bốn nguồn cùng trả lời: 'Hạn chế dịch có giảm tử vong trong sốc nhiễm khuẩn không?'
-2. A: một đồng nghiệp lâu năm: '20 năm nay, bệnh nhân để khô của tôi đều tốt hơn'
-3. B: một đoàn hệ từ sổ đăng ký gồm hàng nghìn bệnh nhân nhiễm khuẩn huyết tại ICU
-4. C: một thử nghiệm phân nhóm ngẫu nhiên 1.554 bệnh nhân sốc nhiễm khuẩn
-5. D: một tổng quan gộp mọi thử nghiệm về hạn chế dịch
-6. Xếp từ yếu nhất đến mạnh nhất, rồi giơ ngón tay khi đếm đến 3
+- Bốn nguồn cùng trả lời: 'Hạn chế dịch có giảm tử vong trong sốc nhiễm khuẩn không?'
+- A: một đồng nghiệp lâu năm: '20 năm nay, bệnh nhân để khô của tôi đều tốt hơn'
+- B: một đoàn hệ từ sổ đăng ký gồm hàng nghìn bệnh nhân nhiễm khuẩn huyết tại ICU
+- C: một thử nghiệm phân nhóm ngẫu nhiên 1.554 bệnh nhân sốc nhiễm khuẩn
+- D: một tổng quan gộp mọi thử nghiệm về hạn chế dịch
+- Xếp từ yếu nhất đến mạnh nhất, rồi giơ ngón tay khi đếm đến 3
 :::
 :::
 ::: {.column width="40%"}
@@ -488,11 +488,11 @@ CÂU HỎI NHANH · 2 phút
 :::
 
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. A: đếm số bệnh nhân ICU bị tổn thương do tì đè trong năm nay
-2. B: phỏng vấn gia đình về quy định thăm bệnh ở ICU
-3. C: phân tích lại hồ sơ ra viện 3 năm để tìm tái nhập viện
-4. D: khảo sát thực hành vệ sinh tay kèm thảo luận nhóm với điều dưỡng
-5. Mỗi câu: định lượng, định tính hay hỗn hợp? Sơ cấp hay thứ cấp?
+- A: đếm số bệnh nhân ICU bị tổn thương do tì đè trong năm nay
+- B: phỏng vấn gia đình về quy định thăm bệnh ở ICU
+- C: phân tích lại hồ sơ ra viện 3 năm để tìm tái nhập viện
+- D: khảo sát thực hành vệ sinh tay kèm thảo luận nhóm với điều dưỡng
+- Mỗi câu: định lượng, định tính hay hỗn hợp? Sơ cấp hay thứ cấp?
 :::
 
 ::: {.neu-output style="--c:#6C3483"}
@@ -587,11 +587,11 @@ CÂU HỎI NHANH · 2 phút
 :::
 
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. A: kiểm tra cân bằng dịch có được ghi hằng ngày theo quy trình không
-2. B: phân nhóm ngẫu nhiên bệnh nhân vào hạn chế dịch hoặc dịch thường quy
-3. C: thử bảng kiểm bàn giao ca mới theo các chu trình PDSA nhỏ
-4. D: phỏng vấn điều dưỡng vì sao ngại ngừng dịch
-5. Mỗi câu: nghiên cứu, audit hay QI? Ai phải phê duyệt?
+- A: kiểm tra cân bằng dịch có được ghi hằng ngày theo quy trình không
+- B: phân nhóm ngẫu nhiên bệnh nhân vào hạn chế dịch hoặc dịch thường quy
+- C: thử bảng kiểm bàn giao ca mới theo các chu trình PDSA nhỏ
+- D: phỏng vấn điều dưỡng vì sao ngại ngừng dịch
+- Mỗi câu: nghiên cứu, audit hay QI? Ai phải phê duyệt?
 :::
 
 ::: {.neu-output style="--c:#6C3483"}
@@ -662,8 +662,8 @@ GIẢI LAO · 15 phút
 :::
 
 ::: {.neu-activity-steps style="--c:#8A99A3"}
-1. Thư giãn, uống cà phê, trò chuyện với người khác nghề
-2. Suy nghĩ: nhóm bạn có thể làm vấn đề nào từ khoa mình hôm nay?
+- Thư giãn, uống cà phê, trò chuyện với người khác nghề
+- Suy nghĩ: nhóm bạn có thể làm vấn đề nào từ khoa mình hôm nay?
 :::
 
 ::: {.notes}
@@ -771,10 +771,10 @@ CÂU HỎI NHANH · 3 phút
 :::
 
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. Đọc câu hỏi: 'Ở người ≥65 tuổi sau mổ gãy cổ xương đùi, gói chăm sóc không dùng thuốc hằng ngày, so với chăm sóc thường quy, có giảm mê sảng trong 7 ngày đầu không?'
-2. Những từ nào là P? I? C? O? T?
-3. Ghi năm chữ cái vào phiếu (Bài tập 1, phần khởi động)
-4. So sánh với người bên cạnh
+- Đọc câu hỏi: 'Ở người ≥65 tuổi sau mổ gãy cổ xương đùi, gói chăm sóc không dùng thuốc hằng ngày, so với chăm sóc thường quy, có giảm mê sảng trong 7 ngày đầu không?'
+- Những từ nào là P? I? C? O? T?
+- Ghi năm chữ cái vào phiếu (Bài tập 1, phần khởi động)
+- So sánh với người bên cạnh
 :::
 
 ::: {.neu-output style="--c:#6C3483"}
@@ -978,11 +978,11 @@ LÀM VIỆC NHÓM · 11 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0D7377"}
-1. Chọn MỘT tình huống trong Bài tập 1 của phiếu
-2. Điền các ô PICO(T)
-3. Viết câu hỏi thành một câu
-4. Gắn đèn FINER nhanh (xanh / vàng / đỏ)
-5. Viết H0 và H1 (hoặc giải thích vì sao không cần)
+- Chọn MỘT tình huống trong Bài tập 1 của phiếu
+- Điền các ô PICO(T)
+- Viết câu hỏi thành một câu
+- Gắn đèn FINER nhanh (xanh / vàng / đỏ)
+- Viết H0 và H1 (hoặc giải thích vì sao không cần)
 :::
 :::
 ::: {.column width="40%"}
@@ -1109,11 +1109,11 @@ BÀI TẬP CÁ NHÂN · 7 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0B376C"}
-1. Dùng câu hỏi từ bài tập theo cặp (hoặc ví dụ mê sảng)
-2. Viết MỘT mục đích: 'So sánh...' hoặc 'Mô tả...'
-3. Viết HAI mục tiêu với động từ đo được; đánh dấu mục tiêu chính
-4. Viết H0 và H1 cho mục tiêu chính (hoặc 'mô tả: không cần giả thuyết')
-5. Đổi phiếu với người bên cạnh: mọi động từ có đo được không?
+- Dùng câu hỏi từ bài tập theo cặp (hoặc ví dụ mê sảng)
+- Viết MỘT mục đích: 'So sánh...' hoặc 'Mô tả...'
+- Viết HAI mục tiêu với động từ đo được; đánh dấu mục tiêu chính
+- Viết H0 và H1 cho mục tiêu chính (hoặc 'mô tả: không cần giả thuyết')
+- Đổi phiếu với người bên cạnh: mọi động từ có đo được không?
 :::
 :::
 ::: {.column width="40%"}
@@ -1157,9 +1157,9 @@ Thời gian: 7 phút.
 ::: {.neu-card .plain style="--c:#0B376C"}
 [Mục tiêu]{.neu-card-title}
 
-- 1. (Chính) So sánh
+- (Chính) So sánh
 - mê sảng trong 7 ngày
-- 2. So sánh thời gian
+- So sánh thời gian
 - nằm viện
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
@@ -1218,12 +1218,12 @@ XÂY DỰNG ĐỀ CƯƠNG · 28 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#055F56"}
-1. Chọn MỘT vấn đề của khoa (liệt kê 3 ý, bỏ phiếu, chọn một)
-2. Điền bảng PICO(T) và viết câu hỏi trong một câu
-3. Đèn FINER cho từng chữ cái; viết lại nếu có đèn đỏ
-4. Nghiên cứu, audit hay QI? Ghi con đường phê duyệt
-5. Mục đích + 2-3 mục tiêu (đánh dấu mục tiêu chính) + H0/H1
-6. Một nhóm đọc to câu hỏi
+- Chọn MỘT vấn đề của khoa (liệt kê 3 ý, bỏ phiếu, chọn một)
+- Điền bảng PICO(T) và viết câu hỏi trong một câu
+- Đèn FINER cho từng chữ cái; viết lại nếu có đèn đỏ
+- Nghiên cứu, audit hay QI? Ghi con đường phê duyệt
+- Mục đích + 2-3 mục tiêu (đánh dấu mục tiêu chính) + H0/H1
+- Một nhóm đọc to câu hỏi
 :::
 :::
 ::: {.column width="40%"}
@@ -1284,21 +1284,21 @@ Thời gian: 1 phút.
 
 :::: {.neu-cards style="--n:3"}
 ::: {.neu-card .plain style="--c:#0D7377"}
-[1. Vì sao nghiên cứu]{.neu-card-title}
+[Vì sao nghiên cứu]{.neu-card-title}
 
 - Kinh nghiệm đặt câu hỏi;
 - so sánh công bằng
 - trên đủ bệnh nhân trả lời
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
-[2. Hỏi chính xác]{.neu-card-title}
+[Hỏi chính xác]{.neu-card-title}
 
 - Câu hỏi PICO(T),
 - một kết cục chính,
 - FINER trước khi bắt đầu
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
-[3. Lập kế hoạch]{.neu-card-title}
+[Lập kế hoạch]{.neu-card-title}
 
 - Một mục đích, 2-3
 - mục tiêu đo được,
@@ -1325,9 +1325,9 @@ CÂU HỎI NHANH · 2 phút
 :::
 
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. Ví dụ xuyên suốt trượt tiêu chí FINER nào, và vì sao?
-2. Viết lại thành mục tiêu: 'Tìm hiểu về tổn thương do tì đè ở khoa'
-3. Viết cả hai câu trả lời lên giấy dán (không ghi tên) và dán lên cửa khi ra về
+- Ví dụ xuyên suốt trượt tiêu chí FINER nào, và vì sao?
+- Viết lại thành mục tiêu: 'Tìm hiểu về tổn thương do tì đè ở khoa'
+- Viết cả hai câu trả lời lên giấy dán (không ghi tên) và dán lên cửa khi ra về
 :::
 
 ::: {.neu-output style="--c:#6C3483"}
@@ -1351,10 +1351,10 @@ BÀI TẬP CÁ NHÂN
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0B376C"}
-1. Nhóm: hoàn thành PICO, câu hỏi, mục đích và mục tiêu nếu chưa xong
-2. Mọi người: với mỗi từ PICO, viết 2-3 từ đồng nghĩa tiếng Anh (Bài tập 5)
-3. Mọi người: nghĩ một con số tại khoa cho thấy vấn đề (audit, số ca)
-4. Không bắt buộc: cài Zotero (miễn phí, zotero.org) lên laptop
+- Nhóm: hoàn thành PICO, câu hỏi, mục đích và mục tiêu nếu chưa xong
+- Mọi người: với mỗi từ PICO, viết 2-3 từ đồng nghĩa tiếng Anh (Bài tập 5)
+- Mọi người: nghĩ một con số tại khoa cho thấy vấn đề (audit, số ca)
+- Không bắt buộc: cài Zotero (miễn phí, zotero.org) lên laptop
 :::
 :::
 ::: {.column width="40%"}
@@ -1498,10 +1498,10 @@ CÂU HỎI NHANH · 4 phút
 :::
 
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. Mọi người lớn nằm viện trong cả nước: vitamin D có giảm tử vong trong 10 năm?
-2. Sốc nhiễm khuẩn: hoãn kháng sinh 24 giờ có giảm kháng thuốc?
-3. Điều dưỡng ICU có rửa tay không? (đã audit hằng tháng suốt 5 năm)
-4. Viêm phổi: màu của tờ y lệnh có ảnh hưởng tử vong 28 ngày?
+- Mọi người lớn nằm viện trong cả nước: vitamin D có giảm tử vong trong 10 năm?
+- Sốc nhiễm khuẩn: hoãn kháng sinh 24 giờ có giảm kháng thuốc?
+- Điều dưỡng ICU có rửa tay không? (đã audit hằng tháng suốt 5 năm)
+- Viêm phổi: màu của tờ y lệnh có ảnh hưởng tử vong 28 ngày?
 :::
 
 ::: {.neu-output style="--c:#6C3483"}

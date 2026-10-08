@@ -48,10 +48,10 @@ QUICK QUIZ · 10 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. Q1. Patients who smoke are followed for 10 years to see who develops a stroke. Which design?
-2. Q2. In a cohort, sicker septic patients receive more fluid AND die more often. What is this called?
-3. Q3. Mortality is 30% with usual care and 20% with a new strategy. What are the RR and the NNT?
-4. Answer alone (2 min), then compare with your neighbour (2 min)
+- Q1. Patients who smoke are followed for 10 years to see who develops a stroke. Which design?
+- Q2. In a cohort, sicker septic patients receive more fluid AND die more often. What is this called?
+- Q3. Mortality is 30% with usual care and 20% with a new strategy. What are the RR and the NNT?
+- Answer alone (2 min), then compare with your neighbour (2 min)
 :::
 :::
 ::: {.column width="40%"}
@@ -142,11 +142,11 @@ QUICK QUIZ · 3 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. Heart rate (beats per minute)
-2. Glasgow Coma Scale (3-15)
-3. Blood group (A, B, AB, O)
-4. Ventilated on day 1 (yes / no)
-5. Time from ICU admission to extubation
+- Heart rate (beats per minute)
+- Glasgow Coma Scale (3-15)
+- Blood group (A, B, AB, O)
+- Ventilated on day 1 (yes / no)
+- Time from ICU admission to extubation
 :::
 :::
 ::: {.column width="40%"}
@@ -233,31 +233,31 @@ The outcome 'cumulative fluid balance' in five decisions.
 
 :::: {.neu-steps}
 ::: {.neu-step style="--c:#0D7377"}
-[1]{.neu-step-num}[What?]{.neu-step-label}
+[What?]{.neu-step-label}
 
 - Fluid IN minus fluid OUT
 - all routes, incl. drugs
 :::
 ::: {.neu-step style="--c:#0B376C"}
-[2]{.neu-step-num}[When?]{.neu-step-label}
+[When?]{.neu-step-label}
 
 - From ICU admission
 - to the end of day 3
 :::
 ::: {.neu-step style="--c:#5FA39B"}
-[3]{.neu-step-num}[Unit?]{.neu-step-label}
+[Unit?]{.neu-step-label}
 
 - ml per kg of
 - admission weight
 :::
 ::: {.neu-step style="--c:#0070C0"}
-[4]{.neu-step-num}[Format?]{.neu-step-label}
+[Format?]{.neu-step-label}
 
 - Number with +/- sign
 - boxes for digits
 :::
 ::: {.neu-step style="--c:#055F56"}
-[5]{.neu-step-num}[Missing?]{.neu-step-label}
+[Missing?]{.neu-step-label}
 
 - 'Not recorded' box
 - + reason
@@ -459,31 +459,31 @@ Prevention is the only reliable cure.
 
 :::: {.neu-steps}
 ::: {.neu-step style="--c:#0D7377"}
-[1]{.neu-step-num}[Fewer items]{.neu-step-label}
+[Fewer items]{.neu-step-label}
 
 - Collect only what you need
 - Short forms get finished
 :::
 ::: {.neu-step style="--c:#0B376C"}
-[2]{.neu-step-num}[Clear form]{.neu-step-label}
+[Clear form]{.neu-step-label}
 
 - Required fields marked
 - 'Not done' and 'unknown' options
 :::
 ::: {.neu-step style="--c:#5FA39B"}
-[3]{.neu-step-num}[Train]{.neu-step-label}
+[Train]{.neu-step-label}
 
 - Train every data collector
 - Same rules, same definitions
 :::
 ::: {.neu-step style="--c:#0070C0"}
-[4]{.neu-step-num}[Check weekly]{.neu-step-label}
+[Check weekly]{.neu-step-label}
 
 - Completeness report
 - Who and what is missing?
 :::
 ::: {.neu-step style="--c:#055F56"}
-[5]{.neu-step-num}[Chase early]{.neu-step-label}
+[Chase early]{.neu-step-label}
 
 - Fix while the chart is on the ward
 - Plan follow-up for transfers
@@ -523,10 +523,10 @@ GROUP WORK · 7 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0D7377"}
-1. Work with your neighbour, worksheet 'Session 5, exercises 1 and 2'
-2. Exercise 1: classify 10 ICU variables (continuous, count, binary, nominal, ordinal, time-to-event)
-3. Exercise 2: rewrite 4 bad CRF items so they have only one reading
-4. Be ready to read out one rewritten item
+- Work with your neighbour, worksheet 'Session 5, exercises 1 and 2'
+- Exercise 1: classify 10 ICU variables (continuous, count, binary, nominal, ordinal, time-to-event)
+- Exercise 2: rewrite 4 bad CRF items so they have only one reading
+- Be ready to read out one rewritten item
 :::
 :::
 ::: {.column width="40%"}
@@ -689,11 +689,11 @@ LIVE DEMO · 8 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#B5651D"}
-1. Open FLUID-ICU.Rproj and the script 01\_clean.R
-2. Read the raw file as text and look at it
-3. Run one block per problem: names, duplicates, sites, dates, codes
-4. Find the lactate unit problem with a summary by ICU
-5. Last block: the cleaned file is identical to the reference file
+- Open FLUID-ICU.Rproj and the script 01\_clean.R
+- Read the raw file as text and look at it
+- Run one block per problem: names, duplicates, sites, dates, codes
+- Find the lactate unit problem with a summary by ICU
+- Last block: the cleaned file is identical to the reference file
 :::
 :::
 ::: {.column width="40%"}
@@ -858,10 +858,10 @@ GROUP WORK · 4 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0D7377"}
-1. Read your question in your results pack (page 1)
-2. Name the outcome and its type; the exposure and its type
-3. Find both in the FLUID-ICU data dictionary
-4. Write the question as one sentence (PECO)
+- Read your question in your results pack (page 1)
+- Name the outcome and its type; the exposure and its type
+- Find both in the FLUID-ICU data dictionary
+- Write the question as one sentence (PECO)
 :::
 :::
 ::: {.column width="40%"}
@@ -899,9 +899,9 @@ BREAK · 15 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#8A99A3"}
-1. Stretch, coffee, fresh air
-2. Groups: glance at your group question and results pack
-3. We restart with 5.3: describing and showing data
+- Stretch, coffee, fresh air
+- Groups: glance at your group question and results pack
+- We restart with 5.3: describing and showing data
 :::
 :::
 ::: {.column width="40%"}
@@ -955,25 +955,25 @@ ICU stay of 7 patients (days): 1, 2, 2, 3, 4, 6, 24
 
 :::: {.neu-steps}
 ::: {.neu-step style="--c:#0D7377"}
-[1]{.neu-step-num}[Line up]{.neu-step-label}
+[Line up]{.neu-step-label}
 
 - Sort from short
 - to long stays
 :::
 ::: {.neu-step style="--c:#0B376C"}
-[2]{.neu-step-num}[Median]{.neu-step-label}
+[Median]{.neu-step-label}
 
 - The 4th of 7 patients:
 - 3 days
 :::
 ::: {.neu-step style="--c:#5FA39B"}
-[3]{.neu-step-num}[Mean]{.neu-step-label}
+[Mean]{.neu-step-label}
 
 - 42 days / 7 patients
 - = 6 days
 :::
 ::: {.neu-step style="--c:#0070C0"}
-[4]{.neu-step-num}[Compare]{.neu-step-label}
+[Compare]{.neu-step-label}
 
 - One 24-day stay
 - doubles the mean
@@ -1081,10 +1081,10 @@ QUICK QUIZ · 3 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. ICU length of stay in 200 patients: mean (SD) or median (IQR)?
-2. Age of 200 adult ICU patients, bell-shaped: mean (SD) or median (IQR)?
-3. Ventilated on admission (yes/no): which summary?
-4. Pressure-injury stage 1 to 4: which summary and which graph?
+- ICU length of stay in 200 patients: mean (SD) or median (IQR)?
+- Age of 200 adult ICU patients, bell-shaped: mean (SD) or median (IQR)?
+- Ventilated on admission (yes/no): which summary?
+- Pressure-injury stage 1 to 4: which summary and which graph?
 :::
 :::
 ::: {.column width="40%"}
@@ -1280,11 +1280,11 @@ LIVE DEMO · 6 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#B5651D"}
-1. Open 02\_describe.R and load the clean data
-2. Look at the shape first: histograms of age, lactate, ICU stay
-3. Build Table 1 by fluid-balance group (no p-values)
-4. Draw the figures: histogram, boxplot, bar chart
-5. Save tables and figures for the results packs
+- Open 02\_describe.R and load the clean data
+- Look at the shape first: histograms of age, lactate, ICU stay
+- Build Table 1 by fluid-balance group (no p-values)
+- Draw the figures: histogram, boxplot, bar chart
+- Save tables and figures for the results packs
 :::
 :::
 ::: {.column width="40%"}
@@ -1412,11 +1412,11 @@ GROUP WORK · 10 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0D7377"}
-1. Open your results pack: Table 1 and the figures
-2. For three variables: which summary is used, and why?
-3. Were the groups alike at the start? Name the biggest difference
-4. Write two sentences describing the patients, as in a Results section
-5. One group reads its sentences aloud
+- Open your results pack: Table 1 and the figures
+- For three variables: which summary is used, and why?
+- Were the groups alike at the start? Name the biggest difference
+- Write two sentences describing the patients, as in a Results section
+- One group reads its sentences aloud
 :::
 :::
 ::: {.column width="40%"}
@@ -1511,10 +1511,10 @@ PROPOSAL BUILDER · 30 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#055F56"}
-1. Variables table: outcome, exposure, 3-5 confounders, each with its type (8 min)
-2. Mini-CRF: 6-10 items with units, time points and 'unknown' options (10 min)
-3. Data dictionary: 3-5 rows + one validation rule (6 min)
-4. Data-management plan: EDC or double entry, IDs, backups, sharing (6 min)
+- Variables table: outcome, exposure, 3-5 confounders, each with its type (8 min)
+- Mini-CRF: 6-10 items with units, time points and 'unknown' options (10 min)
+- Data dictionary: 3-5 rows + one validation rule (6 min)
+- Data-management plan: EDC or double entry, IDs, backups, sharing (6 min)
 :::
 :::
 ::: {.column width="40%"}
@@ -1610,21 +1610,21 @@ Three messages to take home.
 
 :::: {.neu-cards style="--n:3"}
 ::: {.neu-card .plain style="--c:#0D7377"}
-[1. Design the data]{.neu-card-title}
+[Design the data]{.neu-card-title}
 
 - Clear CRF items
 - Data dictionary first
 - Checks at entry
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
-[2. Keep it clean]{.neu-card-title}
+[Keep it clean]{.neu-card-title}
 
 - Never edit raw data
 - Log every correction
 - Backups, coded IDs
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
-[3. Describe honestly]{.neu-card-title}
+[Describe honestly]{.neu-card-title}
 
 - Shape decides the summary
 - Show every patient
@@ -1657,10 +1657,10 @@ DISCUSSION · 5 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#1F5C7A"}
-1. Key words and recap (previous two slides)
-2. Exit question: one data-quality problem found in FLUID-ICU, and how it was fixed
-3. Homework: finish the CRF and data dictionary rows of your proposal
-4. Read your group's results pack (Table 1 and figures) before Session 6
+- Key words and recap (previous two slides)
+- Exit question: one data-quality problem found in FLUID-ICU, and how it was fixed
+- Homework: finish the CRF and data dictionary rows of your proposal
+- Read your group's results pack (Table 1 and figures) before Session 6
 :::
 :::
 ::: {.column width="40%"}

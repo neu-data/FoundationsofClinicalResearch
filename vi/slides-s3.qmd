@@ -46,10 +46,10 @@ CÂU HỎI NHANH · 10 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. C1. Tìm kiếm PubMed ra 3.000 bài. Thêm một khái niệm bằng AND, hay một từ đồng nghĩa bằng OR?
-2. C2. Sau tiêu đề và tóm tắt, đọc phần nào tiếp theo trong bài báo?
-3. C3. Một tóm tắt viết 'có xu hướng giảm tử vong (p = 0,42)'. Điều này gọi là gì?
-4. Các nhóm: đọc lại câu hỏi nghiên cứu và phần đặt vấn đề (2 phút)
+- C1. Tìm kiếm PubMed ra 3.000 bài. Thêm một khái niệm bằng AND, hay một từ đồng nghĩa bằng OR?
+- C2. Sau tiêu đề và tóm tắt, đọc phần nào tiếp theo trong bài báo?
+- C3. Một tóm tắt viết 'có xu hướng giảm tử vong (p = 0,42)'. Điều này gọi là gì?
+- Các nhóm: đọc lại câu hỏi nghiên cứu và phần đặt vấn đề (2 phút)
 :::
 :::
 ::: {.column width="40%"}
@@ -104,7 +104,7 @@ Mười từ dùng suốt buổi (không cần học thuộc định nghĩa)
 [Thời gian chiều nào?]{.neu-card-title}
 
 - Cắt ngang: ảnh chụp
-- Bệnh - chứng: nhìn lại
+- Bệnh-chứng: nhìn lại
 - Thuần tập: theo dõi về sau
 :::
 ::: {.neu-card .plain style="--c:#055F56"}
@@ -250,22 +250,22 @@ Một nghiên cứu cắt ngang có thể làm ngay tuần tới
 
 :::: {.neu-steps}
 ::: {.neu-step style="--c:#0D7377"}
-[1]{.neu-step-num}[1. Chọn ngày]{.neu-step-label}
+[Chọn ngày]{.neu-step-label}
 
 - Mọi BN nội trú ở mọi khoa, một ngày trong tuần
 :::
 ::: {.neu-step style="--c:#0B376C"}
-[2]{.neu-step-num}[2. Khám tất cả]{.neu-step-label}
+[Khám tất cả]{.neu-step-label}
 
 - Hai điều dưỡng được tập huấn, một phiếu chuẩn
 :::
 ::: {.neu-step style="--c:#5FA39B"}
-[3]{.neu-step-num}[3. Ghi cả hai]{.neu-step-label}
+[Ghi cả hai]{.neu-step-label}
 
 - Loét tì đè (có/không) VÀ loại đệm, cùng một lần khám
 :::
 ::: {.neu-step style="--c:#0070C0"}
-[4]{.neu-step-num}[4. Đếm]{.neu-step-label}
+[Đếm]{.neu-step-label}
 
 - vd. 37/412 = 9% hiện mắc hôm nay
 :::
@@ -289,12 +289,12 @@ Hỏi cả lớp: vấn đề nào khác ở khoa có thể đo trong một ngà
 Thời gian: 2 phút.
 :::
 
-## Bệnh - chứng: bắt đầu từ kết cục, nhìn ngược lại
+## Bệnh-chứng: bắt đầu từ kết cục, nhìn ngược lại
 
 ![](images/figures/sat2/case_control_timeline.png){.neu-fig}
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Bệnh - chứng: chọn người THEO kết cục, rồi so sánh phơi nhiễm trong quá khứ.
+**THÔNG ĐIỆP CHÍNH** Bệnh-chứng: chọn người THEO kết cục, rồi so sánh phơi nhiễm trong quá khứ.
 :::
 
 ::: {.notes}
@@ -304,14 +304,14 @@ Ví dụ: bệnh nhân ICU bị nhiễm nấm Candida máu (nhóm bệnh) so v�
 
 Điểm mạnh: hiệu quả với kết cục HIẾM hoặc thời gian ủ bệnh dài, vì không cần theo dõi hàng nghìn người. Điểm yếu: sai lệch nhớ lại, khó chọn nhóm chứng tốt, và chỉ tính được tỷ số chênh (OR), không tính được nguy cơ.
 
-Quan niệm sai: 'bệnh - chứng giống thuần tập hồi cứu vì cùng dùng hồ sơ cũ'. Khác biệt nằm ở cách chọn người: theo KẾT CỤC trong bệnh - chứng, theo PHƠI NHIỄM trong thuần tập.
+Quan niệm sai: 'bệnh-chứng giống thuần tập hồi cứu vì cùng dùng hồ sơ cũ'. Khác biệt nằm ở cách chọn người: theo KẾT CỤC trong bệnh-chứng, theo PHƠI NHIỄM trong thuần tập.
 
-Hỏi cả lớp: vì sao không tính được nguy cơ nhiễm Candida máu từ nghiên cứu bệnh - chứng? Dự kiến: nhà nghiên cứu tự chọn số ca bệnh và ca chứng, nên tỷ lệ có kết cục do thiết kế quyết định chứ không phải do tự nhiên.
+Hỏi cả lớp: vì sao không tính được nguy cơ nhiễm Candida máu từ nghiên cứu bệnh-chứng? Dự kiến: nhà nghiên cứu tự chọn số ca bệnh và ca chứng, nên tỷ lệ có kết cục do thiết kế quyết định chứ không phải do tự nhiên.
 
 Thời gian: 2,5 phút.
 :::
 
-## Ví dụ: một nghiên cứu bệnh - chứng ở ICU
+## Ví dụ: một nghiên cứu bệnh-chứng ở ICU
 
 ::: {.neu-intro}
 Câu hỏi: nuôi ăn tĩnh mạch có phải yếu tố nguy cơ của nhiễm Candida máu ở ICU?
@@ -319,27 +319,27 @@ Câu hỏi: nuôi ăn tĩnh mạch có phải yếu tố nguy cơ của nhiễm 
 
 :::: {.neu-steps}
 ::: {.neu-step style="--c:#0D7377"}
-[1]{.neu-step-num}[1. Tìm ca bệnh]{.neu-step-label}
+[Tìm ca bệnh]{.neu-step-label}
 
 - 40 BN ICU nhiễm Candida máu (hồ sơ xét nghiệm)
 :::
 ::: {.neu-step style="--c:#0B376C"}
-[2]{.neu-step-num}[2. Tìm ca chứng]{.neu-step-label}
+[Tìm ca chứng]{.neu-step-label}
 
 - 80 BN ICU không bị, cùng khoa và cùng tháng
 :::
 ::: {.neu-step style="--c:#5FA39B"}
-[3]{.neu-step-num}[3. Nhìn lại]{.neu-step-label}
+[Nhìn lại]{.neu-step-label}
 
 - Có nuôi ăn tĩnh mạch trong 14 ngày trước?
 :::
 ::: {.neu-step style="--c:#0070C0"}
-[4]{.neu-step-num}[4. So sánh]{.neu-step-label}
+[So sánh]{.neu-step-label}
 
 - Phơi nhiễm: 24/40 ca bệnh vs 16/80 ca chứng
 :::
 ::: {.neu-step style="--c:#055F56"}
-[5]{.neu-step-num}[5. Báo cáo]{.neu-step-label}
+[Báo cáo]{.neu-step-label}
 
 - Tỷ số chênh (tính ở Buổi 4)
 :::
@@ -391,22 +391,22 @@ Câu hỏi: cân bằng dịch dương có liên quan với tử vong ngày 28?
 
 :::: {.neu-steps}
 ::: {.neu-step style="--c:#0D7377"}
-[1]{.neu-step-num}[1. Xác định nhóm]{.neu-step-label}
+[Xác định nhóm]{.neu-step-label}
 
 - Người lớn nhiễm khuẩn huyết ở 20 bệnh viện, nằm ICU từ 3 ngày
 :::
 ::: {.neu-step style="--c:#0B376C"}
-[2]{.neu-step-num}[2. Đo phơi nhiễm]{.neu-step-label}
+[Đo phơi nhiễm]{.neu-step-label}
 
 - Cân bằng dịch tích lũy ngày 1-3: dương hay âm
 :::
 ::: {.neu-step style="--c:#5FA39B"}
-[3]{.neu-step-num}[3. Theo dõi]{.neu-step-label}
+[Theo dõi]{.neu-step-label}
 
 - Ghi nhận ai tử vong đến ngày 28
 :::
 ::: {.neu-step style="--c:#0070C0"}
-[4]{.neu-step-num}[4. So sánh]{.neu-step-label}
+[So sánh]{.neu-step-label}
 
 - Các cặp đã ghép; HR 2,13 ở ngày 2
 :::
@@ -458,27 +458,27 @@ Câu hỏi: hạn chế dịch không phải hồi sức có giảm cân bằng 
 
 :::: {.neu-steps}
 ::: {.neu-step style="--c:#0D7377"}
-[1]{.neu-step-num}[1. Tiêu chuẩn]{.neu-step-label}
+[Tiêu chuẩn]{.neu-step-label}
 
 - Sốc nhiễm khuẩn, 18-85 tuổi, vận mạch \< 24 giờ
 :::
 ::: {.neu-step style="--c:#0B376C"}
-[2]{.neu-step-num}[2. Đồng ý]{.neu-step-label}
+[Đồng ý]{.neu-step-label}
 
 - Bệnh nhân hoặc người đại diện hợp pháp
 :::
 ::: {.neu-step style="--c:#5FA39B"}
-[3]{.neu-step-num}[3. Ngẫu nhiên]{.neu-step-label}
+[Ngẫu nhiên]{.neu-step-label}
 
 - Máy tính trung tâm, 1:1, nên không ai đoán được
 :::
 ::: {.neu-step style="--c:#0070C0"}
-[4]{.neu-step-num}[4. Điều trị]{.neu-step-label}
+[Điều trị]{.neu-step-label}
 
 - Hạn chế dịch vs thường quy trong 7 ngày
 :::
 ::: {.neu-step style="--c:#055F56"}
-[5]{.neu-step-num}[5. Đo]{.neu-step-label}
+[Đo]{.neu-step-label}
 
 - Cân bằng dịch ngày 5; tử vong ngày 28
 :::
@@ -509,9 +509,9 @@ CÂU HỎI NHANH · 3 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. A. Hôm nay kiểm tra cả 300 BN nội trú: có ống thông tiểu không, có nhiễm khuẩn tiết niệu không
-2. B. BN viêm phổi thở máy được so sánh với BN không viêm phổi về việc dùng an thần trước đó
-3. C. BN được vận động sớm (do chuyên viên vật lý trị liệu quyết định) và BN không được, theo dõi đến khi ra viện
+- A. Hôm nay kiểm tra cả 300 BN nội trú: có ống thông tiểu không, có nhiễm khuẩn tiết niệu không
+- B. BN viêm phổi thở máy được so sánh với BN không viêm phổi về việc dùng an thần trước đó
+- C. BN được vận động sớm (do chuyên viên vật lý trị liệu quyết định) và BN không được, theo dõi đến khi ra viện
 :::
 :::
 ::: {.column width="40%"}
@@ -519,7 +519,7 @@ CÂU HỎI NHANH · 3 phút
 Chọn
 
 - Cắt ngang
-- Bệnh - chứng
+- Bệnh-chứng
 - Thuần tập
 - RCT
 :::
@@ -549,7 +549,7 @@ Thời gian: 3 phút tính cả slide đáp án.
 - Cho tỷ lệ hiện mắc
 :::
 ::: {.neu-card .plain style="--c:#0070C0"}
-[B. Bệnh - chứng]{.neu-card-title}
+[B. Bệnh-chứng]{.neu-card-title}
 
 - Chọn theo KẾT CỤC (viêm phổi)
 - Nhìn lại phơi nhiễm (an thần)
@@ -573,7 +573,7 @@ Thời gian: 3 phút tính cả slide đáp án.
 
 Ý chính cho C: có hai nhóm không có nghĩa là thử nghiệm. Nếu không phải may rủi quyết định thì đó là nghiên cứu quan sát.
 
-Quan niệm sai: 'xem hồ sơ cũ thì là bệnh - chứng'. Cách chọn mới quyết định: theo kết cục = bệnh - chứng; theo phơi nhiễm = thuần tập.
+Quan niệm sai: 'xem hồ sơ cũ thì là bệnh-chứng'. Cách chọn mới quyết định: theo kết cục = bệnh-chứng; theo phơi nhiễm = thuần tập.
 
 Nếu đa số làm đúng cả ba, đi nhanh hơn qua các slide sau; nếu không, vẽ lại ba trục thời gian lên bảng.
 
@@ -667,7 +667,7 @@ Thời gian: 3 phút. Nếu được, để slide này trên màn hình trong l�
 - [- cái nào có trước?]{style="color:#B23B2E"}
 :::
 ::: {.neu-card .plain style="--c:#0070C0"}
-[Bệnh - chứng]{.neu-card-title}
+[Bệnh-chứng]{.neu-card-title}
 
 - [+ kết cục hiếm]{style="color:#2E8B57"}
 - [+ ít BN, nhanh]{style="color:#2E8B57"}
@@ -701,9 +701,9 @@ Thời gian: 3 phút. Nếu được, để slide này trên màn hình trong l�
 
 Ý chính: điểm mạnh độc nhất của RCT là cân bằng các yếu tố nhiễu CHƯA BIẾT. Điểm yếu thường là khả năng khái quát: bệnh nhân thử nghiệm được chọn lọc (Boulet loại người trên 85 tuổi, người cần lọc máu và người suy dinh dưỡng nặng).
 
-Quan niệm sai: 'nghiên cứu bệnh - chứng yếu'. Với kết cục hiếm, đó thường là thiết kế khả thi duy nhất, và chính nó lần đầu liên kết hút thuốc với ung thư phổi.
+Quan niệm sai: 'nghiên cứu bệnh-chứng yếu'. Với kết cục hiếm, đó thường là thiết kế khả thi duy nhất, và chính nó lần đầu liên kết hút thuốc với ung thư phổi.
 
-Hỏi cả lớp: muốn tìm yếu tố nguy cơ của một phản ứng thuốc hiếm, chọn thiết kế nào? Dự kiến: bệnh - chứng.
+Hỏi cả lớp: muốn tìm yếu tố nguy cơ của một phản ứng thuốc hiếm, chọn thiết kế nào? Dự kiến: bệnh-chứng.
 
 Thời gian: 2 phút. Tài liệu phát tay có lại bảng này.
 :::
@@ -739,9 +739,9 @@ CÂU HỎI NHANH · 2 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. A. Boulet (RCT): 'Chiến lược hạn chế không làm giảm cân bằng dịch ngày 5'
-2. B. Hyun (thuần tập): 'Cân bằng dịch dương GÂY RA tử vong ngày 28 cao hơn'
-3. C. Khảo sát một ngày: 'Ống thông tiểu có liên quan với nhiễm khuẩn tiết niệu'
+- A. Boulet (RCT): 'Chiến lược hạn chế không làm giảm cân bằng dịch ngày 5'
+- B. Hyun (thuần tập): 'Cân bằng dịch dương GÂY RA tử vong ngày 28 cao hơn'
+- C. Khảo sát một ngày: 'Ống thông tiểu có liên quan với nhiễm khuẩn tiết niệu'
 :::
 :::
 ::: {.column width="40%"}
@@ -777,10 +777,10 @@ LÀM VIỆC NHÓM · 15 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0D7377"}
-1. Làm theo cặp với tài liệu phát tay: 8 tóm tắt lâm sàng ngắn
-2. Với mỗi tóm tắt: có chỉ định? có ngẫu nhiên? thời gian chạy chiều nào?
-3. Ghi thiết kế và một cụm từ làm bằng chứng trong tóm tắt
-4. Đánh dấu sao câu khó nhất: cả lớp sẽ cùng thảo luận
+- Làm theo cặp với tài liệu phát tay: 8 tóm tắt lâm sàng ngắn
+- Với mỗi tóm tắt: có chỉ định? có ngẫu nhiên? thời gian chạy chiều nào?
+- Ghi thiết kế và một cụm từ làm bằng chứng trong tóm tắt
+- Đánh dấu sao câu khó nhất: cả lớp sẽ cùng thảo luận
 :::
 :::
 ::: {.column width="40%"}
@@ -788,7 +788,7 @@ LÀM VIỆC NHÓM · 15 phút
 Dùng cây quyết định
 
 - Chỉ định + ngẫu nhiên = RCT
-- Kết cục trước, nhìn lại = bệnh - chứng
+- Kết cục trước, nhìn lại = bệnh-chứng
 - Phơi nhiễm trước, theo dõi = thuần tập
 - Cùng thời điểm = cắt ngang
 :::
@@ -802,11 +802,11 @@ Dùng cây quyết định
 ::: {.notes}
 Tài liệu: Practicals/s3\_exercises.md, Phần A. Đáp án: Solutions/s3\_solutions.md.
 
-Cách chạy: 9 phút làm theo cặp, 6 phút thảo luận chung. Khi thảo luận, không đi qua cả tám câu. Hỏi các cặp đã đánh dấu sao câu nào và thảo luận những câu đó. Tóm tắt 5 (thuần tập hồi cứu nghe giống bệnh - chứng), 7 (nghiên cứu trước-sau không ngẫu nhiên) và 9 (thử nghiệm theo cụm, tùy chọn; sẽ học sau giải lao) thường khó nhất.
+Cách chạy: 9 phút làm theo cặp, 6 phút thảo luận chung. Khi thảo luận, không đi qua cả tám câu. Hỏi các cặp đã đánh dấu sao câu nào và thảo luận những câu đó. Tóm tắt 5 (thuần tập hồi cứu nghe giống bệnh-chứng), 7 (nghiên cứu trước-sau không ngẫu nhiên) và 9 (thử nghiệm theo cụm, tùy chọn; sẽ học sau giải lao) thường khó nhất.
 
 Ý chính: cụm từ làm bằng chứng quan trọng hơn cái nhãn: 'phân bổ ngẫu nhiên', 'chọn những bệnh nhân đã bị', 'theo dõi trong 12 tháng', 'trong một ngày'.
 
-Quan niệm sai cần lắng nghe: 'dùng hồ sơ cũ nên là bệnh - chứng'. Hỏi lại: người được chọn theo kết cục hay theo phơi nhiễm?
+Quan niệm sai cần lắng nghe: 'dùng hồ sơ cũ nên là bệnh-chứng'. Hỏi lại: người được chọn theo kết cục hay theo phơi nhiễm?
 
 Thời gian: nếu các cặp xong sớm, yêu cầu nêu một điểm mạnh và một điểm yếu cho mỗi thiết kế. Thông báo giải lao ở cuối slide này.
 :::
@@ -818,9 +818,9 @@ GIẢI LAO · 15 phút
 :::
 
 ::: {.neu-activity-steps style="--c:#8A99A3"}
-1. Vận động, uống cà phê, hít thở không khí
-2. Tùy chọn: thiết kế nào hợp nhất với câu hỏi của nhóm?
-3. Chúng ta tiếp tục với các thiết kế khác
+- Vận động, uống cà phê, hít thở không khí
+- Tùy chọn: thiết kế nào hợp nhất với câu hỏi của nhóm?
+- Chúng ta tiếp tục với các thiết kế khác
 :::
 
 ::: {.notes}
@@ -1002,10 +1002,10 @@ CÂU HỎI NHANH · 3 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. A. Một phác đồ kháng sinh rẻ hơn; chỉ cần chứng minh nó không kém hơn
-2. B. Chương trình vệ sinh tay áp dụng cho cả khoa
-3. C. Gói xử trí nhiễm khuẩn huyết bắt đầu năm 2023; có 3 năm số liệu tử vong theo tháng
-4. D. Vì sao gia đình từ chối đồng ý tham gia nghiên cứu ở ICU?
+- A. Một phác đồ kháng sinh rẻ hơn; chỉ cần chứng minh nó không kém hơn
+- B. Chương trình vệ sinh tay áp dụng cho cả khoa
+- C. Gói xử trí nhiễm khuẩn huyết bắt đầu năm 2023; có 3 năm số liệu tử vong theo tháng
+- D. Vì sao gia đình từ chối đồng ý tham gia nghiên cứu ở ICU?
 :::
 :::
 ::: {.column width="40%"}
@@ -1043,11 +1043,11 @@ LÀM VIỆC NHÓM · 20 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0D7377"}
-1. Tài liệu Phần B: bốn câu hỏi lâm sàng + câu hỏi của nhóm bạn
-2. Với mỗi câu: chọn thiết kế KHẢ THI tốt nhất (dùng cây quyết định)
-3. Ghi một lý do và điểm yếu chính của thiết kế
-4. Câu hỏi của nhóm: được nói 'gây ra' hay chỉ 'có liên quan'?
-5. Hai nhóm chia sẻ câu hỏi và thiết kế của mình (mỗi nhóm 1 phút)
+- Tài liệu Phần B: bốn câu hỏi lâm sàng + câu hỏi của nhóm bạn
+- Với mỗi câu: chọn thiết kế KHẢ THI tốt nhất (dùng cây quyết định)
+- Ghi một lý do và điểm yếu chính của thiết kế
+- Câu hỏi của nhóm: được nói 'gây ra' hay chỉ 'có liên quan'?
+- Hai nhóm chia sẻ câu hỏi và thiết kế của mình (mỗi nhóm 1 phút)
 :::
 :::
 ::: {.column width="40%"}
@@ -1055,7 +1055,7 @@ LÀM VIỆC NHÓM · 20 phút
 Ghi nhớ
 
 - Phổ biến hiện nay? Cắt ngang
-- Kết cục hiếm? Bệnh - chứng
+- Kết cục hiếm? Bệnh-chứng
 - Điều gì xảy ra sau? Thuần tập
 - Có hiệu quả? RCT / theo cụm
 - Đã thay đổi rồi? Chuỗi thời gian
@@ -1071,7 +1071,7 @@ Ghi nhớ
 ::: {.notes}
 Theo nhóm 6 người (nhóm đề cương). 12 phút làm, 8 phút chia sẻ.
 
-Đáp án cho bốn câu (tài liệu Phần B; đáp án ở Solutions/s3\_solutions.md): 1 hiện mắc loét tì đè (cắt ngang); 2 tắm chlorhexidine áp dụng lần lượt từng khoa (thử nghiệm ngẫu nhiên theo cụm); 3 gói xử trí nhiễm khuẩn huyết đã áp dụng, có số liệu theo tháng (chuỗi thời gian ngắt quãng); 4 vì sao điều dưỡng không báo cáo sự cố suýt xảy ra (phỏng vấn định tính hoặc thảo luận nhóm). Hai câu bổ sung tùy chọn: bệnh - chứng và không kém hơn.
+Đáp án cho bốn câu (tài liệu Phần B; đáp án ở Solutions/s3\_solutions.md): 1 hiện mắc loét tì đè (cắt ngang); 2 tắm chlorhexidine áp dụng lần lượt từng khoa (thử nghiệm ngẫu nhiên theo cụm); 3 gói xử trí nhiễm khuẩn huyết đã áp dụng, có số liệu theo tháng (chuỗi thời gian ngắt quãng); 4 vì sao điều dưỡng không báo cáo sự cố suýt xảy ra (phỏng vấn định tính hoặc thảo luận nhóm). Hai câu bổ sung tùy chọn: bệnh-chứng và không kém hơn.
 
 Câu hỏi của nhóm là cầu nối sang phần xây dựng đề cương: thiết kế chọn ở đây là thiết kế sẽ được biện luận ngay sau bài tập.
 
@@ -1113,12 +1113,12 @@ XÂY DỰNG ĐỀ CƯƠNG · 35 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#055F56"}
-1. Đọc lại câu hỏi nghiên cứu ở Phần 1
-2. Chọn thiết kế bằng cây quyết định; biện luận trong 3-5 câu
-3. Bối cảnh: ở đâu, khi nào, những khoa nào, nguồn dữ liệu nào
-4. Đối tượng: 3-5 tiêu chuẩn chọn và 3-5 tiêu chuẩn loại trừ (kèm lý do)
-5. Vẽ nghiên cứu trên trục thời gian: phơi nhiễm, rồi kết cục
-6. Mời người hướng dẫn kiểm tra trước khi kết thúc
+- Đọc lại câu hỏi nghiên cứu ở Phần 1
+- Chọn thiết kế bằng cây quyết định; biện luận trong 3-5 câu
+- Bối cảnh: ở đâu, khi nào, những khoa nào, nguồn dữ liệu nào
+- Đối tượng: 3-5 tiêu chuẩn chọn và 3-5 tiêu chuẩn loại trừ (kèm lý do)
+- Vẽ nghiên cứu trên trục thời gian: phơi nhiễm, rồi kết cục
+- Mời người hướng dẫn kiểm tra trước khi kết thúc
 :::
 :::
 ::: {.column width="40%"}
@@ -1197,10 +1197,10 @@ THẢO LUẬN · 5 phút
 :::
 
 ::: {.neu-activity-steps style="--c:#1F5C7A"}
-1. Câu hỏi cuối buổi: so sánh người tự chọn tiêm vắc xin cúm với người không tiêm. Thiết kế gì? Gây ra hay có liên quan?
-2. Bài về nhà: hoàn thành Phần 2a của đề cương (thiết kế, bối cảnh, đối tượng)
-3. Bài về nhà: đọc đoạn 'Patients' của Boulet và đoạn 'Data source' của Hyun
-4. Thứ Bảy tuần sau (Buổi 4): có tin được kết quả không, và tác động lớn đến đâu?
+- Câu hỏi cuối buổi: so sánh người tự chọn tiêm vắc xin cúm với người không tiêm. Thiết kế gì? Gây ra hay có liên quan?
+- Bài về nhà: hoàn thành Phần 2a của đề cương (thiết kế, bối cảnh, đối tượng)
+- Bài về nhà: đọc đoạn 'Patients' của Boulet và đoạn 'Data source' của Hyun
+- Thứ Bảy tuần sau (Buổi 4): có tin được kết quả không, và tác động lớn đến đâu?
 :::
 
 ::: {.neu-output style="--c:#1F5C7A"}
@@ -1237,28 +1237,28 @@ Thời gian: bỏ qua trong buổi học trừ khi còn thời gian.
 
 :::: {.neu-steps}
 ::: {.neu-step style="--c:#0D7377"}
-[1]{.neu-step-num}[Chỉ định?]{.neu-step-label}
+[Chỉ định?]{.neu-step-label}
 
 - Boulet: có, thử nghiệm chỉ định chiến lược
 - Hyun: không, bác sĩ quyết định
 :::
 ::: {.neu-step style="--c:#0B376C"}
-[2]{.neu-step-num}[Ngẫu nhiên?]{.neu-step-label}
+[Ngẫu nhiên?]{.neu-step-label}
 
 - Boulet: có, máy tính trung tâm
 :::
 ::: {.neu-step style="--c:#5FA39B"}
-[3]{.neu-step-num}[So sánh?]{.neu-step-label}
+[So sánh?]{.neu-step-label}
 
 - Hyun: có, cân bằng dương vs âm
 :::
 ::: {.neu-step style="--c:#0070C0"}
-[4]{.neu-step-num}[Thứ tự?]{.neu-step-label}
+[Thứ tự?]{.neu-step-label}
 
 - Hyun: phơi nhiễm ngày 1-3, rồi tử vong ngày 28
 :::
 ::: {.neu-step style="--c:#055F56"}
-[5]{.neu-step-num}[Thiết kế]{.neu-step-label}
+[Thiết kế]{.neu-step-label}
 
 - Boulet: RCT
 - Hyun: thuần tập
@@ -1279,7 +1279,7 @@ Mời cả lớp làm tương tự với bài báo họ mang theo.
 Thời gian: 2 phút nếu dùng.
 :::
 
-## Chọn ca chứng tốt trong nghiên cứu bệnh - chứng
+## Chọn ca chứng tốt trong nghiên cứu bệnh-chứng
 
 :::: {.neu-cards style="--n:3"}
 ::: {.neu-card .plain style="--c:#0D7377"}
@@ -1303,11 +1303,11 @@ Thời gian: 2 phút nếu dùng.
 ::::
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Ca chứng kém làm mọi nghiên cứu bệnh - chứng trở nên vô nghĩa.
+**THÔNG ĐIỆP CHÍNH** Ca chứng kém làm mọi nghiên cứu bệnh-chứng trở nên vô nghĩa.
 :::
 
 ::: {.notes}
-EXTRA (slide bổ sung): Dành cho nhóm định làm nghiên cứu bệnh - chứng.
+EXTRA (slide bổ sung): Dành cho nhóm định làm nghiên cứu bệnh-chứng.
 
 Ca chứng phải đến từ quần thể đã sinh ra ca bệnh: trong ví dụ nhiễm Candida máu là những bệnh nhân ICU khác cùng khoa và cùng tháng, không phải người tình nguyện khỏe mạnh.
 

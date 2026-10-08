@@ -95,7 +95,7 @@ What good looks like: new structure; facts unchanged (28 days, mortality, days a
 | I vs C | Optimised fluid restriction (reducing maintenance fluids and fluids for drug dilution during the first 7 days) vs standard fluid strategy |
 | Primary outcome | **Cumulative fluid balance (ml/kg) in the first 5 days**, not mortality |
 | Numbers | 1,201 screened; 50 randomised; 2 withdrew (control); 48 analysed (24 per group) |
-| Main result | Median cumulative balance at day 5: 6.9 vs 35.0 ml/kg; absolute difference 13.2 ml/kg (95% CI −15.2 to 41.6), p = 0.42 |
+| Main result | Median cumulative balance at day 5: 6.9 vs 35.0 ml/kg; absolute difference 13.2 ml/kg (95% CI −15.2 to 41.6), p = 0.42. The 13.2 is a difference in means (the Methods report the mean difference with its 95% CI), so it does not equal the gap between the medians. |
 | Conclusion | "...did not reduce the overall fluid balance at day 5" |
 | Matches the result? | **Yes**. The CI includes zero, and the conclusion says "did not reduce". |
 | Spin in the abstract? | **No** in the abstract conclusion. (Spin appears in the *Discussion*, which calls p = 0.42 a "non-significant trend".) Watch-point: the fluid *volumes* (89.7 vs 114.3 ml/kg, p = 0.0506) are a secondary result, and the abstract reports four decimals for a borderline p. This is mild emphasis, not a claim. |

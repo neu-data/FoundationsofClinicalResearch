@@ -166,7 +166,7 @@ Model sentences (Q1): "Positive fluid balance was associated with higher 28-day 
 
 **Analysis plan:** describe with mean (SD) / median (IQR) / n (%); compare 28-day mortality with a chi-square test; report RR and risk difference with 95% CIs. Observational designs: adjusted OR (logistic) or HR (Cox) with confounders chosen in advance, about 1 model term per 10 events.
 
-**Missing-data plan (good enough):** names the variables likely to be missing and why; prevention; main handling (complete case if little missing and plausibly MCAR, otherwise multiple imputation); how missing data will be reported (n missing per variable, who). Imputation and sensitivity analyses are Level 2 topics; reporting (n missing per variable, flow diagram). FLUID-ICU's SAP section 10 is a model.
+**Missing-data plan (good enough):** names the variables likely to be missing and why; prevention; main handling (complete case if little missing and plausibly MCAR, otherwise multiple imputation); how missing data will be reported (n missing per variable, who). Imputation and sensitivity analyses are Level 2 topics; at Level 1, the focus is on reporting (n missing per variable, flow diagram). FLUID-ICU's SAP section 10 is a model.
 
 | Element | Good enough | Needs work |
 |---|---|---|

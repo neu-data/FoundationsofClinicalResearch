@@ -42,11 +42,11 @@ QUICK QUIZ · 8 min
 :::
 
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. Checking whether fluid balance is charted daily as the protocol says: research, audit or QI?
-2. 'In ICU staff, does hand-hygiene feedback vs none increase compliance at 3 months?' Name P, I, C, O, T
-3. Which FINER letter did our running example fail?
-4. Which is an objective: 'to understand delirium' or 'to estimate the proportion with delirium'?
-5. Write H0 for: does early mobilisation shorten ICU stay?
+- Checking whether fluid balance is charted daily as the protocol says: research, audit or QI?
+- 'In ICU staff, does hand-hygiene feedback vs none increase compliance at 3 months?' Name P, I, C, O, T
+- Which FINER letter did our running example fail?
+- Which is an objective: 'to understand delirium' or 'to estimate the proportion with delirium'?
+- Write H0 for: does early mobilisation shorten ICU stay?
 :::
 
 ::: {.neu-output style="--c:#6C3483"}
@@ -67,13 +67,13 @@ Timing: 8 minutes.
 
 :::: {.neu-cards style="--n:5"}
 ::: {.neu-card .plain style="--c:#0D7377"}
-[1. Audit]{.neu-card-title}
+[Audit]{.neu-card-title}
 
 - Checking practice
 - against a standard
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
-[2. PICO(T)]{.neu-card-title}
+[PICO(T)]{.neu-card-title}
 
 - P ICU staff
 - I feedback  C none
@@ -81,19 +81,19 @@ Timing: 8 minutes.
 - T 3 months
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
-[3. Feasible]{.neu-card-title}
+[Feasible]{.neu-card-title}
 
 - Mortality needs
 - 1,000+ patients
 :::
 ::: {.neu-card .plain style="--c:#0070C0"}
-[4. Estimate]{.neu-card-title}
+[Estimate]{.neu-card-title}
 
 - A measurable verb;
 - 'understand' is not
 :::
 ::: {.neu-card .plain style="--c:#055F56"}
-[5. H0]{.neu-card-title}
+[H0]{.neu-card-title}
 
 - ICU stay is the
 - same with early
@@ -227,10 +227,10 @@ QUICK QUIZ · 2 min
 :::
 
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. You want papers that mention BOTH delirium AND hip fracture: which operator?
-2. You want papers using EITHER 'pressure ulcer' OR 'bedsore': which operator?
-3. Your search found 40,000 hits. Will adding a third AND block give more or fewer?
-4. Why is 'sepsis NOT children' risky?
+- You want papers that mention BOTH delirium AND hip fracture: which operator?
+- You want papers using EITHER 'pressure ulcer' OR 'bedsore': which operator?
+- Your search found 40,000 hits. Will adding a third AND block give more or fewer?
+- Why is 'sepsis NOT children' risky?
 :::
 
 ::: {.neu-output style="--c:#6C3483"}
@@ -339,12 +339,12 @@ LIVE DEMO · 10 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#B5651D"}
-1. Search one keyword, septic shock, and note the number of hits
-2. Paste the full PICO string: P, I and O blocks joined with AND
-3. Look at 'Search details': what did PubMed really search?
-4. Add filters: RCT and systematic review, adults, last 10 years
-5. Open one result: abstract, MeSH terms, 'Similar articles', 'Cited by'
-6. Send to: Citation manager (we import it in 2.2)
+- Search one keyword, septic shock, and note the number of hits
+- Paste the full PICO string: P, I and O blocks joined with AND
+- Look at 'Search details': what did PubMed really search?
+- Add filters: RCT and systematic review, adults, last 10 years
+- Open one result: abstract, MeSH terms, 'Similar articles', 'Cited by'
+- Send to: Citation manager (we import it in 2.2)
 :::
 :::
 ::: {.column width="40%"}
@@ -381,11 +381,11 @@ INDIVIDUAL TASK · 5 min
 :::
 
 ::: {.neu-activity-steps style="--c:#0B376C"}
-1. Take your group's PICO question and your synonym list
-2. Exercise 1: write 2-4 synonyms for P, for I (or E) and for O
-3. Join synonyms with OR in brackets, and the blocks with AND
-4. Mark which words could be MeSH terms
-5. Swap with your neighbour: spot one missing synonym
+- Take your group's PICO question and your synonym list
+- Exercise 1: write 2-4 synonyms for P, for I (or E) and for O
+- Join synonyms with OR in brackets, and the blocks with AND
+- Mark which words could be MeSH terms
+- Swap with your neighbour: spot one missing synonym
 :::
 
 ::: {.neu-output style="--c:#0B376C"}
@@ -426,35 +426,35 @@ Timing: 30 seconds.
 
 :::: {.neu-steps}
 ::: {.neu-step style="--c:#0D7377"}
-[1]{.neu-step-num}[Collect]{.neu-step-label}
+[Collect]{.neu-step-label}
 
 - Tick papers in PubMed
 - Clipboard or
 - Collections (My NCBI)
 :::
 ::: {.neu-step style="--c:#0B376C"}
-[2]{.neu-step-num}[Export]{.neu-step-label}
+[Export]{.neu-step-label}
 
 - Send to:
 - Citation manager
 - (.nbib file)
 :::
 ::: {.neu-step style="--c:#5FA39B"}
-[3]{.neu-step-num}[Import]{.neu-step-label}
+[Import]{.neu-step-label}
 
 - Zotero or Mendeley
 - (free), EndNote
 - (paid)
 :::
 ::: {.neu-step style="--c:#0070C0"}
-[4]{.neu-step-num}[Cite]{.neu-step-label}
+[Cite]{.neu-step-label}
 
 - Insert citations
 - in Word with
 - the plug-in
 :::
 ::: {.neu-step style="--c:#055F56"}
-[5]{.neu-step-num}[List]{.neu-step-label}
+[List]{.neu-step-label}
 
 - Reference list
 - built for you
@@ -487,11 +487,11 @@ LIVE DEMO · 5 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#B5651D"}
-1. Import the .nbib file from the PubMed demo into Zotero
-2. Look: authors, title, journal, year, DOI, with nothing typed by hand
-3. In Word: Zotero tab, Add/Edit Citation, type 'Meyhoff'
-4. Add/Edit Bibliography: the reference list appears
-5. Document Preferences: switch Vancouver to APA and back
+- Import the .nbib file from the PubMed demo into Zotero
+- Look: authors, title, journal, year, DOI, with nothing typed by hand
+- In Word: Zotero tab, Add/Edit Citation, type 'Meyhoff'
+- Add/Edit Bibliography: the reference list appears
+- Document Preferences: switch Vancouver to APA and back
 :::
 :::
 ::: {.column width="40%"}
@@ -618,10 +618,10 @@ QUICK QUIZ · 2 min
 :::
 
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. You copy a sentence from an abstract, change two words and add \[3\]
-2. You quote one sentence word for word, in quotation marks, with \[3\]
-3. You write a finding in your own words but forget the citation
-4. You cite a paper you found quoted in a review, without reading it
+- You copy a sentence from an abstract, change two words and add \[3\]
+- You quote one sentence word for word, in quotation marks, with \[3\]
+- You write a finding in your own words but forget the citation
+- You cite a paper you found quoted in a review, without reading it
 :::
 
 ::: {.neu-output style="--c:#6C3483"}
@@ -665,8 +665,8 @@ BREAK · 15 min
 :::
 
 ::: {.neu-activity-steps style="--c:#8A99A3"}
-1. Stretch, coffee, talk to someone from another profession
-2. Think: which problem from your ward could your group work on today?
+- Stretch, coffee, talk to someone from another profession
+- Think: which problem from your ward could your group work on today?
 :::
 
 ::: {.notes}
@@ -818,10 +818,10 @@ QUICK QUIZ · 3 min
 :::
 
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. A cohort study: 'Early feeding REDUCES pneumonia in stroke patients'
-2. Primary outcome p = 0.31: 'a promising trend towards benefit'
-3. Primary outcome no difference; abstract headline: 'improved patient satisfaction'
-4. 'Mortality fell from 30% to 22% after the new protocol' (no control group)
+- A cohort study: 'Early feeding REDUCES pneumonia in stroke patients'
+- Primary outcome p = 0.31: 'a promising trend towards benefit'
+- Primary outcome no difference; abstract headline: 'improved patient satisfaction'
+- 'Mortality fell from 30% to 22% after the new protocol' (no control group)
 :::
 
 ::: {.neu-output style="--c:#6C3483"}
@@ -843,12 +843,12 @@ INDIVIDUAL TASK · 12 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0B376C"}
-1. Take the abstract of Paper 1 (Boulet 2024, Crit Care)
-2. Fill the reading grid (Exercise 3): design, P, I vs C
-3. Primary outcome, numbers screened and analysed
-4. Main result with its 95% CI and p-value
-5. Does the conclusion match the result? Any spin?
-6. Compare your grid with your neighbour
+- Take the abstract of Paper 1 (Boulet 2024, Crit Care)
+- Fill the reading grid (Exercise 3): design, P, I vs C
+- Primary outcome, numbers screened and analysed
+- Main result with its 95% CI and p-value
+- Does the conclusion match the result? Any spin?
+- Compare your grid with your neighbour
 :::
 :::
 ::: {.column width="40%"}
@@ -890,7 +890,7 @@ Go through the grid quickly; ask a different table for each row.
 
 Key points: (1) a PILOT trial with 48 analysed patients; (2) the primary outcome is cumulative fluid balance at day 5, not mortality; (3) the confidence interval for the difference (-15.2 to 41.6 ml/kg) includes zero, so no evidence of a difference; (4) the abstract conclusion matches the result (good practice); (5) the trial was registered.
 
-If a sharp participant asks: the medians (6.9 vs 35.0 ml/kg) differ by more than the reported difference of 13.2 because the difference is estimated differently from the medians. The course annotations flag this mismatch. Park it for Sessions 6-8.
+If a sharp participant asks: the medians (6.9 vs 35.0 ml/kg) differ by more than the reported difference of 13.2 because the 13.2 is a difference in means (the Methods report the mean difference with its 95% CI), not a difference in medians. The course annotations flag this mismatch. Park it for Sessions 6-8.
 
 Link to our question: this trial does NOT answer the 28-day mortality question. It answers a feasibility-type question about fluid balance. That is exactly the 'feasible rewrite' from the FINER slide.
 
@@ -1034,12 +1034,12 @@ PROPOSAL BUILDER · 33 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#055F56"}
-1. Run your search string in PubMed; write the date and number of hits
-2. Screen titles and abstracts; pick 5 key papers; export them to Zotero
-3. Fill one row per paper in the literature matrix
-4. Draft the problem statement: known, not known, why here
-5. Working title (10-16 words) + 3-6 keywords
-6. One group reads its title and gap aloud
+- Run your search string in PubMed; write the date and number of hits
+- Screen titles and abstracts; pick 5 key papers; export them to Zotero
+- Fill one row per paper in the literature matrix
+- Draft the problem statement: known, not known, why here
+- Working title (10-16 words) + 3-6 keywords
+- One group reads its title and gap aloud
 :::
 :::
 ::: {.column width="40%"}
@@ -1099,21 +1099,21 @@ Timing: 1 minute.
 
 :::: {.neu-cards style="--n:3"}
 ::: {.neu-card .plain style="--c:#0D7377"}
-[1. Search]{.neu-card-title}
+[Search]{.neu-card-title}
 
 - PICO blocks, MeSH +
 - free text; OR inside,
 - AND between; write it down
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
-[2. Cite honestly]{.neu-card-title}
+[Cite honestly]{.neu-card-title}
 
 - Reference manager
 - from day one; own
 - words; read what you cite
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
-[3. Read smart]{.neu-card-title}
+[Read smart]{.neu-card-title}
 
 - Title, abstract,
 - figures, methods;
@@ -1140,9 +1140,9 @@ QUICK QUIZ · 2 min
 :::
 
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. Which gives MORE hits: septic shock AND fluids, or septic shock OR fluids?
-2. What was the primary outcome of Paper 1?
-3. Write both answers on a sticky note (no names) and stick it on the door as you leave
+- Which gives MORE hits: septic shock AND fluids, or septic shock OR fluids?
+- What was the primary outcome of Paper 1?
+- Write both answers on a sticky note (no names) and stick it on the door as you leave
 :::
 
 ::: {.neu-output style="--c:#6C3483"}
@@ -1166,11 +1166,11 @@ INDIVIDUAL TASK
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0B376C"}
-1. Group: finish the 5 key references and the problem statement
-2. Each member: read one paper with the 15-minute routine and fill its row
-3. Everyone: read the abstract of Paper 2 (Hyun) with the reading grid
-4. Exercise 2 (paraphrasing) if not done in class
-5. Optional: look up Paper 1 (NCT04947904) on ClinicalTrials.gov
+- Group: finish the 5 key references and the problem statement
+- Each member: read one paper with the 15-minute routine and fill its row
+- Everyone: read the abstract of Paper 2 (Hyun) with the reading grid
+- Exercise 2 (paraphrasing) if not done in class
+- Optional: look up Paper 1 (NCT04947904) on ClinicalTrials.gov
 :::
 :::
 ::: {.column width="40%"}
@@ -1272,28 +1272,28 @@ Timing: 2 minutes if used.
 
 :::: {.neu-steps}
 ::: {.neu-step style="--c:#0D7377"}
-[1]{.neu-step-num}[Open]{.neu-step-label}
+[Open]{.neu-step-label}
 
 - PubMed home page:
 - Clinical Queries
 - (under Find)
 :::
 ::: {.neu-step style="--c:#0B376C"}
-[2]{.neu-step-num}[Type]{.neu-step-label}
+[Type]{.neu-step-label}
 
 - Your topic words,
 - e.g. septic shock
 - fluid restriction
 :::
 ::: {.neu-step style="--c:#5FA39B"}
-[3]{.neu-step-num}[Choose]{.neu-step-label}
+[Choose]{.neu-step-label}
 
 - Category: therapy,
 - diagnosis, etiology,
 - prognosis...
 :::
 ::: {.neu-step style="--c:#0070C0"}
-[4]{.neu-step-num}[Scope]{.neu-step-label}
+[Scope]{.neu-step-label}
 
 - Broad (finds more)
 - or narrow (more
@@ -1324,10 +1324,10 @@ LIVE DEMO · 3 min
 :::
 
 ::: {.neu-activity-steps style="--c:#B5651D"}
-1. Search: restrictive fluid septic shock mortality
-2. Look: journals, theses, preprints, ranked by a hidden algorithm
-3. Under a key trial, click 'Cited by', then search within citing articles
-4. Click the quote icon to see export formats
+- Search: restrictive fluid septic shock mortality
+- Look: journals, theses, preprints, ranked by a hidden algorithm
+- Under a key trial, click 'Cited by', then search within citing articles
+- Click the quote icon to see export formats
 :::
 
 ::: {.neu-output style="--c:#B5651D"}

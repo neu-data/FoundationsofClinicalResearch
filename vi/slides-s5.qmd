@@ -48,10 +48,10 @@ CÂU HỎI NHANH · 10 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. C1. Người hút thuốc được theo dõi 10 năm để xem ai bị đột quỵ. Đây là thiết kế gì?
-2. C2. Trong một nghiên cứu đoàn hệ, bệnh nhân nhiễm khuẩn nặng hơn được truyền nhiều dịch hơn VÀ tử vong nhiều hơn. Hiện tượng này gọi là gì?
-3. C3. Tử vong 30% với chăm sóc thường quy và 20% với chiến lược mới. RR và NNT là bao nhiêu?
-4. Trả lời một mình (2 phút), rồi so sánh với người bên cạnh (2 phút)
+- C1. Người hút thuốc được theo dõi 10 năm để xem ai bị đột quỵ. Đây là thiết kế gì?
+- C2. Trong một nghiên cứu đoàn hệ, bệnh nhân nhiễm khuẩn nặng hơn được truyền nhiều dịch hơn VÀ tử vong nhiều hơn. Hiện tượng này gọi là gì?
+- C3. Tử vong 30% với chăm sóc thường quy và 20% với chiến lược mới. RR và NNT là bao nhiêu?
+- Trả lời một mình (2 phút), rồi so sánh với người bên cạnh (2 phút)
 :::
 :::
 ::: {.column width="40%"}
@@ -142,11 +142,11 @@ CÂU HỎI NHANH · 3 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. Nhịp tim (lần/phút)
-2. Thang điểm Glasgow (3-15)
-3. Nhóm máu (A, B, AB, O)
-4. Thở máy ngày 1 (có / không)
-5. Thời gian từ khi vào ICU đến khi rút ống
+- Nhịp tim (lần/phút)
+- Thang điểm Glasgow (3-15)
+- Nhóm máu (A, B, AB, O)
+- Thở máy ngày 1 (có / không)
+- Thời gian từ khi vào ICU đến khi rút ống
 :::
 :::
 ::: {.column width="40%"}
@@ -233,31 +233,31 @@ Biến 'cân bằng dịch tích lũy' qua năm quyết định.
 
 :::: {.neu-steps}
 ::: {.neu-step style="--c:#0D7377"}
-[1]{.neu-step-num}[Cái gì?]{.neu-step-label}
+[Cái gì?]{.neu-step-label}
 
 - Dịch VÀO trừ dịch RA
 - mọi đường, kể cả pha thuốc
 :::
 ::: {.neu-step style="--c:#0B376C"}
-[2]{.neu-step-num}[Khi nào?]{.neu-step-label}
+[Khi nào?]{.neu-step-label}
 
 - Từ lúc vào ICU
 - đến hết ngày 3
 :::
 ::: {.neu-step style="--c:#5FA39B"}
-[3]{.neu-step-num}[Đơn vị?]{.neu-step-label}
+[Đơn vị?]{.neu-step-label}
 
 - ml trên kg
 - cân nặng lúc vào
 :::
 ::: {.neu-step style="--c:#0070C0"}
-[4]{.neu-step-num}[Định dạng?]{.neu-step-label}
+[Định dạng?]{.neu-step-label}
 
 - Số có dấu +/-
 - ô cho từng chữ số
 :::
 ::: {.neu-step style="--c:#055F56"}
-[5]{.neu-step-num}[Thiếu?]{.neu-step-label}
+[Thiếu?]{.neu-step-label}
 
 - Ô 'không ghi nhận'
 - + lý do
@@ -459,31 +459,31 @@ Phòng ngừa là cách chữa duy nhất đáng tin cậy.
 
 :::: {.neu-steps}
 ::: {.neu-step style="--c:#0D7377"}
-[1]{.neu-step-num}[Ít mục]{.neu-step-label}
+[Ít mục]{.neu-step-label}
 
 - Chỉ thu thập cái cần
 - Phiếu ngắn sẽ được điền đủ
 :::
 ::: {.neu-step style="--c:#0B376C"}
-[2]{.neu-step-num}[Phiếu rõ]{.neu-step-label}
+[Phiếu rõ]{.neu-step-label}
 
 - Đánh dấu trường bắt buộc
 - Có 'không làm', 'không rõ'
 :::
 ::: {.neu-step style="--c:#5FA39B"}
-[3]{.neu-step-num}[Tập huấn]{.neu-step-label}
+[Tập huấn]{.neu-step-label}
 
 - Tập huấn mọi người thu thập
 - Cùng quy tắc, cùng định nghĩa
 :::
 ::: {.neu-step style="--c:#0070C0"}
-[4]{.neu-step-num}[Kiểm tra tuần]{.neu-step-label}
+[Kiểm tra tuần]{.neu-step-label}
 
 - Báo cáo mức đầy đủ
 - Ai và cái gì bị thiếu?
 :::
 ::: {.neu-step style="--c:#055F56"}
-[5]{.neu-step-num}[Bổ sung sớm]{.neu-step-label}
+[Bổ sung sớm]{.neu-step-label}
 
 - Sửa khi hồ sơ còn ở khoa
 - Kế hoạch theo dõi ca chuyển viện
@@ -523,10 +523,10 @@ LÀM VIỆC NHÓM · 7 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0D7377"}
-1. Làm việc với người bên cạnh, phiếu bài tập 'Buổi 5, bài 1 và 2'
-2. Bài 1: phân loại 10 biến số ICU (liên tục, đếm, nhị phân, danh định, thứ bậc, thời gian đến sự kiện)
-3. Bài 2: viết lại 4 mục CRF chưa tốt để mỗi mục chỉ có một cách hiểu
-4. Sẵn sàng đọc to một mục đã viết lại
+- Làm việc với người bên cạnh, phiếu bài tập 'Buổi 5, bài 1 và 2'
+- Bài 1: phân loại 10 biến số ICU (liên tục, đếm, nhị phân, danh định, thứ bậc, thời gian đến sự kiện)
+- Bài 2: viết lại 4 mục CRF chưa tốt để mỗi mục chỉ có một cách hiểu
+- Sẵn sàng đọc to một mục đã viết lại
 :::
 :::
 ::: {.column width="40%"}
@@ -689,11 +689,11 @@ TRÌNH DIỄN TRỰC TIẾP · 8 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#B5651D"}
-1. Mở FLUID-ICU.Rproj và script 01\_clean.R
-2. Đọc tệp thô dưới dạng văn bản và xem qua
-3. Chạy từng khối cho mỗi vấn đề: tên biến, bản trùng, ICU, ngày, mã
-4. Tìm lỗi đơn vị lactat bằng tóm tắt theo ICU
-5. Khối cuối: tệp đã làm sạch giống hệt tệp tham chiếu
+- Mở FLUID-ICU.Rproj và script 01\_clean.R
+- Đọc tệp thô dưới dạng văn bản và xem qua
+- Chạy từng khối cho mỗi vấn đề: tên biến, bản trùng, ICU, ngày, mã
+- Tìm lỗi đơn vị lactat bằng tóm tắt theo ICU
+- Khối cuối: tệp đã làm sạch giống hệt tệp tham chiếu
 :::
 :::
 ::: {.column width="40%"}
@@ -858,10 +858,10 @@ LÀM VIỆC NHÓM · 4 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0D7377"}
-1. Đọc câu hỏi của nhóm trong gói kết quả (trang 1)
-2. Nêu kết cục và loại của nó; phơi nhiễm và loại của nó
-3. Tìm cả hai trong từ điển dữ liệu FLUID-ICU
-4. Viết câu hỏi thành một câu (PECO)
+- Đọc câu hỏi của nhóm trong gói kết quả (trang 1)
+- Nêu kết cục và loại của nó; phơi nhiễm và loại của nó
+- Tìm cả hai trong từ điển dữ liệu FLUID-ICU
+- Viết câu hỏi thành một câu (PECO)
 :::
 :::
 ::: {.column width="40%"}
@@ -899,9 +899,9 @@ GIẢI LAO · 15 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#8A99A3"}
-1. Vận động, cà phê, hít thở không khí
-2. Các nhóm: xem qua câu hỏi và gói kết quả của nhóm
-3. Chúng ta bắt đầu lại với 5.3: mô tả và trình bày dữ liệu
+- Vận động, cà phê, hít thở không khí
+- Các nhóm: xem qua câu hỏi và gói kết quả của nhóm
+- Chúng ta bắt đầu lại với 5.3: mô tả và trình bày dữ liệu
 :::
 :::
 ::: {.column width="40%"}
@@ -955,25 +955,25 @@ Thời gian nằm ICU của 7 bệnh nhân (ngày): 1, 2, 2, 3, 4, 6, 24
 
 :::: {.neu-steps}
 ::: {.neu-step style="--c:#0D7377"}
-[1]{.neu-step-num}[Xếp hàng]{.neu-step-label}
+[Xếp hàng]{.neu-step-label}
 
 - Sắp xếp từ ngắn
 - đến dài
 :::
 ::: {.neu-step style="--c:#0B376C"}
-[2]{.neu-step-num}[Trung vị]{.neu-step-label}
+[Trung vị]{.neu-step-label}
 
 - Người thứ 4 trong 7:
 - 3 ngày
 :::
 ::: {.neu-step style="--c:#5FA39B"}
-[3]{.neu-step-num}[Trung bình]{.neu-step-label}
+[Trung bình]{.neu-step-label}
 
 - 42 ngày / 7 bệnh nhân
 - = 6 ngày
 :::
 ::: {.neu-step style="--c:#0070C0"}
-[4]{.neu-step-num}[So sánh]{.neu-step-label}
+[So sánh]{.neu-step-label}
 
 - Một ca 24 ngày
 - làm trung bình gấp đôi
@@ -1081,10 +1081,10 @@ CÂU HỎI NHANH · 3 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. Thời gian nằm ICU của 200 bệnh nhân: trung bình (SD) hay trung vị (IQR)?
-2. Tuổi của 200 bệnh nhân ICU người lớn, hình chuông: trung bình (SD) hay trung vị (IQR)?
-3. Thở máy lúc nhập viện (có/không): tóm tắt bằng gì?
-4. Loét tì đè giai đoạn 1 đến 4: tóm tắt bằng gì, biểu đồ nào?
+- Thời gian nằm ICU của 200 bệnh nhân: trung bình (SD) hay trung vị (IQR)?
+- Tuổi của 200 bệnh nhân ICU người lớn, hình chuông: trung bình (SD) hay trung vị (IQR)?
+- Thở máy lúc nhập viện (có/không): tóm tắt bằng gì?
+- Loét tì đè giai đoạn 1 đến 4: tóm tắt bằng gì, biểu đồ nào?
 :::
 :::
 ::: {.column width="40%"}
@@ -1280,11 +1280,11 @@ TRÌNH DIỄN TRỰC TIẾP · 6 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#B5651D"}
-1. Mở 02\_describe.R và nạp dữ liệu sạch
-2. Xem hình dạng trước: biểu đồ tần suất tuổi, lactat, thời gian nằm ICU
-3. Lập Bảng 1 theo nhóm cân bằng dịch (không có giá trị p)
-4. Vẽ biểu đồ: tần suất, hộp, cột
-5. Lưu bảng và biểu đồ cho các gói kết quả
+- Mở 02\_describe.R và nạp dữ liệu sạch
+- Xem hình dạng trước: biểu đồ tần suất tuổi, lactat, thời gian nằm ICU
+- Lập Bảng 1 theo nhóm cân bằng dịch (không có giá trị p)
+- Vẽ biểu đồ: tần suất, hộp, cột
+- Lưu bảng và biểu đồ cho các gói kết quả
 :::
 :::
 ::: {.column width="40%"}
@@ -1412,11 +1412,11 @@ LÀM VIỆC NHÓM · 10 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0D7377"}
-1. Mở gói kết quả: Bảng 1 và các biểu đồ
-2. Với ba biến: dùng cách tóm tắt nào, vì sao?
-3. Các nhóm có giống nhau lúc đầu? Nêu khác biệt lớn nhất
-4. Viết hai câu mô tả bệnh nhân, như trong phần Kết quả
-5. Một nhóm đọc to các câu của mình
+- Mở gói kết quả: Bảng 1 và các biểu đồ
+- Với ba biến: dùng cách tóm tắt nào, vì sao?
+- Các nhóm có giống nhau lúc đầu? Nêu khác biệt lớn nhất
+- Viết hai câu mô tả bệnh nhân, như trong phần Kết quả
+- Một nhóm đọc to các câu của mình
 :::
 :::
 ::: {.column width="40%"}
@@ -1511,10 +1511,10 @@ XÂY DỰNG ĐỀ CƯƠNG · 30 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#055F56"}
-1. Bảng biến số: kết cục, phơi nhiễm, 3-5 yếu tố gây nhiễu, mỗi biến kèm loại (8 phút)
-2. CRF thu gọn: 6-10 mục có đơn vị, thời điểm và lựa chọn 'không rõ' (10 phút)
-3. Từ điển dữ liệu: 3-5 dòng + một quy tắc kiểm tra (6 phút)
-4. Kế hoạch quản lý dữ liệu: EDC hoặc nhập hai lần, mã số, sao lưu, chia sẻ (6 phút)
+- Bảng biến số: kết cục, phơi nhiễm, 3-5 yếu tố gây nhiễu, mỗi biến kèm loại (8 phút)
+- CRF thu gọn: 6-10 mục có đơn vị, thời điểm và lựa chọn 'không rõ' (10 phút)
+- Từ điển dữ liệu: 3-5 dòng + một quy tắc kiểm tra (6 phút)
+- Kế hoạch quản lý dữ liệu: EDC hoặc nhập hai lần, mã số, sao lưu, chia sẻ (6 phút)
 :::
 :::
 ::: {.column width="40%"}
@@ -1610,21 +1610,21 @@ Ba thông điệp mang về.
 
 :::: {.neu-cards style="--n:3"}
 ::: {.neu-card .plain style="--c:#0D7377"}
-[1. Thiết kế dữ liệu]{.neu-card-title}
+[Thiết kế dữ liệu]{.neu-card-title}
 
 - Mục CRF rõ ràng
 - Từ điển dữ liệu trước
 - Kiểm tra khi nhập
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
-[2. Giữ dữ liệu sạch]{.neu-card-title}
+[Giữ dữ liệu sạch]{.neu-card-title}
 
 - Không sửa dữ liệu gốc
 - Ghi lại mọi chỉnh sửa
 - Sao lưu, mã số
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
-[3. Mô tả trung thực]{.neu-card-title}
+[Mô tả trung thực]{.neu-card-title}
 
 - Hình dạng quyết định tóm tắt
 - Cho thấy từng bệnh nhân
@@ -1657,10 +1657,10 @@ THẢO LUẬN · 5 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#1F5C7A"}
-1. Từ khóa và tóm tắt (hai trang trước)
-2. Câu hỏi cuối buổi: một lỗi chất lượng dữ liệu tìm thấy trong FLUID-ICU, và cách sửa
-3. Về nhà: hoàn thành CRF và các dòng từ điển dữ liệu trong đề cương
-4. Đọc gói kết quả của nhóm (Bảng 1 và biểu đồ) trước Buổi 6
+- Từ khóa và tóm tắt (hai trang trước)
+- Câu hỏi cuối buổi: một lỗi chất lượng dữ liệu tìm thấy trong FLUID-ICU, và cách sửa
+- Về nhà: hoàn thành CRF và các dòng từ điển dữ liệu trong đề cương
+- Đọc gói kết quả của nhóm (Bảng 1 và biểu đồ) trước Buổi 6
 :::
 :::
 ::: {.column width="40%"}

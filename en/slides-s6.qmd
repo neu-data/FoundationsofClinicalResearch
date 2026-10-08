@@ -44,10 +44,10 @@ QUICK QUIZ · 10 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. Q1. ICU length of stay in 300 patients is right-skewed. Which summary goes in Table 1?
-2. Q2. A CRF item reads 'Lactate: \_\_\_\_'. Name two things missing.
-3. Q3. In the raw FLUID-ICU data, one age was 210. Which check catches it, and what goes in the cleaning log?
-4. Answer alone (2 min), then compare with your neighbour (2 min)
+- Q1. ICU length of stay in 300 patients is right-skewed. Which summary goes in Table 1?
+- Q2. A CRF item reads 'Lactate: \_\_\_\_'. Name two things missing.
+- Q3. In the raw FLUID-ICU data, one age was 210. Which check catches it, and what goes in the cleaning log?
+- Answer alone (2 min), then compare with your neighbour (2 min)
 :::
 :::
 ::: {.column width="40%"}
@@ -159,31 +159,31 @@ Each of these sentences appears in published papers. All are wrong.
 
 :::: {.neu-cards style="--n:5"}
 ::: {.neu-card .plain style="--c:#0D7377"}
-[1. 'Chance of H0']{.neu-card-title}
+['Chance of H0']{.neu-card-title}
 
 - p is NOT the chance
 - that there is no effect
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
-[2. 'Big effect']{.neu-card-title}
+['Big effect']{.neu-card-title}
 
 - Small p is NOT
 - a big or important effect
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
-[3. 'No effect']{.neu-card-title}
+['No effect']{.neu-card-title}
 
 - p \> 0.05 is NOT
 - proof of no effect
 :::
 ::: {.neu-card .plain style="--c:#0070C0"}
-[4. 'A trend']{.neu-card-title}
+['A trend']{.neu-card-title}
 
 - p = 0.08 is NOT
 - 'almost significant'
 :::
 ::: {.neu-card .plain style="--c:#055F56"}
-[5. 'Only p']{.neu-card-title}
+['Only p']{.neu-card-title}
 
 - p alone is NOT enough:
 - give effect + 95% CI
@@ -219,10 +219,10 @@ QUICK QUIZ · 3 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. 'HR 2.13 (95% CI 1.48-3.06)': the data are compatible with a true HR from about 1.5 to 3.1. True or false?
-2. 'p = 0.42, so the two strategies are equivalent.' True or false?
-3. 'p = 0.03 means a 3% chance that there is no effect.' True or false?
-4. 'A larger study usually gives a narrower CI.' True or false?
+- 'HR 2.13 (95% CI 1.48-3.06)': the data are compatible with a true HR from about 1.5 to 3.1. True or false?
+- 'p = 0.42, so the two strategies are equivalent.' True or false?
+- 'p = 0.03 means a 3% chance that there is no effect.' True or false?
+- 'A larger study usually gives a narrower CI.' True or false?
 :::
 :::
 ::: {.column width="40%"}
@@ -310,11 +310,11 @@ LIVE DEMO · 8 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#B5651D"}
-1. Open a free online calculator (for example OpenEpi) in the browser
-2. Two means: 70 vs 40 ml/kg, SD 35, power 80%, alpha 5% → 22 per group
-3. Two proportions: mortality 40% vs 30% → about 356 per group
-4. Change one input at a time and watch the number move
-5. Offline fallback: the Neudata sample-size spreadsheet
+- Open a free online calculator (for example OpenEpi) in the browser
+- Two means: 70 vs 40 ml/kg, SD 35, power 80%, alpha 5% → 22 per group
+- Two proportions: mortality 40% vs 30% → about 356 per group
+- Change one input at a time and watch the number move
+- Offline fallback: the Neudata sample-size spreadsheet
 :::
 :::
 ::: {.column width="40%"}
@@ -450,10 +450,10 @@ QUICK QUIZ · 3 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-1. ICU stay (skewed) in positive vs negative fluid balance groups
-2. 28-day death (yes/no) in 300 vs 300 patients
-3. Lactate at admission and 6 h later in the same 40 patients
-4. Dialysis (yes/no): 2 of 24 vs 5 of 24 patients
+- ICU stay (skewed) in positive vs negative fluid balance groups
+- 28-day death (yes/no) in 300 vs 300 patients
+- Lactate at admission and 6 h later in the same 40 patients
+- Dialysis (yes/no): 2 of 24 vs 5 of 24 patients
 :::
 :::
 ::: {.column width="40%"}
@@ -513,11 +513,11 @@ LIVE DEMO · 6 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#B5651D"}
-1. Open 03\_compare.R
-2. Age (symmetric): t-test
-3. SOFA and lactate (skewed): Mann-Whitney
-4. 28-day death (yes/no): 2x2 table and chi-square
-5. The common mistake: a t-test on skewed ICU stay
+- Open 03\_compare.R
+- Age (symmetric): t-test
+- SOFA and lactate (skewed): Mann-Whitney
+- 28-day death (yes/no): 2x2 table and chi-square
+- The common mistake: a t-test on skewed ICU stay
 :::
 :::
 ::: {.column width="40%"}
@@ -578,31 +578,31 @@ Q1, unadjusted: positive vs negative fluid balance by day 3.
 
 :::: {.neu-steps}
 ::: {.neu-step style="--c:#0D7377"}
-[1]{.neu-step-num}[Risks]{.neu-step-label}
+[Risks]{.neu-step-label}
 
 - 134/373 = 35.9%
 - 45/245 = 18.4%
 :::
 ::: {.neu-step style="--c:#0B376C"}
-[2]{.neu-step-num}[Difference]{.neu-step-label}
+[Difference]{.neu-step-label}
 
 - 17.6 percentage points
 - 95% CI 10.7 to 24.4
 :::
 ::: {.neu-step style="--c:#5FA39B"}
-[3]{.neu-step-num}[Ratio]{.neu-step-label}
+[Ratio]{.neu-step-label}
 
 - RR 1.96:
 - about twice the risk
 :::
 ::: {.neu-step style="--c:#0070C0"}
-[4]{.neu-step-num}[Test]{.neu-step-label}
+[Test]{.neu-step-label}
 
 - Chi-square
 - p \< 0.001
 :::
 ::: {.neu-step style="--c:#055F56"}
-[5]{.neu-step-num}[But...]{.neu-step-label}
+[But...]{.neu-step-label}
 
 - Unadjusted:
 - sicker patients
@@ -638,11 +638,11 @@ GROUP WORK · 7 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0D7377"}
-1. Find your outcome in your results pack (comparison table)
-2. Which test was used, and why that test?
-3. Write the result as an effect with its 95% CI (or medians with IQR)
-4. Write one sentence for your Results section: no 'significant' alone, no causal words
-5. Note one reason the comparison could be biased
+- Find your outcome in your results pack (comparison table)
+- Which test was used, and why that test?
+- Write the result as an effect with its 95% CI (or medians with IQR)
+- Write one sentence for your Results section: no 'significant' alone, no causal words
+- Note one reason the comparison could be biased
 :::
 :::
 ::: {.column width="40%"}
@@ -690,9 +690,9 @@ BREAK · 15 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#8A99A3"}
-1. Stretch, coffee, fresh air
-2. Groups: note one question about your comparison results
-3. We restart with 6.3: relationships and models
+- Stretch, coffee, fresh air
+- Groups: note one question about your comparison results
+- We restart with 6.3: relationships and models
 :::
 :::
 ::: {.column width="40%"}
@@ -903,10 +903,10 @@ GROUP WORK · 5 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0D7377"}
-1. Worksheet 'Session 6, exercise 5': a mock table on hospital-acquired delirium
-2. For each row: comparison, effect, 95% CI, does it include 1?
-3. Write ONE plain-language sentence for the main exposure
-4. Homework: exercise 6 (read a Kaplan-Meier curve)
+- Worksheet 'Session 6, exercise 5': a mock table on hospital-acquired delirium
+- For each row: comparison, effect, 95% CI, does it include 1?
+- Write ONE plain-language sentence for the main exposure
+- Homework: exercise 6 (read a Kaplan-Meier curve)
 :::
 :::
 ::: {.column width="40%"}
@@ -1020,7 +1020,7 @@ Walk through the four reading steps on the right of the figure:
 
 4. The numbers at risk under the plot show how many patients are still being followed. As they shrink, the right end of the curve rests on few patients and becomes less certain. A figure without numbers at risk hides this; reviewers will ask for them.
 
-The log-rank test compares the whole curves and gives a p-value (here p = 0.040). It does not give the size of the effect; that comes from the Cox model (next slide).
+The log-rank test compares the whole curves and gives a p-value (here p = 0.040). It does not give the size of the effect; that comes from the Cox model (section 6.4).
 
 Paper 2 shows exactly this kind of figure (Kaplan-Meier survival to day 28 in its matched cohorts).
 
@@ -1055,31 +1055,31 @@ SAP\_FLUID-ICU.md: written and signed before the database was locked.
 
 :::: {.neu-steps}
 ::: {.neu-step style="--c:#0D7377"}
-[1]{.neu-step-num}[Primary]{.neu-step-label}
+[Primary]{.neu-step-label}
 
 - 28-day death
 - logistic regression, OR
 :::
 ::: {.neu-step style="--c:#0B376C"}
-[2]{.neu-step-num}[Confounders]{.neu-step-label}
+[Confounders]{.neu-step-label}
 
 - Age, SOFA, lactate,
 - vasopressor, ventilation, CKD
 :::
 ::: {.neu-step style="--c:#5FA39B"}
-[3]{.neu-step-num}[Supportive]{.neu-step-label}
+[Supportive]{.neu-step-label}
 
 - Kaplan-Meier, log-rank
 - Cox hazard ratio
 :::
 ::: {.neu-step style="--c:#0070C0"}
-[4]{.neu-step-num}[Subgroup]{.neu-step-label}
+[Subgroup]{.neu-step-label}
 
 - ONE pre-specified:
 - heart failure
 :::
 ::: {.neu-step style="--c:#055F56"}
-[5]{.neu-step-num}[Missing data]{.neu-step-label}
+[Missing data]{.neu-step-label}
 
 - Complete case +
 - multiple imputation
@@ -1303,11 +1303,11 @@ GROUP WORK · 7 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0D7377"}
-1. Find your crude and adjusted estimates in your results pack
-2. How much did adjustment change the estimate? Why?
-3. Does the adjusted 95% CI include 1 (or 0)?
-4. Look at the imputation result in your pack: close to the main one? (details in Level 2)
-5. Write two Results sentences: crude, then adjusted, with CIs
+- Find your crude and adjusted estimates in your results pack
+- How much did adjustment change the estimate? Why?
+- Does the adjusted 95% CI include 1 (or 0)?
+- Look at the imputation result in your pack: close to the main one? (details in Level 2)
+- Write two Results sentences: crude, then adjusted, with CIs
 :::
 :::
 ::: {.column width="40%"}
@@ -1408,10 +1408,10 @@ PROPOSAL BUILDER · 30 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#055F56"}
-1. Sample-size statement: the 4 inputs and where they come from (8 min)
-2. Analysis plan: summary, test or model, effect measure + 95% CI (10 min)
-3. Confounders to adjust for, within about 10 events per variable (5 min)
-4. Missing-data plan: expected gaps, prevention, how missing data will be reported (7 min)
+- Sample-size statement: the 4 inputs and where they come from (8 min)
+- Analysis plan: summary, test or model, effect measure + 95% CI (10 min)
+- Confounders to adjust for, within about 10 events per variable (5 min)
+- Missing-data plan: expected gaps, prevention, how missing data will be reported (7 min)
 :::
 :::
 ::: {.column width="40%"}
@@ -1509,21 +1509,21 @@ Three messages to take home.
 
 :::: {.neu-cards style="--n:3"}
 ::: {.neu-card .plain style="--c:#0D7377"}
-[1. Read the CI]{.neu-card-title}
+[Read the CI]{.neu-card-title}
 
 - Effect + 95% CI
 - Where is the null?
 - p is a supporting actor
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
-[2. Adjust honestly]{.neu-card-title}
+[Adjust honestly]{.neu-card-title}
 
 - Crude vs adjusted
 - Confounders chosen
 - in advance
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
-[3. Plan first]{.neu-card-title}
+[Plan first]{.neu-card-title}
 
 - SAP before the data
 - Missing data: report,
@@ -1556,10 +1556,10 @@ DISCUSSION · 5 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#1F5C7A"}
-1. Key words and recap (previous two slides)
-2. Exit question: write one sentence explaining what '95% CI 1.48 to 3.06' tells you
-3. Homework: finish your proposal Part 3; prepare the 6-minute presentation
-4. Re-read your results pack: it becomes your Methods and Results in Session 7
+- Key words and recap (previous two slides)
+- Exit question: write one sentence explaining what '95% CI 1.48 to 3.06' tells you
+- Homework: finish your proposal Part 3; prepare the 6-minute presentation
+- Re-read your results pack: it becomes your Methods and Results in Session 7
 :::
 :::
 ::: {.column width="40%"}
@@ -1682,7 +1682,7 @@ The 95% confidence interval (17% to 47%) expresses that uncertainty: the true mo
 
 Two conditions for a sample to tell us about the population: it must be representative (selection, from Session 4) and large enough (precision, coming up).
 
-Ask: if we had studied 400 patients instead of 40, what would happen to the interval? Expected: narrower. That is the next slide.
+Ask: if we had studied 400 patients instead of 40, what would happen to the interval? Expected: narrower. That is the dance of the confidence intervals and the sample-size slide in 6.1.
 :::
 
 ## Extra: Reading a 95% CI in a real paper
@@ -1827,7 +1827,7 @@ EXTRA: Teaching point: two classic misuses of correlation.
 
 Left, agreement: a bedside lactate device against the main laboratory (simulated). r = 0.98, so many authors write 'excellent agreement'. But every point lies below the line of perfect agreement: the device reads about 0.9 mmol/L lower. Correlation measures whether values rise together, not whether they are the same. To compare two measurement methods, use a Bland-Altman plot (differences against averages, with limits of agreement).
 
-Right, causation: more fluid on day 1 goes with longer ICU stay (r = 0.85). But within each severity group there is no relationship at all; severity drives both. This is confounding again (Session 4), and the reason we adjust in models (next slides).
+Right, causation: more fluid on day 1 goes with longer ICU stay (r = 0.85). But within each severity group there is no relationship at all; severity drives both. This is confounding again (Session 4), and the reason we adjust in models (6.3 and 6.4).
 
 Ask: a new point-of-care haemoglobin meter correlates r = 0.95 with the lab. Can you replace the lab test? Expected: not yet; check agreement (bias and limits) first.
 
@@ -1843,7 +1843,7 @@ Timing: 2 minutes.
 :::
 
 ::: {.notes}
-EXTRA: Teaching point: adjustment (previous slides) assumes the exposure has the same effect in everyone. Interaction (also called effect modification, Session 4) means the effect is different in different groups.
+EXTRA: Teaching point: adjustment (6.3 and 6.4) assumes the exposure has the same effect in everyone. Interaction (also called effect modification, Session 4) means the effect is different in different groups.
 
 Left, no interaction: mortality rises with fluid balance at the same rate in patients with and without ARDS; ARDS patients simply start higher. One adjusted estimate is enough.
 
