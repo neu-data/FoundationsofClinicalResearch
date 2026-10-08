@@ -117,9 +117,9 @@ website:
           - href: levels.qmd
             text: "Tổng quan: ba cấp độ"
           - href: level2.qmd
-            text: "Cấp độ 2 — thực hành R (đang chuẩn bị)"
+            text: "Cấp độ 2: thực hành R (đang chuẩn bị)"
           - href: level3.qmd
-            text: "Cấp độ 3 — nâng cao (theo yêu cầu)"
+            text: "Cấp độ 3: nâng cao (theo yêu cầu)"
     right:
       - href: ../en/index.html
         text: "English"

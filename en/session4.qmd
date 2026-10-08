@@ -10,9 +10,9 @@ subtitle: "Week 4 · Saturday · 3 hours (15-minute break)"
 - Recap quiz on Session 3 (10 min)
 - 4.1  Bias, confounding and causation (40 min)
 - 4.2  Measuring disease and association + live 2x2 demo (30 min)
-- Break (15 min) - then two 2x2 calculations (20 min)
+- Break (15 min), then two 2x2 calculations (20 min)
 - 4.3  Beyond single studies: tests, meta-analysis, appraisal (30 min)
-- Proposal builder 4: exposure, outcomes, biases (30 min) - wrap-up
+- Proposal builder 4: exposure, outcomes, biases (30 min), then wrap-up
 
 ## Timetable
 
@@ -35,16 +35,18 @@ subtitle: "Week 4 · Saturday · 3 hours (15-minute break)"
 <div class="slides-embed"><iframe src="slides-s4.html" title="Session 4 · Bias &amp; effect: can we trust it, how big is it?" loading="lazy" allowfullscreen></iframe></div>
 ```
 
-[Open the slides full screen](slides-s4.qmd){.btn .btn-primary role="button"} — Press **F** for full screen, **S** for speaker notes, **E** to print, **Esc** for an overview.
+[Open the slides full screen](slides-s4.qmd){.btn .btn-primary role="button"}
+
+Press **F** for full screen, **S** for speaker notes, **E** to print, **Esc** for an overview.
 
 ## Downloads
 
 | | |
 |:--|:--|
-| 🎞️ **Slides (PowerPoint)** | [English](files/slides/Session_4_EN.pptx) · [Tiếng Việt](../vi/files/slides/Session_4_VN.pptx) |
-| 📝 **Exercise sheet** | [Read online](exercises-s4.qmd) · [PDF](files/sessions/s4_exercises.pdf) |
-| ✅ **Solutions** | [Read online](solutions-s4.qmd) · [PDF](files/sessions/s4_solutions.pdf) |
-| 💻 **Live-demo script** | [Read online](demo-s4.qmd) · [PDF](files/sessions/s4_demo.pdf) |
+| **Slides (PowerPoint)** | [English](files/slides/Session_4_EN.pptx) · [Tiếng Việt](../vi/files/slides/Session_4_VN.pptx) |
+| **Exercise sheet** | [Read online](exercises-s4.qmd) · [PDF](files/sessions/s4_exercises.pdf) |
+| **Solutions** | [Read online](solutions-s4.qmd) · [PDF](files/sessions/s4_solutions.pdf) |
+| **Live-demo script** | [Read online](demo-s4.qmd) · [PDF](files/sessions/s4_demo.pdf) |
 
 ## Before this session
 
@@ -62,4 +64,4 @@ subtitle: "Week 4 · Saturday · 3 hours (15-minute break)"
 
 ---
 
-[← Previous session](session3.qmd) · [Schedule](schedule.qmd) · [Next session →](session5.qmd)
+[Back to Session 3](session3.qmd) · [See the full schedule](schedule.qmd) · [Continue to Session 5](session5.qmd)

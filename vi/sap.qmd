@@ -1,5 +1,5 @@
 ---
-title: "Kế hoạch phân tích thống kê — FLUID-ICU"
+title: "Kế hoạch phân tích thống kê (FLUID-ICU)"
 ---
 
 ::: {.lang-note}
@@ -7,12 +7,12 @@ Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng 
 :::
 
 ::: {.simulated}
-**Dữ liệu mô phỏng — không phải bệnh nhân thật.** FLUID-ICU là một nghiên cứu giả định: mọi giá trị đều do chương trình máy tính tạo ra với hạt giống ngẫu nhiên cố định. Dữ liệu không mô tả bất kỳ bệnh nhân, bệnh viện hay ICU thật nào. Mọi bản thảo viết từ bộ dữ liệu này phải ghi rõ dữ liệu là mô phỏng và không bao giờ được nộp như một nghiên cứu thật.
+**Dữ liệu mô phỏng, không phải bệnh nhân thật.** FLUID-ICU là một nghiên cứu giả định: mọi giá trị đều do chương trình máy tính tạo ra với hạt giống ngẫu nhiên cố định. Dữ liệu không mô tả bất kỳ bệnh nhân, bệnh viện hay ICU thật nào. Mọi bản thảo viết từ bộ dữ liệu này phải ghi rõ dữ liệu là mô phỏng và không bao giờ được nộp như một nghiên cứu thật.
 :::
 
-📥 [PDF](files/data/SAP_FLUID-ICU.pdf)
+[Tải bản PDF](files/data/SAP_FLUID-ICU.pdf)
 
-> **SIMULATED STUDY - FOR TEACHING.** FLUID-ICU and its data are invented. This SAP shows what a plan written **before** the analysis looks like. It follows the 14 sections of `Course/Templates/Statistical_Analysis_Plan_Template.docx`.
+> **SIMULATED STUDY: FOR TEACHING.** FLUID-ICU and its data are invented. This SAP shows what a plan written **before** the analysis looks like. It follows the 14 sections of `Course/Templates/Statistical_Analysis_Plan_Template.docx`.
 
 | | |
 |---|---|

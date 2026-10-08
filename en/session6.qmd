@@ -35,16 +35,18 @@ subtitle: "Week 6 · Saturday · 3 hours (15-minute break)"
 <div class="slides-embed"><iframe src="slides-s6.html" title="Session 6 · Analyse: from sample to answer" loading="lazy" allowfullscreen></iframe></div>
 ```
 
-[Open the slides full screen](slides-s6.qmd){.btn .btn-primary role="button"} — Press **F** for full screen, **S** for speaker notes, **E** to print, **Esc** for an overview.
+[Open the slides full screen](slides-s6.qmd){.btn .btn-primary role="button"}
+
+Press **F** for full screen, **S** for speaker notes, **E** to print, **Esc** for an overview.
 
 ## Downloads
 
 | | |
 |:--|:--|
-| 🎞️ **Slides (PowerPoint)** | [English](files/slides/Session_6_EN.pptx) · [Tiếng Việt](../vi/files/slides/Session_6_VN.pptx) |
-| 📝 **Exercise sheet** | [Read online](exercises-s6.qmd) · [PDF](files/sessions/s6_exercises.pdf) |
-| ✅ **Solutions** | [Read online](solutions-s6.qmd) · [PDF](files/sessions/s6_solutions.pdf) |
-| 💻 **Live-demo script** | [Read online](demo-s6.qmd) · [PDF](files/sessions/s6_demo.pdf) |
+| **Slides (PowerPoint)** | [English](files/slides/Session_6_EN.pptx) · [Tiếng Việt](../vi/files/slides/Session_6_VN.pptx) |
+| **Exercise sheet** | [Read online](exercises-s6.qmd) · [PDF](files/sessions/s6_exercises.pdf) |
+| **Solutions** | [Read online](solutions-s6.qmd) · [PDF](files/sessions/s6_solutions.pdf) |
+| **Live-demo script** | [Read online](demo-s6.qmd) · [PDF](files/sessions/s6_demo.pdf) |
 
 ## Before this session
 
@@ -66,4 +68,4 @@ subtitle: "Week 6 · Saturday · 3 hours (15-minute break)"
 
 ---
 
-[← Previous session](session5.qmd) · [Schedule](schedule.qmd) · [Next session →](session7.qmd)
+[Back to Session 5](session5.qmd) · [See the full schedule](schedule.qmd) · [Continue to Session 7](session7.qmd)

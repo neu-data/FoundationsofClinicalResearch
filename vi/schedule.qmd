@@ -24,7 +24,7 @@ Tám tuần, mỗi **thứ Bảy** một buổi, từ **31/10 đến 19/12/2026*
 |:----|:----|---:|:------------------------------------------------------------|
 | 0:00 | 08:00 | 20 | Chào mừng, giới thiệu, lộ trình khóa học, nhóm và vai trò, nội quy lớp học |
 | 0:20 | 08:20 | 15 | Bài kiểm tra đầu khóa |
-| 0:35 | 08:35 | 35 | **1.1 Vì sao cần nghiên cứu?** Giai thoại và bằng chứng, tháp bằng chứng, chu trình nghiên cứu, các loại nghiên cứu, nghiên cứu – audit – cải tiến chất lượng, hành trình từ ý tưởng đến công bố |
+| 0:35 | 08:35 | 35 | **1.1 Vì sao cần nghiên cứu?** Giai thoại và bằng chứng, tháp bằng chứng, chu trình nghiên cứu, các loại nghiên cứu, nghiên cứu, audit và cải tiến chất lượng, hành trình từ ý tưởng đến công bố |
 | 1:10 | 09:10 | 15 | GIẢI LAO |
 | 1:25 | 09:25 | 40 | **1.2 Từ vấn đề đến câu hỏi:** câu hỏi đến từ đâu, PICO(T) qua nhiều ví dụ, câu hỏi mô tả và phân tích, câu hỏi mơ hồ và câu hỏi trả lời được, FINER (bài tập theo cặp) |
 | 2:05 | 10:05 | 20 | **1.3 Mục đích, mục tiêu, giả thuyết** (giả thuyết không và giả thuyết đối) + bài tập nhanh |
@@ -33,7 +33,7 @@ Tám tuần, mỗi **thứ Bảy** một buổi, từ **31/10 đến 19/12/2026*
 
 \*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
 
-[Trang buổi học →](session1.qmd)
+[Mở Buổi 1](session1.qmd)
 :::
 
 ::: {.callout-note collapse="true" appearance="simple"}
@@ -52,7 +52,7 @@ Tám tuần, mỗi **thứ Bảy** một buổi, từ **31/10 đến 19/12/2026*
 
 \*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
 
-[Trang buổi học →](session2.qmd)
+[Mở Buổi 2](session2.qmd)
 :::
 
 ::: {.callout-note collapse="true" appearance="simple"}
@@ -71,7 +71,7 @@ Tám tuần, mỗi **thứ Bảy** một buổi, từ **31/10 đến 19/12/2026*
 
 \*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
 
-[Trang buổi học →](session3.qmd)
+[Mở Buổi 3](session3.qmd)
 :::
 
 ::: {.callout-note collapse="true" appearance="simple"}
@@ -90,7 +90,7 @@ Tám tuần, mỗi **thứ Bảy** một buổi, từ **31/10 đến 19/12/2026*
 
 \*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
 
-[Trang buổi học →](session4.qmd)
+[Mở Buổi 4](session4.qmd)
 :::
 
 ::: {.callout-note collapse="true" appearance="simple"}
@@ -109,7 +109,7 @@ Tám tuần, mỗi **thứ Bảy** một buổi, từ **31/10 đến 19/12/2026*
 
 \*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
 
-[Trang buổi học →](session5.qmd)
+[Mở Buổi 5](session5.qmd)
 :::
 
 ::: {.callout-note collapse="true" appearance="simple"}
@@ -128,7 +128,7 @@ Tám tuần, mỗi **thứ Bảy** một buổi, từ **31/10 đến 19/12/2026*
 
 \*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
 
-[Trang buổi học →](session6.qmd)
+[Mở Buổi 6](session6.qmd)
 :::
 
 ::: {.callout-note collapse="true" appearance="simple"}
@@ -147,7 +147,7 @@ Tám tuần, mỗi **thứ Bảy** một buổi, từ **31/10 đến 19/12/2026*
 
 \*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
 
-[Trang buổi học →](session7.qmd)
+[Mở Buổi 7](session7.qmd)
 :::
 
 ::: {.callout-note collapse="true" appearance="simple"}
@@ -157,14 +157,14 @@ Tám tuần, mỗi **thứ Bảy** một buổi, từ **31/10 đến 19/12/2026*
 |:----|:----|---:|:------------------------------------------------------------|
 | 0:00 | 08:00 | 5 | Ôn tập |
 | 0:05 | 08:05 | 25 | **8.1 Viết bài báo (II):** phễu Đặt vấn đề, sáu bước của Bàn luận, ngôn ngữ chừng mực, kết luận, tóm tắt, tiêu đề và từ khóa |
-| 0:30 | 08:30 | 30 | **[DS] Thực hành bản thảo 2:** Đặt vấn đề, Bàn luận, Tóm tắt và Tiêu đề → bản nháp hoàn chỉnh |
+| 0:30 | 08:30 | 30 | **[DS] Thực hành bản thảo 2:** Đặt vấn đề, Bàn luận, Tóm tắt và Tiêu đề để có bản nháp hoàn chỉnh |
 | 1:00 | 09:00 | 15 | GIẢI LAO |
 | 1:15 | 09:15 | 25 | **8.2 Công bố:** hướng dẫn báo cáo (**trình diễn EQUATOR**), chọn tạp chí, truy cập mở và giấy phép, tạp chí săn mồi, hồ sơ nộp bài, phản biện, trả lời phản biện, bị từ chối và nộp lại, bản in thử, tóm tắt hội nghị |
-| 1:40 | 09:40 | 20 | **8.3 Làm người phản biện:** thẩm định đơn giản Bài báo 1–2 (ghép mảnh, bảng kiểm 10 câu hỏi) — luyện tập cho phản biện bản thảo sau khóa học |
+| 1:40 | 09:40 | 20 | **8.3 Làm người phản biện:** thẩm định đơn giản Bài báo 1–2 (ghép mảnh, bảng kiểm 10 câu hỏi), để luyện tập cho phản biện bản thảo sau khóa học |
 | 2:00 | 10:00 | 45 | **Các nhóm trình bày:** đề cương nghiên cứu của nhóm + kế hoạch công bố (5 nhóm × 6 phút + 2 phút góp ý) + 5 phút tóm tắt phần bản thảo |
-| 2:45 | 10:45 | 15 | Bài kiểm tra cuối khóa, đánh giá khóa học, bước tiếp theo (trao đổi bản thảo để phản biện chéo — bài về nhà) |
+| 2:45 | 10:45 | 15 | Bài kiểm tra cuối khóa, đánh giá khóa học, bước tiếp theo (trao đổi bản thảo để phản biện chéo, làm ở nhà) |
 
 \*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
 
-[Trang buổi học →](session8.qmd)
+[Mở Buổi 8](session8.qmd)
 :::

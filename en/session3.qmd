@@ -12,7 +12,7 @@ subtitle: "Week 3 · Saturday · 3 hours (15-minute break)"
 - Break (15 min)
 - 3.2  More designs: trial variants, pilots, quality improvement, qualitative (35 min)
 - Exercise: choose the design for 5 questions (20 min)
-- Proposal builder 3: design, setting and population (35 min) - wrap-up
+- Proposal builder 3: design, setting and population (35 min), then wrap-up
 
 ## Timetable
 
@@ -35,15 +35,17 @@ subtitle: "Week 3 · Saturday · 3 hours (15-minute break)"
 <div class="slides-embed"><iframe src="slides-s3.html" title="Session 3 · Design: choosing the right study" loading="lazy" allowfullscreen></iframe></div>
 ```
 
-[Open the slides full screen](slides-s3.qmd){.btn .btn-primary role="button"} — Press **F** for full screen, **S** for speaker notes, **E** to print, **Esc** for an overview.
+[Open the slides full screen](slides-s3.qmd){.btn .btn-primary role="button"}
+
+Press **F** for full screen, **S** for speaker notes, **E** to print, **Esc** for an overview.
 
 ## Downloads
 
 | | |
 |:--|:--|
-| 🎞️ **Slides (PowerPoint)** | [English](files/slides/Session_3_EN.pptx) · [Tiếng Việt](../vi/files/slides/Session_3_VN.pptx) |
-| 📝 **Exercise sheet** | [Read online](exercises-s3.qmd) · [PDF](files/sessions/s3_exercises.pdf) |
-| ✅ **Solutions** | [Read online](solutions-s3.qmd) · [PDF](files/sessions/s3_solutions.pdf) |
+| **Slides (PowerPoint)** | [English](files/slides/Session_3_EN.pptx) · [Tiếng Việt](../vi/files/slides/Session_3_VN.pptx) |
+| **Exercise sheet** | [Read online](exercises-s3.qmd) · [PDF](files/sessions/s3_exercises.pdf) |
+| **Solutions** | [Read online](solutions-s3.qmd) · [PDF](files/sessions/s3_solutions.pdf) |
 
 ## Before this session
 
@@ -52,7 +54,7 @@ subtitle: "Week 3 · Saturday · 3 hours (15-minute break)"
 
 ## After this session (homework)
 
-- **Group:** carry on with Proposal Part 2 — design and justification, setting, population.
+- **Group:** carry on with Proposal Part 2: design and justification, setting, population.
 - Think about which designs could answer your group's question and what each could claim.
 
 ## Related materials
@@ -62,4 +64,4 @@ subtitle: "Week 3 · Saturday · 3 hours (15-minute break)"
 
 ---
 
-[← Previous session](session2.qmd) · [Schedule](schedule.qmd) · [Next session →](session4.qmd)
+[Back to Session 2](session2.qmd) · [See the full schedule](schedule.qmd) · [Continue to Session 4](session4.qmd)

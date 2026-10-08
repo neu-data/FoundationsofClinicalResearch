@@ -1,15 +1,15 @@
-# Foundations of Clinical Research — course website
+# Foundations of Clinical Research: course website
 
 **Live site:** <https://neu-data.github.io/FoundationsofClinicalResearch/> (English: `/en/` · Tiếng Việt: `/vi/`)
 
 <p align="center"><img src="en/images/course-poster.png" alt="Course poster" width="520"></p>
 
-The bilingual website of the Neudata course *Foundations of Clinical Research — From Clinical Question to
+The bilingual website of the Neudata course *Foundations of Clinical Research: From Clinical Question to
 Publication* (8 Saturdays · one session per week · 24 contact hours), with trainers Vương Mỹ Lượng & Bernard Osang'ir.
 
 This repository only holds the **generated website sources**. The course materials and the generator
-(`site/build.py`) live in a private Neudata repository; do not edit the files here by hand — change the course
-sources, run `python site/build.py` there, and copy the contents of `site/_publish/` here.
+(`site/build.py`) live in a private Neudata repository. Do not edit the files here by hand. Instead, change the
+course sources, run `python site/build.py` there, and copy the contents of `site/_publish/` here.
 
 | Folder | What it is |
 |---|---|

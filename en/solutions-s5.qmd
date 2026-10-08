@@ -1,8 +1,8 @@
 ---
-title: "Session 5 — Solutions"
+title: "Session 5: Solutions"
 ---
 
-📥 [PDF](files/sessions/s5_solutions.pdf) · [Session page](session5.qmd)
+[Download the PDF](files/sessions/s5_solutions.pdf) · [Back to Session 5](session5.qmd)
 
 **Foundations of Clinical Research** · instructor copy (do not distribute before the session)
 
@@ -11,29 +11,29 @@ Exercise numbers follow `Practicals/s5_exercises.md`. All FLUID-ICU numbers come
 
 * * *
 
-## Exercise 1 — Classify the variables
+## Exercise 1: Classify the variables
 
 | # | Variable | Answer | Explanation |
 |---|---|---|---|
-| a | Age (years) | **Continuous** | Measured on a scale; keep the exact number on the CRF (or collect date of birth). |
+| a | Age (years) | **Continuous** | Measured on a scale. Keep the exact number on the CRF (or collect date of birth). |
 | b | Sex | **Binary** | Two categories. Coding 1/2 does not make it numerical. |
 | c | Glasgow Coma Scale | **Ordinal** | Ordered scores (3–15) with unequal steps. Often *analysed* like a number, which is acceptable if stated, but it is ordinal by nature. |
 | d | Source of sepsis | **Nominal** | Several categories, no natural order. |
 | e | Number of vasopressors | **Count** | Whole numbers 0–3. Accept "ordinal" if the pair argues it well; not continuous. |
-| f | Cumulative fluid balance (ml/kg) | **Continuous** | Can be negative or positive; any value on the scale. The Paper 1 primary outcome. |
+| f | Cumulative fluid balance (ml/kg) | **Continuous** | Can be negative or positive, with any value on the scale. The Paper 1 primary outcome. |
 | g | Alive at day 28 | **Binary** | Yes/no. |
 | h | Time to death, censored at day 28 | **Time-to-event** | Two pieces of information: how long, and whether the event happened. Analysed with Kaplan–Meier / Cox. |
 | i | Pain none–severe | **Ordinal** | Ordered categories. |
 | j | Blood group | **Nominal** | No order. |
 
-**Bonus:** any continuous variable (age, fluid balance, lactate). You can always group later; you cannot recover the exact value from a group.
+**Bonus:** any continuous variable (age, fluid balance, lactate). You can always group later, but you cannot recover the exact value from a group.
 
 **Common errors:** GCS called continuous; time-to-death called continuous (ignores censoring); number of vasopressors called continuous.
 
 
 * * *
 
-## Exercise 2 — Fix the bad CRF items (model answers)
+## Exercise 2: Fix the bad CRF items (model answers)
 
 | # | Bad item | Problem | Model rewrite |
 |---|---|---|---|
@@ -47,7 +47,7 @@ Accept any version that passes the four checks (unit, time point, one reading, u
 
 * * *
 
-## Exercise 3 — Choose the right summary
+## Exercise 3: Choose the right summary
 
 | # | Variable | Shape / type | Summary | Graph |
 |---|---|---|---|---|
@@ -61,9 +61,9 @@ Accept any version that passes the four checks (unit, time point, one reading, u
 
 * * *
 
-## Exercise 4 — Judge a bad figure
+## Exercise 4: Judge a bad figure
 
-1. Each bar is the **mean** fluid balance per group; the error bar is the **standard error (SE)**, shown in one direction only. Missing: the individual patients, the spread (SD or IQR), the shape (skew), the n per group on the figure, and what the error bar represents.
+1. Each bar is the **mean** fluid balance per group. The error bar is the **standard error (SE)**, shown in one direction only. Missing: the individual patients, the spread (SD or IQR), the shape (skew), the n per group on the figure, and what the error bar represents.
 2. Any two of: the data are **skewed**; **one extreme patient** (160 ml/kg) pulls the usual-care mean up; the groups **overlap** a lot; the median; the number of patients; negative values.
 3. Dots (one per patient) plus a boxplot per group (see the "dots + box" slide), y-axis labelled with units, n under each group. You gain: shape, spread, outliers and overlap become visible, and the reader can judge the comparison.
 4. The truncated axis makes a 2-percentage-point difference (31% vs 29%) look like a three-fold difference. Fix: start bars at 0 and label the values (or show the difference with its 95% CI).
@@ -72,7 +72,7 @@ Accept any version that passes the four checks (unit, time point, one reading, u
 
 * * *
 
-## Exercise 5 — [DS] Spot the problems in the raw FLUID-ICU data
+## Exercise 5: [DS] Spot the problems in the raw FLUID-ICU data
 
 (See `Course/Data/cleaning_log.md` for the full log.)
 
@@ -83,20 +83,20 @@ Accept any version that passes the four checks (unit, time point, one reading, u
 | c | ICU C reported lactate in mg/dL, not mmol/L (about 9 times larger; found by comparing medians by ICU) | Divide ICU C values by 9.01 (1 mmol/L = 9.01 mg/dL); confirm with the site laboratory |
 | d | `999` is a missing-value code, not a lactate | Set to missing (NA) |
 | e | Impossible age (outside the allowed range) | Set to missing, send a query to the site; keep the patient |
-| f | Duplicate record | Check the two rows are identical, keep one copy (623 rows → 620 patients) |
+| f | Duplicate record | Check the two rows are identical, keep one copy (623 rows become 620 patients) |
 
-Bonus: editing by hand is invisible and not reproducible; a script plus a log lets anyone check and repeat every change. The log records the problem, how many records, what was done, and why (plus queries sent).
+Bonus: editing by hand is invisible and not reproducible. A script plus a log lets anyone check and repeat every change. The log records the problem, how many records, what was done, and why (plus queries sent).
 
 
 * * *
 
-## Exercise 6 — [DS] Read your group's Table 1
+## Exercise 6: [DS] Read your group's Table 1
 
 All numbers from `Course/Data/key_results.md` (simulated data).
 
 1. Negative balance n = 245, positive n = 373, overall 618. Two of the 620 enrolled patients have no computable day-3 fluid balance (an impossible weight or fluid output was set to missing during cleaning), so they cannot be placed in a group.
-2. Expected answers: age — mean (SD), roughly symmetric (64.6 vs 61.4 years); SOFA — median (IQR), a skewed score (6 (4 to 8) vs 8 (6 to 10)); lactate — median (IQR), right-skewed (2.2 (1.4 to 3.0) vs 2.9 (1.9 to 4.0) mmol/L); vasopressor, ventilation, heart failure, sex — n (%).
-3. Severity: SOFA 8 vs 6; vasopressor 205/373 (55.0%) vs 61/245 (24.9%); mechanical ventilation 216/373 (57.9%) vs 97/245 (39.6%). (Heart failure goes the other way: 43/373 (11.5%) vs 54/245 (22.0%) — clinicians give less fluid in heart failure.)
+2. Expected answers: mean (SD) for age, which is roughly symmetric (64.6 vs 61.4 years); median (IQR) for SOFA, a skewed score (6 (4 to 8) vs 8 (6 to 10)); median (IQR) for lactate, which is right-skewed (2.2 (1.4 to 3.0) vs 2.9 (1.9 to 4.0) mmol/L); n (%) for vasopressor, ventilation, heart failure and sex.
+3. Severity: SOFA 8 vs 6; vasopressor 205/373 (55.0%) vs 61/245 (24.9%); mechanical ventilation 216/373 (57.9%) vs 97/245 (39.6%). (Heart failure goes the other way: 43/373 (11.5%) vs 54/245 (22.0%), because clinicians give less fluid in heart failure.)
 4. Lactate: 91 missing among the 618 (93 of all 620 enrolled, 15.0%).
 5. Model sentences: "Of 620 enrolled patients, 618 had a computable day-3 fluid balance, of whom 373 (60.4%) had a positive balance. Patients with a positive balance were more severely ill at admission (median SOFA 8 vs 6; vasopressor 55.0% vs 24.9%; mechanical ventilation 57.9% vs 39.6%)."
 6. Larger: the positive-balance group was sicker, and sicker patients die more, so the crude association mixes fluid with severity (confounding by indication). Confirmed in Session 6: crude OR 2.49 vs adjusted 1.62.
@@ -104,7 +104,7 @@ All numbers from `Course/Data/key_results.md` (simulated data).
 
 * * *
 
-## Exercise 7 — [DS] Your group's question
+## Exercise 7: [DS] Your group's question
 
 | Q | Outcome (type) | Exposure (type) | Planned comparison / model |
 |---|---|---|---|
@@ -119,7 +119,7 @@ Example (Q1): "In adults with sepsis admitted to the ICU, is a positive cumulati
 
 * * *
 
-## Exercise 8 — Proposal builder 5 (what a good answer looks like)
+## Exercise 8: Proposal builder 5 (what a good answer looks like)
 
 **Variables table**
 
@@ -130,7 +130,7 @@ Example (Q1): "In adults with sepsis admitted to the ICU, is a positive cumulati
 | Intervention | Restrictive vs usual fluid strategy | Randomised allocation | Binary |
 | Baseline / confounders | Age, SOFA score, lactate at admission, source of sepsis | CRF at ICU admission | Continuous, ordinal-like score, continuous, nominal |
 
-**Sample size:** 40% vs 30% mortality, alpha 5% two-sided, power 80% → 356 per group (spreadsheet sheet 2); /(1 − 0.10) → 396 per group, 792 in total.
+**Sample size:** 40% vs 30% mortality, alpha 5% two-sided, power 80% gives 356 per group (spreadsheet sheet 2). Dividing by (1 − 0.10) gives 396 per group, 792 in total.
 
 **Analysis plan:** describe with mean (SD) / median (IQR) / n (%); compare 28-day mortality with a chi-square test; report the risk ratio and risk difference with 95% CIs; fluid balance compared with Mann–Whitney and reported as median (IQR) per group. (Observational designs: add "adjusted for age, SOFA and lactate using logistic regression".)
 

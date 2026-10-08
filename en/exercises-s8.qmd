@@ -1,22 +1,22 @@
 ---
-title: "Session 8 — Exercise sheet"
+title: "Session 8: Exercise sheet"
 ---
 
-📥 [PDF](files/sessions/s8_exercises.pdf) · [Session page](session8.qmd)
+[Download the PDF](files/sessions/s8_exercises.pdf) · [Back to Session 8](session8.qmd)
 
-**Foundations of Clinical Research · Session 8 (Week 8, Saturday): Publish — finish the paper, get it out, present**
+**Foundations of Clinical Research · Session 8 (Week 8, Saturday): Publish (finish the paper, get it out, present)**
 
 | Part | Exercise | When | Time |
 |---|---|---|---|
 | A | Writing exercises: fix the spin, verb ladder, results sentence, title from PICO | warm-up / homework | 15 min |
-| B | **[DS] Manuscript workshop 2** — Introduction, Discussion, Abstract, Title | 0:30 | 30 min |
+| B | **[DS] Manuscript workshop 2**: Introduction, Discussion, Abstract, Title | 0:30 | 30 min |
 | C | Getting published: spot the predatory journal; responding to reviewers | at home | 25 min |
-| D | **Student appraisal pack — "Be the reviewer"** | 1:40 | 20 min |
+| D | **Student appraisal pack: "Be the reviewer"** | 1:40 | 20 min |
 
 
 * * *
 
-## Part A — Writing exercises (section 8.1; warm-up or homework)
+## Part A: Writing exercises (section 8.1; warm-up or homework)
 
 Use these to practise before or after Manuscript workshop 2: A2 and A3 can be done in class if a group finishes early; the rest are homework.
 
@@ -60,39 +60,39 @@ Word count: ____  Design named? ☐  Calibrated verb (association for observatio
 
 * * *
 
-## Part B — [DS] Manuscript workshop 2: complete the draft (30 minutes)
+## Part B: [DS] Manuscript workshop 2: complete the draft (30 minutes)
 
-Start from last week's file (`FLUID-ICU_Q[n]_draft1`). Today you add the **Introduction, Discussion, Abstract and Title** — and the draft is complete.
+Start from last week's file (`FLUID-ICU_Q[n]_draft1`). Today you add the **Introduction, Discussion, Abstract and Title**, and the draft is complete.
 
 ### Roles and timing
 | Minute | Who | Task |
 |---|---|---|
-| 0–8 | 2 people | **Introduction** — three paragraphs (known → not known → aim), ~350 words, references from Sessions 1–2 + Papers 1–2 |
-| 0–15 | 3 people | **Discussion** — six moves (answer, compare, explain, limitations with direction, implications, conclusion), ~600 words |
+| 0–8 | 2 people | **Introduction**: three paragraphs (known → not known → aim), ~350 words, references from Sessions 1–2 + Papers 1–2 |
+| 0–15 | 3 people | **Discussion**: six moves (answer, compare, explain, limitations with direction, implications, conclusion), ~600 words |
 | 0–15 | 1 person | Number and verb checker: reads Methods + Results again; prepares the abstract numbers |
-| 15–23 | all | **Abstract** — Background / Methods / Results / Conclusions, ≤ 250 words, numbers copied from the Results |
+| 15–23 | all | **Abstract**: Background / Methods / Results / Conclusions, ≤ 250 words, numbers copied from the Results |
 | 23–27 | all | **Title** (10–16 words, design stated, calibrated verb) + 3–6 keywords (MeSH, not already in the title) |
-| 27–30 | checker | Verb check: every "cause", "impact", "effect of", "show" → "associated with"; every number identical in abstract and Results |
+| 27–30 | checker | Verb check: change every "cause", "impact", "effect of" and "show" to "associated with". Make every number identical in abstract and Results. |
 
-### Discussion — six moves checklist
+### Discussion: six moves checklist
 - [ ] **1 Answer**: first sentence answers the question with the main number (adjusted estimate + 95% CI)
-- [ ] **2 Compare**: with Paper 2 and at least one other study — and why results may differ
+- [ ] **2 Compare**: with Paper 2 and at least one other study, and why results may differ
 - [ ] **3 Explain**: one short paragraph on mechanism / plausibility
-- [ ] **4 Limitations**: observational design (residual confounding — especially severity), simulated/teaching data, missing data, single time point… each with its likely *direction*
+- [ ] **4 Limitations**: observational design (residual confounding, especially severity), simulated/teaching data, missing data, single time point… each with its likely *direction*
 - [ ] **5 Implications**: for practice (cautious) and research (e.g. a randomised trial such as Paper 1)
 - [ ] **6 Conclusion**: one sentence, same verb and message as the abstract and title
 
 ### Group-specific reminders
-- **Q1:** crude and adjusted ORs differ — explain confounding by indication in move 3/4.
-- **Q2:** AKI may also *cause* fluid accumulation (reverse causation) — say so.
-- **Q3:** ventilator-free days are skewed and include death as zero — explain what the measure means.
+- **Q1:** crude and adjusted ORs differ. Explain confounding by indication in move 3/4.
+- **Q2:** AKI may also *cause* fluid accumulation (reverse causation). Say so.
+- **Q3:** ventilator-free days are skewed and include death as zero. Explain what the measure means.
 - **Q4:** compare complete-case and multiple-imputation estimates; say what the missing-data assumption (MAR) means for your conclusion.
-- **Q5:** survivors only — those who died are excluded, so say who the result applies to.
+- **Q5:** survivors only. Those who died are excluded, so say who the result applies to.
 
 ### Deliverable
 A complete draft (~2,000 words, Template: `Templates/Manuscript_Template_IMRaD.docx`) saved as `FLUID-ICU_Q[n]_draft2`. After the course: peer-review swap (2 weeks) using the 10-question checklist (Part D) and a response letter (`Templates/Response_to_Reviewers_Template.docx`).
 
-## Part C — Getting published (section 8.2, at home)
+## Part C: Getting published (section 8.2, at home)
 
 ### C1. Spot the predatory journal
 
@@ -118,7 +118,7 @@ A complete draft (~2,000 words, Template: `Templates/Manuscript_Template_IMRaD.d
 | J3: Open access, listed in DOAJ, small society journal, no impact factor yet, clear peer-review and retraction policy. | | |
 | J4: Its name differs by one word from a well-known journal; the website address is different from the real journal's; it e-mailed you first. | | |
 
-**3. Three checks you can always do:** Think.Check.Submit checklist · DOAJ (open-access journals) · NLM Catalog ("currently indexed in MEDLINE") — and ask your librarian.
+**3. Three checks you can always do:** Think.Check.Submit checklist · DOAJ (open-access journals) · NLM Catalog ("currently indexed in MEDLINE"). You can also ask your librarian.
 
 
 * * *
@@ -139,15 +139,15 @@ Tone checklist: ☐ thanked the reviewer ☐ answered every point ☐ said where
 
 * * *
 
-## Part D — Student appraisal pack: "Be the reviewer" (20 minutes, 1:40)
+## Part D: Student appraisal pack ("Be the reviewer") (20 minutes, 1:40)
 
 ### What you are doing
-Two published papers answer our running question — **fluids in septic shock** — with different designs:
+Two published papers answer our running question (**fluids in septic shock**) with different designs:
 
 | | Paper | Design | Who appraises it |
 |---|---|---|---|
-| **Paper 1** | Boulet N, et al. *Crit Care* 2024;28:429 — restrictive strategy targeting non-resuscitative fluids (OPTIFLUID) | Randomised controlled pilot trial, 48 patients | **Groups 1, 2, 3** |
-| **Paper 2** | Hyun D-G, et al. *Ann Intensive Care* 2023;13:105 — cumulative positive fluid balance in the first three ICU days | Propensity-score-matched cohort from a sepsis registry, 2516 patients | **Groups 4, 5** |
+| **Paper 1** | Boulet N, et al. *Crit Care* 2024;28:429 (restrictive strategy targeting non-resuscitative fluids, OPTIFLUID) | Randomised controlled pilot trial, 48 patients | **Groups 1, 2, 3** |
+| **Paper 2** | Hyun D-G, et al. *Ann Intensive Care* 2023;13:105 (cumulative positive fluid balance in the first three ICU days) | Propensity-score-matched cohort from a sepsis registry, 2516 patients | **Groups 4, 5** |
 
 You do **not** need to understand every statistic. Answer each question **Yes / No / Can't tell** and write **the page** where you found the answer. "Can't tell" is a good answer when the paper does not say.
 
@@ -163,11 +163,11 @@ You do **not** need to understand every statistic. Answer each question **Yes / 
 
 Then the plenary (8 minutes): each group reports for 1 minute on the questions the instructor assigns, and we compare what each design may claim.
 
-> **Tip:** read the papers' abstracts at home during the week before (Session 7 homework) — the 10 minutes then go much further.
+> **Tip:** read the papers' abstracts at home during the week before (Session 7 homework). The 10 minutes then go much further.
 > **After the course** you use the **same 10 questions** to review another group's FLUID-ICU manuscript (peer-review swap, 2 weeks).
 
 ### Where to look
-| Question | Paper 1 (RCT) — pages | Paper 2 (cohort) — pages |
+| Question | Paper 1 (RCT): pages | Paper 2 (cohort): pages |
 |---|---|---|
 | 1 Question | Abstract (p.1); last paragraph of Background (p.3) | Abstract (p.1); end of Background (p.2) |
 | 2 Design | Title (p.1); "Trial design and oversight" (p.3) | Title (p.1); Methods (pp.2–3) |
@@ -178,23 +178,23 @@ Then the plenary (8 minutes): each group reports for 1 minute on the questions t
 | 7 Numbers | "Primary outcome" (p.6); Table 3 (p.10) | Abstract (p.1); "Outcomes" (p.4) |
 | 8 Words vs design | Abstract conclusion (p.1); Discussion (pp.8, 10); Conclusions (p.11) | Title (p.1); Abstract conclusion (p.1); Discussion (pp.4, 7); Conclusions (p.8) |
 | 9 Limitations | Discussion (pp.8–10) | Discussion (pp.7–8) |
-| 10 Use | Your judgement — whole paper | Your judgement — whole paper |
+| 10 Use | Your judgement (whole paper) | Your judgement (whole paper) |
 
 ### Answer grid
 Group number: ____   Paper: 1 / 2   Speaker: ______________
 
 | # | Question (simplified appraisal checklist) | Yes | No | Can't tell | Page | Notes (one line) |
 |---|---|---|---|---|---|---|
-| 1 | **Question** — Can you write the study's PICO in one line? | ☐ | ☐ | ☐ | | P: … I/E: … C: … O: … |
-| 2 | **Design** — What is the design, and is it the right one for the question? | ☐ | ☐ | ☐ | | |
-| 3 | **Participants** — Who was included, and who was left out? Would your patients have been included? | ☐ | ☐ | ☐ | | |
-| 4 | **Comparison groups** — Were the groups similar at the start (Table 1)? How was this achieved (randomisation / matching / adjustment)? | ☐ | ☐ | ☐ | | |
-| 5 | **Bias** — Who knew which group patients were in (blinding)? Could that change the outcome? | ☐ | ☐ | ☐ | | |
-| 6 | **Outcome** — Was there ONE pre-specified primary outcome, measured the same way in both groups? | ☐ | ☐ | ☐ | | |
-| 7 | **Numbers** — What is the main result as an effect size with 95% CI? Is the CI narrow or wide? | ☐ | ☐ | ☐ | | Effect: ……… 95% CI: ……… |
-| 8 | **Words vs design** — Do the conclusions match the design ("associated" vs "caused"; no "trend" for p = 0.42)? | ☐ | ☐ | ☐ | | Words found: |
-| 9 | **Limitations** — Are the main limitations stated honestly? Name one the authors missed. | ☐ | ☐ | ☐ | | Missed: |
-| 10 | **Use** — Would this change practice in your unit? Why / why not? | ☐ | ☐ | ☐ | | |
+| 1 | **Question**: Can you write the study's PICO in one line? | ☐ | ☐ | ☐ | | P: … I/E: … C: … O: … |
+| 2 | **Design**: What is the design, and is it the right one for the question? | ☐ | ☐ | ☐ | | |
+| 3 | **Participants**: Who was included, and who was left out? Would your patients have been included? | ☐ | ☐ | ☐ | | |
+| 4 | **Comparison groups**: Were the groups similar at the start (Table 1)? How was this achieved (randomisation / matching / adjustment)? | ☐ | ☐ | ☐ | | |
+| 5 | **Bias**: Who knew which group patients were in (blinding)? Could that change the outcome? | ☐ | ☐ | ☐ | | |
+| 6 | **Outcome**: Was there ONE pre-specified primary outcome, measured the same way in both groups? | ☐ | ☐ | ☐ | | |
+| 7 | **Numbers**: What is the main result as an effect size with 95% CI? Is the CI narrow or wide? | ☐ | ☐ | ☐ | | Effect: ……… 95% CI: ……… |
+| 8 | **Words vs design**: Do the conclusions match the design ("associated" vs "caused"; no "trend" for p = 0.42)? | ☐ | ☐ | ☐ | | Words found: |
+| 9 | **Limitations**: Are the main limitations stated honestly? Name one the authors missed. | ☐ | ☐ | ☐ | | Missed: |
+| 10 | **Use**: Would this change practice in your unit? Why / why not? | ☐ | ☐ | ☐ | | |
 
 **Our verdict in one sentence:** ______________________________________________
 
@@ -203,6 +203,6 @@ Group number: ____   Paper: 1 / 2   Speaker: ______________
 ### Hints if you are stuck
 - **Q1:** the PICO is usually in the last paragraph of the Introduction ("we aimed to …"). Is the paper's outcome the same as in our running question (28-day mortality)?
 - **Q4:** a randomised trial makes groups similar by chance; a cohort can only match or adjust for what was measured. Find the sentence that says which.
-- **Q5:** who decided how much fluid each patient received — and did they know the group?
+- **Q5:** who decided how much fluid each patient received, and did they know the group?
 - **Q7:** look for "difference" or "HR" followed by brackets. Does the interval include 0 (for a difference) or 1 (for a ratio)?
 - **Q8:** search for the words *impact, show, trend, ever, regardless*.

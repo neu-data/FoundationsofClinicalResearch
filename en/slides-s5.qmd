@@ -1,6 +1,6 @@
 ---
 title: "Session 5 · Data: collect it well, describe it honestly"
-subtitle: "Foundations of Clinical Research — From Clinical Question to Publication"
+subtitle: "Foundations of Clinical Research: From Clinical Question to Publication"
 author: "Vương Mỹ Lượng & Bernard Osang'ir"
 institute: "Neudata Consulting Ltd"
 lang: en
@@ -100,7 +100,7 @@ Bad data cannot be rescued by good statistics.
 ::: {.notes}
 Section 5.1 opener (35 minutes: variable types with a check, CRF design with a worked example, data dictionary, validation, data management, missing data, then a 7-minute pair task).
 
-Key message: most problems in clinical research are not in the analysis, they are in the data. A statistician cannot fix a blank box, a missing unit or an impossible value six months later.
+Key message: most problems in clinical research lie in the data rather than in the analysis. A statistician cannot fix a blank box, a missing unit or an impossible value six months later.
 
 Garbage in, garbage out: the quality of your answer is capped by the quality of your form.
 
@@ -438,7 +438,7 @@ Timing: 2 minutes.
 ::: {.notes}
 Missing data, part 1: why it matters (prevention is next; the mechanisms and statistical handling come in 6.4).
 
-Teaching point: missing data do not just reduce the number of patients; they can give the WRONG answer.
+Teaching point: missing data reduce the number of patients, and they can also give the WRONG answer.
 
 Walk through the picture: 100 patients, 30 truly died. But 15 of the deaths have an empty outcome box (transferred out, died at night, form never completed). Among the 85 recorded patients we see 15 deaths: 18%. The truth was 30%.
 
@@ -572,7 +572,7 @@ One realistic dataset, five research questions, five manuscripts.
 ::: {.notes}
 Section 5.2 opener (25 minutes: the study, the flow of patients, raw vs clean data, an 8-minute live R cleaning demo, the cleaning log, then each group receives its question).
 
-Key message: from now on you do not only read other people's studies: your group will analyse and write up a realistic study. FLUID-ICU is SIMULATED: invented by computer, no real patient, hospital or country. But it behaves like real ICU data, including its problems.
+Key message: from now on your group will analyse and write up a realistic study, as well as reading other people's. FLUID-ICU is SIMULATED: invented by computer, no real patient, hospital or country. But it behaves like real ICU data, including its problems.
 
 Nobody needs to run R. The instructor runs it live; you read and interpret. Participants who took the Neudata course 'Clinical Data Analysis in R' can reproduce everything with the scripts in Course/Data/R.
 
@@ -717,7 +717,7 @@ Live demo, 8 minutes. Full script with expected outputs and fallback screenshots
 
 You run R; participants watch. Run blocks one at a time with Ctrl+Enter and say aloud what each block fixes.
 
-Show: the raw data read as text; 623 rows -\> 620 after removing the 3 duplicates; the table of sex spellings before and after; the three date formats; the lactate medians by ICU (ICU C about 9 times higher) and the conversion; impossible values set to missing; the final check that the cleaned file is identical to the reference clean file.
+Show: the raw data read as text; 623 rows reduced to 620 by removing the 3 duplicates; the table of sex spellings before and after; the three date formats; the lactate medians by ICU (ICU C about 9 times higher) and the conversion; impossible values set to missing; the final check that the cleaned file is identical to the reference clean file.
 
 Teaching points: (1) the raw file is never edited; (2) one problem, one block, one log entry; (3) because it is a script, anyone can re-run it and get exactly the same clean data: reproducibility.
 
@@ -750,7 +750,7 @@ Course/Data/cleaning\_log.md: one row for every change made to the raw data.
 ::: {.neu-card .plain style="--c:#5FA39B"}
 [Queries]{.neu-card-title}
 
-- Impossible values -\>
+- Impossible values →
 - missing + query to site
 - Patient stays in
 :::
@@ -1051,7 +1051,7 @@ Paper 1 example: control-group fluid balance 'median 35.0 (IQR -7.9; 40.2)'. Poi
 ![](images/figures/sat3/shapes.png){.neu-fig}
 
 ::: {.neu-takeaway}
-**KEY MESSAGE** Most clinical measurements cluster around a typical value or have a long tail - check which.
+**KEY MESSAGE** Most clinical data cluster around a typical value or have a long tail. Check which.
 :::
 
 ::: {.notes}
@@ -1128,7 +1128,7 @@ Transition: now, how to SHOW these summaries: graphs, figures and tables.
 :::
 
 ::: {.notes}
-Teaching point: four graphs cover most of what you need to describe data. (Survival curves - Kaplan-Meier - are introduced in Session 6, when we analyse time-to-event outcomes.)
+Teaching point: four graphs cover most of what you need to describe data. Survival curves (Kaplan-Meier) come in Session 6, when we analyse time-to-event outcomes.
 
 One categorical variable: bar chart with counts or percentages (source of sepsis). Avoid 3-D pie charts.
 
@@ -1306,7 +1306,7 @@ Same rules as 5.3
 ::: {.notes}
 Live demo, 6 minutes. Full script: Course/Demos/s5\_demo.md (Part B), using Course/Data/R/02\_describe.R.
 
-Show: the shape of age (roughly symmetric -\> mean, SD) vs lactate and ICU stay (right-skewed -\> median, IQR); the Table 1 by fluid-balance group with overall, negative (n = 245) and positive (n = 373) columns and the number missing per variable; the histogram of fluid balance, the SOFA boxplot by group, the sorted bar chart of infection source.
+Show: the shape of age (roughly symmetric, so mean and SD) vs lactate and ICU stay (right-skewed, so median and IQR); the Table 1 by fluid-balance group with overall, negative (n = 245) and positive (n = 373) columns and the number missing per variable; the histogram of fluid balance, the SOFA boxplot by group, the sorted bar chart of infection source.
 
 Point out: no p-values in Table 1 (it describes, it does not test), as written in the FLUID-ICU SAP.
 
@@ -1690,7 +1690,7 @@ Homework: finish the CRF and data-dictionary rows of the proposal; read the grou
 Thank the room: today was a lot of new vocabulary; next Saturday builds directly on it.
 :::
 
-## Extra slides — Session 5
+## Extra slides: Session 5
 
 :::: {.neu-statement}
 ::: {.neu-big}

@@ -2,52 +2,51 @@
 title: "Proposal brief"
 ---
 
-📥 [Word](files/assignments/Proposal_Brief.docx) · [PDF](files/assignments/Proposal_Brief.pdf) · [Assignments](assignments.qmd)
+Download: [Word](files/assignments/Proposal_Brief.docx) · [PDF](files/assignments/Proposal_Brief.pdf) · [Back to assignments](assignments.qmd)
 
-## Foundations of Clinical Research — Level 1: From Clinical Question to Publication
+## Foundations of Clinical Research · Level 1: From Clinical Question to Publication
 
-**Organisation:** Neudata — *#ClearDataClearImpact*
+**Organisation:** Neudata (*#ClearDataClearImpact*)
 **Assessment type:** Group assignment, built in class across Sessions 1–7 and presented in Session 8
 **Groups:** 5 groups of about 6 people, mixed professions, fixed for the whole course
 **Output:** one written research proposal with a publication plan (about 6–8 pages) + one 6-minute presentation (6 slides) in Session 8
-**Marked with:** `proposal_rubric.md` (formative feedback)
-**The other group product:** the draft manuscript from the course dataset — see `manuscript_brief.md`
+**The other group product:** the draft manuscript from the course dataset (see `manuscript_brief.md`)
 
 
 * * *
 
 ## 1. Purpose
 
-Most clinical research starts as a question asked at the bedside. This assignment turns one such question from **your own unit** into a realistic, ethical and feasible research proposal — the kind you could take to your research office, an ethics committee or a small-grant panel.
+Most clinical research starts as a question asked at the bedside. This assignment turns one such question from **your own unit** into a realistic, ethical and feasible research proposal: the kind you could take to your research office, an ethics committee or a small-grant panel.
 
-You will not collect data or analyse anything for the proposal. The goal of this product is to **plan a study well** — a clear question, the right design, good data, honest attention to bias and ethics, a realistic timeline — and to **plan from the start how it will be published**: target journal, reporting guideline, authors and a draft abstract. Each session ends with a proposal-builder slot that adds to one part, so by Session 7 your group has a complete proposal and publication plan, and in Session 8 you present it to the department.
+You will not collect data or analyse anything for the proposal. The goal of this product is to **plan a study well** (a clear question, the right design, good data, honest attention to bias and ethics, a realistic timeline) and to **plan from the start how it will be published**: target journal, reporting guideline, authors and a draft abstract. Each session ends with a proposal-builder slot that adds to one part. By Session 7 your group has a complete proposal and publication plan, and in Session 8 you present it to the department.
 
-This is the first of the course's **two group products**. The second — a draft manuscript written from the simulated course dataset FLUID-ICU — is built in Sessions 5–8 and described in `manuscript_brief.md`. The two products are deliberately different: the proposal is about **your own question** (planning a study that has not been done); the manuscript is about **someone else's data** (reporting a study that has been done).
+This is the first of the course's **two group products**. The second, a draft manuscript written from the simulated course dataset FLUID-ICU, is built in Sessions 5–8 and described in `manuscript_brief.md`. The two products are deliberately different. The proposal is about **your own question** (planning a study that has not been done), and the manuscript is about **someone else's data** (reporting a study that has been done).
 
-Throughout the course the instructors use one running example — *In adults with septic shock in the ICU, does a restrictive fluid strategy, compared with usual care, reduce 28-day mortality?* — to show what each part looks like. **Your group chooses its own question.** It may be from any area of practice (for example pressure injuries, hand hygiene, delirium, medication errors, ventilator-associated pneumonia, door-to-needle time). Please do not reuse the running example.
+Throughout the course the instructors use one running example to show what each part looks like: *In adults with septic shock in the ICU, does a restrictive fluid strategy, compared with usual care, reduce 28-day mortality?* **Your group chooses its own question.** It may be from any area of practice (for example pressure injuries, hand hygiene, delirium, medication errors, ventilator-associated pneumonia, door-to-needle time). Please do not reuse the running example.
 
 **A good topic is:** a problem you see often, that matters to patients, that your unit could realistically study in 12–24 months with its own patients and records.
 
 
 * * *
 
-## 2. What to produce — Part by Part
+## 2. What to produce, Part by Part
 
-Use the Word template **`Course/Templates/Research_Proposal_Template.docx`**. Its headings match the four Parts below. The template is about 6–8 pages when filled. Write in short, plain sentences; tables and bullet points are welcome. Delete the grey guidance text before submitting.
+Use the Word template **`Course/Templates/Research_Proposal_Template.docx`**. Its headings match the four Parts below. The template is about 6–8 pages when filled. Write in short, plain sentences. Tables and bullet points are welcome. Delete the grey guidance text before submitting.
 
-### Part 1 — Built in Sessions 1–2 (Ask; Find and read)
+### Part 1: Built in Sessions 1–2 (Ask; Find and read)
 
 | Section | What we expect |
 |---|---|
 | Working title | Built from your PICO: names the population, intervention/exposure, outcome and (ideally) the design, e.g. "Restrictive fluids and 28-day mortality in septic shock: a randomised trial". You will refine it in Part 4. |
 | Problem statement & rationale | What is the problem, how big is it, why does it matter here, what is not yet known (½ page). |
-| PICO | Population, Intervention/exposure, Comparison, Outcome (and Time) — one line each. |
+| PICO | Population, Intervention/exposure, Comparison, Outcome (and Time), one line each. |
 | Research question | One sentence built from the PICO. |
-| FINER check | One line each: Feasible, Interesting, Novel, Ethical, Relevant — and what you changed because of it. |
+| FINER check | One line each for Feasible, Interesting, Novel, Ethical and Relevant, plus what you changed because of it. |
 | Aim, objectives, hypothesis | One broad aim; 2–3 specific, measurable objectives; one testable hypothesis (if the study compares groups). |
 | 5 key references | From your PubMed search in Session 2 (literature review worksheet / literature matrix), stored in Zotero or another reference manager; Vancouver style; at least 3 from the last 10 years. |
 
-### Part 2 — Built in Sessions 3–4 (Design; Bias and effect)
+### Part 2: Built in Sessions 3–4 (Design; Bias and effect)
 
 | Section | What we expect |
 |---|---|
@@ -58,18 +57,18 @@ Use the Word template **`Course/Templates/Research_Proposal_Template.docx`**. It
 | Outcomes | One primary outcome (with how and when it is measured) + 1–3 secondary outcomes. |
 | Main biases & how they are reduced | At least 2 specific threats (selection, information, confounding) and the step that reduces each (randomisation, blinding, standard definitions, matching, adjustment…). |
 
-### Part 3 — Built in Sessions 5–6 (Data; Analyse)
+### Part 3: Built in Sessions 5–6 (Data; Analyse)
 
 | Section | What we expect |
 |---|---|
 | Variables table | Outcome, exposure and 3–6 confounders/other variables, each with its type (binary, categorical, ordinal, continuous) and unit. |
 | Mini-CRF & data dictionary | A data collection form of 6–10 items, and matching data-dictionary rows (name, definition, type, unit/codes, allowed range). |
 | Data management & quality plan | How data will be captured (paper CRF or electronic data capture, e.g. REDCap or KoBoToolbox), coded, checked (range and consistency checks, double entry or spot checks), stored securely with backups, and who can change them (audit trail). |
-| Sample size statement | One or two sentences: expected outcome rates (from the literature), the difference you want to detect, power, significance level and the resulting number — or, for a descriptive study, the precision you want. Show the tool you used. |
+| Sample size statement | One or two sentences: expected outcome rates (from the literature), the difference you want to detect, power, significance level and the resulting number. For a descriptive study, give the precision you want instead. Show the tool you used. |
 | Analysis plan in plain language | How each variable will be summarised (mean/SD, median/IQR, n/%), which test or model for the primary comparison, which confounders you will adjust for, and how you will avoid multiple-comparison problems (one pre-specified primary outcome). |
 | Missing-data plan | How you will prevent missing data, how you will report it (how much, for which variables), and what you will do about it (e.g. complete-case analysis, plus multiple imputation as a sensitivity analysis if a statistician is available). |
 
-### Part 4 — Built in Session 7 (Protect and write)
+### Part 4: Built in Session 7 (Protect and write)
 
 | Section | What we expect |
 |---|---|
@@ -77,10 +76,10 @@ Use the Word template **`Course/Templates/Research_Proposal_Template.docx`**. It
 | Registration | Where and when the study will be registered (e.g. ClinicalTrials.gov or a WHO ICTRP primary registry for trials, before the first participant; PROSPERO for systematic reviews), or why registration is not required. |
 | Confidentiality | De-identification (study codes), who holds the key, where data are stored, who can access them, how long they are kept. |
 | Feasibility | Timeline (simple Gantt chart), budget headings (no figures needed), people and resources, expected recruitment per month and how you know it is achievable. |
-| Publication plan — target journal & reporting guideline | One target journal (checked with Think. Check. Submit.; scope, open-access fee) and a back-up journal; the reporting guideline for your design (CONSORT, STROBE, STARD, PRISMA, SQUIRE…), found via EQUATOR. |
-| Publication plan — authorship & CRediT roles | Who will be an author (ICMJE criteria), in what order, and each person's CRediT role (e.g. conceptualisation, methodology, data curation, formal analysis, writing – original draft); who will be acknowledged instead. |
-| Publication plan — working title | The final working title (from Part 1, refined). |
-| Publication plan — structured-abstract skeleton | About 200 words: Background (1–2 sentences), Methods (design, setting, participants, primary outcome, analysis), *expected* Results (what you will report, with placeholders, e.g. "28-day mortality was X% vs Y% (RR …, 95% CI …)" — no invented numbers), Conclusion (what each possible result would mean). |
+| Publication plan: target journal & reporting guideline | One target journal (checked with Think. Check. Submit.; scope, open-access fee) and a back-up journal; the reporting guideline for your design (CONSORT, STROBE, STARD, PRISMA, SQUIRE…), found via EQUATOR. |
+| Publication plan: authorship & CRediT roles | Who will be an author (ICMJE criteria), in what order, and each person's CRediT role (e.g. conceptualisation, methodology, data curation, formal analysis, writing – original draft); who will be acknowledged instead. |
+| Publication plan: working title | The final working title (from Part 1, refined). |
+| Publication plan: structured-abstract skeleton | About 200 words: Background (1–2 sentences), Methods (design, setting, participants, primary outcome, analysis), *expected* Results (what you will report, with placeholders, e.g. "28-day mortality was X% vs Y% (RR …, 95% CI …)", with no invented numbers), Conclusion (what each possible result would mean). |
 | Dissemination | How results will be fed back to the unit (meeting, poster, conference abstract) and to patients if relevant. |
 
 **Length:** about 6–8 pages, including the mini-CRF, Gantt chart and abstract skeleton (appendices are fine). Short and clear beats long.
@@ -96,14 +95,14 @@ Use the Word template **`Course/Templates/Research_Proposal_Template.docx`**. It
 | S5 | Variables table, mini-CRF, data-dictionary rows, data-management plan | 3 |
 | S6 | Sample size, analysis plan, missing-data plan | 3 |
 | S7 | Ethics and consent, registration, confidentiality, feasibility, publication plan | 4 |
-| S8 | Presentation (no new writing in class) | — |
+| S8 | Presentation (no new writing in class) | None |
 
 
 * * *
 
 ## 3. Group roles
 
-Agree roles in Session 1. Everyone writes; the roles make sure the work actually gets done. In a group of five, combine Timekeeper with Scribe. The same group also writes the manuscript (`manuscript_brief.md`), which has its own roles; one person can hold one proposal role and one manuscript role.
+Agree roles in Session 1. Everyone writes, and the roles make sure the work gets done. In a group of five, combine Timekeeper with Scribe. The same group also writes the manuscript (`manuscript_brief.md`), which has its own roles. One person can hold one proposal role and one manuscript role.
 
 | Role | Responsibilities |
 |---|---|
@@ -130,7 +129,7 @@ Roles may rotate between sessions if the group prefers, but the presenter should
 | **End of Session 7** (Week 7, Saturday) | Part 4 complete (ethics, registration, feasibility, publication plan). Homework during the week: finish the 6 slides. |
 | **Before Session 8 starts** | Slides sent to the course lead (one file per group, `GroupN_slides.pptx` or PDF) so all presentations run from one laptop. |
 | **Session 8** (Week 8, Saturday) | **Presentation** of the proposal and publication plan (6 min + 2 min feedback). |
-| **2 weeks after Session 8** | Final written proposal (Parts 1–4, revised after the feedback) submitted for written feedback — the same deadline as the manuscript response letter. |
+| **2 weeks after Session 8** | Final written proposal (Parts 1–4, revised after the feedback) submitted for written feedback. This is the same deadline as the manuscript response letter. |
 
 
 * * *
@@ -142,7 +141,7 @@ Roles may rotate between sessions if the group prefers, but the presenter should
 - **Include on the cover page:** group number, working title, names and professions of all members, and each member's group role. (Authorship and CRediT roles go in the publication plan, Part 4.)
 - **Use of AI tools:** you may use AI tools to improve language or to brainstorm, but say so in a short statement at the end ("AI use: …"), check every fact and reference yourself, and never let AI invent references. The group is responsible for every word (Session 7, segment 7.2).
 - **Confidentiality:** do not include any real patient data, names or record numbers. Numbers you quote (e.g. "about 40 admissions with septic shock per year") should be approximate unit figures, not extracted records.
-- **Originality:** write in your own words; cite every source. Copying text from papers or the internet without quotation marks and a citation is plagiarism.
+- **Originality:** write in your own words and cite every source. Copying text from papers or the internet without quotation marks and a citation is plagiarism.
 
 
 * * *
@@ -151,8 +150,8 @@ Roles may rotate between sessions if the group prefers, but the presenter should
 
 - **Presentation (Session 8):** each group receives 2 minutes of verbal feedback from instructors and one peer group, plus a completed feedback form (see `proposal_rubric.md`).
 - **Written proposal:** marked with the rubric in `proposal_rubric.md` and returned with written comments within about 3 weeks of submission.
-- **The marks are formative** — they are there to help you improve the proposal, not to pass or fail anyone.
+- **The marks are formative.** They are there to help you improve the proposal, not to pass or fail anyone.
 
-Groups are expected to share the work fairly; if a member did not contribute, the facilitator should tell the course lead privately.
+Groups are expected to share the work fairly. If a member did not contribute, the facilitator should tell the course lead privately.
 
-**After the course:** strong proposals can be developed into a full protocol and statistical analysis plan (templates in `Course/Templates/`), registered and taken to your research or ethics office. When the data are collected, the manuscript skills from Sessions 7–8 apply directly. This course is **Level 1**; **Level 2** (*Doing the analysis*, `Course_Levels/level2_hands_on.md`) teaches you to run the analysis yourself in R, hands-on, and **Level 3** (`Course_Levels/level3_advanced.md`) offers advanced methods for complex data as workshops or consultancy.
+**After the course:** strong proposals can be developed into a full protocol and statistical analysis plan (templates in `Course/Templates/`), registered and taken to your research or ethics office. When the data are collected, the manuscript skills from Sessions 7–8 apply directly. This course is **Level 1**. **Level 2** (*Doing the analysis*, `Course_Levels/level2_hands_on.md`) teaches you to run the analysis yourself in R, hands-on, and **Level 3** (`Course_Levels/level3_advanced.md`) offers advanced methods for complex data as workshops or consultancy.

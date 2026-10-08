@@ -35,16 +35,18 @@ subtitle: "Tuần 6 · Thứ Bảy · 3 giờ (giải lao 15 phút)"
 <div class="slides-embed"><iframe src="slides-s6.html" title="Buổi 6 · Phân tích: từ mẫu đến câu trả lời" loading="lazy" allowfullscreen></iframe></div>
 ```
 
-[Mở bài giảng toàn màn hình](slides-s6.qmd){.btn .btn-primary role="button"} — Nhấn **F** để toàn màn hình, **S** để xem ghi chú, **E** để in, **Esc** để xem tổng quan.
+[Mở bài giảng toàn màn hình](slides-s6.qmd){.btn .btn-primary role="button"}
+
+Nhấn **F** để toàn màn hình, **S** để xem ghi chú, **E** để in, **Esc** để xem tổng quan.
 
 ## Tải xuống
 
 | | |
 |:--|:--|
-| 🎞️ **Bài giảng (PowerPoint)** | [English](../en/files/slides/Session_6_EN.pptx) · [Tiếng Việt](files/slides/Session_6_VN.pptx) |
-| 📝 **Phiếu bài tập** | [Đọc trực tuyến](exercises-s6.qmd) · [PDF](files/sessions/s6_exercises.pdf) |
-| ✅ **Lời giải** | [Đọc trực tuyến](solutions-s6.qmd) · [PDF](files/sessions/s6_solutions.pdf) |
-| 💻 **Kịch bản trình diễn** | [Đọc trực tuyến](demo-s6.qmd) · [PDF](files/sessions/s6_demo.pdf) |
+| **Bài giảng (PowerPoint)** | [English](../en/files/slides/Session_6_EN.pptx) · [Tiếng Việt](files/slides/Session_6_VN.pptx) |
+| **Phiếu bài tập** | [Đọc trực tuyến](exercises-s6.qmd) · [PDF](files/sessions/s6_exercises.pdf) |
+| **Lời giải** | [Đọc trực tuyến](solutions-s6.qmd) · [PDF](files/sessions/s6_solutions.pdf) |
+| **Kịch bản trình diễn** | [Đọc trực tuyến](demo-s6.qmd) · [PDF](files/sessions/s6_demo.pdf) |
 
 ## Chuẩn bị trước buổi học
 
@@ -66,4 +68,4 @@ subtitle: "Tuần 6 · Thứ Bảy · 3 giờ (giải lao 15 phút)"
 
 ---
 
-[← Buổi trước](session5.qmd) · [Lịch học](schedule.qmd) · [Buổi sau →](session7.qmd)
+[Quay lại Buổi 5](session5.qmd) · [Xem toàn bộ lịch học](schedule.qmd) · [Sang Buổi 7](session7.qmd)

@@ -1,21 +1,21 @@
 ---
-title: "Buổi 5 — Kịch bản trình diễn"
+title: "Buổi 5: Kịch bản trình diễn"
 ---
 
 ::: {.lang-note}
 Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
 :::
 
-📥 [PDF](files/sessions/s5_demo.pdf) · [Trang buổi học](session5.qmd)
+[Tải bản PDF](files/sessions/s5_demo.pdf) · [Quay lại Buổi 5](session5.qmd)
 
 **Foundations of Clinical Research** · Week 5, Saturday · Neudata · instructor script
 
-| | Part A — cleaning | Part B — Table 1 and figures |
+| | Part A: cleaning | Part B: Table 1 and figures |
 |---|---|---|
 | **Slot** | 5.2 *Meet the course dataset* (about 0:55 on the clock) | 5.4 *Describe the course dataset* (about 2:02) |
 | **Duration** | 8 minutes | 6 minutes |
 | **Script** | `Course/Data/R/01_clean.R` | `Course/Data/R/02_describe.R` |
-| **Participants** | watch and predict; they do not run R | same |
+| **Participants** | watch and predict (they do not run R) | same |
 
 > **FLUID-ICU is SIMULATED.** Say so every time you open the data: no real patient, hospital or country. All numbers below are from `Course/Data/key_results.md` and `Course/Data/cleaning_log.md`.
 
@@ -25,17 +25,17 @@ Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng 
 ## Before the session (night before + 10 minutes before)
 
 - [ ] R (4.x) and RStudio installed on the projector laptop; packages: tidyverse, janitor, gtsummary, flextable, survival, survminer, mice, broom.
-- [ ] Open `Course/Data/FLUID-ICU.Rproj` (sets the working folder). Run `01_clean.R` and `02_describe.R` once end to end; both must finish without error.
+- [ ] Open `Course/Data/FLUID-ICU.Rproj` (sets the working folder). Run `01_clean.R` and `02_describe.R` once end to end. Both must finish without error.
 - [ ] Increase the editor and console font (Tools → Global Options → Appearance → 18–20 pt) so the back row can read.
 - [ ] Keep the fallback figures open in an image viewer: `Course/Resources/figures/en/data/` (`raw_vs_clean.png`, `table1_snapshot.png`, `fluid_balance_hist.png`, `sofa_by_group.png`, `los_skewed.png`) and `Course/Data/output/figures/`.
 - [ ] Open `Course/Data/cleaning_log.md` and `data_dictionary.md` in a browser tab: you will show them.
 
-**Rules of the demo:** run one block at a time (Ctrl+Enter); before each block, ask the room *"what do you expect?"*; after it, say *what was fixed and that it goes in the log*. Never type new code live — the scripts are complete.
+**Rules of the demo:** run one block at a time (Ctrl+Enter). Before each block, ask the room *"what do you expect?"* After it, say *what was fixed and that it goes in the log*. Never type new code live, because the scripts are complete.
 
 
 * * *
 
-## Part A — From raw to clean (01_clean.R, 8 minutes)
+## Part A: From raw to clean (01_clean.R, 8 minutes)
 
 | Step (script block) | What you show | Expected output | Say |
 |---|---|---|---|
@@ -49,7 +49,7 @@ Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng 
 | 9. Units | lactate median **by ICU** | ICU C about 9 times higher (mg/dL) → divided by 9.01 | "Found only because we summarised by ICU. Ask the site lab." |
 | 10. Impossible values | range checks | age 210, weight 7 kg, a negative fluid output → NA + query; patient kept | "We cannot guess 21 or 71. We never delete the patient." |
 | 12. Derived variables | the fluid-balance formula | `cum_fluid_balance_d3_ml_kg`, `positive_balance_d3`, `aki_any` computed | "Derived values are calculated, never typed." |
-| 13. What is left | `colSums(is.na(dat))` | lactate 93 missing; a handful elsewhere | "These are REAL gaps; we handle them in Session 6." |
+| 13. What is left | `colSums(is.na(dat))` | lactate 93 missing, a handful elsewhere | "These are REAL gaps. We handle them in Session 6." |
 | 14. Reproducibility | final `cat()` | `Cleaned data identical to the reference clean file: TRUE` / `byte-for-byte identical: TRUE` | "Anyone can re-run this and get exactly the same data." |
 
 **If short of time:** run Steps 0, 2, 9, 10 and 14 only (4 minutes) and show the cleaning log for the rest.
@@ -59,19 +59,19 @@ Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng 
 
 * * *
 
-## Part B — Table 1 and figures (02_describe.R, 6 minutes)
+## Part B: Table 1 and figures (02_describe.R, 6 minutes)
 
 | Block | What you show | Expected output (key_results.md) | Say |
 |---|---|---|---|
-| 1. Load | `dim(icu)`, `count(positive_balance_d3)` | 620 patients; positive balance **373/618 (60.4%)**; 2 without a balance | "618, not 620: two patients have no computable balance." |
-| 2. Shape first | mean/SD of age, median/IQR of lactate; quick histograms | age mean **62.6 (SD 15.2)**; lactate skewed | "Symmetric → mean (SD); skewed → median (IQR)." |
+| 1. Load | `dim(icu)`, `count(positive_balance_d3)` | 620 patients, positive balance **373/618 (60.4%)**, 2 without a balance | "618, not 620: two patients have no computable balance." |
+| 2. Shape first | mean/SD of age, median/IQR of lactate; quick histograms | age mean **62.6 (SD 15.2)**, lactate skewed | "Symmetric: mean (SD). Skewed: median (IQR)." |
 | 3. Table 1 | the gtsummary table by group | negative n = 245, positive n = 373; SOFA **6 (4 to 8) vs 8 (6 to 10)**; vasopressor **24.9% vs 55.0%**; ventilation **39.6% vs 57.9%**; lactate **2.2 vs 2.9** mmol/L; heart failure **22.0% vs 11.5%**; missing counts shown; **no p-values** | "Were the groups alike at the start? No: the positive group was sicker." |
 | 4. Histogram | fluid balance by group | median **8.8 ml/kg (IQR -10.3 to 26.2)** | "Continuous exposure, cut at 0." |
 | 5. Boxplot | SOFA by group, with dots | medians 6 vs 8 | "Show every patient." |
-| 6. Bar chart | infection source, sorted | respiratory most common | "Categories → sorted bars, not a 3-D pie." |
-| 7. Outcomes | described, not compared | 28-day mortality **179/620 (28.9%)**; ICU stay mean 7.3 vs median 6.0 days | "Described today, compared next Saturday." |
+| 6. Bar chart | infection source, sorted | respiratory most common | "Categories: sorted bars, not a 3-D pie." |
+| 7. Outcomes | described, not compared | 28-day mortality **179/620 (28.9%)**, ICU stay mean 7.3 vs median 6.0 days | "Described today, compared next Saturday." |
 
-**Close Part B:** *"This Table 1 is in every group's results pack. Your worksheet now: read it as a reviewer would."* → Exercise 6.
+**Close Part B:** *"This Table 1 is in every group's results pack. Your worksheet now: read it as a reviewer would."* Then move to Exercise 6.
 
 
 * * *
@@ -83,14 +83,14 @@ Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng 
 | R or a package fails | Show `raw_vs_clean.png` and talk through the problems (Part A); show `table1_snapshot.png`, `fluid_balance_hist.png`, `sofa_by_group.png` (Part B). Teaching points are identical. |
 | Projector cannot show RStudio legibly | Use the PNG figures and `cleaning_log.md` in a browser at 150% zoom. |
 | Running late | Part A: Steps 0, 2, 9, 10, 14. Part B: blocks 3 and 5 only. |
-| A participant asks to run it themselves | Point to `Course/Data/README.md` and the free *Clinical Data Analysis in R* course; offer to help after the session. |
+| A participant asks to run it themselves | Point to `Course/Data/README.md` and the free *Clinical Data Analysis in R* course, and offer to help after the session. |
 
 ## Anticipated questions
 
-**"Is this real data?"** No — simulated, designed to behave like ICU data and to show the classic problems. Any manuscript must say so.
+**"Is this real data?"** No. It is simulated, designed to behave like ICU data and to show the classic problems. Any manuscript must say so.
 
-**"Why not fix the errors in Excel?"** Hand edits leave no trace and cannot be repeated; one wrong paste is invisible. A script plus a log is checkable by a reviewer and repeatable by anyone.
+**"Why not fix the errors in Excel?"** Hand edits leave no trace and cannot be repeated, and one wrong paste is invisible. A script plus a log is checkable by a reviewer and repeatable by anyone.
 
-**"Why set age 210 to missing instead of guessing 21?"** It could be 21, 71 or 10; guessing invents data. Set to missing, query the site, correct only with the source document.
+**"Why set age 210 to missing instead of guessing 21?"** It could be 21, 71 or 10, and guessing invents data. Set to missing, query the site, correct only with the source document.
 
-**"Why no p-values in Table 1?"** Table 1 describes the groups. The SAP says so explicitly; in an RCT any difference is chance, in a cohort it is confounding to be adjusted for, not tested.
+**"Why no p-values in Table 1?"** Table 1 describes the groups. The SAP says so explicitly. In an RCT any difference is chance. In a cohort it is confounding to be adjusted for, not tested.

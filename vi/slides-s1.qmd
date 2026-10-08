@@ -1,6 +1,6 @@
 ---
 title: "Buổi 1 · Hỏi: từ vấn đề lâm sàng đến câu hỏi nghiên cứu"
-subtitle: "Nền tảng Nghiên cứu Lâm sàng — Từ câu hỏi lâm sàng đến công bố"
+subtitle: "Nền tảng Nghiên cứu Lâm sàng: Từ câu hỏi lâm sàng đến công bố"
 author: "Vương Mỹ Lượng & Bernard Osang'ir"
 institute: "Neudata Consulting Ltd"
 lang: vi
@@ -20,7 +20,7 @@ Mỗi ngày bạn đưa ra những quyết định mà nghiên cứu có thể g
 :::
 
 ::: {.neu-sub}
-Khóa học này giúp bạn đặt câu hỏi đúng cách - trả lời chúng - và công bố câu trả lời.
+Khóa học này giúp bạn đặt câu hỏi đúng cách, trả lời chúng và công bố câu trả lời.
 :::
 ::::
 
@@ -31,7 +31,7 @@ Lấy 2-3 câu trả lời. Dự kiến: dịch truyền, an thần, vận độ
 
 Điểm then chốt: nghiên cứu bắt đầu từ sự không chắc chắn trong lâm sàng, không phải từ thống kê.
 
-Ghi các ví dụ lên bảng lật - đó là những chủ đề tiềm năng cho đề cương của các nhóm.
+Ghi các ví dụ lên bảng lật. Đó là những chủ đề tiềm năng cho đề cương của các nhóm.
 :::
 
 ## Tám thứ Bảy, tám buổi học
@@ -41,23 +41,23 @@ Ghi các ví dụ lên bảng lật - đó là những chủ đề tiềm năng 
 ::: {.notes}
 Đi dọc con đường: Tuần 1-2 là câu hỏi và bằng chứng; Tuần 3-4 thiết kế và sai lệch; Tuần 5-6 dữ liệu và phân tích; Tuần 7-8 đạo đức, viết và công bố. Mỗi thứ Bảy một buổi, giữa hai buổi có trọn một tuần để làm bài về nhà.
 
-Toàn bộ khóa học này là Cấp độ 1, bao gồm mọi bước từ câu hỏi đến công bố: Tuần 1-4 xây dựng hiểu biết và kỹ năng thiết kế; Tuần 5-8 áp dụng vào dữ liệu, viết bài và công bố.
+Toàn bộ khóa học này là Cấp độ 1, bao gồm mọi bước từ câu hỏi đến công bố: Tuần 1-4 xây dựng hiểu biết và kỹ năng thiết kế. Tuần 5-8 áp dụng vào dữ liệu, viết bài và công bố.
 
 Một ví dụ xuyên suốt: dịch truyền trong sốc nhiễm khuẩn. Đồng nghiệp không thuộc ICU: mọi khái niệm đều có ví dụ ở khoa phòng (loét tì đè, vệ sinh tay, sai sót dùng thuốc, mê sảng).
 :::
 
-## Khóa học đưa bạn đến đâu
+## Khóa học này là Cấp độ 1 trong ba cấp độ
 
 ![](images/figures/common/two_levels.png){.neu-fig}
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Cấp độ 1 là khóa học này; Cấp độ 2 là thực hành phân tích bằng R; Cấp độ 3 là phương pháp nâng cao.
+**THÔNG ĐIỆP CHÍNH** Cấp độ 1 là khóa học này, Cấp độ 2 là thực hành phân tích bằng R, Cấp độ 3 là phương pháp nâng cao.
 :::
 
 ::: {.notes}
-Khóa học này (Cấp độ 1) đưa bạn từ câu hỏi lâm sàng đến bài báo được công bố. Cấp độ 2 là khóa thực hành R cho những ai muốn tự phân tích; Cấp độ 3 gồm các phương pháp nâng cao, chuyên sâu.
+Khóa học này (Cấp độ 1) đưa bạn từ câu hỏi lâm sàng đến bài báo được công bố. Cấp độ 2 là khóa thực hành R cho những ai muốn tự phân tích. Cấp độ 3 gồm các phương pháp nâng cao, chuyên sâu.
 
-Trong Cấp độ 1, chúng ta dùng một bộ dữ liệu thực tế gồm 620 bệnh nhân ICU: mô tả, phân tích và viết thành bài báo. Giảng viên chạy phần mềm; các bạn đọc và diễn giải kết quả.
+Trong Cấp độ 1, chúng ta dùng một bộ dữ liệu thực tế gồm 620 bệnh nhân ICU: mô tả, phân tích và viết thành bài báo. Giảng viên chạy phần mềm. Các bạn đọc và diễn giải kết quả.
 
 Quan niệm sai cần gỡ bỏ: 'nghiên cứu chỉ dành cho nhà thống kê hay giáo sư'. Phần lớn câu hỏi lâm sàng tốt xuất phát từ điều dưỡng và bác sĩ tại giường bệnh.
 :::
@@ -108,13 +108,13 @@ Chỉ cho học viên Assignment/proposal\_brief và Assignment/manuscript\_brie
 ::::
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Hiểu và diễn giải - bạn sẽ không phải tự tính toán.
+**THÔNG ĐIỆP CHÍNH** Hiểu và diễn giải: bạn sẽ không phải tự tính toán.
 :::
 
 ::: {.notes}
-Đi qua bốn thẻ - mỗi thẻ ứng với hai tuần.
+Đi qua bốn thẻ, mỗi thẻ ứng với hai tuần.
 
-Điểm then chốt: mục tiêu là hiểu và diễn giải, không phải tính toán. Giảng viên chạy phân tích; các bạn học cách đọc và viết thành bài báo.
+Điểm then chốt: mục tiêu là hiểu và diễn giải, không phải tính toán. Giảng viên chạy phân tích. Các bạn học cách đọc và viết thành bài báo.
 
 Hỏi cả lớp: thẻ nào làm bạn lo nhất? Dự kiến: PHÂN TÍCH. Trấn an: chúng ta đi chậm, dùng hình ảnh và kiểm tra mức hiểu mỗi 20 phút.
 
@@ -128,12 +128,12 @@ Quay lại slide này ở Buổi 8 để thấy sự tiến bộ.
 ::: {.notes}
 Cùng một nhịp mỗi buổi: ôn tập, hai phần học có kiểm tra và hoạt động, 15 phút giải lao, và thời gian xây dựng đề cương hoặc bài báo.
 
-Cứ 20 phút chúng ta dừng lại để kiểm tra nhanh mức hiểu - nếu lớp chưa theo kịp, chúng ta đi chậm lại. Cuối mỗi buổi có 'slide bổ sung' chỉ dùng khi còn thời gian; các bạn có thể tự đọc ở nhà.
+Cứ 20 phút chúng ta dừng lại để kiểm tra nhanh mức hiểu. Nếu lớp chưa theo kịp, chúng ta đi chậm lại. Cuối mỗi buổi có 'slide bổ sung' chỉ dùng khi còn thời gian. Các bạn có thể tự đọc ở nhà.
 
-Giữ giải lao đúng 15 phút - bắt đầu lại đúng giờ.
+Giữ giải lao đúng 15 phút và bắt đầu lại đúng giờ.
 :::
 
-## Xây dựng đề cương
+## Xây dựng đề cương từng phần một
 
 ![](images/figures/common/proposal_builder.png){.neu-fig}
 
@@ -160,7 +160,7 @@ LÀM VIỆC NHÓM · 10 phút
 ::: {.neu-activity-steps style="--c:#0D7377"}
 1. Ngồi theo nhóm (5 nhóm, mỗi nhóm khoảng 6 người, trộn các nghề)
 2. Giới thiệu: tên, khoa, một câu hỏi bạn mong nghiên cứu trả lời được
-3. Thống nhất các vai trò bên cạnh - có thể luân phiên mỗi tuần
+3. Thống nhất các vai trò bên cạnh (có thể luân phiên mỗi tuần)
 4. Chọn tên nhóm
 :::
 :::
@@ -168,8 +168,8 @@ LÀM VIỆC NHÓM · 10 phút
 ::: {.neu-side .plain style="--c:#0D7377"}
 Vai trò trong nhóm
 
-- Điều phối - giúp mọi người cùng tham gia
-- Thư ký - điền vào mẫu
+- Điều phối: giúp mọi người cùng tham gia
+- Thư ký: điền vào mẫu
 - Bấm giờ
 - Phụ trách tài liệu
 - Phụ trách phương pháp & dữ liệu
@@ -183,9 +183,9 @@ Vai trò trong nhóm
 :::
 
 ::: {.notes}
-Các nhóm nên trộn bác sĩ, điều dưỡng và dược sĩ - nhiều góc nhìn sẽ cho đề cương tốt hơn.
+Các nhóm nên trộn bác sĩ, điều dưỡng và dược sĩ. Nhiều góc nhìn sẽ cho đề cương tốt hơn.
 
-Vai trò giúp những người ít nói cũng tham gia; nên luân phiên thư ký.
+Vai trò giúp những người ít nói cũng tham gia. Nên luân phiên thư ký.
 
 Giảng viên: đi quanh các nhóm, ghi lại chủ đề tiềm năng của từng nhóm.
 :::
@@ -222,7 +222,7 @@ Giảng viên: đi quanh các nhóm, ghi lại chủ đề tiềm năng của t�
 ::: {.notes}
 Tạo không khí: đây là nơi an toàn để nói 'tôi chưa hiểu'.
 
-Ngôn ngữ: thảo luận bằng tiếng Việt hoặc tiếng Anh - miễn giúp nhóm suy nghĩ tốt nhất.
+Ngôn ngữ: thảo luận bằng tiếng Việt hoặc tiếng Anh, miễn giúp nhóm suy nghĩ tốt nhất.
 
 Bảo mật người bệnh áp dụng cho mọi ví dụ: không nêu tên hay chi tiết nhận dạng.
 :::
@@ -237,7 +237,7 @@ CÂU HỎI NHANH · 15 phút
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
 1. Làm cá nhân, không thảo luận, không dùng điện thoại (trừ biểu mẫu trực tuyến)
-2. 24 câu trắc nghiệm - chọn một đáp án cho mỗi câu
+2. 24 câu trắc nghiệm, chọn một đáp án cho mỗi câu
 3. Nếu không chắc, hãy đoán: đây không phải kỳ thi
 4. Chỉ ghi mã số học viên, không ghi tên
 :::
@@ -262,7 +262,7 @@ Dùng biểu mẫu trực tuyến (khuyến nghị) hoặc bản giấy Assessme
 
 Trấn an: kết quả ẩn danh, chỉ dùng để đo những gì KHÓA HỌC đạt được.
 
-Thu bài sau 15 phút. Hôm nay không chữa đáp án - bài này được làm lại cuối Buổi 8.
+Thu bài sau 15 phút. Hôm nay không chữa đáp án. Bài này được làm lại cuối Buổi 8.
 :::
 
 # Buổi 1 · Hỏi: từ vấn đề lâm sàng đến câu hỏi nghiên cứu
@@ -279,13 +279,13 @@ Thu bài sau 15 phút. Hôm nay không chữa đáp án - bài này được là
 ::: {.notes}
 MỞ ĐẦU BUỔI 1 (0:35). Phần mở đầu khóa học (chào mừng, lộ trình, chia nhóm, bài kiểm tra đầu khóa) vừa kết thúc.
 
-Ý chính: hôm nay chỉ có một việc - mỗi nhóm ra về với MỘT câu hỏi nghiên cứu rõ ràng, trả lời được, cùng mục đích và mục tiêu. Thứ Bảy tuần sau (Buổi 2) ta tìm và đọc y văn cho câu hỏi đó.
+Ý chính: hôm nay chỉ có một việc: mỗi nhóm ra về với MỘT câu hỏi nghiên cứu rõ ràng, trả lời được, cùng mục đích và mục tiêu. Thứ Bảy tuần sau (Buổi 2) ta tìm và đọc y văn cho câu hỏi đó.
 
-Nhịp độ: học viên hầu như chưa có nền tảng nghiên cứu. Đi chậm, dùng các ví dụ mẫu, và dừng lại ở mọi slide 'Kiểm tra hiểu bài' - chúng được thiết kế ngắn.
+Nhịp độ: học viên hầu như chưa có nền tảng nghiên cứu. Đi chậm, dùng các ví dụ mẫu, và dừng lại ở mọi slide 'Kiểm tra hiểu bài'. Các slide này được thiết kế ngắn.
 
 Giới thiệu nhịp buổi học: ba phần giảng ngắn, giải lao, bài tập theo cặp, bài tập nhanh, rồi 30 phút làm việc nhóm cho đề cương.
 
-Hỏi cả lớp: 'Ai đã từng tham gia một nghiên cứu - với vai trò nghiên cứu viên, người thu thập số liệu hay người tham gia?' Đếm số tay giơ để biết nên giảng ở mức nào.
+Hỏi cả lớp: 'Ai đã từng tham gia một nghiên cứu, với vai trò nghiên cứu viên, người thu thập số liệu hay người tham gia?' Đếm số tay giơ để biết nên giảng ở mức nào.
 
 Thời gian: 1 phút. Không đọc to chương trình; chỉ vào màn hình.
 :::
@@ -331,9 +331,9 @@ Các con số chỉ minh họa, nhưng xu hướng là có thật: thử nghiệ
 
 Quan niệm sai: 'nếu có hiệu quả ở bệnh nhân của tôi thì là có hiệu quả'. Không có nhóm so sánh, ta không biết điều gì vẫn sẽ xảy ra (tự hồi phục, hồi quy về trung bình, trí nhớ chọn lọc).
 
-Hỏi cả lớp: 'Vì sao ta nhớ ba kết cục tốt?' Trả lời mong đợi: sai lệch nhớ lại (recall bias) - ca kịch tính và gần đây dễ nhớ; ta quên các ca thất bại.
+Hỏi cả lớp: 'Vì sao ta nhớ ba kết cục tốt?' Trả lời mong đợi: sai lệch nhớ lại (recall bias). Ca kịch tính và gần đây dễ nhớ, còn ca thất bại thì ta quên.
 
-Thời gian: 4 phút. Đi chậm - cả khóa học dựa trên ý này.
+Thời gian: 4 phút. Đi chậm: cả khóa học dựa trên ý này.
 :::
 
 ## Vì sao kinh nghiệm của một khoa là chưa đủ
@@ -349,13 +349,13 @@ Hình này là mô phỏng (hạt giống cố định): giả sử một bệnh
 
 Hàng trên: 20 khoa, mỗi khoa chỉ gặp 5 bệnh nhân. Hoàn toàn do ngẫu nhiên, có khoa thấy 0% tử vong, có khoa thấy 80%. Mỗi khoa sẽ 'rút ra' một bài học khác nhau từ kinh nghiệm của mình.
 
-Hàng giữa: nhóm 50 người - gần sự thật hơn nhưng vẫn phân tán. Hàng dưới: nhóm 500 người tập trung sát quanh 40%.
+Hàng giữa: nhóm 50 người, gần sự thật hơn nhưng vẫn phân tán. Hàng dưới: nhóm 500 người tập trung sát quanh 40%.
 
-Ý chính: chỉ riêng ngẫu nhiên đã tạo ra những khác biệt trông rất ấn tượng ở số nhỏ. Vì vậy nghiên cứu cần đủ bệnh nhân và có nhóm so sánh - và vì sao 'ba bệnh nhân gần nhất của tôi' có thể gây hiểu lầm.
+Ý chính: chỉ riêng ngẫu nhiên đã tạo ra những khác biệt trông rất ấn tượng ở số nhỏ. Vì vậy nghiên cứu cần đủ bệnh nhân và có nhóm so sánh, và vì sao 'ba bệnh nhân gần nhất của tôi' có thể gây hiểu lầm.
 
 Quan niệm sai: 'khác biệt lớn ở nhóm nhỏ chắc chắn là thật'. Khác biệt lớn ở nhóm nhỏ chính là điều ngẫu nhiên hay tạo ra.
 
-Hỏi cả lớp: 'Một khoa có 0/5 bệnh nhân tử vong sau quy trình mới. Quy trình có hiệu quả không?' Trả lời mong đợi: chưa thể biết - 0/5 xảy ra thường xuyên do ngẫu nhiên ngay cả khi nguy cơ thật là 40%.
+Hỏi cả lớp: 'Một khoa có 0/5 bệnh nhân tử vong sau quy trình mới. Quy trình có hiệu quả không?' Trả lời mong đợi: chưa thể biết, vì 0/5 xảy ra thường xuyên do ngẫu nhiên ngay cả khi nguy cơ thật là 40%.
 
 Thời gian: 4 phút. Cỡ mẫu sẽ học lại ở Buổi 6.
 :::
@@ -383,17 +383,17 @@ Thời gian: 4 phút. Cỡ mẫu sẽ học lại ở Buổi 6.
 :::
 
 ::: {.notes}
-Xây từ dưới lên: ý kiến chuyên gia và báo cáo ca, loạt ca và cắt ngang, bệnh - chứng, đoàn hệ, thử nghiệm ngẫu nhiên, và trên đỉnh là tổng quan hệ thống và phân tích gộp.
+Xây từ dưới lên: ý kiến chuyên gia và báo cáo ca, loạt ca và cắt ngang, bệnh-chứng, đoàn hệ, thử nghiệm ngẫu nhiên, và trên đỉnh là tổng quan hệ thống và phân tích gộp.
 
 Ý chính: càng lên cao, thiết kế càng bảo vệ tốt hơn trước sai lệch. Vì vậy tầng cao cho độ tin cậy lớn hơn với câu hỏi 'điều trị X có hiệu quả không?'.
 
 Quan niệm sai 1: 'RCT luôn đúng'. Thử nghiệm nhỏ hoặc làm kém có thể gây hiểu lầm. Các khung như GRADE đánh giá độ chắc chắn của cả tập hợp bằng chứng, không chỉ nhãn thiết kế.
 
-Quan niệm sai 2: 'chỉ RCT mới có giá trị'. Với mức độ phổ biến, tác hại và tiên lượng, thiết kế quan sát thường là lựa chọn đúng (hoặc duy nhất hợp đạo đức). Nghiên cứu định tính nằm ngoài tháp này - nó trả lời câu hỏi khác.
+Quan niệm sai 2: 'chỉ RCT mới có giá trị'. Với mức độ phổ biến, tác hại và tiên lượng, thiết kế quan sát thường là lựa chọn đúng (hoặc duy nhất hợp đạo đức). Nghiên cứu định tính nằm ngoài tháp này vì nó trả lời câu hỏi khác.
 
 Hỏi cả lớp: 'Tổng quan hệ thống gồm 10 thử nghiệm kém chất lượng nằm ở đâu?' Trả lời mong đợi: trên đỉnh theo nhãn, nhưng kết luận chỉ mạnh bằng các thử nghiệm bên trong.
 
-Thời gian: 4 phút. Buổi 3 học kỹ từng thiết kế - đừng dạy thiết kế ở đây.
+Thời gian: 4 phút. Buổi 3 học kỹ từng thiết kế, nên đừng dạy thiết kế ở đây.
 :::
 
 ## Câu hỏi nhanh: xếp hạng bằng chứng
@@ -410,7 +410,7 @@ CÂU HỎI NHANH · 3 phút
 3. B: một đoàn hệ từ sổ đăng ký gồm hàng nghìn bệnh nhân nhiễm khuẩn huyết tại ICU
 4. C: một thử nghiệm phân nhóm ngẫu nhiên 1.554 bệnh nhân sốc nhiễm khuẩn
 5. D: một tổng quan gộp mọi thử nghiệm về hạn chế dịch
-6. Xếp từ yếu nhất đến mạnh nhất - giơ ngón tay khi đếm đến 3
+6. Xếp từ yếu nhất đến mạnh nhất, rồi giơ ngón tay khi đếm đến 3
 :::
 :::
 ::: {.column width="40%"}
@@ -430,9 +430,9 @@ Rồi thảo luận
 ::: {.notes}
 Đáp án: A (ý kiến chuyên gia) \< B (đoàn hệ) \< C (RCT) \< D (tổng quan hệ thống / phân tích gộp).
 
-C chính là thử nghiệm CLASSIC (NEJM 2022) - không khác biệt tử vong 90 ngày. B giống Bài báo 2 (Hyun 2023): cân bằng dịch dương ở ngày 2-3 liên quan với tử vong 28 ngày cao hơn.
+C chính là thử nghiệm CLASSIC (NEJM 2022), không thấy khác biệt tử vong 90 ngày. B giống Bài báo 2 (Hyun 2023): cân bằng dịch dương ở ngày 2-3 liên quan với tử vong 28 ngày cao hơn.
 
-Vì sao đoàn hệ thấy có hại mà thử nghiệm lại không? Trả lời mong đợi: trong đoàn hệ, bệnh nhân nặng hơn được truyền nhiều dịch hơn, nên dịch trông như có hại (nhiễu do chỉ định - confounding by indication) - xem trước Buổi 4.
+Vì sao đoàn hệ thấy có hại mà thử nghiệm lại không? Trả lời mong đợi: trong đoàn hệ, bệnh nhân nặng hơn được truyền nhiều dịch hơn, nên dịch trông như có hại (nhiễu do chỉ định, confounding by indication). Đây là phần xem trước Buổi 4.
 
 Gợi ý điều phối: đếm '1-2-3' để các bàn giơ tay cùng lúc.
 
@@ -450,7 +450,7 @@ Thời gian: đúng 3 phút.
 ::: {.notes}
 Đi nhanh một vòng, mỗi ô một câu.
 
-Tuần 1-2 = vấn đề lâm sàng và câu hỏi nghiên cứu (hôm nay), tìm y văn (thứ Bảy tuần sau) - ba ô màu xanh mòng két phía trên bên phải.
+Tuần 1-2 = vấn đề lâm sàng và câu hỏi nghiên cứu (hôm nay), tìm y văn (thứ Bảy tuần sau). Đó là ba ô màu xanh mòng két phía trên bên phải.
 
 Ý chính: kết quả công bố làm thay đổi thực hành, từ đó lại nảy sinh điều chưa chắc chắn và câu hỏi mới.
 
@@ -459,7 +459,7 @@ Quan niệm sai: 'nghiên cứu = thu thập dữ liệu'. Thu thập dữ liệ
 Thời gian: 2 phút. Slide sau phóng to chính con đường này.
 :::
 
-## Các loại nghiên cứu
+## Câu hỏi quyết định loại nghiên cứu
 
 ![](images/figures/sat1/research_types.png){.neu-fig}
 
@@ -468,9 +468,9 @@ Thời gian: 2 phút. Slide sau phóng to chính con đường này.
 :::
 
 ::: {.notes}
-Hàng trên: loại dữ liệu. Nghiên cứu định lượng (quantitative) đếm và đo (tử vong, cân bằng dịch). Nghiên cứu định tính (qualitative) thu thập lời nói - phỏng vấn, thảo luận nhóm, quan sát - để hiểu trải nghiệm, lý do và rào cản. Phương pháp hỗn hợp (mixed methods) kết hợp cả hai trong một nghiên cứu.
+Hàng trên: loại dữ liệu. Nghiên cứu định lượng (quantitative) đếm và đo (tử vong, cân bằng dịch). Nghiên cứu định tính (qualitative) thu thập lời nói (phỏng vấn, thảo luận nhóm, quan sát) để hiểu trải nghiệm, lý do và rào cản. Phương pháp hỗn hợp (mixed methods) kết hợp cả hai trong một nghiên cứu.
 
-Hàng dưới: nguồn dữ liệu. Nghiên cứu sơ cấp (primary) thu thập dữ liệu mới (Bài báo 1, một thử nghiệm mới). Nghiên cứu thứ cấp (secondary) dùng lại dữ liệu có sẵn - hồ sơ bệnh án, sổ đăng ký (Bài báo 2 dùng sổ đăng ký nhiễm khuẩn huyết) hoặc các nghiên cứu đã công bố (tổng quan hệ thống).
+Hàng dưới: nguồn dữ liệu. Nghiên cứu sơ cấp (primary) thu thập dữ liệu mới (Bài báo 1, một thử nghiệm mới). Nghiên cứu thứ cấp (secondary) dùng lại dữ liệu có sẵn: hồ sơ bệnh án, sổ đăng ký (Bài báo 2 dùng sổ đăng ký nhiễm khuẩn huyết) hoặc các nghiên cứu đã công bố (tổng quan hệ thống).
 
 Ý chính: câu hỏi quyết định loại nghiên cứu. 'Hạn chế dịch có giảm tử vong không?' là định lượng; 'vì sao điều dưỡng ngại ngừng dịch?' là định tính.
 
@@ -496,7 +496,7 @@ CÂU HỎI NHANH · 2 phút
 :::
 
 ::: {.neu-output style="--c:#6C3483"}
-**SẢN PHẨM** Cả lớp trả lời to - slide sau có đáp án
+**SẢN PHẨM** Cả lớp trả lời to. Slide sau có đáp án
 :::
 
 ::: {.notes}
@@ -504,7 +504,7 @@ Kiểm tra nhanh, không phải bài thi. Đọc từng câu và để cả lớ
 
 Đáp án (slide sau): A định lượng, sơ cấp. B định tính, sơ cấp. C định lượng, thứ cấp (hồ sơ đã có sẵn). D phương pháp hỗn hợp, sơ cấp.
 
-Nếu lớp lưỡng lự ở câu C: dữ liệu được thu thập cho chăm sóc, không phải cho nghiên cứu này - dùng lại chúng là nghiên cứu thứ cấp. Vẫn cần xét duyệt đạo đức.
+Nếu lớp lưỡng lự ở câu C: dữ liệu được thu thập cho chăm sóc, không phải cho nghiên cứu này, nên dùng lại chúng là nghiên cứu thứ cấp. Vẫn cần xét duyệt đạo đức.
 
 Thời gian: 2 phút.
 :::
@@ -549,9 +549,9 @@ Thời gian: 2 phút.
 ::: {.notes}
 Đi nhanh qua bốn thẻ.
 
-Ý chính: hai câu hỏi đơn giản phân loại được gần như mọi nghiên cứu - loại dữ liệu (con số hay lời nói) và nguồn dữ liệu (mới hay có sẵn).
+Ý chính: hai câu hỏi đơn giản phân loại được gần như mọi nghiên cứu: loại dữ liệu (con số hay lời nói) và nguồn dữ liệu (mới hay có sẵn).
 
-Nghiên cứu thứ cấp thường khả thi nhất với một khoa bận rộn - nhưng chất lượng phụ thuộc vào cách ghi chép hồ sơ (Buổi 5).
+Nghiên cứu thứ cấp thường khả thi nhất với một khoa bận rộn, nhưng chất lượng phụ thuộc vào cách ghi chép hồ sơ (Buổi 5).
 
 Thời gian: 2 phút.
 :::
@@ -565,15 +565,15 @@ Thời gian: 2 phút.
 :::
 
 ::: {.notes}
-Nghiên cứu tạo ra kiến thức mới, có thể khái quát hóa - phương án nào tốt nhất? Kiểm tra lâm sàng (audit) so sánh thực hành của ta với một tiêu chuẩn đã thống nhất. Cải tiến chất lượng (QI) thay đổi một quy trình tại chỗ từng bước, thường theo chu trình Lập kế hoạch - Thực hiện - Nghiên cứu - Hành động (PDSA).
+Nghiên cứu tạo ra kiến thức mới, có thể khái quát hóa: phương án nào tốt nhất? Kiểm tra lâm sàng (audit) so sánh thực hành của ta với một tiêu chuẩn đã thống nhất. Cải tiến chất lượng (QI) thay đổi một quy trình tại chỗ từng bước, thường theo chu trình Lập kế hoạch, Thực hiện, Nghiên cứu, Hành động (PDSA).
 
-Vì sao quan trọng: nghiên cứu luôn cần hội đồng đạo đức phê duyệt trước khi bắt đầu. Audit và QI thường chỉ cần phê duyệt nội bộ - nhưng nếu dự án phân nhóm ngẫu nhiên, thêm can thiệp hay rủi ro mới, hoặc thu thập dữ liệu ngoài chăm sóc thường quy, thì đó là nghiên cứu và cần xét duyệt đạo đức.
+Vì sao quan trọng: nghiên cứu luôn cần hội đồng đạo đức phê duyệt trước khi bắt đầu. Audit và QI thường chỉ cần phê duyệt nội bộ. Nhưng nếu dự án phân nhóm ngẫu nhiên, thêm can thiệp hay rủi ro mới, hoặc thu thập dữ liệu ngoài chăm sóc thường quy, thì đó là nghiên cứu và cần xét duyệt đạo đức.
 
-Công bố không làm thay đổi bản chất dự án. Tạp chí sẽ hỏi phê duyệt đạo đức hoặc quyết định miễn trừ chính thức, vì vậy hãy xác định - và hỏi - ngay từ đầu, không phải sau khi đã thu thập dữ liệu.
+Công bố không làm thay đổi bản chất dự án. Tạp chí sẽ hỏi phê duyệt đạo đức hoặc quyết định miễn trừ chính thức, vì vậy hãy xác định (và hỏi) ngay từ đầu, không phải sau khi đã thu thập dữ liệu.
 
 Quan niệm sai: 'audit và QI là nghiên cứu hạng hai'. Chúng trả lời câu hỏi khác và rất cần thiết; nhiều câu hỏi nghiên cứu hay bắt đầu từ kết quả audit.
 
-Hỏi cả lớp: 'Kiểm tra xem cân bằng dịch có được ghi hằng ngày theo quy trình không - là nghiên cứu, audit hay QI?' Trả lời mong đợi: audit.
+Hỏi cả lớp: 'Kiểm tra xem cân bằng dịch có được ghi hằng ngày theo quy trình không: là nghiên cứu, audit hay QI?' Trả lời mong đợi: audit.
 
 Lưu ý: quy định khác nhau giữa các cơ sở. Nhắc học viên xem quy định nội bộ và, nếu không chắc, hỏi hội đồng đạo đức.
 
@@ -591,7 +591,7 @@ CÂU HỎI NHANH · 2 phút
 2. B: phân nhóm ngẫu nhiên bệnh nhân vào hạn chế dịch hoặc dịch thường quy
 3. C: thử bảng kiểm bàn giao ca mới theo các chu trình PDSA nhỏ
 4. D: phỏng vấn điều dưỡng vì sao ngại ngừng dịch
-5. Mỗi câu: nghiên cứu, audit hay QI - và ai phải phê duyệt?
+5. Mỗi câu: nghiên cứu, audit hay QI? Ai phải phê duyệt?
 :::
 
 ::: {.neu-output style="--c:#6C3483"}
@@ -601,7 +601,7 @@ CÂU HỎI NHANH · 2 phút
 ::: {.notes}
 Đọc từng câu; cả lớp giơ 1, 2 hoặc 3 ngón tay.
 
-Đáp án (slide sau): A audit; B nghiên cứu (hội đồng đạo đức + đăng ký); C cải tiến chất lượng; D nghiên cứu (định tính - hội đồng đạo đức).
+Đáp án (slide sau): A audit; B nghiên cứu (hội đồng đạo đức + đăng ký); C cải tiến chất lượng; D nghiên cứu (định tính, hội đồng đạo đức).
 
 Ý chính: con đường đạo đức phụ thuộc vào việc bạn LÀM GÌ, không phụ thuộc vào việc có định công bố hay không.
 
@@ -636,23 +636,23 @@ Thời gian: 2 phút.
 ![](images/figures/sat1/journey_to_publication.png){.neu-fig}
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Khóa học đi hết con đường - đề cương của nhóm bao gồm trạm 1 đến 6.
+**THÔNG ĐIỆP CHÍNH** Khóa học đi hết con đường. Đề cương của nhóm bao gồm trạm 1 đến 6.
 :::
 
 ::: {.notes}
 Mười một trạm từ câu hỏi đến tác động. Màu sắc cho biết những tuần nào của khóa học dạy trạm đó.
 
-Trạm 1-6 là lập kế hoạch và thực hiện: câu hỏi, thiết kế và đề cương, đăng ký (thử nghiệm phải đăng ký TRƯỚC bệnh nhân đầu tiên - Bài báo 1 đăng ký tháng 7/2021, bắt đầu tuyển tháng 9/2021), phê duyệt đạo đức, thu thập dữ liệu, phân tích.
+Trạm 1-6 là lập kế hoạch và thực hiện: câu hỏi, thiết kế và đề cương, đăng ký (thử nghiệm phải đăng ký TRƯỚC bệnh nhân đầu tiên: Bài báo 1 đăng ký tháng 7/2021, bắt đầu tuyển tháng 9/2021), phê duyệt đạo đức, thu thập dữ liệu, phân tích.
 
 Trạm 7-11 là công bố: viết bài, nộp bài, bình duyệt, công bố và tác động tới bệnh nhân. Con đường thường mất một đến ba năm; nhiều nghiên cứu tốt dừng lại ở trạm 7.
 
 Ý chính: mọi trạm đều phụ thuộc trạm 1. Câu hỏi mơ hồ tạo ra đề cương yếu, phân tích không trả lời được và bài báo khó công bố.
 
-Quan niệm sai: 'công bố là điểm kết thúc'. Mục đích là tác động - một hướng dẫn, quy trình hay thực hành được thay đổi.
+Quan niệm sai: 'công bố là điểm kết thúc'. Mục đích là tác động: một hướng dẫn, quy trình hay thực hành được thay đổi.
 
-Hỏi cả lớp: 'Theo bạn, nghiên cứu ở bệnh viện hay mắc kẹt ở trạm nào?' Mong đợi: thủ tục đạo đức, thu thập dữ liệu, hoặc viết bài (trạm 7) - ta sẽ giải quyết từng trạm.
+Hỏi cả lớp: 'Theo bạn, nghiên cứu ở bệnh viện hay mắc kẹt ở trạm nào?' Mong đợi: thủ tục đạo đức, thu thập dữ liệu, hoặc viết bài (trạm 7). Ta sẽ giải quyết từng trạm.
 
-Thời gian: 3 phút. Phần 1.1 kết thúc lúc 1:10 - giải lao.
+Thời gian: 3 phút. Phần 1.1 kết thúc lúc 1:10, sau đó giải lao.
 :::
 
 ## Giải lao
@@ -671,7 +671,7 @@ GIẢI LAO (1:10-1:25).
 
 Trong giờ giải lao: đặt phiếu bài tập Buổi 1 lên bàn và viết các tình huống của bài tập theo cặp lên bảng giấy.
 
-Bắt đầu lại đúng giờ - nói rõ giờ quay lại.
+Bắt đầu lại đúng giờ và nói rõ giờ quay lại.
 :::
 
 ## 1.2  Từ vấn đề đến câu hỏi
@@ -682,7 +682,7 @@ Một câu hỏi tốt là một nửa câu trả lời.
 :::
 
 ::: {.neu-sub}
-40 phút: câu hỏi đến từ đâu, PICO(T) qua các ví dụ, loại câu hỏi, FINER - rồi bài tập theo cặp
+40 phút: câu hỏi đến từ đâu, PICO(T) qua các ví dụ, loại câu hỏi và FINER, rồi bài tập theo cặp
 :::
 ::::
 
@@ -691,7 +691,7 @@ PHẦN 1.2 (1:25-2:05).
 
 Ý chính: một băn khoăn lâm sàng mơ hồ ('dịch truyền có hại không?') phải được chuyển thành câu hỏi chính xác, trả lời được, trước khi làm việc gì khác.
 
-Ta sẽ xây PICO thật chậm qua nhiều ví dụ - ICU và khoa phòng - trước khi thực hành theo cặp.
+Ta sẽ xây PICO thật chậm qua nhiều ví dụ (ICU và khoa phòng) trước khi thực hành theo cặp.
 
 Thời gian: 30 giây.
 :::
@@ -707,11 +707,11 @@ Thời gian: 30 giây.
 ::: {.notes}
 Sáu nguồn thường gặp của câu hỏi hay, đều từ công việc hằng ngày.
 
-Ô màu cam là quyết định then chốt: trước khi gọi một việc là nghiên cứu, hãy kiểm tra câu trả lời đã có chưa. Nếu đã có, việc cần làm là triển khai - hướng dẫn, audit hay dự án QI (phần 1.1).
+Ô màu cam là quyết định then chốt: trước khi gọi một việc là nghiên cứu, hãy kiểm tra câu trả lời đã có chưa. Nếu đã có, việc cần làm là triển khai: hướng dẫn, audit hay dự án QI (phần 1.1).
 
-Ý chính: 'cách biết' chính là tìm y văn - đó là nội dung Buổi 2 thứ Bảy tuần sau.
+Ý chính: 'cách biết' chính là tìm y văn, nội dung của Buổi 2 thứ Bảy tuần sau.
 
-Hỏi cả lớp: 'Kể một việc trong khoa mà mỗi đồng nghiệp làm một kiểu.' Mong đợi: mục tiêu an thần, lượng dịch truyền, thay băng, thời điểm vận động sớm. Ghi lên bảng giấy - đó là chủ đề tiềm năng cho đề cương.
+Hỏi cả lớp: 'Kể một việc trong khoa mà mỗi đồng nghiệp làm một kiểu.' Mong đợi: mục tiêu an thần, lượng dịch truyền, thay băng, thời điểm vận động sớm. Ghi lên bảng giấy. Đó là chủ đề tiềm năng cho đề cương.
 
 Thời gian: 3 phút.
 :::
@@ -725,15 +725,15 @@ Thời gian: 3 phút.
 :::
 
 ::: {.notes}
-PICO = Đối tượng (Population), Can thiệp (Intervention), So sánh (Comparison), Kết cục (Outcome). T (Time - thời gian) cho biết khi nào đo kết cục.
+PICO = Đối tượng (Population), Can thiệp (Intervention), So sánh (Comparison), Kết cục (Outcome). T (Time, thời gian) cho biết khi nào đo kết cục.
 
 Đọc năm ô, rồi đọc cả câu ở dưới. Đây là ví dụ xuyên suốt cả khóa học.
 
 Ý chính: mỗi chữ cái buộc ta quyết định. Chính xác là bệnh nhân nào? Hạn chế thế nào? So với cái gì? Kết cục nào, đo lúc nào?
 
-Biến thể: với câu hỏi quan sát, I thành E (phơi nhiễm - exposure), ví dụ 'cân bằng dịch dương' - PECO. Câu hỏi mô tả có thể chỉ cần P và O.
+Biến thể: với câu hỏi quan sát, I thành E (phơi nhiễm, exposure), ví dụ 'cân bằng dịch dương' (PECO). Câu hỏi mô tả có thể chỉ cần P và O.
 
-Quan niệm sai: 'nhóm so sánh thì hiển nhiên'. Chăm sóc thường quy khác nhau giữa các bệnh viện và theo thời gian - phải mô tả rõ.
+Quan niệm sai: 'nhóm so sánh thì hiển nhiên'. Chăm sóc thường quy khác nhau giữa các bệnh viện và theo thời gian, nên phải mô tả rõ.
 
 Hỏi cả lớp: 'Tử vong 28 ngày có phải kết cục hợp lý duy nhất?' Mong đợi: tử vong 90 ngày, số ngày sống không cần hỗ trợ sự sống, tổn thương thận cần lọc máu, cân bằng dịch. Các thử nghiệm lớn dùng tử vong 90 ngày.
 
@@ -751,13 +751,13 @@ Thời gian: 4 phút.
 ::: {.notes}
 Ba ví dụ KHÔNG về dịch truyền, để mọi ngành nghề đều thấy mình trong đó.
 
-Dòng 1 - điều trị (PICO): người lớn thở máy; bảng kiểm đầu giường 2 lần/ngày so với chăm sóc thường quy; viêm phổi liên quan thở máy đến ngày 28 tại ICU.
+Dòng 1, điều trị (PICO): người lớn thở máy; bảng kiểm đầu giường 2 lần/ngày so với chăm sóc thường quy; viêm phổi liên quan thở máy đến ngày 28 tại ICU.
 
-Dòng 2 - yếu tố nguy cơ (PECO): ta không thể 'phân' béo phì cho bệnh nhân, nên I thành E (phơi nhiễm). Người lớn tại khoa nội; béo phì so với không béo phì; tổn thương do tì đè mới trong thời gian nằm viện.
+Dòng 2, yếu tố nguy cơ (PECO): ta không thể 'phân' béo phì cho bệnh nhân, nên I thành E (phơi nhiễm). Người lớn tại khoa nội; béo phì so với không béo phì; tổn thương do tì đè mới trong thời gian nằm viện.
 
-Dòng 3 - bao nhiêu? Chỉ P và O (và T): người ≥65 tuổi sau mổ gãy cổ xương đùi; mê sảng sàng lọc bằng 4AT trong 7 ngày đầu.
+Dòng 3, bao nhiêu? Chỉ P và O (và T): người ≥65 tuổi sau mổ gãy cổ xương đùi; mê sảng sàng lọc bằng 4AT trong 7 ngày đầu.
 
-Ý chính: các ô bạn điền đã cho biết loại câu hỏi - và sau này là thiết kế.
+Ý chính: các ô bạn điền đã cho biết loại câu hỏi, và sau này là thiết kế.
 
 Hỏi cả lớp: 'Cho tôi một câu hỏi PECO từ khoa dược.' Ví dụ mong đợi: ở người lớn tại ICU, dùng nhiều thuốc (≥10 thuốc) so với ít hơn có liên quan với mê sảng không?
 
@@ -778,7 +778,7 @@ CÂU HỎI NHANH · 3 phút
 :::
 
 ::: {.neu-output style="--c:#6C3483"}
-**SẢN PHẨM** Năm phần được gắn nhãn - đáp án ở slide sau
+**SẢN PHẨM** Năm phần được gắn nhãn. Đáp án ở slide sau
 :::
 
 ::: {.notes}
@@ -786,7 +786,7 @@ Cho lớp 2 phút làm yên lặng, rồi 1 phút so sánh.
 
 Đáp án (slide sau): P người ≥65 tuổi sau mổ gãy cổ xương đùi; I gói phòng mê sảng không dùng thuốc hằng ngày; C chăm sóc thường quy; O mê sảng; T 7 ngày đầu sau mổ.
 
-Chú ý học viên gắn 'gãy cổ xương đùi' là kết cục - thực ra đó là một phần của đối tượng.
+Chú ý học viên gắn 'gãy cổ xương đùi' là kết cục. Thực ra đó là một phần của đối tượng.
 
 Thời gian: 3 phút.
 :::
@@ -836,7 +836,7 @@ Thời gian: 3 phút.
 ::: {.notes}
 Hiện đáp án và hỏi bao nhiêu người đúng cả năm.
 
-Ý chính: kết cục phải là điều có thể xảy ra SAU khi can thiệp bắt đầu. Gãy cổ xương đùi đã xảy ra - nó xác định ai đủ tiêu chuẩn.
+Ý chính: kết cục phải là điều có thể xảy ra SAU khi can thiệp bắt đầu. Gãy cổ xương đùi đã xảy ra: nó xác định ai đủ tiêu chuẩn.
 
 Câu hỏi thêm nếu lớp đi nhanh: 'Đo mê sảng thế nào?' Mong đợi: dùng công cụ sàng lọc đã chuẩn hóa (ví dụ 4AT hoặc CAM) vào cùng giờ mỗi ngày.
 
@@ -852,9 +852,9 @@ Thời gian: 2 phút.
 :::
 
 ::: {.notes}
-Mô tả: cái gì, bao nhiêu, ai - không cần nhóm so sánh.
+Mô tả: cái gì, bao nhiêu, ai. Không cần nhóm so sánh.
 
-Phân tích: X có liên quan tới Y (quan sát - ta theo dõi), hoặc X có gây ra Y (thực nghiệm - ta chủ động phân nhóm X).
+Phân tích: X có liên quan tới Y (quan sát: ta theo dõi), hoặc X có gây ra Y (thực nghiệm: ta chủ động phân nhóm X).
 
 Ý chính: động từ tiết lộ loại câu hỏi. 'Bao nhiêu' là mô tả; 'có liên quan với' là quan sát; 'có làm giảm' hàm ý thực nghiệm.
 
@@ -865,7 +865,7 @@ Hỏi cả lớp: 'Bài báo 2 (Hyun) thuộc ô nào?' Mong đợi: phân tích
 Thời gian: 3 phút. Danh mục thiết kế đầy đủ học ở Buổi 3.
 :::
 
-## Mơ hồ và trả lời được
+## Từ băn khoăn mơ hồ đến câu hỏi trả lời được
 
 ![](images/figures/sat1/good_vs_bad_question.png){.neu-fig}
 
@@ -874,7 +874,7 @@ Thời gian: 3 phút. Danh mục thiết kế đầy đủ học ở Buổi 3.
 :::
 
 ::: {.notes}
-Bên trái: câu hỏi ta hay hỏi ngoài hành lang - từ nào cũng chưa được định nghĩa. Bên phải: cùng băn khoăn đó viết theo PICO(T).
+Bên trái: câu hỏi ta hay hỏi ngoài hành lang: từ nào cũng chưa được định nghĩa. Bên phải: cùng băn khoăn đó viết theo PICO(T).
 
 Ý chính: câu hỏi nghiên cứu được phải cụ thể, có một kết cục chính, và gợi ra thiết kế.
 
@@ -936,11 +936,11 @@ FINER (Feasible, Interesting, Novel, Ethical, Relevant) do Hulley và cộng s�
 
 Khả thi là tiêu chí hay trượt nhất trong nghiên cứu tại bệnh viện: không đủ bệnh nhân, hoặc kết cục quá hiếm.
 
-Mới không có nghĩa là 'chưa ai nghiên cứu'. Lặp lại ở bối cảnh mới, hoặc với thiết kế tốt hơn, vẫn có thể là mới - vì vậy tìm y văn rất quan trọng.
+Mới không có nghĩa là 'chưa ai nghiên cứu'. Lặp lại ở bối cảnh mới, hoặc với thiết kế tốt hơn, vẫn có thể là mới. Vì vậy tìm y văn rất quan trọng.
 
-Đạo đức: có thực sự chưa chắc chắn (cân bằng lâm sàng - equipoise) lựa chọn nào tốt hơn không?
+Đạo đức: có thực sự chưa chắc chắn (cân bằng lâm sàng, equipoise) lựa chọn nào tốt hơn không?
 
-Hỏi cả lớp: 'Ví dụ xuyên suốt trượt tiêu chí nào?' Để lớp đoán - slide sau có đáp án.
+Hỏi cả lớp: 'Ví dụ xuyên suốt trượt tiêu chí nào?' Để lớp đoán. Slide sau có đáp án.
 
 Thời gian: 3 phút.
 :::
@@ -962,7 +962,7 @@ E màu vàng cam: cả hai chiến lược đều đang dùng nên có cân bằ
 
 Cách cứu câu hỏi: đổi kết cục (cân bằng dịch ngày 5, như Bài báo 1), làm nghiên cứu thử nghiệm tính khả thi (pilot), hoặc đặt câu hỏi mô tả về thực hành của chính khoa mình.
 
-Quan niệm sai: 'trượt FINER nghĩa là ý tưởng tồi'. Nghĩa là ý tưởng cần được định hình lại - bình thường và được mong đợi.
+Quan niệm sai: 'trượt FINER nghĩa là ý tưởng tồi'. Nghĩa là ý tưởng cần được định hình lại, điều này bình thường và được mong đợi.
 
 Hỏi cả lớp: 'Đề xuất một phiên bản khả thi cho khoa mình.' Mong đợi: một câu hỏi mô tả kiểu audit, hoặc một pilot như Bài báo 1.
 
@@ -992,7 +992,7 @@ Tình huống
 - Viêm phổi liên quan thở máy
 - Tổn thương do tì đè
 - Mê sảng
-- Đột quỵ: thời gian cửa - kim
+- Đột quỵ: thời gian cửa-kim
 - Sai sót dùng thuốc
 :::
 :::
@@ -1009,7 +1009,7 @@ Ghép cặp: nếu được, mỗi cặp gồm hai nghề khác nhau.
 
 Ở phút thứ 8, dừng lại. Mời ba cặp đọc to câu hỏi; mời lớp gọi tên từng chữ cái PICO và hỏi 'chữ FINER nào làm bạn lo?'.
 
-Cặp làm tổn thương do tì đè thường nhận ra câu hỏi đầu tiên nên là câu hỏi mô tả - hãy khen điều này.
+Cặp làm tổn thương do tì đè thường nhận ra câu hỏi đầu tiên nên là câu hỏi mô tả. Hãy khen điều này.
 
 Thời gian: 8 phút làm + 3 phút tổng kết. Phần 1.3 bắt đầu lúc 2:05.
 :::
@@ -1022,7 +1022,7 @@ Câu hỏi cho biết ta muốn biết gì. Mục đích và mục tiêu cho bi�
 :::
 
 ::: {.neu-sub}
-20 phút: mục đích, mục tiêu, giả thuyết không và giả thuyết đối - và một bài tập nhanh
+20 phút: mục đích, mục tiêu, giả thuyết không và giả thuyết đối, và một bài tập nhanh
 :::
 ::::
 
@@ -1049,7 +1049,7 @@ Mục đích (aim) = mục đích chung trong một câu ('So sánh...', 'Mô t�
 
 Mục tiêu (objectives) = các bước cụ thể, đo được. Dùng động từ đo được: so sánh, ước tính, mô tả, xác định. Tránh 'tìm hiểu', 'khám phá', 'nghiên cứu'.
 
-Đánh dấu mục tiêu chính - nó quyết định cỡ mẫu (Buổi 6).
+Đánh dấu mục tiêu chính: nó quyết định cỡ mẫu (Buổi 6).
 
 Giả thuyết (hypothesis) = câu trả lời dự kiến cho mục tiêu phân tích chính, phát biểu sao cho dữ liệu có thể bác bỏ.
 
@@ -1085,13 +1085,13 @@ Thời gian: 3 phút.
 ![](images/figures/sat1/null_vs_alt.png){.neu-fig}
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Ta kiểm định H0. Dữ liệu có thể bác bỏ hoặc chưa bác bỏ được - không bao giờ chứng minh H0.
+**THÔNG ĐIỆP CHÍNH** Ta kiểm định H0. Dữ liệu có thể bác bỏ hoặc chưa bác bỏ được, nhưng không bao giờ chứng minh H0.
 :::
 
 ::: {.notes}
 H0, giả thuyết không (null hypothesis): không có khác biệt. H1, giả thuyết đối (alternative hypothesis): có khác biệt.
 
-So sánh: tòa án giả định 'không có tội' (H0) cho đến khi bằng chứng đủ mạnh. 'Không có tội' không giống 'vô tội' - và 'khác biệt không có ý nghĩa thống kê' không giống 'không có khác biệt'.
+So sánh: tòa án giả định 'không có tội' (H0) cho đến khi bằng chứng đủ mạnh. 'Không có tội' không giống 'vô tội', và 'khác biệt không có ý nghĩa thống kê' không giống 'không có khác biệt'.
 
 H1 thường là hai phía, ngay cả khi kỳ vọng có lợi, vì hạn chế dịch cũng có thể gây hại.
 
@@ -1112,7 +1112,7 @@ BÀI TẬP CÁ NHÂN · 7 phút
 1. Dùng câu hỏi từ bài tập theo cặp (hoặc ví dụ mê sảng)
 2. Viết MỘT mục đích: 'So sánh...' hoặc 'Mô tả...'
 3. Viết HAI mục tiêu với động từ đo được; đánh dấu mục tiêu chính
-4. Viết H0 và H1 cho mục tiêu chính - hoặc 'mô tả: không cần giả thuyết'
+4. Viết H0 và H1 cho mục tiêu chính (hoặc 'mô tả: không cần giả thuyết')
 5. Đổi phiếu với người bên cạnh: mọi động từ có đo được không?
 :::
 :::
@@ -1130,7 +1130,7 @@ BÀI TẬP CÁ NHÂN · 7 phút
 ::::
 
 ::: {.neu-output style="--c:#0B376C"}
-**SẢN PHẨM** Bài tập 3 trong phiếu - đáp án mẫu ở slide sau
+**SẢN PHẨM** Bài tập 3 trong phiếu. Đáp án mẫu ở slide sau
 :::
 
 ::: {.notes}
@@ -1178,7 +1178,7 @@ Thời gian: 7 phút.
 ::: {.notes}
 Đọc ba thẻ.
 
-Kiểm tra chuỗi: O của câu hỏi (mê sảng trong 7 ngày) = mục tiêu chính = kết cục trong H0/H1. Nếu các phần này khác nhau, đề cương thiếu nhất quán - người phản biện nhận ra ngay.
+Kiểm tra chuỗi: O của câu hỏi (mê sảng trong 7 ngày) = mục tiêu chính = kết cục trong H0/H1. Nếu các phần này khác nhau, đề cương thiếu nhất quán, và người phản biện nhận ra ngay.
 
 Phiên bản mô tả không cần giả thuyết: 'Ước tính tỷ lệ người ≥65 tuổi bị mê sảng trong 7 ngày đầu sau mổ gãy cổ xương đùi.'
 
@@ -1193,7 +1193,7 @@ Thời gian: 3 phút. Phần 1.3 kết thúc lúc 2:25.
 :::
 
 ::: {.neu-sub}
-30 phút làm việc nhóm - khởi đầu đề cương nghiên cứu
+30 phút làm việc nhóm: khởi đầu đề cương nghiên cứu
 :::
 ::::
 
@@ -1202,7 +1202,7 @@ XÂY DỰNG ĐỀ CƯƠNG 1 (2:25-2:55).
 
 Ý chính: mọi điều học hôm nay giờ được áp dụng vào chủ đề của nhóm. Đến 2:55 mỗi nhóm có một câu hỏi PICO qua được FINER, một mục đích và 2-3 mục tiêu trong mẫu đề cương.
 
-Mỗi nhóm chọn MỘT vấn đề. Nếu sau 5 phút chưa thống nhất, giao ví dụ xuyên suốt hoặc một ví dụ phụ (viêm phổi thở máy, tổn thương do tì đè, vệ sinh tay, thời gian cửa - kim, mê sảng, sai sót dùng thuốc).
+Mỗi nhóm chọn MỘT vấn đề. Nếu sau 5 phút chưa thống nhất, giao ví dụ xuyên suốt hoặc một ví dụ phụ (viêm phổi thở máy, tổn thương do tì đè, vệ sinh tay, thời gian cửa-kim, mê sảng, sai sót dùng thuốc).
 
 Tìm kiếm, 5 tài liệu, đặt vấn đề và tên đề tài là việc của thứ Bảy tuần sau (Xây dựng đề cương 2).
 
@@ -1246,9 +1246,9 @@ Thời gian
 ::: {.notes}
 Nhóm khoảng 6 người, đa ngành. Gợi ý vai trò: chủ trì, thư ký (gõ vào mẫu), người bấm giờ, và một người 'phản biện' kiểm tra FINER.
 
-Giảng viên đi vòng. Dành 7 phút đầu để chắc chắn mỗi nhóm có MỘT vấn đề tập trung - đây là chỗ các nhóm hay mắc kẹt.
+Giảng viên đi vòng. Dành 7 phút đầu để chắc chắn mỗi nhóm có MỘT vấn đề tập trung. Đây là chỗ các nhóm hay mắc kẹt.
 
-Kiểm tra câu hỏi của mỗi nhóm với PICO và FINER trước khi viết mục tiêu. Chữ F đỏ là vấn đề hay gặp nhất - giúp nhóm thu hẹp kết cục, rút ngắn thời gian, hoặc chuyển thành câu hỏi mô tả hay pilot.
+Kiểm tra câu hỏi của mỗi nhóm với PICO và FINER trước khi viết mục tiêu. Chữ F đỏ là vấn đề hay gặp nhất. Hãy giúp nhóm thu hẹp kết cục, rút ngắn thời gian, hoặc chuyển thành câu hỏi mô tả hay pilot.
 
 Lần ghé thứ hai: mục tiêu chính có nêu cùng kết cục với câu hỏi không? Con đường phê duyệt (nghiên cứu / audit / QI) đã được ghi chưa?
 
@@ -1268,7 +1268,7 @@ Thời gian: 28 phút. Tổng kết bắt đầu lúc 2:55.
 | PICO(T) / PECO | Đối tượng, Can thiệp (hoặc Phơi nhiễm), So sánh, Kết cục, Thời gian |
 | FINER | Khả thi, Thú vị, Mới, Đạo đức, Phù hợp |
 | Mục đích / mục tiêu | Lý do chung / việc cụ thể, đo được |
-| H0 / H1 | Không khác biệt / có khác biệt - ta kiểm định H0 |
+| H0 / H1 | Không khác biệt / có khác biệt (ta kiểm định H0) |
 
 ::: {.notes}
 TỔNG KẾT (2:55-3:00).
@@ -1335,7 +1335,7 @@ CÂU HỎI NHANH · 2 phút
 :::
 
 ::: {.notes}
-Đáp án: 1 - Khả thi: kết cục tử vong cần hơn một nghìn bệnh nhân. 2 - ví dụ 'Ước tính tỷ lệ mới mắc tổn thương do tì đè độ 2 trở lên ở người lớn tại khoa trong 6 tháng'.
+Đáp án: 1. Khả thi: kết cục tử vong cần hơn một nghìn bệnh nhân. 2. Ví dụ: 'Ước tính tỷ lệ mới mắc tổn thương do tì đè độ 2 trở lên ở người lớn tại khoa trong 6 tháng'.
 
 Đọc các tờ giấy trong tuần. Nếu nhiều người vẫn dùng động từ mơ hồ, mở đầu Buổi 2 bằng thêm một phút về mục tiêu.
 
@@ -1375,7 +1375,7 @@ Mang theo thứ Bảy tuần sau
 ::: {.notes}
 Giữ nhẹ nhàng: khoảng 30 phút trong tuần.
 
-Danh sách từ đồng nghĩa giúp tìm kiếm PubMed thứ Bảy tuần sau nhanh hơn nhiều - PubMed tìm bằng tiếng Anh.
+Danh sách từ đồng nghĩa giúp tìm kiếm PubMed thứ Bảy tuần sau nhanh hơn nhiều, vì PubMed tìm bằng tiếng Anh.
 
 'Con số tại khoa' sẽ thành đoạn 3 của phần đặt vấn đề thứ Bảy tuần sau.
 
@@ -1388,7 +1388,7 @@ Thời gian: 1 phút.
 
 :::: {.neu-statement}
 ::: {.neu-big}
-Slide bổ sung — Buổi 1
+Slide bổ sung: Buổi 1
 :::
 
 ::: {.neu-sub}
@@ -1434,13 +1434,13 @@ Buổi học chính vẫn trọn vẹn khi không dùng các slide này.
 ::::
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Chữ cái thay đổi; nguyên tắc - nói rõ ràng - vẫn giữ nguyên.
+**THÔNG ĐIỆP CHÍNH** Chữ cái thay đổi, nhưng nguyên tắc vẫn giữ nguyên: nói rõ ràng.
 :::
 
 ::: {.notes}
 EXTRA: khung câu hỏi chẩn đoán, tiên lượng và định tính.
 
-Câu hỏi chẩn đoán: xét nghiệm cần đánh giá là I, tiêu chuẩn tham chiếu là C, kết cục là độ chính xác (độ nhạy, độ đặc hiệu - Buổi 4).
+Câu hỏi chẩn đoán: xét nghiệm cần đánh giá là I, tiêu chuẩn tham chiếu là C, kết cục là độ chính xác (độ nhạy và độ đặc hiệu, Buổi 4).
 
 Tiên lượng: thường là PECO cộng mốc thời gian.
 
@@ -1486,7 +1486,7 @@ Giả thuyết hai phía là mặc định trong nghiên cứu lâm sàng vì ca
 
 Kiểm định một phía phải được định trước và có lý do; người phản biện thường nghi ngờ.
 
-Câu hỏi không kém hơn (non-inferiority - lựa chọn rẻ hơn hay đơn giản hơn có kém đáng kể không?) có thiết kế riêng - Buổi 3.
+Câu hỏi không kém hơn (non-inferiority: lựa chọn rẻ hơn hay đơn giản hơn có kém đáng kể không?) có thiết kế riêng (Buổi 3).
 
 Thời gian: 2 phút nếu dùng.
 :::
@@ -1511,7 +1511,7 @@ CÂU HỎI NHANH · 4 phút
 ::: {.notes}
 EXTRA: luyện thêm FINER.
 
-Đáp án: 1 Khả thi (quá lớn, quá dài, quá tốn kém; cũng đã có thử nghiệm vitamin D lớn - Mới). 2 Đạo đức (hoãn kháng sinh trong sốc nhiễm khuẩn gây hại - không có cân bằng lâm sàng). 3 Mới (đã có số liệu: đây là câu hỏi audit). 4 Phù hợp (không có cơ chế hợp lý, không tác động tới thực hành).
+Đáp án: 1 Khả thi (quá lớn, quá dài, quá tốn kém; cũng đã có thử nghiệm vitamin D lớn, nên cũng trượt tiêu chí Mới). 2 Đạo đức (hoãn kháng sinh trong sốc nhiễm khuẩn gây hại, nên không có cân bằng lâm sàng). 3 Mới (đã có số liệu: đây là câu hỏi audit). 4 Phù hợp (không có cơ chế hợp lý, không tác động tới thực hành).
 
 Cũng có trong Bài tập 2 Phần B của phiếu học viên.
 

@@ -1,4 +1,4 @@
-/* Foundations of Clinical Research - extra slide layouts for the Neudata revealjs format.
+/* Foundations of Clinical Research: extra slide layouts for the Neudata revealjs format.
    Mirrors the PowerPoint slide types: cards, steps, activity, statement, image2, takeaway. */
 .reveal .neu-intro { color: #595959; font-style: italic; font-size: 0.8em; margin: 0 0 0.5em; }
 .reveal .neu-caption { color: #595959; font-style: italic; font-size: 0.55em; text-align: center; margin-top: 0.2em; }

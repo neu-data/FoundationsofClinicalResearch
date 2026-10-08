@@ -2,13 +2,13 @@
 title: "Participant handbook"
 ---
 
-📥 [PDF](files/docs/Participant_Handbook.pdf)
+[Download the PDF](files/docs/Participant_Handbook.pdf)
 
 ::: {.callout-tip}
 The files named in the toolkit table below are on the [Templates](templates.qmd), [Resources](resources.qmd) and [Course dataset](dataset.qmd) pages.
 :::
 
-## Foundations of Clinical Research · Level 1 — From Clinical Question to Publication
+## Foundations of Clinical Research · Level 1: From Clinical Question to Publication
 
 **Provider:** Neudata · **#ClearDataClearImpact**
 
@@ -17,34 +17,34 @@ The files named in the toolkit table below are on the [Templates](templates.qmd)
 
 ## Welcome
 
-Every day you make clinical decisions that research could improve. Over **eight weeks, one session every Saturday,** this course walks the whole road of research with you: from a question at the bedside, to a sound study design, to analysing data, to writing and publishing the paper.
+Every day you make clinical decisions that research could improve. Over eight weeks, with one session every Saturday, this course takes you through the whole research process: from a question at the bedside, to a sound study design, to analysing data, to writing and publishing the paper.
 
-You do not need any research or statistics background. We go **slowly**, with pictures, examples from your own wards and a lot of group work. You will never be asked to calculate anything beyond a simple 2×2 table, and you do not need any software: the trainers run the analyses, and you learn to read and write them up.
+You do not need any research or statistics background. We go slowly, with pictures, examples from your own wards and a lot of group work. You will never be asked to calculate anything beyond a simple 2×2 table, and you do not need any software: the trainers run the analyses, and you learn to read and write them up.
 
 ## The course at a glance
 
 | Week | Session (all on Saturday) | Theme | Your group builds |
 |---|---|---|---|
-| **1** | 1 | **ASK** — from clinical problem to research question | Proposal: topic, PICO, question, aims |
-| **2** | 2 | **FIND & READ** — searching, managing references, reading a paper in 15 minutes | Proposal: search, 5 references, problem statement, working title |
-| **3** | 3 | **DESIGN** — choosing the right study | Proposal: design, setting, population |
-| **4** | 4 | **BIAS & EFFECT** — bias, confounding, RR/OR/NNT, diagnostic tests, forest plots | Proposal: exposure, outcomes, bias plan |
-| **5** | 5 | **DATA** — CRFs, data management, describing data; *meet the course dataset* | Proposal: variables, CRF, data plan · Manuscript: Table 1 understood |
-| **6** | 6 | **ANALYSE** — CIs, p-values, tests, regression, survival, missing data; *analyse the course dataset* | Proposal: sample size, analysis plan · Manuscript: results interpreted |
-| **7** | 7 | **PROTECT & WRITE** — ethics, registration, integrity; writing Methods and Results | Proposal: ethics, feasibility, publication plan · Manuscript: Methods + Results |
-| **8** | 8 | **PUBLISH** — Introduction, Discussion, abstract; journals, submission, peer review; presentations | Manuscript: complete draft · Proposal presented |
+| **1** | 1 | **ASK:** from clinical problem to research question | Proposal: topic, PICO, question, aims |
+| **2** | 2 | **FIND & READ:** searching, managing references, reading a paper in 15 minutes | Proposal: search, 5 references, problem statement, working title |
+| **3** | 3 | **DESIGN:** choosing the right study | Proposal: design, setting, population |
+| **4** | 4 | **BIAS & EFFECT:** bias, confounding, RR/OR/NNT, diagnostic tests, forest plots | Proposal: exposure, outcomes, bias plan |
+| **5** | 5 | **DATA:** CRFs, data management, describing data, *meeting the course dataset* | Proposal: variables, CRF, data plan · Manuscript: Table 1 understood |
+| **6** | 6 | **ANALYSE:** CIs, p-values, tests, regression, survival, missing data, *analysing the course dataset* | Proposal: sample size, analysis plan · Manuscript: results interpreted |
+| **7** | 7 | **PROTECT & WRITE:** ethics, registration, integrity, and writing Methods and Results | Proposal: ethics, feasibility, publication plan · Manuscript: Methods + Results |
+| **8** | 8 | **PUBLISH:** Introduction, Discussion, abstract, journals, submission, peer review and presentations | Manuscript: complete draft · Proposal presented |
 
-Each session lasts **3 hours with a 15-minute break**: a short recap, two teaching blocks with frequent "check your understanding" moments, and time to build your proposal or paper. Each session also has **extra slides** at the end for anyone who wants to read further at home.
+Each session lasts 3 hours with a 15-minute break. It has a short recap, two teaching blocks with frequent "check your understanding" moments, and time to build your proposal or paper. Each session also has extra slides at the end for anyone who wants to read further at home.
 
 ### The running example
-One clinical topic travels with us: **fluids in septic shock**. In Weeks 1–4 we ask, search and design the question, and look at two real papers (a randomised trial and a cohort study). In Weeks 5–8 we analyse **FLUID-ICU**, a realistic *simulated* dataset of 620 ICU patients, and write it up as a paper.
+One clinical topic travels with us: **fluids in septic shock**. In Weeks 1–4 we ask, search and design the question, and look at two real papers (a randomised trial and a cohort study). In Weeks 5–8 we analyse FLUID-ICU, a realistic *simulated* dataset of 620 ICU patients, and write it up as a paper.
 
 ## Your group and its two products
 
-You stay in the **same group of about six** for all eight sessions. Agree roles in Session 1 (they can rotate): facilitator, scribe, timekeeper, literature lead, methods & data lead, presenter.
+You stay in the same group of about six for all eight sessions. Agree roles in Session 1 (they can rotate): facilitator, scribe, timekeeper, literature lead, methods & data lead, presenter.
 
-1. **A research proposal on your own question**, built one part every two weeks and **presented in Session 8** (6 minutes + 2 minutes of feedback). See `Assignment/proposal_brief.md`.
-2. **A draft manuscript from the course dataset.** Each group answers a different question on FLUID-ICU (e.g. fluid balance and mortality, kidney injury, ventilator-free days, lactate and missing data, ICU length of stay), using its **results pack**. You draft Methods and Results in Session 7 and the rest in Session 8. After the course, groups **review each other's drafts and reply like real authors**. See `Assignment/manuscript_brief.md` and `Assignment/peer_review_instructions.md`.
+1. **A research proposal on your own question**, built one part every two weeks and presented in Session 8 (6 minutes + 2 minutes of feedback). See `Assignment/proposal_brief.md`.
+2. **A draft manuscript from the course dataset.** Each group answers a different question on FLUID-ICU (e.g. fluid balance and mortality, kidney injury, ventilator-free days, lactate and missing data, ICU length of stay), using its results pack. You draft Methods and Results in Session 7 and the rest in Session 8. After the course, groups review each other's drafts and reply like real authors. See `Assignment/manuscript_brief.md` and `Assignment/peer_review_instructions.md`.
 
 ## Between sessions (one week; about 30–60 minutes)
 
@@ -56,7 +56,7 @@ You stay in the **same group of about six** for all eight sessions. Agree roles 
 | Session 5 | Read your group's results pack (Table 1 and figures) |
 | Session 6 | Finish Proposal Part 3; read Papers 1 and 2; start your 6-slide presentation |
 | Session 7 | Finish Proposal Part 4 and your presentation; re-read your Methods + Results |
-| Session 8 | Polish the manuscript; peer-review swap and response letter within **2 weeks** |
+| Session 8 | Polish the manuscript; peer-review swap and response letter within 2 weeks |
 
 ## What you need
 A pen, a notebook, and (optional) a laptop or phone for PubMed and the online quiz. No software to install. Participants who have done the free Neudata course *Clinical Data Analysis in R* may re-run the course analyses with the scripts in `Data/R/`.
@@ -83,10 +83,10 @@ A pen, a notebook, and (optional) a laptop or phone for PubMed and the online qu
 | English–Vietnamese glossary, further reading | `References/` |
 
 ## The quiz
-In Session 1 and again at the end of Session 8 you answer the same 24 questions. It is anonymous (participant number only) and measures what the **course** achieved, not you.
+In Session 1 and again at the end of Session 8 you answer the same 24 questions. It is anonymous (participant number only) and measures what the *course* achieved, not you.
 
 ## After the course
-Take your proposal to the ethics committee and keep improving your manuscript. This course is **Level 1**. If you want to run analyses yourself, **Level 2** is a hands-on course in R (prerequisite: this course and the free *Clinical Data Analysis in R* course); **Level 3** offers advanced, specialised methods on request (`Course_Levels/`).
+Take your proposal to the ethics committee and keep improving your manuscript. This course is Level 1. If you want to run analyses yourself, Level 2 is a hands-on course in R (prerequisite: this course and the free *Clinical Data Analysis in R* course). Level 3 offers advanced, specialised methods on request (`Course_Levels/`).
 
 
 * * *

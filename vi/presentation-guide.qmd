@@ -6,14 +6,14 @@ title: "Hướng dẫn trình bày"
 Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
 :::
 
-📥 [Word](files/assignments/Presentation_Guide.docx) · [PDF](files/assignments/Presentation_Guide.pdf) · [Bài tập nhóm](assignments.qmd)
+Tải về: [Word](files/assignments/Presentation_Guide.docx) · [PDF](files/assignments/Presentation_Guide.pdf) · [Quay lại trang bài tập nhóm](assignments.qmd)
 
-## Foundations of Clinical Research — Level 1: From Clinical Question to Publication
+## Foundations of Clinical Research · Level 1: From Clinical Question to Publication
 
-**Organisation:** Neudata — *#ClearDataClearImpact*
+**Organisation:** Neudata (*#ClearDataClearImpact*)
 **When:** Session 8 (Week 8, Saturday), the 45-minute presentation block after "Be the reviewer"
-**Format:** **6 minutes, 6 slides** on your research proposal and publication plan, then **2 minutes** of structured feedback; at the end of the block, a **1-minute manuscript pitch** per group
-**Content:** Group product 1 (proposal, your own question) in the 6 minutes; Group product 2 (manuscript, course dataset) in the 1-minute pitch
+**Format:** **6 minutes, 6 slides** on your research proposal and publication plan, then **2 minutes** of structured feedback. At the end of the block, a **1-minute manuscript pitch** per group
+**Content:** Group product 1 (proposal, your own question) in the 6 minutes. Group product 2 (manuscript, course dataset) in the 1-minute pitch
 **Marked with:** the presentation section of `proposal_rubric.md` (criteria 12–16)
 
 
@@ -27,7 +27,7 @@ Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng 
 | Manuscript round | 5 groups × **1 min** = **5 min** | Each group's manuscript pitch on its FLUID-ICU question (section 5 below) |
 | **Total** | **45 min** | Followed directly by the post-course quiz in the last 15 minutes of Session 8 |
 
-The manuscript is **not** part of the 6 minutes: keep the two products separate so that the proposal gets its full time and the rubric (criteria 12–16) applies to the proposal only.
+The manuscript is **not** part of the 6 minutes. Keep the two products separate so that the proposal gets its full time and the rubric (criteria 12–16) applies to the proposal only.
 
 
 * * *
@@ -57,41 +57,41 @@ Use the course slide template if one is provided, or any plain template with a l
 
 - **One message per slide.** The slide title can be the message ("A cohort study is the realistic design here").
 - **Maximum ~6 short lines** per slide, at least 24-point font. If you need to read it, the audience cannot.
-- **Pictures before words** — a PICO table, a flow diagram and a timeline bar are clearer than paragraphs.
+- **Pictures before words.** A PICO table, a flow diagram and a timeline bar are clearer than paragraphs.
 - **Numbers with units and sources** ("about 40 septic shock admissions per year, unit register").
-- **Be honest about weaknesses.** Naming your main bias and limitation scores marks; hiding it loses them.
+- **Be honest about weaknesses.** Naming your main bias and limitation scores marks. Hiding it loses them.
 - **Use calibrated language** on slide 6: an observational study can show an *association*, not prove a cause.
 - Make sure the slides match the written proposal (same question, same primary outcome, same sample size, same working title).
 
 **Delivery**
 
-- Rehearse at least twice **with a timer**. Six minutes is short: most groups overrun on slide 2 — keep the background brief.
+- Rehearse at least twice **with a timer**. Six minutes is short, and most groups overrun on slide 2. Keep the background brief.
 - Speak to the room, not to the screen. Point to the one thing on the slide that matters.
 - If several members present, plan the hand-overs ("Now our methods lead will explain how we will collect the data").
 - Avoid jargon you could not explain to a new colleague. Plain language is a strength.
 - Prepare for three likely questions: "Why this design?", "Can you really recruit that many patients?" and "Why this journal?"
-- Do not mix in the FLUID-ICU manuscript; it has its own minute at the end.
+- Do not mix in the FLUID-ICU manuscript. It has its own minute at the end.
 
 **Technical**
 
-- Send the file to the course lead the day before Session 8 (see `proposal_brief.md`); bring a copy on a USB stick.
+- Send the file to the course lead the day before Session 8 (see `proposal_brief.md`) and bring a copy on a USB stick.
 - Do not embed videos or rely on internet access.
 - Check that tables and the Gantt chart are readable from the back of the room.
 
 
 * * *
 
-## 3. Timekeeping — coloured cards
+## 3. Timekeeping: coloured cards
 
 A timekeeper (an instructor or a member of another group) sits in the front row with three cards and a timer.
 
 | Card | Shown at | Meaning |
 |---|---|---|
-| **Green** | 4:00 | 2 minutes left — you should be on slide 5. |
-| **Yellow** | 5:00 | 1 minute left — move to your final slide. |
-| **Red** | 6:00 | Time is up — finish your sentence and stop. |
+| **Green** | 4:00 | 2 minutes left. You should be on slide 5. |
+| **Yellow** | 5:00 | 1 minute left. Move to your final slide. |
+| **Red** | 6:00 | Time is up. Finish your sentence and stop. |
 
-At **6:30** the chair stops the presentation politely, even mid-slide. Keeping to time is part of the rubric and protects the feedback time of every group — the whole block has no spare minutes.
+At **6:30** the chair stops the presentation politely, even mid-slide. Keeping to time is part of the rubric and protects the feedback time of every group, because the whole block has no spare minutes.
 
 
 * * *
@@ -108,14 +108,14 @@ Feedback is short, specific and kind. It follows the same pattern for every grou
 
 **Written feedback:** during each presentation, the peer group and the instructors fill in the one-page feedback form at the end of `proposal_rubric.md`. Forms are handed to the presenting group at the end of the session so they can revise the written proposal.
 
-**Good feedback is…** specific ("your exclusion criteria would remove most elderly patients") rather than general ("good job"); about the proposal, not the people; and actionable ("add the time point to your primary outcome").
+**Good feedback is…** specific ("your exclusion criteria would remove most elderly patients") rather than general ("good job"), about the proposal rather than the people, and actionable ("add the time point to your primary outcome").
 
 
 * * *
 
 ## 5. The 1-minute manuscript pitch (end of the block)
 
-After all five proposal presentations, each group's **lead author** (or another member) stands up for **one minute** — no new slides needed; the course lead shows one slide per group with the group number and question number, or the group shows its Table 1 or main figure.
+After all five proposal presentations, each group's **lead author** (or another member) stands up for **one minute**. No new slides are needed: the course lead shows one slide per group with the group number and question number, or the group shows its Table 1 or main figure.
 
 Say three things, in this order:
 

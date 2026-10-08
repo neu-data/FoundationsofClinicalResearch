@@ -2,11 +2,11 @@
 title: "Glossary EN–VN"
 ---
 
-📥 [Word](files/docs/Glossary_EN_VN.docx) · [PDF](files/docs/Glossary_EN_VN.pdf)
+Download: [Word](files/docs/Glossary_EN_VN.docx) · [PDF](files/docs/Glossary_EN_VN.pdf)
 
-## Foundations of Clinical Research — Level 1 · Thuật ngữ Anh–Việt
+## Foundations of Clinical Research, Level 1 · Thuật ngữ Anh–Việt
 
-**Organisation:** Neudata — *#ClearDataClearImpact*
+**Organisation:** Neudata (*#ClearDataClearImpact*)
 
 Key terms grouped by the session (1–8) in which they are taught. Sessions 5–8 include the terms needed for the course dataset (FLUID-ICU) and the group manuscript. Definitions are in plain language for the course; they are not formal textbook definitions. Abbreviations widely used in Vietnamese practice (PICO, RCT, CRF, OR, RR, NNT, GCP…) are kept in English in brackets.
 
@@ -15,11 +15,11 @@ Key terms grouped by the session (1–8) in which they are taught. Sessions 5–
 
 * * *
 
-## Session 1 — ASK · Buổi 1 — ĐẶT CÂU HỎI
+## Session 1. ASK · Buổi 1. ĐẶT CÂU HỎI
 
 | English term | Thuật ngữ tiếng Việt | Definition (plain English) | Định nghĩa (tiếng Việt) |
 |---|---|---|---|
-| Research cycle | Chu trình nghiên cứu | The repeating path from a clinical problem to a question, a study, results, publication and changed practice — which raises new questions. | Con đường lặp lại từ vấn đề lâm sàng đến câu hỏi, nghiên cứu, kết quả, công bố và thay đổi thực hành — từ đó nảy sinh câu hỏi mới. |
+| Research cycle | Chu trình nghiên cứu | The repeating path from a clinical problem to a question, a study, results, publication and changed practice, which in turn raises new questions. | Con đường lặp lại từ vấn đề lâm sàng đến câu hỏi, nghiên cứu, kết quả, công bố và thay đổi thực hành, rồi từ đó nảy sinh câu hỏi mới. |
 | Evidence-based medicine | Y học dựa trên bằng chứng | Combining the best research evidence with clinical expertise and patient values to make care decisions. | Kết hợp bằng chứng nghiên cứu tốt nhất với kinh nghiệm lâm sàng và giá trị, mong muốn của người bệnh để ra quyết định chăm sóc. |
 | Levels of evidence (evidence pyramid) | Mức độ bằng chứng (tháp bằng chứng) | A ranking of study types by how well they protect against bias; systematic reviews of trials at the top, expert opinion at the bottom. | Thứ bậc các loại nghiên cứu theo khả năng hạn chế sai lệch; tổng quan hệ thống các thử nghiệm ở đỉnh, ý kiến chuyên gia ở đáy. |
 | Quantitative / qualitative / mixed-methods research | Nghiên cứu định lượng / định tính / phương pháp hỗn hợp | Quantitative research measures and counts; qualitative research explores experiences and meanings through words (interviews, observation); mixed methods combines both. | Nghiên cứu định lượng đo lường và đếm; nghiên cứu định tính tìm hiểu trải nghiệm và ý nghĩa qua lời nói (phỏng vấn, quan sát); phương pháp hỗn hợp kết hợp cả hai. |
@@ -27,7 +27,7 @@ Key terms grouped by the session (1–8) in which they are taught. Sessions 5–
 | Clinical audit | Đánh giá thực hành lâm sàng (audit lâm sàng) | Measuring current practice against an agreed standard to see whether the standard is met. | Đo lường thực hành hiện tại so với một tiêu chuẩn đã thống nhất để xem tiêu chuẩn đó có được đáp ứng hay không. |
 | Quality improvement (QI) and PDSA cycle | Cải tiến chất lượng (QI) và chu trình PDSA | Making and testing local changes to improve care, often in small Plan–Do–Study–Act cycles. | Thực hiện và thử nghiệm các thay đổi tại đơn vị để cải thiện chăm sóc, thường theo các chu trình nhỏ Lập kế hoạch – Thực hiện – Nghiên cứu – Hành động (PDSA). |
 | Research question | Câu hỏi nghiên cứu | The single, specific question a study is designed to answer. | Câu hỏi duy nhất, cụ thể mà nghiên cứu được thiết kế để trả lời. |
-| PICO(T) | PICO(T) | A frame for a clinical question: Population, Intervention (or exposure), Comparison, Outcome, (Time). | Khung xây dựng câu hỏi lâm sàng: Đối tượng (P), Can thiệp hoặc phơi nhiễm (I), So sánh (C), Kết cục (O), (Thời gian – T). |
+| PICO(T) | PICO(T) | A frame for a clinical question: Population, Intervention (or exposure), Comparison, Outcome, (Time). | Khung xây dựng câu hỏi lâm sàng: Đối tượng (P), Can thiệp hoặc phơi nhiễm (I), So sánh (C), Kết cục (O), (T, Thời gian). |
 | Population | Đối tượng nghiên cứu (quần thể) | The patients the question is about, e.g. adults with septic shock in the ICU. | Nhóm người bệnh mà câu hỏi hướng đến, ví dụ người lớn bị sốc nhiễm khuẩn tại ICU. |
 | Intervention | Can thiệp | A treatment or action deliberately given, e.g. a restrictive fluid strategy. | Phương pháp điều trị hoặc hành động được chủ động áp dụng, ví dụ chiến lược hạn chế dịch. |
 | Exposure | Phơi nhiễm (yếu tố tiếp xúc) | A factor people have or receive that is not assigned by the researcher, e.g. a large fluid balance. | Yếu tố mà người bệnh có hoặc nhận được nhưng không do nhà nghiên cứu chỉ định, ví dụ cân bằng dịch dương nhiều. |
@@ -39,7 +39,7 @@ Key terms grouped by the session (1–8) in which they are taught. Sessions 5–
 | Hypothesis | Giả thuyết nghiên cứu | A testable prediction about the result, naming the groups and the outcome. | Dự đoán có thể kiểm định về kết quả, nêu rõ các nhóm và kết cục. |
 | Null hypothesis | Giả thuyết không (H0) | The starting assumption that there is no difference or no effect. | Giả định ban đầu rằng không có khác biệt hoặc không có tác động. |
 
-## Session 2 — FIND & READ · Buổi 2 — TÌM VÀ ĐỌC Y VĂN
+## Session 2. FIND & READ · Buổi 2. TÌM VÀ ĐỌC Y VĂN
 
 | English term | Thuật ngữ tiếng Việt | Definition (plain English) | Định nghĩa (tiếng Việt) |
 |---|---|---|---|
@@ -57,7 +57,7 @@ Key terms grouped by the session (1–8) in which they are taught. Sessions 5–
 | Problem statement | Đặt vấn đề | A short description of the clinical problem, how big it is, and what is not yet known. | Mô tả ngắn gọn vấn đề lâm sàng, mức độ quan trọng và những điều còn chưa biết. |
 | Keywords | Từ khóa | 3–6 terms (ideally MeSH terms) chosen so that others can find your paper. | 3–6 thuật ngữ (nên dùng thuật ngữ MeSH) giúp người khác tìm thấy bài báo của bạn. |
 
-## Session 3 — DESIGN · Buổi 3 — THIẾT KẾ NGHIÊN CỨU
+## Session 3. DESIGN · Buổi 3. THIẾT KẾ NGHIÊN CỨU
 
 | English term | Thuật ngữ tiếng Việt | Definition (plain English) | Định nghĩa (tiếng Việt) |
 |---|---|---|---|
@@ -79,9 +79,9 @@ Key terms grouped by the session (1–8) in which they are taught. Sessions 5–
 | Pilot / feasibility study | Nghiên cứu thí điểm / nghiên cứu khả thi | A small study to test whether a larger study can be done (recruitment, procedures), not to test whether the treatment works. | Nghiên cứu nhỏ để kiểm tra liệu một nghiên cứu lớn hơn có thực hiện được không (tuyển chọn, quy trình), không nhằm đánh giá hiệu quả điều trị. |
 | Quasi-experimental (before–after) study | Nghiên cứu bán thực nghiệm (trước–sau) | An intervention is introduced without randomisation and outcomes are compared before and after; common in QI. | Can thiệp được áp dụng không qua phân bổ ngẫu nhiên và kết cục được so sánh trước và sau; thường gặp trong cải tiến chất lượng. |
 | Interrupted time series | Chuỗi thời gian ngắt quãng | Many measurements before and after a change, to see whether the level or trend shifts beyond the existing trend. | Nhiều lần đo trước và sau một thay đổi, để xem mức hoặc xu hướng có thay đổi vượt ra ngoài xu hướng sẵn có hay không. |
-| Qualitative study (interviews, focus groups) | Nghiên cứu định tính (phỏng vấn sâu, thảo luận nhóm tập trung) | Explores why and how — experiences, beliefs, barriers — through words rather than numbers. | Tìm hiểu "tại sao" và "như thế nào" — trải nghiệm, niềm tin, rào cản — qua lời nói thay vì con số. |
+| Qualitative study (interviews, focus groups) | Nghiên cứu định tính (phỏng vấn sâu, thảo luận nhóm tập trung) | Explores why and how (experiences, beliefs, barriers) through words rather than numbers. | Tìm hiểu "tại sao" và "như thế nào" (trải nghiệm, niềm tin, rào cản) qua lời nói thay vì con số. |
 
-## Session 4 — BIAS & EFFECT · Buổi 4 — SAI LỆCH VÀ ĐO LƯỜNG TÁC ĐỘNG
+## Session 4. BIAS & EFFECT · Buổi 4. SAI LỆCH VÀ ĐO LƯỜNG TÁC ĐỘNG
 
 | English term | Thuật ngữ tiếng Việt | Definition (plain English) | Định nghĩa (tiếng Việt) |
 |---|---|---|---|
@@ -115,7 +115,7 @@ Key terms grouped by the session (1–8) in which they are taught. Sessions 5–
 | Pooled estimate | Ước lượng gộp | The single combined effect from a meta-analysis, shown as the diamond on a forest plot. | Ước lượng tác động chung từ phân tích gộp, thể hiện bằng hình thoi trên biểu đồ rừng. |
 | Risk-of-bias tools | Công cụ đánh giá nguy cơ sai lệch | Structured checklists for judging bias, chosen by design: RoB 2 (RCTs), ROBINS-I (non-randomised studies of interventions), Newcastle–Ottawa (cohort, case-control), QUADAS-2 (diagnostic accuracy), AMSTAR 2 (systematic reviews). | Bảng kiểm có cấu trúc để đánh giá sai lệch, chọn theo thiết kế: RoB 2 (RCT), ROBINS-I (nghiên cứu can thiệp không ngẫu nhiên), Newcastle–Ottawa (thuần tập, bệnh–chứng), QUADAS-2 (độ chính xác chẩn đoán), AMSTAR 2 (tổng quan hệ thống). |
 
-## Session 5 — DATA · Buổi 5 — DỮ LIỆU
+## Session 5. DATA · Buổi 5. DỮ LIỆU
 
 | English term | Thuật ngữ tiếng Việt | Definition (plain English) | Định nghĩa (tiếng Việt) |
 |---|---|---|---|
@@ -145,11 +145,11 @@ Key terms grouped by the session (1–8) in which they are taught. Sessions 5–
 | Normal distribution | Phân phối chuẩn | A symmetric, bell-shaped spread of values around the mean. | Phân bố các giá trị đối xứng hình chuông quanh giá trị trung bình. |
 | Skewed distribution | Phân phối lệch | An asymmetric spread with a long tail on one side, e.g. length of stay. | Phân bố không đối xứng, có một đuôi dài về một phía, ví dụ thời gian nằm viện. |
 | Table 1 | Bảng 1 (đặc điểm nền) | The table that describes the baseline characteristics of the participants, usually by group. | Bảng mô tả các đặc điểm ban đầu của người tham gia, thường theo từng nhóm. |
-| Dynamite plot | Biểu đồ cột kèm thanh sai số ("dynamite plot") | A bar showing only a mean with an error bar; it hides the data — prefer dot plots or box plots. | Biểu đồ cột chỉ thể hiện giá trị trung bình kèm thanh sai số; che giấu dữ liệu thực — nên dùng biểu đồ chấm hoặc biểu đồ hộp. |
+| Dynamite plot | Biểu đồ cột kèm thanh sai số ("dynamite plot") | A bar showing only a mean with an error bar; it hides the data, so prefer dot plots or box plots. | Biểu đồ cột chỉ thể hiện giá trị trung bình kèm thanh sai số; che giấu dữ liệu thực, nên dùng biểu đồ chấm hoặc biểu đồ hộp thay thế. |
 | Box plot | Biểu đồ hộp | Shows the median, IQR and range of a variable; good for skewed data and for comparing groups. | Thể hiện trung vị, khoảng tứ phân vị và khoảng giá trị của một biến; phù hợp cho dữ liệu lệch và để so sánh các nhóm. |
 | Results pack | Gói kết quả phân tích | The set of tables, figures, regression outputs and plain-language notes prepared for each group's dataset question and used to write the manuscript. | Bộ bảng, hình, kết quả hồi quy và ghi chú bằng ngôn ngữ đơn giản được chuẩn bị cho câu hỏi của từng nhóm, dùng để viết bản thảo. |
 
-## Session 6 — ANALYSE · Buổi 6 — PHÂN TÍCH
+## Session 6. ANALYSE · Buổi 6. PHÂN TÍCH
 
 | English term | Thuật ngữ tiếng Việt | Definition (plain English) | Định nghĩa (tiếng Việt) |
 |---|---|---|---|
@@ -190,7 +190,7 @@ Key terms grouped by the session (1–8) in which they are taught. Sessions 5–
 | Multiple imputation | Quy gán đa bội | Filling in missing values several times from a model that uses other variables, then combining the results so the uncertainty is reflected. | Điền các giá trị bị thiếu nhiều lần dựa trên mô hình sử dụng các biến khác, rồi gộp kết quả để phản ánh độ không chắc chắn. |
 | Sensitivity analysis | Phân tích độ nhạy | Repeating the analysis under different assumptions to see whether the conclusion changes. | Lặp lại phân tích với các giả định khác nhau để xem kết luận có thay đổi hay không. |
 
-## Session 7 — PROTECT & WRITE (I) · Buổi 7 — BẢO VỆ VÀ VIẾT BÀI (I)
+## Session 7. PROTECT & WRITE (I) · Buổi 7. BẢO VỆ VÀ VIẾT BÀI (I)
 
 | English term | Thuật ngữ tiếng Việt | Definition (plain English) | Định nghĩa (tiếng Việt) |
 |---|---|---|---|
@@ -208,7 +208,7 @@ Key terms grouped by the session (1–8) in which they are taught. Sessions 5–
 | Study registration (ClinicalTrials.gov, WHO ICTRP, PROSPERO) | Đăng ký nghiên cứu (ClinicalTrials.gov, WHO ICTRP, PROSPERO) | Publicly recording a study's design and primary outcome before it starts; ICMJE journals require it for trials before the first participant is enrolled. | Công bố công khai thiết kế và kết cục chính của nghiên cứu trước khi bắt đầu; các tạp chí theo ICMJE yêu cầu thử nghiệm lâm sàng phải đăng ký trước khi tuyển người tham gia đầu tiên. |
 | Feasibility | Tính khả thi | Whether the study can realistically be done with the available time, money, staff and patients. | Khả năng thực hiện được nghiên cứu với thời gian, kinh phí, nhân lực và người bệnh hiện có. |
 | Gantt chart | Biểu đồ Gantt | A timeline chart showing each study task as a bar across months. | Biểu đồ tiến độ thể hiện mỗi công việc của nghiên cứu bằng một thanh ngang theo các tháng. |
-| Research misconduct (fabrication, falsification, plagiarism — FFP) | Hành vi sai trái trong nghiên cứu (bịa đặt, làm sai lệch, đạo văn) | Inventing data, changing data or results, or using others' work or words without credit. | Bịa ra dữ liệu, sửa đổi dữ liệu hoặc kết quả, hoặc sử dụng công trình, câu chữ của người khác mà không ghi nguồn. |
+| Research misconduct (fabrication, falsification and plagiarism, or FFP) | Hành vi sai trái trong nghiên cứu (bịa đặt, làm sai lệch, đạo văn) | Inventing data, changing data or results, or using others' work or words without credit. | Bịa ra dữ liệu, sửa đổi dữ liệu hoặc kết quả, hoặc sử dụng công trình, câu chữ của người khác mà không ghi nguồn. |
 | Plagiarism | Đạo văn | Presenting someone else's words, ideas or data as your own, without proper citation. | Trình bày câu chữ, ý tưởng hoặc dữ liệu của người khác như của mình mà không trích dẫn đúng. |
 | Duplicate and salami publication | Xuất bản trùng lặp và xuất bản "cắt lát" | Publishing the same results twice, or slicing one study into many small papers. | Công bố cùng một kết quả hai lần, hoặc chia nhỏ một nghiên cứu thành nhiều bài báo nhỏ. |
 | Authorship (ICMJE criteria) | Quyền tác giả (tiêu chí ICMJE) | Authors must contribute substantially, draft or revise the work, approve the final version and take responsibility for it. | Tác giả phải đóng góp đáng kể, viết hoặc chỉnh sửa bản thảo, phê duyệt bản cuối và chịu trách nhiệm về công trình. |
@@ -221,7 +221,7 @@ Key terms grouped by the session (1–8) in which they are taught. Sessions 5–
 | STROBE checklist | Bảng kiểm STROBE | The 22-item checklist for reporting observational studies; used to write and check the course-dataset manuscript. | Bảng kiểm 22 mục để báo cáo nghiên cứu quan sát; dùng để viết và kiểm tra bản thảo từ bộ dữ liệu của khóa học. |
 | Participant flow diagram | Sơ đồ dòng người tham gia | A diagram showing how many patients were screened, excluded (with reasons) and analysed. | Sơ đồ cho biết số người bệnh được sàng lọc, bị loại (kèm lý do) và được đưa vào phân tích. |
 
-## Session 8 — PUBLISH · Buổi 8 — CÔNG BỐ
+## Session 8. PUBLISH · Buổi 8. CÔNG BỐ
 
 | English term | Thuật ngữ tiếng Việt | Definition (plain English) | Định nghĩa (tiếng Việt) |
 |---|---|---|---|
@@ -241,7 +241,7 @@ Key terms grouped by the session (1–8) in which they are taught. Sessions 5–
 | Point-by-point response | Phản hồi theo từng ý | Answering every reviewer comment separately: the comment, your reply, and the change made (with page and line). | Trả lời riêng từng nhận xét của người phản biện: nhận xét, câu trả lời và thay đổi đã thực hiện (kèm số trang và dòng). |
 | Proofs | Bản in thử | The typeset version of an accepted paper, which the authors check for errors before publication. | Bản dàn trang của bài báo đã được chấp nhận, tác giả kiểm tra lỗi trước khi xuất bản. |
 | Conference abstract and poster | Tóm tắt và poster hội nghị | A short summary submitted to a scientific meeting and presented as a talk or a poster. | Bản tóm tắt ngắn gửi đến hội nghị khoa học, được trình bày dưới dạng báo cáo miệng hoặc poster. |
-| Dissemination | Phổ biến kết quả nghiên cứu | Sharing results with colleagues, patients and policymakers — through publication, presentations and local feedback. | Chia sẻ kết quả với đồng nghiệp, người bệnh và nhà hoạch định chính sách qua công bố, báo cáo và phản hồi tại đơn vị. |
+| Dissemination | Phổ biến kết quả nghiên cứu | Sharing results with colleagues, patients and policymakers through publication, presentations and local feedback. | Chia sẻ kết quả với đồng nghiệp, người bệnh và nhà hoạch định chính sách qua công bố, báo cáo và phản hồi tại đơn vị. |
 | Critical appraisal | Thẩm định phê bình (đánh giá y văn) | Systematically judging whether a study's methods and results are trustworthy and useful for your patients. | Đánh giá có hệ thống xem phương pháp và kết quả của một nghiên cứu có đáng tin cậy và hữu ích cho người bệnh của mình hay không. |
 | Peer-review swap | Trao đổi bình duyệt chéo giữa các nhóm | The after-course exercise in which each group reviews another group's draft manuscript and then responds to the review of its own draft. | Bài tập sau khóa học, trong đó mỗi nhóm bình duyệt bản thảo của một nhóm khác và sau đó phản hồi các nhận xét về bản thảo của nhóm mình. |
 

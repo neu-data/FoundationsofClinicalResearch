@@ -1,33 +1,33 @@
 ---
-title: "Buổi 2 — Phiếu bài tập"
+title: "Buổi 2: Phiếu bài tập"
 ---
 
 ::: {.lang-note}
 Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
 :::
 
-📥 [PDF](files/sessions/s2_exercises.pdf) · [Trang buổi học](session2.qmd)
+[Tải bản PDF](files/sessions/s2_exercises.pdf) · [Quay lại Buổi 2](session2.qmd)
 
-**Foundations of Clinical Research — Level 1** · Neudata · *#ClearDataClearImpact* · Week 2 · Saturday
+**Foundations of Clinical Research · Level 1** · Neudata · *#ClearDataClearImpact* · Week 2 · Saturday
 
 Name / group: ______________________________   Date: ____________
 
 > **How to use this sheet.**
-> - Recap quiz on Session 1 — on your own (8 minutes, start of the session).
-> - Exercise 1 (Boolean search builder) — **on your own**, segment 2.1 (5 minutes).
-> - Exercise 2 (paraphrasing) — at home.
-> - Exercise 3 (reading Paper 1's abstract) — **on your own**, segment 2.3 (12 minutes).
-> - Exercise 4 — your **group's Proposal builder 2** (33 minutes).
+> - Recap quiz on Session 1: on your own (8 minutes, start of the session).
+> - Exercise 1 (Boolean search builder): **on your own**, segment 2.1 (5 minutes).
+> - Exercise 2 (paraphrasing): at home.
+> - Exercise 3 (reading Paper 1's abstract): **on your own**, segment 2.3 (12 minutes).
+> - Exercise 4: your **group's Proposal builder 2** (33 minutes).
 >
-> The answers are discussed in the room — there is no mark.
+> The answers are discussed in the room. There is no mark.
 
 
 * * *
 
-## Recap quiz — Session 1  *(individual, 8 minutes)*
+## Recap quiz: Session 1  *(individual, 8 minutes)*
 
 1. Checking whether fluid balance is charted daily as the protocol says: research, audit or QI? ____________
-2. "In ICU staff, does hand-hygiene feedback vs none increase compliance at 3 months?" — P ______ I ______ C ______ O ______ T ______
+2. "In ICU staff, does hand-hygiene feedback vs none increase compliance at 3 months?" P ______ I ______ C ______ O ______ T ______
 3. Which FINER letter did our running example fail? ____________
 4. Which is an objective: "to understand delirium" or "to estimate the proportion with delirium"? ____________
 5. Write H0 for: "Does early mobilisation shorten ICU stay?" ________________________________________
@@ -39,22 +39,22 @@ Name / group: ______________________________   Date: ____________
 
 | | |
 |---|---|
-| **P** — Population | Adults (18+) with septic shock in the ICU |
-| **I** — Intervention | Restrictive fluid strategy |
-| **C** — Comparison | Usual care (standard fluids) |
-| **O** — Outcome | Death from any cause |
-| **T** — Time | Within 28 days |
+| **P**: Population | Adults (18+) with septic shock in the ICU |
+| **I**: Intervention | Restrictive fluid strategy |
+| **C**: Comparison | Usual care (standard fluids) |
+| **O**: Outcome | Death from any cause |
+| **T**: Time | Within 28 days |
 
 **Question:** *In adults with septic shock in the ICU, does a restrictive fluid strategy, compared with usual care, reduce 28-day mortality?*
 
 
 * * *
 
-## Exercise 1 — Boolean search builder  *(individual, 5 minutes, segment 2.1)*
+## Exercise 1: Boolean search builder  *(individual, 5 minutes, segment 2.1)*
 
-**Rules:** synonyms inside a block are joined with **OR**; blocks are joined with **AND**; put each block in **brackets**. Write operators in CAPITALS. Use English search words.
+**Rules:** join synonyms inside a block with **OR**. Join blocks with **AND**. Put each block in **brackets**. Write operators in CAPITALS. Use English search words.
 
-**Warm-up — which gives MORE hits?** (circle)
+**Warm-up: which gives MORE hits?** (circle)
 - `septic shock AND fluids`  or  `septic shock OR fluids`
 - `sepsis`  or  `sepsis NOT neonatal`
 
@@ -93,12 +93,12 @@ AND ("Mortality"[Mesh] OR mortality[tiab] OR death[tiab])
 
 * * *
 
-## Exercise 2 — Citing vs copying: paraphrase safely  *(individual, at home, 10 minutes)*
+## Exercise 2: Citing vs copying (paraphrase safely)  *(individual, at home, 10 minutes)*
 
 **Method:** read → close the paper → write from memory → check the facts → cite.
 Patchwriting (copying the sentence and swapping a few words) is plagiarism **even with a reference**.
 
-**Part A — Spot the problem.** The source is the Results section of Paper 2's abstract (Hyun 2023):
+**Part A: Spot the problem.** The source is the Results section of Paper 2's abstract (Hyun 2023):
 
 > "The positive fluid groups in both the D2 (HR, 2.13; 95% CI 1.48–3.06; P < 0.001) and D3 (HR, 1.56; 95% CI 1.10–2.22; P = 0.012) cohorts had significantly higher mortality rates than the negative fluid groups."
 
@@ -111,7 +111,7 @@ For each version, tick **OK** or **Problem**, and say why.
 | c) "Giving more fluid on days 2 and 3 doubles the risk of death [2]." | ☐ | ☐ | |
 | d) "In a matched registry cohort, a positive cumulative fluid balance on ICU days 2 and 3 was associated with higher 28-day mortality." (no citation) | ☐ | ☐ | |
 
-**Part B — Your turn.** Paraphrase this sentence from Paper 1's abstract in your own words, with a citation:
+**Part B: Your turn.** Paraphrase this sentence from Paper 1's abstract in your own words, with a citation:
 
 > "After 28 days, mortality and the numbers of days alive without life support were similar between groups."
 
@@ -124,7 +124,7 @@ ______________________________________________________________________________
 
 * * *
 
-## Exercise 3 — Read Paper 1's abstract  *(individual, 12 minutes, segment 2.3)*
+## Exercise 3: Read Paper 1's abstract  *(individual, 12 minutes, segment 2.3)*
 
 Use the **abstract only** of Paper 1: Boulet N, et al. *Crit Care* 2024;28:429 (in `Papers/`). 8 minutes reading, 4 minutes comparing with your neighbour.
 
@@ -133,20 +133,20 @@ Use the **abstract only** of Paper 1: Boulet N, et al. *Crit Care* 2024;28:429 (
 | Item | What the abstract says |
 |---|---|
 | **Design** (and blinding) | |
-| **P** — who was included? | |
-| **I vs C** — what was compared? | |
+| **P**: who was included? | |
+| **I vs C**: what was compared? | |
 | **Primary outcome** (and when) | |
-| **Numbers** — screened / randomised / analysed | |
-| **Main result** — estimate with 95% CI and p | |
-| **Conclusion** — one line | |
-| Does the conclusion **match** the main result? | ☐ yes ☐ no — why? |
-| Any **spin** (words stronger than the numbers)? | ☐ yes ☐ no — where? |
+| **Numbers**: screened / randomised / analysed | |
+| **Main result**: estimate with 95% CI and p | |
+| **Conclusion**: one line | |
+| Does the conclusion **match** the main result? | ☐ yes ☐ no. Why? |
+| Any **spin** (words stronger than the numbers)? | ☐ yes ☐ no. Where? |
 | **Registration** number | |
-| Does this paper answer **our** running-example question (28-day mortality)? | ☐ yes ☐ no — why? |
+| Does this paper answer **our** running-example question (28-day mortality)? | ☐ yes ☐ no. Why? |
 
 **Fast finishers:** read the **title and abstract** of Paper 2 (Hyun 2023). Which word in the title is stronger than the design allows? Which word does the abstract conclusion use instead?
 
-**Spin checklist — words to look for**
+**Spin checklist: words to look for**
 
 | Data say | Spin says |
 |---|---|
@@ -158,18 +158,18 @@ Use the **abstract only** of Paper 1: Boulet N, et al. *Crit Care* 2024;28:429 (
 
 * * *
 
-## Exercise 4 — Proposal builder 2  *(group, 33 minutes)*
+## Exercise 4: Proposal builder 2  *(group, 33 minutes)*
 
 Complete Part 1 of the **Research Proposal template** (`Templates/Research_Proposal_Template.docx`) and the **literature review worksheet**, building on last week's question, aim and objectives. This sheet is your checklist.
 
-**Suggested roles:** chair · scribe (types into the template) · searcher (phone or laptop — runs your PubMed string) · timekeeper.
+**Suggested roles:** chair · scribe (types into the template) · searcher (runs your PubMed string on a phone or laptop) · timekeeper.
 
 | Time | Task | Done |
 |---|---|---|
 | 0–8 min | **1. Run your search string** (Exercise 1) in PubMed; write the date, the filters and the number of hits | ☐ |
 | 8–16 min | **2. Screen** titles and abstracts; pick **5 key papers**; export them (*Send to → Citation manager*) into Zotero | ☐ |
-| 16–22 min | **3. Literature matrix** — one row per paper (split the papers between members) | ☐ |
-| 22–28 min | **4. Problem statement** — three short paragraphs (about 300 words): (a) what is known, (b) what is not known — the gap, (c) why it matters *here* (your local number) | ☐ |
+| 16–22 min | **3. Literature matrix**: one row per paper (split the papers between members) | ☐ |
+| 22–28 min | **4. Problem statement**: three short paragraphs (about 300 words): (a) what is known, (b) what is not known (the gap), (c) why it matters *here* (your local number) | ☐ |
 | 28–31 min | **5. Working title** and **keywords** (see below) | ☐ |
 | 31–33 min | One group reads its title and its gap sentence aloud; the room suggests one improvement | ☐ |
 
@@ -183,7 +183,7 @@ Complete Part 1 of the **Research Proposal template** (`Templates/Research_Propo
 
 *Example (feasible rewrite of the running example):* "Restrictive versus usual fluids in adults with septic shock: a pilot randomised trial" (13 words). Keywords: Fluid Therapy; Water-Electrolyte Balance; Critical Care; Vasoconstrictor Agents.
 
-**Literature review worksheet — one row per paper**
+**Literature review worksheet: one row per paper**
 
 | # | Study (first author, year, journal) | Design, size | Compared | Primary outcome: result | Key limitation | Why it matters for our question |
 |---|---|---|---|---|---|---|
@@ -212,7 +212,7 @@ ______________________________________________________________________________
 
 ## Homework before Session 3 (next Saturday)
 
-- **Group:** finish the five key references and the problem statement — Proposal Part 1 complete, with working title and keywords.
+- **Group:** finish the five key references and the problem statement, so that Proposal Part 1 is complete with a working title and keywords.
 - **Each member:** read one paper with the 15-minute routine and fill its row in the matrix.
 - **Everyone:** read the **abstract** of Paper 2 (Hyun 2023, *Ann Intensive Care*) with the Exercise 3 grid.
 - Exercise 2 (paraphrasing) if not done in class.

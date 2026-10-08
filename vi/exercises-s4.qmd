@@ -1,16 +1,16 @@
 ---
-title: "Buổi 4 — Phiếu bài tập"
+title: "Buổi 4: Phiếu bài tập"
 ---
 
 ::: {.lang-note}
 Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
 :::
 
-📥 [PDF](files/sessions/s4_exercises.pdf) · [Trang buổi học](session4.qmd)
+[Tải bản PDF](files/sessions/s4_exercises.pdf) · [Quay lại Buổi 4](session4.qmd)
 
 **Foundations of Clinical Research** · Week 4 · Saturday · Neudata · #ClearDataClearImpact
 
-This handout has six parts. You will not need a computer. For the calculations, simple division is enough; the instructor checks every answer with the 2×2 calculator.
+This handout has six parts. You will not need a computer. For the calculations, simple division is enough. The instructor checks every answer with the 2×2 calculator.
 
 | Part | Activity | When | How |
 |---|---|---|---|
@@ -19,14 +19,14 @@ This handout has six parts. You will not need a computer. For the calculations, 
 | C | Two 2×2 calculations | After the break (20 min) | Alone, then check with a neighbour |
 | D | PPV in two settings | Homework, or if 4.3 runs early | Alone |
 | E | Read a forest plot and choose the risk-of-bias tool | Pair task in 4.3 (6 min) | Pairs |
-| F | Proposal builder 4 — exposure, outcomes and biases | End of the session (30 min) | Your group |
+| F | Proposal builder 4: exposure, outcomes and biases | End of the session (30 min) | Your group |
 
 **Key words of the day:** bias · confounding · effect modification (interaction) · reverse causation · risk · risk ratio (RR) · risk difference (RD) · number needed to treat (NNT) · odds ratio (OR) · sensitivity · specificity · PPV / NPV · ROC curve · forest plot · I² · risk-of-bias tool.
 
 
 * * *
 
-## Part A — Spot the bias
+## Part A: Spot the bias
 
 **Instructions.** For each scenario, choose the **main** problem: **selection bias**, **recall bias**, **observer bias** or **confounding**. Then write **one practical way** to reduce it.
 
@@ -41,11 +41,11 @@ This handout has six parts. You will not need a computer. For the calculations, 
 
 * * *
 
-## Part B — Confounding or effect modification?
+## Part B: Confounding or effect modification?
 
 **Instructions.** Each study splits its result by a third factor. Compare the strata **with each other** and **with the overall (crude) result**. Decide: **confounding**, **effect modification (interaction)** or **neither**. Then say what the authors should report.
 
-> Rule of thumb: strata similar to each other but different from the crude result → confounding. Strata different from each other → effect modification.
+> Rule of thumb: strata similar to each other but different from the crude result mean confounding. Strata different from each other mean effect modification.
 
 | # | Study (hypothetical) | Overall RR | Stratum 1 | Stratum 2 | Your answer | What to report |
 |---|---|---|---|---|---|---|
@@ -57,7 +57,7 @@ This handout has six parts. You will not need a computer. For the calculations, 
 
 * * *
 
-## Part C — Two 2×2 calculations
+## Part C: Two 2×2 calculations
 
 **Instructions**
 
@@ -76,7 +76,7 @@ This handout has six parts. You will not need a computer. For the calculations, 
 | Number needed to treat (NNT) | 1 ÷ \|RD\| (RD written as a proportion, e.g. 0.05) |
 | Odds ratio (OR) | (a × d) ÷ (b × c) |
 
-### Calculation 1 — a randomised trial
+### Calculation 1: a randomised trial
 
 A trial randomised 400 adults on a medical ward to a new pressure-relieving mattress (200 patients) or a standard mattress (200 patients). A new pressure injury developed in **10** patients on the new mattress and in **20** patients on the standard mattress.
 
@@ -90,7 +90,7 @@ A trial randomised 400 adults on a medical ward to a new pressure-relieving matt
 6. Is the OR close to the RR here? Why?  ______________________________________
 7. One sentence for a colleague: ____________________________________________
 
-### Calculation 2 — a case-control study
+### Calculation 2: a case-control study
 
 Investigators selected **40** ICU patients with candidaemia (cases) and **80** ICU patients without candidaemia (controls). They looked back for parenteral nutrition. Among the cases, **24** had received parenteral nutrition and 16 had not. Among the controls, **16** had received it and 64 had not.
 
@@ -109,13 +109,13 @@ Investigators selected **40** ICU patients with candidaemia (cases) and **80** I
 
 * * *
 
-## Part D — PPV in two settings
+## Part D: PPV in two settings
 
 **Instructions.** The same test has **sensitivity 90%** and **specificity 80%**. Complete each table for 500 people, then calculate PPV and NPV.
 
 > Disease present = prevalence × 500. True positives = sensitivity × disease present. True negatives = specificity × disease absent.
 
-**Setting 1 — ICU, prevalence 20%**
+**Setting 1: ICU, prevalence 20%**
 
 |  | Disease present | Disease absent | Total |
 |---|---|---|---|
@@ -125,7 +125,7 @@ Investigators selected **40** ICU patients with candidaemia (cases) and **80** I
 
 PPV = TP / (TP + FP) = ______  NPV = TN / (TN + FN) = ______
 
-**Setting 2 — screening, prevalence 2%**
+**Setting 2: screening, prevalence 2%**
 
 |  | Disease present | Disease absent | Total |
 |---|---|---|---|
@@ -143,7 +143,7 @@ PPV = ______  NPV = ______
 
 * * *
 
-## Part E — Read a forest plot and choose the risk-of-bias tool (pair task)
+## Part E: Read a forest plot and choose the risk-of-bias tool (pair task)
 
 The forest plot below is the one shown in section 4.3 (six hypothetical trials of restrictive vs usual fluids; outcome death; fixed-effect pooling).
 
@@ -169,8 +169,8 @@ The forest plot below is the one shown in section 4.3 (six hypothetical trials o
 
 | # | Study | Tool |
 |---|---|---|
-| a | Boulet 2024 — randomised trial of restrictive vs usual fluids | |
-| b | Hyun 2023 — registry cohort, positive vs negative fluid balance | |
+| a | Boulet 2024: randomised trial of restrictive vs usual fluids | |
+| b | Hyun 2023: registry cohort, positive vs negative fluid balance | |
 | c | Before–after study of a central-line bundle on one unit | |
 | d | Point-of-care lactate compared with the laboratory reference test for detecting hyperlactataemia | |
 | e | Systematic review and meta-analysis of fluid-restriction trials | |
@@ -180,7 +180,7 @@ The forest plot below is the one shown in section 4.3 (six hypothetical trials o
 
 * * *
 
-## Part F — Proposal builder 4: exposure, outcomes and biases
+## Part F: Proposal builder 4 (exposure, outcomes and biases)
 
 **Instructions.** Complete the rest of Part 2 of your proposal (rows 1–3 were written in Session 3), then copy it into the template. For every outcome write **what**, **how** and **when**.
 

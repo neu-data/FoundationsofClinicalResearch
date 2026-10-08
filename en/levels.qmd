@@ -3,22 +3,22 @@ title: "Course levels"
 ---
 
 ::: {.callout-tip title="Where you are: Level 1"}
-This website is **Level 1 — Foundations**: the whole 8-session course, from a clinical question to a draft manuscript. Level 2 and Level 3 are separate courses that build on it.
+This website is **Level 1: Foundations**, the whole 8-session course, from a clinical question to a draft manuscript. Level 2 and Level 3 are separate courses that build on it.
 :::
 
 ![](images/figures/common/two_levels.png){fig-alt="Level 1, Level 2 and Level 3"}
 
-- **Level 1 — Foundations (this course).** Understand research from question to publication. A whole department, no software; the analyses are demonstrated live on FLUID-ICU.
-- **Level 2 — Doing the analysis (in preparation).** A separate hands-on course in R for an interested subgroup who want to run, check and report the analyses themselves.
-- **Level 3 — Advanced topics (on request).** Specialised methods for complex designs and data, as workshops or consultancy on the participant's own project.
+- **Level 1: Foundations (this course).** Understand research from question to publication. A whole department, no software; the analyses are demonstrated live on FLUID-ICU.
+- **Level 2: Doing the analysis (in preparation).** A separate hands-on course in R for an interested subgroup who want to run, check and report the analyses themselves.
+- **Level 3: Advanced topics (on request).** Specialised methods for complex designs and data, as workshops or consultancy on the participant's own project.
 
-📥 [Course levels overview (PDF)](files/docs/Course_Levels_Overview.pdf)
+[Download the course levels overview (PDF)](files/docs/Course_Levels_Overview.pdf)
 
-**Organisation:** Neudata — *#ClearDataClearImpact*
+**Organisation:** Neudata · *#ClearDataClearImpact*
 
 Neudata's clinical-research training runs in three levels. Each level builds on the one before, and each department can stop at the level that fits its needs.
 
-| | **Level 1 — Foundations** | **Level 2 — Doing the analysis** | **Level 3 — Advanced topics** |
+| | **Level 1: Foundations** | **Level 2: Doing the analysis** | **Level 3: Advanced topics** |
 |---|---|---|---|
 | **In one line** | Understand research from question to publication | Do the analysis yourself, properly, in R | Tackle complex designs and data with Neudata |
 | **Who** | A whole department (~30 doctors, nurses, pharmacists) | An interested subgroup (8–12) who want to run their own analyses | Researchers with a specific complex project or dataset |
@@ -31,8 +31,8 @@ Neudata's clinical-research training runs in three levels. Each level builds on 
 
 ## How the levels connect
 
-- **Level 1 → Level 2.** In Level 1, participants *read* the FLUID-ICU analyses (Table 1, crude vs adjusted ORs, Kaplan–Meier, multiple imputation) that the instructor runs. In Level 2 they **run, check and report those same analyses themselves**, then apply them to their own data. The FLUID-ICU dataset and R scripts in `Course/Data/` are shared by both levels.
-- **Level 2 → Level 3.** Level 2 makes participants confident with descriptive statistics, linear and logistic regression, missing data and reproducible reporting. Level 3 takes the methods that real clinical data often demand — meta-analysis, prediction models, diagnostic accuracy, advanced survival analysis, longitudinal and multilevel models, large or clustered datasets — and works on them with the participant's own project.
+- **From Level 1 to Level 2.** In Level 1, participants *read* the FLUID-ICU analyses (Table 1, crude vs adjusted ORs, Kaplan–Meier, multiple imputation) that the instructor runs. In Level 2 they run, check and report those same analyses themselves, then apply them to their own data. The FLUID-ICU dataset and R scripts in `Course/Data/` are shared by both levels.
+- **From Level 2 to Level 3.** Level 2 makes participants confident with descriptive statistics, linear and logistic regression, missing data and reproducible reporting. Level 3 covers the methods that real clinical data often demand (meta-analysis, prediction models, diagnostic accuracy, advanced survival analysis, longitudinal and multilevel models, large or clustered datasets) and applies them to the participant's own project.
 
 ## Progression at a glance
 
@@ -46,4 +46,4 @@ Neudata's clinical-research training runs in three levels. Each level builds on 
 | Survival analysis | Read Kaplan–Meier and HRs | Intro only (via FLUID-ICU scripts) | In depth |
 | Writing and publishing | Full manuscript workflow (group draft) | Reproducible report → Results section | Methods and results for complex analyses |
 
-**Status:** Level 1 materials are in `Course/`. Level 2 and Level 3 are outlines — materials to be developed after Level 1 has run.
+**Status:** Level 1 materials are in `Course/`. Level 2 and Level 3 are outlines. Their materials will be developed after Level 1 has run.

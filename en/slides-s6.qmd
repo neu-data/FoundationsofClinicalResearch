@@ -1,6 +1,6 @@
 ---
 title: "Session 6 · Analyse: from sample to answer"
-subtitle: "Foundations of Clinical Research — From Clinical Question to Publication"
+subtitle: "Foundations of Clinical Research: From Clinical Question to Publication"
 author: "Vương Mỹ Lượng & Bernard Osang'ir"
 institute: "Neudata Consulting Ltd"
 lang: en
@@ -108,7 +108,7 @@ Transition: we study a sample of 40, 400 or 620 patients; how far is our estimat
 ![](images/figures/sat3/dance_cis.png){.neu-fig}
 
 ::: {.neu-takeaway}
-**KEY MESSAGE** About 95 of 100 such intervals capture the truth; we never know which ones.
+**KEY MESSAGE** About 95 of 100 such intervals capture the truth. We never know which ones.
 :::
 
 ::: {.notes}
@@ -191,7 +191,7 @@ Each of these sentences appears in published papers. All are wrong.
 ::::
 
 ::: {.neu-takeaway}
-**KEY MESSAGE** Report the effect size with its 95% CI; the p-value is a supporting actor.
+**KEY MESSAGE** Report the effect size with its 95% CI. The p-value is a supporting actor.
 :::
 
 ::: {.notes}
@@ -311,8 +311,8 @@ LIVE DEMO · 8 min
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#B5651D"}
 1. Open a free online calculator (for example OpenEpi) in the browser
-2. Two means: 70 vs 40 ml/kg, SD 35, power 80%, alpha 5% -\> 22 per group
-3. Two proportions: mortality 40% vs 30% -\> about 356 per group
+2. Two means: 70 vs 40 ml/kg, SD 35, power 80%, alpha 5% → 22 per group
+3. Two proportions: mortality 40% vs 30% → about 356 per group
 4. Change one input at a time and watch the number move
 5. Offline fallback: the Neudata sample-size spreadsheet
 :::
@@ -1257,7 +1257,7 @@ Timing: 2 minutes; then FLUID-ICU's own missing lactate.
 ![](images/figures/data/missing_lactate.png){.neu-fig}
 
 ::: {.neu-takeaway}
-**KEY MESSAGE** Lactate was missing mostly in less sick patients: not MCAR; MAR is plausible.
+**KEY MESSAGE** Lactate was missing mostly in less sick patients: not MCAR, but MAR is plausible.
 :::
 
 ::: {.notes}
@@ -1331,15 +1331,15 @@ Group worksheet, 7 minutes (5 work, 2 feedback). Session 6 exercises, exercise 8
 
 Key numbers by question (all in key\_results.md and the results packs):
 
-Q1: crude OR 2.49 (1.70 to 3.70) -\> adjusted 1.62 (1.02 to 2.59); Cox adjusted HR 1.46 (1.00 to 2.13); MI adjusted OR 1.70 (1.09 to 2.64).
+Q1: crude OR 2.49 (1.70 to 3.70), adjusted 1.62 (1.02 to 2.59); Cox adjusted HR 1.46 (1.00 to 2.13); MI adjusted OR 1.70 (1.09 to 2.64).
 
-Q2: AKI OR per 10 ml/kg crude 1.37 (1.27 to 1.47) -\> adjusted 1.27 (1.16 to 1.40).
+Q2: AKI OR per 10 ml/kg crude 1.37 (1.27 to 1.47), adjusted 1.27 (1.16 to 1.40).
 
-Q3: ventilator-free days per 10 ml/kg crude -1.48 (-1.84 to -1.13) -\> adjusted -0.61 (-1.00 to -0.21) days.
+Q3: ventilator-free days per 10 ml/kg crude -1.48 (-1.84 to -1.13), adjusted -0.61 (-1.00 to -0.21) days.
 
 Q4: lactate OR per 1 mmol/L adjusted CC 1.39 (1.24 to 1.57) vs MI 1.45 (1.29 to 1.64).
 
-Q5: ICU stay ratio of geometric means crude 1.50 (1.34 to 1.68) -\> adjusted 1.24 (1.10 to 1.39).
+Q5: ICU stay ratio of geometric means crude 1.50 (1.34 to 1.68), adjusted 1.24 (1.10 to 1.39).
 
 Pattern to point out: in every question the adjusted estimate is closer to 'no effect' than the crude one, the fingerprint of confounding by indication.
 
@@ -1589,7 +1589,7 @@ Homework: finish Part 3 of the proposal; start preparing the 6-minute presentati
 Thank the room: this was the most technical session of the course. Acknowledge that they stayed with it.
 :::
 
-## Extra slides — Session 6
+## Extra slides: Session 6
 
 :::: {.neu-statement}
 ::: {.neu-big}
@@ -1734,7 +1734,7 @@ Common mistake: reading p = 0.42 as 'the restrictive strategy does not work'. Ab
 Ask: what would the CI look like if the trial had 500 patients? Expected: much narrower, possibly excluding 0.
 :::
 
-## Extra: Forest plot: the running example in one picture
+## Extra: the running example in one forest plot
 
 ![](images/figures/sat3/forest_plot.png){.neu-fig}
 
@@ -1849,7 +1849,7 @@ Left, no interaction: mortality rises with fluid balance at the same rate in pat
 
 Right, interaction: fluid balance hardly matters without ARDS but matters a lot with ARDS. A single 'average' effect would describe nobody. The model includes an interaction term (fluid x ARDS); if it is important, report the effect in each group.
 
-Rules: pre-specify the few interactions you will test, with a clinical reason (multiple comparisons again!), and do not claim a subgroup difference just because one subgroup has p \< 0.05 and the other does not; test the interaction itself.
+Rules: pre-specify the few interactions you will test, with a clinical reason (multiple comparisons again), and do not claim a subgroup difference just because one subgroup has p \< 0.05 and the other does not; test the interaction itself.
 
 Lines are illustrative.
 

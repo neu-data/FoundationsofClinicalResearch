@@ -1,6 +1,6 @@
 ---
 title: "Session 1 · Ask: from clinical problem to research question"
-subtitle: "Foundations of Clinical Research — From Clinical Question to Publication"
+subtitle: "Foundations of Clinical Research: From Clinical Question to Publication"
 author: "Vương Mỹ Lượng & Bernard Osang'ir"
 institute: "Neudata Consulting Ltd"
 lang: en
@@ -20,7 +20,7 @@ Every day you make decisions that research could improve.
 :::
 
 ::: {.neu-sub}
-This course helps you ask those questions properly - answer them - and publish the answer.
+This course helps you ask those questions properly, answer them and publish the answer.
 :::
 ::::
 
@@ -31,7 +31,7 @@ Take 2-3 answers. Expected: fluids, sedation, mobilisation, wound dressings, lin
 
 Key teaching point: research starts from clinical uncertainty, not from statistics.
 
-Write the examples on the flip chart - they are candidate topics for the group proposals.
+Write the examples on the flip chart. They are candidate topics for the group proposals.
 :::
 
 ## Eight Saturdays, eight sessions
@@ -41,23 +41,23 @@ Write the examples on the flip chart - they are candidate topics for the group p
 ::: {.notes}
 Walk along the road: Weeks 1-2 the question and the evidence; Weeks 3-4 design and bias; Weeks 5-6 data and analysis; Weeks 7-8 ethics, writing and publishing. One session every Saturday, with a full week between sessions for the homework.
 
-This whole course is Level 1: it covers every step from question to publication. Weeks 1-4 build understanding and design skills; Weeks 5-8 apply them to data, writing and publishing.
+This whole course is Level 1: it covers every step from question to publication. Weeks 1-4 build understanding and design skills. Weeks 5-8 apply them to data, writing and publishing.
 
 One running example travels with us: fluids in septic shock. Non-ICU colleagues: every concept is also shown with ward examples (pressure injuries, hand hygiene, medication errors, delirium).
 :::
 
-## Where this course takes you
+## This course is Level 1 of three
 
 ![](images/figures/common/two_levels.png){.neu-fig}
 
 ::: {.neu-takeaway}
-**KEY MESSAGE** Level 1 is this course; Level 2 is hands-on analysis in R; Level 3 is advanced methods.
+**KEY MESSAGE** Level 1 is this course, Level 2 is hands-on analysis in R, Level 3 is advanced methods.
 :::
 
 ::: {.notes}
-This course (Level 1) takes you from a clinical question to a published paper. Level 2 is a hands-on course in R for those who want to run analyses themselves; Level 3 covers advanced, specialised methods.
+This course (Level 1) takes you from a clinical question to a published paper. Level 2 is a hands-on course in R for those who want to run analyses themselves. Level 3 covers advanced, specialised methods.
 
-Within Level 1 we use a realistic dataset of 620 ICU patients: we describe it, analyse it and write it up. The trainers run the software; you read and interpret the results.
+Within Level 1 we use a realistic dataset of 620 ICU patients: we describe it, analyse it and write it up. The trainers run the software. You read and interpret the results.
 
 Misconception to defuse: 'research is only for statisticians or professors'. Most good clinical questions come from nurses and doctors at the bedside.
 :::
@@ -108,13 +108,13 @@ Point to Assignment/proposal\_brief and Assignment/manuscript\_brief.
 ::::
 
 ::: {.neu-takeaway}
-**KEY MESSAGE** Understand and interpret - you will not be asked to calculate.
+**KEY MESSAGE** Understand and interpret: you will not be asked to calculate.
 :::
 
 ::: {.notes}
-Walk across the four cards - one per two-week block.
+Walk across the four cards, one per two-week block.
 
-Key teaching point: the aim is understanding and interpretation, not computation. The trainers run the analyses; you learn to read them and write them up.
+Key teaching point: the aim is understanding and interpretation, not computation. The trainers run the analyses. You learn to read them and write them up.
 
 Audience question: which card worries you most? Expected: ANALYSE. Reassure: we go slowly, with pictures, and check understanding every 20 minutes.
 
@@ -128,12 +128,12 @@ Return to this slide in Session 8 to show progress.
 ::: {.notes}
 Same rhythm every session: recap, two teaching blocks with checks and activities, a 15-minute break, and time to build the proposal or the paper.
 
-Every 20 minutes we stop for a quick check of understanding - if the room is not with us, we slow down. Each session ends with 'extra slides' that we only use if there is time; you can read them at home.
+Every 20 minutes we stop for a quick check of understanding. If the room is not with us, we slow down. Each session ends with 'extra slides' that we only use if there is time. You can read them at home.
 
-Keep the break to 15 minutes - start again on time.
+Keep the break to 15 minutes and start again on time.
 :::
 
-## The proposal builder
+## Build the proposal one part at a time
 
 ![](images/figures/common/proposal_builder.png){.neu-fig}
 
@@ -160,7 +160,7 @@ GROUP WORK · 10 min
 ::: {.neu-activity-steps style="--c:#0D7377"}
 1. Sit with your group (5 groups of about 6, mixed professions)
 2. Introduce yourselves: name, unit, one question you wish research could answer
-3. Agree the roles below - they can rotate each week
+3. Agree the roles below (they can rotate each week)
 4. Choose a group name
 :::
 :::
@@ -168,8 +168,8 @@ GROUP WORK · 10 min
 ::: {.neu-side .plain style="--c:#0D7377"}
 Group roles
 
-- Facilitator - keeps everyone talking
-- Scribe - fills in the template
+- Facilitator: keeps everyone talking
+- Scribe: fills in the template
 - Timekeeper
 - Literature lead
 - Methods & data lead
@@ -183,9 +183,9 @@ Group roles
 :::
 
 ::: {.notes}
-Groups should mix doctors, nurses and pharmacists - different perspectives make better proposals.
+Groups should mix doctors, nurses and pharmacists. Different perspectives make better proposals.
 
-Roles keep quieter members involved; suggest rotating the scribe.
+Roles keep quieter members involved. Suggest rotating the scribe.
 
 Trainers: walk round, note each group's candidate topics.
 :::
@@ -222,7 +222,7 @@ Trainers: walk round, note each group's candidate topics.
 ::: {.notes}
 Set the climate: this is a safe place to say 'I do not understand'.
 
-Language: discussions can be in Vietnamese or English - whatever helps the group think.
+Language: discussions can be in Vietnamese or English, whatever helps the group think.
 
 Patient confidentiality applies to examples: no names or identifiable details.
 :::
@@ -237,7 +237,7 @@ QUICK QUIZ · 15 min
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
 1. Individual, no discussion, no phones (except for the online form)
-2. 24 multiple-choice questions - one answer each
+2. 24 multiple-choice questions, one answer each
 3. Guess if you are not sure: this is not an exam
 4. Write only your participant number, not your name
 :::
@@ -262,7 +262,7 @@ Use the online form (recommended) or paper copies of Assessment/pre\_post\_quiz.
 
 Reassure: results are anonymous and used only to measure what the COURSE achieved.
 
-Collect after 15 minutes. Do not give answers today - the same quiz is repeated at the end of Session 8.
+Collect after 15 minutes. Do not give answers today. The same quiz is repeated at the end of Session 8.
 :::
 
 # Session 1 · Ask: from clinical problem to research question
@@ -279,13 +279,13 @@ Collect after 15 minutes. Do not give answers today - the same quiz is repeated 
 ::: {.notes}
 SESSION 1 OPENING (0:35). The front matter (welcome, course map, groups, pre-course quiz) has just finished.
 
-Teaching point: today has one job - every group leaves with ONE clear, answerable research question and an aim with objectives. Next Saturday (Session 2) we search and read the literature for it.
+Teaching point: today has one job: every group leaves with ONE clear, answerable research question and an aim with objectives. Next Saturday (Session 2) we search and read the literature for it.
 
-Pace: this audience has little or no research background. Go slowly, use the worked examples, and stop at every 'Check your understanding' slide - they are short on purpose.
+Pace: this audience has little or no research background. Go slowly, use the worked examples, and stop at every 'Check your understanding' slide. They are short on purpose.
 
 Show the shape of the session: three short teaching blocks, a break, a pair task, a quick exercise, then 30 minutes of group work on the proposal.
 
-Ask the room: 'Who has ever taken part in a research study - as a researcher, data collector or participant?' Count hands; it tells you where to pitch the session.
+Ask the room: 'Who has ever taken part in a research study, as a researcher, data collector or participant?' Count hands; it tells you where to pitch the session.
 
 Timing: 1 minute. Do not read the agenda aloud; point at it.
 :::
@@ -331,9 +331,9 @@ The numbers are illustrative, but the pattern is real: the large CLASSIC trial (
 
 Misconception: 'if it worked in my patients it works'. Without a comparison we cannot tell what would have happened anyway (natural recovery, regression to the mean, selective memory).
 
-Ask the room: 'Why do we remember the three good outcomes?' Expected answer: recall bias - dramatic and recent cases stick; we forget the failures.
+Ask the room: 'Why do we remember the three good outcomes?' Expected answer: recall bias. Dramatic and recent cases stick, and we forget the failures.
 
-Timing: 4 minutes. Go slowly - this is the idea the whole course rests on.
+Timing: 4 minutes. Go slowly: this is the idea the whole course rests on.
 :::
 
 ## Why one ward's experience is not enough
@@ -349,13 +349,13 @@ This picture is a simulation (fixed seed): imagine a disease where the TRUE risk
 
 Top row: 20 wards each see only 5 patients. By pure chance some see 0% deaths, others 80%. Each ward would 'learn' something different from its own experience.
 
-Middle row: groups of 50 - closer to the truth but still scattered. Bottom row: groups of 500 cluster tightly around 40%.
+Middle row: groups of 50, closer to the truth but still scattered. Bottom row: groups of 500 cluster tightly around 40%.
 
-Teaching point: chance alone produces impressive-looking differences in small numbers. This is why research needs enough patients and a comparison group - and why 'my last three patients' can mislead.
+Teaching point: chance alone produces impressive-looking differences in small numbers. This is why research needs enough patients and a comparison group, and why 'my last three patients' can mislead.
 
 Misconception: 'a big difference in a small group must be real'. A big difference in a small group is exactly what chance produces.
 
-Ask the room: 'One ward lost 0 of 5 patients after a new protocol. Does the protocol work?' Expected answer: we cannot tell - 0 of 5 happens often by chance even when the true risk is 40%.
+Ask the room: 'One ward lost 0 of 5 patients after a new protocol. Does the protocol work?' Expected answer: we cannot tell, because 0 of 5 happens often by chance even when the true risk is 40%.
 
 Timing: 4 minutes. Sample size returns in Session 6.
 :::
@@ -389,11 +389,11 @@ Teaching point: moving up, the design does more to protect against bias. That is
 
 Misconception 1: 'an RCT is always right'. A small or badly run trial can mislead. Frameworks such as GRADE rate the certainty of a whole body of evidence, not the design label alone.
 
-Misconception 2: 'only RCTs count'. For prevalence, harm and prognosis, observational designs are often the right (or only ethical) choice. Qualitative research sits outside this pyramid - it answers different questions.
+Misconception 2: 'only RCTs count'. For prevalence, harm and prognosis, observational designs are often the right (or only ethical) choice. Qualitative research sits outside this pyramid because it answers different questions.
 
 Ask the room: 'Where would a systematic review of 10 poor-quality trials sit?' Expected answer: at the top by label, but its conclusions are only as strong as the trials inside it.
 
-Timing: 4 minutes. Session 3 covers each design in detail - do not teach designs here.
+Timing: 4 minutes. Session 3 covers each design in detail, so do not teach designs here.
 :::
 
 ## Quick quiz: rank the evidence
@@ -410,7 +410,7 @@ QUICK QUIZ · 3 min
 3. B: a registry cohort of thousands of ICU patients with sepsis
 4. C: a trial that randomised 1,554 patients with septic shock
 5. D: a review that pools every trial of fluid restriction
-6. Rank them from weakest to strongest - show fingers on the count of 3
+6. Rank them from weakest to strongest, then show fingers on the count of 3
 :::
 :::
 ::: {.column width="40%"}
@@ -430,9 +430,9 @@ Then discuss
 ::: {.notes}
 Answer: A (expert opinion) \< B (cohort) \< C (RCT) \< D (systematic review / meta-analysis).
 
-C is the real CLASSIC trial (NEJM 2022) - no difference in 90-day mortality. B resembles Paper 2 (Hyun 2023): a positive fluid balance on days 2-3 was associated with higher 28-day mortality.
+C is the real CLASSIC trial (NEJM 2022), which found no difference in 90-day mortality. B resembles Paper 2 (Hyun 2023): a positive fluid balance on days 2-3 was associated with higher 28-day mortality.
 
-Why might a cohort find harm when a trial finds none? Expected answer: in a cohort, sicker patients get more fluid, so fluid looks harmful (confounding by indication) - a preview of Session 4.
+Why might a cohort find harm when a trial finds none? Expected answer: in a cohort, sicker patients get more fluid, so fluid looks harmful (confounding by indication). This is a preview of Session 4.
 
 Facilitation: count down '1-2-3' so tables show fingers at the same time.
 
@@ -450,7 +450,7 @@ Timing: 3 minutes, strictly.
 ::: {.notes}
 Walk round the cycle quickly, one sentence per box.
 
-Weeks 1-2 = clinical problem and research question (today), literature search (next Saturday) - the three teal boxes top right.
+Weeks 1-2 = clinical problem and research question (today), literature search (next Saturday). These are the three teal boxes top right.
 
 Teaching point: published results change practice, which creates new uncertainties and new questions.
 
@@ -459,7 +459,7 @@ Misconception: 'research = collecting data'. Data collection comes AFTER the que
 Timing: 2 minutes. The next slide zooms into the same journey in detail.
 :::
 
-## Types of research
+## The question decides the type of research
 
 ![](images/figures/sat1/research_types.png){.neu-fig}
 
@@ -468,9 +468,9 @@ Timing: 2 minutes. The next slide zooms into the same journey in detail.
 :::
 
 ::: {.notes}
-Top row: what kind of data. Quantitative research counts and measures (mortality, fluid balance). Qualitative research collects words - interviews, focus groups, observation - to understand experiences, reasons and barriers. Mixed methods combine both in one study.
+Top row: what kind of data. Quantitative research counts and measures (mortality, fluid balance). Qualitative research collects words (interviews, focus groups, observation) to understand experiences, reasons and barriers. Mixed methods combine both in one study.
 
-Bottom row: where the data come from. Primary research collects new data for this study (Paper 1, a new trial). Secondary research reuses data that already exist - medical records, registries (Paper 2 used a sepsis registry) or published studies (a systematic review).
+Bottom row: where the data come from. Primary research collects new data for this study (Paper 1, a new trial). Secondary research reuses data that already exist: medical records, registries (Paper 2 used a sepsis registry) or published studies (a systematic review).
 
 Teaching point: the question decides the type. 'Does restriction reduce deaths?' is quantitative; 'why do nurses hesitate to stop fluids?' is qualitative.
 
@@ -496,7 +496,7 @@ QUICK QUIZ · 2 min
 :::
 
 ::: {.neu-output style="--c:#6C3483"}
-**OUTPUT** Shout out the answers - the next slide shows them
+**OUTPUT** Shout out the answers. The next slide shows them
 :::
 
 ::: {.notes}
@@ -504,7 +504,7 @@ Quick check, not a test. Read each item and let the room shout the answer.
 
 Answers (next slide): A quantitative, primary. B qualitative, primary. C quantitative, secondary (records already exist). D mixed methods, primary.
 
-If people hesitate on C: the data were collected for care, not for this study - reusing them is secondary research. It still needs ethics review.
+If people hesitate on C: the data were collected for care, not for this study, so reusing them is secondary research. It still needs ethics review.
 
 Timing: 2 minutes.
 :::
@@ -549,9 +549,9 @@ Timing: 2 minutes.
 ::: {.notes}
 Go through the four cards quickly.
 
-Teaching point: two simple questions classify almost any study - what kind of data (numbers or words) and where they come from (new or existing).
+Teaching point: two simple questions classify almost any study: what kind of data (numbers or words) and where they come from (new or existing).
 
-Secondary research is often the most feasible for a busy department - but data quality depends on how well the records were kept (Session 5).
+Secondary research is often the most feasible for a busy department, but data quality depends on how well the records were kept (Session 5).
 
 Timing: 2 minutes.
 :::
@@ -565,15 +565,15 @@ Timing: 2 minutes.
 :::
 
 ::: {.notes}
-Research generates new, generalisable knowledge - which option is best? Audit compares our practice with an agreed standard. Quality improvement (QI) changes a local process step by step, usually in Plan-Do-Study-Act (PDSA) cycles.
+Research generates new, generalisable knowledge: which option is best? Audit compares our practice with an agreed standard. Quality improvement (QI) changes a local process step by step, usually in Plan-Do-Study-Act (PDSA) cycles.
 
-Why it matters: research always needs ethics committee approval before it starts. Audit and QI usually need local approval only - but if a project randomises patients, adds a new intervention or risk, or collects data beyond routine care, it is research and needs ethics review.
+Why it matters: research always needs ethics committee approval before it starts. Audit and QI usually need local approval only. But if a project randomises patients, adds a new intervention or risk, or collects data beyond routine care, it is research and needs ethics review.
 
-Publishing does not change what a project was. Journals ask for ethics approval or a formal waiver, so decide - and ask - at the start, not after the data are collected.
+Publishing does not change what a project was. Journals ask for ethics approval or a formal waiver, so decide (and ask) at the start, not after the data are collected.
 
 Misconception: 'audit and QI are lesser research'. They answer different questions and are essential; many good research questions start from an audit result.
 
-Ask the room: 'Checking whether fluid balance is recorded daily as our protocol says - research, audit or QI?' Expected answer: audit.
+Ask the room: 'Checking whether fluid balance is recorded daily as our protocol says: research, audit or QI?' Expected answer: audit.
 
 Note: rules differ between institutions. Tell participants to check the local policy and, if in doubt, ask the ethics committee.
 
@@ -591,7 +591,7 @@ QUICK QUIZ · 2 min
 2. B: randomising patients to restrictive or usual fluids
 3. C: testing a new handover checklist in small PDSA cycles
 4. D: interviewing nurses about why they hesitate to stop fluids
-5. For each: research, audit or QI - and who must approve it?
+5. For each: research, audit or QI? Who must approve it?
 :::
 
 ::: {.neu-output style="--c:#6C3483"}
@@ -601,7 +601,7 @@ QUICK QUIZ · 2 min
 ::: {.notes}
 Read each item; the room shows 1, 2 or 3 fingers.
 
-Answers (next slide): A audit; B research (ethics committee + registration); C quality improvement; D research (qualitative - ethics committee).
+Answers (next slide): A audit; B research (ethics committee + registration); C quality improvement; D research (qualitative, ethics committee).
 
 Teaching point: the ethics route depends on WHAT you do, not on whether you plan to publish.
 
@@ -636,23 +636,23 @@ Timing: 2 minutes.
 ![](images/figures/sat1/journey_to_publication.png){.neu-fig}
 
 ::: {.neu-takeaway}
-**KEY MESSAGE** This course walks the whole road - your group proposal covers stops 1 to 6.
+**KEY MESSAGE** This course walks the whole road. Your group proposal covers stops 1 to 6.
 :::
 
 ::: {.notes}
 Eleven stops from question to impact. The colours show which weeks of the course teach each stop.
 
-Stops 1-6 are planning and doing: question, design and protocol, registration (trials must be registered BEFORE the first patient - Paper 1 was registered in July 2021, recruitment began in September 2021), ethics approval, data collection, analysis.
+Stops 1-6 are planning and doing: question, design and protocol, registration (trials must be registered BEFORE the first patient: Paper 1 was registered in July 2021 and recruitment began in September 2021), ethics approval, data collection, analysis.
 
 Stops 7-11 are publishing: writing, submission, peer review, publication and impact on patients. The road usually takes one to three years; many good studies stall at stop 7.
 
 Teaching point: every stop depends on stop 1. A vague question produces a weak protocol, an unanswerable analysis and a paper that is hard to publish.
 
-Misconception: 'publication is the end'. The point is impact - a changed guideline, protocol or practice.
+Misconception: 'publication is the end'. The point is impact: a changed guideline, protocol or practice.
 
-Ask the room: 'At which stop do you think most hospital studies get stuck?' Expected answers: ethics paperwork, data collection, or writing (stop 7) - we will tackle each one.
+Ask the room: 'At which stop do you think most hospital studies get stuck?' Expected answers: ethics paperwork, data collection, or writing (stop 7). We will tackle each one.
 
-Timing: 3 minutes. Segment 1.1 ends at 1:10 - break.
+Timing: 3 minutes. Segment 1.1 ends at 1:10, then the break.
 :::
 
 ## Break
@@ -671,7 +671,7 @@ BREAK (1:10-1:25).
 
 During the break: put the Session 1 exercise sheets on the tables and write the pair-task scenarios on the flip chart.
 
-Restart on time - say clearly what time you will begin again.
+Restart on time and say clearly what time you will begin again.
 :::
 
 ## 1.2  From problem to question
@@ -682,7 +682,7 @@ A good question is half of the answer.
 :::
 
 ::: {.neu-sub}
-40 minutes: where questions come from, PICO(T) with worked examples, question types, FINER - then a pair task
+40 minutes: where questions come from, PICO(T) with worked examples, question types and FINER, then a pair task
 :::
 ::::
 
@@ -691,7 +691,7 @@ SEGMENT 1.2 (1:25-2:05).
 
 Teaching point: a vague clinical worry ('are fluids bad?') must be turned into a precise, answerable question before anything else can happen.
 
-We will build PICO slowly with several examples - ICU and ward - before you practise in pairs.
+We will build PICO slowly with several examples (ICU and ward) before you practise in pairs.
 
 Timing: 30 seconds.
 :::
@@ -707,11 +707,11 @@ Timing: 30 seconds.
 ::: {.notes}
 Six common sources of good questions, all from daily work.
 
-The orange box is the key decision: before calling something research, check whether the answer already exists. If it does, the job is implementation - a guideline, an audit or a QI project (segment 1.1).
+The orange box is the key decision: before calling something research, check whether the answer already exists. If it does, the job is implementation: a guideline, an audit or a QI project (segment 1.1).
 
-Teaching point: 'how we find out' is the literature search - that is next Saturday's Session 2.
+Teaching point: 'how we find out' is the literature search, covered next Saturday in Session 2.
 
-Ask the room: 'Name one thing in your unit that colleagues do differently.' Expected: sedation targets, fluid volumes, dressing changes, mobilisation timing. Write them on the flip chart - they are candidate topics for the proposals.
+Ask the room: 'Name one thing in your unit that colleagues do differently.' Expected: sedation targets, fluid volumes, dressing changes, mobilisation timing. Write them on the flip chart. They are candidate topics for the proposals.
 
 Timing: 3 minutes.
 :::
@@ -731,9 +731,9 @@ Read the five boxes, then the full sentence at the bottom. This is the running e
 
 Teaching point: each letter forces a decision. Which patients exactly? Restrictive how? Compared with what? Which outcome, measured when?
 
-Variants: for observational questions I becomes E (exposure), e.g. 'a positive fluid balance' - PECO. Descriptive questions may only need P and O.
+Variants: for observational questions I becomes E (exposure), e.g. 'a positive fluid balance' (PECO). Descriptive questions may only need P and O.
 
-Misconception: 'the comparison is obvious'. Usual care varies between hospitals and over time - it must be described.
+Misconception: 'the comparison is obvious'. Usual care varies between hospitals and over time, so it must be described.
 
 Ask the room: 'Is 28-day mortality the only sensible outcome?' Expected: 90-day mortality, days alive without life support, kidney injury needing dialysis, fluid balance. The large trials used 90-day mortality.
 
@@ -751,13 +751,13 @@ Timing: 4 minutes.
 ::: {.notes}
 Three examples that are NOT about fluids, so every profession sees itself.
 
-Row 1 - treatment (PICO): ventilated adults; a twice-daily bed-head checklist vs usual care; ventilator-associated pneumonia by ICU day 28.
+Row 1, treatment (PICO): ventilated adults; a twice-daily bed-head checklist vs usual care; ventilator-associated pneumonia by ICU day 28.
 
-Row 2 - risk factor (PECO): we cannot assign obesity, so I becomes E (exposure). Adults on the medical ward; obese vs not; new pressure injury during admission.
+Row 2, risk factor (PECO): we cannot assign obesity, so I becomes E (exposure). Adults on the medical ward; obese vs not; new pressure injury during admission.
 
-Row 3 - how common? Only P and O (and T): adults 65 and over after hip-fracture surgery; delirium screened with the 4AT in the first 7 days.
+Row 3, how common? Only P and O (and T): adults 65 and over after hip-fracture surgery; delirium screened with the 4AT in the first 7 days.
 
-Teaching point: the boxes you fill already tell you the type of question - and later the design.
+Teaching point: the boxes you fill already tell you the type of question, and later the design.
 
 Ask the room: 'Give me a PECO question from pharmacy.' Expected example: in ICU adults, is polypharmacy (10+ drugs) vs fewer associated with delirium?
 
@@ -778,7 +778,7 @@ QUICK QUIZ · 3 min
 :::
 
 ::: {.neu-output style="--c:#6C3483"}
-**OUTPUT** Five labelled pieces - the answer is on the next slide
+**OUTPUT** Five labelled pieces. The answer is on the next slide
 :::
 
 ::: {.notes}
@@ -786,7 +786,7 @@ Give the room 2 minutes in silence, then 1 minute to compare.
 
 Answer (next slide): P adults 65+ after hip-fracture surgery; I daily non-drug delirium bundle; C usual care; O delirium; T first 7 postoperative days.
 
-Watch for people labelling 'hip fracture' as the outcome - it is part of the population.
+Watch for people labelling 'hip fracture' as the outcome. It is part of the population.
 
 Timing: 3 minutes.
 :::
@@ -833,7 +833,7 @@ Timing: 3 minutes.
 ::: {.notes}
 Reveal and ask how many got all five.
 
-Teaching point: the outcome must be something that can happen AFTER the intervention starts. Hip fracture has already happened - it defines who is eligible.
+Teaching point: the outcome must be something that can happen AFTER the intervention starts. Hip fracture has already happened: it defines who is eligible.
 
 Extra question for fast rooms: 'How would you measure delirium?' Expected: a validated screening tool (e.g. 4AT or CAM) at the same time each day.
 
@@ -849,20 +849,20 @@ Timing: 2 minutes.
 :::
 
 ::: {.notes}
-Descriptive: what, how many, who - no comparison group needed.
+Descriptive: what, how many, who. No comparison group is needed.
 
-Analytical: is X linked to Y (observational - we watch), or does X cause Y (experimental - we assign X).
+Analytical: is X linked to Y (observational: we watch), or does X cause Y (experimental: we assign X).
 
 Teaching point: the verbs give it away. 'How many' is descriptive; 'is associated with' is observational; 'does it reduce' implies an experiment.
 
 Misconception: 'descriptive studies are not real research'. They often come first and show that the problem exists.
 
-Ask the room: 'Paper 2 (Hyun) - which box?' Expected: analytical, observational (cohort).
+Ask the room: 'Paper 2 (Hyun): which box?' Expected: analytical, observational (cohort).
 
 Timing: 3 minutes. The full design menu is Session 3.
 :::
 
-## Vague vs answerable
+## From a vague worry to an answerable question
 
 ![](images/figures/sat1/good_vs_bad_question.png){.neu-fig}
 
@@ -871,7 +871,7 @@ Timing: 3 minutes. The full design menu is Session 3.
 :::
 
 ::: {.notes}
-Left: the question we ask in the corridor - every word is undefined. Right: the same worry written with PICO(T).
+Left: the question we ask in the corridor: every word is undefined. Right: the same worry written with PICO(T).
 
 Teaching point: a researchable question is specific, has one primary outcome, and implies the design.
 
@@ -933,11 +933,11 @@ FINER comes from Hulley and colleagues, Designing Clinical Research.
 
 Feasible fails most often in hospital research: not enough eligible patients, or an outcome that is too rare.
 
-Novel does not mean 'never studied'. Repeating a study in a new setting, or with a better design, can be novel - which is why the literature search matters.
+Novel does not mean 'never studied'. Repeating a study in a new setting, or with a better design, can be novel. That is why the literature search matters.
 
 Ethical: is there genuine uncertainty (equipoise) about which option is better?
 
-Ask the room: 'Which letter does our running example fail?' Let them guess - the next slide answers.
+Ask the room: 'Which letter does our running example fail?' Let them guess. The next slide answers.
 
 Timing: 3 minutes.
 :::
@@ -959,7 +959,7 @@ E is amber: both strategies are used in practice so equipoise exists, but consen
 
 How to rescue it: change the outcome (fluid balance at day 5, as Paper 1 did), make it a feasibility pilot, or ask a descriptive question about our own practice.
 
-Misconception: 'a failed FINER check means a bad idea'. It means the idea needs reshaping - normal and expected.
+Misconception: 'a failed FINER check means a bad idea'. It means the idea needs reshaping, which is normal and expected.
 
 Ask the room: 'Suggest a feasible version for our unit.' Expected: a descriptive audit-style question, or a pilot like Paper 1.
 
@@ -1006,7 +1006,7 @@ Facilitation: circulate with the 'what good looks like' box from Course/Solution
 
 At 8 minutes call time. Take three pairs to read their question aloud; ask the room to name each PICO letter and 'which FINER letter worries you?'.
 
-Pressure-injury pairs often discover their first question should be descriptive - praise this explicitly.
+Pressure-injury pairs often discover their first question should be descriptive. Praise this explicitly.
 
 Timing: 8 minutes work + 3 minutes debrief. Segment 1.3 starts at 2:05.
 :::
@@ -1019,7 +1019,7 @@ A question tells us what we want to know. Aims and objectives tell us what we wi
 :::
 
 ::: {.neu-sub}
-20 minutes: aim, objectives, null and alternative hypotheses - and a quick exercise
+20 minutes: aim, objectives, null and alternative hypotheses, and a quick exercise
 :::
 ::::
 
@@ -1046,7 +1046,7 @@ Aim = the broad purpose in one sentence ('To compare...', 'To describe...').
 
 Objectives = specific, measurable steps. Use measurable verbs: compare, estimate, describe, determine. Avoid 'understand', 'explore', 'study'.
 
-Mark the primary objective - it drives the sample size (Session 6).
+Mark the primary objective: it drives the sample size (Session 6).
 
 Hypothesis = the predicted answer to the main analytical objective, stated so data can reject it.
 
@@ -1082,13 +1082,13 @@ Timing: 3 minutes.
 ![](images/figures/sat1/null_vs_alt.png){.neu-fig}
 
 ::: {.neu-takeaway}
-**KEY MESSAGE** We test H0. Data can reject it or fail to reject it - never prove it.
+**KEY MESSAGE** We test H0. Data can reject it or fail to reject it, but never prove it.
 :::
 
 ::: {.notes}
 H0, the null hypothesis: no difference. H1, the alternative: a difference.
 
-Analogy: a court assumes 'not guilty' (H0) until the evidence is strong enough. 'Not guilty' is not 'innocent' - and 'no significant difference' is not 'no difference'.
+Analogy: a court assumes 'not guilty' (H0) until the evidence is strong enough. 'Not guilty' is not 'innocent', and 'no significant difference' is not 'no difference'.
 
 H1 is usually two-sided, even when we expect benefit, because restriction could also harm.
 
@@ -1109,7 +1109,7 @@ INDIVIDUAL TASK · 7 min
 1. Use the question from your pair task (or the delirium example)
 2. Write ONE aim: 'To compare...' or 'To describe...'
 3. Write TWO objectives with measurable verbs; mark the primary one
-4. Write H0 and H1 for the primary objective - or 'descriptive: no hypothesis'
+4. Write H0 and H1 for the primary objective (or 'descriptive: no hypothesis')
 5. Swap with your neighbour: is every verb measurable?
 :::
 :::
@@ -1127,7 +1127,7 @@ Verbs that work
 ::::
 
 ::: {.neu-output style="--c:#0B376C"}
-**OUTPUT** Exercise 3 on the sheet - model answers on the next slide
+**OUTPUT** Exercise 3 on the sheet. Model answers on the next slide
 :::
 
 ::: {.notes}
@@ -1175,7 +1175,7 @@ Timing: 7 minutes.
 ::: {.notes}
 Read the three cards.
 
-Check the chain: the question's O (delirium in 7 days) = the primary objective = the outcome in H0/H1. If any of these differ, the proposal is inconsistent - reviewers spot this immediately.
+Check the chain: the question's O (delirium in 7 days) = the primary objective = the outcome in H0/H1. If any of these differ, the proposal is inconsistent, and reviewers spot this immediately.
 
 A descriptive version needs no hypothesis: 'To estimate the proportion of patients aged 65+ who develop delirium in the first 7 days after hip-fracture surgery.'
 
@@ -1190,7 +1190,7 @@ Now it is your group's turn: one topic, one question, one aim.
 :::
 
 ::: {.neu-sub}
-30 minutes of group work - the start of your research proposal
+30 minutes of group work: the start of your research proposal
 :::
 ::::
 
@@ -1243,9 +1243,9 @@ Timing
 ::: {.notes}
 Groups of about 6, mixed professions. Suggested roles: chair, scribe (types into the template), timekeeper, and a 'devil's advocate' who checks FINER.
 
-Trainers circulate. Spend the first 7 minutes making sure every group has ONE focused problem - this is where groups get stuck.
+Trainers circulate. Spend the first 7 minutes making sure every group has ONE focused problem. This is where groups get stuck.
 
-Check each group's question against PICO and FINER before they write objectives. A red F is the commonest problem - help them shrink the outcome, shorten the time frame or turn it into a descriptive question or pilot.
+Check each group's question against PICO and FINER before they write objectives. A red F is the commonest problem. Help them shrink the outcome, shorten the time frame or turn it into a descriptive question or pilot.
 
 Second visit: does the primary objective name the same outcome as the question? Is the approval route (research / audit / QI) written down?
 
@@ -1265,7 +1265,7 @@ Timing: 28 minutes. Wrap-up starts at 2:55.
 | PICO(T) / PECO | Population, Intervention (or Exposure), Comparison, Outcome, Time |
 | FINER | Feasible, Interesting, Novel, Ethical, Relevant |
 | Aim / objective | The broad why / the specific, measurable what |
-| H0 / H1 | No difference / a difference - we test H0 |
+| H0 / H1 | No difference / a difference (we test H0) |
 
 ::: {.notes}
 WRAP-UP (2:55-3:00).
@@ -1332,7 +1332,7 @@ QUICK QUIZ · 2 min
 :::
 
 ::: {.notes}
-Answers: 1 - Feasible: a mortality outcome needs well over a thousand patients. 2 - e.g. 'To estimate the incidence of new stage 2+ pressure injuries among adults on our ward over 6 months'.
+Answers: 1. Feasible: a mortality outcome needs well over a thousand patients. 2. For example, 'To estimate the incidence of new stage 2+ pressure injuries among adults on our ward over 6 months'.
 
 Read the notes during the week. If many still use vague verbs, open Session 2 with one extra minute on objectives.
 
@@ -1372,7 +1372,7 @@ Bring next Saturday
 ::: {.notes}
 Keep it light: about 30 minutes during the week.
 
-The synonym list makes next Saturday's PubMed search much faster - PubMed searches in English.
+The synonym list makes next Saturday's PubMed search much faster, because PubMed searches in English.
 
 The 'local number' becomes paragraph 3 of the problem statement next Saturday.
 
@@ -1385,7 +1385,7 @@ Timing: 1 minute.
 
 :::: {.neu-statement}
 ::: {.neu-big}
-Extra slides — Session 1
+Extra slides: Session 1
 :::
 
 ::: {.neu-sub}
@@ -1431,13 +1431,13 @@ The core session is complete without these slides.
 ::::
 
 ::: {.neu-takeaway}
-**KEY MESSAGE** The letters change; the idea - be explicit - stays the same.
+**KEY MESSAGE** The letters change, but the idea stays the same: be explicit.
 :::
 
 ::: {.notes}
 EXTRA: diagnosis, prognosis and qualitative question frameworks.
 
-Diagnostic questions: the index test is I, the reference standard is C, the outcome is accuracy (sensitivity, specificity - Session 4).
+Diagnostic questions: the index test is I, the reference standard is C, the outcome is accuracy (sensitivity and specificity, Session 4).
 
 Prognosis: often PECO plus a time frame.
 
@@ -1483,7 +1483,7 @@ Two-sided hypotheses are the default in clinical research because a new interven
 
 One-sided tests must be pre-specified and justified; reviewers are suspicious of them.
 
-Non-inferiority questions (is a cheaper or simpler option not much worse?) have their own design - Session 3.
+Non-inferiority questions (is a cheaper or simpler option not much worse?) have their own design (Session 3).
 
 Timing: 2 minutes if used.
 :::
@@ -1508,7 +1508,7 @@ QUICK QUIZ · 4 min
 ::: {.notes}
 EXTRA: extra FINER practice.
 
-Answers: 1 Feasible (huge, long, expensive; large vitamin D trials also exist - Novel). 2 Ethical (withholding antibiotics in septic shock causes harm - no equipoise). 3 Novel (the answer is already measured: an audit question). 4 Relevant (no plausible mechanism, no impact on practice).
+Answers: 1 Feasible (huge, long, expensive; large vitamin D trials also exist, so Novel too). 2 Ethical (withholding antibiotics in septic shock causes harm, so there is no equipoise). 3 Novel (the answer is already measured: an audit question). 4 Relevant (no plausible mechanism, no impact on practice).
 
 Also in Exercise 2 Part B of the participant sheet.
 

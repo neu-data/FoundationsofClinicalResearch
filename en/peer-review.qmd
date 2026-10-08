@@ -2,13 +2,13 @@
 title: "Peer-review instructions"
 ---
 
-📥 [Word](files/assignments/Peer_Review_Instructions.docx) · [PDF](files/assignments/Peer_Review_Instructions.pdf) · [Assignments](assignments.qmd)
+Download: [Word](files/assignments/Peer_Review_Instructions.docx) · [PDF](files/assignments/Peer_Review_Instructions.pdf) · [Back to assignments](assignments.qmd)
 
-## Foundations of Clinical Research — Level 1: From Clinical Question to Publication
+## Foundations of Clinical Research · Level 1: From Clinical Question to Publication
 
-**Organisation:** Neudata — *#ClearDataClearImpact*
+**Organisation:** Neudata (*#ClearDataClearImpact*)
 **When:** the 2 weeks after Session 8 (homework)
-**Who reviews whom:** Group 1 → Group 2 → Group 3 → Group 4 → Group 5 → Group 1
+**Who reviews whom:** Group 1 reviews Group 2, Group 2 reviews Group 3, Group 3 reviews Group 4, Group 4 reviews Group 5, and Group 5 reviews Group 1
 **Use with:** `manuscript_brief.md`, the 10-question appraisal checklist from Session 8 ("Be the reviewer"), the STROBE checklist, and `Course/Templates/Response_to_Reviewers_Template.docx`
 
 
@@ -16,7 +16,7 @@ title: "Peer-review instructions"
 
 ## 1. Why we do this
 
-Every paper you submit will be peer reviewed, and sooner or later you will be asked to review. In Session 8 you practised on two published papers. Now you review a colleague group's draft — and receive a review of your own — exactly as a journal would. The aim is to **improve both papers**, not to judge the people who wrote them.
+Every paper you submit will be peer reviewed, and sooner or later you will be asked to review. In Session 8 you practised on two published papers. Now you review a colleague group's draft and receive a review of your own, exactly as a journal would. The aim is to **improve both papers**, not to judge the people who wrote them.
 
 
 * * *
@@ -50,16 +50,16 @@ Answer **Yes / No / Can't tell** and give the page or line.
 
 | # | Question | What to look for in the draft |
 |---|---|---|
-| 1 | **Question** — Can you write the study's PICO in one line? | Is the aim in the Introduction the same as the analysis in the Results? |
-| 2 | **Design** — What is the design, and is it right for the question? | Cohort stated in the title or abstract; no trial language. |
-| 3 | **Participants** — Who was included and left out? | Eligibility; the flow of patients; number analysed for this question (e.g. survivors only in Q5). |
-| 4 | **Comparison groups** — Were groups similar at the start? How was this handled? | Table 1 by exposure group; adjustment explained and justified. |
-| 5 | **Bias** — Could knowledge of the exposure, or how data were collected, change the outcome? | Confounding by indication discussed; information bias in fluid charting; missing data. |
-| 6 | **Outcome** — One pre-specified primary outcome, measured the same way? | Outcome defined (e.g. KDIGO for AKI); the SAP mentioned. |
-| 7 | **Numbers** — Main result as an effect size with 95% CI? Narrow or wide? | Crude and adjusted estimates; CIs; denominators. |
-| 8 | **Words vs design** — Do conclusions match the design? | "Associated" vs "caused"; no "trend"; abstract conclusion no stronger than the Discussion. |
-| 9 | **Limitations** — Stated honestly? Name one they missed. | Residual confounding, missing data, simulated single dataset, generalisability. |
-| 10 | **Use** — Would this change practice? Why / why not? | Are the implications proportionate to an observational result? |
+| 1 | **Question:** Can you write the study's PICO in one line? | Is the aim in the Introduction the same as the analysis in the Results? |
+| 2 | **Design:** What is the design, and is it right for the question? | Cohort stated in the title or abstract; no trial language. |
+| 3 | **Participants:** Who was included and left out? | Eligibility; the flow of patients; number analysed for this question (e.g. survivors only in Q5). |
+| 4 | **Comparison groups:** Were groups similar at the start? How was this handled? | Table 1 by exposure group; adjustment explained and justified. |
+| 5 | **Bias:** Could knowledge of the exposure, or how data were collected, change the outcome? | Confounding by indication discussed; information bias in fluid charting; missing data. |
+| 6 | **Outcome:** One pre-specified primary outcome, measured the same way? | Outcome defined (e.g. KDIGO for AKI); the SAP mentioned. |
+| 7 | **Numbers:** Main result as an effect size with 95% CI? Narrow or wide? | Crude and adjusted estimates; CIs; denominators. |
+| 8 | **Words vs design:** Do conclusions match the design? | "Associated" vs "caused"; no "trend"; abstract conclusion no stronger than the Discussion. |
+| 9 | **Limitations:** Stated honestly? Name one they missed. | Residual confounding, missing data, simulated single dataset, generalisability. |
+| 10 | **Use:** Would this change practice? Why / why not? | Are the implications proportionate to an observational result? |
 
 ### Writing checks
 
@@ -85,8 +85,8 @@ Answer **Yes / No / Can't tell** and give the page or line.
 2. **Be specific.** Give the page and line, say what the problem is and why it matters.
 3. **Be constructive.** Every major comment ends with a suggestion: "Consider reporting both the crude and the adjusted OR so readers can see the effect of adjustment."
 4. **Start with what works.** Open the report with two or three genuine strengths.
-5. **Do not rewrite the paper** or impose your own style; suggest, do not dictate.
-6. **Stay within the data.** Do not ask for analyses that are not in the results pack; you may suggest them as a limitation.
+5. **Do not rewrite the paper** or impose your own style. Suggest, do not dictate.
+6. **Stay within the data.** Do not ask for analyses that are not in the results pack. You may suggest them as a limitation.
 7. **Keep it confidential.** Do not share the draft outside your group, and do **not** paste it into an AI tool or translation service.
 8. **Be kind and honest.** Write as you would like to be reviewed: clear about problems, respectful in tone.
 
@@ -115,7 +115,7 @@ Copy this into `GroupN_Review_of_GroupM.docx`.
 - m1.
 - m2.
 
-**5. Appraisal checklist and writing checks** — attach the two completed tables from section 3.
+**5. Appraisal checklist and writing checks.** Attach the two completed tables from section 3.
 
 **6. Recommendation** (tick one, as a journal reviewer would):
 
@@ -130,7 +130,7 @@ Copy this into `GroupN_Review_of_GroupM.docx`.
 2. **Use the response template** (`Course/Templates/Response_to_Reviewers_Template.docx`). Open with one sentence thanking the reviewers.
 3. **Answer point by point.** For every comment, give: (a) the reviewer's comment (copied), (b) your reply, (c) what you changed, with the page and line in the revised manuscript.
 4. **Make the changes in the manuscript**, with tracked changes switched on, and make sure every change you claim is really there.
-5. **Disagree politely, with reasons.** You do not have to accept every suggestion. If you disagree, say why, citing the data or the literature: "We agree this would be informative; however, this analysis is not in the pre-specified SAP. We have added it as a limitation (page 9, line 12)."
+5. **Disagree politely, with reasons.** You do not have to accept every suggestion. If you disagree, say why, citing the data or the literature: "We agree this would be informative. However, this analysis is not in the pre-specified SAP. We have added it as a limitation (page 9, line 12)."
 6. **Never answer just "Done".** Say what was done and where.
 7. **Keep the tone neutral and grateful**, even if a comment feels unfair.
 

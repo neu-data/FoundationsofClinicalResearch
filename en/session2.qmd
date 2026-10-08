@@ -11,7 +11,7 @@ subtitle: "Week 2 · Saturday · 3 hours (15-minute break)"
 - 2.1  Finding the evidence: PICO to search, Boolean, MeSH, live PubMed demo
 - 2.2  Managing and citing: Zotero demo, citation styles, paraphrasing, grey literature
 - Break
-- 2.3  Reading a paper in 15 minutes - and 2.4 from literature to introduction
+- 2.3  Reading a paper in 15 minutes and 2.4 from literature to introduction
 - Proposal builder 2: search string, 5 references, problem statement, working title
 
 ## Timetable
@@ -35,16 +35,18 @@ subtitle: "Week 2 · Saturday · 3 hours (15-minute break)"
 <div class="slides-embed"><iframe src="slides-s2.html" title="Session 2 · Find &amp; read: the evidence" loading="lazy" allowfullscreen></iframe></div>
 ```
 
-[Open the slides full screen](slides-s2.qmd){.btn .btn-primary role="button"} — Press **F** for full screen, **S** for speaker notes, **E** to print, **Esc** for an overview.
+[Open the slides full screen](slides-s2.qmd){.btn .btn-primary role="button"}
+
+Press **F** for full screen, **S** for speaker notes, **E** to print, **Esc** for an overview.
 
 ## Downloads
 
 | | |
 |:--|:--|
-| 🎞️ **Slides (PowerPoint)** | [English](files/slides/Session_2_EN.pptx) · [Tiếng Việt](../vi/files/slides/Session_2_VN.pptx) |
-| 📝 **Exercise sheet** | [Read online](exercises-s2.qmd) · [PDF](files/sessions/s2_exercises.pdf) |
-| ✅ **Solutions** | [Read online](solutions-s2.qmd) · [PDF](files/sessions/s2_solutions.pdf) |
-| 💻 **Live-demo script** | [Read online](demo-s2.qmd) · [PDF](files/sessions/s2_demo.pdf) |
+| **Slides (PowerPoint)** | [English](files/slides/Session_2_EN.pptx) · [Tiếng Việt](../vi/files/slides/Session_2_VN.pptx) |
+| **Exercise sheet** | [Read online](exercises-s2.qmd) · [PDF](files/sessions/s2_exercises.pdf) |
+| **Solutions** | [Read online](solutions-s2.qmd) · [PDF](files/sessions/s2_solutions.pdf) |
+| **Live-demo script** | [Read online](demo-s2.qmd) · [PDF](files/sessions/s2_demo.pdf) |
 
 ## Before this session
 
@@ -53,7 +55,7 @@ subtitle: "Week 2 · Saturday · 3 hours (15-minute break)"
 
 ## After this session (homework)
 
-- **Group:** finish the five key references and the problem statement — Proposal Part 1 complete, with working title and keywords.
+- **Group:** finish the five key references and the problem statement. This completes Proposal Part 1, with a working title and keywords.
 - **Each member:** read one paper with the 15-minute routine and fill its row in the literature matrix.
 - **Everyone:** read the abstract of [Paper 2](papers.qmd) (Hyun 2023) with the Exercise 3 grid.
 - **Optional:** look up Paper 1's registration (NCT04947904) on ClinicalTrials.gov.
@@ -66,4 +68,4 @@ subtitle: "Week 2 · Saturday · 3 hours (15-minute break)"
 
 ---
 
-[← Previous session](session1.qmd) · [Schedule](schedule.qmd) · [Next session →](session3.qmd)
+[Back to Session 1](session1.qmd) · [See the full schedule](schedule.qmd) · [Continue to Session 3](session3.qmd)

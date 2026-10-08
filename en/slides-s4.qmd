@@ -1,6 +1,6 @@
 ---
 title: "Session 4 · Bias & effect: can we trust it, how big is it?"
-subtitle: "Foundations of Clinical Research — From Clinical Question to Publication"
+subtitle: "Foundations of Clinical Research: From Clinical Question to Publication"
 author: "Vương Mỹ Lượng & Bernard Osang'ir"
 institute: "Neudata Consulting Ltd"
 lang: en
@@ -19,14 +19,14 @@ format:
 - Recap quiz on Session 3 (10 min)
 - 4.1  Bias, confounding and causation (40 min)
 - 4.2  Measuring disease and association + live 2x2 demo (30 min)
-- Break (15 min) - then two 2x2 calculations (20 min)
+- Break (15 min), then two 2x2 calculations (20 min)
 - 4.3  Beyond single studies: tests, meta-analysis, appraisal (30 min)
-- Proposal builder 4: exposure, outcomes, biases (30 min) - wrap-up
+- Proposal builder 4: exposure, outcomes, biases (30 min), then wrap-up
 
 ::: {.notes}
 SESSION 4 OPENING (0:00). Last Saturday we chose HOW to answer a question. Today two questions about any result: can we TRUST it (bias, confounding, causation) and how BIG is it (risk, RR, OR, RD, NNT)? Then we look beyond single studies: diagnostic tests, meta-analysis and appraisal tools.
 
-Read three exit-question sticky notes from Session 3 first (the flu-vaccine cohort) - it leads straight into confounding.
+Read three exit-question sticky notes from Session 3 first (the flu-vaccine cohort). It leads straight into confounding.
 
 Pace: the only arithmetic is division in a 2x2 table, and the spreadsheet checks every answer.
 
@@ -45,7 +45,7 @@ QUICK QUIZ · 10 min
 1. Q1. ICU patients with delirium are compared with patients without delirium for earlier benzodiazepine use. Design?
 2. Q2. Which design randomises whole wards instead of patients?
 3. Q3. New vs old strategy, mortality difference 95% CI -1 to +3 points; margin +4 points. Result?
-4. Groups: re-read your Proposal Part 2a (design, setting, population) - 2 min
+4. Groups: re-read your Proposal Part 2a (design, setting, population): 2 min
 :::
 :::
 ::: {.column width="40%"}
@@ -64,7 +64,7 @@ How we run it
 :::
 
 ::: {.notes}
-Answers. Q1: case-control (chosen by outcome, look back for exposure). Q2: a cluster randomised trial. Q3: non-inferior - the whole CI stays below the +4 margin (it crosses 0, so it is not superior).
+Answers. Q1: case-control (chosen by outcome, look back for exposure). Q2: a cluster randomised trial. Q3: non-inferior. The whole CI stays below the +4 margin (it crosses 0, so it is not superior).
 
 Misconception to catch in Q1: 'it uses records, so it is a cohort'. Ask: were people chosen by what happened to them (delirium) or by what they received?
 
@@ -74,7 +74,7 @@ Timing: about 6 minutes for the questions, 3 minutes for groups to re-read Part 
 ## Key words of the day
 
 ::: {.neu-intro}
-Today's vocabulary - definitions come with a picture
+Today's vocabulary. Each definition comes with a picture
 :::
 
 :::: {.neu-cards style="--n:4"}
@@ -128,7 +128,7 @@ Bias is systematic error. Size does not fix it.
 :::
 
 ::: {.neu-sub}
-Selection, information, confounding, effect modification - and from association to causation. (40 minutes)
+Selection, information, confounding, effect modification, and from association to causation. (40 minutes)
 :::
 ::::
 
@@ -149,13 +149,13 @@ Timing: 30 seconds.
 :::
 
 ::: {.notes}
-Use the dartboard. Left: what we want - close to the truth and tightly grouped. Middle: random error - centred on the truth but scattered; a larger sample pulls the darts together. Right: bias - tightly grouped but in the wrong place; a larger sample just makes us more confident in the wrong answer.
+Use the dartboard. Left: what we want, close to the truth and tightly grouped. Middle: random error, centred on the truth but scattered. A larger sample pulls the darts together. Right: bias, tightly grouped but in the wrong place. A larger sample just makes us more confident in the wrong answer.
 
 Teaching point: confidence intervals (Session 6) describe random error only. A narrow CI says nothing about bias.
 
 Misconception: 'a study of 10,000 patients cannot be biased'. Large registry studies can be very precise and still biased.
 
-Ask the room: which of the two papers is more at risk of random error, and which of bias? Expected answer: Boulet (48 patients) - random error; Hyun (observational) - bias, especially confounding.
+Ask the room: which of the two papers is more at risk of random error, and which of bias? Expected answer: Boulet (48 patients) for random error; Hyun (observational) for bias, especially confounding.
 
 Timing: 2 minutes.
 :::
@@ -177,7 +177,7 @@ Other common sources: volunteers, patients who refuse consent, loss to follow-up
 
 Misconception: 'selection bias only matters in surveys'. It affects every design, including RCTs (strict exclusion criteria limit who the result applies to).
 
-Ask the room: in Boulet, 1,201 patients were screened and 50 included. What does that tell you? Expected answer: trial patients were highly selected - check whether they look like your patients before applying the result.
+Ask the room: in Boulet, 1,201 patients were screened and 50 included. What does that tell you? Expected answer: trial patients were highly selected. Check whether they look like your patients before applying the result.
 
 Timing: 2.5 minutes.
 :::
@@ -195,11 +195,11 @@ Information (measurement) bias: the data are wrong in a systematic way.
 
 Recall bias: in a case-control study, cases (or their families) search their memory harder than controls, so exposures look more common in cases.
 
-Observer bias: an assessor who knows the group may judge a soft outcome differently - for example 'ready for discharge' or 'delirium present'. In Boulet clinicians knew the allocation.
+Observer bias: an assessor who knows the group may judge a soft outcome differently, for example 'ready for discharge' or 'delirium present'. In Boulet clinicians knew the allocation.
 
 Measurement bias: a scale that always reads 0.5 kg high, or urine output that is under-recorded on night shifts. If it differs between groups, it distorts the comparison.
 
-Misconception: 'hard outcomes like death are immune'. Death is robust, but the timing and cause of death can still be misclassified.
+Misconception: 'hard outcomes like death are immune'. Death is reliably recorded, but the timing and cause of death can still be misclassified.
 
 Ask the room: how would you reduce observer bias in an unblinded ICU trial? Expected answer: an objective outcome, a blinded outcome assessor, standard definitions and training.
 
@@ -232,13 +232,13 @@ Choose
 ::::
 
 ::: {.neu-output style="--c:#6C3483"}
-**OUTPUT** One bias for each - answers in the notes
+**OUTPUT** One bias for each (answers in the notes)
 :::
 
 ::: {.notes}
 Hands up for each option.
 
-Answers. A: selection bias - the sickest patients (who died) are missing, so the sample is not the population. B: observer bias (information bias) - a subjective score assessed by someone who knows the group. C: measurement bias (information bias) - and because it affects one ward only, it distorts the comparison between wards.
+Answers. A: selection bias. The sickest patients (who died) are missing, so the sample is not the population. B: observer bias (information bias): a subjective score assessed by someone who knows the group. C: measurement bias (information bias). Because it affects one ward only, it distorts the comparison between wards.
 
 Timing: 2 minutes.
 :::
@@ -254,7 +254,7 @@ Timing: 2 minutes.
 ::: {.notes}
 This is the most important slide of 4.1. Point to each arrow.
 
-Severity of illness pushes clinicians to give more fluid (left arrow). Severity also causes death (right arrow). So patients who got more fluid die more often - even if the fluid itself did nothing.
+Severity of illness pushes clinicians to give more fluid (left arrow). Severity also causes death (right arrow). So patients who got more fluid die more often, even if the fluid itself did nothing.
 
 This special case is called confounding by indication: the reason for giving a treatment is itself linked to the outcome.
 
@@ -280,17 +280,17 @@ Hypothetical data for teaching
 :::
 
 ::: {.notes}
-Hypothetical numbers, chosen to make the point. All patients together: 42% of high-fluid patients die versus 18% of low-fluid patients - a crude RR of 2.33. It looks as if fluid kills.
+Hypothetical numbers, chosen to make the point. All patients together: 42% of high-fluid patients die versus 18% of low-fluid patients, a crude RR of 2.33. It looks as if fluid kills.
 
 Now split by severity. Mild illness: 10% versus 10%. Severe illness: 50% versus 50%. Within each level the RR is 1.0.
 
-Why? 80 of the 100 high-fluid patients were severely ill, but only 20 of the 100 low-fluid patients. Severity, not fluid, explained the crude difference.
+The reason: 80 of the 100 high-fluid patients were severely ill, but only 20 of the 100 low-fluid patients. Severity, not fluid, explained the crude difference.
 
-Teaching point: this is what 'adjusting for severity' does - it compares like with like. Session 6 shows how papers and models report it. Next slide: what it means when the strata do NOT agree.
+Teaching point: this is what 'adjusting for severity' does: it compares like with like. Session 6 shows how papers and models report it. Next slide: what it means when the strata do NOT agree.
 
-Misconception: 'after adjustment the remaining association is causal'. Only if every important confounder was measured well - which is never guaranteed in observational data.
+Misconception: 'after adjustment the remaining association is causal'. Only if every important confounder was measured well, which is never guaranteed in observational data.
 
-Ask the room: what would you need to measure at baseline in your own observational study to do this? Expected answer: the main severity markers - for sepsis SOFA, lactate, vasopressor dose, age, comorbidity.
+Ask the room: what would you need to measure at baseline in your own observational study to do this? Expected answer: the main severity markers. For sepsis: SOFA, lactate, vasopressor dose, age, comorbidity.
 
 Timing: 2.5 minutes. Check arithmetic aloud: 2 + 40 = 42 deaths of 100; 8 + 10 = 18 of 100.
 :::
@@ -305,21 +305,21 @@ In each, a third factor drives both the exposure and the outcome
 ::: {.neu-card .plain style="--c:#0D7377"}
 [Antibiotics and death]{.neu-card-title}
 
-- More antibiotics -\> more deaths?
+- More antibiotics → more deaths?
 - **Confounder: severity of infection**
 - Sicker patients get more drugs
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
 [Dietitian and weight loss]{.neu-card-title}
 
-- Seen by dietitian -\> more weight loss?
+- Seen by dietitian → more weight loss?
 - **Confounder: malnutrition at admission**
 - The reason for referral
 :::
 ::: {.neu-card .plain style="--c:#B23B2E"}
 [Vasopressors and arrhythmia]{.neu-card-title}
 
-- Vasopressors -\> more arrhythmia?
+- Vasopressors → more arrhythmia?
 - **Confounder: depth of shock**
 - Partly a drug effect too
 :::
@@ -334,7 +334,7 @@ Three more examples of confounding by indication, to make the idea stick for beg
 
 For each card, read the apparent association, then ask the room for the third factor before revealing it.
 
-Card 3 is deliberately mixed: vasopressors can cause arrhythmia, AND shock severity drives both. Real associations are often a mixture of a true effect and confounding - which is why adjustment, or randomisation, is needed to separate them.
+Card 3 is deliberately mixed: vasopressors can cause arrhythmia, AND shock severity drives both. Real associations are often a mixture of a true effect and confounding. That is why adjustment, or randomisation, is needed to separate them.
 
 Misconception: 'a confounder is any difference between groups'. It must be linked to the exposure AND cause the outcome.
 
@@ -356,9 +356,9 @@ Hypothetical data for teaching
 ::: {.notes}
 Both appear when we split the data into strata, but they mean opposite things.
 
-Left - confounding (our fluid example): the strata agree with EACH OTHER (RR 1.0 and 1.0) but differ from the crude result (2.33). The third factor (severity) created a false association. Fix: adjust, and report the adjusted estimate.
+On the left, confounding (our fluid example): the strata agree with EACH OTHER (RR 1.0 and 1.0) but differ from the crude result (2.33). The third factor (severity) created a false association. Fix: adjust, and report the adjusted estimate.
 
-Right - effect modification, also called interaction (hypothetical): a restrictive strategy might help patients with ARDS (RR 0.60) but make no difference without ARDS (RR 1.00). The strata differ from EACH OTHER. This is real biology, not bias: report each subgroup; do not average it away.
+On the right, effect modification, also called interaction (hypothetical): a restrictive strategy might help patients with ARDS (RR 0.60) but make no difference without ARDS (RR 1.00). The strata differ from EACH OTHER. This is real biology, not bias: report each subgroup; do not average it away.
 
 Rule of thumb: strata similar to each other but different from the crude = confounding. Strata different from each other = effect modification.
 
@@ -411,7 +411,7 @@ Design stage (prevention): randomisation, allocation concealment, blinding, rest
 
 Teaching point: the bold red line is the key message. Every observational tool works only on what you measured. Randomisation is the only tool that also balances what you did not measure.
 
-Misconception: 'propensity score matching is as good as randomisation'. It is matching on measured factors - clever, but still limited to the measured ones.
+Misconception: 'propensity score matching is as good as randomisation'. It is matching on measured factors: clever, but still limited to the measured ones.
 
 Ask the room: which tools did Hyun use? Expected answer: restriction (adults with sepsis, ICU stay of 3 days or more) and 1:1 propensity score matching.
 
@@ -423,15 +423,15 @@ Timing: 1.5 minutes.
 ![](images/figures/sat2/randomisation_balance.png){.neu-fig}
 
 ::: {.neu-takeaway}
-**KEY MESSAGE** By chance, both groups get a similar mix - even of factors nobody measured.
+**KEY MESSAGE** By chance, both groups get a similar mix, even of factors nobody measured.
 :::
 
 ::: {.notes}
-The red figures are severely ill patients (a known confounder). The gold stars are a hidden factor nobody measured - a genetic trait, frailty, a clinician's gut feeling.
+The red figures are severely ill patients (a known confounder). The gold stars are a hidden factor nobody measured: a genetic trait, frailty, a clinician's gut feeling.
 
 Randomisation sends patients to group A or B by chance, so on average both groups receive the same mix of severe patients AND of stars. Here each group gets 5 severe and 3 starred patients.
 
-Teaching point: balance is on average; with very small trials chance imbalances happen. Boulet found baseline creatinine higher in the intervention group - with 24 per arm that is not surprising.
+Teaching point: balance is on average; with very small trials chance imbalances happen. Boulet found baseline creatinine higher in the intervention group. With 24 per arm that is not surprising.
 
 Misconception: 'randomised means the groups are identical'. They are similar on average; Table 1 lets you check.
 
@@ -449,20 +449,20 @@ Timing: 1.5 minutes.
 :::
 
 ::: {.notes}
-Allocation concealment happens BEFORE randomisation: the person recruiting cannot know or predict the next allocation (central computer, not envelopes on the desk). Without it, a clinician could steer sicker patients away from the new treatment - selection bias inside a trial.
+Allocation concealment happens BEFORE randomisation: the person recruiting cannot know or predict the next allocation (central computer, not envelopes on the desk). Without it, a clinician could steer sicker patients away from the new treatment: selection bias inside a trial.
 
-Blinding happens AFTER: who knows the group? In Boulet the patients and the statisticians were blinded, the clinicians and investigators were not - hence 'single-blind'.
+Blinding happens AFTER: who knows the group? In Boulet the patients and the statisticians were blinded, the clinicians and investigators were not, hence 'single-blind'.
 
 Teaching point: in fluid and many ICU trials, blinding the clinician is often impossible. Then blind the outcome assessor and choose an objective outcome.
 
-Misconception: 'single, double, triple blind' have fixed meanings. They do not - papers should state exactly WHO was blinded.
+Misconception: 'single, double, triple blind' have fixed meanings. They do not. Papers should state exactly WHO was blinded.
 
-Ask the room: is concealment possible when blinding is not? Expected answer: yes - concealment is always possible and always required.
+Ask the room: is concealment possible when blinding is not? Expected answer: yes. Concealment is always possible and always required.
 
 Timing: 1.5 minutes.
 :::
 
-## Matching helps - but only for what was measured
+## Matching helps, but only for what was measured
 
 ![](images/figures/sat2/matching_measured.png){.neu-fig}
 
@@ -477,14 +477,14 @@ The authors themselves list what was NOT measured: type of fluid and nutritional
 
 Teaching point: this is why a cohort, however well matched, says 'associated with', and why the question 'does restriction save lives?' still needs a large RCT.
 
-Misconception: 'matched groups are as good as randomised groups'. Check Table 1 - and then ask what is not in Table 1.
+Misconception: 'matched groups are as good as randomised groups'. Check Table 1, then ask what is not in Table 1.
 
 Ask the room: name one unmeasured factor that might push clinicians to give more fluid AND predict death. Expected answer: clinical impression of shock, mottled skin, a failing heart, a goals-of-care discussion.
 
 Timing: 1.5 minutes.
 :::
 
-## Internal and external validity
+## Internal validity first, then external validity
 
 ![](images/figures/sat2/validity.png){.neu-fig}
 
@@ -525,7 +525,7 @@ How to check: make sure the exposure was measured BEFORE the outcome began, use 
 
 Misconception: 'reverse causation only matters in cross-sectional studies'. It can affect cohorts too when the exposure is measured while the outcome is already developing.
 
-Ask the room: delirious patients receive more antipsychotics. Which way could the arrow run? Expected answer: both ways - the drugs might cause harm, but delirium is the reason they are prescribed.
+Ask the room: delirious patients receive more antipsychotics. Which way could the arrow run? Expected answer: both ways. The drugs might cause harm, but delirium is the reason they are prescribed.
 
 Timing: 2 minutes.
 :::
@@ -541,9 +541,9 @@ Timing: 2 minutes.
 ::: {.notes}
 In 1965 Austin Bradford Hill listed nine viewpoints to judge whether an association is likely to be causal. They are not a checklist to score; they are clues.
 
-Strength (a big RR is harder to explain by confounding), consistency (seen in other studies and settings), specificity (the weakest), temporality (the cause must come first - the only essential one), dose-response (more exposure, more effect), plausibility (a mechanism), coherence (fits with what is known), experiment (removing the exposure reduces the outcome - an RCT is the strongest form), analogy.
+Strength (a big RR is harder to explain by confounding), consistency (seen in other studies and settings), specificity (the weakest), temporality (the cause must come first, and this is the only essential one), dose-response (more exposure, more effect), plausibility (a mechanism), coherence (fits with what is known), experiment (removing the exposure reduces the outcome, and an RCT is the strongest form), analogy.
 
-Apply to Hyun: strength moderate (HR about 1.6-2.1); consistency with other cohorts yes; temporality - balance measured before death, but reverse causation is possible; dose-response not shown; experiment - trials such as Boulet have not shown a mortality effect. Conclusion: possible, not proven.
+Apply to Hyun: strength moderate (HR about 1.6-2.1); consistency with other cohorts yes; temporality: balance measured before death, but reverse causation is possible; dose-response not shown; experiment: trials such as Boulet have not shown a mortality effect. Conclusion: possible, not proven.
 
 Misconception: 'if most criteria are met, causation is proven'. They raise or lower our confidence; they never prove.
 
@@ -586,11 +586,11 @@ Choose one
 ::: {.notes}
 Read each scenario; the room answers by show of hands or calling out. Ask for one fix each time.
 
-Answers. 1: recall bias - fix: record exposure before the outcome is known (prescription records), ask cases and controls in the same structured way. 2: observer bias - fix: blinded assessor, objective discharge criteria. 3: selection bias (and loss to follow-up) - fix: contact all survivors, report non-responders. 4: confounding by indication - fix: randomise, or measure lactate and other severity markers and adjust/match.
+Answers. 1: recall bias. Fix: record exposure before the outcome is known (prescription records), ask cases and controls in the same structured way. 2: observer bias. Fix: blinded assessor, objective discharge criteria. 3: selection bias (and loss to follow-up). Fix: contact all survivors, report non-responders. 4: confounding by indication. Fix: randomise, or measure lactate and other severity markers and adjust/match.
 
 The handout (Part A) has these four scenarios with space to write; use it if the room is quiet.
 
-Timing: 4 minutes. Keep it fast - this is a check, not a lecture.
+Timing: 4 minutes. Keep it fast: this is a check, not a lecture.
 :::
 
 ## 4.2  Measuring disease and association
@@ -630,7 +630,7 @@ Teaching point: a long-lasting condition can have a high prevalence with a low i
 
 Misconception: using prevalence and incidence interchangeably. Incidence always has a time period attached.
 
-Ask the room: if we get better at keeping patients alive with a chronic disease but no better at preventing it, what happens to prevalence? Expected answer: it rises - the drain slows down.
+Ask the room: if we get better at keeping patients alive with a chronic disease but no better at preventing it, what happens to prevalence? Expected answer: it rises, because the drain slows down.
 
 Timing: 3 minutes.
 :::
@@ -648,7 +648,7 @@ Hypothetical trial for teaching: 100 patients per group
 :::
 
 ::: {.notes}
-A hypothetical, larger trial of our running question - not Boulet's data. 100 patients per arm. Restrictive: 20 die by day 28. Usual care: 30 die.
+A hypothetical, larger trial of our running question, not Boulet's data. 100 patients per arm. Restrictive: 20 die by day 28. Usual care: 30 die.
 
 Risk is the simplest measure: 20/100 = 20% and 30/100 = 30%. Pictures like this (icon arrays) are also the best way to explain risk to patients and families.
 
@@ -676,7 +676,7 @@ Worked example: a = 20, b = 80, c = 30, d = 70. Row totals 100 and 100.
 
 Teaching point: almost every measure of association for a yes/no outcome comes from these four numbers. The spreadsheet in the demo uses the same layout.
 
-Misconception: swapping rows and columns. Many errors in student work come from a table drawn the other way round - check the layout before calculating.
+Misconception: swapping rows and columns. Many errors in student work come from a table drawn the other way round. Check the layout before calculating.
 
 Ask the room: in the Boulet table for death by day 28, what are a, b, c and d? Expected answer: a = 6, b = 18, c = 6, d = 18 (6 of 24 died in each arm).
 
@@ -733,7 +733,7 @@ RD = 0.20 - 0.30 = -0.10: 10 fewer deaths per 100 patients treated. Also called 
 
 NNT = 1 / 0.10 = 10: treat 10 patients to prevent one death. If the exposure is harmful the same calculation gives the number needed to harm (NNH).
 
-OR = (20 x 70) / (80 x 30) = 1400 / 2400 = 0.58. Further from 1 than the RR - next slides explain why.
+OR = (20 x 70) / (80 x 30) = 1400 / 2400 = 0.58. Further from 1 than the RR. The next slides explain why.
 
 Misconception: a relative effect sounds bigger. 'One third lower' and '10 fewer per 100' are the same result; patients and policymakers need the absolute version.
 
@@ -753,11 +753,11 @@ Timing: 5 minutes.
 ::: {.notes}
 Scale the 100 patients down to 10. Under usual care 3 of 10 die. With the restrictive strategy 2 of 10 die. The one green person is the patient who, on average, avoided death because of the treatment. So we treat 10 patients for one to benefit: NNT = 10.
 
-Teaching point: the other 9 either survived anyway or died anyway - they bore the burden of the treatment without benefit. That is why NNT is a powerful conversation tool with patients, managers and pharmacy.
+Teaching point: the other 9 either survived anyway or died anyway. They bore the burden of the treatment without benefit. That is why NNT is a useful conversation tool with patients, managers and pharmacy.
 
 Misconception: 'NNT of 10 means 1 in 10 patients respond'. It is an average across the group, not a prediction for one patient.
 
-Ask the room: which is better, an NNT of 5 or of 50? Expected answer: 5 - fewer patients need treating for one to benefit (but always weigh against harms and cost).
+Ask the room: which is better, an NNT of 5 or of 50? Expected answer: 5. Fewer patients need treating for one to benefit (but always weigh against harms and cost).
 
 Timing: 2.5 minutes.
 :::
@@ -773,7 +773,7 @@ Timing: 2.5 minutes.
 ::: {.notes}
 Here the exposure truly doubles the risk (RR = 2, green line). The red line is the OR for the same data as the outcome becomes more common.
 
-When the outcome is rare (left, shaded), OR is about 2.1 - practically the same as RR. At a baseline risk of 20%, OR = 2.7. At 40%, OR = 6. The OR always lies further from 1 than the RR.
+When the outcome is rare (left, shaded), OR is about 2.1, practically the same as RR. At a baseline risk of 20%, OR = 2.7. At 40%, OR = 6. The OR always lies further from 1 than the RR.
 
 Teaching point: case-control studies and logistic regression give ORs. When a paper reports an OR for a common outcome, such as ICU mortality of 20-40%, do not read it as 'X times the risk'.
 
@@ -810,7 +810,7 @@ Table
 ::::
 
 ::: {.neu-output style="--c:#6C3483"}
-**OUTPUT** Risks, RR, RD and NNT - answers in the notes
+**OUTPUT** Risks, RR, RD and NNT (answers in the notes)
 :::
 
 ::: {.notes}
@@ -832,9 +832,9 @@ LIVE DEMO · 8 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#B5651D"}
-1. Open 2x2\_calculator.xlsx - sheet Association
+1. Open 2x2\_calculator.xlsx, sheet Association
 2. Enter a, b, c, d from the worked example: 20, 80, 30, 70
-3. Read risks, RR, RD, NNT and OR - and the plain-language lines
+3. Read risks, RR, RD, NNT and OR, and the plain-language lines
 4. Change the deaths to 2 and 3 of 100: watch OR approach RR
 5. Point at the red line: case-control data give an OR only
 :::
@@ -859,11 +859,11 @@ Script: Course/Demos/s4\_demo.md. File: Course/Resources/tools/2x2\_calculator.x
 
 Teaching point: the spreadsheet does the arithmetic; the human does the interpretation. Read the plain-language cells aloud.
 
-Key moment: change a to 2 and c to 3 (b = 98, d = 97). RR stays 0.67 but OR is now 0.66 - almost identical. The NNT jumps to 100. Same relative effect, very different absolute effect.
+Key moment: change a to 2 and c to 3 (b = 98, d = 97). RR stays 0.67 but OR is now 0.66, almost identical. The NNT jumps to 100. Same relative effect, very different absolute effect.
 
-Fallback if the laptop fails: draw the 2x2 table on the whiteboard and calculate RR and NNT by hand with the room - the numbers are chosen to be easy.
+Fallback if the laptop fails: draw the 2x2 table on the whiteboard and calculate RR and NNT by hand with the room. The numbers are chosen to be easy.
 
-Misconception to raise: the calculator will happily give a 'risk' for case-control data. It is meaningless there - only the OR is valid.
+Misconception to raise: the calculator will happily give a 'risk' for case-control data. It is meaningless there: only the OR is valid.
 
 Timing: 8 minutes. The Diagnostic sheet is shown briefly in 4.3. Then the break.
 :::
@@ -876,14 +876,14 @@ BREAK · 15 min
 
 ::: {.neu-activity-steps style="--c:#8A99A3"}
 1. Stretch, coffee, fresh air
-2. After the break: two 2x2 calculations - have a pen ready
+2. After the break: two 2x2 calculations, so have a pen ready
 3. Then 4.3: beyond single studies
 :::
 
 ::: {.notes}
 15-minute break. Put a visible countdown on the screen.
 
-During the break, walk past the groups and check that each has its Part 2a from last Saturday - they will need it in the proposal builder.
+During the break, walk past the groups and check that each has its Part 2a from last Saturday. They will need it in the proposal builder.
 
 Restart on time.
 :::
@@ -898,8 +898,8 @@ INDIVIDUAL TASK · 20 min
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0B376C"}
 1. Handout Part C: draw each 2x2 table first, exposure in rows
-2. Calculation 1 (trial): risks, RR, RD, NNT, OR - and one sentence
-3. Calculation 2 (case-control): OR only - and say why not RR
+2. Calculation 1 (trial): risks, RR, RD, NNT, OR, and one sentence
+3. Calculation 2 (case-control): OR only, and say why not RR
 4. Check with your neighbour, then with the calculator
 :::
 :::
@@ -924,7 +924,7 @@ Calculation 1 (new pressure-relieving mattress trial): 10/200 vs 20/200 pressure
 
 Calculation 2 (case-control, ICU candidaemia and parenteral nutrition): cases 24 exposed / 16 not; controls 16 exposed / 64 not. OR = (24 x 64) / (16 x 16) = 6.0. RR cannot be calculated because the investigators chose the number of cases and controls.
 
-Circulate and check the tables are drawn the right way round - most mistakes are layout, not arithmetic.
+Circulate and check the tables are drawn the right way round. Most mistakes are layout, not arithmetic.
 
 Timing: 12 minutes working (check with a neighbour after each calculation), 8 minutes to reveal and discuss the answers with the calculator. Full key in Solutions/s4\_solutions.md.
 :::
@@ -946,7 +946,7 @@ Section marker for 4.3 (30 minutes, including a 6-minute pair task).
 
 Three blocks: diagnostic accuracy (sensitivity, specificity, predictive values, ROC curve), systematic reviews and meta-analysis (PRISMA flow, forest plots, heterogeneity), and risk-of-bias tools (which tool for which design).
 
-Teaching point: everything here is about judging evidence - the skills participants will use in Session 8 in 'Be the reviewer'.
+Teaching point: everything here is about judging evidence, the skills participants will use in Session 8 in 'Be the reviewer'.
 
 Timing: 30 seconds. Keep a brisk pace: about 1.5-2 minutes per slide.
 :::
@@ -966,11 +966,11 @@ Sensitivity: of the 20 who HAVE the disease, the test finds 18 = 90%. A highly s
 
 Specificity: of the 80 who do NOT have it, 64 test negative = 80%. A highly specific test rarely raises false alarms, so a POSITIVE result helps rule it in.
 
-Preview of the next slide: of the 34 positive tests, only 18 truly have the disease - a positive predictive value of 53%. PPV depends on how common the disease is.
+Preview of the next slide: of the 34 positive tests, only 18 truly have the disease, a positive predictive value of 53%. PPV depends on how common the disease is.
 
-Misconception: 'a 90% sensitive test means a positive patient has a 90% chance of disease'. No - that is PPV, which here is only 53%.
+Misconception: 'a 90% sensitive test means a positive patient has a 90% chance of disease'. No. That is PPV, which here is only 53%.
 
-Ask the room: for a screening test you do not want to miss sepsis - sensitivity or specificity first? Expected answer: sensitivity.
+Ask the room: for a screening test that must not miss sepsis, which comes first: sensitivity or specificity? Expected answer: sensitivity.
 
 Timing: 2.5 minutes.
 :::
@@ -986,17 +986,17 @@ Timing: 2.5 minutes.
 ::: {.notes}
 The same test (sensitivity 90%, specificity 80%) used on 500 people in two settings.
 
-ICU, where 20% have the disease: 90 true positives, 80 false positives - a positive result is right 90 / 170 = 53% of the time.
+ICU, where 20% have the disease: 90 true positives, 80 false positives, so a positive result is right 90 / 170 = 53% of the time.
 
-Screening, where 2% have it: 9 true positives but 98 false positives - PPV 9 / 107 = 8%. More than 9 in 10 positives are false alarms. Meanwhile the NPV rises to 99.7%.
+Screening, where 2% have it: 9 true positives but 98 false positives: PPV 9 / 107 = 8%. More than 9 in 10 positives are false alarms. Meanwhile the NPV rises to 99.7%.
 
 Teaching point: sensitivity and specificity belong to the test; PPV and NPV belong to the test IN A POPULATION. Never borrow a PPV from a study done in a different setting.
 
-Misconception: 'a good test is good everywhere'. Screening healthy populations with a moderately specific test creates many false positives - and many unnecessary investigations.
+Misconception: 'a good test is good everywhere'. Screening healthy populations with a moderately specific test creates many false positives and many unnecessary investigations.
 
 Ask the room: why do screening programmes use a second, more specific test before acting? Expected answer: to remove the false positives created by low prevalence.
 
-Optional (1 minute): show the 'PPV at another prevalence' box on the Diagnostic sheet of the 2x2 calculator - type 2% and 20%.
+Optional (1 minute): show the 'PPV at another prevalence' box on the Diagnostic sheet of the 2x2 calculator, then type 2% and 20%.
 
 Timing: 3 minutes.
 :::
@@ -1018,7 +1018,7 @@ The area under the curve (AUC, also called the c-statistic) summarises discrimin
 
 Misconception: 'AUC tells you which cut-off to use'. It does not; it describes the whole curve. The same AUC appears again in Session 6 for prediction models.
 
-Ask the room: for ruling out sepsis at triage, would you choose a low or high cut-off? Expected answer: low - high sensitivity, accepting more false alarms.
+Ask the room: for ruling out sepsis at triage, would you choose a low or high cut-off? Expected answer: low, for high sensitivity, accepting more false alarms.
 
 Timing: 3 minutes.
 :::
@@ -1028,7 +1028,7 @@ Timing: 3 minutes.
 ![](images/figures/sat2/prisma_flow.png){.neu-fig}
 
 ::: {.neu-takeaway}
-**KEY MESSAGE** A PRISMA flow shows how studies were found, screened and excluded - with reasons.
+**KEY MESSAGE** A PRISMA flow shows how studies were found, screened and excluded, with reasons.
 :::
 
 ::: {.notes}
@@ -1036,7 +1036,7 @@ Illustrative numbers. Every systematic review should show this diagram (PRISMA 2
 
 Identification: 1,240 database records plus 60 from trial registers = 1,300; 300 duplicates removed.
 
-Screening: 1,000 titles and abstracts screened, 920 excluded; 80 full texts read, 71 excluded with reasons (38 not RCTs, 21 wrong population, 12 no mortality data - which add up to 71).
+Screening: 1,000 titles and abstracts screened, 920 excluded; 80 full texts read, 71 excluded with reasons (38 not RCTs, 21 wrong population, 12 no mortality data, which add up to 71).
 
 Included: 9 studies, all in the meta-analysis.
 
@@ -1044,7 +1044,7 @@ Teaching point: two reviewers screen independently, and the protocol is register
 
 Misconception: 'more included studies = a better review'. Strict, explicit inclusion criteria matter more than numbers.
 
-Ask the room: why search trial registers and not only PubMed? Expected answer: to find unpublished or negative trials - publication bias (Session 2, grey literature).
+Ask the room: why search trial registers and not only PubMed? Expected answer: to find unpublished or negative trials, because of publication bias (Session 2, grey literature).
 
 Timing: 2.5 minutes.
 :::
@@ -1058,13 +1058,13 @@ Timing: 2.5 minutes.
 :::
 
 ::: {.notes}
-Hypothetical trials, fixed-effect (inverse-variance) pooling. Read it in four steps. (1) Find the vertical line of no effect: RR = 1. Left of it favours restrictive fluids; right favours usual care. (2) Each square is one study's RR; its size shows its weight (Trial 4 is largest, 38%). (3) Each horizontal line is that study's 95% CI - if it crosses 1, that study alone is inconclusive. Here every single trial crosses 1. (4) The diamond is the pooled estimate: RR 0.79 (95% CI 0.64-0.98). Its width is the CI; it does not cross 1.
+Hypothetical trials, fixed-effect (inverse-variance) pooling. Read it in four steps. (1) Find the vertical line of no effect: RR = 1. Left of it favours restrictive fluids; right favours usual care. (2) Each square is one study's RR; its size shows its weight (Trial 4 is largest, 38%). (3) Each horizontal line is that study's 95% CI. If it crosses 1, that study alone is inconclusive. Here every single trial crosses 1. (4) The diamond is the pooled estimate: RR 0.79 (95% CI 0.64-0.98). Its width is the CI; it does not cross 1.
 
-Teaching point: pooling several inconclusive trials can give a precise answer - that is the power of meta-analysis. In words: about 21% lower relative risk of death, though the upper limit (0.98) is close to no effect.
+Teaching point: pooling several inconclusive trials can give a precise answer. That is the strength of meta-analysis. In words: about 21% lower relative risk of death, though the upper limit (0.98) is close to no effect.
 
 Misconception: 'a trial whose CI crosses 1 shows no effect'. It shows uncertainty, not absence of an effect.
 
-Ask the room: which trial contributes most, and why? Expected answer: Trial 4 - the largest, with the most events, so the narrowest CI.
+Ask the room: which trial contributes most, and why? Expected answer: Trial 4, the largest, with the most events, so the narrowest CI.
 
 Timing: 3.5 minutes. The handout uses this plot for the pair task.
 :::
@@ -1080,11 +1080,11 @@ Timing: 3.5 minutes. The handout uses this plot for the pair task.
 ::: {.notes}
 Left: the six trials from the previous slide point the same way; their CIs overlap; I-squared = 0%. Pooling is sensible.
 
-Right: six other hypothetical trials disagree - some clearly favour restriction, others point the other way. I-squared = 80%: about 80% of the variation between studies reflects real differences rather than chance. The random-effects diamond is wide and crosses 1 (RR 0.74, 95% CI 0.47-1.15).
+Right: six other hypothetical trials disagree. Some clearly favour restriction, others point the other way. I-squared = 80%: about 80% of the variation between studies reflects real differences rather than chance. The random-effects diamond is wide and crosses 1 (RR 0.74, 95% CI 0.47-1.15).
 
 Rough guide (Cochrane): I-squared around 0-40% might not be important, 30-60% moderate, 50-90% substantial, 75-100% considerable. The ranges overlap on purpose: judge it with the plot.
 
-Teaching point: with high heterogeneity the most useful question is WHY - different patients, doses, timing, outcome definitions or risk of bias? A single pooled number may hide this.
+Teaching point: with high heterogeneity the most useful question is WHY: different patients, doses, timing, outcome definitions or risk of bias? A single pooled number may hide this.
 
 Misconception: 'a random-effects model fixes heterogeneity'. It only widens the CI; it does not explain anything.
 
@@ -1098,15 +1098,15 @@ Timing: 3 minutes.
 ![](images/figures/sat2/rob_tool_chooser.png){.neu-fig}
 
 ::: {.neu-takeaway}
-**KEY MESSAGE** Match the appraisal tool to the design - and the reporting guideline too.
+**KEY MESSAGE** Match the appraisal tool to the design, and the reporting guideline too.
 :::
 
 ::: {.notes}
 Risk-of-bias tools are structured ways to ask 'could the design or conduct have distorted this result?'. Each design has its own tool.
 
-Randomised trials: RoB 2 (Cochrane) - Boulet. Non-randomised studies of interventions (before-after, cohorts comparing treatments): ROBINS-I. Cohort and case-control studies of exposures: the Newcastle-Ottawa Scale is still widely used; ROBINS-E is its newer, more rigorous alternative - Hyun. Diagnostic accuracy studies: QUADAS-2. Systematic reviews themselves: AMSTAR 2.
+Randomised trials: RoB 2 (Cochrane), used for Boulet. Non-randomised studies of interventions (before-after, cohorts comparing treatments): ROBINS-I. Cohort and case-control studies of exposures: the Newcastle-Ottawa Scale is still widely used; ROBINS-E is its newer, more rigorous alternative (used for Hyun). Diagnostic accuracy studies: QUADAS-2. Systematic reviews themselves: AMSTAR 2.
 
-The right-hand column links back: each design also has a reporting guideline (CONSORT, TREND/STROBE, STROBE, STARD, PRISMA) - covered in Session 8.
+The right-hand column links back: each design also has a reporting guideline (CONSORT, TREND/STROBE, STROBE, STARD, PRISMA), covered in Session 8.
 
 Teaching point: reporting guidelines check what was REPORTED; risk-of-bias tools judge how TRUSTWORTHY the result is. A well-reported study can still be at high risk of bias.
 
@@ -1148,13 +1148,13 @@ Questions 7-9 of our 10-question appraisal checklist (Session 8)
 ::::
 
 ::: {.neu-takeaway}
-**KEY MESSAGE** Read the conclusion last - and check it against the design and the numbers.
+**KEY MESSAGE** Read the conclusion last, and check it against the design and the numbers.
 :::
 
 ::: {.notes}
 This closes the appraisal block and links to the 10-question checklist used in Session 8 ('Be the reviewer').
 
-Words vs design: Boulet's conclusion ('did not reduce the overall fluid balance at day 5') matches its pilot RCT design. Hyun's abstract says 'associated', but its title says 'Impact' - a stronger word than a cohort supports.
+Words vs design: Boulet's conclusion ('did not reduce the overall fluid balance at day 5') matches its pilot RCT design. Hyun's abstract says 'associated', but its title says 'Impact', a stronger word than a cohort supports.
 
 Numbers vs words: is the main result given as an effect size with a 95% CI? Is a non-significant result (p = 0.42) described honestly, without 'a trend towards'?
 
@@ -1199,11 +1199,11 @@ Reminder
 ::: {.notes}
 4 minutes in pairs, 2 minutes to collect answers.
 
-Answers: Trial 4 has the most weight (38%). No single trial excludes RR = 1 - all CIs cross it. The diamond (RR 0.79, 95% CI 0.64-0.98) does not cross 1: pooled, restriction was associated with about 21% lower relative risk of death in these (hypothetical) trials, with the upper limit close to no effect. Tools: Boulet - RoB 2; Hyun - Newcastle-Ottawa (or ROBINS-E); a review - AMSTAR 2.
+Answers: Trial 4 has the most weight (38%). No single trial excludes RR = 1: all CIs cross it. The diamond (RR 0.79, 95% CI 0.64-0.98) does not cross 1: pooled, restriction was associated with about 21% lower relative risk of death in these (hypothetical) trials, with the upper limit close to no effect. Tools: RoB 2 for Boulet; Newcastle-Ottawa (or ROBINS-E) for Hyun; AMSTAR 2 for a review.
 
 If time is short, do questions 3 and 4 only.
 
-Common error: reading the diamond's centre without its width - always say the CI.
+Common error: reading the diamond's centre without its width. Always say the CI.
 
 Timing: 6 minutes, then move to the proposal builder.
 :::
@@ -1219,11 +1219,11 @@ Timing: 6 minutes, then move to the proposal builder.
 ::: {.notes}
 This slide prepares the second half of Proposal Part 2.
 
-The primary outcome is the ONE result the study is designed and sized for. Define it three ways: WHAT (death from any cause - not 'mortality improved'), HOW (hospital record; a phone call if discharged), WHEN (day 28 after ICU admission). Secondary outcomes get the same three parts.
+The primary outcome is the ONE result the study is designed and sized for. Define it three ways: WHAT (death from any cause, not 'mortality improved'), HOW (hospital record; a phone call if discharged), WHEN (day 28 after ICU admission). Secondary outcomes get the same three parts.
 
-Boulet's primary outcome: cumulative fluid balance (ml/kg) at day 5 - clear what, how and when. Hyun's: mortality at day 28.
+Boulet's primary outcome: cumulative fluid balance (ml/kg) at day 5: clear what, how and when. Hyun's: mortality at day 28.
 
-Misconception: 'more primary outcomes = more chances of a result'. That is exactly the problem - multiple primaries invite cherry-picking (spin, Session 2).
+Misconception: 'more primary outcomes = more chances of a result'. That is exactly the problem: multiple primaries invite cherry-picking (spin, Session 2).
 
 Ask the room: rewrite 'improve patient outcomes' as a primary outcome. Expected: e.g. 'new pressure injury (stage 2+) by day 14 of admission, from the skin-check chart'.
 
@@ -1255,7 +1255,7 @@ Facilitator check
 - Only ONE primary outcome?
 - Outcome has a time point?
 - Confounding by indication?
-- Bias -\> concrete mitigation?
+- A concrete fix for each bias?
 :::
 :::
 ::::
@@ -1269,7 +1269,7 @@ Worksheet: Practicals/s4\_exercises.md, Part F, and the proposal template (Part 
 
 Suggested rhythm (the outcomes slide before this takes 2 minutes): 4 minutes to define exposure and comparator together; 14 minutes writing (split: outcomes, biases, the claim sentence); 10 minutes for the facilitator check and one group reading its biases and mitigations aloud.
 
-Model answer for the running example (observational version): exposure - positive cumulative fluid balance (ml/kg) at 72 h after ICU admission; comparator - zero or negative balance; primary outcome - death from any cause by day 28 (hospital record); secondary - AKI (KDIGO) by day 7, ventilator-free days to day 28, ICU length of stay; biases - confounding by severity (record SOFA, lactate, vasopressor dose and adjust or match), selection (consecutive patients, report exclusions), information (pre-defined fluid definitions, double-check 10% of charts); claim - 'associated with'.
+Model answer for the running example (observational version): exposure: positive cumulative fluid balance (ml/kg) at 72 h after ICU admission; comparator: zero or negative balance; primary outcome: death from any cause by day 28 (hospital record); secondary: AKI (KDIGO) by day 7, ventilator-free days to day 28, ICU length of stay; biases: confounding by severity (record SOFA, lactate, vasopressor dose and adjust or match), selection (consecutive patients, report exclusions), information (pre-defined fluid definitions, double-check 10% of charts); claim: 'associated with'.
 
 Common problems: no comparator; three primary outcomes; a bias named without a concrete mitigation ('we will be careful' is not a mitigation).
 
@@ -1309,7 +1309,7 @@ Timing: give a 10-minute and a 2-minute warning.
 ::::
 
 ::: {.neu-takeaway}
-**KEY MESSAGE** Trust first, then size - and check that the words match the design.
+**KEY MESSAGE** Trust first, then size, and check that the words match the design.
 :::
 
 ::: {.notes}
@@ -1330,7 +1330,7 @@ DISCUSSION · 5 min
 1. Exit question: ICU patients who received more fluid died more often. Give one reason other than the fluid
 2. Homework: finish Proposal Part 2 (exposure, comparator, outcomes, biases)
 3. Optional: handout Parts B and D (effect modification, PPV in two settings)
-4. Next two Saturdays (Sessions 5-6): data - the FLUID-ICU course dataset
+4. Next two Saturdays (Sessions 5-6): data and the FLUID-ICU course dataset
 :::
 
 ::: {.neu-output style="--c:#1F5C7A"}
@@ -1340,16 +1340,16 @@ DISCUSSION · 5 min
 ::: {.notes}
 Exit question answers: confounding by indication (sicker patients receive more fluid and die more), or reverse causation (failing kidneys make less urine, so the balance becomes positive).
 
-Preview: in Weeks 5-6 we turn the design into data - variables, data collection forms - and the course dataset FLUID-ICU, a simulated cohort that answers the observational version of our fluid question.
+Preview: in Weeks 5-6 we turn the design into data (variables, data collection forms) and meet the course dataset FLUID-ICU, a simulated cohort that answers the observational version of our fluid question.
 
 Timing: 3 minutes after the recap slide. Finish on time.
 :::
 
-## Extra slides - Session 4
+## Extra slides: Session 4
 
 :::: {.neu-statement}
 ::: {.neu-big}
-Extra slides - Session 4
+Extra slides: Session 4
 :::
 
 ::: {.neu-sub}
@@ -1404,7 +1404,7 @@ LR+ = 0.90 / 0.20 = 4.5: a positive result is 4.5 times as likely in someone wit
 
 Unlike PPV, likelihood ratios do not depend on prevalence, so they travel between settings better.
 
-Reporting: STARD (30 items and a participant flow diagram). Appraisal: QUADAS-2. Watch for spectrum bias - a test evaluated in very sick patients versus healthy volunteers looks better than it will in real, mixed patients.
+Reporting: STARD (30 items and a participant flow diagram). Appraisal: QUADAS-2. Watch for spectrum bias: a test evaluated in very sick patients versus healthy volunteers looks better than it will in real, mixed patients.
 
 Misconception: 'diagnostic accuracy studies are just a 2x2 table'. The design questions (who was tested, was the reference standard applied to everyone, was it read blind) matter as much as the numbers.
 
@@ -1422,7 +1422,7 @@ Timing: 1.5 minutes. The Advanced Modules offer diagnostic-accuracy analysis han
 ::: {.notes}
 EXTRA: Illustrative judgements. RoB 2 asks signalling questions in five domains: D1 randomisation process (sequence and concealment), D2 deviations from intended interventions (blinding, adherence), D3 missing outcome data, D4 measurement of the outcome, D5 selection of the reported result.
 
-Each domain is judged low risk (green +), some concerns (yellow -) or high risk (red x). The overall judgement is driven by the worst domain - Trial C is high risk because of D2.
+Each domain is judged low risk (green +), some concerns (yellow -) or high risk (red x). The overall judgement is driven by the worst domain: Trial C is high risk because of D2.
 
 Reviews show this plot so readers can see which trials drive the pooled result and whether excluding high-risk trials changes it (a sensitivity analysis).
 

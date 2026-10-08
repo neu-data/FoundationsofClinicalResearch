@@ -35,16 +35,18 @@ subtitle: "Tuần 5 · Thứ Bảy · 3 giờ (giải lao 15 phút)"
 <div class="slides-embed"><iframe src="slides-s5.html" title="Buổi 5 · Dữ liệu: thu thập tốt, mô tả trung thực" loading="lazy" allowfullscreen></iframe></div>
 ```
 
-[Mở bài giảng toàn màn hình](slides-s5.qmd){.btn .btn-primary role="button"} — Nhấn **F** để toàn màn hình, **S** để xem ghi chú, **E** để in, **Esc** để xem tổng quan.
+[Mở bài giảng toàn màn hình](slides-s5.qmd){.btn .btn-primary role="button"}
+
+Nhấn **F** để toàn màn hình, **S** để xem ghi chú, **E** để in, **Esc** để xem tổng quan.
 
 ## Tải xuống
 
 | | |
 |:--|:--|
-| 🎞️ **Bài giảng (PowerPoint)** | [English](../en/files/slides/Session_5_EN.pptx) · [Tiếng Việt](files/slides/Session_5_VN.pptx) |
-| 📝 **Phiếu bài tập** | [Đọc trực tuyến](exercises-s5.qmd) · [PDF](files/sessions/s5_exercises.pdf) |
-| ✅ **Lời giải** | [Đọc trực tuyến](solutions-s5.qmd) · [PDF](files/sessions/s5_solutions.pdf) |
-| 💻 **Kịch bản trình diễn** | [Đọc trực tuyến](demo-s5.qmd) · [PDF](files/sessions/s5_demo.pdf) |
+| **Bài giảng (PowerPoint)** | [English](../en/files/slides/Session_5_EN.pptx) · [Tiếng Việt](files/slides/Session_5_VN.pptx) |
+| **Phiếu bài tập** | [Đọc trực tuyến](exercises-s5.qmd) · [PDF](files/sessions/s5_exercises.pdf) |
+| **Lời giải** | [Đọc trực tuyến](solutions-s5.qmd) · [PDF](files/sessions/s5_solutions.pdf) |
+| **Kịch bản trình diễn** | [Đọc trực tuyến](demo-s5.qmd) · [PDF](files/sessions/s5_demo.pdf) |
 
 ## Chuẩn bị trước buổi học
 
@@ -53,7 +55,7 @@ subtitle: "Tuần 5 · Thứ Bảy · 3 giờ (giải lao 15 phút)"
 
 ## Sau buổi học (bài về nhà)
 
-- Đọc gói kết quả của nhóm (Bảng 1 và biểu đồ) — xem [Bộ dữ liệu](dataset.qmd).
+- Đọc gói kết quả của nhóm (Bảng 1 và biểu đồ) trên trang [Bộ dữ liệu](dataset.qmd).
 - Bài tập 3–5 trong phiếu Buổi 5 (chọn cách tóm tắt phù hợp, nhận xét một biểu đồ chưa tốt, tìm lỗi trong dữ liệu thô FLUID-ICU).
 
 ## Tài liệu liên quan
@@ -65,4 +67,4 @@ subtitle: "Tuần 5 · Thứ Bảy · 3 giờ (giải lao 15 phút)"
 
 ---
 
-[← Buổi trước](session4.qmd) · [Lịch học](schedule.qmd) · [Buổi sau →](session6.qmd)
+[Quay lại Buổi 4](session4.qmd) · [Xem toàn bộ lịch học](schedule.qmd) · [Sang Buổi 6](session6.qmd)

@@ -1,8 +1,8 @@
 ---
-title: "Session 5 — Exercise sheet"
+title: "Session 5: Exercise sheet"
 ---
 
-📥 [PDF](files/sessions/s5_exercises.pdf) · [Session page](session5.qmd)
+[Download the PDF](files/sessions/s5_exercises.pdf) · [Back to Session 5](session5.qmd)
 
 **Foundations of Clinical Research** · Week 5, Saturday · Neudata · #ClearDataClearImpact
 
@@ -22,7 +22,7 @@ Work with your neighbour or group as indicated. No calculator is needed: every e
 
 * * *
 
-## Exercise 1 — Classify the variables
+## Exercise 1: Classify the variables
 
 For each variable, tick **one** type.
 
@@ -44,7 +44,7 @@ For each variable, tick **one** type.
 
 * * *
 
-## Exercise 2 — Fix the bad CRF items
+## Exercise 2: Fix the bad CRF items
 
 Each item below can be filled in two different ways by two different nurses. Rewrite it so that it has **only one possible reading**. Check yourself: unit? time point? one answer only? an "unknown / not done" option?
 
@@ -58,7 +58,7 @@ Each item below can be filled in two different ways by two different nurses. Rew
 
 * * *
 
-## Exercise 3 — Choose the right summary
+## Exercise 3: Choose the right summary
 
 For each variable, choose the summary you would report in Table 1 and the best graph.
 
@@ -74,7 +74,7 @@ For each variable, choose the summary you would report in Table 1 and the best g
 
 * * *
 
-## Exercise 4 — Judge a bad figure
+## Exercise 4: Judge a bad figure
 
 A poster in the hospital corridor shows this figure (fluid balance at day 5, 24 patients per group):
 
@@ -92,7 +92,7 @@ A second poster shows ward mortality as bars of 31% (Ward A) and 29% (Ward B), w
 
 * * *
 
-## Exercise 5 — [DS] Spot the problems in the raw FLUID-ICU data
+## Exercise 5: [DS] Spot the problems in the raw FLUID-ICU data
 
 Below are six cells copied from the raw file `Course/Data/fluid_icu_raw.csv` (as the four ICUs sent it). For each, say what is wrong and what the cleaning script should do.
 
@@ -110,7 +110,7 @@ Bonus: why must the raw file never be edited by hand? Name two things the cleani
 
 * * *
 
-## Exercise 6 — [DS] Read your group's Table 1 (results pack)
+## Exercise 6: [DS] Read your group's Table 1 (results pack)
 
 Open your group's results pack (`Course/Data/results_packs/Results_Pack_Qn.docx`, Table 1: baseline characteristics by fluid-balance group).
 
@@ -134,22 +134,22 @@ Open your group's results pack (`Course/Data/results_packs/Results_Pack_Qn.docx`
 
 * * *
 
-## Exercise 7 — [DS] Your group's question (5.2)
+## Exercise 7: [DS] Your group's question (5.2)
 
 | | Your answer |
 |---|---|
 | Group question (Q1–Q5), copied from page 1 of your results pack | |
-| **P** — population | |
-| **E** — exposure (variable name in the data dictionary) and its type | |
-| **C** — comparator | |
-| **O** — outcome (variable name) and its type | |
+| **P**: population | |
+| **E**: exposure (variable name in the data dictionary) and its type | |
+| **C**: comparator | |
+| **O**: outcome (variable name) and its type | |
 | One-sentence research question | |
 | Which test will compare the groups? Which model will adjust? (guess now, check in Session 6) | |
 
 
 * * *
 
-## Exercise 8 — Proposal builder 5 worksheet (group, 30 minutes)
+## Exercise 8: Proposal builder 5 worksheet (group, 30 minutes)
 
 Write your answers here first, then copy them into Part 3 of the group proposal template. (Your **own** question, not the course dataset.)
 

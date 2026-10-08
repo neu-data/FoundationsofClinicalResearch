@@ -35,16 +35,18 @@ subtitle: "Week 5 · Saturday · 3 hours (15-minute break)"
 <div class="slides-embed"><iframe src="slides-s5.html" title="Session 5 · Data: collect it well, describe it honestly" loading="lazy" allowfullscreen></iframe></div>
 ```
 
-[Open the slides full screen](slides-s5.qmd){.btn .btn-primary role="button"} — Press **F** for full screen, **S** for speaker notes, **E** to print, **Esc** for an overview.
+[Open the slides full screen](slides-s5.qmd){.btn .btn-primary role="button"}
+
+Press **F** for full screen, **S** for speaker notes, **E** to print, **Esc** for an overview.
 
 ## Downloads
 
 | | |
 |:--|:--|
-| 🎞️ **Slides (PowerPoint)** | [English](files/slides/Session_5_EN.pptx) · [Tiếng Việt](../vi/files/slides/Session_5_VN.pptx) |
-| 📝 **Exercise sheet** | [Read online](exercises-s5.qmd) · [PDF](files/sessions/s5_exercises.pdf) |
-| ✅ **Solutions** | [Read online](solutions-s5.qmd) · [PDF](files/sessions/s5_solutions.pdf) |
-| 💻 **Live-demo script** | [Read online](demo-s5.qmd) · [PDF](files/sessions/s5_demo.pdf) |
+| **Slides (PowerPoint)** | [English](files/slides/Session_5_EN.pptx) · [Tiếng Việt](../vi/files/slides/Session_5_VN.pptx) |
+| **Exercise sheet** | [Read online](exercises-s5.qmd) · [PDF](files/sessions/s5_exercises.pdf) |
+| **Solutions** | [Read online](solutions-s5.qmd) · [PDF](files/sessions/s5_solutions.pdf) |
+| **Live-demo script** | [Read online](demo-s5.qmd) · [PDF](files/sessions/s5_demo.pdf) |
 
 ## Before this session
 
@@ -53,7 +55,7 @@ subtitle: "Week 5 · Saturday · 3 hours (15-minute break)"
 
 ## After this session (homework)
 
-- Read your group's results pack (Table 1 and figures) — see [Course dataset](dataset.qmd).
+- Read your group's results pack (Table 1 and figures) on the [Course dataset](dataset.qmd) page.
 - Exercises 3–5 on the Session 5 sheet (choose the right summary, judge a bad figure, spot the problems in the raw FLUID-ICU data).
 
 ## Related materials
@@ -65,4 +67,4 @@ subtitle: "Week 5 · Saturday · 3 hours (15-minute break)"
 
 ---
 
-[← Previous session](session4.qmd) · [Schedule](schedule.qmd) · [Next session →](session6.qmd)
+[Back to Session 4](session4.qmd) · [See the full schedule](schedule.qmd) · [Continue to Session 6](session6.qmd)

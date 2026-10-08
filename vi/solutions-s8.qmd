@@ -1,19 +1,19 @@
 ---
-title: "Buổi 8 — Lời giải"
+title: "Buổi 8: Lời giải"
 ---
 
 ::: {.lang-note}
 Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
 :::
 
-📥 [PDF](files/sessions/s8_solutions.pdf) · [Trang buổi học](session8.qmd)
+[Tải bản PDF](files/sessions/s8_solutions.pdf) · [Quay lại Buổi 8](session8.qmd)
 
 Answer keys for `Practicals/s8_exercises.md`, Parts A–C. Model answers for the appraisal (Part D) are in `Resources/appraisal_instructor_guide.md`. Numbers in Part B are from `Course/Data/key_results.md` (SIMULATED data).
 
 
 * * *
 
-## Part A — Writing exercises
+## Part A: Writing exercises
 
 ### A1. Fix the spin (model rewrites)
 | # | Model rewrite | Why |
@@ -21,23 +21,23 @@ Answer keys for `Practicals/s8_exercises.md`, Parts A–C. Model answers for the
 | a | "The point estimate favoured the restrictive strategy, but the 95% CI was wide (−15.2 to 41.6 ml/kg) and included no difference; a larger trial would be needed to detect a smaller effect." | p = 0.42 is not a trend; report the estimate and its uncertainty (annotation #41). |
 | b | "A positive fluid balance on the first ICU day was not associated with 28-day mortality (HR 1.17, 95% CI 0.85 to 1.60)." | "Impact" is causal; the cohort shows association only (#27). |
 | c | "Positive cumulative fluid balance during the first three ICU days and 28-day mortality in sepsis: a propensity score-matched cohort study" | Title must match the observational design (#1). |
-| d | "To our knowledge, this is among the lowest day-5 fluid balances reported in septic shock trials [refs]" — or delete. | Superlatives need protection and a citation (#40). |
+| d | "To our knowledge, this is among the lowest day-5 fluid balances reported in septic shock trials [refs]", or delete the sentence. | Superlatives need protection and a citation (#40). |
 
 ### A2. Verb ladder
-a — **was observed in** (case series) · b — **is associated with** (cohort) · c — **did not reduce** (one RCT; add "in this pilot" because it is small) · d — **reduces / causes** (consistent large RCTs and meta-analysis) · e — **was observed / was … %** (descriptive cross-sectional).
+a: **was observed in** (case series) · b: **is associated with** (cohort) · c: **did not reduce** (one RCT; add "in this pilot" because it is small) · d: **reduces / causes** (consistent large RCTs and meta-analysis) · e: **was observed / was … %** (descriptive cross-sectional).
 
 ### A3. Results sentences
 1. "In the Day-3 matched cohort, a positive cumulative fluid balance was associated with higher 28-day mortality (HR 1.56, 95% CI 1.10 to 2.22; P = 0.012)."
-2. "By day 28, 6 of 24 patients had died in each group (relative risk 1.0, 95% CI 0.38 to 2.66)." — and in the Discussion: "the trial was too small to assess mortality".
-3. "In the Day-1 cohort, a positive fluid balance was not associated with 28-day mortality (HR 1.17, 95% CI 0.85 to 1.60; P = 0.354)." — not "had no effect".
+2. "By day 28, 6 of 24 patients had died in each group (relative risk 1.0, 95% CI 0.38 to 2.66)." In the Discussion: "the trial was too small to assess mortality".
+3. "In the Day-1 cohort, a positive fluid balance was not associated with 28-day mortality (HR 1.17, 95% CI 0.85 to 1.60; P = 0.354)." Do not write "had no effect".
 
-### A4. Title from PICO — running example
-"Restrictive vs usual fluids and 28-day mortality in septic shock: a randomised controlled trial" (14 words) — or, for an observational group proposal: "Cumulative fluid balance and 28-day mortality in adults with septic shock: a retrospective cohort study". Check: 10–16 words, design named, no "impact", observational = "and" / "association between".
+### A4. Title from PICO (running example)
+"Restrictive vs usual fluids and 28-day mortality in septic shock: a randomised controlled trial" (14 words). Or, for an observational group proposal: "Cumulative fluid balance and 28-day mortality in adults with septic shock: a retrospective cohort study". Check: 10–16 words, design named, no "impact", observational = "and" / "association between".
 
 
 * * *
 
-## Part B — [DS] Manuscript workshop 2: model Introduction, Discussion, Abstract and Title for Q1
+## Part B: [DS] Manuscript workshop 2: model Introduction, Discussion, Abstract and Title for Q1
 
 All numbers from `Course/Data/key_results.md` and results pack Q1 (**SIMULATED DATA**). References are placeholders [n]; groups use their Session 1–2 references and Papers 1–2.
 
@@ -70,9 +70,9 @@ Keywords: Fluid Therapy; Water-Electrolyte Balance; Critical Care; Mortality; Co
 | Q2 AKI | Adjusted OR 1.27 per 10 ml/kg (95% CI 1.16 to 1.40) | Reverse causation: oliguric AKI causes fluid accumulation |
 | Q3 VFD | Adjusted −0.61 days per 10 ml/kg (95% CI −1.00 to −0.21) | VFD combines death and ventilation; skewed outcome |
 | Q4 Lactate | Adjusted OR per mmol/L 1.39 (CC, n = 527) vs 1.45 (MI, n = 620) | Missing not at random cannot be excluded; MAR plausible (missing in less sick patients) |
-| Q5 ICU stay | Adjusted ratio of geometric means 1.24 (95% CI 1.10 to 1.39), survivors (n = 366 adjusted) | Survivors only — conditioning on survival; skewed outcome |
+| Q5 ICU stay | Adjusted ratio of geometric means 1.24 (95% CI 1.10 to 1.39), survivors (n = 366 adjusted) | Survivors only (conditioning on survival); skewed outcome |
 
-## Part C — Getting published
+## Part C: Getting published
 
 ### C1. Spot the predatory journal
 
@@ -81,7 +81,7 @@ Keywords: Fluid Therapy; Water-Electrolyte Balance; Critical Care; Mortality; Co
 2. Free e-mail address, not a publisher domain.
 3. Vague claim to have read "your excellent article" (no title).
 4. Absurdly broad scope (medicine, nursing, engineering, management; "all areas of science").
-5. A fake metric ("International Universal Index" impact factor — only Clarivate issues the Journal Impact Factor).
+5. A fake metric ("International Universal Index" impact factor). Only Clarivate issues the Journal Impact Factor.
 6. Guaranteed review in 48 h and publication in 5 days.
 7. Fees hidden until after acceptance.
 8. Pressure tactics ("this week only"), multiple exclamation marks, unusual grammar.
@@ -104,7 +104,7 @@ Keywords: Fluid Therapy; Water-Electrolyte Balance; Critical Care; Mortality; Co
 |---|---|---|
 | R1.1 | "Thank you. We agree that our design supports association, not causation. We have changed the title to '… and …: a cohort study' and replaced 'improves' with 'was associated with' throughout." | Title p.1; abstract; Discussion p.x |
 | R1.2 | "Thank you. The main result is now reported as RR 0.78 (95% CI 0.61 to 0.99) in the abstract, Results and Table 2." | Abstract; Results p.x |
-| R1.3 | "Thank you for spotting this. 212 patients were included and 4 were excluded from the adjusted model because of missing lactate; the flow diagram and text now show 212 → 208 with reasons." | Fig. 1; Results p.x |
+| R1.3 | "Thank you for spotting this. 212 patients were included and 4 were excluded from the adjusted model because of missing lactate; the flow diagram and text now show 212 included and 208 analysed, with reasons." | Fig. 1; Results p.x |
 | R2.1 | (polite rebuttal) "We agree 1-year mortality is important. Our protocol, approved by the ethics committee, followed patients to day 28 only, so these data were not collected. We now mention this as a limitation and suggest it for future studies." | Limitations p.x |
 
 Marking points: every comment answered; thanks without grovelling; concrete location of every change; no new data invented; disagreement supported by a reason (protocol, ethics approval).

@@ -3,7 +3,7 @@ title: "Course dataset: FLUID-ICU"
 ---
 
 ::: {.simulated}
-**Simulated data — not real patients.** FLUID-ICU is an invented study: every value was produced by a computer program with a fixed random seed. It does not describe any real patient, hospital or ICU. Any manuscript written from it must say that the data are simulated and must never be submitted as real research.
+**Simulated data, not real patients.** FLUID-ICU is an invented study: every value was produced by a computer program with a fixed random seed. It does not describe any real patient, hospital or ICU. Any manuscript written from it must say that the data are simulated and must never be submitted as real research.
 :::
 
 FLUID-ICU is a simulated multicentre prospective cohort of **620 adults with sepsis** admitted to 4 ICUs ("ICU A" to "ICU D") from January 2023 to December 2024. It carries the course's running example into Sessions 5–8: *is a positive cumulative fluid balance by day 3 associated with higher 28-day mortality?* The data were built so that the classic lessons show up in the results: **confounding by indication** (sicker patients receive more fluid and die more often, so the crude odds ratio is clearly larger than the adjusted one), **missing data** (lactate missing in about 15%), a **skewed outcome** (ICU length of stay) and an **interaction** worth discussing (heart failure). A raw version with realistic data-quality errors is used in the Session 5 cleaning demo.

@@ -1,31 +1,31 @@
 ---
-title: "Buổi 7 — Phiếu bài tập"
+title: "Buổi 7: Phiếu bài tập"
 ---
 
 ::: {.lang-note}
 Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
 :::
 
-📥 [PDF](files/sessions/s7_exercises.pdf) · [Trang buổi học](session7.qmd)
+[Tải bản PDF](files/sessions/s7_exercises.pdf) · [Quay lại Buổi 7](session7.qmd)
 
-**Foundations of Clinical Research · Session 7 (Week 7, Saturday): Protect & write — ethics, integrity, Methods and Results**
+**Foundations of Clinical Research · Session 7 (Week 7, Saturday): Protect & write (ethics, integrity, Methods and Results)**
 
 | Part | Exercise | When | Time |
 |---|---|---|---|
 | A | Integrity scenarios: green, amber or red? | 0:55 | 5 min (3 in class, rest at home) |
-| B | Proposal builder 7 — ethics, registration, feasibility, publication plan | 1:00 | 15 min, finish at home |
-| C | **[DS] Manuscript workshop 1** — Methods + Results of your FLUID-ICU paper | 2:05 | 50 min |
+| B | Proposal builder 7: ethics, registration, feasibility, publication plan | 1:00 | 15 min, finish at home |
+| C | **[DS] Manuscript workshop 1**: Methods + Results of your FLUID-ICU paper | 2:05 | 50 min |
 
 
 * * *
 
-## Part A — Integrity scenarios: green, amber or red? (5 minutes, 0:55; three in class, the rest at home)
+## Part A: Integrity scenarios: green, amber or red? (5 minutes, 0:55; three in class, the rest at home)
 
 For each scenario, decide as a group and hold up a colour:
 
-- **GREEN** — acceptable as described.
-- **AMBER** — acceptable **only if** something is fixed or disclosed (say what).
-- **RED** — research misconduct or a serious breach; do not do it.
+- **GREEN**: acceptable as described.
+- **AMBER**: acceptable **only if** something is fixed or disclosed (say what).
+- **RED**: research misconduct or a serious breach. Do not do it.
 
 Write one sentence explaining your colour.
 
@@ -36,13 +36,13 @@ Write one sentence explaining your colour.
 | 3 | The head of department did not take part in the study but asks to be last author "because it is my department". | | |
 | 4 | (a) A nurse uses an AI chatbot to improve the English of the Discussion she wrote, checks every sentence, and states this in the Acknowledgements. (b) A colleague uploads the study spreadsheet (names and hospital numbers included) to a free public chatbot and asks it to "run the statistics". | (a) | |
 | | | (b) | |
-| 5 | A cohort study of ventilated patients is published as three papers — mortality, length of stay and ventilator days — in three journals, none mentioning the others. | | |
+| 5 | A cohort study of ventilated patients is published as three papers (mortality, length of stay and ventilator days) in three journals, none mentioning the others. | | |
 | 6 | Two paragraphs of a published review are copied word for word into your Introduction. The review is cited at the end of the paragraph, but there are no quotation marks. | | |
 
 
 * * *
 
-## Part B — Proposal builder 7: ethics, registration, feasibility and publication plan (15 minutes, 1:00)
+## Part B: Proposal builder 7: ethics, registration, feasibility and publication plan (15 minutes, 1:00)
 
 Complete as a group in 15 minutes (B1–B3 about 8 minutes, B4 about 7 minutes); finish at home during the week. Slides 5 (ethics & feasibility) and 6 (publication plan) of next Saturday's presentation come from this sheet.
 
@@ -51,10 +51,10 @@ Complete as a group in 15 minutes (B1–B3 about 8 minutes, B4 about 7 minutes);
 |---|---|
 | Which ethics committee will review the study? What type of review do you expect (exempt / expedited / full)? The committee decides. | |
 | Who are the participants, and can they decide for themselves when they become eligible? | |
-| Who gives consent? (patient / legal representative / deferred consent / waiver requested) — use the ICU consent flowchart | |
+| Who gives consent (patient / legal representative / deferred consent / waiver requested)? Use the ICU consent flowchart. | |
 | Who takes consent, when and where? | |
 | What are the risks and burdens for participants, and how are they minimised? | |
-| Does the study need registration (trials: yes, before the first patient - ClinicalTrials.gov or another WHO registry; systematic reviews: PROSPERO; observational: recommended)? | |
+| Does the study need registration (trials: yes, before the first patient, in ClinicalTrials.gov or another WHO registry; systematic reviews: PROSPERO; observational: recommended)? | |
 
 ### B2. Confidentiality
 | Question | Your answer |
@@ -79,7 +79,7 @@ Biggest feasibility risk: ______________________  One fix: _____________________
 | Item | Your answer |
 |---|---|
 | Working title (from your PICO: design, I vs C, P, O; 10–16 words) | |
-| Target journal (and a back-up) — checked in DOAJ / NLM Catalog, fees and licence known | |
+| Target journal (and a back-up), checked in DOAJ / NLM Catalog, with fees and licence known | |
 | Reporting guideline (CONSORT / STROBE / STARD / PRISMA / SPIRIT / CARE) | |
 | Registration needed? Where? (from B1) | |
 | Authors (all four ICMJE criteria) and their CRediT roles | |
@@ -87,30 +87,30 @@ Biggest feasibility risk: ______________________  One fix: _____________________
 | Data-sharing statement (what, where, under which conditions) | |
 | Conference where you would present an abstract first | |
 
-**Structured-abstract skeleton** — one line each; Results are the results you *expect to report* (format, not numbers).
+**Structured-abstract skeleton.** One line each. Results are the results you *expect to report* (format, not numbers).
 
 | Section | One line |
 |---|---|
 | Background | |
 | Methods | |
 | Results (expected) | e.g. "28-day mortality: n/N per group, RR (95% CI)" |
-| Conclusion | Write the sentence you would use if the result is positive — and the one if it is not. |
+| Conclusion | Write the sentence you would use if the result is positive, and the one you would use if it is not. |
 
 
 * * *
 
-## Part C — [DS] Manuscript workshop 1: draft your Methods and Results (50 minutes)
+## Part C: [DS] Manuscript workshop 1: draft your Methods and Results (50 minutes)
 
 ### What you are doing
 Each group writes the **Methods** and **Results** of a short STROBE-guided original article answering its **FLUID-ICU question**, using **only** its results pack. Nobody calculates anything: every number comes from the pack.
 
 | Group | Question (results pack) |
 |---|---|
-| 1 | Q1 — Positive fluid balance by day 3 and 28-day mortality (`Course/Data/results_packs/Q1/`) |
-| 2 | Q2 — Cumulative fluid balance and acute kidney injury (`Q2/`) |
-| 3 | Q3 — Cumulative fluid balance and ventilator-free days (`Q3/`) |
-| 4 | Q4 — Initial lactate and 28-day mortality; complete-case vs multiple imputation (`Q4/`) |
-| 5 | Q5 — Fluid balance and ICU length of stay among survivors (`Q5/`) |
+| 1 | Q1: Positive fluid balance by day 3 and 28-day mortality (`Course/Data/results_packs/Q1/`) |
+| 2 | Q2: Cumulative fluid balance and acute kidney injury (`Q2/`) |
+| 3 | Q3: Cumulative fluid balance and ventilator-free days (`Q3/`) |
+| 4 | Q4: Initial lactate and 28-day mortality; complete-case vs multiple imputation (`Q4/`) |
+| 5 | Q5: Fluid balance and ICU length of stay among survivors (`Q5/`) |
 
 FLUID-ICU is a **simulated teaching dataset**. In your ethics sentence write: *"This analysis used a simulated teaching dataset; no ethics approval or consent was required."*
 
@@ -126,12 +126,12 @@ FLUID-ICU is a **simulated teaching dataset**. In your ethics sentence write: *"
 | Minute | Task |
 |---|---|
 | 0–5 | Read your results pack together. Write the main result in ONE sentence (effect size + 95% CI). |
-| 5–25 | Methods (~300 words) — use the headings below. |
-| 25–40 | Results (~300 words) — participants first; numbers with CIs; no interpretation. |
+| 5–25 | Methods (~300 words), using the headings below. |
+| 25–40 | Results (~300 words): participants first, numbers with CIs, no interpretation. |
 | 40–47 | Table 1 + one figure/table with title, legend and footnotes. |
 | 47–50 | Tick STROBE items; check every number; save and share the file. |
 
-### Methods — headings and checklist (STROBE items in brackets)
+### Methods: headings and checklist (STROBE items in brackets)
 - **Study design and setting** (4, 5): prospective multicentre cohort; 4 ICUs; dates as given in the pack.
 - **Participants** (6): who was included and excluded; how many.
 - **Variables** (7): exposure (how fluid balance was calculated and over which days), outcome (definition and time point), confounders adjusted for.
@@ -140,13 +140,13 @@ FLUID-ICU is a **simulated teaching dataset**. In your ethics sentence write: *"
 - **Study size** (10): "all eligible patients in the cohort were included" (no new sample size for a fixed dataset).
 - **Statistical analysis** (12): summary statistics; the test for each comparison; the regression model(s) and which variables; how missing data were handled; software (R, version from the pack); significance level / reporting of 95% CIs.
 
-### Results — checklist
+### Results checklist
 - [ ] Participants first: number analysed (and excluded, with reasons) (13)
-- [ ] Table 1 summarised in one or two sentences — how the groups differed at baseline (14)
+- [ ] Table 1 summarised in one or two sentences: how the groups differed at baseline (14)
 - [ ] Outcome numbers per group (15)
 - [ ] Main result: **crude AND adjusted** estimate with 95% CI (16)
 - [ ] One further analysis (secondary outcome, sensitivity, imputation) (17)
-- [ ] No interpretation ("because", "suggests", "important") — move it to the Discussion
+- [ ] No interpretation ("because", "suggests", "important"). Move it to the Discussion
 - [ ] No number without its unit and, for effects, its 95% CI
 
 ### Deliverable

@@ -3,7 +3,7 @@ title: "Bộ dữ liệu khóa học: FLUID-ICU"
 ---
 
 ::: {.simulated}
-**Dữ liệu mô phỏng — không phải bệnh nhân thật.** FLUID-ICU là một nghiên cứu giả định: mọi giá trị đều do chương trình máy tính tạo ra với hạt giống ngẫu nhiên cố định. Dữ liệu không mô tả bất kỳ bệnh nhân, bệnh viện hay ICU thật nào. Mọi bản thảo viết từ bộ dữ liệu này phải ghi rõ dữ liệu là mô phỏng và không bao giờ được nộp như một nghiên cứu thật.
+**Dữ liệu mô phỏng, không phải bệnh nhân thật.** FLUID-ICU là một nghiên cứu giả định: mọi giá trị đều do chương trình máy tính tạo ra với hạt giống ngẫu nhiên cố định. Dữ liệu không mô tả bất kỳ bệnh nhân, bệnh viện hay ICU thật nào. Mọi bản thảo viết từ bộ dữ liệu này phải ghi rõ dữ liệu là mô phỏng và không bao giờ được nộp như một nghiên cứu thật.
 :::
 
 FLUID-ICU là một nghiên cứu thuần tập tiến cứu đa trung tâm mô phỏng gồm **620 người lớn bị nhiễm khuẩn huyết** nhập 4 ICU ("ICU A" đến "ICU D") từ tháng 1/2023 đến tháng 12/2024. Bộ dữ liệu đưa ví dụ xuyên suốt của khóa học vào Buổi 5–8: *cân bằng dịch tích lũy dương vào ngày 3 có liên quan với tử vong 28 ngày cao hơn không?* Dữ liệu được xây dựng để các bài học kinh điển hiện ra trong kết quả: **nhiễu do chỉ định** (bệnh nhân nặng hơn được truyền nhiều dịch hơn và tử vong nhiều hơn, nên OR thô lớn hơn rõ rệt so với OR hiệu chỉnh), **dữ liệu thiếu** (lactate thiếu khoảng 15%), **kết cục lệch** (thời gian nằm ICU) và một **tương tác** đáng bàn (suy tim). Bản dữ liệu thô với các lỗi chất lượng thực tế được dùng trong trình diễn làm sạch ở Buổi 5.

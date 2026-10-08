@@ -6,13 +6,13 @@ title: "Hướng dẫn bản thảo"
 Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
 :::
 
-📥 [Word](files/assignments/Manuscript_Brief.docx) · [PDF](files/assignments/Manuscript_Brief.pdf) · [Bài tập nhóm](assignments.qmd)
+Tải về: [Word](files/assignments/Manuscript_Brief.docx) · [PDF](files/assignments/Manuscript_Brief.pdf) · [Quay lại trang bài tập nhóm](assignments.qmd)
 
-## Foundations of Clinical Research — Level 1: From Clinical Question to Publication
+## Foundations of Clinical Research · Level 1: From Clinical Question to Publication
 
-**Organisation:** Neudata — *#ClearDataClearImpact*
-**Assessment type:** Group assignment — analysed in Sessions 5–6, written in Sessions 7–8, peer reviewed in the 2 weeks after Session 8
-**Groups:** the same 5 groups as for the proposal; each group answers a **different question on the same dataset**
+**Organisation:** Neudata (*#ClearDataClearImpact*)
+**Assessment type:** Group assignment, analysed in Sessions 5–6, written in Sessions 7–8, peer reviewed in the 2 weeks after Session 8
+**Groups:** the same 5 groups as for the proposal. Each group answers a **different question on the same dataset**
 **Output:** a STROBE-guided original article of about **2,000 words**, a review of another group's draft, and a response-to-reviewers letter
 **Marked with:** `manuscript_rubric.md` (formative); peer review follows `peer_review_instructions.md`
 
@@ -21,11 +21,11 @@ Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng 
 
 ## 1. Purpose
 
-In the proposal you plan a study that has not been done. In this assignment you do the other half of the research journey: you take the results of a study that **has** been done and turn them into a paper that a journal could review. You will practise everything from Sessions 5–8 — reading Table 1 and regression outputs, writing Methods and Results, calibrated language in the Discussion, the abstract and title, a reporting checklist, peer review and responding to reviewers.
+In the proposal you plan a study that has not been done. In this assignment you do the other half of the research journey: you take the results of a study that **has** been done and turn them into a paper that a journal could review. You will practise everything from Sessions 5–8: reading Table 1 and regression outputs, writing Methods and Results, calibrated language in the Discussion, the abstract and title, a reporting checklist, peer review and responding to reviewers.
 
 Nobody needs to run any software. The instructor runs the analyses live in R in Sessions 5–6, and every group gets a **results pack** with all the numbers, tables and figures it needs. Participants who completed the free Neudata course *Clinical Data Analysis in R* may reproduce the analyses with the scripts in `Course/Data/`, but this is optional.
 
-> **Important — simulated data.** FLUID-ICU is a **simulated training dataset**. Your manuscript is a training exercise. Say so in the Methods and on the title page ("This manuscript uses simulated data created for training; it reports no real patients"), and never submit it to a journal or present it as real research.
+> **Important: simulated data.** FLUID-ICU is a **simulated training dataset**. Your manuscript is a training exercise. Say so in the Methods and on the title page ("This manuscript uses simulated data created for training; it reports no real patients"), and never submit it to a journal or present it as real research.
 
 
 * * *
@@ -74,12 +74,12 @@ Use the Word template **`Course/Templates/Manuscript_Template_IMRaD.docx`** and 
 
 | Part | Target | Notes |
 |---|---|---|
-| Title page | — | Title, group authors with CRediT roles, word count, the simulated-data statement |
+| Title page | No target | Title, group authors with CRediT roles, word count, the simulated-data statement |
 | Structured abstract | ≤ 250 words | Background, Methods, Results (main effect with 95% CI), Conclusions |
-| Introduction | about 350 words | Three paragraphs: what is known → what is not known → the aim |
+| Introduction | about 350 words | Three paragraphs: what is known, then what is not known, then the aim |
 | Methods | about 550 words | STROBE items 4–12; include the statistical-analysis paragraph and how missing data were handled |
 | Results | about 450 words | Participants first; numbers with denominators and 95% CIs; no interpretation |
-| Discussion | about 650 words | Main finding → comparison with literature (incl. Paper 2) → possible explanations → strengths and limitations → implications → conclusion |
+| Discussion | about 650 words | In this order: main finding, comparison with literature (incl. Paper 2), possible explanations, strengths and limitations, implications, conclusion |
 | **Main text total** | **about 2,000 words** | Introduction to Discussion (± 10%); abstract, tables and references not counted |
 | Tables and figures | Table 1 + up to 2 more | Each must stand alone (title, units, n, abbreviations explained) |
 | References | 10–20 | Vancouver style, managed in Zotero or another reference manager |
@@ -108,15 +108,15 @@ Agree roles in Session 6. Everyone reads the whole draft before submission. In a
 
 ## 6. Rules
 
-- **Numbers:** report only numbers from your results pack (or from your own reproduction with the course scripts, if you used them, and say so). Never round in ways that change the meaning; give 95% CIs with every main estimate.
+- **Numbers:** report only numbers from your results pack (or from your own reproduction with the course scripts, if you used them, and say so). Never round in ways that change the meaning. Give 95% CIs with every main estimate.
 - **Language:** FLUID-ICU is observational. Write "associated with", not "caused" or "led to". No "trend towards significance".
 - **Missing data:** say how much was missing and how it was handled, as shown in your results pack.
-- **Originality:** write in your own words; cite every source; quote sparingly and with quotation marks.
+- **Originality:** write in your own words and cite every source. Quote sparingly and with quotation marks.
 - **AI-use statement (required):** at the end of the manuscript, add one of these:
   - "AI use: none."
   - "AI use: [tool name] was used to [improve the English / translate drafts / suggest wording]. The authors checked every sentence and reference and take full responsibility for the content."
 
-  AI tools must **not** be used to produce results, invent or find references you have not read, or write the interpretation for you. AI tools cannot be authors. When you review another group's manuscript, **do not paste it into an AI tool** — it is confidential.
+  AI tools must **not** be used to produce results, invent or find references you have not read, or write the interpretation for you. AI tools cannot be authors. When you review another group's manuscript, **do not paste it into an AI tool**. It is confidential.
 
 
 * * *
@@ -138,7 +138,7 @@ The course lead sends each group the draft it will review within 2 days of Sessi
 
 ## 8. Feedback
 
-- In Session 8, each group gives a **1-minute manuscript pitch** (question, main result with 95% CI, one-sentence conclusion) in the presentation block — see `presentation_guide.md`.
+- In Session 8, each group gives a **1-minute manuscript pitch** (question, main result with 95% CI, one-sentence conclusion) in the presentation block (see `presentation_guide.md`).
 - Instructors mark the revised manuscript and the response letter with `manuscript_rubric.md` and return written comments within about 3 weeks.
 - **The marks are formative.**
 

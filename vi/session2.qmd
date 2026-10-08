@@ -11,7 +11,7 @@ subtitle: "Tuần 2 · Thứ Bảy · 3 giờ (giải lao 15 phút)"
 - 2.1  Tìm bằng chứng: từ PICO đến tìm kiếm, Boolean, MeSH, trình diễn PubMed
 - 2.2  Quản lý và trích dẫn: trình diễn Zotero, kiểu trích dẫn, diễn đạt lại, y văn xám
 - Giải lao
-- 2.3  Đọc một bài báo trong 15 phút - và 2.4 từ y văn đến phần đặt vấn đề
+- 2.3  Đọc một bài báo trong 15 phút và 2.4 từ y văn đến phần đặt vấn đề
 - Xây dựng đề cương 2: chuỗi tìm kiếm, 5 tài liệu, đặt vấn đề, tên đề tài
 
 ## Thời gian biểu
@@ -35,16 +35,18 @@ subtitle: "Tuần 2 · Thứ Bảy · 3 giờ (giải lao 15 phút)"
 <div class="slides-embed"><iframe src="slides-s2.html" title="Buổi 2 · Tìm &amp; đọc: bằng chứng" loading="lazy" allowfullscreen></iframe></div>
 ```
 
-[Mở bài giảng toàn màn hình](slides-s2.qmd){.btn .btn-primary role="button"} — Nhấn **F** để toàn màn hình, **S** để xem ghi chú, **E** để in, **Esc** để xem tổng quan.
+[Mở bài giảng toàn màn hình](slides-s2.qmd){.btn .btn-primary role="button"}
+
+Nhấn **F** để toàn màn hình, **S** để xem ghi chú, **E** để in, **Esc** để xem tổng quan.
 
 ## Tải xuống
 
 | | |
 |:--|:--|
-| 🎞️ **Bài giảng (PowerPoint)** | [English](../en/files/slides/Session_2_EN.pptx) · [Tiếng Việt](files/slides/Session_2_VN.pptx) |
-| 📝 **Phiếu bài tập** | [Đọc trực tuyến](exercises-s2.qmd) · [PDF](files/sessions/s2_exercises.pdf) |
-| ✅ **Lời giải** | [Đọc trực tuyến](solutions-s2.qmd) · [PDF](files/sessions/s2_solutions.pdf) |
-| 💻 **Kịch bản trình diễn** | [Đọc trực tuyến](demo-s2.qmd) · [PDF](files/sessions/s2_demo.pdf) |
+| **Bài giảng (PowerPoint)** | [English](../en/files/slides/Session_2_EN.pptx) · [Tiếng Việt](files/slides/Session_2_VN.pptx) |
+| **Phiếu bài tập** | [Đọc trực tuyến](exercises-s2.qmd) · [PDF](files/sessions/s2_exercises.pdf) |
+| **Lời giải** | [Đọc trực tuyến](solutions-s2.qmd) · [PDF](files/sessions/s2_solutions.pdf) |
+| **Kịch bản trình diễn** | [Đọc trực tuyến](demo-s2.qmd) · [PDF](files/sessions/s2_demo.pdf) |
 
 ## Chuẩn bị trước buổi học
 
@@ -53,7 +55,7 @@ subtitle: "Tuần 2 · Thứ Bảy · 3 giờ (giải lao 15 phút)"
 
 ## Sau buổi học (bài về nhà)
 
-- **Nhóm:** hoàn thành 5 tài liệu chính và phần đặt vấn đề — xong Phần 1 của đề cương, kèm tên đề tài tạm thời và từ khóa.
+- **Nhóm:** hoàn thành 5 tài liệu chính và phần đặt vấn đề. Như vậy là xong Phần 1 của đề cương, kèm tên đề tài tạm thời và từ khóa.
 - **Mỗi thành viên:** đọc một bài báo theo quy trình 15 phút và điền dòng của bài đó vào ma trận y văn.
 - **Mọi người:** đọc phần tóm tắt của [Bài báo 2](papers.qmd) (Hyun 2023) với bảng ở Bài tập 3.
 - **Tùy chọn:** tra cứu đăng ký của Bài báo 1 (NCT04947904) trên ClinicalTrials.gov.
@@ -66,4 +68,4 @@ subtitle: "Tuần 2 · Thứ Bảy · 3 giờ (giải lao 15 phút)"
 
 ---
 
-[← Buổi trước](session1.qmd) · [Lịch học](schedule.qmd) · [Buổi sau →](session3.qmd)
+[Quay lại Buổi 1](session1.qmd) · [Xem toàn bộ lịch học](schedule.qmd) · [Sang Buổi 3](session3.qmd)

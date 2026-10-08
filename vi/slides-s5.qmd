@@ -1,6 +1,6 @@
 ---
 title: "Buổi 5 · Dữ liệu: thu thập tốt, mô tả trung thực"
-subtitle: "Nền tảng Nghiên cứu Lâm sàng — Từ câu hỏi lâm sàng đến công bố"
+subtitle: "Nền tảng Nghiên cứu Lâm sàng: Từ câu hỏi lâm sàng đến công bố"
 author: "Vương Mỹ Lượng & Bernard Osang'ir"
 institute: "Neudata Consulting Ltd"
 lang: vi
@@ -100,7 +100,7 @@ Thống kê giỏi đến đâu cũng không cứu được dữ liệu xấu.
 ::: {.notes}
 Mở đầu phần 5.1 (35 phút: loại biến số kèm kiểm tra nhanh, thiết kế CRF với ví dụ minh họa, từ điển dữ liệu, kiểm tra dữ liệu, quản lý dữ liệu, dữ liệu thiếu, rồi bài tập theo cặp 7 phút).
 
-Thông điệp chính: phần lớn vấn đề trong nghiên cứu lâm sàng không nằm ở khâu phân tích mà nằm ở dữ liệu. Nhà thống kê không thể sửa một ô bị bỏ trống, một đơn vị bị thiếu hay một giá trị không thể có sau sáu tháng.
+Thông điệp chính: phần lớn vấn đề trong nghiên cứu lâm sàng nằm ở dữ liệu hơn là ở khâu phân tích. Nhà thống kê không thể sửa một ô bị bỏ trống, một đơn vị bị thiếu hay một giá trị không thể có sau sáu tháng.
 
 Rác vào, rác ra: chất lượng câu trả lời bị giới hạn bởi chất lượng phiếu thu thập.
 
@@ -124,7 +124,7 @@ Số: liên tục (bất kỳ giá trị nào trên một thang đo: cân bằng
 
 Phân loại: nhị phân (hai lựa chọn: tử vong có/không), danh định (nhiều nhóm không có thứ tự: nguồn nhiễm khuẩn) và thứ bậc (các nhóm có thứ tự: loét tì đè giai đoạn 1 đến 4, đau nhẹ/vừa/nặng).
 
-Thời gian đến sự kiện (góc trên trái) là loại đặc biệt: kết hợp BAO LÂU (thời gian đến tử vong) và CÓ XẢY RA KHÔNG (tử vong hay bị kiểm duyệt - censored - tại ngày 28). Chỉ cần nhắc qua; chúng ta gặp lại nó với mô hình Cox ở phần 6.3.
+Thời gian đến sự kiện (góc trên trái) là loại đặc biệt: kết hợp BAO LÂU (thời gian đến tử vong) và CÓ XẢY RA KHÔNG (tử vong hay bị kiểm duyệt (censored) tại ngày 28). Chỉ cần nhắc qua; chúng ta gặp lại nó với mô hình Cox ở phần 6.3.
 
 Quan niệm sai thường gặp: 'mã hóa bằng số thì là biến số'. Giới tính mã hóa 1/2 vẫn là biến phân loại; giá trị trung bình 1.4 không có ý nghĩa gì.
 
@@ -438,7 +438,7 @@ Thời lượng: 2 phút.
 ::: {.notes}
 Dữ liệu bị thiếu, phần 1: vì sao quan trọng (tiếp theo là phòng ngừa; các cơ chế và cách xử lý thống kê ở phần 6.4).
 
-Ý chính: dữ liệu bị thiếu không chỉ làm giảm số bệnh nhân; nó có thể cho câu trả lời SAI.
+Ý chính: dữ liệu bị thiếu làm giảm số bệnh nhân, và còn có thể cho câu trả lời SAI.
 
 Đi qua hình: 100 bệnh nhân, thực tế có 30 người tử vong. Nhưng 15 ca tử vong có ô kết cục bị bỏ trống (chuyển viện, tử vong ban đêm, phiếu không được hoàn thành). Trong 85 bệnh nhân có ghi nhận, ta thấy 15 ca tử vong: 18%. Sự thật là 30%.
 
@@ -572,7 +572,7 @@ Một bộ dữ liệu thực tế, năm câu hỏi nghiên cứu, năm bản th
 ::: {.notes}
 Mở đầu phần 5.2 (25 phút: nghiên cứu, dòng chảy bệnh nhân, dữ liệu thô và sạch, trình diễn làm sạch bằng R 8 phút, nhật ký làm sạch, rồi mỗi nhóm nhận câu hỏi).
 
-Thông điệp chính: từ giờ anh chị không chỉ đọc nghiên cứu của người khác: nhóm sẽ phân tích và viết bài từ một nghiên cứu thực tế. FLUID-ICU là dữ liệu MÔ PHỎNG: do máy tính tạo ra, không có bệnh nhân, bệnh viện hay quốc gia thật. Nhưng nó vận hành như dữ liệu ICU thật, kể cả các vấn đề của nó.
+Thông điệp chính: từ giờ, ngoài việc đọc nghiên cứu của người khác, nhóm sẽ phân tích và viết bài từ một nghiên cứu thực tế. FLUID-ICU là dữ liệu MÔ PHỎNG: do máy tính tạo ra, không có bệnh nhân, bệnh viện hay quốc gia thật. Nhưng nó vận hành như dữ liệu ICU thật, kể cả các vấn đề của nó.
 
 Không ai cần chạy R. Giảng viên chạy trực tiếp; anh chị đọc và diễn giải. Ai đã học khóa 'Clinical Data Analysis in R' của Neudata có thể tái lập mọi thứ bằng các script trong Course/Data/R.
 
@@ -717,7 +717,7 @@ Trình diễn trực tiếp, 8 phút. Kịch bản đầy đủ với kết qu�
 
 Giảng viên chạy R; học viên quan sát. Chạy từng khối bằng Ctrl+Enter và nói to mỗi khối sửa gì.
 
-Cho thấy: dữ liệu thô đọc dưới dạng văn bản; 623 dòng -\> 620 sau khi loại 3 bản trùng; bảng các cách viết giới tính trước và sau; ba định dạng ngày; trung vị lactat theo ICU (ICU C cao gấp khoảng 9 lần) và phép đổi đơn vị; giá trị vô lý đặt là thiếu; bước kiểm tra cuối cùng cho thấy tệp đã làm sạch giống hệt tệp tham chiếu.
+Cho thấy: dữ liệu thô đọc dưới dạng văn bản; 623 dòng giảm còn 620 sau khi loại 3 bản trùng; bảng các cách viết giới tính trước và sau; ba định dạng ngày; trung vị lactat theo ICU (ICU C cao gấp khoảng 9 lần) và phép đổi đơn vị; giá trị vô lý đặt là thiếu; bước kiểm tra cuối cùng cho thấy tệp đã làm sạch giống hệt tệp tham chiếu.
 
 Ý chính: (1) tệp thô không bao giờ bị sửa; (2) một vấn đề, một khối, một dòng nhật ký; (3) vì là script, ai cũng có thể chạy lại và được đúng dữ liệu sạch đó: tính tái lập.
 
@@ -750,7 +750,7 @@ Course/Data/cleaning\_log.md: mỗi thay đổi trên dữ liệu thô là một
 ::: {.neu-card .plain style="--c:#5FA39B"}
 [Câu hỏi gửi cơ sở]{.neu-card-title}
 
-- Giá trị vô lý -\>
+- Giá trị vô lý →
 - thiếu + hỏi lại cơ sở
 - Bệnh nhân được giữ lại
 :::
@@ -1051,7 +1051,7 @@ Ví dụ Bài báo 1: cân bằng dịch nhóm chứng 'trung vị 35.0 (IQR -7.
 ![](images/figures/sat3/shapes.png){.neu-fig}
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Hầu hết số đo lâm sàng tập trung quanh một giá trị điển hình hoặc có đuôi dài - hãy kiểm tra.
+**THÔNG ĐIỆP CHÍNH** Hầu hết số đo lâm sàng tập trung quanh một giá trị điển hình hoặc có đuôi dài. Hãy kiểm tra.
 :::
 
 ::: {.notes}
@@ -1128,7 +1128,7 @@ Chuyển ý: giờ là cách TRÌNH BÀY các con số tóm tắt: biểu đồ,
 :::
 
 ::: {.notes}
-Ý chính: bốn loại biểu đồ bao phủ phần lớn nhu cầu mô tả dữ liệu. (Đường cong sống còn - Kaplan-Meier - được giới thiệu ở Buổi 6, khi phân tích kết cục thời gian đến sự kiện.)
+Ý chính: bốn loại biểu đồ bao phủ phần lớn nhu cầu mô tả dữ liệu. Đường cong sống còn (Kaplan-Meier) được giới thiệu ở Buổi 6, khi phân tích kết cục thời gian đến sự kiện.
 
 Một biến phân loại: biểu đồ cột với số lượng hoặc phần trăm (nguồn nhiễm khuẩn). Tránh biểu đồ tròn 3 chiều.
 
@@ -1306,7 +1306,7 @@ Cùng quy tắc như 5.3
 ::: {.notes}
 Trình diễn trực tiếp, 6 phút. Kịch bản đầy đủ: Course/Demos/s5\_demo.md (Phần B), dùng Course/Data/R/02\_describe.R.
 
-Cho thấy: hình dạng của tuổi (gần đối xứng -\> trung bình, SD) so với lactat và thời gian nằm ICU (lệch phải -\> trung vị, IQR); Bảng 1 theo nhóm cân bằng dịch với các cột chung, âm (n = 245) và dương (n = 373) và số thiếu mỗi biến; biểu đồ tần suất cân bằng dịch, biểu đồ hộp SOFA theo nhóm, biểu đồ cột nguồn nhiễm khuẩn đã sắp xếp.
+Cho thấy: hình dạng của tuổi (gần đối xứng, nên dùng trung bình và SD) so với lactat và thời gian nằm ICU (lệch phải, nên dùng trung vị và IQR); Bảng 1 theo nhóm cân bằng dịch với các cột chung, âm (n = 245) và dương (n = 373) và số thiếu mỗi biến; biểu đồ tần suất cân bằng dịch, biểu đồ hộp SOFA theo nhóm, biểu đồ cột nguồn nhiễm khuẩn đã sắp xếp.
 
 Nhấn mạnh: không có giá trị p trong Bảng 1 (bảng mô tả, không kiểm định), như đã ghi trong SAP của FLUID-ICU.
 
@@ -1690,7 +1690,7 @@ Về nhà: hoàn thành CRF và các dòng từ điển dữ liệu của đề 
 Cảm ơn cả lớp: hôm nay có nhiều từ mới; thứ Bảy tuần sau xây dựng trực tiếp trên đó.
 :::
 
-## Trang bổ sung — Buổi 5
+## Trang bổ sung: Buổi 5
 
 :::: {.neu-statement}
 ::: {.neu-big}

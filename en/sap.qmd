@@ -1,14 +1,14 @@
 ---
-title: "Statistical analysis plan — FLUID-ICU"
+title: "Statistical analysis plan (FLUID-ICU)"
 ---
 
 ::: {.simulated}
-**Simulated data — not real patients.** FLUID-ICU is an invented study: every value was produced by a computer program with a fixed random seed. It does not describe any real patient, hospital or ICU. Any manuscript written from it must say that the data are simulated and must never be submitted as real research.
+**Simulated data, not real patients.** FLUID-ICU is an invented study: every value was produced by a computer program with a fixed random seed. It does not describe any real patient, hospital or ICU. Any manuscript written from it must say that the data are simulated and must never be submitted as real research.
 :::
 
-📥 [PDF](files/data/SAP_FLUID-ICU.pdf)
+[Download the PDF](files/data/SAP_FLUID-ICU.pdf)
 
-> **SIMULATED STUDY - FOR TEACHING.** FLUID-ICU and its data are invented. This SAP shows what a plan written **before** the analysis looks like. It follows the 14 sections of `Course/Templates/Statistical_Analysis_Plan_Template.docx`.
+> **SIMULATED STUDY: FOR TEACHING.** FLUID-ICU and its data are invented. This SAP shows what a plan written **before** the analysis looks like. It follows the 14 sections of `Course/Templates/Statistical_Analysis_Plan_Template.docx`.
 
 | | |
 |---|---|

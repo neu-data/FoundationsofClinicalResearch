@@ -10,9 +10,9 @@ subtitle: "Tuần 4 · Thứ Bảy · 3 giờ (giải lao 15 phút)"
 - Câu hỏi ôn tập Buổi 3 (10 phút)
 - 4.1  Sai lệch, yếu tố nhiễu và nhân quả (40 phút)
 - 4.2  Đo lường bệnh và mối liên quan + trình diễn bảng 2x2 (30 phút)
-- Giải lao (15 phút) - rồi hai bài tính bảng 2x2 (20 phút)
+- Giải lao (15 phút), rồi hai bài tính bảng 2x2 (20 phút)
 - 4.3  Vượt ra ngoài một nghiên cứu: xét nghiệm, phân tích gộp, thẩm định (30 phút)
-- Xây dựng đề cương 4: phơi nhiễm, kết cục, sai lệch (30 phút) - tổng kết
+- Xây dựng đề cương 4: phơi nhiễm, kết cục, sai lệch (30 phút), rồi tổng kết
 
 ## Thời gian biểu
 
@@ -35,16 +35,18 @@ subtitle: "Tuần 4 · Thứ Bảy · 3 giờ (giải lao 15 phút)"
 <div class="slides-embed"><iframe src="slides-s4.html" title="Buổi 4 · Sai lệch và tác động: có tin được không, lớn đến đâu?" loading="lazy" allowfullscreen></iframe></div>
 ```
 
-[Mở bài giảng toàn màn hình](slides-s4.qmd){.btn .btn-primary role="button"} — Nhấn **F** để toàn màn hình, **S** để xem ghi chú, **E** để in, **Esc** để xem tổng quan.
+[Mở bài giảng toàn màn hình](slides-s4.qmd){.btn .btn-primary role="button"}
+
+Nhấn **F** để toàn màn hình, **S** để xem ghi chú, **E** để in, **Esc** để xem tổng quan.
 
 ## Tải xuống
 
 | | |
 |:--|:--|
-| 🎞️ **Bài giảng (PowerPoint)** | [English](../en/files/slides/Session_4_EN.pptx) · [Tiếng Việt](files/slides/Session_4_VN.pptx) |
-| 📝 **Phiếu bài tập** | [Đọc trực tuyến](exercises-s4.qmd) · [PDF](files/sessions/s4_exercises.pdf) |
-| ✅ **Lời giải** | [Đọc trực tuyến](solutions-s4.qmd) · [PDF](files/sessions/s4_solutions.pdf) |
-| 💻 **Kịch bản trình diễn** | [Đọc trực tuyến](demo-s4.qmd) · [PDF](files/sessions/s4_demo.pdf) |
+| **Bài giảng (PowerPoint)** | [English](../en/files/slides/Session_4_EN.pptx) · [Tiếng Việt](files/slides/Session_4_VN.pptx) |
+| **Phiếu bài tập** | [Đọc trực tuyến](exercises-s4.qmd) · [PDF](files/sessions/s4_exercises.pdf) |
+| **Lời giải** | [Đọc trực tuyến](solutions-s4.qmd) · [PDF](files/sessions/s4_solutions.pdf) |
+| **Kịch bản trình diễn** | [Đọc trực tuyến](demo-s4.qmd) · [PDF](files/sessions/s4_demo.pdf) |
 
 ## Chuẩn bị trước buổi học
 
@@ -62,4 +64,4 @@ subtitle: "Tuần 4 · Thứ Bảy · 3 giờ (giải lao 15 phút)"
 
 ---
 
-[← Buổi trước](session3.qmd) · [Lịch học](schedule.qmd) · [Buổi sau →](session5.qmd)
+[Quay lại Buổi 3](session3.qmd) · [Xem toàn bộ lịch học](schedule.qmd) · [Sang Buổi 5](session5.qmd)

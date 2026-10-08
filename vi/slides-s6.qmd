@@ -1,6 +1,6 @@
 ---
 title: "Buổi 6 · Phân tích: từ mẫu đến câu trả lời"
-subtitle: "Nền tảng Nghiên cứu Lâm sàng — Từ câu hỏi lâm sàng đến công bố"
+subtitle: "Nền tảng Nghiên cứu Lâm sàng: Từ câu hỏi lâm sàng đến công bố"
 author: "Vương Mỹ Lượng & Bernard Osang'ir"
 institute: "Neudata Consulting Ltd"
 lang: vi
@@ -108,7 +108,7 @@ Chuyển ý: ta nghiên cứu một mẫu 40, 400 hay 620 bệnh nhân; ước l
 ![](images/figures/sat3/dance_cis.png){.neu-fig}
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Khoảng 95/100 khoảng như vậy chứa giá trị thật; ta không biết là khoảng nào.
+**THÔNG ĐIỆP CHÍNH** Khoảng 95/100 khoảng như vậy chứa giá trị thật. Ta không biết là khoảng nào.
 :::
 
 ::: {.notes}
@@ -191,7 +191,7 @@ Mỗi câu dưới đây đều xuất hiện trong các bài báo đã đăng. 
 ::::
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Báo cáo độ lớn tác động kèm 95% CI; giá trị p chỉ là vai phụ.
+**THÔNG ĐIỆP CHÍNH** Báo cáo độ lớn tác động kèm 95% CI. Giá trị p chỉ là vai phụ.
 :::
 
 ::: {.notes}
@@ -311,8 +311,8 @@ TRÌNH DIỄN TRỰC TIẾP · 8 phút
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#B5651D"}
 1. Mở một công cụ tính trực tuyến miễn phí (ví dụ OpenEpi) trên trình duyệt
-2. Hai trung bình: 70 so với 40 ml/kg, SD 35, power 80%, alpha 5% -\> 22 mỗi nhóm
-3. Hai tỉ lệ: tử vong 40% so với 30% -\> khoảng 356 mỗi nhóm
+2. Hai trung bình: 70 so với 40 ml/kg, SD 35, power 80%, alpha 5% → 22 mỗi nhóm
+3. Hai tỉ lệ: tử vong 40% so với 30% → khoảng 356 mỗi nhóm
 4. Thay đổi từng đầu vào một và xem con số thay đổi
 5. Dự phòng không cần mạng: bảng tính cỡ mẫu của Neudata
 :::
@@ -1257,7 +1257,7 @@ Thời lượng: 2 phút; sau đó là lactat bị thiếu của chính FLUID-IC
 ![](images/figures/data/missing_lactate.png){.neu-fig}
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Lactat thiếu chủ yếu ở bệnh nhân nhẹ hơn: không phải MCAR; MAR là hợp lý.
+**THÔNG ĐIỆP CHÍNH** Lactat thiếu chủ yếu ở bệnh nhân nhẹ hơn: không phải MCAR, nhưng MAR là hợp lý.
 :::
 
 ::: {.notes}
@@ -1331,15 +1331,15 @@ Phiếu bài tập nhóm, 7 phút (5 phút làm, 2 phút phản hồi). Bài t�
 
 Con số chính theo câu hỏi (đều có trong key\_results.md và các gói kết quả):
 
-Q1: OR thô 2.49 (1.70 đến 3.70) -\> hiệu chỉnh 1.62 (1.02 đến 2.59); HR Cox hiệu chỉnh 1.46 (1.00 đến 2.13); OR hiệu chỉnh với đa phép gán 1.70 (1.09 đến 2.64).
+Q1: OR thô 2.49 (1.70 đến 3.70), hiệu chỉnh 1.62 (1.02 đến 2.59); HR Cox hiệu chỉnh 1.46 (1.00 đến 2.13); OR hiệu chỉnh với đa phép gán 1.70 (1.09 đến 2.64).
 
-Q2: OR AKI mỗi 10 ml/kg thô 1.37 (1.27 đến 1.47) -\> hiệu chỉnh 1.27 (1.16 đến 1.40).
+Q2: OR AKI mỗi 10 ml/kg thô 1.37 (1.27 đến 1.47), hiệu chỉnh 1.27 (1.16 đến 1.40).
 
-Q3: số ngày không thở máy mỗi 10 ml/kg thô -1.48 (-1.84 đến -1.13) -\> hiệu chỉnh -0.61 (-1.00 đến -0.21) ngày.
+Q3: số ngày không thở máy mỗi 10 ml/kg thô -1.48 (-1.84 đến -1.13), hiệu chỉnh -0.61 (-1.00 đến -0.21) ngày.
 
 Q4: OR lactat mỗi 1 mmol/L hiệu chỉnh, ca đầy đủ 1.39 (1.24 đến 1.57) so với đa phép gán 1.45 (1.29 đến 1.64).
 
-Q5: tỉ số trung bình nhân thời gian nằm ICU thô 1.50 (1.34 đến 1.68) -\> hiệu chỉnh 1.24 (1.10 đến 1.39).
+Q5: tỉ số trung bình nhân thời gian nằm ICU thô 1.50 (1.34 đến 1.68), hiệu chỉnh 1.24 (1.10 đến 1.39).
 
 Mẫu hình cần chỉ ra: ở mọi câu hỏi, ước lượng hiệu chỉnh gần 'không tác động' hơn ước lượng thô: dấu vân tay của nhiễu do chỉ định.
 
@@ -1589,7 +1589,7 @@ Về nhà: hoàn thành Phần 3 đề cương; bắt đầu chuẩn bị bài t
 Cảm ơn cả lớp: đây là buổi nặng về kỹ thuật nhất của khóa học. Ghi nhận rằng họ đã theo đến cùng.
 :::
 
-## Trang bổ sung — Buổi 6
+## Trang bổ sung: Buổi 6
 
 :::: {.neu-statement}
 ::: {.neu-big}
@@ -1734,7 +1734,7 @@ Lỗi thường gặp: đọc p = 0.42 thành 'chiến lược hạn chế dịc
 Hỏi: CI sẽ trông thế nào nếu thử nghiệm có 500 bệnh nhân? Dự kiến: hẹp hơn nhiều, có thể không còn chứa số 0.
 :::
 
-## Bổ sung: Biểu đồ rừng: ví dụ xuyên suốt trong một hình
+## Bổ sung: ví dụ xuyên suốt trong một biểu đồ rừng
 
 ![](images/figures/sat3/forest_plot.png){.neu-fig}
 
@@ -1849,7 +1849,7 @@ Bên trái, không tương tác: tử vong tăng theo cân bằng dịch với c
 
 Bên phải, có tương tác: cân bằng dịch gần như không ảnh hưởng khi không có ARDS nhưng ảnh hưởng nhiều khi có ARDS. Một tác động 'trung bình' sẽ không mô tả đúng ai. Mô hình có một số hạng tương tác (dịch x ARDS); nếu quan trọng, báo cáo tác động theo từng nhóm.
 
-Quy tắc: định trước một vài tương tác sẽ kiểm định, có lý do lâm sàng (lại là so sánh nhiều lần!), và không kết luận khác biệt giữa phân nhóm chỉ vì một phân nhóm có p \< 0.05 còn nhóm kia thì không; hãy kiểm định chính số hạng tương tác.
+Quy tắc: định trước một vài tương tác sẽ kiểm định, có lý do lâm sàng (lại là so sánh nhiều lần), và không kết luận khác biệt giữa phân nhóm chỉ vì một phân nhóm có p \< 0.05 còn nhóm kia thì không; hãy kiểm định chính số hạng tương tác.
 
 Đường minh họa.
 

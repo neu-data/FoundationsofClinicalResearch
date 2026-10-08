@@ -1,8 +1,8 @@
 ---
-title: "Session 3 — Solutions"
+title: "Session 3: Solutions"
 ---
 
-📥 [PDF](files/sessions/s3_solutions.pdf) · [Session page](session3.qmd)
+[Download the PDF](files/sessions/s3_solutions.pdf) · [Back to Session 3](session3.qmd)
 
 **Foundations of Clinical Research** · Week 3 · Saturday · Neudata · Instructor copy
 
@@ -11,7 +11,7 @@ Answer keys for `Practicals/s3_exercises.md`.
 
 * * *
 
-## Part A — Name that design
+## Part A: Name that design
 
 | # | Design | Evidence in the abstract | Why (the three questions) |
 |---|---|---|---|
@@ -21,13 +21,13 @@ Answer keys for `Practicals/s3_exercises.md`.
 | 4 | **Prospective cohort** | "classified on arrival", "followed up ... at 90 days" | Not assigned (door-to-needle time is what happened, not what the researchers chose); grouped by exposure, then followed forward. |
 | 5 | **Retrospective cohort** | "divided them into those who did and did not receive" ... "then compared how many ... had delirium recorded later" | Uses old records (so many people say "case-control"), but patients were selected and grouped by EXPOSURE, and the outcome came later. Selection by exposure = cohort. |
 | 6 | **Case series** | "We describe five patients" | No comparison group. Raises a hypothesis (protocol → hypernatraemia) but cannot test it. |
-| 7 | **Non-randomised intervention study** (before–after / quasi-experimental) | "before and after a ... programme, which the research team introduced" | The investigators assigned the intervention (to everyone, at one time), but not at random. Rates may change for other reasons over time (seasonality, new staff, other initiatives) — a weak design for cause. With many monthly measurements before and after, the same project could be analysed as an interrupted time series, which is much stronger. |
+| 7 | **Non-randomised intervention study** (before–after / quasi-experimental) | "before and after a ... programme, which the research team introduced" | The investigators assigned the intervention (to everyone, at one time), but not at random. Rates may change for other reasons over time (seasonality, new staff, other initiatives), so this is a weak design for cause. With many monthly measurements before and after, the same project could be analysed as an interrupted time series, which is much stronger. |
 | 8 | **Systematic review with meta-analysis** | "searched three databases", "assessed each trial's risk of bias", "pooled" | A study of studies: systematic search + appraisal (review) + pooling of numbers (meta-analysis). |
 | 9 (optional) | **Cluster randomised trial** | "wards were randomly allocated, ward by ward" | Assigned: yes; random: yes; but the unit of randomisation is the WARD, not the patient. Needs more patients than an individual trial, and the analysis must account for clustering. |
 
 **Facilitation notes**
 
-- Abstracts **5**, **7** and **9** cause most discussion. For 5, ask: *"How were people chosen — by what happened to them later, or by what they received?"* For 7, ask: *"Who decided the intervention? Was chance involved?"*
+- Abstracts **5**, **7** and **9** cause most discussion. For 5, ask: *"How were people chosen: by what happened to them later, or by what they received?"* For 7, ask: *"Who decided the intervention? Was chance involved?"*
 - Accept "cross-sectional" for abstract 2 without "analytical"; the point is the single time point.
 - If a pair writes "retrospective study" alone, push for the full name: retrospective *what*?
 
@@ -35,28 +35,28 @@ Answer keys for `Practicals/s3_exercises.md`.
 
 * * *
 
-## Part B — Choose the design for 5 questions
+## Part B: Choose the design for 5 questions
 
 | # | Best feasible design | Reason | Main weakness |
 |---|---|---|---|
-| 1 | **Cross-sectional** (point-prevalence survey) | "How many today" = prevalence; one visit per patient, cheap and fast | Exposure and outcome measured together — cannot tell whether the mattress came first (patients with injuries may be moved onto special mattresses) |
+| 1 | **Cross-sectional** (point-prevalence survey) | "How many today" = prevalence; one visit per patient, cheap and fast | Exposure and outcome measured together, so we cannot tell whether the mattress came first (patients with injuries may be moved onto special mattresses) |
 | 2 | **Cluster randomised trial** (randomise wards) | The intervention is delivered at ward level; individual randomisation would contaminate | Needs more patients and wards; the analysis must account for clustering; few clusters give chance imbalance |
-| 3 | **Interrupted time series** (quasi-experimental) | The change already happened to everyone; many monthly points before and after allow comparison with the pre-existing trend | Other changes at the same time (co-interventions); no randomisation — strengthen with a control series |
-| 4 | **Qualitative** — in-depth interviews or focus groups | A "why" question about experience and behaviour; numbers cannot answer it | Findings are not generalisable as numbers; depends on interviewer skill; small purposive sample |
-| 5 | Depends on the group | Check it against the question type and FINER feasibility | Must be named honestly; observational designs → "associated with" |
+| 3 | **Interrupted time series** (quasi-experimental) | The change already happened to everyone; many monthly points before and after allow comparison with the pre-existing trend | Other changes at the same time (co-interventions); no randomisation (strengthen with a control series) |
+| 4 | **Qualitative**: in-depth interviews or focus groups | A "why" question about experience and behaviour; numbers cannot answer it | Findings are not generalisable as numbers; depends on interviewer skill; small purposive sample |
+| 5 | Depends on the group | Check it against the question type and FINER feasibility | Must be named honestly; observational designs must say "associated with" |
 | 6 (bonus) | **Case-control** | Rare outcome; start from the few cases and compare their past drug exposures with controls | Recall/record bias; choosing controls; only an OR |
 | 7 (bonus) | **Non-inferiority RCT** | We only need to show "not unacceptably worse"; margin fixed in advance | Needs a justified margin; poor adherence can make arms look falsely similar |
 
 **Facilitation notes**
 
 - The most common error is choosing an RCT for everything. For question 2, accept "RCT" only if the group explains that wards (not patients) are randomised.
-- For question 3, a group that answers "before–after study" is half right — ask how to make it stronger (more time points, compare with the trend, control series).
+- For question 3, a group that answers "before–after study" is half right. Ask how to make it stronger (more time points, compare with the trend, control series).
 - For the group's own question, push for **feasibility**: one unit, no funding, 3–6 months often means a retrospective cohort, cross-sectional study or ITS rather than a trial.
 
 
 * * *
 
-## Part C — Proposal builder 3: what a good answer looks like
+## Part C: Proposal builder 3 (what a good answer looks like)
 
 Use this model to coach groups; do not hand it out before they have tried.
 
@@ -70,5 +70,5 @@ Use this model to coach groups; do not hand it out before they have tried.
 
 1. RCT chosen for a question that cannot be randomised (harm, prognosis, risk factors).
 2. Exclusion criteria that repeat inclusion criteria in the negative ("age < 18").
-3. Overambitious setting (five hospitals, 2,000 patients) for a group with no funding — point them back to FINER.
+3. Overambitious setting (five hospitals, 2,000 patients) for a group with no funding. Point them back to FINER.
 4. No data source named for a retrospective design (which register, which charts?).

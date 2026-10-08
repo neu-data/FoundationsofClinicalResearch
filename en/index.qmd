@@ -11,23 +11,23 @@ From Clinical Question to Publication
 [Level 1]{} [8 Saturdays]{} [one session per week]{} [24 contact hours]{} [No software needed]{} [EN + VN]{}
 :::
 
-[Schedule](schedule.qmd){.btn .btn-light role="button"} [Get your free access code](access.qmd){.btn .btn-light role="button"}
+[See the full schedule](schedule.qmd){.btn .btn-light role="button"} [Get your free access code](access.qmd){.btn .btn-light role="button"}
 :::
 
 ![](images/course-poster.png){.float-end width="34%" style="margin:0 0 1rem 1.5rem" fig-alt="Course poster"}
 
 ```{=html}
-<div class="facts"><div><strong>Format</strong><span>8 sessions × 3 hours</span></div><div><strong>When</strong><span>Every Saturday for 8 weeks: 31 Oct – 19 Dec 2026</span></div><div><strong>For</strong><span>Doctors, nurses, pharmacists</span></div><div><strong>Software</strong><span>None — trainers run the analyses</span></div></div>
+<div class="facts"><div><strong>Format</strong><span>8 sessions × 3 hours</span></div><div><strong>When</strong><span>Every Saturday for 8 weeks: 31 Oct – 19 Dec 2026</span></div><div><strong>For</strong><span>Doctors, nurses, pharmacists</span></div><div><strong>Software</strong><span>None: the trainers run the analyses</span></div></div>
 ```
 
 ## About this course
 
-Clinical staff make decisions every day that research could improve — but few have been taught how to turn a bedside uncertainty into a published study. Over **eight weeks (one 3-hour session every Saturday)** this course walks the **whole road of research**: asking a good question, finding and reading the evidence, choosing a design, recognising bias, collecting and analysing data, protecting participants, writing the paper and getting it published.
+Clinical staff make decisions every day that research could improve, but few have been taught how to turn a bedside uncertainty into a published study. Over eight weeks, with one 3-hour session every Saturday, this course walks the whole road of research: asking a good question, finding and reading the evidence, choosing a design, recognising bias, collecting and analysing data, protecting participants, writing the paper and getting it published.
 
 - **Slow and visual.** Built for participants with no research background: pictures first, a "check your understanding" every 20 minutes, no formulas beyond a 2×2 table, and extra slides at the end of each session for anyone who wants to read further at home.
-- **The whole road in one course.** Weeks 1–4 build understanding and design skills; Weeks 5–8 analyse a realistic **simulated dataset (FLUID-ICU, 620 ICU patients)** through live instructor demos in R, and write it up as a manuscript.
-- **Level 1 of three.** This course is **Level 1**. **Level 2** is a separate hands-on course in R for those who want to run analyses themselves (in preparation); **Level 3** covers advanced, specialised methods on request. See [Course levels](levels.qmd).
-- **One running example:** fluids in septic shock — asked and searched, designed, analysed, written up and published, and appraised through two real papers.
+- **The whole road in one course.** Weeks 1–4 build understanding and design skills; Weeks 5–8 analyse a realistic simulated dataset (FLUID-ICU, 620 ICU patients) through live instructor demos in R, and write it up as a manuscript.
+- **Level 1 of three.** This course is Level 1. Level 2 is a separate hands-on course in R for those who want to run analyses themselves (in preparation). Level 3 covers advanced, specialised methods on request. See [Course levels](levels.qmd).
+- **One running example:** fluids in septic shock. The example is followed through question and search, design, analysis, write-up and publication, and appraised through two real papers.
 
 ## Eight Saturdays, eight sessions
 
@@ -42,7 +42,7 @@ Clinical staff make decisions every day that research could improve — but few 
 | 7 | [Session 7 · Protect & write: ethics, integrity, Methods and Results](session7.qmd) |
 | 8 | [Session 8 · Publish: finish the paper, get it out, present](session8.qmd) |
 
-[Schedule →](schedule.qmd)
+[See the full schedule](schedule.qmd)
 
 ## Two group products
 
@@ -68,6 +68,6 @@ A whole hospital department (about 30 staff): **doctors, residents, nurses and p
 
 ## Contact
 
-Questions about the course: **Vương Mỹ Lượng** — [myluong1710@gmail.com](mailto:myluong1710@gmail.com).
+Questions about the course: contact Vương Mỹ Lượng at [myluong1710@gmail.com](mailto:myluong1710@gmail.com).
 
 Neudata Consulting Ltd · [www.neu-data.com](https://www.neu-data.com)

@@ -20,7 +20,7 @@ subtitle: "Tuần 1 · Thứ Bảy · 3 giờ (giải lao 15 phút)"
 |:----|:----|---:|:------------------------------------------------------------|
 | 0:00 | 08:00 | 20 | Chào mừng, giới thiệu, lộ trình khóa học, nhóm và vai trò, nội quy lớp học |
 | 0:20 | 08:20 | 15 | Bài kiểm tra đầu khóa |
-| 0:35 | 08:35 | 35 | **1.1 Vì sao cần nghiên cứu?** Giai thoại và bằng chứng, tháp bằng chứng, chu trình nghiên cứu, các loại nghiên cứu, nghiên cứu – audit – cải tiến chất lượng, hành trình từ ý tưởng đến công bố |
+| 0:35 | 08:35 | 35 | **1.1 Vì sao cần nghiên cứu?** Giai thoại và bằng chứng, tháp bằng chứng, chu trình nghiên cứu, các loại nghiên cứu, nghiên cứu, audit và cải tiến chất lượng, hành trình từ ý tưởng đến công bố |
 | 1:10 | 09:10 | 15 | GIẢI LAO |
 | 1:25 | 09:25 | 40 | **1.2 Từ vấn đề đến câu hỏi:** câu hỏi đến từ đâu, PICO(T) qua nhiều ví dụ, câu hỏi mô tả và phân tích, câu hỏi mơ hồ và câu hỏi trả lời được, FINER (bài tập theo cặp) |
 | 2:05 | 10:05 | 20 | **1.3 Mục đích, mục tiêu, giả thuyết** (giả thuyết không và giả thuyết đối) + bài tập nhanh |
@@ -35,15 +35,17 @@ subtitle: "Tuần 1 · Thứ Bảy · 3 giờ (giải lao 15 phút)"
 <div class="slides-embed"><iframe src="slides-s1.html" title="Buổi 1 · Hỏi: từ vấn đề lâm sàng đến câu hỏi nghiên cứu" loading="lazy" allowfullscreen></iframe></div>
 ```
 
-[Mở bài giảng toàn màn hình](slides-s1.qmd){.btn .btn-primary role="button"} — Nhấn **F** để toàn màn hình, **S** để xem ghi chú, **E** để in, **Esc** để xem tổng quan.
+[Mở bài giảng toàn màn hình](slides-s1.qmd){.btn .btn-primary role="button"}
+
+Nhấn **F** để toàn màn hình, **S** để xem ghi chú, **E** để in, **Esc** để xem tổng quan.
 
 ## Tải xuống
 
 | | |
 |:--|:--|
-| 🎞️ **Bài giảng (PowerPoint)** | [English](../en/files/slides/Session_1_EN.pptx) · [Tiếng Việt](files/slides/Session_1_VN.pptx) |
-| 📝 **Phiếu bài tập** | [Đọc trực tuyến](exercises-s1.qmd) · [PDF](files/sessions/s1_exercises.pdf) |
-| ✅ **Lời giải** | [Đọc trực tuyến](solutions-s1.qmd) · [PDF](files/sessions/s1_solutions.pdf) |
+| **Bài giảng (PowerPoint)** | [English](../en/files/slides/Session_1_EN.pptx) · [Tiếng Việt](files/slides/Session_1_VN.pptx) |
+| **Phiếu bài tập** | [Đọc trực tuyến](exercises-s1.qmd) · [PDF](files/sessions/s1_exercises.pdf) |
+| **Lời giải** | [Đọc trực tuyến](solutions-s1.qmd) · [PDF](files/sessions/s1_solutions.pdf) |
 
 ## Chuẩn bị trước buổi học
 
@@ -54,7 +56,7 @@ subtitle: "Tuần 1 · Thứ Bảy · 3 giờ (giải lao 15 phút)"
 ## Sau buổi học (bài về nhà)
 
 - **Nhóm:** hoàn thành PICO, câu hỏi, mục đích và mục tiêu nếu chưa xong.
-- **Mọi người:** Bài tập 5 — danh sách từ đồng nghĩa cho các thành phần PICO; tìm một con số tại đơn vị cho thấy vấn đề.
+- **Mọi người:** làm Bài tập 5 (danh sách từ đồng nghĩa cho các thành phần PICO) và tìm một con số tại đơn vị cho thấy vấn đề.
 - **Tùy chọn:** cài Zotero (miễn phí, zotero.org).
 - **Mang đến Buổi 2:** câu hỏi PICO của nhóm, danh sách từ đồng nghĩa, mỗi nhóm một máy tính hoặc điện thoại.
 
@@ -66,4 +68,4 @@ subtitle: "Tuần 1 · Thứ Bảy · 3 giờ (giải lao 15 phút)"
 
 ---
 
-[Lịch học](schedule.qmd) · [Buổi sau →](session2.qmd)
+[Xem toàn bộ lịch học](schedule.qmd) · [Sang Buổi 2](session2.qmd)

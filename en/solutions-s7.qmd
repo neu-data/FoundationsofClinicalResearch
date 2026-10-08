@@ -1,38 +1,38 @@
 ---
-title: "Session 7 — Solutions"
+title: "Session 7: Solutions"
 ---
 
-📥 [PDF](files/sessions/s7_solutions.pdf) · [Session page](session7.qmd)
+[Download the PDF](files/sessions/s7_solutions.pdf) · [Back to Session 7](session7.qmd)
 
 Answer keys for `Practicals/s7_exercises.md`, Parts A–C. Numbers in Part C are from `Course/Data/key_results.md` (SIMULATED data).
 
 
 * * *
 
-## Part A — Integrity scenarios
+## Part A: Integrity scenarios
 
 | # | Colour | Why | What to do instead |
 |---|---|---|---|
-| 1 | **RED** — fabrication | Values "remembered" are invented data. | Record the values as missing, report the number missing, and (Level 2) handle them in the analysis. Prevent it next time: a data-collection timetable and source-document checks. |
-| 2 | **RED** — falsification | Removing data after seeing that they weaken the result, without saying so, changes the findings. | Pre-specify rules for implausible values in the data-quality plan (Session 5); check the values against the source; if exclusion is justified, report it and show a sensitivity analysis with and without the patients. |
-| 3 | **RED** — gift authorship | Seniority is not a contribution. All four ICMJE criteria are needed. | Thank the head of department in the Acknowledgements — or invite a real contribution (e.g. critical revision) so that all four criteria are met. Agree the author list in writing at the protocol stage. |
+| 1 | **RED**: fabrication | Values "remembered" are invented data. | Record the values as missing, report the number missing, and (Level 2) handle them in the analysis. Prevent it next time: a data-collection timetable and source-document checks. |
+| 2 | **RED**: falsification | Removing data after seeing that they weaken the result, without saying so, changes the findings. | Pre-specify rules for implausible values in the data-quality plan (Session 5); check the values against the source; if exclusion is justified, report it and show a sensitivity analysis with and without the patients. |
+| 3 | **RED**: gift authorship | Seniority is not a contribution. All four ICMJE criteria are needed. | Thank the head of department in the Acknowledgements, or invite a real contribution (e.g. critical revision) so that all four criteria are met. Agree the author list in writing at the protocol stage. |
 | 4a | **GREEN** (with disclosure) | Language editing of the author's own text, checked by the author and disclosed, is accepted by ICMJE and COPE. The author remains responsible. | Check the target journal's AI policy; disclose tool, version and purpose. |
-| 4b | **RED** — breach of confidentiality | Identifiable patient data must never be pasted into a public AI tool; the analysis is also not accountable or reproducible. | De-identify; use institution-approved software; the analysis is done and checked by a named person. |
-| 5 | **AMBER → RED** — salami slicing / redundant publication | Splitting one cohort into undisclosed separate papers distorts the evidence and can double-count patients. | One main paper with all pre-specified outcomes; any genuine secondary paper must cross-reference the main one and add something new. |
-| 6 | **RED** (amber if minor and fixed before submission) — plagiarism | Copying words verbatim without quotation marks is plagiarism even with a citation. | Paraphrase in your own words and cite, or quote with quotation marks (rare in clinical writing). Similarity-check software will flag it. |
+| 4b | **RED**: breach of confidentiality | Identifiable patient data must never be pasted into a public AI tool. The analysis is also not accountable or reproducible. | De-identify; use institution-approved software; the analysis is done and checked by a named person. |
+| 5 | **AMBER to RED**: salami slicing / redundant publication | Splitting one cohort into undisclosed separate papers distorts the evidence and can double-count patients. | One main paper with all pre-specified outcomes; any genuine secondary paper must cross-reference the main one and add something new. |
+| 6 | **RED** (amber if minor and fixed before submission): plagiarism | Copying words verbatim without quotation marks is plagiarism even with a citation. | Paraphrase in your own words and cite, or quote with quotation marks (rare in clinical writing). Similarity-check software will flag it. |
 
-**Example on the slide** (a colleague lent an ultrasound machine and asks for authorship): **AMBER/RED** — providing equipment is not authorship; thank them in the Acknowledgements.
+**Example on the slide** (a colleague lent an ultrasound machine and asks for authorship): **AMBER/RED**. Providing equipment is not authorship, so thank them in the Acknowledgements.
 
-Facilitation: when groups disagree (often on 4a and 5), ask each side for one reason; then state the rule. Emphasise that honest error is not misconduct but must be corrected openly.
+Facilitation: when groups disagree (often on 4a and 5), ask each side for one reason, then state the rule. Emphasise that honest error is not misconduct but must be corrected openly.
 
 
 * * *
 
-## Part B — Proposal builder 7: what a good Part 4 looks like (example: observational ICU study)
+## Part B: Proposal builder 7: what a good Part 4 looks like (example: observational ICU study)
 
 ### B1–B3. Ethics, confidentiality, feasibility
 
-> *Ethics and consent.* The protocol will be submitted to the institutional research ethics committee before any data collection. Data are collected from routine ICU charts with no change in care; we will request a waiver of individual consent because most patients lack capacity on admission and the study carries no more than minimal risk. If the committee requires consent, it will be sought from the patient when able or from the legally authorised representative.
+> *Ethics and consent.* The protocol will be submitted to the institutional research ethics committee before any data collection. Data are collected from routine ICU charts with no change in care. We will request a waiver of individual consent because most patients lack capacity on admission and the study carries no more than minimal risk. If the committee requires consent, it will be sought from the patient when able or from the legally authorised representative.
 >
 > *Confidentiality.* Each patient receives a study code (FLU-001 …). Names, hospital numbers and dates of birth are recorded only on a key file stored on the institution's password-protected drive, accessible to the principal investigator and one data manager. The analysis file contains the study code, age, admission month and study variables only.
 >
@@ -48,9 +48,9 @@ Common errors to correct: "consent will be obtained" with no who/when/how; assum
 |---|---|
 | Working title | "Cumulative fluid balance and 28-day mortality in adults with septic shock: a retrospective cohort study" |
 | Target journal | A critical-care or critical-care-nursing journal indexed in MEDLINE (checked in the NLM Catalog), APC and licence known; back-up: a general critical-care open-access journal listed in DOAJ |
-| Reporting guideline | STROBE (cohort) — not CONSORT |
+| Reporting guideline | STROBE (cohort), not CONSORT |
 | Registration | Not mandatory for an observational study; recommended (e.g. ClinicalTrials.gov) |
-| Authors and CRediT | PI: Conceptualization, Methodology, Writing – original draft; two nurses: Investigation, Data curation; pharmacist: Investigation, Writing – review & editing; statistician: Formal analysis; head of department: Supervision (only if all four ICMJE criteria are met — otherwise Acknowledgements) |
+| Authors and CRediT | PI: Conceptualization, Methodology, Writing – original draft; two nurses: Investigation, Data curation; pharmacist: Investigation, Writing – review & editing; statistician: Formal analysis; head of department: Supervision (only if all four ICMJE criteria are met, otherwise Acknowledgements) |
 | COI / funding | None declared / internal departmental support |
 | Data sharing | De-identified dataset and data dictionary available from the corresponding author under a data-use agreement (if the ethics committee and consent allow) |
 | Conference | National critical-care congress abstract after the first analysis |
@@ -62,9 +62,9 @@ Common errors: CONSORT named for a cohort; "impact" or "effect" in the title; an
 
 * * *
 
-## Part C — [DS] Manuscript workshop 1: model Methods and Results for Q1
+## Part C: [DS] Manuscript workshop 1: model Methods and Results for Q1
 
-All numbers are from `Course/Data/key_results.md` and `Course/Data/results_packs/Q1/results_pack_Q1.md` (**SIMULATED DATA — NOT REAL PATIENTS**). Show these to groups only AFTER the workshop, or use them to coach. Other groups (Q2–Q5) take the same structure and their own pack.
+All numbers are from `Course/Data/key_results.md` and `Course/Data/results_packs/Q1/results_pack_Q1.md` (**SIMULATED DATA, NOT REAL PATIENTS**). Show these to groups only AFTER the workshop, or use them to coach. Other groups (Q2–Q5) take the same structure and their own pack.
 
 ### Model Methods (~300 words)
 
@@ -74,7 +74,7 @@ All numbers are from `Course/Data/key_results.md` and `Course/Data/results_packs
 
 **Variables.** The exposure was a positive cumulative fluid balance by ICU day 3, defined as total fluid input minus total fluid output over ICU days 1–3 greater than 0 ml/kg, compared with a negative or zero balance. The primary outcome was death from any cause within 28 days of ICU admission; for survival analysis, time to death was censored at day 28. Confounders were pre-specified in the statistical analysis plan: age, SOFA score, lactate, vasopressor use, mechanical ventilation and chronic kidney disease. Heart failure was pre-specified as a possible effect modifier.
 
-**Data sources and bias.** Data were collected from ICU charts on a standard case report form. To address confounding by indication — sicker patients receive more fluid — we adjusted for markers of illness severity and comorbidity.
+**Data sources and bias.** Data were collected from ICU charts on a standard case report form. To address confounding by indication (sicker patients receive more fluid), we adjusted for markers of illness severity and comorbidity.
 
 **Study size.** All eligible patients in the cohort were included; no separate sample-size calculation was performed.
 

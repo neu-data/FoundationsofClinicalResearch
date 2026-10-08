@@ -17,7 +17,7 @@ All course materials are **free**. To open them, request a free access code: ent
     <input id="acc-code" type="text" required autocomplete="one-time-code" placeholder="Access code (e.g. ABCD-2345)" aria-label="Access code (e.g. ABCD-2345)" style="text-transform:uppercase">
     <button id="acc-unlock" class="btn btn-primary" type="submit">Open the materials</button>
   </form>
-  <p class="acc-hint">Forgot your code? Request a new one above — it is free.</p>
+  <p class="acc-hint">Forgot your code? You can request a new one above, free of charge.</p>
   <div id="acc-msg" class="acc-msg" role="status"></div>
 </div>
 <style>
@@ -33,7 +33,7 @@ All course materials are **free**. To open them, request a free access code: ent
 (function () {
   var API = "https://script.google.com/macros/s/AKfycbyo0gY-ilc-g2PXHmEszcxyaCy6T1r7cqGhvq6hJSajmUnmvfWfexv5OKcGlbpRVSjaBA/exec";
   var KEY = "neudata-fcr-access";
-  var M = {"CODE_SENT": "Your access code has been sent. Check your inbox (and spam folder), then enter it below.", "TOO_SOON": "A code was sent less than a minute ago. Please check your inbox.", "BAD_EMAIL": "Please enter a valid email address.", "BAD_CODE": "That code is not valid. Check it, or request a new one.", "ERROR": "Something went wrong. Please try again in a moment.", "done": "Access granted — opening the materials…", "sending": "Sending…", "checking": "Checking…", "send": "Send me a code", "unlock": "Open the materials"};
+  var M = {"CODE_SENT": "Your access code has been sent. Check your inbox (and spam folder), then enter it below.", "TOO_SOON": "A code was sent less than a minute ago. Please check your inbox.", "BAD_EMAIL": "Please enter a valid email address.", "BAD_CODE": "That code is not valid. Check it, or request a new one.", "ERROR": "Something went wrong. Please try again in a moment.", "done": "Access granted. Opening the materials…", "sending": "Sending…", "checking": "Checking…", "send": "Send me a code", "unlock": "Open the materials"};
   var lang = "en";
   function show(kind, key) { var m = document.getElementById("acc-msg"); m.className = "acc-msg " + kind; m.textContent = M[key] || M.ERROR; }
   // Approximate location for the usage counts: browser time zone and language, plus country and

@@ -1,16 +1,16 @@
 ---
-title: "Buổi 6 — Phiếu bài tập"
+title: "Buổi 6: Phiếu bài tập"
 ---
 
 ::: {.lang-note}
 Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
 :::
 
-📥 [PDF](files/sessions/s6_exercises.pdf) · [Trang buổi học](session6.qmd)
+[Tải bản PDF](files/sessions/s6_exercises.pdf) · [Quay lại Buổi 6](session6.qmd)
 
 **Foundations of Clinical Research** · Week 6, Saturday · Neudata · #ClearDataClearImpact
 
-No calculator is needed. Exercises marked **[DS]** use the course dataset FLUID-ICU (simulated) and your group's results pack; your answers to Exercises 4 and 8 become the core of your manuscript's Results (Session 7). Exercise 9 completes Part 3 of your proposal.
+No calculator is needed. Exercises marked **[DS]** use the course dataset FLUID-ICU (simulated) and your group's results pack. Your answers to Exercises 4 and 8 become the core of your manuscript's Results (Session 7). Exercise 9 completes Part 3 of your proposal.
 
 | # | Exercise | When | Time |
 |---|---|---|---|
@@ -29,7 +29,7 @@ Figures for Exercises 3 and 6 are in `Resources/figures/en/sat3/` (Vietnamese ve
 
 * * *
 
-## Exercise 1 — True or false: confidence intervals, p-values and multiple tests
+## Exercise 1: True or false: confidence intervals, p-values and multiple tests
 
 Circle **T** (true) or **F** (false). Be ready to explain each "false" in one sentence.
 
@@ -51,7 +51,7 @@ Circle **T** (true) or **F** (false). Be ready to explain each "false" in one se
 
 * * *
 
-## Exercise 2 — Choose the test
+## Exercise 2: Choose the test
 
 Use the decision chart from the slides (outcome type → shape or counts → paired or not). Write the test and one reason.
 
@@ -67,7 +67,7 @@ Use the decision chart from the slides (outcome type → shape or counts → pai
 
 * * *
 
-## Exercise 3 — Match r to the scatter plots
+## Exercise 3: Match r to the scatter plots
 
 ![Four scatter plots A to D](images/practicals/sat3/ex_match_r.png)
 
@@ -85,7 +85,7 @@ Bonus: a bedside glucose meter and the laboratory have r = 0.97 in 50 patients. 
 
 * * *
 
-## Exercise 4 — [DS] Interpret your group's comparison (6.2)
+## Exercise 4: [DS] Interpret your group's comparison (6.2)
 
 Use the comparison table in your results pack.
 
@@ -106,7 +106,7 @@ Use the comparison table in your results pack.
 
 * * *
 
-## Exercise 5 — Read a regression table
+## Exercise 5: Read a regression table
 
 A (mock) cohort study of 600 adults admitted to a medical ICU asked which factors are associated with **hospital-acquired delirium** (yes/no) during the ICU stay.
 
@@ -138,7 +138,7 @@ Questions:
 
 * * *
 
-## Exercise 6 — Read a Kaplan–Meier curve
+## Exercise 6: Read a Kaplan–Meier curve
 
 A (simulated) trial randomised 200 adults with septic shock to a restrictive fluid strategy or usual care and followed them for 28 days.
 
@@ -154,7 +154,7 @@ A (simulated) trial randomised 200 adults with septic shock to a restrictive flu
 
 * * *
 
-## Exercise 7 — Why is it missing? MCAR, MAR or MNAR
+## Exercise 7: Why is it missing? MCAR, MAR or MNAR
 
 For each scenario, choose the most likely mechanism (**MCAR**, **MAR** or **MNAR**) and say what it means for a complete-case analysis.
 
@@ -167,16 +167,16 @@ For each scenario, choose the most likely mechanism (**MCAR**, **MAR** or **MNAR
 | e | A form version used in the first month did not include the "smoking" question. | | |
 | f | Older patients are less likely to return a quality-of-life questionnaire at 3 months; age is recorded for all. | | |
 
-*(How to test whether missing data change the answer — sensitivity analyses — is covered hands-on in Level 2.)*
+*(Sensitivity analyses, which test whether missing data change the answer, are covered hands-on in Level 2.)*
 
 
 * * *
 
-## Exercise 8 — [DS] Interpret your group's model: crude vs adjusted, complete case vs imputation (6.4)
+## Exercise 8: [DS] Interpret your group's model: crude vs adjusted, complete case vs imputation (6.4)
 
 Use the regression table and the missing-data table in your results pack.
 
-**Part A — crude vs adjusted**
+**Part A: crude vs adjusted**
 
 | | Estimate | 95% CI | n |
 |---|---|---|---|
@@ -187,12 +187,12 @@ Use the regression table and the missing-data table in your results pack.
 2. How much did the estimate move after adjustment, and in which direction? What does that tell you about confounding by indication?
 3. Does the adjusted 95% CI include the "no effect" value (1 for a ratio, 0 for a difference)?
 
-**Part B — complete case vs multiple imputation** *(read the result from your pack; it was produced by the example script `Course/Data/R/05_missing.R`. How imputation works is covered in Level 2.)*
+**Part B: complete case vs multiple imputation** *(read the result from your pack; it was produced by the example script `Course/Data/R/05_missing.R`. How imputation works is covered in Level 2.)*
 
 4. How many patients were in the complete-case model, and how many in the multiple-imputation model? Who was left out of the complete-case analysis?
 5. Is the multiple-imputation estimate close to the complete-case estimate?
 
-**Part C — (Q1 only) Kaplan–Meier and Cox**
+**Part C (Q1 only): Kaplan–Meier and Cox**
 
 6. Survival at day 28 in each group; the log-rank p; the adjusted Cox HR with its 95% CI. Why do the logistic (p = 0.044) and Cox (p = 0.053) results tell the same story?
 
@@ -203,7 +203,7 @@ Use the regression table and the missing-data table in your results pack.
 
 * * *
 
-## Exercise 9 — Proposal builder 6 worksheet (group, 30 minutes)
+## Exercise 9: Proposal builder 6 worksheet (group, 30 minutes)
 
 Your **own** question again. Copy the answers into Part 3 of the proposal template.
 
@@ -239,7 +239,7 @@ Your **own** question again. Copy the answers into Part 3 of the proposal templa
 | | |
 | | |
 
-Expected number of events: ____ → maximum number of model terms (about 1 per 10 events): ____
+Expected number of events: ____  Maximum number of model terms (about 1 per 10 events): ____
 
 ### 9.4 Missing-data plan (7 min)
 

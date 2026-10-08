@@ -2,12 +2,12 @@
 title: "Proposal rubric"
 ---
 
-📥 [Word](files/assignments/Proposal_Rubric.docx) · [PDF](files/assignments/Proposal_Rubric.pdf) · [Assignments](assignments.qmd)
+Download: [Word](files/assignments/Proposal_Rubric.docx) · [PDF](files/assignments/Proposal_Rubric.pdf) · [Back to assignments](assignments.qmd)
 
-## Foundations of Clinical Research — Level 1: From Clinical Question to Publication
+## Foundations of Clinical Research · Level 1: From Clinical Question to Publication
 
-**Organisation:** Neudata — *#ClearDataClearImpact*
-**Total:** 100 points — written proposal and publication plan 70 + presentation 30
+**Organisation:** Neudata (*#ClearDataClearImpact*)
+**Total:** 100 points: written proposal and publication plan 70 + presentation 30
 **Use with:** `proposal_brief.md` and `presentation_guide.md`
 
 > **The marks are formative.** They help groups improve their proposal and help instructors see which parts of the course need strengthening. Reward clear thinking and honesty about limitations over polish. A simple, feasible study planned well scores higher than an ambitious study planned vaguely.
@@ -19,17 +19,17 @@ title: "Proposal rubric"
 
 1. Read the whole proposal once without scoring.
 2. For each criterion, choose the level that best describes the work and give its points. If the work sits between two levels, choose the lower one and note what would lift it.
-3. Write **one comment per criterion that loses points** — what to add or change. These comments are the most valuable part of the feedback.
+3. Write **one comment per criterion that loses points**, saying what to add or change. These comments are the most valuable part of the feedback.
 4. Add the points. Use the bands at the end only as a guide for the overall comment.
 
-**Levels:** **Excellent** — complete, correct and specific; **Good** — mostly complete and correct, minor gaps; **Needs work** — present but vague, incomplete or partly incorrect; **Missing** — absent or wholly incorrect.
+**Levels:** **Excellent**: complete, correct and specific. **Good**: mostly complete and correct, minor gaps. **Needs work**: present but vague, incomplete or partly incorrect. **Missing**: absent or wholly incorrect.
 
 
 * * *
 
 ## A. Written proposal and publication plan (70 points)
 
-### Part 1 — Sessions 1–2 (Ask; Find and read)
+### Part 1: Sessions 1–2 (Ask; Find and read)
 
 | Criterion | Excellent (6) | Good (4) | Needs work (2) | Missing (0) |
 |---|---|---|---|---|
@@ -37,7 +37,7 @@ title: "Proposal rubric"
 | **2. PICO, research question & FINER** | All PICO elements specific; question follows directly from the PICO; FINER check is honest and changed something. | PICO complete but one element vague (e.g. outcome without time point); FINER present. | PICO incomplete or question does not match it; FINER is a list of "yes". | No PICO or no question. |
 | **3. Aim, objectives, hypothesis & references** | One aim, 2–3 measurable objectives, a testable hypothesis (where relevant); 5 relevant, correctly cited references. | Objectives present but one not measurable; 3–4 good references. | Objectives restate the aim; hypothesis not testable; references few, old or not relevant. | Absent. |
 
-### Part 2 — Sessions 3–4 (Design; Bias and effect)
+### Part 2: Sessions 3–4 (Design; Bias and effect)
 
 | Criterion | Excellent (6) | Good (4) | Needs work (2) | Missing (0) |
 |---|---|---|---|---|
@@ -45,14 +45,14 @@ title: "Proposal rubric"
 | **5. Setting, population, exposure & outcomes** | Reproducible inclusion/exclusion criteria; exposure and comparator defined; one primary outcome with how and when it is measured; sensible secondary outcomes. | Mostly clear; one element vague (e.g. outcome timing). | Criteria vague; several primary outcomes or none defined. | Absent. |
 | **6. Bias & how it is reduced** | At least two specific threats relevant to *this* study (e.g. confounding by indication) with a concrete step for each. | Threats named with general remedies. | Generic list of biases not linked to the study. | No discussion of bias. |
 
-### Part 3 — Sessions 5–6 (Data; Analyse)
+### Part 3: Sessions 5–6 (Data; Analyse)
 
 | Criterion | Excellent (6) | Good (4) | Needs work (2) | Missing (0) |
 |---|---|---|---|---|
 | **7. Variables, mini-CRF, data dictionary & data management** | Variables table with correct types and units; 6–10 clear CRF items consistent with the dictionary; data capture, checks, secure storage and audit trail described concretely. | Minor errors in types or units; CRF mostly clear; general data-quality plan. | CRF items ambiguous (no units or time windows); dictionary missing or inconsistent; no data-management plan. | Absent. |
 | **8. Sample size, analysis & missing-data plan** | Sample size statement with assumptions and source, or a precision target for descriptive studies; summaries and test/model match the variable types; named confounders; one pre-specified primary outcome; sensible missing-data plan (prevention, reporting, handling). | Sample size given with some assumptions; analysis mostly appropriate; missing data mentioned but plan thin. | A number without assumptions; test does not match the outcome type; no missing-data plan. | Absent. |
 
-### Part 4 — Session 7 (Protect and write)
+### Part 4: Session 7 (Protect and write)
 
 | Criterion | Excellent (6) | Good (4) | Needs work (2) | Missing (0) |
 |---|---|---|---|---|
@@ -72,15 +72,15 @@ title: "Proposal rubric"
 
 ## B. Presentation in Session 8 (30 points)
 
-Score the 6-minute proposal presentation only; the 1-minute manuscript pitch is not scored (the manuscript has its own rubric, `manuscript_rubric.md`).
+Score the 6-minute proposal presentation only. The 1-minute manuscript pitch is not scored (the manuscript has its own rubric, `manuscript_rubric.md`).
 
 | Criterion | Excellent (6) | Good (4) | Needs work (2) | Missing (0) |
 |---|---|---|---|---|
 | **12. Structure & content** | All 6 slides as in the guide; the key decisions (question, design, outcome, sample size, ethics, journal and reporting guideline) are visible. | One slide thin or one key decision missing. | Several parts missing or out of order. | Did not present. |
-| **13. Clarity & plain language** | Message understandable to every profession in the room; one message per slide. | Mostly clear; some jargon or crowded slides. | Hard to follow; slides read aloud. | — |
-| **14. Visual design** | Readable from the back; pictures, tables or diagrams instead of text blocks (PICO table, flow, timeline). | Readable; mostly text. | Small fonts, walls of text. | — |
-| **15. Timekeeping** | Finished between 5:00 and 6:00. | Finished by 6:30. | Stopped by the chair at 6:30, or under 4 minutes. | — |
-| **16. Questions & teamwork** | Answers questions directly and honestly; several members contribute; acknowledges limitations. | Answers adequately; one or two members carry the presentation. | Defensive or unable to answer basic questions about the design. | — |
+| **13. Clarity & plain language** | Message understandable to every profession in the room; one message per slide. | Mostly clear; some jargon or crowded slides. | Hard to follow; slides read aloud. | Not applicable. |
+| **14. Visual design** | Readable from the back; pictures, tables or diagrams instead of text blocks (PICO table, flow, timeline). | Readable; mostly text. | Small fonts, walls of text. | Not applicable. |
+| **15. Timekeeping** | Finished between 5:00 and 6:00. | Finished by 6:30. | Stopped by the chair at 6:30, or under 4 minutes. | Not applicable. |
+| **16. Questions & teamwork** | Answers questions directly and honestly; several members contribute; acknowledges limitations. | Answers adequately; one or two members carry the presentation. | Defensive or unable to answer basic questions about the design. | Not applicable. |
 
 **Presentation subtotal:** ______ / 30
 
@@ -90,15 +90,15 @@ Score the 6-minute proposal presentation only; the 1-minute manuscript pitch is 
 
 | Total | Overall comment |
 |---|---|
-| 80–100 | Strong proposal — ready to develop into a full protocol with the research office. |
-| 60–79 | Good proposal — revise the flagged sections before taking it further. |
-| 40–59 | Promising idea — the question or design needs rethinking before it can go further. |
-| Below 40 | Major revision needed — meet an instructor to agree the next steps. |
+| 80–100 | Strong proposal, ready to develop into a full protocol with the research office. |
+| 60–79 | Good proposal. Revise the flagged sections before taking it further. |
+| 40–59 | Promising idea, but the question or design needs rethinking before it can go further. |
+| Below 40 | Major revision needed. Meet an instructor to agree the next steps. |
 
 ### Common problems to look for (and comment on)
 
 - Outcome without a time point ("mortality" instead of "28-day mortality").
-- An RCT proposed where randomisation is unethical or impossible — or a cohort where a simple RCT would be feasible.
+- An RCT proposed where randomisation is unethical or impossible, or a cohort where a simple RCT would be feasible.
 - "We will adjust for confounders" without naming them.
 - Sample size given as a number with no assumptions, or copied from another study.
 - Recruitment that the unit cannot deliver (check the admissions per month).
@@ -112,13 +112,13 @@ Score the 6-minute proposal presentation only; the 1-minute manuscript pitch is 
 
 <!-- pagebreak -->
 
-## Feedback form — group presentation (one per group)
+## Feedback form: group presentation (one per group)
 
 **Presenting group:** ______  **Reviewer:** ☐ Instructor ☐ Peer group no. ______  **Date:** ________
 
 **Time taken:** ______ min  ☐ Green ☐ Yellow ☐ Red card reached
 
-**Slide by slide — tick one box per slide**
+**Slide by slide (tick one box per slide)**
 
 | Slide | Clear | Partly clear | Unclear / missing |
 |---|---|---|---|
@@ -129,15 +129,15 @@ Score the 6-minute proposal presentation only; the 1-minute manuscript pitch is 
 | 5. Ethics & feasibility | ☐ | ☐ | ☐ |
 | 6. Publication plan & impact | ☐ | ☐ | ☐ |
 
-**Star 1 — something specific that was strong:**
+**Star 1 (something specific that was strong):**
 
 ______________________________________________________________________________
 
-**Star 2 — something else that was strong:**
+**Star 2 (something else that was strong):**
 
 ______________________________________________________________________________
 
-**Wish — the one change that would most improve the written proposal:**
+**Wish (the one change that would most improve the written proposal):**
 
 ______________________________________________________________________________
 
@@ -147,4 +147,4 @@ ______________________________________________________________________________
 
 ______________________________________________________________________________
 
-**Instructor only — presentation score (criteria 12–16):** ___ + ___ + ___ + ___ + ___ = ______ / 30
+**Presentation score, instructor only (criteria 12–16):** ___ + ___ + ___ + ___ + ___ = ______ / 30

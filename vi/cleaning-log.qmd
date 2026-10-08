@@ -7,10 +7,10 @@ Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng 
 :::
 
 ::: {.simulated}
-**Dữ liệu mô phỏng — không phải bệnh nhân thật.** FLUID-ICU là một nghiên cứu giả định: mọi giá trị đều do chương trình máy tính tạo ra với hạt giống ngẫu nhiên cố định. Dữ liệu không mô tả bất kỳ bệnh nhân, bệnh viện hay ICU thật nào. Mọi bản thảo viết từ bộ dữ liệu này phải ghi rõ dữ liệu là mô phỏng và không bao giờ được nộp như một nghiên cứu thật.
+**Dữ liệu mô phỏng, không phải bệnh nhân thật.** FLUID-ICU là một nghiên cứu giả định: mọi giá trị đều do chương trình máy tính tạo ra với hạt giống ngẫu nhiên cố định. Dữ liệu không mô tả bất kỳ bệnh nhân, bệnh viện hay ICU thật nào. Mọi bản thảo viết từ bộ dữ liệu này phải ghi rõ dữ liệu là mô phỏng và không bao giờ được nộp như một nghiên cứu thật.
 :::
 
-> **SIMULATED DATA - NOT REAL PATIENTS.** This log belongs to the teaching dataset FLUID-ICU.
+> **SIMULATED DATA: NOT REAL PATIENTS.** This log belongs to the teaching dataset FLUID-ICU.
 
 | | |
 |---|---|
@@ -54,9 +54,9 @@ Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng 
 
 | Query | Patient | Variable | Value in raw file | Status |
 |---|---|---|---|---|
-| Q-001 | FLU-529 (ICU B) | Age | 210 | Open - set to missing |
-| Q-002 | FLU-277 (ICU C) | Weight | 7 kg | Open - set to missing |
-| Q-003 | FLU-282 (ICU A) | Fluid out, day 2 | -2990 ml | Open - set to missing |
-| Q-004 | ICU C | Lactate unit | mg/dL | Confirmed by site lab - converted |
+| Q-001 | FLU-529 (ICU B) | Age | 210 | Open; set to missing |
+| Q-002 | FLU-277 (ICU C) | Weight | 7 kg | Open; set to missing |
+| Q-003 | FLU-282 (ICU A) | Fluid out, day 2 | -2990 ml | Open; set to missing |
+| Q-004 | ICU C | Lactate unit | mg/dL | Confirmed by site lab; converted |
 
 *Teaching note:* in a real study the site would correct the source record and the database, and the cleaning script would be re-run. Here the queries stay open so that the clean file is fixed for the course.

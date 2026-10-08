@@ -1,22 +1,22 @@
 ---
-title: "Session 2 — Solutions"
+title: "Session 2: Solutions"
 ---
 
-📥 [PDF](files/sessions/s2_solutions.pdf) · [Session page](session2.qmd)
+[Download the PDF](files/sessions/s2_solutions.pdf) · [Back to Session 2](session2.qmd)
 
-**Foundations of Clinical Research — Level 1** · Neudata · *Instructor copy — do not hand out before the exercises*
+**Foundations of Clinical Research · Level 1** · Neudata · *Instructor copy. Do not hand out before the exercises.*
 
 These are **model** answers. Many other answers are acceptable: reward work that is specific, consistent and could be acted on. Use the "what good looks like" boxes when you circulate.
 
 
 * * *
 
-## Recap quiz — Session 1: answers
+## Recap quiz: Session 1 answers
 
-1. **Audit** — checking practice against an agreed standard.
+1. **Audit**: checking practice against an agreed standard.
 2. **P** ICU staff · **I** hand-hygiene feedback · **C** no feedback · **O** hand-hygiene compliance · **T** 3 months.
-3. **Feasible** — a mortality outcome needs more than 1,000 patients.
-4. **"To estimate the proportion with delirium"** — a measurable verb; "understand" is not measurable.
+3. **Feasible**: a mortality outcome needs more than 1,000 patients.
+4. **"To estimate the proportion with delirium"**: a measurable verb. "Understand" is not measurable.
 5. **H0:** ICU length of stay is the same with early mobilisation and with usual care.
 
 If many miss 4 or 5, spend one extra minute: objectives use measurable verbs; H0 always states "no difference".
@@ -24,22 +24,22 @@ If many miss 4 or 5, spend one extra minute: objectives use measurable verbs; H0
 
 * * *
 
-## Check your understanding (segment 2.1) — AND, OR or NOT?
-1. **AND**. 2. **OR**. 3. **Fewer** (AND narrows). 4. It removes every paper that mentions children anywhere — including good adult studies that mention children once.
+## Check your understanding (segment 2.1): AND, OR or NOT?
+1. **AND**. 2. **OR**. 3. **Fewer** (AND narrows). 4. It removes every paper that mentions children anywhere, including good adult studies that mention children once.
 
-## Check your understanding (segment 2.2) — OK or not OK?
-1. **Not OK** — patchwriting is plagiarism even with a citation. 2. **OK** (but rare in medical writing). 3. **Not OK** — someone else's finding needs a citation. 4. **Not OK** — you may repeat an error; read and cite the original.
+## Check your understanding (segment 2.2): OK or not OK?
+1. **Not OK**: patchwriting is plagiarism even with a citation. 2. **OK** (but rare in medical writing). 3. **Not OK**: someone else's finding needs a citation. 4. **Not OK**: you may repeat an error, so read and cite the original.
 
-## Check your understanding (segment 2.3) — spot the spin
-1. Causal word for an observational design → *"was associated with lower pneumonia"*.
-2. p = 0.31 is no evidence of a difference → *"no significant difference; the confidence interval was wide"*.
-3. Headline is a secondary outcome → lead with the primary result.
-4. Before–after change without a comparison group → *"mortality was lower after implementation; without a control group we cannot attribute this to the protocol"*.
+## Check your understanding (segment 2.3): spot the spin
+1. Causal word for an observational design. Rewrite as *"was associated with lower pneumonia"*.
+2. p = 0.31 is no evidence of a difference. Rewrite as *"no significant difference; the confidence interval was wide"*.
+3. Headline is a secondary outcome. Lead with the primary result instead.
+4. Before–after change without a comparison group. Rewrite as *"mortality was lower after implementation; without a control group we cannot attribute this to the protocol"*.
 
 
 * * *
 
-## Exercise 1 — Boolean search builder
+## Exercise 1: Boolean search builder
 
 **Warm-up:** `septic shock OR fluids` gives more hits (either term). `sepsis` gives more hits than `sepsis NOT neonatal` (NOT removes papers).
 
@@ -61,59 +61,59 @@ AND (prevent*[tiab] OR "multicomponent"[tiab] OR "non-pharmacological"[tiab] OR 
 
 **Common faults**
 - Missing brackets: `A OR B AND C` is read differently from `(A OR B) AND C`.
-- AND inside a block (`septic shock AND sepsis`) — synonyms need OR.
-- A block for the comparison ("usual care") — adds nothing and loses papers.
+- AND inside a block (`septic shock AND sepsis`). Synonyms need OR.
+- A block for the comparison ("usual care"). It adds nothing and loses papers.
 - `NOT` used to remove a topic the paper only mentions in passing.
 - Search words in the local language: PubMed indexes English titles and abstracts.
 
 
 * * *
 
-## Exercise 2 — Paraphrasing: model answers
+## Exercise 2: Paraphrasing (model answers)
 
 **Part A**
 | Version | Verdict | Why |
 |---|---|---|
-| a) | **Problem — patchwriting** | Same structure and almost the same words as the source; one word swapped ("mortality" → "death"). Plagiarism even though it is cited. |
+| a) | **Problem: patchwriting** | Same structure and almost the same words as the source; one word swapped ("mortality" for "death"). Plagiarism even though it is cited. |
 | b) | **OK** | New structure, adds context (matched registry cohort, 28-day mortality), keeps the calibrated word "associated", gives numbers and the citation. |
-| c) | **Problem — distorts the source** | "Giving more fluid ... doubles the risk" turns an observational *association* into causation, and "doubles" overstates (HR 2.13 only for day 2; 1.56 for day 3). Citation does not fix misrepresentation. |
-| d) | **Problem — no citation** | Good wording, but presenting someone else's finding without a citation is plagiarism. |
+| c) | **Problem: distorts the source** | "Giving more fluid ... doubles the risk" turns an observational *association* into causation, and "doubles" overstates (HR 2.13 only for day 2; 1.56 for day 3). Citation does not fix misrepresentation. |
+| d) | **Problem: no citation** | Good wording, but presenting someone else's finding without a citation is plagiarism. |
 
-**Part B — model paraphrase**
+**Part B: model paraphrase**
 "Mortality and days alive without organ support at day 28 did not differ between the two groups, although the pilot trial was too small to detect such differences [1]."
 What good looks like: new structure; facts unchanged (28 days, mortality, days alive without life support, similar); no stronger claim (do **not** write "restriction is safe"); citation. Adding "the trial was too small" is accurate context from the paper (48 patients; not powered for mortality).
 
 
 * * *
 
-## Exercise 3 — Paper 1's abstract: answer key
+## Exercise 3: Paper 1's abstract (answer key)
 
 | Item | Answer (from the abstract) |
 |---|---|
-| Design (and blinding) | Multicentre, randomised, controlled **pilot** trial; single-blind — patients and statisticians blinded, clinicians not |
+| Design (and blinding) | Multicentre, randomised, controlled **pilot** trial; single-blind (patients and statisticians blinded, clinicians not) |
 | P | Adults 18–85 years with septic shock, in the first 24 h of vasopressor infusion, in three ICUs; excluded: AKI needing renal replacement, end-stage CKD, severe malnutrition |
 | I vs C | Optimised fluid restriction (reducing maintenance fluids and fluids for drug dilution during the first 7 days) vs standard fluid strategy |
-| Primary outcome | **Cumulative fluid balance (ml/kg) in the first 5 days** — not mortality |
+| Primary outcome | **Cumulative fluid balance (ml/kg) in the first 5 days**, not mortality |
 | Numbers | 1,201 screened; 50 randomised; 2 withdrew (control); 48 analysed (24 per group) |
 | Main result | Median cumulative balance at day 5: 6.9 vs 35.0 ml/kg; absolute difference 13.2 ml/kg (95% CI −15.2 to 41.6), p = 0.42 |
 | Conclusion | "...did not reduce the overall fluid balance at day 5" |
-| Matches the result? | **Yes** — the CI includes zero; the conclusion says "did not reduce" |
-| Spin in the abstract? | **No** in the abstract conclusion. (Spin appears in the *Discussion*, which calls p = 0.42 a "non-significant trend".) Watch-point: the fluid *volumes* (89.7 vs 114.3 ml/kg, p = 0.0506) are a secondary result, and the abstract reports four decimals for a borderline p — mild emphasis, not a claim. |
+| Matches the result? | **Yes**. The CI includes zero, and the conclusion says "did not reduce". |
+| Spin in the abstract? | **No** in the abstract conclusion. (Spin appears in the *Discussion*, which calls p = 0.42 a "non-significant trend".) Watch-point: the fluid *volumes* (89.7 vs 114.3 ml/kg, p = 0.0506) are a secondary result, and the abstract reports four decimals for a borderline p. This is mild emphasis, not a claim. |
 | Registration | ClinicalTrials.gov **NCT04947904** (registered 1 July 2021, before recruitment began in September 2021) |
-| Answers our 28-day mortality question? | **No.** It is a small pilot powered for fluid balance; 28-day mortality was a secondary outcome and was similar between groups — "no evidence of a difference", not "no difference" |
+| Answers our 28-day mortality question? | **No.** It is a small pilot powered for fluid balance. 28-day mortality was a secondary outcome and was similar between groups: "no evidence of a difference", not "no difference". |
 
 **Fast finishers (Paper 2):** the title says **"Impact"** (causal); the abstract conclusion correctly says **"associated"**.
 
 **Common errors to correct in the debrief**
 - Writing "mortality" as the primary outcome.
 - Copying only the p-value and not the estimate with its 95% CI.
-- Calling the trial "double-blind" — clinicians, who prescribe the fluids, were not blinded.
-- Reading the medians (6.9 vs 35.0) as "five times less fluid balance, so it works" — the CI crosses zero.
+- Calling the trial "double-blind". Clinicians, who prescribe the fluids, were not blinded.
+- Reading the medians (6.9 vs 35.0) as "five times less fluid balance, so it works". The CI crosses zero.
 
 
 * * *
 
-## Exercise 4 — Proposal builder 2: what good looks like
+## Exercise 4: Proposal builder 2 (what good looks like)
 
 Continuing the worked model from Session 1 (the feasible rewrite of the running example).
 
@@ -123,20 +123,20 @@ Continuing the worked model from Session 1 (the feasible rewrite of the running 
 **Keywords:** Fluid Therapy; Water-Electrolyte Balance; Critical Care; Vasoconstrictor Agents (MeSH terms not already in the title).
 
 **Problem statement (≈ 300 words, three paragraphs)**
-1. *Known:* septic shock is a common cause of ICU death; early fluid resuscitation restores perfusion, but continued fluid often produces a positive fluid balance, which observational studies associate with higher mortality (e.g. Hyun 2023).
+1. *Known:* septic shock is a common cause of ICU death. Early fluid resuscitation restores perfusion, but continued fluid often produces a positive fluid balance, which observational studies associate with higher mortality (e.g. Hyun 2023).
 2. *Not known:* large trials of restrictive fluids (CLASSIC 2022; CLOVERS 2023) found no mortality difference, and a pilot targeting hidden "non-resuscitative" fluids (Boulet 2024) did not significantly reduce fluid balance at day 5. Whether a restrictive protocol can reduce fluid balance in *our* setting is unknown.
 3. *Why here:* a 3-month audit in our ICU found that most septic shock patients were fluid-positive by day 3 (state the number from your own audit), and practice varies between consultants.
 
 **Five key references (model)**
 | # | Reference | Why included |
 |---|---|---|
-| 1 | Boulet N, et al. *Crit Care* 2024;28:429 — pilot RCT, n = 48 | Closest design and outcome; primary outcome not significantly different |
-| 2 | Hyun DG, et al. *Ann Intensive Care* 2023;13:105 — matched cohort | Positive balance on days 2–3 associated with higher 28-day mortality |
+| 1 | Boulet N, et al. *Crit Care* 2024;28:429 (pilot RCT, n = 48) | Closest design and outcome; primary outcome not significantly different |
+| 2 | Hyun DG, et al. *Ann Intensive Care* 2023;13:105 (matched cohort) | Positive balance on days 2–3 associated with higher 28-day mortality |
 | 3 | Meyhoff TS, et al. (CLASSIC) *N Engl J Med* 2022;386:2459–70 | Large RCT, septic shock, no difference in 90-day mortality |
 | 4 | Shapiro NI, et al. (CLOVERS) *N Engl J Med* 2023;388:499–510 | Large RCT, sepsis-induced hypotension, restrictive vs liberal, no difference in 90-day death before discharge |
 | 5 | Evans L, et al. Surviving Sepsis Campaign guidelines 2021. *Crit Care Med* 2021;49:e1063–e1143 | Current guideline; shows the remaining uncertainty |
 
-*Instructor note:* check citation details against PubMed before distributing; groups must verify every reference themselves (practise exactly that habit).
+*Instructor note:* check citation details against PubMed before distributing. Groups must verify every reference themselves, which is exactly the habit to practise.
 
 **Marking guide for circulating (not a grade)**
 | Element | Good | Needs work |
@@ -151,6 +151,6 @@ Continuing the worked model from Session 1 (the feasible rewrite of the running 
 
 * * *
 
-## Exit question — answers
+## Exit question: answers
 1. **OR** gives more hits.
-2. Paper 1's primary outcome was **cumulative fluid balance at day 5 (ml/kg)** — not mortality.
+2. Paper 1's primary outcome was **cumulative fluid balance at day 5 (ml/kg)**, not mortality.

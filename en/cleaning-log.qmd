@@ -3,10 +3,10 @@ title: "Cleaning log"
 ---
 
 ::: {.simulated}
-**Simulated data — not real patients.** FLUID-ICU is an invented study: every value was produced by a computer program with a fixed random seed. It does not describe any real patient, hospital or ICU. Any manuscript written from it must say that the data are simulated and must never be submitted as real research.
+**Simulated data, not real patients.** FLUID-ICU is an invented study: every value was produced by a computer program with a fixed random seed. It does not describe any real patient, hospital or ICU. Any manuscript written from it must say that the data are simulated and must never be submitted as real research.
 :::
 
-> **SIMULATED DATA - NOT REAL PATIENTS.** This log belongs to the teaching dataset FLUID-ICU.
+> **SIMULATED DATA: NOT REAL PATIENTS.** This log belongs to the teaching dataset FLUID-ICU.
 
 | | |
 |---|---|
@@ -50,9 +50,9 @@ title: "Cleaning log"
 
 | Query | Patient | Variable | Value in raw file | Status |
 |---|---|---|---|---|
-| Q-001 | FLU-529 (ICU B) | Age | 210 | Open - set to missing |
-| Q-002 | FLU-277 (ICU C) | Weight | 7 kg | Open - set to missing |
-| Q-003 | FLU-282 (ICU A) | Fluid out, day 2 | -2990 ml | Open - set to missing |
-| Q-004 | ICU C | Lactate unit | mg/dL | Confirmed by site lab - converted |
+| Q-001 | FLU-529 (ICU B) | Age | 210 | Open; set to missing |
+| Q-002 | FLU-277 (ICU C) | Weight | 7 kg | Open; set to missing |
+| Q-003 | FLU-282 (ICU A) | Fluid out, day 2 | -2990 ml | Open; set to missing |
+| Q-004 | ICU C | Lactate unit | mg/dL | Confirmed by site lab; converted |
 
 *Teaching note:* in a real study the site would correct the source record and the database, and the cleaning script would be re-run. Here the queries stay open so that the clean file is fixed for the course.
