@@ -4,15 +4,15 @@ title: "Session 6: Live-demo script"
 
 [Download the PDF](files/sessions/s6_demo.pdf) · [Back to Session 6](session6.qmd)
 
-**Foundations of Clinical Research** · Week 6, Saturday · Neudata · instructor script
+**Foundations of Clinical Research** · Week 6, Saturday 19:30 to 22:30 (online) · Neudata · instructor script
 
 | | Part A: sample size | Part B: compare groups | Part C: models and missing data |
 |---|---|---|---|
-| **Slot** | 6.1, after the slide *Sample size: bigger effect, less noise* (about 0:35) | 6.2 (about 0:52) | 6.4, while showing its slides (about 2:00) |
-| **Duration** | 8 min | 6 min | woven into the 6.4 slides (about 8 min of R in total, optional) |
+| **Slot** | 6.1, after the slide *Sample size: bigger effect, less noise* (about 20:05) | 6.2 (about 20:21) | 6.4, while showing its slides (21:30 to 21:48) |
+| **Duration** | 5 min (Steps 2, 3 and one change; full version 8 min if time allows) | 6 min | woven into the 6.4 slides (about 8 min of R in total, optional) |
 | **Tool** | free online calculator (e.g. OpenEpi) + `Course/Resources/tools/sample_size_calculator.xlsx` | `Course/Data/R/03_compare.R` | `Course/Data/R/04_models.R`, `05_missing.R` |
 
-Participants **watch and predict**. They never calculate or run code. FLUID-ICU is **simulated**, and all its numbers below come from `Course/Data/key_results.md`.
+Participants **watch your shared screen and predict in the chat**. They never calculate or run code. FLUID-ICU is **simulated**, and all its numbers below come from `Course/Data/key_results.md`.
 
 
 * * *
@@ -21,13 +21,15 @@ Participants **watch and predict**. They never calculate or run code. FLUID-ICU 
 
 - [ ] Browser tab on the online calculator, zoomed to 150%, with the spreadsheet open on sheet `3_Means` as fallback.
 - [ ] `Course/Data/FLUID-ICU.Rproj` open. Run `03_compare.R`, `04_models.R` and `05_missing.R` once end to end the night before (`05_missing.R` runs 20 imputations: allow about a minute).
-- [ ] Fallback figures open: `Course/Resources/figures/en/data/` (`crude_vs_adjusted.png`, `forest_adjusted.png`, `km_balance.png`, `missing_lactate.png`, `cc_vs_mi.png`) and my comparison table `Course/Resources/figures/en/sat3/fluid_icu_tests.png`.
-- [ ] Flip chart: the four sample-size inputs (expected effect · noise (SD) · alpha · power) + drop-out.
+- [ ] Fallback figures open: `Course/Resources/figures/en/data/` (`crude_vs_adjusted.png`, `forest_adjusted.png`, `km_balance.png`, `missing_lactate.png`, `cc_vs_mi.png`) (the comparison table is now a native slide table, *FLUID-ICU: four outcomes, four comparisons*).
+- [ ] A slide or shared document listing the four sample-size inputs (expected effect, noise (SD), alpha, power) plus drop-out.
 
 
 * * *
 
-## Part A: Sample size in 8 minutes (online calculator + spreadsheet)
+## Part A: Sample size in 5 minutes (online calculator + spreadsheet)
+
+In the 5-minute version run Steps 2 and 3 and one change from Step 4 (power 90%). Say Steps 1 and 5 in one sentence each. Use the full 8-minute version only if the class is ahead of time.
 
 **Step 1: Frame it (1 min).** *"Every sample-size calculation needs the same ingredients: what you expect in each group, how noisy the measurement is, the false-alarm risk you accept (alpha) and how sure you want to be of detecting a real effect (power). The software does the arithmetic. The ingredients are your clinical job."*
 
@@ -38,7 +40,7 @@ Expected: **22 per group (44 total)**. Adding 10% for deaths gives 25 per group,
 Expected per group: Fleiss **356**, with continuity correction **376** (the tool may show ±1–2; Kelsey about 358). Spreadsheet `2_Proportions`: B20 = 356, B21 = 376, after 10% loss B22 = 396 per group, B23 = 792 total.
 *"Same clinical question, different outcome: fluid balance needed 50 patients, mortality needs almost 800."*
 
-**Step 4: Change one input at a time (2 min).** Ask the room to predict up or down first.
+**Step 4: Change one input at a time (2 min).** Ask the class to predict up or down in the chat first.
 
 | Change (two proportions, Fleiss, no correction) | n per group | Message |
 |---|:-:|---|
@@ -57,7 +59,7 @@ Link to FLUID-ICU: its SAP (section 11) states that about 600 patients give abou
 
 ## Part B: Comparing two groups in FLUID-ICU (03_compare.R, 6 minutes)
 
-Before each block, ask the room for the test using the decision chart.
+Before each block, ask the class for the test in the chat, using the decision table.
 
 | Block | Outcome (type) | Test | Expected output (key_results.md) |
 |---|---|---|---|

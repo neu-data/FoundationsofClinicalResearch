@@ -2,95 +2,91 @@
 title: "Buổi 5: Kịch bản trình diễn"
 ---
 
-::: {.lang-note}
-Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
-:::
+[Tải bản PDF](files/sessions/s5_demo_VN.pdf) · [Quay lại Buổi 5](session5.qmd)
 
-[Tải bản PDF](files/sessions/s5_demo.pdf) · [Quay lại Buổi 5](session5.qmd)
+**Nền tảng Nghiên cứu Lâm sàng** · Tuần 5, Thứ Bảy 19:30 đến 22:30 (trực tuyến) · Neudata · kịch bản cho giảng viên
 
-**Foundations of Clinical Research** · Week 5, Saturday · Neudata · instructor script
-
-| | Part A: cleaning | Part B: Table 1 and figures |
+| | Phần A: làm sạch | Phần B: Bảng 1 và biểu đồ |
 |---|---|---|
-| **Slot** | 5.2 *Meet the course dataset* (about 0:55 on the clock) | 5.4 *Describe the course dataset* (about 2:02) |
-| **Duration** | 8 minutes | 6 minutes |
+| **Thời điểm** | 5.2 *Làm quen bộ dữ liệu khóa học* (khoảng 20:25) | 5.4 *Mô tả bộ dữ liệu khóa học* (khoảng 21:31) |
+| **Thời lượng** | 8 phút | 6 phút |
 | **Script** | `Course/Data/R/01_clean.R` | `Course/Data/R/02_describe.R` |
-| **Participants** | watch and predict (they do not run R) | same |
+| **Học viên** | theo dõi màn hình chia sẻ của giảng viên và dự đoán trong khung chat (học viên không chạy R) | như trên |
 
-> **FLUID-ICU is SIMULATED.** Say so every time you open the data: no real patient, hospital or country. All numbers below are from `Course/Data/key_results.md` and `Course/Data/cleaning_log.md`.
-
-
-* * *
-
-## Before the session (night before + 10 minutes before)
-
-- [ ] R (4.x) and RStudio installed on the projector laptop; packages: tidyverse, janitor, gtsummary, flextable, survival, survminer, mice, broom.
-- [ ] Open `Course/Data/FLUID-ICU.Rproj` (sets the working folder). Run `01_clean.R` and `02_describe.R` once end to end. Both must finish without error.
-- [ ] Increase the editor and console font (Tools → Global Options → Appearance → 18–20 pt) so the back row can read.
-- [ ] Keep the fallback figures open in an image viewer: `Course/Resources/figures/en/data/` (`raw_vs_clean.png`, `table1_snapshot.png`, `fluid_balance_hist.png`, `sofa_by_group.png`, `los_skewed.png`) and `Course/Data/output/figures/`.
-- [ ] Open `Course/Data/cleaning_log.md` and `data_dictionary.md` in a browser tab: you will show them.
-
-**Rules of the demo:** run one block at a time (Ctrl+Enter). Before each block, ask the room *"what do you expect?"* After it, say *what was fixed and that it goes in the log*. Never type new code live, because the scripts are complete.
+> **FLUID-ICU là dữ liệu MÔ PHỎNG.** Nhắc lại điều này mỗi lần mở dữ liệu: không có người bệnh, bệnh viện hay quốc gia thật nào. Mọi con số dưới đây lấy từ `Course/Data/key_results.md` và `Course/Data/cleaning_log.md`.
 
 
 * * *
 
-## Part A: From raw to clean (01_clean.R, 8 minutes)
+## Trước buổi học (tối hôm trước và 10 phút trước giờ học)
 
-| Step (script block) | What you show | Expected output | Say |
+- [ ] Đã cài R (4.x) và RStudio trên máy tính dùng để chia sẻ màn hình; các gói: tidyverse, janitor, gtsummary, flextable, survival, survminer, mice, broom.
+- [ ] Mở `Course/Data/FLUID-ICU.Rproj` (đặt thư mục làm việc). Chạy trọn `01_clean.R` và `02_describe.R` một lần từ đầu đến cuối. Cả hai phải chạy xong không lỗi.
+- [ ] Tăng cỡ chữ của cửa sổ soạn thảo và cửa sổ console (Tools, Global Options, Appearance: 18 đến 20 pt) để học viên đọc được trên màn hình nhỏ. Chỉ chia sẻ cửa sổ RStudio.
+- [ ] Mở sẵn các hình dự phòng trong trình xem ảnh: `Course/Resources/figures/vi/data/` (`raw_vs_clean.png`, `table1_snapshot.png`, `fluid_balance_hist.png`, `sofa_by_group.png`, `los_skewed.png`; bản tiếng Anh ở `Course/Resources/figures/en/data/`) và `Course/Data/output/figures/`.
+- [ ] Mở `Course/Data/cleaning_log.md` và `data_dictionary.md` trong một thẻ trình duyệt: giảng viên sẽ cho lớp xem hai tệp này.
+
+**Quy tắc khi trình diễn:** chạy từng khối một (Ctrl+Enter). Trước mỗi khối, hỏi cả lớp *"anh chị dự đoán sẽ thấy gì?"* và đọc hai hoặc ba câu trả lời trong khung chat. Sau mỗi khối, nói *vấn đề nào vừa được sửa và việc sửa đó được ghi vào nhật ký*. Không bao giờ gõ code mới trực tiếp, vì các script đã hoàn chỉnh.
+
+
+* * *
+
+## Phần A: Từ dữ liệu thô đến dữ liệu sạch (01_clean.R, 8 phút)
+
+| Bước (khối trong script) | Cho lớp xem | Kết quả dự kiến | Nói |
 |---|---|---|---|
-| 0. Read raw as text | `dim(raw)`, `glimpse(raw)` | **623 rows**, 29 columns, everything `<chr>` | "The study enrolled 620 patients. Why 623 rows?" |
-| 1. Column names | `names(dat)` | short lower-case names (`map_mmhg`, `vent_free_days_28`) | "Names without spaces: same in every script." |
-| 2. Duplicates | `get_dupes(study_id)` | 3 study IDs appear twice, identical rows; after `distinct()` **620** | "Each patient counted once." |
-| 3. Sites | `count(site)` before/after | variants such as `icu a`, `ICU-A` → 4 sites | "Otherwise R sees many different ICUs." |
-| 4. Dates | the three formats | `2023-03-14`, `14/03/2023`, `14-Mar-2023` → one date; 0 failures | "Is 03/04 March or April? Never guess." |
-| 5–6. Sex and yes/no | `tabyl()` before/after | many spellings (M, m, male, F, f, " Female"; Y, 1, yes) → `Male/Female`, `Yes/No` | "1 and Yes must mean the same thing." |
-| 7–8. Numbers and codes | `summary()` of lactate, MAP, APACHE II | maxima of **999**, minima of **-99** → set to NA | "A lactate of 999 would wreck the mean." |
-| 9. Units | lactate median **by ICU** | ICU C about 9 times higher (mg/dL) → divided by 9.01 | "Found only because we summarised by ICU. Ask the site lab." |
-| 10. Impossible values | range checks | age 210, weight 7 kg, a negative fluid output → NA + query; patient kept | "We cannot guess 21 or 71. We never delete the patient." |
-| 12. Derived variables | the fluid-balance formula | `cum_fluid_balance_d3_ml_kg`, `positive_balance_d3`, `aki_any` computed | "Derived values are calculated, never typed." |
-| 13. What is left | `colSums(is.na(dat))` | lactate 93 missing, a handful elsewhere | "These are REAL gaps. We handle them in Session 6." |
-| 14. Reproducibility | final `cat()` | `Cleaned data identical to the reference clean file: TRUE` / `byte-for-byte identical: TRUE` | "Anyone can re-run this and get exactly the same data." |
+| 0. Đọc dữ liệu thô dạng văn bản | `dim(raw)`, `glimpse(raw)` | **623 dòng**, 29 cột, tất cả là `<chr>` | "Nghiên cứu tuyển 620 người bệnh. Vì sao lại có 623 dòng?" |
+| 1. Tên cột | `names(dat)` | tên ngắn, chữ thường (`map_mmhg`, `vent_free_days_28`) | "Tên không có dấu cách: giống nhau trong mọi script." |
+| 2. Bản ghi trùng | `get_dupes(study_id)` | 3 mã nghiên cứu xuất hiện hai lần, các dòng giống hệt nhau; sau `distinct()` còn **620** | "Mỗi người bệnh chỉ được đếm một lần." |
+| 3. Đơn vị ICU | `count(site)` trước/sau | các biến thể như `icu a`, `ICU-A`: gộp thành 4 ICU | "Nếu không, R sẽ coi đó là nhiều ICU khác nhau." |
+| 4. Ngày tháng | ba định dạng | `2023-03-14`, `14/03/2023`, `14-Mar-2023`: thành một kiểu ngày; 0 lỗi chuyển đổi | "03/04 là tháng Ba hay tháng Tư? Không bao giờ đoán." |
+| 5–6. Giới tính và có/không | `tabyl()` trước/sau | nhiều cách viết (M, m, male, F, f, " Female"; Y, 1, yes) thành `Male/Female`, `Yes/No` | "1 và Yes phải có cùng một nghĩa." |
+| 7–8. Số và mã | `summary()` của lactat, MAP, APACHE II | giá trị lớn nhất **999**, nhỏ nhất **-99**: đặt là NA | "Một giá trị lactat 999 sẽ làm hỏng số trung bình." |
+| 9. Đơn vị đo | trung vị lactat **theo ICU** | ICU C cao gấp khoảng 9 lần (mg/dL): chia cho 9.01 | "Chỉ phát hiện được vì ta tóm tắt theo từng ICU. Hỏi lại phòng xét nghiệm của ICU đó." |
+| 10. Giá trị vô lý | kiểm tra khoảng giá trị | tuổi 210, cân nặng 7 kg, lượng dịch ra âm: đặt là NA và gửi câu hỏi xác minh; vẫn giữ người bệnh | "Ta không thể đoán là 21 hay 71. Không bao giờ xóa người bệnh." |
+| 12. Biến dẫn xuất | công thức cân bằng dịch | tính `cum_fluid_balance_d3_ml_kg`, `positive_balance_d3`, `aki_any` | "Giá trị dẫn xuất được tính ra, không bao giờ gõ tay." |
+| 13. Phần còn lại | `colSums(is.na(dat))` | lactat thiếu 93, rải rác vài giá trị thiếu ở biến khác | "Đây là những khoảng trống THẬT. Ta xử lý chúng ở Buổi 6." |
+| 14. Tính tái lập | lệnh `cat()` cuối cùng | `Cleaned data identical to the reference clean file: TRUE` / `byte-for-byte identical: TRUE` | "Ai cũng có thể chạy lại và được đúng dữ liệu này." |
 
-**If short of time:** run Steps 0, 2, 9, 10 and 14 only (4 minutes) and show the cleaning log for the rest.
+**Nếu thiếu thời gian:** chỉ chạy các Bước 0, 2, 9, 10 và 14 (4 phút) và cho xem nhật ký làm sạch cho phần còn lại.
 
-**Close Part A** by opening `cleaning_log.md`: *"Every block you saw is one row here: problem, how many, what we did, why."* Then show the slide *From 623 rows to 527 complete cases* (620 enrolled → 618 with a day-3 balance → 527 complete cases).
+**Kết thúc Phần A** bằng cách mở `cleaning_log.md`: *"Mỗi khối anh chị vừa thấy là một dòng ở đây: vấn đề, bao nhiêu trường hợp, ta đã làm gì, vì sao."* Sau đó chiếu slide *Từ 623 dòng đến 527 trường hợp đầy đủ* (620 người được tuyển, rồi 618 người có cân bằng dịch ngày 3, rồi 527 trường hợp đầy đủ).
 
 
 * * *
 
-## Part B: Table 1 and figures (02_describe.R, 6 minutes)
+## Phần B: Bảng 1 và biểu đồ (02_describe.R, 6 phút)
 
-| Block | What you show | Expected output (key_results.md) | Say |
+| Khối | Cho lớp xem | Kết quả dự kiến (key_results.md) | Nói |
 |---|---|---|---|
-| 1. Load | `dim(icu)`, `count(positive_balance_d3)` | 620 patients, positive balance **373/618 (60.4%)**, 2 without a balance | "618, not 620: two patients have no computable balance." |
-| 2. Shape first | mean/SD of age, median/IQR of lactate; quick histograms | age mean **62.6 (SD 15.2)**, lactate skewed | "Symmetric: mean (SD). Skewed: median (IQR)." |
-| 3. Table 1 | the gtsummary table by group | negative n = 245, positive n = 373; SOFA **6 (4 to 8) vs 8 (6 to 10)**; vasopressor **24.9% vs 55.0%**; ventilation **39.6% vs 57.9%**; lactate **2.2 vs 2.9** mmol/L; heart failure **22.0% vs 11.5%**; missing counts shown; **no p-values** | "Were the groups alike at the start? No: the positive group was sicker." |
-| 4. Histogram | fluid balance by group | median **8.8 ml/kg (IQR -10.3 to 26.2)** | "Continuous exposure, cut at 0." |
-| 5. Boxplot | SOFA by group, with dots | medians 6 vs 8 | "Show every patient." |
-| 6. Bar chart | infection source, sorted | respiratory most common | "Categories: sorted bars, not a 3-D pie." |
-| 7. Outcomes | described, not compared | 28-day mortality **179/620 (28.9%)**, ICU stay mean 7.3 vs median 6.0 days | "Described today, compared next Saturday." |
+| 1. Nạp dữ liệu | `dim(icu)`, `count(positive_balance_d3)` | 620 người bệnh, cân bằng dịch dương **373/618 (60.4%)**, 2 người không có giá trị cân bằng dịch | "618, không phải 620: hai người bệnh không tính được cân bằng dịch." |
+| 2. Xem hình dạng trước | trung bình/SD của tuổi, trung vị/IQR của lactat; biểu đồ tần suất nhanh | tuổi trung bình **62.6 (SD 15.2)**, lactat lệch | "Đối xứng: trung bình (SD). Lệch: trung vị (IQR)." |
+| 3. Bảng 1 | bảng gtsummary theo nhóm | nhóm âm n = 245, nhóm dương n = 373; SOFA **6 (4 đến 8) so với 8 (6 đến 10)**; thuốc vận mạch **24.9% so với 55.0%**; thở máy **39.6% so với 57.9%**; lactat **2.2 so với 2.9** mmol/L; suy tim **22.0% so với 11.5%**; có hiển thị số thiếu; **không có giá trị p** | "Lúc ban đầu các nhóm có giống nhau không? Không: nhóm dương nặng hơn." |
+| 4. Biểu đồ tần suất | cân bằng dịch theo nhóm | trung vị **8.8 ml/kg (IQR -10.3 đến 26.2)** | "Phơi nhiễm liên tục, cắt tại 0." |
+| 5. Biểu đồ hộp | SOFA theo nhóm, có chấm điểm | trung vị 6 so với 8 | "Cho thấy từng người bệnh." |
+| 6. Biểu đồ cột | nguồn nhiễm khuẩn, đã sắp xếp | hô hấp thường gặp nhất | "Biến phân loại: cột đã sắp xếp, không dùng biểu đồ tròn 3-D." |
+| 7. Kết cục | mô tả, chưa so sánh | tử vong 28 ngày **179/620 (28.9%)**, thời gian nằm ICU trung bình 7.3 so với trung vị 6.0 ngày | "Hôm nay mô tả, thứ Bảy tới mới so sánh." |
 
-**Close Part B:** *"This Table 1 is in every group's results pack. Your worksheet now: read it as a reviewer would."* Then move to Exercise 6.
+**Kết thúc Phần B:** *"Bảng 1 này có trong mọi gói kết quả, từ Q1 đến Q5. Giờ chúng ta cùng đọc nó như một người phản biện."* Sau đó chuyển sang phần cả lớp cùng đọc Bảng 1 (Bài tập 6).
 
 
 * * *
 
-## Fallback plan
+## Kế hoạch dự phòng
 
-| Problem | Do this |
+| Sự cố | Cách xử lý |
 |---|---|
-| R or a package fails | Show `raw_vs_clean.png` and talk through the problems (Part A); show `table1_snapshot.png`, `fluid_balance_hist.png`, `sofa_by_group.png` (Part B). Teaching points are identical. |
-| Projector cannot show RStudio legibly | Use the PNG figures and `cleaning_log.md` in a browser at 150% zoom. |
-| Running late | Part A: Steps 0, 2, 9, 10, 14. Part B: blocks 3 and 5 only. |
-| A participant asks to run it themselves | Point to `Course/Data/README.md` and the free *Clinical Data Analysis in R* course, and offer to help after the session. |
+| R hoặc một gói bị lỗi | Chiếu `raw_vs_clean.png` và giải thích các vấn đề (Phần A); chiếu `table1_snapshot.png`, `fluid_balance_hist.png`, `sofa_by_group.png` (Phần B). Các ý giảng dạy giữ nguyên. |
+| Chia sẻ màn hình không hiển thị RStudio đủ rõ | Dùng các hình PNG và `cleaning_log.md` trong trình duyệt với mức thu phóng 150%. |
+| Bị trễ giờ | Phần A: Bước 0, 2, 9, 10, 14. Phần B: chỉ khối 3 và 5. |
+| Một học viên muốn tự chạy | Giới thiệu `Course/Data/README.md` (bản tiếng Việt: `Course/Data/README_VN.md`) và khóa học miễn phí *Clinical Data Analysis in R*, và đề nghị hỗ trợ sau buổi học. |
 
-## Anticipated questions
+## Các câu hỏi có thể gặp
 
-**"Is this real data?"** No. It is simulated, designed to behave like ICU data and to show the classic problems. Any manuscript must say so.
+**"Đây có phải dữ liệu thật không?"** Không. Đây là dữ liệu mô phỏng, được thiết kế để giống dữ liệu ICU và để minh họa các vấn đề kinh điển. Bản thảo nào dùng dữ liệu này cũng phải nói rõ điều đó.
 
-**"Why not fix the errors in Excel?"** Hand edits leave no trace and cannot be repeated, and one wrong paste is invisible. A script plus a log is checkable by a reviewer and repeatable by anyone.
+**"Sao không sửa lỗi trong Excel?"** Sửa tay không để lại dấu vết và không lặp lại được, và một lần dán nhầm thì không ai thấy. Script kèm nhật ký thì người phản biện kiểm tra được và ai cũng chạy lại được.
 
-**"Why set age 210 to missing instead of guessing 21?"** It could be 21, 71 or 10, and guessing invents data. Set to missing, query the site, correct only with the source document.
+**"Sao đặt tuổi 210 là thiếu thay vì đoán là 21?"** Có thể là 21, 71 hay 10, và đoán là tự tạo ra dữ liệu. Đặt là thiếu, hỏi lại ICU đó, và chỉ sửa khi có tài liệu gốc.
 
-**"Why no p-values in Table 1?"** Table 1 describes the groups. The SAP says so explicitly. In an RCT any difference is chance. In a cohort it is confounding to be adjusted for, not tested.
+**"Sao Bảng 1 không có giá trị p?"** Bảng 1 mô tả các nhóm. SAP ghi rõ điều này. Trong thử nghiệm ngẫu nhiên có đối chứng, mọi khác biệt đều do ngẫu nhiên. Trong nghiên cứu thuần tập, khác biệt là yếu tố gây nhiễu cần hiệu chỉnh, không phải để kiểm định.

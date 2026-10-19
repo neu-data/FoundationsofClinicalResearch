@@ -2,23 +2,25 @@
 title: "Session 6: Exercise sheet"
 ---
 
-[Download the PDF](files/sessions/s6_exercises.pdf) · [Back to Session 6](session6.qmd)
+[Download the PDF](files/sessions/s6_exercises.pdf) · [Download the Word file (to fill in)](files/sessions/s6_exercises.docx) · [Back to Session 6](session6.qmd)
 
-**Foundations of Clinical Research** · Week 6, Saturday · Neudata · #ClearDataClearImpact
+**Foundations of Clinical Research · Level 1** · Neudata · *#ClearDataClearImpact* · Week 6 · Saturday 5 December 2026 · online, 19:30–22:30
 
-No calculator is needed. Exercises marked **[DS]** use the course dataset FLUID-ICU (simulated) and your group's results pack. Your answers to Exercises 4 and 8 become the core of your manuscript's Results (Session 7). Exercise 9 completes Part 3 of your proposal.
+Name: ______________________________   Department: ______________________________
+
+This sheet is sent by email before the session, as a Word file and as a PDF. Type your answers into the Word file (or print the PDF). In class, the whole class works through Exercises 4 and 8 together for Question 1 (Q1) in full and Q2 to Q5 briefly (answers in the chat or a poll; the instructor types the class answer on the shared screen). Afterwards, complete Exercises 4 and 8 for the ONE question you chose for your manuscript, using its results pack (`Course/Data/results_packs/Results_Pack_Q1` to `Q5`, PDF): your answers become the core of your manuscript's Results (Session 7). The other exercises are homework or self-check. No calculator is needed. Exercises marked **[FLUID-ICU]** use the course dataset FLUID-ICU (simulated). Exercise 9 completes Part 3 of your own proposal.
 
 | # | Exercise | When | Time |
 |---|---|---|---|
 | 1 | True or false: CIs, p-values and multiple tests | 6.1 / homework | 5 min |
 | 2 | Choose the test | 6.1 check / homework | 5 min |
 | 3 | Match r to the scatter plots | homework | 3 min |
-| 4 | [DS] Interpret your group's comparison | 6.2 group worksheet | 7 min |
-| 5 | Read a regression table | 6.3 check (pairs) | 5 min |
+| 4 | [FLUID-ICU] Interpret the comparison for your chosen question | 6.2 whole-class task (Q1), then homework for your question | 7 min |
+| 5 | Read a regression table (another example) | homework (the 6.3 check uses the slide table) | 5 min |
 | 6 | Read a Kaplan–Meier curve | homework | 5 min |
 | 7 | Why is it missing? MCAR, MAR or MNAR | homework | 5 min |
-| 8 | [DS] Interpret your group's model | 6.4 group worksheet | 7 min |
-| 9 | Proposal builder 6 worksheet | proposal builder | 30 min |
+| 8 | [FLUID-ICU] Interpret the model for your chosen question | 6.4 whole-class task (Q1), then homework for your question | 7 min |
+| 9 | Proposal builder 6 worksheet (your own proposal) | proposal builder: instructor models, you draft; finish as homework | 30 min |
 
 Figures for Exercises 3 and 6 are in `Resources/figures/en/sat3/` (Vietnamese versions in `.../vi/sat3/`).
 
@@ -43,13 +45,15 @@ Circle **T** (true) or **F** (false). Be ready to explain each "false" in one se
 | 10 | p = 0.06 shows "a trend towards significance". | T / F |
 | 11 | If you test 20 different outcomes and none has a real effect, you will usually still find at least one with p < 0.05. | T / F |
 | 12 | Lactate measured in the same 40 patients at admission and 6 hours later should be compared with an unpaired t-test. | T / F |
+| 13 | A trial finds two-sided p = 0.08 in the expected direction, so the authors may report a one-sided p = 0.04 instead. | T / F |
+| 14 | A non-inferiority trial is simply a superiority trial analysed with a one-sided test. | T / F |
 
 
 * * *
 
 ## Exercise 2: Choose the test
 
-Use the decision chart from the slides (outcome type → shape or counts → paired or not). Write the test and one reason.
+Use the decision table from the slides (first the outcome type, then the shape or counts, then paired or not). Write the test and one reason.
 
 | # | Scenario | Test | Why? |
 |---|---|---|---|
@@ -81,9 +85,9 @@ Bonus: a bedside glucose meter and the laboratory have r = 0.97 in 50 patients. 
 
 * * *
 
-## Exercise 4: [DS] Interpret your group's comparison (6.2)
+## Exercise 4: [FLUID-ICU] Interpret the comparison for your chosen question (6.2)
 
-Use the comparison table in your results pack.
+In class we do this together for Q1. Then complete it for your chosen question, using the comparison table in its results pack.
 
 | | Your answer |
 |---|---|
@@ -102,9 +106,9 @@ Use the comparison table in your results pack.
 
 * * *
 
-## Exercise 5: Read a regression table
+## Exercise 5: Read a regression table (another example, homework)
 
-A (mock) cohort study of 600 adults admitted to a medical ICU asked which factors are associated with **hospital-acquired delirium** (yes/no) during the ICU stay.
+In class we read the running-example table on the slides. For extra practice: a (mock) cohort study of 600 adults admitted to a medical ICU asked which factors are associated with **hospital-acquired delirium** (yes/no) during the ICU stay.
 
 **Table 3. Multivariable logistic regression: factors associated with delirium**
 
@@ -163,14 +167,14 @@ For each scenario, choose the most likely mechanism (**MCAR**, **MAR** or **MNAR
 | e | A form version used in the first month did not include the "smoking" question. | | |
 | f | Older patients are less likely to return a quality-of-life questionnaire at 3 months; age is recorded for all. | | |
 
-*(Sensitivity analyses, which test whether missing data change the answer, are covered hands-on in Level 2.)*
+*(Sensitivity analyses, which test whether missing data change the answer, are covered hands-on in Level 3, Module H.)*
 
 
 * * *
 
-## Exercise 8: [DS] Interpret your group's model: crude vs adjusted, complete case vs imputation (6.4)
+## Exercise 8: [FLUID-ICU] Interpret the model for your chosen question: crude vs adjusted, complete case vs imputation (6.4)
 
-Use the regression table and the missing-data table in your results pack.
+In class we do this together for Q1. Then complete it for your chosen question, using the regression table and the missing-data table in its results pack.
 
 **Part A: crude vs adjusted**
 
@@ -183,7 +187,7 @@ Use the regression table and the missing-data table in your results pack.
 2. How much did the estimate move after adjustment, and in which direction? What does that tell you about confounding by indication?
 3. Does the adjusted 95% CI include the "no effect" value (1 for a ratio, 0 for a difference)?
 
-**Part B: complete case vs multiple imputation** *(read the result from your pack; it was produced by the example script `Course/Data/R/05_missing.R`. How imputation works is covered in Level 2.)*
+**Part B: complete case vs multiple imputation** *(read the result from your pack; it was produced by the example script `Course/Data/R/05_missing.R`. Level 1 does not teach how imputation works; Level 2 touches on it and Level 3, Module H covers it in depth.)*
 
 4. How many patients were in the complete-case model, and how many in the multiple-imputation model? Who was left out of the complete-case analysis?
 5. Is the multiple-imputation estimate close to the complete-case estimate?
@@ -199,9 +203,9 @@ Use the regression table and the missing-data table in your results pack.
 
 * * *
 
-## Exercise 9: Proposal builder 6 worksheet (group, 30 minutes)
+## Exercise 9: Proposal builder 6 worksheet (individual)
 
-Your **own** question again. Copy the answers into Part 3 of the proposal template.
+Your **own** question again. The instructor models each part on the running example; you draft the sample-size inputs in class (8 minutes) and finish the rest as homework. Copy the answers into Part 3 of your own proposal template (`Course/Templates/Research_Proposal_Template.docx`).
 
 ### 9.1 Sample-size statement (8 min)
 
@@ -214,9 +218,10 @@ Your **own** question again. Copy the answers into Part 3 of the proposal templa
 | Power | 80% / 90% | |
 | Expected drop-out | | |
 
-**Sentence** (use the spreadsheet `Resources/tools/sample_size_calculator.xlsx` or ask the facilitator):
+**Sentence** (use the spreadsheet `Resources/tools/sample_size_calculator.xlsx` or email the instructor):
 
 > Assuming ______ in the control group and ______ in the intervention group, ______ patients per group give ____% power at a two-sided alpha of 5%; allowing ____% loss, we will recruit ______ patients in total.
+
 ### 9.2 Plain-language analysis plan (10 min)
 
 | Step | What we will do |
@@ -243,6 +248,4 @@ Expected number of events: ____  Maximum number of model terms (about 1 per 10 e
 |---|---|
 | Which variables are most likely to be missing, and why? (MCAR / MAR / MNAR thinking) | |
 | How will we prevent it? (form design, training, weekly checks, chasing outcome status) | |
-| Which variables may be missing, and why? | |
-| How missing data will be reported (how many, in whom) | |
 | How will we report missingness? (n missing per variable, flow diagram) | |

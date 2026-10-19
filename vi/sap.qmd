@@ -2,156 +2,152 @@
 title: "Kế hoạch phân tích thống kê (FLUID-ICU)"
 ---
 
-::: {.lang-note}
-Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
-:::
-
 ::: {.simulated}
-**Dữ liệu mô phỏng, không phải bệnh nhân thật.** FLUID-ICU là một nghiên cứu giả định: mọi giá trị đều do chương trình máy tính tạo ra với hạt giống ngẫu nhiên cố định. Dữ liệu không mô tả bất kỳ bệnh nhân, bệnh viện hay ICU thật nào. Mọi bản thảo viết từ bộ dữ liệu này phải ghi rõ dữ liệu là mô phỏng và không bao giờ được nộp như một nghiên cứu thật.
+**Dữ liệu mô phỏng, không phải người bệnh thật.** FLUID-ICU là một nghiên cứu giả định: mọi giá trị đều do chương trình máy tính tạo ra với hạt giống ngẫu nhiên cố định. Dữ liệu không mô tả bất kỳ người bệnh, bệnh viện hay ICU thật nào. Mọi bản thảo viết từ bộ dữ liệu này phải ghi rõ dữ liệu là mô phỏng và không bao giờ được nộp như một nghiên cứu thật.
 :::
 
-[Tải bản PDF](files/data/SAP_FLUID-ICU.pdf)
+[Tải bản PDF](files/data/SAP_FLUID-ICU_VN.pdf)
 
-> **SIMULATED STUDY: FOR TEACHING.** FLUID-ICU and its data are invented. This SAP shows what a plan written **before** the analysis looks like. It follows the 14 sections of `Course/Templates/Statistical_Analysis_Plan_Template.docx`.
+> **NGHIÊN CỨU MÔ PHỎNG: DÙNG ĐỂ GIẢNG DẠY.** FLUID-ICU và dữ liệu của nghiên cứu là hư cấu. Bản SAP này cho thấy một kế hoạch được viết **trước khi** phân tích trông như thế nào. Kế hoạch theo 14 mục của mẫu `Course/Templates/Statistical_Analysis_Plan_Template.docx`.
 
 | | |
 |---|---|
-| **Study title** | FLUID-ICU: cumulative fluid balance in the first three ICU days and outcomes in adults with sepsis. A multicentre prospective cohort study |
-| **Protocol version** | 2.0 (simulated) |
-| **SAP version / date** | 1.0, signed before database lock |
-| **Written by** | Study statistician and principal investigator (course team) |
+| **Tên nghiên cứu** | FLUID-ICU: cân bằng dịch tích lũy trong ba ngày đầu nằm ICU và kết cục ở người lớn bị nhiễm khuẩn huyết. Một nghiên cứu thuần tập tiến cứu đa trung tâm |
+| **Phiên bản đề cương** | 2.0 (mô phỏng) |
+| **Phiên bản / ngày của SAP** | 1.0, ký trước khi khóa cơ sở dữ liệu |
+| **Người viết** | Nhà thống kê của nghiên cứu và nghiên cứu viên chính (nhóm biên soạn khóa học) |
 
-## 1. Study summary and objectives
+## 1. Tóm tắt nghiên cứu và mục tiêu
 
-Multicentre prospective cohort study. Consecutive adults (18 years or older) admitted with sepsis (Sepsis-3) to 4 ICUs (ICU A-D) over 2 years (January 2023 to December 2024). Patients receive usual care; the study only records data.
+Nghiên cứu thuần tập tiến cứu đa trung tâm. Người lớn (từ 18 tuổi trở lên) nhập 4 ICU (ICU A-D) vì nhiễm khuẩn huyết (Sepsis-3), được tuyển liên tiếp trong 2 năm (tháng 1/2023 đến tháng 12/2024). Người bệnh được chăm sóc thường quy; nghiên cứu chỉ ghi nhận dữ liệu.
 
-- **Primary objective:** to estimate the association between a positive cumulative fluid balance at day 3 and 28-day all-cause mortality, adjusted for pre-specified confounders.
-- **Secondary objectives:**
-  1. association between cumulative fluid balance (ml/kg) and acute kidney injury (AKI);
-  2. association between cumulative fluid balance and ventilator-free days to day 28;
-  3. association between admission lactate and 28-day mortality, and the effect of missing lactate;
-  4. association between positive balance and ICU length of stay among 28-day survivors.
+- **Mục tiêu chính:** ước lượng mối liên quan giữa cân bằng dịch tích lũy dương vào ngày 3 và tử vong do mọi nguyên nhân trong 28 ngày, có hiệu chỉnh theo các yếu tố gây nhiễu đã xác định trước.
+- **Mục tiêu phụ:**
+  1. mối liên quan giữa cân bằng dịch tích lũy (ml/kg) và tổn thương thận cấp (AKI);
+  2. mối liên quan giữa cân bằng dịch tích lũy và số ngày không thở máy đến ngày 28;
+  3. mối liên quan giữa lactat lúc nhập ICU và tử vong 28 ngày, và ảnh hưởng của dữ liệu lactat bị thiếu;
+  4. mối liên quan giữa cân bằng dịch dương và thời gian nằm ICU ở người bệnh còn sống đến ngày 28.
 
-Each secondary objective matches one group question (Q2-Q5); the primary objective is Q1.
+Mỗi mục tiêu phụ tương ứng với một câu hỏi của khóa học (Q2-Q5); mục tiêu chính là Q1.
 
-## 2. Outcomes and their definitions
+## 2. Các kết cục và định nghĩa
 
-| Outcome | Type | Definition (variables) | Time point |
+| Kết cục | Loại | Định nghĩa (biến số) | Thời điểm |
 |---|---|---|---|
-| **Primary:** all-cause mortality | Binary | `died_28d` = Yes | Day 28 |
-| Time to death | Time-to-event | `time_to_event_28d` (days from ICU admission to death; survivors censored at 28) with `died_28d` | Up to day 28 |
-| AKI | Binary (ordinal stage) | `aki_any` = KDIGO stage >= 1 (`aki_stage`, maximum stage, ICU days 1-7) | Days 1-7 |
-| Ventilator-free days | Count 0-28 | `vent_free_days_28`; 0 if died before day 28 | Day 28 |
-| ICU length of stay | Continuous, skewed | `icu_los_days`, analysed in 28-day survivors | ICU discharge |
+| **Kết cục chính:** tử vong do mọi nguyên nhân | Nhị phân | `died_28d` = Yes | Ngày 28 |
+| Thời gian đến tử vong | Thời gian đến biến cố | `time_to_event_28d` (số ngày từ khi nhập ICU đến khi tử vong; người sống bị kiểm duyệt tại ngày 28) kèm `died_28d` | Đến ngày 28 |
+| AKI | Nhị phân (giai đoạn thứ bậc) | `aki_any` = KDIGO giai đoạn >= 1 (`aki_stage`, giai đoạn cao nhất, các ngày ICU 1-7) | Ngày 1-7 |
+| Số ngày không thở máy | Biến đếm 0-28 | `vent_free_days_28`; bằng 0 nếu tử vong trước ngày 28 | Ngày 28 |
+| Thời gian nằm ICU | Liên tục, phân phối lệch | `icu_los_days`, phân tích ở người bệnh còn sống đến ngày 28 | Khi chuyển khỏi ICU |
 
-**Exposure.** Cumulative fluid balance at day 3, `cum_fluid_balance_d3_ml_kg` = (fluid in days 1-3 - fluid out days 1-3) / admission weight (ml/kg). Analysed as binary `positive_balance_d3` (> 0 ml/kg) for the primary objective and as continuous (per 10 ml/kg) for AKI and ventilator-free days.
+**Phơi nhiễm.** Cân bằng dịch tích lũy vào ngày 3, `cum_fluid_balance_d3_ml_kg` = (dịch vào ngày 1-3 - dịch ra ngày 1-3) / cân nặng lúc nhập ICU (ml/kg). Phân tích dưới dạng biến nhị phân `positive_balance_d3` (> 0 ml/kg) cho mục tiêu chính, và dạng liên tục (mỗi 10 ml/kg) cho AKI và số ngày không thở máy.
 
-## 3. Analysis populations
+## 3. Các quần thể phân tích
 
-| Population | Definition | Used for |
+| Quần thể | Định nghĩa | Dùng cho |
 |---|---|---|
-| Enrolled | All patients after removal of duplicate records | Description, Table 1, missing-data summary, Q4 |
-| Exposure population | Enrolled patients with a computable day-3 fluid balance | Q1, Q2, Q3 |
-| Complete-case population | Exposure population with no missing value in the model variables | Adjusted models (main for Q1-Q3, Q5; sensitivity for Q4) |
-| Survivors | Exposure population alive at day 28 | Q5 |
+| Đã tuyển | Tất cả người bệnh sau khi loại các bản ghi trùng | Mô tả, Bảng 1, tóm tắt dữ liệu thiếu, Q4 |
+| Quần thể phơi nhiễm | Người bệnh đã tuyển có cân bằng dịch ngày 3 tính được | Q1, Q2, Q3 |
+| Quần thể trường hợp đầy đủ | Quần thể phơi nhiễm không thiếu giá trị nào ở các biến trong mô hình | Các mô hình hiệu chỉnh (phân tích chính cho Q1-Q3, Q5; phân tích độ nhạy cho Q4) |
+| Người sống | Quần thể phơi nhiễm còn sống tại ngày 28 | Q5 |
 
-A STROBE flow diagram will report the number at each step.
+Một lưu đồ STROBE sẽ báo cáo số người bệnh ở từng bước.
 
-## 4. Descriptive analysis (Table 1)
+## 4. Phân tích mô tả (Bảng 1)
 
-Baseline characteristics by fluid-balance group (negative vs positive), with an overall column. Continuous variables: mean (SD) if roughly symmetric (age, weight), otherwise median (IQR) (SOFA, APACHE II, lactate, MAP). Categorical variables: n (%). Number missing reported for each variable. **No p-values in Table 1**: it describes the groups; it does not test them.
+Đặc điểm ban đầu theo nhóm cân bằng dịch (âm so với dương), kèm một cột chung. Biến liên tục: trung bình (SD) nếu phân phối gần đối xứng (tuổi, cân nặng), nếu không thì trung vị (IQR) (SOFA, APACHE II, lactat, MAP). Biến phân loại: n (%). Báo cáo số giá trị bị thiếu cho từng biến. **Không có giá trị p trong Bảng 1**: bảng này mô tả các nhóm, không kiểm định chúng.
 
-## 5. Primary analysis
-
-| | |
-|---|---|
-| **Outcome** | 28-day mortality, exposure population |
-| **Method** | Multivariable logistic regression |
-| **Effect measure** | Odds ratio (positive vs negative balance) with 95% CI; the crude OR and the risk difference are also reported |
-| **Adjustment** | Age, SOFA score, lactate, vasopressor, mechanical ventilation, chronic kidney disease (see section 7) |
-| **Significance** | Two-sided, 5% level. The estimate and its CI are the result; the p-value supports it |
-
-Supportive analysis: Kaplan-Meier curves by group with numbers at risk and the log-rank test; Cox proportional-hazards model (crude and adjusted for the same confounders), hazard ratio with 95% CI; proportional hazards checked with Schoenfeld residuals (`cox.zph`).
-
-## 6. Secondary analyses (supportive / exploratory)
-
-| Objective | Summary | Test / model | Effect measure |
-|---|---|---|---|
-| AKI (Q2) | n (%) by group and by balance category (<= 0, > 0-20, > 20-40, > 40 ml/kg) | Chi-square; logistic regression, balance per 10 ml/kg, adjusted as in section 7 | OR per 10 ml/kg (95% CI) |
-| Ventilator-free days (Q3) | Median (IQR) by group; distribution shown | Mann-Whitney; linear regression, balance per 10 ml/kg, adjusted | Difference in days (95% CI); Hodges-Lehmann difference |
-| Lactate (Q4) | Median (IQR) by vital status; mortality by lactate category (< 2, 2-4, > 4 mmol/L) | Logistic regression, lactate per 1 mmol/L, adjusted for age, sex, diabetes, CKD, heart failure; second model adds SOFA | OR per 1 mmol/L (95% CI) |
-| ICU stay (Q5) | Median (IQR), survivors | Mann-Whitney; linear regression on log(ICU stay), adjusted | Ratio of geometric means (95% CI) |
-
-Group comparisons that are not in the table (age, SOFA, lactate between groups) use the t-test for symmetric variables and the Mann-Whitney test for skewed variables or scores.
-
-## 7. Confounders and adjustment
-
-Chosen **in advance** from clinical knowledge with a simple causal diagram: sicker patients receive more fluid and die more often (**confounding by indication**). Confounders: age; severity (SOFA score, lactate, vasopressor, mechanical ventilation on admission); chronic kidney disease (affects fluid prescribing and outcomes). APACHE II overlaps with SOFA and age and is not added. Variables measured after day 3 (AKI, RRT) are outcomes or mediators and are **not** adjusted for. With about 160-180 deaths and 7 model terms there are more than 20 events per term.
-
-## 8. Subgroups and interaction (pre-specified)
-
-One pre-specified effect modifier: **heart failure** (expected direction: a stronger association between positive balance and death in heart failure, because these patients tolerate fluid less well). Tested with a positive_balance_d3 x heart_failure interaction term in the primary model (Wald and likelihood-ratio tests). The ORs within each subgroup are reported with 95% CIs. A p for interaction < 0.05 will be described as evidence of effect modification needing confirmation, not as a definite finding.
-
-## 9. Multiple comparisons
-
-One primary outcome tested at 5%. Secondary outcomes and the subgroup analysis are reported with 95% CIs and interpreted as exploratory; no adjustment for multiplicity.
-
-## 10. Missing data
+## 5. Phân tích chính
 
 | | |
 |---|---|
-| **Assessment** | n (%) missing for every variable and by group; patients with and without lactate compared (SOFA, MAP, vasopressor, ICU, mortality) to judge the mechanism (MCAR vs MAR) |
-| **Expected** | Lactate missing in 10-20% (not measured in less severe patients and in the ICU without a point-of-care analyser); all other variables < 2% |
-| **Main approach** | Q1-Q3, Q5: complete case. Q4 (where lactate is the exposure): multiple imputation by chained equations (`mice`), m = 20, predictive mean matching for continuous and logistic regression for binary variables. The imputation model includes the outcome (`died_28d`), all model covariates and the predictors of missingness (SOFA, APACHE II, MAP, vasopressor, ventilation, ICU, source of infection, fluid-balance group). Results pooled with Rubin's rules |
-| **Sensitivity** | Q1 primary model repeated with multiple imputation; Q4 reported with both complete case and multiple imputation |
+| **Kết cục** | Tử vong 28 ngày, quần thể phơi nhiễm |
+| **Phương pháp** | Hồi quy logistic đa biến |
+| **Thước đo tác động** | Tỷ số chênh (OR) (cân bằng dương so với âm) kèm KTC 95%; cũng báo cáo OR thô và hiệu số nguy cơ |
+| **Hiệu chỉnh** | Tuổi, điểm SOFA, lactat, thuốc vận mạch, thở máy, bệnh thận mạn (xem mục 7) |
+| **Mức ý nghĩa** | Hai phía, mức 5%. Ước lượng và KTC của nó là kết quả; giá trị p chỉ hỗ trợ |
 
-## 11. Sample size
+Phân tích hỗ trợ: đường cong Kaplan-Meier theo nhóm kèm số người bệnh còn nguy cơ và kiểm định log-rank; mô hình hồi quy Cox nguy cơ tỷ lệ (thô và hiệu chỉnh theo cùng các yếu tố gây nhiễu), tỷ số nguy cơ tức thời (HR) kèm KTC 95%; giả định nguy cơ tỷ lệ được kiểm tra bằng phần dư Schoenfeld (`cox.zph`).
 
-FLUID-ICU enrols all eligible patients during 2 years in 4 ICUs (expected about 600). Assumptions: 28-day mortality about 20% in patients with a negative balance, about 40% of patients with a negative balance (Paper 2 and local audit). With 240 vs 360 patients and two-sided 5% significance, the study has about 80% power to detect an OR of 1.7 (20% vs 30% mortality) and about 55% power for an OR of 1.5. The study is therefore adequately powered for a moderate association only; the 95% CI will show the precision achieved.
+## 6. Các phân tích phụ (hỗ trợ / thăm dò)
 
-## 12. Software
-
-R version 4.6 with packages tidyverse, gtsummary, flextable, broom, survival, survminer, mice and janitor. Code in `Course/Data/R/` (scripts 01-06), run in order; data cleaning and analysis are fully scripted and reproducible (fixed random seeds).
-
-## 13. Table and figure shells
-
-**Table 1. Baseline characteristics by cumulative fluid balance at day 3**
-
-| Characteristic | Overall (n = __) | Negative balance (n = __) | Positive balance (n = __) |
+| Mục tiêu | Tóm tắt | Kiểm định / mô hình | Thước đo tác động |
 |---|---|---|---|
-| Age, years, mean (SD) | | | |
-| Male sex, n (%) | | | |
-| Heart failure / CKD / diabetes, n (%) | | | |
-| SOFA score, median (IQR) | | | |
-| Lactate, mmol/L, median (IQR); missing n | | | |
-| Vasopressor / mechanical ventilation, n (%) | | | |
+| AKI (Q2) | n (%) theo nhóm và theo nhóm cân bằng dịch (<= 0, > 0-20, > 20-40, > 40 ml/kg) | Khi bình phương; hồi quy logistic, cân bằng dịch theo mỗi 10 ml/kg, hiệu chỉnh như ở mục 7 | OR mỗi 10 ml/kg (KTC 95%) |
+| Số ngày không thở máy (Q3) | Trung vị (IQR) theo nhóm; trình bày phân bố | Mann-Whitney; hồi quy tuyến tính, cân bằng dịch theo mỗi 10 ml/kg, có hiệu chỉnh | Chênh lệch số ngày (KTC 95%); chênh lệch Hodges-Lehmann |
+| Lactat (Q4) | Trung vị (IQR) theo tình trạng sống còn; tử vong theo nhóm lactat (< 2, 2-4, > 4 mmol/L) | Hồi quy logistic, lactat theo mỗi 1 mmol/L, hiệu chỉnh theo tuổi, giới, đái tháo đường, bệnh thận mạn, suy tim; mô hình thứ hai thêm SOFA | OR mỗi 1 mmol/L (KTC 95%) |
+| Thời gian nằm ICU (Q5) | Trung vị (IQR), người sống | Mann-Whitney; hồi quy tuyến tính trên log(thời gian nằm ICU), có hiệu chỉnh | Tỷ số trung bình nhân (KTC 95%) |
 
-**Table 2. Outcomes by group and adjusted associations**
+Các so sánh giữa nhóm không có trong bảng (tuổi, SOFA, lactat giữa các nhóm) dùng kiểm định t cho biến đối xứng và kiểm định Mann-Whitney cho biến lệch hoặc biến điểm số.
 
-| Outcome | Negative | Positive | Crude effect (95% CI) | Adjusted effect (95% CI) | p |
+## 7. Các yếu tố gây nhiễu và hiệu chỉnh
+
+Được chọn **từ trước** dựa trên kiến thức lâm sàng với một sơ đồ nhân quả đơn giản: người bệnh nặng hơn được truyền nhiều dịch hơn và tử vong nhiều hơn (**nhiễu do chỉ định**). Các yếu tố gây nhiễu: tuổi; mức độ nặng (điểm SOFA, lactat, thuốc vận mạch, thở máy lúc nhập ICU); bệnh thận mạn (ảnh hưởng đến cách chỉ định dịch và đến kết cục). APACHE II trùng lặp với SOFA và tuổi nên không được thêm vào. Các biến đo sau ngày 3 (AKI, RRT) là kết cục hoặc biến trung gian và **không** được hiệu chỉnh. Với khoảng 160-180 ca tử vong và 7 số hạng trong mô hình, có hơn 20 biến cố cho mỗi số hạng.
+
+## 8. Phân nhóm và tương tác (xác định trước)
+
+Một yếu tố thay đổi tác động được xác định trước: **suy tim** (chiều dự kiến: mối liên quan giữa cân bằng dịch dương và tử vong mạnh hơn ở người bệnh suy tim, vì những người bệnh này chịu dịch kém hơn). Kiểm định bằng số hạng tương tác positive_balance_d3 x heart_failure trong mô hình chính (kiểm định Wald và kiểm định tỷ số khả dĩ). Báo cáo OR trong từng phân nhóm kèm KTC 95%. Giá trị p tương tác < 0.05 sẽ được mô tả là bằng chứng về thay đổi tác động cần được xác nhận thêm, không phải là một phát hiện chắc chắn.
+
+## 9. So sánh bội
+
+Một kết cục chính được kiểm định ở mức 5%. Các kết cục phụ và phân tích phân nhóm được báo cáo kèm KTC 95% và được diễn giải là thăm dò; không hiệu chỉnh cho so sánh bội.
+
+## 10. Dữ liệu thiếu
+
+| | |
+|---|---|
+| **Đánh giá** | n (%) bị thiếu cho mọi biến và theo nhóm; so sánh người bệnh có và không có lactat (SOFA, MAP, thuốc vận mạch, ICU, tử vong) để đánh giá cơ chế thiếu (MCAR hay MAR) |
+| **Dự kiến** | Thiếu lactat ở 10-20% (không đo ở người bệnh ít nặng và ở ICU không có máy phân tích tại giường); mọi biến khác < 2% |
+| **Cách tiếp cận chính** | Q1-Q3, Q5: trường hợp đầy đủ. Q4 (lactat là phơi nhiễm): quy gán đa bội bằng chuỗi phương trình (`mice`), m = 20, ghép trung bình dự báo (predictive mean matching) cho biến liên tục và hồi quy logistic cho biến nhị phân. Mô hình quy gán gồm kết cục (`died_28d`), mọi biến đồng biến trong mô hình và các yếu tố dự báo việc thiếu (SOFA, APACHE II, MAP, thuốc vận mạch, thở máy, ICU, nguồn nhiễm khuẩn, nhóm cân bằng dịch). Kết quả được gộp theo quy tắc Rubin |
+| **Độ nhạy** | Lặp lại mô hình chính của Q1 bằng quy gán đa bội; Q4 báo cáo cả trường hợp đầy đủ và quy gán đa bội |
+
+## 11. Cỡ mẫu
+
+FLUID-ICU tuyển tất cả người bệnh đủ tiêu chuẩn trong 2 năm tại 4 ICU (dự kiến khoảng 600). Giả định: tử vong 28 ngày khoảng 20% ở người bệnh có cân bằng dịch âm, và khoảng 40% người bệnh có cân bằng dịch âm (Bài báo 2 và số liệu audit tại chỗ). Với 240 so với 360 người bệnh và mức ý nghĩa 5% hai phía, nghiên cứu có lực thống kê (power) khoảng 80% để phát hiện OR 1.7 (tử vong 20% so với 30%) và khoảng 55% cho OR 1.5. Vì vậy nghiên cứu chỉ đủ lực thống kê cho một mối liên quan ở mức vừa phải; KTC 95% sẽ cho thấy độ chính xác đạt được.
+
+## 12. Phần mềm
+
+R phiên bản 4.6 với các gói tidyverse, gtsummary, flextable, broom, survival, survminer, mice và janitor. Mã trong `Course/Data/R/` (các script 01-06), chạy theo thứ tự; việc làm sạch và phân tích dữ liệu đều được viết thành script hoàn toàn và tái lập được (hạt giống ngẫu nhiên cố định).
+
+## 13. Khung bảng và hình
+
+**Bảng 1. Đặc điểm ban đầu theo cân bằng dịch tích lũy ngày 3**
+
+| Đặc điểm | Chung (n = __) | Cân bằng dịch âm (n = __) | Cân bằng dịch dương (n = __) |
+|---|---|---|---|
+| Tuổi, năm, trung bình (SD) | | | |
+| Giới nam, n (%) | | | |
+| Suy tim / bệnh thận mạn / đái tháo đường, n (%) | | | |
+| Điểm SOFA, trung vị (IQR) | | | |
+| Lactat, mmol/L, trung vị (IQR); số thiếu n | | | |
+| Thuốc vận mạch / thở máy, n (%) | | | |
+
+**Bảng 2. Kết cục theo nhóm và các mối liên quan đã hiệu chỉnh**
+
+| Kết cục | Âm | Dương | Tác động thô (KTC 95%) | Tác động hiệu chỉnh (KTC 95%) | p |
 |---|---|---|---|---|---|
-| 28-day mortality, n (%) | | | OR __ | OR __ | |
-| AKI (KDIGO >= 1), n (%) | | | OR per 10 ml/kg __ | __ | |
-| Ventilator-free days, median (IQR) | | | Difference __ | __ | |
-| ICU stay in survivors, days, median (IQR) | | | Ratio __ | __ | |
+| Tử vong 28 ngày, n (%) | | | OR __ | OR __ | |
+| AKI (KDIGO >= 1), n (%) | | | OR mỗi 10 ml/kg __ | __ | |
+| Số ngày không thở máy, trung vị (IQR) | | | Chênh lệch __ | __ | |
+| Thời gian nằm ICU ở người sống, ngày, trung vị (IQR) | | | Tỷ số __ | __ | |
 
-**Figures**
+**Hình**
 
-- Figure 1: STROBE participant flow diagram.
-- Figure 2: Kaplan-Meier survival to day 28 by fluid-balance group, with numbers at risk and log-rank p.
-- Figure 3: Forest plot of adjusted odds ratios (primary model).
-- Figure 4: OR for positive balance by heart-failure subgroup, with p for interaction.
-- Supplementary: missing lactate by SOFA; complete case vs multiple imputation.
+- Hình 1: lưu đồ người tham gia theo STROBE.
+- Hình 2: đường cong sống còn Kaplan-Meier đến ngày 28 theo nhóm cân bằng dịch, kèm số người bệnh còn nguy cơ và giá trị p log-rank.
+- Hình 3: biểu đồ rừng (forest plot) của các tỷ số chênh đã hiệu chỉnh (mô hình chính).
+- Hình 4: OR của cân bằng dịch dương theo phân nhóm suy tim, kèm p tương tác.
+- Phụ lục: thiếu lactat theo SOFA; trường hợp đầy đủ so với quy gán đa bội.
 
-## 14. Version history and sign-off before data lock
+## 14. Lịch sử phiên bản và ký duyệt trước khi khóa dữ liệu
 
-| Version | Date | Changes and reason |
+| Phiên bản | Ngày | Thay đổi và lý do |
 |---|---|---|
-| 1.0 | Before database lock | First version |
+| 1.0 | Trước khi khóa cơ sở dữ liệu | Phiên bản đầu tiên |
 
-| Role | Name | Signature | Date |
+| Vai trò | Họ tên | Chữ ký | Ngày |
 |---|---|---|---|
-| Statistician | [simulated] | | |
-| Principal investigator | [simulated] | | |
+| Nhà thống kê | [mô phỏng] | | |
+| Nghiên cứu viên chính | [mô phỏng] | | |
 
-*Any change after data lock gets a new version, the date and the reason, and is reported in the paper.*
+*Mọi thay đổi sau khi khóa dữ liệu được đánh số phiên bản mới, ghi ngày và lý do, và được báo cáo trong bài báo.*

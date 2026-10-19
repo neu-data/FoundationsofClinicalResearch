@@ -2,159 +2,165 @@
 title: "Buổi 2: Lời giải"
 ---
 
-::: {.lang-note}
-Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
-:::
+[Tải bản PDF](files/sessions/s2_solutions_VN.pdf) · [Quay lại Buổi 2](session2.qmd)
 
-[Tải bản PDF](files/sessions/s2_solutions.pdf) · [Quay lại Buổi 2](session2.qmd)
+**Nền tảng Nghiên cứu Lâm sàng · Cấp độ 1** · Neudata · *Bản dành cho giảng viên. Không chia sẻ trước buổi học.*
 
-**Foundations of Clinical Research · Level 1** · Neudata · *Instructor copy. Do not hand out before the exercises.*
-
-These are **model** answers. Many other answers are acceptable: reward work that is specific, consistent and could be acted on. Use the "what good looks like" boxes when you circulate.
+Đây là các câu trả lời **mẫu**. Nhiều câu trả lời khác vẫn chấp nhận được: hãy khen những bài cụ thể, nhất quán và có thể thực hiện được. Khóa học diễn ra trực tuyến và cả lớp làm việc như một nhóm: dùng các ô "thế nào là tốt" khi đọc khung chat và bản nháp của học viên.
 
 
 * * *
 
-## Recap quiz: Session 1 answers
+## Câu hỏi ôn tập: đáp án Buổi 1
 
-1. **Audit**: checking practice against an agreed standard.
-2. **P** ICU staff · **I** hand-hygiene feedback · **C** no feedback · **O** hand-hygiene compliance · **T** 3 months.
-3. **Feasible**: a mortality outcome needs more than 1,000 patients.
-4. **"To estimate the proportion with delirium"**: a measurable verb. "Understand" is not measurable.
-5. **H0:** ICU length of stay is the same with early mobilisation and with usual care.
+1. **Bài báo 1 (Boulet 2024) là thử nghiệm** (RCT thí điểm); **Bài báo 2 (Hyun 2023) là nghiên cứu thuần tập** (thuần tập ghép cặp từ sổ đăng ký).
+2. **P** người lớn bị nhiễm khuẩn huyết · **E** cân bằng dịch tích lũy dương đến ngày 3 · **C** cân bằng dịch trung tính hoặc âm · **O** tử vong · **T** trước ngày 28 (câu hỏi PECO: E = phơi nhiễm).
+3. **Feasible (khả thi)**: kết cục tử vong cần hơn 1,000 người bệnh.
+4. **"Ước tính tỷ lệ người bệnh có cân bằng dịch dương vào ngày 3"**: động từ đo lường được. "Tìm hiểu" không đo lường được.
+5. **H0:** cân bằng dịch tích lũy ở ngày 5 như nhau khi dùng quy trình hạn chế dịch và khi chăm sóc thường quy.
 
-If many miss 4 or 5, spend one extra minute: objectives use measurable verbs; H0 always states "no difference".
-
-
-* * *
-
-## Check your understanding (segment 2.1): AND, OR or NOT?
-1. **AND**. 2. **OR**. 3. **Fewer** (AND narrows). 4. It removes every paper that mentions children anywhere, including good adult studies that mention children once.
-
-## Check your understanding (segment 2.2): OK or not OK?
-1. **Not OK**: patchwriting is plagiarism even with a citation. 2. **OK** (but rare in medical writing). 3. **Not OK**: someone else's finding needs a citation. 4. **Not OK**: you may repeat an error, so read and cite the original.
-
-## Check your understanding (segment 2.3): spot the spin
-1. Causal word for an observational design. Rewrite as *"was associated with lower pneumonia"*.
-2. p = 0.31 is no evidence of a difference. Rewrite as *"no significant difference; the confidence interval was wide"*.
-3. Headline is a secondary outcome. Lead with the primary result instead.
-4. Before–after change without a comparison group. Rewrite as *"mortality was lower after implementation; without a control group we cannot attribute this to the protocol"*.
+Nếu nhiều học viên sai câu 4 hoặc 5, dành thêm một phút: mục tiêu cụ thể dùng động từ đo lường được; H0 luôn phát biểu "không có khác biệt".
 
 
 * * *
 
-## Exercise 1: Boolean search builder
+## Kiểm tra hiểu bài (phần 2.1): AND, OR hay NOT?
 
-**Warm-up:** `septic shock OR fluids` gives more hits (either term). `sepsis` gives more hits than `sepsis NOT neonatal` (NOT removes papers).
+1. **AND** (septic shock AND fluid restriction). 2. **OR** (restrictive OR conservative). 3. **Ít hơn** (AND thu hẹp kết quả). 4. NOT loại mọi bài báo có nhắc đến trẻ em ở bất kỳ đâu, kể cả những nghiên cứu tốt ở người lớn chỉ nhắc đến trẻ em một lần.
 
-**Model string for the running example** (as in the demo):
+## Kiểm tra hiểu bài (phần 2.2): Đạt hay không đạt?
+
+1. **Không đạt**: viết chắp vá là đạo văn kể cả khi có trích dẫn. 2. **Đạt** (nhưng hiếm gặp trong viết y khoa). 3. **Không đạt**: phát hiện của người khác cần trích dẫn. 4. **Không đạt**: bạn có thể lặp lại một sai sót, vì vậy hãy đọc và trích dẫn bản gốc.
+
+## Kiểm tra hiểu bài (phần 2.3): nhận diện spin
+
+1. Từ chỉ quan hệ nhân quả cho một thiết kế quan sát. Viết lại thành *"cân bằng dịch dương có liên quan với tử vong cao hơn"*.
+2. p = 0.31 không phải là bằng chứng về khác biệt. Viết lại thành *"không có khác biệt có ý nghĩa thống kê; khoảng tin cậy rộng"*.
+3. Tiêu điểm là một kết cục phụ. Hãy mở đầu bằng kết quả chính.
+4. Thay đổi trước–sau không có nhóm so sánh. Viết lại thành *"tử vong thấp hơn sau khi áp dụng; vì không có nhóm chứng, chúng tôi không thể quy kết điều này cho quy trình"*.
+
+
+* * *
+
+## Bài tập 1: Xây chuỗi tìm kiếm Boolean
+
+**Khởi động:** `septic shock OR fluids` cho nhiều kết quả hơn (chỉ cần một trong hai từ). `sepsis` cho nhiều kết quả hơn `sepsis NOT neonatal` (NOT loại bớt bài báo).
+
+**Chuỗi mẫu cho ví dụ xuyên suốt** (như trong phần trình diễn):
+
 ```
 ("Shock, Septic"[Mesh] OR "septic shock"[tiab] OR sepsis[tiab])
 AND ("Fluid Therapy"[Mesh] OR "fluid restrict*"[tiab] OR "restrictive fluid*"[tiab] OR "conservative fluid*"[tiab])
 AND ("Mortality"[Mesh] OR mortality[tiab] OR death[tiab])
 ```
-Sensible extra synonyms for the I block: `de-resuscitation[tiab]`, `deresuscitation[tiab]`, `"fluid balance"[tiab]`, `"Water-Electrolyte Balance"[Mesh]`.
-Sensible filters (each with a reason): article type *Randomized Controlled Trial* + *Systematic Review* (treatment question); *Adult: 19+ years* (our population); publication date *10 years* (current practice). Avoid *Free full text* (loses key papers).
 
-**Model string for Scenario C (delirium)**
+Các từ đồng nghĩa hợp lý có thể thêm cho khối I: `de-resuscitation[tiab]`, `deresuscitation[tiab]`, `"fluid balance"[tiab]`, `"Water-Electrolyte Balance"[Mesh]`.
+Các bộ lọc hợp lý (mỗi bộ lọc kèm lý do): loại bài *Randomized Controlled Trial* + *Systematic Review* (câu hỏi về điều trị); *Adult: 19+ years* (đối tượng của chúng ta); năm công bố *10 years* (thực hành hiện tại). Tránh *Free full text* (bỏ sót các bài báo quan trọng).
+
+**Chuỗi mẫu cho Tình huống C (mê sảng)**
+
 ```
 (Delirium[Mesh] OR delirium[tiab] OR "acute confusion"[tiab])
 AND ("Hip Fractures"[Mesh] OR "hip fracture*"[tiab])
 AND (prevent*[tiab] OR "multicomponent"[tiab] OR "non-pharmacological"[tiab] OR bundle[tiab])
 ```
 
-**Common faults**
-- Missing brackets: `A OR B AND C` is read differently from `(A OR B) AND C`.
-- AND inside a block (`septic shock AND sepsis`). Synonyms need OR.
-- A block for the comparison ("usual care"). It adds nothing and loses papers.
-- `NOT` used to remove a topic the paper only mentions in passing.
-- Search words in the local language: PubMed indexes English titles and abstracts.
+**Lỗi thường gặp**
+- Thiếu ngoặc: `A OR B AND C` được hiểu khác với `(A OR B) AND C`.
+- Dùng AND trong một khối (`septic shock AND sepsis`). Các từ đồng nghĩa cần nối bằng OR.
+- Thêm một khối cho nhóm so sánh ("usual care"). Khối này không giúp gì và làm mất bài báo.
+- Dùng `NOT` để loại một chủ đề mà bài báo chỉ nhắc đến thoáng qua.
+- Dùng từ tìm kiếm bằng tiếng địa phương: PubMed chỉ mục tiêu đề và tóm tắt bằng tiếng Anh.
 
 
 * * *
 
-## Exercise 2: Paraphrasing (model answers)
+## Bài tập 2: Diễn giải (đáp án mẫu)
 
-**Part A**
-| Version | Verdict | Why |
+**Phần A**
+
+| Phiên bản | Nhận định | Vì sao |
 |---|---|---|
-| a) | **Problem: patchwriting** | Same structure and almost the same words as the source; one word swapped ("mortality" for "death"). Plagiarism even though it is cited. |
-| b) | **OK** | New structure, adds context (matched registry cohort, 28-day mortality), keeps the calibrated word "associated", gives numbers and the citation. |
-| c) | **Problem: distorts the source** | "Giving more fluid ... doubles the risk" turns an observational *association* into causation, and "doubles" overstates (HR 2.13 only for day 2; 1.56 for day 3). Citation does not fix misrepresentation. |
-| d) | **Problem: no citation** | Good wording, but presenting someone else's finding without a citation is plagiarism. |
+| a) | **Có vấn đề: viết chắp vá** | Cùng cấu trúc và gần như cùng từ ngữ với nguồn; chỉ đổi một từ ("death" thay cho "mortality"). Vẫn là đạo văn dù có trích dẫn. |
+| b) | **Đạt** | Cấu trúc mới, thêm bối cảnh (thuần tập ghép cặp từ sổ đăng ký, tử vong 28 ngày), giữ từ chừng mực "associated", có số liệu và trích dẫn. |
+| c) | **Có vấn đề: bóp méo nguồn** | "Giving more fluid ... doubles the risk" biến một *mối liên quan* quan sát thành quan hệ nhân quả, và "doubles" (gấp đôi) là phóng đại (HR 2.13 chỉ ở ngày 2; ngày 3 là 1.56). Trích dẫn không sửa được việc trình bày sai. |
+| d) | **Có vấn đề: không trích dẫn** | Lời văn tốt, nhưng trình bày phát hiện của người khác mà không trích dẫn là đạo văn. |
 
-**Part B: model paraphrase**
-"Mortality and days alive without organ support at day 28 did not differ between the two groups, although the pilot trial was too small to detect such differences [1]."
-What good looks like: new structure; facts unchanged (28 days, mortality, days alive without life support, similar); no stronger claim (do **not** write "restriction is safe"); citation. Adding "the trial was too small" is accurate context from the paper (48 patients; not powered for mortality).
+**Phần B: bản diễn giải mẫu**
+"Mortality and days alive without organ support at day 28 did not differ between the two groups, although the pilot trial was too small to detect such differences [1]." (Tạm dịch: Tử vong và số ngày còn sống không cần hỗ trợ cơ quan ở ngày 28 không khác nhau giữa hai nhóm, dù thử nghiệm thí điểm quá nhỏ để phát hiện những khác biệt như vậy [1].)
+Thế nào là tốt: cấu trúc mới; dữ kiện không đổi (28 ngày, tử vong, số ngày còn sống không cần hỗ trợ sự sống, tương tự nhau); không khẳng định mạnh hơn (**không** viết "hạn chế dịch là an toàn"); có trích dẫn. Thêm "thử nghiệm quá nhỏ" là bối cảnh chính xác lấy từ bài báo (48 người bệnh; không đủ lực thống kê cho tử vong).
 
 
 * * *
 
-## Exercise 3: Paper 1's abstract (answer key)
+## Bài tập 3: Phần tóm tắt của Bài báo 1 (đáp án)
 
-| Item | Answer (from the abstract) |
+| Mục | Đáp án (từ phần tóm tắt) |
 |---|---|
-| Design (and blinding) | Multicentre, randomised, controlled **pilot** trial; single-blind (patients and statisticians blinded, clinicians not) |
-| P | Adults 18–85 years with septic shock, in the first 24 h of vasopressor infusion, in three ICUs; excluded: AKI needing renal replacement, end-stage CKD, severe malnutrition |
-| I vs C | Optimised fluid restriction (reducing maintenance fluids and fluids for drug dilution during the first 7 days) vs standard fluid strategy |
-| Primary outcome | **Cumulative fluid balance (ml/kg) in the first 5 days**, not mortality |
-| Numbers | 1,201 screened; 50 randomised; 2 withdrew (control); 48 analysed (24 per group) |
-| Main result | Median cumulative balance at day 5: 6.9 vs 35.0 ml/kg; absolute difference 13.2 ml/kg (95% CI −15.2 to 41.6), p = 0.42. The 13.2 is a difference in means (the Methods report the mean difference with its 95% CI), so it does not equal the gap between the medians. |
-| Conclusion | "...did not reduce the overall fluid balance at day 5" |
-| Matches the result? | **Yes**. The CI includes zero, and the conclusion says "did not reduce". |
-| Spin in the abstract? | **No** in the abstract conclusion. (Spin appears in the *Discussion*, which calls p = 0.42 a "non-significant trend".) Watch-point: the fluid *volumes* (89.7 vs 114.3 ml/kg, p = 0.0506) are a secondary result, and the abstract reports four decimals for a borderline p. This is mild emphasis, not a claim. |
-| Registration | ClinicalTrials.gov **NCT04947904** (registered 1 July 2021, before recruitment began in September 2021) |
-| Answers our 28-day mortality question? | **No.** It is a small pilot powered for fluid balance. 28-day mortality was a secondary outcome and was similar between groups: "no evidence of a difference", not "no difference". |
+| Thiết kế (và làm mù) | Thử nghiệm **thí điểm** đa trung tâm, ngẫu nhiên, có đối chứng; mù đơn (người bệnh và nhà thống kê được làm mù, bác sĩ lâm sàng thì không) |
+| P | Người lớn 18–85 tuổi bị sốc nhiễm khuẩn, trong 24 giờ đầu truyền thuốc vận mạch, tại ba ICU; loại trừ: tổn thương thận cấp cần điều trị thay thế thận, bệnh thận mạn giai đoạn cuối, suy dinh dưỡng nặng |
+| I so với C | Hạn chế dịch tối ưu (giảm dịch duy trì và dịch pha thuốc trong 7 ngày đầu) so với chiến lược truyền dịch chuẩn |
+| Kết cục chính | **Cân bằng dịch tích lũy (ml/kg) trong 5 ngày đầu**, không phải tử vong |
+| Số liệu | 1,201 người được sàng lọc; 50 người được phân bổ ngẫu nhiên; 2 người rút lui (nhóm chứng); 48 người được phân tích (24 người mỗi nhóm) |
+| Kết quả chính | Trung vị cân bằng dịch tích lũy ở ngày 5: 6.9 so với 35.0 ml/kg; hiệu số tuyệt đối 13.2 ml/kg (KTC 95% −15.2 đến 41.6), p = 0.42. Con số 13.2 là hiệu số trung bình (phần Phương pháp báo cáo hiệu số trung bình kèm KTC 95%), nên không bằng chênh lệch giữa hai trung vị. |
+| Kết luận | "...did not reduce the overall fluid balance at day 5" (không làm giảm cân bằng dịch chung ở ngày 5) |
+| Khớp với kết quả? | **Có**. KTC chứa 0, và kết luận nói "không làm giảm". |
+| Có spin trong phần tóm tắt? | **Không** trong kết luận của phần tóm tắt. (Spin xuất hiện trong phần *Bàn luận*, gọi p = 0.42 là "xu hướng không có ý nghĩa thống kê".) Điểm cần lưu ý: *thể tích* dịch (89.7 so với 114.3 ml/kg, p = 0.0506) là kết quả phụ, và phần tóm tắt báo cáo bốn chữ số thập phân cho một giá trị p sát ngưỡng. Đây là nhấn mạnh nhẹ, không phải một khẳng định. |
+| Đăng ký | ClinicalTrials.gov **NCT04947904** (đăng ký ngày 1 tháng 7 năm 2021, trước khi bắt đầu tuyển chọn vào tháng 9 năm 2021) |
+| Trả lời câu hỏi về tử vong 28 ngày của chúng ta? | **Không.** Đây là một nghiên cứu thí điểm nhỏ, được thiết kế đủ lực cho cân bằng dịch. Tử vong 28 ngày là kết cục phụ và tương tự nhau giữa hai nhóm: "không có bằng chứng về khác biệt", không phải "không có khác biệt". |
 
-**Fast finishers (Paper 2):** the title says **"Impact"** (causal); the abstract conclusion correctly says **"associated"**.
+**Ai làm xong sớm (Bài báo 2):** tiêu đề dùng **"Impact"** (tác động, hàm ý nhân quả); kết luận trong phần tóm tắt dùng đúng từ **"associated"** (có liên quan).
 
-**Common errors to correct in the debrief**
-- Writing "mortality" as the primary outcome.
-- Copying only the p-value and not the estimate with its 95% CI.
-- Calling the trial "double-blind". Clinicians, who prescribe the fluids, were not blinded.
-- Reading the medians (6.9 vs 35.0) as "five times less fluid balance, so it works". The CI crosses zero.
-
-
-* * *
-
-## Exercise 4: Proposal builder 2 (what good looks like)
-
-Continuing the worked model from Session 1 (the feasible rewrite of the running example).
-
-**Search (documented):** PubMed, date, the string from Exercise 1, filters (article type RCT + systematic review; adults; 10 years), number of hits; plus a check of ClinicalTrials.gov for ongoing trials.
-
-**Working title:** *Restrictive versus usual fluids in adults with septic shock: a pilot randomised trial* (13 words).
-**Keywords:** Fluid Therapy; Water-Electrolyte Balance; Critical Care; Vasoconstrictor Agents (MeSH terms not already in the title).
-
-**Problem statement (≈ 300 words, three paragraphs)**
-1. *Known:* septic shock is a common cause of ICU death. Early fluid resuscitation restores perfusion, but continued fluid often produces a positive fluid balance, which observational studies associate with higher mortality (e.g. Hyun 2023).
-2. *Not known:* large trials of restrictive fluids (CLASSIC 2022; CLOVERS 2023) found no mortality difference, and a pilot targeting hidden "non-resuscitative" fluids (Boulet 2024) did not significantly reduce fluid balance at day 5. Whether a restrictive protocol can reduce fluid balance in *our* setting is unknown.
-3. *Why here:* a 3-month audit in our ICU found that most septic shock patients were fluid-positive by day 3 (state the number from your own audit), and practice varies between consultants.
-
-**Five key references (model)**
-| # | Reference | Why included |
-|---|---|---|
-| 1 | Boulet N, et al. *Crit Care* 2024;28:429 (pilot RCT, n = 48) | Closest design and outcome; primary outcome not significantly different |
-| 2 | Hyun DG, et al. *Ann Intensive Care* 2023;13:105 (matched cohort) | Positive balance on days 2–3 associated with higher 28-day mortality |
-| 3 | Meyhoff TS, et al. (CLASSIC) *N Engl J Med* 2022;386:2459–70 | Large RCT, septic shock, no difference in 90-day mortality |
-| 4 | Shapiro NI, et al. (CLOVERS) *N Engl J Med* 2023;388:499–510 | Large RCT, sepsis-induced hypotension, restrictive vs liberal, no difference in 90-day death before discharge |
-| 5 | Evans L, et al. Surviving Sepsis Campaign guidelines 2021. *Crit Care Med* 2021;49:e1063–e1143 | Current guideline; shows the remaining uncertainty |
-
-*Instructor note:* check citation details against PubMed before distributing. Groups must verify every reference themselves, which is exactly the habit to practise.
-
-**Marking guide for circulating (not a grade)**
-| Element | Good | Needs work |
-|---|---|---|
-| Search | String, database, date, filters and hits recorded; brackets correct | "We googled it"; no date; AND inside a block |
-| References | 5, relevant, include the best available design, exported to a reference manager | Websites, textbooks only, typed by hand, unread |
-| Literature matrix | Same columns for every paper; limitation column filled | Copied abstract sentences |
-| Problem statement | Known → gap → local reason, each fact cited, ends with the question | A literature dump, or no local reason |
-| Title & keywords | 10–16 words; P, I/E, C and design visible; calibrated words; keywords add MeSH not in the title | "Fluids in the ICU"; abbreviations; "impact of" for an observational design |
-| Integrity | Own words, every claim cited | Sentences pasted from abstracts |
+**Lỗi thường gặp cần sửa khi tổng kết**
+- Ghi "tử vong" là kết cục chính.
+- Chỉ chép giá trị p mà không chép ước lượng kèm KTC 95%.
+- Gọi thử nghiệm là "mù đôi". Bác sĩ lâm sàng, người kê dịch, không được làm mù.
+- Đọc hai trung vị (6.9 so với 35.0) thành "cân bằng dịch ít hơn năm lần, vậy là có hiệu quả". KTC cắt qua 0.
 
 
 * * *
 
-## Exit question: answers
-1. **OR** gives more hits.
-2. Paper 1's primary outcome was **cumulative fluid balance at day 5 (ml/kg)**, not mortality.
+## Bài tập 4: Xây dựng đề cương 2 (thế nào là tốt)
+
+Giảng viên làm mẫu trực tiếp cho ví dụ xuyên suốt (phiên bản thí điểm khả thi A từ Buổi 1); sau đó mỗi học viên làm tương tự cho câu hỏi của mình. Dùng làm chuẩn chất lượng, không phải làm đáp án.
+
+**Tìm kiếm (có ghi lại):** PubMed, ngày tìm, chuỗi tìm kiếm từ Bài tập 1, bộ lọc (loại bài RCT + tổng quan hệ thống; người lớn; 10 năm), số kết quả; cộng với việc kiểm tra ClinicalTrials.gov để tìm các thử nghiệm đang tiến hành.
+
+**Tên đề tài tạm thời:** *Restrictive versus usual fluids in adults with septic shock: a pilot randomised trial* (13 từ).
+**Từ khóa:** Fluid Therapy; Water-Electrolyte Balance; Critical Care; Vasoconstrictor Agents (thuật ngữ MeSH chưa có trong tên đề tài).
+
+**Đặt vấn đề (≈ 300 từ, ba đoạn)**
+1. *Điều đã biết:* sốc nhiễm khuẩn là nguyên nhân tử vong thường gặp tại ICU. Hồi sức dịch sớm giúp phục hồi tưới máu, nhưng tiếp tục truyền dịch thường dẫn đến cân bằng dịch dương, mà các nghiên cứu quan sát cho thấy có liên quan với tử vong cao hơn (ví dụ Hyun 2023).
+2. *Điều chưa biết:* các thử nghiệm lớn về hạn chế dịch (CLASSIC 2022; CLOVERS 2023) không thấy khác biệt về tử vong, và một nghiên cứu thí điểm nhắm vào dịch "không nhằm hồi sức" bị bỏ sót (Boulet 2024) không làm giảm có ý nghĩa cân bằng dịch ở ngày 5. Chưa biết liệu một quy trình hạn chế dịch có làm giảm cân bằng dịch trong bối cảnh *của chúng ta* hay không.
+3. *Vì sao ở đây:* một đánh giá thực hành 3 tháng tại ICU của chúng ta cho thấy phần lớn người bệnh sốc nhiễm khuẩn có cân bằng dịch dương đến ngày 3 (ghi con số từ đánh giá của chính bạn), và thực hành khác nhau giữa các bác sĩ điều trị.
+
+**Năm tài liệu tham khảo chính (mẫu)**
+
+| # | Tài liệu tham khảo | Lý do chọn |
+|---|---|---|
+| 1 | Boulet N, et al. *Crit Care* 2024;28:429 (RCT thí điểm, n = 48) | Thiết kế và kết cục gần nhất; kết cục chính không khác biệt có ý nghĩa |
+| 2 | Hyun DG, et al. *Ann Intensive Care* 2023;13:105 (thuần tập ghép cặp) | Cân bằng dịch dương ở ngày 2–3 liên quan với tử vong 28 ngày cao hơn |
+| 3 | Meyhoff TS, et al. (CLASSIC) *N Engl J Med* 2022;386:2459–70 | RCT lớn, sốc nhiễm khuẩn, không khác biệt về tử vong 90 ngày |
+| 4 | Shapiro NI, et al. (CLOVERS) *N Engl J Med* 2023;388:499–510 | RCT lớn, tụt huyết áp do nhiễm khuẩn huyết, hạn chế dịch so với truyền dịch tự do, không khác biệt về tử vong trước khi ra viện trong 90 ngày |
+| 5 | Evans L, et al. Surviving Sepsis Campaign guidelines 2021. *Crit Care Med* 2021;49:e1063–e1143 | Hướng dẫn hiện hành; cho thấy những điều còn chưa chắc chắn |
+
+*Ghi chú cho giảng viên:* kiểm tra thông tin trích dẫn với PubMed trước khi phát. Học viên phải tự kiểm tra mọi tài liệu tham khảo, đó chính là thói quen cần luyện.
+
+**Hướng dẫn phản hồi khi đọc bản nháp (không chấm điểm)**
+
+| Thành phần | Tốt | Cần cải thiện |
+|---|---|---|
+| Tìm kiếm | Ghi lại chuỗi tìm kiếm, cơ sở dữ liệu, ngày, bộ lọc và số kết quả; ngoặc đúng | "Chúng tôi tìm trên Google"; không có ngày; AND trong một khối |
+| Tài liệu tham khảo | 5 tài liệu, phù hợp, có thiết kế tốt nhất hiện có, xuất sang phần mềm quản lý tài liệu tham khảo | Website, chỉ có sách giáo khoa, gõ tay, chưa đọc |
+| Bảng tổng quan tài liệu | Cùng các cột cho mọi bài báo; cột hạn chế được điền | Chép câu từ phần tóm tắt |
+| Đặt vấn đề | Điều đã biết, rồi khoảng trống, rồi lý do tại chỗ; mỗi dữ kiện đều có trích dẫn, kết thúc bằng câu hỏi | Liệt kê tài liệu, hoặc không có lý do tại chỗ |
+| Tên đề tài và từ khóa | 10–16 từ; thấy rõ P, I/E, C và thiết kế; từ ngữ chừng mực; từ khóa bổ sung MeSH chưa có trong tên đề tài | "Fluids in the ICU"; viết tắt; "impact of" cho thiết kế quan sát |
+| Liêm chính | Lời của chính mình, mọi khẳng định đều có trích dẫn | Câu dán nguyên từ phần tóm tắt |
+
+
+* * *
+
+## Câu hỏi cuối buổi: đáp án
+
+1. **OR** cho nhiều kết quả hơn.
+2. Kết cục chính của Bài báo 1 là **cân bằng dịch tích lũy ở ngày 5 (ml/kg)**, không phải tử vong.

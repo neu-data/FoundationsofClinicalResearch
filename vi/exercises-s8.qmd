@@ -2,105 +2,120 @@
 title: "Buổi 8: Phiếu bài tập"
 ---
 
-::: {.lang-note}
-Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
-:::
+[Tải bản PDF](files/sessions/s8_exercises_VN.pdf) · [Tải bản Word (để điền)](files/sessions/s8_exercises_VN.docx) · [Quay lại Buổi 8](session8.qmd)
 
-[Tải bản PDF](files/sessions/s8_exercises.pdf) · [Quay lại Buổi 8](session8.qmd)
+**Nền tảng Nghiên cứu Lâm sàng · Cấp độ 1** · Neudata · *#ClearDataClearImpact* · Tuần 8 · Thứ Bảy 19/12/2026 · trực tuyến, 19:30–22:30
 
-**Foundations of Clinical Research · Session 8 (Week 8, Saturday): Publish (finish the paper, get it out, present)**
+Họ và tên: ______________________________   Khoa/Phòng: ______________________________
 
-| Part | Exercise | When | Time |
+Phiếu được gửi qua email trước buổi học, dưới dạng tệp Word và tệp PDF. Hãy mở phiếu trên màn hình và gõ câu trả lời vào tệp Word (hoặc in bản PDF). Trong lớp, cả lớp cùng làm: bạn trả lời trong khung chat hoặc bằng bình chọn, và giảng viên viết câu trả lời của lớp lên màn hình chia sẻ. Bài viết bạn nộp là bài của riêng bạn.
+
+| Phần | Bài tập | Khi nào | Cách làm |
 |---|---|---|---|
-| A | Writing exercises: fix the spin, verb ladder, results sentence, title from PICO | warm-up / homework | 15 min |
-| B | **[DS] Manuscript workshop 2**: Introduction, Discussion, Abstract, Title | 0:30 | 30 min |
-| C | Getting published: spot the predatory journal; responding to reviewers | at home | 25 min |
-| D | **Student appraisal pack: "Be the reviewer"** | 1:40 | 20 min |
+| A | Bài tập viết: sửa spin, bậc thang động từ, câu kết quả, tên đề tài từ PICO | bài về nhà | Tự làm |
+| B | **Thực hành bản thảo 2**: Đặt vấn đề, Bàn luận, Tóm tắt, Tiêu đề | 20:00 (30 phút) | 22 phút cả lớp làm Q1, rồi 8 phút cho mục tiêu và tiêu đề của bạn; hoàn thành trong tối nay |
+| C | Công bố: nhận diện tạp chí săn mồi; phản hồi ý kiến phản biện | bài về nhà | Tự làm |
+| D | **Phiếu trả lời: "Làm người phản biện"** | 21:05 (25 phút) | Cả lớp với bình chọn; bạn điền phiếu của riêng mình |
+
+Các tệp bạn cần (gửi trước buổi học; đều có trong thư mục khóa học): Bài báo 1 (Boulet 2024, *Crit Care*, thử nghiệm ngẫu nhiên thí điểm về hạn chế dịch trong sốc nhiễm khuẩn) và Bài báo 2 (Hyun 2023, *Ann Intensive Care*, nghiên cứu thuần tập ghép cặp theo điểm xu hướng về cân bằng dịch và tử vong trong nhiễm khuẩn huyết), bản PDF gốc trong `Course/Papers`; bản nháp Q1 của lớp từ Buổi 7 (PDF); bản nháp Phương pháp và Kết quả của bạn và gói kết quả cho câu hỏi của bạn.
 
 
 * * *
 
-## Part A: Writing exercises (section 8.1; warm-up or homework)
+## Phần A: Bài tập viết (bài về nhà)
 
-Use these to practise before or after Manuscript workshop 2: A2 and A3 can be done in class if a group finishes early; the rest are homework.
+Dùng các bài này để luyện tập sau buổi học, trước khi hoàn thành bản thảo.
 
-### A1. Fix the spin
-Rewrite each sentence so it says only what the data and the design allow.
+### A1. Sửa spin
 
-| # | Original sentence (from the papers) | Your rewrite |
+Viết lại mỗi câu sao cho câu chỉ nói điều mà dữ liệu và thiết kế cho phép.
+
+| # | Câu gốc (từ các bài báo) | Câu bạn viết lại |
 |---|---|---|
-| a | Paper 1 (p.10), primary outcome p = 0.42, difference 13.2 ml/kg (95% CI −15.2 to 41.6): the authors base the case for a larger trial on "the non-significant trend in fluid balance reduction". | |
-| b | Paper 2 (p.4): "a positive fluid balance on the first ICU day did not impact the 28-day mortality". | |
-| c | Paper 2 (title): "Impact of a cumulative positive fluid balance during the first three ICU days in patients with sepsis …" | |
-| d | Paper 1 (p.10): the protocol obtained "the lowest fluid balance on Day 5 ever published". | |
+| a | Bài báo 1 (tr.10), kết cục chính p = 0.42, hiệu số 13.2 ml/kg (KTC 95% −15.2 đến 41.6): tác giả dựa vào "the non-significant trend in fluid balance reduction" (xu hướng giảm cân bằng dịch không có ý nghĩa thống kê) để đề xuất một thử nghiệm lớn hơn. | |
+| b | Bài báo 2 (tr.4): "a positive fluid balance on the first ICU day did not impact the 28-day mortality" (cân bằng dịch dương trong ngày ICU đầu tiên không tác động đến tử vong 28 ngày). | |
+| c | Bài báo 2 (tiêu đề): "Impact of a cumulative positive fluid balance during the first three ICU days in patients with sepsis …" (Tác động của cân bằng dịch tích lũy dương trong ba ngày ICU đầu tiên ở người bệnh nhiễm khuẩn huyết …) | |
+| d | Bài báo 1 (tr.10): quy trình đạt được "the lowest fluid balance on Day 5 ever published" (cân bằng dịch ngày 5 thấp nhất từng được công bố). | |
 
-### A2. Climb the verb ladder
-Choose the strongest verb each design allows: **was observed in · is associated with · may contribute to · reduced / did not reduce · causes**.
+### A2. Leo bậc thang động từ
 
-| # | Study | Strongest honest verb |
+Chọn động từ mạnh nhất mà mỗi thiết kế cho phép: **được ghi nhận ở (was observed in) · có liên quan với (is associated with) · có thể góp phần vào (may contribute to) · đã làm giảm / không làm giảm (reduced / did not reduce) · gây ra (causes)**.
+
+| # | Nghiên cứu | Động từ mạnh nhất mà vẫn trung thực |
 |---|---|---|
-| a | A case series of 12 ICU patients who developed pressure injuries under a new mattress | |
-| b | A cohort of 3,000 septic patients: positive fluid balance and mortality, adjusted for severity | |
-| c | A single randomised trial of 48 patients: restrictive protocol and day-5 fluid balance | |
-| d | Five large randomised trials and a meta-analysis, all consistent | |
-| e | A cross-sectional survey of hand-hygiene compliance on two wards | |
+| a | Loạt ca bệnh gồm 12 người bệnh ICU bị sốc nhiễm khuẩn có phù phổi sau khi truyền lượng dịch lớn | |
+| b | Nghiên cứu thuần tập trên 3,000 người bệnh nhiễm khuẩn huyết: cân bằng dịch dương và tử vong, có hiệu chỉnh theo mức độ nặng | |
+| c | Một thử nghiệm ngẫu nhiên đơn lẻ trên 48 người bệnh: quy trình hạn chế dịch và cân bằng dịch ngày 5 | |
+| d | Năm thử nghiệm ngẫu nhiên lớn và một phân tích gộp, tất cả đều nhất quán | |
+| e | Khảo sát cắt ngang về mức độ đầy đủ của phiếu theo dõi cân bằng dịch tại hai ICU | |
 
-### A3. Write the results sentence (number + CI, no adjectives)
-Write one sentence for each, in the style "In [whom], [outcome] was [effect] ([measure] [value], 95% CI [lower] to [upper])".
+### A3. Viết câu kết quả (con số + KTC, không dùng tính từ)
 
-1. Paper 2, Day-3 cohort: 28-day mortality, positive vs negative fluid balance, HR 1.56, 95% CI 1.10 to 2.22, P = 0.012.
-2. Paper 1: death by day 28, 6/24 (restrictive) vs 6/24 (control), relative risk 1.0, 95% CI 0.38 to 2.66.
-3. Paper 2, Day-1 cohort: HR 1.17, 95% CI 0.85 to 1.60, P = 0.354.
+Viết một câu cho mỗi kết quả, theo mẫu "Ở [ai], [kết cục] [tác động] ([chỉ số] [giá trị], KTC 95% [giới hạn dưới] đến [giới hạn trên])".
 
-### A4. A title from your PICO
-Formula: **[Design] of [Intervention / exposure] vs [Comparator] in [Population]: effect on / association with [Outcome]**. 10–16 words, design stated, no "impact", "novel", "first".
+1. Bài báo 2, thuần tập ngày 3: tử vong 28 ngày, cân bằng dịch dương so với âm, HR 1.56, KTC 95% 1.10 đến 2.22, P = 0.012.
+2. Bài báo 1: tử vong trước ngày 28, 6/24 (hạn chế dịch) so với 6/24 (nhóm chứng), nguy cơ tương đối 1.0, KTC 95% 0.38 đến 2.66.
+3. Bài báo 2, thuần tập ngày 1: HR 1.17, KTC 95% 0.85 đến 1.60, P = 0.354.
 
-Our PICO: P ______________ I/E ______________ C ______________ O ______________
+### A4. Tên đề tài từ PICO của bạn
 
-Working title: ________________________________________________________________
+Công thức: **[Thiết kế] về [Can thiệp / phơi nhiễm] so với [Nhóm so sánh] ở [Đối tượng]: tác động lên / mối liên quan với [Kết cục]**. 10–16 từ, nêu rõ thiết kế, không dùng "impact" (tác động), "novel" (mới), "first" (đầu tiên).
 
-Word count: ____  Design named? ☐  Calibrated verb (association for observational designs)? ☐
+PICO của tôi: P ______________ I/E ______________ C ______________ O ______________
+
+Tên đề tài tạm thời: ________________________________________________________________
+
+Số từ: ____  Đã nêu thiết kế? ☐  Động từ chừng mực (mối liên quan cho thiết kế quan sát)? ☐
 
 
 * * *
 
-## Part B: [DS] Manuscript workshop 2: complete the draft (30 minutes)
+## Phần B: Thực hành bản thảo 2: hoàn thiện bản nháp (30 phút, 20:00)
 
-Start from last week's file (`FLUID-ICU_Q[n]_draft1`). Today you add the **Introduction, Discussion, Abstract and Title**, and the draft is complete.
+Hôm nay chúng ta thêm phần Đặt vấn đề, Bàn luận, Tóm tắt và Tiêu đề, và bản nháp được hoàn chỉnh. Chúng tôi đưa kết quả cho bạn; bạn viết bài báo.
 
-### Roles and timing
-| Minute | Who | Task |
+### Cách dùng 30 phút
+
+| Giờ | Ai | Việc cần làm |
 |---|---|---|
-| 0–8 | 2 people | **Introduction**: three paragraphs (known → not known → aim), ~350 words, references from Sessions 1–2 + Papers 1–2 |
-| 0–15 | 3 people | **Discussion**: six moves (answer, compare, explain, limitations with direction, implications, conclusion), ~600 words |
-| 0–15 | 1 person | Number and verb checker: reads Methods + Results again; prepares the abstract numbers |
-| 15–23 | all | **Abstract**: Background / Methods / Results / Conclusions, ≤ 250 words, numbers copied from the Results |
-| 23–27 | all | **Title** (10–16 words, design stated, calibrated verb) + 3–6 keywords (MeSH, not already in the title) |
-| 27–30 | checker | Verb check: change every "cause", "impact", "effect of" and "show" to "associated with". Make every number identical in abstract and Results. |
+| 20:00–20:06 | Cả lớp, Q1 | **Đặt vấn đề**: ba đoạn (điều đã biết, điều chưa biết, mục tiêu). Bạn gợi ý câu trong khung chat; giảng viên gõ vào bản nháp của lớp. |
+| 20:06–20:15 | Cả lớp | **Bàn luận**: sáu bước (trả lời, so sánh, giải thích, hạn chế kèm chiều hướng, ý nghĩa, kết luận). |
+| 20:15–20:20 | Cả lớp | **Tóm tắt**: Đặt vấn đề / Phương pháp / Kết quả / Kết luận, số liệu chép từ phần Kết quả của lớp. |
+| 20:20–20:22 | Cả lớp | **Tiêu đề** và kiểm tra động từ: mọi chữ "cause" (gây ra), "impact" (tác động), "effect of" (hiệu quả của) và "show" (cho thấy) đổi thành "associated with" (có liên quan với). |
+| 20:22–20:30 | Bạn, tự làm | Viết câu mục tiêu và tiêu đề cho câu hỏi CỦA BẠN. Dán tiêu đề vào khung chat. |
+| Tối nay, trước 23:59 | Bạn | Thêm phần Đặt vấn đề (~350 từ), Bàn luận (~600 từ), Tóm tắt (≤ 250 từ) và Tiêu đề + 3–6 từ khóa, rồi nộp bản nháp hoàn chỉnh. |
 
-### Discussion: six moves checklist
-- [ ] **1 Answer**: first sentence answers the question with the main number (adjusted estimate + 95% CI)
-- [ ] **2 Compare**: with Paper 2 and at least one other study, and why results may differ
-- [ ] **3 Explain**: one short paragraph on mechanism / plausibility
-- [ ] **4 Limitations**: observational design (residual confounding, especially severity), simulated/teaching data, missing data, single time point… each with its likely *direction*
-- [ ] **5 Implications**: for practice (cautious) and research (e.g. a randomised trial such as Paper 1)
-- [ ] **6 Conclusion**: one sentence, same verb and message as the abstract and title
+Bản nháp Q1 hoàn chỉnh của lớp được chia sẻ dưới dạng PDF sau buổi học. Nếu bạn chọn Q1, hãy viết bài báo bằng lời của bạn; không chép bản nháp của lớp.
 
-### Group-specific reminders
-- **Q1:** crude and adjusted ORs differ. Explain confounding by indication in move 3/4.
-- **Q2:** AKI may also *cause* fluid accumulation (reverse causation). Say so.
-- **Q3:** ventilator-free days are skewed and include death as zero. Explain what the measure means.
-- **Q4:** compare complete-case and multiple-imputation estimates; say what the missing-data assumption (MAR) means for your conclusion.
-- **Q5:** survivors only. Those who died are excluded, so say who the result applies to.
+### Bàn luận: danh sách kiểm tra sáu bước
 
-### Deliverable
-A complete draft (~2,000 words, Template: `Templates/Manuscript_Template_IMRaD.docx`) saved as `FLUID-ICU_Q[n]_draft2`. After the course: peer-review swap (2 weeks) using the 10-question checklist (Part D) and a response letter (`Templates/Response_to_Reviewers_Template.docx`).
+- [ ] **1 Trả lời**: câu đầu tiên trả lời câu hỏi bằng con số chính (ước lượng đã hiệu chỉnh + KTC 95%)
+- [ ] **2 So sánh**: với Bài báo 2 và ít nhất một nghiên cứu khác, và vì sao kết quả có thể khác nhau
+- [ ] **3 Giải thích**: một đoạn ngắn về cơ chế / tính hợp lý
+- [ ] **4 Hạn chế**: thiết kế quan sát (nhiễu tồn dư, đặc biệt là mức độ nặng), dữ liệu giảng dạy mô phỏng, dữ liệu thiếu, chỉ một thời điểm đo… mỗi hạn chế kèm *chiều hướng* có thể của nó
+- [ ] **5 Ý nghĩa**: cho thực hành (thận trọng) và cho nghiên cứu (ví dụ một thử nghiệm ngẫu nhiên như Bài báo 1)
+- [ ] **6 Kết luận**: một câu, cùng động từ và thông điệp với phần tóm tắt và tiêu đề
 
-## Part C: Getting published (section 8.2, at home)
+### Lưu ý riêng cho từng câu hỏi
 
-### C1. Spot the predatory journal
+- **Q1:** OR thô và OR đã hiệu chỉnh khác nhau. Giải thích nhiễu do chỉ định ở bước 3 hoặc 4.
+- **Q2:** tổn thương thận cấp cũng có thể *gây ra* tích lũy dịch (quan hệ nhân quả ngược). Hãy nói rõ điều này.
+- **Q3:** số ngày không thở máy có phân phối lệch và tính tử vong là 0. Giải thích ý nghĩa của chỉ số này.
+- **Q4:** so sánh ước lượng trường hợp đầy đủ và quy gán đa bội; nói giả định về dữ liệu thiếu (MAR, thiếu ngẫu nhiên) có ý nghĩa gì đối với kết luận của bạn.
+- **Q5:** chỉ người sống sót. Người tử vong bị loại, vì vậy hãy nói rõ kết quả áp dụng cho ai.
 
-**1. Circle the red flags** in this (invented) invitation. How many can you find?
+### Sản phẩm cần nộp
+
+Bản nháp hoàn chỉnh của bạn (~2,000 từ, mẫu `Course/Templates/Manuscript_Template_IMRaD`) lưu với tên `Surname_Manuscript_QN_draft.docx`, nộp **trước 23:59 ngày diễn ra Buổi 8** (thư mục khóa học hoặc email cho trưởng khóa học; xem `Course/Assignment/manuscript_brief.md`). Sau đó là bình duyệt chéo cá nhân: trong vòng 2 ngày, trưởng khóa học gửi cho bạn bản nháp của một bạn cùng lớp; bạn phản biện bằng 10 câu hỏi của Phần D và gửi nhận xét trong vòng 1 tuần; bạn gửi bản nháp đã sửa và thư phản hồi (`Course/Templates/Response_to_Reviewers_Template`) trong vòng 2 tuần (`Course/Assignment/peer_review_instructions.md`).
+
+
+* * *
+
+## Phần C: Công bố (bài về nhà)
+
+### C1. Nhận diện tạp chí săn mồi
+
+**1. Tìm các dấu hiệu cảnh báo** trong thư mời (hư cấu) dưới đây. Bạn tìm được bao nhiêu? (Thư được giữ nguyên tiếng Anh, vì thư mời loại này thường viết bằng tiếng Anh.)
 
 > **From:** editorial.board.gjcmr@freemail.com
 > **Subject:** Invitation to publish in our esteemed journal!!
@@ -113,100 +128,102 @@ A complete draft (~2,000 words, Template: `Templates/Manuscript_Template_IMRaD.d
 >
 > Kindly submit your manuscript by replying to this e-mail.
 
-**2. Which journal would you trust?** For each (invented) profile, write *Trust / Check further / Avoid* and one reason.
+**2. Bạn sẽ tin tạp chí nào?** Với mỗi hồ sơ tạp chí (hư cấu), ghi *Tin cậy / Kiểm tra thêm / Tránh* và một lý do.
 
-| Journal profile | Your verdict | Reason |
+| Hồ sơ tạp chí | Nhận định của bạn | Lý do |
 |---|---|---|
-| J1: Indexed in MEDLINE (confirmed in the NLM Catalog), editor names verifiable at universities, fee (APC) shown on the website, median 9 weeks to first decision, uses CONSORT/STROBE checklists. | | |
-| J2: Says "indexed in Google Scholar and Index Copernicus", promises acceptance in 72 hours, no fee information, editorial board photos without affiliations. | | |
-| J3: Open access, listed in DOAJ, small society journal, no impact factor yet, clear peer-review and retraction policy. | | |
-| J4: Its name differs by one word from a well-known journal; the website address is different from the real journal's; it e-mailed you first. | | |
+| J1: Được chỉ mục trong MEDLINE (đã xác nhận trên NLM Catalog), tên biên tập viên kiểm chứng được tại các trường đại học, phí (APC) công bố trên website, thời gian trung vị đến quyết định đầu tiên 9 tuần, dùng bảng kiểm CONSORT/STROBE. | | |
+| J2: Tự giới thiệu "indexed in Google Scholar and Index Copernicus", hứa chấp nhận trong 72 giờ, không có thông tin về phí, ảnh ban biên tập không kèm cơ quan công tác. | | |
+| J3: Truy cập mở, có trong danh sách DOAJ, tạp chí nhỏ của một hội chuyên ngành, chưa có hệ số ảnh hưởng, chính sách bình duyệt và rút bài rõ ràng. | | |
+| J4: Tên chỉ khác một từ so với một tạp chí nổi tiếng; địa chỉ website khác với website của tạp chí thật; tạp chí email cho bạn trước. | | |
 
-**3. Three checks you can always do:** Think.Check.Submit checklist · DOAJ (open-access journals) · NLM Catalog ("currently indexed in MEDLINE"). You can also ask your librarian.
-
-
-* * *
-
-### C2. Responding to reviewers
-
-Imagine your group's study has been completed and submitted. Write a response row for each comment (thank, answer, say exactly what changed). One of them deserves a polite rebuttal.
-
-| # | Reviewer comment | Our response | Change made (page, line) |
-|---|---|---|---|
-| R1.1 | "The title says your intervention *improves* outcomes, but this is an observational study." | | |
-| R1.2 | "Please report the main result with a confidence interval, not only the p-value." | | |
-| R1.3 | "Text and Table 2 give different numbers of patients analysed (212 vs 208)." | | |
-| R2.1 | "Please add 1-year mortality." (Your protocol followed patients to day 28 only.) | | |
-
-Tone checklist: ☐ thanked the reviewer ☐ answered every point ☐ said where the manuscript changed ☐ disagreed only with evidence, politely
+**3. Ba bước kiểm tra bạn luôn làm được:** danh sách kiểm tra Think.Check.Submit · DOAJ (Directory of Open Access Journals) · NLM Catalog ("currently indexed in MEDLINE"). Bạn cũng có thể hỏi cán bộ thư viện.
 
 
 * * *
 
-## Part D: Student appraisal pack ("Be the reviewer") (20 minutes, 1:40)
+### C2. Phản hồi ý kiến phản biện
 
-### What you are doing
-Two published papers answer our running question (**fluids in septic shock**) with different designs:
+Hãy tưởng tượng nghiên cứu bạn đề xuất đã hoàn thành và đã gửi đăng. Viết một dòng phản hồi cho mỗi nhận xét (cảm ơn, trả lời, nói chính xác điều gì đã thay đổi). Một trong số đó cần được phản bác một cách lịch sự.
 
-| | Paper | Design | Who appraises it |
+| # | Nhận xét của người phản biện | Phản hồi của chúng tôi | Thay đổi đã thực hiện (trang, dòng) |
 |---|---|---|---|
-| **Paper 1** | Boulet N, et al. *Crit Care* 2024;28:429 (restrictive strategy targeting non-resuscitative fluids, OPTIFLUID) | Randomised controlled pilot trial, 48 patients | **Groups 1, 2, 3** |
-| **Paper 2** | Hyun D-G, et al. *Ann Intensive Care* 2023;13:105 (cumulative positive fluid balance in the first three ICU days) | Propensity-score-matched cohort from a sepsis registry, 2516 patients | **Groups 4, 5** |
+| R1.1 | "Tiêu đề nói can thiệp của bạn *cải thiện* kết cục, nhưng đây là nghiên cứu quan sát." | | |
+| R1.2 | "Đề nghị báo cáo kết quả chính kèm khoảng tin cậy, không chỉ giá trị p." | | |
+| R1.3 | "Phần văn bản và Bảng 2 đưa ra số người bệnh được phân tích khác nhau (212 so với 208)." | | |
+| R2.1 | "Đề nghị bổ sung tử vong 1 năm." (Đề cương của bạn chỉ theo dõi người bệnh đến ngày 28.) | | |
 
-You do **not** need to understand every statistic. Answer each question **Yes / No / Can't tell** and write **the page** where you found the answer. "Can't tell" is a good answer when the paper does not say.
+Danh sách kiểm tra giọng văn: ☐ đã cảm ơn người phản biện ☐ đã trả lời mọi ý ☐ đã nói bản thảo thay đổi ở đâu ☐ chỉ phản bác khi có bằng chứng, một cách lịch sự
 
-> **Page numbers** are the journal's own page numbers printed at the top of each page ("Page X of 13" for Paper 1, "Page X of 9" for Paper 2). Use the original (unannotated) PDF or printout.
 
-### Step by step (10 minutes of group work)
-| Minute | What to do |
+* * *
+
+## Phần D: Phiếu trả lời: "Làm người phản biện" (25 phút, 21:05)
+
+### Bạn sẽ làm gì
+
+Hai bài báo đã công bố trả lời câu hỏi xuyên suốt của chúng ta (**dịch truyền trong sốc nhiễm khuẩn**) bằng hai thiết kế khác nhau:
+
+| | Bài báo | Thiết kế |
+|---|---|---|
+| **Bài báo 1** | Boulet N, et al. *Crit Care* 2024;28:429 (chiến lược hạn chế dịch không nhằm hồi sức, OPTIFLUID) | Thử nghiệm ngẫu nhiên có đối chứng thí điểm, 48 người bệnh được phân tích |
+| **Bài báo 2** | Hyun D-G, et al. *Ann Intensive Care* 2023;13:105 (cân bằng dịch tích lũy dương trong ba ngày ICU đầu tiên) | Nghiên cứu thuần tập ghép cặp theo điểm xu hướng từ sổ đăng ký nhiễm khuẩn huyết, 2516 người bệnh |
+
+Cả lớp cùng thẩm định **cả hai** bài báo. Giảng viên trình chiếu trang tương ứng trên màn hình chia sẻ, bạn bình chọn **Có / Không / Không rõ**, và một bạn tình nguyện nêu số trang và câu văn trong khung chat. Điền phiếu của riêng bạn trong lúc làm. "Không rõ" là câu trả lời tốt khi bài báo không nói đến.
+
+> **Số trang** là số trang của tạp chí, in ở đầu mỗi trang ("Page X of 13" với Bài báo 1, "Page X of 9" với Bài báo 2). Dùng bản PDF gốc (không có chú thích).
+
+### Cách dùng 25 phút
+
+| Giờ | Diễn biến |
 |---|---|
-| 0–1 | Choose a **timekeeper** and a **speaker**. Split into three pairs: pair A = questions 1–3, pair B = 4–6, pair C = 7–10. |
-| 1–7 | Each pair reads **only the pages listed** for its questions (table below) and fills in its rows of the grid. |
-| 7–9 | The group goes through all 10 questions together and agrees the answers. |
-| 9–10 | Write your **one-sentence verdict** ("This paper shows / suggests … but …"). |
+| 21:05–21:08 | Hai bài báo và 10 câu hỏi (slide). |
+| 21:08–21:23 | Cả lớp thẩm định với bình chọn. Bài báo 1: câu 4, 5, 7, 8 và 9. Bài báo 2: câu 4, 5, 8 và 9. |
+| 21:23–21:30 | Mỗi thiết kế được phép khẳng định điều gì? Bảng tóm tắt so sánh hai bài. |
+| Ở nhà | Trả lời các câu còn lại (1–3, 6 và 10) cho cả hai bài báo. |
 
-Then the plenary (8 minutes): each group reports for 1 minute on the questions the instructor assigns, and we compare what each design may claim.
+> **Vì sao điều này quan trọng:** sau khóa học, bạn dùng **cùng 10 câu hỏi** này để phản biện bản thảo FLUID-ICU của một bạn cùng lớp (bình duyệt chéo cá nhân, 2 tuần).
 
-> **Tip:** read the papers' abstracts at home during the week before (Session 7 homework). The 10 minutes then go much further.
-> **After the course** you use the **same 10 questions** to review another group's FLUID-ICU manuscript (peer-review swap, 2 weeks).
+### Tìm ở đâu
 
-### Where to look
-| Question | Paper 1 (RCT): pages | Paper 2 (cohort): pages |
+| Câu hỏi | Bài báo 1 (RCT): trang | Bài báo 2 (thuần tập): trang |
 |---|---|---|
-| 1 Question | Abstract (p.1); last paragraph of Background (p.3) | Abstract (p.1); end of Background (p.2) |
-| 2 Design | Title (p.1); "Trial design and oversight" (p.3) | Title (p.1); Methods (pp.2–3) |
-| 3 Participants | "Patients" (p.3); flow chart Fig. 1 (p.5); Discussion limitations (p.10) | "Data source and patient selection" (p.2); Results first paragraph (p.3) |
-| 4 Comparison groups | "Randomization and blinding" (p.3); Table 1 (p.6) | "Propensity score matching" (pp.2–3); Table 1 (pp.5–6); text p.4 |
-| 5 Bias | "Randomization and blinding" (p.3); Discussion (p.8) | Methods (pp.2–3); Discussion limitations (pp.7–8) |
-| 6 Outcome | "Outcomes" (p.4) | "Propensity score matching and outcomes" (p.3) |
-| 7 Numbers | "Primary outcome" (p.6); Table 3 (p.10) | Abstract (p.1); "Outcomes" (p.4) |
-| 8 Words vs design | Abstract conclusion (p.1); Discussion (pp.8, 10); Conclusions (p.11) | Title (p.1); Abstract conclusion (p.1); Discussion (pp.4, 7); Conclusions (p.8) |
-| 9 Limitations | Discussion (pp.8–10) | Discussion (pp.7–8) |
-| 10 Use | Your judgement (whole paper) | Your judgement (whole paper) |
+| 1 Câu hỏi | Tóm tắt (tr.1); đoạn cuối phần Background (tr.3) | Tóm tắt (tr.1); cuối phần Background (tr.2) |
+| 2 Thiết kế | Tiêu đề (tr.1); "Trial design and oversight" (tr.3) | Tiêu đề (tr.1); Methods (tr.2–3) |
+| 3 Người tham gia | "Patients" (tr.3); sơ đồ Fig. 1 (tr.5); phần hạn chế trong Discussion (tr.10) | "Data source and patient selection" (tr.2); đoạn đầu phần Results (tr.3) |
+| 4 Nhóm so sánh | "Randomization and blinding" (tr.3); Table 1 (tr.6) | "Propensity score matching" (tr.2–3); Table 1 (tr.5–6); văn bản tr.4 |
+| 5 Sai lệch | "Randomization and blinding" (tr.3); Discussion (tr.8) | Methods (tr.2–3); phần hạn chế trong Discussion (tr.7–8) |
+| 6 Kết cục | "Outcomes" (tr.4) | "Propensity score matching and outcomes" (tr.3) |
+| 7 Số liệu | "Primary outcome" (tr.6); Table 3 (tr.10) | Tóm tắt (tr.1); "Outcomes" (tr.4) |
+| 8 Lời lẽ so với thiết kế | Kết luận trong tóm tắt (tr.1); Discussion (tr.8, 10); Conclusions (tr.11) | Tiêu đề (tr.1); kết luận trong tóm tắt (tr.1); Discussion (tr.4, 7); Conclusions (tr.8) |
+| 9 Hạn chế | Discussion (tr.8–10) | Discussion (tr.7–8) |
+| 10 Ứng dụng | Nhận định của bạn (toàn bài) | Nhận định của bạn (toàn bài) |
 
-### Answer grid
-Group number: ____   Paper: 1 / 2   Speaker: ______________
+### Phiếu trả lời (mỗi bài báo một bản)
 
-| # | Question (simplified appraisal checklist) | Yes | No | Can't tell | Page | Notes (one line) |
+Bài báo: 1 / 2
+
+| # | Câu hỏi (bảng kiểm thẩm định rút gọn) | Có | Không | Không rõ | Trang | Ghi chú (một dòng) |
 |---|---|---|---|---|---|---|
-| 1 | **Question**: Can you write the study's PICO in one line? | ☐ | ☐ | ☐ | | P: … I/E: … C: … O: … |
-| 2 | **Design**: What is the design, and is it the right one for the question? | ☐ | ☐ | ☐ | | |
-| 3 | **Participants**: Who was included, and who was left out? Would your patients have been included? | ☐ | ☐ | ☐ | | |
-| 4 | **Comparison groups**: Were the groups similar at the start (Table 1)? How was this achieved (randomisation / matching / adjustment)? | ☐ | ☐ | ☐ | | |
-| 5 | **Bias**: Who knew which group patients were in (blinding)? Could that change the outcome? | ☐ | ☐ | ☐ | | |
-| 6 | **Outcome**: Was there ONE pre-specified primary outcome, measured the same way in both groups? | ☐ | ☐ | ☐ | | |
-| 7 | **Numbers**: What is the main result as an effect size with 95% CI? Is the CI narrow or wide? | ☐ | ☐ | ☐ | | Effect: ……… 95% CI: ……… |
-| 8 | **Words vs design**: Do the conclusions match the design ("associated" vs "caused"; no "trend" for p = 0.42)? | ☐ | ☐ | ☐ | | Words found: |
-| 9 | **Limitations**: Are the main limitations stated honestly? Name one the authors missed. | ☐ | ☐ | ☐ | | Missed: |
-| 10 | **Use**: Would this change practice in your unit? Why / why not? | ☐ | ☐ | ☐ | | |
+| 1 | **Câu hỏi**: Bạn có viết được PICO của nghiên cứu trong một dòng không? | ☐ | ☐ | ☐ | | P: … I/E: … C: … O: … |
+| 2 | **Thiết kế**: Thiết kế là gì, và có phù hợp với câu hỏi không? | ☐ | ☐ | ☐ | | |
+| 3 | **Người tham gia**: Ai được đưa vào, và ai bị bỏ ra ngoài? Người bệnh của bạn có được đưa vào không? | ☐ | ☐ | ☐ | | |
+| 4 | **Nhóm so sánh**: Các nhóm có giống nhau lúc ban đầu không (Bảng 1)? Điều đó đạt được bằng cách nào (phân bổ ngẫu nhiên / ghép cặp / hiệu chỉnh)? | ☐ | ☐ | ☐ | | |
+| 5 | **Sai lệch**: Ai biết người bệnh thuộc nhóm nào (làm mù)? Điều đó có thể làm thay đổi kết cục không? | ☐ | ☐ | ☐ | | |
+| 6 | **Kết cục**: Có MỘT kết cục chính được xác định trước, đo giống nhau ở cả hai nhóm không? | ☐ | ☐ | ☐ | | |
+| 7 | **Số liệu**: Kết quả chính dưới dạng độ lớn tác động kèm KTC 95% là gì? KTC hẹp hay rộng? | ☐ | ☐ | ☐ | | Tác động: ……… KTC 95%: ……… |
+| 8 | **Lời lẽ so với thiết kế**: Kết luận có tương xứng với thiết kế không ("có liên quan" so với "gây ra"; không dùng "xu hướng" cho p = 0.42)? | ☐ | ☐ | ☐ | | Từ tìm thấy: |
+| 9 | **Hạn chế**: Các hạn chế chính có được nêu trung thực không? Nêu một hạn chế tác giả bỏ sót. | ☐ | ☐ | ☐ | | Bỏ sót: |
+| 10 | **Ứng dụng**: Bài báo này có làm thay đổi thực hành tại khoa của bạn không? Vì sao có / vì sao không? | ☐ | ☐ | ☐ | | |
 
-**Our verdict in one sentence:** ______________________________________________
+**Nhận định của tôi trong một câu:** ______________________________________________
 
-**One thing we would copy into our own proposal:** ______________________________
+**Một điều tôi sẽ đưa vào đề cương của mình:** ______________________________
 
-### Hints if you are stuck
-- **Q1:** the PICO is usually in the last paragraph of the Introduction ("we aimed to …"). Is the paper's outcome the same as in our running question (28-day mortality)?
-- **Q4:** a randomised trial makes groups similar by chance; a cohort can only match or adjust for what was measured. Find the sentence that says which.
-- **Q5:** who decided how much fluid each patient received, and did they know the group?
-- **Q7:** look for "difference" or "HR" followed by brackets. Does the interval include 0 (for a difference) or 1 (for a ratio)?
-- **Q8:** search for the words *impact, show, trend, ever, regardless*.
+### Gợi ý nếu bạn bị bí
+
+- **Câu 1:** PICO thường nằm ở đoạn cuối phần Đặt vấn đề ("we aimed to …"). Kết cục của bài báo có giống câu hỏi xuyên suốt của chúng ta (tử vong 28 ngày) không?
+- **Câu 4:** thử nghiệm ngẫu nhiên làm các nhóm giống nhau nhờ may rủi; nghiên cứu thuần tập chỉ có thể ghép cặp hoặc hiệu chỉnh theo những gì đã được đo. Tìm câu văn nói rõ bài báo dùng cách nào.
+- **Câu 5:** ai quyết định lượng dịch mỗi người bệnh nhận được, và họ có biết nhóm không?
+- **Câu 7:** tìm chữ "difference" hoặc "HR" theo sau là dấu ngoặc. Khoảng tin cậy có chứa 0 (với hiệu số) hoặc 1 (với tỷ số) không?
+- **Câu 8:** tìm các từ *impact, show, trend, ever, regardless*.

@@ -99,7 +99,7 @@ website:
           - href: levels.qmd
             text: "Overview: three levels"
           - href: level2.qmd
-            text: "Level 2: hands-on in R (in preparation)"
+            text: "Level 2: statistical modelling in R (in preparation)"
           - href: level3.qmd
             text: "Level 3: advanced (on request)"
     right:

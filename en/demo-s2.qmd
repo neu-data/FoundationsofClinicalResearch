@@ -8,11 +8,11 @@ title: "Session 2: Live-demo script"
 
 | | |
 |---|---|
-| **When** | **Part A, PubMed:** segment 2.1 (0:10–0:50), slide "Live demo: searching PubMed for our question" (about 0:30). **Part B, Zotero:** segment 2.2 (0:50–1:10), slide "Live demo: from PubMed to Zotero to Word" (about 0:53). **Part C, Google Scholar:** optional extra slide |
+| **When** | Online, Saturday 19:30–22:30. **Part A, PubMed:** segment 2.1 (0:10–0:50), slide "Live demo: searching PubMed for our question" (about 0:30, 20:00). **Part B, Zotero:** segment 2.2 (0:50–1:10), slide "Live demo: from PubMed to Zotero to Word" (about 0:53, 20:23). **Part C, Google Scholar:** optional extra slide |
 | **Length** | Part A 10 minutes (Steps 1–5 plus Send to citation manager), Part B 5 minutes (Step 6), Part C 3 minutes only if time allows |
 | **Question** | *In adults with septic shock in the ICU, does a restrictive fluid strategy, compared with usual care, reduce 28-day mortality?* |
 | **Goal** | Participants see a PICO question become a documented, repeatable search, and watch the hits fall step by step |
-| **Participants** | Watch and note hit counts on their exercise sheet. They do **not** search during the demo |
+| **Participants** | Online: watch the shared screen, note hit counts on their exercise sheet and suggest synonyms in the chat. They do **not** search during the demo |
 
 > **Golden rule on numbers.** Never promise a hit count. Say: *"Expect tens of thousands for one keyword and a few thousand for the full string. The numbers change every day as new papers are added."* Ask participants to write down **today's** numbers and the date. That is the lesson.
 
@@ -21,15 +21,15 @@ title: "Session 2: Live-demo script"
 
 ## Before the session (the day before and during the break)
 
-1. **Rehearse once, end to end**, on the room's computer and network.
+1. **Rehearse once, end to end**, on your own computer and network, sharing your screen in the video platform.
 2. Open two browser tabs:
    - `https://pubmed.ncbi.nlm.nih.gov/`
    - `https://scholar.google.com/`
-3. Set browser zoom to 125–150% so the back row can read the screen.
+3. Set browser zoom to 125–150% so participants can read the shared screen on a laptop.
 4. Paste the three blocks below into a text file you can copy from (typing long strings live is slow and error-prone).
-5. **Offline fallback:** the day before, capture screenshots of each step below (search box, results count, Search details, filters, an abstract page, Send to → Citation manager, the Zotero import, the Word citation in both styles, Google Scholar results and "Cited by"). Put them, in order, in a short slide set or a folder. Write the date and hit counts on each.
-6. Do **not** log into a personal My NCBI or Google account on a shared screen.
-7. **Reference manager:** install Zotero desktop (free, zotero.org) and its Word plug-in on the presenter laptop. Start with an empty test library called "Session 1 demo" and open a blank Word document. Check once that a `.nbib` file imports (File → Import…). If Zotero cannot be installed, use the screenshots instead.
+5. **Offline fallback:** the day before, capture screenshots of each step below (search box, results count, Search details, filters, an abstract page, Send to → Citation manager, the Zotero import, the Word citation in both styles, Google Scholar results and "Cited by"). Put them, in order, in a short slide set or a folder, and send a copy to the second trainer so they can share it if your connection fails. Write the date and hit counts on each.
+6. Do **not** show a personal My NCBI or Google account while sharing your screen.
+7. **Reference manager:** install Zotero desktop (free, zotero.org) and its Word plug-in on the presenter laptop. Start with an empty test library called "Session 2 demo" and open a blank Word document. Check once that a `.nbib` file imports (File → Import…). If Zotero cannot be installed, use the screenshots instead.
 
 ### Strings to copy
 
@@ -72,6 +72,7 @@ Go slowly: this audience has never seen PubMed's advanced features. After every 
 - **Do (if ahead of time):** go to **Advanced**, run the **P**, **I** and **O** blocks one by one (they appear as #1, #2, #3 in **History and Search Details**), then combine them with `#1 AND #2 AND #3`.
 - **Audience sees:** each block has many hits, but the combination has far fewer (expect a few thousand).
 - **Say:** *"OR inside a block makes it wider, because every synonym counts. AND between blocks keeps only papers that talk about all three ideas."* Point back to the Venn slide if needed.
+- **Ask the class (chat):** *"Which other words would authors use for restrictive?"* Add one or two good suggestions (e.g. `de-resuscitation[tiab]`) live and show the change in hits.
 
 ### Step 3: Look at "Search details" (1.5 min)
 - **Do:** on the Advanced page, in **History and Search Details**, click the arrow (›) next to the latest line to expand the details.
@@ -90,13 +91,14 @@ Go slowly: this audience has never seen PubMed's advanced features. After every 
 
 ### Step 5: Open one result (2 min), then Send to citation manager (30 s)
 - **Do:** scan the titles aloud. Look for the large randomised trials and the course papers. Useful title words to watch for:
-  - *Restriction of Intravenous Fluid in ICU Patients with Septic Shock* (CLASSIC, Meyhoff 2022, *N Engl J Med*)
+  - *Restriction of Intravenous Fluid in ICU Patients with Septic Shock* (CLASSIC, Meyhoff 2022, *N Engl J Med*). Explain the name when it appears: CLASSIC stands for Conservative versus Liberal Approach to Fluid Therapy of Septic Shock in Intensive Care, a large randomised trial in 1,554 adults with septic shock in European ICUs. Restricting IV fluid did not change 90-day mortality.
   - *Early Restrictive or Liberal Fluid Management for Sepsis-Induced Hypotension* (CLOVERS, Shapiro 2023, *N Engl J Med*)
   - *Impact on fluid balance of an optimized restrictive strategy targeting non-resuscitative fluids…* (Paper 1, Boulet 2024, *Crit Care*)
 - If one is not visible in the filtered list (it may be outside the filters, or ranked lower), say so honestly (that is a teaching point) and search its title words directly, e.g. `restriction intravenous fluid septic shock`.
 - **Do:** open one record (CLASSIC is ideal).
 - **Audience sees:** the abstract, authors, journal, the **MeSH terms** list (scroll down), **Similar articles**, **Cited by**, and full-text links (top right).
 - **Say:** *"The MeSH terms list here is a free gift: it tells you the vocabulary to use in your own search."*
+- **Show (30 s, if time allows):** on the PubMed home page, under **Explore**, open **MeSH Database** and type `bedsore`. The record shows the heading *Pressure Ulcer* and the words it collects. This is the other way to find a MeSH term (slide "How to find the right MeSH term").
 
 ## Part B: Zotero (5 min)
 
@@ -107,6 +109,7 @@ Go slowly: this audience has never seen PubMed's advanced features. After every 
 - **Do (Word):** in the blank document type one sentence, e.g. *"Restricting IV fluid did not change 90-day mortality"*, then **Zotero tab → Add/Edit Citation**, type `Meyhoff` and press Enter. Then **Add/Edit Bibliography**. Then open **Document Preferences** and switch the style from a numbered (Vancouver-type) style to **APA** and back.
 - **Audience sees:** `[1]` becomes `(Meyhoff et al., 2022)` and the reference list reformats itself. This is the citation-styles slide, live.
 - **Say:** *"Collect, export, import, cite, list. Never type a reference by hand, and never cite a paper you have not read."*
+- **Participants:** everyone installed Zotero as Session 1 homework, so they can repeat the import on their own computer as you go.
 - **Mention (do not demo):** the **Cite** button on each PubMed record (one reference); **Clipboard**; a free **My NCBI** account to save searches and get e-mail alerts (*Create alert*); the **Zotero Connector** browser button that saves a paper from a journal page in one click. Mendeley and EndNote work the same way.
 
 ## Part C: Google Scholar (optional extra slide, 3 min)
@@ -136,13 +139,13 @@ After Part A, participants do Exercise 1 (Boolean search builder, 5 minutes). Af
 ## If something goes wrong
 | Problem | What to do |
 |---|---|
-| No internet / PubMed slow | Switch immediately to the offline screenshots. Narrate the same steps. Do not troubleshoot in front of the room |
+| No internet / PubMed slow | Switch immediately to the offline screenshots (or ask the second trainer to share them). Narrate the same steps. Do not troubleshoot live |
 | A "Too many results" or error page | Paste the full string from the text file rather than typing |
 | Zero results | A missing bracket or quote. Show Search details. It becomes a teaching moment |
 | A known paper does not appear | Explain why (filters, indexing delay, different words) and search its title directly. This is a real-world lesson |
-| Google Scholar shows a CAPTCHA | Do not try to solve it on a shared machine. Skip to the screenshot of Scholar results |
+| Google Scholar shows a CAPTCHA | Do not try to solve it while sharing your screen. Skip to the screenshot of Scholar results |
 | Running over time | Skip Step 7, use the fast route in Step 2, and show only the Zotero import (not Word) in Step 6 |
 | Zotero import fails or not installed | Show the screenshots of the import and the Word citation, and say "the same file works in Mendeley and EndNote" |
 
 ## After the demo
-Participants copy the demo string on their sheet (Exercise 1). In Proposal builder 2 (2:20–2:55) each group's "searcher" runs the group's own string and exports the five references to Zotero. Trainers circulate to help.
+Participants copy the demo string on their sheet (Exercise 1). In Proposal builder 2 (2:20–2:55, 21:50–22:25) the trainer first re-runs this string and screens it live with the class (participants suggest terms and papers in the chat); then each participant runs their own string and saves their five references to Zotero. Trainers answer questions in the chat.

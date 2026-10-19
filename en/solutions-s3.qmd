@@ -4,71 +4,96 @@ title: "Session 3: Solutions"
 
 [Download the PDF](files/sessions/s3_solutions.pdf) · [Back to Session 3](session3.qmd)
 
-**Foundations of Clinical Research** · Week 3 · Saturday · Neudata · Instructor copy
+**Foundations of Clinical Research** · Week 3 · Saturday 19:30-22:30, online · Neudata · Instructor copy
 
-Answer keys for `Practicals/s3_exercises.md`.
+Answer keys for `Practicals/s3_exercises.md` (the Session 3 exercise sheet, sent to participants as a PDF before the session). Share this key with participants after the session, for the extra-practice items.
+
+All exercises are whole-class tasks: show the item on the shared screen, run a poll, take one volunteer's reasoning from the chat, and type the class answer on the shared screen.
 
 
 * * *
 
-## Part A: Name that design
+## Part A: Name that design (whole class, 15 minutes)
+
+About 2.5 minutes per abstract. Poll options: cross-sectional, case-control, cohort, non-randomised study, RCT, systematic review.
 
 | # | Design | Evidence in the abstract | Why (the three questions) |
 |---|---|---|---|
-| 1 | **Randomised controlled trial (RCT)** | "randomly allocated by a central computer" | Assigned: yes. Random: yes. The blinded assessor and central allocation are also good practice (blinding, allocation concealment). |
-| 2 | **Cross-sectional** (analytical) | "On one day", "examined all 412 inpatients" | Not assigned; comparison of mattress types; exposure and outcome measured at the same moment. We cannot tell whether the mattress came before the injury, or whether patients with injuries were moved onto special mattresses (reverse causation), which would hide part of the benefit. |
-| 3 | **Case-control** (matched) | "who developed candidaemia were compared with ... who did not", "searched the records ... before" | Not assigned; people selected by OUTCOME, then looked back for exposure. Only an OR can be calculated. |
-| 4 | **Prospective cohort** | "classified on arrival", "followed up ... at 90 days" | Not assigned (door-to-needle time is what happened, not what the researchers chose); grouped by exposure, then followed forward. |
-| 5 | **Retrospective cohort** | "divided them into those who did and did not receive" ... "then compared how many ... had delirium recorded later" | Uses old records (so many people say "case-control"), but patients were selected and grouped by EXPOSURE, and the outcome came later. Selection by exposure = cohort. |
-| 6 | **Case series** | "We describe five patients" | No comparison group. Raises a hypothesis (protocol → hypernatraemia) but cannot test it. |
-| 7 | **Non-randomised intervention study** (before–after / quasi-experimental) | "before and after a ... programme, which the research team introduced" | The investigators assigned the intervention (to everyone, at one time), but not at random. Rates may change for other reasons over time (seasonality, new staff, other initiatives), so this is a weak design for cause. With many monthly measurements before and after, the same project could be analysed as an interrupted time series, which is much stronger. |
-| 8 | **Systematic review with meta-analysis** | "searched three databases", "assessed each trial's risk of bias", "pooled" | A study of studies: systematic search + appraisal (review) + pooling of numbers (meta-analysis). |
-| 9 (optional) | **Cluster randomised trial** | "wards were randomly allocated, ward by ward" | Assigned: yes; random: yes; but the unit of randomisation is the WARD, not the patient. Needs more patients than an individual trial, and the analysis must account for clustering. |
+| 1 | **Randomised controlled trial (RCT)** | "randomly allocated by a central computer" | Assigned: yes. Random: yes. Central allocation also gives allocation concealment (Session 4). This is the design of Paper 1 (Boulet 2024), only larger. |
+| 2 | **Cross-sectional** (analytical) | "On one day", "reviewed all 64 patients", "that day" | Not assigned; two things compared; exposure (fluid balance) and outcome (kidney injury) measured at the same moment. We cannot tell which came first: failing kidneys make less urine, which itself makes the balance positive (reverse causation, Session 4). |
+| 3 | **Case-control** | "who needed new dialysis were compared with ... who did not", "looked back in the charts" | Not assigned; people selected by OUTCOME (dialysis), then looked back for the exposure (fluid balance). Only an odds ratio can be calculated. The same numbers return in the Session 4 calculation. |
+| 4 | **Retrospective cohort** | "divided them by whether their fluid balance ... was positive or negative", "then compared how many ... died" | Uses old records (so many people say "case-control"), but patients were selected and grouped by EXPOSURE, and the outcome came later. Selection by exposure = cohort. This is the logic of Paper 2 (Hyun 2023). |
+| 5 | **Non-randomised intervention study** (before-after, quasi-experimental) | "introduced a fluid-restriction protocol for all patients ... on 1 January", "before ... after" | The unit assigned the intervention (to everyone, at one time), but not at random. Mortality may change for other reasons over time (season, staff, other projects), so this is weak for cause. With many monthly points before and after, it could be analysed as an interrupted time series, which is much stronger. |
+| 6 | **Systematic review with meta-analysis** | "searched three databases", "assessed each trial's risk of bias", "pooled" | A study of studies: systematic search and appraisal (review) plus pooling of numbers (meta-analysis). |
 
 **Facilitation notes**
 
-- Abstracts **5**, **7** and **9** cause most discussion. For 5, ask: *"How were people chosen: by what happened to them later, or by what they received?"* For 7, ask: *"Who decided the intervention? Was chance involved?"*
+- Abstracts **3** and **4** cause most discussion. For both, ask: *"How were people chosen: by what happened to them later, or by what they received?"*
+- For 5, ask: *"Who decided the intervention? Was chance involved?"*
 - Accept "cross-sectional" for abstract 2 without "analytical"; the point is the single time point.
-- If a pair writes "retrospective study" alone, push for the full name: retrospective *what*?
+- If someone writes "retrospective study" alone, push for the full name: retrospective *what*?
 
+### Extra practice (self-study): answers
+
+| # | Design | Evidence | Why |
+|---|---|---|---|
+| E1 | **RCT** | "randomly allocated by a central computer" | Assigned and random; the assessor did not know the group (blinding). |
+| E2 | **Cross-sectional** (analytical) | "On one day", "examined all 412 inpatients" | Exposure (mattress) and outcome (injury) at the same moment; patients with injuries may have been moved onto special mattresses. |
+| E3 | **Case-control** (matched) | "who developed candidaemia were compared with ... who did not", "searched the records ... before" | Selected by outcome, then looked back. Only an OR. |
+| E4 | **Prospective cohort** | "classified on arrival", "followed up ... at 90 days" | Not assigned (door-to-needle time is what happened); grouped by exposure, followed forward. |
+| E5 | **Retrospective cohort** | "divided them into those who did and did not receive", "delirium recorded later" | Old records, but selected by exposure; outcome later. |
+| E6 | **Case series** | "We describe five patients" | No comparison group. Raises a hypothesis but cannot test it. |
+| E7 | **Non-randomised intervention study** (before-after) | "before and after a ... programme, which the research team introduced" | Assigned, not random; weak for cause. |
+| E8 | **Cluster randomised trial** | "wards were randomly allocated, ward by ward" | Assigned and random, but the unit of randomisation is the WARD. Needs a clustered analysis. |
+| E9 | **Cross-sectional** | "checked today" | Exposure (catheter) and outcome (infection) at the same moment. |
 
 
 * * *
 
-## Part B: Choose the design for 5 questions
+## Part B: Choose the design (whole class, 15 minutes)
+
+About 2 minutes per question (10 minutes), then 5 minutes for participants' own questions in the chat.
 
 | # | Best feasible design | Reason | Main weakness |
 |---|---|---|---|
-| 1 | **Cross-sectional** (point-prevalence survey) | "How many today" = prevalence; one visit per patient, cheap and fast | Exposure and outcome measured together, so we cannot tell whether the mattress came first (patients with injuries may be moved onto special mattresses) |
-| 2 | **Cluster randomised trial** (randomise wards) | The intervention is delivered at ward level; individual randomisation would contaminate | Needs more patients and wards; the analysis must account for clustering; few clusters give chance imbalance |
-| 3 | **Interrupted time series** (quasi-experimental) | The change already happened to everyone; many monthly points before and after allow comparison with the pre-existing trend | Other changes at the same time (co-interventions); no randomisation (strengthen with a control series) |
-| 4 | **Qualitative**: in-depth interviews or focus groups | A "why" question about experience and behaviour; numbers cannot answer it | Findings are not generalisable as numbers; depends on interviewer skill; small purposive sample |
-| 5 | Depends on the group | Check it against the question type and FINER feasibility | Must be named honestly; observational designs must say "associated with" |
-| 6 (bonus) | **Case-control** | Rare outcome; start from the few cases and compare their past drug exposures with controls | Recall/record bias; choosing controls; only an OR |
-| 7 (bonus) | **Non-inferiority RCT** | We only need to show "not unacceptably worse"; margin fixed in advance | Needs a justified margin; poor adherence can make arms look falsely similar |
+| 1 | **Non-inferiority RCT** | We only need to show "not unacceptably worse"; the strategy has other advantages (cheaper, less fluid) | Needs a clinically justified margin fixed in advance; poor adherence can make the arms look falsely similar |
+| 2 | **Cluster randomised trial** (randomise ICUs) | The protocol is delivered at unit level; randomising patients would contaminate | Needs more patients and units; the analysis must account for clustering; few clusters give chance imbalance |
+| 3 | **Interrupted time series** (quasi-experimental) | The change already happened to everyone; many monthly points before and after allow comparison with the existing trend | Other changes at the same time (co-interventions); no randomisation (strengthen with a control series) |
+| 4 | **Qualitative**: in-depth interviews or focus groups with night nurses | A "why" question about experience and work practice; numbers cannot answer it | Findings are not generalisable as numbers; depends on interviewer skill; small purposive sample |
+| 5 | **Pilot or feasibility study** | The question is "can we do it?" (recruitment, delivery, data completeness), not "does it work?" | Cannot show effectiveness; success criteria must be about feasibility |
+
+**Participants' own questions (chat).** Read out four or five. Push for **feasibility**: one unit, no funding, 12-24 months often means a retrospective cohort, a cross-sectional study or an interrupted time series rather than a trial. Check the claim: an observational design must say "associated with".
 
 **Facilitation notes**
 
-- The most common error is choosing an RCT for everything. For question 2, accept "RCT" only if the group explains that wards (not patients) are randomised.
-- For question 3, a group that answers "before–after study" is half right. Ask how to make it stronger (more time points, compare with the trend, control series).
-- For the group's own question, push for **feasibility**: one unit, no funding, 3–6 months often means a retrospective cohort, cross-sectional study or ITS rather than a trial.
+- The most common error is choosing an RCT for everything. For question 2, accept "RCT" only if the volunteer explains that ICUs (not patients) are randomised.
+- For question 3, "before-after study" is half right. Ask how to make it stronger (more time points, compare with the trend, a control series).
+
+### Extra practice (self-study): answers
+
+| # | Design | Reason |
+|---|---|---|
+| E1 | **Cross-sectional** (point-prevalence survey) | "How many today" = prevalence; one visit per patient |
+| E2 | **Cluster randomised trial** (randomise wards) | Delivered at ward level |
+| E3 | **Case-control** | Rare outcome: start from the few cases and compare past drug exposures with controls |
+| E4 | **Qualitative** (interviews or focus groups) | A "why" question about behaviour |
 
 
 * * *
 
-## Part C: Proposal builder 3 (what a good answer looks like)
+## Part C: Proposal builder 3 (what to model live)
 
-Use this model to coach groups; do not hand it out before they have tried.
+The instructor fills this in on the shared screen during the first 15 minutes, thinking aloud. Each participant then writes the same three rows for their own question. There are no groups: every participant writes and submits their own proposal.
 
 | Section | Model answer (observational version of the running question) |
 |---|---|
-| Design + justification | Retrospective cohort. Our question is about the effect of a fluid strategy on death; an RCT is the ideal design but is not feasible for one ICU without funding. Existing charts record daily fluid input/output, severity scores and outcomes, so a cohort can estimate the association between positive fluid balance and death, and generate the effect size for a future trial. We will say "associated with", not "caused". |
-| Setting | Adult mixed ICU of one teaching hospital; patients admitted over 3 calendar years; data from the electronic chart and ICU register. |
-| Population | Inclusion: age ≥ 18; septic shock (Sepsis-3) on ICU admission; vasopressor started within 24 h of admission; ICU stay ≥ 72 h. Exclusion: chronic dialysis; transfer from another ICU after > 24 h; treatment-limitation decision within 24 h; missing fluid charts on day 1–3. |
+| Design and justification | Retrospective cohort. Our question is about the effect of a fluid strategy on death; an RCT is the ideal design but is not feasible for one ICU without funding. Existing charts record daily fluid input and output, severity scores and outcomes, so a cohort can estimate the association between a positive fluid balance and death, and give the effect size for a future trial. We will say "associated with", not "caused". |
+| Setting | Adult mixed ICU of one teaching hospital; patients admitted over 3 calendar years; data from the electronic chart and the ICU register. |
+| Population | Inclusion: age 18 or over; septic shock (Sepsis-3 definition) on ICU admission; vasopressor started within 24 h of admission; ICU stay of 72 h or more. Exclusion: chronic dialysis (the fluid balance cannot be interpreted); transfer from another ICU after more than 24 h (early fluid not recorded here); treatment-limitation decision within 24 h; missing fluid charts on days 1-3. |
 
-**Common problems to catch while circulating**
+**Common problems to look for in the chat and in the drafts**
 
 1. RCT chosen for a question that cannot be randomised (harm, prognosis, risk factors).
-2. Exclusion criteria that repeat inclusion criteria in the negative ("age < 18").
-3. Overambitious setting (five hospitals, 2,000 patients) for a group with no funding. Point them back to FINER.
+2. Exclusion criteria that repeat inclusion criteria in the negative ("age under 18").
+3. Overambitious setting (five hospitals, 2,000 patients) for one participant with no funding. Point back to FINER (Feasible, Interesting, Novel, Ethical, Relevant).
 4. No data source named for a retrospective design (which register, which charts?).

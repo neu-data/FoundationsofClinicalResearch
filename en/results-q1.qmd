@@ -161,7 +161,7 @@ Files: `tables/table6_sensitivity.csv` and `tables/table6_sensitivity.docx`
 - Reverse causation: patients who do badly (shock, oliguria) accumulate fluid because they are dying, not the other way round.
 - Fluid balance is measured over days 1-3; patients who died before day 3 had less time to accumulate fluid (immortal-time issue).
 - Missing lactate (15%): the complete-case model lost 91 patients; multiple imputation gave a similar answer (Table 6).
-- Insensible losses are not recorded; the dichotomy positive/negative throws away information (see group 2 for the continuous version).
+- Insensible losses are not recorded; the dichotomy positive/negative throws away information (see Q2 for the continuous version).
 
 ## Which STROBE items this pack helps you write
 

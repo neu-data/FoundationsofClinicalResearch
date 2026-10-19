@@ -96,7 +96,7 @@ website:
             text: "Hai bài báo"
           - href: downloads.qmd
             text: "Tất cả tệp tải xuống"
-      - text: "Bài tập nhóm"
+      - text: "Bài tập lớn"
         menu:
           - href: assignments.qmd
             text: "Tổng quan"
@@ -111,13 +111,13 @@ website:
           - href: manuscript-rubric.qmd
             text: "Thang chấm bản thảo"
           - href: peer-review.qmd
-            text: "Hướng dẫn phản biện chéo"
+            text: "Hướng dẫn bình duyệt chéo"
       - text: "Các cấp độ"
         menu:
           - href: levels.qmd
             text: "Tổng quan: ba cấp độ"
           - href: level2.qmd
-            text: "Cấp độ 2: thực hành R (đang chuẩn bị)"
+            text: "Cấp độ 2: mô hình thống kê với R (đang chuẩn bị)"
           - href: level3.qmd
             text: "Cấp độ 3: nâng cao (theo yêu cầu)"
     right:

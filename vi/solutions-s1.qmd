@@ -2,228 +2,219 @@
 title: "Buổi 1: Lời giải"
 ---
 
-::: {.lang-note}
-Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
-:::
+[Tải bản PDF](files/sessions/s1_solutions_VN.pdf) · [Quay lại Buổi 1](session1.qmd)
 
-[Tải bản PDF](files/sessions/s1_solutions.pdf) · [Quay lại Buổi 1](session1.qmd)
+**Nền tảng Nghiên cứu Lâm sàng · Cấp độ 1** · Neudata · *Bản dành cho giảng viên. Không chia sẻ trước buổi học.*
 
-**Foundations of Clinical Research · Level 1** · Neudata · *Instructor copy. Do not hand out before the exercises.*
-
-These are **model** answers. Many other answers are acceptable: reward work that is specific, consistent and could be acted on. Use the "what good looks like" boxes when you circulate.
+Đây là các câu trả lời **mẫu**. Nhiều câu trả lời khác vẫn chấp nhận được: hãy khen những bài cụ thể, nhất quán và có thể thực hiện được. Khóa học diễn ra trực tuyến và cả lớp làm việc như một nhóm: dùng các ô "thế nào là tốt" khi đọc khung chat và khi gõ câu trả lời của lớp lên màn hình chia sẻ.
 
 
 * * *
 
-## Quick quiz (segment 1.1): Rank the evidence
+## Câu hỏi nhanh (phần 1.1): Xếp hạng bằng chứng (bình chọn)
 
-**Answer (weakest to strongest):** A (expert opinion), then B (registry cohort), then C (randomised trial, CLASSIC), then D (systematic review / meta-analysis of trials).
+**Đáp án (từ yếu nhất đến mạnh nhất):** A (ý kiến chuyên gia), rồi B (thuần tập từ sổ đăng ký), rồi C (thử nghiệm ngẫu nhiên, CLASSIC), rồi D (tổng quan hệ thống / phân tích gộp các thử nghiệm). Lựa chọn bình chọn 1: "A, B, C, D".
 
-| Source | Design | Real example |
+| Nguồn | Thiết kế | Ví dụ thực tế |
 |---|---|---|
-| A | Expert opinion | None |
-| B | Observational cohort | Similar to Paper 2: Hyun 2023, *Ann Intensive Care*. Positive cumulative fluid balance on ICU days 2–3 associated with higher 28-day mortality (day 2 cohort HR 2.13, 95% CI 1.48–3.06) |
-| C | Randomised controlled trial | CLASSIC: Meyhoff et al., *N Engl J Med* 2022. 1,554 ICU adults with septic shock; 90-day mortality 42.3% restrictive vs 42.1% standard |
-| D | Systematic review / meta-analysis | Pooled analyses of fluid-restriction trials |
+| A | Ý kiến chuyên gia | Không có |
+| B | Nghiên cứu thuần tập quan sát | Tương tự Bài báo 2: Hyun 2023, *Ann Intensive Care*. Cân bằng dịch tích lũy dương ở ngày ICU 2–3 liên quan với tử vong 28 ngày cao hơn (thuần tập ngày 2: HR 2.13, KTC 95% 1.48–3.06) |
+| C | Thử nghiệm lâm sàng ngẫu nhiên có đối chứng | CLASSIC: Meyhoff et al., *N Engl J Med* 2022. 1,554 người lớn bị sốc nhiễm khuẩn tại ICU; tử vong 90 ngày 42.3% ở nhóm hạn chế dịch so với 42.1% ở nhóm chuẩn |
+| D | Tổng quan hệ thống / phân tích gộp | Các phân tích gộp thử nghiệm hạn chế dịch |
 
-**Discussion points**
-- Why might B and C disagree? In a cohort, sicker patients receive more fluid, so fluid can look harmful even if it is not. This is **confounding by indication** (taught in Session 4). Randomisation removes this.
-- What could make C weaker than B? Very small size, many losses to follow-up, poor allocation concealment, an outcome that does not matter to patients, or a population unlike ours.
-- The pyramid ranks **designs**, not individual papers. Quality must still be checked (Session 8).
+**Điểm thảo luận (khung chat)**
+- Điều gì có thể làm C yếu hơn B? Cỡ mẫu rất nhỏ, mất theo dõi nhiều, che giấu phân bổ kém, kết cục không quan trọng với người bệnh, hoặc đối tượng khác với người bệnh của chúng ta.
+- Vì sao B và C có thể mâu thuẫn? Trong nghiên cứu thuần tập, người bệnh nặng hơn được truyền nhiều dịch hơn, nên dịch có thể trông như có hại dù thực ra không. Đây là **nhiễu do chỉ định** (dạy ở Buổi 4). Phân bổ ngẫu nhiên loại bỏ được điều này.
+- Tháp bằng chứng xếp hạng **thiết kế**, không xếp hạng từng bài báo. Vẫn phải kiểm tra chất lượng (Buổi 8).
 
 
 * * *
 
-## Check your understanding (segment 1.1): types of research
+## Kiểm tra hiểu bài (phần 1.1): các loại nghiên cứu (khung chat)
 
-| Item | Answer |
+| Mục | Đáp án |
 |---|---|
-| A Counting ICU pressure injuries this year | Quantitative, primary |
-| B Interviewing families about visiting rules | Qualitative, primary |
-| C Re-analysing 3 years of discharge records | Quantitative, **secondary** (data already exist; still needs ethics review) |
-| D Hand-hygiene survey + nurse focus groups | Mixed methods, primary |
+| A Đếm số người bệnh sốc nhiễm khuẩn có cân bằng dịch dương vào ngày 3 trong năm nay | Định lượng, sơ cấp |
+| B Phỏng vấn điều dưỡng ICU về lý do họ ngần ngại ngừng dịch truyền tĩnh mạch | Định tính, sơ cấp |
+| C Phân tích lại hồ sơ ICU 3 năm về cân bằng dịch và tử vong | Định lượng, **thứ cấp** (dữ liệu đã có sẵn; vẫn cần hội đồng đạo đức xét duyệt) |
+| D Khảo sát việc kê dịch truyền + thảo luận nhóm tập trung với bác sĩ | Phương pháp hỗn hợp, sơ cấp |
 
 
 * * *
 
-## Check your understanding (segment 1.1): research, audit or QI?
+## Kiểm tra hiểu bài (phần 1.2): tìm PICO trong câu hỏi của Bài báo 1 (bình chọn + khung chat)
 
-Use these if the room wants more examples after the slide.
+*"Ở người lớn bị sốc nhiễm khuẩn trong 24 giờ đầu dùng thuốc vận mạch, hạn chế dịch không nhằm hồi sức, so với chăm sóc thường quy, có làm giảm cân bằng dịch tích lũy ở ngày 5 không?"*
 
-| Project | Answer | Ethics route |
-|---|---|---|
-| Checking whether fluid balance is charted daily, against the unit protocol | **Audit** | Local/clinical-governance approval; usually no ethics committee |
-| Introducing a daily fluid-balance checklist and refining it in PDSA cycles | **Quality improvement** | Local approval; ethics review if it adds risk or goes beyond routine care |
-| Randomising patients to restrictive or usual fluids | **Research** | Ethics committee approval + trial registration before the first patient |
-| Interviewing nurses about why they hesitate to stop fluids | **Research** (qualitative) | Ethics committee approval (consent, confidentiality) |
-| Reviewing 3 years of ICU records to see if fluid balance is linked to mortality | **Research** (secondary data, observational) | Ethics committee approval or a formal waiver of consent |
-
-Key point: rules differ between institutions. When in doubt, ask the ethics committee **before** starting; journals ask for approval or a waiver at submission.
-
-
-* * *
-
-## Check your understanding (segment 1.2): spot the PICO (Exercise 1 warm-up)
+**Đáp án bình chọn:** C, cân bằng dịch tích lũy, là kết cục. D (ngày 5) là thời điểm; A (sốc nhiễm khuẩn) là một phần của đối tượng; B là can thiệp.
 
 | P | I | C | O | T |
 |---|---|---|---|---|
-| Adults 65+ after hip-fracture surgery | Daily non-drug delirium bundle | Usual care | Delirium (screened daily, e.g. 4AT or CAM) | First 7 days after surgery |
+| Người lớn bị sốc nhiễm khuẩn, trong 24 giờ đầu dùng thuốc vận mạch | Hạn chế dịch không nhằm hồi sức (dịch duy trì và dịch pha thuốc) | Chăm sóc thường quy | Cân bằng dịch tích lũy (ml/kg) | Ngày 5 |
 
-Common error: labelling "hip fracture" as the outcome. It has already happened and defines who is eligible (P).
-
-
-* * *
-
-## Exercise 1: Model PICO(T) answers
-
-### Scenario A: Ventilator-associated pneumonia (experimental)
-| P | Adults on invasive mechanical ventilation for ≥ 48 h in the ICU |
-|---|---|
-| I | Twice-daily nurse checklist for head-of-bed elevation 30–45° |
-| C | Usual care (no checklist) |
-| O | Ventilator-associated pneumonia (using a stated definition) |
-| T | During ventilation, up to ICU day 28 |
-
-*In adults ventilated for at least 48 hours in the ICU, does a twice-daily nurse checklist for head-of-bed elevation, compared with usual care, reduce the incidence of ventilator-associated pneumonia by ICU day 28?*
-Type: analytical, experimental (could be a before–after study or a cluster trial; designs are Session 3).
-FINER watch-point: **F**. VAP definitions vary and VAP is not very common, so the group must state the definition and estimate how many cases occur per year.
-
-### Scenario B: Pressure injuries (descriptive first)
-The honest first question is descriptive, because nobody knows the size of the problem:
-*What is the incidence of hospital-acquired pressure injuries (stage 2 or worse) among adults admitted to our medical ward over 6 months?*
-| P | Adults admitted to the medical ward |
-|---|---|
-| O | New pressure injury, stage 2 or worse |
-| T | During the admission, over a 6-month period |
-
-Type: descriptive. No hypothesis is needed: we **estimate** incidence (with a 95% CI).
-A later analytical question: *does 2-hourly vs 4-hourly repositioning reduce new pressure injuries in at-risk adults?*
-
-### Scenario C: Delirium (experimental)
-| P | Adults aged 65+ after hip-fracture surgery |
-|---|---|
-| I | Daily multicomponent non-drug delirium-prevention bundle |
-| C | Usual care |
-| O | Incident delirium (screened daily with a validated tool, e.g. 4AT or CAM) |
-| T | During the first 7 postoperative days |
-
-*In adults aged 65 and over after hip-fracture surgery, does a daily non-drug prevention bundle, compared with usual care, reduce incident delirium in the first 7 postoperative days?*
-FINER watch-points: **E** (consent from patients who may become confused) and **F** (staff time to deliver the bundle every day).
-
-### Scenario D: Stroke door-to-needle time (observational or before–after)
-| P | Adults with acute ischaemic stroke receiving intravenous thrombolysis in our emergency department |
-|---|---|
-| E | Pre-hospital ambulance alert |
-| C | No pre-alert |
-| O | Door-to-needle time (minutes) |
-| T | From hospital arrival to start of thrombolysis |
-
-*In adults with acute ischaemic stroke who receive thrombolysis in our emergency department, is a pre-hospital ambulance alert associated with a shorter door-to-needle time than no alert?*
-Type: analytical, observational (PECO). Note: the outcome is continuous (minutes), so the hypothesis is about a difference in median or mean time.
-
-### Scenario E: Medication errors (experimental or before–after)
-| P | Adults transferred from ICU to a general ward |
-|---|---|
-| I | Pharmacist-led medication reconciliation at transfer |
-| C | Usual transfer process |
-| O | Patients with at least one medication discrepancy |
-| T | Within 48 hours of transfer |
-
-*In adults transferred from the ICU to a ward, does pharmacist-led medication reconciliation at transfer, compared with the usual process, reduce the proportion of patients with at least one medication discrepancy within 48 hours?*
-Watch-point: "medication error" must be defined (discrepancy vs harmful error); one primary outcome only.
-
-**What good looks like (Exercise 1)**
-- All boxes filled; the comparison is named, not "nothing".
-- One primary outcome, **measurable**, with a **time point**.
-- The sentence reads naturally and contains every PICO element.
-- Common faults to correct: two outcomes in one question ("mortality and length of stay"); outcome without time; population too broad ("all patients"); intervention not defined ("better care").
+Lỗi thường gặp: chọn "sốc nhiễm khuẩn" làm kết cục. Sốc đã xảy ra và xác định ai đủ điều kiện tham gia (P).
 
 
 * * *
 
-## Exercise 2: FINER
+## Bài tập 1 (cả lớp): cứu ví dụ xuyên suốt
 
-**Part A:** answers vary. Push pairs to justify each colour. A red **F** is the commonest and the most useful to discuss.
+Dùng phiên bản cả lớp đã chọn khi bình chọn. Nếu kết quả bình chọn chia đều, làm phiên bản A.
 
-**Part B: model answers**
-| # | Main problem | Why |
+### Phiên bản A: thử nghiệm thí điểm (thực nghiệm, PICO)
+
+| P | Người lớn bị sốc nhiễm khuẩn tại ICU của chúng ta, trong vòng 24 giờ sau khi bắt đầu thuốc vận mạch |
+|---|---|
+| I | Quy trình hạn chế dịch |
+| C | Chăm sóc thường quy |
+| O | Cân bằng dịch tích lũy (ml/kg) |
+| T | Ngày 5 |
+
+*Ở người lớn bị sốc nhiễm khuẩn tại ICU của chúng ta, quy trình hạn chế dịch, so với chăm sóc thường quy, có làm giảm cân bằng dịch tích lũy ở ngày 5 không?*
+Loại: phân tích, thực nghiệm (thử nghiệm ngẫu nhiên thí điểm, giống Bài báo 1).
+FINER: F xanh/vàng (khoảng 50 người bệnh trong 12–18 tháng) · I xanh · N vàng đến xanh (bối cảnh tại chỗ, quy trình khác) · E vàng (đồng ý trì hoãn hoặc đồng ý qua người đại diện, Buổi 7) · R xanh.
+H0: cân bằng dịch tích lũy ở ngày 5 như nhau ở hai nhóm. H1: có khác nhau.
+
+### Phiên bản B: thuần tập (quan sát, PECO)
+
+| P | Người lớn bị nhiễm khuẩn huyết hoặc sốc nhiễm khuẩn vào ICU của chúng ta |
+|---|---|
+| E | Cân bằng dịch tích lũy dương đến ngày 3 (phơi nhiễm: chúng ta không chỉ định) |
+| C | Cân bằng dịch tích lũy trung tính hoặc âm đến ngày 3 |
+| O | Tử vong do mọi nguyên nhân |
+| T | Trước ngày 28 |
+
+*Ở người lớn bị nhiễm khuẩn huyết tại ICU của chúng ta, cân bằng dịch tích lũy dương đến ngày 3, so với cân bằng dịch trung tính hoặc âm, có liên quan với tử vong 28 ngày cao hơn không?*
+Loại: phân tích, quan sát. Đây là câu hỏi của Bài báo 2 và là câu hỏi chính của nghiên cứu khóa học FLUID-ICU (Buổi 5).
+Điểm cần lưu ý về FINER: F phụ thuộc vào số người bệnh và việc có ghi cân bằng dịch hằng ngày hay không; phải xử lý nhiễu do chỉ định (người bệnh nặng hơn được truyền nhiều dịch hơn) (Buổi 4).
+H0: tử vong 28 ngày như nhau ở người bệnh có và không có cân bằng dịch dương đến ngày 3. H1: có khác nhau.
+
+### Phiên bản C: mô tả (P + O)
+
+| P | Người lớn bị sốc nhiễm khuẩn vào ICU của chúng ta trong 6 tháng |
+|---|---|
+| O | Cân bằng dịch tích lũy dương |
+| T | Vào ngày ICU thứ 3 |
+
+*Bao nhiêu phần trăm người lớn bị sốc nhiễm khuẩn tại ICU của chúng ta có cân bằng dịch tích lũy dương vào ngày 3?*
+Loại: mô tả. Không cần giả thuyết: chúng ta **ước tính** một tỷ lệ kèm KTC 95%.
+FINER: F xanh (phiếu theo dõi thường quy) · N vàng (số liệu tại chỗ là mới) · E xanh (thường ít rủi ro; vẫn cần chấp thuận để dùng hồ sơ) · R xanh (cho thấy vấn đề có tồn tại ở đây hay không).
+
+**Thế nào là tốt (Bài tập 1)**
+- Mọi ô đều được điền; nhóm so sánh được nêu tên, không ghi "không có gì".
+- Một kết cục chính, **đo lường được**, kèm **thời điểm đo**.
+- Câu văn đọc tự nhiên và có đủ mọi thành phần PICO.
+- Lỗi thường gặp cần sửa: hai kết cục trong một câu hỏi ("tử vong và thời gian nằm viện"); kết cục không có thời điểm; đối tượng quá rộng ("mọi người bệnh"); can thiệp không được định nghĩa ("chăm sóc tốt hơn").
+
+
+* * *
+
+## Bài tập 2 (cá nhân): mục tiêu tổng quát, mục tiêu cụ thể và giả thuyết cho nghiên cứu thí điểm
+
+- *Mục tiêu tổng quát:* So sánh quy trình hạn chế dịch với chăm sóc thường quy ở người lớn bị sốc nhiễm khuẩn tại ICU của chúng ta.
+- *Mục tiêu cụ thể:* Chính: so sánh cân bằng dịch tích lũy (ml/kg) ở ngày 5 giữa hai nhóm. Phụ: ước tính tốc độ tuyển chọn và mức tuân thủ quy trình (tính khả thi). (Mục tiêu thứ ba, không bắt buộc: mô tả tử vong 28 ngày và tổn thương thận cần lọc máu ở mỗi nhóm, mang tính thăm dò.)
+- *Giả thuyết:* H0: cân bằng dịch tích lũy ở ngày 5 như nhau ở hai nhóm. H1: có khác nhau.
+- *Phiên bản mô tả C (không có giả thuyết):* Ước tính tỷ lệ người lớn bị sốc nhiễm khuẩn tại ICU của chúng ta có cân bằng dịch tích lũy dương vào ngày 3.
+
+**Kiểm tra động từ mơ hồ (câu hỏi cuối buổi số 2):** viết lại "Tìm hiểu cân bằng dịch tại ICU của chúng ta" thành *"Ước tính tỷ lệ người lớn bị sốc nhiễm khuẩn tại ICU của chúng ta có cân bằng dịch tích lũy dương vào ngày 3."*
+
+**Thế nào là tốt**
+- H0 luôn phát biểu "không có khác biệt / không có mối liên quan".
+- H1 thường viết là "có khác nhau" (theo bất kỳ chiều nào), kể cả khi chúng ta kỳ vọng có lợi, vì can thiệp cũng có thể gây hại. Kiểm định một phía và hai phía được dạy ở Buổi 6.
+- Giả thuyết dùng **cùng** kết cục và thời điểm với mục tiêu chính.
+- Sửa quan niệm sai: dữ liệu có thể **bác bỏ** H0 hoặc **không bác bỏ** H0; chúng ta không bao giờ "chứng minh H0". "Không có khác biệt có ý nghĩa thống kê" không có nghĩa là "không có khác biệt" (Bài báo 1, n = 48, không thể phát hiện khác biệt về tử vong vì không được thiết kế đủ lực cho kết cục này).
+
+
+* * *
+
+## Bài tập 3 (cá nhân): Xây dựng đề cương 1, thế nào là tốt
+
+Giảng viên làm mẫu Phần 1 trên màn hình với phiên bản thí điểm (A) của ví dụ xuyên suốt; sau đó mỗi học viên viết Phần 1 cho câu hỏi của mình. Dùng bài mẫu này làm chuẩn chất lượng, không phải làm đáp án. Tài liệu tham khảo, đặt vấn đề và tên đề tài được thêm vào thứ Bảy tuần sau (Buổi 2).
+
+**PICO(T):** P người lớn bị sốc nhiễm khuẩn trong vòng 24 giờ sau khi bắt đầu thuốc vận mạch · I quy trình hạn chế dịch · C chăm sóc thường quy · O cân bằng dịch tích lũy (ml/kg) · T ở ngày 5.
+
+**Câu hỏi:** *Ở người lớn bị sốc nhiễm khuẩn tại ICU của chúng ta, quy trình hạn chế dịch, so với chăm sóc thường quy, có làm giảm cân bằng dịch tích lũy ở ngày 5 không?*
+
+**FINER:** F xanh/vàng (nghiên cứu thí điểm khoảng 50 người bệnh trong 12–18 tháng) · I xanh · N vàng đến xanh (bối cảnh tại chỗ, quy trình khác) · E vàng (đồng ý trì hoãn hoặc đồng ý qua người đại diện, Buổi 7) · R xanh.
+
+**Mục tiêu tổng quát:** So sánh quy trình hạn chế dịch với chăm sóc thường quy ở người lớn bị sốc nhiễm khuẩn tại ICU của chúng ta.
+**Mục tiêu cụ thể:**
+1. *(Chính)* So sánh cân bằng dịch tích lũy (ml/kg) ở ngày 5 giữa hai nhóm.
+2. Ước tính tốc độ tuyển chọn và mức tuân thủ quy trình (tính khả thi).
+3. Mô tả tử vong 28 ngày và tổn thương thận cần lọc máu ở mỗi nhóm (thăm dò).
+
+**Giả thuyết:** H0: cân bằng dịch tích lũy ở ngày 5 như nhau ở hai nhóm. H1: có khác nhau.
+
+**Hướng dẫn phản hồi khi đọc bản nháp (không chấm điểm)**
+
+| Thành phần | Tốt | Cần cải thiện |
 |---|---|---|
-| 1 | **Feasible** | Whole country, 10 years, mortality: far beyond any department's resources. (Large vitamin D trials already exist too, so Novel also fails.) |
-| 2 | **Ethical** | Withholding antibiotics in septic shock causes harm; there is no equipoise. An ethics committee would refuse it. |
-| 3 | **Novel** | The answer is already measured monthly. This is an audit question rather than a research question, so use the existing data. |
-| 4 | **Relevant** (and Interesting) | No plausible mechanism and no impact on practice. |
-
-**Part B is also an extra slide.** **Running example (slide):** F red (a mortality difference needs well over a thousand patients: CLASSIC 1,554, CLOVERS 1,563); N amber (large trials exist, no mortality difference found); E amber (equipoise exists, but consent in septic shock is difficult); I and R green.
-**Feasible rewrites:** a pilot with cumulative fluid balance at day 5 as the primary outcome (as Paper 1 did); a descriptive study of fluid balance in our unit; an observational study of fluid balance and organ support.
+| Chủ đề | Một vấn đề tập trung từ khoa của học viên | Gộp ba vấn đề; "cải thiện chăm sóc tại ICU" |
+| Câu hỏi | Đủ mọi thành phần PICO(T); một kết cục chính có thời điểm đo | Hai kết cục; không có nhóm so sánh; đối tượng mơ hồ |
+| FINER | Mỗi chữ cái đều có lý giải; chữ cái đỏ đã được sửa | Đánh dấu mà không suy nghĩ |
+| Mục tiêu | Một mục tiêu tổng quát; 2–3 mục tiêu cụ thể đo lường được; có đánh dấu mục tiêu chính | "Tìm hiểu…", "nghiên cứu…"; hơn 4 mục tiêu cụ thể |
+| Giả thuyết | Khớp với mục tiêu chính; có H0 và H1; hoặc ghi đúng là "mô tả" | Giả thuyết về một kết cục khác |
 
 
 * * *
 
-## Exercise 3: Aim, objectives and hypothesis
+## Bài tập 4: Danh sách từ đồng nghĩa (bài về nhà)
 
-**Model answer: delirium example**
-- *Aim:* To compare a daily non-drug delirium-prevention bundle with usual care in adults aged 65 and over after hip-fracture surgery.
-- *Objectives:* 1 (primary) To compare the incidence of delirium in the first 7 postoperative days between groups. 2 To compare length of hospital stay between groups.
-- *Hypothesis:* H0: the incidence of delirium in the first 7 days is the same in both groups. H1: it differs.
-- *Descriptive version (no hypothesis):* To estimate the proportion of patients aged 65+ who develop delirium in the first 7 days after hip-fracture surgery.
-
-**Vague-verb check:** rewrite "To understand pressure injuries on our ward" as *"To estimate the incidence of new stage 2 or worse pressure injuries among adults admitted to our ward over 6 months."*
-
-**a) Early mobilisation**
-- H0: ICU length of stay is the **same** with early mobilisation and with usual care.
-- H1: ICU length of stay **differs** between early mobilisation and usual care (two-sided).
-
-**b) Proportion with positive fluid balance:** **No hypothesis needed.** This is descriptive: we *estimate* a proportion with its 95% confidence interval.
-
-**What good looks like**
-- H0 always states "no difference / no association".
-- H1 is usually two-sided ("differs"), even when we expect benefit, because the intervention could also harm.
-- The hypothesis uses the **same** outcome and time point as the primary objective.
-- Correct the misconception: data can **reject** H0 or **fail to reject** it; we never "prove H0". "No significant difference" is not "no difference" (Paper 1, n = 48, could not detect a mortality difference because it was not powered for it).
+Mẫu cho ví dụ xuyên suốt: **P** septic shock · sepsis · vasopressor-dependent sepsis; **I** fluid restriction · restrictive fluid · conservative fluid · de-resuscitation; **O** mortality · death · survival.
 
 
 * * *
 
-## Exercise 4: Proposal builder 1 (what good looks like)
+## Câu hỏi cuối buổi: đáp án
 
-A worked model using the **feasible rewrite** of the running example (a pilot). Groups choose their own topics; use this as the quality benchmark, not as the answer. The references, problem statement and title are added next Saturday (Session 2, Exercise 4).
+1. **Feasible (khả thi).** Kết cục tử vong cần hơn một nghìn người bệnh (Novel cũng màu vàng vì đã có các thử nghiệm lớn).
+2. Ví dụ: *"Ước tính tỷ lệ người lớn bị sốc nhiễm khuẩn tại ICU của chúng ta có cân bằng dịch tích lũy dương vào ngày 3."*
 
-**Type of project:** research (randomised; changes care), so it needs ethics committee approval and prospective trial registration.
 
-**PICO(T):** P adults with septic shock within 24 h of starting vasopressors · I restrictive fluid protocol · C usual care · O cumulative fluid balance (ml/kg) · T at day 5.
+* * *
 
-**Question:** *In adults with septic shock in our ICU, does a restrictive fluid protocol, compared with usual care, reduce cumulative fluid balance at day 5?*
+## Thực hành thêm (không bắt buộc, làm ở nhà): đáp án mẫu
 
-**FINER:** F green/amber (pilot of about 50 patients over 12–18 months) · I green · N amber to green (local setting, different protocol) · E amber (deferred or surrogate consent, Session 7) · R green.
+### A. Tình huống: đáp án PICO(T) mẫu
 
-**Aim:** To compare a restrictive fluid protocol with usual care in adults with septic shock in our ICU.
-**Objectives:**
-1. *(Primary)* To compare cumulative fluid balance (ml/kg) at day 5 between groups.
-2. To estimate recruitment rate and protocol adherence (feasibility).
-3. To describe 28-day mortality and kidney injury needing dialysis in each group (exploratory).
+**Tình huống A: Viêm phổi liên quan đến thở máy (thực nghiệm).** P người lớn thở máy xâm nhập ≥ 48 giờ tại ICU · I bảng kiểm điều dưỡng hai lần mỗi ngày về nâng đầu giường 30–45° · C chăm sóc thường quy (không có bảng kiểm) · O viêm phổi liên quan đến thở máy (theo định nghĩa đã nêu) · T đến ngày ICU thứ 28.
+*Ở người lớn thở máy ít nhất 48 giờ tại ICU, bảng kiểm điều dưỡng hai lần mỗi ngày về nâng đầu giường, so với chăm sóc thường quy, có làm giảm tỷ lệ mới mắc viêm phổi liên quan đến thở máy đến ngày ICU thứ 28 không?* Điểm cần lưu ý về FINER: **F** (định nghĩa VAP khác nhau và VAP không quá thường gặp).
 
-**Hypothesis:** H0: cumulative fluid balance at day 5 is the same in both groups. H1: it differs.
+**Tình huống B: Tổn thương do tì đè (mô tả trước).** *Tỷ lệ mới mắc tổn thương do tì đè mắc phải trong bệnh viện (độ 2 trở lên) ở người lớn nhập khoa nội của chúng ta trong 6 tháng là bao nhiêu?* P người lớn nhập khoa nội · O tổn thương do tì đè mới, độ 2 trở lên · T trong thời gian nằm viện, trong 6 tháng. Mô tả: không có giả thuyết; ước tính tỷ lệ mới mắc kèm KTC 95%. Câu hỏi phân tích về sau: *xoay trở mỗi 2 giờ so với mỗi 4 giờ có làm giảm tổn thương do tì đè mới ở người lớn có nguy cơ không?*
 
-**Marking guide for circulating (not a grade)**
-| Element | Good | Needs work |
+**Tình huống C: Mê sảng (thực nghiệm).** P người lớn từ 65 tuổi sau phẫu thuật gãy cổ xương đùi · I gói dự phòng mê sảng đa thành phần không dùng thuốc hằng ngày · C chăm sóc thường quy · O mê sảng mới mắc (công cụ đã được thẩm định, ví dụ 4AT hoặc CAM) · T 7 ngày đầu sau mổ. Điểm cần lưu ý về FINER: **E** (sự đồng ý của người bệnh có thể trở nên lú lẫn) và **F** (thời gian của nhân viên).
+
+**Tình huống D: Thời gian từ cửa đến kim trong đột quỵ (quan sát, PECO).** P người lớn bị đột quỵ thiếu máu não cấp được dùng thuốc tiêu sợi huyết tại khoa cấp cứu của chúng ta · E thông báo trước từ xe cấp cứu · C không có thông báo trước · O thời gian từ cửa đến kim (phút) · T từ lúc đến viện đến lúc bắt đầu thuốc tiêu sợi huyết. Kết cục là biến liên tục, nên giả thuyết nói về khác biệt trung vị hoặc trung bình thời gian.
+
+**Tình huống E: Sai sót thuốc (thực nghiệm hoặc trước–sau).** P người lớn chuyển từ ICU sang khoa thường · I đối chiếu thuốc do dược sĩ thực hiện khi chuyển khoa · C quy trình chuyển khoa thường quy · O người bệnh có ít nhất một sai lệch về thuốc · T trong vòng 48 giờ sau chuyển khoa. Điểm cần lưu ý: định nghĩa "sai sót thuốc"; chỉ một kết cục chính.
+
+### B. FINER: đáp án mẫu
+
+| # | Vấn đề chính | Vì sao |
 |---|---|---|
-| Topic | One focused problem from the unit | Three problems merged; "improve care in the ICU" |
-| Question | All PICO(T) elements; one primary outcome with time point | Two outcomes; no comparison; vague population |
-| FINER | Each letter justified; red letters fixed | Ticked without thought |
-| Research / audit / QI | Correctly classified; approval route noted | "It's only an audit" for a randomised project |
-| Aim/objectives | One aim; 2–3 measurable objectives; primary marked | "To understand…", "to study…"; more than 4 objectives |
-| Hypothesis | Matches primary objective; H0 and H1; or correctly "descriptive" | Hypothesis about a different outcome |
+| 1 | **Feasible (khả thi)** | Cả nước, 10 năm, tử vong: vượt xa nguồn lực của bất kỳ khoa nào. (Cũng đã có các thử nghiệm vitamin D lớn, nên Novel cũng không đạt.) |
+| 2 | **Ethical (đạo đức)** | Trì hoãn kháng sinh trong sốc nhiễm khuẩn gây hại; không có thế cân bằng (equipoise). Hội đồng đạo đức sẽ từ chối. |
+| 3 | **Novel (mới)** | Câu trả lời đã được đo hằng tháng. Đây là câu hỏi đánh giá thực hành (audit) hơn là câu hỏi nghiên cứu, nên hãy dùng dữ liệu sẵn có. |
+| 4 | **Relevant (phù hợp)** (và Interesting) | Không có cơ chế hợp lý và không ảnh hưởng đến thực hành. |
+
+Các câu này cũng có trên một slide bổ sung ("Luyện thêm: chữ cái FINER nào không đạt?").
+
+### C. Giả thuyết
+
+**a) Vận động sớm.** H0: thời gian nằm ICU **như nhau** khi vận động sớm và khi chăm sóc thường quy. H1: thời gian nằm ICU **khác nhau** giữa vận động sớm và chăm sóc thường quy.
+**b) Tỷ lệ có cân bằng dịch dương.** **Không cần giả thuyết.** Đây là câu hỏi mô tả: chúng ta *ước tính* một tỷ lệ kèm khoảng tin cậy 95%.
 
 
 * * *
 
-## Exercise 5: Synonym list (homework)
+## Slide bổ sung: nghiên cứu, đánh giá thực hành hay cải tiến chất lượng? (đáp án)
 
-Model for the running example: **P** septic shock · sepsis · vasopressor-dependent sepsis; **I** fluid restriction · restrictive fluid · conservative fluid · de-resuscitation; **O** mortality · death · survival. For the pressure-injury example: pressure ulcer · pressure injury · bedsore · decubitus ulcer; repositioning · turning · position change.
+| Dự án | Đáp án | Con đường xét duyệt đạo đức |
+|---|---|---|
+| Kiểm tra cân bằng dịch có được ghi hằng ngày theo quy trình của khoa không | **Đánh giá thực hành (audit)** | Chấp thuận tại chỗ / của bộ phận quản lý chất lượng lâm sàng; thường không cần hội đồng đạo đức |
+| Thử nghiệm bảng kiểm cân bằng dịch hằng ngày theo các chu trình PDSA | **Cải tiến chất lượng** | Chấp thuận tại chỗ; cần hội đồng đạo đức xét duyệt nếu tăng rủi ro hoặc vượt quá chăm sóc thường quy |
+| Phân bổ ngẫu nhiên người bệnh vào nhóm hạn chế dịch hoặc dịch thường quy | **Nghiên cứu** | Chấp thuận của hội đồng đạo đức + đăng ký thử nghiệm trước người bệnh đầu tiên |
+| Phỏng vấn điều dưỡng về lý do họ ngần ngại ngừng dịch | **Nghiên cứu** (định tính) | Chấp thuận của hội đồng đạo đức (sự đồng ý, bảo mật) |
+| Xem lại hồ sơ ICU 3 năm để xem cân bằng dịch có liên quan với tử vong không | **Nghiên cứu** (dữ liệu thứ cấp, quan sát) | Chấp thuận của hội đồng đạo đức hoặc quyết định chính thức miễn sự đồng ý |
 
-
-* * *
-
-## Exit question: answers
-1. **Feasible.** A mortality outcome needs well over a thousand patients (Novel is also amber because large trials already exist).
-2. e.g. *"To estimate the incidence of new stage 2 or worse pressure injuries among adults on our ward over 6 months."*
+Ý chính: quy định khác nhau giữa các cơ sở. Khi chưa chắc, hãy hỏi hội đồng đạo đức **trước khi** bắt đầu; tạp chí yêu cầu văn bản chấp thuận hoặc miễn khi nộp bài.

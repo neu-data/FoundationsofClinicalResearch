@@ -2,150 +2,148 @@
 title: "Buổi 5: Lời giải"
 ---
 
-::: {.lang-note}
-Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
-:::
+[Tải bản PDF](files/sessions/s5_solutions_VN.pdf) · [Quay lại Buổi 5](session5.qmd)
 
-[Tải bản PDF](files/sessions/s5_solutions.pdf) · [Quay lại Buổi 5](session5.qmd)
+**Nền tảng Nghiên cứu Lâm sàng · Cấp độ 1** · bản dành cho giảng viên (không phát trước buổi học)
 
-**Foundations of Clinical Research** · instructor copy (do not distribute before the session)
-
-Exercise numbers follow `Practicals/s5_exercises.md`. All FLUID-ICU numbers come from `Course/Data/key_results.md` (simulated data).
+Số thứ tự bài tập theo `Practicals/s5_exercises_VN.md`. Mọi con số FLUID-ICU lấy từ `Course/Data/key_results.md` (dữ liệu mô phỏng).
 
 
 * * *
 
-## Exercise 1: Classify the variables
+## Bài tập 1: Phân loại biến số
 
-| # | Variable | Answer | Explanation |
+| # | Biến số | Đáp án | Giải thích |
 |---|---|---|---|
-| a | Age (years) | **Continuous** | Measured on a scale. Keep the exact number on the CRF (or collect date of birth). |
-| b | Sex | **Binary** | Two categories. Coding 1/2 does not make it numerical. |
-| c | Glasgow Coma Scale | **Ordinal** | Ordered scores (3–15) with unequal steps. Often *analysed* like a number, which is acceptable if stated, but it is ordinal by nature. |
-| d | Source of sepsis | **Nominal** | Several categories, no natural order. |
-| e | Number of vasopressors | **Count** | Whole numbers 0–3. Accept "ordinal" if the pair argues it well; not continuous. |
-| f | Cumulative fluid balance (ml/kg) | **Continuous** | Can be negative or positive, with any value on the scale. The Paper 1 primary outcome. |
-| g | Alive at day 28 | **Binary** | Yes/no. |
-| h | Time to death, censored at day 28 | **Time-to-event** | Two pieces of information: how long, and whether the event happened. Analysed with Kaplan–Meier / Cox. |
-| i | Pain none–severe | **Ordinal** | Ordered categories. |
-| j | Blood group | **Nominal** | No order. |
+| a | Tuổi (năm) | **Liên tục** | Đo trên một thang đo. Giữ con số chính xác trên CRF (hoặc thu thập ngày sinh). |
+| b | Giới | **Nhị phân** | Hai nhóm. Mã hóa 1/2 không biến nó thành biến số dạng số. |
+| c | Thang điểm hôn mê Glasgow | **Thứ hạng** | Điểm có thứ tự (3–15) với các bước không đều nhau. Thường được *phân tích* như một con số, chấp nhận được nếu nêu rõ, nhưng bản chất là biến thứ hạng. |
+| d | Ổ nhiễm khuẩn | **Định danh** | Nhiều nhóm, không có thứ tự tự nhiên. |
+| e | Số thuốc vận mạch | **Đếm** | Số nguyên 0–3. Chấp nhận "thứ hạng" nếu học viên lập luận tốt; không phải liên tục. |
+| f | Cân bằng dịch tích lũy (ml/kg) | **Liên tục** | Có thể âm hoặc dương, nhận bất kỳ giá trị nào trên thang đo. Là kết cục chính của Bài báo 1. |
+| g | Còn sống ở ngày 28 | **Nhị phân** | Có/không. |
+| h | Thời gian đến tử vong, kiểm duyệt ở ngày 28 | **Thời gian đến biến cố** | Hai thông tin: bao lâu, và biến cố có xảy ra không. Phân tích bằng Kaplan–Meier / Cox. |
+| i | Đau từ không đến nặng | **Thứ hạng** | Các nhóm có thứ tự. |
+| j | Nhóm máu | **Định danh** | Không có thứ tự. |
 
-**Bonus:** any continuous variable (age, fluid balance, lactate). You can always group later, but you cannot recover the exact value from a group.
+**Câu hỏi thêm:** bất kỳ biến liên tục nào (tuổi, cân bằng dịch, lactate). Bạn luôn có thể chia nhóm về sau, nhưng không thể lấy lại giá trị chính xác từ một nhóm.
 
-**Common errors:** GCS called continuous; time-to-death called continuous (ignores censoring); number of vasopressors called continuous.
+**Lỗi thường gặp:** gọi GCS là biến liên tục; gọi thời gian đến tử vong là biến liên tục (bỏ qua kiểm duyệt); gọi số thuốc vận mạch là biến liên tục.
 
 
 * * *
 
-## Exercise 2: Fix the bad CRF items (model answers)
+## Bài tập 2: Sửa các mục CRF viết chưa tốt (đáp án mẫu)
 
-| # | Bad item | Problem | Model rewrite |
+| # | Mục chưa tốt | Vấn đề | Bản viết lại mẫu |
 |---|---|---|---|
-| a | Fluid given: ____ | No unit, no time window, no definition (crystalloid? blood? drug diluents?) | "Total IV fluid received from ICU admission to 24 h (ml), including crystalloids, colloids and drug diluents: [ ][ ][ ][ ][ ] ml   ☐ not recorded" |
-| b | Weight: ____ | No unit; measured or estimated? when? | "Body weight at ICU admission (kg): [ ][ ][ ].[ ]   ☐ measured  ☐ estimated  ☐ not available" |
-| c | Comorbidities: ________ | Free text: impossible to analyse, spelling varies | Tick list: "Comorbidities present at admission (tick ALL that apply): ☐ diabetes ☐ chronic kidney disease ☐ heart failure ☐ COPD ☐ cirrhosis ☐ cancer ☐ none ☐ unknown" |
-| d | Lactate high? Y / N | Opinion ("high" by whose cut-off?), loses the value, no time point | "Serum lactate at ICU admission (mmol/L): [ ][ ].[ ]   ☐ not done" (define "high" later, in the analysis) |
+| a | Dịch đã truyền: ____ | Không có đơn vị, không có khung thời gian, không định nghĩa (dịch tinh thể? máu? dịch pha thuốc?) | "Tổng lượng dịch tĩnh mạch đã nhận từ lúc vào ICU đến giờ 24 (ml), gồm dịch tinh thể, dịch keo và dịch pha thuốc: [ ][ ][ ][ ][ ] ml   ☐ không ghi nhận" |
+| b | Cân nặng: ____ | Không có đơn vị; cân thật hay ước tính? lúc nào? | "Cân nặng lúc vào ICU (kg): [ ][ ][ ].[ ]   ☐ cân thật  ☐ ước tính  ☐ không có" |
+| c | Bệnh kèm theo: ________ | Ghi tự do: không thể phân tích, chính tả khác nhau | Danh sách đánh dấu: "Bệnh kèm theo có lúc nhập viện (đánh dấu TẤT CẢ các mục phù hợp): ☐ đái tháo đường ☐ bệnh thận mạn ☐ suy tim ☐ COPD ☐ xơ gan ☐ ung thư ☐ không có ☐ không rõ" |
+| d | Lactate cao? Có / Không | Ý kiến (cao theo ngưỡng của ai?), mất giá trị, không có thời điểm | "Lactate huyết thanh lúc vào ICU (mmol/L): [ ][ ].[ ]   ☐ không làm" (định nghĩa "cao" sau, khi phân tích) |
 
-Accept any version that passes the four checks (unit, time point, one reading, unknown option). Praise pairs who notice that collecting the *number* is better than collecting a yes/no.
+Chấp nhận mọi phiên bản qua được bốn bước kiểm tra (đơn vị, thời điểm, một cách hiểu, lựa chọn không rõ). Khen những câu trả lời nhận ra rằng thu thập *con số* tốt hơn thu thập có/không.
 
 
 * * *
 
-## Exercise 3: Choose the right summary
+## Bài tập 3: Chọn cách tóm tắt phù hợp
 
-| # | Variable | Shape / type | Summary | Graph |
+| # | Biến số | Hình dạng / loại | Cách tóm tắt | Biểu đồ |
 |---|---|---|---|---|
-| a | Age, bell-shaped | Symmetric continuous | **Mean (SD)** | Histogram |
-| b | ICU length of stay | Right-skewed | **Median (IQR)** | Histogram or boxplot |
-| c | Died in hospital | Binary | **n (%)** | Bar chart |
-| d | CRP | Right-skewed | **Median (IQR)** | Histogram / boxplot |
-| e | Source of sepsis | Nominal | **n (%) per category** | Bar chart (not 3-D pie) |
-| f | SBP by treatment group | Symmetric, two groups | **Mean (SD) per group** | Side-by-side boxplots |
+| a | Tuổi, hình chuông | Liên tục, đối xứng | **Trung bình (SD)** | Biểu đồ tần suất (histogram) |
+| b | Thời gian nằm ICU | Lệch phải | **Trung vị (IQR)** | Histogram hoặc biểu đồ hộp |
+| c | Tử vong trong bệnh viện | Nhị phân | **n (%)** | Biểu đồ cột |
+| d | CRP | Lệch phải | **Trung vị (IQR)** | Histogram / biểu đồ hộp |
+| e | Ổ nhiễm khuẩn | Định danh | **n (%) cho mỗi nhóm** | Biểu đồ cột (không dùng biểu đồ tròn 3 chiều) |
+| f | Huyết áp tâm thu theo nhóm điều trị | Đối xứng, hai nhóm | **Trung bình (SD) cho mỗi nhóm** | Các biểu đồ hộp đặt cạnh nhau |
 
 
 * * *
 
-## Exercise 4: Judge a bad figure
+## Bài tập 4: Đánh giá một biểu đồ chưa tốt
 
-1. Each bar is the **mean** fluid balance per group. The error bar is the **standard error (SE)**, shown in one direction only. Missing: the individual patients, the spread (SD or IQR), the shape (skew), the n per group on the figure, and what the error bar represents.
-2. Any two of: the data are **skewed**; **one extreme patient** (160 ml/kg) pulls the usual-care mean up; the groups **overlap** a lot; the median; the number of patients; negative values.
-3. Dots (one per patient) plus a boxplot per group (see the "dots + box" slide), y-axis labelled with units, n under each group. You gain: shape, spread, outliers and overlap become visible, and the reader can judge the comparison.
-4. The truncated axis makes a 2-percentage-point difference (31% vs 29%) look like a three-fold difference. Fix: start bars at 0 and label the values (or show the difference with its 95% CI).
-5. (i) The author chose the two scales, so the lines can be made to cross or move together wherever wanted; (ii) two trends over time moving together is **correlation, not causation** (other changes may have happened at the same time). Better: two panels sharing the time axis, and an appropriate design (e.g. interrupted time series, Session 3).
+1. Mỗi cột là **trung bình** cân bằng dịch của mỗi nhóm. Thanh sai số là **sai số chuẩn (SE)**, chỉ vẽ một chiều. Thiếu: từng người bệnh, độ phân tán (SD hoặc IQR), hình dạng phân phối (độ lệch), n của mỗi nhóm trên biểu đồ, và thanh sai số thể hiện gì.
+2. Bất kỳ hai điều nào: dữ liệu **lệch**; **một người bệnh cực trị** (160 ml/kg) kéo trung bình của nhóm chăm sóc thường quy lên; hai nhóm **chồng lấn** nhiều; trung vị; số người bệnh; các giá trị âm.
+3. Chấm (mỗi chấm một người bệnh) cộng với biểu đồ hộp cho mỗi nhóm (xem slide "chấm + hộp"), trục y có ghi đơn vị, n ghi dưới mỗi nhóm. Bạn được thêm: thấy được hình dạng, độ phân tán, giá trị ngoại lai và mức chồng lấn, và người đọc tự đánh giá được phép so sánh.
+4. Trục bị cắt làm khác biệt 2 điểm phần trăm (31% so với 29%) trông như gấp ba lần. Cách sửa: cột bắt đầu từ 0 và ghi giá trị (hoặc trình bày hiệu số kèm KTC 95%).
+5. (i) Tác giả tự chọn hai thang đo, nên có thể làm hai đường cắt nhau hoặc đi cùng nhau ở bất kỳ đâu họ muốn; (ii) hai xu hướng theo thời gian cùng đi lên hay xuống là **tương quan, không phải quan hệ nhân quả** (có thể có những thay đổi khác cùng lúc). Tốt hơn: hai khung dùng chung trục thời gian, và một thiết kế phù hợp (ví dụ chuỗi thời gian ngắt quãng, Buổi 3).
 
 
 * * *
 
-## Exercise 5: [DS] Spot the problems in the raw FLUID-ICU data
+## Bài tập 5: [FLUID-ICU] Tìm lỗi trong dữ liệu thô FLUID-ICU
 
-(See `Course/Data/cleaning_log.md` for the full log.)
+(Xem `Course/Data/cleaning_log.md` để biết nhật ký đầy đủ.)
 
-| # | What is wrong | What the script does |
+| # | Sai ở đâu | Script làm gì |
 |---|---|---|
-| a | One variable coded many ways (and a leading space) | Recode to `Female` / `Male` |
-| b | Dates in different formats (03/04: March or April?) | Read each format explicitly and convert to one date format (YYYY-MM-DD) |
-| c | ICU C reported lactate in mg/dL, not mmol/L (about 9 times larger; found by comparing medians by ICU) | Divide ICU C values by 9.01 (1 mmol/L = 9.01 mg/dL); confirm with the site laboratory |
-| d | `999` is a missing-value code, not a lactate | Set to missing (NA) |
-| e | Impossible age (outside the allowed range) | Set to missing, send a query to the site; keep the patient |
-| f | Duplicate record | Check the two rows are identical, keep one copy (623 rows become 620 patients) |
+| a | Một biến được mã hóa nhiều kiểu (và có khoảng trắng ở đầu) | Mã hóa lại thành `Female` / `Male` |
+| b | Ngày ở nhiều định dạng khác nhau (03/04: tháng Ba hay tháng Tư?) | Đọc từng định dạng một cách tường minh và chuyển về một định dạng ngày (YYYY-MM-DD) |
+| c | ICU C báo cáo lactate theo mg/dL, không phải mmol/L (lớn hơn khoảng 9 lần; phát hiện bằng cách so sánh trung vị theo ICU) | Chia các giá trị của ICU C cho 9.01 (1 mmol/L = 9.01 mg/dL); xác nhận với phòng xét nghiệm của cơ sở |
+| d | `999` là mã cho giá trị thiếu, không phải lactate | Đặt thành giá trị thiếu (NA) |
+| e | Tuổi không thể có (ngoài khoảng cho phép) | Đặt thành giá trị thiếu, gửi câu hỏi xác minh cho cơ sở; giữ người bệnh |
+| f | Bản ghi trùng lặp | Kiểm tra hai dòng giống hệt nhau, giữ một bản (623 dòng thành 620 người bệnh) |
 
-Bonus: editing by hand is invisible and not reproducible. A script plus a log lets anyone check and repeat every change. The log records the problem, how many records, what was done, and why (plus queries sent).
-
-
-* * *
-
-## Exercise 6: [DS] Read your group's Table 1
-
-All numbers from `Course/Data/key_results.md` (simulated data).
-
-1. Negative balance n = 245, positive n = 373, overall 618. Two of the 620 enrolled patients have no computable day-3 fluid balance (an impossible weight or fluid output was set to missing during cleaning), so they cannot be placed in a group.
-2. Expected answers: mean (SD) for age, which is roughly symmetric (64.6 vs 61.4 years); median (IQR) for SOFA, a skewed score (6 (4 to 8) vs 8 (6 to 10)); median (IQR) for lactate, which is right-skewed (2.2 (1.4 to 3.0) vs 2.9 (1.9 to 4.0) mmol/L); n (%) for vasopressor, ventilation, heart failure and sex.
-3. Severity: SOFA 8 vs 6; vasopressor 205/373 (55.0%) vs 61/245 (24.9%); mechanical ventilation 216/373 (57.9%) vs 97/245 (39.6%). (Heart failure goes the other way: 43/373 (11.5%) vs 54/245 (22.0%), because clinicians give less fluid in heart failure.)
-4. Lactate: 91 missing among the 618 (93 of all 620 enrolled, 15.0%).
-5. Model sentences: "Of 620 enrolled patients, 618 had a computable day-3 fluid balance, of whom 373 (60.4%) had a positive balance. Patients with a positive balance were more severely ill at admission (median SOFA 8 vs 6; vasopressor 55.0% vs 24.9%; mechanical ventilation 57.9% vs 39.6%)."
-6. Larger: the positive-balance group was sicker, and sicker patients die more, so the crude association mixes fluid with severity (confounding by indication). Confirmed in Session 6: crude OR 2.49 vs adjusted 1.62.
+Câu hỏi thêm: sửa bằng tay thì không ai thấy và không lặp lại được. Một script cùng nhật ký cho phép bất kỳ ai kiểm tra và lặp lại mọi thay đổi. Nhật ký ghi vấn đề, bao nhiêu bản ghi, đã làm gì, và vì sao (cùng các câu hỏi xác minh đã gửi).
 
 
 * * *
 
-## Exercise 7: [DS] Your group's question
+## Bài tập 6: [FLUID-ICU] Đọc Bảng 1 của FLUID-ICU (cả lớp)
 
-| Q | Outcome (type) | Exposure (type) | Planned comparison / model |
+Mọi con số từ `Course/Data/key_results.md` (dữ liệu mô phỏng).
+
+1. Cân bằng dịch âm n = 245, dương n = 373, tổng 618. Hai trong số 620 người bệnh được tuyển không tính được cân bằng dịch ngày 3 (một cân nặng hoặc lượng dịch ra không thể có đã được đặt thành giá trị thiếu khi làm sạch), nên không xếp được vào nhóm nào.
+2. Câu trả lời dự kiến: trung bình (SD) cho tuổi, gần đối xứng (64.6 so với 61.4 tuổi); trung vị (IQR) cho SOFA, một điểm số có phân phối lệch (6 (4 đến 8) so với 8 (6 đến 10)); trung vị (IQR) cho lactate, lệch phải (2.2 (1.4 đến 3.0) so với 2.9 (1.9 đến 4.0) mmol/L); n (%) cho thuốc vận mạch, thở máy, suy tim và giới.
+3. Mức độ nặng: SOFA 8 so với 6; thuốc vận mạch 205/373 (55.0%) so với 61/245 (24.9%); thở máy 216/373 (57.9%) so với 97/245 (39.6%). (Suy tim theo chiều ngược lại: 43/373 (11.5%) so với 54/245 (22.0%), vì bác sĩ truyền ít dịch hơn khi người bệnh suy tim.)
+4. Lactate: thiếu 91 trong 618 (93 trong toàn bộ 620 người được tuyển, 15.0%).
+5. Câu mẫu: "Trong 620 người bệnh được tuyển, 618 người tính được cân bằng dịch ngày 3, trong đó 373 người (60.4%) có cân bằng dịch dương. Người bệnh có cân bằng dịch dương nặng hơn lúc nhập viện (trung vị SOFA 8 so với 6; thuốc vận mạch 55.0% so với 24.9%; thở máy 57.9% so với 39.6%)."
+6. Lớn hơn: nhóm cân bằng dịch dương nặng hơn, và người bệnh nặng hơn tử vong nhiều hơn, nên mối liên quan thô trộn lẫn dịch truyền với mức độ nặng (nhiễu do chỉ định). Được xác nhận ở Buổi 6: OR thô 2.49 so với OR hiệu chỉnh 1.62.
+
+
+* * *
+
+## Bài tập 7: [FLUID-ICU] Câu hỏi bản thảo của bạn dưới dạng câu PECO
+
+Trong lớp, Q1 được làm chung; sau đó mỗi học viên hoàn thành bảng cho câu hỏi mình đã chọn.
+
+| Q | Kết cục (loại) | Phơi nhiễm (loại) | Phép so sánh / mô hình dự kiến |
 |---|---|---|---|
-| Q1 | Death by day 28 (binary; also time-to-event) | Positive balance by day 3 (binary) | Chi-square; logistic regression; Kaplan–Meier + Cox |
-| Q2 | AKI, KDIGO ≥ 1 (binary) | Cumulative balance, ml/kg (continuous, per 10 ml/kg) | Chi-square by group; logistic regression |
-| Q3 | Ventilator-free days to day 28 (count 0–28, skewed, piled at 0 and 28) | Cumulative balance (continuous) | Mann–Whitney; linear regression |
-| Q4 | Death by day 28 (binary) | Lactate at admission, mmol/L (continuous, 15% missing) | Logistic regression; complete case vs multiple imputation |
-| Q5 | ICU length of stay in survivors (continuous, right-skewed) | Positive balance (binary) | Mann–Whitney; linear regression on log scale |
+| Q1 | Tử vong trước ngày 28 (nhị phân; cũng là thời gian đến biến cố) | Cân bằng dịch dương đến ngày 3 (nhị phân) | Khi bình phương; hồi quy logistic; Kaplan–Meier + Cox |
+| Q2 | AKI, KDIGO ≥ 1 (nhị phân) | Cân bằng dịch tích lũy, ml/kg (liên tục, mỗi 10 ml/kg) | Khi bình phương theo nhóm; hồi quy logistic |
+| Q3 | Số ngày không thở máy đến ngày 28 (đếm 0–28, lệch, dồn ở 0 và 28) | Cân bằng dịch tích lũy (liên tục) | Mann–Whitney; hồi quy tuyến tính |
+| Q4 | Tử vong trước ngày 28 (nhị phân) | Lactate lúc nhập viện, mmol/L (liên tục, thiếu 15%) | Hồi quy logistic; trường hợp đầy đủ so với quy gán đa bội |
+| Q5 | Thời gian nằm ICU ở người sống sót (liên tục, lệch phải) | Cân bằng dịch dương (nhị phân) | Mann–Whitney; hồi quy tuyến tính trên thang logarit |
 
-Example (Q1): "In adults with sepsis admitted to the ICU, is a positive cumulative fluid balance by day 3, compared with a negative balance, associated with higher 28-day mortality?"
+Ví dụ (Q1): "Ở người lớn bị nhiễm khuẩn huyết vào ICU, cân bằng dịch tích lũy dương đến ngày 3, so với cân bằng dịch âm, có liên quan với tử vong 28 ngày cao hơn không?"
 
 
 * * *
 
-## Exercise 8: Proposal builder 5 (what a good answer looks like)
+## Bài tập 8: Xây dựng đề cương 5 (câu trả lời tốt trông như thế nào)
 
-**Variables table**
+**Bảng biến số**
 
-| Role | Variable | How measured | Type |
+| Vai trò | Biến số | Cách đo | Loại |
 |---|---|---|---|
-| Primary outcome | Death by day 28 | Hospital records / phone call at day 28 | Binary |
-| Secondary outcome | Cumulative fluid balance at day 5 | Fluid charts, ml/kg of admission weight | Continuous |
-| Intervention | Restrictive vs usual fluid strategy | Randomised allocation | Binary |
-| Baseline / confounders | Age, SOFA score, lactate at admission, source of sepsis | CRF at ICU admission | Continuous, ordinal-like score, continuous, nominal |
+| Kết cục chính | Tử vong trước ngày 28 | Hồ sơ bệnh viện / gọi điện ở ngày 28 | Nhị phân |
+| Kết cục phụ | Cân bằng dịch tích lũy ở ngày 5 | Phiếu theo dõi dịch, ml/kg cân nặng lúc nhập viện | Liên tục |
+| Can thiệp | Chiến lược hạn chế dịch so với thường quy | Phân bổ ngẫu nhiên | Nhị phân |
+| Biến nền / yếu tố gây nhiễu | Tuổi, điểm SOFA, lactate lúc nhập viện, ổ nhiễm khuẩn | CRF lúc vào ICU | Liên tục, điểm gần như thứ hạng, liên tục, định danh |
 
-**Sample size:** 40% vs 30% mortality, alpha 5% two-sided, power 80% gives 356 per group (spreadsheet sheet 2). Dividing by (1 − 0.10) gives 396 per group, 792 in total.
+**Cỡ mẫu:** tử vong 40% so với 30%, alpha 5% hai phía, lực thống kê 80% cho 356 người mỗi nhóm (bảng tính trang 2). Chia cho (1 − 0.10) được 396 người mỗi nhóm, tổng cộng 792.
 
-**Analysis plan:** describe with mean (SD) / median (IQR) / n (%); compare 28-day mortality with a chi-square test; report the risk ratio and risk difference with 95% CIs; fluid balance compared with Mann–Whitney and reported as median (IQR) per group. (Observational designs: add "adjusted for age, SOFA and lactate using logistic regression".)
+**Kế hoạch phân tích:** mô tả bằng trung bình (SD) / trung vị (IQR) / n (%); so sánh tử vong 28 ngày bằng kiểm định khi bình phương; báo cáo nguy cơ tương đối và hiệu số nguy cơ kèm KTC 95%; so sánh cân bằng dịch bằng Mann–Whitney và báo cáo trung vị (IQR) mỗi nhóm. (Thiết kế quan sát: thêm "hiệu chỉnh theo tuổi, SOFA và lactate bằng hồi quy logistic".)
 
-**Marking guide for facilitators (quick check while circulating):**
+**Kiểm tra nhanh cho giảng viên (khi làm mẫu, và khi đọc bản nháp gửi qua email):**
 
-| Element | Good enough | Needs work |
+| Thành phần | Đạt yêu cầu | Cần cải thiện |
 |---|---|---|
-| Variables table | Outcome, exposure and ≥ 3 confounders, all with a type | Confounders that are actually outcomes; no types |
-| Mini-CRF | 6–10 items, units, time points, unknown option | > 15 items; free text; no units |
-| Data dictionary | 3–5 rows with codes and allowed ranges | Names with spaces, no codes |
-| Sample size | 4 inputs with a stated source | "All patients in one year" |
-| Analysis plan | Summary + test + effect measure with 95% CI | "Data will be analysed with SPSS" |
+| Bảng biến số | Kết cục, phơi nhiễm và ≥ 3 yếu tố gây nhiễu, đều có loại biến | Yếu tố gây nhiễu thực ra là kết cục; không ghi loại biến |
+| CRF thu nhỏ | 6–10 mục, có đơn vị, thời điểm, lựa chọn không rõ | > 15 mục; ghi tự do; không có đơn vị |
+| Từ điển dữ liệu | 3–5 dòng có mã và khoảng giá trị cho phép | Tên biến có khoảng trắng, không có mã |
+| Cỡ mẫu | 4 thông số có nêu nguồn | "Mọi người bệnh trong một năm" |
+| Kế hoạch phân tích | Tóm tắt + kiểm định + chỉ số tác động kèm KTC 95% | "Dữ liệu sẽ được phân tích bằng SPSS" |
 
-**Data management (good enough):** EDC with range and logic checks at entry (or paper with double entry of key variables); coded study IDs with the linking log kept separately and locked; audit trail/cleaning log; raw export read-only, dated versions, encrypted 3-2-1 backups; data-sharing statement in the consent form.
+**Quản lý dữ liệu (đạt yêu cầu):** EDC có kiểm tra khoảng giá trị và logic khi nhập (hoặc phiếu giấy với nhập liệu kép cho các biến chính); mã nghiên cứu cho từng người bệnh, danh sách liên kết mã được lưu riêng và khóa; nhật ký thay đổi dữ liệu/nhật ký làm sạch; tệp xuất thô chỉ đọc, các phiên bản có ghi ngày, sao lưu mã hóa theo nguyên tắc 3-2-1; tuyên bố chia sẻ dữ liệu trong phiếu đồng ý.

@@ -7,10 +7,11 @@ Download: [Word](files/assignments/Presentation_Guide.docx) · [PDF](files/assig
 ## Foundations of Clinical Research · Level 1: From Clinical Question to Publication
 
 **Organisation:** Neudata (*#ClearDataClearImpact*)
-**When:** Session 8 (Week 8, Saturday), the 45-minute presentation block after "Be the reviewer"
-**Format:** **6 minutes, 6 slides** on your research proposal and publication plan, then **2 minutes** of structured feedback. At the end of the block, a **1-minute manuscript pitch** per group
-**Content:** Group product 1 (proposal, your own question) in the 6 minutes. Group product 2 (manuscript, course dataset) in the 1-minute pitch
-**Marked with:** the presentation section of `proposal_rubric.md` (criteria 12–16)
+**When:** Session 8 (Week 8, Saturday, online, 19:30 to 22:30), the 45-minute presentation block after "Be the reviewer"
+**Who presents:** about 5 volunteers. **Everyone** prepares and submits the 6 slides, whether they present or not.
+**Format:** **6 minutes, 6 slides** on your own research proposal and publication plan, shared on your screen, then **2 minutes** of feedback
+**Content:** your research proposal (individual product 1, your own question). The FLUID-ICU manuscript is not presented.
+**Marked with:** the presentation section of `proposal_rubric.md` (criteria 12 to 16), for presenters only. Non-presenters are scored on the written proposal, scaled to 100.
 
 
 * * *
@@ -19,30 +20,30 @@ Download: [Word](files/assignments/Presentation_Guide.docx) · [PDF](files/assig
 
 | Part | Time | What |
 |---|---|---|
-| Group presentations | 5 groups × (6 min + 2 min feedback) = **40 min** | Proposal and publication plan on your own question (sections 1–4 below) |
-| Manuscript round | 5 groups × **1 min** = **5 min** | Each group's manuscript pitch on its FLUID-ICU question (section 5 below) |
+| Volunteer presentations | 5 presenters × (6 min + 2 min feedback) = **40 min** | Proposal and publication plan on the presenter's own question (sections 1 to 4 below) |
+| Closing round | **5 min** | The instructor sums up common strengths and common problems seen in the submitted proposals and slides, and reminds everyone of the manuscript and peer-review deadlines |
 | **Total** | **45 min** | Followed directly by the post-course quiz in the last 15 minutes of Session 8 |
 
-The manuscript is **not** part of the 6 minutes. Keep the two products separate so that the proposal gets its full time and the rubric (criteria 12–16) applies to the proposal only.
+**Choosing presenters.** Volunteers tell the course lead by the Wednesday before Session 8. If more than 5 volunteer, the course lead picks 5 that show a range of designs and professions and lets the others know. If fewer volunteer, the instructor may invite participants whose proposals would be useful for the class to see.
 
 
 * * *
 
-## 1. The six slides
+## 1. The six slides (everyone)
 
-One slide ≈ one minute. Slide 1 is quick, which leaves a little extra time for slides 3 and 4.
+One slide is about one minute. Slide 1 is quick, which leaves a little extra time for slides 3 and 4.
 
 | Slide | Title | What to show | Time |
 |---|---|---|---|
-| **1** | **Title & team** | Working title; group number; names, professions and roles; one photo or icon of the clinical problem (optional). | 0:20 |
+| **1** | **Title & presenter** | Working title; your name, profession and department; one photo or icon of the clinical problem (optional). | 0:20 |
 | **2** | **Problem & PICO** | The problem in one sentence with one number (how common or how serious); the PICO as a 4-row table; the research question; the hypothesis. | 1:00 |
-| **3** | **Design & participants** | Design and why; setting; key inclusion/exclusion criteria; a simple flow picture (eligible → enrolled → groups → outcome); the main bias and how you reduce it. | 1:15 |
-| **4** | **Data & analysis plan** | Primary outcome (how and when measured); 4–6 key variables with types; how data are captured and checked; sample size statement; which summary and which test or model; how you will handle missing data. | 1:15 |
+| **3** | **Design & participants** | Design and why; setting; key inclusion/exclusion criteria; a simple flow picture (eligible, enrolled, groups compared, outcome); the main bias and how you reduce it. | 1:15 |
+| **4** | **Data & analysis plan** | Primary outcome (how and when measured); 4 to 6 key variables with types; how data are captured and checked; sample size statement; which summary and which test or model; how you will handle missing data. | 1:15 |
 | **5** | **Ethics & feasibility** | Consent approach; registration; confidentiality; a simple timeline (Gantt bar); expected recruitment per month; the biggest practical risk and your plan for it. | 1:00 |
-| **6** | **Publication plan & impact** | Target journal and the reporting guideline you will follow; working title; authors with their CRediT roles; one line of the abstract skeleton (e.g. the Conclusion you would write for each possible result); what will change for patients or the unit. | 1:10 |
+| **6** | **Publication plan & impact** | Target journal and the reporting guideline you will follow; working title; planned authors (roles are enough) with their CRediT roles; one line of the abstract skeleton (e.g. the Conclusion you would write for each possible result); what will change for patients or the department. | 1:10 |
 | | | **Total** | **6:00** |
 
-Use the course slide template if one is provided, or any plain template with a light background and dark text.
+Use the course slide template if one is provided, or any plain template with a light background and dark text. Submit the slides with your written proposal (see `proposal_brief.md`).
 
 
 * * *
@@ -52,71 +53,62 @@ Use the course slide template if one is provided, or any plain template with a l
 **Content**
 
 - **One message per slide.** The slide title can be the message ("A cohort study is the realistic design here").
-- **Maximum ~6 short lines** per slide, at least 24-point font. If you need to read it, the audience cannot.
+- **Maximum ~6 short lines** per slide, at least 24-point font. Many people watch on a laptop or phone: if you need to read it, they cannot.
 - **Pictures before words.** A PICO table, a flow diagram and a timeline bar are clearer than paragraphs.
 - **Numbers with units and sources** ("about 40 septic shock admissions per year, unit register").
 - **Be honest about weaknesses.** Naming your main bias and limitation scores marks. Hiding it loses them.
 - **Use calibrated language** on slide 6: an observational study can show an *association*, not prove a cause.
 - Make sure the slides match the written proposal (same question, same primary outcome, same sample size, same working title).
 
-**Delivery**
+**Delivery (online)**
 
-- Rehearse at least twice **with a timer**. Six minutes is short, and most groups overrun on slide 2. Keep the background brief.
-- Speak to the room, not to the screen. Point to the one thing on the slide that matters.
-- If several members present, plan the hand-overs ("Now our methods lead will explain how we will collect the data").
+- Rehearse at least twice **with a timer**. Six minutes is short, and most presenters overrun on slide 2. Keep the background brief.
+- Look at the camera, not only at your slides. Point to the one thing on the slide that matters (use the cursor or the annotation tool).
 - Avoid jargon you could not explain to a new colleague. Plain language is a strength.
 - Prepare for three likely questions: "Why this design?", "Can you really recruit that many patients?" and "Why this journal?"
-- Do not mix in the FLUID-ICU manuscript. It has its own minute at the end.
 
 **Technical**
 
-- Send the file to the course lead the day before Session 8 (see `proposal_brief.md`) and bring a copy on a USB stick.
-- Do not embed videos or rely on internet access.
-- Check that tables and the Gantt chart are readable from the back of the room.
+- Send the file to the course lead before Session 8 (see `proposal_brief.md`). The course lead keeps a copy and can share it for you if your connection fails.
+- Join 10 minutes early on the day to test screen sharing, microphone and camera. Use a headset if you can, and a quiet room.
+- Do not embed videos. Close other programs and notifications before you share your screen.
+- Check that tables and the Gantt chart are readable on a laptop screen.
 
 
 * * *
 
-## 3. Timekeeping: coloured cards
+## 3. Timekeeping
 
-A timekeeper (an instructor or a member of another group) sits in the front row with three cards and a timer.
+The instructor (or a co-instructor) keeps time and posts short time signals in the chat (and says them aloud if needed).
 
-| Card | Shown at | Meaning |
+| Signal | Posted at | Meaning |
 |---|---|---|
-| **Green** | 4:00 | 2 minutes left. You should be on slide 5. |
-| **Yellow** | 5:00 | 1 minute left. Move to your final slide. |
-| **Red** | 6:00 | Time is up. Finish your sentence and stop. |
+| **"2 min"** | 4:00 | 2 minutes left. You should be on slide 5. |
+| **"1 min"** | 5:00 | 1 minute left. Move to your final slide. |
+| **"Time"** | 6:00 | Time is up. Finish your sentence and stop. |
 
-At **6:30** the chair stops the presentation politely, even mid-slide. Keeping to time is part of the rubric and protects the feedback time of every group, because the whole block has no spare minutes.
+At **6:30** the chair stops the presentation politely, even mid-slide. Keeping to time is part of the rubric and protects the feedback time of every presenter, because the whole block has no spare minutes.
 
 
 * * *
 
 ## 4. Two-minute feedback format
 
-Feedback is short, specific and kind. It follows the same pattern for every group.
+Feedback is short, specific and kind. It follows the same pattern for every presenter.
 
 | Time | Who | What |
 |---|---|---|
-| 0:00–0:45 | **One peer group** (rotating: Group 2 comments on Group 1, Group 3 on Group 2 … Group 1 on Group 5) | **Two stars and a wish:** two specific things that were strong, one specific suggestion. |
-| 0:45–1:45 | **Instructor** | One strength, the **most important improvement** for the written proposal or publication plan (usually design, outcome definition, feasibility or choice of journal/guideline), and one question if time allows. |
-| 1:45–2:00 | **Presenting group** | One-sentence reply or "thank you, we will take that on board". No defending. |
+| 0:00 to 0:45 | **The class**, in the chat | **Two stars and a wish:** participants type two specific things that were strong and one specific suggestion. The instructor reads out one or two. |
+| 0:45 to 1:45 | **Instructor** | One strength, the **most important improvement** for the written proposal or publication plan (usually design, outcome definition, feasibility or choice of journal/guideline), and one question if time allows. |
+| 1:45 to 2:00 | **Presenter** | One-sentence reply or "thank you, I will take that on board". No defending. |
 
-**Written feedback:** during each presentation, the peer group and the instructors fill in the one-page feedback form at the end of `proposal_rubric.md`. Forms are handed to the presenting group at the end of the session so they can revise the written proposal.
+**Written feedback:** during each presentation the instructor fills in the one-page feedback form at the end of `proposal_rubric.md`. The instructor saves the chat after the block and sends each presenter their form and the class comments by email after the session, so they can use them when revising the written proposal.
 
-**Good feedback is…** specific ("your exclusion criteria would remove most elderly patients") rather than general ("good job"), about the proposal rather than the people, and actionable ("add the time point to your primary outcome").
+**Good feedback is** specific ("your exclusion criteria would remove most elderly patients") rather than general ("good job"), about the proposal rather than the person, and actionable ("add the time point to your primary outcome").
 
 
 * * *
 
-## 5. The 1-minute manuscript pitch (end of the block)
+## 5. What about the manuscript?
 
-After all five proposal presentations, each group's **lead author** (or another member) stands up for **one minute**. No new slides are needed: the course lead shows one slide per group with the group number and question number, or the group shows its Table 1 or main figure.
-
-Say three things, in this order:
-
-1. **Question:** "In 600 simulated ICU patients with sepsis, we asked whether … was associated with …"
-2. **Main result:** the main effect with its 95% CI, crude and adjusted if relevant ("adjusted OR 1.5, 95% CI …").
-3. **One-sentence conclusion** in calibrated language, and the next step (peer-review swap).
-
-The timekeeper shows the red card at 1:00. There is no feedback in the block: feedback on the manuscript comes through the peer-review swap (`peer_review_instructions.md`) and `manuscript_rubric.md`. The pitch is not scored.
+The FLUID-ICU manuscript is not presented in Session 8. Each participant finishes their own draft as homework, and feedback comes through the individual peer review (`peer_review_instructions.md`) and the instructor's marking (`manuscript_rubric.md`).

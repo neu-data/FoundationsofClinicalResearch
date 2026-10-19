@@ -2,126 +2,157 @@
 title: "Session 3: Exercise sheet"
 ---
 
-[Download the PDF](files/sessions/s3_exercises.pdf) · [Back to Session 3](session3.qmd)
+[Download the PDF](files/sessions/s3_exercises.pdf) · [Download the Word file (to fill in)](files/sessions/s3_exercises.docx) · [Back to Session 3](session3.qmd)
 
-**Foundations of Clinical Research** · Week 3 · Saturday · Neudata · #ClearDataClearImpact
+**Foundations of Clinical Research · Level 1** · Neudata · *#ClearDataClearImpact* · Week 3 · Saturday 14 November 2026 · online, 19:30–22:30
 
-This handout has three parts. No computer or calculator is needed.
+Name: ______________________________   Department: ______________________________
+
+This sheet is sent by email before the session, as a Word file and as a PDF. Keep it open on your screen during the session and type your answers into the Word file (or print the PDF). No calculator is needed.
+
+All exercises are done by the **whole class together**: the instructor shows each item on the shared screen, you answer in the **poll** or the **chat**, and the instructor types the class answer on the shared screen. There are no groups. The proposal builder (Part C) is your **own** individual work.
 
 | Part | Activity | When | How |
 |---|---|---|---|
-| A | Name that design (8 abstracts + 1 optional) | End of section 3.1 (15 min) | Pairs |
-| B | Choose the design for 5 questions (4 given + your own; 2 optional bonus) | After section 3.2 (20 min) | Your group |
-| C | Proposal builder 3: design, setting and population | End of the session (35 min) | Your group |
+| A | Name that design (6 short abstracts on our fluid question) | End of section 3.1 (15 min) | Whole class: poll for each abstract, evidence phrase in the chat |
+| B | Choose the design (5 planning questions + your own question) | End of section 3.2 (15 min) | Whole class: poll for each question; your own design in the chat |
+| C | Proposal builder 3: design, setting and population | End of the session (42 min) and homework | Instructor models it live; then you draft your own |
 
-**Key words of the day:** exposure (what comes first) · outcome (what we count later) · comparison group · observational (we watch) · experimental (we assign) · randomised (chance assigns) · cross-sectional (snapshot) · case-control (look back) · cohort (follow forward) · cluster / crossover / factorial trial · non-inferiority · pilot · interrupted time series · qualitative.
+Each part also has **extra practice** on other topics, for self-study after the session.
+
+**Our running question (from Session 1):** in adults with septic shock, does a restrictive fluid strategy, compared with usual care, reduce 28-day mortality?
+**The two papers** (course folder, `Course/Papers`): Paper 1, Boulet 2024 (a pilot randomised trial of restrictive fluids); Paper 2, Hyun 2023 (a registry cohort of fluid balance and death).
+
+**Key words of the day:** exposure (what comes first) · outcome (what we count later) · comparison group · observational (we watch) · experimental (we assign) · randomised (chance assigns) · cross-sectional (snapshot) · case-control (look back) · cohort (follow forward) · cluster, crossover and factorial trials · non-inferiority trial · pilot study · interrupted time series · qualitative research.
+
+**Abbreviations used on this sheet:** ICU = intensive care unit; RCT = randomised controlled trial.
 
 
 * * *
 
 ## Part A: Name that design
 
-**Instructions**
+**How it runs.** The instructor shows one abstract at a time. For each one:
 
-1. Work in pairs. Read each short abstract.
-2. Ask the three questions from the decision tree:
-   - **Did the investigator ASSIGN the exposure or treatment?** If yes: **was it assigned at random?**
-   - If not assigned: **is there a comparison group?**
-   - If there is: **in which direction does time run?** Exposure first, then outcome (cohort); outcome first, then look back (case-control); both at the same moment (cross-sectional).
-3. Write the design and **one word or phrase from the abstract that proves it**.
-4. Put a star next to the abstract you found hardest.
+1. Ask yourself the three questions from the decision tree (below).
+2. Vote for the design in the poll.
+3. One volunteer types in the chat the **word or phrase from the abstract that proves it**.
 
-> **Design choices:** case report / case series · cross-sectional · case-control · cohort (prospective or retrospective) · non-randomised intervention study · randomised controlled trial (RCT) · systematic review / meta-analysis
+**The decision tree in three questions**
 
-**Abstract 1.** Two hundred and forty adults on mechanical ventilation were randomly allocated by a central computer to oral care with chlorhexidine twice daily or to standard oral care. Ventilator-associated pneumonia was recorded over 28 days by an assessor who did not know the group.
+- **Did the investigator ASSIGN the exposure or treatment?** If yes: **was it assigned at random?** (yes: RCT; no: non-randomised study)
+- If not assigned: **is there a comparison group?** (no: descriptive, such as a case series)
+- If there is: **in which direction does time run?** Exposure first, then outcome (cohort); outcome first, then look back (case-control); both at the same moment (cross-sectional).
 
-Design: ______________________  Evidence: ______________________
+> **Design choices:** case report or case series · cross-sectional · case-control · cohort (prospective or retrospective) · non-randomised intervention study · randomised controlled trial (RCT) · systematic review and meta-analysis
 
-**Abstract 2.** On one day in March, two trained nurses examined all 412 inpatients of a hospital for pressure injuries and recorded the type of mattress each patient was lying on. Pressure injuries were present in 9% of patients on standard mattresses and 4% on pressure-relieving mattresses.
+**Abstract 1.** Two hundred adults with septic shock were randomly allocated by a central computer to a restrictive fluid strategy or to usual care. Death by day 28 was recorded for every patient.
 
 Design: ______________________  Evidence: ______________________
 
-**Abstract 3.** Forty ICU patients who developed candidaemia were compared with 80 ICU patients from the same units who did not, matched on age and month of admission. The investigators then searched the records of both groups for parenteral nutrition in the 14 days before the culture date.
+**Abstract 2.** On one day in March, two doctors reviewed all 64 patients with sepsis in four ICUs. For each patient they recorded the fluid balance that day and whether the patient had acute kidney injury that day.
 
 Design: ______________________  Evidence: ______________________
 
-**Abstract 4.** All 600 adults admitted with acute ischaemic stroke who received thrombolysis were classified on arrival by door-to-needle time (under 60 minutes or 60 minutes and over). Each patient was then followed up to record functional independence at 90 days.
+**Abstract 3.** Forty ICU patients with sepsis who needed new dialysis were compared with 80 ICU patients with sepsis from the same units who did not. The investigators then looked back in the charts at each patient's fluid balance on day 3.
 
 Design: ______________________  Evidence: ______________________
 
-**Abstract 5.** Using electronic records from 2019 to 2022, the investigators identified 1,150 ICU patients and divided them into those who did and did not receive a continuous benzodiazepine infusion for 3 days or more. They then compared how many patients in each group had delirium recorded later in the ICU stay.
+**Abstract 4.** Using electronic records from 2019 to 2022, the investigators identified 900 patients with septic shock and divided them by whether their fluid balance on day 3 was positive or negative. They then compared how many patients in each group died by day 28.
 
 Design: ______________________  Evidence: ______________________
 
-**Abstract 6.** We describe five patients who developed severe hypernatraemia within a week of a new fluid protocol being introduced on our unit, with their laboratory results and clinical course.
+**Abstract 5.** Our ICU introduced a fluid-restriction protocol for all patients with septic shock on 1 January 2024. Mortality in the six months before was compared with mortality in the six months after.
 
 Design: ______________________  Evidence: ______________________
 
-**Abstract 7.** Central-line infection rates were compared for the six months before and the six months after a unit-wide insertion-bundle education programme, which the research team introduced on all beds on the same day.
+**Abstract 6.** We searched three databases for randomised trials comparing restrictive with liberal fluid strategies in adults with septic shock, assessed each trial's risk of bias, and pooled 28-day mortality across nine trials.
 
 Design: ______________________  Evidence: ______________________
 
-**Abstract 8.** We searched three databases for randomised trials comparing restrictive with liberal fluid strategies in adults with septic shock, assessed each trial's risk of bias, and pooled 28-day mortality across nine trials.
+### Extra practice (self-study): other topics
 
-Design: ______________________  Evidence: ______________________
+Same task, nine abstracts from other wards. The answers are in the solutions sheet, which the instructor shares after the session.
 
-**Abstract 9 (optional).** Twelve hospital wards were randomly allocated, ward by ward, to a new hand-hygiene feedback programme or to usual practice. Hospital-acquired infections were counted in all patients on those wards for six months.
+**E1.** Two hundred and forty adults on mechanical ventilation were randomly allocated by a central computer to oral care with chlorhexidine twice daily or to standard oral care. Ventilator-associated pneumonia was recorded over 28 days by an assessor who did not know the group.
 
-Design: ______________________  Evidence: ______________________
+**E2.** On one day in March, two trained nurses examined all 412 inpatients of a hospital for pressure injuries and recorded the type of mattress each patient was lying on. Pressure injuries were present in 9% of patients on standard mattresses and 4% on pressure-relieving mattresses.
 
-**Extra (if you finish early):** for each design, write one strength and one weakness.
+**E3.** Forty ICU patients who developed candidaemia (Candida in the blood) were compared with 80 ICU patients from the same units who did not, matched on age and month of admission. The investigators then searched the records of both groups for parenteral nutrition in the 14 days before the culture date.
 
+**E4.** All 600 adults admitted with acute ischaemic stroke who received thrombolysis were classified on arrival by door-to-needle time (under 60 minutes, or 60 minutes and over). Each patient was then followed up to record functional independence at 90 days.
+
+**E5.** Using electronic records from 2019 to 2022, the investigators identified 1,150 ICU patients and divided them into those who did and did not receive a continuous benzodiazepine infusion for 3 days or more. They then compared how many patients in each group had delirium recorded later in the ICU stay.
+
+**E6.** We describe five patients who developed severe hypernatraemia within a week of a new fluid protocol being introduced on our unit, with their laboratory results and clinical course.
+
+**E7.** Central-line infection rates were compared for the six months before and the six months after a unit-wide insertion-bundle education programme, which the research team introduced on all beds on the same day.
+
+**E8.** Twelve hospital wards were randomly allocated, ward by ward, to a new hand-hygiene feedback programme or to usual practice. Hospital-acquired infections were counted in all patients on those wards for six months.
+
+**E9.** All 300 inpatients are checked today for a urinary catheter and for urinary infection.
 
 
 * * *
 
-## Part B: Choose the design for 5 questions
+## Part B: Choose the design
 
-**Instructions.** For each question, name the best **feasible** design (use the decision tree and the "Match the design to the question" slide), give **one reason**, and name the design's **main weakness**. Question 5 is your group's own research question from Part 1.
+**How it runs.** For each question the instructor opens a poll with the design choices. Vote for the best **feasible** design. A volunteer then gives **one reason** and the design's **main weakness**, and the instructor types them in the table on the shared screen. Use the decision tree and the slide "Match the design to the question".
 
-| # | Question | Design | Reason | Main weakness |
+| # | Planning question (all on our fluid question) | Design | Reason | Main weakness |
 |---|---|---|---|---|
-| 1 | How many inpatients have a pressure injury today, and is it more common on standard mattresses? | | | |
-| 2 | Does daily chlorhexidine bathing reduce bloodstream infections? It will be introduced ward by ward, and nurses on one ward cannot bathe only half their patients. | | | |
-| 3 | A sepsis bundle was introduced in our hospital in 2023. We have monthly sepsis mortality for 3 years before and 2 years after. Did mortality fall? | | | |
-| 4 | Why do nurses not report near-miss medication errors? | | | |
-| 5 | **Our own question:** ______________________________ | | | |
+| 1 | A restrictive strategy is cheaper and uses less fluid. We only need to show that 28-day mortality is not worse than with usual care. | | | |
+| 2 | A nurse-led fluid-balance charting protocol will be introduced in whole ICUs; nurses in one ICU cannot use it for only half their patients. | | | |
+| 3 | Our hospital's sepsis bundle, which includes a limit on maintenance fluids, started in 2023. We have monthly sepsis mortality for 3 years before and 2 years after. Did mortality fall? | | | |
+| 4 | Why do night-shift nurses find it hard to record urine output? | | | |
+| 5 | Before a large trial: can our two ICUs recruit enough patients and deliver restrictive fluids as planned? | | | |
 
-**Bonus (optional, if you finish early)**
+**Your own question.** At the end, type in the chat: *"My question: ... My design: ... At the end I may say: caused / associated with."* The instructor reads out and comments on four or five.
+
+My question: ______________________________  My design: __________________  "Caused" or "associated with": __________
+
+### Extra practice (self-study): other topics
 
 | # | Question | Design | Reason |
 |---|---|---|---|
-| 6 | What are the risk factors for a rare event: Stevens–Johnson syndrome in hospital patients? | | |
-| 7 | A new 5-day antibiotic course is cheaper and easier than the 10-day course. We only need to show it is not worse for cure. | | |
-
-For your own question (5), also answer: **at the end, will you be allowed to say "caused" or "associated with"?** ____________
+| E1 | How many inpatients have a pressure injury today, and is it more common on standard mattresses? | | |
+| E2 | Does daily chlorhexidine bathing reduce bloodstream infections? It will be introduced ward by ward. | | |
+| E3 | What are the risk factors for a rare event: Stevens-Johnson syndrome in hospital patients? | | |
+| E4 | Why do nurses not report near-miss medication errors? | | |
 
 
 * * *
 
 ## Part C: Proposal builder 3 (design, setting and population)
 
-**Instructions.** As a group, complete the first three rows of Part 2 of the proposal, then copy them into the template (`Templates/Research_Proposal_Template.docx`). The rest of Part 2 (exposure, comparator, outcomes, biases) is built in Session 4.
+**This is your own work.** Every participant writes their own research proposal on a question from their own department (see `Course/Assignment/proposal_brief.md`).
 
-**Our research question (from Part 1):** _______________________________________________
+**How it runs (42 minutes).**
 
-| # | Section | What to write | Our answer |
+1. **Watch (15 min).** The instructor fills in the three rows below for the running example on the shared screen, thinking aloud.
+2. **Draft (20 min).** You fill in the same three rows for your own question, quietly (cameras optional). Ask questions in the chat.
+3. **Feedback (7 min).** Three volunteers paste their design and justification in the chat; the instructor comments.
+
+Then finish as homework and copy your answers into the proposal template (`Course/Templates/Research_Proposal_Template.docx`, Part 2). The rest of Part 2 (exposure, comparator, outcomes, biases) is built in Session 4.
+
+**My research question (from my Proposal Part 1):** _______________________________________________
+
+| # | Section | What to write | My answer |
 |---|---|---|---|
-| 1 | **Study design** and **justification** | Name the design. In 3–5 sentences explain why it fits YOUR question, and why the "ideal" design is or is not feasible. | |
-| 2 | **Setting** | Where (type of unit, how many sites), when (study period), source of patients or records. Do not name a specific hospital in the course version. | |
-| 3 | **Population** | **Inclusion criteria** (3–5): who is eligible. **Exclusion criteria** (3–5): who is removed, and why. Exclusions should not just repeat the inclusions in the negative. | |
+| 1 | **Study design** and **justification** | Name the design. In 3-5 sentences explain why it fits YOUR question, and why the "ideal" design is or is not feasible. | |
+| 2 | **Setting** | Where (type of unit, how many sites), when (study period), source of patients or records. You do not need to name your hospital. | |
+| 3 | **Population** | **Inclusion criteria** (3-5): who is eligible. **Exclusion criteria** (3-5): who is removed, and why. Exclusions should not just repeat the inclusions in the negative. | |
 
-**Draw your study on a timeline** (exposure → outcome; mark when each is measured):
+**Sketch your study on a timeline.** Write when the exposure is measured and when the outcome is measured:
 
-```
- ______________________  ------------------------------->  ______________________
-   exposure / start                                         outcome / end
-```
+| Start: exposure measured | Follow-up | End: outcome measured |
+|---|---|---|
+| | | |
 
-**Group self-check before you finish**
+**Self-check before you finish**
 
 - [ ] The design matches the type of question.
-- [ ] It is feasible in our setting (patients, time, data).
-- [ ] Inclusion criteria describe the P of our PICO and can be checked from records on day 1.
-- [ ] Every exclusion criterion has a reason (safety, outcome cannot be measured …) and is not just the opposite of an inclusion.
-- [ ] We know what we will be allowed to claim: "caused" or "associated with".
+- [ ] It is feasible in my setting (patients, time, data).
+- [ ] The inclusion criteria describe the P (Population) of my PICO and can be checked from records on day 1.
+- [ ] Every exclusion criterion has a reason (safety, outcome cannot be measured, and so on) and is not just the opposite of an inclusion.
+- [ ] I know what I will be allowed to claim: "caused" or "associated with".

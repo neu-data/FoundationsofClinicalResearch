@@ -2,119 +2,119 @@
 title: "Tài liệu đọc thêm"
 ---
 
-::: {.lang-note}
-Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
-:::
+[Tải bản PDF](files/docs/Further_Reading_VN.pdf)
 
-## Foundations of Clinical Research · Level 1: From Clinical Question to Publication
+## Nền tảng Nghiên cứu Lâm sàng · Cấp độ 1: Từ câu hỏi lâm sàng đến công bố
 
-**Organisation:** Neudata · *#ClearDataClearImpact*
+**Đơn vị tổ chức:** Neudata · *#ClearDataClearImpact*
 
-A short list, not a library. Everything below is free to read online unless marked *(not free)*. If you only have one hour a week, read the item marked ★ for those two weeks. Web addresses are given only for stable home pages. Search the title on the site to find the exact page.
+Đây là một danh sách ngắn, không phải cả một thư viện. Mọi tài liệu dưới đây đều đọc miễn phí trực tuyến, trừ khi có ghi *(không miễn phí)*. Nếu mỗi tuần anh chị chỉ có một giờ, hãy đọc tài liệu có đánh dấu ★ cho hai tuần tương ứng. Địa chỉ web chỉ ghi cho các trang chủ ổn định. Hãy tìm tên tài liệu trên trang đó để đến đúng trang cần đọc.
 
-
-* * *
-
-## Weeks 1–2 (Sessions 1–2): Ask, find and read
-
-| Resource | Who publishes it | Why read it |
-|---|---|---|
-| ★ **PubMed User Guide** and **PubMed online training** (Help pages), pubmed.ncbi.nlm.nih.gov | US National Library of Medicine | How to build a search with MeSH, Boolean operators and filters. It repeats the live demo at your own pace. |
-| **MeSH Browser**, meshb.nlm.nih.gov | US National Library of Medicine | Find the official MeSH term for your topic and see its narrower and broader terms. |
-| **Cochrane Handbook for Systematic Reviews of Interventions**, Chapters 1–4 (starting a review; scope and questions; eligibility criteria; searching for studies), training.cochrane.org/handbook | Cochrane | The gold standard on turning a question into PICO and searching systematically. Read the "Key points" box at the start of each chapter. |
-| **Oxford CEBM Levels of Evidence**, cebm.ox.ac.uk | Centre for Evidence-Based Medicine, University of Oxford | A one-page table of which study type answers which kind of question best. |
-| **"How to read a paper"** series, *BMJ* 1997 (first article: "Getting your bearings") | T. Greenhalgh, *BMJ* | Classic short articles on reading research critically. The first ones help with framing questions. |
-| *Designing Clinical Research*, chapters on the research question *(not free; check your library)* | S.B. Hulley and colleagues | The book that introduced the FINER criteria. |
-| **Zotero** (free reference manager), zotero.org | Corporation for Digital Scholarship (open source) | Store references, insert citations and switch to Vancouver style with one click. Its documentation has short start-up guides. |
-| **"Misrepresentation and distortion of research in biomedical literature"**, *PNAS* 2018;115(11):2613–2619 (open access) | I. Boutron and P. Ravaud | What spin is, how common it is, and how to spot it in abstracts. |
-| **"Reporting and interpretation of randomized controlled trials with statistically nonsignificant results for primary outcomes"**, *JAMA* 2010;303(20):2058–2064 | I. Boutron and colleagues | The classic study of spin in trial reports, and useful background for segment 1.4. |
-| **SQUIRE 2.0** guidelines (Standards for QUality Improvement Reporting Excellence), squire-statement.org | SQUIRE group (via EQUATOR) | How quality-improvement work is reported; it helps separate QI from research and audit. |
-
-## Weeks 3–4 (Sessions 3–4): Design, bias and measures of effect
-
-| Resource | Who publishes it | Why read it |
-|---|---|---|
-| ★ ***Epidemiology for the Uninitiated*** (online book) | D. Coggon, G. Rose, D.J.P. Barker, *BMJ* | Short, plain-language chapters on measuring disease, comparing rates, case-control and cohort studies. |
-| **Catalogue of Bias**, catalogofbias.org | Centre for Evidence-Based Medicine, University of Oxford | One page per type of bias, each with a clinical example and how to prevent it. Look up "confounding by indication" and "recall bias". |
-| ***Statistics at Square One***, chapter on study design and choosing a statistical test (online book) | T.D.V. Swinscow and M.J. Campbell, *BMJ* | Links study design to the analysis that follows. |
-| **CEBM study design pages**, cebm.ox.ac.uk | Centre for Evidence-Based Medicine, University of Oxford | Brief descriptions and a flow chart for identifying study designs (useful for "Name that design"). |
-| **"The environment and disease: association or causation?"**, *Proceedings of the Royal Society of Medicine* 1965;58:295–300 (free online) | A. Bradford Hill | The original nine "viewpoints" for judging causation. Short and very readable. |
-| **CONSORT extensions** for cluster, non-inferiority and crossover trials (via equator-network.org) | CONSORT group | What is different about reporting these trial variants. |
-| **Risk-of-bias tools: RoB 2 and ROBINS-I**, riskofbias.info | Developers of the Cochrane risk-of-bias tools | The official tools, guidance documents and templates for randomised (RoB 2) and non-randomised (ROBINS-I) studies of interventions. |
-| **QUADAS-2** (diagnostic accuracy studies), University of Bristol, *Annals of Internal Medicine* 2011;155:529–536 | P. Whiting and colleagues | The standard tool for appraising diagnostic accuracy studies. |
-| **AMSTAR 2** (systematic reviews), amstar.ca; *BMJ* 2017;358:j4008 | B. Shea and colleagues | A 16-item tool for judging how far a systematic review can be trusted. |
-| **Newcastle–Ottawa Scale** (cohort and case-control studies), Ottawa Hospital Research Institute website | G. Wells and colleagues | A short star-based checklist widely used in systematic reviews of observational studies. |
-| **PRISMA 2020** statement, checklist and flow diagram, prisma-statement.org | PRISMA group | How systematic reviews are reported; Use the flow-diagram template when reading a review. |
-| **STARD 2015** (diagnostic accuracy studies), via equator-network.org | STARD group | What a diagnostic accuracy paper must report (sensitivity, specificity, flow of participants). |
-| **Cochrane Handbook**, chapter on undertaking meta-analyses (forest plots, heterogeneity, I²), training.cochrane.org/handbook | Cochrane | Plain explanation of pooled estimates and heterogeneity. Read the key-points box. |
-
-## Weeks 5–6 (Sessions 5–6): Data and analysis (with the FLUID-ICU course dataset)
-
-| Resource | Who publishes it | Why read it |
-|---|---|---|
-| ★ ***Statistics at Square One*** (online book), chapters on data display and summary, confidence intervals, t-tests and the chi-squared test | T.D.V. Swinscow and M.J. Campbell, *BMJ* | The clearest free introduction to the statistics in this course, with medical examples. |
-| **Statistics Notes** series, *BMJ* (1994 onwards) | J.M. Bland and D.G. Altman | One-page notes on single ideas; start with "Absence of evidence is not evidence of absence" (*BMJ* 1995). |
-| **"Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations"**, *European Journal of Epidemiology* 2016;31:337–350 (open access) | S. Greenland, S.J. Senn, K.J. Rothman and colleagues | A list of common misreadings of p-values and CIs, and the source behind "5 common misinterpretations". Read the numbered list and skip the technical parts. |
-| **"The ASA statement on p-values: context, process, and purpose"**, *The American Statistician* 2016;70:129–133 (open access) | R.L. Wasserstein and N.A. Lazar, American Statistical Association | Six short principles on what a p-value can and cannot tell you. |
-| **OpenEpi**, openepi.com | Open-source project (Emory University and partners) | Free online calculators for 2×2 tables and sample size, the kind of tool used in the live demo. |
-| **REDCap**, project-redcap.org; **KoBoToolbox**, kobotoolbox.org | Vanderbilt University (REDCap consortium); KoBoToolbox (non-profit) | Free electronic data capture tools with validation and audit trails. REDCap is free for non-profit institutions that join the consortium. |
-| **"Beyond bar and line graphs: time for a new data presentation paradigm"**, *PLoS Biology* 2015;13(4):e1002128 (open access) | T.L. Weissgerber and colleagues | Why "dynamite plots" hide data and what to use instead. |
-| **Statistics Notes**: "Multiple significance tests: the Bonferroni method" (*BMJ* 1995;310:170) and "Survival probabilities (the Kaplan-Meier method)" (*BMJ* 1998;317:1572) | J.M. Bland and D.G. Altman | One-page explanations of multiple comparisons and Kaplan–Meier curves. |
-| **"Multiple imputation for missing data in epidemiological and clinical research: potential and pitfalls"**, *BMJ* 2009;338:b2393 | J.A.C. Sterne and colleagues | MCAR, MAR and MNAR, complete-case analysis and multiple imputation, with reporting advice. |
-| **"Guidelines for the content of statistical analysis plans in clinical trials"**, *JAMA* 2017;318(23):2337–2343 | C. Gamble and colleagues | What a statistical analysis plan (SAP) should contain. Use it as a checklist alongside the SAP template. |
-| **TRIPOD+AI** statement, *BMJ* 2024;385:e078378, tripod-statement.org | G.S. Collins and colleagues | How prediction models, including machine-learning models, should be reported. It also works as a checklist for judging them. |
-| **"Calculating the sample size required for developing a clinical prediction model"**, *BMJ* 2020;368:m441 | R.D. Riley and colleagues | Why overfitting happens and why "10 events per variable" is only a rough guide. |
-| ***Clinical Data Analysis in R*** (free online course) | Neudata | Learn to clean, describe and analyse a clinical dataset yourself. It is the prerequisite for reproducing the FLUID-ICU analyses with the course R scripts, and the entry requirement for Level 2 (hands-on analysis). |
-
-## Weeks 7–8 (Sessions 7–8): Protect, write and publish (with the group manuscript and peer review)
-
-### Ethics and good practice
-
-| Resource | Who publishes it | Why read it |
-|---|---|---|
-| ★ **Declaration of Helsinki** (2024 revision), wma.net | World Medical Association | The core ethical principles for research involving people, short enough to read in 20 minutes. |
-| **ICH E6(R3) Guideline for Good Clinical Practice** (2025), ich.org | International Council for Harmonisation | The international GCP standard. Read the "Principles of ICH GCP" section first. |
-| **International Ethical Guidelines for Health-related Research Involving Humans** (2016), cioms.ch | Council for International Organizations of Medical Sciences (CIOMS) with WHO | Detailed guidance, including research with people who cannot consent and research in emergencies. |
-| **Free GCP e-learning**, globalhealthtrainingcentre.tghn.org | The Global Health Network | Free online Good Clinical Practice courses. Check which version of ICH E6 a course covers. |
-| **ClinicalTrials.gov**, clinicaltrials.gov; **WHO International Clinical Trials Registry Platform (ICTRP)**, who.int/clinical-trials-registry-platform | US National Library of Medicine; World Health Organization | Where trials are registered and searched. ICTRP links the WHO-recognised primary registries. |
-| **PROSPERO**, crd.york.ac.uk/prospero | Centre for Reviews and Dissemination, University of York | International register for systematic review protocols. |
-| **SPIRIT 2025** statement (trial protocols), via equator-network.org | SPIRIT group | Checklist of what a trial protocol must contain. Use it with the protocol template. |
-
-### Integrity, authorship and AI
-
-| Resource | Who publishes it | Why read it |
-|---|---|---|
-| ★ **Recommendations for the Conduct, Reporting, Editing, and Publication of Scholarly Work in Medical Journals**, icmje.org | International Committee of Medical Journal Editors (ICMJE) | The four authorship criteria, conflicts of interest and the current position on AI-assisted work. Read "Defining the Role of Authors and Contributors". |
-| **COPE guidance, flowcharts and position statement "Authorship and AI tools"**, publicationethics.org | Committee on Publication Ethics (COPE) | What to do about plagiarism, duplicate publication or authorship disputes, step by step. |
-| **CRediT (Contributor Role Taxonomy)**, credit.niso.org | NISO (National Information Standards Organization) | The 14 contributor roles to use in your publication plan and author statement. |
-| **ORCID**, orcid.org | ORCID (non-profit) | Get a free researcher identifier before your first submission. |
-| **ICMJE disclosure form** (conflicts of interest), icmje.org | ICMJE | The standard form most journals use for declaring competing interests. |
-
-### Reporting, publishing and appraisal
-
-| Resource | Who publishes it | Why read it |
-|---|---|---|
-| ★ **EQUATOR Network**, equator-network.org | EQUATOR Network | The library of reporting guidelines. Use its "Toolkits" and the guideline finder to pick the right checklist. |
-| **CONSORT 2025** statement and checklist (randomised trials) | CONSORT group (via EQUATOR) | What a trial report must contain. Used to appraise Paper 1. |
-| **STROBE** statement and checklists (cohort, case-control, cross-sectional), strobe-statement.org | STROBE initiative | What an observational study report must contain. Used to appraise Paper 2. |
-| **SPIRIT 2025** (trial protocols), **STARD 2015** (diagnostic accuracy), **PRISMA 2020** (systematic reviews), prisma-statement.org | Respective groups (via EQUATOR) | The other guidelines named in the course. Open only the one that fits your design. |
-| **Think. Check. Submit.**, thinkchecksubmit.org | Cross-industry initiative of publishers and library organisations | A short checklist to decide whether a journal is trustworthy before you submit. |
-| **Directory of Open Access Journals (DOAJ)**, doaj.org | DOAJ | Check whether an open-access journal is listed and what it charges. |
-| **CASP checklists**, casp-uk.net | Critical Appraisal Skills Programme | Free one-page appraisal checklists for each design, and a natural next step after the course's 10-question checklist. |
-| **ICMJE Recommendations**, section "Manuscript Preparation and Submission", icmje.org | ICMJE | What goes in each part of a manuscript (title page, abstract, IMRaD sections, references) and in the submission package. |
-| **EQUATOR Network toolkits** ("Writing research", "Using reporting guidelines"), equator-network.org | EQUATOR Network | Practical guidance on writing each section and on using checklists at submission. |
-| **AuthorAID**, authoraid.info | INASP | Free online courses and mentoring in research writing and publishing for researchers in low- and middle-income countries. |
-| **medRxiv**, medrxiv.org | Cold Spring Harbor Laboratory, BMJ and Yale University | The main preprint server for health research. Check your target journal's preprint policy first. |
-| **COPE "Ethical guidelines for peer reviewers"**, publicationethics.org | Committee on Publication Ethics | What reviewers are expected to do. Useful when writing a response to reviewers and for the "Be the reviewer" exercise. |
+Hầu hết tài liệu dưới đây bằng tiếng Anh. Tên tài liệu và tên tổ chức được giữ nguyên để anh chị tìm kiếm dễ dàng. Khi gặp thuật ngữ mới, xem `References/glossary_EN_VN.md`.
 
 
 * * *
 
-## Going further: Level 2 (hands-on) and Level 3 (advanced)
+## Tuần 1–2 (Buổi 1–2): Hỏi, tìm và đọc
 
-This course is Level 1. The next steps are described in `Course_Levels/`.
+| Tài liệu | Đơn vị phát hành | Vì sao nên đọc |
+|---|---|---|
+| ★ **PubMed User Guide** và **PubMed online training** (các trang Help), pubmed.ncbi.nlm.nih.gov | US National Library of Medicine (Thư viện Y khoa Quốc gia Hoa Kỳ) | Cách xây dựng chiến lược tìm kiếm với MeSH, toán tử Boolean và bộ lọc. Anh chị có thể xem lại phần trình diễn trực tiếp theo tốc độ của mình. |
+| **MeSH Browser**, meshb.nlm.nih.gov | US National Library of Medicine | Tìm thuật ngữ MeSH chính thức cho chủ đề của anh chị và xem các thuật ngữ hẹp hơn, rộng hơn. |
+| **Cochrane Handbook for Systematic Reviews of Interventions**, Chương 1–4 (bắt đầu một tổng quan; phạm vi và câu hỏi; tiêu chuẩn lựa chọn; tìm kiếm nghiên cứu), training.cochrane.org/handbook | Cochrane | Chuẩn mực về cách chuyển một câu hỏi thành PICO và tìm kiếm có hệ thống. Đọc khung "Key points" (ý chính) ở đầu mỗi chương. |
+| **Oxford CEBM Levels of Evidence**, cebm.ox.ac.uk | Centre for Evidence-Based Medicine, University of Oxford | Một bảng một trang cho biết loại nghiên cứu nào trả lời tốt nhất loại câu hỏi nào. |
+| Loạt bài **"How to read a paper"**, *BMJ* 1997 (bài đầu tiên: "Getting your bearings") | T. Greenhalgh, *BMJ* | Các bài ngắn kinh điển về đọc nghiên cứu một cách phê phán. Những bài đầu giúp ích cho việc đặt câu hỏi. |
+| *Designing Clinical Research*, các chương về câu hỏi nghiên cứu *(không miễn phí; hãy tìm ở thư viện)* | S.B. Hulley và cộng sự | Cuốn sách đã đưa ra tiêu chí FINER. |
+| **Zotero** (phần mềm quản lý tài liệu tham khảo miễn phí), zotero.org | Corporation for Digital Scholarship (mã nguồn mở) | Lưu tài liệu tham khảo, chèn trích dẫn và chuyển sang kiểu Vancouver bằng một cú bấm. Tài liệu hướng dẫn có các bài khởi đầu ngắn. |
+| **"Misrepresentation and distortion of research in biomedical literature"**, *PNAS* 2018;115(11):2613–2619 (truy cập mở) | I. Boutron và P. Ravaud | Spin (diễn đạt thổi phồng) là gì, phổ biến đến đâu, và cách nhận ra trong phần tóm tắt. |
+| **"Reporting and interpretation of randomized controlled trials with statistically nonsignificant results for primary outcomes"**, *JAMA* 2010;303(20):2058–2064 | I. Boutron và cộng sự | Nghiên cứu kinh điển về spin trong báo cáo thử nghiệm, kiến thức nền hữu ích cho phần 1.4. |
+| Hướng dẫn **SQUIRE 2.0** (Standards for QUality Improvement Reporting Excellence), squire-statement.org | Nhóm SQUIRE (qua EQUATOR) | Cách báo cáo các hoạt động cải tiến chất lượng; giúp phân biệt cải tiến chất lượng với nghiên cứu và kiểm tra (audit). |
 
-- **Level 2: Doing the analysis** (hands-on R). The free Neudata course *Clinical Data Analysis in R* is the entry requirement. *Statistics at Square One* (regression chapters) and the Sterne *BMJ* 2009 paper on multiple imputation support Sessions 5–7, and the EQUATOR toolkits support the final Results section.
-- **Level 3: Advanced topics.** For meta-analysis, the Cochrane Handbook and PRISMA 2020. For prediction models and ML, TRIPOD+AI and the Riley *BMJ* 2020 sample-size paper. For diagnostic accuracy, STARD 2015 and QUADAS-2. For advanced survival analysis, *Statistics at Square One* and the Bland–Altman Statistics Notes on survival. For clustered and multicentre data, the CONSORT extension for cluster trials.
+## Tuần 3–4 (Buổi 3–4): Thiết kế, sai lệch và các chỉ số đo lường tác động
 
-*All resources were selected for being free, stable and from recognised organisations. Versions change (e.g. CONSORT, ICMJE): always use the current version on the publisher's site.*
+| Tài liệu | Đơn vị phát hành | Vì sao nên đọc |
+|---|---|---|
+| ★ ***Epidemiology for the Uninitiated*** (sách trực tuyến) | D. Coggon, G. Rose, D.J.P. Barker, *BMJ* | Các chương ngắn, ngôn ngữ dễ hiểu về đo lường bệnh tật, so sánh tỷ suất, nghiên cứu bệnh chứng và thuần tập. |
+| **Catalogue of Bias**, catalogofbias.org | Centre for Evidence-Based Medicine, University of Oxford | Mỗi loại sai lệch một trang, kèm ví dụ lâm sàng và cách phòng tránh. Tra "confounding by indication" (nhiễu do chỉ định) và "recall bias" (sai lệch nhớ lại). |
+| ***Statistics at Square One***, chương về thiết kế nghiên cứu và chọn kiểm định thống kê (sách trực tuyến) | T.D.V. Swinscow và M.J. Campbell, *BMJ* | Liên kết thiết kế nghiên cứu với phân tích đi kèm. |
+| **Các trang về thiết kế nghiên cứu của CEBM**, cebm.ox.ac.uk | Centre for Evidence-Based Medicine, University of Oxford | Mô tả ngắn và một lưu đồ để nhận diện thiết kế nghiên cứu (hữu ích cho bài "Gọi tên thiết kế"). |
+| **"The environment and disease: association or causation?"**, *Proceedings of the Royal Society of Medicine* 1965;58:295–300 (miễn phí trực tuyến) | A. Bradford Hill | Chín "quan điểm" gốc để đánh giá quan hệ nhân quả. Ngắn và rất dễ đọc. |
+| **Các phần mở rộng của CONSORT** cho thử nghiệm theo cụm, thử nghiệm không kém hơn và thử nghiệm bắt chéo (qua equator-network.org) | Nhóm CONSORT | Báo cáo các biến thể thử nghiệm này có gì khác. |
+| **Công cụ đánh giá nguy cơ sai lệch: RoB 2 và ROBINS-I**, riskofbias.info | Nhóm phát triển các công cụ đánh giá nguy cơ sai lệch của Cochrane | Công cụ chính thức, tài liệu hướng dẫn và biểu mẫu cho nghiên cứu can thiệp có ngẫu nhiên (RoB 2) và không ngẫu nhiên (ROBINS-I). |
+| **QUADAS-2** (nghiên cứu độ chính xác chẩn đoán), University of Bristol, *Annals of Internal Medicine* 2011;155:529–536 | P. Whiting và cộng sự | Công cụ chuẩn để thẩm định nghiên cứu độ chính xác chẩn đoán. |
+| **AMSTAR 2** (tổng quan hệ thống), amstar.ca; *BMJ* 2017;358:j4008 | B. Shea và cộng sự | Công cụ 16 mục để đánh giá mức độ tin cậy của một tổng quan hệ thống. |
+| **Newcastle–Ottawa Scale** (nghiên cứu thuần tập và bệnh chứng), trang web của Ottawa Hospital Research Institute | G. Wells và cộng sự | Bảng kiểm ngắn tính điểm theo sao, được dùng rộng rãi trong tổng quan hệ thống các nghiên cứu quan sát. |
+| Tuyên bố, bảng kiểm và sơ đồ dòng chảy **PRISMA 2020**, prisma-statement.org | Nhóm PRISMA | Cách báo cáo tổng quan hệ thống. Dùng mẫu sơ đồ dòng chảy khi đọc một bài tổng quan. |
+| **STARD 2015** (nghiên cứu độ chính xác chẩn đoán), qua equator-network.org | Nhóm STARD | Những gì một bài báo về độ chính xác chẩn đoán phải báo cáo (độ nhạy, độ đặc hiệu, dòng chảy người tham gia). |
+| **Cochrane Handbook**, chương về thực hiện phân tích gộp (biểu đồ rừng, tính không đồng nhất, I²), training.cochrane.org/handbook | Cochrane | Giải thích dễ hiểu về ước lượng gộp và tính không đồng nhất. Đọc khung ý chính. |
+
+## Tuần 5–6 (Buổi 5–6): Dữ liệu và phân tích (với bộ dữ liệu khóa học FLUID-ICU)
+
+| Tài liệu | Đơn vị phát hành | Vì sao nên đọc |
+|---|---|---|
+| ★ ***Statistics at Square One*** (sách trực tuyến), các chương về trình bày và tóm tắt dữ liệu, khoảng tin cậy, kiểm định t và kiểm định khi bình phương | T.D.V. Swinscow và M.J. Campbell, *BMJ* | Phần giới thiệu miễn phí rõ ràng nhất về các nội dung thống kê trong khóa học, với ví dụ y khoa. |
+| Loạt bài **Statistics Notes**, *BMJ* (từ 1994) | J.M. Bland và D.G. Altman | Các ghi chú một trang, mỗi bài một ý; bắt đầu với "Absence of evidence is not evidence of absence" (*BMJ* 1995). |
+| **"Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations"**, *European Journal of Epidemiology* 2016;31:337–350 (truy cập mở) | S. Greenland, S.J. Senn, K.J. Rothman và cộng sự | Danh sách các cách hiểu sai thường gặp về giá trị p và KTC, và là nguồn của slide "5 cách hiểu sai thường gặp". Đọc danh sách đánh số, bỏ qua phần kỹ thuật. |
+| **"The ASA statement on p-values: context, process, and purpose"**, *The American Statistician* 2016;70:129–133 (truy cập mở) | R.L. Wasserstein và N.A. Lazar, American Statistical Association | Sáu nguyên tắc ngắn về những gì giá trị p có thể và không thể cho anh chị biết. |
+| **OpenEpi**, openepi.com | Dự án mã nguồn mở (Emory University và đối tác) | Công cụ tính trực tuyến miễn phí cho bảng 2×2 và cỡ mẫu, đúng loại công cụ dùng trong phần trình diễn trực tiếp. |
+| **REDCap**, project-redcap.org; **KoBoToolbox**, kobotoolbox.org | Vanderbilt University (liên minh REDCap); KoBoToolbox (phi lợi nhuận) | Các công cụ thu thập dữ liệu điện tử miễn phí, có kiểm tra tính hợp lệ và lưu vết chỉnh sửa. REDCap miễn phí cho các tổ chức phi lợi nhuận tham gia liên minh. |
+| **"Beyond bar and line graphs: time for a new data presentation paradigm"**, *PLoS Biology* 2015;13(4):e1002128 (truy cập mở) | T.L. Weissgerber và cộng sự | Vì sao "biểu đồ thuốc nổ" (cột kèm thanh sai số) che giấu dữ liệu và nên dùng gì thay thế. |
+| **Statistics Notes**: "Multiple significance tests: the Bonferroni method" (*BMJ* 1995;310:170) và "Survival probabilities (the Kaplan-Meier method)" (*BMJ* 1998;317:1572) | J.M. Bland và D.G. Altman | Giải thích trong một trang về so sánh bội và đường cong Kaplan–Meier. |
+| **"Multiple imputation for missing data in epidemiological and clinical research: potential and pitfalls"**, *BMJ* 2009;338:b2393 | J.A.C. Sterne và cộng sự | MCAR, MAR và MNAR, phân tích trường hợp đầy đủ và quy gán đa bội, kèm lời khuyên về cách báo cáo. |
+| **"Guidelines for the content of statistical analysis plans in clinical trials"**, *JAMA* 2017;318(23):2337–2343 | C. Gamble và cộng sự | Một kế hoạch phân tích thống kê (SAP) cần có những gì. Dùng như bảng kiểm song song với mẫu SAP. |
+| Tuyên bố **TRIPOD+AI**, *BMJ* 2024;385:e078378, tripod-statement.org | G.S. Collins và cộng sự | Cách báo cáo các mô hình dự báo, kể cả mô hình học máy. Cũng dùng được như bảng kiểm để đánh giá các mô hình đó. |
+| **"Calculating the sample size required for developing a clinical prediction model"**, *BMJ* 2020;368:m441 | R.D. Riley và cộng sự | Vì sao xảy ra quá khớp (overfitting) và vì sao quy tắc "10 biến cố cho mỗi biến" chỉ là hướng dẫn ước chừng. |
+| ***Clinical Data Analysis in R*** (khóa học trực tuyến miễn phí) | Neudata | Học cách tự làm sạch, mô tả và phân tích một bộ dữ liệu lâm sàng. Đây là điều kiện để tự chạy lại các phân tích FLUID-ICU bằng các script R của khóa học, và là điều kiện đầu vào của Cấp độ 2 (thực hành phân tích). |
+
+## Tuần 7–8 (Buổi 7–8): Bảo vệ, viết và công bố (với bản thảo của anh chị và phần phản biện cá nhân)
+
+### Đạo đức và thực hành tốt
+
+| Tài liệu | Đơn vị phát hành | Vì sao nên đọc |
+|---|---|---|
+| ★ **Declaration of Helsinki** (Tuyên bố Helsinki, bản sửa đổi 2024), wma.net | World Medical Association (Hiệp hội Y khoa Thế giới) | Các nguyên tắc đạo đức cốt lõi cho nghiên cứu trên người, đủ ngắn để đọc trong 20 phút. |
+| **ICH E6(R3) Guideline for Good Clinical Practice** (2025), ich.org | International Council for Harmonisation | Chuẩn GCP (Thực hành lâm sàng tốt) quốc tế. Đọc mục "Principles of ICH GCP" trước. |
+| **International Ethical Guidelines for Health-related Research Involving Humans** (2016), cioms.ch | Council for International Organizations of Medical Sciences (CIOMS) cùng WHO | Hướng dẫn chi tiết, kể cả nghiên cứu với người không thể tự đồng ý và nghiên cứu trong tình huống cấp cứu. |
+| **Học GCP trực tuyến miễn phí**, globalhealthtrainingcentre.tghn.org | The Global Health Network | Các khóa học Thực hành lâm sàng tốt trực tuyến miễn phí. Kiểm tra xem khóa học dựa trên phiên bản ICH E6 nào. |
+| **ClinicalTrials.gov**, clinicaltrials.gov; **WHO International Clinical Trials Registry Platform (ICTRP)**, who.int/clinical-trials-registry-platform | US National Library of Medicine; World Health Organization | Nơi đăng ký và tra cứu thử nghiệm lâm sàng. ICTRP kết nối các cơ sở đăng ký chính được WHO công nhận. |
+| **PROSPERO**, crd.york.ac.uk/prospero | Centre for Reviews and Dissemination, University of York | Cơ sở đăng ký quốc tế cho đề cương tổng quan hệ thống. |
+| Tuyên bố **SPIRIT 2025** (đề cương thử nghiệm), qua equator-network.org | Nhóm SPIRIT | Bảng kiểm những gì một đề cương thử nghiệm phải có. Dùng cùng với mẫu đề cương chi tiết. |
+
+### Liêm chính, quyền tác giả và AI
+
+| Tài liệu | Đơn vị phát hành | Vì sao nên đọc |
+|---|---|---|
+| ★ **Recommendations for the Conduct, Reporting, Editing, and Publication of Scholarly Work in Medical Journals**, icmje.org | International Committee of Medical Journal Editors (ICMJE) | Bốn tiêu chí quyền tác giả, xung đột lợi ích và quan điểm hiện hành về công trình có sự hỗ trợ của AI. Đọc mục "Defining the Role of Authors and Contributors". |
+| **Hướng dẫn, lưu đồ và tuyên bố quan điểm "Authorship and AI tools" của COPE**, publicationethics.org | Committee on Publication Ethics (COPE) | Từng bước cần làm khi gặp đạo văn, công bố trùng lặp hoặc tranh chấp quyền tác giả. |
+| **CRediT (Contributor Role Taxonomy)**, credit.niso.org | NISO (National Information Standards Organization) | 14 vai trò đóng góp dùng trong kế hoạch công bố và tuyên bố đóng góp của tác giả. |
+| **ORCID**, orcid.org | ORCID (phi lợi nhuận) | Đăng ký mã định danh nhà nghiên cứu miễn phí trước lần nộp bài đầu tiên. |
+| **Mẫu khai báo của ICMJE** (xung đột lợi ích), icmje.org | ICMJE | Mẫu chuẩn mà phần lớn tạp chí dùng để khai báo lợi ích cạnh tranh. |
+
+### Báo cáo, công bố và thẩm định
+
+| Tài liệu | Đơn vị phát hành | Vì sao nên đọc |
+|---|---|---|
+| ★ **EQUATOR Network**, equator-network.org | EQUATOR Network | Thư viện các hướng dẫn báo cáo. Dùng mục "Toolkits" và công cụ tìm hướng dẫn để chọn đúng bảng kiểm. |
+| Tuyên bố và bảng kiểm **CONSORT 2025** (thử nghiệm ngẫu nhiên) | Nhóm CONSORT (qua EQUATOR) | Những gì một báo cáo thử nghiệm phải có. Dùng để thẩm định Bài báo 1. |
+| Tuyên bố và các bảng kiểm **STROBE** (thuần tập, bệnh chứng, cắt ngang), strobe-statement.org | STROBE initiative | Những gì một báo cáo nghiên cứu quan sát phải có. Dùng để thẩm định Bài báo 2. |
+| **SPIRIT 2025** (đề cương thử nghiệm), **STARD 2015** (độ chính xác chẩn đoán), **PRISMA 2020** (tổng quan hệ thống), prisma-statement.org | Các nhóm tương ứng (qua EQUATOR) | Các hướng dẫn khác được nhắc đến trong khóa học. Chỉ mở hướng dẫn phù hợp với thiết kế của anh chị. |
+| **Think. Check. Submit.**, thinkchecksubmit.org | Sáng kiến liên ngành của các nhà xuất bản và tổ chức thư viện | Một bảng kiểm ngắn để quyết định một tạp chí có đáng tin cậy không trước khi nộp bài. |
+| **Directory of Open Access Journals (DOAJ)**, doaj.org | DOAJ | Kiểm tra một tạp chí truy cập mở có trong danh mục không và thu phí bao nhiêu. |
+| **Các bảng kiểm CASP**, casp-uk.net | Critical Appraisal Skills Programme | Các bảng kiểm thẩm định một trang miễn phí cho từng thiết kế, bước tiếp theo tự nhiên sau bảng kiểm 10 câu hỏi của khóa học. |
+| **ICMJE Recommendations**, mục "Manuscript Preparation and Submission", icmje.org | ICMJE | Mỗi phần của bản thảo (trang tiêu đề, tóm tắt, các phần IMRaD, tài liệu tham khảo) và bộ hồ sơ nộp bài cần có gì. |
+| **Bộ công cụ của EQUATOR Network** ("Writing research", "Using reporting guidelines"), equator-network.org | EQUATOR Network | Hướng dẫn thực hành về viết từng phần và dùng bảng kiểm khi nộp bài. |
+| **AuthorAID**, authoraid.info | INASP | Các khóa học trực tuyến miễn phí và chương trình cố vấn về viết và công bố nghiên cứu cho nhà nghiên cứu ở các nước thu nhập thấp và trung bình. |
+| **medRxiv**, medrxiv.org | Cold Spring Harbor Laboratory, BMJ và Yale University | Máy chủ bản thảo trước khi bình duyệt (preprint) chính cho nghiên cứu y tế. Kiểm tra chính sách về preprint của tạp chí anh chị định nộp trước. |
+| **COPE "Ethical guidelines for peer reviewers"**, publicationethics.org | Committee on Publication Ethics | Người phản biện được kỳ vọng làm gì. Hữu ích khi viết thư trả lời phản biện và cho bài tập "Làm người phản biện". |
+
+
+* * *
+
+## Học tiếp: Cấp độ 2 (thực hành) và Cấp độ 3 (nâng cao)
+
+Khóa học này là Cấp độ 1. Các bước tiếp theo được mô tả trong `Course_Levels/`.
+
+- **Cấp độ 2: Tự làm phân tích** (thực hành với R). Khóa học miễn phí *Clinical Data Analysis in R* của Neudata là điều kiện đầu vào. *Statistics at Square One* (các chương về hồi quy và phân tích sống còn) hỗ trợ các buổi về mô hình (mô hình tuyến tính, logistic, mô hình số đếm và Cox), bài báo của Sterne trên *BMJ* 2009 về quy gán đa bội hỗ trợ phần cơ bản về dữ liệu thiếu ở Buổi 1, và các bộ công cụ của EQUATOR hỗ trợ phần Kết quả cuối cùng.
+- **Cấp độ 3: Các chủ đề nâng cao.** Về nghiên cứu có thể tái lập, quản lý phiên bản và hình ảnh đạt chuẩn tạp chí, xem đề cương Cấp độ 3 (Module G). Về phân tích gộp: Cochrane Handbook và PRISMA 2020. Về mô hình dự báo và học máy: TRIPOD+AI và bài báo của Riley trên *BMJ* 2020 về cỡ mẫu. Về độ chính xác chẩn đoán: STARD 2015 và QUADAS-2. Về phân tích sống còn nâng cao: *Statistics at Square One* và các Statistics Notes của Bland–Altman về sống còn. Về dữ liệu theo cụm và đa trung tâm: phần mở rộng CONSORT cho thử nghiệm theo cụm.
+
+*Mọi tài liệu được chọn vì miễn phí, ổn định và đến từ các tổ chức được công nhận. Các phiên bản có thể thay đổi (ví dụ CONSORT, ICMJE): luôn dùng phiên bản hiện hành trên trang của đơn vị phát hành.*

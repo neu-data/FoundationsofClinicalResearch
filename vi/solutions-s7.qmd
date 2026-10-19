@@ -2,108 +2,107 @@
 title: "Buổi 7: Lời giải"
 ---
 
-::: {.lang-note}
-Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
-:::
+[Tải bản PDF](files/sessions/s7_solutions_VN.pdf) · [Quay lại Buổi 7](session7.qmd)
 
-[Tải bản PDF](files/sessions/s7_solutions.pdf) · [Quay lại Buổi 7](session7.qmd)
-
-Answer keys for `Practicals/s7_exercises.md`, Parts A–C. Numbers in Part C are from `Course/Data/key_results.md` (SIMULATED data).
+Đáp án cho `Course/Practicals/s7_exercises_VN.md` (phiếu bài tập Buổi 7), Phần A–C. Số liệu trong Phần C lấy từ `Course/Data/key_results.md` (dữ liệu MÔ PHỎNG). Trong lớp cả lớp cùng làm; các đáp án này dành cho giảng viên.
 
 
 * * *
 
-## Part A: Integrity scenarios
+## Phần A: Tình huống liêm chính
 
-| # | Colour | Why | What to do instead |
+| # | Màu | Vì sao | Nên làm gì thay thế |
 |---|---|---|---|
-| 1 | **RED**: fabrication | Values "remembered" are invented data. | Record the values as missing, report the number missing, and (Level 2) handle them in the analysis. Prevent it next time: a data-collection timetable and source-document checks. |
-| 2 | **RED**: falsification | Removing data after seeing that they weaken the result, without saying so, changes the findings. | Pre-specify rules for implausible values in the data-quality plan (Session 5); check the values against the source; if exclusion is justified, report it and show a sensitivity analysis with and without the patients. |
-| 3 | **RED**: gift authorship | Seniority is not a contribution. All four ICMJE criteria are needed. | Thank the head of department in the Acknowledgements, or invite a real contribution (e.g. critical revision) so that all four criteria are met. Agree the author list in writing at the protocol stage. |
-| 4a | **GREEN** (with disclosure) | Language editing of the author's own text, checked by the author and disclosed, is accepted by ICMJE and COPE. The author remains responsible. | Check the target journal's AI policy; disclose tool, version and purpose. |
-| 4b | **RED**: breach of confidentiality | Identifiable patient data must never be pasted into a public AI tool. The analysis is also not accountable or reproducible. | De-identify; use institution-approved software; the analysis is done and checked by a named person. |
-| 5 | **AMBER to RED**: salami slicing / redundant publication | Splitting one cohort into undisclosed separate papers distorts the evidence and can double-count patients. | One main paper with all pre-specified outcomes; any genuine secondary paper must cross-reference the main one and add something new. |
-| 6 | **RED** (amber if minor and fixed before submission): plagiarism | Copying words verbatim without quotation marks is plagiarism even with a citation. | Paraphrase in your own words and cite, or quote with quotation marks (rare in clinical writing). Similarity-check software will flag it. |
+| 1 | **ĐỎ**: bịa đặt | Giá trị "nhớ lại" là dữ liệu bịa ra. | Ghi các giá trị là thiếu, báo cáo số thiếu, và (Cấp độ 2) xử lý trong phân tích. Phòng ngừa lần sau: lịch thu thập dữ liệu và kiểm tra đối chiếu với tài liệu gốc. |
+| 2 | **ĐỎ**: làm sai lệch | Loại dữ liệu sau khi thấy chúng làm yếu kết quả, mà không nói ra, là thay đổi phát hiện. | Xác định trước quy tắc cho giá trị vô lý trong kế hoạch chất lượng dữ liệu (Buổi 5); kiểm tra giá trị với tài liệu gốc; nếu việc loại là chính đáng, báo cáo và trình bày phân tích độ nhạy có và không có các người bệnh đó. |
+| 3 | **ĐỎ**: tác giả "danh dự" | Thâm niên không phải là đóng góp. Cần đủ cả bốn tiêu chí ICMJE. | Cảm ơn trưởng khoa trong phần Lời cảm ơn, hoặc mời đóng góp thực sự (ví dụ chỉnh sửa có tính phê bình) để đáp ứng đủ bốn tiêu chí. Thống nhất danh sách tác giả bằng văn bản ngay từ giai đoạn đề cương. |
+| 4a | **XANH** (có công khai) | Chỉnh sửa ngôn ngữ cho văn bản do chính tác giả viết, được tác giả kiểm tra và công khai, được ICMJE và COPE chấp nhận. Tác giả vẫn chịu trách nhiệm. | Kiểm tra chính sách về AI của tạp chí mục tiêu; công khai công cụ, phiên bản và mục đích sử dụng. |
+| 4b | **ĐỎ**: vi phạm bảo mật | Không bao giờ được dán dữ liệu người bệnh có thể định danh vào một công cụ AI công cộng. Phân tích cũng không có người chịu trách nhiệm và không lặp lại được. | Loại bỏ thông tin định danh; dùng phần mềm được cơ sở phê duyệt; phân tích do một người có tên cụ thể thực hiện và kiểm tra. |
+| 5 | **VÀNG đến ĐỎ**: xuất bản "cắt lát" / xuất bản trùng lặp | Chia một nghiên cứu thuần tập thành nhiều bài riêng mà không công khai làm sai lệch bằng chứng và có thể đếm trùng người bệnh. | Một bài chính với mọi kết cục đã xác định trước; bất kỳ bài phụ thực sự nào cũng phải dẫn chiếu bài chính và bổ sung điều mới. |
+| 6 | **ĐỎ** (vàng nếu nhỏ và đã sửa trước khi nộp): đạo văn | Chép nguyên văn mà không có dấu ngoặc kép là đạo văn kể cả khi có trích dẫn. | Diễn giải bằng lời của mình và trích dẫn, hoặc trích nguyên văn trong dấu ngoặc kép (hiếm trong viết y khoa lâm sàng). Phần mềm kiểm tra trùng lặp sẽ phát hiện. |
 
-**Example on the slide** (a colleague lent an ultrasound machine and asks for authorship): **AMBER/RED**. Providing equipment is not authorship, so thank them in the Acknowledgements.
+**Ví dụ trên slide** (một đồng nghiệp cho mượn máy siêu âm và đề nghị đứng tên tác giả): **VÀNG/ĐỎ**. Cung cấp thiết bị không phải là đóng góp đủ để đứng tên tác giả, nên hãy cảm ơn trong phần Lời cảm ơn.
 
-Facilitation: when groups disagree (often on 4a and 5), ask each side for one reason, then state the rule. Emphasise that honest error is not misconduct but must be corrected openly.
-
-
-* * *
-
-## Part B: Proposal builder 7: what a good Part 4 looks like (example: observational ICU study)
-
-### B1–B3. Ethics, confidentiality, feasibility
-
-> *Ethics and consent.* The protocol will be submitted to the institutional research ethics committee before any data collection. Data are collected from routine ICU charts with no change in care. We will request a waiver of individual consent because most patients lack capacity on admission and the study carries no more than minimal risk. If the committee requires consent, it will be sought from the patient when able or from the legally authorised representative.
->
-> *Confidentiality.* Each patient receives a study code (FLU-001 …). Names, hospital numbers and dates of birth are recorded only on a key file stored on the institution's password-protected drive, accessible to the principal investigator and one data manager. The analysis file contains the study code, age, admission month and study variables only.
->
-> *Feasibility.* The unit admitted about 180 adults with septic shock last year; we expect to enrol 120 eligible patients in 12 months. Two nurses per shift have been trained on the CRF; data are checked weekly. Budget headings: staff time for data entry, printing, open-access fee.
->
-> *Dissemination.* Target journal: a critical-care nursing journal indexed in MEDLINE; back-up: a general critical-care journal. Reporting guideline: STROBE.
-
-Common errors to correct: "consent will be obtained" with no who/when/how; assuming retrospective studies need no ethics review; recruitment numbers copied from the sample-size calculation instead of the unit's admissions; no named place for the key file.
-
-### B4. Example publication plan (same observational ICU study)
-
-| Item | Example |
-|---|---|
-| Working title | "Cumulative fluid balance and 28-day mortality in adults with septic shock: a retrospective cohort study" |
-| Target journal | A critical-care or critical-care-nursing journal indexed in MEDLINE (checked in the NLM Catalog), APC and licence known; back-up: a general critical-care open-access journal listed in DOAJ |
-| Reporting guideline | STROBE (cohort), not CONSORT |
-| Registration | Not mandatory for an observational study; recommended (e.g. ClinicalTrials.gov) |
-| Authors and CRediT | PI: Conceptualization, Methodology, Writing – original draft; two nurses: Investigation, Data curation; pharmacist: Investigation, Writing – review & editing; statistician: Formal analysis; head of department: Supervision (only if all four ICMJE criteria are met, otherwise Acknowledgements) |
-| COI / funding | None declared / internal departmental support |
-| Data sharing | De-identified dataset and data dictionary available from the corresponding author under a data-use agreement (if the ethics committee and consent allow) |
-| Conference | National critical-care congress abstract after the first analysis |
-
-**Abstract skeleton.** Background: positive fluid balance may be linked to death in septic shock; local data are lacking; we aimed to assess its association with 28-day mortality. Methods: retrospective cohort, adults with septic shock, one ICU, 12 months; exposure = cumulative fluid balance at day 3; outcome = 28-day mortality; logistic regression adjusted for severity. Results (expected): "n patients; 28-day mortality x% vs y%; adjusted OR (95% CI)". Conclusion (if positive): "A positive day-3 fluid balance was associated with higher 28-day mortality"; (if not): "We found no evidence of an association; the CI does not exclude a clinically relevant effect".
-
-Common errors: CONSORT named for a cohort; "impact" or "effect" in the title; an author list that includes people who only collected data; expected results written as numbers ("mortality fell by 30%").
+Hướng dẫn: chạy mỗi tình huống dưới dạng bình chọn ba lựa chọn (xanh, vàng, đỏ). Khi kết quả bình chọn chia rẽ (thường ở 4a và 5), mời một người ở mỗi phía nêu lý do trong khung chat, rồi nêu quy tắc. Nhấn mạnh rằng sai sót trung thực không phải là hành vi sai trái nhưng phải được sửa công khai.
 
 
 * * *
 
-## Part C: [DS] Manuscript workshop 1: model Methods and Results for Q1
+## Phần B: Xây dựng đề cương 7: Phần 4 tốt trông như thế nào (ví dụ xuyên suốt: nghiên cứu quan sát tại ICU)
 
-All numbers are from `Course/Data/key_results.md` and `Course/Data/results_packs/Q1/results_pack_Q1.md` (**SIMULATED DATA, NOT REAL PATIENTS**). Show these to groups only AFTER the workshop, or use them to coach. Other groups (Q2–Q5) take the same structure and their own pack.
+Dùng phần này làm mẫu để xây dựng trực tiếp trên màn hình chia sẻ trong lớp (20:30). Sau đó mỗi học viên viết Phần 4 cho đề cương của mình ở nhà.
 
-### Model Methods (~300 words)
+### B1–B3. Đạo đức, bảo mật, tính khả thi
 
-**Study design and setting.** We analysed FLUID-ICU, a multicentre prospective cohort of consecutive adults with sepsis admitted to four intensive care units (ICUs A–D) between January 2023 and December 2024. FLUID-ICU is a simulated teaching dataset; no ethics approval or consent was required.
+> *Đạo đức và sự đồng ý tham gia.* Đề cương sẽ được nộp cho hội đồng đạo đức trong nghiên cứu y sinh học của cơ sở trước khi thu thập bất kỳ dữ liệu nào. Dữ liệu được lấy từ phiếu theo dõi thường quy tại ICU, không thay đổi việc chăm sóc. Chúng tôi sẽ đề nghị miễn sự đồng ý của từng cá nhân vì phần lớn người bệnh không đủ năng lực quyết định khi nhập viện và nghiên cứu không có nguy cơ vượt quá mức tối thiểu. Nếu hội đồng yêu cầu sự đồng ý, sẽ xin sự đồng ý của người bệnh khi họ có thể, hoặc của người đại diện hợp pháp.
+>
+> *Bảo mật.* Mỗi người bệnh nhận một mã nghiên cứu (FLU-001 …). Họ tên, mã số bệnh viện và ngày sinh chỉ được ghi trên một tệp khóa lưu trên ổ đĩa có mật khẩu của cơ sở, chỉ nghiên cứu viên chính và một cán bộ quản lý dữ liệu được truy cập. Tệp phân tích chỉ chứa mã nghiên cứu, tuổi, tháng nhập viện và các biến nghiên cứu.
+>
+> *Tính khả thi.* Năm ngoái khoa đã tiếp nhận khoảng 180 người lớn bị sốc nhiễm khuẩn; chúng tôi dự kiến tuyển 120 người bệnh đủ điều kiện trong 12 tháng. Hai điều dưỡng mỗi ca đã được tập huấn về CRF; dữ liệu được kiểm tra hằng tuần. Các khoản mục ngân sách: thời gian nhân lực cho nhập liệu, in ấn, phí truy cập mở.
+>
+> *Phổ biến kết quả.* Tạp chí mục tiêu: một tạp chí điều dưỡng hồi sức được chỉ mục trong MEDLINE; dự phòng: một tạp chí hồi sức tổng quát. Hướng dẫn báo cáo: STROBE.
 
-**Participants.** All adults with sepsis enrolled in the cohort were eligible. Patients without a cumulative fluid balance on day 3 were excluded from the exposure analysis.
+Lỗi thường gặp cần sửa: "sẽ xin sự đồng ý" mà không nói ai/khi nào/thế nào; cho rằng nghiên cứu hồi cứu không cần hội đồng đạo đức xét duyệt; số tuyển chọn chép từ phép tính cỡ mẫu thay vì từ số người bệnh nhập khoa; không nêu nơi lưu tệp khóa.
 
-**Variables.** The exposure was a positive cumulative fluid balance by ICU day 3, defined as total fluid input minus total fluid output over ICU days 1–3 greater than 0 ml/kg, compared with a negative or zero balance. The primary outcome was death from any cause within 28 days of ICU admission; for survival analysis, time to death was censored at day 28. Confounders were pre-specified in the statistical analysis plan: age, SOFA score, lactate, vasopressor use, mechanical ventilation and chronic kidney disease. Heart failure was pre-specified as a possible effect modifier.
+### B4. Ví dụ kế hoạch công bố (cùng nghiên cứu quan sát tại ICU)
 
-**Data sources and bias.** Data were collected from ICU charts on a standard case report form. To address confounding by indication (sicker patients receive more fluid), we adjusted for markers of illness severity and comorbidity.
-
-**Study size.** All eligible patients in the cohort were included; no separate sample-size calculation was performed.
-
-**Statistical analysis.** Baseline characteristics are presented as mean (SD), median (IQR) or n (%), by fluid-balance group. 28-day mortality was compared with the chi-square test, and crude and adjusted odds ratios (ORs) were estimated by logistic regression. Survival to day 28 was described with Kaplan–Meier curves (log-rank test) and analysed with Cox regression using the same covariates; the proportional-hazards assumption was checked. Effect modification by heart failure was tested with an interaction term. The main analysis used complete cases; missing lactate was handled by multiple imputation (20 data sets) in a sensitivity analysis. Estimates are reported with 95% confidence intervals (CIs). Analyses used R 4.6 (packages gtsummary, survival, mice).
-
-### Model Results (~300 words)
-
-**Participants.** Of 620 patients enrolled, 618 had a day-3 fluid balance and were included in the analysis; 527 had complete data for the adjusted model (91 without lactate or age). Mean age was 62.6 years (SD 15.2), 376 of 620 (60.6%) were men, and the median SOFA score was 7 (IQR 5 to 9).
-
-**Descriptive data.** A positive balance by day 3 occurred in 373 of 618 patients (60.4%). These patients were sicker at baseline (median SOFA 8 [6 to 10] vs 6 [4 to 8]; vasopressors 205/373 [55.0%] vs 61/245 [24.9%]; mechanical ventilation 216/373 [57.9%] vs 97/245 [39.6%]) and less often had heart failure (43/373 [11.5%] vs 54/245 [22.0%]) (Table 1). Lactate was missing in 93 of 620 patients (15.0%).
-
-**Outcome data.** By day 28, 134 of 373 patients (35.9%) with a positive balance and 45 of 245 (18.4%) with a negative balance had died (risk difference 17.6 percentage points, 95% CI 10.7 to 24.4). Kaplan–Meier survival at day 28 was 64.1% and 81.6%, respectively (log-rank p < 0.001; Figure 1).
-
-**Main results.** The crude OR for death with a positive balance was 2.49 (95% CI 1.70 to 3.70); after adjustment it was 1.62 (95% CI 1.02 to 2.59; p = 0.044; n = 527) (Table 3). The crude hazard ratio (HR) was 2.17 (95% CI 1.55 to 3.05) and the adjusted HR 1.46 (95% CI 1.00 to 2.13; p = 0.053).
-
-**Other analyses.** With multiple imputation (n = 620) the adjusted OR was 1.70 (95% CI 1.09 to 2.64). The association differed by heart failure (p for interaction = 0.031): adjusted OR 4.39 (95% CI 1.65 to 12.38) with heart failure (n = 90) and 1.29 (95% CI 0.77 to 2.19) without (n = 437).
-
-### Coaching checklist (any group)
-| Check | Typical fix |
+| Mục | Ví dụ |
 |---|---|
-| Statistical paragraph names a method for every result | Add the test/model and the covariates |
-| Results start with participants and flow | Add "Of 620 enrolled, 618 … 527 …" (Q1) |
-| Crude AND adjusted estimates (STROBE 16) | Add the missing one, with n |
-| No interpretation in Results | Move "because sicker patients…" to the Discussion |
-| Every effect has a 95% CI | Copy it from the pack |
-| Q4: complete-case AND imputed | CC OR 1.39 (1.24 to 1.57) vs MI 1.45 (1.29 to 1.64) per mmol/L (adjusted for age, sex, diabetes, CKD, heart failure) |
-| Q5: medians/IQR, survivors only | 439 survivors; median 7.5 vs 4.8 days |
-| Simulated data stated | Add the course ethics sentence |
+| Tên đề tài tạm thời | "Cumulative fluid balance and 28-day mortality in adults with septic shock: a retrospective cohort study" |
+| Tạp chí mục tiêu | Một tạp chí hồi sức hoặc điều dưỡng hồi sức được chỉ mục trong MEDLINE (đã kiểm tra trên NLM Catalog), biết rõ APC và giấy phép; dự phòng: một tạp chí hồi sức truy cập mở tổng quát có trong DOAJ |
+| Hướng dẫn báo cáo | STROBE (thuần tập), không phải CONSORT |
+| Đăng ký | Không bắt buộc với nghiên cứu quan sát; khuyến khích (ví dụ ClinicalTrials.gov) |
+| Tác giả và CRediT | Nghiên cứu viên chính: Conceptualization, Methodology, Writing (original draft); hai điều dưỡng: Investigation, Data curation; một thành viên thứ ba: Investigation, Writing (review and editing); nhà thống kê: Formal analysis; trưởng khoa: Supervision (chỉ khi đáp ứng đủ bốn tiêu chí ICMJE, nếu không thì đưa vào Lời cảm ơn) |
+| Xung đột lợi ích / tài trợ | Không có / hỗ trợ nội bộ của khoa |
+| Chia sẻ dữ liệu | Bộ dữ liệu đã loại bỏ thông tin định danh và từ điển dữ liệu có thể nhận từ tác giả liên hệ theo thỏa thuận sử dụng dữ liệu (nếu hội đồng đạo đức và sự đồng ý cho phép) |
+| Hội nghị | Tóm tắt tại hội nghị hồi sức toàn quốc sau lần phân tích đầu tiên |
+
+**Khung tóm tắt.** Đặt vấn đề: cân bằng dịch dương có thể liên quan với tử vong trong sốc nhiễm khuẩn; còn thiếu số liệu tại chỗ; chúng tôi nhằm đánh giá mối liên quan của nó với tử vong 28 ngày. Phương pháp: thuần tập hồi cứu, người lớn bị sốc nhiễm khuẩn, một ICU, 12 tháng; phơi nhiễm = cân bằng dịch tích lũy ở ngày 3; kết cục = tử vong 28 ngày; hồi quy logistic hiệu chỉnh theo mức độ nặng. Kết quả (dự kiến): "n người bệnh; tử vong 28 ngày x% so với y%; OR hiệu chỉnh (KTC 95%)". Kết luận (nếu dương tính): "Cân bằng dịch dương ở ngày 3 có liên quan với tử vong 28 ngày cao hơn"; (nếu không): "Chúng tôi không tìm thấy bằng chứng về mối liên quan; KTC không loại trừ một tác động có ý nghĩa lâm sàng".
+
+Lỗi thường gặp: nêu CONSORT cho nghiên cứu thuần tập; dùng "impact" hoặc "effect" trong tiêu đề; danh sách tác giả có những người chỉ thu thập dữ liệu; kết quả dự kiến viết thành con số ("tử vong giảm 30%").
+
+
+* * *
+
+## Phần C: Thực hành bản thảo 1: Phương pháp và Kết quả mẫu cho Q1
+
+Mọi con số lấy từ `Course/Data/key_results.md` và `Course/Data/results_packs/Q1/results_pack_Q1.md` (**DỮ LIỆU MÔ PHỎNG, KHÔNG PHẢI NGƯỜI BỆNH THẬT**). Dùng để định hướng bản nháp của lớp trong phần 1 của buổi thực hành (không dán nguyên văn). Học viên chọn Q2–Q5 theo cùng cấu trúc với số liệu từ gói kết quả của mình.
+
+### Phương pháp mẫu (~300 từ)
+
+**Thiết kế nghiên cứu và bối cảnh.** Chúng tôi phân tích FLUID-ICU, một nghiên cứu thuần tập tiến cứu đa trung tâm gồm những người lớn bị nhiễm khuẩn huyết liên tiếp nhập bốn khoa hồi sức tích cực (ICU A–D) từ tháng 1 năm 2023 đến tháng 12 năm 2024. FLUID-ICU là bộ dữ liệu giảng dạy mô phỏng; không cần chấp thuận của hội đồng đạo đức hay sự đồng ý tham gia.
+
+**Người tham gia.** Mọi người lớn bị nhiễm khuẩn huyết được tuyển vào nghiên cứu thuần tập đều đủ điều kiện. Người bệnh không có cân bằng dịch tích lũy ở ngày 3 bị loại khỏi phân tích phơi nhiễm.
+
+**Biến số.** Phơi nhiễm là cân bằng dịch tích lũy dương đến ngày ICU thứ 3, định nghĩa là tổng lượng dịch vào trừ tổng lượng dịch ra trong các ngày ICU 1–3 lớn hơn 0 ml/kg, so với cân bằng dịch âm hoặc bằng 0. Kết cục chính là tử vong do mọi nguyên nhân trong vòng 28 ngày sau khi vào ICU; trong phân tích sống còn, thời gian đến tử vong được kiểm duyệt ở ngày 28. Các yếu tố gây nhiễu được xác định trước trong kế hoạch phân tích thống kê: tuổi, điểm SOFA, lactate, việc dùng thuốc vận mạch, thở máy và bệnh thận mạn. Suy tim được xác định trước là yếu tố có thể thay đổi tác động.
+
+**Nguồn dữ liệu và sai lệch.** Dữ liệu được thu thập từ phiếu theo dõi tại ICU trên một phiếu thu thập dữ liệu chuẩn. Để xử lý nhiễu do chỉ định (người bệnh nặng hơn được truyền nhiều dịch hơn), chúng tôi hiệu chỉnh theo các chỉ dấu mức độ nặng của bệnh và bệnh kèm theo.
+
+**Cỡ mẫu.** Mọi người bệnh đủ điều kiện trong nghiên cứu thuần tập đều được đưa vào; không tính cỡ mẫu riêng.
+
+**Phân tích thống kê.** Đặc điểm nền được trình bày dưới dạng trung bình (SD), trung vị (IQR) hoặc n (%), theo nhóm cân bằng dịch. Tử vong 28 ngày được so sánh bằng kiểm định khi bình phương, và tỷ số chênh (OR) thô và hiệu chỉnh được ước lượng bằng hồi quy logistic. Sống còn đến ngày 28 được mô tả bằng đường cong Kaplan–Meier (kiểm định log-rank) và phân tích bằng hồi quy Cox với cùng các biến hiệu chỉnh; giả định nguy cơ tỷ lệ đã được kiểm tra. Thay đổi tác động theo suy tim được kiểm định bằng một số hạng tương tác. Phân tích chính dùng các trường hợp đầy đủ; lactate bị thiếu được xử lý bằng quy gán đa bội (20 bộ dữ liệu) trong phân tích độ nhạy. Các ước lượng được báo cáo kèm khoảng tin cậy 95% (KTC). Phân tích dùng R 4.6 (các gói gtsummary, survival, mice).
+
+### Kết quả mẫu (~300 từ)
+
+**Người tham gia.** Trong 620 người bệnh được tuyển, 618 người có cân bằng dịch ngày 3 và được đưa vào phân tích; 527 người có dữ liệu đầy đủ cho mô hình hiệu chỉnh (91 người thiếu lactate hoặc tuổi). Tuổi trung bình là 62.6 (SD 15.2), 376 trên 620 người (60.6%) là nam, và trung vị điểm SOFA là 7 (IQR 5 đến 9).
+
+**Dữ liệu mô tả.** Cân bằng dịch dương đến ngày 3 xảy ra ở 373 trên 618 người bệnh (60.4%). Những người bệnh này nặng hơn lúc ban đầu (trung vị SOFA 8 [6 đến 10] so với 6 [4 đến 8]; thuốc vận mạch 205/373 [55.0%] so với 61/245 [24.9%]; thở máy 216/373 [57.9%] so với 97/245 [39.6%]) và ít bị suy tim hơn (43/373 [11.5%] so với 54/245 [22.0%]) (Bảng 1). Lactate bị thiếu ở 93 trên 620 người bệnh (15.0%).
+
+**Dữ liệu kết cục.** Đến ngày 28, 134 trên 373 người bệnh (35.9%) có cân bằng dịch dương và 45 trên 245 người (18.4%) có cân bằng dịch âm đã tử vong (hiệu số nguy cơ 17.6 điểm phần trăm, KTC 95% 10.7 đến 24.4). Tỷ lệ sống Kaplan–Meier ở ngày 28 lần lượt là 64.1% và 81.6% (log-rank p < 0.001; Hình 1).
+
+**Kết quả chính.** OR thô cho tử vong khi cân bằng dịch dương là 2.49 (KTC 95% 1.70 đến 3.70); sau hiệu chỉnh là 1.62 (KTC 95% 1.02 đến 2.59; p = 0.044; n = 527) (Bảng 3). Tỷ số nguy cơ tức thời (HR) thô là 2.17 (KTC 95% 1.55 đến 3.05) và HR hiệu chỉnh là 1.46 (KTC 95% 1.00 đến 2.13; p = 0.053).
+
+**Các phân tích khác.** Với quy gán đa bội (n = 620), OR hiệu chỉnh là 1.70 (KTC 95% 1.09 đến 2.64). Mối liên quan khác nhau theo tình trạng suy tim (p tương tác = 0.031): OR hiệu chỉnh 4.39 (KTC 95% 1.65 đến 12.38) ở người có suy tim (n = 90) và 1.29 (KTC 95% 0.77 đến 2.19) ở người không suy tim (n = 437).
+
+### Danh sách kiểm tra khi hướng dẫn (bản nháp của bất kỳ học viên nào)
+
+| Kiểm tra | Cách sửa điển hình |
+|---|---|
+| Đoạn phân tích thống kê nêu phương pháp cho mọi kết quả | Thêm kiểm định/mô hình và các biến hiệu chỉnh |
+| Phần Kết quả bắt đầu bằng người tham gia và sơ đồ dòng | Thêm "Trong 620 người được tuyển, 618 … 527 …" (Q1) |
+| Có ước lượng thô VÀ đã hiệu chỉnh (STROBE 16) | Thêm ước lượng còn thiếu, kèm n |
+| Không diễn giải trong phần Kết quả | Chuyển "vì người bệnh nặng hơn…" sang phần Bàn luận |
+| Mọi tác động đều có KTC 95% | Chép từ gói kết quả |
+| Q4: trường hợp đầy đủ VÀ quy gán | CC OR 1.39 (1.24 đến 1.57) so với MI 1.45 (1.29 đến 1.64) mỗi mmol/L (hiệu chỉnh theo tuổi, giới, đái tháo đường, CKD, suy tim) |
+| Q5: trung vị/IQR, chỉ người sống sót | 439 người sống sót; trung vị 7.5 so với 4.8 ngày |
+| Có nêu dữ liệu mô phỏng | Thêm câu về đạo đức của khóa học |

@@ -6,7 +6,7 @@ title: "Level 3: advanced (on request)"
 Level 3 modules are run on request, as workshops or consultancy, after Levels 1 and 2.
 :::
 
-Level 3 offers **specialised modules** for data and questions that need more advanced methods, such as systematic review and meta-analysis, prediction models, diagnostic accuracy, advanced survival, longitudinal and multilevel models. Each module includes hands-on work on the participant's own project. To request a module, contact [myluong1710@gmail.com](mailto:myluong1710@gmail.com).
+Level 3 offers **specialised modules** for data and questions that need more advanced methods, such as systematic review and meta-analysis, prediction models, diagnostic accuracy, advanced survival, longitudinal and multilevel models, plus reproducible research (projects, version control, Quarto, journal-ready figures) and missing data and sensitivity analyses in depth. Every module includes exploratory data analysis and figure code for its problem. Each module includes hands-on work on the participant's own project. To request a module, contact [myluong1710@gmail.com](mailto:myluong1710@gmail.com).
 
 [Download the PDF](files/docs/Level3_Advanced.pdf) · [Back to course levels](levels.qmd)
 
@@ -21,21 +21,29 @@ Level 3 offers **specialised modules** for data and questions that need more adv
 
 ## 1. What Level 3 is
 
-Real clinical data are often more complex than the cohort used in Levels 1 and 2: repeated measurements on the same patients, patients clustered in wards or hospitals, competing outcomes, large routine registries, or questions about prediction and diagnosis rather than association. Level 3 offers specialised modules, each tied to the kind of data or question participants meet in their own work. Neudata runs them as workshops and consultancy: a short, intensive teaching block followed by hands-on work on the participant's own project, with Neudata support until a defensible analysis plan or analysis is in place.
+Real clinical data are often more complex than the cohort used in Levels 1 and 2: repeated measurements on the same patients, patients clustered in wards or hospitals, competing outcomes, large routine registries, or questions about prediction and diagnosis rather than association. Level 3 offers specialised modules, each tied to the kind of data or question participants meet in their own work. It also covers the research-craft topics that were moved out of Level 2 so that Level 2 could focus on statistical models: reproducible projects, version control, Quarto reports, figures that meet journal requirements, and missing-data and sensitivity analyses in depth (Modules G and H). Neudata runs them as workshops and consultancy: a short, intensive teaching block followed by hands-on work on the participant's own project, with Neudata support until a defensible analysis plan or analysis is in place.
 
 ## 2. Format
 
 | | |
 |---|---|
-| **Who** | Level 2 graduates (or researchers with equivalent R and regression experience), usually 3–10 per workshop; individual researchers or project teams for consultancy. |
-| **Prerequisites** | **Level 2** (or equivalent): reproducible R projects, data cleaning, linear and logistic regression with diagnostics, multiple imputation. A real question or dataset is strongly recommended. |
-| **Workshop format** | 1–2 sessions of 3 hours: concepts → worked example in R → participants apply it to their own data. |
-| **Consultancy format** | A scoping meeting, then 2–4 follow-up meetings over 1–3 months; the participant does the analysis, Neudata reviews the plan, code and interpretation. |
-| **Software** | R and RStudio; module-specific packages (named per module). |
+| **Who** | Level 2 graduates (or researchers with equivalent R and regression experience), usually 3 to 10 per workshop; individual researchers or project teams for consultancy. |
+| **Prerequisites** | **Level 2** (or equivalent): working with R scripts, data cleaning, Table 1, and linear, logistic, count (Poisson, negative binomial, zero-inflated) and Cox models with their assumptions and diagnostics; the basics of missing data. A real question or dataset is strongly recommended. |
+| **Workshop format** | 1 or 2 online sessions of 3 hours: concepts, then a worked example in R, then participants apply it to their own data. The class works together as one group (no breakout rooms); the applied work is individual, and participants share results back to the class. |
+| **Consultancy format** | A scoping meeting, then 2 to 4 online follow-up meetings over 1–3 months; the participant does the analysis, Neudata reviews the plan, code and interpretation. |
+| **Software** | R and RStudio; module-specific packages (named per module). Every module uses ggplot2 for its EDA and result figures. |
 | **Output** | A statistical analysis plan, a reviewed analysis script and draft Methods/Results text for the participant's project, or a structured appraisal for the appraisal-focused modules. |
 | **How to request** | The department or a project team contacts Neudata with a short description of the question and data; Neudata proposes the module(s) and the format. |
 
-## 3. The modules
+## 3. Principles for every module
+
+These apply to every Level 3 module and every session within it.
+
+1. **An EDA section in every lecture.** Each session has a section on exploratory data analysis for its analysis problem: which summaries and plots to look at before fitting the model, and what they can reveal. Examples: spaghetti plots and missingness over time for repeated measures (Module E); follow-up and censoring patterns for survival (Module D); the distribution of the index test by disease status (Module C); study characteristics and effect sizes before pooling (Module A).
+2. **Figure code in every lecture.** Each session gives ready-to-use ggplot2 code for the figures that its problem needs, built to journal standard from the start. Examples: forest and funnel plots (A), calibration plots (B), ROC curves (C), cumulative incidence curves (D), individual trajectories and model-based predictions (E). The general rules for journal figures (vector vs raster files, dimensions, resolution and fonts) are taught once in Module G and then applied in every module.
+3. **Reproducible from the start.** Module work is done in a reproducible project (Module G), so that someone else can re-run the analysis and the report.
+
+## 4. The modules
 
 ### Module A: Systematic review and meta-analysis
 
@@ -52,7 +60,7 @@ Real clinical data are often more complex than the cohort used in Levels 1 and 2
 
 **Aims.** Participants will be able to (1) distinguish prediction from causal questions; (2) calculate the sample size needed to develop a model; (3) develop a logistic or survival prediction model, assess discrimination and calibration, and validate it internally (bootstrapping); (4) understand what machine-learning methods add and where they mislead (data leakage, overfitting, fairness); and (5) report with TRIPOD+AI and appraise with PROBAST.
 
-**Prerequisites.** Level 2 (logistic regression in depth). Packages: rms, pmsampsize, pROC, glmnet, tidymodels (introduced).
+**Prerequisites.** Level 2 (Session 3, logistic regression in depth). Packages: rms, pmsampsize, pROC, glmnet, tidymodels (introduced).
 
 | Session | Content | Product |
 |---|---|---|
@@ -72,20 +80,20 @@ Real clinical data are often more complex than the cohort used in Levels 1 and 2
 
 ### Module D: Advanced survival analysis
 
-**Aims.** Participants will be able to (1) fit and check Cox models (proportional hazards, functional form, influential points); (2) use time-varying covariates and avoid immortal-time bias; (3) analyse competing risks (cumulative incidence functions, cause-specific and Fine–Gray models), for example ICU discharge alive vs death; (4) present restricted mean survival time as an alternative to the HR; and (5) report time-to-event analyses clearly.
+**Aims.** Participants will be able to (1) go beyond the Level 2 Cox model when its assumptions fail (non-proportional hazards, time-varying effects); (2) use time-varying covariates and avoid immortal-time bias; (3) analyse competing risks (cumulative incidence functions, cause-specific and Fine–Gray models), for example ICU discharge alive vs death; (4) present restricted mean survival time as an alternative to the HR; and (5) report time-to-event analyses clearly.
 
-**Prerequisites.** Level 2; the Kaplan–Meier and Cox basics from Level 1 (FLUID-ICU Question 1). Packages: survival, survminer, tidycmprsk, cmprsk.
+**Prerequisites.** Level 2, including Session 6 (Kaplan-Meier, the Cox model and the proportional-hazards check). Packages: survival, survminer, tidycmprsk, cmprsk.
 
 | Session | Content | Product |
 |---|---|---|
-| D1: Beyond the basic Cox model | Checking proportional hazards; stratification and time-varying effects; time-varying covariates and the counting-process format; immortal-time bias and landmark analysis; restricted mean survival time | Cox analysis with PH checks and a time-varying covariate |
+| D1: Beyond the basic Cox model | EDA for time-to-event data with changing exposures; when proportional hazards fail: stratification and time-varying effects; time-varying covariates and the counting-process format; immortal-time bias and landmark analysis; restricted mean survival time | Cox analysis with PH checks and a time-varying covariate |
 | D2: Competing risks | Why 1 − KM overestimates risk with competing events; cumulative incidence; cause-specific vs Fine–Gray models and when to use each; plotting and reporting | Competing-risk analysis of FLUID-ICU or own data |
 
 ### Module E: Longitudinal data and multilevel (mixed) models
 
 **Aims.** Participants will be able to (1) structure repeated-measures data (long vs wide) and plot individual trajectories; (2) fit linear and logistic mixed-effects models with random intercepts and slopes; (3) interpret fixed effects, random effects and intraclass correlation; (4) handle missing data and dropout in repeated measures; and (5) know when generalised estimating equations (GEE) are the better choice.
 
-**Prerequisites.** Level 2 (linear and logistic regression in depth). Packages: lme4, glmmTMB, geepack, ggeffects.
+**Prerequisites.** Level 2 (linear, logistic and count models). Packages: lme4, glmmTMB, geepack, ggeffects.
 
 | Session | Content | Product |
 |---|---|---|
@@ -103,7 +111,31 @@ Real clinical data are often more complex than the cohort used in Levels 1 and 2
 | F1: Clustered and multicentre data | Design effect and ICC; centre as fixed vs random effect; cluster-robust standard errors; analysing a cluster-randomised or multicentre study; reporting (CONSORT cluster extension) | Analysis plan for a clustered or multicentre dataset |
 | F2: Large registries and routine data | Data linkage and de-identification; data quality at scale; coding systems; efficient data handling; causal questions from routine data (DAGs, propensity scores with matching, weighting and balance checks, and target-trial emulation, introduced); RECORD reporting | Data-management and analysis plan for a registry-based question |
 
-## 4. Choosing a module
+### Module G: Reproducible research and publication-quality output
+
+This module holds the reproducibility and figure topics moved from Level 2. It is recommended as the first Level 3 module for everyone, because the other modules use its project structure and figure rules.
+
+**Aims.** Participants will be able to (1) organise an analysis as a reproducible R project that someone else can re-run (the "re-run in a year" test); (2) keep a history of their work with version control; (3) write a Quarto report in which every number, table and figure is produced by code; and (4) produce figures that meet journal requirements.
+
+**Prerequisites.** Level 2. Packages: here, renv, quarto, gtsummary, flextable, ggplot2, ragg, svglite, patchwork; Git through RStudio or GitHub Desktop.
+
+| Session | Content | Product |
+|---|---|---|
+| G1: Reproducible projects and version control | Why reproducibility matters; the pipeline from raw data to clean data, analysis and report; an RStudio Project with a standard folder structure (`data/raw`, `data/clean`, `R/`, `output/`, `report/`); paths with `here`; script headers, numbered scripts, packages loaded at the top, `sessionInfo()` and `renv`; version control with Git (commit, history, restore, a remote copy on GitHub or similar), with dated versions and a change log as the minimum alternative | A FLUID-ICU project under version control that re-runs from the raw file on another computer |
+| G2: Quarto reports and journal-ready figures | A Quarto report that runs the whole pipeline and renders to Word and HTML; inline numbers in sentences; one home for every number; tables in journal style; figures for journals: vector (PDF, EPS, SVG) vs raster (TIFF, PNG) files and when each is required, width and height in mm for single and double columns, resolution (300 to 600 dpi or more for line art, as the journal states), fonts and minimum font sizes, colour-blind-safe palettes, multi-panel figures with `patchwork`, exporting with `ggsave`; checking a figure against a journal's author instructions | A rendered Quarto report and two figures exported to a target journal's requirements |
+
+### Module H: Missing data and sensitivity analyses in depth
+
+**Aims.** Participants will be able to (1) build and check a multiple-imputation model (variables to include, the outcome in the imputation model, number of imputations, convergence and imputed distributions, Rubin's rules); (2) impute non-linear terms, interactions and multilevel or longitudinal data with care; (3) plan and run sensitivity analyses for missing-data assumptions (including MNAR scenarios with delta adjustment), outliers, definitions of exposure and outcome, and unmeasured confounding (E-values, introduced); and (4) report missing data and sensitivity analyses briefly and clearly.
+
+**Prerequisites.** Level 2 (the Session 1 missing-data basics and at least one regression model). Packages: mice, naniar, ggmice, EValue.
+
+| Session | Content | Product |
+|---|---|---|
+| H1: Multiple imputation in practice | EDA for missing data (patterns; comparing patients with and without missing values); the imputation model; mice step by step; convergence and imputed-value diagnostics; pooling; complete-case vs imputed estimates (FLUID-ICU Q4: lactate and 28-day mortality) | An imputation analysis with diagnostic plots and a comparison table |
+| H2: Sensitivity analyses | What to vary and why; MNAR scenarios (delta adjustment); outliers and influential points; other definitions of exposure and outcome; unmeasured confounding and the E-value; pre-specifying sensitivity analyses in the SAP; reporting them in a short table | A sensitivity-analysis table with two sentences of interpretation |
+
+## 5. Choosing a module
 
 | If you want to… | Module |
 |---|---|
@@ -113,5 +145,7 @@ Real clinical data are often more complex than the cohort used in Levels 1 and 2
 | Analyse time-to-event outcomes with competing events or changing exposures | **D**: Advanced survival |
 | Analyse measurements repeated over time on the same patients | **E**: Longitudinal and mixed models |
 | Analyse multicentre, cluster-randomised or registry data | **F**: Complex data |
+| Make an analysis that others can re-run, and figures that meet journal requirements | **G**: Reproducible research (recommended first) |
+| Handle missing data properly and test whether the answer is robust | **H**: Missing data and sensitivity analyses |
 
-Key free resources for each module are listed in `Course/References/further_reading.md`: the Cochrane Handbook and PRISMA 2020 (A); TRIPOD+AI and the Riley sample-size paper (B); STARD 2015 and QUADAS-2 (C); *Statistics at Square One* and the Bland–Altman Statistics Notes (D, E); the CONSORT cluster extension (F).
+Key free resources for each module are listed in `Course/References/further_reading.md`: the Cochrane Handbook and PRISMA 2020 (A); TRIPOD+AI and the Riley sample-size paper (B); STARD 2015 and QUADAS-2 (C); *Statistics at Square One* and the Bland–Altman Statistics Notes (D, E); the CONSORT cluster extension (F); the Quarto documentation and the target journal's author instructions for figures (G); the Sterne *BMJ* 2009 paper on multiple imputation (H).

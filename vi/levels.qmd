@@ -8,48 +8,44 @@ Trang web này là **Cấp độ 1: Nền tảng**, toàn bộ khóa học 8 bu�
 
 ![](images/figures/common/two_levels.png){fig-alt="Cấp độ 1, Cấp độ 2 và Cấp độ 3"}
 
-- **Cấp độ 1: Nền tảng (khóa học này).** Hiểu nghiên cứu từ câu hỏi đến công bố. Dành cho cả khoa, không cần phần mềm; các phân tích được giảng viên trình diễn trực tiếp trên FLUID-ICU.
-- **Cấp độ 2: Tự phân tích (đang chuẩn bị).** Một khóa thực hành R riêng cho nhóm học viên quan tâm, muốn tự chạy, kiểm tra và báo cáo các phân tích.
-- **Cấp độ 3: Chủ đề nâng cao (theo yêu cầu).** Các phương pháp chuyên sâu cho thiết kế và dữ liệu phức tạp, dưới dạng hội thảo hoặc tư vấn trên chính dự án của học viên.
+- **Cấp độ 1: Nền tảng (khóa học này).** Hiểu nghiên cứu từ câu hỏi đến công bố. Học trực tuyến, dành cho nhân viên y tế (bác sĩ, điều dưỡng, v.v.), không cần phần mềm; các phân tích được giảng viên trình diễn trực tiếp trên FLUID-ICU.
+- **Cấp độ 2: Tự phân tích (đang chuẩn bị).** Một khóa riêng về mô hình thống kê bằng R, cho những ai muốn tự chạy, kiểm tra và báo cáo các phân tích.
+- **Cấp độ 3: Chủ đề nâng cao (theo yêu cầu).** Nghiên cứu có thể lặp lại, biểu đồ đạt chuẩn tạp chí và các phương pháp chuyên sâu cho thiết kế và dữ liệu phức tạp, dưới dạng hội thảo hoặc tư vấn trên chính dự án của học viên.
 
-[Tải tổng quan các cấp độ (PDF, tiếng Anh)](files/docs/Course_Levels_Overview.pdf)
+[Tải tổng quan các cấp độ (PDF)](files/docs/Course_Levels_Overview_VN.pdf)
 
 ## Chi tiết
 
-::: {.lang-note}
-Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
-:::
+**Đơn vị tổ chức:** Neudata · *#ClearDataClearImpact*
 
-**Organisation:** Neudata · *#ClearDataClearImpact*
+Chương trình đào tạo nghiên cứu lâm sàng của Neudata gồm ba cấp độ. Mỗi cấp độ xây dựng tiếp trên cấp độ trước, và mỗi khoa có thể dừng ở cấp độ phù hợp với nhu cầu của mình.
 
-Neudata's clinical-research training runs in three levels. Each level builds on the one before, and each department can stop at the level that fits its needs.
-
-| | **Level 1: Foundations** | **Level 2: Doing the analysis** | **Level 3: Advanced topics** |
+| | **Cấp độ 1: Nền tảng** | **Cấp độ 2: Tự phân tích** | **Cấp độ 3: Chủ đề nâng cao** |
 |---|---|---|---|
-| **In one line** | Understand research from question to publication | Do the analysis yourself, properly, in R | Tackle complex designs and data with Neudata |
-| **Who** | A whole department (~30 doctors, nurses, pharmacists) | An interested subgroup (8–12) who want to run their own analyses | Researchers with a specific complex project or dataset |
-| **Prerequisites** | None | Level 1 + the free Neudata course *Clinical Data Analysis in R* (or equivalent basics) | Level 2 (or equivalent experience), plus a real question or dataset |
-| **Format** | 8 × 3 h, every Saturday for 8 weeks | 8 × 3 h over about 4–6 weeks, with homework | Workshops of 1–2 sessions, or consultancy, on request |
-| **Software** | None for participants (instructor demos) | R and RStudio on own laptops | R (and specialised packages) |
-| **Hands-on?** | Concepts, reading and interpreting; analyses demonstrated live on FLUID-ICU | Every session is hands-on coding | Hands-on on the participant's own data |
-| **Outcome** | A group research proposal and a group draft manuscript | A reproducible analysis and a draft Results section, on own or course data | A completed analysis plan or analysis for a real project, with Neudata support |
-| **Documents** | [This website](index.qmd) (the full Level 1 course) | [Level 2](level2.qmd) | [Level 3](level3.qmd) |
+| **Tóm tắt** | Hiểu nghiên cứu từ câu hỏi đến công bố | Tự xây dựng, kiểm tra và diễn giải các mô hình thống kê thường gặp bằng R | Nghiên cứu có thể lặp lại, kết quả đạt chuẩn tạp chí và các phương pháp chuyên sâu cho dữ liệu phức tạp |
+| **Đối tượng** | Cả một khoa (khoảng 30 nhân viên y tế: bác sĩ, điều dưỡng, v.v.) | Một nhóm nhỏ quan tâm (8 đến 12 người) muốn tự chạy phân tích | Nhà nghiên cứu có một dự án hoặc bộ dữ liệu cụ thể |
+| **Điều kiện tham gia** | Không có | Cấp độ 1 và khóa miễn phí *Phân tích Dữ liệu Lâm sàng bằng R* của Neudata (hoặc kiến thức cơ bản tương đương) | Cấp độ 2 (hoặc kinh nghiệm tương đương), cùng một câu hỏi hoặc bộ dữ liệu thực tế |
+| **Hình thức** | 8 buổi trực tuyến, mỗi buổi 3 giờ, vào thứ Bảy hằng tuần trong 8 tuần | 8 buổi trực tuyến, mỗi buổi 3 giờ, trong khoảng 4 đến 6 tuần, có bài tập về nhà | Hội thảo trực tuyến 1 hoặc 2 buổi, hoặc tư vấn, theo yêu cầu |
+| **Phần mềm** | Học viên không cần phần mềm (giảng viên trình diễn) | R và RStudio trên máy tính xách tay của học viên | R (và các gói chuyên dụng) |
+| **Thực hành?** | Khái niệm, đọc và diễn giải; các phân tích được trình diễn trực tiếp trên FLUID-ICU | Buổi nào cũng viết code thực hành; cả lớp học cùng nhau, bài tập làm cá nhân | Thực hành trên chính dữ liệu của học viên |
+| **Kết quả đầu ra** | Một đề cương nghiên cứu cá nhân và một bản thảo bài báo cá nhân | Script R cho một câu hỏi phân tích và bản thảo phần Kết quả | Một phân tích có thể lặp lại, hoặc một kế hoạch phân tích, cho một dự án thực tế, với sự hỗ trợ của Neudata |
+| **Tài liệu** | [Trang web này](index.qmd) (toàn bộ khóa Cấp độ 1) | [Cấp độ 2](level2.qmd) | [Cấp độ 3](level3.qmd) |
 
-## How the levels connect
+## Các cấp độ nối tiếp nhau như thế nào
 
-- **From Level 1 to Level 2.** In Level 1, participants *read* the FLUID-ICU analyses (Table 1, crude vs adjusted ORs, Kaplan–Meier, multiple imputation) that the instructor runs. In Level 2 they run, check and report those same analyses themselves, then apply them to their own data. The FLUID-ICU dataset and R scripts in `Course/Data/` are shared by both levels.
-- **From Level 2 to Level 3.** Level 2 makes participants confident with descriptive statistics, linear and logistic regression, missing data and reproducible reporting. Level 3 covers the methods that real clinical data often demand (meta-analysis, prediction models, diagnostic accuracy, advanced survival analysis, longitudinal and multilevel models, large or clustered datasets) and applies them to the participant's own project.
+- **Từ Cấp độ 1 lên Cấp độ 2.** Ở Cấp độ 1, học viên *đọc* các phân tích FLUID-ICU do giảng viên thực hiện (Bảng 1, OR thô và OR đã hiệu chỉnh, Kaplan–Meier, quy gán đa bội). Cấp độ 2 là một khóa về mô hình thống kê: học viên làm sạch và mô tả dữ liệu, rồi xây dựng, kiểm tra và diễn giải các mô hình mà bài báo lâm sàng dùng nhiều nhất (tuyến tính, logistic, Poisson, nhị thức âm, mô hình thừa số 0 và Cox). Mỗi buổi bắt đầu bằng phân tích khám phá dữ liệu (exploratory data analysis, EDA) phù hợp với mô hình đó. Khóa kết thúc bằng một câu hỏi phân tích cá nhân và một phần Kết quả viết hoàn chỉnh. Bộ dữ liệu FLUID-ICU và các script R trong `Course/Data/` được dùng chung cho cả hai cấp độ.
+- **Từ Cấp độ 2 lên Cấp độ 3.** Cấp độ 3 bổ sung các chủ đề về kỹ năng làm nghiên cứu đã chuyển ra khỏi Cấp độ 2 (dự án có thể lặp lại, quản lý phiên bản, báo cáo Quarto, biểu đồ đạt yêu cầu của tạp chí, dữ liệu thiếu và phân tích độ nhạy chuyên sâu) và các phương pháp mà dữ liệu phức tạp đòi hỏi (phân tích gộp, mô hình dự báo, độ chính xác chẩn đoán, phân tích sống còn nâng cao, mô hình dọc và đa tầng, bộ dữ liệu lớn hoặc theo cụm). Mỗi bài giảng Cấp độ 3 đều có phần EDA và code vẽ biểu đồ đạt chuẩn tạp chí cho vấn đề phân tích của bài.
 
-## Progression at a glance
+## Tóm tắt lộ trình
 
-| Skill | Level 1 | Level 2 | Level 3 |
+| Kỹ năng | Cấp độ 1 | Cấp độ 2 | Cấp độ 3 |
 |---|---|---|---|
-| Research question, design, ethics | Taught in depth | Assumed | Assumed |
-| Data management and cleaning | Concepts; live demo | Hands-on: import, clean, validate, cleaning log, data dictionary, version control | Large, linked or clustered data |
-| Describing data, Table 1, figures | Read and judge | Build publication-ready tables and figures | Specialised plots (forest, funnel, calibration, cumulative incidence) |
-| Regression | Read and interpret outputs | Fit, check, interpret and report linear and logistic models | Mixed models, competing risks, time-varying covariates, prediction models |
-| Missing data | Mechanisms and ideas | Complete-case vs multiple imputation (mice) in practice | Complex imputation (multilevel, longitudinal) |
-| Survival analysis | Read Kaplan–Meier and HRs | Intro only (via FLUID-ICU scripts) | In depth |
-| Writing and publishing | Full manuscript workflow (group draft) | Reproducible report → Results section | Methods and results for complex analyses |
+| Câu hỏi nghiên cứu, thiết kế, đạo đức | Dạy chuyên sâu | Coi như đã biết | Coi như đã biết |
+| Quản lý và làm sạch dữ liệu | Khái niệm, trình diễn trực tiếp | Thực hành bằng script R: nhập, làm sạch, kiểm tra dữ liệu, nhật ký làm sạch dữ liệu | Dự án có thể lặp lại và quản lý phiên bản (Học phần G); dữ liệu lớn, liên kết hoặc theo cụm (Học phần F) |
+| Mô tả dữ liệu, Bảng 1, biểu đồ | Đọc và đánh giá | Bảng 1; biểu đồ EDA phù hợp với từng mô hình, dùng code của khóa học | Biểu đồ đạt yêu cầu của tạp chí (vector và raster, kích thước, độ phân giải, phông chữ) và code vẽ biểu đồ trong mọi học phần |
+| Hồi quy | Đọc và diễn giải kết quả | Xây dựng, kiểm tra, diễn giải và báo cáo mô hình tuyến tính, logistic, mô hình cho biến đếm (Poisson, nhị thức âm, thừa số 0) và mô hình Cox | Mô hình hỗn hợp, nguy cơ cạnh tranh, biến số thay đổi theo thời gian, mô hình dự báo |
+| Dữ liệu thiếu | Cơ chế và ý tưởng | Mô tả tình trạng thiếu dữ liệu; phân tích ca đầy đủ và quy gán đa bội, giới thiệu sơ lược | Quy gán đa bội trong thực hành và phân tích độ nhạy chuyên sâu (Học phần H) |
+| Phân tích sống còn | Đọc đường cong Kaplan–Meier và HR | Kaplan–Meier và Cox, kể cả kiểm tra giả định nguy cơ tỷ lệ | Nâng cao: biến số thay đổi theo thời gian, nguy cơ cạnh tranh, thời gian sống trung bình giới hạn (Học phần D) |
+| Viết và công bố | Toàn bộ quy trình viết bài báo (bản thảo cá nhân) | Phần Kết quả viết từ kết quả R của chính học viên | Báo cáo Quarto trong đó mọi con số đều do code tạo ra; phần Phương pháp và Kết quả cho các phân tích phức tạp |
 
-**Status:** Level 1 materials are in `Course/`. Level 2 and Level 3 are outlines. Their materials will be developed after Level 1 has run.
+**Tình trạng:** Tài liệu Cấp độ 1 nằm trong `Course/`. Cấp độ 2 và Cấp độ 3 hiện là đề cương. Tài liệu của hai cấp độ này sẽ được xây dựng sau khi Cấp độ 1 diễn ra.

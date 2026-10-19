@@ -2,130 +2,157 @@
 title: "Buổi 3: Phiếu bài tập"
 ---
 
-::: {.lang-note}
-Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
-:::
+[Tải bản PDF](files/sessions/s3_exercises_VN.pdf) · [Tải bản Word (để điền)](files/sessions/s3_exercises_VN.docx) · [Quay lại Buổi 3](session3.qmd)
 
-[Tải bản PDF](files/sessions/s3_exercises.pdf) · [Quay lại Buổi 3](session3.qmd)
+**Nền tảng Nghiên cứu Lâm sàng · Cấp độ 1** · Neudata · *#ClearDataClearImpact* · Tuần 3 · Thứ Bảy 14/11/2026 · trực tuyến, 19:30–22:30
 
-**Foundations of Clinical Research** · Week 3 · Saturday · Neudata · #ClearDataClearImpact
+Họ và tên: ______________________________   Khoa/Phòng: ______________________________
 
-This handout has three parts. No computer or calculator is needed.
+Phiếu được gửi qua email trước buổi học, dưới dạng tệp Word và tệp PDF. Hãy mở phiếu trên màn hình trong suốt buổi học và gõ câu trả lời vào tệp Word (hoặc in bản PDF). Không cần máy tính bỏ túi.
 
-| Part | Activity | When | How |
+Mọi bài tập đều do **cả lớp cùng làm**: giảng viên trình chiếu từng mục trên màn hình chia sẻ, bạn trả lời bằng **bình chọn** hoặc trong **khung chat**, và giảng viên gõ câu trả lời của lớp lên màn hình chia sẻ. Không chia nhóm. Phần xây dựng đề cương (Phần C) là bài làm cá nhân **của riêng bạn**.
+
+| Phần | Hoạt động | Khi nào | Cách làm |
 |---|---|---|---|
-| A | Name that design (8 abstracts + 1 optional) | End of section 3.1 (15 min) | Pairs |
-| B | Choose the design for 5 questions (4 given + your own; 2 optional bonus) | After section 3.2 (20 min) | Your group |
-| C | Proposal builder 3: design, setting and population | End of the session (35 min) | Your group |
+| A | Gọi tên thiết kế (6 tóm tắt ngắn về câu hỏi dịch truyền của chúng ta) | Cuối phần 3.1 (15 phút) | Cả lớp: bình chọn cho từng tóm tắt, cụm từ làm bằng chứng gõ vào khung chat |
+| B | Chọn thiết kế (5 câu hỏi lập kế hoạch + câu hỏi của bạn) | Cuối phần 3.2 (15 phút) | Cả lớp: bình chọn cho từng câu hỏi; thiết kế của bạn gõ vào khung chat |
+| C | Xây dựng đề cương 3: thiết kế, bối cảnh và đối tượng | Cuối buổi (42 phút) và bài về nhà | Giảng viên làm mẫu trực tiếp; sau đó bạn viết bản nháp của mình |
 
-**Key words of the day:** exposure (what comes first) · outcome (what we count later) · comparison group · observational (we watch) · experimental (we assign) · randomised (chance assigns) · cross-sectional (snapshot) · case-control (look back) · cohort (follow forward) · cluster / crossover / factorial trial · non-inferiority · pilot · interrupted time series · qualitative.
+Mỗi phần còn có **thực hành thêm** về các chủ đề khác, để tự học sau buổi.
 
+**Câu hỏi xuyên suốt của chúng ta (từ Buổi 1):** ở người lớn bị sốc nhiễm khuẩn, chiến lược hạn chế dịch, so với chăm sóc thường quy, có làm giảm tử vong 28 ngày không?
+**Hai bài báo** (thư mục khóa học, `Course/Papers`): Bài báo 1, Boulet 2024 (thử nghiệm ngẫu nhiên thí điểm về hạn chế dịch); Bài báo 2, Hyun 2023 (nghiên cứu thuần tập từ sổ đăng ký về cân bằng dịch và tử vong).
 
-* * *
+**Từ khóa của buổi học:** phơi nhiễm (điều xảy ra trước) · kết cục (điều đếm về sau) · nhóm so sánh · quan sát (chúng ta chỉ theo dõi) · thực nghiệm (chúng ta chỉ định) · ngẫu nhiên (may rủi quyết định) · cắt ngang (ảnh chụp nhanh) · bệnh–chứng (nhìn ngược lại) · thuần tập (theo dõi về phía trước) · thử nghiệm theo cụm, bắt chéo và giai thừa · thử nghiệm không kém hơn · nghiên cứu thí điểm · chuỗi thời gian ngắt quãng · nghiên cứu định tính.
 
-## Part A: Name that design
-
-**Instructions**
-
-1. Work in pairs. Read each short abstract.
-2. Ask the three questions from the decision tree:
-   - **Did the investigator ASSIGN the exposure or treatment?** If yes: **was it assigned at random?**
-   - If not assigned: **is there a comparison group?**
-   - If there is: **in which direction does time run?** Exposure first, then outcome (cohort); outcome first, then look back (case-control); both at the same moment (cross-sectional).
-3. Write the design and **one word or phrase from the abstract that proves it**.
-4. Put a star next to the abstract you found hardest.
-
-> **Design choices:** case report / case series · cross-sectional · case-control · cohort (prospective or retrospective) · non-randomised intervention study · randomised controlled trial (RCT) · systematic review / meta-analysis
-
-**Abstract 1.** Two hundred and forty adults on mechanical ventilation were randomly allocated by a central computer to oral care with chlorhexidine twice daily or to standard oral care. Ventilator-associated pneumonia was recorded over 28 days by an assessor who did not know the group.
-
-Design: ______________________  Evidence: ______________________
-
-**Abstract 2.** On one day in March, two trained nurses examined all 412 inpatients of a hospital for pressure injuries and recorded the type of mattress each patient was lying on. Pressure injuries were present in 9% of patients on standard mattresses and 4% on pressure-relieving mattresses.
-
-Design: ______________________  Evidence: ______________________
-
-**Abstract 3.** Forty ICU patients who developed candidaemia were compared with 80 ICU patients from the same units who did not, matched on age and month of admission. The investigators then searched the records of both groups for parenteral nutrition in the 14 days before the culture date.
-
-Design: ______________________  Evidence: ______________________
-
-**Abstract 4.** All 600 adults admitted with acute ischaemic stroke who received thrombolysis were classified on arrival by door-to-needle time (under 60 minutes or 60 minutes and over). Each patient was then followed up to record functional independence at 90 days.
-
-Design: ______________________  Evidence: ______________________
-
-**Abstract 5.** Using electronic records from 2019 to 2022, the investigators identified 1,150 ICU patients and divided them into those who did and did not receive a continuous benzodiazepine infusion for 3 days or more. They then compared how many patients in each group had delirium recorded later in the ICU stay.
-
-Design: ______________________  Evidence: ______________________
-
-**Abstract 6.** We describe five patients who developed severe hypernatraemia within a week of a new fluid protocol being introduced on our unit, with their laboratory results and clinical course.
-
-Design: ______________________  Evidence: ______________________
-
-**Abstract 7.** Central-line infection rates were compared for the six months before and the six months after a unit-wide insertion-bundle education programme, which the research team introduced on all beds on the same day.
-
-Design: ______________________  Evidence: ______________________
-
-**Abstract 8.** We searched three databases for randomised trials comparing restrictive with liberal fluid strategies in adults with septic shock, assessed each trial's risk of bias, and pooled 28-day mortality across nine trials.
-
-Design: ______________________  Evidence: ______________________
-
-**Abstract 9 (optional).** Twelve hospital wards were randomly allocated, ward by ward, to a new hand-hygiene feedback programme or to usual practice. Hospital-acquired infections were counted in all patients on those wards for six months.
-
-Design: ______________________  Evidence: ______________________
-
-**Extra (if you finish early):** for each design, write one strength and one weakness.
-
+**Chữ viết tắt trong phiếu:** ICU = khoa hồi sức tích cực; RCT = thử nghiệm lâm sàng ngẫu nhiên có đối chứng.
 
 
 * * *
 
-## Part B: Choose the design for 5 questions
+## Phần A: Gọi tên thiết kế
 
-**Instructions.** For each question, name the best **feasible** design (use the decision tree and the "Match the design to the question" slide), give **one reason**, and name the design's **main weakness**. Question 5 is your group's own research question from Part 1.
+**Cách làm.** Giảng viên trình chiếu từng tóm tắt một. Với mỗi tóm tắt:
 
-| # | Question | Design | Reason | Main weakness |
+1. Tự hỏi ba câu hỏi của cây quyết định (bên dưới).
+2. Bình chọn thiết kế.
+3. Một bạn tình nguyện gõ vào khung chat **từ hoặc cụm từ trong tóm tắt chứng minh điều đó**.
+
+**Cây quyết định gồm ba câu hỏi**
+
+- **Nhà nghiên cứu có CHỈ ĐỊNH phơi nhiễm hoặc điều trị không?** Nếu có: **có phân bổ ngẫu nhiên không?** (có: RCT; không: nghiên cứu không ngẫu nhiên)
+- Nếu không chỉ định: **có nhóm so sánh không?** (không: nghiên cứu mô tả, ví dụ loạt ca bệnh)
+- Nếu có: **thời gian chạy theo chiều nào?** Phơi nhiễm trước, rồi kết cục (thuần tập); kết cục trước, rồi nhìn ngược lại (bệnh–chứng); cả hai cùng một thời điểm (cắt ngang).
+
+> **Các lựa chọn thiết kế:** báo cáo ca bệnh hoặc loạt ca bệnh · cắt ngang · bệnh–chứng · thuần tập (tiến cứu hoặc hồi cứu) · nghiên cứu can thiệp không ngẫu nhiên · thử nghiệm lâm sàng ngẫu nhiên có đối chứng (RCT) · tổng quan hệ thống và phân tích gộp
+
+**Tóm tắt 1.** Hai trăm người lớn bị sốc nhiễm khuẩn được máy tính trung tâm phân bổ ngẫu nhiên vào chiến lược hạn chế dịch hoặc chăm sóc thường quy. Tử vong trước ngày 28 được ghi nhận cho mọi người bệnh.
+
+Thiết kế: ______________________  Bằng chứng: ______________________
+
+**Tóm tắt 2.** Vào một ngày trong tháng Ba, hai bác sĩ xem xét toàn bộ 64 người bệnh nhiễm khuẩn huyết tại bốn ICU. Với mỗi người bệnh, họ ghi cân bằng dịch của ngày hôm đó và người bệnh có tổn thương thận cấp trong ngày hôm đó hay không.
+
+Thiết kế: ______________________  Bằng chứng: ______________________
+
+**Tóm tắt 3.** Bốn mươi người bệnh nhiễm khuẩn huyết tại ICU cần lọc máu mới được so sánh với 80 người bệnh nhiễm khuẩn huyết tại cùng các đơn vị đó nhưng không cần lọc máu. Sau đó các nhà nghiên cứu xem lại hồ sơ bệnh án để tìm cân bằng dịch ngày 3 của từng người bệnh.
+
+Thiết kế: ______________________  Bằng chứng: ______________________
+
+**Tóm tắt 4.** Dùng hồ sơ điện tử từ 2019 đến 2022, các nhà nghiên cứu xác định 900 người bệnh sốc nhiễm khuẩn và chia họ theo cân bằng dịch ngày 3 là dương hay âm. Sau đó họ so sánh số người bệnh tử vong trước ngày 28 ở mỗi nhóm.
+
+Thiết kế: ______________________  Bằng chứng: ______________________
+
+**Tóm tắt 5.** ICU của chúng ta áp dụng quy trình hạn chế dịch cho mọi người bệnh sốc nhiễm khuẩn từ ngày 1 tháng 1 năm 2024. Tử vong trong sáu tháng trước được so sánh với tử vong trong sáu tháng sau.
+
+Thiết kế: ______________________  Bằng chứng: ______________________
+
+**Tóm tắt 6.** Chúng tôi tìm kiếm trên ba cơ sở dữ liệu các thử nghiệm ngẫu nhiên so sánh chiến lược hạn chế dịch với chiến lược truyền dịch tự do ở người lớn bị sốc nhiễm khuẩn, đánh giá nguy cơ sai lệch của từng thử nghiệm, và gộp tử vong 28 ngày từ chín thử nghiệm.
+
+Thiết kế: ______________________  Bằng chứng: ______________________
+
+### Thực hành thêm (tự học): các chủ đề khác
+
+Cùng nhiệm vụ, với chín tóm tắt từ các khoa khác. Đáp án nằm trong phiếu đáp án, giảng viên chia sẻ sau buổi học.
+
+**E1.** Hai trăm bốn mươi người lớn thở máy được máy tính trung tâm phân bổ ngẫu nhiên vào nhóm chăm sóc răng miệng bằng chlorhexidine hai lần mỗi ngày hoặc nhóm chăm sóc răng miệng chuẩn. Viêm phổi liên quan đến thở máy được ghi nhận trong 28 ngày bởi một người đánh giá không biết người bệnh thuộc nhóm nào.
+
+**E2.** Vào một ngày trong tháng Ba, hai điều dưỡng đã được tập huấn khám toàn bộ 412 người bệnh nội trú của một bệnh viện để tìm tổn thương do tì đè và ghi loại đệm mỗi người bệnh đang nằm. Tổn thương do tì đè có ở 9% người bệnh nằm đệm thường và 4% người bệnh nằm đệm chống loét.
+
+**E3.** Bốn mươi người bệnh ICU bị nhiễm nấm Candida máu được so sánh với 80 người bệnh ICU tại cùng các đơn vị không bị, ghép cặp theo tuổi và tháng nhập viện. Sau đó các nhà nghiên cứu tìm trong hồ sơ của cả hai nhóm việc nuôi dưỡng tĩnh mạch trong 14 ngày trước ngày cấy máu.
+
+**E4.** Toàn bộ 600 người lớn nhập viện vì đột quỵ thiếu máu não cấp được dùng thuốc tiêu sợi huyết được phân loại ngay khi đến viện theo thời gian từ cửa đến kim (dưới 60 phút, hoặc từ 60 phút trở lên). Sau đó mỗi người bệnh được theo dõi để ghi nhận khả năng tự lập chức năng ở ngày 90.
+
+**E5.** Dùng hồ sơ điện tử từ 2019 đến 2022, các nhà nghiên cứu xác định 1,150 người bệnh ICU và chia họ thành những người có và không được truyền benzodiazepine liên tục từ 3 ngày trở lên. Sau đó họ so sánh số người bệnh ở mỗi nhóm được ghi nhận mê sảng về sau trong thời gian nằm ICU.
+
+**E6.** Chúng tôi mô tả năm người bệnh bị tăng natri máu nặng trong vòng một tuần sau khi khoa áp dụng quy trình truyền dịch mới, kèm kết quả xét nghiệm và diễn biến lâm sàng.
+
+**E7.** Tỷ lệ nhiễm khuẩn huyết liên quan đến catheter tĩnh mạch trung tâm được so sánh giữa sáu tháng trước và sáu tháng sau một chương trình đào tạo về gói đặt catheter trên toàn khoa, do nhóm nghiên cứu triển khai cho mọi giường bệnh cùng một ngày.
+
+**E8.** Mười hai khoa phòng của bệnh viện được phân bổ ngẫu nhiên, theo từng khoa, vào chương trình phản hồi vệ sinh tay mới hoặc thực hành thường quy. Nhiễm khuẩn bệnh viện được đếm ở mọi người bệnh trong các khoa đó trong sáu tháng.
+
+**E9.** Hôm nay toàn bộ 300 người bệnh nội trú được kiểm tra có đặt ống thông tiểu không và có nhiễm khuẩn tiết niệu không.
+
+
+* * *
+
+## Phần B: Chọn thiết kế
+
+**Cách làm.** Với mỗi câu hỏi, giảng viên mở một bình chọn gồm các lựa chọn thiết kế. Hãy chọn thiết kế **khả thi** tốt nhất. Sau đó một bạn tình nguyện nêu **một lý do** và **điểm yếu chính** của thiết kế, và giảng viên gõ vào bảng trên màn hình chia sẻ. Dùng cây quyết định và slide "Chọn thiết kế phù hợp với câu hỏi".
+
+| # | Câu hỏi lập kế hoạch (đều về câu hỏi dịch truyền của chúng ta) | Thiết kế | Lý do | Điểm yếu chính |
 |---|---|---|---|---|
-| 1 | How many inpatients have a pressure injury today, and is it more common on standard mattresses? | | | |
-| 2 | Does daily chlorhexidine bathing reduce bloodstream infections? It will be introduced ward by ward, and nurses on one ward cannot bathe only half their patients. | | | |
-| 3 | A sepsis bundle was introduced in our hospital in 2023. We have monthly sepsis mortality for 3 years before and 2 years after. Did mortality fall? | | | |
-| 4 | Why do nurses not report near-miss medication errors? | | | |
-| 5 | **Our own question:** ______________________________ | | | |
+| 1 | Chiến lược hạn chế dịch rẻ hơn và dùng ít dịch hơn. Chúng ta chỉ cần chứng minh tử vong 28 ngày không tệ hơn so với chăm sóc thường quy. | | | |
+| 2 | Một quy trình ghi chép cân bằng dịch do điều dưỡng thực hiện sẽ được áp dụng cho cả ICU; điều dưỡng trong một ICU không thể chỉ áp dụng cho một nửa số người bệnh. | | | |
+| 3 | Gói xử trí nhiễm khuẩn huyết của bệnh viện, trong đó có giới hạn dịch duy trì, bắt đầu từ năm 2023. Chúng ta có số liệu tử vong do nhiễm khuẩn huyết hằng tháng trong 3 năm trước và 2 năm sau. Tử vong có giảm không? | | | |
+| 4 | Vì sao điều dưỡng trực đêm thấy khó ghi lượng nước tiểu? | | | |
+| 5 | Trước một thử nghiệm lớn: hai ICU của chúng ta có tuyển đủ người bệnh và thực hiện hạn chế dịch đúng kế hoạch được không? | | | |
 
-**Bonus (optional, if you finish early)**
+**Câu hỏi của bạn.** Cuối phần này, gõ vào khung chat: *"Câu hỏi của tôi: ... Thiết kế của tôi: ... Cuối cùng tôi có thể nói: gây ra / có liên quan với."* Giảng viên đọc và nhận xét bốn hoặc năm câu.
 
-| # | Question | Design | Reason |
+Câu hỏi của tôi: ______________________________  Thiết kế của tôi: __________________  "Gây ra" hay "có liên quan với": __________
+
+### Thực hành thêm (tự học): các chủ đề khác
+
+| # | Câu hỏi | Thiết kế | Lý do |
 |---|---|---|---|
-| 6 | What are the risk factors for a rare event: Stevens–Johnson syndrome in hospital patients? | | |
-| 7 | A new 5-day antibiotic course is cheaper and easier than the 10-day course. We only need to show it is not worse for cure. | | |
-
-For your own question (5), also answer: **at the end, will you be allowed to say "caused" or "associated with"?** ____________
+| E1 | Hôm nay có bao nhiêu người bệnh nội trú bị tổn thương do tì đè, và tổn thương có phổ biến hơn ở người nằm đệm thường không? | | |
+| E2 | Tắm bằng chlorhexidine hằng ngày có làm giảm nhiễm khuẩn huyết không? Biện pháp sẽ được áp dụng theo từng khoa. | | |
+| E3 | Các yếu tố nguy cơ của một biến cố hiếm là gì: hội chứng Stevens-Johnson ở người bệnh nằm viện? | | |
+| E4 | Vì sao điều dưỡng không báo cáo các sự cố suýt xảy ra về thuốc? | | |
 
 
 * * *
 
-## Part C: Proposal builder 3 (design, setting and population)
+## Phần C: Xây dựng đề cương 3 (thiết kế, bối cảnh và đối tượng)
 
-**Instructions.** As a group, complete the first three rows of Part 2 of the proposal, then copy them into the template (`Templates/Research_Proposal_Template.docx`). The rest of Part 2 (exposure, comparator, outcomes, biases) is built in Session 4.
+**Đây là bài làm của riêng bạn.** Mỗi học viên viết đề cương nghiên cứu của riêng mình về một câu hỏi từ khoa của mình (xem `Course/Assignment/proposal_brief.md`).
 
-**Our research question (from Part 1):** _______________________________________________
+**Cách làm (42 phút).**
 
-| # | Section | What to write | Our answer |
+1. **Xem (15 phút).** Giảng viên điền ba dòng dưới đây cho ví dụ xuyên suốt trên màn hình chia sẻ, vừa làm vừa nói ra suy nghĩ.
+2. **Viết nháp (20 phút).** Bạn điền ba dòng tương tự cho câu hỏi của mình, làm yên lặng (không bắt buộc bật camera). Đặt câu hỏi trong khung chat.
+3. **Phản hồi (7 phút).** Ba bạn tình nguyện dán thiết kế và lý giải vào khung chat; giảng viên nhận xét.
+
+Sau đó hoàn thành ở nhà và chép câu trả lời vào mẫu đề cương (`Course/Templates/Research_Proposal_Template.docx`, Phần 2). Phần còn lại của Phần 2 (phơi nhiễm, nhóm so sánh, kết cục, sai lệch) sẽ được xây dựng ở Buổi 4.
+
+**Câu hỏi nghiên cứu của tôi (từ Phần 1 đề cương):** _______________________________________________
+
+| # | Mục | Cần viết gì | Câu trả lời của tôi |
 |---|---|---|---|
-| 1 | **Study design** and **justification** | Name the design. In 3–5 sentences explain why it fits YOUR question, and why the "ideal" design is or is not feasible. | |
-| 2 | **Setting** | Where (type of unit, how many sites), when (study period), source of patients or records. Do not name a specific hospital in the course version. | |
-| 3 | **Population** | **Inclusion criteria** (3–5): who is eligible. **Exclusion criteria** (3–5): who is removed, and why. Exclusions should not just repeat the inclusions in the negative. | |
+| 1 | **Thiết kế nghiên cứu** và **lý giải** | Gọi tên thiết kế. Trong 3–5 câu, giải thích vì sao thiết kế phù hợp với câu hỏi CỦA BẠN, và vì sao thiết kế "lý tưởng" khả thi hay không khả thi. | |
+| 2 | **Bối cảnh** | Ở đâu (loại đơn vị, bao nhiêu cơ sở), khi nào (thời gian nghiên cứu), nguồn người bệnh hoặc hồ sơ. Bạn không cần nêu tên bệnh viện. | |
+| 3 | **Đối tượng** | **Tiêu chuẩn chọn** (3–5): ai đủ điều kiện. **Tiêu chuẩn loại trừ** (3–5): ai bị loại, và vì sao. Tiêu chuẩn loại trừ không chỉ đơn giản là nhắc lại tiêu chuẩn chọn ở dạng phủ định. | |
 
-**Draw your study on a timeline** (exposure → outcome; mark when each is measured):
+**Phác họa nghiên cứu của bạn trên trục thời gian.** Ghi khi nào đo phơi nhiễm và khi nào đo kết cục:
 
-```
- ______________________  ------------------------------->  ______________________
-   exposure / start                                         outcome / end
-```
+| Bắt đầu: đo phơi nhiễm | Theo dõi | Kết thúc: đo kết cục |
+|---|---|---|
+| | | |
 
-**Group self-check before you finish**
+**Tự kiểm tra trước khi hoàn thành**
 
-- [ ] The design matches the type of question.
-- [ ] It is feasible in our setting (patients, time, data).
-- [ ] Inclusion criteria describe the P of our PICO and can be checked from records on day 1.
-- [ ] Every exclusion criterion has a reason (safety, outcome cannot be measured …) and is not just the opposite of an inclusion.
-- [ ] We know what we will be allowed to claim: "caused" or "associated with".
+- [ ] Thiết kế phù hợp với loại câu hỏi.
+- [ ] Thiết kế khả thi trong bối cảnh của tôi (người bệnh, thời gian, dữ liệu).
+- [ ] Tiêu chuẩn chọn mô tả P (đối tượng) trong PICO của tôi và có thể kiểm tra từ hồ sơ ngay ngày 1.
+- [ ] Mỗi tiêu chuẩn loại trừ đều có lý do (an toàn, không đo được kết cục, v.v.) và không chỉ là mặt trái của một tiêu chuẩn chọn.
+- [ ] Tôi biết mình sẽ được phép khẳng định điều gì: "gây ra" hay "có liên quan với".

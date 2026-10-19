@@ -2,79 +2,75 @@
 title: "Buổi 2: Phiếu bài tập"
 ---
 
-::: {.lang-note}
-Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
-:::
+[Tải bản PDF](files/sessions/s2_exercises_VN.pdf) · [Tải bản Word (để điền)](files/sessions/s2_exercises_VN.docx) · [Quay lại Buổi 2](session2.qmd)
 
-[Tải bản PDF](files/sessions/s2_exercises.pdf) · [Quay lại Buổi 2](session2.qmd)
+**Nền tảng Nghiên cứu Lâm sàng · Cấp độ 1** · Neudata · *#ClearDataClearImpact* · Tuần 2 · Thứ Bảy 07/11/2026 · trực tuyến, 19:30–22:30
 
-**Foundations of Clinical Research · Level 1** · Neudata · *#ClearDataClearImpact* · Week 2 · Saturday
+Họ và tên: ______________________________   Khoa/Phòng: ______________________________
 
-Name / group: ______________________________   Date: ____________
-
-> **How to use this sheet.**
-> - Recap quiz on Session 1: on your own (8 minutes, start of the session).
-> - Exercise 1 (Boolean search builder): **on your own**, segment 2.1 (5 minutes).
-> - Exercise 2 (paraphrasing): at home.
-> - Exercise 3 (reading Paper 1's abstract): **on your own**, segment 2.3 (12 minutes).
-> - Exercise 4: your **group's Proposal builder 2** (33 minutes).
+> **Cách dùng phiếu này.** Phiếu được gửi qua email trước buổi học, dưới dạng tệp Word và tệp PDF. Hãy mở phiếu trên máy tính trong suốt buổi học và gõ câu trả lời vào tệp Word (hoặc in bản PDF ở nhà).
+> - Câu hỏi ôn tập Buổi 1: tự làm, trong biểu mẫu trực tuyến có đường dẫn trong khung chat (8 phút, đầu buổi).
+> - Bài tập 1 (xây chuỗi tìm kiếm Boolean): **tự làm**, cho câu hỏi của bạn, phần 2.1 (5 phút).
+> - Bài tập 2 (diễn giải bằng lời của mình): làm ở nhà.
+> - Bài tập 3 (đọc phần tóm tắt của Bài báo 1): **tự làm**, phần 2.3 (12 phút). Bản tóm tắt sạch có đường dẫn trong khung chat.
+> - Bài tập 4: Xây dựng đề cương 2 **của riêng bạn** (35 phút).
 >
-> The answers are discussed in the room. There is no mark.
+> Đáp án được thảo luận trong lớp, trong khung chat. Không chấm điểm.
 
 
 * * *
 
-## Recap quiz: Session 1  *(individual, 8 minutes)*
+## Câu hỏi ôn tập: Buổi 1  *(cá nhân, 8 phút, trong biểu mẫu trực tuyến)*
 
-1. Checking whether fluid balance is charted daily as the protocol says: research, audit or QI? ____________
-2. "In ICU staff, does hand-hygiene feedback vs none increase compliance at 3 months?" P ______ I ______ C ______ O ______ T ______
-3. Which FINER letter did our running example fail? ____________
-4. Which is an objective: "to understand delirium" or "to estimate the proportion with delirium"? ____________
-5. Write H0 for: "Does early mobilisation shorten ICU stay?" ________________________________________
+1. Bài báo khóa học nào là thử nghiệm và bài nào là nghiên cứu thuần tập: Bài báo 1 (Boulet 2024) hay Bài báo 2 (Hyun 2023)? ____________
+2. "Ở người lớn bị nhiễm khuẩn huyết, cân bằng dịch dương vào ngày 3, so với không dương, có liên quan đến tử vong trước ngày 28 không?" P ______ E ______ C ______ O ______ T ______
+3. Ví dụ xuyên suốt của chúng ta không đạt chữ cái FINER nào? ____________
+4. Câu nào là mục tiêu cụ thể: "tìm hiểu cân bằng dịch" hay "ước tính tỷ lệ người bệnh có cân bằng dịch dương vào ngày 3"? ____________
+5. Viết H0 cho câu hỏi: "Quy trình hạn chế dịch có làm giảm cân bằng dịch ở ngày 5 không?" ________________________________________
 
 
 * * *
 
-## The running example (for reference)
+## Ví dụ xuyên suốt (để tham khảo)
 
 | | |
 |---|---|
-| **P**: Population | Adults (18+) with septic shock in the ICU |
-| **I**: Intervention | Restrictive fluid strategy |
-| **C**: Comparison | Usual care (standard fluids) |
-| **O**: Outcome | Death from any cause |
-| **T**: Time | Within 28 days |
+| **P**: Đối tượng | Người lớn (từ 18 tuổi) bị sốc nhiễm khuẩn tại ICU |
+| **I**: Can thiệp | Chiến lược hạn chế dịch |
+| **C**: So sánh | Chăm sóc thường quy (truyền dịch theo chuẩn) |
+| **O**: Kết cục | Tử vong do mọi nguyên nhân |
+| **T**: Thời gian | Trong vòng 28 ngày |
 
-**Question:** *In adults with septic shock in the ICU, does a restrictive fluid strategy, compared with usual care, reduce 28-day mortality?*
+**Câu hỏi:** *Ở người lớn bị sốc nhiễm khuẩn tại ICU, chiến lược hạn chế dịch, so với chăm sóc thường quy, có làm giảm tử vong 28 ngày không?*
 
 
 * * *
 
-## Exercise 1: Boolean search builder  *(individual, 5 minutes, segment 2.1)*
+## Bài tập 1: Xây chuỗi tìm kiếm Boolean  *(cá nhân, 5 phút, phần 2.1)*
 
-**Rules:** join synonyms inside a block with **OR**. Join blocks with **AND**. Put each block in **brackets**. Write operators in CAPITALS. Use English search words.
+**Quy tắc:** nối các từ đồng nghĩa trong một khối bằng **OR**. Nối các khối với nhau bằng **AND**. Đặt mỗi khối trong **ngoặc đơn**. Viết toán tử bằng CHỮ IN HOA. Dùng từ tìm kiếm tiếng Anh.
 
-**Warm-up: which gives MORE hits?** (circle)
-- `septic shock AND fluids`  or  `septic shock OR fluids`
-- `sepsis`  or  `sepsis NOT neonatal`
+**Khởi động: chuỗi nào cho NHIỀU kết quả hơn?** (khoanh tròn)
+- `septic shock AND fluids`  hay  `septic shock OR fluids`
+- `sepsis`  hay  `sepsis NOT neonatal`
 
-**Build your search** from your group's PICO question (Session 1) and your synonym list. The comparison (C) is usually *not* searched.
+**Xây chuỗi tìm kiếm** từ câu hỏi PICO của bạn (Buổi 1) và danh sách từ đồng nghĩa. Thành phần so sánh (C) thường *không* đưa vào tìm kiếm.
 
-| Block | Concept | Synonyms (2–4). Mark possible MeSH terms with (M) |
+| Khối | Khái niệm | Từ đồng nghĩa (2–4). Đánh dấu các thuật ngữ có thể là MeSH bằng (M) |
 |---|---|---|
 | **P** | | |
 | **I / E** | | |
 | **O** | | |
 
-**My search string:**
+**Chuỗi tìm kiếm của tôi:**
 
 `( ______ OR ______ OR ______ ) AND ( ______ OR ______ OR ______ ) AND ( ______ OR ______ )`
 
-**One filter I would add, and why:** __________________________________________
+**Một bộ lọc tôi sẽ thêm, và vì sao:** __________________________________________
 
-**Swap with your neighbour.** One synonym they suggest adding: ______________________
+**Chia sẻ chuỗi tìm kiếm.** Giảng viên mời hai hoặc ba bạn đọc to một khối; cả lớp gợi ý thêm một từ đồng nghĩa. Từ đồng nghĩa được gợi ý cho chuỗi của tôi: ______________________
 
-**The search string from the live demo (copy it here to run at home):**
+**Chuỗi tìm kiếm trong phần trình diễn trực tiếp (chép lại đây để chạy ở nhà):**
 
 ```
 ("Shock, Septic"[Mesh] OR "septic shock"[tiab] OR sepsis[tiab])
@@ -82,110 +78,113 @@ AND ("Fluid Therapy"[Mesh] OR "fluid restrict*"[tiab] OR "restrictive fluid*"[ti
 AND ("Mortality"[Mesh] OR mortality[tiab] OR death[tiab])
 ```
 
-| Field tag / symbol | Meaning |
+| Thẻ trường / ký hiệu | Ý nghĩa |
 |---|---|
-| `[Mesh]` or `[mh]` | MeSH term (includes narrower terms automatically) |
-| `[tiab]` | word in the title or abstract |
-| `[pt]` | publication type, e.g. `randomized controlled trial[pt]` |
-| `"..."` | exact phrase |
-| `*` | any ending (truncation): `restrict*` = restrict, restricted, restriction, restrictive |
+| `[Mesh]` hoặc `[mh]` | Thuật ngữ MeSH (tự động gồm cả các thuật ngữ hẹp hơn) |
+| `[tiab]` | từ nằm trong tiêu đề hoặc tóm tắt |
+| `[pt]` | loại công bố, ví dụ `randomized controlled trial[pt]` |
+| `"..."` | cụm từ chính xác |
+| `*` | mọi đuôi từ (cắt cụt): `restrict*` = restrict, restricted, restriction, restrictive |
 
 
 * * *
 
-## Exercise 2: Citing vs copying (paraphrase safely)  *(individual, at home, 10 minutes)*
+## Bài tập 2: Trích dẫn hay sao chép (diễn giải an toàn)  *(cá nhân, ở nhà, 10 phút)*
 
-**Method:** read → close the paper → write from memory → check the facts → cite.
-Patchwriting (copying the sentence and swapping a few words) is plagiarism **even with a reference**.
+**Cách làm:** đọc, gấp bài báo lại, viết theo trí nhớ, kiểm tra lại dữ kiện, rồi trích dẫn.
+Viết chắp vá (chép câu gốc rồi đổi vài từ) là đạo văn **kể cả khi có trích dẫn**.
 
-**Part A: Spot the problem.** The source is the Results section of Paper 2's abstract (Hyun 2023):
+**Phần A: Tìm lỗi.** Nguồn là phần Kết quả trong tóm tắt của Bài báo 2 (Hyun 2023):
 
 > "The positive fluid groups in both the D2 (HR, 2.13; 95% CI 1.48–3.06; P < 0.001) and D3 (HR, 1.56; 95% CI 1.10–2.22; P = 0.012) cohorts had significantly higher mortality rates than the negative fluid groups."
 
-For each version, tick **OK** or **Problem**, and say why.
+*(Tạm dịch: Nhóm cân bằng dịch dương ở cả thuần tập D2 (HR 2.13; KTC 95% 1.48–3.06; P < 0.001) và D3 (HR 1.56; KTC 95% 1.10–2.22; P = 0.012) có tỷ lệ tử vong cao hơn có ý nghĩa so với nhóm cân bằng dịch âm.)*
 
-| Version | OK | Problem | Why? |
+Với mỗi phiên bản dưới đây (giữ nguyên tiếng Anh vì bài báo viết bằng tiếng Anh), đánh dấu **Đạt** hoặc **Có vấn đề**, và nói vì sao.
+
+| Phiên bản | Đạt | Có vấn đề | Vì sao? |
 |---|---|---|---|
 | a) "The positive fluid groups in the D2 and D3 cohorts had significantly higher death rates than the negative fluid groups [2]." | ☐ | ☐ | |
 | b) "In a matched registry cohort, a positive cumulative fluid balance on ICU days 2 and 3 was associated with higher 28-day mortality (hazard ratios 2.13 and 1.56) [2]." | ☐ | ☐ | |
 | c) "Giving more fluid on days 2 and 3 doubles the risk of death [2]." | ☐ | ☐ | |
-| d) "In a matched registry cohort, a positive cumulative fluid balance on ICU days 2 and 3 was associated with higher 28-day mortality." (no citation) | ☐ | ☐ | |
+| d) "In a matched registry cohort, a positive cumulative fluid balance on ICU days 2 and 3 was associated with higher 28-day mortality." (không có trích dẫn) | ☐ | ☐ | |
 
-**Part B: Your turn.** Paraphrase this sentence from Paper 1's abstract in your own words, with a citation:
+**Phần B: Đến lượt bạn.** Diễn giải câu sau trong tóm tắt của Bài báo 1 bằng lời của bạn, kèm trích dẫn:
 
 > "After 28 days, mortality and the numbers of days alive without life support were similar between groups."
 
-My paraphrase: ______________________________________________________________
+*(Tạm dịch: Sau 28 ngày, tử vong và số ngày còn sống không cần hỗ trợ sự sống tương tự nhau giữa các nhóm.)*
+
+Bản diễn giải của tôi: ______________________________________________________________
 
 ______________________________________________________________________________
 
-**Check:** different structure? ☐  facts still correct? ☐  no stronger claim than the source? ☐  citation? ☐
+**Kiểm tra:** cấu trúc câu khác? ☐  dữ kiện vẫn đúng? ☐  không khẳng định mạnh hơn nguồn? ☐  có trích dẫn? ☐
 
 
 * * *
 
-## Exercise 3: Read Paper 1's abstract  *(individual, 12 minutes, segment 2.3)*
+## Bài tập 3: Đọc phần tóm tắt của Bài báo 1  *(cá nhân, 12 phút, phần 2.3)*
 
-Use the **abstract only** of Paper 1: Boulet N, et al. *Crit Care* 2024;28:429 (in `Papers/`). 8 minutes reading, 4 minutes comparing with your neighbour.
+Chỉ dùng **phần tóm tắt** của Bài báo 1: Boulet N, et al. *Crit Care* 2024;28:429 (trong `Papers/`). 8 phút đọc một mình, rồi 4 phút gõ kết cục chính và kết quả chính vào khung chat.
 
-**The 15-minute reading order (for later):** title (30 s) → abstract (3 min) → figures & tables (4 min) → methods (5 min) → discussion & limitations (2–3 min). Stop early if the paper does not answer your question.
+**Thứ tự đọc một bài báo trong 15 phút (để dùng sau này):** tiêu đề (30 giây), tóm tắt (3 phút), hình và bảng (4 phút), phương pháp (5 phút), rồi bàn luận và hạn chế (2–3 phút). Dừng sớm nếu bài báo không trả lời câu hỏi của bạn.
 
-| Item | What the abstract says |
+| Mục | Phần tóm tắt nói gì |
 |---|---|
-| **Design** (and blinding) | |
-| **P**: who was included? | |
-| **I vs C**: what was compared? | |
-| **Primary outcome** (and when) | |
-| **Numbers**: screened / randomised / analysed | |
-| **Main result**: estimate with 95% CI and p | |
-| **Conclusion**: one line | |
-| Does the conclusion **match** the main result? | ☐ yes ☐ no. Why? |
-| Any **spin** (words stronger than the numbers)? | ☐ yes ☐ no. Where? |
-| **Registration** number | |
-| Does this paper answer **our** running-example question (28-day mortality)? | ☐ yes ☐ no. Why? |
+| **Thiết kế** (và làm mù) | |
+| **P**: ai được đưa vào? | |
+| **I so với C**: so sánh cái gì? | |
+| **Kết cục chính** (và thời điểm đo) | |
+| **Số liệu**: sàng lọc / phân bổ ngẫu nhiên / phân tích | |
+| **Kết quả chính**: ước lượng kèm KTC 95% và p | |
+| **Kết luận**: một dòng | |
+| Kết luận có **khớp** với kết quả chính không? | ☐ có ☐ không. Vì sao? |
+| Có **spin** (lời lẽ mạnh hơn số liệu) không? | ☐ có ☐ không. Ở đâu? |
+| Số **đăng ký** | |
+| Bài báo này có trả lời câu hỏi ví dụ xuyên suốt **của chúng ta** (tử vong 28 ngày) không? | ☐ có ☐ không. Vì sao? |
 
-**Fast finishers:** read the **title and abstract** of Paper 2 (Hyun 2023). Which word in the title is stronger than the design allows? Which word does the abstract conclusion use instead?
+**Ai làm xong sớm:** đọc **tiêu đề và tóm tắt** của Bài báo 2 (Hyun 2023). Từ nào trong tiêu đề mạnh hơn mức thiết kế cho phép? Phần kết luận của tóm tắt dùng từ nào thay thế?
 
-**Spin checklist: words to look for**
+**Danh sách kiểm tra spin: những từ cần chú ý**
 
-| Data say | Spin says |
+| Số liệu nói | Spin nói |
 |---|---|
-| p = 0.42 for the primary outcome | "a non-significant trend" |
-| primary outcome: no difference | headline = a positive secondary outcome |
-| observational association | "impact", "effect", "reduces" |
-| change within one group only | "patients improved" |
+| p = 0.42 cho kết cục chính | "một xu hướng không có ý nghĩa thống kê" |
+| kết cục chính: không khác biệt | tiêu đề nổi bật = một kết cục phụ có lợi |
+| mối liên quan quan sát | "tác động", "hiệu quả", "làm giảm" |
+| thay đổi chỉ trong một nhóm | "người bệnh đã cải thiện" |
 
 
 * * *
 
-## Exercise 4: Proposal builder 2  *(group, 33 minutes)*
+## Bài tập 4: Xây dựng đề cương 2  *(tự làm, 35 phút)*
 
-Complete Part 1 of the **Research Proposal template** (`Templates/Research_Proposal_Template.docx`) and the **literature review worksheet**, building on last week's question, aim and objectives. This sheet is your checklist.
+Đầu tiên giảng viên tìm kiếm trực tiếp cho ví dụ xuyên suốt và bạn gợi ý từ khóa và bài báo trong khung chat (10 phút). Sau đó bạn tiếp tục Phần 1 đề cương **của riêng bạn** trong **mẫu đề cương nghiên cứu** (`Templates/Research_Proposal_Template.docx`) và **bảng tổng quan tài liệu**, dựa trên câu hỏi, mục tiêu tổng quát và mục tiêu cụ thể của tuần trước. Phiếu này là danh sách kiểm tra của bạn. Phần chưa xong là bài về nhà.
 
-**Suggested roles:** chair · scribe (types into the template) · searcher (runs your PubMed string on a phone or laptop) · timekeeper.
-
-| Time | Task | Done |
+| Thời gian | Việc cần làm | Xong |
 |---|---|---|
-| 0–8 min | **1. Run your search string** (Exercise 1) in PubMed; write the date, the filters and the number of hits | ☐ |
-| 8–16 min | **2. Screen** titles and abstracts; pick **5 key papers**; export them (*Send to → Citation manager*) into Zotero | ☐ |
-| 16–22 min | **3. Literature matrix**: one row per paper (split the papers between members) | ☐ |
-| 22–28 min | **4. Problem statement**: three short paragraphs (about 300 words): (a) what is known, (b) what is not known (the gap), (c) why it matters *here* (your local number) | ☐ |
-| 28–31 min | **5. Working title** and **keywords** (see below) | ☐ |
-| 31–33 min | One group reads its title and its gap sentence aloud; the room suggests one improvement | ☐ |
+| 0–10 phút | Xem giảng viên tìm kiếm và sàng lọc cho ví dụ xuyên suốt; gợi ý từ khóa và bài báo trong khung chat | ☐ |
+| 10–30 phút | **1. Chạy chuỗi tìm kiếm của bạn** (Bài tập 1) trên PubMed; ghi ngày tìm, các bộ lọc và số kết quả | ☐ |
+| | **2. Sàng lọc** tiêu đề và tóm tắt; chọn **5 bài báo chính**; lưu vào Zotero (*Send to → Citation manager*, rồi nhập vào) | ☐ |
+| | **3. Bảng tổng quan tài liệu**: mỗi bài báo một dòng | ☐ |
+| | **4. Đặt vấn đề**: ba đoạn ngắn (khoảng 300 từ): (a) điều đã biết, (b) điều chưa biết (khoảng trống), (c) vì sao vấn đề quan trọng *ở đây* (số liệu tại chỗ, nếu có) | ☐ |
+| | **5. Tên đề tài tạm thời** và **từ khóa** (xem bên dưới) | ☐ |
+| 30–35 phút | Hai bạn tình nguyện đọc to tên đề tài và câu nêu khoảng trống; mọi người góp một ý cải thiện trong khung chat | ☐ |
 
-**Working title and keywords**
+**Tên đề tài tạm thời và từ khóa**
 
 | | |
 |---|---|
-| Working title (10–16 words; population, comparison or exposure, and design visible; no abbreviations; no "impact" or "effect" for observational designs) | |
-| Number of words | |
-| Keywords (3–6; MeSH terms **not** already in the title) | 1. ____________ 2. ____________ 3. ____________ 4. ____________ |
+| Tên đề tài tạm thời (10–16 từ tiếng Anh; thấy rõ đối tượng, can thiệp so sánh hoặc phơi nhiễm, và thiết kế; không viết tắt; không dùng "impact" hay "effect" cho thiết kế quan sát) | |
+| Số từ | |
+| Từ khóa (3–6; thuật ngữ MeSH **chưa** có trong tên đề tài) | 1. ____________ 2. ____________ 3. ____________ 4. ____________ |
 
-*Example (feasible rewrite of the running example):* "Restrictive versus usual fluids in adults with septic shock: a pilot randomised trial" (13 words). Keywords: Fluid Therapy; Water-Electrolyte Balance; Critical Care; Vasoconstrictor Agents.
+*Ví dụ (bản viết lại khả thi của ví dụ xuyên suốt):* "Restrictive versus usual fluids in adults with septic shock: a pilot randomised trial" (13 từ). Từ khóa: Fluid Therapy; Water-Electrolyte Balance; Critical Care; Vasoconstrictor Agents.
 
-**Literature review worksheet: one row per paper**
+**Bảng tổng quan tài liệu: mỗi bài báo một dòng**
 
-| # | Study (first author, year, journal) | Design, size | Compared | Primary outcome: result | Key limitation | Why it matters for our question |
+| # | Nghiên cứu (tác giả đầu, năm, tạp chí) | Thiết kế, cỡ mẫu | So sánh | Kết cục chính: kết quả | Hạn chế chính | Vì sao quan trọng với câu hỏi của chúng ta |
 |---|---|---|---|---|---|---|
 | 1 | | | | | | |
 | 2 | | | | | | |
@@ -193,27 +192,29 @@ Complete Part 1 of the **Research Proposal template** (`Templates/Research_Propo
 | 4 | | | | | | |
 | 5 | | | | | | |
 
-**Search used for the references** (paste the string, the database and the date):
+**Chuỗi tìm kiếm đã dùng cho tài liệu tham khảo** (dán chuỗi tìm kiếm, cơ sở dữ liệu và ngày tìm):
 
 ______________________________________________________________________________
 
-**Quality checks before you stop**
-- [ ] The problem statement ends with your question; the title names the same population and outcome as the question.
-- [ ] At least one reference is a randomised trial or a systematic review, if one exists; you checked a trial registry for ongoing trials.
-- [ ] References are saved in a reference manager or exported from PubMed (*Send to → Citation manager*). No sentence is copied from a source.
+**Kiểm tra chất lượng trước khi dừng**
+- [ ] Phần đặt vấn đề kết thúc bằng câu hỏi của bạn; tên đề tài nêu cùng đối tượng và kết cục như câu hỏi.
+- [ ] Ít nhất một tài liệu tham khảo là thử nghiệm ngẫu nhiên hoặc tổng quan hệ thống, nếu có; bạn đã kiểm tra sổ đăng ký thử nghiệm để tìm các thử nghiệm đang tiến hành.
+- [ ] Tài liệu tham khảo đã lưu trong Zotero. Không câu nào chép từ nguồn.
 
 
 * * *
 
-## Exit question  *(on a sticky note, no names)*
+## Câu hỏi cuối buổi  *(trong khung chat, hoặc biểu mẫu 1 câu hỏi có đường dẫn trong khung chat; 2 phút, trước khi rời lớp)*
 
-1. Which gives MORE hits: `septic shock AND fluids` or `septic shock OR fluids`?
-2. What was the primary outcome of Paper 1?
+1. Chuỗi nào cho NHIỀU kết quả hơn: `septic shock AND fluids` hay `septic shock OR fluids`?
+2. Kết cục chính của Bài báo 1 là gì?
 
-## Homework before Session 3 (next Saturday)
+*Vì sao chúng tôi hỏi:* đây không phải bài về nhà và không chấm điểm. Câu trả lời cho chúng tôi biết điều gì còn chưa rõ. Giảng viên đọc mọi câu trả lời trước Buổi 3.
 
-- **Group:** finish the five key references and the problem statement, so that Proposal Part 1 is complete with a working title and keywords.
-- **Each member:** read one paper with the 15-minute routine and fill its row in the matrix.
-- **Everyone:** read the **abstract** of Paper 2 (Hyun 2023, *Ann Intensive Care*) with the Exercise 3 grid.
-- Exercise 2 (paraphrasing) if not done in class.
-- **Optional:** look up Paper 1's registration (NCT04947904) on ClinicalTrials.gov.
+## Bài về nhà trước Buổi 3 (thứ Bảy tuần sau)
+
+- Hoàn thành năm tài liệu tham khảo chính, các dòng trong bảng tổng quan và phần đặt vấn đề, để Phần 1 đề cương **của riêng bạn** hoàn chỉnh, có tên đề tài tạm thời và từ khóa.
+- Đọc một bài báo của bạn theo cách đọc 15 phút.
+- Đọc **phần tóm tắt** của Bài báo 2 (Hyun 2023, *Ann Intensive Care*, trong `Course/Papers`) với bảng của Bài tập 3.
+- Bài tập 2 (diễn giải) nếu chưa làm trong lớp.
+- **Không bắt buộc:** tra số đăng ký của Bài báo 1 (NCT04947904) trên ClinicalTrials.gov.

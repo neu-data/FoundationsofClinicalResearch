@@ -3,37 +3,38 @@ title: "Bộ dữ liệu khóa học: FLUID-ICU"
 ---
 
 ::: {.simulated}
-**Dữ liệu mô phỏng, không phải bệnh nhân thật.** FLUID-ICU là một nghiên cứu giả định: mọi giá trị đều do chương trình máy tính tạo ra với hạt giống ngẫu nhiên cố định. Dữ liệu không mô tả bất kỳ bệnh nhân, bệnh viện hay ICU thật nào. Mọi bản thảo viết từ bộ dữ liệu này phải ghi rõ dữ liệu là mô phỏng và không bao giờ được nộp như một nghiên cứu thật.
+**Dữ liệu mô phỏng, không phải người bệnh thật.** FLUID-ICU là một nghiên cứu giả định: mọi giá trị đều do chương trình máy tính tạo ra với hạt giống ngẫu nhiên cố định. Dữ liệu không mô tả bất kỳ người bệnh, bệnh viện hay ICU thật nào. Mọi bản thảo viết từ bộ dữ liệu này phải ghi rõ dữ liệu là mô phỏng và không bao giờ được nộp như một nghiên cứu thật.
 :::
 
-FLUID-ICU là một nghiên cứu thuần tập tiến cứu đa trung tâm mô phỏng gồm **620 người lớn bị nhiễm khuẩn huyết** nhập 4 ICU ("ICU A" đến "ICU D") từ tháng 1/2023 đến tháng 12/2024. Bộ dữ liệu đưa ví dụ xuyên suốt của khóa học vào Buổi 5–8: *cân bằng dịch tích lũy dương vào ngày 3 có liên quan với tử vong 28 ngày cao hơn không?* Dữ liệu được xây dựng để các bài học kinh điển hiện ra trong kết quả: **nhiễu do chỉ định** (bệnh nhân nặng hơn được truyền nhiều dịch hơn và tử vong nhiều hơn, nên OR thô lớn hơn rõ rệt so với OR hiệu chỉnh), **dữ liệu thiếu** (lactate thiếu khoảng 15%), **kết cục lệch** (thời gian nằm ICU) và một **tương tác** đáng bàn (suy tim). Bản dữ liệu thô với các lỗi chất lượng thực tế được dùng trong trình diễn làm sạch ở Buổi 5.
+FLUID-ICU là một nghiên cứu thuần tập tiến cứu đa trung tâm mô phỏng gồm **620 người lớn bị nhiễm khuẩn huyết** nhập 4 ICU ("ICU A" đến "ICU D") từ tháng 1/2023 đến tháng 12/2024. Bộ dữ liệu đưa ví dụ xuyên suốt của khóa học vào Buổi 5–8: *cân bằng dịch tích lũy dương vào ngày 3 có liên quan với tử vong 28 ngày cao hơn không?* Dữ liệu được xây dựng để các bài học kinh điển hiện ra trong kết quả: **nhiễu do chỉ định** (người bệnh nặng hơn được truyền nhiều dịch hơn và tử vong nhiều hơn, nên OR thô lớn hơn rõ rệt so với OR hiệu chỉnh), **dữ liệu thiếu** (lactate thiếu khoảng 15%), **kết cục lệch** (thời gian nằm ICU) và một **tương tác** đáng bàn (suy tim). Bản dữ liệu thô với các lỗi chất lượng thực tế được dùng trong trình diễn làm sạch ở Buổi 5.
 
-Mỗi nhóm trong năm nhóm trả lời một câu hỏi khác nhau trên cùng bộ dữ liệu và viết thành bản thảo, dựa trên **gói kết quả** của nhóm (Bảng 1, biểu đồ, bảng hồi quy và ghi chú bằng lời đơn giản). Bộ dữ liệu được dùng ở tuần 5–8 của khóa học này (Cấp độ 1) và được dùng lại để thực hành ở [Cấp độ 2](level2.qmd), nơi học viên tự chạy các phân tích.
+Bộ dữ liệu có năm câu hỏi (Q1 đến Q5). Trên lớp, giảng viên cùng cả lớp đi qua các câu hỏi này (Q1 đầy đủ, Q2 đến Q5 ngắn gọn hơn). Sau đó mỗi học viên chọn một câu hỏi và viết thành bản thảo của mình dựa trên **gói kết quả** của câu hỏi đó (Bảng 1, biểu đồ, bảng hồi quy và ghi chú bằng lời đơn giản): chúng tôi cung cấp kết quả, bạn viết bài báo. Bộ dữ liệu được dùng ở tuần 5–8 của khóa học này (Cấp độ 1) và được dùng lại để thực hành ở [Cấp độ 2](level2.qmd), nơi học viên tự chạy các phân tích.
 
-## Năm câu hỏi của các nhóm
+## Năm câu hỏi (Q1 đến Q5)
 
 | | Câu hỏi | Phương pháp chính | Gói kết quả |
 |:-:|:------------------------------|:------------------------|:------------------|
-| 1 | Cân bằng dịch dương vào ngày 3 và tử vong 28 ngày (câu hỏi chính) | Hồi quy logistic (thô và hiệu chỉnh), Kaplan–Meier, Cox, tương tác với suy tim | [Đọc trực tuyến](results-q1.qmd) · [Word](files/data/results_packs/Results_Pack_Q1.docx) · [PDF](files/data/results_packs/Results_Pack_Q1.pdf) · [zip](files/data/results_packs/Results_Pack_Q1.zip) |
-| 2 | Cân bằng dịch tích lũy và tổn thương thận cấp | Hồi quy logistic, cân bằng dịch theo mỗi 10 ml/kg | [Đọc trực tuyến](results-q2.qmd) · [Word](files/data/results_packs/Results_Pack_Q2.docx) · [PDF](files/data/results_packs/Results_Pack_Q2.pdf) · [zip](files/data/results_packs/Results_Pack_Q2.zip) |
-| 3 | Cân bằng dịch tích lũy và số ngày không thở máy | Mann–Whitney; hồi quy tuyến tính | [Đọc trực tuyến](results-q3.qmd) · [Word](files/data/results_packs/Results_Pack_Q3.docx) · [PDF](files/data/results_packs/Results_Pack_Q3.pdf) · [zip](files/data/results_packs/Results_Pack_Q3.zip) |
-| 4 | Lactate lúc nhập viện và tử vong 28 ngày; ảnh hưởng của lactate bị thiếu | Phân tích ca đầy đủ và đa quy gán (mice, m = 20) | [Đọc trực tuyến](results-q4.qmd) · [Word](files/data/results_packs/Results_Pack_Q4.docx) · [PDF](files/data/results_packs/Results_Pack_Q4.pdf) · [zip](files/data/results_packs/Results_Pack_Q4.zip) |
-| 5 | Cân bằng dịch và thời gian nằm ICU ở người sống sót | Trung vị (IQR); Mann–Whitney; hồi quy tuyến tính trên thang log | [Đọc trực tuyến](results-q5.qmd) · [Word](files/data/results_packs/Results_Pack_Q5.docx) · [PDF](files/data/results_packs/Results_Pack_Q5.pdf) · [zip](files/data/results_packs/Results_Pack_Q5.zip) |
+| 1 | Cân bằng dịch dương vào ngày 3 và tử vong 28 ngày (câu hỏi chính) | Hồi quy logistic (thô và hiệu chỉnh), Kaplan–Meier, Cox, tương tác với suy tim | [Đọc trực tuyến](results-q1.qmd) · [Word](files/data/results_packs/Results_Pack_Q1_VN.docx) · [PDF](files/data/results_packs/Results_Pack_Q1_VN.pdf) · [zip](files/data/results_packs/Results_Pack_Q1_VN.zip) |
+| 2 | Cân bằng dịch tích lũy và tổn thương thận cấp | Hồi quy logistic, cân bằng dịch theo mỗi 10 ml/kg | [Đọc trực tuyến](results-q2.qmd) · [Word](files/data/results_packs/Results_Pack_Q2_VN.docx) · [PDF](files/data/results_packs/Results_Pack_Q2_VN.pdf) · [zip](files/data/results_packs/Results_Pack_Q2_VN.zip) |
+| 3 | Cân bằng dịch tích lũy và số ngày không thở máy | Mann–Whitney; hồi quy tuyến tính | [Đọc trực tuyến](results-q3.qmd) · [Word](files/data/results_packs/Results_Pack_Q3_VN.docx) · [PDF](files/data/results_packs/Results_Pack_Q3_VN.pdf) · [zip](files/data/results_packs/Results_Pack_Q3_VN.zip) |
+| 4 | Lactate lúc nhập viện và tử vong 28 ngày; ảnh hưởng của lactate bị thiếu | Phân tích các trường hợp đầy đủ và quy gán đa bội (mice, m = 20) | [Đọc trực tuyến](results-q4.qmd) · [Word](files/data/results_packs/Results_Pack_Q4_VN.docx) · [PDF](files/data/results_packs/Results_Pack_Q4_VN.pdf) · [zip](files/data/results_packs/Results_Pack_Q4_VN.zip) |
+| 5 | Cân bằng dịch và thời gian nằm ICU ở người sống sót | Trung vị (IQR); Mann–Whitney; hồi quy tuyến tính trên thang log | [Đọc trực tuyến](results-q5.qmd) · [Word](files/data/results_packs/Results_Pack_Q5_VN.docx) · [PDF](files/data/results_packs/Results_Pack_Q5_VN.pdf) · [zip](files/data/results_packs/Results_Pack_Q5_VN.zip) |
 
 ## Tải xuống
 
 | | |
 |:--|:--|
 | Dữ liệu thô (như 4 ICU gửi về: 623 dòng có lỗi) | [CSV](files/data/fluid_icu_raw.csv) · [Excel](files/data/fluid_icu_raw.xlsx) |
-| Dữ liệu sạch (620 bệnh nhân, 32 biến) | [CSV](files/data/fluid_icu_clean.csv) · [R (.rds, giữ nhãn biến phân loại)](files/data/fluid_icu_clean.rds) |
-| Từ điển dữ liệu | [CSV](files/data/data_dictionary.csv) · [PDF](files/data/Data_Dictionary.pdf) |
-| Kế hoạch phân tích thống kê | [PDF](files/data/SAP_FLUID-ICU.pdf) |
+| Dữ liệu sạch (620 người bệnh, 32 biến) | [CSV](files/data/fluid_icu_clean.csv) · [R (.rds, giữ nhãn biến phân loại)](files/data/fluid_icu_clean.rds) |
+| Từ điển dữ liệu | [CSV](files/data/data_dictionary.csv) · [PDF](files/data/Data_Dictionary_VN.pdf) |
+| Kế hoạch phân tích thống kê | [PDF](files/data/SAP_FLUID-ICU_VN.pdf) |
+| Hướng dẫn bộ dữ liệu (README: các tệp và script) | [PDF](files/data/Data_README_VN.pdf) |
 | Dự án R: script 00–06, dữ liệu, từ điển, README | [zip](files/data/FLUID-ICU_R_project.zip) |
-| Đọc trực tuyến (tiếng Anh) | [Từ điển dữ liệu](data-dictionary.qmd) · [Nhật ký làm sạch](cleaning-log.qmd) · [Kế hoạch phân tích thống kê](sap.qmd) |
+| Đọc trực tuyến | [Từ điển dữ liệu](data-dictionary.qmd) · [Nhật ký làm sạch](cleaning-log.qmd) · [Kế hoạch phân tích thống kê](sap.qmd) |
 
 ## Các phân tích được thực hiện thế nào
 
-**Học viên không cần chạy gì cả:** ở Buổi 5 và 6, giảng viên chạy trực tiếp các script R (từng khối trong RStudio), học viên đọc kết quả in sẵn và gói kết quả của nhóm. Các script dành cho học viên đã học khóa miễn phí *Phân tích Dữ liệu Lâm sàng bằng R* của Neudata và muốn tự chạy lại: giải nén dự án R, mở `FLUID-ICU.Rproj` trong RStudio (tự đặt thư mục làm việc) và chạy các script **theo thứ tự**. Script `01_clean.R` kết thúc bằng việc kiểm tra kết quả trùng khớp từng giá trị với tệp dữ liệu sạch. Script `00_generate_fluid_icu.R` tạo lại dữ liệu mô phỏng (chỉ dành cho nhóm giảng dạy; cho cùng kết quả vì hạt giống cố định).
+**Học viên không cần chạy gì cả:** ở Buổi 5 và 6, giảng viên chạy trực tiếp các script R (từng khối trong RStudio, chia sẻ màn hình), học viên đọc kết quả và gói kết quả của câu hỏi mình chọn. Các script dành cho học viên đã học khóa miễn phí *Phân tích Dữ liệu Lâm sàng bằng R* của Neudata và muốn tự chạy lại: giải nén dự án R, mở `FLUID-ICU.Rproj` trong RStudio (tự đặt thư mục làm việc) và chạy các script **theo thứ tự**. Script `01_clean.R` kết thúc bằng việc kiểm tra kết quả trùng khớp từng giá trị với tệp dữ liệu sạch. Script `00_generate_fluid_icu.R` tạo lại dữ liệu mô phỏng (chỉ dành cho nhóm giảng dạy; cho cùng kết quả vì hạt giống cố định).
 
 ```bash
 cd Course/Data      # or the folder where you unzipped FLUID-ICU_R_project.zip

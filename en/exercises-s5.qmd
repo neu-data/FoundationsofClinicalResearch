@@ -2,22 +2,24 @@
 title: "Session 5: Exercise sheet"
 ---
 
-[Download the PDF](files/sessions/s5_exercises.pdf) · [Back to Session 5](session5.qmd)
+[Download the PDF](files/sessions/s5_exercises.pdf) · [Download the Word file (to fill in)](files/sessions/s5_exercises.docx) · [Back to Session 5](session5.qmd)
 
-**Foundations of Clinical Research** · Week 5, Saturday · Neudata · #ClearDataClearImpact
+**Foundations of Clinical Research · Level 1** · Neudata · *#ClearDataClearImpact* · Week 5 · Saturday 28 November 2026 · online, 19:30–22:30
 
-Work with your neighbour or group as indicated. No calculator is needed: every exercise is about *choosing* and *interpreting*. Exercises marked **[DS]** use the course dataset FLUID-ICU (simulated) and your group's results pack in `Course/Data/results_packs/`. Exercise 8 becomes part of your proposal (Part 3).
+Name: ______________________________   Department: ______________________________
+
+This sheet is sent by email before the session, as a Word file and as a PDF. Type your answers into the Word file (or print the PDF). In class we do Exercises 2, 6 and 7 together as a whole class (you answer in the chat or a poll; the instructor types the class answer on the shared screen). The other exercises are homework or self-check. No calculator is needed: every exercise is about *choosing* and *interpreting*. Exercises marked **[FLUID-ICU]** use the course dataset FLUID-ICU (simulated) and the results packs in `Course/Data/results_packs/` (Results_Pack_Q1 to Q5, also sent as PDFs). Exercise 8 becomes part of your own proposal (Part 3).
 
 | # | Exercise | When | Time |
 |---|---|---|---|
-| 1 | Classify the variables | 5.1 pair task | 3 min |
-| 2 | Fix the bad CRF items | 5.1 pair task | 3 min |
+| 1 | Classify the variables | homework / self-check (after the 5.1 quiz) | 5 min |
+| 2 | Fix the bad CRF items | 5.1 whole-class task | 7 min |
 | 3 | Choose the right summary | 5.3 check / homework | 3 min |
 | 4 | Judge a bad figure | homework | 5 min |
-| 5 | [DS] Spot the problems in the raw FLUID-ICU data | homework (after the 5.2 demo) | 5 min |
-| 6 | [DS] Read your group's Table 1 | 5.4 group worksheet | 10 min |
-| 7 | [DS] Your group's question | 5.2 group task | 4 min |
-| 8 | Proposal builder 5 worksheet | proposal builder | 30 min |
+| 5 | [FLUID-ICU] Spot the problems in the raw FLUID-ICU data | homework (after the 5.2 demo) | 5 min |
+| 6 | [FLUID-ICU] Read the FLUID-ICU Table 1 | 5.4 whole-class task | 10 min |
+| 7 | [FLUID-ICU] Your manuscript question as a PECO sentence | 5.2 whole-class task (Q1); later for the question you choose | 4 min |
+| 8 | Proposal builder 5 worksheet (your own proposal) | proposal builder: instructor models, you draft; finish as homework | 30 min |
 
 
 * * *
@@ -46,7 +48,7 @@ For each variable, tick **one** type.
 
 ## Exercise 2: Fix the bad CRF items
 
-Each item below can be filled in two different ways by two different nurses. Rewrite it so that it has **only one possible reading**. Check yourself: unit? time point? one answer only? an "unknown / not done" option?
+In class the instructor shows one item at a time on the shared screen; type your rewrite in the chat. Each item below can be filled in two different ways by two different nurses. Rewrite it so that it has **only one possible reading**. Check yourself: unit? time point? one answer only? an "unknown / not done" option?
 
 | # | Bad item | What is wrong? | Your rewritten item |
 |---|---|---|---|
@@ -92,7 +94,7 @@ A second poster shows ward mortality as bars of 31% (Ward A) and 29% (Ward B), w
 
 * * *
 
-## Exercise 5: [DS] Spot the problems in the raw FLUID-ICU data
+## Exercise 5: [FLUID-ICU] Spot the problems in the raw FLUID-ICU data
 
 Below are six cells copied from the raw file `Course/Data/fluid_icu_raw.csv` (as the four ICUs sent it). For each, say what is wrong and what the cleaning script should do.
 
@@ -110,9 +112,9 @@ Bonus: why must the raw file never be edited by hand? Name two things the cleani
 
 * * *
 
-## Exercise 6: [DS] Read your group's Table 1 (results pack)
+## Exercise 6: [FLUID-ICU] Read the FLUID-ICU Table 1 (results pack)
 
-Open your group's results pack (`Course/Data/results_packs/Results_Pack_Qn.docx`, Table 1: baseline characteristics by fluid-balance group).
+Open Table 1 (baseline characteristics by fluid-balance group) in any results pack: the same table is in all five (`Course/Data/results_packs/Results_Pack_Q1` to `Q5`, PDF). In class we answer questions 1 to 5 together; question 6 is for you.
 
 1. How many patients are in each column? Why is the overall number 618 and not 620?
 2. For **three** variables, write the summary used (mean (SD), median (IQR) or n (%)) and why.
@@ -125,7 +127,7 @@ Open your group's results pack (`Course/Data/results_packs/Results_Pack_Qn.docx`
 
 3. Were the two groups alike at the start? Name the **biggest** difference between the negative- and positive-balance groups.
 4. Which variable has the most missing values, and how many?
-5. Write **two sentences** describing the patients, as they would appear at the start of your Results section (numbers in brackets, no p-values).
+5. Write **two sentences** describing the patients, as they would appear at the start of the Results section of your manuscript (numbers in brackets, no p-values).
 
 > ______________________________________________________________________________
 
@@ -134,11 +136,13 @@ Open your group's results pack (`Course/Data/results_packs/Results_Pack_Qn.docx`
 
 * * *
 
-## Exercise 7: [DS] Your group's question (5.2)
+## Exercise 7: [FLUID-ICU] Your manuscript question as a PECO sentence (5.2)
+
+In class we fill this in together for Question 1 (Q1). Afterwards, fill it in for the ONE question (Q1 to Q5) you choose for your manuscript. PECO: P = population, E = exposure, C = comparison, O = outcome.
 
 | | Your answer |
 |---|---|
-| Group question (Q1–Q5), copied from page 1 of your results pack | |
+| Your chosen question (Q1 to Q5), copied from page 1 of its results pack | |
 | **P**: population | |
 | **E**: exposure (variable name in the data dictionary) and its type | |
 | **C**: comparator | |
@@ -149,9 +153,9 @@ Open your group's results pack (`Course/Data/results_packs/Results_Pack_Qn.docx`
 
 * * *
 
-## Exercise 8: Proposal builder 5 worksheet (group, 30 minutes)
+## Exercise 8: Proposal builder 5 worksheet (individual)
 
-Write your answers here first, then copy them into Part 3 of the group proposal template. (Your **own** question, not the course dataset.)
+The instructor models each part on the running example; then you draft the variables table in class (8 minutes) and finish the rest as homework. Write your answers here first, then copy them into Part 3 of your own proposal template (`Course/Templates/Research_Proposal_Template.docx`). (Your **own** question, not the course dataset.)
 
 ### 8.1 Variables table (8 min)
 
@@ -166,6 +170,7 @@ Write your answers here first, then copy them into Part 3 of the group proposal 
 | Descriptive (e.g. age, sex) | | | |
 
 *Tip: if your design is an RCT, confounders are less of a problem (randomisation), but list the key baseline variables you will show in Table 1.*
+
 ### 8.2 Mini-CRF: 6–10 items (10 min)
 
 | # | Question exactly as the data collector will read it | Answer format (boxes / ticks / unit) | "Unknown / not done" option? |
@@ -178,6 +183,7 @@ Write your answers here first, then copy them into Part 3 of the group proposal 
 | 6 | | | ☐ |
 | 7 | | | ☐ |
 | 8 | | | ☐ |
+
 ### 8.3 Data dictionary: 3–5 rows + one data-quality rule (6 min)
 
 | Variable name | Label (meaning) | Type | Unit / codes | Allowed values |

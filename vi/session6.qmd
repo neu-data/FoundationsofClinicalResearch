@@ -1,6 +1,6 @@
 ---
 title: "Buổi 6 · Phân tích: từ mẫu đến câu trả lời"
-subtitle: "Tuần 6 · Thứ Bảy · 3 giờ (giải lao 15 phút)"
+subtitle: "Tuần 6 · Thứ Bảy · trực tuyến, 19:30–22:30 (3 giờ, giải lao 15 phút)"
 ---
 
 **Ngày:** 05/12/2026
@@ -8,26 +8,26 @@ subtitle: "Tuần 6 · Thứ Bảy · 3 giờ (giải lao 15 phút)"
 ## Nội dung
 
 - Câu hỏi ôn tập Buổi 5 (10 phút)
-- 6.1 Từ mẫu đến quần thể: CI, giá trị p, power, cỡ mẫu, chọn kiểm định
+- 6.1 Từ mẫu đến quần thể: KTC, giá trị p, một phía hay hai phía, lực thống kê, cỡ mẫu, chọn kiểm định
 - 6.2 So sánh các nhóm trong bộ dữ liệu khóa học (trình diễn R)
 - 6.3 Mối liên quan và mô hình: hồi quy, Kaplan-Meier và Cox
-- 6.4 Mô hình hóa bộ dữ liệu: OR hiệu chỉnh, HR Cox, dữ liệu thiếu, SAP
-- Xây dựng đề cương 6: cỡ mẫu, kế hoạch phân tích, dữ liệu thiếu
+- 6.4 Mô hình hóa bộ dữ liệu: OR đã hiệu chỉnh, HR từ mô hình Cox, dữ liệu bị thiếu, SAP
+- Xây dựng đề cương 6: cỡ mẫu, kế hoạch phân tích, kế hoạch xử lý dữ liệu thiếu
 
 ## Thời gian biểu
 
 | Bắt đầu | Giờ* | Phút | Hoạt động |
 |:----|:----|---:|:------------------------------------------------------------|
-| 0:00 | 08:00 | 10 | Câu hỏi ôn tập |
-| 0:10 | 08:10 | 40 | **6.1 Từ mẫu đến quần thể:** khoảng tin cậy, giá trị p và những hiểu lầm, sai lầm loại I/II, power, cỡ mẫu (**trình diễn trực tiếp**), chọn kiểm định, ghép cặp và không ghép cặp, so sánh bội |
-| 0:50 | 08:50 | 20 | **6.2 [DS] So sánh các nhóm trong bộ dữ liệu khóa học:** trình diễn (t-test / Mann–Whitney / khi bình phương); các nhóm diễn giải kết quả của mình |
-| 1:10 | 09:10 | 15 | GIẢI LAO |
-| 1:25 | 09:25 | 35 | **6.3 Mối liên quan và mô hình:** tương quan, hồi quy tuyến tính và logistic, hiệu chỉnh, tương tác, quá khớp, Kaplan–Meier và Cox, mô hình dự báo/học máy; đọc bảng hồi quy và biểu đồ rừng |
-| 2:00 | 10:00 | 25 | **6.4 [DS] Mô hình hóa bộ dữ liệu khóa học:** OR thô và OR hiệu chỉnh (thấy rõ nhiễu do chỉ định), Kaplan–Meier + HR Cox, phân tích ca đầy đủ và đa quy gán; SAP được viết trước khi phân tích |
-| 2:25 | 10:25 | 30 | **Xây dựng đề cương 6:** cỡ mẫu, kế hoạch phân tích, kế hoạch xử lý dữ liệu thiếu |
-| 2:55 | 10:55 | 5 | Tổng kết |
+| 0:00 | 19:30 | 10 | Câu hỏi ôn tập |
+| 0:10 | 19:40 | 40 | **6.1 Từ mẫu đến quần thể:** KTC, giá trị p và những hiểu lầm, kiểm định một phía và hai phía, sai lầm loại I/II, lực thống kê, cỡ mẫu (**trình diễn trực tiếp 5 phút**), chọn kiểm định (bảng quyết định), dữ liệu ghép cặp và không ghép cặp, so sánh bội |
+| 0:50 | 20:20 | 20 | **6.2 [DS] So sánh các nhóm trong bộ dữ liệu khóa học:** trình diễn (kiểm định t / Mann–Whitney / khi bình phương); cả lớp cùng diễn giải kết quả (Q1 đầy đủ, Q2 đến Q5 ngắn gọn) |
+| 1:10 | 20:40 | 15 | GIẢI LAO |
+| 1:25 | 20:55 | 35 | **6.3 Mối liên quan và mô hình:** tương quan, hồi quy tuyến tính và logistic, hiệu chỉnh, đọc bảng hồi quy, quá khớp, dữ liệu bị kiểm duyệt và đường cong Kaplan–Meier (mô hình dự báo/học máy và tương tác nằm trong slide bổ sung) |
+| 2:00 | 21:30 | 25 | **6.4 [DS] Mô hình hóa bộ dữ liệu khóa học:** SAP được viết trước khi phân tích, OR thô và OR hiệu chỉnh (thấy rõ nhiễu do chỉ định), Kaplan–Meier + HR Cox, phân tích các trường hợp đầy đủ và quy gán đa bội |
+| 2:25 | 21:55 | 30 | **Xây dựng đề cương 6:** làm mẫu trực tiếp (cỡ mẫu, kế hoạch phân tích, yếu tố gây nhiễu, kế hoạch xử lý dữ liệu bị thiếu); mỗi học viên tự viết các thông số tính cỡ mẫu của mình (hoàn thành ở nhà) |
+| 2:55 | 22:25 | 5 | Tổng kết |
 
-\*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
+\*Thời gian tính từ đầu buổi học; cột giờ là giờ Việt Nam của buổi học trực tuyến 19:30–22:30. Mọi bài tập đều do cả lớp cùng làm (không chia nhóm). **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
 
 ## Bài giảng
 
@@ -44,20 +44,21 @@ Nhấn **F** để toàn màn hình, **S** để xem ghi chú, **E** để in, *
 | | |
 |:--|:--|
 | **Bài giảng (PowerPoint)** | [English](../en/files/slides/Session_6_EN.pptx) · [Tiếng Việt](files/slides/Session_6_VN.pptx) |
-| **Phiếu bài tập** | [Đọc trực tuyến](exercises-s6.qmd) · [PDF](files/sessions/s6_exercises.pdf) |
-| **Lời giải** | [Đọc trực tuyến](solutions-s6.qmd) · [PDF](files/sessions/s6_solutions.pdf) |
-| **Kịch bản trình diễn** | [Đọc trực tuyến](demo-s6.qmd) · [PDF](files/sessions/s6_demo.pdf) |
+| **Phiếu bài tập** | [Đọc trực tuyến](exercises-s6.qmd) · [Word](files/sessions/s6_exercises_VN.docx) · [PDF](files/sessions/s6_exercises_VN.pdf) |
+| **Lời giải** | [Đọc trực tuyến](solutions-s6.qmd) · [PDF](files/sessions/s6_solutions_VN.pdf) |
+| **Kịch bản trình diễn** | [Đọc trực tuyến](demo-s6.qmd) · [PDF](files/sessions/s6_demo_VN.pdf) |
 
 ## Chuẩn bị trước buổi học
 
-- Đã đọc gói kết quả của nhóm (Bảng 1 và biểu đồ).
+- Đã đọc gói kết quả Q1 (Bảng 1 và biểu đồ).
 - Đã bắt đầu Phần 3 của đề cương (bảng biến số, CRF thu gọn, kế hoạch quản lý dữ liệu).
 
 ## Sau buổi học (bài về nhà)
 
-- **Nhóm:** hoàn thành Phần 3 của đề cương (cỡ mẫu, kế hoạch phân tích, kế hoạch xử lý dữ liệu thiếu).
+- **Đề cương của bạn:** hoàn thành Phần 3 (cỡ mẫu, kế hoạch phân tích, kế hoạch xử lý dữ liệu thiếu).
+- **Bản thảo của bạn:** chọn một câu hỏi (Q1 đến Q5), báo cho giảng viên phụ trách và đọc gói kết quả của câu hỏi đó.
 - Đọc [Bài báo 1 và 2](papers.qmd).
-- Bắt đầu chuẩn bị bài trình bày 6 slide của nhóm ([hướng dẫn trình bày](presentation-guide.qmd)).
+- Bắt đầu chuẩn bị 6 slide cho đề cương ([hướng dẫn trình bày](presentation-guide.qmd)).
 - Bài tập về nhà trong phiếu Buổi 6 (CI và giá trị p, chọn kiểm định, ghép hệ số r, đọc đường Kaplan–Meier, vì sao dữ liệu bị thiếu?).
 
 ## Tài liệu liên quan

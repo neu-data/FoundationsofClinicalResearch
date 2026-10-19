@@ -18,19 +18,21 @@ format:
 
 - Câu hỏi ôn tập Buổi 1
 - 2.1  Tìm bằng chứng: từ PICO đến tìm kiếm, Boolean, MeSH, trình diễn PubMed
-- 2.2  Quản lý và trích dẫn: trình diễn Zotero, kiểu trích dẫn, diễn đạt lại, y văn xám
+- 2.2  Quản lý và trích dẫn: trình diễn Zotero, kiểu trích dẫn, diễn đạt lại, tài liệu xám
 - Giải lao
 - 2.3  Đọc một bài báo trong 15 phút và 2.4 từ y văn đến phần đặt vấn đề
-- Xây dựng đề cương 2: chuỗi tìm kiếm, 5 tài liệu, đặt vấn đề, tên đề tài
+- Xây dựng đề cương 2: tìm kiếm của riêng bạn, 5 tài liệu, đặt vấn đề, tên đề tài
 
 ::: {.notes}
-MỞ ĐẦU BUỔI 2 (0:00).
+MỞ ĐẦU BUỔI 2 (0:00, 19:30).
 
-Ý chính: thứ Bảy tuần trước mỗi nhóm đã viết một câu hỏi; hôm nay ta tìm xem điều gì đã được biết về câu hỏi đó, lưu tài liệu tham khảo an toàn, và đọc bài báo hiệu quả.
+Mở đầu bằng những gì câu hỏi cuối Buổi 1 cho thấy (ví dụ còn bao nhiêu người dùng động từ mơ hồ) và dành một phút cho điểm đó nếu cần.
+
+Ý chính: thứ Bảy tuần trước mỗi học viên đã bắt đầu câu hỏi của riêng mình. Hôm nay ta tìm xem điều gì đã được biết về câu hỏi đó, lưu tài liệu tham khảo an toàn, và đọc bài báo hiệu quả.
 
 Nhịp độ: chậm hơn vẻ ngoài. Phần nào cũng có trình diễn hoặc bài tập. Dùng các slide 'Kiểm tra hiểu bài': đó là lúc phát hiện ai bị lạc.
 
-Kiểm tra thực tế trước khi bắt đầu: mỗi nhóm có câu hỏi PICO, danh sách từ đồng nghĩa (bài về nhà) và ít nhất một laptop hoặc điện thoại.
+Kiểm tra thực tế trước khi bắt đầu (chat): mọi người có câu hỏi PICO, danh sách từ đồng nghĩa (bài về nhà) và đã cài Zotero. Dán hai đường link vào chat: phiếu bài tập Buổi 2 (PDF) và Bài báo 1 dạng PDF sạch (bản gốc không chú giải, Course/Papers/Paper 1 - Boulet 2024 Crit Care (RCT) - original.pdf, cũng có link DOI ở trang 'Hai bài báo' trên website khóa học).
 
 Thời gian: 1 phút, rồi câu hỏi ôn tập.
 :::
@@ -42,19 +44,19 @@ CÂU HỎI NHANH · 8 phút
 :::
 
 ::: {.neu-activity-steps style="--c:#6C3483"}
-- Kiểm tra cân bằng dịch có được ghi hằng ngày theo quy trình: nghiên cứu, audit hay QI?
-- 'Ở nhân viên ICU, phản hồi vệ sinh tay so với không phản hồi có tăng tuân thủ sau 3 tháng?' Nêu P, I, C, O, T
+- Bài báo nào của khóa học là thử nghiệm, bài nào là thuần tập: Bài báo 1 (Boulet) hay Bài báo 2 (Hyun)?
+- 'Ở người lớn bị nhiễm khuẩn huyết, cân bằng dịch dương đến ngày 3, so với không, có liên quan với tử vong đến ngày 28?' Nêu P, E, C, O, T
 - Ví dụ xuyên suốt trượt tiêu chí FINER nào?
-- Câu nào là mục tiêu: 'tìm hiểu về mê sảng' hay 'ước tính tỷ lệ mê sảng'?
-- Viết H0 cho: vận động sớm có rút ngắn thời gian nằm ICU không?
+- Câu nào là mục tiêu cụ thể: 'tìm hiểu về cân bằng dịch' hay 'ước tính tỷ lệ có cân bằng dịch dương ở ngày 3'?
+- Viết H0 cho: quy trình hạn chế dịch có làm giảm cân bằng dịch ngày 5 không?
 :::
 
 ::: {.neu-output style="--c:#6C3483"}
-**SẢN PHẨM** Trả lời trên giấy, đối chiếu với slide sau
+**SẢN PHẨM** Trả lời trong biểu mẫu trực tuyến (link trong chat), đối chiếu với slide sau
 :::
 
 ::: {.notes}
-CÂU HỎI ÔN TẬP (0:00-0:10). Làm cá nhân trên giấy, 6 phút; rồi 2 phút so sánh với người bên cạnh. Đáp án ở slide sau.
+CÂU HỎI ÔN TẬP (0:00-0:10, 19:30-19:40). Làm cá nhân trong một biểu mẫu trực tuyến ngắn (hoặc gõ câu trả lời vào chat), 6 phút, rồi 2 phút chiếu kết quả biểu mẫu lên màn hình. Đáp án ở slide sau. Các câu hỏi cũng có trong phiếu bài tập Buổi 2.
 
 Bài này cũng khơi lại từ vựng thứ Bảy tuần trước cho buổi tìm kiếm hôm nay.
 
@@ -67,38 +69,34 @@ Thời gian: 8 phút.
 
 :::: {.neu-cards style="--n:5"}
 ::: {.neu-card .plain style="--c:#0D7377"}
-[Audit]{.neu-card-title}
+[Thiết kế]{.neu-card-title}
 
-- Kiểm tra thực hành
-- so với tiêu chuẩn
+- Bài báo 1 là thử nghiệm (RCT)
+- Bài báo 2 là thuần tập
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
-[PICO(T)]{.neu-card-title}
+[PECO(T)]{.neu-card-title}
 
-- P nhân viên ICU
-- I phản hồi  C không
-- O tuân thủ
-- T 3 tháng
+- P: người lớn bị nhiễm khuẩn huyết
+- E: cân bằng dương đến ngày 3
+- C: cân bằng trung tính hoặc âm
+- O và T: tử vong đến ngày 28
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
 [Khả thi]{.neu-card-title}
 
-- Tử vong cần
-- \>1.000 bệnh nhân
+- Tử vong cần hơn 1 000 người bệnh
 :::
 ::: {.neu-card .plain style="--c:#0070C0"}
 [Ước tính]{.neu-card-title}
 
-- Động từ đo được;
-- 'tìm hiểu' thì không
+- 'Ước tính' đo được
+- 'Tìm hiểu' thì không
 :::
 ::: {.neu-card .plain style="--c:#055F56"}
 [H0]{.neu-card-title}
 
-- Thời gian nằm ICU
-- như nhau giữa vận
-- động sớm và
-- thường quy
+- Cân bằng dịch ngày 5 như nhau ở hai nhóm
 :::
 ::::
 
@@ -107,9 +105,9 @@ Thời gian: 8 phút.
 :::
 
 ::: {.notes}
-Đi qua năm đáp án trong 2 phút. Hỏi giơ tay: ai đúng 4 hoặc 5 câu?
+Đi qua năm đáp án trong 2 phút. Bình chọn nhanh: bạn đúng bao nhiêu câu (0-3, 4 hay 5)?
 
-Nếu nhiều người sai câu 4 hoặc 5, dành thêm một phút: mục tiêu dùng động từ đo được; H0 luôn nói 'không khác biệt'.
+Nếu nhiều người sai câu 4 hoặc 5, dành thêm một phút: mục tiêu dùng động từ đo được, và H0 luôn nói 'không khác biệt'.
 
 Thời gian: 2 phút. Phần 2.1 bắt đầu lúc 0:10.
 :::
@@ -122,43 +120,114 @@ Trước khi nghiên cứu, hãy tìm xem điều gì đã được biết.
 :::
 
 ::: {.neu-sub}
-40 phút: phễu tìm kiếm, từ PICO đến khối tìm kiếm, Boolean, MeSH, công cụ tìm kiếm và trình diễn PubMed trực tiếp
+40 phút: phễu tìm kiếm, từ PICO đến khối tìm kiếm, Boolean, MeSH, công cụ tìm kiếm, kiểm tra tổng quan hệ thống và trình diễn PubMed trực tiếp
 :::
 ::::
 
 ::: {.notes}
-PHẦN 2.1 (0:10-0:50).
+PHẦN 2.1 (0:10-0:50, 19:40-20:20).
 
 Ý chính: tìm y văn quyết định câu hỏi có mới không, cung cấp tổng quan cho phần đặt vấn đề, và cho thấy người khác đo kết cục thế nào.
 
-Hỏi cả lớp: 'Khi cần bằng chứng nhanh, bạn thường làm gì?' Trả lời thật: Google, hỏi đồng nghiệp, UpToDate, hướng dẫn điều trị. Đều ổn cho chăm sóc, nhưng đề cương cần một chiến lược tìm kiếm được ghi lại.
+Hỏi cả lớp (chat): 'Khi cần bằng chứng nhanh, bạn thường làm gì?' Trả lời thật: Google, hỏi đồng nghiệp, UpToDate, hướng dẫn điều trị. Đều ổn cho chăm sóc, nhưng đề cương cần một chiến lược tìm kiếm được ghi lại.
 
 Thời gian: 1 phút.
 :::
 
 ## Phễu tìm kiếm
 
-![](images/figures/sat1/search_funnel.png){.neu-fig}
+::: {.neu-intro}
+Ghi lại mỗi bước: ngày, chuỗi tìm kiếm, bộ lọc và số kết quả.
+:::
+
+:::: {.neu-steps}
+::: {.neu-step style="--c:#0D7377"}
+[Toàn bộ PubMed]{.neu-step-label}
+
+- **Hơn 40 triệu bài**
+- Tính đến tháng 10/2026
+:::
+::: {.neu-step style="--c:#0B376C"}
+[Một từ khóa]{.neu-step-label}
+
+- septic shock
+- **Hàng chục nghìn**
+:::
+::: {.neu-step style="--c:#5FA39B"}
+[Khối PICO]{.neu-step-label}
+
+- MeSH và từ tự do, AND và OR
+- **Vài nghìn**
+:::
+::: {.neu-step style="--c:#0070C0"}
+[Bộ lọc]{.neu-step-label}
+
+- RCT, tổng quan, người lớn, năm
+- **Vài trăm**
+:::
+::: {.neu-step style="--c:#055F56"}
+[Sàng lọc]{.neu-step-label}
+
+- Đọc tiêu đề và tóm tắt
+- **Vài chục**
+:::
+::: {.neu-step style="--c:#8A99A3"}
+[Giữ lại]{.neu-step-label}
+
+- **5-10 bài chính**
+:::
+::::
 
 ::: {.neu-takeaway}
 **THÔNG ĐIỆP CHÍNH** Tìm kiếm tốt bắt đầu rộng, thu hẹp từng bước và được ghi lại.
 :::
 
 ::: {.notes}
-Đi xuống theo phễu: toàn bộ PubMed, một từ khóa, các khối PICO có cấu trúc, bộ lọc, người đọc sàng lọc, còn lại vài bài chính.
+Đi theo phễu từ trái sang phải: toàn bộ PubMed, một từ khóa, các khối PICO có cấu trúc, bộ lọc, người đọc sàng lọc, còn lại vài bài chính.
 
-Các con số chỉ là bậc độ lớn và thay đổi hằng ngày.
+Nguồn cho quy mô PubMed: trang 'About' của PubMed (https://pubmed.ncbi.nlm.nih.gov/about/) ghi 'more than 40 million citations and abstracts' (hơn 40 triệu trích dẫn và tóm tắt). Kiểm tra ngày 19/10/2026 (trang cập nhật lần cuối ngày 11/3/2025). Hãy kiểm tra lại trước khi dạy và sửa mốc 'tính đến' nếu con số đã thay đổi.
+
+Các con số khác chỉ là bậc độ lớn và thay đổi hằng ngày.
 
 Ý chính: hai bước cuối do con người đọc, không phải máy tính.
 
-Hỏi cả lớp: 'Vì sao phải ghi ngày và chuỗi tìm kiếm?' Mong đợi: để lặp lại được. Tạp chí và người phản biện sẽ yêu cầu.
+Hỏi cả lớp (chat): 'Vì sao phải ghi ngày và chuỗi tìm kiếm?' Mong đợi: để lặp lại được. Tạp chí và người phản biện sẽ yêu cầu.
 
-Thời gian: 3 phút.
+Slide này dựng bằng các hình có thể chỉnh sửa: có thể sửa con số hoặc thêm tài liệu tham khảo ngay trong PowerPoint.
+
+Thời gian: 2 phút.
 :::
 
 ## Từ PICO đến các khối tìm kiếm
 
-![](images/figures/sat1/pico_to_search.png){.neu-fig}
+::: {.neu-intro}
+OR trong một khối, AND nối các khối: (các từ của P) AND (các từ của I) AND (các từ của O). C (thường quy) thường không cần tìm.
+:::
+
+:::: {.neu-cards style="--n:3"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[P:  sốc nhiễm khuẩn]{.neu-card-title}
+
+- "Shock, Septic"\[MeSH\]
+- OR "septic shock"\[tiab\]
+- OR sepsis\[tiab\]
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[I:  hạn chế dịch]{.neu-card-title}
+
+- "Fluid Therapy"\[MeSH\]
+- OR "fluid restrict\*"\[tiab\]
+- OR "restrictive fluid\*"\[tiab\]
+- OR "conservative fluid\*"\[tiab\]
+:::
+::: {.neu-card .plain style="--c:#0070C0"}
+[O:  tử vong]{.neu-card-title}
+
+- Mortality\[MeSH\]
+- OR mortality\[tiab\]
+- OR death\[tiab\]
+:::
+::::
 
 ::: {.neu-takeaway}
 **THÔNG ĐIỆP CHÍNH** Mỗi khái niệm PICO một khối: OR trong khối, AND giữa các khối.
@@ -175,21 +244,47 @@ Lưu ý: PubMed là cơ sở dữ liệu tiếng Anh, nên luôn tìm bằng thu
 
 Quan niệm sai: 'cứ gõ cả câu hỏi vào PubMed'. Bạn mất kiểm soát từ đồng nghĩa và logic.
 
-Hỏi cả lớp: 'Tác giả còn dùng từ nào cho restrictive?' Mong đợi: conservative, limited, de-resuscitation, fluid removal, negative fluid balance.
+Hỏi cả lớp (chat): 'Tác giả còn dùng từ nào cho restrictive?' Mong đợi: conservative, limited, de-resuscitation, fluid removal, negative fluid balance.
 
 Thời gian: 4 phút.
 :::
 
-## Ví dụ mẫu 2: một câu hỏi tại khoa
+## Thêm một ví dụ: câu hỏi tại khoa
 
-![](images/figures/sat1/pico_to_search_ward.png){.neu-fig}
+::: {.neu-intro}
+Câu hỏi: ở người lớn có nguy cơ tại khoa, xoay trở mỗi 2 giờ có giảm tổn thương do tì đè mới?
+:::
+
+:::: {.neu-cards style="--n:3"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[P + O:  tổn thương do tì đè]{.neu-card-title}
+
+- "Pressure Ulcer"\[Mesh\]
+- OR "pressure injur\*"\[tiab\]
+- OR "pressure ulcer\*"\[tiab\]
+- OR bedsore\*\[tiab\]
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[I:  xoay trở]{.neu-card-title}
+
+- "Patient Positioning"\[Mesh\]
+- OR reposition\*\[tiab\]
+- OR turning\[tiab\]
+:::
+::: {.neu-card .plain style="--c:#055F56"}
+[Nối hai khối bằng AND]{.neu-card-title}
+
+- Mẹo: khi P và O là cùng một ý (tổn thương do tì đè), một khối có thể chứa cả hai.
+- Tác giả viết ulcer, injury, bedsore, decubitus. MeSH gom dưới "Pressure Ulcer".
+:::
+::::
 
 ::: {.neu-takeaway}
 **THÔNG ĐIỆP CHÍNH** Cùng một cách cho mọi chủ đề: khái niệm thành khối, từ đồng nghĩa nối bằng OR, các khối nối bằng AND.
 :::
 
 ::: {.notes}
-Ví dụ mẫu thứ hai, từ khoa phòng, để điều dưỡng và dược sĩ thấy phương pháp dùng được ngoài ICU.
+Thêm một ví dụ mẫu, từ khoa phòng, để đồng nghiệp ngoài ICU thấy phương pháp dùng được cho mọi chủ đề.
 
 Câu hỏi: ở người lớn có nguy cơ tại khoa, xoay trở mỗi 2 giờ có giảm tổn thương do tì đè mới không?
 
@@ -197,9 +292,9 @@ Câu hỏi: ở người lớn có nguy cơ tại khoa, xoay trở mỗi 2 giờ
 
 MeSH: tác giả viết pressure ulcer, pressure injury, bedsore, decubitus. Đề mục MeSH 'Pressure Ulcer' gom tất cả.
 
-Hỏi cả lớp: 'Tác giả còn dùng từ nào cho xoay trở?' Mong đợi: turning, position change, mobilisation, offloading.
+Hỏi cả lớp (chat): 'Tác giả còn dùng từ nào cho xoay trở?' Mong đợi: turning, position change, mobilisation, offloading.
 
-Thời gian: 4 phút.
+Thời gian: 3 phút.
 :::
 
 ## Logic Boolean bằng hình ảnh
@@ -215,11 +310,11 @@ AND: chỉ bài có cả hai khái niệm, nên ít kết quả hơn. OR: một 
 
 NOT loại mọi bài có nhắc từ thứ hai, kể cả bài tốt chỉ nhắc trẻ sơ sinh một lần. Vì vậy NOT rủi ro.
 
-Mẹo: toán tử viết HOA; dấu ngoặc quyết định thứ tự.
+Mẹo: viết hoa các toán tử, và dùng dấu ngoặc để quyết định thứ tự.
 
-Hỏi cả lớp: 'septic shock AND fluids so với septic shock OR fluids: cái nào nhiều kết quả hơn?' Mong đợi: OR.
+Hỏi cả lớp (chat): 'septic shock AND fluids so với septic shock OR fluids: cái nào nhiều kết quả hơn?' Mong đợi: OR.
 
-Thời gian: 3 phút.
+Thời gian: 2 phút.
 :::
 
 ## Kiểm tra hiểu bài: AND, OR hay NOT?
@@ -229,14 +324,14 @@ CÂU HỎI NHANH · 2 phút
 :::
 
 ::: {.neu-activity-steps style="--c:#6C3483"}
-- Bạn muốn bài có CẢ mê sảng VÀ gãy cổ xương đùi: dùng toán tử nào?
-- Bạn muốn bài dùng HOẶC 'pressure ulcer' HOẶC 'bedsore': toán tử nào?
-- Tìm kiếm ra 40.000 kết quả. Thêm khối AND thứ ba sẽ nhiều hơn hay ít hơn?
+- Bạn muốn bài có cả sốc nhiễm khuẩn và hạn chế dịch: dùng toán tử nào?
+- Bạn muốn bài dùng 'restrictive' hoặc 'conservative' cho dịch: toán tử nào?
+- Tìm kiếm ra 40 000 kết quả. Thêm khối AND thứ ba sẽ nhiều hơn hay ít hơn?
 - Vì sao 'sepsis NOT children' là rủi ro?
 :::
 
 ::: {.neu-output style="--c:#6C3483"}
-**SẢN PHẨM** Trả lời to
+**SẢN PHẨM** Trả lời trong chat (hoặc bình chọn)
 :::
 
 ::: {.notes}
@@ -260,9 +355,54 @@ Tìm một thuật ngữ MeSH sẽ gồm luôn các thuật ngữ hẹp hơn bê
 
 Bài mới nhất có thể chưa được gắn MeSH, nên luôn thêm từ tự do \[tiab\].
 
-Hỏi cả lớp: 'MeSH giúp gì cho điều dưỡng tìm về tổn thương do tì đè?' Mong đợi: tác giả viết pressure ulcer, bedsore, decubitus ulcer, và MeSH gom dưới một đề mục.
+Hỏi cả lớp (chat): 'MeSH giúp gì cho điều dưỡng tìm về tổn thương do tì đè?' Mong đợi: tác giả viết pressure ulcer, bedsore, decubitus ulcer, và MeSH gom dưới một đề mục.
 
-Thời gian: 3 phút.
+Slide sau: cách tìm đúng thuật ngữ MeSH.
+
+Thời gian: 2 phút.
+:::
+
+## Cách tìm đúng thuật ngữ MeSH
+
+:::: {.neu-cards style="--n:3"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[MeSH Database]{.neu-card-title}
+
+- Trang chủ PubMed, mục Explore
+- Gõ một từ, ví dụ bedsore
+- Kết quả cho đề mục: Pressure Ulcer
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[Một bài báo tin cậy]{.neu-card-title}
+
+- Mở một bài liên quan trên PubMed
+- Kéo xuống phần 'MeSH terms'
+- Dùng lại các thuật ngữ phù hợp
+:::
+::: {.neu-card .plain style="--c:#5FA39B"}
+[Search details]{.neu-card-title}
+
+- PubMed tự gắn từ của bạn với MeSH
+- Xem PubMed đã dùng đề mục nào
+:::
+::::
+
+::: {.neu-takeaway}
+**THÔNG ĐIỆP CHÍNH** Hãy tra thuật ngữ MeSH, đừng đoán.
+:::
+
+::: {.notes}
+Học viên không thể biết từ nào là thuật ngữ MeSH. Chỉ cho họ ba cách để tìm.
+
+Cách 1, MeSH Database: trên trang chủ PubMed, mục Explore, bấm 'MeSH Database' (hoặc vào https://www.ncbi.nlm.nih.gov/mesh). Gõ một từ thông dụng. Hồ sơ cho biết đề mục chính thức, định nghĩa, các từ đồng nghĩa mà đề mục gom lại (với Pressure Ulcer: bedsore, decubitus ulcer, pressure injury và các từ khác) và vị trí trong cây MeSH. Nút 'Add to search builder' đưa đề mục sang PubMed.
+
+Cách 2, một bài báo đã biết: mở một bài bạn biết chắc là liên quan (với ta là CLASSIC hoặc Bài báo 1), kéo xuống phần 'MeSH terms' và dùng lại các đề mục khớp với khái niệm của bạn. Phần trình diễn sẽ cho thấy điều này.
+
+Cách 3, Search details: chạy các từ tự do, rồi mở 'Search details' trên trang Advanced. Cơ chế tự động gắn thuật ngữ của PubMed cho biết nó đã khớp với đề mục MeSH nào.
+
+Đọc hồ sơ trước khi dùng một đề mục: đôi khi đề mục rộng hơn hoặc hẹp hơn bạn nghĩ.
+
+Thời gian: 2 phút.
 :::
 
 ## Bốn công cụ giúp tìm chính xác hơn
@@ -271,29 +411,26 @@ Thời gian: 3 phút.
 ::: {.neu-card .plain style="--c:#0D7377"}
 ["Ngoặc kép"]{.neu-card-title}
 
-- "septic shock"
-- = đúng cụm từ,
-- không phải hai từ rời
+- "septic shock" = đúng cụm từ
+- Không phải hai từ rời
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
 [Cắt cụt \*]{.neu-card-title}
 
-- restrict\*
-- = restrict, restricted,
-- restriction, restrictive
+- child\* tìm child, children, childhood
+- Dùng khi một ý có nhiều đuôi từ
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
 [Thẻ trường]{.neu-card-title}
 
-- \[tiab\] tiêu đề/tóm tắt
+- \[tiab\] tiêu đề hoặc tóm tắt
 - \[mh\] thuật ngữ MeSH
 - \[pt\] loại bài báo
 :::
 ::: {.neu-card .plain style="--c:#0070C0"}
 [Bộ lọc]{.neu-card-title}
 
-- Loại bài (RCT,
-- tổng quan hệ thống)
+- Loại bài (RCT, tổng quan hệ thống)
 - Năm, tuổi, người
 :::
 ::::
@@ -303,9 +440,13 @@ Thời gian: 3 phút.
 :::
 
 ::: {.notes}
-Ngoặc kép giữ nguyên cụm từ. Cắt cụt tìm mọi đuôi từ, nhưng gốc quá ngắn (flu\*) sẽ ra cả influenza và fluoride.
+Ngoặc kép giữ nguyên cụm từ.
 
-Thẻ trường giới hạn nơi PubMed tìm; bộ lọc (bên trái trang kết quả) thu hẹp theo loại bài, năm, tuổi. Mỗi bộ lọc cần lý do ghi lại được.
+Cắt cụt (dấu sao) hữu ích khi tác giả viết cùng một ý với các đuôi từ khác nhau. Ví dụ lâm sàng: với câu hỏi nhi khoa, child\* tìm cả child, children, childhood và childhood-onset trong một lần, thay vì gõ từng từ nối bằng OR. Các gốc từ hữu ích khác: nurs\* (nurse, nurses, nursing), restrict\* (restricted, restriction, restrictive).
+
+Lưu ý: child\* cũng ra cả childbirth, và gốc quá ngắn (flu\*) sẽ ra cả influenza và fluoride. Trên PubMed gốc từ cần ít nhất bốn chữ cái, và từ đã cắt cụt không được gắn với MeSH, nên vẫn giữ thuật ngữ MeSH trong khối.
+
+Thẻ trường giới hạn nơi PubMed tìm. Bộ lọc (bên trái trang kết quả) thu hẹp theo loại bài, năm và tuổi. Mỗi bộ lọc cần lý do ghi lại được.
 
 Quan niệm sai: 'lọc lấy toàn văn miễn phí'. Làm vậy bỏ mất bài quan trọng.
 
@@ -314,22 +455,74 @@ Thời gian: 3 phút.
 
 ## PubMed và Google Scholar
 
-![](images/figures/sat1/pubmed_vs_scholar.png){.neu-fig}
+| PubMed | Google Scholar |
+|:---|:---|
+| Phạm vi | Tạp chí y sinh, do chuyên gia lập chỉ mục | Gần như mọi thứ: luận văn, sách, bản thảo, trang web |
+| MeSH (bộ từ vựng chuẩn) | Có | Không |
+| Bộ lọc (thiết kế, tuổi, năm) | Có, nhiều | Ít (năm, tổng quan) |
+| Minh bạch, lặp lại được | Có | Không: cách xếp hạng bị ẩn |
+| "Được trích dẫn bởi" một bài chính | Một phần | Có |
+| Phù hợp nhất cho | Tìm kiếm chính, lặp lại được | Kiểm tra nhanh, tài liệu xám, trích dẫn |
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** PubMed cho tìm kiếm chính; Google Scholar để kiểm tra và theo dấu trích dẫn.
+**THÔNG ĐIỆP CHÍNH** PubMed cho tìm kiếm chính. Google Scholar để kiểm tra và theo dấu trích dẫn.
 :::
 
 ::: {.notes}
 PubMed: miễn phí, do Thư viện Y khoa Quốc gia Hoa Kỳ vận hành, tạp chí y sinh, MeSH, nhiều bộ lọc, tìm kiếm minh bạch, lặp lại được.
 
-Google Scholar: rất rộng (luận văn, sách, bản thảo trước in), tốt cho y văn xám và 'Cited by'; nhưng xếp hạng bị ẩn, ít bộ lọc, khó lặp lại.
+Google Scholar: rất rộng (luận văn, sách, bản thảo trước in), tốt cho tài liệu xám và 'Cited by', nhưng xếp hạng bị ẩn, ít bộ lọc, khó lặp lại.
 
-Còn các cơ sở dữ liệu khác (Embase, CINAHL cho điều dưỡng, Thư viện Cochrane), nhưng không cần ở Cấp độ 1.
+PubMed không phải cơ sở dữ liệu duy nhất. Embase, Thư viện Cochrane, Web of Science, Scopus và CINAHL (cho điều dưỡng) là các nguồn chuẩn khác. Một tổng quan hệ thống tìm trên nhiều nguồn trong số đó (slide bổ sung 'Ngoài PubMed'). Với đề cương ở Cấp độ 1, PubMed cộng một sổ đăng ký thử nghiệm là đủ.
 
-Hỏi cả lớp: 'Đồng nghiệp tìm được bài hoàn hảo trên Google Scholar. Cần kiểm tra gì?' Mong đợi: đã bình duyệt chưa hay chỉ là preprint? Tạp chí có uy tín không? (Tạp chí săn mồi: Buổi 8.)
+Hỏi cả lớp (chat): 'Đồng nghiệp tìm được bài hoàn hảo trên Google Scholar. Cần kiểm tra gì?' Mong đợi: đã bình duyệt chưa hay chỉ là preprint? Tạp chí có uy tín không? (Tạp chí săn mồi: Buổi 8.)
 
-Thời gian: 3 phút.
+Thời gian: 2 phút.
+:::
+
+## Kiểm tra trước: đã có tổng quan hệ thống chưa?
+
+:::: {.neu-cards style="--n:4"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[Tìm tổng quan]{.neu-card-title}
+
+- Thư viện Cochrane
+- Bộ lọc PubMed: Systematic Review
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[Tổng quan đang làm]{.neu-card-title}
+
+- PROSPERO liệt kê các tổng quan hệ thống đã đăng ký
+:::
+::: {.neu-card .plain style="--c:#5FA39B"}
+[Rồi quyết định]{.neu-card-title}
+
+- Có tổng quan mới và tốt: dựa vào đó
+- Chưa có, hoặc đã cũ: đó là khoảng trống
+:::
+::: {.neu-card .plain style="--c:#0070C0"}
+[Học cách làm]{.neu-card-title}
+
+- Cấp độ 3, Học phần A: tổng quan hệ thống và phân tích gộp
+:::
+::::
+
+::: {.neu-takeaway}
+**THÔNG ĐIỆP CHÍNH** Trước khi lập kế hoạch nghiên cứu, hãy tìm xem điều gì đã được làm, bắt đầu từ tổng quan hệ thống.
+:::
+
+::: {.notes}
+Ý chính: trước khi bắt đầu bất kỳ nghiên cứu nào, hãy nắm tổng quan những gì đã biết về câu hỏi của mình. Bức tranh tổng thể tốt nhất là một tổng quan hệ thống: một tổng quan bạn tìm được, hoặc do chính bạn thực hiện.
+
+Tìm ở đâu: Thư viện Cochrane (các tổng quan hệ thống của Cochrane, chủ yếu về điều trị), PubMed với bộ lọc loại bài 'Systematic Review', và PROSPERO (https://www.crd.york.ac.uk/prospero/), sổ đăng ký quốc tế của các tổng quan hệ thống đang lên kế hoạch hoặc đang thực hiện.
+
+Nếu một tổng quan mới và tốt đã trả lời câu hỏi của bạn, đừng làm lại: hãy dựa vào đó và chuyển câu hỏi sang khoảng trống còn lại. Nếu chưa có, hoặc tổng quan đã cũ, khoảng trống đó là một phần lý do cho nghiên cứu của bạn.
+
+Tự làm tổng quan hệ thống và phân tích gộp là một khóa học riêng: Cấp độ 3 có một học phần dành riêng cho chủ đề này (Học phần A: tổng quan hệ thống và phân tích gộp).
+
+Hỏi cả lớp (chat): 'Có ai từng bắt đầu một dự án rồi mới phát hiện nó đã được làm rồi không?'
+
+Thời gian: 2 phút.
 :::
 
 ## Trình diễn: tìm câu hỏi của chúng ta trên PubMed
@@ -346,7 +539,7 @@ TRÌNH DIỄN TRỰC TIẾP · 10 phút
 - Xem 'Search details': PubMed thực sự đã tìm gì?
 - Thêm bộ lọc: RCT và tổng quan hệ thống, người lớn, 10 năm gần đây
 - Mở một kết quả: tóm tắt, MeSH, 'Similar articles', 'Cited by'
-- Send to: Citation manager (sẽ nhập vào ở phần 2.2)
+- Bấm 'Send to', rồi 'Citation manager' (sẽ nhập vào ở phần 2.2)
 :::
 :::
 ::: {.column width="40%"}
@@ -355,7 +548,7 @@ Hãy để ý
 
 - Số kết quả giảm thế nào sau mỗi bước
 - Bài nào cứ xuất hiện lại
-- Bạn có tìm thấy Bài báo 1 và CLASSIC?
+- Bạn có tìm thấy Bài báo 1 và thử nghiệm CLASSIC (Meyhoff 2022)?
 :::
 :::
 ::::
@@ -367,11 +560,13 @@ Hãy để ý
 ::: {.notes}
 Làm theo Course/Demos/s2\_demo.md, Phần A (PubMed): chuỗi tìm kiếm chính xác, chỗ cần bấm và phương án dự phòng.
 
-Không hứa số kết quả. Dự kiến hàng chục nghìn cho 'septic shock' và vài nghìn cho chuỗi PICO đầy đủ; con số thay đổi hằng ngày.
+Không hứa số kết quả. Dự kiến hàng chục nghìn cho 'septic shock' và vài nghìn cho chuỗi PICO đầy đủ. Con số thay đổi hằng ngày.
 
-Nói chậm và dừng sau mỗi bước để học viên ghi số kết quả vào phiếu.
+CLASSIC (lần đầu ta nhắc đến): một thử nghiệm ngẫu nhiên lớn, Meyhoff và cộng sự, N Engl J Med 2022, 'Restriction of Intravenous Fluid in ICU Patients with Septic Shock'. Tên viết tắt của Conservative versus Liberal Approach to Fluid Therapy of Septic Shock in Intensive Care (cách tiếp cận hạn chế so với tự do trong truyền dịch cho sốc nhiễm khuẩn tại hồi sức). Ở 1 554 người lớn bị sốc nhiễm khuẩn tại các ICU châu Âu, hạn chế dịch truyền tĩnh mạch không làm thay đổi tử vong 90 ngày. Đây là thử nghiệm chính đằng sau ví dụ xuyên suốt, nên hãy giải thích khi nó xuất hiện trong kết quả.
 
-Nếu mất internet, chuyển sang ảnh chụp màn hình. Không sửa lỗi mạng trước lớp.
+Chia sẻ màn hình. Nói chậm và dừng sau mỗi bước để học viên ghi số kết quả vào phiếu. Mời lớp gợi ý từ đồng nghĩa cho các khối trong chat và thêm trực tiếp một, hai từ.
+
+Nếu mạng của bạn bị lỗi, chuyển sang ảnh chụp màn hình (giảng viên thứ hai có thể chia sẻ). Không sửa lỗi trực tiếp.
 
 Thời gian: 10 phút.
 :::
@@ -383,21 +578,23 @@ BÀI TẬP CÁ NHÂN · 5 phút
 :::
 
 ::: {.neu-activity-steps style="--c:#0B376C"}
-- Lấy câu hỏi PICO của nhóm và danh sách từ đồng nghĩa
+- Lấy câu hỏi PICO của riêng bạn và danh sách từ đồng nghĩa (bài về nhà Buổi 1)
 - Bài tập 1: viết 2-4 từ đồng nghĩa (tiếng Anh) cho P, I (hoặc E) và O
 - Nối từ đồng nghĩa bằng OR trong ngoặc, các khối bằng AND
-- Đánh dấu từ nào có thể là thuật ngữ MeSH
-- Đổi phiếu với người bên cạnh: tìm một từ đồng nghĩa còn thiếu
+- Kiểm tra từ nào là thuật ngữ MeSH: MeSH Database hoặc một bài đã biết
+- Giảng viên gọi 2-3 bạn bật micro đọc to chuỗi tìm kiếm của mình
 :::
 
 ::: {.neu-output style="--c:#0B376C"}
-**SẢN PHẨM** Một chuỗi tìm kiếm trên giấy, để nhóm chạy trong Xây dựng đề cương 2
+**SẢN PHẨM** Một chuỗi tìm kiếm cho câu hỏi của bạn, để chạy trong Xây dựng đề cương 2
 :::
 
 ::: {.notes}
-Không cần máy tính: đây là bài tập trên giấy với bảng xây dựng tìm kiếm Boolean.
+Làm cá nhân: học viên viết chuỗi tìm kiếm vào phiếu bài tập hoặc một tệp văn bản. Chưa tìm kiếm ở bước này.
 
-Đi vòng và tìm: thiếu ngoặc, trộn AND và OR trong cùng khối, đưa nhóm so sánh thành một khối, dùng NOT không có lý do.
+Sau 4 phút, gọi tên 2 hoặc 3 học viên (báo trước cho cả lớp từ đầu là sẽ gọi). Mỗi người bật micro và đọc to một khối hoặc cả chuỗi. Gõ lại chuỗi đó trên màn hình đang chia sẻ khi họ đọc, và hỏi cả lớp một từ đồng nghĩa còn thiếu.
+
+Chú ý tìm: thiếu ngoặc, trộn AND và OR trong cùng khối, đưa nhóm so sánh thành một khối, dùng NOT không có lý do.
 
 Ai xong sớm: thêm một bộ lọc và ghi lý do.
 
@@ -412,12 +609,12 @@ Giữ lại mọi tài liệu bạn tìm được, và dùng công trình của 
 :::
 
 ::: {.neu-sub}
-20 phút: phần mềm quản lý tài liệu (trình diễn Zotero), kiểu trích dẫn, diễn đạt lại an toàn, y văn xám
+20 phút: phần mềm quản lý tài liệu (trình diễn Zotero), kiểu trích dẫn, diễn đạt lại an toàn, tài liệu xám
 :::
 ::::
 
 ::: {.notes}
-PHẦN 2.2 (0:50-1:10).
+PHẦN 2.2 (0:50-1:10, 20:20-20:40).
 
 Ý chính: hai thói quen bảo vệ mọi đề cương và bài báo: lưu tài liệu vào phần mềm quản lý tài liệu ngay từ ngày đầu, và không bao giờ sao chép câu chữ từ nguồn.
 
@@ -430,37 +627,31 @@ Thời gian: 30 giây.
 ::: {.neu-step style="--c:#0D7377"}
 [Gom]{.neu-step-label}
 
-- Đánh dấu bài trên
-- PubMed: Clipboard
-- hoặc Collections
+- Đánh dấu bài trên PubMed
+- Clipboard hoặc Collections
 :::
 ::: {.neu-step style="--c:#0B376C"}
 [Xuất]{.neu-step-label}
 
-- Send to:
-- Citation manager
-- (tệp .nbib)
+- 'Send to', rồi 'Citation manager'
+- Tạo tệp .nbib
 :::
 ::: {.neu-step style="--c:#5FA39B"}
 [Nhập]{.neu-step-label}
 
-- Zotero hoặc Mendeley
-- (miễn phí), EndNote
-- (trả phí)
+- Zotero hoặc Mendeley (miễn phí)
+- EndNote (trả phí)
 :::
 ::: {.neu-step style="--c:#0070C0"}
 [Trích dẫn]{.neu-step-label}
 
-- Chèn trích dẫn
-- trong Word bằng
-- plug-in
+- Chèn trích dẫn trong Word bằng plug-in
 :::
 ::: {.neu-step style="--c:#055F56"}
 [Danh mục]{.neu-step-label}
 
-- Danh mục tài liệu
-- tự động, theo
-- mọi kiểu trích dẫn
+- Danh mục tài liệu tự động
+- Theo mọi kiểu trích dẫn
 :::
 ::::
 
@@ -471,11 +662,11 @@ Thời gian: 30 giây.
 ::: {.notes}
 Ý chính: không bao giờ gõ tay tài liệu tham khảo. Phần mềm quản lý tài liệu lưu mỗi bài một lần và định dạng theo mọi kiểu tạp chí.
 
-Zotero (miễn phí, mã nguồn mở) và Mendeley (miễn phí) tích hợp với Word; EndNote phổ biến ở đại học nhưng trả phí. Phần mềm tốt nhất là phần mềm cả nhóm cùng dùng.
+Zotero (miễn phí, mã nguồn mở) và Mendeley (miễn phí) tích hợp với Word. EndNote phổ biến ở đại học nhưng trả phí. Trong khóa học này mọi người dùng Zotero (đã cài ở bài về nhà Buổi 1).
 
 Tiện ích trình duyệt (ví dụ Zotero Connector) lưu bài từ trang tạp chí bằng một cú nhấp, thường kèm PDF.
 
-Quan niệm sai: 'cuối cùng mới xử lý tài liệu tham khảo'. Lưu ngay mất vài giây; dựng lại danh mục mất hàng giờ và dễ sai.
+Quan niệm sai: 'cuối cùng mới xử lý tài liệu tham khảo'. Lưu ngay chỉ mất vài giây, còn dựng lại danh mục mất hàng giờ và dễ sai.
 
 Thời gian: 2 phút.
 :::
@@ -491,9 +682,9 @@ TRÌNH DIỄN TRỰC TIẾP · 5 phút
 ::: {.neu-activity-steps style="--c:#B5651D"}
 - Nhập tệp .nbib từ phần trình diễn PubMed vào Zotero
 - Xem: tác giả, tiêu đề, tạp chí, năm, DOI, không gõ tay gì cả
-- Trong Word: thẻ Zotero, Add/Edit Citation, gõ 'Meyhoff'
-- Add/Edit Bibliography: danh mục tài liệu xuất hiện
-- Document Preferences: đổi Vancouver sang APA rồi đổi lại
+- Trong Word, ở thẻ Zotero, bấm 'Add/Edit Citation' và gõ Meyhoff
+- Bấm 'Add/Edit Bibliography': danh mục tài liệu xuất hiện
+- Mở 'Document Preferences': đổi Vancouver sang APA rồi đổi lại
 :::
 :::
 ::: {.column width="40%"}
@@ -507,15 +698,17 @@ Hãy để ý
 ::::
 
 ::: {.neu-output style="--c:#B5651D"}
-**SẢN PHẨM** Mọi người đã thấy trọn chu trình gom → trích dẫn → danh mục
+**SẢN PHẨM** Mọi người đã thấy trọn chu trình: gom, trích dẫn, lập danh mục
 :::
 
 ::: {.notes}
-Làm theo Course/Demos/s2\_demo.md, Phần B (Zotero).
+Kịch bản cho giảng viên: Course/Demos/s2\_demo.md, Phần B (Bước 6), gồm chỗ cần bấm, lời cần nói và cách xử lý khi Zotero lỗi. Cùng kịch bản đó có ở Course/Demos/s2\_demo.pdf và trang 'Trình diễn Buổi 2' trên website khóa học.
+
+Các từ trong dấu nháy trên slide là tên nút của Zotero trong Word, giữ nguyên tiếng Anh.
 
 Chuẩn bị: Zotero desktop và plug-in Word đã cài, một thư viện thử trống, một tài liệu Word trắng.
 
-Học viên không cài gì trong buổi học; ai đã cài Zotero ở nhà có thể làm theo.
+Mọi người đã cài Zotero ở bài về nhà Buổi 1, nên có thể làm lại từng bước trên máy của mình. Ai cài chưa được thì xem lúc này và sửa sau buổi học với giảng viên thứ hai.
 
 Nếu Zotero lỗi, dùng ảnh chụp màn hình và nói 'cùng tệp này dùng được trong Mendeley và EndNote'.
 
@@ -524,10 +717,31 @@ Thời gian: 5 phút.
 
 ## Kiểu trích dẫn: một bài, hai cách trình bày
 
-![](images/figures/sat1/citation_styles.png){.neu-fig}
+::: {.neu-intro}
+Dùng kiểu tạp chí yêu cầu. Phần mềm quản lý tài liệu đổi kiểu chỉ bằng một cú nhấp.
+:::
+
+:::: {.neu-cards style="--n:2"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[Vancouver]{.neu-card-title}
+
+- Hạn chế dịch truyền không làm thay đổi tử vong 90 ngày \[1\].
+- **Danh mục tài liệu:**
+- Author AA, Author BB, et al. Title. J Abbrev. Year;Vol(Issue):pages.
+- [Đánh số theo thứ tự trích dẫn. Đa số tạp chí y khoa dùng.]{style="color:#595959"}
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[APA]{.neu-card-title}
+
+- Hạn chế dịch truyền không làm thay đổi tử vong 90 ngày (Meyhoff et al., 2022).
+- **Danh mục tài liệu:**
+- Author, A. A., & Author, B. B. (Year). Title. Journal, Vol(Issue), pages.
+- [Tác giả và năm trong bài. Phổ biến ở điều dưỡng, khoa học xã hội.]{style="color:#595959"}
+:::
+::::
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Chọn kiểu tạp chí đích dùng; để phần mềm lo việc định dạng.
+**THÔNG ĐIỆP CHÍNH** Chọn kiểu tạp chí đích dùng, và để phần mềm lo việc định dạng.
 :::
 
 ::: {.notes}
@@ -537,31 +751,53 @@ Mỗi tạp chí nêu kiểu trích dẫn trong 'Hướng dẫn cho tác giả' 
 
 Ý chính: trích dẫn giúp người đọc kiểm tra nhận định của bạn. Khi có thể, hãy trích nghiên cứu gốc cho dữ kiện và con số, không trích bài tổng quan nhắc lại nó.
 
-Hỏi cả lớp: 'Kiểu nào dùng \[1\]?' Mong đợi: Vancouver.
+Hỏi cả lớp (chat): 'Kiểu nào dùng \[1\]?' Mong đợi: Vancouver.
 
 Thời gian: 2 phút.
 :::
 
 ## Trích dẫn và sao chép: diễn đạt lại an toàn
 
-![](images/figures/sat1/paraphrase.png){.neu-fig}
+::: {.neu-intro}
+Cách làm: đọc, gấp bài báo, viết theo trí nhớ, kiểm tra lại, trích dẫn.
+:::
+
+:::: {.neu-cards style="--n:3"}
+::: {.neu-card .plain style="--c:#8A99A3"}
+[Nguồn (Boulet và cs. 2024, tóm tắt)]{.neu-card-title}
+
+- "In ICU patients with septic shock, an optimized restrictive fluid strategy targeting hidden fluid intakes did not reduce the overall fluid balance at day 5."
+:::
+::: {.neu-card .plain style="--c:#B23B2E"}
+[Thay vài từ ("chắp vá")]{.neu-card-title}
+
+- "In septic shock ICU patients, an optimised restrictive approach targeting hidden fluid intakes did not lower the total fluid balance at day 5."
+- **[Cùng cấu trúc, cùng từ = đạo văn, dù có trích dẫn]{style="color:#B23B2E"}**
+:::
+::: {.neu-card .plain style="--c:#2E8B57"}
+[Lời của mình + trích dẫn]{.neu-card-title}
+
+- "A pilot trial in 48 patients found that limiting maintenance and drug-dilution fluids did not significantly change fluid balance after five days \[1\]."
+- **[Cấu trúc mới, thêm bối cảnh, có trích dẫn]{style="color:#2E8B57"}**
+:::
+::::
 
 ::: {.neu-takeaway}
 **THÔNG ĐIỆP CHÍNH** Thay đổi cả cấu trúc lẫn từ ngữ, và luôn trích dẫn nguồn.
 :::
 
 ::: {.notes}
-Trên cùng: một câu trong phần kết luận của tóm tắt Bài báo 1 (trích nguyên văn có ghi nguồn). Câu ví dụ để nguyên tiếng Anh vì đạo văn được kiểm tra trên ngôn ngữ của bài báo.
+Bên trái: một câu trong phần kết luận của tóm tắt Bài báo 1 (trích nguyên văn có ghi nguồn). Câu ví dụ để nguyên tiếng Anh vì đạo văn được kiểm tra trên ngôn ngữ của bài báo.
 
-Bên trái: 'viết chắp vá' (patchwriting): cùng câu đó chỉ thay vài từ. Dù có trích dẫn, đây vẫn là đạo văn vì cấu trúc và phần lớn từ ngữ bị sao chép. Phần mềm kiểm tra trùng lặp của tạp chí phát hiện dễ dàng.
+Ở giữa: 'viết chắp vá' (patchwriting): cùng câu đó chỉ thay vài từ. Dù có trích dẫn, đây vẫn là đạo văn vì cấu trúc và phần lớn từ ngữ bị sao chép. Phần mềm kiểm tra trùng lặp của tạp chí phát hiện dễ dàng.
 
-Bên phải: diễn đạt lại thật sự, với cấu trúc mới, thêm bối cảnh từ bài báo (pilot, 48 bệnh nhân, loại dịch nào) và có trích dẫn.
+Bên phải: diễn đạt lại thật sự, với cấu trúc mới, thêm bối cảnh từ bài báo (pilot, 48 người bệnh, loại dịch nào) và có trích dẫn.
 
 Cách làm: đọc, gấp bài báo, viết theo trí nhớ, kiểm tra lại dữ kiện, trích dẫn. Nếu cần nguyên văn, dùng ngoặc kép kèm trích dẫn. Tuy vậy, trong viết y khoa hiếm khi trích nguyên văn.
 
-Quan niệm sai: 'đã trích dẫn thì được chép'. Trích dẫn ghi công cho ý tưởng; không cho phép chép câu chữ. Công cụ AI viết lại câu cũng không giải quyết được. Bạn vẫn chịu trách nhiệm (Buổi 7).
+Quan niệm sai: 'đã trích dẫn thì được chép'. Trích dẫn ghi công cho ý tưởng, nhưng không cho phép chép câu chữ. Công cụ AI viết lại câu cũng không giải quyết được. Bạn vẫn chịu trách nhiệm (Buổi 7).
 
-Hỏi cả lớp: 'Chép phần Phương pháp từ bài báo cũ của chính mình có được không?' Mong đợi: đó là tái sử dụng văn bản. Xem chính sách của tạp chí, và thường phải viết lại hoặc trích dẫn.
+Hỏi cả lớp (chat): 'Chép phần Phương pháp từ bài báo cũ của chính mình có được không?' Mong đợi: đó là tái sử dụng văn bản. Xem chính sách của tạp chí, và thường phải viết lại hoặc trích dẫn.
 
 Thời gian: 3 phút. Bài tập 2 trong phiếu luyện kỹ năng này ở nhà.
 :::
@@ -572,30 +808,24 @@ Thời gian: 3 phút. Bài tập 2 trong phiếu luyện kỹ năng này ở nh�
 ::: {.neu-card .plain style="--c:#0D7377"}
 [Trích dữ kiện]{.neu-card-title}
 
-- Con số, phát hiện
-- và ý tưởng của người
-- khác cần trích dẫn
+- Con số, phát hiện và ý tưởng của người khác cần trích dẫn
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
 [Trích nguồn gốc]{.neu-card-title}
 
-- Đọc và trích
-- bài báo gốc,
-- không trích bản tóm lược
+- Đọc và trích bài báo gốc
+- Không trích bản tóm lược
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
 [Lời của mình]{.neu-card-title}
 
-- Cấu trúc mới;
-- nguyên văn phải
-- có ngoặc kép
+- Dùng cấu trúc mới
+- Nguyên văn phải có ngoặc kép
 :::
 ::: {.neu-card .plain style="--c:#0070C0"}
 [Kiểm tra]{.neu-card-title}
 
-- Mỗi tài liệu
-- nói đúng điều
-- bạn dẫn ra
+- Mỗi tài liệu nói đúng điều bạn dẫn ra
 :::
 ::::
 
@@ -604,7 +834,7 @@ Thời gian: 3 phút. Bài tập 2 trong phiếu luyện kỹ năng này ở nh�
 :::
 
 ::: {.notes}
-Kiến thức phổ thông ('nhiễm khuẩn huyết là một cấp cứu') không cần trích dẫn; dữ kiện và con số cụ thể thì cần.
+Kiến thức phổ thông ('nhiễm khuẩn huyết là một cấp cứu') không cần trích dẫn. Dữ kiện và con số cụ thể thì cần.
 
 Trích một bài chỉ thấy được nhắc lại ở nơi khác sẽ lan truyền lỗi. Hãy kiểm tra bài gốc.
 
@@ -627,7 +857,7 @@ CÂU HỎI NHANH · 2 phút
 :::
 
 ::: {.neu-output style="--c:#6C3483"}
-**SẢN PHẨM** Giơ ngón cái lên (được) hoặc xuống (không được)
+**SẢN PHẨM** Mỗi câu: biểu tượng ngón cái lên (được) hoặc xuống (không được), hoặc bình chọn
 :::
 
 ::: {.notes}
@@ -636,47 +866,52 @@ CÂU HỎI NHANH · 2 phút
 Thời gian: 2 phút.
 :::
 
-## Y văn xám và sổ đăng ký thử nghiệm
+## Tài liệu xám, kể cả sổ đăng ký thử nghiệm
 
 ![](images/figures/sat1/grey_iceberg.png){.neu-fig}
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Hãy nhìn dưới mặt nước: sổ đăng ký và y văn xám giảm sai lệch xuất bản.
+**THÔNG ĐIỆP CHÍNH** Hãy nhìn dưới mặt nước: tìm trong tài liệu xám, kể cả sổ đăng ký thử nghiệm, làm giảm sai lệch xuất bản.
 :::
 
 ::: {.notes}
-Bài báo tạp chí trên PubMed chỉ là phần nổi của tảng băng. Dưới mặt nước: thử nghiệm đã đăng ký nhưng chưa công bố kết quả, tóm tắt hội nghị, luận văn, báo cáo, hướng dẫn và bản thảo trước in (preprint).
+Bài báo tạp chí trên PubMed chỉ là phần nổi của tảng băng. Dưới mặt nước là tài liệu xám: mọi thứ không đăng trên tạp chí. Trong khóa học này tài liệu xám bao gồm cả sổ đăng ký thử nghiệm (như trong bảng thuật ngữ của khóa học), cùng với tóm tắt hội nghị, luận văn, báo cáo, hướng dẫn và bản thảo trước in (preprint).
 
-Vì sao quan trọng: nghiên cứu có kết quả âm tính hoặc gây thất vọng ít được công bố hơn (sai lệch xuất bản, publication bias), nên y văn đã công bố có thể trông tích cực hơn sự thật.
+Vì sao quan trọng: nghiên cứu có kết quả âm tính hoặc gây thất vọng ít được công bố hơn (sai lệch xuất bản, publication bias), nên y văn đã công bố có thể trông tích cực hơn sự thật. Tìm cả phần dưới mặt nước làm giảm sai lệch này trong những gì bạn tìm được.
 
-Sổ đăng ký thử nghiệm (ClinicalTrials.gov và Nền tảng Đăng ký Thử nghiệm Lâm sàng Quốc tế của WHO, ICTRP) liệt kê các thử nghiệm đang và đã làm kèm kết cục chính DỰ KIẾN. Hãy so sánh với bài báo: đổi kết cục là dấu hiệu cảnh báo.
+Sổ đăng ký thử nghiệm là gì: một cơ sở dữ liệu công khai, nơi thử nghiệm lâm sàng được ghi lại trước khi tuyển người bệnh đầu tiên. Hồ sơ nêu câu hỏi, thiết kế, kết cục chính dự kiến, cỡ mẫu dự kiến và tình trạng (đang tuyển, đã xong, đã đăng kết quả). Các tạp chí y khoa theo khuyến nghị ICMJE chỉ đăng thử nghiệm đã được đăng ký.
 
-Bài báo 1 được đăng ký số NCT04947904, trước khi tuyển bệnh nhân đầu tiên. Thói quen tốt khi làm bài về nhà: mở hồ sơ đăng ký và so sánh kết cục chính dự kiến với bài báo.
+Các sổ đăng ký chính: ClinicalTrials.gov (do Thư viện Y khoa Quốc gia Hoa Kỳ vận hành) và Nền tảng Đăng ký Thử nghiệm Lâm sàng Quốc tế của WHO (ICTRP), cho phép tìm cùng lúc trong nhiều sổ đăng ký quốc gia. Tổng quan hệ thống cũng được đăng ký theo cách tương tự, trên PROSPERO.
+
+Cách dùng: so sánh kết cục chính dự kiến với bài báo đã công bố. Đổi kết cục là dấu hiệu cảnh báo. Sổ đăng ký cũng cho thấy các thử nghiệm đã xong nhưng chưa bao giờ công bố kết quả.
+
+Bài báo 1 được đăng ký số NCT04947904, trước khi tuyển người bệnh đầu tiên. Thói quen tốt khi làm bài về nhà: mở hồ sơ đăng ký và so sánh kết cục chính dự kiến với bài báo.
 
 Bản thảo trước in (ví dụ medRxiv) chưa qua bình duyệt. Hãy đọc thật cẩn thận.
 
-Hỏi cả lớp: 'Vì sao nên xem sổ đăng ký trước khi bắt đầu thử nghiệm của mình?' Mong đợi: có thể ai đó đang làm đúng nghiên cứu đó.
+Hỏi cả lớp (chat): 'Vì sao nên xem sổ đăng ký trước khi bắt đầu thử nghiệm của mình?' Mong đợi: có thể ai đó đang làm đúng nghiên cứu đó.
 
 Thời gian: 3 phút. Phần 2.2 kết thúc lúc 1:10, rồi giải lao.
 :::
 
-## Giải lao
+---
 
-::: {.neu-banner style="--c:#8A99A3"}
-GIẢI LAO · 15 phút
-:::
+::: {style="text-align:center"}
+![](images/figures/common/break_cup.png){width="32%"}
 
-::: {.neu-activity-steps style="--c:#8A99A3"}
-- Thư giãn, uống cà phê, trò chuyện với người khác nghề
-- Suy nghĩ: nhóm bạn có thể làm vấn đề nào từ khoa mình hôm nay?
+[Giải lao]{style="color:#0D7377;font-size:1.6em;font-weight:700"}
+
+[15 phút]{style="color:#595959;font-size:0.9em"}
 :::
 
 ::: {.notes}
-GIẢI LAO (1:10-1:25).
+GIẢI LAO (1:10-1:25, 20:40-20:55).
 
-Trong giờ giải lao: đặt bản in tóm tắt Bài báo 1 (bản gốc, không chú giải) lên mỗi chỗ ngồi cho bài tập đọc.
+Nói: hãy đứng dậy, vươn vai và cho mắt nghỉ. Trước khi bắt đầu lại, mở Bài báo 1 (link trong chat).
 
-Bắt đầu lại đúng giờ. Nói rõ giờ quay lại.
+Trong giờ giải lao: dán vào chat đường link tới Bài báo 1 dạng PDF sạch cho bài tập đọc (Course/Papers/Paper 1 - Boulet 2024 Crit Care (RCT) - original.pdf, hoặc link DOI ở trang 'Hai bài báo' trên website khóa học).
+
+Ghi rõ trong chat giờ bắt đầu lại, và bắt đầu đúng giờ.
 :::
 
 ## 2.3  Đọc một bài báo trong 15 phút
@@ -692,11 +927,11 @@ Không cần đọc từng chữ. Hãy đọc đúng chỗ, theo đúng thứ t�
 ::::
 
 ::: {.notes}
-PHẦN 2.3 (1:25-2:05).
+PHẦN 2.3 (1:25-2:05, 20:55-21:35).
 
 Ý chính: người thầy thuốc bận rộn cần một quy trình đọc. Trong 15 phút có thể quyết định bài báo có liên quan không, tìm thấy gì và có đáng tin không.
 
-Kiểm tra mọi học viên đã có bản in tóm tắt Bài báo 1 trước bài tập.
+Kiểm tra trong chat rằng mọi người đã mở tóm tắt gốc của Bài báo 1 trước bài tập.
 
 Thời gian: 30 giây.
 :::
@@ -710,22 +945,59 @@ Thời gian: 30 giây.
 :::
 
 ::: {.notes}
-IMRaD = Đặt vấn đề (Introduction), Phương pháp (Methods), Kết quả (Results) và Bàn luận (Discussion): cấu trúc chuẩn của bài báo nghiên cứu gốc, với tiêu đề và tóm tắt ở trên cùng.
+IMRaD = Đặt vấn đề (Introduction), Phương pháp (Methods), Kết quả (Results) và Bàn luận (Discussion): cấu trúc chuẩn của bài báo nghiên cứu gốc.
 
-Đồng hồ cát: Đặt vấn đề thu hẹp từ vấn đề rộng đến câu hỏi cụ thể; Phương pháp và Kết quả hẹp và thuần dữ kiện; Bàn luận mở rộng lại tới ý nghĩa cho thực hành.
+Tiêu đề và tóm tắt nằm trên IMRaD. Chúng không phải một chữ cái của IMRaD, vì vậy chúng đứng đầu trong hình. Chữ 'a' viết thường trong IMRaD là 'and' (và), không phải 'abstract' (tóm tắt).
 
-Ý chính: biết hình dạng là biết chỗ cần nhìn. Câu hỏi ở CUỐI phần Đặt vấn đề; kết cục chính ở Phương pháp; con số chính ở Kết quả (và tóm tắt).
+Đồng hồ cát: Đặt vấn đề thu hẹp từ vấn đề rộng đến câu hỏi cụ thể. Phương pháp và Kết quả hẹp và thuần dữ kiện. Bàn luận mở rộng lại tới ý nghĩa cho thực hành.
 
-Quan niệm sai: 'phần Bàn luận cho biết kết quả'. Bàn luận là diễn giải của tác giả; Kết quả mới là bằng chứng.
+Ý chính: biết hình dạng là biết chỗ cần nhìn. Câu hỏi ở cuối phần Đặt vấn đề, kết cục chính ở Phương pháp, và con số chính ở Kết quả (và tóm tắt).
 
-Hỏi cả lớp: 'Tìm ai được đưa vào nghiên cứu ở đâu?' Mong đợi: Phương pháp (tiêu chuẩn chọn) và Kết quả (sơ đồ, Bảng 1).
+Quan niệm sai: 'phần Bàn luận cho biết kết quả'. Bàn luận là diễn giải của tác giả. Kết quả mới là bằng chứng.
 
-Thời gian: 4 phút. Buổi 7 và 8 dạy cách VIẾT từng phần.
+Hỏi cả lớp (chat): 'Tìm ai được đưa vào nghiên cứu ở đâu?' Mong đợi: Phương pháp (tiêu chuẩn chọn) và Kết quả (sơ đồ, Bảng 1).
+
+Thời gian: 4 phút. Buổi 7 và 8 dạy cách viết từng phần.
 :::
 
 ## Thứ tự đọc trong 15 phút
 
-![](images/figures/sat1/reading_order.png){.neu-fig}
+::: {.neu-intro}
+Dừng sau bước 1 hoặc 2 nếu bài không trả lời câu hỏi. Tổng: khoảng 15 phút.
+:::
+
+:::: {.neu-steps}
+::: {.neu-step style="--c:#055F56"}
+[1  Tiêu đề]{.neu-step-label}
+
+- **30 giây**
+- Liên quan tới câu hỏi của tôi?
+:::
+::: {.neu-step style="--c:#0D7377"}
+[2  Tóm tắt]{.neu-step-label}
+
+- **3 phút**
+- PICO, thiết kế, kết quả chính
+:::
+::: {.neu-step style="--c:#0B376C"}
+[3  Hình và bảng]{.neu-step-label}
+
+- **4 phút**
+- Sơ đồ, Bảng 1, bảng kết quả chính
+:::
+::: {.neu-step style="--c:#0070C0"}
+[4  Phương pháp]{.neu-step-label}
+
+- **5 phút**
+- Ai, chọn thế nào, kết cục chính, chống sai lệch
+:::
+::: {.neu-step style="--c:#5FA39B"}
+[5  Bàn luận]{.neu-step-label}
+
+- **2-3 phút**
+- Hạn chế. Kết luận có khớp với dữ liệu không?
+:::
+::::
 
 ::: {.neu-takeaway}
 **THÔNG ĐIỆP CHÍNH** Tiêu đề, tóm tắt, hình và bảng, phương pháp. Dừng sớm nếu không liên quan.
@@ -747,7 +1019,17 @@ Thời gian: 3 phút.
 
 ## Phần tóm tắt phải có gì
 
-![](images/figures/sat1/abstract_anatomy.png){.neu-fig}
+| Phần | Nội dung bắt buộc |
+|:---|:---|
+| Bối cảnh | Vấn đề và mục tiêu (1-2 câu) |
+| Phương pháp | Thiết kế, bối cảnh, đối tượng, can thiệp/phơi nhiễm, so sánh, kết cục chính |
+| Kết quả | Số sàng lọc và phân tích, kết quả chính dưới dạng cỡ tác động + KTC 95% (+ p), tác hại chính |
+| Kết luận | Trả lời câu hỏi chính, không hơn |
+| Đăng ký | Số đăng ký thử nghiệm (với thử nghiệm) |
+
+::: {.neu-table-caption}
+Thường 250-300 từ
+:::
 
 ::: {.neu-takeaway}
 **THÔNG ĐIỆP CHÍNH** Tóm tắt tốt giúp bạn viết PICO và kết quả chính mà không cần mở bài báo.
@@ -756,20 +1038,43 @@ Thời gian: 3 phút.
 ::: {.notes}
 Đa số tạp chí lâm sàng yêu cầu tóm tắt có cấu trúc: Bối cảnh, Phương pháp, Kết quả, Kết luận (cộng số đăng ký với thử nghiệm).
 
-Phương pháp phải nêu thiết kế, bối cảnh, đối tượng, can thiệp hoặc phơi nhiễm, so sánh và kết cục CHÍNH.
+Phương pháp phải nêu thiết kế, bối cảnh, đối tượng, can thiệp hoặc phơi nhiễm, so sánh và kết cục chính.
 
 Kết quả phải có số sàng lọc và phân tích, và kết quả chính dưới dạng cỡ tác động kèm khoảng tin cậy (KTC) 95%, không chỉ giá trị p hay chữ 'có ý nghĩa'.
 
 Kết luận trả lời câu hỏi chính, không hơn, không kém. Các hướng dẫn báo cáo có bảng kiểm cho tóm tắt (CONSORT for Abstracts, STROBE), học ở Buổi 8.
 
-Hỏi cả lớp: 'Tóm tắt chỉ viết: tử vong thấp hơn có ý nghĩa (p \< 0,05). Thiếu gì?' Mong đợi: tỷ lệ thực tế, cỡ tác động và khoảng tin cậy.
+Hỏi cả lớp (chat): 'Tóm tắt chỉ viết: tử vong thấp hơn có ý nghĩa (p \< 0.05). Thiếu gì?' Mong đợi: tỷ lệ thực tế, cỡ tác động và khoảng tin cậy.
 
 Thời gian: 3 phút.
 :::
 
 ## Một câu kết quả: kém và tốt
 
-![](images/figures/sat1/abstract_results_good_bad.png){.neu-fig}
+::: {.neu-intro}
+Số liệu minh họa. Hỏi mọi tóm tắt: lớn cỡ nào, chắc đến đâu, lúc nào?
+:::
+
+:::: {.neu-cards style="--n:2"}
+::: {.neu-card .plain style="--c:#B23B2E"}
+[Câu kết quả kém]{.neu-card-title}
+
+- "Tử vong thấp hơn có ý nghĩa ở nhóm can thiệp (p \< 0.05)."
+- Không có số mỗi nhóm
+- Không có cỡ tác động
+- Không có KTC 95%
+- Không có mốc thời gian
+:::
+::: {.neu-card .plain style="--c:#2E8B57"}
+[Câu kết quả tốt]{.neu-card-title}
+
+- "Tử vong 28 ngày là 30% ở nhóm hạn chế so với 38% ở nhóm thường quy (chênh lệch nguy cơ -8 điểm %, KTC 95% -15 đến -1)."
+- Có số mỗi nhóm
+- Có cỡ tác động
+- Có KTC 95%
+- Có mốc thời gian
+:::
+::::
 
 ::: {.neu-takeaway}
 **THÔNG ĐIỆP CHÍNH** Mỗi kết quả chính cần: số mỗi nhóm, cỡ tác động, KTC 95% và mốc thời gian.
@@ -778,20 +1083,25 @@ Thời gian: 3 phút.
 ::: {.notes}
 Ví dụ mẫu (số liệu minh họa, không từ thử nghiệm thật).
 
-Bên trái: 'thấp hơn có ý nghĩa (p \< 0,05)' không cho biết khác biệt lớn cỡ nào, chắc chắn đến đâu, hay đo lúc nào.
+Bên trái: 'thấp hơn có ý nghĩa (p \< 0.05)' không cho biết khác biệt lớn cỡ nào, chắc chắn đến đâu, hay đo lúc nào.
 
 Bên phải: tỷ lệ mỗi nhóm, độ lớn khác biệt (8 điểm phần trăm), khoảng tin cậy (KTC) 95% và mốc thời gian (28 ngày). Người đọc có thể đánh giá khác biệt có ý nghĩa lâm sàng không.
 
 Ý chính: hỏi 'lớn cỡ nào, chắc đến đâu, lúc nào?' với mọi kết quả bạn đọc. Khoảng tin cậy được giải thích kỹ ở Buổi 6.
 
-Hỏi cả lớp: 'Câu nào đủ tin cậy để thay đổi thực hành?' Mong đợi: câu bên phải, vì thấy được độ lớn và độ không chắc chắn.
+Hỏi cả lớp (bình chọn, trái hay phải): 'Câu nào đủ tin cậy để thay đổi thực hành?' Mong đợi: câu bên phải, vì thấy được độ lớn và độ không chắc chắn.
 
 Thời gian: 3 phút.
 :::
 
 ## Thổi phồng (spin): khi lời văn vượt quá dữ liệu
 
-![](images/figures/sat1/spin.png){.neu-fig}
+| Dữ liệu nói gì | Lời văn nói gì (thổi phồng) | Gặp ở |
+|:---|:---|:---|
+| Giá trị p | p = 0.42 | ["một xu hướng không có ý nghĩa"]{style="color:#B23B2E"} | Bài báo 1, Bàn luận |
+| Kết cục | Kết cục chính: không khác biệt | [Tiêu điểm = một kết cục phụ có lợi]{style="color:#B23B2E"} |
+| Thiết kế | Liên quan trong quan sát | ["Tác động của...", "làm giảm"]{style="color:#B23B2E"} | Bài báo 2, tiêu đề |
+| So sánh | Không so sánh giữa nhóm | ["Người bệnh cải thiện" (chỉ trước-sau)]{style="color:#B23B2E"} |
 
 ::: {.neu-takeaway}
 **THÔNG ĐIỆP CHÍNH** Đọc con số trước, rồi kiểm tra lời văn có khớp với chúng không.
@@ -800,11 +1110,11 @@ Thời gian: 3 phút.
 ::: {.notes}
 Thổi phồng (spin) = trình bày làm kết quả trông tốt hơn mức dữ liệu cho phép. Hay gặp trong tóm tắt của thử nghiệm có kết cục chính không có ý nghĩa.
 
-Dòng 1: phần Bàn luận của Bài báo 1 gọi p = 0,42 của kết cục chính là 'xu hướng không có ý nghĩa'. p = 0,42 không phải bằng chứng có khác biệt; cách viết đúng là 'không có khác biệt có ý nghĩa; khoảng tin cậy rộng'. Đáng khen là kết luận trong TÓM TẮT của Bài báo 1 không thổi phồng.
+Dòng 1: phần Bàn luận của Bài báo 1 gọi p = 0.42 của kết cục chính là 'xu hướng không có ý nghĩa'. p = 0.42 không phải bằng chứng có khác biệt. Cách viết đúng là 'không có khác biệt có ý nghĩa, và khoảng tin cậy rộng'. Đáng khen là kết luận trong phần tóm tắt của Bài báo 1 không thổi phồng.
 
 Dòng 2: nhấn mạnh một kết cục phụ có lợi khi kết cục chính không cho thấy gì.
 
-Dòng 3: từ ngữ nhân quả cho dữ liệu quan sát. Tiêu đề Bài báo 2 viết 'Impact of...' (tác động) dù đoàn hệ chỉ cho thấy liên quan (phần kết luận tóm tắt viết đúng là 'associated').
+Dòng 3: từ ngữ nhân quả cho dữ liệu quan sát. Tiêu đề Bài báo 2 viết 'Impact of...' (tác động) dù thuần tập chỉ cho thấy liên quan (phần kết luận tóm tắt viết đúng là 'associated').
 
 Dòng 4: tuyên bố cải thiện dựa trên thay đổi trước-sau trong một nhóm, không so sánh giữa các nhóm.
 
@@ -820,18 +1130,20 @@ CÂU HỎI NHANH · 3 phút
 :::
 
 ::: {.neu-activity-steps style="--c:#6C3483"}
-- Một nghiên cứu đoàn hệ: 'Cho ăn sớm LÀM GIẢM viêm phổi ở bệnh nhân đột quỵ'
-- Kết cục chính p = 0,31: 'một xu hướng có lợi đầy hứa hẹn'
-- Kết cục chính không khác biệt; tiêu điểm tóm tắt: 'cải thiện sự hài lòng của bệnh nhân'
-- 'Tử vong giảm từ 30% xuống 22% sau quy trình mới' (không có nhóm chứng)
+- Một nghiên cứu thuần tập: 'Cân bằng dịch dương làm tăng tử vong trong nhiễm khuẩn huyết'
+- Kết cục chính p = 0.31: 'một xu hướng có lợi đầy hứa hẹn'
+- Kết cục chính không khác biệt, nhưng tiêu điểm tóm tắt lại là 'cải thiện sự hài lòng của người bệnh'
+- 'Tử vong giảm từ 30% xuống 22% sau quy trình dịch mới của chúng tôi' (không có nhóm chứng)
 :::
 
 ::: {.neu-output style="--c:#6C3483"}
-**SẢN PHẨM** Mỗi câu: thổi phồng ở đâu, và bạn viết lại thế nào?
+**SẢN PHẨM** Mỗi câu, giảng viên gọi 2-3 bạn bật micro: thổi phồng ở đâu, và bạn viết lại thế nào?
 :::
 
 ::: {.notes}
-Đáp án: 1 Từ nhân quả cho thiết kế quan sát: viết 'có liên quan với viêm phổi thấp hơn'. 2 p = 0,31 không phải bằng chứng có khác biệt: viết 'không có khác biệt có ý nghĩa; KTC rộng'. 3 Tiêu điểm là kết cục phụ: nêu kết quả chính trước. 4 Thay đổi trước-sau không có nhóm so sánh, và các yếu tố khác có thể đã thay đổi: viết 'tử vong thấp hơn sau khi áp dụng; không có nhóm chứng nên không thể quy cho quy trình'.
+Làm từng câu một. Cho cả lớp 30 giây suy nghĩ, rồi gọi tên một hoặc hai học viên bật micro nói thổi phồng ở đâu và sẽ viết lại thế nào. Hỏi cả lớp có ai không đồng ý trước khi đưa đáp án.
+
+Đáp án: 1 Từ nhân quả cho thiết kế quan sát: viết 'có liên quan với tử vong cao hơn'. 2 p = 0.31 không phải bằng chứng có khác biệt: viết 'không có khác biệt có ý nghĩa, và KTC rộng'. 3 Tiêu điểm là kết cục phụ: nêu kết quả chính trước. 4 Thay đổi trước-sau không có nhóm so sánh, và các yếu tố khác có thể đã thay đổi: viết 'tử vong thấp hơn sau khi áp dụng, nhưng không có nhóm chứng nên không thể quy cho quy trình'.
 
 Thời gian: 3 phút.
 :::
@@ -845,20 +1157,20 @@ BÀI TẬP CÁ NHÂN · 12 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0B376C"}
-- Lấy phần tóm tắt của Bài báo 1 (Boulet 2024, Crit Care)
+- Mở Bài báo 1 (Boulet 2024, Crit Care): tóm tắt ở trang 1
 - Điền bảng đọc (Bài tập 3): thiết kế, P, I vs C
 - Kết cục chính, số sàng lọc và số phân tích
 - Kết quả chính kèm KTC 95% và giá trị p
 - Kết luận có khớp với kết quả? Có thổi phồng không?
-- So sánh bảng của bạn với người bên cạnh
+- Gõ kết cục chính và kết quả chính vào chat
 :::
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#0B376C"}
 Thời gian
 
-- 8 phút đọc
-- 4 phút so sánh
+- 8 phút tự đọc
+- 4 phút kiểm tra trong chat
 :::
 :::
 ::::
@@ -868,11 +1180,11 @@ Thời gian
 :::
 
 ::: {.notes}
-Làm cá nhân, yên lặng trong 8 phút, rồi 4 phút so sánh với người bên cạnh. Người mới cần thêm thời gian. Đừng vội.
+Làm cá nhân, yên lặng trong 8 phút (có thể tắt camera), rồi 4 phút mọi người gõ kết cục chính và kết quả chính vào chat và giảng viên nhận xét. Người mới cần thêm thời gian. Đừng vội.
 
-Học viên đọc tóm tắt thật từ bản phát tay (Course/Papers có bản chú giải tiếng Anh và tiếng Việt, nhưng nên dùng tóm tắt gốc không chú giải cho bài tập này).
+Bài báo nằm ở: Course/Papers/Paper 1 - Boulet 2024 Crit Care (RCT) - original.pdf (bản gốc sạch, không có chú giải của khóa học). Bài báo truy cập mở (CC BY-NC-ND), nên được chia sẻ bản gốc không chỉnh sửa. Trang 'Hai bài báo' trên website khóa học có link DOI (10.1186/s13054-024-05155-z), và giảng viên dán link vào chat trong giờ giải lao. Các bản chú giải (tiếng Anh và tiếng Việt, cũng trong Course/Papers) dùng sau bài tập.
 
-Đi vòng. Ô khó nhất: kết cục chính (nhiều người ghi 'tử vong', nhưng thực ra là cân bằng dịch tích lũy ngày 5) và kết quả chính (cần chép chênh lệch kèm KTC 95%, -15,2 đến 41,6, cắt qua số 0).
+Theo dõi chat. Ô khó nhất: kết cục chính (nhiều người ghi 'tử vong', nhưng thực ra là cân bằng dịch tích lũy ngày 5) và kết quả chính (cần chép chênh lệch kèm KTC 95%, -15.2 đến 41.6, cắt qua số 0).
 
 Ai xong sớm: đọc tóm tắt Bài báo 2 và tìm từ trong tiêu đề nói quá so với thiết kế ('Impact').
 
@@ -881,20 +1193,29 @@ Thời gian: 12 phút. Đáp án ở slide sau.
 
 ## Tóm tắt Bài báo 1: đáp án
 
-![](images/figures/sat1/abstract_grid_paper1.png){.neu-fig}
+| Mục | Bài báo 1 ghi gì |
+|:---|:---|
+| Thiết kế | RCT thử nghiệm, mù đơn (người bệnh và nhà thống kê), 3 ICU |
+| P | Người lớn 18-85 tuổi, sốc nhiễm khuẩn, 24 giờ đầu dùng vận mạch |
+| I vs C | Hạn chế dịch duy trì và dịch pha thuốc (7 ngày) vs tiêu chuẩn |
+| Kết cục chính | Cân bằng dịch tích lũy ngày 5 (ml/kg) |
+| Số lượng | 1 201 sàng lọc, 50 phân nhóm, 48 phân tích (24 mỗi nhóm) |
+| **Kết quả chính** | **Trung vị 6.9 vs 35.0 ml/kg. Chênh lệch 13.2 (KTC 95% -15.2 đến 41.6), p = 0.42** |
+| **Kết luận** | Không giảm cân bằng dịch ngày 5 (khớp với kết quả) |
+| Đăng ký | ClinicalTrials.gov NCT04947904 |
 
 ::: {.neu-takeaway}
 **THÔNG ĐIỆP CHÍNH** Kết cục chính là cân bằng dịch, không phải tử vong. Hãy đọc đúng điều nghiên cứu đã đo.
 :::
 
 ::: {.notes}
-Đi nhanh qua bảng; mỗi dòng hỏi một bàn khác nhau.
+Đi nhanh qua bảng. Hỏi từng dòng trong chat trước khi hiện đáp án.
 
-Điểm chính: (1) thử nghiệm PILOT với 48 bệnh nhân được phân tích; (2) kết cục chính là cân bằng dịch tích lũy ngày 5, không phải tử vong; (3) KTC của chênh lệch (-15,2 đến 41,6 ml/kg) chứa số 0, nên không có bằng chứng khác biệt; (4) kết luận tóm tắt khớp với kết quả (thực hành tốt); (5) thử nghiệm đã được đăng ký.
+Điểm chính. (1) Thử nghiệm pilot (thí điểm) với 48 người bệnh được phân tích. (2) Kết cục chính là cân bằng dịch tích lũy ngày 5, không phải tử vong. (3) KTC của chênh lệch (-15.2 đến 41.6 ml/kg) chứa số 0, nên không có bằng chứng khác biệt. (4) Kết luận tóm tắt khớp với kết quả (thực hành tốt). (5) Thử nghiệm đã được đăng ký.
 
-Nếu có học viên tinh ý hỏi: trung vị (6,9 vs 35,0 ml/kg) chênh nhau nhiều hơn mức chênh lệch được báo cáo 13,2 vì 13,2 là chênh lệch giữa hai trung bình (phần Phương pháp báo cáo chênh lệch trung bình kèm KTC 95%), không phải chênh lệch giữa hai trung vị. Bản chú giải của khóa học có nêu điểm không khớp này. Để dành cho Buổi 6-8.
+Nếu có học viên tinh ý hỏi: trung vị (6.9 vs 35.0 ml/kg) chênh nhau nhiều hơn mức chênh lệch được báo cáo 13.2 vì 13.2 là chênh lệch giữa hai trung bình (phần Phương pháp báo cáo chênh lệch trung bình kèm KTC 95%), không phải chênh lệch giữa hai trung vị. Bản chú giải của khóa học có nêu điểm không khớp này. Để dành cho Buổi 6-8.
 
-Liên hệ câu hỏi của ta: thử nghiệm này KHÔNG trả lời câu hỏi tử vong 28 ngày. Nó trả lời câu hỏi kiểu khả thi về cân bằng dịch. Đó chính là 'phiên bản khả thi' ở slide FINER.
+Liên hệ câu hỏi của ta: thử nghiệm này không trả lời câu hỏi tử vong 28 ngày. Nó trả lời câu hỏi kiểu khả thi về cân bằng dịch. Đó chính là 'phiên bản khả thi' ở slide FINER.
 
 Thời gian: 5 phút, đi từng dòng. Phần 2.3 kết thúc lúc 2:05.
 :::
@@ -912,7 +1233,7 @@ Các bài báo bạn đọc trở thành trang đầu tiên của đề cương.
 ::::
 
 ::: {.notes}
-PHẦN 2.4 (2:05-2:20).
+PHẦN 2.4 (2:05-2:20, 21:35-21:50).
 
 Ý chính: đọc chưa phải là xong. Bảng ma trận tài liệu biến các bài báo thành khoảng trống, khoảng trống thành phần đặt vấn đề, và PICO thành tên đề tài tạm.
 
@@ -921,7 +1242,12 @@ Thời gian: 30 giây.
 
 ## Phiếu tổng quan tài liệu
 
-![](images/figures/sat1/lit_matrix.png){.neu-fig}
+| Nghiên cứu | Thiết kế, cỡ mẫu | So sánh | Kết cục chính: kết quả | Hạn chế chính |
+|:---|:---|:---|:---|:---|
+| Boulet 2024 Crit Care | RCT thử nghiệm, 3 ICU, n = 48 | Hạn chế dịch "ẩn" vs tiêu chuẩn | Cân bằng dịch ngày 5: khác biệt không ý nghĩa | Cỡ mẫu nhỏ, không đủ lực cho tử vong |
+| Hyun 2023 Ann Intensive Care | Thuần tập ghép cặp, sổ đăng ký, 20 BV | Cân bằng dịch dương vs âm | Tử vong 28 ngày cao hơn nếu dương ở ngày 2-3 | Quan sát: có thể có yếu tố gây nhiễu |
+| Meyhoff 2022 N Engl J Med | RCT lớn (CLASSIC), n = 1 554 | Hạn chế vs dịch tĩnh mạch chuẩn | Tử vong 90 ngày 42.3% vs 42.1%: không khác | Bác sĩ không được làm mù |
+| **[Bài báo 4 của bạn]{style="color:#595959"}** | [...]{style="color:#595959"} | [...]{style="color:#595959"} | [...]{style="color:#595959"} | [...]{style="color:#595959"} |
 
 ::: {.neu-takeaway}
 **THÔNG ĐIỆP CHÍNH** Mỗi bài một dòng: hôm nay 5 dòng, mọi bài cùng các cột.
@@ -930,7 +1256,7 @@ Thời gian: 30 giây.
 ::: {.notes}
 Phiếu nằm trong Course/Templates (phiếu tổng quan tài liệu, literature review worksheet). Mỗi bài một dòng, các cột giống nhau.
 
-Dòng 1-3 là các bài của khóa học: Bài báo 1 (Boulet 2024, RCT thử nghiệm: cân bằng dịch, khác biệt không có ý nghĩa), Bài báo 2 (Hyun 2023, đoàn hệ ghép cặp: cân bằng dương ở ngày 2-3 liên quan với tử vong 28 ngày cao hơn), và CLASSIC (Meyhoff 2022: không khác biệt tử vong 90 ngày).
+Dòng 1-3 là các bài của khóa học: Bài báo 1 (Boulet 2024, RCT thử nghiệm: cân bằng dịch, khác biệt không có ý nghĩa), Bài báo 2 (Hyun 2023, thuần tập ghép cặp: cân bằng dương ở ngày 2-3 liên quan với tử vong 28 ngày cao hơn), và CLASSIC (Meyhoff 2022: không khác biệt tử vong 90 ngày).
 
 Lưu ý: ba bài đo kết cục khác nhau ở thời điểm khác nhau. Bảng ma trận làm điều này lộ ra ngay.
 
@@ -952,7 +1278,7 @@ Các bài báo bạn đọc trở thành phần Đặt vấn đề của đề c
 
 Đoạn 1, điều đã biết: quy mô vấn đề và thực hành hiện tại, có trích dẫn.
 
-Đoạn 2, điều chưa biết: khoảng trống (nghiên cứu mâu thuẫn, chưa có nghiên cứu trên bệnh nhân như của ta, kết cục chưa được đo). Cột 'hạn chế' trong bảng ma trận tài liệu nuôi đoạn này.
+Đoạn 2, điều chưa biết: khoảng trống (nghiên cứu mâu thuẫn, chưa có nghiên cứu trên người bệnh như của ta, kết cục chưa được đo). Cột 'hạn chế' trong bảng ma trận tài liệu nuôi đoạn này.
 
 Đoạn 3, vì sao quan trọng ở đây: số liệu tại chỗ (audit, phân tích sự cố, một con số của khoa). Sau đó nêu câu hỏi và mục đích.
 
@@ -963,7 +1289,15 @@ Thời gian: 3 phút.
 
 ## Một đoạn đặt vấn đề mẫu
 
-![](images/figures/sat1/problem_statement_example.png){.neu-fig}
+| Đoạn | Văn bản mẫu |
+|:---|:---|
+| 1  Điều đã biết | Sốc nhiễm khuẩn là nguyên nhân tử vong hàng đầu ở ICU. Dịch sớm cải thiện tưới máu, nhưng truyền tiếp thường gây cân bằng dịch dương, điều mà các nghiên cứu thuần tập thấy liên quan với tử vong cao hơn \[2\]. |
+| 2  Điều chưa biết | Các thử nghiệm lớn về hạn chế dịch không thấy khác biệt tử vong \[3, 4\], và một pilot nhắm vào dịch "ẩn" không giảm có ý nghĩa cân bằng dịch \[1\]. Chưa rõ hạn chế dịch có làm được trong bối cảnh của chúng ta không. |
+| 3  Vì sao quan trọng ở đây | Audit 3 tháng của khoa cho thấy phần lớn người bệnh sốc nhiễm khuẩn dương dịch vào ngày 3, và thực hành khác nhau giữa các bác sĩ. Vì vậy chúng tôi đặt câu hỏi: \[câu hỏi PICO\]. |
+
+::: {.neu-table-caption}
+Văn bản mẫu: thay số liệu audit bằng số của bạn
+:::
 
 ::: {.neu-takeaway}
 **THÔNG ĐIỆP CHÍNH** Ba đoạn ngắn, mỗi đoạn một nhiệm vụ, và tài liệu tham khảo trong ngoặc.
@@ -972,20 +1306,46 @@ Thời gian: 3 phút.
 ::: {.notes}
 Đây là cái phễu khi viết thành văn bản thật, cho phiên bản khả thi của ví dụ xuyên suốt.
 
-Đoạn 1 (đã biết) trích Bài báo 2. Đoạn 2 (chưa biết) trích CLASSIC, CLOVERS và Bài báo 1, kết thúc bằng khoảng trống. Đoạn 3 (vì sao ở đây) dùng số liệu TẠI CHỖ (thay câu về audit bằng số liệu của bạn) và kết thúc bằng câu hỏi.
+Đoạn 1 (đã biết) trích Bài báo 2. Đoạn 2 (chưa biết) trích CLASSIC, CLOVERS và Bài báo 1, kết thúc bằng khoảng trống. Đoạn 3 (vì sao ở đây) dùng số liệu tại chỗ (thay câu về audit bằng số liệu của bạn) và kết thúc bằng câu hỏi.
 
-Ý chính: mỗi câu nêu dữ kiện đều có số trích dẫn; câu cuối dẫn thẳng vào câu hỏi PICO.
+Ý chính: mỗi câu nêu dữ kiện đều có số trích dẫn, và câu cuối dẫn thẳng vào câu hỏi PICO.
 
 Quan niệm sai: 'phần đặt vấn đề phải dài và ấn tượng'. Khoảng 300 từ là đủ cho một đề cương.
 
-Nhóm có thể viết đề cương bằng tiếng Việt, nhưng tìm kiếm và trích dẫn bằng tiếng Anh.
+Bạn có thể viết đề cương bằng tiếng Việt, nhưng tìm kiếm và trích dẫn bằng tiếng Anh.
 
 Thời gian: 4 phút.
 :::
 
 ## Tên đề tài tạm và từ khóa từ PICO
 
-![](images/figures/sat1/title_keywords.png){.neu-fig}
+:::: {.neu-cards style="--n:3"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[Từ PICO]{.neu-card-title}
+
+- P: người lớn bị sốc nhiễm khuẩn
+- I: hạn chế dịch
+- C: dịch thường quy
+- O: cân bằng dịch
+- TK (thiết kế): RCT thử nghiệm
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[Tên đề tài tạm (13 từ)]{.neu-card-title}
+
+- "Restrictive versus usual fluids in adults with septic shock: a pilot randomised trial"
+- 10-16 từ, thấy rõ đối tượng, so sánh, thiết kế
+- Không viết tắt, không dùng 'tác động' cho dữ liệu quan sát
+:::
+::: {.neu-card .plain style="--c:#055F56"}
+[Từ khóa (3-6)]{.neu-card-title}
+
+- **Thuật ngữ MeSH chưa có trong tiêu đề**
+- Fluid Therapy
+- Water-Electrolyte Balance
+- Critical Care
+- Vasoconstrictor Agents
+:::
+::::
 
 ::: {.neu-takeaway}
 **THÔNG ĐIỆP CHÍNH** PICO đã chứa sẵn tên đề tài: thêm thiết kế và giữ ngắn gọn.
@@ -998,9 +1358,9 @@ Ví dụ từ phiên bản khả thi: 'Restrictive versus usual fluids in adults
 
 Tránh viết tắt và từ quảng cáo hay nhân quả ('tác động', 'mới', 'hiệu quả của'), nhất là với thiết kế quan sát (so sánh tiêu đề Bài báo 2).
 
-Từ khóa: 3 đến 6, tốt nhất là thuật ngữ MeSH CHƯA có trong tiêu đề, để bài được tìm thấy qua nhiều chuỗi tìm kiếm hơn (bản chú giải Bài báo 1 cũng nêu điểm này).
+Từ khóa: 3 đến 6, tốt nhất là thuật ngữ MeSH chưa có trong tiêu đề, để bài được tìm thấy qua nhiều chuỗi tìm kiếm hơn (bản chú giải Bài báo 1 cũng nêu điểm này).
 
-Hỏi cả lớp: 'Dịch truyền ở ICU có phải tên đề tài tốt?' Mong đợi: không. Thiếu đối tượng, so sánh và thiết kế.
+Hỏi cả lớp (chat): 'Dịch truyền ở ICU có phải tên đề tài tốt?' Mong đợi: không. Thiếu đối tượng, so sánh và thiết kế.
 
 Thời gian: 4 phút. Phần 2.4 kết thúc lúc 2:20.
 :::
@@ -1009,73 +1369,68 @@ Thời gian: 4 phút. Phần 2.4 kết thúc lúc 2:20.
 
 :::: {.neu-statement}
 ::: {.neu-big}
-Giờ hãy tìm bằng chứng cho nhóm: một chuỗi tìm kiếm, năm bài báo, một đoạn đặt vấn đề, một tên đề tài.
+Giờ hãy tìm bằng chứng cho câu hỏi của riêng bạn: một chuỗi tìm kiếm, năm bài báo, một đoạn đặt vấn đề, một tên đề tài.
 :::
 
 ::: {.neu-sub}
-35 phút làm việc nhóm để hoàn thành Phần 1 của đề cương nghiên cứu
+35 phút: giảng viên tìm trực tiếp cho ví dụ xuyên suốt, rồi bạn tìm cho câu hỏi của mình
 :::
 ::::
 
 ::: {.notes}
-XÂY DỰNG ĐỀ CƯƠNG 2 (2:20-2:55).
+XÂY DỰNG ĐỀ CƯƠNG 2 (2:20-2:55, 21:50-22:25). 35 phút bắt đầu từ slide này.
 
-Ý chính: mọi điều học hôm nay được áp dụng cho câu hỏi của nhóm từ thứ Bảy tuần trước. Đến 2:55 mỗi nhóm có một chuỗi tìm kiếm được ghi lại, ít nhất 3-5 tài liệu trong bảng ma trận, bản nháp đặt vấn đề và tên đề tài tạm.
+Ý chính: mọi điều học hôm nay được áp dụng cho câu hỏi của riêng mỗi học viên từ thứ Bảy tuần trước. Mỗi người làm đề cương của mình. Không ai làm theo nhóm.
 
-Đảm bảo mỗi nhóm có laptop hoặc điện thoại cho người tìm kiếm.
+Cuối phần này, mỗi học viên có một chuỗi tìm kiếm được ghi lại, một số trong 5 tài liệu đã lưu vào Zotero và phiếu tổng quan, và bản nháp đầu tiên của phần đặt vấn đề và tên đề tài. Phần còn lại là bài về nhà.
 
-Thời gian: 1 phút.
+Chuyển ngay sang slide sau.
 :::
 
-## Xây dựng đề cương 2: bằng chứng của nhóm
+## Xây dựng đề cương 2: bằng chứng cho câu hỏi của bạn
 
 ::: {.neu-banner style="--c:#055F56"}
-XÂY DỰNG ĐỀ CƯƠNG · 33 phút
+XÂY DỰNG ĐỀ CƯƠNG · 35 phút
 :::
 
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#055F56"}
-- Chạy chuỗi tìm kiếm trên PubMed; ghi ngày và số kết quả
-- Sàng lọc tiêu đề và tóm tắt; chọn 5 bài chính; xuất sang Zotero
-- Điền mỗi bài một dòng trong bảng ma trận tài liệu
-- Viết nháp đặt vấn đề: đã biết, chưa biết, vì sao ở đây
-- Tên đề tài tạm (10-16 từ) + 3-6 từ khóa
-- Một nhóm đọc to tên đề tài và khoảng trống
+- Xem giảng viên sàng lọc trực tiếp kết quả tìm kiếm của ví dụ xuyên suốt, và gợi ý bài và từ khóa trong chat
+- Chạy chuỗi tìm kiếm của bạn trên PubMed. Ghi ngày và số kết quả
+- Sàng lọc tiêu đề và tóm tắt, chọn 5 bài chính và lưu vào Zotero
+- Điền mỗi bài một dòng trong phiếu tổng quan tài liệu
+- Viết nháp đặt vấn đề (đã biết, chưa biết, vì sao ở đây) và tên đề tài tạm
+- Hai bạn tình nguyện đọc to tên đề tài và câu nêu khoảng trống
 :::
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#055F56"}
 Thời gian
 
-- 0-8 phút: chạy tìm kiếm
-- 8-16: sàng lọc + chọn 5 bài
-- 16-22: các dòng ma trận
-- 22-28: đặt vấn đề
-- 28-31: tên đề tài + từ khóa
-- 31-33: 1 nhóm đọc to
+- 0-10 phút: giảng viên làm mẫu trực tiếp
+- 10-30 phút: bạn tự tìm và viết phần của mình
+- 30-35 phút: hai bạn tình nguyện chia sẻ
 :::
 :::
 ::::
 
 ::: {.neu-output style="--c:#055F56"}
-**SẢN PHẨM** Hoàn thành Đề cương Phần 1: tìm kiếm, 5 tài liệu, đặt vấn đề, tên đề tài
+**SẢN PHẨM** Tiếp tục Đề cương Phần 1 của bạn: tìm kiếm, 5 tài liệu, đặt vấn đề, tên đề tài
 :::
 
 ::: {.notes}
-Vai trò: người tìm kiếm chạy PubMed và xuất tài liệu; thư ký điền bảng ma trận và mẫu; các thành viên khác đọc tóm tắt song song (chia nhau 5 bài).
+Phút 0-10, cả lớp: chạy lại chuỗi tìm kiếm của ví dụ xuyên suốt từ phần trình diễn, cùng sàng lọc các tiêu đề đầu tiên (học viên gõ 'giữ' hoặc 'bỏ' trong chat và gợi ý thêm từ khóa), lưu hai bài vào Zotero, điền một dòng phiếu tổng quan và chỉ ra đoạn đặt vấn đề và tên đề tài mẫu.
 
-Giảng viên đi vòng. Lần ghé đầu: chuỗi tìm kiếm có hợp lý không (ngoặc, OR trong khối, AND giữa khối, không có khối so sánh)? Quá nhiều kết quả: thêm khối hoặc bộ lọc. Quá ít: thêm từ đồng nghĩa.
+Phút 10-30, mỗi người tự làm với câu hỏi của mình. Có thể tắt camera. Giảng viên trả lời câu hỏi trong chat. Lỗi hay gặp: quá nhiều kết quả (thêm khối hoặc bộ lọc), quá ít (thêm từ đồng nghĩa), có khối so sánh, AND trong một khối.
 
-Lần ghé thứ hai: phần đặt vấn đề có kết thúc bằng câu hỏi của nhóm không, và đoạn 2 có thật sự nêu khoảng trống không?
+Ai chưa xong 5 tài liệu thì ghi lại chuỗi tìm kiếm, cơ sở dữ liệu và ngày. Phần còn lại thành bài về nhà.
 
-Nếu nhóm chưa xong 5 tài liệu, ghi lại chuỗi tìm kiếm, cơ sở dữ liệu và ngày; phần còn lại thành bài về nhà.
-
-Lúc 2:51 (phút thứ 31), dừng; một nhóm đọc to tên đề tài và câu nêu khoảng trống; mời lớp góp một ý cải thiện.
+Phút 30-35: hai bạn tình nguyện bật micro đọc to tên đề tài và câu nêu khoảng trống, và cả lớp góp một ý cải thiện cho mỗi bạn trong chat.
 
 Thế nào là tốt: Course/Solutions/s2\_solutions.md (Bài tập 4).
 
-Thời gian: 33 phút. Tổng kết bắt đầu lúc 2:55.
+Thời gian: 35 phút. Tổng kết bắt đầu lúc 2:55 (22:25).
 :::
 
 ## Từ khóa của buổi học
@@ -1090,9 +1445,9 @@ Thời gian: 33 phút. Tổng kết bắt đầu lúc 2:55.
 | Thổi phồng (spin) | Lời văn khẳng định nhiều hơn những gì con số cho thấy |
 
 ::: {.notes}
-TỔNG KẾT (2:55-3:00).
+TỔNG KẾT (2:55-3:00, 22:25-22:30).
 
-Đọc nhanh sáu từ khóa; chúng cũng có trong bảng thuật ngữ của khóa học (Anh-Việt).
+Đọc nhanh sáu từ khóa. Chúng cũng có trong bảng thuật ngữ của khóa học (Anh-Việt).
 
 Thời gian: 1 phút.
 :::
@@ -1103,60 +1458,74 @@ Thời gian: 1 phút.
 ::: {.neu-card .plain style="--c:#0D7377"}
 [Tìm kiếm]{.neu-card-title}
 
-- Khối PICO, MeSH +
-- từ tự do; OR trong khối,
-- AND giữa khối; ghi lại
+- Khối PICO, MeSH và từ tự do
+- OR trong khối, AND giữa các khối
+- Ghi lại chiến lược tìm kiếm
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
 [Trích dẫn trung thực]{.neu-card-title}
 
-- Phần mềm quản lý tài
-- liệu từ ngày đầu; lời
-- của mình; đọc bài mình trích
+- Zotero từ ngày đầu
+- Lời của chính mình
+- Đọc bài mình trích dẫn
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
 [Đọc thông minh]{.neu-card-title}
 
-- Tiêu đề, tóm tắt,
-- hình bảng, phương pháp;
-- con số trước lời văn
+- Tiêu đề, tóm tắt, hình bảng, phương pháp
+- Con số trước lời văn
 :::
 ::::
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Xong Tuần 1-2: nhóm bạn có câu hỏi, năm bài báo và tên đề tài.
+**THÔNG ĐIỆP CHÍNH** Xong Tuần 1-2: bạn có câu hỏi, năm bài báo và tên đề tài.
 :::
 
 ::: {.notes}
 Đọc ba thông điệp, rồi hỏi một học viên: 'Điều đầu tiên bạn tìm trong phần tóm tắt là gì?' Mong đợi: kết cục chính và kết quả của nó kèm KTC.
 
-Nối sang buổi sau: hai thứ Bảy tới (Buổi 3 và 4) ta chọn THIẾT KẾ phù hợp cho câu hỏi của từng nhóm, và tìm hiểu sai lệch, yếu tố gây nhiễu và các số đo tác động qua hai bài báo về dịch truyền.
+Nối sang buổi sau: hai thứ Bảy tới (Buổi 3 và 4) ta chọn thiết kế phù hợp cho từng câu hỏi, và tìm hiểu sai lệch, yếu tố gây nhiễu và các số đo tác động qua hai bài báo về dịch truyền.
 
-Thời gian: 1,5 phút.
+Thời gian: 1.5 phút.
 :::
 
-## Câu hỏi cuối buổi
+## Câu hỏi cuối buổi (trong chat)
 
 ::: {.neu-banner style="--c:#6C3483"}
 CÂU HỎI NHANH · 2 phút
 :::
 
+:::: {.columns}
+::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-- Chuỗi nào cho NHIỀU kết quả hơn: septic shock AND fluids, hay septic shock OR fluids?
-- Kết cục chính của Bài báo 1 là gì?
-- Viết cả hai câu trả lời lên giấy dán (không cần ghi tên) và dán lên cửa khi ra về
+- Trả lời ngay trong chat, hoặc trong biểu mẫu một câu hỏi có link trong chat
+- Câu 1: chuỗi nào cho nhiều kết quả hơn: septic shock AND fluids, hay septic shock OR fluids?
+- Câu 2: kết cục chính của Bài báo 1 là gì?
 :::
+:::
+::: {.column width="40%"}
+::: {.neu-side .plain style="--c:#6C3483"}
+Vì sao hỏi
+
+- Không phải bài về nhà, không chấm điểm
+- Cho biết điều gì còn chưa rõ
+- Giảng viên đọc mọi câu trả lời trước Buổi 3
+:::
+:::
+::::
 
 ::: {.neu-output style="--c:#6C3483"}
-**SẢN PHẨM** Mỗi người một tờ giấy dán (giảng viên đọc trước Buổi 3)
+**SẢN PHẨM** Mỗi người một câu trả lời ngắn, trước khi rời lớp
 :::
 
 ::: {.notes}
-Đáp án: (1) OR (một trong hai từ). (2) Cân bằng dịch tích lũy ngày 5 (ml/kg), không phải tử vong.
+Mục đích: kiểm tra nhanh mức hiểu trong 2 phút. Đây không phải bài về nhà.
 
-Đọc các tờ giấy sau buổi học. Nếu hơn một phần tư trả lời sai câu nào, ôn lại trong câu hỏi ôn tập đầu Buổi 3.
+Đáp án: Câu 1 OR (một trong hai từ). Câu 2 Cân bằng dịch tích lũy ngày 5 (ml/kg), không phải tử vong.
 
-Thời gian: 1,5 phút.
+Lưu khung chat (hoặc câu trả lời của biểu mẫu) và đọc sau buổi học. Nếu hơn một phần tư trả lời sai câu nào, mở đầu Buổi 3 bằng điểm đó và ôn lại trong câu hỏi ôn tập.
+
+Thời gian: 1.5 phút.
 :::
 
 ## Bài về nhà trước Buổi 3 (thứ Bảy tuần sau)
@@ -1168,19 +1537,19 @@ BÀI TẬP CÁ NHÂN
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0B376C"}
-- Nhóm: hoàn thành 5 tài liệu chính và phần đặt vấn đề
-- Mỗi thành viên: đọc một bài (quy trình 15 phút) và điền dòng của bài đó
-- Mọi người: đọc tóm tắt Bài báo 2 (Hyun) với bảng đọc
-- Bài tập 2 (diễn đạt lại) nếu chưa làm trên lớp
+- Hoàn thành 5 tài liệu chính, các dòng phiếu tổng quan và phần đặt vấn đề
+- Đọc một bài của bạn theo quy trình 15 phút
+- Đọc tóm tắt Bài báo 2 (Hyun 2023) với bảng đọc (Bài tập 3)
+- Bài tập 2 (diễn đạt lại), làm ở nhà
 - Không bắt buộc: tra Bài báo 1 (NCT04947904) trên ClinicalTrials.gov
 :::
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#0B376C"}
-Mang theo thứ Bảy tuần sau
+Sẵn sàng cho thứ Bảy tuần sau
 
-- Đề cương Phần 1 (bản in hoặc trên laptop)
-- Bảng ma trận tài liệu đã hoàn thành
+- Đề cương Phần 1 của bạn
+- Phiếu tổng quan tài liệu của bạn
 :::
 :::
 ::::
@@ -1190,11 +1559,11 @@ Mang theo thứ Bảy tuần sau
 :::
 
 ::: {.notes}
-Nói rõ khối lượng: khoảng 60-90 phút mỗi người trong tuần, chia sẻ trong nhóm.
+Nói rõ khối lượng: khoảng 60-90 phút trong tuần, tự làm.
 
-Hai bài báo nằm trong Course/Papers (có bản chú giải tiếng Anh và tiếng Việt). Buổi 3 dùng cả hai tóm tắt để so sánh RCT với đoàn hệ.
+Hai bài báo nằm trong Course/Papers (có bản chú giải tiếng Anh và tiếng Việt). Buổi 3 dùng cả hai tóm tắt để so sánh RCT với thuần tập.
 
-Nhắc các nhóm gửi Phần 1 cho giảng viên nếu khóa học có nhận xét bằng văn bản giữa các buổi.
+Nhắc học viên email Phần 1 cho giảng viên nếu khóa học có nhận xét bằng văn bản giữa các buổi.
 
 Kết thúc đúng giờ. Cảm ơn cả lớp.
 
@@ -1216,56 +1585,36 @@ Dùng nếu còn thời gian, hoặc để tự học
 ::: {.notes}
 SLIDE BỔ SUNG (Buổi 2).
 
-Mọi slide sau slide này là tùy chọn. Dùng nếu lớp đi nhanh, nếu một nhóm hỏi, hoặc giới thiệu để học viên tự học.
+Mọi slide sau slide này là tùy chọn. Dùng nếu lớp đi nhanh hoặc có người hỏi, hoặc giới thiệu để học viên tự học.
 
 Buổi học chính vẫn trọn vẹn khi không dùng các slide này.
 :::
 
 ## Ngoài PubMed: những nơi khác để tìm
 
-:::: {.neu-cards style="--n:4"}
-::: {.neu-card .plain style="--c:#0D7377"}
-[Thư viện Cochrane]{.neu-card-title}
-
-- Tổng quan hệ thống
-- và sổ đăng ký
-- thử nghiệm
-:::
-::: {.neu-card .plain style="--c:#0B376C"}
-[Embase]{.neu-card-title}
-
-- Cơ sở dữ liệu y sinh
-- lớn; mạnh về thuốc
-- (cần đăng ký)
-:::
-::: {.neu-card .plain style="--c:#5FA39B"}
-[CINAHL]{.neu-card-title}
-
-- Y văn điều dưỡng
-- và các ngành sức khỏe
-- (cần đăng ký)
-:::
-::: {.neu-card .plain style="--c:#0070C0"}
-[Sổ đăng ký thử nghiệm]{.neu-card-title}
-
-- ClinicalTrials.gov,
-- WHO ICTRP: thử nghiệm
-- đang làm, chưa công bố
-:::
-::::
-
-::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Với đề cương, PubMed + một sổ đăng ký là đủ; tổng quan hệ thống tìm trên nhiều cơ sở dữ liệu.
-:::
+| Cơ sở dữ liệu | Phạm vi | Truy cập |
+|:---|:---|:---|
+| Thư viện Cochrane | Tổng quan hệ thống của Cochrane (CDSR) và sổ thử nghiệm có đối chứng (CENTRAL) | Tìm và đọc tóm tắt miễn phí |
+| Embase | Cơ sở dữ liệu y sinh lớn, mạnh về thuốc và tóm tắt hội nghị | Trả phí |
+| Web of Science, Scopus | Nhiều ngành, có liên kết tới các bài trích dẫn mỗi bài | Trả phí |
+| CINAHL | Điều dưỡng và các ngành sức khỏe liên quan | Trả phí |
+| Epistemonikos | Tổng quan hệ thống về sức khỏe, nhiều ngôn ngữ | Miễn phí |
+| Sổ đăng ký | Thử nghiệm: ClinicalTrials.gov, WHO ICTRP. Tổng quan: PROSPERO | Miễn phí |
 
 ::: {.notes}
 EXTRA: các cơ sở dữ liệu khác.
 
-Thư viện Cochrane: bắt đầu từ đây với câu hỏi điều trị. Một tổng quan hệ thống tốt có thể đã trả lời câu hỏi của bạn.
+Thông điệp chính: với đề cương Cấp độ 1, PubMed và một sổ đăng ký là đủ. Tổng quan hệ thống tìm trên nhiều cơ sở dữ liệu.
 
-Embase và CINAHL thường cần tài khoản của cơ sở; hỏi thư viện.
+Trước mọi nghiên cứu mới, hãy tìm tổng quan hệ thống đã có trước (slide chính 'Kiểm tra trước'). Thư viện Cochrane là nơi bắt đầu với câu hỏi điều trị: Cơ sở dữ liệu Tổng quan Hệ thống Cochrane (CDSR) chứa các tổng quan của Cochrane, và CENTRAL là sổ các thử nghiệm có đối chứng.
 
-Cơ sở dữ liệu quốc gia và khu vực có thể quan trọng với các tạp chí tiếng địa phương.
+Embase trùng một phần với MEDLINE nhưng có thêm nhiều tạp chí về thuốc, tạp chí châu Âu và tóm tắt hội nghị. Web of Science và Scopus bao phủ nhiều ngành và mạnh trong việc lần theo trích dẫn. CINAHL là cơ sở dữ liệu điều dưỡng chính. APA PsycInfo bao phủ sức khỏe tâm thần và hành vi.
+
+Epistemonikos (miễn phí) gom các tổng quan hệ thống từ nhiều nguồn. WHO Global Index Medicus tập hợp các cơ sở dữ liệu khu vực, trong đó có Western Pacific Region Index Medicus, có thể quan trọng với các tạp chí tiếng địa phương.
+
+Embase, Web of Science, Scopus và CINAHL thường cần tài khoản của cơ sở. Hãy hỏi thư viện.
+
+Một tổng quan hệ thống tìm trên ít nhất hai hoặc ba cơ sở dữ liệu này, cộng với sổ đăng ký và tài liệu xám. Cấp độ 3 có một học phần riêng về tổng quan hệ thống và phân tích gộp (Học phần A): đề cương và đăng ký PROSPERO, tìm kiếm trên nhiều cơ sở dữ liệu, nguy cơ sai lệch, gộp kết quả và báo cáo theo PRISMA 2020.
 
 Thời gian: 2 phút nếu dùng.
 :::
@@ -1276,30 +1625,25 @@ Thời gian: 2 phút nếu dùng.
 ::: {.neu-step style="--c:#0D7377"}
 [Mở]{.neu-step-label}
 
-- Trang chủ PubMed:
-- Clinical Queries
-- (mục Find)
+- Trang chủ PubMed
+- Clinical Queries, mục Find
 :::
 ::: {.neu-step style="--c:#0B376C"}
 [Gõ]{.neu-step-label}
 
-- Từ khóa chủ đề,
-- ví dụ septic shock
-- fluid restriction
+- Từ khóa chủ đề
+- Ví dụ septic shock fluid restriction
 :::
 ::: {.neu-step style="--c:#5FA39B"}
 [Chọn]{.neu-step-label}
 
-- Loại: điều trị,
-- chẩn đoán, nguyên nhân,
-- tiên lượng...
+- Loại: điều trị, chẩn đoán, nguyên nhân hoặc tiên lượng
 :::
 ::: {.neu-step style="--c:#0070C0"}
 [Phạm vi]{.neu-step-label}
 
-- Rộng (tìm nhiều hơn)
-- hoặc hẹp (chính xác
-- hơn)
+- Rộng: tìm được nhiều hơn
+- Hẹp: chính xác hơn
 :::
 ::::
 
@@ -1341,9 +1685,9 @@ EXTRA: trình diễn Google Scholar.
 
 Course/Demos/s2\_demo.md, Phần C.
 
-Nói: 'Scholar rất tốt để lần theo trích dẫn và tìm y văn xám, nhưng không có MeSH, ít bộ lọc, và cùng một tìm kiếm tháng sau có thể ra kết quả khác.'
+Nói: 'Scholar rất tốt để lần theo trích dẫn và tìm tài liệu xám, nhưng không có MeSH, ít bộ lọc, và cùng một tìm kiếm tháng sau có thể ra kết quả khác.'
 
-Nếu Scholar hiện CAPTCHA, đừng cố giải trên máy dùng chung; chuyển sang ảnh chụp màn hình.
+Nếu Scholar hiện CAPTCHA, đừng cố giải khi đang chia sẻ màn hình. Chuyển sang ảnh chụp màn hình.
 
 Thời gian: 3 phút nếu dùng.
 :::
@@ -1354,30 +1698,25 @@ Thời gian: 3 phút nếu dùng.
 ::: {.neu-card .plain style="--c:#0D7377"}
 [Tái sử dụng văn bản]{.neu-card-title}
 
-- Dùng lại câu chữ đã
-- công bố của mình:
-- xem chính sách tạp chí
+- Dùng lại câu chữ đã công bố của mình
+- Xem chính sách tạp chí
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
 [AI viết lại câu]{.neu-card-title}
 
-- Không xóa được
-- đạo văn; bạn vẫn
-- chịu trách nhiệm
+- Không xóa được đạo văn
+- Bạn vẫn chịu trách nhiệm
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
 [Tài liệu do AI]{.neu-card-title}
 
-- Có thể bị bịa;
-- tìm từng tài liệu
-- trên PubMed
+- Có thể bị bịa
+- Tìm từng tài liệu trên PubMed
 :::
 ::: {.neu-card .plain style="--c:#0070C0"}
 [Kiểm tra trùng lặp]{.neu-card-title}
 
-- Tạp chí sàng lọc
-- bài nộp để tìm
-- văn bản sao chép
+- Tạp chí sàng lọc bài nộp để tìm văn bản sao chép
 :::
 ::::
 
@@ -1388,7 +1727,7 @@ Thời gian: 3 phút nếu dùng.
 ::: {.notes}
 EXTRA: tái sử dụng văn bản, AI và kiểm tra trùng lặp.
 
-Tái sử dụng văn bản ('tự đạo văn'): dùng lại một phần câu chữ chuẩn ở phần Phương pháp có thể được chấp nhận nếu có trích dẫn và tạp chí cho phép; không bao giờ dùng lại phần Kết quả hay Bàn luận.
+Tái sử dụng văn bản ('tự đạo văn'): dùng lại một phần câu chữ chuẩn ở phần Phương pháp có thể được chấp nhận nếu có trích dẫn và tạp chí cho phép. Không bao giờ dùng lại phần Kết quả hay Bàn luận.
 
 Công cụ AI: tạp chí yêu cầu công khai việc dùng AI (Buổi 7 học kỹ về liêm chính và AI).
 

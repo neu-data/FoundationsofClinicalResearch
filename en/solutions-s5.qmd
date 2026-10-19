@@ -19,7 +19,7 @@ Exercise numbers follow `Practicals/s5_exercises.md`. All FLUID-ICU numbers come
 | b | Sex | **Binary** | Two categories. Coding 1/2 does not make it numerical. |
 | c | Glasgow Coma Scale | **Ordinal** | Ordered scores (3–15) with unequal steps. Often *analysed* like a number, which is acceptable if stated, but it is ordinal by nature. |
 | d | Source of sepsis | **Nominal** | Several categories, no natural order. |
-| e | Number of vasopressors | **Count** | Whole numbers 0–3. Accept "ordinal" if the pair argues it well; not continuous. |
+| e | Number of vasopressors | **Count** | Whole numbers 0–3. Accept "ordinal" if the participant argues it well; not continuous. |
 | f | Cumulative fluid balance (ml/kg) | **Continuous** | Can be negative or positive, with any value on the scale. The Paper 1 primary outcome. |
 | g | Alive at day 28 | **Binary** | Yes/no. |
 | h | Time to death, censored at day 28 | **Time-to-event** | Two pieces of information: how long, and whether the event happened. Analysed with Kaplan–Meier / Cox. |
@@ -42,7 +42,7 @@ Exercise numbers follow `Practicals/s5_exercises.md`. All FLUID-ICU numbers come
 | c | Comorbidities: ________ | Free text: impossible to analyse, spelling varies | Tick list: "Comorbidities present at admission (tick ALL that apply): ☐ diabetes ☐ chronic kidney disease ☐ heart failure ☐ COPD ☐ cirrhosis ☐ cancer ☐ none ☐ unknown" |
 | d | Lactate high? Y / N | Opinion ("high" by whose cut-off?), loses the value, no time point | "Serum lactate at ICU admission (mmol/L): [ ][ ].[ ]   ☐ not done" (define "high" later, in the analysis) |
 
-Accept any version that passes the four checks (unit, time point, one reading, unknown option). Praise pairs who notice that collecting the *number* is better than collecting a yes/no.
+Accept any version that passes the four checks (unit, time point, one reading, unknown option). Praise answers that notice that collecting the *number* is better than collecting a yes/no.
 
 
 * * *
@@ -72,7 +72,7 @@ Accept any version that passes the four checks (unit, time point, one reading, u
 
 * * *
 
-## Exercise 5: [DS] Spot the problems in the raw FLUID-ICU data
+## Exercise 5: [FLUID-ICU] Spot the problems in the raw FLUID-ICU data
 
 (See `Course/Data/cleaning_log.md` for the full log.)
 
@@ -90,7 +90,7 @@ Bonus: editing by hand is invisible and not reproducible. A script plus a log le
 
 * * *
 
-## Exercise 6: [DS] Read your group's Table 1
+## Exercise 6: [FLUID-ICU] Read the FLUID-ICU Table 1 (whole class)
 
 All numbers from `Course/Data/key_results.md` (simulated data).
 
@@ -104,7 +104,9 @@ All numbers from `Course/Data/key_results.md` (simulated data).
 
 * * *
 
-## Exercise 7: [DS] Your group's question
+## Exercise 7: [FLUID-ICU] Your manuscript question as a PECO sentence
+
+In class, Q1 is done together; each participant later completes the table for the question they chose.
 
 | Q | Outcome (type) | Exposure (type) | Planned comparison / model |
 |---|---|---|---|
@@ -134,7 +136,7 @@ Example (Q1): "In adults with sepsis admitted to the ICU, is a positive cumulati
 
 **Analysis plan:** describe with mean (SD) / median (IQR) / n (%); compare 28-day mortality with a chi-square test; report the risk ratio and risk difference with 95% CIs; fluid balance compared with Mann–Whitney and reported as median (IQR) per group. (Observational designs: add "adjusted for age, SOFA and lactate using logistic regression".)
 
-**Marking guide for facilitators (quick check while circulating):**
+**Quick check for the instructor (while modelling, and when reading drafts sent by email):**
 
 | Element | Good enough | Needs work |
 |---|---|---|

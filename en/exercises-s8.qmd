@@ -2,23 +2,29 @@
 title: "Session 8: Exercise sheet"
 ---
 
-[Download the PDF](files/sessions/s8_exercises.pdf) · [Back to Session 8](session8.qmd)
+[Download the PDF](files/sessions/s8_exercises.pdf) · [Download the Word file (to fill in)](files/sessions/s8_exercises.docx) · [Back to Session 8](session8.qmd)
 
-**Foundations of Clinical Research · Session 8 (Week 8, Saturday): Publish (finish the paper, get it out, present)**
+**Foundations of Clinical Research · Level 1** · Neudata · *#ClearDataClearImpact* · Week 8 · Saturday 19 December 2026 · online, 19:30–22:30
 
-| Part | Exercise | When | Time |
+Name: ______________________________   Department: ______________________________
+
+This sheet is sent by email before the session, as a Word file and as a PDF. Keep it open on your screen and type your answers into the Word file (or print the PDF). In class the whole group works together: you answer in the chat or in polls, and the instructor writes the class answer on the shared screen. The writing you hand in is your own.
+
+| Part | Exercise | When | How |
 |---|---|---|---|
-| A | Writing exercises: fix the spin, verb ladder, results sentence, title from PICO | warm-up / homework | 15 min |
-| B | **[DS] Manuscript workshop 2**: Introduction, Discussion, Abstract, Title | 0:30 | 30 min |
-| C | Getting published: spot the predatory journal; responding to reviewers | at home | 25 min |
-| D | **Student appraisal pack: "Be the reviewer"** | 1:40 | 20 min |
+| A | Writing exercises: fix the spin, verb ladder, results sentence, title from PICO | homework | Alone |
+| B | **Manuscript workshop 2**: Introduction, Discussion, Abstract, Title | 20:00 (30 min) | 22 min whole class on Q1, then 8 min on your own aim and title; finish tonight |
+| C | Getting published: spot the predatory journal; responding to reviewers | homework | Alone |
+| D | **Answer grid: "Be the reviewer"** | 21:05 (25 min) | Whole class with polls; you fill in your own grid |
+
+Files you need (sent before the session; all in the course folder): Paper 1 (Boulet 2024, *Crit Care*, a randomised pilot trial of restrictive fluids in septic shock) and Paper 2 (Hyun 2023, *Ann Intensive Care*, a propensity-matched cohort of fluid balance and death in sepsis), original PDFs in `Course/Papers`; the class Q1 draft from Session 7 (PDF); your own Methods and Results draft and the results pack for your question.
 
 
 * * *
 
-## Part A: Writing exercises (section 8.1; warm-up or homework)
+## Part A: Writing exercises (homework)
 
-Use these to practise before or after Manuscript workshop 2: A2 and A3 can be done in class if a group finishes early; the rest are homework.
+Use these to practise after the session, before you finish your manuscript.
 
 ### A1. Fix the spin
 Rewrite each sentence so it says only what the data and the design allow.
@@ -35,11 +41,11 @@ Choose the strongest verb each design allows: **was observed in · is associated
 
 | # | Study | Strongest honest verb |
 |---|---|---|
-| a | A case series of 12 ICU patients who developed pressure injuries under a new mattress | |
+| a | A case series of 12 ICU patients with septic shock who developed pulmonary oedema after large fluid volumes | |
 | b | A cohort of 3,000 septic patients: positive fluid balance and mortality, adjusted for severity | |
 | c | A single randomised trial of 48 patients: restrictive protocol and day-5 fluid balance | |
 | d | Five large randomised trials and a meta-analysis, all consistent | |
-| e | A cross-sectional survey of hand-hygiene compliance on two wards | |
+| e | A cross-sectional survey of how completely fluid-balance charts are filled in on two ICUs | |
 
 ### A3. Write the results sentence (number + CI, no adjectives)
 Write one sentence for each, in the style "In [whom], [outcome] was [effect] ([measure] [value], 95% CI [lower] to [upper])".
@@ -51,7 +57,7 @@ Write one sentence for each, in the style "In [whom], [outcome] was [effect] ([m
 ### A4. A title from your PICO
 Formula: **[Design] of [Intervention / exposure] vs [Comparator] in [Population]: effect on / association with [Outcome]**. 10–16 words, design stated, no "impact", "novel", "first".
 
-Our PICO: P ______________ I/E ______________ C ______________ O ______________
+My PICO: P ______________ I/E ______________ C ______________ O ______________
 
 Working title: ________________________________________________________________
 
@@ -60,43 +66,48 @@ Word count: ____  Design named? ☐  Calibrated verb (association for observatio
 
 * * *
 
-## Part B: [DS] Manuscript workshop 2: complete the draft (30 minutes)
+## Part B: Manuscript workshop 2: complete the draft (30 minutes, 20:00)
 
-Start from last week's file (`FLUID-ICU_Q[n]_draft1`). Today you add the **Introduction, Discussion, Abstract and Title**, and the draft is complete.
+Today the Introduction, Discussion, Abstract and Title are added, and the draft is complete. We give you the results; you write the paper.
 
-### Roles and timing
-| Minute | Who | Task |
+### How the 30 minutes are used
+| Clock | Who | Task |
 |---|---|---|
-| 0–8 | 2 people | **Introduction**: three paragraphs (known → not known → aim), ~350 words, references from Sessions 1–2 + Papers 1–2 |
-| 0–15 | 3 people | **Discussion**: six moves (answer, compare, explain, limitations with direction, implications, conclusion), ~600 words |
-| 0–15 | 1 person | Number and verb checker: reads Methods + Results again; prepares the abstract numbers |
-| 15–23 | all | **Abstract**: Background / Methods / Results / Conclusions, ≤ 250 words, numbers copied from the Results |
-| 23–27 | all | **Title** (10–16 words, design stated, calibrated verb) + 3–6 keywords (MeSH, not already in the title) |
-| 27–30 | checker | Verb check: change every "cause", "impact", "effect of" and "show" to "associated with". Make every number identical in abstract and Results. |
+| 20:00–20:06 | Whole class, on Q1 | **Introduction**: three paragraphs (known, not known, aim). You suggest sentences in the chat; the instructor types them into the class draft. |
+| 20:06–20:15 | Whole class | **Discussion**: six moves (answer, compare, explain, limitations with direction, implications, conclusion). |
+| 20:15–20:20 | Whole class | **Abstract**: Background / Methods / Results / Conclusions, numbers copied from the class Results. |
+| 20:20–20:22 | Whole class | **Title** and verb check: every "cause", "impact", "effect of" and "show" becomes "associated with". |
+| 20:22–20:30 | You, alone | Write the aim sentence and the title for YOUR question. Paste your title in the chat. |
+| Tonight, by 23:59 | You | Add your Introduction (~350 words), Discussion (~600 words), Abstract (≤ 250 words) and Title + 3–6 keywords, and submit the complete draft. |
+
+The completed class draft for Q1 is shared as a PDF after the session. If you chose Q1, write your paper in your own words; do not copy the class draft.
 
 ### Discussion: six moves checklist
 - [ ] **1 Answer**: first sentence answers the question with the main number (adjusted estimate + 95% CI)
 - [ ] **2 Compare**: with Paper 2 and at least one other study, and why results may differ
 - [ ] **3 Explain**: one short paragraph on mechanism / plausibility
-- [ ] **4 Limitations**: observational design (residual confounding, especially severity), simulated/teaching data, missing data, single time point… each with its likely *direction*
+- [ ] **4 Limitations**: observational design (residual confounding, especially severity), simulated teaching data, missing data, single time point… each with its likely *direction*
 - [ ] **5 Implications**: for practice (cautious) and research (e.g. a randomised trial such as Paper 1)
 - [ ] **6 Conclusion**: one sentence, same verb and message as the abstract and title
 
-### Group-specific reminders
-- **Q1:** crude and adjusted ORs differ. Explain confounding by indication in move 3/4.
-- **Q2:** AKI may also *cause* fluid accumulation (reverse causation). Say so.
-- **Q3:** ventilator-free days are skewed and include death as zero. Explain what the measure means.
-- **Q4:** compare complete-case and multiple-imputation estimates; say what the missing-data assumption (MAR) means for your conclusion.
+### Question-specific reminders
+- **Q1:** crude and adjusted ORs differ. Explain confounding by indication in move 3 or 4.
+- **Q2:** acute kidney injury may also *cause* fluid accumulation (reverse causation). Say so.
+- **Q3:** ventilator-free days are skewed and count death as zero. Explain what the measure means.
+- **Q4:** compare complete-case and multiple-imputation estimates; say what the missing-data assumption (MAR, missing at random) means for your conclusion.
 - **Q5:** survivors only. Those who died are excluded, so say who the result applies to.
 
 ### Deliverable
-A complete draft (~2,000 words, Template: `Templates/Manuscript_Template_IMRaD.docx`) saved as `FLUID-ICU_Q[n]_draft2`. After the course: peer-review swap (2 weeks) using the 10-question checklist (Part D) and a response letter (`Templates/Response_to_Reviewers_Template.docx`).
+Your complete draft (~2,000 words, template `Course/Templates/Manuscript_Template_IMRaD`) saved as `Surname_Manuscript_QN_draft.docx`, submitted **by 23:59 on the day of Session 8** (course folder or email to the course lead; see `Course/Assignment/manuscript_brief.md`). Then the individual peer review: within 2 days the course lead sends you one classmate's draft; you review it with the 10 questions of Part D and send your review within 1 week; you send your revised draft and a response letter (`Course/Templates/Response_to_Reviewers_Template`) within 2 weeks (`Course/Assignment/peer_review_instructions.md`).
 
-## Part C: Getting published (section 8.2, at home)
+
+* * *
+
+## Part C: Getting published (homework)
 
 ### C1. Spot the predatory journal
 
-**1. Circle the red flags** in this (invented) invitation. How many can you find?
+**1. Find the red flags** in this (invented) invitation. How many can you find?
 
 > **From:** editorial.board.gjcmr@freemail.com
 > **Subject:** Invitation to publish in our esteemed journal!!
@@ -118,14 +129,14 @@ A complete draft (~2,000 words, Template: `Templates/Manuscript_Template_IMRaD.d
 | J3: Open access, listed in DOAJ, small society journal, no impact factor yet, clear peer-review and retraction policy. | | |
 | J4: Its name differs by one word from a well-known journal; the website address is different from the real journal's; it e-mailed you first. | | |
 
-**3. Three checks you can always do:** Think.Check.Submit checklist · DOAJ (open-access journals) · NLM Catalog ("currently indexed in MEDLINE"). You can also ask your librarian.
+**3. Three checks you can always do:** Think.Check.Submit checklist · DOAJ (Directory of Open Access Journals) · NLM Catalog ("currently indexed in MEDLINE"). You can also ask your librarian.
 
 
 * * *
 
 ### C2. Responding to reviewers
 
-Imagine your group's study has been completed and submitted. Write a response row for each comment (thank, answer, say exactly what changed). One of them deserves a polite rebuttal.
+Imagine your own proposed study has been completed and submitted. Write a response row for each comment (thank, answer, say exactly what changed). One of them deserves a polite rebuttal.
 
 | # | Reviewer comment | Our response | Change made (page, line) |
 |---|---|---|---|
@@ -139,32 +150,29 @@ Tone checklist: ☐ thanked the reviewer ☐ answered every point ☐ said where
 
 * * *
 
-## Part D: Student appraisal pack ("Be the reviewer") (20 minutes, 1:40)
+## Part D: Answer grid: "Be the reviewer" (25 minutes, 21:05)
 
 ### What you are doing
 Two published papers answer our running question (**fluids in septic shock**) with different designs:
 
-| | Paper | Design | Who appraises it |
-|---|---|---|---|
-| **Paper 1** | Boulet N, et al. *Crit Care* 2024;28:429 (restrictive strategy targeting non-resuscitative fluids, OPTIFLUID) | Randomised controlled pilot trial, 48 patients | **Groups 1, 2, 3** |
-| **Paper 2** | Hyun D-G, et al. *Ann Intensive Care* 2023;13:105 (cumulative positive fluid balance in the first three ICU days) | Propensity-score-matched cohort from a sepsis registry, 2516 patients | **Groups 4, 5** |
+| | Paper | Design |
+|---|---|---|
+| **Paper 1** | Boulet N, et al. *Crit Care* 2024;28:429 (restrictive strategy targeting non-resuscitative fluids, OPTIFLUID) | Randomised controlled pilot trial, 48 patients analysed |
+| **Paper 2** | Hyun D-G, et al. *Ann Intensive Care* 2023;13:105 (cumulative positive fluid balance in the first three ICU days) | Propensity-score-matched cohort from a sepsis registry, 2516 patients |
 
-You do **not** need to understand every statistic. Answer each question **Yes / No / Can't tell** and write **the page** where you found the answer. "Can't tell" is a good answer when the paper does not say.
+The whole class appraises **both** papers together. The instructor shows the right page on the shared screen, you vote **Yes / No / Can't tell** in a poll, and a volunteer gives the page and the sentence in the chat. Fill in your own grid as we go. "Can't tell" is a good answer when the paper does not say.
 
-> **Page numbers** are the journal's own page numbers printed at the top of each page ("Page X of 13" for Paper 1, "Page X of 9" for Paper 2). Use the original (unannotated) PDF or printout.
+> **Page numbers** are the journal's own page numbers printed at the top of each page ("Page X of 13" for Paper 1, "Page X of 9" for Paper 2). Use the original (unannotated) PDF.
 
-### Step by step (10 minutes of group work)
-| Minute | What to do |
+### How the 25 minutes are used
+| Clock | What happens |
 |---|---|
-| 0–1 | Choose a **timekeeper** and a **speaker**. Split into three pairs: pair A = questions 1–3, pair B = 4–6, pair C = 7–10. |
-| 1–7 | Each pair reads **only the pages listed** for its questions (table below) and fills in its rows of the grid. |
-| 7–9 | The group goes through all 10 questions together and agrees the answers. |
-| 9–10 | Write your **one-sentence verdict** ("This paper shows / suggests … but …"). |
+| 21:05–21:08 | The two papers and the 10 questions (slides). |
+| 21:08–21:23 | Whole-class appraisal with polls. Paper 1: questions 4, 5, 7, 8 and 9. Paper 2: questions 4, 5, 8 and 9. |
+| 21:23–21:30 | What may each design claim? The side-by-side summary. |
+| At home | Answer the remaining questions (1–3, 6 and 10) for both papers. |
 
-Then the plenary (8 minutes): each group reports for 1 minute on the questions the instructor assigns, and we compare what each design may claim.
-
-> **Tip:** read the papers' abstracts at home during the week before (Session 7 homework). The 10 minutes then go much further.
-> **After the course** you use the **same 10 questions** to review another group's FLUID-ICU manuscript (peer-review swap, 2 weeks).
+> **Why this matters:** after the course you use the **same 10 questions** to review one classmate's FLUID-ICU manuscript (individual peer review, 2 weeks).
 
 ### Where to look
 | Question | Paper 1 (RCT): pages | Paper 2 (cohort): pages |
@@ -180,8 +188,8 @@ Then the plenary (8 minutes): each group reports for 1 minute on the questions t
 | 9 Limitations | Discussion (pp.8–10) | Discussion (pp.7–8) |
 | 10 Use | Your judgement (whole paper) | Your judgement (whole paper) |
 
-### Answer grid
-Group number: ____   Paper: 1 / 2   Speaker: ______________
+### Answer grid (one copy per paper)
+Paper: 1 / 2
 
 | # | Question (simplified appraisal checklist) | Yes | No | Can't tell | Page | Notes (one line) |
 |---|---|---|---|---|---|---|
@@ -196,9 +204,9 @@ Group number: ____   Paper: 1 / 2   Speaker: ______________
 | 9 | **Limitations**: Are the main limitations stated honestly? Name one the authors missed. | ☐ | ☐ | ☐ | | Missed: |
 | 10 | **Use**: Would this change practice in your unit? Why / why not? | ☐ | ☐ | ☐ | | |
 
-**Our verdict in one sentence:** ______________________________________________
+**My verdict in one sentence:** ______________________________________________
 
-**One thing we would copy into our own proposal:** ______________________________
+**One thing I would copy into my own proposal:** ______________________________
 
 ### Hints if you are stuck
 - **Q1:** the PICO is usually in the last paragraph of the Introduction ("we aimed to …"). Is the paper's outcome the same as in our running question (28-day mortality)?

@@ -1,152 +1,148 @@
 ---
-title: "Hướng dẫn phản biện chéo"
+title: "Hướng dẫn bình duyệt chéo"
 ---
 
-::: {.lang-note}
-Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
-:::
+Tải về: [Word](files/assignments/Peer_Review_Instructions_VN.docx) · [PDF](files/assignments/Peer_Review_Instructions_VN.pdf) · [Quay lại trang bài tập lớn](assignments.qmd)
 
-Tải về: [Word](files/assignments/Peer_Review_Instructions.docx) · [PDF](files/assignments/Peer_Review_Instructions.pdf) · [Quay lại trang bài tập nhóm](assignments.qmd)
+## Nền tảng Nghiên cứu Lâm sàng · Cấp độ 1: Từ câu hỏi lâm sàng đến công bố
 
-## Foundations of Clinical Research · Level 1: From Clinical Question to Publication
-
-**Organisation:** Neudata (*#ClearDataClearImpact*)
-**When:** the 2 weeks after Session 8 (homework)
-**Who reviews whom:** Group 1 reviews Group 2, Group 2 reviews Group 3, Group 3 reviews Group 4, Group 4 reviews Group 5, and Group 5 reviews Group 1
-**Use with:** `manuscript_brief.md`, the 10-question appraisal checklist from Session 8 ("Be the reviewer"), the STROBE checklist, and `Course/Templates/Response_to_Reviewers_Template.docx`
+**Tổ chức:** Neudata (*#ClearDataClearImpact*)
+**Thời điểm:** 2 tuần sau Buổi 8 (bài về nhà)
+**Ai bình duyệt ai:** mỗi học viên bình duyệt bản nháp của **một** bạn cùng lớp, do giảng viên phân công và gửi qua email hoặc qua thư mục khóa học trực tuyến. Mỗi người bình duyệt một bản nháp và nhận một bản bình duyệt. Đây là bài về nhà cá nhân.
+**Dùng kèm:** `manuscript_brief_VN.md`, bảng kiểm thẩm định 10 câu hỏi từ Buổi 8 ("Làm người phản biện"), bảng kiểm STROBE, và `Course/Templates/Response_to_Reviewers_Template_VN.docx`
 
 
 * * *
 
-## 1. Why we do this
+## 1. Vì sao chúng ta làm việc này
 
-Every paper you submit will be peer reviewed, and sooner or later you will be asked to review. In Session 8 you practised on two published papers. Now you review a colleague group's draft and receive a review of your own, exactly as a journal would. The aim is to **improve both papers**, not to judge the people who wrote them.
+Mọi bài báo bạn nộp đều sẽ được bình duyệt, và sớm hay muộn bạn cũng sẽ được mời bình duyệt. Ở Buổi 8, bạn đã thực hành trên hai bài báo đã công bố. Giờ bạn bình duyệt bản nháp của một bạn cùng lớp và nhận một bản bình duyệt cho bản nháp của mình, đúng như một tạp chí sẽ làm. Mục đích là **cải thiện cả hai bài báo**, không phải đánh giá người viết.
 
 
 * * *
 
-## 2. Timeline
+## 2. Tiến độ
 
-| When | Who | What |
+| Khi nào | Ai | Làm gì |
 |---|---|---|
-| Day of Session 8, 23:59 | Each group | Submits its draft manuscript (`GroupN_Manuscript_QN_draft.docx`) |
-| Within 2 days | Course lead | Sends each group the draft it will review (without changes) |
-| **Within 1 week after Session 8** | Reviewing group | Sends its review report (`GroupN_Review_of_GroupM.docx`) to the course lead, who forwards it to the authors |
-| **Within 2 weeks after Session 8** | Authors | Send the revised manuscript (tracked changes) and the response letter to the course lead |
+| Ngày học Buổi 8, 23:59 | Mỗi học viên | Nộp bản thảo nháp (`Surname_Manuscript_QN_draft.docx`) |
+| Trong vòng 2 ngày | Trưởng khóa học | Gửi cho mỗi học viên một bản nháp để bình duyệt (giữ nguyên, không sửa). Trưởng khóa học lập một danh sách đơn giản để mỗi bản nháp được bình duyệt đúng một lần, và khi có thể thì ghép các bản nháp khác câu hỏi |
+| **Trong vòng 1 tuần sau Buổi 8** | Người bình duyệt | Gửi bản nhận xét bình duyệt (`Surname_Review_of_[author's surname].docx`) cho trưởng khóa học, người sẽ chuyển cho tác giả |
+| **Trong vòng 2 tuần sau Buổi 8** | Tác giả | Gửi bản thảo đã sửa (có theo dõi thay đổi) và thư phản hồi cho trưởng khóa học |
 
-Plan about **2–3 hours** for the review: about 45 minutes reading alone, a 60-minute group meeting (online is fine), and 30–45 minutes to write the report.
+Dành khoảng **2 giờ** cho việc bình duyệt: khoảng 45 phút đọc bản nháp, 45 phút đối chiếu với gói kết quả và các bảng kiểm, và 30 phút viết bản nhận xét.
 
 
 * * *
 
-## 3. How to review (reviewing group)
+## 3. Cách bình duyệt (người bình duyệt)
 
-1. **Read alone first.** Each member reads the whole draft once, without commenting, and writes down in one sentence what the paper found.
-2. **Check against the results pack.** One member opens the authors' results pack (`Course/Data/results_packs/QN/results_pack_QN.md`) and checks the main numbers in the abstract, text and tables.
-3. **Apply the 10-question appraisal checklist** (below) as a group.
-4. **Apply the writing checks** (below).
-5. **Sort your comments** into *major* (would change the conclusions or the reader's trust) and *minor* (clarity, wording, formatting). Keep only the comments that matter: about 3–6 major and 5–10 minor.
-6. **Write the report** using the template in section 5. Agree it as a group.
+1. **Đọc một lần trước.** Đọc toàn bộ bản nháp một lần, không nhận xét, và viết ra trong một câu bài báo đã tìm thấy gì.
+2. **Đối chiếu với gói kết quả.** Mở gói kết quả của câu hỏi tác giả đã chọn (`Course/Data/results_packs/QN/results_pack_QN.md`) và kiểm tra các số liệu chính trong tóm tắt, phần chữ và các bảng.
+3. **Áp dụng bảng kiểm thẩm định 10 câu hỏi** (bên dưới).
+4. **Áp dụng các mục kiểm tra phần viết** (bên dưới).
+5. **Phân loại nhận xét** thành *lớn* (có thể làm thay đổi kết luận hoặc niềm tin của người đọc) và *nhỏ* (rõ ràng, cách diễn đạt, định dạng). Chỉ giữ những nhận xét quan trọng: khoảng 3 đến 6 nhận xét lớn và 5 đến 10 nhận xét nhỏ.
+6. **Viết bản nhận xét** theo mẫu ở mục 5.
 
-### The 10-question appraisal checklist (applied to a colleague's draft)
+### Bảng kiểm thẩm định 10 câu hỏi (áp dụng cho bản nháp của bạn cùng lớp)
 
-Answer **Yes / No / Can't tell** and give the page or line.
+Trả lời **Có / Không / Không rõ** và ghi trang hoặc dòng.
 
-| # | Question | What to look for in the draft |
+| # | Câu hỏi | Cần tìm gì trong bản nháp |
 |---|---|---|
-| 1 | **Question:** Can you write the study's PICO in one line? | Is the aim in the Introduction the same as the analysis in the Results? |
-| 2 | **Design:** What is the design, and is it right for the question? | Cohort stated in the title or abstract; no trial language. |
-| 3 | **Participants:** Who was included and left out? | Eligibility; the flow of patients; number analysed for this question (e.g. survivors only in Q5). |
-| 4 | **Comparison groups:** Were groups similar at the start? How was this handled? | Table 1 by exposure group; adjustment explained and justified. |
-| 5 | **Bias:** Could knowledge of the exposure, or how data were collected, change the outcome? | Confounding by indication discussed; information bias in fluid charting; missing data. |
-| 6 | **Outcome:** One pre-specified primary outcome, measured the same way? | Outcome defined (e.g. KDIGO for AKI); the SAP mentioned. |
-| 7 | **Numbers:** Main result as an effect size with 95% CI? Narrow or wide? | Crude and adjusted estimates; CIs; denominators. |
-| 8 | **Words vs design:** Do conclusions match the design? | "Associated" vs "caused"; no "trend"; abstract conclusion no stronger than the Discussion. |
-| 9 | **Limitations:** Stated honestly? Name one they missed. | Residual confounding, missing data, simulated single dataset, generalisability. |
-| 10 | **Use:** Would this change practice? Why / why not? | Are the implications proportionate to an observational result? |
+| 1 | **Câu hỏi:** Bạn có viết được PICO của nghiên cứu trong một dòng không? | Mục tiêu trong phần Đặt vấn đề có giống với phân tích trong phần Kết quả không? |
+| 2 | **Thiết kế:** Thiết kế là gì, và có phù hợp với câu hỏi không? | Nêu rõ là nghiên cứu thuần tập trong tên bài hoặc tóm tắt; không dùng ngôn ngữ của thử nghiệm. |
+| 3 | **Người tham gia:** Ai được đưa vào và ai bị loại? | Tiêu chuẩn chọn; dòng người bệnh; số được phân tích cho câu hỏi này (ví dụ chỉ người sống sót ở Q5). |
+| 4 | **Các nhóm so sánh:** Các nhóm phơi nhiễm có tương đồng lúc ban đầu không? Điều này được xử lý thế nào? | Bảng 1 theo nhóm phơi nhiễm; việc hiệu chỉnh được giải thích và lý giải. |
+| 5 | **Sai lệch:** Việc biết phơi nhiễm, hoặc cách thu thập dữ liệu, có thể làm thay đổi kết cục không? | Có bàn về nhiễu do chỉ định; sai lệch thông tin khi ghi chép dịch truyền; dữ liệu thiếu. |
+| 6 | **Kết cục:** Một kết cục chính xác định trước, đo theo cùng một cách? | Kết cục được định nghĩa (ví dụ KDIGO cho tổn thương thận cấp); có nhắc đến SAP. |
+| 7 | **Số liệu:** Kết quả chính là độ lớn tác động kèm KTC 95%? Khoảng hẹp hay rộng? | Ước lượng thô và đã hiệu chỉnh; KTC; mẫu số. |
+| 8 | **Lời văn và thiết kế:** Kết luận có phù hợp với thiết kế không? | "Có liên quan" so với "gây ra"; không dùng "xu hướng"; kết luận trong tóm tắt không mạnh hơn phần Bàn luận. |
+| 9 | **Hạn chế:** Có được nêu trung thực không? Nêu một hạn chế tác giả đã bỏ sót. | Nhiễu tồn dư, dữ liệu thiếu, một bộ dữ liệu mô phỏng duy nhất, tính khái quát hóa. |
+| 10 | **Ứng dụng:** Kết quả này có làm thay đổi thực hành không? Vì sao có / vì sao không? | Ý nghĩa nêu ra có tương xứng với một kết quả quan sát không? |
 
-### Writing checks
+### Kiểm tra phần viết
 
-| Check | Yes / No | Page / line |
+| Mục kiểm tra | Có / Không | Trang / dòng |
 |---|---|---|
-| Title names population, exposure, outcome and design | | |
-| Structured abstract ≤ 250 words, with the main effect and 95% CI | | |
-| Introduction ends with a clear aim | | |
-| Methods: variables defined, statistical methods (including missing data) described, simulated-data statement present | | |
-| Results: participants first; numbers with denominators and 95% CIs; no interpretation | | |
-| Numbers agree between abstract, text, tables and the results pack | | |
-| Tables and figures stand alone (title, units, n, abbreviations) | | |
-| Discussion: main finding, comparison, explanations, limitations, implications, conclusion | | |
-| STROBE checklist completed with page numbers | | |
-| References consistent (Vancouver); about 2,000 words; CRediT and AI-use statements present | | |
+| Tên bài nêu đối tượng, phơi nhiễm, kết cục và thiết kế | | |
+| Tóm tắt có cấu trúc, không quá 250 từ, có tác động chính và KTC 95% | | |
+| Phần Đặt vấn đề kết thúc bằng một mục tiêu rõ ràng | | |
+| Phương pháp: biến số được định nghĩa, phương pháp thống kê (kể cả dữ liệu thiếu) được mô tả, có câu nêu dữ liệu mô phỏng | | |
+| Kết quả: người tham gia trước; số liệu kèm mẫu số và KTC 95%; không diễn giải | | |
+| Số liệu khớp nhau giữa tóm tắt, phần chữ, các bảng và gói kết quả | | |
+| Bảng và hình tự đọc hiểu được (tên, đơn vị, n, chữ viết tắt) | | |
+| Bàn luận: phát hiện chính, so sánh, giải thích, hạn chế, ý nghĩa, kết luận | | |
+| Bảng kiểm STROBE điền đầy đủ kèm số trang | | |
+| Tài liệu tham khảo nhất quán (Vancouver); khoảng 2,000 từ; có tuyên bố CRediT, lời cảm ơn khóa học và câu công khai sử dụng AI | | |
 
 
 * * *
 
-## 4. Tone rules for reviewers
+## 4. Quy tắc về giọng văn cho người bình duyệt
 
-1. **Comment on the paper, not the people.** Write "The Results do not report the crude OR", not "You forgot…" or "The authors clearly don't understand…".
-2. **Be specific.** Give the page and line, say what the problem is and why it matters.
-3. **Be constructive.** Every major comment ends with a suggestion: "Consider reporting both the crude and the adjusted OR so readers can see the effect of adjustment."
-4. **Start with what works.** Open the report with two or three genuine strengths.
-5. **Do not rewrite the paper** or impose your own style. Suggest, do not dictate.
-6. **Stay within the data.** Do not ask for analyses that are not in the results pack. You may suggest them as a limitation.
-7. **Keep it confidential.** Do not share the draft outside your group, and do **not** paste it into an AI tool or translation service.
-8. **Be kind and honest.** Write as you would like to be reviewed: clear about problems, respectful in tone.
+1. **Nhận xét về bài báo, không nhận xét về người viết.** Viết "Phần Kết quả không báo cáo OR thô", không viết "Bạn quên..." hay "Tác giả rõ ràng không hiểu...".
+2. **Cụ thể.** Ghi trang và dòng, nêu vấn đề là gì và vì sao quan trọng.
+3. **Mang tính xây dựng.** Mỗi nhận xét lớn kết thúc bằng một gợi ý: "Đề nghị báo cáo cả OR thô và OR đã hiệu chỉnh để người đọc thấy tác động của việc hiệu chỉnh."
+4. **Bắt đầu bằng những điểm làm tốt.** Mở đầu bản nhận xét bằng hai hoặc ba điểm mạnh thực sự.
+5. **Không viết lại bài báo** hay áp đặt văn phong của bạn. Gợi ý, không ra lệnh.
+6. **Ở trong phạm vi dữ liệu.** Không yêu cầu các phân tích không có trong gói kết quả. Bạn có thể gợi ý chúng như một hạn chế.
+7. **Giữ bảo mật.** Không chia sẻ bản nháp với bất kỳ ai khác, và **không** dán bản nháp vào công cụ AI hoặc dịch vụ dịch thuật.
+8. **Tử tế và trung thực.** Viết như cách bạn muốn được bình duyệt: rõ ràng về vấn đề, tôn trọng trong giọng văn.
 
 
 * * *
 
-## 5. Review report template
+## 5. Mẫu bản nhận xét bình duyệt
 
-Copy this into `GroupN_Review_of_GroupM.docx`.
+Chép phần này vào `Surname_Review_of_[author's surname].docx`.
 
-**Manuscript reviewed:** Group ___, Question ___, working title: ______________________________
-**Reviewing group:** Group ___  **Date:** ____________
+**Bản thảo được bình duyệt:** tác giả ______________, Câu hỏi Q___, tên đề tài dự kiến: ______________________________
+**Người bình duyệt:** ______________  **Ngày:** ____________
 
-**1. Summary (3–4 sentences).** What the paper asks, what it did and what it found, in your own words.
+**1. Tóm tắt (3 hoặc 4 câu).** Bài báo hỏi gì, đã làm gì và tìm thấy gì, bằng lời của bạn.
 
-**2. Strengths (2–3 points).**
+**2. Điểm mạnh (2 hoặc 3 ý).**
 
-**3. Major comments** (numbered; each with page/line, the problem, why it matters and a suggestion).
+**3. Nhận xét lớn** (đánh số; mỗi nhận xét có trang/dòng, vấn đề, vì sao quan trọng và một gợi ý).
 
 - M1.
 - M2.
 - M3.
 
-**4. Minor comments** (numbered; page/line and suggestion).
+**4. Nhận xét nhỏ** (đánh số; trang/dòng và gợi ý).
 
 - m1.
 - m2.
 
-**5. Appraisal checklist and writing checks.** Attach the two completed tables from section 3.
+**5. Bảng kiểm thẩm định và kiểm tra phần viết.** Đính kèm hai bảng đã điền ở mục 3.
 
-**6. Recommendation** (tick one, as a journal reviewer would):
+**6. Đề xuất** (đánh dấu một ô, như một người phản biện của tạp chí):
 
-☐ Accept as it is ☐ Minor revision ☐ Major revision ☐ Reject (explain why)
+☐ Chấp nhận như hiện tại ☐ Sửa nhỏ ☐ Sửa lớn ☐ Từ chối (giải thích lý do)
 
 
 * * *
 
-## 6. How authors respond (authoring group)
+## 6. Cách tác giả phản hồi (tác giả)
 
-1. **Read the review twice, then wait a day** before replying. Every reviewer comment is an opportunity to make the paper clearer.
-2. **Use the response template** (`Course/Templates/Response_to_Reviewers_Template.docx`). Open with one sentence thanking the reviewers.
-3. **Answer point by point.** For every comment, give: (a) the reviewer's comment (copied), (b) your reply, (c) what you changed, with the page and line in the revised manuscript.
-4. **Make the changes in the manuscript**, with tracked changes switched on, and make sure every change you claim is really there.
-5. **Disagree politely, with reasons.** You do not have to accept every suggestion. If you disagree, say why, citing the data or the literature: "We agree this would be informative. However, this analysis is not in the pre-specified SAP. We have added it as a limitation (page 9, line 12)."
-6. **Never answer just "Done".** Say what was done and where.
-7. **Keep the tone neutral and grateful**, even if a comment feels unfair.
+1. **Đọc bản bình duyệt hai lần, rồi chờ một ngày** trước khi trả lời. Mỗi nhận xét của người bình duyệt là một cơ hội để bài báo rõ ràng hơn.
+2. **Dùng mẫu thư phản hồi** (`Course/Templates/Response_to_Reviewers_Template_VN.docx`). Mở đầu bằng một câu cảm ơn người bình duyệt.
+3. **Trả lời theo từng ý.** Với mỗi nhận xét, ghi: (a) nhận xét của người bình duyệt (chép lại), (b) câu trả lời của bạn, (c) điều bạn đã thay đổi, kèm trang và dòng trong bản thảo đã sửa.
+4. **Sửa trong bản thảo**, bật chế độ theo dõi thay đổi, và bảo đảm mọi thay đổi bạn nêu đều thực sự có trong bản thảo.
+5. **Không đồng ý một cách lịch sự, có lý do.** Bạn không bắt buộc phải chấp nhận mọi gợi ý. Nếu không đồng ý, hãy nói vì sao, dựa vào dữ liệu hoặc y văn: "Chúng tôi đồng ý rằng phân tích này sẽ cung cấp thêm thông tin. Tuy nhiên, phân tích này không có trong SAP đã xác định trước. Chúng tôi đã bổ sung nó như một hạn chế (trang 9, dòng 12)."
+6. **Không bao giờ chỉ trả lời "Đã sửa".** Nêu đã làm gì và ở đâu.
+7. **Giữ giọng văn trung tính và biết ơn**, kể cả khi một nhận xét có vẻ không công bằng.
 
-**Example**
+**Ví dụ**
 
-| Reviewer comment | Response | Change in manuscript |
+| Nhận xét của người bình duyệt | Phản hồi | Thay đổi trong bản thảo |
 |---|---|---|
-| M1. The Results give only the adjusted OR; readers cannot see how much adjustment changed the estimate. | Thank you. We now report the crude OR alongside the adjusted OR and comment on the difference in the Discussion. | Results, p. 6, lines 4–7; Discussion, p. 8, lines 15–18; Table 2 updated. |
+| M1. Phần Kết quả chỉ nêu OR đã hiệu chỉnh; người đọc không thấy việc hiệu chỉnh đã làm ước lượng thay đổi bao nhiêu. | Cảm ơn người bình duyệt. Chúng tôi đã báo cáo OR thô bên cạnh OR đã hiệu chỉnh và bàn về sự khác biệt trong phần Bàn luận. | Kết quả, tr. 6, dòng 4 đến 7; Bàn luận, tr. 8, dòng 15 đến 18; đã cập nhật Bảng 2. |
 
 
 * * *
 
-## 7. Marking
+## 7. Chấm điểm
 
-The quality of the review you give and of your response is criterion 10 of `manuscript_rubric.md` (10 points).
+Chất lượng bản bình duyệt bạn viết và thư phản hồi của bạn là tiêu chí 10 trong `manuscript_rubric_VN.md` (10 điểm).

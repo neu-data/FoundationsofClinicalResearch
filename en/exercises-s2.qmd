@@ -2,31 +2,31 @@
 title: "Session 2: Exercise sheet"
 ---
 
-[Download the PDF](files/sessions/s2_exercises.pdf) · [Back to Session 2](session2.qmd)
+[Download the PDF](files/sessions/s2_exercises.pdf) · [Download the Word file (to fill in)](files/sessions/s2_exercises.docx) · [Back to Session 2](session2.qmd)
 
-**Foundations of Clinical Research · Level 1** · Neudata · *#ClearDataClearImpact* · Week 2 · Saturday
+**Foundations of Clinical Research · Level 1** · Neudata · *#ClearDataClearImpact* · Week 2 · Saturday 7 November 2026 · online, 19:30–22:30
 
-Name / group: ______________________________   Date: ____________
+Name: ______________________________   Department: ______________________________
 
-> **How to use this sheet.**
-> - Recap quiz on Session 1: on your own (8 minutes, start of the session).
-> - Exercise 1 (Boolean search builder): **on your own**, segment 2.1 (5 minutes).
+> **How to use this sheet.** This sheet is sent by email before the session, as a Word file and as a PDF. Keep it open on your computer during the session and type your answers into the Word file (or print the PDF at home).
+> - Recap quiz on Session 1: on your own, in the online form linked in the chat (8 minutes, start of the session).
+> - Exercise 1 (Boolean search builder): **on your own**, for your own question, segment 2.1 (5 minutes).
 > - Exercise 2 (paraphrasing): at home.
-> - Exercise 3 (reading Paper 1's abstract): **on your own**, segment 2.3 (12 minutes).
-> - Exercise 4: your **group's Proposal builder 2** (33 minutes).
+> - Exercise 3 (reading Paper 1's abstract): **on your own**, segment 2.3 (12 minutes). The clean abstract is linked in the chat.
+> - Exercise 4: **your own** Proposal builder 2 (35 minutes).
 >
-> The answers are discussed in the room. There is no mark.
+> The answers are discussed in class, in the chat. There is no mark.
 
 
 * * *
 
-## Recap quiz: Session 1  *(individual, 8 minutes)*
+## Recap quiz: Session 1  *(individual, 8 minutes, in the online form)*
 
-1. Checking whether fluid balance is charted daily as the protocol says: research, audit or QI? ____________
-2. "In ICU staff, does hand-hygiene feedback vs none increase compliance at 3 months?" P ______ I ______ C ______ O ______ T ______
+1. Which course paper is a trial and which is a cohort: Paper 1 (Boulet 2024) or Paper 2 (Hyun 2023)? ____________
+2. "In adults with sepsis, is a positive fluid balance by day 3, vs not, linked to death by day 28?" P ______ E ______ C ______ O ______ T ______
 3. Which FINER letter did our running example fail? ____________
-4. Which is an objective: "to understand delirium" or "to estimate the proportion with delirium"? ____________
-5. Write H0 for: "Does early mobilisation shorten ICU stay?" ________________________________________
+4. Which is an objective: "to understand fluid balance" or "to estimate the proportion fluid-positive on day 3"? ____________
+5. Write H0 for: "Does a restrictive protocol reduce fluid balance at day 5?" ________________________________________
 
 
 * * *
@@ -54,7 +54,7 @@ Name / group: ______________________________   Date: ____________
 - `septic shock AND fluids`  or  `septic shock OR fluids`
 - `sepsis`  or  `sepsis NOT neonatal`
 
-**Build your search** from your group's PICO question (Session 1) and your synonym list. The comparison (C) is usually *not* searched.
+**Build your search** from your own PICO question (Session 1) and your synonym list. The comparison (C) is usually *not* searched.
 
 | Block | Concept | Synonyms (2–4). Mark possible MeSH terms with (M) |
 |---|---|---|
@@ -68,7 +68,7 @@ Name / group: ______________________________   Date: ____________
 
 **One filter I would add, and why:** __________________________________________
 
-**Swap with your neighbour.** One synonym they suggest adding: ______________________
+**Share your search.** The trainer calls on two or three of you to read out one block; the class suggests a synonym to add. One synonym suggested for my search: ______________________
 
 **The search string from the live demo (copy it here to run at home):**
 
@@ -91,7 +91,7 @@ AND ("Mortality"[Mesh] OR mortality[tiab] OR death[tiab])
 
 ## Exercise 2: Citing vs copying (paraphrase safely)  *(individual, at home, 10 minutes)*
 
-**Method:** read → close the paper → write from memory → check the facts → cite.
+**Method:** read, close the paper, write from memory, check the facts, then cite.
 Patchwriting (copying the sentence and swapping a few words) is plagiarism **even with a reference**.
 
 **Part A: Spot the problem.** The source is the Results section of Paper 2's abstract (Hyun 2023):
@@ -122,9 +122,9 @@ ______________________________________________________________________________
 
 ## Exercise 3: Read Paper 1's abstract  *(individual, 12 minutes, segment 2.3)*
 
-Use the **abstract only** of Paper 1: Boulet N, et al. *Crit Care* 2024;28:429 (in `Papers/`). 8 minutes reading, 4 minutes comparing with your neighbour.
+Use the **abstract only** of Paper 1: Boulet N, et al. *Crit Care* 2024;28:429 (in `Papers/`). 8 minutes reading alone, then 4 minutes typing your primary outcome and main result in the chat.
 
-**The 15-minute reading order (for later):** title (30 s) → abstract (3 min) → figures & tables (4 min) → methods (5 min) → discussion & limitations (2–3 min). Stop early if the paper does not answer your question.
+**The 15-minute reading order (for later):** title (30 s), abstract (3 min), figures and tables (4 min), methods (5 min), then discussion and limitations (2–3 min). Stop early if the paper does not answer your question.
 
 | Item | What the abstract says |
 |---|---|
@@ -154,20 +154,19 @@ Use the **abstract only** of Paper 1: Boulet N, et al. *Crit Care* 2024;28:429 (
 
 * * *
 
-## Exercise 4: Proposal builder 2  *(group, 33 minutes)*
+## Exercise 4: Proposal builder 2  *(on your own, 35 minutes)*
 
-Complete Part 1 of the **Research Proposal template** (`Templates/Research_Proposal_Template.docx`) and the **literature review worksheet**, building on last week's question, aim and objectives. This sheet is your checklist.
-
-**Suggested roles:** chair · scribe (types into the template) · searcher (runs your PubMed string on a phone or laptop) · timekeeper.
+First the trainer searches live for the running example and you suggest terms and papers in the chat (10 minutes). Then you continue Part 1 of **your own** proposal in the **Research Proposal template** (`Templates/Research_Proposal_Template.docx`) and the **literature review worksheet**, building on last week's question, aim and objectives. This sheet is your checklist. Anything unfinished is homework.
 
 | Time | Task | Done |
 |---|---|---|
-| 0–8 min | **1. Run your search string** (Exercise 1) in PubMed; write the date, the filters and the number of hits | ☐ |
-| 8–16 min | **2. Screen** titles and abstracts; pick **5 key papers**; export them (*Send to → Citation manager*) into Zotero | ☐ |
-| 16–22 min | **3. Literature matrix**: one row per paper (split the papers between members) | ☐ |
-| 22–28 min | **4. Problem statement**: three short paragraphs (about 300 words): (a) what is known, (b) what is not known (the gap), (c) why it matters *here* (your local number) | ☐ |
-| 28–31 min | **5. Working title** and **keywords** (see below) | ☐ |
-| 31–33 min | One group reads its title and its gap sentence aloud; the room suggests one improvement | ☐ |
+| 0–10 min | Watch the trainer search and screen for the running example; suggest terms and papers in the chat | ☐ |
+| 10–30 min | **1. Run your search string** (Exercise 1) in PubMed; write the date, the filters and the number of hits | ☐ |
+| | **2. Screen** titles and abstracts; pick **5 key papers**; save them to Zotero (*Send to → Citation manager*, then import) | ☐ |
+| | **3. Literature review worksheet**: one row per paper | ☐ |
+| | **4. Problem statement**: three short paragraphs (about 300 words): (a) what is known, (b) what is not known (the gap), (c) why it matters *here* (local data, if you have them) | ☐ |
+| | **5. Working title** and **keywords** (see below) | ☐ |
+| 30–35 min | Two volunteers read their title and gap sentence aloud; everyone suggests one improvement in the chat | ☐ |
 
 **Working title and keywords**
 
@@ -196,20 +195,22 @@ ______________________________________________________________________________
 **Quality checks before you stop**
 - [ ] The problem statement ends with your question; the title names the same population and outcome as the question.
 - [ ] At least one reference is a randomised trial or a systematic review, if one exists; you checked a trial registry for ongoing trials.
-- [ ] References are saved in a reference manager or exported from PubMed (*Send to → Citation manager*). No sentence is copied from a source.
+- [ ] References are saved in Zotero. No sentence is copied from a source.
 
 
 * * *
 
-## Exit question  *(on a sticky note, no names)*
+## Exit question  *(in the chat, or the 1-question form linked there; 2 minutes, before you leave)*
 
 1. Which gives MORE hits: `septic shock AND fluids` or `septic shock OR fluids`?
 2. What was the primary outcome of Paper 1?
 
+*Why we ask:* it is not homework and not marked. It shows us what is still unclear. The trainers read every answer before Session 3.
+
 ## Homework before Session 3 (next Saturday)
 
-- **Group:** finish the five key references and the problem statement, so that Proposal Part 1 is complete with a working title and keywords.
-- **Each member:** read one paper with the 15-minute routine and fill its row in the matrix.
-- **Everyone:** read the **abstract** of Paper 2 (Hyun 2023, *Ann Intensive Care*) with the Exercise 3 grid.
+- Finish your five key references, worksheet rows and problem statement, so that **your own** Proposal Part 1 is complete with a working title and keywords.
+- Read one of your papers with the 15-minute routine.
+- Read the **abstract** of Paper 2 (Hyun 2023, *Ann Intensive Care*, in `Course/Papers`) with the Exercise 3 grid.
 - Exercise 2 (paraphrasing) if not done in class.
 - **Optional:** look up Paper 1's registration (NCT04947904) on ClinicalTrials.gov.

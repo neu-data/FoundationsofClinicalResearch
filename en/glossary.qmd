@@ -8,9 +8,9 @@ Download: [Word](files/docs/Glossary_EN_VN.docx) · [PDF](files/docs/Glossary_EN
 
 **Organisation:** Neudata (*#ClearDataClearImpact*)
 
-Key terms grouped by the session (1–8) in which they are taught. Sessions 5–8 include the terms needed for the course dataset (FLUID-ICU) and the group manuscript. Definitions are in plain language for the course; they are not formal textbook definitions. Abbreviations widely used in Vietnamese practice (PICO, RCT, CRF, OR, RR, NNT, GCP…) are kept in English in brackets.
+Key terms grouped by the session (1–8) in which they are taught. Sessions 5–8 include the terms needed for the course dataset (FLUID-ICU) and each participant's manuscript. Definitions are in plain language for the course; they are not formal textbook definitions. Abbreviations widely used in Vietnamese practice (PICO, RCT, CRF, OR, RR, NNT, GCP…) are kept in English in brackets.
 
-*Các thuật ngữ chính, xếp theo buổi học (1–8) mà chúng được giảng dạy. Buổi 5–8 gồm các thuật ngữ cần cho bộ dữ liệu của khóa học (FLUID-ICU) và bản thảo của nhóm. Định nghĩa được viết bằng ngôn ngữ đơn giản cho khóa học, không phải định nghĩa chính thức trong sách giáo khoa. Các chữ viết tắt thường dùng (PICO, RCT, CRF, OR, RR, NNT, GCP…) được giữ nguyên tiếng Anh trong ngoặc.*
+*Các thuật ngữ chính, xếp theo buổi học (1–8) mà chúng được giảng dạy. Buổi 5–8 gồm các thuật ngữ cần cho bộ dữ liệu của khóa học (FLUID-ICU) và bản thảo bài báo của mỗi học viên. Định nghĩa được viết bằng ngôn ngữ đơn giản cho khóa học, không phải định nghĩa chính thức trong sách giáo khoa. Các chữ viết tắt thường dùng (PICO, RCT, CRF, OR, RR, NNT, GCP…) được giữ nguyên tiếng Anh trong ngoặc.*
 
 
 * * *
@@ -38,6 +38,8 @@ Key terms grouped by the session (1–8) in which they are taught. Sessions 5–
 | Objective | Mục tiêu cụ thể | A specific, measurable step towards the aim, e.g. "to compare 28-day mortality between groups". | Bước cụ thể, đo lường được để đạt mục tiêu tổng quát, ví dụ "so sánh tỷ lệ tử vong 28 ngày giữa hai nhóm". |
 | Hypothesis | Giả thuyết nghiên cứu | A testable prediction about the result, naming the groups and the outcome. | Dự đoán có thể kiểm định về kết quả, nêu rõ các nhóm và kết cục. |
 | Null hypothesis | Giả thuyết không (H0) | The starting assumption that there is no difference or no effect. | Giả định ban đầu rằng không có khác biệt hoặc không có tác động. |
+| Alternative hypothesis | Giả thuyết đối (H1) | What we accept if the data are incompatible with H0: usually that the groups differ, in either direction. | Điều ta chấp nhận khi dữ liệu không phù hợp với H0: thường là các nhóm khác nhau, theo bất kỳ chiều nào. |
+| One-sided / two-sided test | Kiểm định một phía / hai phía | A two-sided test looks for a difference in either direction and is the default. A one-sided test looks in one direction only and needs a strong reason written before the data are seen. | Kiểm định hai phía tìm khác biệt theo cả hai chiều và là lựa chọn mặc định. Kiểm định một phía chỉ xét một chiều và cần lý do vững chắc, viết ra trước khi xem dữ liệu. |
 
 ## Session 2. FIND & READ · Buổi 2. TÌM VÀ ĐỌC Y VĂN
 
@@ -147,7 +149,7 @@ Key terms grouped by the session (1–8) in which they are taught. Sessions 5–
 | Table 1 | Bảng 1 (đặc điểm nền) | The table that describes the baseline characteristics of the participants, usually by group. | Bảng mô tả các đặc điểm ban đầu của người tham gia, thường theo từng nhóm. |
 | Dynamite plot | Biểu đồ cột kèm thanh sai số ("dynamite plot") | A bar showing only a mean with an error bar; it hides the data, so prefer dot plots or box plots. | Biểu đồ cột chỉ thể hiện giá trị trung bình kèm thanh sai số; che giấu dữ liệu thực, nên dùng biểu đồ chấm hoặc biểu đồ hộp thay thế. |
 | Box plot | Biểu đồ hộp | Shows the median, IQR and range of a variable; good for skewed data and for comparing groups. | Thể hiện trung vị, khoảng tứ phân vị và khoảng giá trị của một biến; phù hợp cho dữ liệu lệch và để so sánh các nhóm. |
-| Results pack | Gói kết quả phân tích | The set of tables, figures, regression outputs and plain-language notes prepared for each group's dataset question and used to write the manuscript. | Bộ bảng, hình, kết quả hồi quy và ghi chú bằng ngôn ngữ đơn giản được chuẩn bị cho câu hỏi của từng nhóm, dùng để viết bản thảo. |
+| Results pack | Gói kết quả phân tích | The set of tables, figures, regression outputs and plain-language notes prepared for each of the five dataset questions (Q1 to Q5) and used to write the manuscript. | Bộ bảng, hình, kết quả hồi quy và ghi chú bằng ngôn ngữ đơn giản được chuẩn bị cho từng câu hỏi trong năm câu hỏi của bộ dữ liệu (Q1 đến Q5), dùng để viết bản thảo. |
 
 ## Session 6. ANALYSE · Buổi 6. PHÂN TÍCH
 
@@ -243,7 +245,7 @@ Key terms grouped by the session (1–8) in which they are taught. Sessions 5–
 | Conference abstract and poster | Tóm tắt và poster hội nghị | A short summary submitted to a scientific meeting and presented as a talk or a poster. | Bản tóm tắt ngắn gửi đến hội nghị khoa học, được trình bày dưới dạng báo cáo miệng hoặc poster. |
 | Dissemination | Phổ biến kết quả nghiên cứu | Sharing results with colleagues, patients and policymakers through publication, presentations and local feedback. | Chia sẻ kết quả với đồng nghiệp, người bệnh và nhà hoạch định chính sách qua công bố, báo cáo và phản hồi tại đơn vị. |
 | Critical appraisal | Thẩm định phê bình (đánh giá y văn) | Systematically judging whether a study's methods and results are trustworthy and useful for your patients. | Đánh giá có hệ thống xem phương pháp và kết quả của một nghiên cứu có đáng tin cậy và hữu ích cho người bệnh của mình hay không. |
-| Peer-review swap | Trao đổi bình duyệt chéo giữa các nhóm | The after-course exercise in which each group reviews another group's draft manuscript and then responds to the review of its own draft. | Bài tập sau khóa học, trong đó mỗi nhóm bình duyệt bản thảo của một nhóm khác và sau đó phản hồi các nhận xét về bản thảo của nhóm mình. |
+| Course peer review (individual) | Bình duyệt chéo giữa các học viên | The after-course homework in which each participant reviews one classmate's draft manuscript (assigned by the instructor) and then responds to the review of their own draft. | Bài tập về nhà sau khóa học, trong đó mỗi học viên bình duyệt bản thảo của một bạn cùng lớp (do giảng viên phân công) và sau đó phản hồi các nhận xét về bản thảo của mình. |
 
 
 * * *

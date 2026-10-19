@@ -2,47 +2,45 @@
 title: "Buổi 2: Kịch bản trình diễn"
 ---
 
-::: {.lang-note}
-Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
-:::
+[Tải bản PDF](files/sessions/s2_demo_VN.pdf) · [Quay lại Buổi 2](session2.qmd)
 
-[Tải bản PDF](files/sessions/s2_demo.pdf) · [Quay lại Buổi 2](session2.qmd)
-
-**Foundations of Clinical Research · Level 1** · Neudata · *Instructor script*
+**Nền tảng Nghiên cứu Lâm sàng · Cấp độ 1** · Neudata · *Kịch bản cho giảng viên*
 
 | | |
 |---|---|
-| **When** | **Part A, PubMed:** segment 2.1 (0:10–0:50), slide "Live demo: searching PubMed for our question" (about 0:30). **Part B, Zotero:** segment 2.2 (0:50–1:10), slide "Live demo: from PubMed to Zotero to Word" (about 0:53). **Part C, Google Scholar:** optional extra slide |
-| **Length** | Part A 10 minutes (Steps 1–5 plus Send to citation manager), Part B 5 minutes (Step 6), Part C 3 minutes only if time allows |
-| **Question** | *In adults with septic shock in the ICU, does a restrictive fluid strategy, compared with usual care, reduce 28-day mortality?* |
-| **Goal** | Participants see a PICO question become a documented, repeatable search, and watch the hits fall step by step |
-| **Participants** | Watch and note hit counts on their exercise sheet. They do **not** search during the demo |
+| **Thời điểm** | Trực tuyến, thứ Bảy 19:30–22:30. **Phần A, PubMed:** mục 2.1 (0:10–0:50), slide "Trình diễn: tìm câu hỏi của chúng ta trên PubMed" (khoảng 0:30, tức 20:00). **Phần B, Zotero:** mục 2.2 (0:50–1:10), slide "Trình diễn: từ PubMed sang Zotero đến Word" (khoảng 0:53, tức 20:23). **Phần C, Google Scholar:** slide bổ sung tùy chọn |
+| **Thời lượng** | Phần A 10 phút (Bước 1–5 cộng Send to citation manager), Phần B 5 phút (Bước 6), Phần C 3 phút, chỉ khi còn thời gian |
+| **Câu hỏi** | *Ở người lớn bị sốc nhiễm khuẩn trong ICU, chiến lược hạn chế dịch so với chăm sóc thường quy có làm giảm tử vong 28 ngày không?* |
+| **Mục tiêu** | Học viên thấy một câu hỏi PICO trở thành một chiến lược tìm kiếm được ghi lại và lặp lại được, và nhìn số kết quả giảm dần qua từng bước |
+| **Học viên** | Trực tuyến: theo dõi màn hình chia sẻ, ghi số kết quả vào phiếu bài tập và gợi ý từ đồng nghĩa trong khung chat. Học viên **không** tự tìm kiếm trong lúc trình diễn |
 
-> **Golden rule on numbers.** Never promise a hit count. Say: *"Expect tens of thousands for one keyword and a few thousand for the full string. The numbers change every day as new papers are added."* Ask participants to write down **today's** numbers and the date. That is the lesson.
+Lưu ý: PubMed, Zotero và Google Scholar có giao diện tiếng Anh. Kịch bản giữ nguyên tên nút và menu như trên màn hình (ví dụ **Search**, **Send to**), kèm giải thích bằng tiếng Việt khi cần. Chuỗi tìm kiếm luôn viết bằng tiếng Anh.
+
+> **Quy tắc vàng về con số.** Đừng bao giờ hứa trước một số kết quả cụ thể. Hãy nói: *"Với một từ khóa, anh chị sẽ thấy hàng chục nghìn kết quả, với cả chuỗi tìm kiếm thì vài nghìn. Con số thay đổi mỗi ngày vì có bài báo mới được thêm vào."* Đề nghị học viên ghi lại con số **của hôm nay** và ngày tìm kiếm. Đó chính là bài học.
 
 
 * * *
 
-## Before the session (the day before and during the break)
+## Trước buổi học (ngày hôm trước và trong giờ giải lao)
 
-1. **Rehearse once, end to end**, on the room's computer and network.
-2. Open two browser tabs:
+1. **Tập dượt một lần, từ đầu đến cuối**, trên máy tính và đường truyền của chính anh chị, có chia sẻ màn hình trên nền tảng họp trực tuyến.
+2. Mở hai thẻ trình duyệt:
    - `https://pubmed.ncbi.nlm.nih.gov/`
    - `https://scholar.google.com/`
-3. Set browser zoom to 125–150% so the back row can read the screen.
-4. Paste the three blocks below into a text file you can copy from (typing long strings live is slow and error-prone).
-5. **Offline fallback:** the day before, capture screenshots of each step below (search box, results count, Search details, filters, an abstract page, Send to → Citation manager, the Zotero import, the Word citation in both styles, Google Scholar results and "Cited by"). Put them, in order, in a short slide set or a folder. Write the date and hit counts on each.
-6. Do **not** log into a personal My NCBI or Google account on a shared screen.
-7. **Reference manager:** install Zotero desktop (free, zotero.org) and its Word plug-in on the presenter laptop. Start with an empty test library called "Session 1 demo" and open a blank Word document. Check once that a `.nbib` file imports (File → Import…). If Zotero cannot be installed, use the screenshots instead.
+3. Đặt mức thu phóng trình duyệt 125–150% để học viên đọc được màn hình chia sẻ trên máy tính xách tay.
+4. Dán ba khối bên dưới vào một tệp văn bản để sao chép (gõ chuỗi dài trực tiếp vừa chậm vừa dễ sai).
+5. **Phương án dự phòng ngoại tuyến:** ngày hôm trước, chụp ảnh màn hình từng bước dưới đây (ô tìm kiếm, số kết quả, Search details, bộ lọc, một trang tóm tắt, Send to → Citation manager, bước nhập vào Zotero, trích dẫn trong Word ở cả hai kiểu, kết quả Google Scholar và "Cited by"). Sắp xếp theo thứ tự vào một bộ slide ngắn hoặc một thư mục, và gửi một bản cho giảng viên thứ hai để họ chia sẻ nếu đường truyền của anh chị bị lỗi. Ghi ngày và số kết quả trên mỗi ảnh.
+6. **Không** để lộ tài khoản My NCBI hoặc tài khoản Google cá nhân khi chia sẻ màn hình.
+7. **Phần mềm quản lý tài liệu tham khảo:** cài Zotero bản máy tính (miễn phí, zotero.org) và tiện ích cho Word trên máy tính dùng để trình chiếu. Bắt đầu với một thư viện thử nghiệm trống tên "Session 2 demo" và mở một tài liệu Word trống. Kiểm tra trước một lần rằng tệp `.nbib` nhập được (File → Import…). Nếu không cài được Zotero, dùng ảnh màn hình thay thế.
 
-### Strings to copy
+### Các chuỗi để sao chép
 
-**Step 1: one keyword**
+**Bước 1: một từ khóa**
 ```
 septic shock
 ```
 
-**Step 2: the three PICO blocks**
+**Bước 2: ba khối PICO**
 ```
 ("Shock, Septic"[Mesh] OR "septic shock"[tiab] OR sepsis[tiab])
 ```
@@ -53,7 +51,7 @@ septic shock
 ("Mortality"[Mesh] OR mortality[tiab] OR death[tiab])
 ```
 
-**Step 3: the full string (all on one line in the search box)**
+**Bước 3: chuỗi đầy đủ (viết trên một dòng trong ô tìm kiếm)**
 ```
 ("Shock, Septic"[Mesh] OR "septic shock"[tiab] OR sepsis[tiab]) AND ("Fluid Therapy"[Mesh] OR "fluid restrict*"[tiab] OR "restrictive fluid*"[tiab] OR "conservative fluid*"[tiab]) AND ("Mortality"[Mesh] OR mortality[tiab] OR death[tiab])
 ```
@@ -61,92 +59,95 @@ septic shock
 
 * * *
 
-## Part A: PubMed (10 min), step by step
+## Phần A: PubMed (10 phút), từng bước
 
-Go slowly: this audience has never seen PubMed's advanced features. After every step, pause 20–30 seconds so participants can write the number of hits on their sheet (Exercise 1).
+Đi chậm: học viên chưa từng thấy các tính năng nâng cao của PubMed. Sau mỗi bước, dừng 20–30 giây để học viên ghi số kết quả vào phiếu (Bài tập 1).
 
-### Step 1: One keyword (1.5 min)
-- **Do:** type `septic shock` in the PubMed box, then click **Search**.
-- **Audience sees:** a results page, with the number of results above the list (tens of thousands).
-- **Say:** *"This is everything that mentions septic shock. That is far too many to read. Write down the number and today's date."*
-- **Point out:** the **sort** menu (Best match vs Most recent) and the **filters** column on the left (on a narrow screen it may be behind a "Filters" button).
+### Bước 1: Một từ khóa (1.5 phút)
+- **Làm:** gõ `septic shock` vào ô tìm kiếm của PubMed, rồi bấm **Search**.
+- **Học viên thấy:** trang kết quả, với số kết quả ở phía trên danh sách (hàng chục nghìn).
+- **Nói:** *"Đây là mọi bài có nhắc đến sốc nhiễm khuẩn. Quá nhiều để đọc. Hãy ghi lại con số và ngày hôm nay."*
+- **Chỉ ra:** menu **sort** (sắp xếp: Best match, phù hợp nhất, hay Most recent, mới nhất) và cột **filters** (bộ lọc) bên trái (trên màn hình hẹp, cột này có thể nằm sau nút "Filters").
 
-### Step 2: Build the blocks with OR, join them with AND (2.5 min)
-- **Do (fast route, default):** paste the full string from Step 3 into the main box, then click **Search**.
-- **Do (if ahead of time):** go to **Advanced**, run the **P**, **I** and **O** blocks one by one (they appear as #1, #2, #3 in **History and Search Details**), then combine them with `#1 AND #2 AND #3`.
-- **Audience sees:** each block has many hits, but the combination has far fewer (expect a few thousand).
-- **Say:** *"OR inside a block makes it wider, because every synonym counts. AND between blocks keeps only papers that talk about all three ideas."* Point back to the Venn slide if needed.
+### Bước 2: Xây các khối bằng OR, nối chúng bằng AND (2.5 phút)
+- **Làm (cách nhanh, mặc định):** dán chuỗi đầy đủ ở Bước 3 vào ô tìm kiếm chính, rồi bấm **Search**.
+- **Làm (nếu đang đi trước giờ):** vào **Advanced**, chạy lần lượt từng khối **P**, **I** và **O** (chúng hiện là #1, #2, #3 trong **History and Search Details**), rồi kết hợp bằng `#1 AND #2 AND #3`.
+- **Học viên thấy:** mỗi khối có rất nhiều kết quả, nhưng khi kết hợp thì ít hơn hẳn (khoảng vài nghìn).
+- **Nói:** *"OR bên trong một khối làm khối rộng ra, vì từ đồng nghĩa nào cũng được tính. AND giữa các khối chỉ giữ lại những bài nói về cả ba ý."* Chỉ lại slide "Logic Boolean bằng hình ảnh" nếu cần.
+- **Hỏi cả lớp (chat):** *"Tác giả còn dùng những từ nào khác cho 'hạn chế dịch'?"* Thêm trực tiếp một hai gợi ý tốt (ví dụ `de-resuscitation[tiab]`) và cho thấy số kết quả thay đổi.
 
-### Step 3: Look at "Search details" (1.5 min)
-- **Do:** on the Advanced page, in **History and Search Details**, click the arrow (›) next to the latest line to expand the details.
-- **Audience sees:** how PubMed translated the search: the MeSH term with its narrower terms, the truncated words and the field tags.
-- **Say:** *"This is the single best way to check your search. Copy this line into your proposal with the date."*
-- **Teaching point:** the asterisk finds all endings, `[tiab]` means title/abstract, and `[Mesh]` explodes to narrower headings.
+### Bước 3: Xem "Search details" (1.5 phút)
+- **Làm:** ở trang Advanced, trong **History and Search Details**, bấm mũi tên (›) cạnh dòng mới nhất để mở phần chi tiết.
+- **Học viên thấy:** cách PubMed diễn dịch chuỗi tìm kiếm: thuật ngữ MeSH cùng các thuật ngữ hẹp hơn, các từ có dấu cắt cụt và các nhãn trường.
+- **Nói:** *"Đây là cách tốt nhất để kiểm tra chiến lược tìm kiếm. Hãy chép dòng này vào đề cương kèm ngày tìm kiếm."*
+- **Ý giảng dạy:** dấu sao tìm mọi đuôi từ, `[tiab]` nghĩa là tiêu đề/tóm tắt, và `[Mesh]` tự mở rộng sang các đề mục hẹp hơn.
 
-### Step 4: Add filters (2 min)
-- **Do:** on the results page, left-hand filters:
-  - **Article type:** tick *Randomized Controlled Trial*, *Systematic Review* and *Meta-Analysis*. (If one is missing, use **Additional filters → Article type** to add it.)
-  - **Publication date:** *10 years*.
-  - **Additional filters → Age:** *Adult: 19+ years* (optional; explain the trade-off below).
-- **Audience sees:** the count falls to the hundreds or fewer, and the filters appear above the results with an option to clear them.
-- **Say:** *"Every filter needs a reason you can write down. Article type because ours is a treatment question. Ten years because practice has changed."*
-- **Caution to voice:** age and species filters rely on indexing, so the very newest papers (not yet indexed) can be lost. Never use *Free full text* as a quality filter.
+### Bước 4: Thêm bộ lọc (2 phút)
+- **Làm:** ở trang kết quả, các bộ lọc bên trái:
+  - **Article type** (loại bài báo): chọn *Randomized Controlled Trial*, *Systematic Review* và *Meta-Analysis*. (Nếu thiếu loại nào, dùng **Additional filters → Article type** để thêm.)
+  - **Publication date** (năm xuất bản): *10 years*.
+  - **Additional filters → Age** (tuổi): *Adult: 19+ years* (tùy chọn; giải thích sự đánh đổi bên dưới).
+- **Học viên thấy:** số kết quả giảm xuống vài trăm hoặc ít hơn, và các bộ lọc hiện phía trên kết quả, kèm tùy chọn xóa bộ lọc.
+- **Nói:** *"Mỗi bộ lọc cần một lý do anh chị viết ra được. Loại bài báo, vì câu hỏi của ta là câu hỏi điều trị. Mười năm, vì thực hành đã thay đổi."*
+- **Lưu ý cần nói ra:** bộ lọc tuổi và loài dựa vào việc lập chỉ mục, nên những bài mới nhất (chưa được lập chỉ mục) có thể bị mất. Không bao giờ dùng *Free full text* làm bộ lọc chất lượng.
 
-### Step 5: Open one result (2 min), then Send to citation manager (30 s)
-- **Do:** scan the titles aloud. Look for the large randomised trials and the course papers. Useful title words to watch for:
-  - *Restriction of Intravenous Fluid in ICU Patients with Septic Shock* (CLASSIC, Meyhoff 2022, *N Engl J Med*)
+### Bước 5: Mở một kết quả (2 phút), rồi Send to citation manager (30 giây)
+- **Làm:** đọc to lướt các tiêu đề. Tìm các thử nghiệm ngẫu nhiên lớn và các bài báo của khóa học. Các tiêu đề nên để ý:
+  - *Restriction of Intravenous Fluid in ICU Patients with Septic Shock* (CLASSIC, Meyhoff 2022, *N Engl J Med*). Giải thích tên khi bài này xuất hiện: CLASSIC là viết tắt của Conservative versus Liberal Approach to Fluid Therapy of Septic Shock in Intensive Care, một thử nghiệm ngẫu nhiên lớn trên 1554 người lớn bị sốc nhiễm khuẩn tại các ICU ở châu Âu. Hạn chế dịch truyền tĩnh mạch không làm thay đổi tử vong 90 ngày.
   - *Early Restrictive or Liberal Fluid Management for Sepsis-Induced Hypotension* (CLOVERS, Shapiro 2023, *N Engl J Med*)
-  - *Impact on fluid balance of an optimized restrictive strategy targeting non-resuscitative fluids…* (Paper 1, Boulet 2024, *Crit Care*)
-- If one is not visible in the filtered list (it may be outside the filters, or ranked lower), say so honestly (that is a teaching point) and search its title words directly, e.g. `restriction intravenous fluid septic shock`.
-- **Do:** open one record (CLASSIC is ideal).
-- **Audience sees:** the abstract, authors, journal, the **MeSH terms** list (scroll down), **Similar articles**, **Cited by**, and full-text links (top right).
-- **Say:** *"The MeSH terms list here is a free gift: it tells you the vocabulary to use in your own search."*
+  - *Impact on fluid balance of an optimized restrictive strategy targeting non-resuscitative fluids…* (Bài báo 1, Boulet 2024, *Crit Care*)
+- Nếu một bài không có trong danh sách đã lọc (có thể nằm ngoài bộ lọc, hoặc xếp hạng thấp hơn), hãy nói thật điều đó (đó cũng là một ý giảng dạy) và tìm trực tiếp bằng các từ trong tiêu đề, ví dụ `restriction intravenous fluid septic shock`.
+- **Làm:** mở một bản ghi (CLASSIC là lý tưởng).
+- **Học viên thấy:** phần tóm tắt, tác giả, tạp chí, danh sách **MeSH terms** (cuộn xuống), **Similar articles** (bài tương tự), **Cited by** (được trích dẫn bởi), và đường dẫn đến toàn văn (góc trên bên phải).
+- **Nói:** *"Danh sách MeSH terms ở đây là một món quà miễn phí: nó cho anh chị biết từ vựng nên dùng trong chiến lược tìm kiếm của mình."*
+- **Cho xem (30 giây, nếu còn thời gian):** ở trang chủ PubMed, trong mục **Explore**, mở **MeSH Database** và gõ `bedsore` (loét tì đè). Bản ghi hiện đề mục *Pressure Ulcer* và các từ mà đề mục này gom lại. Đây là cách thứ hai để tìm thuật ngữ MeSH (slide "Cách tìm đúng thuật ngữ MeSH").
 
-## Part B: Zotero (5 min)
+## Phần B: Zotero (5 phút)
 
-### Step 6: Send to citation manager → Zotero → Word (5 min)
-- **Do (PubMed):** back on the results, tick 2–3 papers (e.g. CLASSIC and Paper 1), then choose **Send to** → **Citation manager** → **Create file**. A `.nbib` file downloads.
-- **Do (Zotero):** in Zotero desktop, use **File → Import…** and choose the `.nbib` file. (Double-clicking the file often works too.)
-- **Audience sees:** each paper appears as one entry with authors, title, journal, year, volume, pages, PMID and DOI, with nothing typed by hand.
-- **Do (Word):** in the blank document type one sentence, e.g. *"Restricting IV fluid did not change 90-day mortality"*, then **Zotero tab → Add/Edit Citation**, type `Meyhoff` and press Enter. Then **Add/Edit Bibliography**. Then open **Document Preferences** and switch the style from a numbered (Vancouver-type) style to **APA** and back.
-- **Audience sees:** `[1]` becomes `(Meyhoff et al., 2022)` and the reference list reformats itself. This is the citation-styles slide, live.
-- **Say:** *"Collect, export, import, cite, list. Never type a reference by hand, and never cite a paper you have not read."*
-- **Mention (do not demo):** the **Cite** button on each PubMed record (one reference); **Clipboard**; a free **My NCBI** account to save searches and get e-mail alerts (*Create alert*); the **Zotero Connector** browser button that saves a paper from a journal page in one click. Mendeley and EndNote work the same way.
+### Bước 6: Send to citation manager → Zotero → Word (5 phút)
+- **Làm (PubMed):** quay lại trang kết quả, chọn 2–3 bài (ví dụ CLASSIC và Bài báo 1), rồi chọn **Send to** → **Citation manager** → **Create file**. Một tệp `.nbib` được tải về.
+- **Làm (Zotero):** trong Zotero bản máy tính, dùng **File → Import…** và chọn tệp `.nbib`. (Nhấp đúp vào tệp thường cũng được.)
+- **Học viên thấy:** mỗi bài hiện thành một mục với tác giả, tiêu đề, tạp chí, năm, tập, trang, PMID và DOI, không phải gõ tay gì cả.
+- **Làm (Word):** trong tài liệu trống, gõ một câu, ví dụ *"Hạn chế dịch truyền tĩnh mạch không làm thay đổi tử vong 90 ngày"*, rồi **thẻ Zotero → Add/Edit Citation**, gõ `Meyhoff` và nhấn Enter. Sau đó **Add/Edit Bibliography**. Rồi mở **Document Preferences** và đổi kiểu trích dẫn từ kiểu đánh số (kiểu Vancouver) sang **APA** rồi đổi lại.
+- **Học viên thấy:** `[1]` thành `(Meyhoff et al., 2022)` và danh mục tài liệu tham khảo tự định dạng lại. Đây chính là slide "Kiểu trích dẫn: một bài, hai cách trình bày", nhưng làm trực tiếp.
+- **Nói:** *"Thu thập, xuất, nhập, trích dẫn, lập danh mục. Không bao giờ gõ tay tài liệu tham khảo, và không bao giờ trích dẫn bài báo anh chị chưa đọc."*
+- **Học viên:** mọi người đã cài Zotero trong bài tập về nhà của Buổi 1, nên có thể làm lại bước nhập trên máy của mình cùng lúc với giảng viên.
+- **Nhắc đến (không trình diễn):** nút **Cite** trên mỗi bản ghi PubMed (một tài liệu); **Clipboard**; tài khoản **My NCBI** miễn phí để lưu chiến lược tìm kiếm và nhận thông báo qua email (*Create alert*); nút **Zotero Connector** trên trình duyệt để lưu một bài từ trang tạp chí chỉ bằng một cú bấm. Mendeley và EndNote hoạt động theo cách tương tự.
 
-## Part C: Google Scholar (optional extra slide, 3 min)
+## Phần C: Google Scholar (slide bổ sung tùy chọn, 3 phút)
 
-### Step 7: Google Scholar, for comparison
-- **Do:** in the Scholar tab, search `restrictive fluid septic shock mortality`.
-- **Audience sees:** a broad mix (journal articles, theses, reports, preprints), ranked by a hidden algorithm, with "Cited by N" under each result.
-- **Do:** click **Cited by** under a large trial (e.g. CLASSIC), then **Search within citing articles** for `mortality`.
-- **Say:** *"Scholar is excellent for following citations forward and for grey literature, but there is no MeSH, few filters, and the same search may give different results next month. Use PubMed for the search you report. Use Scholar to check you have not missed anything."*
-- **Optional:** show the **Cite** (quote-mark icon) button and its export formats, such as EndNote or RefMan.
+### Bước 7: Google Scholar, để so sánh
+- **Làm:** trong thẻ Scholar, tìm `restrictive fluid septic shock mortality`.
+- **Học viên thấy:** một tập hợp rộng (bài báo tạp chí, luận văn, báo cáo, bản preprint), được xếp hạng bằng một thuật toán không công khai, với dòng "Cited by N" dưới mỗi kết quả.
+- **Làm:** bấm **Cited by** dưới một thử nghiệm lớn (ví dụ CLASSIC), rồi **Search within citing articles** (tìm trong các bài trích dẫn) với từ `mortality`.
+- **Nói:** *"Scholar rất tốt để lần theo các bài trích dẫn về sau và để tìm tài liệu xám, nhưng không có MeSH, ít bộ lọc, và cùng một chuỗi tìm kiếm có thể cho kết quả khác vào tháng sau. Hãy dùng PubMed cho chiến lược tìm kiếm mà anh chị báo cáo. Dùng Scholar để kiểm tra mình không bỏ sót gì."*
+- **Tùy chọn:** cho xem nút **Cite** (biểu tượng dấu ngoặc kép) và các định dạng xuất của nó, như EndNote hoặc RefMan.
 
-### Close (30 seconds)
-Ask: *"Which step reduced the hits most?"* Expected answer: combining the blocks with AND and the article-type filter.
-After Part A, participants do Exercise 1 (Boolean search builder, 5 minutes). After Part B, continue with the "Citation styles" slide.
+### Kết thúc (30 giây)
+Hỏi: *"Bước nào làm giảm số kết quả nhiều nhất?"* Câu trả lời dự kiến: kết hợp các khối bằng AND và bộ lọc loại bài báo.
+Sau Phần A, học viên làm Bài tập 1 (xây chuỗi tìm kiếm Boolean, 5 phút). Sau Phần B, tiếp tục với slide "Kiểu trích dẫn: một bài, hai cách trình bày".
 
 
 * * *
 
-## Teaching points to land (say each once)
-1. **Write down** the database, the date, the exact string, the filters and the number of hits, so the search can be repeated.
-2. **OR inside, AND between**. Use NOT only with a reason.
-3. **MeSH + free text** in every block, because the newest papers may not have MeSH yet.
-4. **Filters need a reason**. Never filter for free full text.
-5. **Screen by reading**: the computer narrows, people choose.
-6. **Export, don't type** references.
+## Các ý giảng dạy cần truyền đạt (mỗi ý nói một lần)
+1. **Ghi lại** cơ sở dữ liệu, ngày tìm kiếm, chuỗi tìm kiếm chính xác, các bộ lọc và số kết quả, để có thể lặp lại chiến lược tìm kiếm.
+2. **OR bên trong, AND ở giữa**. Chỉ dùng NOT khi có lý do.
+3. **MeSH + từ tự do** trong mọi khối, vì những bài mới nhất có thể chưa có MeSH.
+4. **Bộ lọc cần có lý do**. Không bao giờ lọc theo toàn văn miễn phí.
+5. **Sàng lọc bằng cách đọc**: máy tính thu hẹp, con người lựa chọn.
+6. **Xuất, đừng gõ** tài liệu tham khảo.
 
-## If something goes wrong
-| Problem | What to do |
+## Nếu có sự cố
+| Sự cố | Cách xử lý |
 |---|---|
-| No internet / PubMed slow | Switch immediately to the offline screenshots. Narrate the same steps. Do not troubleshoot in front of the room |
-| A "Too many results" or error page | Paste the full string from the text file rather than typing |
-| Zero results | A missing bracket or quote. Show Search details. It becomes a teaching moment |
-| A known paper does not appear | Explain why (filters, indexing delay, different words) and search its title directly. This is a real-world lesson |
-| Google Scholar shows a CAPTCHA | Do not try to solve it on a shared machine. Skip to the screenshot of Scholar results |
-| Running over time | Skip Step 7, use the fast route in Step 2, and show only the Zotero import (not Word) in Step 6 |
-| Zotero import fails or not installed | Show the screenshots of the import and the Word citation, and say "the same file works in Mendeley and EndNote" |
+| Mất mạng / PubMed chậm | Chuyển ngay sang ảnh màn hình ngoại tuyến (hoặc nhờ giảng viên thứ hai chia sẻ). Thuyết minh cùng các bước. Không sửa lỗi trực tiếp |
+| Trang "Too many results" hoặc trang báo lỗi | Dán chuỗi đầy đủ từ tệp văn bản thay vì gõ |
+| Không có kết quả nào | Thiếu một dấu ngoặc hoặc dấu nháy. Mở Search details. Đây trở thành một tình huống để dạy |
+| Một bài đã biết không xuất hiện | Giải thích lý do (bộ lọc, chậm lập chỉ mục, từ ngữ khác) và tìm trực tiếp theo tiêu đề. Đây là bài học từ thực tế |
+| Google Scholar hiện CAPTCHA | Đừng cố giải khi đang chia sẻ màn hình. Chuyển sang ảnh chụp kết quả Scholar |
+| Bị trễ giờ | Bỏ Bước 7, dùng cách nhanh ở Bước 2, và ở Bước 6 chỉ cho xem bước nhập vào Zotero (không làm phần Word) |
+| Nhập vào Zotero bị lỗi hoặc chưa cài Zotero | Chiếu ảnh màn hình bước nhập và trích dẫn trong Word, và nói "cùng tệp này dùng được trong Mendeley và EndNote" |
 
-## After the demo
-Participants copy the demo string on their sheet (Exercise 1). In Proposal builder 2 (2:20–2:55) each group's "searcher" runs the group's own string and exports the five references to Zotero. Trainers circulate to help.
+## Sau phần trình diễn
+Học viên chép chuỗi tìm kiếm mẫu vào phiếu (Bài tập 1). Trong phần Xây dựng đề cương 2 (2:20–2:55, tức 21:50–22:25), giảng viên trước tiên chạy lại chuỗi này và cùng cả lớp sàng lọc trực tiếp (học viên gợi ý từ khóa và bài báo trong khung chat); sau đó mỗi học viên chạy chuỗi của riêng mình và lưu năm tài liệu tham khảo vào Zotero. Giảng viên trả lời câu hỏi trong khung chat.

@@ -24,19 +24,19 @@ format:
 - Proposal builder 5: variables, mini-CRF, data dictionary, data management
 
 ::: {.notes}
-Welcome to Week 5. Sessions 1-4 asked a question, found the evidence and chose a design. Over these two Saturdays we MEASURE and ANALYSE: today (Session 5) the data, next Saturday (Session 6) the analysis.
+Welcome to Week 5. We meet online, 19:30 to 22:30 with a 15-minute break. Sessions 1-4 asked a question, found the evidence and chose a design. Over these two Saturdays we measure and analyse: today (Session 5) the data, next Saturday (Session 6) the analysis.
 
-Key promise: no formulas. Every idea comes as a picture, then a worked example, then a one-minute check. Your job is to interpret, not to calculate.
+Key promise: no formulas. Every idea comes as a picture, then a worked example, then a one-minute check: a poll, or two or three people called on with the microphone on. Your job is to interpret, not to calculate.
 
-New in Weeks 5-6: the course dataset FLUID-ICU, a realistic (simulated) cohort of about 600 adults with sepsis. You will see it cleaned and described live in R, and each group gets one research question and a results pack that becomes its manuscript in Weeks 7-8.
+New in Weeks 5-6: the course dataset FLUID-ICU, a realistic (simulated) cohort of 620 adults with sepsis. You will see it cleaned and described live in R on the shared screen. It comes with five research questions (Q1 to Q5), each with a results pack. In class we work through the questions together. Later, each of you chooses one question and writes your own manuscript from its results pack in Weeks 7-8: we give you the results, you write the paper.
 
-Running example: fluids in septic shock. The variable 'cumulative fluid balance (ml/kg)' follows us all day: on the form, in the data dictionary, in the cleaned dataset, in Table 1.
+Running example: fluids in septic shock. The variable 'cumulative fluid balance (ml/kg)' follows us all evening: on the form, in the data dictionary, in the cleaned dataset, in Table 1.
 
-Ask the room: who has ever filled in a data collection form and thought 'what does this box actually want?' Expected: many hands. That is section 5.1.
+Ask the class (call on two or three people, microphone on): who has ever filled in a data collection form and thought 'what does this box actually want?' Expected: many replies. That is section 5.1.
 
-Timing: recap 0:00, 5.1 at 0:10, 5.2 at 0:45, break at 1:10, 5.3 at 1:25, 5.4 at 2:00, proposal builder at 2:25, wrap-up at 2:55.
+Timing: recap 19:30, 5.1 at 19:40, 5.2 at 20:15, break at 20:40, 5.3 at 20:55, 5.4 at 21:30, proposal builder at 21:55, wrap-up at 22:25.
 
-Pace: slow. If the room needs time, skip the extra slides at the end; never skip the checks.
+Pace: slow. Attention is lower online in the evening. If the class needs time, skip the extra slides at the end. Never skip the checks.
 :::
 
 ## Recap quiz: Sessions 3-4 in three questions
@@ -49,9 +49,9 @@ QUICK QUIZ · 10 min
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
 - Q1. Patients who smoke are followed for 10 years to see who develops a stroke. Which design?
-- Q2. In a cohort, sicker septic patients receive more fluid AND die more often. What is this called?
-- Q3. Mortality is 30% with usual care and 20% with a new strategy. What are the RR and the NNT?
-- Answer alone (2 min), then compare with your neighbour (2 min)
+- Q2. In a cohort, sicker septic patients receive more fluid and die more often. What is this called?
+- Q3. Mortality is 30% with usual care and 20% with a new strategy. What are the risk ratio (RR) and the number needed to treat (NNT)?
+- Answer each question in the poll (1 minute each), then we discuss
 :::
 :::
 ::: {.column width="40%"}
@@ -60,7 +60,7 @@ Answers (reveal after)
 
 - Q1: prospective cohort
 - Q2: confounding by indication
-- Q3: RR = 20/30 = 0.67; RD = 10%; NNT = 1/0.10 = 10
+- Q3: RR = 20/30 = 0.67. Risk difference (RD) = 10%. NNT = 1/0.10 = 10
 :::
 :::
 ::::
@@ -72,17 +72,17 @@ Answers (reveal after)
 ::: {.notes}
 Purpose: wake up Session 4 memory and catch anyone who missed it. Keep it light: no marks.
 
-Run it: read each question aloud, 2 minutes alone, 2 minutes with a neighbour, then reveal. Hide the side panel until the reveal if you can (or cover it and read answers from these notes).
+Run it: launch one poll per question (Zoom/Teams poll or a form), give 1 minute each, show the results, then reveal. Hide the side panel until the reveal (or read the answers from these notes).
 
 Q1 answer: prospective cohort. Exposure (smoking) is measured first, then we wait for the outcome. Common wrong answer: case-control. Point out that case-control starts from the outcome and looks back.
 
-Q2 answer: confounding by indication. Severity causes both more fluid and more death. This is exactly why Paper 2 used propensity-score matching, and why Session 6 (6.3 and 6.4) is about 'adjusted' results.
+Q2 answer: confounding by indication. Severity causes both more fluid and more death. This is exactly why Paper 2 (Hyun 2023, a cohort of fluid balance and mortality in septic shock, in the course folder, Course/Papers) used propensity-score matching, and why Session 6 (6.3 and 6.4) is about 'adjusted' results.
 
-Q3 answer: RR = 0.20 / 0.30 = 0.67 (a one-third relative reduction); risk difference = 10 percentage points; NNT = 1 / 0.10 = 10 patients treated to prevent one death.
+Q3 answer: RR = 0.20 / 0.30 = 0.67 (a one-third relative reduction). Risk difference = 10 percentage points. NNT = 1 / 0.10 = 10 patients treated to prevent one death.
 
-If more than a third of the room gets Q3 wrong, spend 2 extra minutes on the 2x2 table on the flip chart before moving on.
+If more than a third of the class gets Q3 wrong, spend 2 extra minutes drawing the 2x2 table on the shared screen (whiteboard) before moving on.
 
-Timing: 10 minutes including the reveal.
+Timing: 10 minutes including the reveal (19:30 to 19:40).
 :::
 
 ## 5.1 Good data by design
@@ -98,39 +98,76 @@ Bad data cannot be rescued by good statistics.
 ::::
 
 ::: {.notes}
-Section 5.1 opener (35 minutes: variable types with a check, CRF design with a worked example, data dictionary, validation, data management, missing data, then a 7-minute pair task).
+Section 5.1 opener (35 minutes, 19:40 to 20:15: variable types with a check, CRF design with a worked example, data dictionary, validation, data management, missing data, then a 7-minute whole-class task on fixing CRF items).
 
 Key message: most problems in clinical research lie in the data rather than in the analysis. A statistician cannot fix a blank box, a missing unit or an impossible value six months later.
 
 Garbage in, garbage out: the quality of your answer is capped by the quality of your form.
 
-Ask the room: has anyone been asked to 'help with the data' after a study finished, and found half the forms incomplete? Let one or two people tell their story in one sentence.
+Ask the class (call on two or three people, microphone on): has anyone been asked to 'help with the data' after a study finished, and found half the forms incomplete? Invite one or two people to unmute and tell their story in one sentence.
 
-Transition: we start with the most basic decision of all: what TYPE of variable are you collecting? It decides how you write the CRF item, how you summarise it and which test you use.
+Transition: we start with the most basic decision of all: what type of variable are you collecting? It decides how you write the CRF item, how you summarise it and which test you use.
 :::
 
 ## What type of variable is it?
 
-![](images/figures/sat3/variable_types.png){.neu-fig}
+::: {.neu-intro}
+Numbers are measured (first two cards). Categories are groups (last three). Time-to-event combines how long and whether it happened.
+:::
+
+:::: {.neu-cards style="--n:5"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[Continuous]{.neu-card-title}
+
+- Any value on a scale
+- Fluid balance (ml/kg), lactate, age
+:::
+::: {.neu-card .plain style="--c:#5FA39B"}
+[Count]{.neu-card-title}
+
+- A whole number
+- Number of organ failures
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[Binary]{.neu-card-title}
+
+- Two options
+- Died by day 28: yes or no
+:::
+::: {.neu-card .plain style="--c:#0070C0"}
+[Nominal]{.neu-card-title}
+
+- Groups with no order
+- Source of sepsis: lung, urine, abdomen
+:::
+::: {.neu-card .plain style="--c:#055F56"}
+[Ordinal]{.neu-card-title}
+
+- Groups in an order
+- Acute kidney injury (AKI) stage 1, 2 or 3
+:::
+::::
 
 ::: {.neu-takeaway}
 **KEY MESSAGE** The variable type decides the CRF box, the summary and the test.
 :::
 
 ::: {.notes}
-Teaching point: every variable is either a NUMBER you measure or a CATEGORY you assign. Then split once more.
+Teaching point: every variable is either a number you measure or a category you assign. Then split once more.
 
 Numbers: continuous (any value on a scale: fluid balance in ml/kg, lactate, age) or counts (whole numbers: number of organ failures).
 
-Categories: binary (two options: died yes/no), nominal (several groups with no order: source of sepsis) and ordinal (ordered groups: pressure-injury stage 1 to 4, pain mild/moderate/severe).
+Categories: binary (two options: died yes/no), nominal (several groups with no order: source of sepsis) and ordinal (ordered groups: acute kidney injury (AKI) stage 1 to 3, pain mild/moderate/severe).
 
-Time-to-event (top left) is special: it combines HOW LONG (time to death) and WHETHER it happened (died or censored at day 28). Just mention it; we meet it again with Cox models in 6.3.
+Time-to-event (in the intro line) is special: it combines how long (time to death) and whether it happened (died, or censored at day 28 if still alive). Just mention it. We meet it again with Kaplan-Meier curves and Cox models in Session 6 (6.3).
 
-Common misconception: 'coded as numbers means numerical'. Sex coded 1/2 is still a category; the average of 1.4 means nothing.
+Common misconception: 'coded as numbers means numerical'. Sex coded 1/2 is still a category. The average of 1.4 means nothing.
 
-Quick sorting game: call out variables and let the room shout the type: Glasgow Coma Scale (ordinal, though often treated as a number), heart rate (continuous), ventilated yes/no (binary), blood group (nominal), days on ventilator (count), time to extubation (time-to-event).
+Quick sorting game: name a variable and call on someone to say its type: Glasgow Coma Scale (ordinal, though often treated as a number), heart rate (continuous), ventilated yes/no (binary), blood group (nominal), days on ventilator (count), time to extubation (time-to-event).
 
 Tip: collect continuous variables as numbers whenever possible. You can always group age into bands later, but you can never get the exact age back from '60-69'.
+
+This slide replaces the earlier tree picture with editable cards. The content is the same.
 :::
 
 ## Check your understanding: what type of variable?
@@ -143,7 +180,7 @@ QUICK QUIZ · 3 min
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
 - Heart rate (beats per minute)
-- Glasgow Coma Scale (3-15)
+- Glasgow Coma Scale (GCS, 3-15)
 - Blood group (A, B, AB, O)
 - Ventilated on day 1 (yes / no)
 - Time from ICU admission to extubation
@@ -163,23 +200,23 @@ Answers
 ::::
 
 ::: {.neu-output style="--c:#6C3483"}
-**OUTPUT** Everyone can name the five variable types
+**OUTPUT** Everyone can name the variable types
 :::
 
 ::: {.notes}
-Check your understanding (3 minutes). Read each variable; the room shows fingers: 1 continuous, 2 count, 3 binary, 4 nominal, 5 ordinal, or says 'time-to-event'. Reveal the side panel only after each vote.
+Check your understanding (3 minutes). Launch a poll for each variable with six options (continuous, count, binary, nominal, ordinal, time-to-event), or call on one person per variable. Reveal the side panel only after each vote.
 
 Heart rate: continuous.
 
-GCS: ordinal; ordered scores with unequal steps, often analysed like a number, which is acceptable if stated.
+GCS: ordinal. Ordered scores with unequal steps, often analysed like a number, which is acceptable if stated.
 
-Blood group: nominal; no order.
+Blood group: nominal, no order.
 
 Ventilated yes/no: binary.
 
 Time to extubation: time-to-event, because some patients are never extubated (they die or are transferred) and must be censored.
 
-If more than a third get GCS or time-to-extubation wrong, go back to the tree for one minute.
+If more than a third get GCS or time-to-extubation wrong, go back to the previous slide for one minute.
 
 Why this matters: the type decides the CRF box, the summary (5.3) and the test (Session 6).
 :::
@@ -210,7 +247,7 @@ Clear: unit, time window, one answer, 'unknown'
 ::: {.notes}
 Teaching point: a CRF item is good when two different people, filling it for the same patient, would write the same answer.
 
-Go through the left side and ask the room to diagnose each problem before you reveal the red text:
+Go through the left side and call on people to diagnose each problem before you reveal the red text:
 
 Fluid balance: no unit (ml? litres? ml/kg?), no time window (today? cumulative?). For our running example this single box decides the primary outcome of the whole study.
 
@@ -218,9 +255,9 @@ Age: years or months, on which date? Better: collect date of birth and date of a
 
 Infection source: options are incomplete (no 'other', no 'unknown') and it is unclear whether you can tick more than one.
 
-Did fluids work AND did the patient improve: two questions in one (double-barrelled), and both are opinions. Replace with objective measures (lactate, MAP, vasopressor dose).
+Did fluids work and did the patient improve: two questions in one (double-barrelled), and both are opinions. Replace with objective measures (lactate, mean arterial pressure, vasopressor dose).
 
-Right side: unit and time window inside the question, boxes for digits including a +/- sign (fluid balance can be negative), fixed date format, tick ONE, 'other' and 'unknown' options, decimal place shown for lactate.
+Right side: unit and time window inside the question, boxes for digits including a +/- sign (fluid balance can be negative), fixed date format, tick one, 'other' and 'unknown' options, decimal place shown for lactate.
 
 Ask: what is wrong with leaving a box blank? Expected: we cannot tell 'not done' from 'forgot' from 'zero'. That is why we add 'unknown / not done'.
 :::
@@ -228,39 +265,37 @@ Ask: what is wrong with leaving a box blank? Expected: we cannot tell 'not done'
 ## Worked example: from a question to one CRF item
 
 ::: {.neu-intro}
-The outcome 'cumulative fluid balance' in five decisions.
+The variable 'cumulative fluid balance' in five decisions.
 :::
 
 :::: {.neu-steps}
 ::: {.neu-step style="--c:#0D7377"}
 [What?]{.neu-step-label}
 
-- Fluid IN minus fluid OUT
-- all routes, incl. drugs
+- Fluid in minus fluid out
+- All routes, including drug diluents
 :::
 ::: {.neu-step style="--c:#0B376C"}
 [When?]{.neu-step-label}
 
-- From ICU admission
-- to the end of day 3
+- From ICU admission to the end of day 3
 :::
 ::: {.neu-step style="--c:#5FA39B"}
 [Unit?]{.neu-step-label}
 
-- ml per kg of
-- admission weight
+- ml per kg of admission weight
 :::
 ::: {.neu-step style="--c:#0070C0"}
 [Format?]{.neu-step-label}
 
-- Number with +/- sign
-- boxes for digits
+- A number with a +/- sign
+- One box per digit
 :::
 ::: {.neu-step style="--c:#055F56"}
 [Missing?]{.neu-step-label}
 
-- 'Not recorded' box
-- + reason
+- A 'not recorded' box
+- A reason for the gap
 :::
 ::::
 
@@ -271,19 +306,19 @@ The outcome 'cumulative fluid balance' in five decisions.
 ::: {.notes}
 Worked example (3 minutes): build one CRF item together, the primary exposure of the course dataset.
 
-What: cumulative fluid balance = total fluid in (crystalloids, colloids, blood, drug diluents, enteral) minus total fluid out (urine, drains, losses). Decide whether insensible losses count; write it in the data dictionary.
+What: cumulative fluid balance = total fluid in (crystalloids, colloids, blood, drug diluents, enteral) minus total fluid out (urine, drains, losses). Decide whether insensible losses count. Write it in the data dictionary.
 
 When: from ICU admission to the end of day 3 (the FLUID-ICU definition). A different window gives a different variable.
 
 Unit: ml/kg of admission weight, so patients of different sizes can be compared. That means weight must also be on the CRF.
 
-Format: a signed number with digit boxes; fluid balance can be negative.
+Format: a signed number with digit boxes. Fluid balance can be negative.
 
 Missing: a 'not recorded' box and a reason, so a blank always means 'forgotten'.
 
-Ask: what other item must the CRF now contain because of the unit? Expected: body weight at admission (and how it was obtained).
+Ask (call on two or three people, microphone on): what other item must the CRF now contain because of the unit? Expected: body weight at admission (and how it was obtained).
 
-This is exactly what groups do for their own variables in the proposal builder today.
+In the proposal builder at the end of this session, the instructor models the same steps for the running example, and you then do it for your own variables.
 :::
 
 ## Five rules for a good CRF
@@ -334,9 +369,9 @@ Teaching point: five rules cover most CRF problems. Read the card titles, give o
 
 Only what you need: every item must answer an objective, describe the population, or adjust for a confounder. 'Nice to know' items make forms long and incomplete.
 
-One question, one answer: avoid double-barrelled questions; prefer measured values over opinions.
+One question, one answer: avoid double-barrelled questions. Prefer measured values over opinions.
 
-Units and timing: write the unit and the time point INTO the question.
+Units and timing: write the unit and the time point into the question.
 
 Closed answers: tick boxes with codes are faster to fill and to analyse than free text. Always include 'other (specify)' and 'unknown / not done'.
 
@@ -344,19 +379,21 @@ Pilot it: give the form to two colleagues for the same five patients and compare
 
 Common mistake: designing the form after data collection has started. Changing a form mid-study creates two different datasets.
 
-Ask: which rule is most often broken on forms in your unit? Expected answers: too long, no units, free text everywhere.
+Ask (call on two or three people, microphone on): which rule is most often broken on forms in your unit? Expected answers: too long, no units, free text everywhere.
 :::
 
 ## The data dictionary: one row per variable
 
-![](images/figures/sat3/data_dictionary.png){.neu-fig}
+| Variable name | Label (meaning) | Type | Unit / codes | Allowed values |
+|:---|:---|:---|:---|:---|
+| fb\_d5 | Cumulative fluid balance, day 5 | Continuous | ml/kg | -100 to 300 |
+| age | Age at ICU admission | Continuous | years | 18 to 110 |
+| sex | Sex | Binary | 1 = male, 2 = female | 1, 2 |
+| src | Main source of infection | Nominal | 1 lung, 2 urine, 3 abdomen, 4 other, 9 unknown | 1 to 4, 9 |
+| died28 | Died by day 28 | Binary | 0 = alive, 1 = died | 0, 1 |
 
-::: {.neu-caption}
-Example rows for the fluids-in-septic-shock study
-:::
-
-::: {.neu-takeaway}
-**KEY MESSAGE** The data dictionary is the instruction manual for your dataset.
+::: {.neu-table-caption}
+Example rows for the fluids-in-septic-shock study. The data dictionary is the instruction manual for your dataset.
 :::
 
 ::: {.notes}
@@ -364,20 +401,51 @@ Teaching point: the data dictionary (also called a codebook) explains every colu
 
 Why it matters: in six months nobody will remember whether sex 1 meant male or female, or whether fb\_d5 was ml or ml/kg. A statistician, a co-author or a reviewer must be able to understand your data without phoning you.
 
-Read one row aloud: fb\_d5 is cumulative fluid balance at day 5, continuous, in ml/kg, allowed from -100 to 300. That allowed range becomes an automatic check on the next slide.
+Read one row aloud: fb\_d5 is cumulative fluid balance at day 5, continuous, in ml/kg, allowed from -100 to 300. That allowed range becomes an automatic range check on the next slide.
 
 Note the 'unknown' code (9) for source of infection. Missing and unknown are written down, not left blank.
 
 Tip: short variable names with no spaces (fb\_d5, not 'Fluid balance day 5') work in every software.
 
-The proposal builder today asks you to write 3 to 5 rows like these for your own study.
+The proposal builder today asks you to write 3 to 5 rows like these for your own study (Exercise 8 of the Session 5 exercise sheet).
 
-Ask: who here has a data dictionary for an audit they ran? Usually very few. That is normal and easy to fix.
+Ask (call on two or three people, microphone on): who has a data dictionary for an audit they ran? Usually very few. That is normal and easy to fix.
+
+The table is editable: you can change a row live if the class suggests a better one.
 :::
 
 ## Data validation: let the rules catch the errors
 
-![](images/figures/sat3/validation_rules.png){.neu-fig}
+::: {.neu-intro}
+Four simple checks catch most data-entry errors.
+:::
+
+:::: {.neu-cards style="--n:4"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[Range check]{.neu-card-title}
+
+- Age = 230
+- Allowed: 18 to 110
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[Consistency check]{.neu-card-title}
+
+- Discharge 02/03, admission 05/03
+- Discharge must come after admission
+:::
+::: {.neu-card .plain style="--c:#5FA39B"}
+[Logic check]{.neu-card-title}
+
+- Sex = male, pregnant = yes
+- An impossible combination
+:::
+::: {.neu-card .plain style="--c:#0070C0"}
+[Completeness check]{.neu-card-title}
+
+- Day-28 status left blank
+- A required field: chase it now
+:::
+::::
 
 ::: {.neu-takeaway}
 **KEY MESSAGE** Check data while the patient is still in the unit, not a year later.
@@ -392,20 +460,46 @@ Consistency check: two values that cannot both be true (discharge before admissi
 
 Logic check: an impossible combination of answers (male and pregnant).
 
-Completeness check: a required field is empty; chase it now while the chart is still available.
+Completeness check: a required field is empty. Chase it now while the chart is still available.
 
-How to do it in practice: electronic forms can block impossible values at entry (next slides); on paper, a weekly check by the study coordinator does the same job.
+How to do it in practice: electronic forms can block impossible values at entry (next slide). On paper, a weekly check by the study coordinator does the same job.
 
-Clinical point: the earlier you find the error, the easier it is to fix. Next week the patient's chart is still on the ward; next year it is archived.
+Clinical point: the earlier you find the error, the easier it is to fix. Next week the patient's chart is still on the ward. Next year it is archived.
 
-Ask: what impossible values have you seen in hospital data? Expected: weights of 700 kg, dates in the future, a heart rate of 0 in a living patient.
+Ask (call on two or three people, microphone on): what impossible values have you seen in hospital data? Expected: weights of 700 kg, dates in the future, a heart rate of 0 in a living patient.
 
 Timing: 2 minutes. Then data management in practice, then the two missing-data slides.
 :::
 
 ## Data management in practice: from bedside to database
 
-![](images/figures/sat3/data_pipeline.png){.neu-fig}
+::: {.neu-intro}
+Two safe routes from the patient to one secure database.
+:::
+
+:::: {.neu-cards style="--n:3"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[Paper CRF]{.neu-card-title}
+
+- Double data entry: two people type each form
+- A computer compares the two copies
+- Mismatches are fixed from the paper form
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[Electronic data capture (EDC)]{.neu-card-title}
+
+- Form on a tablet or computer
+- For example REDCap or KoBoToolbox
+- Range, logic and required-field checks at entry
+:::
+::: {.neu-card .plain style="--c:#5FA39B"}
+[Secure database]{.neu-card-title}
+
+- Coded study IDs, no names
+- Audit trail: who changed what, when and why
+- Example: lactate 21 corrected to 2.1, 'typo'
+:::
+::::
 
 ::: {.neu-takeaway}
 **KEY MESSAGE** Check at entry, enter twice if on paper, and log every change.
@@ -414,15 +508,15 @@ Timing: 2 minutes. Then data management in practice, then the two missing-data s
 ::: {.notes}
 Teaching point: good data need a safe route from the patient to the analysis file. Two routes are shown.
 
-Paper route: the CRF is typed into the computer TWICE by two different people (double data entry). A simple comparison shows every mismatch, and each one is corrected by looking at the paper form. This catches most typing errors (lactate 21 instead of 2.1).
+Paper route: the CRF is typed into the computer twice by two different people (double data entry). A simple comparison shows every mismatch, and each one is corrected by looking at the paper form. This catches most typing errors (lactate 21 instead of 2.1).
 
-Electronic data capture (EDC): the form is filled directly on a tablet or computer. Free, widely used examples are REDCap and KoBoToolbox. The range, logic and required-field checks from the data dictionary run AT ENTRY, so impossible values are blocked before they are saved.
+Electronic data capture (EDC): the form is filled directly on a tablet or computer. Free, widely used examples are REDCap and KoBoToolbox. The range, logic and required-field checks from the data dictionary run at entry, so impossible values are blocked before they are saved.
 
-Audit trail (right): a good system records who changed what, when and why. Never overwrite silently; ethics committees, monitors and journals may ask for this.
+Audit trail (third card): a good system records who changed what, when and why. Never overwrite silently. Ethics committees, monitors and journals may ask for this.
 
 The database holds coded study IDs, not names. The key linking IDs to names is kept separately and locked.
 
-Ask: who here has seen an Excel sheet with names, phone numbers and results in the same file, emailed around? Expected: many. That is exactly what we want to avoid.
+Ask (call on two or three people, microphone on): who has seen an Excel sheet with names, phone numbers and results in the same file, emailed around? Expected: many. That is exactly what we want to avoid.
 
 Timing: 2 minutes.
 :::
@@ -436,19 +530,19 @@ Timing: 2 minutes.
 :::
 
 ::: {.notes}
-Missing data, part 1: why it matters (prevention is next; the mechanisms and statistical handling come in 6.4).
+Missing data, part 1: why it matters (prevention is next, the mechanisms and statistical handling come in Session 6, section 6.4).
 
-Teaching point: missing data reduce the number of patients, and they can also give the WRONG answer.
+Teaching point: missing data reduce the number of patients, and they can also give the wrong answer.
 
 Walk through the picture: 100 patients, 30 truly died. But 15 of the deaths have an empty outcome box (transferred out, died at night, form never completed). Among the 85 recorded patients we see 15 deaths: 18%. The truth was 30%.
 
 Why? Because missing is linked to the outcome itself. The sickest, most chaotic patients are the ones whose forms stay empty.
 
-Common misconception: 'we lost only 15%, that is fine'. The amount matters less than WHO is missing.
+Common misconception: 'we lost only 15%, that is fine'. The amount matters less than who is missing.
 
 Next Saturday (Session 6, 6.4) we name the mechanisms (MCAR, MAR, MNAR) and see the idea of multiple imputation. But statistical fixes are always second best to prevention.
 
-Ask: in your unit, which patients are most likely to have incomplete records? Expected: transfers, deaths, night admissions, very short stays.
+Ask (call on two or three people, microphone on): in your unit, which patients are most likely to have incomplete records? Expected: transfers, deaths, night admissions, very short stays.
 :::
 
 ## Missing data: how to prevent it
@@ -479,7 +573,7 @@ Prevention is the only reliable cure.
 ::: {.neu-step style="--c:#0070C0"}
 [Check weekly]{.neu-step-label}
 
-- Completeness report
+- A completeness report
 - Who and what is missing?
 :::
 ::: {.neu-step style="--c:#055F56"}
@@ -501,37 +595,38 @@ Teaching point: five habits prevent most missing data.
 
 Fewer items: every extra item increases the chance that something is left blank.
 
-Clear form: mark required fields; give 'not done' and 'unknown' options so a blank always means 'forgotten'.
+Clear form: mark required fields. Give 'not done' and 'unknown' options so a blank always means 'forgotten'.
 
 Train: a 30-minute session for every nurse or resident who will collect data, with the data dictionary in hand.
 
 Check weekly: a simple count of empty boxes per variable and per patient. If one item is always empty, the item is the problem.
 
-Chase early: the day-28 outcome is the most often missing variable in ICU studies; plan who will check it (phone call, records) for patients transferred out.
+Chase early: the day-28 outcome is the most often missing variable in ICU studies. Plan who will check it (phone call, records) for patients transferred out.
 
 Mention: write these steps into your proposal as the 'data quality plan' (Part 3).
 
-Transition: now practise with a partner.
+Transition: now we fix some bad CRF items together.
 :::
 
-## Pair task: sort the variables, fix the CRF
+## Fix the CRF items together
 
 ::: {.neu-banner style="--c:#0D7377"}
-GROUP WORK · 7 min
+WHOLE-CLASS TASK · 7 min
 :::
 
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0D7377"}
-- Work with your neighbour, worksheet 'Session 5, exercises 1 and 2'
-- Exercise 1: classify 10 ICU variables (continuous, count, binary, nominal, ordinal, time-to-event)
-- Exercise 2: rewrite 4 bad CRF items so they have only one reading
-- Be ready to read out one rewritten item
+- Open the Session 5 exercise sheet (PDF sent before the session), Exercise 2: four unclear CRF items
+- The instructor shows one item at a time on the shared screen
+- Rewrite each item, then two or three people read theirs aloud (1 minute per item)
+- The instructor builds the class version live, using the four checks
+- Items we do not reach, and Exercise 1 (classify 10 variables), are homework
 :::
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#0D7377"}
-Check yourself
+The four checks
 
 - Unit in the question?
 - Time point in the question?
@@ -542,26 +637,28 @@ Check yourself
 ::::
 
 ::: {.neu-output style="--c:#0D7377"}
-**OUTPUT** 10 classified variables and 4 rewritten CRF items
+**OUTPUT** Rewritten CRF items agreed by the whole class
 :::
 
 ::: {.notes}
-Pair task closing 5.1. Exercises 1 and 2 are in Course/Practicals/s5\_exercises.md; answers in Course/Solutions/s5\_solutions.md.
+Whole-class task closing 5.1 (7 minutes, 20:08 to 20:15). Exercises 1 and 2 are in the Session 5 exercise sheet (Course/Practicals/s5\_exercises.md, sent as a PDF before the session). Answers in Course/Solutions/s5\_solutions.md.
 
-Run it: 5 minutes in pairs, 2 minutes feedback; it closes 5.1 at 0:45. Walk around and listen for the classic errors.
+Run it: share the sheet on screen. For each item (start with 'Fluid given: \_\_\_\_', then 'Lactate high? Y / N'), give 1 minute, call on two or three people to read their version, and type the class version into the shared document while the class applies the four checks on the side panel. Aim for two items done well rather than four done in a hurry.
 
-Common errors to watch: GCS called continuous (it is ordinal, although often analysed as a number); 'number of days on ventilator' called continuous (it is a count; fine either way, but the distinction matters for how you summarise); 'time to extubation' called continuous (it is time-to-event because some patients are never extubated).
+Model rewrite for (a): 'Total IV fluid received from ICU admission to 24 h (ml), including crystalloids, colloids and drug diluents: \[ \]\[ \]\[ \]\[ \]\[ \] ml, or tick: not recorded.'
 
-For the CRF rewrites, ask one pair to read their version of 'Fluid given: \_\_\_\_' and let the room apply the four checks on the side panel.
+Model rewrite for (d): 'Serum lactate at ICU admission (mmol/L): \[ \]\[ \].\[ \], or tick: not done.' Collecting the number is better than a yes/no.
 
-Timing: if the room is fast, ask them to add one row to a data dictionary for their rewritten item.
+Exercise 1 (classify 10 variables) was covered by the quick quiz. It stays as homework and self-check.
+
+If the class is fast: ask them to suggest one data dictionary row for the rewritten fluid item.
 :::
 
 ## 5.2 Meet the course dataset
 
 :::: {.neu-statement}
 ::: {.neu-big}
-One realistic dataset, five research questions, five manuscripts.
+One realistic dataset, five research questions.
 :::
 
 ::: {.neu-sub}
@@ -570,19 +667,19 @@ One realistic dataset, five research questions, five manuscripts.
 ::::
 
 ::: {.notes}
-Section 5.2 opener (25 minutes: the study, the flow of patients, raw vs clean data, an 8-minute live R cleaning demo, the cleaning log, then each group receives its question).
+Section 5.2 opener (25 minutes, 20:15 to 20:40: the study, the flow of patients, raw vs clean data, an 8-minute live R cleaning demo, the cleaning log, the five questions, then Question 1 written together as a PECO sentence).
 
-Key message: from now on your group will analyse and write up a realistic study, as well as reading other people's. FLUID-ICU is SIMULATED: invented by computer, no real patient, hospital or country. But it behaves like real ICU data, including its problems.
+Key message: from now on you will analyse and write up a realistic study, as well as reading other people's. FLUID-ICU is simulated: invented by computer, no real patient, hospital or country. But it behaves like real ICU data, including its problems.
 
-Nobody needs to run R. The instructor runs it live; you read and interpret. Participants who took the Neudata course 'Clinical Data Analysis in R' can reproduce everything with the scripts in Course/Data/R.
+Nobody needs to run R. The instructor runs it live on the shared screen. You read and interpret. Participants who took the Neudata course 'Clinical Data Analysis in R' can reproduce everything with the scripts in Course/Data/R.
 
-Link to the running example: Sessions 1-4 asked an interventional question (restrictive fluids: an RCT, Paper 1). FLUID-ICU asks the observational form: is a positive fluid balance associated with death? That is a cohort question (Paper 2). Ask: what can a cohort claim that an RCT cannot, and vice versa? Expected: association, not causation; but real-world patients and more of them.
+Link to the running example: Sessions 1-4 asked an interventional question (restrictive fluids: an RCT, Paper 1, Boulet 2024, a pilot trial of restrictive vs usual fluids in septic shock, in Course/Papers). FLUID-ICU asks the observational form: is a positive fluid balance associated with death? That is a cohort question, like Paper 2 (Hyun 2023). Ask (call on two or three people, microphone on): what can a cohort claim that an RCT cannot, and vice versa? Expected: association, not causation. But real-world patients and more of them.
 :::
 
 ## FLUID-ICU at a glance (simulated cohort)
 
 ::: {.neu-intro}
-A multicentre prospective cohort: 4 ICUs, January 2023 to December 2024.
+A multicentre prospective cohort in 4 intensive care units (ICUs), January 2023 to December 2024.
 :::
 
 :::: {.neu-cards style="--n:4"}
@@ -590,29 +687,27 @@ A multicentre prospective cohort: 4 ICUs, January 2023 to December 2024.
 [Who]{.neu-card-title}
 
 - 620 adults with sepsis
-- ICU A 191, B 164,
-- C 147, D 118
+- ICU A 191, ICU B 164, ICU C 147, ICU D 118
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
 [Exposure]{.neu-card-title}
 
-- Cumulative fluid balance
-- by day 3 (ml/kg)
-- Positive: 373/618 (60.4%)
+- Cumulative fluid balance by day 3 (ml/kg)
+- Positive in 373/618 (60.4%)
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
 [Primary outcome]{.neu-card-title}
 
-- Death by day 28
-- 179/620 (28.9%)
-- + time to death
+- Death by day 28: 179/620 (28.9%)
+- Time to death also recorded
 :::
 ::: {.neu-card .plain style="--c:#0070C0"}
 [Also recorded]{.neu-card-title}
 
-- SOFA, APACHE II, lactate
-- AKI, ventilator-free days
-- ICU length of stay
+- Severity scores (SOFA, APACHE II)
+- Lactate
+- Acute kidney injury (AKI)
+- Ventilator-free days, ICU stay
 :::
 ::::
 
@@ -625,27 +720,56 @@ Teaching point: before any analysis, know the study: who, exposure, outcome, wha
 
 Who: 620 adults with sepsis in 4 ICUs (ICU A 191, ICU B 164, ICU C 147, ICU D 118), enrolled January 2023 to December 2024. Simulated data.
 
-Exposure: cumulative fluid balance by day 3, (all fluid in minus all fluid out over days 1-3) divided by admission weight, in ml/kg. Positive balance in 373 of 618 patients with a computable balance (60.4%); median 8.8 ml/kg (IQR -10.3 to 26.2).
+Exposure: cumulative fluid balance by day 3, (all fluid in minus all fluid out over days 1-3) divided by admission weight, in ml/kg. Positive balance in 373 of 618 patients with a computable balance (60.4%), median 8.8 ml/kg (IQR -10.3 to 26.2).
 
-Primary outcome: death by day 28: 179 of 620 (28.9%); time to death is also recorded (survivors censored at day 28).
+Primary outcome: death by day 28: 179 of 620 (28.9%). Time to death is also recorded (survivors censored at day 28).
 
-Other variables: demographics, comorbidities, infection source, severity scores, lactate, vasopressors, ventilation, AKI, renal replacement, ventilator-free days, ICU stay.
+Other variables: demographics, comorbidities, infection source, severity scores (SOFA = Sequential Organ Failure Assessment, APACHE II = Acute Physiology and Chronic Health Evaluation II), lactate, vasopressors, ventilation, AKI, renal replacement, ventilator-free days, ICU stay.
 
-The full data dictionary is Course/Data/data\_dictionary.md: the same structure as the one you saw in 5.1.
+The full data dictionary is Course/Data/data\_dictionary.md (also sent as a PDF): the same structure as the one you saw in 5.1.
 
-Ask: from what you know of Sessions 3-4 and Paper 2, which patients do you expect to have a positive balance? Expected: the sickest ones. Keep that in mind for Table 1 and Session 6.
+Ask (call on two or three people, microphone on): from what you know of Session 4 and Paper 2, which patients do you expect to have a positive balance? Expected: the sickest ones. Keep that in mind for Table 1 and Session 6.
 :::
 
 ## From 623 rows to 527 complete cases
 
-![](images/figures/sat3/fluid_icu_flow.png){.neu-fig}
+::: {.neu-intro}
+FLUID-ICU (simulated): who is included at each step, and why not.
+:::
+
+:::: {.neu-steps}
+::: {.neu-step style="--c:#0D7377"}
+[Raw file]{.neu-step-label}
+
+- 623 rows
+- Minus 3 duplicate records
+:::
+::: {.neu-step style="--c:#0B376C"}
+[Enrolled]{.neu-step-label}
+
+- 620 patients
+- Minus 2 without a day-3 fluid balance
+:::
+::: {.neu-step style="--c:#5FA39B"}
+[Exposure analysis]{.neu-step-label}
+
+- 618 patients (Table 1, comparisons)
+- Minus 91 without lactate (or age)
+:::
+::: {.neu-step style="--c:#0070C0"}
+[Complete cases]{.neu-step-label}
+
+- 527 patients
+- Used for the adjusted model
+:::
+::::
 
 ::: {.neu-takeaway}
 **KEY MESSAGE** Every paper reports this flow: who was included at each step, and why not.
 :::
 
 ::: {.notes}
-Teaching point: the flow of patients (the STROBE flow diagram in the manuscript).
+Teaching point: the flow of patients (the STROBE flow diagram in the manuscript, STROBE is the reporting guideline for observational studies, Session 7).
 
 Raw file: 623 rows. Three patients were entered twice: after removing duplicates, 620 enrolled patients.
 
@@ -655,29 +779,39 @@ Two patients have no day-3 fluid balance (their weight or one fluid output was i
 
 Why it matters: 527 of 620 is 85%. Are the 91 patients without lactate different? Session 6 (6.4) answers this: they were less sick.
 
-Ask: in which section of your manuscript will this picture go? Expected: the first paragraph of the Results (participants), as Figure 1.
+Ask (call on two or three people, microphone on): in which section of your manuscript will this flow go? Expected: the first paragraph of the Results (participants), as Figure 1.
+
+This slide is now built from editable shapes (it was a picture before). The numbers are unchanged.
 :::
 
 ## Raw vs clean: what the four ICUs actually sent
 
-![](images/figures/data/raw_vs_clean.png){.neu-fig}
+| Problem | Raw file (as sent) | Clean file (01\_clean.R) |
+|:---|:---|:---|
+| Sex | 8 spellings: M, m, male, F, f ... | Male / Female |
+| Yes / No | Yes, Y, yes, 1  \|  No, N, no, 0 | Yes / No |
+| Admission date | 2023-03-14 \| 14/03/2023 \| 14-Mar-2023 | 2023-03-14 |
+| Lactate, ICU C | 23.4  (mg/dL) | 2.6  (mmol/L) |
+| Missing codes | 999  \|  -99 | missing (NA) |
+| Impossible | age 210 \| weight 7 kg \| output -2990 ml | missing + query to site |
+| Duplicates | 623 rows (3 IDs twice) | 620 patients |
 
 ::: {.neu-takeaway}
 **KEY MESSAGE** Real data arrive messy: clean them with a script, never by hand.
 :::
 
 ::: {.notes}
-Teaching point: these are the data-quality problems found in the raw file, and how each was fixed. Ask the room to guess the problem for each row before revealing the clean column.
+Teaching point: these are the data-quality problems found in the raw file, and how each was fixed. Call on people to guess the problem for each row before revealing the clean column.
 
-Sex and yes/no variables spelled in many ways; three date formats (is 03/04 March or April?); ICU C sent lactate in mg/dL instead of mmol/L (found by comparing medians by ICU); 999 and -99 used as missing codes; impossible values (an age of 210, a weight of 7 kg, a negative fluid output); duplicate records (623 rows for 620 patients).
+Sex and yes/no variables spelled in many ways. Three date formats (is 03/04 March or April?). ICU C sent lactate in mg/dL instead of mmol/L (found by comparing medians by ICU), 999 and -99 used as missing codes. Impossible values (an age of 210, a weight of 7 kg, a negative fluid output). Duplicate records (623 rows for 620 patients).
 
-Each problem breaks the analysis silently: a lactate of 999 inflates the mean; 'Y' and 'Yes' become two categories; mg/dL values make ICU C look like a lactate catastrophe.
+Each problem breaks the analysis silently: a lactate of 999 inflates the mean. 'Y' and 'Yes' become two categories. Mg/dL values make ICU C look like a lactate catastrophe.
 
-Impossible values are set to missing and a query is sent to the site; the patient stays in the study. We never guess.
+Impossible values are set to missing and a query is sent to the site. The patient stays in the study. We never guess.
 
 Link to 5.1: every one of these would have been prevented by an electronic CRF with validation rules and a data dictionary.
 
-Ask: which problem would you never have spotted without a graph or a summary by ICU? Expected: the lactate unit.
+Ask (call on two or three people, microphone on): which problem would you never have spotted without a graph or a summary by ICU? Expected: the lactate unit.
 :::
 
 ## Live demo: cleaning FLUID-ICU in R
@@ -713,15 +847,15 @@ Watch for
 :::
 
 ::: {.notes}
-Live demo, 8 minutes. Full script with expected outputs and fallback screenshots: Course/Demos/s5\_demo.md (Part A).
+Live demo on the shared screen, 8 minutes. Full script with expected outputs and fallback screenshots: Course/Demos/s5\_demo.md (Part A).
 
-You run R; participants watch. Run blocks one at a time with Ctrl+Enter and say aloud what each block fixes.
+You run R, participants watch. Run blocks one at a time with Ctrl+Enter and say aloud what each block fixes. Before a block, ask the class to predict (poll, or call on two or three people).
 
-Show: the raw data read as text; 623 rows reduced to 620 by removing the 3 duplicates; the table of sex spellings before and after; the three date formats; the lactate medians by ICU (ICU C about 9 times higher) and the conversion; impossible values set to missing; the final check that the cleaned file is identical to the reference clean file.
+Show: the raw data read as text, 623 rows reduced to 620 by removing the 3 duplicates. The table of sex spellings before and after. The three date formats. The lactate medians by ICU (ICU C about 9 times higher) and the conversion. Impossible values set to missing. The final check that the cleaned file is identical to the reference clean file.
 
-Teaching points: (1) the raw file is never edited; (2) one problem, one block, one log entry; (3) because it is a script, anyone can re-run it and get exactly the same clean data: reproducibility.
+Teaching points: (1) the raw file is never edited. (2) one problem, one block, one log entry. (3) because it is a script, anyone can re-run it and get exactly the same clean data: reproducibility.
 
-If R fails: show the raw-vs-clean slide again and the screenshots in the demo script; the teaching points are the same.
+If R fails: show the raw-vs-clean slide again and the screenshots in the demo script. The teaching points are the same.
 
 Do not let the demo run over: stop after 8 minutes, even if you skip a block.
 :::
@@ -736,30 +870,29 @@ Course/Data/cleaning\_log.md: one row for every change made to the raw data.
 ::: {.neu-card .plain style="--c:#0D7377"}
 [The rule]{.neu-card-title}
 
-- Raw file never edited
-- Changes made by script
-- and written down
+- Never edit the raw file
+- Every change is made by the script and logged
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
 [Each row says]{.neu-card-title}
 
-- Problem found
-- How many
+- The problem found
+- How many records
 - What we did and why
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
 [Queries]{.neu-card-title}
 
-- Impossible values →
-- missing + query to site
-- Patient stays in
+- Impossible value set to missing
+- Query sent to the site
+- The patient stays in
 :::
 ::: {.neu-card .plain style="--c:#0070C0"}
 [What is left]{.neu-card-title}
 
 - Real missing values
 - Lactate: 93/620 (15.0%)
-- Others 1% or less
+- Others: 1% or less
 :::
 ::::
 
@@ -768,161 +901,145 @@ Course/Data/cleaning\_log.md: one row for every change made to the raw data.
 :::
 
 ::: {.notes}
-Teaching point: the cleaning log is the audit trail of the dataset. Show the real file on screen if you can (Course/Data/cleaning\_log.md).
+Teaching point: the cleaning log is the audit trail of the dataset. Show the real file on the shared screen (Course/Data/cleaning\_log.md).
 
-The rule: the raw file is never edited; every change is made by the script and written down.
+The rule: the raw file is never edited. Every change is made by the script and written down.
 
 Each row: the problem found, how many records, what was done and why (for example: lactate at ICU C in mg/dL, divided by 9.01 to obtain mmol/L, confirmed with the site laboratory).
 
-Queries: impossible values are set to missing and a query is sent to the site; the patient is not deleted (deleting would bias the sample).
+Queries: impossible values are set to missing and a query is sent to the site. The patient is not deleted (deleting would bias the sample).
 
-What is left after cleaning is REAL missing data: lactate 93 of 620 (15.0%), every other variable 1% or less. These gaps are the subject of 6.4 next Saturday.
+What is left after cleaning is real missing data: lactate 93 of 620 (15.0%), every other variable 1% or less. These gaps are the subject of 6.4 next Saturday.
 
-Ask: why not just delete the patient with an age of 210? Expected: the rest of the record is valid; deleting patients for typing errors can bias the sample.
+Ask (call on two or three people, microphone on): why not just delete the patient with an age of 210? Expected: the rest of the record is valid. Deleting patients for typing errors can bias the sample.
 
-Your manuscript's Methods will say: 'Data were cleaned with a script; all changes are documented in a cleaning log.'
+Your manuscript's Methods will say: 'Data were cleaned with a script. All changes are documented in a cleaning log.'
 :::
 
-## Five groups, five questions, one dataset
+## Five questions, one dataset
 
 ::: {.neu-intro}
-Each group answers one question and writes it up as a manuscript in Weeks 7-8.
+In class we work through all five together. For your manuscript, you choose one.
 :::
 
 :::: {.neu-cards style="--n:5"}
 ::: {.neu-card .plain style="--c:#0D7377"}
 [Q1 Mortality]{.neu-card-title}
 
-- Positive balance and
-- 28-day death
-- Logistic + KM/Cox
+- Positive balance and 28-day death
+- Logistic regression
+- Kaplan-Meier and Cox
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
-[Q2 AKI]{.neu-card-title}
+[Q2 Kidneys]{.neu-card-title}
 
-- Fluid balance and
-- acute kidney injury
-- Logistic
+- Fluid balance and acute kidney injury (AKI)
+- Logistic regression
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
 [Q3 Ventilation]{.neu-card-title}
 
-- Fluid balance and
-- ventilator-free days
-- Non-parametric / linear
+- Fluid balance and ventilator-free days
+- Mann-Whitney and linear regression
 :::
 ::: {.neu-card .plain style="--c:#0070C0"}
 [Q4 Lactate]{.neu-card-title}
 
-- Lactate and death;
-- missing lactate
-- CC vs imputation
+- Lactate and 28-day death
+- Missing lactate: complete case vs multiple imputation
 :::
 ::: {.neu-card .plain style="--c:#055F56"}
 [Q5 ICU stay]{.neu-card-title}
 
-- Balance and ICU stay
-- in survivors
-- Skewed outcome
+- Fluid balance and ICU stay in survivors
+- A skewed outcome
 :::
 ::::
 
 ::: {.neu-takeaway}
-**KEY MESSAGE** Your group question is your manuscript: own it from today.
+**KEY MESSAGE** We give you the results. You write the paper on the question you choose.
 :::
 
 ::: {.notes}
-Teaching point: one dataset, five different research questions, matching the secondary objectives of the FLUID-ICU SAP.
+Teaching point: one dataset, five different research questions, matching the secondary objectives of the FLUID-ICU statistical analysis plan (SAP, Course/Data/SAP\_FLUID-ICU.md).
 
-Q1 (group 1): positive fluid balance by day 3 and 28-day mortality: logistic regression plus Kaplan-Meier and Cox. The primary question.
+Question 1 (Q1): positive fluid balance by day 3 and 28-day mortality: logistic regression plus Kaplan-Meier and Cox. The primary question. We work through Q1 in full in Sessions 5 and 6.
 
-Q2 (group 2): cumulative fluid balance and acute kidney injury: logistic regression.
+Question 2 (Q2): cumulative fluid balance and acute kidney injury: logistic regression.
 
-Q3 (group 3): cumulative fluid balance and ventilator-free days: a count from 0 to 28, piled up at both ends: Mann-Whitney and linear regression.
+Question 3 (Q3): cumulative fluid balance and ventilator-free days: a count from 0 to 28, piled up at both ends: Mann-Whitney and linear regression.
 
-Q4 (group 4): initial lactate and 28-day mortality, and what missing lactate does: complete-case vs multiple imputation.
+Question 4 (Q4): initial lactate and 28-day mortality, and what missing lactate does: complete-case analysis vs multiple imputation.
 
-Q5 (group 5): fluid balance and ICU length of stay among survivors: a skewed outcome (median, IQR; log scale).
+Question 5 (Q5): fluid balance and ICU length of stay among survivors: a skewed outcome (median, IQR, log scale).
 
-Each group has a results pack in Course/Data/results\_packs (Table 1, figures, regression tables, plain-language notes). It is the raw material of the manuscript drafted in Sessions 7-8.
+Each question has a results pack: Course/Data/results\_packs/Results\_Pack\_Q1 to Q5 (Table 1, figures, regression tables, plain-language notes), sent to everyone as PDFs before this session. In class we use all five as worked examples (Q1 in full, Q2 to Q5 more briefly).
 
-Assign the questions now (or confirm the assignment made before the session).
+For the manuscript (Weeks 7-8), each participant chooses one question and writes the paper from its results pack: we give you the results, you write the paper. Ask participants to tell you their choice (chat, email or the course form) before Session 6.
 :::
 
-## Your group's question
+## Question 1 as a PECO sentence, together
 
 ::: {.neu-banner style="--c:#0D7377"}
-GROUP WORK · 4 min
+WHOLE-CLASS TASK · 4 min
 :::
 
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0D7377"}
-- Read your question in your results pack (page 1)
-- Name the outcome and its type; the exposure and its type
-- Find both in the FLUID-ICU data dictionary
-- Write the question as one sentence (PECO)
+- Open the Q1 results pack (PDF sent before the session), page 1
+- Question for the class: what is the outcome, and what type is it?
+- Question for the class: what is the exposure, and what type is it?
+- The instructor writes Q1 as one PECO sentence on the shared screen
+- Q2 to Q5: outcome and exposure types, one line each
 :::
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#0D7377"}
-Example (Q1)
+PECO for Q1
 
-- P: adults with sepsis in ICU
-- E: positive balance by day 3
-- C: negative balance
-- O: death by day 28 (binary)
+- P (population): adults with sepsis in ICU
+- E (exposure): positive balance by day 3
+- C (comparison): negative balance
+- O (outcome): death by day 28 (binary)
 :::
 :::
 ::::
 
 ::: {.neu-output style="--c:#0D7377"}
-**OUTPUT** One-sentence question with outcome and exposure types (exercise 7)
+**OUTPUT** Q1 as one PECO sentence, with outcome and exposure types (Exercise 7)
 :::
 
 ::: {.notes}
-Group task, 4 minutes. Worksheet: Session 5 exercises, exercise 7.
+Whole-class task, 4 minutes (20:36 to 20:40). Exercise 7 of the Session 5 exercise sheet has the same table. Participants complete it later for the question they choose.
 
-Each group writes its question as a PECO sentence (P population, E exposure, C comparator, O outcome) and labels the type of the outcome and exposure, using the variable-type tree from 5.1.
+PECO: P = population, E = exposure, C = comparison, O = outcome (the observational form of PICO from Session 1). Use the variable types from 5.1.
 
-Expected types: Q1 outcome binary (plus time-to-event), exposure binary; Q2 binary outcome, continuous exposure; Q3 count outcome (0-28, skewed), continuous exposure; Q4 binary outcome, continuous exposure (lactate) with missing values; Q5 continuous skewed outcome (survivors only), binary exposure.
+Q1 in full: call on two or three people for the outcome type (binary, and also time-to-event) and the exposure type (binary: positive vs negative balance). Then type the sentence: 'In adults with sepsis admitted to the ICU, is a positive cumulative fluid balance by day 3, compared with a negative balance, associated with higher 28-day mortality?'
 
-Check one or two groups aloud. Then break.
+Q2 to Q5, one line each: Q2 binary outcome (AKI), continuous exposure. Q3 count outcome (0-28, skewed), continuous exposure. Q4 binary outcome, continuous exposure (lactate) with missing values. Q5 continuous skewed outcome (survivors only), binary exposure.
+
+Then break.
 :::
 
-## Break
+---
 
-::: {.neu-banner style="--c:#8A99A3"}
-BREAK · 15 min
-:::
+::: {style="text-align:center"}
+![](images/figures/common/break_cup.png){width="32%"}
 
-:::: {.columns}
-::: {.column width="60%"}
-::: {.neu-activity-steps style="--c:#8A99A3"}
-- Stretch, coffee, fresh air
-- Groups: glance at your group question and results pack
-- We restart with 5.3: describing and showing data
-:::
-:::
-::: {.column width="40%"}
-::: {.neu-side .plain style="--c:#8A99A3"}
-After the break
+[Break]{style="color:#0D7377;font-size:1.6em;font-weight:700"}
 
-- Mean or median?
-- SD or IQR?
-- Which graph?
-- Good and bad figures
-- Table 1
+[15 min]{style="color:#595959;font-size:0.9em"}
 :::
-:::
-::::
 
 ::: {.notes}
-Break: 15 minutes. Start again on time (1:25).
+The slide is only a picture on purpose. Before the break, say: we restart at 20:55 with 5.3 (mean or median, SD or IQR, which graph, good and bad figures, Table 1). Optional: look at Table 1 in the Q1 results pack.
 
-During the break: check that the R project for 02\_describe.R opens and runs on the projector laptop, and that the fallback figures for 5.4 are ready.
+Break: 15 minutes (20:40 to 20:55). Start again on time.
 
-Walk around and ask two or three people what was hardest so far (often the course-dataset cleaning); adjust the pace of 5.3.
+During the break: check that the R project for 02\_describe.R opens and runs, and that the fallback figures for 5.4 are ready to share.
+
+Read the chat, or ask two or three people what was hardest so far (often the course-dataset cleaning). Adjust the pace of 5.3.
 :::
 
 ## 5.3 Describing and showing data
@@ -938,11 +1055,11 @@ Before comparing groups, describe them.
 ::::
 
 ::: {.notes}
-Section 5.3 opener (35 minutes: a worked example by hand, mean vs median, spread, shapes, a check, which graph, honest figures, Table 1 and publication-quality tables).
+Section 5.3 opener (35 minutes, 20:55 to 21:30: a worked example by hand, mean vs median, spread, shapes, a check, which graph, honest figures, Table 1 and publication-quality tables).
 
-Key message: every paper begins its results by describing the patients: who they were, how sick, how old. You need two numbers for any numerical variable: a CENTRE (where is the typical patient?) and a SPREAD (how different are patients from each other?).
+Key message: every paper begins its results by describing the patients: who they were, how sick, how old. You need two numbers for any numerical variable: a centre (where is the typical patient?) and a spread (how different are patients from each other?).
 
-The choice between the two families (mean and SD, or median and IQR) depends on one thing: the SHAPE of the data.
+The choice between the two families (mean and SD, or median and IQR) depends on one thing: the shape of the data.
 
 Transition: let us look at the most famous skewed variable in hospital medicine: length of stay.
 :::
@@ -957,26 +1074,22 @@ ICU stay of 7 patients (days): 1, 2, 2, 3, 4, 6, 24
 ::: {.neu-step style="--c:#0D7377"}
 [Line up]{.neu-step-label}
 
-- Sort from short
-- to long stays
+- Sort from the shortest to the longest stay
 :::
 ::: {.neu-step style="--c:#0B376C"}
 [Median]{.neu-step-label}
 
-- The 4th of 7 patients:
-- 3 days
+- The 4th of 7 patients: 3 days
 :::
 ::: {.neu-step style="--c:#5FA39B"}
 [Mean]{.neu-step-label}
 
-- 42 days / 7 patients
-- = 6 days
+- 42 days / 7 patients = 6 days
 :::
 ::: {.neu-step style="--c:#0070C0"}
 [Compare]{.neu-step-label}
 
-- One 24-day stay
-- doubles the mean
+- One 24-day stay doubles the mean
 :::
 ::::
 
@@ -985,19 +1098,19 @@ ICU stay of 7 patients (days): 1, 2, 2, 3, 4, 6, 24
 :::
 
 ::: {.notes}
-Worked example (3 minutes). Write the seven numbers on the flip chart.
+Worked example (3 minutes). Type the seven numbers on the shared screen (whiteboard or a blank slide).
 
 Line up: they are already sorted: 1, 2, 2, 3, 4, 6, 24.
 
 Median: the middle patient of seven is the 4th: 3 days. Half stayed less, half more.
 
-Mean: add them up: 1 + 2 + 2 + 3 + 4 + 6 + 24 = 42; divide by 7 = 6 days.
+Mean: add them up: 1 + 2 + 2 + 3 + 4 + 6 + 24 = 42. Divide by 7 = 6 days.
 
-Compare: six of the seven patients stayed 6 days or less; the mean of 6 is pulled up by the single 24-day stay. The median describes the typical patient.
+Compare: six of the seven patients stayed 6 days or less. The mean of 6 is pulled up by the single 24-day stay. The median describes the typical patient.
 
-Now ask: if the long-stay patient had stayed 60 days instead of 24, what happens? Expected: the median stays 3, the mean jumps to about 11 (78 / 7 = 11.1).
+Now ask (call on two or three people, microphone on): if the long-stay patient had stayed 60 days instead of 24, what happens? Expected: the median stays 3, the mean jumps to about 11 (78 / 7 = 11.1).
 
-This is the only hand calculation today; afterwards the computer does it and you interpret.
+This is the only hand calculation today. Afterwards the computer does it and you interpret.
 :::
 
 ## Mean or median? Look at the shape first
@@ -1009,7 +1122,7 @@ This is the only hand calculation today; afterwards the computer does it and you
 :::
 
 ::: {.notes}
-Teaching point: the MEDIAN is the middle patient when you line everyone up; the MEAN is the arithmetic average.
+Teaching point: the median is the middle patient when you line everyone up. The mean is the arithmetic average.
 
 In this simulated ICU, most patients stay 1 to 5 days, but a few stay 3 to 6 weeks. Those few long stays pull the mean to the right (3.9 days) while the median stays with the typical patient (2.8 days).
 
@@ -1019,9 +1132,9 @@ Common misconception: 'the mean is always the correct average'. For skewed data 
 
 Rule of thumb: if the mean and median are far apart, the data are skewed: report the median.
 
-Ask: name other skewed variables in your work. Expected: hospital costs, CRP, troponin, time to antibiotics, days on ventilator.
+Ask (call on two or three people, microphone on): name other skewed variables in your work. Expected: hospital costs, CRP, troponin, time to antibiotics, days on ventilator.
 
-Running example: Paper 1 reported cumulative fluid balance as MEDIANS (6.9 vs 35.0 ml/kg) for exactly this reason.
+Running example: Paper 1 (Boulet 2024) reported cumulative fluid balance as medians (6.9 vs 35.0 ml/kg) for exactly this reason.
 :::
 
 ## Spread: SD for symmetric, IQR for skewed
@@ -1039,11 +1152,11 @@ Left: age is roughly symmetric. The standard deviation (SD) is the typical dista
 
 Right: length of stay is skewed. The boxplot shows the median (thick line), the box from the 25th to the 75th percentile (the interquartile range, IQR: the middle 50% of patients), whiskers, and outliers as dots.
 
-How to read 'median 2.8 (IQR 1.5-4.7)': half the patients stayed less than 2.8 days; the middle half stayed between 1.5 and 4.7 days.
+How to read 'median 2.8 (IQR 1.5-4.7)': half the patients stayed less than 2.8 days. The middle half stayed between 1.5 and 4.7 days.
 
 Common mistakes: reporting mean with IQR, or median with SD. And confusing SD (spread of patients) with the standard error or CI (precision of the estimate), which comes in 6.1.
 
-Paper 1 example: control-group fluid balance 'median 35.0 (IQR -7.9; 40.2)'. Point out the negative lower quartile: a quarter of patients had a negative balance.
+Paper 1 example: control-group fluid balance 'median 35.0 (IQR -7.9, 40.2)'. Point out the negative lower quartile: a quarter of patients had a negative balance.
 :::
 
 ## Why these two shapes? They cover most clinical data
@@ -1057,7 +1170,7 @@ Paper 1 example: control-group fluid balance 'median 35.0 (IQR -7.9; 40.2)'. Poi
 ::: {.notes}
 Teaching point: two shapes cover most clinical data.
 
-WHY THESE TWO (reviewer question): most clinical measurements either cluster around a typical value (body size, physiology tightly regulated by the body: symmetric) or cannot go below zero but can go very high (times, counts, costs, inflammatory markers: right-skewed). Together they cover the large majority of variables in a clinical dataset, and they lead to the two ways of summarising data.
+Why these two (reviewer question): most clinical measurements either cluster around a typical value (body size, physiology tightly regulated by the body: symmetric) or cannot go below zero but can go very high (times, counts, costs, inflammatory markers: right-skewed). Together they cover the large majority of variables in a clinical dataset, and they lead to the two ways of summarising data.
 
 Other shapes exist but are rarer: left-skewed (a ceiling, e.g. gestational age at birth, oxygen saturation), bimodal (two groups mixed, e.g. age on a ward that admits both children and adults). For any shape that is not clearly symmetric, show the histogram and report median (IQR).
 
@@ -1067,9 +1180,9 @@ Right-skewed: a long tail of high values pulls the mean to the right of the medi
 
 Quick check without software: if the SD is larger than half the mean for a variable that cannot be negative, it is probably skewed.
 
-Why this matters later: the shape also decides the test (t-test for symmetric, Mann-Whitney for skewed). That is the decision chart in 6.1.
+Why this matters later: the shape also decides the test (t-test for symmetric, Mann-Whitney for skewed). That is the decision table in 6.1.
 
-Ask: is 'number of days on vasopressors' symmetric or skewed? Expected: skewed (most patients 1-3 days, a few for weeks).
+Ask (call on two or three people, microphone on): is 'number of days on vasopressors' symmetric or skewed? Expected: skewed (most patients 1-3 days, a few for weeks).
 :::
 
 ## Check your understanding: which summary?
@@ -1084,17 +1197,17 @@ QUICK QUIZ · 3 min
 - ICU length of stay in 200 patients: mean (SD) or median (IQR)?
 - Age of 200 adult ICU patients, bell-shaped: mean (SD) or median (IQR)?
 - Ventilated on admission (yes/no): which summary?
-- Pressure-injury stage 1 to 4: which summary and which graph?
+- Acute kidney injury (AKI) stage 1 to 3: which summary and which graph?
 :::
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#6C3483"}
 Answers
 
-- LOS: median (IQR)
+- Length of stay: median (IQR)
 - Age: mean (SD)
 - Ventilated: n (%)
-- Stage: n (%) per stage, bar chart
+- AKI stage: n (%) per stage, bar chart
 :::
 :::
 ::::
@@ -1104,19 +1217,19 @@ Answers
 :::
 
 ::: {.notes}
-Check your understanding (3 minutes), half-way through 5.3. Hands up or coloured cards.
+Check your understanding (3 minutes), half-way through 5.3. Run it as a poll (one question per item).
 
 Q1: median (IQR): length of stay is right-skewed.
 
 Q2: mean (SD): bell-shaped data.
 
-Q3: n (%): a binary variable has no mean or SD; report the number and percentage.
+Q3: n (%): a binary variable has no mean or SD. Report the number and percentage.
 
-Q4: n (%) for each stage, shown with a bar chart; the median stage is also acceptable for an ordinal variable. Do not report a 'mean stage of 2.3'.
+Q4: n (%) for each stage, shown with a bar chart. The median stage is also acceptable for an ordinal variable. Do not report a 'mean stage of 1.8'.
 
 If many get Q1 wrong, return to the histogram slide for one minute.
 
-Transition: now, how to SHOW these summaries: graphs, figures and tables.
+Transition: now, how to show these summaries: graphs, figures and tables.
 :::
 
 ## Which graph for which data?
@@ -1138,9 +1251,9 @@ A number compared between groups: side-by-side boxplots (fluid balance in restri
 
 Two numerical variables: scatter plot (fluid balance against lactate).
 
-Common mistake: a bar chart of means with a small error bar for skewed data; it hides the shape and the outliers. A boxplot shows much more.
+Common mistake: a bar chart of means with a small error bar for skewed data. It hides the shape and the outliers. A boxplot shows much more.
 
-Ask: which graph would you use to compare ICU length of stay between the two fluid groups? Expected: side-by-side boxplots (skewed numbers by group).
+Ask (call on two or three people, microphone on): which graph would you use to compare ICU length of stay between the two fluid groups? Expected: side-by-side boxplots (skewed numbers by group).
 :::
 
 ## Show the data: dynamite plot vs dots + box
@@ -1177,35 +1290,41 @@ Rule: with fewer than about 100 patients per group, show the individual points.
 
 Many journals now explicitly discourage bar charts for continuous data.
 
-Ask: what would you have concluded from the left picture alone? Expected: 'the usual-care group is clearly higher'. That is the danger.
+Ask (call on two or three people, microphone on): what would you have concluded from the left picture alone? Expected: 'the usual-care group is clearly higher'. That is the danger.
 
 Timing: 2 minutes.
 :::
 
 ## What a 'Table 1' shows
 
-![](images/figures/sat3/table1.png){.neu-fig}
+| Characteristic | Restrictive (n = 24) | Usual care (n = 24) |
+|:---|:---|:---|
+| Age, years, mean (SD) | 64 (11) | 66 (12) |
+| Male, n (%) | 15 (63) | 16 (67) |
+| SOFA score, median (IQR) | 9 (7-11) | 9 (6-12) |
+| Lactate, mmol/L, median (IQR) | 3.1 (2.2-4.8) | 2.9 (2.0-5.1) |
+| Source: lung, n (%) | 11 (46) | 10 (42) |
 
-::: {.neu-takeaway}
-**KEY MESSAGE** Table 1 answers: who were the patients, and were the groups alike?
+::: {.neu-table-caption}
+Illustrative numbers. Symmetric: mean (SD). Skewed: median (IQR). Categories: n (%). SD = standard deviation. IQR = interquartile range. SOFA = Sequential Organ Failure Assessment. Ask: who were the patients, and were the groups alike at the start?
 :::
 
 ::: {.notes}
 Teaching point: Table 1 in almost every clinical paper describes the patients at baseline, by group.
 
-Read it row by row using the colour key: symmetric variables as mean (SD), skewed ones as median (IQR), categories as n (%).
+Read it row by row: the summary is written in the row label. Symmetric variables as mean (SD), skewed ones as median (IQR), categories as n (%).
 
 Two questions to ask of every Table 1: (1) Do these patients look like mine? (generalisability) (2) Are the groups similar at the start? (fair comparison).
 
-In an RCT, groups should be similar by chance thanks to randomisation; small differences are expected. Many guidelines (CONSORT) advise against p-values in an RCT's Table 1, because any difference is due to chance by definition.
+In an RCT, groups should be similar by chance thanks to randomisation. Small differences are expected. Many guidelines (CONSORT, the reporting guideline for trials) advise against p-values in an RCT's Table 1, because any difference is due to chance by definition.
 
-In a cohort (Paper 2), large baseline differences are a warning sign of confounding; that is why Paper 2 matched patients on a propensity score before comparing them.
+In a cohort (Paper 2), large baseline differences are a warning sign of confounding. That is why Paper 2 matched patients on a propensity score before comparing them.
 
-Numbers on the slide are illustrative, not from Paper 1. Paper 1's real Table 1 has 24 patients per group; ask participants to open it on Sessions 7-8.
+Numbers on the slide are illustrative, not from Paper 1. Paper 1's real Table 1 has 24 patients per group. Participants can open it in Course/Papers.
 
-Ask: what would worry you if the restrictive group had a median SOFA of 6 and usual care 11? Expected: the groups are not comparable; sicker patients in one arm.
+Ask (call on two or three people, microphone on): what would worry you if the restrictive group had a median SOFA of 6 and usual care 11? Expected: the groups are not comparable. Sicker patients in one arm.
 
-Timing: 2 minutes. Next: the same Table 1 written badly and well, after two slides on figures.
+This slide is now an editable table (it was a picture before). Timing: 2 minutes. Next: a table written badly and well.
 :::
 
 ## Publication-quality tables: bad vs good
@@ -1232,9 +1351,9 @@ Clean, self-explanatory, ready for a journal
 ::::
 
 ::: {.notes}
-Teaching point: a table in a paper must stand alone. Compare the two versions row by row.
+Teaching point: a table in a paper must stand alone. Compare the two versions row by row. (These two stay as pictures on purpose: the bad one shows formatting faults, such as grid lines, that a native slide table would hide.)
 
-Column headers: 'Group A / Group B' tells the reader nothing; write the group names and the number of patients in each column (n = 24).
+Column headers: 'Group A / Group B' tells the reader nothing. Write the group names and the number of patients in each column (n = 24).
 
 Row labels: say the unit and the summary used: 'Age, years, mean (SD)', 'Lactate, mmol/L, median (IQR)'.
 
@@ -1244,11 +1363,11 @@ Categories as n (%), never as a proportion like 0.375.
 
 Footnotes explain every abbreviation (SOFA, IQR) and, if p-values are shown, which test was used. In an RCT Table 1, leave p-values out (CONSORT).
 
-No vertical lines, few horizontal ones; journals will re-typeset anyway, but reviewers notice messy tables.
+No vertical lines, few horizontal ones. Journals will re-typeset anyway, but reviewers notice messy tables.
 
 The proposal template and Sessions 7-8 (writing the paper) use these same rules.
 
-Ask: find four problems in the left table in 30 seconds. Expected: no n, no units, no %, too many decimals, unexplained SOFA, p-values in an RCT.
+Ask (call on two or three people, microphone on): find four problems in the left table in 30 seconds. Expected: no n, no units, no %, too many decimals, unexplained SOFA, p-values in an RCT.
 
 Timing: 2 minutes.
 :::
@@ -1266,7 +1385,7 @@ Before comparing groups, describe them: now with real numbers.
 ::::
 
 ::: {.notes}
-Section 5.4 opener (25 minutes: a 6-minute live demo of Table 1 and figures, four slides of FLUID-ICU results, then a 10-minute group worksheet on your own results pack).
+Section 5.4 opener (25 minutes, 21:30 to 21:55: a 6-minute live demo of Table 1 and figures, four slides of FLUID-ICU results, then a 10-minute whole-class reading of Table 1).
 
 Key message: everything from 5.3 (shape, mean or median, which graph, Table 1) now applied to FLUID-ICU. Same rules, real (simulated) numbers.
 :::
@@ -1304,18 +1423,29 @@ Same rules as 5.3
 :::
 
 ::: {.notes}
-Live demo, 6 minutes. Full script: Course/Demos/s5\_demo.md (Part B), using Course/Data/R/02\_describe.R.
+Live demo on the shared screen, 6 minutes. Full script: Course/Demos/s5\_demo.md (Part B), using Course/Data/R/02\_describe.R.
 
-Show: the shape of age (roughly symmetric, so mean and SD) vs lactate and ICU stay (right-skewed, so median and IQR); the Table 1 by fluid-balance group with overall, negative (n = 245) and positive (n = 373) columns and the number missing per variable; the histogram of fluid balance, the SOFA boxplot by group, the sorted bar chart of infection source.
+Show: the shape of age (roughly symmetric, so mean and SD) vs lactate and ICU stay (right-skewed, so median and IQR). The Table 1 by fluid-balance group with overall, negative (n = 245) and positive (n = 373) columns and the number missing per variable. The histogram of fluid balance, the SOFA boxplot by group, the sorted bar chart of infection source.
 
 Point out: no p-values in Table 1 (it describes, it does not test), as written in the FLUID-ICU SAP.
 
-If R fails: go straight to the next slides; they show the same outputs.
+If R fails: go straight to the next slides. They show the same outputs.
 :::
 
 ## FLUID-ICU Table 1: were the groups alike at the start?
 
-![](images/figures/data/table1_snapshot.png){.neu-fig}
+| Characteristic | Overall
+n = 618 | Negative balance
+n = 245 | Positive balance
+n = 373 |
+|:---|:---|:---|:---|
+| Age, years, mean (SD) | 62.6 (15.2) | 64.6 (15.0) | 61.4 (15.2) |
+| Male sex, n (%) | 375 (61%) | 143 (58%) | 232 (62%) |
+| Heart failure, n (%) | 97 (16%) | 54 (22%) | 43 (12%) |
+| **SOFA score, median (IQR)** | **[7 (5, 9)]{style="color:#0B376C"}** | **[6 (4, 8)]{style="color:#0B376C"}** | **[8 (6, 10)]{style="color:#0B376C"}** |
+| **Lactate, mmol/L, median (IQR)** | **[2.6 (1.7, 3.7)]{style="color:#0B376C"}** | **[2.2 (1.4, 3.0)]{style="color:#0B376C"}** | **[2.9 (1.9, 4.0)]{style="color:#0B376C"}** |
+| **Vasopressor, n (%)** | **[266 (43%)]{style="color:#0B376C"}** | **[61 (25%)]{style="color:#0B376C"}** | **[205 (55%)]{style="color:#0B376C"}** |
+| **Mechanical ventilation, n (%)** | **[313 (51%)]{style="color:#0B376C"}** | **[97 (40%)]{style="color:#0B376C"}** | **[216 (58%)]{style="color:#0B376C"}** |
 
 ::: {.neu-takeaway}
 **KEY MESSAGE** The positive-balance group was sicker at baseline: a warning for Session 6.
@@ -1326,13 +1456,13 @@ Teaching point: read Table 1 with the two questions from 5.3: do these patients 
 
 Age: mean 64.6 vs 61.4 years (negative vs positive): similar.
 
-Severity is NOT similar: SOFA median 6 (4 to 8) vs 8 (6 to 10); vasopressor 61/245 (24.9%) vs 205/373 (55.0%); mechanical ventilation 97/245 (39.6%) vs 216/373 (57.9%); lactate median 2.2 vs 2.9 mmol/L.
+Severity is not similar: SOFA median 6 (4 to 8) vs 8 (6 to 10). Vasopressor 61/245 (24.9%) vs 205/373 (55.0%). Mechanical ventilation 97/245 (39.6%) vs 216/373 (57.9%), lactate median 2.2 vs 2.9 mmol/L.
 
 Heart failure: 54/245 (22.0%) vs 43/373 (11.5%): clinicians give less fluid to patients with heart failure.
 
-Interpretation: patients with a positive balance were sicker before the fluid was given. Sicker patients receive more fluid AND die more often: confounding by indication (Session 4). Any crude comparison of mortality will be biased; Session 6 adjusts for it.
+Interpretation: patients with a positive balance were sicker before the fluid was given. Sicker patients receive more fluid and die more often: confounding by indication (Session 4). Any crude comparison of mortality will be biased. Session 6 adjusts for it.
 
-Ask: from this table alone, would you expect the crude odds ratio for death to be larger or smaller than the adjusted one? Expected: larger (the sickness inflates it).
+Ask (poll, or call on two or three people): from this table alone, would you expect the crude odds ratio for death to be larger or smaller than the adjusted one? Expected: larger (the sickness inflates it).
 :::
 
 ## The exposure: cumulative fluid balance at day 3
@@ -1346,11 +1476,11 @@ Ask: from this table alone, would you expect the crude odds ratio for death to b
 ::: {.notes}
 Teaching point: always look at the exposure before using it.
 
-The cumulative fluid balance at day 3 ranges widely; median 8.8 ml/kg (IQR -10.3 to 26.2). 373 of 618 patients (60.4%) had a positive balance.
+The cumulative fluid balance at day 3 ranges widely. Median 8.8 ml/kg (IQR -10.3 to 26.2). 373 of 618 patients (60.4%) had a positive balance.
 
-The primary analysis (Q1) cuts the continuous variable at 0 ml/kg into two groups; Q2 and Q3 keep it continuous (per 10 ml/kg). Cutting loses information but is easier to explain; the SAP fixed this choice in advance.
+The primary analysis (Q1) cuts the continuous variable at 0 ml/kg into two groups. Q2 and Q3 keep it continuous (per 10 ml/kg). Cutting loses information but is easier to explain. The SAP fixed this choice in advance.
 
-Ask: which summary would you report for this variable in Table 1? Expected: median (IQR), as here, because of the tails; roughly symmetric in the middle, so mean (SD) would also be acceptable if stated.
+Ask (call on two or three people, microphone on): which summary would you report for this variable in Table 1? Expected: median (IQR), as here, because of the tails. Roughly symmetric in the middle, so mean (SD) would also be acceptable if stated.
 :::
 
 ## Severity by group: show every patient
@@ -1362,7 +1492,7 @@ Ask: which summary would you report for this variable in Table 1? Expected: medi
 
 - Each dot is one patient
 - Box = middle 50%
-- Median 6 vs 8
+- Median SOFA 6 vs 8
 - Sicker patients got more fluid
 :::
 :::
@@ -1378,11 +1508,11 @@ Ask: which summary would you report for this variable in Table 1? Expected: medi
 ::: {.notes}
 Teaching point: the 'dots plus box' figure from 5.3, applied to FLUID-ICU.
 
-SOFA score on admission: median 6 (IQR 4 to 8) in the negative-balance group vs 8 (6 to 10) in the positive-balance group. Every dot is a patient, so the reader sees the overlap AND the shift.
+SOFA score on admission: median 6 (IQR 4 to 8) in the negative-balance group vs 8 (6 to 10) in the positive-balance group. Every dot is a patient, so the reader sees the overlap and the shift.
 
 This single picture is the visual proof of confounding by indication in this dataset.
 
-Ask: why a boxplot and not a bar of the mean SOFA? Expected: SOFA is a score with a skewed distribution; the bar would hide the spread and the overlap.
+Ask (call on two or three people, microphone on): why a boxplot and not a bar of the mean SOFA? Expected: SOFA is a score with a skewed distribution. The bar would hide the spread and the overlap.
 :::
 
 ## The skewed outcome: ICU stay in survivors (Q5)
@@ -1398,25 +1528,25 @@ Teaching point: the length-of-stay picture from 5.3 is true in FLUID-ICU too.
 
 ICU stay among the 439 survivors is right-skewed: a few very long stays pull the mean (7.5 days) above the median (6.2 days). Across all patients: mean 7.3, median 6.0.
 
-Group 5's question (Q5) is about this outcome; they will report medians (IQR), compare groups with the Mann-Whitney test, and use a log scale in the model (Session 6).
+Question 5 (Q5) is about this outcome: it reports medians (IQR), compares groups with the Mann-Whitney test, and uses a log scale in the model (Session 6).
 
-Ask: which group most needs this slide? Expected: group 5, but every group reports at least one skewed variable in Table 1.
+Ask (call on two or three people, microphone on): who most needs this slide? Expected: anyone who chooses Q5 for the manuscript, but every manuscript reports at least one skewed variable in Table 1.
 :::
 
-## Read your group's Table 1 (worksheet)
+## Read the FLUID-ICU Table 1 together
 
 ::: {.neu-banner style="--c:#0D7377"}
-GROUP WORK · 10 min
+WHOLE-CLASS TASK · 10 min
 :::
 
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0D7377"}
-- Open your results pack: Table 1 and the figures
-- For three variables: which summary is used, and why?
-- Were the groups alike at the start? Name the biggest difference
-- Write two sentences describing the patients, as in a Results section
-- One group reads its sentences aloud
+- Open Table 1 in the Q1 results pack (PDF): the same table is in every pack
+- Poll: which summary is used for age, SOFA and vasopressor, and why?
+- Question for the class: were the groups alike at the start? Name the biggest difference
+- Together we write two Results sentences describing the patients
+- Q2 to Q5: what each pack adds (for example, Q5 has a survivors-only table)
 :::
 :::
 ::: {.column width="40%"}
@@ -1432,25 +1562,31 @@ Check
 ::::
 
 ::: {.neu-output style="--c:#0D7377"}
-**OUTPUT** Two Results sentences describing your group's patients (exercise 6)
+**OUTPUT** Two Results sentences describing the FLUID-ICU patients (Exercise 6)
 :::
 
 ::: {.notes}
-Group worksheet, 10 minutes (7 work, 3 feedback). Session 5 exercises, exercise 6; model answers in s5\_solutions.md.
+Whole-class task, 10 minutes (21:45 to 21:55). Exercise 6 of the Session 5 exercise sheet. Model answers in Course/Solutions/s5\_solutions.md.
 
-All five results packs contain the same Table 1 by fluid-balance group (Q5's also has the survivors). Groups practise reading it.
+Share Table 1 from the Q1 results pack on screen. All five packs contain the same Table 1 by fluid-balance group (the Q5 pack also has a table for survivors).
 
-Model description sentences: 'Of 620 enrolled patients, 618 had a computable day-3 fluid balance; 373 (60.4%) had a positive balance. Patients with a positive balance were more severely ill at admission (median SOFA 8 vs 6; vasopressor 55.0% vs 24.9%; mechanical ventilation 57.9% vs 39.6%).'
+Poll (2 minutes): age = mean (SD), symmetric. SOFA = median (IQR), skewed score. Vasopressor = n (%), binary.
+
+Call on two or three people (3 minutes): biggest difference = severity (SOFA, vasopressor, ventilation). Someone may spot heart failure going the other way: clinicians give less fluid in heart failure.
+
+Write together (4 minutes), typing in the shared document: 'Of 620 enrolled patients, 618 had a computable day-3 fluid balance, 373 (60.4%) had a positive balance. Patients with a positive balance were more severely ill at admission (median SOFA 8 vs 6, vasopressor 55.0% vs 24.9%, mechanical ventilation 57.9% vs 39.6%).'
+
+Q2 to Q5 (1 minute): the same patients, so the same Table 1. Q5 adds survivors only (n = 439).
 
 Listen for: correct summaries (mean vs median), no interpretation of 'significance' in Table 1, and the realisation that severity differs between groups.
 
-These sentences go straight into the manuscript's Results (Session 7).
+These sentences go straight into the Results of each participant's manuscript (Session 7).
 :::
 
 ## Proposal builder 5: what a good one contains
 
 ::: {.neu-intro}
-Example from the running example (restrictive fluids trial).
+Modelled on the running example (a restrictive fluids trial).
 :::
 
 :::: {.neu-cards style="--n:4"}
@@ -1464,23 +1600,23 @@ Example from the running example (restrictive fluids trial).
 ::: {.neu-card .plain style="--c:#0B376C"}
 [Mini-CRF]{.neu-card-title}
 
-- 6-10 items
-- units and time points
-- 'unknown' options
+- 6 to 10 items
+- Units and time points
+- 'Unknown' options
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
 [Data dictionary]{.neu-card-title}
 
-- 3-5 rows: name, label,
-- type, unit/codes,
-- allowed values
+- 3 to 5 rows
+- Name, label, type, unit or codes
+- Allowed values
 :::
 ::: {.neu-card .plain style="--c:#0070C0"}
 [Data management]{.neu-card-title}
 
-- EDC or double entry
-- coded IDs, audit trail
-- backups, sharing statement
+- Electronic capture (EDC) or double entry
+- Coded IDs and an audit trail
+- Backups and a data-sharing statement
 :::
 ::::
 
@@ -1489,7 +1625,7 @@ Example from the running example (restrictive fluids trial).
 :::
 
 ::: {.notes}
-Show for 1 minute before groups start, so they see the expected level.
+Show for 1 minute before the instructor starts modelling, so participants see the expected level.
 
 Variables table: primary outcome, exposure (or intervention), 3-5 confounders, each with its type. This table drives everything else.
 
@@ -1497,9 +1633,11 @@ Mini-CRF: 6 to 10 items that collect exactly those variables, with units, time p
 
 Data dictionary: 3 to 5 rows with short variable names, labels, types, units or codes, and allowed values.
 
-Data-management plan: one or two sentences: EDC or paper with double entry, coded IDs with a separately locked linking log, audit trail, backups, and a data-sharing statement in the consent form.
+Data-management plan: one or two sentences: EDC (electronic data capture) or paper with double entry, coded IDs with a separately locked linking log, audit trail, backups, and a data-sharing statement in the consent form.
 
-Next Saturday (Session 6) the groups add the sample size, the analysis plan and the missing-data plan.
+Each participant writes this for their own research question (their own proposal), not for FLUID-ICU.
+
+Next Saturday (Session 6) the proposal gets the sample size, the analysis plan and the missing-data plan.
 :::
 
 ## Proposal builder 5: variables, CRF and data management
@@ -1511,40 +1649,42 @@ PROPOSAL BUILDER · 30 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#055F56"}
-- Variables table: outcome, exposure, 3-5 confounders, each with its type (8 min)
-- Mini-CRF: 6-10 items with units, time points and 'unknown' options (10 min)
-- Data dictionary: 3-5 rows + one validation rule (6 min)
-- Data-management plan: EDC or double entry, IDs, backups, sharing (6 min)
+- The instructor models each part live on the running example (18 min)
+- Variables table, mini-CRF, data dictionary rows, data-management plan
+- Then draft your own variables table in your proposal template (10 min, on your own)
+- Questions (2 min): raise your hand or use the chat. The other parts are homework
 :::
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#055F56"}
 Use these tools
 
-- Variable-type tree
+- Variable-type cards (5.1)
 - Good vs bad CRF items
 - FLUID-ICU data dictionary
-- Worksheet: exercise 8
+- Exercise sheet: Exercise 8
 :::
 :::
 ::::
 
 ::: {.neu-output style="--c:#055F56"}
-**OUTPUT** Proposal Part 3 (first half) written into the group template
+**OUTPUT** Your own proposal, Part 3 (first half): variables table started now, the rest as homework
 :::
 
 ::: {.notes}
-Proposal builder 5: 30 minutes. Groups write into Part 3 of the proposal template; the worksheet (Session 5 exercises, exercise 8) has the same headings.
+Proposal builder 5: 30 minutes (21:55 to 22:25). Template: Course/Templates/Research\_Proposal\_Template.docx (sent before Session 1). Worksheet: Exercise 8 of the Session 5 exercise sheet, with the same headings.
 
-Call the time at 8, 18, 24 and 30 minutes.
+Model live (18 minutes) on the running example, typing into a copy of the template on the shared screen: variables table (5 min), mini-CRF (5 min), data dictionary rows with one validation rule (4 min), data-management plan (4 min). Call on people to suggest items as you go.
 
-Facilitators circulate (one per two or three groups) and ask: Is your primary outcome a number, a category or time-to-event? Does each CRF item have a unit and a time point? Who will enter the data and where will it be stored?
+Individual slot (10 minutes): everyone drafts their own variables table quietly (cameras can stay off). Then 2 minutes for questions in the chat.
 
-Use the FLUID-ICU data dictionary as a model: groups have just seen what a real one looks like.
+Use the FLUID-ICU data dictionary as a model: participants have just seen what a real one looks like.
 
-Common problems: too many CRF items (keep to 10); confounders that are actually outcomes; names and IDs in the same file; no plan for backups.
+Common problems to mention while modelling: too many CRF items (keep to 10). Confounders that are actually outcomes. Names and IDs in the same file. No plan for backups.
 
-At 2:55, stop for the wrap-up.
+Homework: finish the mini-CRF, data dictionary rows and data-management plan in your own template before Session 6.
+
+At 22:25, stop for the wrap-up.
 :::
 
 ## Key words of the day
@@ -1589,15 +1729,15 @@ Twelve words you should now be able to explain to a colleague.
 :::
 
 ::: {.notes}
-Key words of the day (2 minutes). Point to each word and ask the room for a one-line definition; correct gently.
+Key words of the day (2 minutes). Point to each word and call on someone for a one-line definition, microphone on. Correct gently.
 
-Variable type: number vs category, and the five subtypes. CRF: the form that collects the data. Data dictionary: one row per variable, with type, unit/codes and allowed values.
+Variable type: number vs category, and the subtypes. CRF (case report form): the form that collects the data. Data dictionary: one row per variable, with type, unit/codes and allowed values.
 
 Validation check: a rule that flags impossible values (range, consistency, logic, completeness). Audit trail: the record of who changed what, when and why. Cleaning log: the list of every correction made to the raw data (FLUID-ICU).
 
-Median (IQR) for skewed data, mean (SD) for symmetric data; skewed = long tail.
+Median (IQR) for skewed data, mean (SD) for symmetric data. Skewed = long tail.
 
-Table 1: baseline characteristics by group; dots + box: show every patient; n (%): how categories are reported.
+Table 1: baseline characteristics by group. Dots + box: show every patient, n (%): how categories are reported.
 
 All terms are in the EN-VN glossary in Course/References.
 :::
@@ -1637,7 +1777,7 @@ Three messages to take home.
 :::
 
 ::: {.notes}
-Session recap (2 minutes). Ask three volunteers to give one example for each card from today.
+Session recap (2 minutes). Ask three volunteers (raise-hand button) to give one example for each card from today.
 
 Design the data: the worked CRF item, the data dictionary, validation rules.
 
@@ -1658,9 +1798,9 @@ DISCUSSION · 5 min
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#1F5C7A"}
 - Key words and recap (previous two slides)
-- Exit question: one data-quality problem found in FLUID-ICU, and how it was fixed
-- Homework: finish the CRF and data dictionary rows of your proposal
-- Read your group's results pack (Table 1 and figures) before Session 6
+- Exit question in the chat: one data-quality problem found in FLUID-ICU, and how it was fixed
+- Homework: finish Part 3 (first half) of your own proposal
+- Choose one question (Q1 to Q5) for your manuscript and read its results pack before Session 6
 :::
 :::
 ::: {.column width="40%"}
@@ -1671,23 +1811,23 @@ Next Saturday: Session 6
 - Choosing a test
 - Regression and survival
 - Missing data
-- Your dataset results
+- The five FLUID-ICU questions
 :::
 :::
 ::::
 
 ::: {.neu-output style="--c:#1F5C7A"}
-**OUTPUT** Exit sentence on a sticky note
+**OUTPUT** Exit answer in the chat (or a one-question form)
 :::
 
 ::: {.notes}
-Wrap-up: 5 minutes, including the key-words and recap slides.
+Wrap-up: 5 minutes (22:25 to 22:30), including the key-words and recap slides.
 
-Exit question on a sticky note: name one data-quality problem found in the raw FLUID-ICU data and how the cleaning fixed it. Read a few at the start of Session 6.
+Exit question in the chat (or a one-question form): name one data-quality problem found in the raw FLUID-ICU data and how the cleaning fixed it. Purpose: it checks understanding of today's core idea (clean with a script and a log, never by hand). Read the answers before Session 6 and open Session 6 with two or three of them.
 
-Homework: finish the CRF and data-dictionary rows of the proposal; read the group's results pack (Table 1, figures); optional exercises from the Session 5 worksheet.
+Homework: finish the mini-CRF, data dictionary rows and data-management plan of your own proposal (Part 3, first half). Choose one of the five FLUID-ICU questions for your manuscript, tell the instructor, and read its results pack (Table 1, figures). Optional: Exercises 1, 3, 4 and 5 of the Session 5 exercise sheet.
 
-Thank the room: today was a lot of new vocabulary; next Saturday builds directly on it.
+Thank the class: today was a lot of new vocabulary. Next Saturday builds directly on it.
 :::
 
 ## Extra slides: Session 5
@@ -1703,7 +1843,7 @@ Not needed to follow Session 6
 ::::
 
 ::: {.notes}
-EXTRA: the slides after this point are optional. Use them if the room is ahead of time, or point participants to them for self-study (they are in the handout deck).
+Extra: the slides after this point are optional. Use them if the class is ahead of time, or point participants to them for self-study (they are in the handout deck).
 :::
 
 ## Extra: Coding, versions, backups and data sharing
@@ -1724,21 +1864,19 @@ Four habits that protect your data and your future paper.
 [Versions]{.neu-card-title}
 
 - Raw file: read-only
-- Dated copies:
-- data\_2026-03-12\_v2
+- Dated copies, e.g. data\_2026-03-12\_v2
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
 [Backups]{.neu-card-title}
 
-- 3 copies, 2 media,
-- 1 off-site (encrypted)
+- 3 copies on 2 media
+- 1 copy off-site, encrypted
 - Test a restore
 :::
 ::: {.neu-card .plain style="--c:#0070C0"}
 [Data sharing]{.neu-card-title}
 
-- Journals ask for a
-- data-sharing statement
+- Journals ask for a data-sharing statement
 - Plan it at the start
 :::
 ::::
@@ -1748,15 +1886,15 @@ Four habits that protect your data and your future paper.
 :::
 
 ::: {.notes}
-EXTRA: Teaching point: four habits that cost little and save studies.
+Extra: Teaching point: four habits that cost little and save studies.
 
-Coding: store categories as numeric codes defined in the data dictionary (1 = lung, 2 = urine...). Use a study ID for each patient; names and hospital numbers stay in a separate, locked linking log.
+Coding: store categories as numeric codes defined in the data dictionary (1 = lung, 2 = urine...). Use a study ID for each patient. Names and hospital numbers stay in a separate, locked linking log.
 
-Versions: the raw data file is never edited; it is set to read-only. Every cleaning step creates a new, dated copy (data\_2026-03-12\_v2) and a short log of what changed. Then any result can be traced back.
+Versions: the raw data file is never edited. It is set to read-only. Every cleaning step creates a new, dated copy (data\_2026-03-12\_v2) and a short log of what changed. Then any result can be traced back.
 
 Backups: the 3-2-1 rule: three copies, on two different media, one off-site, encrypted. A backup you have never restored is only a hope.
 
-Data-sharing statement: most journals now require one (Sessions 7-8). Example wording: 'De-identified participant data and the data dictionary will be available from the corresponding author on reasonable request after publication, subject to ethics approval.' Write it into the consent form and protocol NOW, or you may not be allowed to share later.
+Data-sharing statement: most journals now require one (Sessions 7-8). Example wording: 'De-identified participant data and the data dictionary will be available from the corresponding author on reasonable request after publication, subject to ethics approval.' Write it into the consent form and protocol now, or you may not be allowed to share later.
 
 Ask: if your laptop were stolen tonight, would your study survive? Expected: an uncomfortable silence. Good.
 
@@ -1772,9 +1910,9 @@ Timing: 2 minutes.
 :::
 
 ::: {.notes}
-EXTRA: Teaching point: three distortions you will see in posters, reports and papers. Top row misleading, bottom row fixed.
+Extra: Teaching point: three distortions you will see in posters, reports and papers. Top row misleading, bottom row fixed.
 
-3-D pie: the tilt makes slices at the front look bigger; the eye cannot compare angles well. Ask: which slice is bigger, urine or abdomen? Then show the sorted bar chart: 25% vs 20%, instantly clear.
+3-D pie: the tilt makes slices at the front look bigger. The eye cannot compare angles well. Ask: which slice is bigger, urine or abdomen? Then show the sorted bar chart: 25% vs 20%, instantly clear.
 
 Truncated axis: the y-axis starts at 28.5%, so a 2-point difference in mortality (31% vs 29%) looks like a tripling. Bars must start at zero. (Line charts may zoom in, but say so.)
 

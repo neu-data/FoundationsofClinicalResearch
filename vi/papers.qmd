@@ -7,8 +7,8 @@ Hai bài báo đã công bố trả lời câu hỏi của ví dụ xuyên suố
 > *Ở người lớn bị sốc nhiễm khuẩn tại ICU, chiến lược hạn chế dịch truyền so với chăm sóc thường quy có làm giảm tử vong không?*
 
 Bài báo 1 là một thử nghiệm ngẫu nhiên và Bài báo 2 là một nghiên cứu thuần tập quan sát. Đọc song song hai bài cho
-thấy thiết kế nghiên cứu giới hạn những gì một bài báo được phép kết luận. Cả hai đều **truy cập mở**: đọc hoặc tải
-từ trang của nhà xuất bản qua đường dẫn DOI bên dưới.
+thấy thiết kế nghiên cứu giới hạn những gì một bài báo được phép kết luận. Cả hai đều **truy cập mở**: đọc trên trang
+của nhà xuất bản qua đường dẫn DOI bên dưới, hoặc tải bản PDF gốc tại đây.
 
 ## Bài báo 1: thử nghiệm lâm sàng ngẫu nhiên có đối chứng
 
@@ -16,7 +16,8 @@ từ trang của nhà xuất bản qua đường dẫn DOI bên dưới.
 |:--|:--|
 | **Trích dẫn** | Boulet N, Quenot J-P, Serrand C, et al. Impact on fluid balance of an optimized restrictive strategy targeting non-resuscitative fluids in intensive care patients with septic shock: a single-blind, multicenter, randomized, controlled, pilot study. *Crit Care.* 2024;28:429. |
 | **DOI** | [10.1186/s13054-024-05155-z](https://doi.org/10.1186/s13054-024-05155-z) |
-| **Thiết kế** | RCT thí điểm, đa trung tâm, nhóm song song, làm mù đơn; 48 bệnh nhân được phân tích. Kết cục chính: cân bằng dịch tích lũy ngày 5. Đăng ký NCT04947904. |
+| **PDF** | [Bài báo gốc (PDF của nhà xuất bản, tiếng Anh)](files/papers/Paper1_Boulet2024_CritCare_original.pdf) |
+| **Thiết kế** | RCT thí điểm, đa trung tâm, nhóm song song, làm mù đơn; 48 người bệnh được phân tích. Kết cục chính: cân bằng dịch tích lũy ngày 5. Đăng ký NCT04947904. |
 | **Hướng dẫn báo cáo** | CONSORT |
 | **Giấy phép** | CC BY-NC-ND 4.0 |
 
@@ -26,6 +27,7 @@ từ trang của nhà xuất bản qua đường dẫn DOI bên dưới.
 |:--|:--|
 | **Trích dẫn** | Hyun D-G, Ahn JH, Huh JW, et al., on behalf of the Korean Sepsis Alliance (KSA) Investigators. Impact of a cumulative positive fluid balance during the first three ICU days in patients with sepsis: a propensity score-matched cohort study. *Ann Intensive Care.* 2023;13:105. |
 | **DOI** | [10.1186/s13613-023-01178-x](https://doi.org/10.1186/s13613-023-01178-x) |
+| **PDF** | [Bài báo gốc (PDF của nhà xuất bản, tiếng Anh)](files/papers/Paper2_Hyun2023_AnnIntensiveCare_original.pdf) |
 | **Thiết kế** | Thuần tập ghép cặp theo điểm xu hướng từ sổ bộ nhiễm khuẩn huyết tiến cứu đa trung tâm (20 bệnh viện). Kết cục chính: tử vong 28 ngày. |
 | **Hướng dẫn báo cáo** | STROBE |
 | **Giấy phép** | CC BY 4.0 |
@@ -37,8 +39,9 @@ từ trang của nhà xuất bản qua đường dẫn DOI bên dưới.
 | 2 | Ví dụ cho trình diễn tìm kiếm PubMed; đọc phần tóm tắt của Bài báo 1 theo bảng kiểm và tìm "spin" |
 | 3–4 | Một câu hỏi, hai thiết kế; nhiễu do chỉ định; công cụ đánh giá nguy cơ sai lệch phù hợp với từng bài |
 | 5–6 | Cân bằng dịch như một biến trong CRF; đọc HR, CI, giá trị p và đường Kaplan–Meier; Bài báo 2 là mô hình cho phân tích FLUID-ICU |
-| 7–8 | Ví dụ về tiêu đề, tóm tắt, đặt vấn đề, kết quả và bàn luận; hướng dẫn báo cáo; **Làm người phản biện**: các nhóm thẩm định Bài báo 1 hoặc 2 bằng [bảng kiểm thẩm định](resources.qmd) |
+| 7–8 | Ví dụ về tiêu đề, tóm tắt, đặt vấn đề, kết quả và bàn luận; hướng dẫn báo cáo; **Làm người phản biện**: cả lớp cùng thẩm định Bài báo 1 và 2 bằng [bảng kiểm thẩm định](resources.qmd) |
 
 ::: {.callout-note}
-Hãy đọc hai bài báo trên trang của nhà xuất bản (đường dẫn DOI ở trên). Khóa học không phân phối lại bản sao của các bài báo.
+Cả hai bài báo đều truy cập mở. Các tệp PDF ở đây là bản gốc của nhà xuất bản, giữ nguyên, được chia sẻ theo giấy phép
+của từng bài (Bài báo 1: CC BY-NC-ND 4.0; Bài báo 2: CC BY 4.0). Khi trích dẫn, hãy ghi như trên. Hai bài báo bằng tiếng Anh.
 :::

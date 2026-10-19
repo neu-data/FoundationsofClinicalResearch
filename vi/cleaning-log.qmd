@@ -2,61 +2,59 @@
 title: "Nhật ký làm sạch"
 ---
 
-::: {.lang-note}
-Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
-:::
-
 ::: {.simulated}
-**Dữ liệu mô phỏng, không phải bệnh nhân thật.** FLUID-ICU là một nghiên cứu giả định: mọi giá trị đều do chương trình máy tính tạo ra với hạt giống ngẫu nhiên cố định. Dữ liệu không mô tả bất kỳ bệnh nhân, bệnh viện hay ICU thật nào. Mọi bản thảo viết từ bộ dữ liệu này phải ghi rõ dữ liệu là mô phỏng và không bao giờ được nộp như một nghiên cứu thật.
+**Dữ liệu mô phỏng, không phải người bệnh thật.** FLUID-ICU là một nghiên cứu giả định: mọi giá trị đều do chương trình máy tính tạo ra với hạt giống ngẫu nhiên cố định. Dữ liệu không mô tả bất kỳ người bệnh, bệnh viện hay ICU thật nào. Mọi bản thảo viết từ bộ dữ liệu này phải ghi rõ dữ liệu là mô phỏng và không bao giờ được nộp như một nghiên cứu thật.
 :::
 
-> **SIMULATED DATA: NOT REAL PATIENTS.** This log belongs to the teaching dataset FLUID-ICU.
+[Tải bản PDF](files/data/Cleaning_Log_VN.pdf)
+
+> **DỮ LIỆU MÔ PHỎNG: KHÔNG PHẢI NGƯỜI BỆNH THẬT.** Nhật ký này thuộc bộ dữ liệu giảng dạy FLUID-ICU.
 
 | | |
 |---|---|
-| **Raw file** | `fluid_icu_raw.csv` (identical content in `fluid_icu_raw.xlsx`): 623 rows, 29 columns, as received from ICU A-D |
-| **Clean file** | `fluid_icu_clean.csv` / `.rds`: 620 patients, 32 variables |
-| **Cleaning script** | `R/01_clean.R` (each step below is one block of the script) |
-| **Check** | The script rebuilds the clean file from the raw file and confirms it is identical, value for value and byte for byte |
-| **Rule** | The raw file is never edited. Every change is made by the script and written down here. |
+| **Tệp thô** | `fluid_icu_raw.csv` (nội dung giống hệt trong `fluid_icu_raw.xlsx`): 623 dòng, 29 cột, đúng như nhận từ ICU A-D |
+| **Tệp sạch** | `fluid_icu_clean.csv` / `.rds`: 620 người bệnh, 32 biến |
+| **Script làm sạch** | `R/01_clean.R` (mỗi bước dưới đây là một khối lệnh của script) |
+| **Kiểm tra** | Script dựng lại tệp sạch từ tệp thô và xác nhận kết quả giống hệt, từng giá trị và từng byte |
+| **Quy tắc** | Không bao giờ sửa tệp thô. Mọi thay đổi đều do script thực hiện và được ghi lại ở đây. |
 
-## Problems found and what we did
+## Các vấn đề phát hiện và cách đã xử lý
 
-| Step | Problem found | How many | What we did | Why |
+| Bước | Vấn đề phát hiện | Số lượng | Cách xử lý | Lý do |
 |---|---|---|---|---|
-| 1 | Column names typed like a spreadsheet: spaces, brackets, capitals (`Weight (kg)`, `MAP (mmHg)`, `VFD 28`) | 29 columns | Converted to short lower-case names with `clean_names()`; renamed 4 (e.g. `map_mm_hg` to `map_mmhg`, `vfd_28` to `vent_free_days_28`) | Names without spaces are easy to type and the same in every script |
-| 2 | Duplicate records: the same patient entered twice | 3 IDs (FLU-139, FLU-274, FLU-574): 623 rows for 620 patients | Checked that the two copies were identical in every column, then kept one copy | Each patient must be counted once |
-| 3 | ICU name typed in different ways (`icu a`, `ICU-A`, `ICUA`, trailing space) | 14 rows | Standardised to `ICU A`, `ICU B`, `ICU C`, `ICU D` | Otherwise R sees 11 "different" ICUs |
-| 4 | Admission date in three formats: `2023-03-14`, `14/03/2023`, `14-Mar-2023` | 365 / 164 / 94 rows | Read each format explicitly and converted all to one date (YYYY-MM-DD); 0 dates failed | Mixed formats are read wrongly or not at all; 03/04 could be March or April |
-| 5 | Sex coded 9 ways (`Male`, `M`, `m`, `male`, `Female`, `F`, `f`, `female`, ` Female`) | 200 rows not `Male`/`Female` | Recoded to `Female` / `Male` | One variable, one coding |
-| 6 | Yes/No variables mixed `Yes`, `No`, `Y`, `N`, `yes`, `no`, `1`, `0` (ICU B sends 1/0) | 8 variables; about 1,900 cells not `Yes`/`No` | Recoded to `No` / `Yes`; checked that no value was lost | `1` and `Yes` must mean the same thing |
-| 7 | All columns read as text | all | Converted numbers to numbers (whole numbers as integers) | Needed for calculations |
-| 8 | Missing-value codes used as if they were numbers: lactate `999` and `-99`, APACHE II `-99`, MAP `999` | Lactate 21 (12 x 999, 9 x -99), APACHE II 6, MAP 4 | Set to missing (`NA`) | A lactate of 999 would wreck the mean; missing is missing |
-| 9 | Units: ICU C reported lactate in **mg/dL**, the other ICUs in mmol/L (ICU C median 23.8 vs about 2.5 elsewhere) | 126 values (all ICU C lactates) | Divided ICU C values by 9.01 (1 mmol/L = 9.01 mg/dL), 1 decimal; ICU C median became 2.65 | One unit for one variable; found by comparing medians by ICU |
-| 10 | Impossible values (outside the allowed range in the data dictionary) | 3: FLU-529 age 210; FLU-277 weight 7 kg; FLU-282 day-2 output -2990 ml | Set to missing and raised a query with the site. The patient stays in the study | We cannot guess the true value (21? 71?); deleting the patient would bias the sample |
-| 10b | Range checks on all other variables (SOFA, APACHE II, lactate, MAP, AKI stage, VFD, ICU stay, follow-up time; survivors followed to day 28) | 0 problems | None | Documents that the checks were done |
-| 11 | Infection source as free text | 5 categories | Fixed category order (Respiratory, Urinary, Abdominal, Skin/soft tissue, Other) | Same order in every table |
-| 12 | Derived variables needed (not in the raw file) | 3 new variables | Computed `cum_fluid_balance_d3_ml_kg` = (fluid in d1-3 - fluid out d1-3) / weight; `positive_balance_d3` (> 0 ml/kg); `aki_any` (KDIGO stage >= 1) | Derived values are calculated by the script, never typed by hand |
+| 1 | Tên cột gõ theo kiểu bảng tính: có dấu cách, dấu ngoặc, chữ hoa (`Weight (kg)`, `MAP (mmHg)`, `VFD 28`) | 29 cột | Đổi thành tên ngắn, chữ thường bằng `clean_names()`; đổi tên 4 cột (ví dụ `map_mm_hg` thành `map_mmhg`, `vfd_28` thành `vent_free_days_28`) | Tên không có dấu cách thì dễ gõ và giống nhau trong mọi script |
+| 2 | Bản ghi trùng: cùng một người bệnh được nhập hai lần | 3 mã (FLU-139, FLU-274, FLU-574): 623 dòng cho 620 người bệnh | Kiểm tra hai bản giống hệt nhau ở mọi cột, rồi giữ lại một bản | Mỗi người bệnh chỉ được đếm một lần |
+| 3 | Tên ICU được gõ theo nhiều cách (`icu a`, `ICU-A`, `ICUA`, dấu cách thừa ở cuối) | 14 dòng | Chuẩn hóa thành `ICU A`, `ICU B`, `ICU C`, `ICU D` | Nếu không, R sẽ thấy 11 ICU "khác nhau" |
+| 4 | Ngày nhập viện có ba định dạng: `2023-03-14`, `14/03/2023`, `14-Mar-2023` | 365 / 164 / 94 dòng | Đọc từng định dạng một cách tường minh và chuyển tất cả về một định dạng ngày (YYYY-MM-DD); 0 ngày bị lỗi | Định dạng lẫn lộn sẽ bị đọc sai hoặc không đọc được; 03/04 có thể là tháng 3 hoặc tháng 4 |
+| 5 | Giới được mã hóa theo 9 cách (`Male`, `M`, `m`, `male`, `Female`, `F`, `f`, `female`, ` Female`) | 200 dòng không phải `Male`/`Female` | Mã hóa lại thành `Female` / `Male` | Một biến, một cách mã hóa |
+| 6 | Các biến Có/Không lẫn lộn `Yes`, `No`, `Y`, `N`, `yes`, `no`, `1`, `0` (ICU B gửi 1/0) | 8 biến; khoảng 1900 ô không phải `Yes`/`No` | Mã hóa lại thành `No` / `Yes`; kiểm tra không mất giá trị nào | `1` và `Yes` phải có cùng một nghĩa |
+| 7 | Mọi cột đều được đọc như văn bản | tất cả | Chuyển số về dạng số (số nguyên cho các giá trị nguyên) | Cần cho việc tính toán |
+| 8 | Mã giá trị thiếu được dùng như thể là số: lactat `999` và `-99`, APACHE II `-99`, MAP `999` | Lactat 21 (12 x 999, 9 x -99), APACHE II 6, MAP 4 | Đặt là thiếu (`NA`) | Một giá trị lactat 999 sẽ làm hỏng trung bình; thiếu là thiếu |
+| 9 | Đơn vị: ICU C báo cáo lactat theo **mg/dL**, các ICU khác theo mmol/L (trung vị ICU C là 23.8 so với khoảng 2.5 ở nơi khác) | 126 giá trị (mọi giá trị lactat của ICU C) | Chia các giá trị của ICU C cho 9.01 (1 mmol/L = 9.01 mg/dL), làm tròn 1 chữ số thập phân; trung vị ICU C trở thành 2.65 | Một biến, một đơn vị; phát hiện nhờ so sánh trung vị giữa các ICU |
+| 10 | Giá trị không thể có (nằm ngoài khoảng cho phép trong từ điển dữ liệu) | 3: FLU-529 tuổi 210; FLU-277 cân nặng 7 kg; FLU-282 dịch ra ngày 2 là -2990 ml | Đặt là thiếu và gửi query cho đơn vị. Người bệnh vẫn ở lại trong nghiên cứu | Chúng ta không thể đoán giá trị thật (21? 71?); loại bỏ người bệnh sẽ làm sai lệch mẫu |
+| 10b | Kiểm tra khoảng giá trị cho mọi biến khác (SOFA, APACHE II, lactat, MAP, giai đoạn AKI, VFD, thời gian nằm ICU, thời gian theo dõi; người sống được theo dõi đến ngày 28) | 0 vấn đề | Không cần xử lý | Ghi lại để chứng minh các bước kiểm tra đã được làm |
+| 11 | Nguồn nhiễm khuẩn ở dạng văn bản tự do | 5 nhóm | Cố định thứ tự các nhóm (Respiratory, Urinary, Abdominal, Skin/soft tissue, Other) | Cùng một thứ tự trong mọi bảng |
+| 12 | Cần các biến dẫn xuất (không có trong tệp thô) | 3 biến mới | Tính `cum_fluid_balance_d3_ml_kg` = (dịch vào ngày 1-3 - dịch ra ngày 1-3) / cân nặng; `positive_balance_d3` (> 0 ml/kg); `aki_any` (KDIGO giai đoạn >= 1) | Giá trị dẫn xuất do script tính, không bao giờ gõ tay |
 
-## Missing data after cleaning (real missing values, reported in the papers)
+## Dữ liệu thiếu sau khi làm sạch (giá trị thiếu thật, được báo cáo trong bài báo)
 
-| Variable | Missing | Reason |
+| Biến | Số thiếu | Lý do |
 |---|---|---|
-| `lactate_mmol_l` | 93 (15.0%) | Not measured (more often in less severe patients and in ICU D) |
-| `apache_ii` | 6 (1.0%) | Not recorded |
-| `map_mmhg` | 4 (0.6%) | Not recorded |
-| `age` | 1 | Impossible value set to missing (query pending) |
-| `weight_kg` | 1 | Impossible value set to missing (query pending) |
-| `fluid_out_d2_ml` | 1 | Impossible value set to missing (query pending) |
-| `cum_fluid_balance_d3_ml_kg`, `positive_balance_d3` | 2 | Follows from the missing weight and output above |
+| `lactate_mmol_l` | 93 (15.0%) | Không đo (thường gặp hơn ở người bệnh ít nặng và ở ICU D) |
+| `apache_ii` | 6 (1.0%) | Không ghi nhận |
+| `map_mmhg` | 4 (0.6%) | Không ghi nhận |
+| `age` | 1 | Giá trị không thể có được đặt là thiếu (query đang chờ) |
+| `weight_kg` | 1 | Giá trị không thể có được đặt là thiếu (query đang chờ) |
+| `fluid_out_d2_ml` | 1 | Giá trị không thể có được đặt là thiếu (query đang chờ) |
+| `cum_fluid_balance_d3_ml_kg`, `positive_balance_d3` | 2 | Hệ quả của cân nặng và dịch ra bị thiếu ở trên |
 
-## Queries sent to sites (simulated)
+## Các query gửi cho đơn vị (mô phỏng)
 
-| Query | Patient | Variable | Value in raw file | Status |
+| Query | Người bệnh | Biến | Giá trị trong tệp thô | Tình trạng |
 |---|---|---|---|---|
-| Q-001 | FLU-529 (ICU B) | Age | 210 | Open; set to missing |
-| Q-002 | FLU-277 (ICU C) | Weight | 7 kg | Open; set to missing |
-| Q-003 | FLU-282 (ICU A) | Fluid out, day 2 | -2990 ml | Open; set to missing |
-| Q-004 | ICU C | Lactate unit | mg/dL | Confirmed by site lab; converted |
+| Q-001 | FLU-529 (ICU B) | Tuổi | 210 | Đang mở; đặt là thiếu |
+| Q-002 | FLU-277 (ICU C) | Cân nặng | 7 kg | Đang mở; đặt là thiếu |
+| Q-003 | FLU-282 (ICU A) | Dịch ra, ngày 2 | -2990 ml | Đang mở; đặt là thiếu |
+| Q-004 | ICU C | Đơn vị lactat | mg/dL | Phòng xét nghiệm của đơn vị đã xác nhận; đã quy đổi |
 
-*Teaching note:* in a real study the site would correct the source record and the database, and the cleaning script would be re-run. Here the queries stay open so that the clean file is fixed for the course.
+*Ghi chú giảng dạy:* trong một nghiên cứu thật, đơn vị sẽ sửa hồ sơ gốc và cơ sở dữ liệu, rồi script làm sạch được chạy lại. Ở đây các query được để mở để tệp sạch cố định cho khóa học.

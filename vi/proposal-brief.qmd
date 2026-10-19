@@ -2,160 +2,141 @@
 title: "Hướng dẫn đề cương"
 ---
 
-::: {.lang-note}
-Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
-:::
+Tải về: [Word](files/assignments/Proposal_Brief_VN.docx) · [PDF](files/assignments/Proposal_Brief_VN.pdf) · [Quay lại trang bài tập lớn](assignments.qmd)
 
-Tải về: [Word](files/assignments/Proposal_Brief.docx) · [PDF](files/assignments/Proposal_Brief.pdf) · [Quay lại trang bài tập nhóm](assignments.qmd)
+## Nền tảng Nghiên cứu Lâm sàng · Cấp độ 1: Từ câu hỏi lâm sàng đến công bố
 
-## Foundations of Clinical Research · Level 1: From Clinical Question to Publication
-
-**Organisation:** Neudata (*#ClearDataClearImpact*)
-**Assessment type:** Group assignment, built in class across Sessions 1–7 and presented in Session 8
-**Groups:** 5 groups of about 6 people, mixed professions, fixed for the whole course
-**Output:** one written research proposal with a publication plan (about 6–8 pages) + one 6-minute presentation (6 slides) in Session 8
-**The other group product:** the draft manuscript from the course dataset (see `manuscript_brief.md`)
+**Tổ chức:** Neudata (*#ClearDataClearImpact*)
+**Hình thức đánh giá:** bài tập cá nhân. Mỗi phần được giảng viên làm mẫu trực tiếp ở Buổi 1 đến Buổi 7 và được bạn viết nháp ở nhà. Nộp ở Buổi 8.
+**Ai làm:** mỗi học viên viết đề cương của riêng mình, về một câu hỏi từ chính khoa của mình. Không làm theo nhóm.
+**Sản phẩm:** một đề cương nghiên cứu viết kèm kế hoạch công bố (khoảng 6 đến 8 trang) + 6 slide, mọi người đều nộp. Khoảng 5 học viên tình nguyện trình bày đề cương của mình ở Buổi 8 (6 phút).
+**Chấm theo:** `proposal_rubric_VN.md` (nhận xét mang tính hình thành)
+**Sản phẩm cá nhân còn lại:** bản thảo bài báo viết từ bộ dữ liệu của khóa học (xem `manuscript_brief_VN.md`)
 
 
 * * *
 
-## 1. Purpose
+## 1. Mục đích
 
-Most clinical research starts as a question asked at the bedside. This assignment turns one such question from **your own unit** into a realistic, ethical and feasible research proposal: the kind you could take to your research office, an ethics committee or a small-grant panel.
+Phần lớn nghiên cứu lâm sàng bắt đầu từ một câu hỏi đặt ra tại giường bệnh. Bài tập này biến một câu hỏi như vậy từ **chính khoa của bạn** thành một đề cương nghiên cứu thực tế, đúng đạo đức và khả thi: loại đề cương bạn có thể mang đến phòng nghiên cứu khoa học, hội đồng đạo đức hoặc một hội đồng xét tài trợ nhỏ.
 
-You will not collect data or analyse anything for the proposal. The goal of this product is to **plan a study well** (a clear question, the right design, good data, honest attention to bias and ethics, a realistic timeline) and to **plan from the start how it will be published**: target journal, reporting guideline, authors and a draft abstract. Each session ends with a proposal-builder slot that adds to one part. By Session 7 your group has a complete proposal and publication plan, and in Session 8 you present it to the department.
+Bạn không thu thập dữ liệu hay phân tích gì cho đề cương. Mục tiêu của sản phẩm này là **lập kế hoạch nghiên cứu tốt** (câu hỏi rõ ràng, thiết kế đúng, dữ liệu tốt, quan tâm trung thực đến sai lệch và đạo đức, tiến độ thực tế) và **lập kế hoạch công bố ngay từ đầu**: tạp chí dự kiến, hướng dẫn báo cáo, tác giả và bản nháp tóm tắt. Trong mỗi buổi, giảng viên làm mẫu trực tiếp một phần của đề cương trên ví dụ xuyên suốt. Sau đó bạn viết đúng phần đó cho câu hỏi của mình ở nhà. Đến Buổi 7, bạn có một đề cương hoàn chỉnh kèm kế hoạch công bố, và ở Buổi 8 bạn nộp bài.
 
-This is the first of the course's **two group products**. The second, a draft manuscript written from the simulated course dataset FLUID-ICU, is built in Sessions 5–8 and described in `manuscript_brief.md`. The two products are deliberately different. The proposal is about **your own question** (planning a study that has not been done), and the manuscript is about **someone else's data** (reporting a study that has been done).
+Đây là sản phẩm đầu tiên trong **hai sản phẩm cá nhân** của khóa học. Sản phẩm thứ hai là bản thảo bài báo viết từ kết quả của bộ dữ liệu mô phỏng FLUID-ICU, được xây dựng ở Buổi 5 đến Buổi 8 và mô tả trong `manuscript_brief_VN.md`. Hai sản phẩm được cố ý làm khác nhau. Đề cương là về **câu hỏi của chính bạn** (lập kế hoạch cho một nghiên cứu chưa được thực hiện), còn bản thảo là về **dữ liệu chúng tôi cung cấp** (báo cáo một nghiên cứu đã được thực hiện).
 
-Throughout the course the instructors use one running example to show what each part looks like: *In adults with septic shock in the ICU, does a restrictive fluid strategy, compared with usual care, reduce 28-day mortality?* **Your group chooses its own question.** It may be from any area of practice (for example pressure injuries, hand hygiene, delirium, medication errors, ventilator-associated pneumonia, door-to-needle time). Please do not reuse the running example.
+Trong suốt khóa học, giảng viên dùng một ví dụ xuyên suốt để minh họa từng phần: *Ở người lớn bị sốc nhiễm khuẩn tại ICU, chiến lược truyền dịch hạn chế, so với chăm sóc thường quy, có làm giảm tử vong 28 ngày không?* **Bạn tự chọn câu hỏi của mình.** Câu hỏi có thể thuộc bất kỳ lĩnh vực nào trong công việc của bạn (ví dụ loét tì đè, vệ sinh tay, mê sảng, sai sót thuốc, viêm phổi liên quan đến thở máy, thời gian từ khi vào viện đến khi dùng thuốc tiêu sợi huyết). Vui lòng không dùng lại ví dụ xuyên suốt.
 
-**A good topic is:** a problem you see often, that matters to patients, that your unit could realistically study in 12–24 months with its own patients and records.
+**Một chủ đề tốt là:** một vấn đề bạn thường gặp, quan trọng với người bệnh, và khoa của bạn có thể nghiên cứu một cách thực tế trong 12 đến 24 tháng với người bệnh và hồ sơ của chính khoa.
 
 
 * * *
 
-## 2. What to produce, Part by Part
+## 2. Cần làm gì, theo từng Phần
 
-Use the Word template **`Course/Templates/Research_Proposal_Template.docx`**. Its headings match the four Parts below. The template is about 6–8 pages when filled. Write in short, plain sentences. Tables and bullet points are welcome. Delete the grey guidance text before submitting.
+Dùng mẫu Word **`Course/Templates/Research_Proposal_Template_VN.docx`** (trong thư mục khóa học; bản tiếng Anh: `Research_Proposal_Template.docx`). Các đề mục của mẫu khớp với bốn Phần dưới đây. Khi điền xong, mẫu dài khoảng 6 đến 8 trang. Viết câu ngắn, đơn giản. Có thể dùng bảng và gạch đầu dòng. Xóa phần chữ hướng dẫn màu xám trước khi nộp.
 
-### Part 1: Built in Sessions 1–2 (Ask; Find and read)
+### Phần 1: Buổi 1 và 2 (Đặt câu hỏi; Tìm và đọc y văn)
 
-| Section | What we expect |
+| Mục | Yêu cầu |
 |---|---|
-| Working title | Built from your PICO: names the population, intervention/exposure, outcome and (ideally) the design, e.g. "Restrictive fluids and 28-day mortality in septic shock: a randomised trial". You will refine it in Part 4. |
-| Problem statement & rationale | What is the problem, how big is it, why does it matter here, what is not yet known (½ page). |
-| PICO | Population, Intervention/exposure, Comparison, Outcome (and Time), one line each. |
-| Research question | One sentence built from the PICO. |
-| FINER check | One line each for Feasible, Interesting, Novel, Ethical and Relevant, plus what you changed because of it. |
-| Aim, objectives, hypothesis | One broad aim; 2–3 specific, measurable objectives; one testable hypothesis (if the study compares groups). |
-| 5 key references | From your PubMed search in Session 2 (literature review worksheet / literature matrix), stored in Zotero or another reference manager; Vancouver style; at least 3 from the last 10 years. |
+| Tên đề tài dự kiến | Xây dựng từ PICO: nêu đối tượng, can thiệp/phơi nhiễm, kết cục và (nên có) thiết kế, ví dụ "Truyền dịch hạn chế và tử vong 28 ngày ở người bệnh sốc nhiễm khuẩn: một thử nghiệm ngẫu nhiên". Bạn sẽ hoàn thiện tên đề tài ở Phần 4. |
+| Đặt vấn đề và lý do nghiên cứu | Vấn đề là gì, lớn đến mức nào, vì sao quan trọng ở đây, điều gì chưa được biết (nửa trang). |
+| PICO | Đối tượng, Can thiệp/phơi nhiễm, So sánh, Kết cục (và Thời gian), mỗi thành phần một dòng. |
+| Câu hỏi nghiên cứu | Một câu, xây dựng từ PICO. |
+| Kiểm tra FINER | Mỗi tiêu chí Khả thi, Thú vị, Mới, Đạo đức và Phù hợp một dòng, cùng với điều bạn đã thay đổi nhờ bước kiểm tra này. |
+| Mục tiêu tổng quát, mục tiêu cụ thể, giả thuyết | Một mục tiêu tổng quát; 2 hoặc 3 mục tiêu cụ thể, đo lường được; một giả thuyết có thể kiểm định (nếu nghiên cứu so sánh các nhóm người bệnh). |
+| 5 tài liệu tham khảo chính | Từ lần tìm kiếm PubMed sau Buổi 2 (phiếu tổng quan tài liệu / ma trận tài liệu), lưu trong Zotero hoặc phần mềm quản lý tài liệu tham khảo khác; kiểu Vancouver; ít nhất 3 tài liệu trong 10 năm gần đây. |
 
-### Part 2: Built in Sessions 3–4 (Design; Bias and effect)
+### Phần 2: Buổi 3 và 4 (Thiết kế; Sai lệch và đo lường tác động)
 
-| Section | What we expect |
+| Mục | Yêu cầu |
 |---|---|
-| Study design & justification | Name the design and say why it fits your question (and why a stronger design is or is not possible). |
-| Setting | Type of unit/hospital, period of the study (no real hospital name needed). |
-| Population | Inclusion and exclusion criteria, written so two people would select the same patients. |
-| Exposure/intervention & comparator | What exactly is given or measured, and what it is compared with. |
-| Outcomes | One primary outcome (with how and when it is measured) + 1–3 secondary outcomes. |
-| Main biases & how they are reduced | At least 2 specific threats (selection, information, confounding) and the step that reduces each (randomisation, blinding, standard definitions, matching, adjustment…). |
+| Thiết kế nghiên cứu và lý giải | Nêu tên thiết kế và giải thích vì sao phù hợp với câu hỏi của bạn (và vì sao có thể hoặc không thể dùng một thiết kế mạnh hơn). |
+| Bối cảnh | Loại đơn vị/bệnh viện, thời gian nghiên cứu (không cần nêu tên bệnh viện thật). |
+| Đối tượng nghiên cứu | Tiêu chuẩn chọn và tiêu chuẩn loại trừ, viết sao cho hai người khác nhau sẽ chọn ra cùng những người bệnh. |
+| Phơi nhiễm/can thiệp và nhóm so sánh | Chính xác cái gì được áp dụng hoặc đo lường, và được so sánh với cái gì. |
+| Kết cục | Một kết cục chính (kèm cách đo và thời điểm đo) + 1 đến 3 kết cục phụ. |
+| Các sai lệch chính và cách hạn chế | Ít nhất 2 nguy cơ cụ thể (chọn lựa, thông tin, nhiễu) và bước làm giảm từng nguy cơ (phân bổ ngẫu nhiên, làm mù, định nghĩa chuẩn, ghép cặp, hiệu chỉnh). |
 
-### Part 3: Built in Sessions 5–6 (Data; Analyse)
+### Phần 3: Buổi 5 và 6 (Dữ liệu; Phân tích)
 
-| Section | What we expect |
+| Mục | Yêu cầu |
 |---|---|
-| Variables table | Outcome, exposure and 3–6 confounders/other variables, each with its type (binary, categorical, ordinal, continuous) and unit. |
-| Mini-CRF & data dictionary | A data collection form of 6–10 items, and matching data-dictionary rows (name, definition, type, unit/codes, allowed range). |
-| Data management & quality plan | How data will be captured (paper CRF or electronic data capture, e.g. REDCap or KoBoToolbox), coded, checked (range and consistency checks, double entry or spot checks), stored securely with backups, and who can change them (audit trail). |
-| Sample size statement | One or two sentences: expected outcome rates (from the literature), the difference you want to detect, power, significance level and the resulting number. For a descriptive study, give the precision you want instead. Show the tool you used. |
-| Analysis plan in plain language | How each variable will be summarised (mean/SD, median/IQR, n/%), which test or model for the primary comparison, which confounders you will adjust for, and how you will avoid multiple-comparison problems (one pre-specified primary outcome). |
-| Missing-data plan | How you will prevent missing data, how you will report it (how much, for which variables), and what you will do about it (e.g. complete-case analysis, plus multiple imputation as a sensitivity analysis if a statistician is available). |
+| Bảng biến số | Kết cục, phơi nhiễm và 3 đến 6 yếu tố gây nhiễu/biến khác, mỗi biến có loại (nhị phân, phân loại, thứ hạng, liên tục) và đơn vị. |
+| Mini-CRF và từ điển dữ liệu | Một phiếu thu thập dữ liệu gồm 6 đến 10 mục, và các dòng tương ứng trong từ điển dữ liệu (tên, định nghĩa, loại biến, đơn vị/mã hóa, khoảng giá trị cho phép). |
+| Kế hoạch quản lý và bảo đảm chất lượng dữ liệu | Dữ liệu sẽ được thu thập thế nào (CRF giấy hoặc thu thập dữ liệu điện tử, ví dụ REDCap hoặc KoBoToolbox), mã hóa, kiểm tra (kiểm tra khoảng giá trị và tính nhất quán, nhập liệu kép hoặc kiểm tra ngẫu nhiên), lưu trữ an toàn có sao lưu, và ai được phép sửa (nhật ký thay đổi dữ liệu). |
+| Phát biểu về cỡ mẫu | Một hoặc hai câu: tỷ lệ kết cục dự kiến (từ y văn), khác biệt bạn muốn phát hiện, lực thống kê, mức ý nghĩa và con số thu được. Với nghiên cứu mô tả, nêu độ chính xác mong muốn. Ghi rõ công cụ bạn đã dùng. |
+| Kế hoạch phân tích bằng ngôn ngữ đơn giản | Mỗi biến sẽ được tóm tắt thế nào (trung bình/SD, trung vị/IQR, n/%), kiểm định hoặc mô hình nào cho so sánh chính, sẽ hiệu chỉnh theo những yếu tố gây nhiễu nào, và tránh vấn đề so sánh bội thế nào (một kết cục chính xác định trước). |
+| Kế hoạch xử lý dữ liệu thiếu | Bạn sẽ phòng ngừa dữ liệu thiếu thế nào, báo cáo thế nào (thiếu bao nhiêu, ở biến nào), và xử lý ra sao (ví dụ phân tích các trường hợp đầy đủ, cộng với quy gán đa bội làm phân tích độ nhạy nếu có nhà thống kê hỗ trợ). |
 
-### Part 4: Built in Session 7 (Protect and write)
+### Phần 4: Buổi 7 (Bảo vệ người tham gia và viết bài)
 
-| Section | What we expect |
+| Mục | Yêu cầu |
 |---|---|
-| Ethics & consent | Is it research, audit or QI? Ethics committee approval route, who consents and how (including patients who lack capacity, if relevant), risks and benefits. |
-| Registration | Where and when the study will be registered (e.g. ClinicalTrials.gov or a WHO ICTRP primary registry for trials, before the first participant; PROSPERO for systematic reviews), or why registration is not required. |
-| Confidentiality | De-identification (study codes), who holds the key, where data are stored, who can access them, how long they are kept. |
-| Feasibility | Timeline (simple Gantt chart), budget headings (no figures needed), people and resources, expected recruitment per month and how you know it is achievable. |
-| Publication plan: target journal & reporting guideline | One target journal (checked with Think. Check. Submit.; scope, open-access fee) and a back-up journal; the reporting guideline for your design (CONSORT, STROBE, STARD, PRISMA, SQUIRE…), found via EQUATOR. |
-| Publication plan: authorship & CRediT roles | Who will be an author (ICMJE criteria), in what order, and each person's CRediT role (e.g. conceptualisation, methodology, data curation, formal analysis, writing – original draft); who will be acknowledged instead. |
-| Publication plan: working title | The final working title (from Part 1, refined). |
-| Publication plan: structured-abstract skeleton | About 200 words: Background (1–2 sentences), Methods (design, setting, participants, primary outcome, analysis), *expected* Results (what you will report, with placeholders, e.g. "28-day mortality was X% vs Y% (RR …, 95% CI …)", with no invented numbers), Conclusion (what each possible result would mean). |
-| Dissemination | How results will be fed back to the unit (meeting, poster, conference abstract) and to patients if relevant. |
+| Đạo đức và sự đồng ý | Đây là nghiên cứu, audit hay QI? Quy trình xin phê duyệt của hội đồng đạo đức, ai đồng ý và đồng ý thế nào (kể cả người bệnh mất năng lực quyết định, nếu có), nguy cơ và lợi ích. |
+| Đăng ký nghiên cứu | Nghiên cứu sẽ được đăng ký ở đâu và khi nào (ví dụ ClinicalTrials.gov hoặc một cơ sở đăng ký chính của WHO ICTRP cho thử nghiệm, trước người tham gia đầu tiên; PROSPERO cho tổng quan hệ thống), hoặc vì sao không cần đăng ký. |
+| Bảo mật thông tin | Loại bỏ thông tin định danh (mã số nghiên cứu), ai giữ bảng mã, dữ liệu lưu ở đâu, ai được truy cập, lưu trong bao lâu. |
+| Tính khả thi | Tiến độ (biểu đồ Gantt đơn giản), các khoản mục kinh phí (không cần số tiền), nhân lực và nguồn lực, số người tham gia dự kiến tuyển mỗi tháng và căn cứ để biết con số đó khả thi. |
+| Kế hoạch công bố: tạp chí dự kiến và hướng dẫn báo cáo | Một tạp chí dự kiến (đã kiểm tra bằng Think. Check. Submit.; phạm vi, phí truy cập mở) và một tạp chí dự phòng; hướng dẫn báo cáo phù hợp với thiết kế của bạn (CONSORT, STROBE, STARD, PRISMA, SQUIRE), tìm qua EQUATOR. |
+| Kế hoạch công bố: quyền tác giả và vai trò CRediT | Ai sẽ là tác giả nếu nghiên cứu được thực hiện ở khoa của bạn (tiêu chí ICMJE), theo thứ tự nào, và vai trò CRediT của từng người (ví dụ lên ý tưởng, phương pháp, quản lý dữ liệu, phân tích, viết bản thảo đầu tiên); ai sẽ được cảm ơn thay vì đứng tên tác giả. Chỉ cần ghi vai trò hoặc chức danh; không cần tên thật. |
+| Kế hoạch công bố: tên đề tài dự kiến | Tên đề tài cuối cùng (từ Phần 1, đã hoàn thiện). |
+| Kế hoạch công bố: khung tóm tắt có cấu trúc | Khoảng 200 từ: Đặt vấn đề (1 hoặc 2 câu), Phương pháp (thiết kế, bối cảnh, người tham gia, kết cục chính, phân tích), Kết quả *dự kiến* (bạn sẽ báo cáo gì, dùng chỗ trống, ví dụ "Tử vong 28 ngày là X% so với Y% (RR ..., KTC 95% ...)", không bịa số liệu), Kết luận (mỗi kết quả có thể xảy ra sẽ có ý nghĩa gì). |
+| Phổ biến kết quả | Kết quả sẽ được phản hồi cho khoa thế nào (họp khoa, poster, tóm tắt hội nghị) và cho người bệnh nếu phù hợp. |
 
-**Length:** about 6–8 pages, including the mini-CRF, Gantt chart and abstract skeleton (appendices are fine). Short and clear beats long.
+**Độ dài:** khoảng 6 đến 8 trang, kể cả mini-CRF, biểu đồ Gantt và khung tóm tắt (có thể đưa vào phụ lục). Ngắn và rõ tốt hơn dài.
 
-**Which session builds what (proposal-builder slots):**
+**Buổi nào xây dựng phần nào (các phần xây dựng đề cương):** trong mỗi phần, giảng viên làm mẫu trực tiếp trên ví dụ xuyên suốt và trả lời câu hỏi trong khung chat. Sau đó bạn viết nháp phần tương ứng cho câu hỏi của mình ở nhà, trước buổi học tiếp theo.
 
-| Session | Proposal builder | Part |
+| Buổi | Xây dựng đề cương | Phần |
 |---|---|---|
-| S1 | Topic, PICO, research question, FINER check, aim and objectives | 1 |
-| S2 | Search string, 5 references in the literature matrix, problem statement, working title | 1 |
-| S3 | Design and justification, setting, population (inclusion/exclusion) | 2 |
-| S4 | Exposure and comparator, outcomes, main biases and mitigation | 2 |
-| S5 | Variables table, mini-CRF, data-dictionary rows, data-management plan | 3 |
-| S6 | Sample size, analysis plan, missing-data plan | 3 |
-| S7 | Ethics and consent, registration, confidentiality, feasibility, publication plan | 4 |
-| S8 | Presentation (no new writing in class) | None |
+| B1 | Chủ đề, PICO, câu hỏi nghiên cứu, kiểm tra FINER, mục tiêu tổng quát và mục tiêu cụ thể | 1 |
+| B2 | Chuỗi tìm kiếm, 5 tài liệu trong ma trận tài liệu, đặt vấn đề, tên đề tài dự kiến | 1 |
+| B3 | Thiết kế và lý giải, bối cảnh, đối tượng (tiêu chuẩn chọn/loại trừ) | 2 |
+| B4 | Phơi nhiễm và nhóm so sánh, kết cục, các sai lệch chính và cách hạn chế | 2 |
+| B5 | Bảng biến số, mini-CRF, các dòng từ điển dữ liệu, kế hoạch quản lý dữ liệu | 3 |
+| B6 | Cỡ mẫu, kế hoạch phân tích, kế hoạch xử lý dữ liệu thiếu | 3 |
+| B7 | Đạo đức và sự đồng ý, đăng ký, bảo mật, tính khả thi, kế hoạch công bố | 4 |
+| B8 | Nộp bài; khoảng 5 học viên tình nguyện trình bày (không viết thêm trên lớp) | Không |
+
+**Khi cần hỗ trợ:** hỏi trong khung chat trong phần xây dựng đề cương, hoặc gửi email câu hỏi ngắn cho giảng viên giữa các buổi học. Giảng viên có thể chiếu (khi được bạn cho phép) một ví dụ tốt đã ẩn danh từ bài về nhà của một học viên ở đầu buổi học sau.
 
 
 * * *
 
-## 3. Group roles
+## 3. Thời hạn
 
-Agree roles in Session 1. Everyone writes, and the roles make sure the work gets done. In a group of five, combine Timekeeper with Scribe. The same group also writes the manuscript (`manuscript_brief.md`), which has its own roles. One person can hold one proposal role and one manuscript role.
+Tất cả các buổi học đều trực tuyến, thứ Bảy 19:30 đến 22:30 (giờ Việt Nam).
 
-| Role | Responsibilities |
+| Khi nào | Cần hoàn thành |
 |---|---|
-| **Facilitator** | Keeps discussion on the task, makes sure every voice is heard (including the quieter professions), summarises decisions. |
-| **Scribe** | Types into the shared proposal document during group work; keeps the single "master" version; tidies formatting. |
-| **Timekeeper** | Watches the clock in proposal-builder sessions; calls "5 minutes left"; times presentation rehearsals at 6 minutes. |
-| **Presenter** | Leads the 6-minute presentation in Session 8 (others may present one slide each); prepares the 6 slides with the team. |
-| **Literature lead** | Runs the PubMed search, keeps the 5 key references in a reference manager (e.g. Zotero) and the literature review worksheet; leads the publication plan (target journal, reporting guideline). |
-| **Methods lead** | Owns design, outcomes, variables, sample size and analysis plan; checks Parts 2 and 3 are consistent with each other. |
-
-Roles may rotate between sessions if the group prefers, but the presenter should be fixed by the end of Session 6.
-
-
-* * *
-
-## 4. Deadlines
-
-| When | What is due |
-|---|---|
-| **End of Session 1** (Week 1, Saturday) | Topic agreed; PICO, research question, FINER check, aim and objectives drafted. |
-| **End of Session 2** (Week 2, Saturday) | Part 1 complete: problem statement, working title and 5 key references. |
-| **End of Session 4** (Week 4, Saturday) | Part 2 complete. Finish any gaps before Session 5 (Week 5). |
-| **End of Session 6** (Week 6, Saturday) | Part 3 complete. Homework before Session 7 (Week 7): start the 6 slides (`presentation_guide.md`) and think about the target journal and authors. |
-| **End of Session 7** (Week 7, Saturday) | Part 4 complete (ethics, registration, feasibility, publication plan). Homework during the week: finish the 6 slides. |
-| **Before Session 8 starts** | Slides sent to the course lead (one file per group, `GroupN_slides.pptx` or PDF) so all presentations run from one laptop. |
-| **Session 8** (Week 8, Saturday) | **Presentation** of the proposal and publication plan (6 min + 2 min feedback). |
-| **2 weeks after Session 8** | Final written proposal (Parts 1–4, revised after the feedback) submitted for written feedback. This is the same deadline as the manuscript response letter. |
+| **Trước Buổi 2** (Tuần 2) | Đã chọn chủ đề; đã viết nháp PICO, câu hỏi nghiên cứu, kiểm tra FINER, mục tiêu tổng quát và mục tiêu cụ thể. |
+| **Trước Buổi 3** (Tuần 3) | Hoàn thành Phần 1: đặt vấn đề, tên đề tài dự kiến và 5 tài liệu tham khảo chính. |
+| **Trước Buổi 5** (Tuần 5) | Hoàn thành Phần 2. |
+| **Trước Buổi 7** (Tuần 7) | Hoàn thành Phần 3. Bắt đầu làm 6 slide (`presentation_guide_VN.md`) và suy nghĩ về tạp chí dự kiến và tác giả. |
+| **Trước Buổi 8** (Tuần 8) | Hoàn thành Phần 4 (đạo đức, đăng ký, tính khả thi, kế hoạch công bố); hoàn thành 6 slide. Nếu muốn trình bày ở Buổi 8, báo cho trưởng khóa học trước thứ Tư của tuần có Buổi 8 (khoảng 5 suất, ai đăng ký trước được trước; giảng viên có thể mời thêm nếu ít người tình nguyện). |
+| **Buổi 8** (Tuần 8, thứ Bảy) | **Mọi người nộp** đề cương viết và 6 slide (gửi trước 19:30). Khoảng 5 học viên tình nguyện **trình bày** (6 phút + 2 phút nhận xét). |
+| **2 tuần sau Buổi 8** | Không bắt buộc: nộp đề cương đã sửa (Phần 1 đến 4, chỉnh sửa theo nhận xét) để nhận thêm một vòng nhận xét viết. Thời hạn này trùng với thời hạn nộp thư phản hồi phản biện của bản thảo. |
 
 
 * * *
 
-## 5. Submission
+## 4. Nộp bài
 
-- **Format:** one Word file per group, using the template, named `GroupN_Proposal.docx` (e.g. `Group3_Proposal.docx`). PDF is also accepted.
-- **Where:** by email to the course lead, or to the shared course folder announced in Session 1.
-- **Include on the cover page:** group number, working title, names and professions of all members, and each member's group role. (Authorship and CRediT roles go in the publication plan, Part 4.)
-- **Use of AI tools:** you may use AI tools to improve language or to brainstorm, but say so in a short statement at the end ("AI use: …"), check every fact and reference yourself, and never let AI invent references. The group is responsible for every word (Session 7, segment 7.2).
-- **Confidentiality:** do not include any real patient data, names or record numbers. Numbers you quote (e.g. "about 40 admissions with septic shock per year") should be approximate unit figures, not extracted records.
-- **Originality:** write in your own words and cite every source. Copying text from papers or the internet without quotation marks and a citation is plagiarism.
+- **Định dạng:** mỗi học viên một tệp Word, dùng mẫu, đặt tên `Surname_Proposal.docx` (ví dụ `Nguyen_Proposal.docx`), cùng các slide đặt tên `Surname_slides.pptx` hoặc PDF.
+- **Nơi nộp:** gửi email cho trưởng khóa học, hoặc tải lên thư mục khóa học trực tuyến được thông báo ở Buổi 1.
+- **Ghi ở trang bìa:** họ tên và nghề nghiệp của bạn, khoa của bạn (chỉ cần loại đơn vị) và tên đề tài dự kiến. (Quyền tác giả và vai trò CRediT cho nghiên cứu tương lai ghi trong kế hoạch công bố, Phần 4.)
+- **Sử dụng công cụ AI:** bạn có thể dùng công cụ AI để cải thiện ngôn ngữ hoặc gợi ý ý tưởng, nhưng phải ghi rõ trong một câu ngắn ở cuối bài ("Sử dụng AI: ..."), tự kiểm tra mọi dữ kiện và tài liệu tham khảo, và không bao giờ để AI bịa ra tài liệu tham khảo. Bạn chịu trách nhiệm về từng chữ (Buổi 7, phần 7.2).
+- **Bảo mật:** không đưa bất kỳ dữ liệu người bệnh thật, tên hoặc số hồ sơ nào vào bài. Các con số bạn nêu (ví dụ "khoảng 40 ca sốc nhiễm khuẩn nhập khoa mỗi năm") nên là số liệu ước tính của đơn vị, không phải trích xuất từ hồ sơ.
+- **Tính nguyên bản:** viết bằng lời của bạn và trích dẫn mọi nguồn. Chép văn bản từ bài báo hoặc internet mà không có dấu ngoặc kép và trích dẫn là đạo văn. Bạn có thể trao đổi ý tưởng với đồng nghiệp, nhưng đề cương viết phải là bài của chính bạn.
 
 
 * * *
 
-## 6. Feedback
+## 5. Nhận xét
 
-- **Presentation (Session 8):** each group receives 2 minutes of verbal feedback from instructors and one peer group, plus a completed feedback form (see `proposal_rubric.md`).
-- **Written proposal:** marked with the rubric in `proposal_rubric.md` and returned with written comments within about 3 weeks of submission.
-- **The marks are formative.** They are there to help you improve the proposal, not to pass or fail anyone.
+- **Đề cương viết (mọi người):** được chấm theo thang chấm trong `proposal_rubric_VN.md` và gửi lại kèm nhận xét viết trong khoảng 3 tuần sau khi nộp.
+- **Trình bày (chỉ người tình nguyện):** 2 phút nhận xét trực tiếp từ giảng viên và cả lớp (trong khung chat), cùng một phiếu nhận xét đã điền. Người trình bày cũng được chấm điểm phần trình bày (xem `proposal_rubric_VN.md`). Không trình bày không làm giảm điểm của bạn: người không trình bày được chấm trên đề cương viết, quy đổi về thang 100.
+- **Điểm mang tính hình thành.** Điểm giúp bạn cải thiện đề cương, không dùng để đánh đỗ hay trượt ai.
 
-Groups are expected to share the work fairly. If a member did not contribute, the facilitator should tell the course lead privately.
 
-**After the course:** strong proposals can be developed into a full protocol and statistical analysis plan (templates in `Course/Templates/`), registered and taken to your research or ethics office. When the data are collected, the manuscript skills from Sessions 7–8 apply directly. This course is **Level 1**. **Level 2** (*Doing the analysis*, `Course_Levels/level2_hands_on.md`) teaches you to run the analysis yourself in R, hands-on, and **Level 3** (`Course_Levels/level3_advanced.md`) offers advanced methods for complex data as workshops or consultancy.
+**Sau khóa học:** các đề cương tốt có thể được phát triển thành đề cương đầy đủ và kế hoạch phân tích thống kê (các mẫu trong `Course/Templates/`), đăng ký và nộp cho phòng nghiên cứu khoa học hoặc hội đồng đạo đức. Khi đã thu thập dữ liệu, các kỹ năng viết bản thảo ở Buổi 7 và 8 áp dụng trực tiếp. Khóa học này là **Cấp độ 1**. **Cấp độ 2** (*Thực hành phân tích*, `Course_Levels/level2_hands_on.md`) dạy bạn tự chạy phân tích bằng R, thực hành trực tiếp, và **Cấp độ 3** (`Course_Levels/level3_advanced.md`) cung cấp các phương pháp nâng cao cho dữ liệu phức tạp dưới dạng hội thảo chuyên đề hoặc tư vấn.

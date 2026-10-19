@@ -8,9 +8,9 @@ title: "Course dataset: FLUID-ICU"
 
 FLUID-ICU is a simulated multicentre prospective cohort of **620 adults with sepsis** admitted to 4 ICUs ("ICU A" to "ICU D") from January 2023 to December 2024. It carries the course's running example into Sessions 5–8: *is a positive cumulative fluid balance by day 3 associated with higher 28-day mortality?* The data were built so that the classic lessons show up in the results: **confounding by indication** (sicker patients receive more fluid and die more often, so the crude odds ratio is clearly larger than the adjusted one), **missing data** (lactate missing in about 15%), a **skewed outcome** (ICU length of stay) and an **interaction** worth discussing (heart failure). A raw version with realistic data-quality errors is used in the Session 5 cleaning demo.
 
-Each of the five groups answers a different question on the same data and writes it up as its draft manuscript, using its **results pack** (Table 1, figures, regression tables and plain-language notes). The dataset is used in Weeks 5–8 of this course (Level 1) and reused hands-on in [Level 2](level2.qmd), where participants run the same analyses themselves.
+There are five questions on the data (Q1 to Q5). In class the instructor works through them with the whole class (Q1 in full, Q2 to Q5 more briefly). Each participant then chooses one question and writes it up as their own draft manuscript from its **results pack** (Table 1, figures, regression tables and plain-language notes): we give you the results, you write the paper. The dataset is used in Weeks 5–8 of this course (Level 1) and reused hands-on in [Level 2](level2.qmd), where participants run the same analyses themselves.
 
-## The five group questions
+## The five questions (Q1 to Q5)
 
 | | Question | Main method | Results pack |
 |:-:|:------------------------------|:------------------------|:------------------|
@@ -28,12 +28,13 @@ Each of the five groups answers a different question on the same data and writes
 | Clean data (620 patients, 32 variables) | [CSV](files/data/fluid_icu_clean.csv) · [R (.rds, keeps factor levels)](files/data/fluid_icu_clean.rds) |
 | Data dictionary | [CSV](files/data/data_dictionary.csv) · [PDF](files/data/Data_Dictionary.pdf) |
 | Statistical analysis plan | [PDF](files/data/SAP_FLUID-ICU.pdf) |
+| Dataset README (what each file and script is) | [PDF](files/data/Data_README.pdf) |
 | R project: scripts 00–06, data, dictionary, README | [zip](files/data/FLUID-ICU_R_project.zip) |
 | Read online | [Data dictionary](data-dictionary.qmd) · [Cleaning log](cleaning-log.qmd) · [Statistical analysis plan](sap.qmd) |
 
 ## How the analyses are run
 
-**Participants never need to run anything:** in Sessions 5 and 6 the trainers run the R scripts live (block by block in RStudio) and you read the printed outputs and your group's results pack. The scripts are provided for participants who completed the free Neudata course *Clinical Data Analysis in R* and want to reproduce the analyses: unzip the R project, open `FLUID-ICU.Rproj` in RStudio (it sets the working folder) and run the scripts **in order**. Script `01_clean.R` ends by checking that its output equals the clean file value for value. Script `00_generate_fluid_icu.R` re-creates the simulated data (course team only; it overwrites the data files with the same values, because the seeds are fixed).
+**Participants never need to run anything:** in Sessions 5 and 6 the trainers run the R scripts live (block by block in RStudio, on the shared screen) and you read the outputs and the results pack for your question. The scripts are provided for participants who completed the free Neudata course *Clinical Data Analysis in R* and want to reproduce the analyses: unzip the R project, open `FLUID-ICU.Rproj` in RStudio (it sets the working folder) and run the scripts **in order**. Script `01_clean.R` ends by checking that its output equals the clean file value for value. Script `00_generate_fluid_icu.R` re-creates the simulated data (course team only; it overwrites the data files with the same values, because the seeds are fixed).
 
 ```bash
 cd Course/Data      # or the folder where you unzipped FLUID-ICU_R_project.zip

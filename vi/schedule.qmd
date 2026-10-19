@@ -2,9 +2,9 @@
 title: "Lịch học"
 ---
 
-Tám tuần, mỗi **thứ Bảy** một buổi, từ **31/10 đến 19/12/2026**: tám buổi học, mỗi buổi **3 giờ** (giải lao 15 phút), Buổi *n* vào Tuần *n*. Tuần 1–4 xây dựng hiểu biết và kỹ năng thiết kế; tuần 5–8 phân tích bộ dữ liệu mô phỏng **FLUID-ICU** qua trình diễn của giảng viên và viết thành bản thảo bài báo. Toàn bộ khóa học là **Cấp độ 1** ([các cấp độ](levels.qmd)).
+Tám tuần, học **trực tuyến**, mỗi **thứ Bảy từ 19:30 đến 22:30** (giờ Việt Nam), từ **31/10 đến 19/12/2026**: tám buổi học, mỗi buổi **3 giờ** (giải lao 15 phút), Buổi *n* vào Tuần *n*. Không chia nhóm: cả lớp cùng làm mọi bài tập, và mỗi học viên tự xây dựng đề cương và bản thảo của mình qua bài về nhà. Tuần 1–4 xây dựng hiểu biết và kỹ năng thiết kế; tuần 5–8 đọc kết quả phân tích bộ dữ liệu mô phỏng **FLUID-ICU** qua trình diễn của giảng viên, và mỗi học viên viết thành bản thảo bài báo. Toàn bộ khóa học là **Cấp độ 1** ([các cấp độ](levels.qmd)).
 
-| Tuần | Buổi | Ngày | Chủ đề | Nhóm xây dựng |
+| Tuần | Buổi | Ngày | Chủ đề | Bạn xây dựng (bài về nhà) |
 |:---:|:--------|:--------|:----------|:------------------------------------|
 | 1 | [Buổi 1](session1.qmd) | Thứ Bảy 31/10/2026 | **Hỏi** | Đề cương: chủ đề, PICO, câu hỏi, mục tiêu |
 | 2 | [Buổi 2](session2.qmd) | Thứ Bảy 07/11/2026 | **Tìm & đọc** | Đề cương: tìm kiếm, 5 tài liệu, đặt vấn đề, tên đề tài |
@@ -13,7 +13,7 @@ Tám tuần, mỗi **thứ Bảy** một buổi, từ **31/10 đến 19/12/2026*
 | 5 | [Buổi 5](session5.qmd) | Thứ Bảy 28/11/2026 | **Dữ liệu** | Đề cương: biến số, CRF, kế hoạch dữ liệu · Bản thảo: hiểu Bảng 1 |
 | 6 | [Buổi 6](session6.qmd) | Thứ Bảy 05/12/2026 | **Phân tích** | Đề cương: cỡ mẫu, kế hoạch phân tích · Bản thảo: diễn giải kết quả |
 | 7 | [Buổi 7](session7.qmd) | Thứ Bảy 12/12/2026 | **Bảo vệ & viết** | Đề cương: đạo đức, khả thi, kế hoạch công bố · Bản thảo: Phương pháp + Kết quả |
-| 8 | [Buổi 8](session8.qmd) | Thứ Bảy 19/12/2026 | **Công bố** | Bản thảo: bản nháp hoàn chỉnh · Trình bày đề cương |
+| 8 | [Buổi 8](session8.qmd) | Thứ Bảy 19/12/2026 | **Công bố** | Bản thảo: bản nháp hoàn chỉnh · Nộp đề cương (khoảng 5 học viên tình nguyện trình bày) |
 
 ## Thời gian biểu chi tiết
 
@@ -22,16 +22,16 @@ Tám tuần, mỗi **thứ Bảy** một buổi, từ **31/10 đến 19/12/2026*
 
 | Bắt đầu | Giờ* | Phút | Hoạt động |
 |:----|:----|---:|:------------------------------------------------------------|
-| 0:00 | 08:00 | 20 | Chào mừng, giới thiệu, lộ trình khóa học, nhóm và vai trò, nội quy lớp học |
-| 0:20 | 08:20 | 15 | Bài kiểm tra đầu khóa |
-| 0:35 | 08:35 | 35 | **1.1 Vì sao cần nghiên cứu?** Giai thoại và bằng chứng, tháp bằng chứng, chu trình nghiên cứu, các loại nghiên cứu, nghiên cứu, audit và cải tiến chất lượng, hành trình từ ý tưởng đến công bố |
-| 1:10 | 09:10 | 15 | GIẢI LAO |
-| 1:25 | 09:25 | 40 | **1.2 Từ vấn đề đến câu hỏi:** câu hỏi đến từ đâu, PICO(T) qua nhiều ví dụ, câu hỏi mô tả và phân tích, câu hỏi mơ hồ và câu hỏi trả lời được, FINER (bài tập theo cặp) |
-| 2:05 | 10:05 | 20 | **1.3 Mục đích, mục tiêu, giả thuyết** (giả thuyết không và giả thuyết đối) + bài tập nhanh |
-| 2:25 | 10:25 | 30 | **Xây dựng đề cương 1:** chọn chủ đề, PICO, câu hỏi nghiên cứu, kiểm tra FINER, mục đích và mục tiêu |
-| 2:55 | 10:55 | 5 | Tổng kết, bài về nhà |
+| 0:00 | 19:30 | 20 | Chào mừng, lộ trình khóa học, hai sản phẩm cá nhân, cách mỗi buổi học diễn ra, tự giới thiệu trong khung chat, cách học trực tuyến (chat, khảo sát nhanh, giơ tay), nội quy lớp học |
+| 0:20 | 19:50 | 15 | Bài kiểm tra đầu khóa (biểu mẫu trực tuyến) |
+| 0:35 | 20:05 | 35 | **1.1 Vì sao cần nghiên cứu?** Giai thoại và bằng chứng, vì sao số nhỏ dễ gây hiểu lầm, hai bài báo của khóa học (Bài báo 1 Boulet 2024, Bài báo 2 Hyun 2023), tháp bằng chứng, chu trình nghiên cứu, các loại nghiên cứu, hành trình từ ý tưởng đến công bố (nghiên cứu, audit và cải tiến chất lượng nằm trong slide bổ sung) |
+| 1:10 | 20:40 | 15 | GIẢI LAO |
+| 1:25 | 20:55 | 40 | **1.2 Từ vấn đề đến câu hỏi:** câu hỏi đến từ đâu, PICO(T) qua nhiều ví dụ, câu hỏi mô tả và phân tích, câu hỏi mơ hồ và câu hỏi trả lời được, FINER, bài tập cả lớp: cứu ví dụ xuyên suốt |
+| 2:05 | 21:35 | 20 | **1.3 Mục tiêu tổng quát, mục tiêu cụ thể, giả thuyết** (giả thuyết không và giả thuyết đối) + bài tập cá nhân nhanh |
+| 2:25 | 21:55 | 30 | **Xây dựng đề cương 1:** giảng viên làm mẫu Phần 1 trực tiếp trên ví dụ xuyên suốt (chủ đề, PICO, câu hỏi nghiên cứu, kiểm tra FINER, mục tiêu); mỗi học viên tự viết Phần 1 của mình (hoàn thành ở nhà); hai học viên tình nguyện chia sẻ |
+| 2:55 | 22:25 | 5 | Tổng kết, bài về nhà |
 
-\*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
+\*Thời gian tính từ đầu buổi học; cột giờ là giờ Việt Nam của buổi học trực tuyến 19:30–22:30. Mọi bài tập đều do cả lớp cùng làm (không chia nhóm). **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
 
 [Mở Buổi 1](session1.qmd)
 :::
@@ -41,16 +41,16 @@ Tám tuần, mỗi **thứ Bảy** một buổi, từ **31/10 đến 19/12/2026*
 
 | Bắt đầu | Giờ* | Phút | Hoạt động |
 |:----|:----|---:|:------------------------------------------------------------|
-| 0:00 | 08:00 | 10 | Câu hỏi ôn tập |
-| 0:10 | 08:10 | 40 | **2.1 Tìm bằng chứng:** phễu tìm kiếm, từ PICO đến các khối tìm kiếm, Boolean, MeSH, công cụ tìm kiếm, PubMed và Google Scholar, **trình diễn PubMed trực tiếp** |
-| 0:50 | 08:50 | 20 | **2.2 Quản lý và trích dẫn:** phần mềm quản lý tài liệu (**trình diễn Zotero**), kiểu trích dẫn, diễn đạt lại an toàn, y văn xám và cơ sở dữ liệu đăng ký thử nghiệm |
-| 1:10 | 09:10 | 15 | GIẢI LAO |
-| 1:25 | 09:25 | 40 | **2.3 Đọc một bài báo trong 15 phút:** IMRaD, thứ tự đọc, một bản tóm tắt cần có gì, "spin"; bài tập cá nhân với phần tóm tắt của Bài báo 1 |
-| 2:05 | 10:05 | 15 | **2.4 Từ y văn đến phần đặt vấn đề:** ma trận y văn, phễu đặt vấn đề, tên đề tài tạm thời và từ khóa |
-| 2:20 | 10:20 | 35 | **Xây dựng đề cương 2:** chuỗi tìm kiếm, 5 tài liệu trong ma trận, đặt vấn đề, tên đề tài tạm thời |
-| 2:55 | 10:55 | 5 | Tổng kết |
+| 0:00 | 19:30 | 10 | Câu hỏi ôn tập |
+| 0:10 | 19:40 | 40 | **2.1 Tìm bằng chứng:** phễu tìm kiếm, từ PICO đến các khối tìm kiếm, Boolean, MeSH, công cụ tìm kiếm, PubMed và Google Scholar, **trình diễn PubMed trực tiếp**, mỗi học viên xây dựng chuỗi tìm kiếm Boolean cho câu hỏi của mình |
+| 0:50 | 20:20 | 20 | **2.2 Quản lý và trích dẫn:** phần mềm quản lý tài liệu tham khảo (**trình diễn Zotero**), kiểu trích dẫn, diễn giải bằng lời của mình một cách an toàn, tài liệu xám và cơ sở dữ liệu đăng ký thử nghiệm |
+| 1:10 | 20:40 | 15 | GIẢI LAO |
+| 1:25 | 20:55 | 40 | **2.3 Đọc một bài báo trong 15 phút:** IMRaD, thứ tự đọc, một bản tóm tắt cần có gì, "spin"; bài tập cá nhân với phần tóm tắt của Bài báo 1 (Boulet 2024, RCT; trong thư mục khóa học) |
+| 2:05 | 21:35 | 15 | **2.4 Từ y văn đến phần đặt vấn đề:** ma trận y văn, phễu đặt vấn đề, tên đề tài tạm thời và từ khóa |
+| 2:20 | 21:50 | 35 | **Xây dựng đề cương 2:** làm mẫu trực tiếp (chuỗi tìm kiếm, 5 tài liệu trong ma trận, đặt vấn đề, tên đề tài tạm thời); mỗi học viên tự tìm kiếm và viết phần của mình (hoàn thành ở nhà); hai học viên tình nguyện chia sẻ |
+| 2:55 | 22:25 | 5 | Tổng kết |
 
-\*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
+\*Thời gian tính từ đầu buổi học; cột giờ là giờ Việt Nam của buổi học trực tuyến 19:30–22:30. Mọi bài tập đều do cả lớp cùng làm (không chia nhóm). **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
 
 [Mở Buổi 2](session2.qmd)
 :::
@@ -60,16 +60,16 @@ Tám tuần, mỗi **thứ Bảy** một buổi, từ **31/10 đến 19/12/2026*
 
 | Bắt đầu | Giờ* | Phút | Hoạt động |
 |:----|:----|---:|:------------------------------------------------------------|
-| 0:00 | 08:00 | 10 | Câu hỏi ôn tập |
-| 0:10 | 08:10 | 45 | **3.1 Thiết kế nghiên cứu qua hình ảnh:** mô tả và phân tích, báo cáo ca/loạt ca, cắt ngang, bệnh–chứng, thuần tập, RCT, tổng quan hệ thống/phân tích gộp, tháp bằng chứng, cây quyết định, điểm mạnh và điểm yếu, mỗi thiết kế được phép kết luận gì |
-| 0:55 | 08:55 | 15 | Bài tập: Gọi tên thiết kế |
-| 1:10 | 09:10 | 15 | GIẢI LAO |
-| 1:25 | 09:25 | 35 | **3.2 Các thiết kế khác:** biến thể thử nghiệm (song song, bắt chéo, theo cụm, giai thừa; vượt trội và không kém hơn), nghiên cứu thí điểm/khả thi, trước–sau và chuỗi thời gian gián đoạn (QI), thiết kế định tính; chọn thiết kế phù hợp với câu hỏi |
-| 2:00 | 10:00 | 20 | Bài tập: chọn thiết kế cho 5 câu hỏi (kể cả câu hỏi của nhóm) |
-| 2:20 | 10:20 | 35 | **Xây dựng đề cương 3:** thiết kế và lý do chọn, bối cảnh, đối tượng (tiêu chuẩn chọn và loại trừ) |
-| 2:55 | 10:55 | 5 | Tổng kết |
+| 0:00 | 19:30 | 10 | Câu hỏi ôn tập |
+| 0:10 | 19:40 | 45 | **3.1 Thiết kế nghiên cứu qua hình ảnh:** mô tả và phân tích, báo cáo ca/loạt ca, cắt ngang, bệnh–chứng, thuần tập, RCT, tổng quan hệ thống/phân tích gộp, tháp bằng chứng, cây quyết định, điểm mạnh và điểm yếu, mỗi thiết kế được phép kết luận gì |
+| 0:55 | 20:25 | 15 | Bài tập cả lớp: Gọi tên thiết kế (6 bản tóm tắt về câu hỏi truyền dịch; khảo sát nhanh + chat) |
+| 1:10 | 20:40 | 15 | GIẢI LAO |
+| 1:25 | 20:55 | 30 | **3.2 Các thiết kế khác:** biến thể thử nghiệm (song song, bắt chéo, theo cụm, giai thừa; vượt trội và không kém hơn), nghiên cứu thí điểm/khả thi, trước–sau và chuỗi thời gian ngắt quãng (QI), thiết kế định tính; chọn thiết kế phù hợp với câu hỏi |
+| 1:55 | 21:25 | 15 | Bài tập cả lớp: chọn thiết kế cho 5 câu hỏi (khảo sát nhanh); sau đó mỗi học viên ghi thiết kế cho câu hỏi của mình vào khung chat |
+| 2:10 | 21:40 | 45 | **Xây dựng đề cương 3:** tiêu chuẩn chọn và loại trừ, rồi làm mẫu trực tiếp (thiết kế và lý do chọn, bối cảnh, đối tượng, tiêu chuẩn chọn và loại trừ); mỗi học viên tự viết phần của mình (hoàn thành ở nhà); ba học viên tình nguyện chia sẻ trong khung chat |
+| 2:55 | 22:25 | 5 | Tổng kết |
 
-\*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
+\*Thời gian tính từ đầu buổi học; cột giờ là giờ Việt Nam của buổi học trực tuyến 19:30–22:30. Mọi bài tập đều do cả lớp cùng làm (không chia nhóm). **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
 
 [Mở Buổi 3](session3.qmd)
 :::
@@ -79,16 +79,16 @@ Tám tuần, mỗi **thứ Bảy** một buổi, từ **31/10 đến 19/12/2026*
 
 | Bắt đầu | Giờ* | Phút | Hoạt động |
 |:----|:----|---:|:------------------------------------------------------------|
-| 0:00 | 08:00 | 10 | Câu hỏi ôn tập |
-| 0:10 | 08:10 | 40 | **4.1 Sai lệch, yếu tố nhiễu và nhân quả:** sai số ngẫu nhiên và sai lệch, sai lệch chọn, sai lệch thông tin, nhiễu (do chỉ định), tương tác, tính giá trị, tiêu chí Bradford Hill, nhân quả đảo ngược, các thiết kế hạn chế sai lệch thế nào; câu đố "tìm sai lệch" |
-| 0:50 | 08:50 | 30 | **4.2 Đo lường bệnh và mối liên quan:** hiện mắc và mới mắc, nguy cơ, bảng 2×2, RR / OR / RD / NNT, OR và RR; **trình diễn công cụ tính bảng 2×2** |
-| 1:20 | 09:20 | 15 | GIẢI LAO |
-| 1:35 | 09:35 | 20 | Bài tập: hai bài tính bảng 2×2 |
-| 1:55 | 09:55 | 30 | **4.3 Vượt ra ngoài một nghiên cứu:** độ chính xác chẩn đoán (độ nhạy/độ đặc hiệu, PPV và tỷ lệ hiện mắc, ROC), tổng quan hệ thống và biểu đồ rừng, tính không đồng nhất, công cụ đánh giá nguy cơ sai lệch, "kết luận có được dữ liệu ủng hộ không?" (bài tập theo cặp) |
-| 2:25 | 10:25 | 30 | **Xây dựng đề cương 4:** phơi nhiễm và nhóm so sánh, kết cục, các sai lệch chính và cách hạn chế |
-| 2:55 | 10:55 | 5 | Tổng kết |
+| 0:00 | 19:30 | 10 | Câu hỏi ôn tập |
+| 0:10 | 19:40 | 40 | **4.1 Sai lệch, nhiễu và nhân quả:** sai số ngẫu nhiên và sai lệch, sai lệch chọn lựa, sai lệch thông tin, nhiễu (do chỉ định), thay đổi tác động, các thiết kế hạn chế sai lệch thế nào, tính giá trị, quan hệ nhân quả ngược, tiêu chí Bradford Hill; câu đố "tìm sai lệch" |
+| 0:50 | 20:20 | 25 | **4.2 Đo lường bệnh và mối liên quan:** tỷ lệ hiện mắc và tỷ lệ mới mắc, nguy cơ, bảng 2×2, RR / OR / RD / NNT, OR và RR; **trình diễn công cụ tính bảng 2×2** |
+| 1:15 | 20:45 | 15 | GIẢI LAO |
+| 1:30 | 21:00 | 15 | Bài tập cả lớp: hai bài tính bảng 2×2, trả lời bằng khảo sát nhanh |
+| 1:45 | 21:15 | 30 | **4.3 Vượt ra ngoài một nghiên cứu:** độ chính xác chẩn đoán (độ nhạy/độ đặc hiệu, PPV và tỷ lệ hiện mắc, ROC), tổng quan hệ thống và biểu đồ rừng, tính không đồng nhất, công cụ đánh giá nguy cơ sai lệch, "kết luận có được dữ liệu ủng hộ không?" (cả lớp cùng làm) |
+| 2:15 | 21:45 | 40 | **Xây dựng đề cương 4:** kết cục, rồi làm mẫu trực tiếp (phơi nhiễm và nhóm so sánh, kết cục, các sai lệch chính và cách hạn chế); mỗi học viên tự viết phần của mình (hoàn thành ở nhà); ba học viên tình nguyện chia sẻ trong khung chat |
+| 2:55 | 22:25 | 5 | Tổng kết |
 
-\*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
+\*Thời gian tính từ đầu buổi học; cột giờ là giờ Việt Nam của buổi học trực tuyến 19:30–22:30. Mọi bài tập đều do cả lớp cùng làm (không chia nhóm). **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
 
 [Mở Buổi 4](session4.qmd)
 :::
@@ -98,16 +98,16 @@ Tám tuần, mỗi **thứ Bảy** một buổi, từ **31/10 đến 19/12/2026*
 
 | Bắt đầu | Giờ* | Phút | Hoạt động |
 |:----|:----|---:|:------------------------------------------------------------|
-| 0:00 | 08:00 | 10 | Câu hỏi ôn tập |
-| 0:10 | 08:10 | 35 | **5.1 Dữ liệu tốt từ khâu thiết kế:** loại biến, nguyên tắc thiết kế CRF, từ điển dữ liệu, kiểm tra hợp lệ, quản lý dữ liệu (EDC, nhập liệu kép, nhật ký thay đổi, sao lưu), phòng tránh dữ liệu thiếu |
-| 0:45 | 08:45 | 25 | **5.2 [DS] Làm quen bộ dữ liệu khóa học:** nghiên cứu FLUID-ICU, từ điển dữ liệu, dữ liệu thô và dữ liệu sạch, các vấn đề chất lượng dữ liệu đã phát hiện, **trình diễn làm sạch dữ liệu bằng R** và nhật ký làm sạch; giao câu hỏi cho các nhóm |
-| 1:10 | 09:10 | 15 | GIẢI LAO |
-| 1:25 | 09:25 | 35 | **5.3 Mô tả và trình bày dữ liệu:** trung bình/trung vị, SD/IQR, hình dạng phân phối, biểu đồ nào cho dữ liệu nào, biểu đồ tốt và chưa tốt, bảng đạt chuẩn công bố, Bảng 1 |
-| 2:00 | 10:00 | 25 | **5.4 [DS] Mô tả bộ dữ liệu khóa học:** trình diễn Bảng 1 và biểu đồ; mỗi nhóm đọc Bảng 1 và các biểu đồ trong gói kết quả của nhóm (phiếu bài tập) |
-| 2:25 | 10:25 | 30 | **Xây dựng đề cương 5:** bảng biến số, CRF thu gọn, các dòng từ điển dữ liệu, kế hoạch quản lý dữ liệu |
-| 2:55 | 10:55 | 5 | Tổng kết |
+| 0:00 | 19:30 | 10 | Câu hỏi ôn tập |
+| 0:10 | 19:40 | 35 | **5.1 Dữ liệu tốt từ khâu thiết kế:** loại biến số, nguyên tắc thiết kế CRF, từ điển dữ liệu, kiểm tra tính hợp lệ, quản lý dữ liệu (EDC, nhập liệu kép, nhật ký thay đổi dữ liệu, sao lưu), phòng tránh dữ liệu bị thiếu; bài tập cả lớp: sửa các mục CRF |
+| 0:45 | 20:15 | 25 | **5.2 [DS] Làm quen bộ dữ liệu khóa học:** nghiên cứu FLUID-ICU, dữ liệu thô và dữ liệu đã làm sạch, các vấn đề chất lượng dữ liệu đã phát hiện, **trình diễn làm sạch dữ liệu bằng R** và nhật ký làm sạch dữ liệu; giới thiệu năm câu hỏi Q1 đến Q5 (mỗi học viên chọn một câu cho bản thảo của mình, chậm nhất cuối Buổi 6) |
+| 1:10 | 20:40 | 15 | GIẢI LAO |
+| 1:25 | 20:55 | 35 | **5.3 Mô tả và trình bày dữ liệu:** trung bình/trung vị, SD/IQR, hình dạng phân phối, biểu đồ nào cho dữ liệu nào, biểu đồ tốt và chưa tốt, bảng đạt chuẩn công bố, Bảng 1 |
+| 2:00 | 21:30 | 25 | **5.4 [DS] Mô tả bộ dữ liệu khóa học:** trình diễn Bảng 1 và biểu đồ; cả lớp cùng đọc Bảng 1 và các biểu đồ của FLUID-ICU |
+| 2:25 | 21:55 | 30 | **Xây dựng đề cương 5:** làm mẫu trực tiếp (bảng biến số, CRF thu gọn, các dòng từ điển dữ liệu, kế hoạch quản lý dữ liệu); mỗi học viên tự viết bảng biến số của mình (hoàn thành ở nhà) |
+| 2:55 | 22:25 | 5 | Tổng kết |
 
-\*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
+\*Thời gian tính từ đầu buổi học; cột giờ là giờ Việt Nam của buổi học trực tuyến 19:30–22:30. Mọi bài tập đều do cả lớp cùng làm (không chia nhóm). **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
 
 [Mở Buổi 5](session5.qmd)
 :::
@@ -117,16 +117,16 @@ Tám tuần, mỗi **thứ Bảy** một buổi, từ **31/10 đến 19/12/2026*
 
 | Bắt đầu | Giờ* | Phút | Hoạt động |
 |:----|:----|---:|:------------------------------------------------------------|
-| 0:00 | 08:00 | 10 | Câu hỏi ôn tập |
-| 0:10 | 08:10 | 40 | **6.1 Từ mẫu đến quần thể:** khoảng tin cậy, giá trị p và những hiểu lầm, sai lầm loại I/II, power, cỡ mẫu (**trình diễn trực tiếp**), chọn kiểm định, ghép cặp và không ghép cặp, so sánh bội |
-| 0:50 | 08:50 | 20 | **6.2 [DS] So sánh các nhóm trong bộ dữ liệu khóa học:** trình diễn (t-test / Mann–Whitney / khi bình phương); các nhóm diễn giải kết quả của mình |
-| 1:10 | 09:10 | 15 | GIẢI LAO |
-| 1:25 | 09:25 | 35 | **6.3 Mối liên quan và mô hình:** tương quan, hồi quy tuyến tính và logistic, hiệu chỉnh, tương tác, quá khớp, Kaplan–Meier và Cox, mô hình dự báo/học máy; đọc bảng hồi quy và biểu đồ rừng |
-| 2:00 | 10:00 | 25 | **6.4 [DS] Mô hình hóa bộ dữ liệu khóa học:** OR thô và OR hiệu chỉnh (thấy rõ nhiễu do chỉ định), Kaplan–Meier + HR Cox, phân tích ca đầy đủ và đa quy gán; SAP được viết trước khi phân tích |
-| 2:25 | 10:25 | 30 | **Xây dựng đề cương 6:** cỡ mẫu, kế hoạch phân tích, kế hoạch xử lý dữ liệu thiếu |
-| 2:55 | 10:55 | 5 | Tổng kết |
+| 0:00 | 19:30 | 10 | Câu hỏi ôn tập |
+| 0:10 | 19:40 | 40 | **6.1 Từ mẫu đến quần thể:** KTC, giá trị p và những hiểu lầm, kiểm định một phía và hai phía, sai lầm loại I/II, lực thống kê, cỡ mẫu (**trình diễn trực tiếp 5 phút**), chọn kiểm định (bảng quyết định), dữ liệu ghép cặp và không ghép cặp, so sánh bội |
+| 0:50 | 20:20 | 20 | **6.2 [DS] So sánh các nhóm trong bộ dữ liệu khóa học:** trình diễn (kiểm định t / Mann–Whitney / khi bình phương); cả lớp cùng diễn giải kết quả (Q1 đầy đủ, Q2 đến Q5 ngắn gọn) |
+| 1:10 | 20:40 | 15 | GIẢI LAO |
+| 1:25 | 20:55 | 35 | **6.3 Mối liên quan và mô hình:** tương quan, hồi quy tuyến tính và logistic, hiệu chỉnh, đọc bảng hồi quy, quá khớp, dữ liệu bị kiểm duyệt và đường cong Kaplan–Meier (mô hình dự báo/học máy và tương tác nằm trong slide bổ sung) |
+| 2:00 | 21:30 | 25 | **6.4 [DS] Mô hình hóa bộ dữ liệu khóa học:** SAP được viết trước khi phân tích, OR thô và OR hiệu chỉnh (thấy rõ nhiễu do chỉ định), Kaplan–Meier + HR Cox, phân tích các trường hợp đầy đủ và quy gán đa bội |
+| 2:25 | 21:55 | 30 | **Xây dựng đề cương 6:** làm mẫu trực tiếp (cỡ mẫu, kế hoạch phân tích, yếu tố gây nhiễu, kế hoạch xử lý dữ liệu bị thiếu); mỗi học viên tự viết các thông số tính cỡ mẫu của mình (hoàn thành ở nhà) |
+| 2:55 | 22:25 | 5 | Tổng kết |
 
-\*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
+\*Thời gian tính từ đầu buổi học; cột giờ là giờ Việt Nam của buổi học trực tuyến 19:30–22:30. Mọi bài tập đều do cả lớp cùng làm (không chia nhóm). **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
 
 [Mở Buổi 6](session6.qmd)
 :::
@@ -136,16 +136,16 @@ Tám tuần, mỗi **thứ Bảy** một buổi, từ **31/10 đến 19/12/2026*
 
 | Bắt đầu | Giờ* | Phút | Hoạt động |
 |:----|:----|---:|:------------------------------------------------------------|
-| 0:00 | 08:00 | 10 | Câu hỏi ôn tập |
-| 0:10 | 08:10 | 30 | **7.1 Đề cương, đạo đức và chấp thuận:** đề cương (SPIRIT), Tuyên bố Helsinki và GCP, quy trình hội đồng đạo đức, chấp thuận tham gia (kể cả tại ICU), đăng ký nghiên cứu, bảo mật, tính khả thi |
-| 0:40 | 08:40 | 20 | **7.2 Liêm chính nghiên cứu:** bịa đặt, làm sai lệch, đạo văn (FFP), công bố trùng lặp/cắt lát, quyền tác giả và CRediT, xung đột lợi ích, chia sẻ dữ liệu, sử dụng AI |
-| 1:00 | 09:00 | 15 | **Xây dựng đề cương 7:** đạo đức, đăng ký, tính khả thi, kế hoạch công bố |
-| 1:15 | 09:15 | 15 | GIẢI LAO |
-| 1:30 | 09:30 | 35 | **7.3 Viết bài báo (I):** thứ tự viết, Phương pháp (kể cả đoạn thống kê), Kết quả (đối tượng trước, số liệu kèm CI, không diễn giải), bảng và biểu đồ tự đứng được, STROBE cho bài báo từ bộ dữ liệu khóa học |
-| 2:05 | 10:05 | 50 | **[DS] Thực hành bản thảo 1:** mỗi nhóm soạn Phương pháp + Kết quả (~600 từ) với Bảng 1 và một biểu đồ/bảng từ gói kết quả của nhóm |
-| 2:55 | 10:55 | 5 | Tổng kết |
+| 0:00 | 19:30 | 10 | Câu hỏi ôn tập |
+| 0:10 | 19:40 | 30 | **7.1 Đề cương, đạo đức và sự đồng ý:** đề cương (SPIRIT), Tuyên bố Helsinki và GCP, quy trình hội đồng đạo đức, đăng ký nghiên cứu, sự đồng ý tham gia (kể cả tại ICU), bảo mật thông tin, tính khả thi |
+| 0:40 | 20:10 | 20 | **7.2 Liêm chính nghiên cứu:** bịa đặt, làm sai lệch, đạo văn (FFP), xuất bản trùng lặp/cắt lát, quyền tác giả, xung đột lợi ích, chia sẻ dữ liệu, sử dụng AI; khảo sát nhanh theo tình huống |
+| 1:00 | 20:30 | 15 | **Xây dựng đề cương 7:** làm mẫu trực tiếp (đạo đức, đăng ký, tính khả thi, kế hoạch công bố); học viên tự viết Phần 4 của mình ở nhà |
+| 1:15 | 20:45 | 15 | GIẢI LAO |
+| 1:30 | 21:00 | 35 | **7.3 Viết bài báo (I):** thứ tự viết, Phương pháp (kể cả đoạn thống kê), Kết quả (người tham gia trước, số liệu kèm KTC, không diễn giải), bảng và biểu đồ tự đứng được, STROBE cho bài báo từ bộ dữ liệu khóa học |
+| 2:05 | 21:35 | 45 | **[DS] Thực hành bản thảo 1:** giảng viên cùng cả lớp soạn Phương pháp + Kết quả cho Q1 (30 phút); sau đó mỗi học viên bắt đầu viết Phương pháp + Kết quả (~600 từ) cho câu hỏi mình đã chọn, với Bảng 1 và một biểu đồ/bảng từ gói kết quả phân tích (15 phút, hoàn thành ở nhà) |
+| 2:50 | 22:20 | 10 | Từ khóa, tổng kết, câu hỏi cuối buổi, bài về nhà |
 
-\*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
+\*Thời gian tính từ đầu buổi học; cột giờ là giờ Việt Nam của buổi học trực tuyến 19:30–22:30. Mọi bài tập đều do cả lớp cùng làm (không chia nhóm). **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
 
 [Mở Buổi 7](session7.qmd)
 :::
@@ -155,16 +155,16 @@ Tám tuần, mỗi **thứ Bảy** một buổi, từ **31/10 đến 19/12/2026*
 
 | Bắt đầu | Giờ* | Phút | Hoạt động |
 |:----|:----|---:|:------------------------------------------------------------|
-| 0:00 | 08:00 | 5 | Ôn tập |
-| 0:05 | 08:05 | 25 | **8.1 Viết bài báo (II):** phễu Đặt vấn đề, sáu bước của Bàn luận, ngôn ngữ chừng mực, kết luận, tóm tắt, tiêu đề và từ khóa |
-| 0:30 | 08:30 | 30 | **[DS] Thực hành bản thảo 2:** Đặt vấn đề, Bàn luận, Tóm tắt và Tiêu đề để có bản nháp hoàn chỉnh |
-| 1:00 | 09:00 | 15 | GIẢI LAO |
-| 1:15 | 09:15 | 25 | **8.2 Công bố:** hướng dẫn báo cáo (**trình diễn EQUATOR**), chọn tạp chí, truy cập mở và giấy phép, tạp chí săn mồi, hồ sơ nộp bài, phản biện, trả lời phản biện, bị từ chối và nộp lại, bản in thử, tóm tắt hội nghị |
-| 1:40 | 09:40 | 20 | **8.3 Làm người phản biện:** thẩm định đơn giản Bài báo 1–2 (ghép mảnh, bảng kiểm 10 câu hỏi), để luyện tập cho phản biện bản thảo sau khóa học |
-| 2:00 | 10:00 | 45 | **Các nhóm trình bày:** đề cương nghiên cứu của nhóm + kế hoạch công bố (5 nhóm × 6 phút + 2 phút góp ý) + 5 phút tóm tắt phần bản thảo |
-| 2:45 | 10:45 | 15 | Bài kiểm tra cuối khóa, đánh giá khóa học, bước tiếp theo (trao đổi bản thảo để phản biện chéo, làm ở nhà) |
+| 0:00 | 19:30 | 5 | Ôn tập |
+| 0:05 | 19:35 | 25 | **8.1 Viết bài báo (II):** phễu Đặt vấn đề, sáu bước của Bàn luận, ngôn ngữ chừng mực, tóm tắt, tiêu đề và từ khóa, trước khi nộp bài |
+| 0:30 | 20:00 | 30 | **[DS] Thực hành bản thảo 2:** làm mẫu trực tiếp trên Q1 phần Đặt vấn đề, Bàn luận, Tóm tắt và Tiêu đề (22 phút); mỗi học viên viết mục tiêu và tiêu đề của mình (8 phút) và hoàn thành bản nháp ở nhà |
+| 1:00 | 20:30 | 20 | **8.2 Công bố:** hướng dẫn báo cáo (**trình diễn EQUATOR**), chọn tạp chí, tạp chí săn mồi, hồ sơ nộp bài, bình duyệt, trả lời phản biện (bản tiền ấn phẩm, bị từ chối, bản in thử và tóm tắt hội nghị nằm trong slide bổ sung) |
+| 1:20 | 20:50 | 15 | GIẢI LAO |
+| 1:35 | 21:05 | 25 | **8.3 Làm người phản biện:** cả lớp cùng thẩm định đơn giản Bài báo 1 và 2 (Boulet 2024 RCT và Hyun 2023 thuần tập, trong thư mục khóa học) bằng bảng kiểm 10 câu hỏi, để luyện tập cho phần bình duyệt cá nhân sau khóa học |
+| 2:00 | 21:30 | 45 | **Học viên tình nguyện trình bày:** khoảng 5 học viên trình bày đề cương nghiên cứu của mình + kế hoạch công bố (mỗi người 6 phút + 2 phút góp ý), sau đó 5 phút tổng kết; mọi học viên nộp slide và đề cương viết |
+| 2:45 | 22:15 | 15 | Bài kiểm tra cuối khóa, đánh giá khóa học, bước tiếp theo (bình duyệt bản thảo của một bạn cùng lớp, làm ở nhà) |
 
-\*Thời gian tính từ đầu buổi học; cột giờ là ví dụ cho buổi học 08:00–11:00. **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
+\*Thời gian tính từ đầu buổi học; cột giờ là giờ Việt Nam của buổi học trực tuyến 19:30–22:30. Mọi bài tập đều do cả lớp cùng làm (không chia nhóm). **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
 
 [Mở Buổi 8](session8.qmd)
 :::

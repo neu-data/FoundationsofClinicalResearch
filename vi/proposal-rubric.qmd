@@ -2,153 +2,155 @@
 title: "Thang chấm đề cương"
 ---
 
-::: {.lang-note}
-Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
-:::
+Tải về: [Word](files/assignments/Proposal_Rubric_VN.docx) · [PDF](files/assignments/Proposal_Rubric_VN.pdf) · [Quay lại trang bài tập lớn](assignments.qmd)
 
-Tải về: [Word](files/assignments/Proposal_Rubric.docx) · [PDF](files/assignments/Proposal_Rubric.pdf) · [Quay lại trang bài tập nhóm](assignments.qmd)
+## Nền tảng Nghiên cứu Lâm sàng · Cấp độ 1: Từ câu hỏi lâm sàng đến công bố
 
-## Foundations of Clinical Research · Level 1: From Clinical Question to Publication
+**Tổ chức:** Neudata (*#ClearDataClearImpact*)
+**Tổng điểm:** 100 điểm cho mọi người, tính theo một trong hai cách:
+- **Người trình bày** (khoảng 5 học viên tình nguyện trình bày ở Buổi 8): đề cương viết và kế hoạch công bố 70 + trình bày 30 = 100.
+- **Người không trình bày** (những học viên còn lại): chỉ chấm đề cương viết và kế hoạch công bố, quy đổi về thang 100: **tổng điểm = điểm phần viết (trên 70) × 100 / 70**, làm tròn đến số nguyên gần nhất. Ví dụ: 49 / 70 thành 70 / 100.
 
-**Organisation:** Neudata (*#ClearDataClearImpact*)
-**Total:** 100 points: written proposal and publication plan 70 + presentation 30
-**Use with:** `proposal_brief.md` and `presentation_guide.md`
+Slide do người không trình bày nộp không được chấm điểm; giảng viên chỉ đọc để kiểm tra slide khớp với đề cương viết. Luôn báo cáo cả điểm phần viết (trên 70), để mọi người có thể được so sánh trên cùng phần viết.
+**Dùng kèm:** `proposal_brief_VN.md` và `presentation_guide_VN.md`
 
-> **The marks are formative.** They help groups improve their proposal and help instructors see which parts of the course need strengthening. Reward clear thinking and honesty about limitations over polish. A simple, feasible study planned well scores higher than an ambitious study planned vaguely.
-
-
-* * *
-
-## How to score
-
-1. Read the whole proposal once without scoring.
-2. For each criterion, choose the level that best describes the work and give its points. If the work sits between two levels, choose the lower one and note what would lift it.
-3. Write **one comment per criterion that loses points**, saying what to add or change. These comments are the most valuable part of the feedback.
-4. Add the points. Use the bands at the end only as a guide for the overall comment.
-
-**Levels:** **Excellent**: complete, correct and specific. **Good**: mostly complete and correct, minor gaps. **Needs work**: present but vague, incomplete or partly incorrect. **Missing**: absent or wholly incorrect.
+> **Điểm mang tính hình thành.** Điểm giúp học viên cải thiện đề cương và giúp giảng viên thấy phần nào của khóa học cần củng cố. Trình bày là tự nguyện và không bao giờ làm giảm điểm. Đánh giá cao tư duy rõ ràng và sự trung thực về hạn chế hơn là hình thức trau chuốt. Một nghiên cứu đơn giản, khả thi, được lập kế hoạch tốt được điểm cao hơn một nghiên cứu tham vọng nhưng lập kế hoạch mơ hồ.
 
 
 * * *
 
-## A. Written proposal and publication plan (70 points)
+## Cách chấm điểm
 
-### Part 1: Sessions 1–2 (Ask; Find and read)
+1. Đọc toàn bộ đề cương một lần mà không chấm.
+2. Với mỗi tiêu chí, chọn mức mô tả đúng nhất bài làm và cho điểm tương ứng. Nếu bài làm nằm giữa hai mức, chọn mức thấp hơn và ghi điều gì sẽ giúp nâng lên mức trên.
+3. Viết **một nhận xét cho mỗi tiêu chí bị mất điểm**, nói rõ cần bổ sung hoặc sửa gì. Những nhận xét này là phần giá trị nhất của phản hồi.
+4. Cộng điểm. Chỉ dùng các khoảng điểm ở cuối làm gợi ý cho nhận xét chung.
 
-| Criterion | Excellent (6) | Good (4) | Needs work (2) | Missing (0) |
-|---|---|---|---|---|
-| **1. Problem statement, rationale & working title** | Clear clinical problem, sized with a number and a source; states what is not known and why it matters locally; informative working title built from the PICO. | Problem and importance clear; gap or size of the problem only implied. | Problem described in general terms; no evidence of size or gap. | No problem statement. |
-| **2. PICO, research question & FINER** | All PICO elements specific; question follows directly from the PICO; FINER check is honest and changed something. | PICO complete but one element vague (e.g. outcome without time point); FINER present. | PICO incomplete or question does not match it; FINER is a list of "yes". | No PICO or no question. |
-| **3. Aim, objectives, hypothesis & references** | One aim, 2–3 measurable objectives, a testable hypothesis (where relevant); 5 relevant, correctly cited references. | Objectives present but one not measurable; 3–4 good references. | Objectives restate the aim; hypothesis not testable; references few, old or not relevant. | Absent. |
-
-### Part 2: Sessions 3–4 (Design; Bias and effect)
-
-| Criterion | Excellent (6) | Good (4) | Needs work (2) | Missing (0) |
-|---|---|---|---|---|
-| **4. Design & justification** | Design correctly named and well matched to the question; explains why a stronger design is or is not possible. | Appropriate design, brief justification. | Design misnamed or poorly matched to the question; no justification. | No design stated. |
-| **5. Setting, population, exposure & outcomes** | Reproducible inclusion/exclusion criteria; exposure and comparator defined; one primary outcome with how and when it is measured; sensible secondary outcomes. | Mostly clear; one element vague (e.g. outcome timing). | Criteria vague; several primary outcomes or none defined. | Absent. |
-| **6. Bias & how it is reduced** | At least two specific threats relevant to *this* study (e.g. confounding by indication) with a concrete step for each. | Threats named with general remedies. | Generic list of biases not linked to the study. | No discussion of bias. |
-
-### Part 3: Sessions 5–6 (Data; Analyse)
-
-| Criterion | Excellent (6) | Good (4) | Needs work (2) | Missing (0) |
-|---|---|---|---|---|
-| **7. Variables, mini-CRF, data dictionary & data management** | Variables table with correct types and units; 6–10 clear CRF items consistent with the dictionary; data capture, checks, secure storage and audit trail described concretely. | Minor errors in types or units; CRF mostly clear; general data-quality plan. | CRF items ambiguous (no units or time windows); dictionary missing or inconsistent; no data-management plan. | Absent. |
-| **8. Sample size, analysis & missing-data plan** | Sample size statement with assumptions and source, or a precision target for descriptive studies; summaries and test/model match the variable types; named confounders; one pre-specified primary outcome; sensible missing-data plan (prevention, reporting, handling). | Sample size given with some assumptions; analysis mostly appropriate; missing data mentioned but plan thin. | A number without assumptions; test does not match the outcome type; no missing-data plan. | Absent. |
-
-### Part 4: Session 7 (Protect and write)
-
-| Criterion | Excellent (6) | Good (4) | Needs work (2) | Missing (0) |
-|---|---|---|---|---|
-| **9. Ethics, registration, confidentiality & feasibility** | Ethics route and appropriate consent (including patients lacking capacity where relevant); registration (where and when) or why not needed; de-identification and storage; realistic timeline (Gantt), budget headings and recruitment justified by unit numbers. | Most elements present; one or two thin (e.g. recruitment not justified). | Ethics mentioned only as "will apply for approval"; no registration; unrealistic timeline. | Absent. |
-| **10. Publication plan** | Suitable, checked target journal (+ back-up); correct reporting guideline for the design; authors meet ICMJE criteria with CRediT roles; refined working title; structured-abstract skeleton with placeholders (no invented results) and calibrated conclusions; local dissemination. | Journal, guideline and authors present; abstract skeleton incomplete or roles vague. | Wrong reporting guideline, unchecked journal, gift authorship, or abstract with invented results or causal claims. | Absent. |
-
-### Whole document
-
-| Criterion | Excellent (10) | Good (7) | Needs work (3) | Missing (0) |
-|---|---|---|---|---|
-| **11. Coherence & clarity** | Parts agree with each other (same question, outcome, population and title throughout); plain language; within about 6–8 pages; template used; references managed consistently; AI use statement if relevant. | Minor inconsistencies or some wordiness. | Parts contradict each other (e.g. different primary outcomes); hard to follow. | Not a usable document. |
-
-**Written proposal and publication plan subtotal:** ______ / 70
+**Các mức:** **Xuất sắc**: đầy đủ, đúng và cụ thể. **Tốt**: phần lớn đầy đủ và đúng, thiếu sót nhỏ. **Cần cải thiện**: có nhưng mơ hồ, chưa đầy đủ hoặc đúng một phần. **Thiếu**: không có hoặc sai hoàn toàn.
 
 
 * * *
 
-## B. Presentation in Session 8 (30 points)
+## A. Đề cương viết và kế hoạch công bố (70 điểm)
 
-Score the 6-minute proposal presentation only. The 1-minute manuscript pitch is not scored (the manuscript has its own rubric, `manuscript_rubric.md`).
+### Phần 1: Buổi 1 và 2 (Đặt câu hỏi; Tìm và đọc y văn)
 
-| Criterion | Excellent (6) | Good (4) | Needs work (2) | Missing (0) |
+| Tiêu chí | Xuất sắc (6) | Tốt (4) | Cần cải thiện (2) | Thiếu (0) |
 |---|---|---|---|---|
-| **12. Structure & content** | All 6 slides as in the guide; the key decisions (question, design, outcome, sample size, ethics, journal and reporting guideline) are visible. | One slide thin or one key decision missing. | Several parts missing or out of order. | Did not present. |
-| **13. Clarity & plain language** | Message understandable to every profession in the room; one message per slide. | Mostly clear; some jargon or crowded slides. | Hard to follow; slides read aloud. | Not applicable. |
-| **14. Visual design** | Readable from the back; pictures, tables or diagrams instead of text blocks (PICO table, flow, timeline). | Readable; mostly text. | Small fonts, walls of text. | Not applicable. |
-| **15. Timekeeping** | Finished between 5:00 and 6:00. | Finished by 6:30. | Stopped by the chair at 6:30, or under 4 minutes. | Not applicable. |
-| **16. Questions & teamwork** | Answers questions directly and honestly; several members contribute; acknowledges limitations. | Answers adequately; one or two members carry the presentation. | Defensive or unable to answer basic questions about the design. | Not applicable. |
+| **1. Đặt vấn đề, lý do nghiên cứu và tên đề tài dự kiến** | Vấn đề lâm sàng rõ, có số liệu và nguồn cho thấy mức độ; nêu điều chưa biết và vì sao quan trọng tại chỗ; tên đề tài dự kiến đầy đủ thông tin, xây dựng từ PICO. | Vấn đề và tầm quan trọng rõ; khoảng trống hoặc mức độ của vấn đề chỉ được ngụ ý. | Vấn đề mô tả chung chung; không có bằng chứng về mức độ hoặc khoảng trống. | Không có phần đặt vấn đề. |
+| **2. PICO, câu hỏi nghiên cứu và FINER** | Mọi thành phần PICO cụ thể; câu hỏi xuất phát trực tiếp từ PICO; kiểm tra FINER trung thực và đã làm thay đổi điều gì đó. | PICO đầy đủ nhưng một thành phần mơ hồ (ví dụ kết cục không có thời điểm); có FINER. | PICO chưa đầy đủ hoặc câu hỏi không khớp với PICO; FINER chỉ là danh sách "có". | Không có PICO hoặc không có câu hỏi. |
+| **3. Mục tiêu tổng quát, mục tiêu cụ thể, giả thuyết và tài liệu tham khảo** | Một mục tiêu tổng quát, 2–3 mục tiêu cụ thể đo lường được, một giả thuyết có thể kiểm định (khi phù hợp); 5 tài liệu liên quan, trích dẫn đúng. | Có mục tiêu cụ thể nhưng một mục tiêu không đo lường được; 3–4 tài liệu tốt. | Mục tiêu cụ thể nhắc lại mục tiêu tổng quát; giả thuyết không kiểm định được; tài liệu ít, cũ hoặc không liên quan. | Không có. |
 
-**Presentation subtotal:** ______ / 30
+### Phần 2: Buổi 3 và 4 (Thiết kế; Sai lệch và đo lường tác động)
 
-**Total:** ______ / 100
+| Tiêu chí | Xuất sắc (6) | Tốt (4) | Cần cải thiện (2) | Thiếu (0) |
+|---|---|---|---|---|
+| **4. Thiết kế và lý giải** | Gọi đúng tên thiết kế và phù hợp tốt với câu hỏi; giải thích vì sao có thể hoặc không thể dùng thiết kế mạnh hơn. | Thiết kế phù hợp, lý giải ngắn. | Gọi sai tên thiết kế hoặc không phù hợp với câu hỏi; không lý giải. | Không nêu thiết kế. |
+| **5. Bối cảnh, đối tượng, phơi nhiễm và kết cục** | Tiêu chuẩn chọn/loại trừ có thể lặp lại; phơi nhiễm và nhóm so sánh được định nghĩa; một kết cục chính kèm cách đo và thời điểm đo; kết cục phụ hợp lý. | Phần lớn rõ ràng; một thành phần mơ hồ (ví dụ thời điểm đo kết cục). | Tiêu chuẩn mơ hồ; nhiều kết cục chính hoặc không định nghĩa kết cục nào. | Không có. |
+| **6. Sai lệch và cách hạn chế** | Ít nhất hai nguy cơ cụ thể liên quan đến *nghiên cứu này* (ví dụ nhiễu do chỉ định), mỗi nguy cơ có một bước cụ thể để hạn chế. | Nêu được nguy cơ kèm biện pháp chung chung. | Danh sách sai lệch chung chung, không gắn với nghiên cứu. | Không bàn về sai lệch. |
 
-### Guide to overall comment
+### Phần 3: Buổi 5 và 6 (Dữ liệu; Phân tích)
 
-| Total | Overall comment |
+| Tiêu chí | Xuất sắc (6) | Tốt (4) | Cần cải thiện (2) | Thiếu (0) |
+|---|---|---|---|---|
+| **7. Biến số, mini-CRF, từ điển dữ liệu và quản lý dữ liệu** | Bảng biến số với loại biến và đơn vị đúng; 6–10 mục CRF rõ ràng, nhất quán với từ điển dữ liệu; mô tả cụ thể cách thu thập dữ liệu, kiểm tra, lưu trữ an toàn và nhật ký thay đổi dữ liệu. | Lỗi nhỏ về loại biến hoặc đơn vị; CRF phần lớn rõ ràng; kế hoạch chất lượng dữ liệu chung chung. | Mục CRF không rõ ràng (không có đơn vị hoặc khoảng thời gian); thiếu từ điển dữ liệu hoặc không nhất quán; không có kế hoạch quản lý dữ liệu. | Không có. |
+| **8. Cỡ mẫu, kế hoạch phân tích và xử lý dữ liệu thiếu** | Phát biểu cỡ mẫu có giả định và nguồn, hoặc mục tiêu độ chính xác cho nghiên cứu mô tả; cách tóm tắt và kiểm định/mô hình phù hợp với loại biến; nêu tên yếu tố gây nhiễu; một kết cục chính xác định trước; kế hoạch dữ liệu thiếu hợp lý (phòng ngừa, báo cáo, xử lý). | Có cỡ mẫu với một số giả định; phân tích phần lớn phù hợp; có nhắc đến dữ liệu thiếu nhưng kế hoạch còn sơ sài. | Một con số không có giả định; kiểm định không phù hợp với loại kết cục; không có kế hoạch dữ liệu thiếu. | Không có. |
+
+### Phần 4: Buổi 7 (Bảo vệ người tham gia và viết bài)
+
+| Tiêu chí | Xuất sắc (6) | Tốt (4) | Cần cải thiện (2) | Thiếu (0) |
+|---|---|---|---|---|
+| **9. Đạo đức, đăng ký, bảo mật và tính khả thi** | Quy trình đạo đức và cách xin đồng ý phù hợp (kể cả người bệnh mất năng lực quyết định khi cần); đăng ký (ở đâu và khi nào) hoặc lý do không cần; loại bỏ thông tin định danh và lưu trữ; tiến độ thực tế (Gantt), khoản mục kinh phí và số tuyển dự kiến có căn cứ từ số liệu của đơn vị. | Có hầu hết các thành phần; một hoặc hai thành phần còn sơ sài (ví dụ không có căn cứ cho số tuyển). | Đạo đức chỉ ghi "sẽ xin phê duyệt"; không đăng ký; tiến độ không thực tế. | Không có. |
+| **10. Kế hoạch công bố** | Tạp chí dự kiến phù hợp, đã kiểm tra (+ tạp chí dự phòng); hướng dẫn báo cáo đúng với thiết kế; tác giả đáp ứng tiêu chí ICMJE kèm vai trò CRediT; tên đề tài dự kiến đã hoàn thiện; khung tóm tắt có cấu trúc dùng chỗ trống (không bịa kết quả) và kết luận chừng mực; kế hoạch phổ biến tại chỗ. | Có tạp chí, hướng dẫn báo cáo và tác giả; khung tóm tắt chưa đầy đủ hoặc vai trò mơ hồ. | Sai hướng dẫn báo cáo, tạp chí chưa kiểm tra, tác giả "danh dự", hoặc tóm tắt có kết quả bịa hay khẳng định nhân quả. | Không có. |
+
+### Toàn bộ văn bản
+
+| Tiêu chí | Xuất sắc (10) | Tốt (7) | Cần cải thiện (3) | Thiếu (0) |
+|---|---|---|---|---|
+| **11. Tính mạch lạc và rõ ràng** | Các phần thống nhất với nhau (cùng câu hỏi, kết cục, đối tượng và tên đề tài từ đầu đến cuối); ngôn ngữ đơn giản; trong khoảng 6–8 trang; dùng mẫu; quản lý tài liệu tham khảo nhất quán; có câu công khai sử dụng AI nếu có dùng. | Có vài điểm không nhất quán nhỏ hoặc hơi dài dòng. | Các phần mâu thuẫn nhau (ví dụ kết cục chính khác nhau); khó theo dõi. | Không phải một văn bản dùng được. |
+
+**Điểm phần đề cương viết và kế hoạch công bố:** ______ / 70
+
+
+* * *
+
+## B. Trình bày ở Buổi 8 (30 điểm, chỉ người trình bày)
+
+Chỉ chấm bài trình bày đề cương 6 phút của những người tình nguyện. Bỏ qua phần này với người không trình bày và dùng cách quy đổi ở trên.
+
+| Tiêu chí | Xuất sắc (6) | Tốt (4) | Cần cải thiện (2) | Thiếu (0) |
+|---|---|---|---|---|
+| **12. Cấu trúc và nội dung** | Đủ 6 slide như hướng dẫn; thể hiện rõ các quyết định chính (câu hỏi, thiết kế, kết cục, cỡ mẫu, đạo đức, tạp chí và hướng dẫn báo cáo). | Một slide còn sơ sài hoặc thiếu một quyết định chính. | Thiếu nhiều phần hoặc sai thứ tự. | Không trình bày. |
+| **13. Rõ ràng và ngôn ngữ đơn giản** | Mọi nhân viên y tế trong lớp đều hiểu được thông điệp; mỗi slide một thông điệp. | Phần lớn rõ ràng; có một số thuật ngữ chuyên môn hoặc slide quá nhiều chữ. | Khó theo dõi; đọc nguyên văn slide. | Không áp dụng. |
+| **14. Thiết kế hình ảnh** | Đọc được trên màn hình chia sẻ (cỡ màn hình máy tính xách tay); dùng hình, bảng hoặc sơ đồ thay cho khối chữ (bảng PICO, sơ đồ, tiến độ). | Đọc được; chủ yếu là chữ. | Chữ nhỏ, nhiều đoạn chữ dày đặc. | Không áp dụng. |
+| **15. Giữ đúng thời gian** | Kết thúc trong khoảng 5:00 đến 6:00. | Kết thúc trước 6:30. | Bị chủ tọa dừng lúc 6:30, hoặc dưới 4 phút. | Không áp dụng. |
+| **16. Trả lời câu hỏi và thảo luận** | Trả lời câu hỏi trực tiếp và trung thực; thừa nhận hạn chế; phản hồi các ý kiến trong khung chat. | Trả lời được; một số câu hỏi chỉ trả lời một phần. | Phòng thủ hoặc không trả lời được các câu hỏi cơ bản về thiết kế. | Không áp dụng. |
+
+**Điểm phần trình bày:** ______ / 30
+
+**Tổng điểm, người trình bày:** phần viết ______ / 70 + trình bày ______ / 30 = ______ / 100
+
+**Tổng điểm, người không trình bày:** phần viết ______ / 70 × 100 / 70 = ______ / 100
+
+### Gợi ý cho nhận xét chung
+
+| Tổng điểm | Nhận xét chung |
 |---|---|
-| 80–100 | Strong proposal, ready to develop into a full protocol with the research office. |
-| 60–79 | Good proposal. Revise the flagged sections before taking it further. |
-| 40–59 | Promising idea, but the question or design needs rethinking before it can go further. |
-| Below 40 | Major revision needed. Meet an instructor to agree the next steps. |
+| 80 đến 100 | Đề cương tốt, sẵn sàng phát triển thành đề cương đầy đủ cùng phòng nghiên cứu khoa học. |
+| 60 đến 79 | Đề cương khá. Sửa các phần được đánh dấu trước khi phát triển tiếp. |
+| 40 đến 59 | Ý tưởng có triển vọng, nhưng câu hỏi hoặc thiết kế cần được xem xét lại trước khi đi tiếp. |
+| Dưới 40 | Cần sửa nhiều. Gặp giảng viên để thống nhất các bước tiếp theo. |
 
-### Common problems to look for (and comment on)
+### Các lỗi thường gặp cần tìm (và nhận xét)
 
-- Outcome without a time point ("mortality" instead of "28-day mortality").
-- An RCT proposed where randomisation is unethical or impossible, or a cohort where a simple RCT would be feasible.
-- "We will adjust for confounders" without naming them.
-- Sample size given as a number with no assumptions, or copied from another study.
-- Recruitment that the unit cannot deliver (check the admissions per month).
-- "Consent will be obtained" for unconscious ICU patients without saying from whom.
-- CONSORT named for an observational study, or STROBE for a trial.
-- A journal chosen from an email invitation, or no check of scope and fees.
-- No registration planned for a trial, or registration "after the results".
-- Missing data ignored, or "we will exclude patients with missing data" as the only plan.
-- An abstract skeleton with invented numbers, or a conclusion that claims causation from an observational design.
-- Authors listed for seniority (gift authorship), or CRediT roles missing.
+- Kết cục không có thời điểm ("tử vong" thay vì "tử vong 28 ngày").
+- Đề xuất RCT ở nơi phân bổ ngẫu nhiên là phi đạo đức hoặc không thể làm, hoặc nghiên cứu thuần tập ở nơi một RCT đơn giản là khả thi.
+- "Chúng tôi sẽ hiệu chỉnh theo các yếu tố gây nhiễu" mà không nêu tên.
+- Cỡ mẫu chỉ là một con số không có giả định, hoặc chép từ nghiên cứu khác.
+- Số tuyển mà đơn vị không thể đạt được (kiểm tra số ca nhập viện mỗi tháng).
+- "Sẽ xin sự đồng ý" với người bệnh ICU bất tỉnh mà không nói xin từ ai.
+- Nêu CONSORT cho nghiên cứu quan sát, hoặc STROBE cho thử nghiệm.
+- Chọn tạp chí từ một email mời, hoặc không kiểm tra phạm vi và phí.
+- Không lên kế hoạch đăng ký cho thử nghiệm, hoặc đăng ký "sau khi có kết quả".
+- Bỏ qua dữ liệu thiếu, hoặc "loại người bệnh thiếu dữ liệu" là kế hoạch duy nhất.
+- Khung tóm tắt có số liệu bịa, hoặc kết luận khẳng định nhân quả từ thiết kế quan sát.
+- Ghi tên tác giả theo thâm niên (tác giả "danh dự"), hoặc thiếu vai trò CRediT.
 
 <!-- pagebreak -->
 
-## Feedback form: group presentation (one per group)
+## Phiếu nhận xét: trình bày đề cương (mỗi người trình bày một phiếu)
 
-**Presenting group:** ______  **Reviewer:** ☐ Instructor ☐ Peer group no. ______  **Date:** ________
+**Người trình bày:** ______________  **Người nhận xét:** ☐ Giảng viên ☐ Trợ giảng  **Ngày:** ________
 
-**Time taken:** ______ min  ☐ Green ☐ Yellow ☐ Red card reached
+**Thời gian trình bày:** ______ phút  ☐ Đã đến mốc 4 phút ☐ 5 phút ☐ 6 phút
 
-**Slide by slide (tick one box per slide)**
+**Theo từng slide (đánh dấu một ô cho mỗi slide)**
 
-| Slide | Clear | Partly clear | Unclear / missing |
+| Slide | Rõ | Rõ một phần | Chưa rõ / thiếu |
 |---|---|---|---|
-| 1. Title & team | ☐ | ☐ | ☐ |
-| 2. Problem & PICO | ☐ | ☐ | ☐ |
-| 3. Design & participants | ☐ | ☐ | ☐ |
-| 4. Data & analysis plan | ☐ | ☐ | ☐ |
-| 5. Ethics & feasibility | ☐ | ☐ | ☐ |
-| 6. Publication plan & impact | ☐ | ☐ | ☐ |
+| 1. Tên đề tài và người trình bày | ☐ | ☐ | ☐ |
+| 2. Vấn đề và PICO | ☐ | ☐ | ☐ |
+| 3. Thiết kế và người tham gia | ☐ | ☐ | ☐ |
+| 4. Dữ liệu và kế hoạch phân tích | ☐ | ☐ | ☐ |
+| 5. Đạo đức và tính khả thi | ☐ | ☐ | ☐ |
+| 6. Kế hoạch công bố và tác động | ☐ | ☐ | ☐ |
 
-**Star 1 (something specific that was strong):**
-
-______________________________________________________________________________
-
-**Star 2 (something else that was strong):**
+**Ngôi sao 1 (một điều cụ thể làm tốt):**
 
 ______________________________________________________________________________
 
-**Wish (the one change that would most improve the written proposal):**
+**Ngôi sao 2 (một điều khác làm tốt):**
+
+______________________________________________________________________________
+
+**Mong muốn (một thay đổi giúp cải thiện đề cương viết nhiều nhất):**
 
 ______________________________________________________________________________
 
 ______________________________________________________________________________
 
-**One question we would ask the group:**
+**Một câu hỏi chúng tôi muốn hỏi người trình bày:**
 
 ______________________________________________________________________________
 
-**Presentation score, instructor only (criteria 12–16):** ___ + ___ + ___ + ___ + ___ = ______ / 30
+**Điểm trình bày, chỉ giảng viên chấm (tiêu chí 12 đến 16):** ___ + ___ + ___ + ___ + ___ = ______ / 30

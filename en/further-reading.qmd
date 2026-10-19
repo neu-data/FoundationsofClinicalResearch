@@ -62,7 +62,7 @@ A short list, not a library. Everything below is free to read online unless mark
 | **"Calculating the sample size required for developing a clinical prediction model"**, *BMJ* 2020;368:m441 | R.D. Riley and colleagues | Why overfitting happens and why "10 events per variable" is only a rough guide. |
 | ***Clinical Data Analysis in R*** (free online course) | Neudata | Learn to clean, describe and analyse a clinical dataset yourself. It is the prerequisite for reproducing the FLUID-ICU analyses with the course R scripts, and the entry requirement for Level 2 (hands-on analysis). |
 
-## Weeks 7–8 (Sessions 7–8): Protect, write and publish (with the group manuscript and peer review)
+## Weeks 7–8 (Sessions 7–8): Protect, write and publish (with your own manuscript and the individual peer review)
 
 ### Ethics and good practice
 
@@ -110,7 +110,7 @@ A short list, not a library. Everything below is free to read online unless mark
 
 This course is Level 1. The next steps are described in `Course_Levels/`.
 
-- **Level 2: Doing the analysis** (hands-on R). The free Neudata course *Clinical Data Analysis in R* is the entry requirement. *Statistics at Square One* (regression chapters) and the Sterne *BMJ* 2009 paper on multiple imputation support Sessions 5–7, and the EQUATOR toolkits support the final Results section.
-- **Level 3: Advanced topics.** For meta-analysis, the Cochrane Handbook and PRISMA 2020. For prediction models and ML, TRIPOD+AI and the Riley *BMJ* 2020 sample-size paper. For diagnostic accuracy, STARD 2015 and QUADAS-2. For advanced survival analysis, *Statistics at Square One* and the Bland–Altman Statistics Notes on survival. For clustered and multicentre data, the CONSORT extension for cluster trials.
+- **Level 2: Doing the analysis** (hands-on R). The free Neudata course *Clinical Data Analysis in R* is the entry requirement. *Statistics at Square One* (regression and survival chapters) supports the modelling sessions (linear, logistic, count and Cox models), the Sterne *BMJ* 2009 paper on multiple imputation supports the missing-data basics in Session 1, and the EQUATOR toolkits support the final Results section.
+- **Level 3: Advanced topics.** For reproducible research, version control and journal-ready figures, see the Level 3 outline (Module G). For meta-analysis, the Cochrane Handbook and PRISMA 2020. For prediction models and ML, TRIPOD+AI and the Riley *BMJ* 2020 sample-size paper. For diagnostic accuracy, STARD 2015 and QUADAS-2. For advanced survival analysis, *Statistics at Square One* and the Bland–Altman Statistics Notes on survival. For clustered and multicentre data, the CONSORT extension for cluster trials.
 
 *All resources were selected for being free, stable and from recognised organisations. Versions change (e.g. CONSORT, ICMJE): always use the current version on the publisher's site.*

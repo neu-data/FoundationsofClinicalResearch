@@ -2,42 +2,50 @@
 title: "Session 4: Exercise sheet"
 ---
 
-[Download the PDF](files/sessions/s4_exercises.pdf) · [Back to Session 4](session4.qmd)
+[Download the PDF](files/sessions/s4_exercises.pdf) · [Download the Word file (to fill in)](files/sessions/s4_exercises.docx) · [Back to Session 4](session4.qmd)
 
-**Foundations of Clinical Research** · Week 4 · Saturday · Neudata · #ClearDataClearImpact
+**Foundations of Clinical Research · Level 1** · Neudata · *#ClearDataClearImpact* · Week 4 · Saturday 21 November 2026 · online, 19:30–22:30
 
-This handout has six parts. You will not need a computer. For the calculations, simple division is enough. The instructor checks every answer with the 2×2 calculator.
+Name: ______________________________   Department: ______________________________
+
+This sheet is sent by email before the session, as a Word file and as a PDF. Keep it open on your screen and type your answers into the Word file (or print the PDF). Have a pen, paper and a calculator (or your phone) ready. For the calculations, simple division is enough. The instructor checks every answer live with the 2x2 calculator (`Course/Resources/tools/2x2_calculator.xlsx`).
+
+All in-session exercises are done by the **whole class together**: the instructor shows each item on the shared screen, you answer in the **poll** or the **chat**, and the instructor types the class answer on the shared screen. There are no groups. The proposal builder (Part F) is your **own** individual work.
 
 | Part | Activity | When | How |
 |---|---|---|---|
-| A | Spot the bias (4 scenarios) | End of section 4.1 (4 min) | Whole room / alone |
-| B | Confounding or effect modification? (3 scenarios) | Homework, or if 4.1 runs early | Alone or pairs |
-| C | Two 2×2 calculations | After the break (20 min) | Alone, then check with a neighbour |
-| D | PPV in two settings | Homework, or if 4.3 runs early | Alone |
-| E | Read a forest plot and choose the risk-of-bias tool | Pair task in 4.3 (6 min) | Pairs |
-| F | Proposal builder 4: exposure, outcomes and biases | End of the session (30 min) | Your group |
+| A | Spot the bias (4 scenarios) | End of section 4.1 (5 min) | Whole class: poll for each scenario, one fix in the chat |
+| B | Confounding or effect modification? (3 scenarios) | Homework (optional) | On your own |
+| C | Two 2x2 calculations | After the break (15 min) | Whole class: poll for each answer |
+| D | PPV in two settings | Homework (optional) | On your own |
+| E | Read a forest plot and choose the risk-of-bias tool | End of section 4.3 (8 min) | Whole class: polls and chat |
+| F | Proposal builder 4: exposure, outcomes and biases | End of the session (38 min) and homework | Instructor models it live; then you draft your own |
 
-**Key words of the day:** bias · confounding · effect modification (interaction) · reverse causation · risk · risk ratio (RR) · risk difference (RD) · number needed to treat (NNT) · odds ratio (OR) · sensitivity · specificity · PPV / NPV · ROC curve · forest plot · I² · risk-of-bias tool.
+**Our running question:** in adults with septic shock, does a restrictive fluid strategy, compared with usual care, reduce 28-day mortality?
+**The two papers** (course folder, `Course/Papers`): Paper 1, Boulet 2024 (a pilot randomised trial of restrictive fluids); Paper 2, Hyun 2023 (a registry cohort of fluid balance and death).
+
+**Key words of the day:** bias · confounding · effect modification (interaction) · reverse causation · risk · risk ratio (RR) · risk difference (RD) · number needed to treat (NNT) · odds ratio (OR) · sensitivity · specificity · positive and negative predictive value (PPV, NPV) · ROC (receiver operating characteristic) curve · forest plot · I-squared (I², heterogeneity) · risk-of-bias tool.
+
+**Other abbreviations on this sheet:** ICU = intensive care unit; CI = confidence interval; RCT = randomised controlled trial.
 
 
 * * *
 
 ## Part A: Spot the bias
 
-**Instructions.** For each scenario, choose the **main** problem: **selection bias**, **recall bias**, **observer bias** or **confounding**. Then write **one practical way** to reduce it.
+**How it runs.** The instructor shows each scenario and opens a poll: **selection bias**, **recall bias**, **observer bias** or **confounding**. After the result, type **one practical way** to reduce it in the chat.
 
 | # | Scenario | Main bias | One way to reduce it |
 |---|---|---|---|
-| 1 | In a case-control study, mothers of babies born with a birth defect remember the medicines they took during pregnancy in more detail than mothers of healthy babies. | | |
-| 2 | In an unblinded trial of an early-mobilisation programme, the trial nurse who knows each patient's group decides whether the patient is "ready for discharge". | | |
-| 3 | A study of quality of life after ICU recruits only the survivors who come back to the follow-up clinic. | | |
-| 4 | In a registry, patients with higher lactate received more fluid and also died more often. The authors conclude that fluid increases mortality. | | |
-
+| 1 | In a case-control study, families of patients who died of sepsis remember the days before ICU admission in more detail than families of survivors. | | |
+| 2 | In an unblinded trial of restrictive fluids, the doctor who knows each patient's group decides when the patient is "ready for ICU discharge". | | |
+| 3 | A study of fluid balance and death includes only patients who stayed in the ICU for 3 days or more. | | |
+| 4 | In a registry, patients with a higher lactate received more fluid and also died more often. The authors conclude that fluid increases mortality. | | |
 
 
 * * *
 
-## Part B: Confounding or effect modification?
+## Part B: Confounding or effect modification? (homework, optional)
 
 **Instructions.** Each study splits its result by a third factor. Compare the strata **with each other** and **with the overall (crude) result**. Decide: **confounding**, **effect modification (interaction)** or **neither**. Then say what the authors should report.
 
@@ -45,71 +53,74 @@ This handout has six parts. You will not need a computer. For the calculations, 
 
 | # | Study (hypothetical) | Overall RR | Stratum 1 | Stratum 2 | Your answer | What to report |
 |---|---|---|---|---|---|---|
-| 1 | Vasopressor X vs Y and death by day 28. Clinicians chose X mainly for patients with high lactate. | 1.80 | lactate < 4: RR 1.00 | lactate ≥ 4: RR 1.00 | | |
-| 2 | Early mobilisation and ICU delirium | 0.70 | age < 65: RR 0.50 | age ≥ 65: RR 0.95 | | |
-| 3 | Hand-hygiene programme and hospital infection | 0.80 | day shift: RR 0.80 | night shift: RR 0.79 | | |
-
+| 1 | Vasopressor X vs Y in septic shock and death by day 28. Clinicians chose X mainly for patients with a high lactate. | 1.80 | lactate below 4: RR 1.00 | lactate 4 or more: RR 1.00 | | |
+| 2 | Restrictive vs usual fluids and death by day 28 | 0.70 | age below 65: RR 0.50 | age 65 or over: RR 0.95 | | |
+| 3 | A nurse-led charting protocol and incomplete fluid charts | 0.80 | day shift: RR 0.80 | night shift: RR 0.79 | | |
 
 
 * * *
 
-## Part C: Two 2×2 calculations
+## Part C: Two 2x2 calculations
 
-**Instructions**
+**How it runs.** Draw each table on your paper first. The instructor then asks each answer as a poll, checks it live with the 2x2 calculator on the shared screen, and a volunteer says the result in one plain sentence.
 
-1. **Draw the 2×2 table first.** Exposure (or treatment) in **rows**, with the exposed/treated group on top. Outcome in **columns**, with "outcome yes" on the left.
-2. Calculate only what is asked. Round to two decimals.
-3. Write **one sentence** a colleague without research training would understand.
+1. **Draw the 2x2 table first.** Exposure (or treatment) in **rows**, with the exposed or treated group on top. Outcome in **columns**, with "outcome yes" on the left.
+2. Round to two decimals.
+3. Say the result in **one sentence** a colleague without research training would understand.
 
 **Reminder**
 
 | Measure | Formula (from the table a, b, c, d) |
 |---|---|
-| Risk in exposed / treated | a / (a + b) |
-| Risk in unexposed / control | c / (c + d) |
+| Risk in exposed or treated | a / (a + b) |
+| Risk in unexposed or control | c / (c + d) |
 | Risk ratio (RR) | risk exposed ÷ risk control |
-| Risk difference (RD) | risk exposed − risk control |
+| Risk difference (RD) | risk exposed minus risk control |
 | Number needed to treat (NNT) | 1 ÷ \|RD\| (RD written as a proportion, e.g. 0.05) |
 | Odds ratio (OR) | (a × d) ÷ (b × c) |
 
-### Calculation 1: a randomised trial
+### Calculation 1: a fluid trial
 
-A trial randomised 400 adults on a medical ward to a new pressure-relieving mattress (200 patients) or a standard mattress (200 patients). A new pressure injury developed in **10** patients on the new mattress and in **20** patients on the standard mattress.
+A hypothetical trial randomised 400 adults with septic shock to a restrictive fluid strategy (200 patients) or usual care (200 patients). By day 28, **20** patients had died in the restrictive group and **30** in the usual-care group.
 
-|  | Pressure injury: YES | Pressure injury: NO | Total |
+|  | Died by day 28: YES | Died by day 28: NO | Total |
 |---|---|---|---|
-| New mattress | a = | b = | |
-| Standard mattress | c = | d = | |
+| Restrictive | a = | b = | |
+| Usual care | c = | d = | |
 
-1. Risk with the new mattress = ______  Risk with the standard mattress = ______
+1. Risk with restrictive fluids = ______  Risk with usual care = ______
 2. RR = ______  3. RD = ______  4. NNT = ______  5. OR = ______
-6. Is the OR close to the RR here? Why?  ______________________________________
+6. The worked example in the slides had the same RR (20/100 vs 30/100). Why is the NNT different here?  ______________________
 7. One sentence for a colleague: ____________________________________________
 
-### Calculation 2: a case-control study
+### Calculation 2: a fluid case-control study
 
-Investigators selected **40** ICU patients with candidaemia (cases) and **80** ICU patients without candidaemia (controls). They looked back for parenteral nutrition. Among the cases, **24** had received parenteral nutrition and 16 had not. Among the controls, **16** had received it and 64 had not.
+Investigators selected **40** ICU patients with sepsis who needed new dialysis (cases) and **80** ICU patients with sepsis from the same units who did not (controls). They looked back at each patient's fluid balance on day 3. Among the cases, **24** had a positive balance and 16 had not. Among the controls, **16** had a positive balance and 64 had not.
 
-|  | Cases (candidaemia) | Controls (no candidaemia) |
+|  | Cases (new dialysis) | Controls (no dialysis) |
 |---|---|---|
-| Parenteral nutrition: YES | a = | b = |
-| Parenteral nutrition: NO | c = | d = |
+| Positive fluid balance on day 3 | a = | b = |
+| Zero or negative balance | c = | d = |
 
 1. OR = ______
-2. Why can you **not** calculate the risk of candidaemia, the RR or the NNT from this study?  ______________________________
-3. One sentence for a colleague: ____________________________________________
+2. Why can you **not** calculate the risk of dialysis, the RR or the NNT from this study?  ______________________________
+3. Could the arrow run the other way here (reverse causation)? Why?  ______________________________
+4. One sentence for a colleague: ____________________________________________
 
 *Note: in a case-control study the columns are the case and control groups. The OR formula (a × d) ÷ (b × c) stays the same.*
 
+### Extra practice (self-study): another topic
+
+A trial randomised 400 adults on a medical ward to a new pressure-relieving mattress (200 patients) or a standard mattress (200 patients). A new pressure injury developed in **10** patients on the new mattress and in **20** on the standard mattress. Draw the table and calculate the two risks, RR, RD, NNT and OR. Is the OR close to the RR here? Why?
 
 
 * * *
 
-## Part D: PPV in two settings
+## Part D: PPV in two settings (homework, optional)
 
 **Instructions.** The same test has **sensitivity 90%** and **specificity 80%**. Complete each table for 500 people, then calculate PPV and NPV.
 
-> Disease present = prevalence × 500. True positives = sensitivity × disease present. True negatives = specificity × disease absent.
+> Disease present = prevalence × 500. True positives (TP) = sensitivity × disease present. True negatives (TN) = specificity × disease absent. FP = false positives; FN = false negatives.
 
 **Setting 1: ICU, prevalence 20%**
 
@@ -132,16 +143,15 @@ PPV = TP / (TP + FP) = ______  NPV = TN / (TN + FN) = ______
 PPV = ______  NPV = ______
 
 1. Why is the PPV so different when the test is the same? ________________________________
-2. Calculate LR+ = sensitivity / (1 − specificity) = ______. Does it change between the settings? ______
+2. Calculate the positive likelihood ratio, LR+ = sensitivity / (1 − specificity) = ______. Does it change between the settings? ______
 3. Optional: repeat for a prevalence of 50%.
-
 
 
 * * *
 
-## Part E: Read a forest plot and choose the risk-of-bias tool (pair task)
+## Part E: Read a forest plot and choose the risk-of-bias tool
 
-The forest plot below is the one shown in section 4.3 (six hypothetical trials of restrictive vs usual fluids; outcome death; fixed-effect pooling).
+**How it runs.** The instructor shows the plot on the shared screen and asks each question as a poll or in the chat. The plot is the one shown in section 4.3 (six hypothetical trials of restrictive vs usual fluids; outcome death; fixed-effect pooling).
 
 ![Forest plot of six hypothetical trials](images/practicals/sat2/forest_reading.png)
 
@@ -156,44 +166,51 @@ The forest plot below is the one shown in section 4.3 (six hypothetical trials o
 
 **Reading the plot**
 
-1. Which trial carries the most weight? Why?  ______________________
-2. Does any single trial show a clear effect (a 95% CI that does not cross 1)?  ______________________
-3. Does the pooled diamond cross RR = 1? Write the pooled result in one plain sentence.  ______________________
-4. Trial 3 points the other way (RR 1.14). Should it worry you? Why or why not?  ______________________
+1. (Poll) Which trial carries the most weight? Why?  ______________________
+2. (Poll) Does any single trial show a clear effect (a 95% CI that does not cross 1)?  ______________________
+3. (Chat) Does the pooled diamond cross RR = 1? Write the pooled result in one plain sentence.  ______________________
+4. (Self-study) Trial 3 points the other way (RR 1.14). Should it worry you? Why or why not?  ______________________
 
-**Choosing the tool.** For each study, choose the risk-of-bias tool: **RoB 2**, **ROBINS-I**, **Newcastle–Ottawa (or ROBINS-E)**, **QUADAS-2** or **AMSTAR 2**.
+**Choosing the tool (poll).** For each study, choose: **RoB 2** (Cochrane risk-of-bias tool for randomised trials), **ROBINS-I** (non-randomised studies of interventions), **Newcastle-Ottawa Scale (or ROBINS-E)** (cohort or case-control studies of exposures), **QUADAS-2** (diagnostic accuracy studies) or **AMSTAR 2** (systematic reviews). A one-page chooser is in `Course/Resources/Risk_of_Bias_Tool_Chooser.pdf`.
 
 | # | Study | Tool |
 |---|---|---|
-| a | Boulet 2024: randomised trial of restrictive vs usual fluids | |
-| b | Hyun 2023: registry cohort, positive vs negative fluid balance | |
-| c | Before–after study of a central-line bundle on one unit | |
-| d | Point-of-care lactate compared with the laboratory reference test for detecting hyperlactataemia | |
-| e | Systematic review and meta-analysis of fluid-restriction trials | |
-| f | Cluster-randomised trial of a hand-hygiene programme (12 wards) | |
-
+| a | Paper 1, Boulet 2024: randomised trial of restrictive vs usual fluids | |
+| b | Paper 2, Hyun 2023: registry cohort, positive vs negative fluid balance | |
+| c | Systematic review and meta-analysis of fluid-restriction trials | |
+| d | (Self-study) Before-after study of a fluid protocol on one unit | |
+| e | (Self-study) Point-of-care lactate compared with the laboratory reference test | |
+| f | (Self-study) Cluster-randomised trial of a fluid-charting protocol (12 ICUs) | |
 
 
 * * *
 
 ## Part F: Proposal builder 4 (exposure, outcomes and biases)
 
-**Instructions.** Complete the rest of Part 2 of your proposal (rows 1–3 were written in Session 3), then copy it into the template. For every outcome write **what**, **how** and **when**.
+**This is your own work.** Every participant writes their own research proposal on a question from their own department (see `Course/Assignment/proposal_brief.md`).
 
-**Our research question:** _______________________________________________
+**How it runs (38 minutes).**
 
-| # | Section | What to write | Our answer |
+1. **Watch (15 min).** The instructor fills in rows 4-6 below for the running example on the shared screen, thinking aloud.
+2. **Draft (16 min).** You fill in the same rows for your own question, quietly (cameras optional). Ask questions in the chat.
+3. **Feedback (7 min).** Three volunteers paste one bias and its fix in the chat; the instructor comments.
+
+Then finish as homework and copy your answers into the proposal template (`Course/Templates/Research_Proposal_Template.docx`, Part 2). Rows 1-3 (design, setting, population) were drafted after Session 3. For every outcome write **what**, **how** and **when**.
+
+**My research question:** _______________________________________________
+
+| # | Section | What to write | My answer |
 |---|---|---|---|
-| 4 | **Exposure / intervention** and **comparator** | What exactly is the exposure or intervention, and how is it defined or measured? Who is the comparison group? | |
-| 5 | **Outcomes** | **ONE primary outcome**: what it is, how and when it is measured. **2–3 secondary outcomes.** | |
-| 6 | **Main biases and how we reduce them** | Name at least **two** threats (selection, information, confounding) and the step in your design that reduces each. | |
+| 4 | **Exposure or intervention** and **comparator** | What exactly is the exposure or intervention, and how is it defined or measured? Who is the comparison group? | |
+| 5 | **Outcomes** | **ONE primary outcome**: what it is, how and when it is measured. **2-3 secondary outcomes.** | |
+| 6 | **Main biases and how I reduce them** | Name at least **two** threats (selection, information, confounding) and the step in your design that reduces each. | |
 
-**Our claim at the end will be:** ☐ "caused" (randomised design) ☐ "associated with" (observational design), because ____________________
+**My claim at the end will be:** ☐ "caused" (randomised design) ☐ "associated with" (observational design), because ____________________
 
-**Group self-check before you finish**
+**Self-check before you finish**
 
-- [ ] There is a comparison group, or we explain why our study is descriptive.
+- [ ] There is a comparison group, or I explain why my study is descriptive.
 - [ ] There is only ONE primary outcome, with a method and a time point.
-- [ ] If our design is observational, we have named the main confounders (think: confounding by indication).
+- [ ] If my design is observational, I have named the main confounders (think: confounding by indication).
 - [ ] Each bias has a concrete mitigation step ("we will be careful" is not a mitigation).
 - [ ] Part 2 is complete: design, setting, population (Session 3) + exposure, comparator, outcomes, biases (today).

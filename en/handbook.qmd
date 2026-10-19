@@ -17,13 +17,13 @@ The files named in the toolkit table below are on the [Templates](templates.qmd)
 
 ## Welcome
 
-Every day you make clinical decisions that research could improve. Over eight weeks, with one session every Saturday, this course takes you through the whole research process: from a question at the bedside, to a sound study design, to analysing data, to writing and publishing the paper.
+Every day you make clinical decisions that research could improve. Over eight weeks, with one online session every Saturday evening (19:30 to 22:30, Vietnam time), this course takes you through the whole research process: from a question at the bedside, to a sound study design, to analysing data, to writing and publishing the paper.
 
-You do not need any research or statistics background. We go slowly, with pictures, examples from your own wards and a lot of group work. You will never be asked to calculate anything beyond a simple 2×2 table, and you do not need any software: the trainers run the analyses, and you learn to read and write them up.
+You do not need any research or statistics background. We go slowly, with pictures, one running example and a lot of short polls and questions in the chat. The course is fully online and you join from home. There are no groups or breakout rooms: the whole class works through every exercise together, with the instructor. You will never be asked to calculate anything beyond a simple 2×2 table, and you do not need any software: the trainers run the analyses, and you learn to read and write them up.
 
 ## The course at a glance
 
-| Week | Session (all on Saturday) | Theme | Your group builds |
+| Week | Session (Saturdays, 19:30 to 22:30, online) | Theme | You build (homework) |
 |---|---|---|---|
 | **1** | 1 | **ASK:** from clinical problem to research question | Proposal: topic, PICO, question, aims |
 | **2** | 2 | **FIND & READ:** searching, managing references, reading a paper in 15 minutes | Proposal: search, 5 references, problem statement, working title |
@@ -32,34 +32,34 @@ You do not need any research or statistics background. We go slowly, with pictur
 | **5** | 5 | **DATA:** CRFs, data management, describing data, *meeting the course dataset* | Proposal: variables, CRF, data plan · Manuscript: Table 1 understood |
 | **6** | 6 | **ANALYSE:** CIs, p-values, tests, regression, survival, missing data, *analysing the course dataset* | Proposal: sample size, analysis plan · Manuscript: results interpreted |
 | **7** | 7 | **PROTECT & WRITE:** ethics, registration, integrity, and writing Methods and Results | Proposal: ethics, feasibility, publication plan · Manuscript: Methods + Results |
-| **8** | 8 | **PUBLISH:** Introduction, Discussion, abstract, journals, submission, peer review and presentations | Manuscript: complete draft · Proposal presented |
+| **8** | 8 | **PUBLISH:** Introduction, Discussion, abstract, journals, submission, peer review and presentations | Manuscript: complete draft · Proposal submitted (about 5 volunteers present) |
 
-Each session lasts 3 hours with a 15-minute break. It has a short recap, two teaching blocks with frequent "check your understanding" moments, and time to build your proposal or paper. Each session also has extra slides at the end for anyone who wants to read further at home.
+Each session lasts 3 hours with a 15-minute break. It has a short recap, two teaching blocks with frequent "check your understanding" moments (a quick poll or an answer in the chat), and a proposal-builder segment in which the instructor shows the next part of the proposal on the running example. You then write the same part for your own question at home. Each session also has extra slides at the end for anyone who wants to read further at home.
 
 ### The running example
-One clinical topic travels with us: **fluids in septic shock**. In Weeks 1–4 we ask, search and design the question, and look at two real papers (a randomised trial and a cohort study). In Weeks 5–8 we analyse FLUID-ICU, a realistic *simulated* dataset of 620 ICU patients, and write it up as a paper.
+One clinical topic travels with us: **fluids in septic shock**. In Weeks 1 to 4 we ask, search and design the question, and look at two real papers (a randomised trial and a cohort study). In Weeks 5 to 8 we read the results of FLUID-ICU, a realistic *simulated* dataset of 620 ICU patients, and you write them up as a paper.
 
-## Your group and its two products
+## Your two products (individual)
 
-You stay in the same group of about six for all eight sessions. Agree roles in Session 1 (they can rotate): facilitator, scribe, timekeeper, literature lead, methods & data lead, presenter.
+Everyone works on their own products. There are no groups.
 
-1. **A research proposal on your own question**, built one part every two weeks and presented in Session 8 (6 minutes + 2 minutes of feedback). See `Assignment/proposal_brief.md`.
-2. **A draft manuscript from the course dataset.** Each group answers a different question on FLUID-ICU (e.g. fluid balance and mortality, kidney injury, ventilator-free days, lactate and missing data, ICU length of stay), using its results pack. You draft Methods and Results in Session 7 and the rest in Session 8. After the course, groups review each other's drafts and reply like real authors. See `Assignment/manuscript_brief.md` and `Assignment/peer_review_instructions.md`.
+1. **A research proposal on your own question**, from your own department, built one part at a time as homework and submitted in Session 8 (written proposal + 6 slides). About 5 volunteers also present their proposal in Session 8 (6 minutes + 2 minutes of feedback); presenting is optional. See `Assignment/proposal_brief.md`.
+2. **A draft manuscript from the course dataset.** You choose ONE of the five FLUID-ICU questions, Q1 to Q5 (fluid balance and mortality, kidney injury, ventilator-free days, lactate and missing data, ICU length of stay). We give you the results in a results pack, and you write the paper. The instructor models Methods and Results in Session 7 and the rest in Session 8; you write your own as homework. After the course, you review one classmate's draft (assigned by the instructor) and reply to the review of yours like a real author. See `Assignment/manuscript_brief.md` and `Assignment/peer_review_instructions.md`.
 
-## Between sessions (one week; about 30–60 minutes)
+## Between sessions (one week; about 30 to 60 minutes)
 
 | After | Do this |
 |---|---|
-| Session 1 | Think of synonyms for your PICO terms |
+| Session 1 | Draft your topic, PICO, research question, FINER check, aim and objectives; think of synonyms for your PICO terms |
 | Session 2 | Finish Proposal Part 1 and the literature matrix; read the abstract of Paper 2 |
 | Session 4 | Finish Proposal Part 2 |
-| Session 5 | Read your group's results pack (Table 1 and figures) |
-| Session 6 | Finish Proposal Part 3; read Papers 1 and 2; start your 6-slide presentation |
-| Session 7 | Finish Proposal Part 4 and your presentation; re-read your Methods + Results |
-| Session 8 | Polish the manuscript; peer-review swap and response letter within 2 weeks |
+| Session 5 | Finish Proposal Part 3 (variables, CRF, data plan); look at the five results packs (Q1 to Q5) |
+| Session 6 | Finish Proposal Part 3; choose your manuscript question (Q1 to Q5) and read its results pack; read Papers 1 and 2; start your 6 slides |
+| Session 7 | Finish Proposal Part 4 and your 6 slides; draft the Methods + Results for your question |
+| Session 8 | Finish and submit the manuscript; review one classmate's draft within 1 week; response letter within 2 weeks |
 
 ## What you need
-A pen, a notebook, and (optional) a laptop or phone for PubMed and the online quiz. No software to install. Participants who have done the free Neudata course *Clinical Data Analysis in R* may re-run the course analyses with the scripts in `Data/R/`.
+A computer (or tablet) with a stable internet connection, camera and microphone (a headset helps), the meeting link sent before Session 1, and a quiet place for 3 hours. A pen and a notebook. No statistics software to install. Exercise sheets and other handouts are sent as PDFs before each session. Participants who have done the free Neudata course *Clinical Data Analysis in R* may re-run the course analyses with the scripts in `Data/R/`.
 
 ## Your toolkit
 
@@ -83,7 +83,7 @@ A pen, a notebook, and (optional) a laptop or phone for PubMed and the online qu
 | English–Vietnamese glossary, further reading | `References/` |
 
 ## The quiz
-In Session 1 and again at the end of Session 8 you answer the same 24 questions. It is anonymous (participant number only) and measures what the *course* achieved, not you.
+In Session 1 and again at the end of Session 8 you answer the same 24 questions online (a link is posted in the chat). It is anonymous (participant code only) and measures what the *course* achieved, not you.
 
 ## After the course
 Take your proposal to the ethics committee and keep improving your manuscript. This course is Level 1. If you want to run analyses yourself, Level 2 is a hands-on course in R (prerequisite: this course and the free *Clinical Data Analysis in R* course). Level 3 offers advanced, specialised methods on request (`Course_Levels/`).

@@ -21,16 +21,18 @@ format:
 - 2.2  Managing and citing: Zotero demo, citation styles, paraphrasing, grey literature
 - Break
 - 2.3  Reading a paper in 15 minutes and 2.4 from literature to introduction
-- Proposal builder 2: search string, 5 references, problem statement, working title
+- Proposal builder 2: your own search, 5 references, problem statement, working title
 
 ::: {.notes}
-SESSION 2 OPENING (0:00).
+SESSION 2 OPENING (0:00, 19:30).
 
-Teaching point: last Saturday each group wrote a question; today we find out what is already known about it, keep the references safely, and read papers efficiently.
+Open with what the Session 1 exit question showed (for example, how many people still used vague verbs) and spend one minute on it if needed.
+
+Teaching point: last Saturday each participant started their own question. Today we find out what is already known about it, keep the references safely, and read papers efficiently.
 
 Pace: slower than it looks. Every block has a demo or a task. Use the 'Check your understanding' slides: they show you who is lost.
 
-Practical check before starting: each group has its PICO question, its synonym list (homework), and at least one laptop or phone.
+Practical check before starting (chat): everyone has their PICO question, their synonym list (homework) and Zotero installed. Paste two links in the chat: the Session 2 exercise sheet (PDF) and Paper 1 as a clean PDF (the unannotated original, Course/Papers/Paper 1 - Boulet 2024 Crit Care (RCT) - original.pdf, also linked by DOI on the course website page 'The two papers').
 
 Timing: 1 minute, then the recap quiz.
 :::
@@ -42,19 +44,19 @@ QUICK QUIZ · 8 min
 :::
 
 ::: {.neu-activity-steps style="--c:#6C3483"}
-- Checking whether fluid balance is charted daily as the protocol says: research, audit or QI?
-- 'In ICU staff, does hand-hygiene feedback vs none increase compliance at 3 months?' Name P, I, C, O, T
+- Which course paper is a trial and which is a cohort: Paper 1 (Boulet) or Paper 2 (Hyun)?
+- 'In adults with sepsis, is a positive fluid balance by day 3, vs not, linked to death by day 28?' Name P, E, C, O, T
 - Which FINER letter did our running example fail?
-- Which is an objective: 'to understand delirium' or 'to estimate the proportion with delirium'?
-- Write H0 for: does early mobilisation shorten ICU stay?
+- Which is an objective: 'to understand fluid balance' or 'to estimate the proportion fluid-positive on day 3'?
+- Write H0 for: does a restrictive protocol reduce fluid balance at day 5?
 :::
 
 ::: {.neu-output style="--c:#6C3483"}
-**OUTPUT** Answers on paper, checked against the next slide
+**OUTPUT** Answers in the online quiz form (link in the chat), checked against the next slide
 :::
 
 ::: {.notes}
-RECAP QUIZ (0:00-0:10). Individual, on paper, 6 minutes; then 2 minutes comparing with a neighbour. Answers on the next slide.
+RECAP QUIZ (0:00-0:10, 19:30-19:40). Individual, in a short online form (or answers typed in the chat), 6 minutes, then 2 minutes to show the form results on screen. Answers on the next slide. The questions are also on the Session 2 exercise sheet.
 
 This also re-activates last Saturday's vocabulary for today's search.
 
@@ -67,38 +69,34 @@ Timing: 8 minutes.
 
 :::: {.neu-cards style="--n:5"}
 ::: {.neu-card .plain style="--c:#0D7377"}
-[Audit]{.neu-card-title}
+[Designs]{.neu-card-title}
 
-- Checking practice
-- against a standard
+- Paper 1 is a trial (RCT)
+- Paper 2 is a cohort
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
-[PICO(T)]{.neu-card-title}
+[PECO(T)]{.neu-card-title}
 
-- P ICU staff
-- I feedback  C none
-- O compliance
-- T 3 months
+- P: adults with sepsis
+- E: positive balance by day 3
+- C: neutral or negative balance
+- O and T: death by day 28
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
 [Feasible]{.neu-card-title}
 
-- Mortality needs
-- 1,000+ patients
+- Mortality needs more than 1,000 patients
 :::
 ::: {.neu-card .plain style="--c:#0070C0"}
 [Estimate]{.neu-card-title}
 
-- A measurable verb;
-- 'understand' is not
+- 'Estimate' is measurable
+- 'Understand' is not
 :::
 ::: {.neu-card .plain style="--c:#055F56"}
 [H0]{.neu-card-title}
 
-- ICU stay is the
-- same with early
-- mobilisation and
-- usual care
+- Fluid balance at day 5 is the same in both groups
 :::
 ::::
 
@@ -107,9 +105,9 @@ Timing: 8 minutes.
 :::
 
 ::: {.notes}
-Go through the five answers in 2 minutes. Ask for a show of hands: who got 4 or 5?
+Go through the five answers in 2 minutes. Quick poll: how many did you get right (0-3, 4 or 5)?
 
-If many missed question 4 or 5, spend one extra minute: objectives use measurable verbs; H0 always says 'no difference'.
+If many missed question 4 or 5, spend one extra minute: objectives use measurable verbs, and H0 always says 'no difference'.
 
 Timing: 2 minutes. Segment 2.1 starts at 0:10.
 :::
@@ -122,43 +120,114 @@ Before you study it, find out what is already known.
 :::
 
 ::: {.neu-sub}
-40 minutes: the search funnel, PICO to search blocks, Boolean, MeSH, search tools and a live PubMed demo
+40 minutes: the search funnel, PICO to search blocks, Boolean, MeSH, search tools, checking for a systematic review and a live PubMed demo
 :::
 ::::
 
 ::: {.notes}
-SEGMENT 2.1 (0:10-0:50).
+SEGMENT 2.1 (0:10-0:50, 19:40-20:20).
 
 Teaching point: the literature search decides whether the question is novel, gives the background for the problem statement, and shows how others measured the outcome.
 
-Ask the room: 'What do you usually do when you need evidence quickly?' Honest answers: Google, a colleague, UpToDate, a guideline. All fine for care, but a proposal needs a documented search.
+Ask the class (chat): 'What do you usually do when you need evidence quickly?' Honest answers: Google, a colleague, UpToDate, a guideline. All fine for care, but a proposal needs a documented search.
 
 Timing: 1 minute.
 :::
 
 ## The search funnel
 
-![](images/figures/sat1/search_funnel.png){.neu-fig}
+::: {.neu-intro}
+Write down each step: the date, the search string, the filters and the number of hits.
+:::
+
+:::: {.neu-steps}
+::: {.neu-step style="--c:#0D7377"}
+[All of PubMed]{.neu-step-label}
+
+- **More than 40 million records**
+- As of October 2026
+:::
+::: {.neu-step style="--c:#0B376C"}
+[One keyword]{.neu-step-label}
+
+- septic shock
+- **Tens of thousands**
+:::
+::: {.neu-step style="--c:#5FA39B"}
+[PICO blocks]{.neu-step-label}
+
+- MeSH and free text, AND and OR
+- **A few thousand**
+:::
+::: {.neu-step style="--c:#0070C0"}
+[Filters]{.neu-step-label}
+
+- RCT, review, adults, years
+- **Hundreds**
+:::
+::: {.neu-step style="--c:#055F56"}
+[Screen]{.neu-step-label}
+
+- Read titles and abstracts
+- **Dozens**
+:::
+::: {.neu-step style="--c:#8A99A3"}
+[Keep]{.neu-step-label}
+
+- **5-10 key papers**
+:::
+::::
 
 ::: {.neu-takeaway}
 **KEY MESSAGE** A good search starts wide, narrows step by step, and is written down.
 :::
 
 ::: {.notes}
-Walk down the funnel: all of PubMed, one keyword, structured PICO blocks, filters, human screening, a handful of key papers.
+Walk along the funnel from left to right: all of PubMed, one keyword, structured PICO blocks, filters, screening by people, a handful of key papers.
 
-The numbers are orders of magnitude only. They change every day.
+Source for the PubMed size: the PubMed 'About' page (https://pubmed.ncbi.nlm.nih.gov/about/) says 'more than 40 million citations and abstracts'. Checked on 19 October 2026 (page last updated 11 March 2025). Check it again before teaching and update the 'as of' date if the number has changed.
+
+The other numbers are orders of magnitude only. They change every day.
 
 Teaching point: the last two steps are done by reading, not by the computer.
 
-Ask the room: 'Why write down the date and the search string?' Expected: so it can be repeated. Journals and reviewers ask for it.
+Ask the class (chat): 'Why write down the date and the search string?' Expected: so it can be repeated. Journals and reviewers ask for it.
 
-Timing: 3 minutes.
+This slide is built from editable shapes: change a number or add a reference directly in PowerPoint.
+
+Timing: 2 minutes.
 :::
 
 ## From PICO to search blocks
 
-![](images/figures/sat1/pico_to_search.png){.neu-fig}
+::: {.neu-intro}
+OR inside a block, AND between blocks: (P synonyms) AND (I synonyms) AND (O synonyms). C (usual care) is usually not searched.
+:::
+
+:::: {.neu-cards style="--n:3"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[P:  septic shock]{.neu-card-title}
+
+- "Shock, Septic"\[MeSH\]
+- OR "septic shock"\[tiab\]
+- OR sepsis\[tiab\]
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[I:  restrictive fluids]{.neu-card-title}
+
+- "Fluid Therapy"\[MeSH\]
+- OR "fluid restrict\*"\[tiab\]
+- OR "restrictive fluid\*"\[tiab\]
+- OR "conservative fluid\*"\[tiab\]
+:::
+::: {.neu-card .plain style="--c:#0070C0"}
+[O:  mortality]{.neu-card-title}
+
+- Mortality\[MeSH\]
+- OR mortality\[tiab\]
+- OR death\[tiab\]
+:::
+::::
 
 ::: {.neu-takeaway}
 **KEY MESSAGE** One block per PICO concept: OR inside a block, AND between blocks.
@@ -173,21 +242,47 @@ The comparison (usual care) is normally left out because the words vary too much
 
 Misconception: 'just type the whole question into PubMed'. You lose control of synonyms and logic.
 
-Ask the room: 'Which other words would authors use for restrictive?' Expected: conservative, limited, de-resuscitation, fluid removal, negative fluid balance.
+Ask the class (chat): 'Which other words would authors use for restrictive?' Expected: conservative, limited, de-resuscitation, fluid removal, negative fluid balance.
 
 Timing: 4 minutes.
 :::
 
-## Worked example 2: a ward question
+## Another example: a ward question
 
-![](images/figures/sat1/pico_to_search_ward.png){.neu-fig}
+::: {.neu-intro}
+Question: in adults at risk on the ward, does 2-hourly repositioning reduce new pressure injuries?
+:::
+
+:::: {.neu-cards style="--n:3"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[P + O:  pressure injury]{.neu-card-title}
+
+- "Pressure Ulcer"\[Mesh\]
+- OR "pressure injur\*"\[tiab\]
+- OR "pressure ulcer\*"\[tiab\]
+- OR bedsore\*\[tiab\]
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[I:  repositioning]{.neu-card-title}
+
+- "Patient Positioning"\[Mesh\]
+- OR reposition\*\[tiab\]
+- OR turning\[tiab\]
+:::
+::: {.neu-card .plain style="--c:#055F56"}
+[Join the blocks with AND]{.neu-card-title}
+
+- Tip: when P and O are the same idea (pressure injury), one block can carry both.
+- Authors write ulcer, injury, bedsore, decubitus. MeSH collects them under "Pressure Ulcer".
+:::
+::::
 
 ::: {.neu-takeaway}
 **KEY MESSAGE** Same method for any topic: concepts in blocks, synonyms with OR, blocks with AND.
 :::
 
 ::: {.notes}
-A second worked example, from the ward, so nurses and pharmacists see the method works beyond the ICU.
+Another worked example, from the ward, so colleagues outside the ICU see that the method works for any topic.
 
 Question: in adults at risk on the ward, does 2-hourly repositioning reduce new pressure injuries?
 
@@ -195,9 +290,9 @@ Here P and O share the same idea (pressure injury), so one block carries both. T
 
 MeSH: authors write pressure ulcer, pressure injury, bedsore, decubitus. The MeSH heading 'Pressure Ulcer' collects them.
 
-Ask the room: 'Which other words would authors use for repositioning?' Expected: turning, position change, mobilisation, offloading.
+Ask the class (chat): 'Which other words would authors use for repositioning?' Expected: turning, position change, mobilisation, offloading.
 
-Timing: 4 minutes.
+Timing: 3 minutes.
 :::
 
 ## Boolean logic in pictures
@@ -213,11 +308,11 @@ AND: only papers with both concepts, so fewer hits. OR: either word, so more hit
 
 NOT removes every paper that mentions the second term, even good papers that mention neonates once. That is why NOT is risky.
 
-Tip: operators in CAPITALS; brackets control the order.
+Tip: type the operators in capitals, and use brackets to control the order.
 
-Ask the room: 'septic shock AND fluids vs septic shock OR fluids: which gives more hits?' Expected: OR.
+Ask the class (chat): 'septic shock AND fluids vs septic shock OR fluids: which gives more hits?' Expected: OR.
 
-Timing: 3 minutes.
+Timing: 2 minutes.
 :::
 
 ## Check your understanding: AND, OR or NOT?
@@ -227,14 +322,14 @@ QUICK QUIZ · 2 min
 :::
 
 ::: {.neu-activity-steps style="--c:#6C3483"}
-- You want papers that mention BOTH delirium AND hip fracture: which operator?
-- You want papers using EITHER 'pressure ulcer' OR 'bedsore': which operator?
+- You want papers that mention both septic shock and fluid restriction: which operator?
+- You want papers using either 'restrictive' or 'conservative' fluids: which operator?
 - Your search found 40,000 hits. Will adding a third AND block give more or fewer?
 - Why is 'sepsis NOT children' risky?
 :::
 
 ::: {.neu-output style="--c:#6C3483"}
-**OUTPUT** Answers out loud
+**OUTPUT** Answers in the chat (or the poll)
 :::
 
 ::: {.notes}
@@ -258,9 +353,54 @@ Searching a MeSH term includes the narrower terms below it ('explode'). For exam
 
 The newest records may not be indexed yet, so always add free-text \[tiab\] words.
 
-Ask the room: 'Why does MeSH help a nurse searching for pressure injury?' Expected: authors write pressure ulcer, bedsore, decubitus ulcer, and MeSH collects them under one heading.
+Ask the class (chat): 'Why does MeSH help a nurse searching for pressure injury?' Expected: authors write pressure ulcer, bedsore, decubitus ulcer, and MeSH collects them under one heading.
 
-Timing: 3 minutes.
+Next slide: how to find the right MeSH term.
+
+Timing: 2 minutes.
+:::
+
+## How to find the right MeSH term
+
+:::: {.neu-cards style="--n:3"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[MeSH Database]{.neu-card-title}
+
+- PubMed home page, under Explore
+- Type a word, e.g. bedsore
+- It shows the heading: Pressure Ulcer
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[A paper you trust]{.neu-card-title}
+
+- Open a relevant paper in PubMed
+- Scroll down to 'MeSH terms'
+- Reuse the ones that fit
+:::
+::: {.neu-card .plain style="--c:#5FA39B"}
+[Search details]{.neu-card-title}
+
+- PubMed maps your words to MeSH
+- Check which heading it used
+:::
+::::
+
+::: {.neu-takeaway}
+**KEY MESSAGE** Look up MeSH terms, do not guess them.
+:::
+
+::: {.notes}
+Participants cannot know which words are MeSH terms. Show them three ways to find out.
+
+Route 1, the MeSH Database: on the PubMed home page, under Explore, click 'MeSH Database' (or go to https://www.ncbi.nlm.nih.gov/mesh). Type an everyday word. The record shows the official heading, its definition, the entry terms it collects (for Pressure Ulcer: bedsore, decubitus ulcer, pressure injury and others) and its place in the tree. 'Add to search builder' sends it to PubMed.
+
+Route 2, a known paper: open a paper you already know is relevant (for us, CLASSIC or Paper 1), scroll down to 'MeSH terms' and reuse the headings that match your concepts. The demo shows this.
+
+Route 3, Search details: run your free-text words, then open 'Search details' on the Advanced page. PubMed's automatic term mapping shows which MeSH heading it matched.
+
+Check the record before you use a heading: sometimes the heading is broader or narrower than you expect.
+
+Timing: 2 minutes.
 :::
 
 ## Four tools that sharpen a search
@@ -269,29 +409,26 @@ Timing: 3 minutes.
 ::: {.neu-card .plain style="--c:#0D7377"}
 ["Quotes"]{.neu-card-title}
 
-- "septic shock"
-- = exact phrase
-- not two loose words
+- "septic shock" = the exact phrase
+- Not two loose words
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
 [Truncation \*]{.neu-card-title}
 
-- restrict\*
-- = restrict, restricted,
-- restriction, restrictive
+- child\* finds child, children, childhood
+- Use it when one idea has many word endings
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
 [Field tags]{.neu-card-title}
 
-- \[tiab\] title/abstract
+- \[tiab\] title or abstract
 - \[mh\] MeSH term
 - \[pt\] article type
 :::
 ::: {.neu-card .plain style="--c:#0070C0"}
 [Filters]{.neu-card-title}
 
-- Article type (RCT,
-- systematic review)
+- Article type (RCT, systematic review)
 - Date, age, humans
 :::
 ::::
@@ -301,9 +438,13 @@ Timing: 3 minutes.
 :::
 
 ::: {.notes}
-Quotes keep a phrase together. Truncation finds all endings, but too short a stem (flu\*) finds influenza and fluoride too.
+Quotes keep a phrase together.
 
-Field tags restrict where PubMed looks; filters (left of the results) narrow by article type, date, age. Each filter needs a reason you can write down.
+Truncation (the asterisk) helps when authors write the same idea with different endings. Clinical example: for a paediatric question, child\* finds child, children, childhood and childhood-onset in one go, instead of typing each word with OR. Other useful stems: nurs\* (nurse, nurses, nursing), restrict\* (restricted, restriction, restrictive).
+
+Cautions: child\* also finds childbirth, and too short a stem (flu\*) finds influenza and fluoride. In PubMed the stem needs at least four letters, and a truncated word is not mapped to MeSH, so keep the MeSH term in the block as well.
+
+Field tags restrict where PubMed looks. Filters (left of the results) narrow by article type, date and age. Each filter needs a reason you can write down.
 
 Misconception: 'filter to free full text'. That throws away key papers.
 
@@ -312,22 +453,74 @@ Timing: 3 minutes.
 
 ## PubMed vs Google Scholar
 
-![](images/figures/sat1/pubmed_vs_scholar.png){.neu-fig}
+| PubMed | Google Scholar |
+|:---|:---|
+| What it covers | Biomedical journals, indexed by experts | Almost everything: theses, books, preprints, websites |
+| MeSH (controlled vocabulary) | Yes | No |
+| Filters (design, age, date) | Yes, many | Few (date, reviews) |
+| Transparent, repeatable | Yes | No: ranking is hidden |
+| "Cited by" a key paper | Partial | Yes |
+| Best for | Your main, repeatable search | A quick check, grey literature, citations |
 
 ::: {.neu-takeaway}
-**KEY MESSAGE** PubMed for the main search; Google Scholar to check and to follow citations.
+**KEY MESSAGE** PubMed for the main search. Google Scholar to check and to follow citations.
 :::
 
 ::: {.notes}
 PubMed: free, run by the US National Library of Medicine, biomedical journals, MeSH, many filters, a transparent search you can repeat.
 
-Google Scholar: very broad (theses, books, preprints), good for grey literature and 'Cited by'; but hidden ranking, few filters, hard to repeat.
+Google Scholar: very broad (theses, books, preprints), good for grey literature and 'Cited by', but hidden ranking, few filters, hard to repeat.
 
-Other databases exist (Embase, CINAHL for nursing, Cochrane Library), but they are not needed for Level 1.
+PubMed is not the only database. Embase, the Cochrane Library, Web of Science, Scopus and CINAHL (for nursing) are the other standard sources. A systematic review searches several of them (extra slide 'Beyond PubMed'). For a Level 1 proposal, PubMed plus a trial registry is enough.
 
-Ask the room: 'A colleague found a perfect paper in Google Scholar. What should you check?' Expected: peer-reviewed or preprint? Legitimate journal? (Predatory journals: Session 8.)
+Ask the class (chat): 'A colleague found a perfect paper in Google Scholar. What should you check?' Expected: peer-reviewed or preprint? Legitimate journal? (Predatory journals: Session 8.)
 
-Timing: 3 minutes.
+Timing: 2 minutes.
+:::
+
+## First check: is there already a systematic review?
+
+:::: {.neu-cards style="--n:4"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[Search for reviews]{.neu-card-title}
+
+- Cochrane Library
+- PubMed filter: Systematic Review
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[Reviews in progress]{.neu-card-title}
+
+- PROSPERO lists registered systematic reviews
+:::
+::: {.neu-card .plain style="--c:#5FA39B"}
+[Then decide]{.neu-card-title}
+
+- A recent, good review: build on it
+- None, or out of date: that is a gap
+:::
+::: {.neu-card .plain style="--c:#0070C0"}
+[Learn to do one]{.neu-card-title}
+
+- Level 3, Module A: systematic review and meta-analysis
+:::
+::::
+
+::: {.neu-takeaway}
+**KEY MESSAGE** Before you plan a study, find out what has been done, starting with systematic reviews.
+:::
+
+::: {.notes}
+Teaching point: before starting any research, get an overview of what is already known about your question. The best overview is a systematic review: one you find, or one you do yourself.
+
+Where to look: the Cochrane Library (Cochrane systematic reviews, mostly on treatments), PubMed with the article-type filter 'Systematic Review', and PROSPERO (https://www.crd.york.ac.uk/prospero/), the international register of systematic reviews that are planned or under way.
+
+If a recent, good review answers your question, do not repeat it: build on it and move your question to the gap that remains. If there is none, or it is out of date, that gap is part of your justification.
+
+Doing a systematic review and meta-analysis yourself is a course of its own: Level 3 has a dedicated module (Module A: systematic review and meta-analysis).
+
+Ask the class (chat): 'Has anyone started a project and then found it had already been done?'
+
+Timing: 2 minutes.
 :::
 
 ## Live demo: searching PubMed for our question
@@ -344,7 +537,7 @@ LIVE DEMO · 10 min
 - Look at 'Search details': what did PubMed really search?
 - Add filters: RCT and systematic review, adults, last 10 years
 - Open one result: abstract, MeSH terms, 'Similar articles', 'Cited by'
-- Send to: Citation manager (we import it in 2.2)
+- Click 'Send to', then 'Citation manager' (we import it in 2.2)
 :::
 :::
 ::: {.column width="40%"}
@@ -353,7 +546,7 @@ Watch for
 
 - How the hits fall at each step
 - Which papers keep appearing
-- Can you find Paper 1 and CLASSIC?
+- Can you find Paper 1 and the CLASSIC trial (Meyhoff 2022)?
 :::
 :::
 ::::
@@ -365,11 +558,13 @@ Watch for
 ::: {.notes}
 Follow Course/Demos/s2\_demo.md, Part A (PubMed): exact strings, where to click, and the offline fallback.
 
-Do not promise hit counts. Expect tens of thousands for 'septic shock' and a few thousand for the full PICO string; numbers change every day.
+Do not promise hit counts. Expect tens of thousands for 'septic shock' and a few thousand for the full PICO string. The numbers change every day.
 
-Narrate slowly and pause after each step so participants can write the number of hits on their sheet.
+CLASSIC (first time we name it): a large randomised trial, Meyhoff et al., N Engl J Med 2022, 'Restriction of Intravenous Fluid in ICU Patients with Septic Shock'. The name stands for Conservative versus Liberal Approach to Fluid Therapy of Septic Shock in Intensive Care. In 1,554 adults with septic shock in European ICUs, restricting IV fluid did not change 90-day mortality. It is the main trial behind our running example, so say this when it appears in the results.
 
-If the internet fails, switch to the screenshots. Do not troubleshoot in front of the room.
+Share your screen. Narrate slowly and pause after each step so participants can note the number of hits on their sheet. Invite synonyms for the blocks in the chat and add one or two live.
+
+If your internet fails, switch to the screenshots (the second trainer can share them). Do not troubleshoot live.
 
 Timing: 10 minutes.
 :::
@@ -381,21 +576,23 @@ INDIVIDUAL TASK · 5 min
 :::
 
 ::: {.neu-activity-steps style="--c:#0B376C"}
-- Take your group's PICO question and your synonym list
+- Take your own PICO question and your synonym list (Session 1 homework)
 - Exercise 1: write 2-4 synonyms for P, for I (or E) and for O
 - Join synonyms with OR in brackets, and the blocks with AND
-- Mark which words could be MeSH terms
-- Swap with your neighbour: spot one missing synonym
+- Check which words are MeSH terms: MeSH Database or a known paper
+- We call on 2-3 people to read their string aloud, microphone on
 :::
 
 ::: {.neu-output style="--c:#0B376C"}
-**OUTPUT** One search string on paper, for your group to run in Proposal builder 2
+**OUTPUT** One search string for your own question, to run in Proposal builder 2
 :::
 
 ::: {.notes}
-No computers needed: it is a paper exercise with the Boolean search builder.
+Individual: participants write their string on the exercise sheet or in a text file. They do not search yet.
 
-Circulate and look for: missing brackets, AND and OR mixed inside one block, the comparison included as a block, NOT used without a reason.
+After 4 minutes, call on 2 or 3 participants by name (tell the class at the start that you will do this). Each unmutes and reads one block or the whole string aloud. Type it on your shared screen as they read, and ask the class for one missing synonym.
+
+Listen for: missing brackets, AND and OR mixed inside one block, the comparison included as a block, NOT used without a reason.
 
 Fast finishers: add one filter and write why.
 
@@ -415,7 +612,7 @@ Keep every reference you find, and use other people's work honestly.
 ::::
 
 ::: {.notes}
-SEGMENT 2.2 (0:50-1:10).
+SEGMENT 2.2 (0:50-1:10, 20:20-20:40).
 
 Teaching point: two habits protect every proposal and paper: save references in a reference manager from day one, and never copy wording from a source.
 
@@ -429,36 +626,30 @@ Timing: 30 seconds.
 [Collect]{.neu-step-label}
 
 - Tick papers in PubMed
-- Clipboard or
-- Collections (My NCBI)
+- Clipboard or My NCBI Collections
 :::
 ::: {.neu-step style="--c:#0B376C"}
 [Export]{.neu-step-label}
 
-- Send to:
-- Citation manager
-- (.nbib file)
+- 'Send to', then 'Citation manager'
+- Gives an .nbib file
 :::
 ::: {.neu-step style="--c:#5FA39B"}
 [Import]{.neu-step-label}
 
-- Zotero or Mendeley
-- (free), EndNote
-- (paid)
+- Zotero or Mendeley (free)
+- EndNote (paid)
 :::
 ::: {.neu-step style="--c:#0070C0"}
 [Cite]{.neu-step-label}
 
-- Insert citations
-- in Word with
-- the plug-in
+- Insert citations in Word with the plug-in
 :::
 ::: {.neu-step style="--c:#055F56"}
 [List]{.neu-step-label}
 
-- Reference list
-- built for you
-- in any style
+- Reference list built for you
+- Any style
 :::
 ::::
 
@@ -469,11 +660,11 @@ Timing: 30 seconds.
 ::: {.notes}
 Teaching point: never type references by hand. A reference manager stores each paper once and formats it in any journal style.
 
-Zotero (free, open source) and Mendeley (free) work with Word; EndNote is common in universities but paid. The best one is the one the whole group uses.
+Zotero (free, open source) and Mendeley (free) work with Word. EndNote is common in universities but paid. In this course everyone uses Zotero (installed as Session 1 homework).
 
 Browser connectors (e.g. Zotero Connector) save a paper from the journal page in one click, often with the PDF.
 
-Misconception: 'I will sort the references at the end'. Saving as you go takes seconds; rebuilding a list takes hours and causes errors.
+Misconception: 'I will sort the references at the end'. Saving as you go takes seconds, but rebuilding a list takes hours and causes errors.
 
 Timing: 2 minutes.
 :::
@@ -489,9 +680,9 @@ LIVE DEMO · 5 min
 ::: {.neu-activity-steps style="--c:#B5651D"}
 - Import the .nbib file from the PubMed demo into Zotero
 - Look: authors, title, journal, year, DOI, with nothing typed by hand
-- In Word: Zotero tab, Add/Edit Citation, type 'Meyhoff'
-- Add/Edit Bibliography: the reference list appears
-- Document Preferences: switch Vancouver to APA and back
+- In Word, on the Zotero tab, click 'Add/Edit Citation' and type Meyhoff
+- Click 'Add/Edit Bibliography': the reference list appears
+- Open 'Document Preferences': switch Vancouver to APA and back
 :::
 :::
 ::: {.column width="40%"}
@@ -505,15 +696,17 @@ Watch for
 ::::
 
 ::: {.neu-output style="--c:#B5651D"}
-**OUTPUT** Everyone has seen the full collect → cite → list cycle
+**OUTPUT** Everyone has seen the full cycle: collect, cite, list
 :::
 
 ::: {.notes}
-Follow Course/Demos/s2\_demo.md, Part B (Zotero).
+Instructor script: Course/Demos/s2\_demo.md, Part B (Step 6), with what to click, what to say and what to do if Zotero fails. The same script is Course/Demos/s2\_demo.pdf and the 'Session 2 demo' page of the course website.
+
+The words in quotation marks on the slide are Zotero's own button names in Word.
 
 Preparation: Zotero desktop and its Word plug-in installed, an empty test library, a blank Word document.
 
-Participants do not install anything during the session; those who installed Zotero at home can follow along.
+Everyone installed Zotero as Session 1 homework, so participants can repeat each step on their own computer. Anyone whose installation fails watches now and fixes it after the session with the second trainer.
 
 If Zotero fails, show the screenshots and say 'the same file works in Mendeley and EndNote'.
 
@@ -522,10 +715,31 @@ Timing: 5 minutes.
 
 ## Citation styles: same paper, two looks
 
-![](images/figures/sat1/citation_styles.png){.neu-fig}
+::: {.neu-intro}
+Use the style your target journal asks for. The reference manager switches in one click.
+:::
+
+:::: {.neu-cards style="--n:2"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[Vancouver]{.neu-card-title}
+
+- Restricting IV fluid did not change 90-day mortality \[1\].
+- **Reference list:**
+- Author AA, Author BB, et al. Title. J Abbrev. Year;Vol(Issue):pages.
+- [Numbered in the order cited. Used by most medical journals.]{style="color:#595959"}
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[APA]{.neu-card-title}
+
+- Restricting IV fluid did not change 90-day mortality (Meyhoff et al., 2022).
+- **Reference list:**
+- Author, A. A., & Author, B. B. (Year). Title. Journal, Vol(Issue), pages.
+- [Author and year in the text. Common in nursing and social science.]{style="color:#595959"}
+:::
+::::
 
 ::: {.neu-takeaway}
-**KEY MESSAGE** Pick the style your target journal uses; let the software do the formatting.
+**KEY MESSAGE** Pick the style your target journal uses, and let the software do the formatting.
 :::
 
 ::: {.notes}
@@ -535,31 +749,53 @@ Every journal states its style in the 'Guide for authors'. A reference manager s
 
 Teaching point: a citation lets the reader check your claim. Cite the original study for facts and numbers, not a review that quotes it, wherever you can.
 
-Ask the room: 'Which style uses \[1\]?' Expected: Vancouver.
+Ask the class (chat): 'Which style uses \[1\]?' Expected: Vancouver.
 
 Timing: 2 minutes.
 :::
 
 ## Citing vs copying: paraphrase safely
 
-![](images/figures/sat1/paraphrase.png){.neu-fig}
+::: {.neu-intro}
+Method: read, close the paper, write from memory, check facts, cite.
+:::
+
+:::: {.neu-cards style="--n:3"}
+::: {.neu-card .plain style="--c:#8A99A3"}
+[Source (Boulet et al. 2024, abstract)]{.neu-card-title}
+
+- "In ICU patients with septic shock, an optimized restrictive fluid strategy targeting hidden fluid intakes did not reduce the overall fluid balance at day 5."
+:::
+::: {.neu-card .plain style="--c:#B23B2E"}
+[Word swaps ("patchwriting")]{.neu-card-title}
+
+- "In septic shock ICU patients, an optimised restrictive approach targeting hidden fluid intakes did not lower the total fluid balance at day 5."
+- **[Same structure, same words = plagiarism, even with a reference]{style="color:#B23B2E"}**
+:::
+::: {.neu-card .plain style="--c:#2E8B57"}
+[Own words + citation]{.neu-card-title}
+
+- "A pilot trial in 48 patients found that limiting maintenance and drug-dilution fluids did not significantly change fluid balance after five days \[1\]."
+- **[New structure, adds context, cited]{style="color:#2E8B57"}**
+:::
+::::
 
 ::: {.neu-takeaway}
 **KEY MESSAGE** Change the structure as well as the words, and always cite the source.
 :::
 
 ::: {.notes}
-Top: one sentence from the conclusion of Paper 1's abstract (quoted with attribution).
+Left: one sentence from the conclusion of Paper 1's abstract (quoted with attribution).
 
-Left: 'patchwriting', the same sentence with a few words swapped. Even with a reference this is plagiarism, because the structure and most of the wording are copied. Similarity checkers used by journals detect it easily.
+Middle: 'patchwriting', the same sentence with a few words swapped. Even with a reference this is plagiarism, because the structure and most of the wording are copied. Similarity checkers used by journals detect it easily.
 
 Right: a real paraphrase, with a new structure, extra context from the paper (pilot, 48 patients, which fluids), and a citation.
 
 Method: read, close the paper, write from memory, check the facts, cite. If you need the exact words, use quotation marks and a citation. Quotes are rare in medical writing.
 
-Misconception: 'if I cite it, I can copy it'. Citation credits the idea; it does not license copying the wording. AI rewording tools do not solve this either. You remain responsible (Session 7).
+Misconception: 'if I cite it, I can copy it'. Citation credits the idea, but it does not license copying the wording. AI rewording tools do not solve this either. You remain responsible (Session 7).
 
-Ask the room: 'Is copying the Methods wording from your own earlier paper allowed?' Expected: it is text recycling. Check the journal policy, and usually rewrite or cite.
+Ask the class (chat): 'Is copying the Methods wording from your own earlier paper allowed?' Expected: it is text recycling. Check the journal policy, and usually rewrite or cite.
 
 Timing: 3 minutes. Exercise 2 on the sheet practises this at home.
 :::
@@ -570,30 +806,24 @@ Timing: 3 minutes. Exercise 2 on the sheet practises this at home.
 ::: {.neu-card .plain style="--c:#0D7377"}
 [Cite facts]{.neu-card-title}
 
-- Numbers, findings
-- and others' ideas
-- need a citation
+- Numbers, findings and others' ideas need a citation
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
 [Cite sources]{.neu-card-title}
 
-- Read and cite the
-- original paper,
-- not a summary
+- Read and cite the original paper
+- Not a summary of it
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
 [Own words]{.neu-card-title}
 
-- New structure;
-- quotes only with
-- quotation marks
+- Use a new structure
+- Exact words only in quotation marks
 :::
 ::: {.neu-card .plain style="--c:#0070C0"}
 [Check]{.neu-card-title}
 
-- Every reference
-- says what you
-- claim it says
+- Every reference says what you claim it says
 :::
 ::::
 
@@ -602,7 +832,7 @@ Timing: 3 minutes. Exercise 2 on the sheet practises this at home.
 :::
 
 ::: {.notes}
-Common knowledge ('sepsis is an infection-related emergency') does not need a citation; specific facts and numbers do.
+Common knowledge ('sepsis is an infection-related emergency') does not need a citation. Specific facts and numbers do.
 
 Citing a paper you have only seen quoted elsewhere spreads errors. Check the original.
 
@@ -625,7 +855,7 @@ QUICK QUIZ · 2 min
 :::
 
 ::: {.neu-output style="--c:#6C3483"}
-**OUTPUT** Thumbs up (OK) or down (not OK) for each
+**OUTPUT** For each: a thumbs-up (OK) or thumbs-down (not OK) reaction, or the poll
 :::
 
 ::: {.notes}
@@ -634,47 +864,52 @@ Answers: 1 Not OK: patchwriting is plagiarism even with a citation. 2 OK (but ra
 Timing: 2 minutes.
 :::
 
-## Grey literature and trial registries
+## Grey literature, including trial registries
 
 ![](images/figures/sat1/grey_iceberg.png){.neu-fig}
 
 ::: {.neu-takeaway}
-**KEY MESSAGE** Look below the waterline: registries and grey literature reduce publication bias.
+**KEY MESSAGE** Look below the waterline: searching grey literature, including trial registries, reduces publication bias.
 :::
 
 ::: {.notes}
-Journal articles in PubMed are only the tip of the iceberg. Below the waterline: registered trials whose results were never published, conference abstracts, theses, reports, guidelines and preprints.
+Journal articles in PubMed are only the tip of the iceberg. Below the waterline is the grey literature: everything not published in a journal. In this course it includes trial registries (as in the course glossary), together with conference abstracts, theses, reports, guidelines and preprints.
 
-Why it matters: studies with negative or disappointing results are less likely to be published (publication bias), so the published literature can look more positive than the truth.
+Why it matters: studies with negative or disappointing results are less likely to be published (publication bias), so the published literature can look more positive than the truth. Searching below the waterline reduces this bias in what you find.
 
-Trial registries (ClinicalTrials.gov and the WHO International Clinical Trials Registry Platform, ICTRP) list ongoing and completed trials with their PLANNED primary outcome. Compare it with the published paper: a switched outcome is a warning sign.
+What a trial registry is: a public database where a clinical trial is recorded before the first patient is enrolled. The record gives the question, the design, the planned primary outcome, the planned sample size and the status (recruiting, completed, results posted). Medical journals that follow the ICMJE recommendations only publish trials that were registered.
+
+The main registries: ClinicalTrials.gov (run by the US National Library of Medicine) and the WHO International Clinical Trials Registry Platform (ICTRP), which searches many national registries at once. Systematic reviews are registered in the same way, in PROSPERO.
+
+Use: compare the planned primary outcome with the published paper. A switched outcome is a warning sign. Registries also show trials that finished but never published their results.
 
 Paper 1 is registered as NCT04947904, registered before the first patient was enrolled. A good homework habit: open the registry record and compare its planned primary outcome with the paper.
 
 Preprints (e.g. medRxiv) are not peer reviewed. Read them with extra care.
 
-Ask the room: 'Why check a registry before starting your own trial?' Expected: someone may already be running the same study.
+Ask the class (chat): 'Why check a registry before starting your own trial?' Expected: someone may already be running the same study.
 
 Timing: 3 minutes. Segment 2.2 ends at 1:10, then the break.
 :::
 
-## Break
+---
 
-::: {.neu-banner style="--c:#8A99A3"}
-BREAK · 15 min
-:::
+::: {style="text-align:center"}
+![](images/figures/common/break_cup.png){width="32%"}
 
-::: {.neu-activity-steps style="--c:#8A99A3"}
-- Stretch, coffee, talk to someone from another profession
-- Think: which problem from your ward could your group work on today?
+[Break]{style="color:#0D7377;font-size:1.6em;font-weight:700"}
+
+[15 min]{style="color:#595959;font-size:0.9em"}
 :::
 
 ::: {.notes}
-BREAK (1:10-1:25).
+BREAK (1:10-1:25, 20:40-20:55).
 
-During the break: put a printed copy of Paper 1's abstract (clean, un-annotated) on every seat for the reading task.
+Say: stand up, stretch and rest your eyes. Before we restart, open Paper 1 (link in the chat).
 
-Restart on time. Say clearly what time you will begin again.
+During the break: post the link to Paper 1 as a clean PDF in the chat for the reading task (Course/Papers/Paper 1 - Boulet 2024 Crit Care (RCT) - original.pdf, or the DOI link on the course website page 'The two papers').
+
+Say clearly in the chat what time you will begin again, and restart on time.
 :::
 
 ## 2.3  Reading a paper in 15 minutes
@@ -690,11 +925,11 @@ You do not have to read every word. Read the right words in the right order.
 ::::
 
 ::: {.notes}
-SEGMENT 2.3 (1:25-2:05).
+SEGMENT 2.3 (1:25-2:05, 20:55-21:35).
 
 Teaching point: busy clinicians need a reading routine. In 15 minutes you can decide whether a paper is relevant, what it found and whether to trust it.
 
-Check that every participant has the printed abstract of Paper 1 before the task.
+Check in the chat that everyone has opened the clean abstract of Paper 1 before the task.
 
 Timing: 30 seconds.
 :::
@@ -708,22 +943,59 @@ Timing: 30 seconds.
 :::
 
 ::: {.notes}
-IMRaD = Introduction, Methods, Results and Discussion: the standard structure of an original research paper, with a title and an abstract on top.
+IMRaD = Introduction, Methods, Results and Discussion: the standard structure of an original research paper.
 
-The hourglass: the Introduction narrows from the broad problem to the specific question; Methods and Results are narrow and factual; the Discussion widens again to what it means for practice.
+The title and the abstract sit on top of IMRaD. They are not one of its letters, which is why they come first in the picture. The small 'a' in IMRaD stands for 'and', not for 'abstract'.
 
-Teaching point: knowing the shape tells you where to look. The question is at the END of the Introduction; the primary outcome is in the Methods; the main number is in the Results (and the abstract).
+The hourglass: the Introduction narrows from the broad problem to the specific question. Methods and Results are narrow and factual. The Discussion widens again to what it means for practice.
 
-Misconception: 'the Discussion tells me what was found'. The Discussion is the authors' interpretation; the Results are the evidence.
+Teaching point: knowing the shape tells you where to look. The question is at the end of the Introduction, the primary outcome is in the Methods, and the main number is in the Results (and the abstract).
 
-Ask the room: 'Where do you find who was included?' Expected: Methods (eligibility) and Results (flow chart, Table 1).
+Misconception: 'the Discussion tells me what was found'. The Discussion is the authors' interpretation. The Results are the evidence.
 
-Timing: 4 minutes. Sessions 7 and 8 teach how to WRITE each section.
+Ask the class (chat): 'Where do you find who was included?' Expected: Methods (eligibility) and Results (flow chart, Table 1).
+
+Timing: 4 minutes. Sessions 7 and 8 teach how to write each section.
 :::
 
 ## The 15-minute reading order
 
-![](images/figures/sat1/reading_order.png){.neu-fig}
+::: {.neu-intro}
+Stop after step 1 or 2 if it does not answer your question. Total: about 15 minutes.
+:::
+
+:::: {.neu-steps}
+::: {.neu-step style="--c:#055F56"}
+[1  Title]{.neu-step-label}
+
+- **30 s**
+- Relevant to my question?
+:::
+::: {.neu-step style="--c:#0D7377"}
+[2  Abstract]{.neu-step-label}
+
+- **3 min**
+- PICO, design, main result
+:::
+::: {.neu-step style="--c:#0B376C"}
+[3  Figures and tables]{.neu-step-label}
+
+- **4 min**
+- Flow chart, Table 1, main result table
+:::
+::: {.neu-step style="--c:#0070C0"}
+[4  Methods]{.neu-step-label}
+
+- **5 min**
+- Who, how chosen, primary outcome, bias protection
+:::
+::: {.neu-step style="--c:#5FA39B"}
+[5  Discussion]{.neu-step-label}
+
+- **2-3 min**
+- Limitations. Do conclusions match the data?
+:::
+::::
 
 ::: {.neu-takeaway}
 **KEY MESSAGE** Title, abstract, figures and tables, methods. Stop early if it is not relevant.
@@ -745,7 +1017,17 @@ Timing: 3 minutes.
 
 ## What an abstract must contain
 
-![](images/figures/sat1/abstract_anatomy.png){.neu-fig}
+| Section | What it must contain |
+|:---|:---|
+| Background | The problem and the aim (1-2 sentences) |
+| Methods | Design, setting, participants, intervention/exposure, comparison, primary outcome |
+| Results | Numbers screened and analysed, primary result as effect size + 95% CI (+ p), key harms |
+| Conclusions | Answer to the primary question, no more |
+| Registration | Trial registry number (for trials) |
+
+::: {.neu-table-caption}
+Usually 250-300 words
+:::
 
 ::: {.neu-takeaway}
 **KEY MESSAGE** A good abstract lets you write the PICO and the main result without opening the paper.
@@ -754,20 +1036,43 @@ Timing: 3 minutes.
 ::: {.notes}
 Most clinical journals require a structured abstract: Background, Methods, Results, Conclusions (plus the trial registration number for trials).
 
-Methods must name the design, setting, participants, intervention or exposure, comparison and the PRIMARY outcome.
+Methods must name the design, setting, participants, intervention or exposure, comparison and the primary outcome.
 
 Results must give the numbers screened and analysed and the primary result as an effect size with its 95% confidence interval, not only a p-value or 'significant'.
 
 Conclusions answer the primary question, no more and no less. Reporting guidelines have abstract checklists (CONSORT for Abstracts, STROBE), covered in Session 8.
 
-Ask the room: 'An abstract says only: mortality was significantly lower (p \< 0.05). What is missing?' Expected: the actual rates, the effect size and the confidence interval.
+Ask the class (chat): 'An abstract says only: mortality was significantly lower (p \< 0.05). What is missing?' Expected: the actual rates, the effect size and the confidence interval.
 
 Timing: 3 minutes.
 :::
 
 ## A results sentence: poor vs good
 
-![](images/figures/sat1/abstract_results_good_bad.png){.neu-fig}
+::: {.neu-intro}
+Illustrative numbers. Ask of every abstract: how big, how sure, by when?
+:::
+
+:::: {.neu-cards style="--n:2"}
+::: {.neu-card .plain style="--c:#B23B2E"}
+[Poor results sentence]{.neu-card-title}
+
+- "Mortality was significantly lower in the intervention group (p \< 0.05)."
+- No numbers per group
+- No effect size
+- No 95% CI
+- No time point
+:::
+::: {.neu-card .plain style="--c:#2E8B57"}
+[Good results sentence]{.neu-card-title}
+
+- "28-day mortality was 30% with restriction vs 38% with usual care (risk difference -8 percentage points, 95% CI -15 to -1)."
+- Numbers per group
+- Effect size
+- 95% CI
+- Time point
+:::
+::::
 
 ::: {.neu-takeaway}
 **KEY MESSAGE** Every main result needs: numbers per group, an effect size, a 95% CI and a time point.
@@ -782,14 +1087,19 @@ Right: rates in each group, the size of the difference (8 percentage points), th
 
 Teaching point: ask 'how big, how sure, by when?' of every result you read. Confidence intervals are explained properly in Session 6.
 
-Ask the room: 'Which sentence would you trust to change practice?' Expected: the right one, because you can see the size and the uncertainty.
+Ask the class (poll, left or right): 'Which sentence would you trust to change practice?' Expected: the right one, because you can see the size and the uncertainty.
 
 Timing: 3 minutes.
 :::
 
 ## Spin: when words go beyond the data
 
-![](images/figures/sat1/spin.png){.neu-fig}
+| What the data say | What the words say (spin) | Seen in |
+|:---|:---|:---|
+| p-value | p = 0.42 | ["a non-significant trend"]{style="color:#B23B2E"} | Paper 1, Discussion |
+| Outcomes | Primary outcome: no difference | [Headline = a positive secondary outcome]{style="color:#B23B2E"} |
+| Design | Observational association | ["Impact of...", "reduces"]{style="color:#B23B2E"} | Paper 2, title |
+| Comparison | No between-group test | ["Patients improved" (before vs after only)]{style="color:#B23B2E"} |
 
 ::: {.neu-takeaway}
 **KEY MESSAGE** Read the numbers first, then check whether the words match them.
@@ -798,7 +1108,7 @@ Timing: 3 minutes.
 ::: {.notes}
 Spin = reporting that makes results look more favourable than the data justify. It is common in abstracts of trials with non-significant primary outcomes.
 
-Row 1: Paper 1's Discussion calls p = 0.42 for the primary outcome a 'non-significant trend'. A p of 0.42 is no evidence of a difference; the correct phrase is 'no significant difference; the confidence interval was wide'. To its credit, Paper 1's ABSTRACT conclusion has no spin.
+Row 1: Paper 1's Discussion calls p = 0.42 for the primary outcome a 'non-significant trend'. A p of 0.42 is no evidence of a difference. The correct phrase is 'no significant difference, and the confidence interval was wide'. To its credit, the conclusion of Paper 1's abstract has no spin.
 
 Row 2: highlighting a positive secondary outcome when the primary outcome showed nothing.
 
@@ -818,18 +1128,20 @@ QUICK QUIZ · 3 min
 :::
 
 ::: {.neu-activity-steps style="--c:#6C3483"}
-- A cohort study: 'Early feeding REDUCES pneumonia in stroke patients'
+- A cohort study: 'A positive fluid balance increases deaths in sepsis'
 - Primary outcome p = 0.31: 'a promising trend towards benefit'
-- Primary outcome no difference; abstract headline: 'improved patient satisfaction'
-- 'Mortality fell from 30% to 22% after the new protocol' (no control group)
+- The primary outcome shows no difference, but the abstract headline says 'improved patient satisfaction'
+- 'Mortality fell from 30% to 22% after our new fluid protocol' (no control group)
 :::
 
 ::: {.neu-output style="--c:#6C3483"}
-**OUTPUT** For each: what is the spin, and how would you rewrite it?
+**OUTPUT** For each, we call on 2-3 people, microphone on: what is the spin, and how would you rewrite it?
 :::
 
 ::: {.notes}
-Answers: 1 Causal word for an observational design: write 'was associated with lower pneumonia'. 2 p = 0.31 is no evidence of a difference: write 'no significant difference; the CI was wide'. 3 The headline is a secondary outcome: lead with the primary result. 4 Before-after change without a comparison, and other things may have changed: write 'mortality was lower after implementation; without a control group we cannot attribute this to the protocol'.
+Take one item at a time. Give the class 30 seconds to think, then call on one or two participants by name to unmute and say where the spin is and how they would rewrite it. Ask the class whether anyone disagrees before you give the answer.
+
+Answers: 1 Causal word for an observational design: write 'was associated with higher mortality'. 2 p = 0.31 is no evidence of a difference: write 'no significant difference, and the CI was wide'. 3 The headline is a secondary outcome: lead with the primary result. 4 Before-after change without a comparison, and other things may have changed: write 'mortality was lower after implementation, but without a control group we cannot attribute this to the protocol'.
 
 Timing: 3 minutes.
 :::
@@ -843,20 +1155,20 @@ INDIVIDUAL TASK · 12 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0B376C"}
-- Take the abstract of Paper 1 (Boulet 2024, Crit Care)
+- Open Paper 1 (Boulet 2024, Crit Care): the abstract is on page 1
 - Fill the reading grid (Exercise 3): design, P, I vs C
 - Primary outcome, numbers screened and analysed
 - Main result with its 95% CI and p-value
 - Does the conclusion match the result? Any spin?
-- Compare your grid with your neighbour
+- Type your primary outcome and main result in the chat
 :::
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#0B376C"}
 Clock
 
-- 8 minutes reading
-- 4 minutes comparing
+- 8 minutes reading alone
+- 4 minutes checking in the chat
 :::
 :::
 ::::
@@ -866,11 +1178,11 @@ Clock
 :::
 
 ::: {.notes}
-Individual work, silently for 8 minutes, then 4 minutes comparing with a neighbour. Beginners need the extra time. Do not rush it.
+Individual work, quietly for 8 minutes (cameras may go off), then 4 minutes in which everyone types the primary outcome and main result in the chat and you comment on the answers. Beginners need the extra time. Do not rush it.
 
-Participants read the real abstract from the handout (Course/Papers has annotated versions in English and Vietnamese, but use the clean abstract for this task).
+Where the paper is: Course/Papers/Paper 1 - Boulet 2024 Crit Care (RCT) - original.pdf (the clean original, without our notes). It is open access (CC BY-NC-ND), so the unchanged original may be shared. The course website page 'The two papers' links to it by DOI (10.1186/s13054-024-05155-z), and you post the link in the chat at the break. The annotated versions (English and Vietnamese, also in Course/Papers) are for after the task.
 
-Circulate. The hardest cells: the primary outcome (many write 'mortality', but it is cumulative fluid balance at day 5) and the main result (they should copy the difference with its 95% CI, -15.2 to 41.6, which crosses zero).
+Watch the chat. The hardest cells: the primary outcome (many write 'mortality', but it is cumulative fluid balance at day 5) and the main result (they should copy the difference with its 95% CI, -15.2 to 41.6, which crosses zero).
 
 Fast finishers: read Paper 2's abstract and spot the word in its title that overstates the design ('Impact').
 
@@ -879,20 +1191,29 @@ Timing: 12 minutes. The answers are on the next slide.
 
 ## Paper 1's abstract: the answers
 
-![](images/figures/sat1/abstract_grid_paper1.png){.neu-fig}
+| Abstract item | What Paper 1 reports |
+|:---|:---|
+| Design | Pilot RCT, single-blind (patients and statisticians), 3 ICUs |
+| P | Adults 18-85 y, septic shock, first 24 h of vasopressors |
+| I vs C | Restrict maintenance and drug-dilution fluids (7 days) vs standard |
+| Primary outcome | Cumulative fluid balance at day 5 (ml/kg) |
+| Numbers | 1,201 screened, 50 randomised, 48 analysed (24 per group) |
+| **Main result** | **Median 6.9 vs 35.0 ml/kg. Difference 13.2 (95% CI -15.2 to 41.6), p = 0.42** |
+| **Conclusion** | Did not reduce fluid balance at day 5 (matches the result) |
+| Registration | ClinicalTrials.gov NCT04947904 |
 
 ::: {.neu-takeaway}
 **KEY MESSAGE** Primary outcome: fluid balance, not mortality. Read what the study actually measured.
 :::
 
 ::: {.notes}
-Go through the grid quickly; ask a different table for each row.
+Go through the grid quickly. Ask for each row in the chat before you reveal it.
 
-Key points: (1) a PILOT trial with 48 analysed patients; (2) the primary outcome is cumulative fluid balance at day 5, not mortality; (3) the confidence interval for the difference (-15.2 to 41.6 ml/kg) includes zero, so no evidence of a difference; (4) the abstract conclusion matches the result (good practice); (5) the trial was registered.
+Key points. (1) A pilot trial with 48 analysed patients. (2) The primary outcome is cumulative fluid balance at day 5, not mortality. (3) The confidence interval for the difference (-15.2 to 41.6 ml/kg) includes zero, so there is no evidence of a difference. (4) The abstract conclusion matches the result (good practice). (5) The trial was registered.
 
 If a sharp participant asks: the medians (6.9 vs 35.0 ml/kg) differ by more than the reported difference of 13.2 because the 13.2 is a difference in means (the Methods report the mean difference with its 95% CI), not a difference in medians. The course annotations flag this mismatch. Park it for Sessions 6-8.
 
-Link to our question: this trial does NOT answer the 28-day mortality question. It answers a feasibility-type question about fluid balance. That is exactly the 'feasible rewrite' from the FINER slide.
+Link to our question: this trial does not answer the 28-day mortality question. It answers a feasibility-type question about fluid balance. That is exactly the 'feasible rewrite' from the FINER slide.
 
 Timing: 5 minutes, row by row. Segment 2.3 ends at 2:05.
 :::
@@ -910,7 +1231,7 @@ The papers you read become the first page of your proposal.
 ::::
 
 ::: {.notes}
-SEGMENT 2.4 (2:05-2:20).
+SEGMENT 2.4 (2:05-2:20, 21:35-21:50).
 
 Teaching point: reading is not the end. A literature matrix turns papers into a gap, the gap into a problem statement, and the PICO into a working title.
 
@@ -919,7 +1240,12 @@ Timing: 30 seconds.
 
 ## The literature review worksheet
 
-![](images/figures/sat1/lit_matrix.png){.neu-fig}
+| Study | Design, size | Compared | Primary outcome: result | Key limitation |
+|:---|:---|:---|:---|:---|
+| Boulet 2024 Crit Care | Pilot RCT, 3 ICUs, n = 48 | Restrict hidden fluids vs standard | Fluid balance at day 5: no significant difference | Small, not powered for mortality |
+| Hyun 2023 Ann Intensive Care | Matched cohort, registry, 20 hospitals | Positive vs negative fluid balance | 28-day death higher if positive by day 2-3 | Observational: confounding possible |
+| Meyhoff 2022 N Engl J Med | Large RCT (CLASSIC), n = 1,554 | Restrictive vs standard IV fluid | 90-day death 42.3% vs 42.1%: no difference | Clinicians not blinded |
+| **[Your paper 4]{style="color:#595959"}** | [...]{style="color:#595959"} | [...]{style="color:#595959"} | [...]{style="color:#595959"} | [...]{style="color:#595959"} |
 
 ::: {.neu-takeaway}
 **KEY MESSAGE** One row per paper: 5 rows today, the same columns for every paper.
@@ -961,7 +1287,15 @@ Timing: 3 minutes.
 
 ## A model problem statement
 
-![](images/figures/sat1/problem_statement_example.png){.neu-fig}
+| Paragraph | Model text |
+|:---|:---|
+| 1  What is known | Septic shock is a leading cause of ICU death. Early fluids restore perfusion, but continued fluids often produce a positive fluid balance, which cohort studies associate with higher mortality \[2\]. |
+| 2  What is not known | Large trials of restrictive fluids found no mortality difference \[3, 4\], and a pilot targeting hidden fluids did not significantly reduce fluid balance \[1\]. Whether restriction is achievable in our setting is unknown. |
+| 3  Why it matters here | Our 3-month audit found that most septic shock patients were fluid-positive by day 3, and practice varies between consultants. We therefore ask: \[PICO question\]. |
+
+::: {.neu-table-caption}
+Model text: replace the audit numbers with your own
+:::
 
 ::: {.neu-takeaway}
 **KEY MESSAGE** Three short paragraphs, each with its own job, and references in brackets.
@@ -970,20 +1304,46 @@ Timing: 3 minutes.
 ::: {.notes}
 This is what the funnel looks like as real text, for the feasible rewrite of the running example.
 
-Paragraph 1 (known) cites Paper 2. Paragraph 2 (not known) cites CLASSIC, CLOVERS and Paper 1 and ends with the gap. Paragraph 3 (why here) uses LOCAL data (replace the audit statement with your own numbers) and ends with the question.
+Paragraph 1 (known) cites Paper 2. Paragraph 2 (not known) cites CLASSIC, CLOVERS and Paper 1 and ends with the gap. Paragraph 3 (why here) uses local data (replace the audit statement with your own numbers) and ends with the question.
 
-Teaching point: every factual sentence carries a citation number; the last sentence leads straight into the PICO question.
+Teaching point: every factual sentence carries a citation number, and the last sentence leads straight into the PICO question.
 
 Misconception: 'the problem statement should be long and impressive'. About 300 words is enough for a proposal.
 
-Model text in English; groups may write in Vietnamese for their proposal, but search and cite in English.
+Model text in English. You may write your proposal in Vietnamese, but search and cite in English.
 
 Timing: 4 minutes.
 :::
 
 ## Working title and keywords from PICO
 
-![](images/figures/sat1/title_keywords.png){.neu-fig}
+:::: {.neu-cards style="--n:3"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[From the PICO]{.neu-card-title}
+
+- P: adults with septic shock
+- I: restrictive fluids
+- C: usual fluids
+- O: fluid balance
+- D (design): pilot RCT
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[Working title (13 words)]{.neu-card-title}
+
+- "Restrictive versus usual fluids in adults with septic shock: a pilot randomised trial"
+- 10-16 words, with population, comparison and design visible
+- No abbreviations, and no 'impact' or 'effect' for observational data
+:::
+::: {.neu-card .plain style="--c:#055F56"}
+[Keywords (3-6)]{.neu-card-title}
+
+- **MeSH terms that are not already in the title**
+- Fluid Therapy
+- Water-Electrolyte Balance
+- Critical Care
+- Vasoconstrictor Agents
+:::
+::::
 
 ::: {.neu-takeaway}
 **KEY MESSAGE** Your PICO already contains your title: add the design and keep it short.
@@ -996,9 +1356,9 @@ Example from the feasible rewrite: 'Restrictive versus usual fluids in adults wi
 
 Avoid abbreviations and promotional or causal words ('impact', 'novel', 'effect of'), especially for observational designs (compare Paper 2's title).
 
-Keywords: 3 to 6, ideally MeSH terms NOT already in the title, so the paper is found by more searches (the Paper 1 annotations make the same point).
+Keywords: 3 to 6, ideally MeSH terms not already in the title, so the paper is found by more searches (the Paper 1 annotations make the same point).
 
-Ask the room: 'Is Fluids in the ICU a good title?' Expected: no. It has no population, no comparison and no design.
+Ask the class (chat): 'Is Fluids in the ICU a good title?' Expected: no. It has no population, no comparison and no design.
 
 Timing: 4 minutes. Segment 2.4 ends at 2:20.
 :::
@@ -1007,73 +1367,68 @@ Timing: 4 minutes. Segment 2.4 ends at 2:20.
 
 :::: {.neu-statement}
 ::: {.neu-big}
-Now find your group's evidence: one search, five papers, one problem statement, one title.
+Now find the evidence for your own question: one search, five papers, one problem statement, one title.
 :::
 
 ::: {.neu-sub}
-35 minutes of group work to complete Part 1 of your research proposal
+35 minutes: we search live for the running example, then you search for your own question
 :::
 ::::
 
 ::: {.notes}
-PROPOSAL BUILDER 2 (2:20-2:55).
+PROPOSAL BUILDER 2 (2:20-2:55, 21:50-22:25). The 35 minutes start with this slide.
 
-Teaching point: everything taught today is applied to the group's own question from last Saturday. By 2:55 each group has a documented search, at least 3-5 references in the matrix, a draft problem statement and a working title.
+Teaching point: everything taught today is applied to each participant's own question from last Saturday. Everyone works on their own proposal. Nobody works in a group.
 
-Make sure each group has a laptop or phone for the searcher.
+By the end, each participant has a documented search, some of the 5 references in Zotero and the worksheet, and a first draft of the problem statement and working title. The rest is homework.
 
-Timing: 1 minute.
+Move straight to the next slide.
 :::
 
-## Proposal builder 2: your group's evidence
+## Proposal builder 2: the evidence for your own question
 
 ::: {.neu-banner style="--c:#055F56"}
-PROPOSAL BUILDER · 33 min
+PROPOSAL BUILDER · 35 min
 :::
 
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#055F56"}
-- Run your search string in PubMed; write the date and number of hits
-- Screen titles and abstracts; pick 5 key papers; export them to Zotero
-- Fill one row per paper in the literature matrix
-- Draft the problem statement: known, not known, why here
-- Working title (10-16 words) + 3-6 keywords
-- One group reads its title and gap aloud
+- Watch us screen the running-example search live, and suggest papers and terms in the chat
+- Run your own search string in PubMed. Note the date and the number of hits
+- Screen titles and abstracts, pick 5 key papers and save them to Zotero
+- Fill one row per paper in the literature review worksheet
+- Draft your problem statement (known, not known, why here) and a working title
+- Two volunteers read their title and gap sentence aloud
 :::
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#055F56"}
 Timing
 
-- 0-8 min: run the search
-- 8-16: screen + pick 5 papers
-- 16-22: matrix rows
-- 22-28: problem statement
-- 28-31: title + keywords
-- 31-33: 1 group reads aloud
+- 0-10 min: we model it live
+- 10-30 min: you search and draft your own
+- 30-35 min: two volunteers share
 :::
 :::
 ::::
 
 ::: {.neu-output style="--c:#055F56"}
-**OUTPUT** Proposal Part 1 complete: search, 5 references, problem statement, title
+**OUTPUT** Your Proposal Part 1 continued: search, 5 references, problem statement, title
 :::
 
 ::: {.notes}
-Roles: the searcher runs PubMed and exports; the scribe fills the matrix and template; the others read abstracts in parallel (split the 5 papers).
+Minutes 0-10, whole class: re-run the running-example string from the demo, screen the first titles together (participants say 'keep' or 'drop' in the chat and suggest extra terms), save two papers to Zotero, fill one worksheet row and point to the model problem statement and title.
 
-Trainers circulate. First visit: is the string sensible (brackets, OR inside, AND between, no comparison block)? Too many hits: add a block or a filter. Too few: add synonyms.
+Minutes 10-30, everyone works alone on their own question. Cameras may go off. The trainers answer questions in the chat. Common problems: too many hits (add a block or a filter), too few (add synonyms), a comparison block, AND inside a block.
 
-Second visit: does the problem statement end with the group's question, and does paragraph 2 actually state a gap?
+Anyone who cannot finish the 5 references records the string, database and date. The remaining references become homework.
 
-If a group cannot finish the 5 references, they record the string, database and date; the remaining references become homework.
-
-At 2:51 (minute 31), stop; one group reads its title and its gap sentence aloud; invite one improvement.
+Minutes 30-35: two volunteers read their title and gap sentence aloud, microphone on, and the class suggests one improvement each in the chat.
 
 What good looks like: Course/Solutions/s2\_solutions.md (Exercise 4).
 
-Timing: 33 minutes. Wrap-up starts at 2:55.
+Timing: 35 minutes. Wrap-up starts at 2:55 (22:25).
 :::
 
 ## Key words of the day
@@ -1088,9 +1443,9 @@ Timing: 33 minutes. Wrap-up starts at 2:55.
 | Spin | Words that claim more than the numbers show |
 
 ::: {.notes}
-WRAP-UP (2:55-3:00).
+WRAP-UP (2:55-3:00, 22:25-22:30).
 
-Read the six key words quickly; they are also in the course glossary (EN-VN).
+Read the six key words quickly. They are also in the course glossary (EN-VN).
 
 Timing: 1 minute.
 :::
@@ -1101,58 +1456,72 @@ Timing: 1 minute.
 ::: {.neu-card .plain style="--c:#0D7377"}
 [Search]{.neu-card-title}
 
-- PICO blocks, MeSH +
-- free text; OR inside,
-- AND between; write it down
+- PICO blocks, MeSH and free text
+- OR inside, AND between
+- Write the search down
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
 [Cite honestly]{.neu-card-title}
 
-- Reference manager
-- from day one; own
-- words; read what you cite
+- Zotero from day one
+- Your own words
+- Read what you cite
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
 [Read smart]{.neu-card-title}
 
-- Title, abstract,
-- figures, methods;
-- numbers before words
+- Title, abstract, figures, methods
+- Numbers before words
 :::
 ::::
 
 ::: {.neu-takeaway}
-**KEY MESSAGE** Weeks 1-2 are done: your group has a question, five papers and a title.
+**KEY MESSAGE** Weeks 1-2 are done: you have a question, five papers and a title.
 :::
 
 ::: {.notes}
 Read the three messages, then ask one participant: 'What is the first thing you look for in an abstract?' Expected: the primary outcome and its result with a CI.
 
-Link forward: over the next two Saturdays (Sessions 3 and 4) we choose the right DESIGN to answer each group's question, and meet bias, confounding and measures of effect using the two fluid papers.
+Link forward: over the next two Saturdays (Sessions 3 and 4) we choose the right design to answer each question, and meet bias, confounding and measures of effect using the two fluid papers.
 
 Timing: 1.5 minutes.
 :::
 
-## Exit question
+## Exit question (in the chat)
 
 ::: {.neu-banner style="--c:#6C3483"}
 QUICK QUIZ · 2 min
 :::
 
+:::: {.columns}
+::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-- Which gives MORE hits: septic shock AND fluids, or septic shock OR fluids?
-- What was the primary outcome of Paper 1?
-- Write both answers on a sticky note (no names) and stick it on the door as you leave
+- Answer now in the chat, or in the 1-question form linked there
+- Q1: which gives more hits: septic shock AND fluids, or septic shock OR fluids?
+- Q2: what was the primary outcome of Paper 1?
 :::
+:::
+::: {.column width="40%"}
+::: {.neu-side .plain style="--c:#6C3483"}
+Why we ask
+
+- It is not homework and not marked
+- It shows us what is still unclear
+- We read every answer before Session 3
+:::
+:::
+::::
 
 ::: {.neu-output style="--c:#6C3483"}
-**OUTPUT** One sticky note per person (we read them before Session 3)
+**OUTPUT** One short answer per person, before you leave
 :::
 
 ::: {.notes}
-Answers: (1) OR (either term). (2) Cumulative fluid balance at day 5 (ml/kg), not mortality.
+Purpose: a 2-minute check of understanding. It is not homework.
 
-Read the notes after the session. If more than a quarter get either wrong, revisit it in the Session 3 recap quiz.
+Answers: Q1 OR (either term). Q2 Cumulative fluid balance at day 5 (ml/kg), not mortality.
+
+Save the chat (or the form responses) and read them after the session. If more than a quarter get either wrong, open Session 3 with it and revisit it in the recap quiz.
 
 Timing: 1.5 minutes.
 :::
@@ -1166,19 +1535,19 @@ INDIVIDUAL TASK
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0B376C"}
-- Group: finish the 5 key references and the problem statement
-- Each member: read one paper with the 15-minute routine and fill its row
-- Everyone: read the abstract of Paper 2 (Hyun) with the reading grid
-- Exercise 2 (paraphrasing) if not done in class
+- Finish your 5 key references, worksheet rows and problem statement
+- Read one of your papers with the 15-minute routine
+- Read the abstract of Paper 2 (Hyun 2023) with the reading grid (Exercise 3)
+- Exercise 2 (paraphrasing), at home
 - Optional: look up Paper 1 (NCT04947904) on ClinicalTrials.gov
 :::
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#0B376C"}
-Bring next Saturday
+Ready for next Saturday
 
-- Proposal Part 1 (printed or on a laptop)
-- Your completed literature matrix
+- Your Proposal Part 1
+- Your literature review worksheet
 :::
 :::
 ::::
@@ -1188,13 +1557,13 @@ Bring next Saturday
 :::
 
 ::: {.notes}
-Be specific: about 60-90 minutes per person over the week, shared within the group.
+Be specific: about 60-90 minutes over the week, on your own.
 
 The two papers are in Course/Papers (annotated versions in English and Vietnamese). Session 3 uses both abstracts to compare an RCT with a cohort.
 
-Remind groups to send their Part 1 to the trainers if you offer written feedback between sessions.
+Remind participants to email their Part 1 to the trainers if you offer written feedback between sessions.
 
-Close on time. Thank the room.
+Close on time. Thank the class.
 
 Timing: 1 minute.
 :::
@@ -1214,56 +1583,36 @@ Use if time allows, or for self-study
 ::: {.notes}
 EXTRA SLIDES (Session 2).
 
-Everything after this slide is optional. Use it if the room is fast, if a group asks, or point participants to it for self-study.
+Everything after this slide is optional. Use it if the class is fast or asks, or point participants to it for self-study.
 
 The core session is complete without these slides.
 :::
 
 ## Beyond PubMed: other places to search
 
-:::: {.neu-cards style="--n:4"}
-::: {.neu-card .plain style="--c:#0D7377"}
-[Cochrane Library]{.neu-card-title}
-
-- Systematic reviews
-- and a register
-- of trials
-:::
-::: {.neu-card .plain style="--c:#0B376C"}
-[Embase]{.neu-card-title}
-
-- Large biomedical
-- database; strong on
-- drugs (subscription)
-:::
-::: {.neu-card .plain style="--c:#5FA39B"}
-[CINAHL]{.neu-card-title}
-
-- Nursing and allied
-- health literature
-- (subscription)
-:::
-::: {.neu-card .plain style="--c:#0070C0"}
-[Trial registries]{.neu-card-title}
-
-- ClinicalTrials.gov,
-- WHO ICTRP: ongoing
-- and unpublished trials
-:::
-::::
-
-::: {.neu-takeaway}
-**KEY MESSAGE** For a proposal, PubMed + a registry is enough; systematic reviews search several databases.
-:::
+| Database | What it covers | Access |
+|:---|:---|:---|
+| Cochrane Library | Cochrane systematic reviews (CDSR) and a register of controlled trials (CENTRAL) | Search and abstracts free |
+| Embase | Large biomedical database, strong on drugs and conference abstracts | Subscription |
+| Web of Science, Scopus | Many disciplines, with links to the papers that cite each paper | Subscription |
+| CINAHL | Nursing and allied health | Subscription |
+| Epistemonikos | Systematic reviews in health, in many languages | Free |
+| Registries | Trials: ClinicalTrials.gov, WHO ICTRP. Reviews: PROSPERO | Free |
 
 ::: {.notes}
 EXTRA: other databases.
 
-Cochrane Library: start here for treatment questions. A good systematic review may already answer yours.
+Key message: for a Level 1 proposal, PubMed and a registry are enough. A systematic review searches several databases.
 
-Embase and CINAHL usually need an institutional subscription; ask your library.
+Before any new study, look for an existing systematic review first (core slide 'First check'). The Cochrane Library is the place to start for treatment questions: the Cochrane Database of Systematic Reviews (CDSR) holds Cochrane's own reviews, and CENTRAL is its register of controlled trials.
 
-National and regional databases can matter for local-language journals.
+Embase overlaps with MEDLINE but adds many drug and European journals and conference abstracts. Web of Science and Scopus cover many disciplines and are strong for following citations. CINAHL is the main nursing database. APA PsycInfo covers mental health and behaviour.
+
+Epistemonikos (free) collects systematic reviews from many sources. WHO Global Index Medicus brings together regional databases, including the Western Pacific Region Index Medicus, which can matter for local-language journals.
+
+Embase, Web of Science, Scopus and CINAHL usually need an institutional subscription. Ask your library.
+
+A systematic review searches at least two or three of these, plus registries and grey literature. Level 3 has a dedicated module on systematic review and meta-analysis (Module A): protocol and PROSPERO registration, a multi-database search, risk of bias, pooling and PRISMA 2020 reporting.
 
 Timing: 2 minutes if used.
 :::
@@ -1274,30 +1623,25 @@ Timing: 2 minutes if used.
 ::: {.neu-step style="--c:#0D7377"}
 [Open]{.neu-step-label}
 
-- PubMed home page:
-- Clinical Queries
-- (under Find)
+- PubMed home page
+- Clinical Queries, under Find
 :::
 ::: {.neu-step style="--c:#0B376C"}
 [Type]{.neu-step-label}
 
-- Your topic words,
-- e.g. septic shock
-- fluid restriction
+- Your topic words
+- e.g. septic shock fluid restriction
 :::
 ::: {.neu-step style="--c:#5FA39B"}
 [Choose]{.neu-step-label}
 
-- Category: therapy,
-- diagnosis, etiology,
-- prognosis...
+- Category: therapy, diagnosis, etiology or prognosis
 :::
 ::: {.neu-step style="--c:#0070C0"}
 [Scope]{.neu-step-label}
 
-- Broad (finds more)
-- or narrow (more
-- precise)
+- Broad: finds more
+- Narrow: more precise
 :::
 ::::
 
@@ -1341,7 +1685,7 @@ Course/Demos/s2\_demo.md, Part C.
 
 Say: 'Scholar is excellent for following citations forward and for grey literature, but there is no MeSH, few filters, and the same search may give different results next month.'
 
-If Scholar shows a CAPTCHA, do not try to solve it on a shared machine; skip to the screenshots.
+If Scholar shows a CAPTCHA, do not try to solve it while sharing your screen. Skip to the screenshots.
 
 Timing: 3 minutes if used.
 :::
@@ -1352,30 +1696,25 @@ Timing: 3 minutes if used.
 ::: {.neu-card .plain style="--c:#0D7377"}
 [Text recycling]{.neu-card-title}
 
-- Reusing your own
-- published wording:
-- check journal policy
+- Reusing your own published wording
+- Check the journal policy
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
 [AI rewording]{.neu-card-title}
 
-- Does not remove
-- plagiarism; you stay
-- responsible
+- Does not remove plagiarism
+- You stay responsible
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
 [AI references]{.neu-card-title}
 
-- May be invented;
-- find every one
-- in PubMed
+- May be invented
+- Find every one in PubMed
 :::
 ::: {.neu-card .plain style="--c:#0070C0"}
 [Similarity checks]{.neu-card-title}
 
-- Journals screen
-- submissions for
-- copied text
+- Journals screen submissions for copied text
 :::
 ::::
 
@@ -1386,7 +1725,7 @@ Timing: 3 minutes if used.
 ::: {.notes}
 EXTRA: text recycling, AI and similarity checks.
 
-Text recycling ('self-plagiarism'): some reuse of standard Methods wording may be accepted if cited and allowed by the journal; never reuse Results or Discussion text.
+Text recycling ('self-plagiarism'): some reuse of standard Methods wording may be accepted if cited and allowed by the journal. Never reuse Results or Discussion text.
 
 AI tools: journals require disclosure of AI use (Session 7 covers integrity and AI in detail).
 

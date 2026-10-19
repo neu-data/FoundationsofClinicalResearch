@@ -27,6 +27,8 @@ Exercise numbers follow `Practicals/s6_exercises.md`. All FLUID-ICU numbers come
 | 10 | **F** | p-values do not "trend". Report the estimate and CI and call it what it is: not statistically significant. |
 | 11 | **T** | With 20 independent tests and no real effect, the chance of at least one p < 0.05 is about 64% (the jelly-bean problem). |
 | 12 | **F** | Same patients measured twice: use a **paired** test (paired t-test, or Wilcoxon signed-rank if skewed). |
+| 13 | **F** | Switching to one-sided after seeing the data halves the p-value and is not acceptable. Two-sided is the default; a one-sided test needs a strong reason written in the protocol before the data. |
+| 14 | **F** | Non-inferiority is a different design: a margin fixed in advance, its own hypotheses, sample size and analysis (Session 3). |
 
 
 * * *
@@ -63,7 +65,7 @@ Bonus: **no**, not on correlation alone. High r means the two methods rise and f
 
 * * *
 
-## Exercise 4: [DS] Interpret your group's comparison
+## Exercise 4: [FLUID-ICU] Interpret the comparison (Q1 together in class; each participant for their chosen question)
 
 Numbers from `Course/Data/key_results.md` (all unadjusted; simulated data).
 
@@ -75,12 +77,12 @@ Numbers from `Course/Data/key_results.md` (all unadjusted; simulated data).
 | Q4 | Mann–Whitney (lactate skewed) | Median lactate 3.1 (2.2 to 4.5) in non-survivors vs 2.3 (1.6 to 3.4) mmol/L in survivors; mortality < 2: 19%, 2–4: 31%, > 4: 50% | "Non-survivors had higher admission lactate (median 3.1 vs 2.3 mmol/L)." |
 | Q5 | Mann–Whitney (skewed, survivors) | Median 7.5 (5.2 to 11.2) vs 4.8 (3.3 to 7.1) days; Hodges–Lehmann difference 2.5 days (95% CI 1.8 to 3.2); p < 0.001 | "Among survivors, ICU stay was longer with a positive balance (median 7.5 vs 4.8 days; difference 2.5 days, 95% CI 1.8 to 3.2)." Note: the t-test difference in means (2.7 days) is the wrong summary for this skewed outcome. |
 
-Reason for bias (all groups): confounding by indication. The positive-balance group was sicker at baseline (Table 1).
+Reason for bias (all five questions): confounding by indication. The positive-balance group was sicker at baseline (Table 1).
 
 
 * * *
 
-## Exercise 5: Read a regression table
+## Exercise 5: Read a regression table (another example, homework)
 
 The table is mock data. The p-values are consistent with the CIs (computed from the log-scale standard error).
 
@@ -136,7 +138,7 @@ Bonus (d): report the main result plus a **best-case** (all transferred patients
 
 * * *
 
-## Exercise 8: [DS] Interpret your group's model
+## Exercise 8: [FLUID-ICU] Interpret the model (Q1 together in class; each participant for their chosen question)
 
 Numbers from `Course/Data/key_results.md` (simulated data).
 
@@ -166,7 +168,7 @@ Model sentences (Q1): "Positive fluid balance was associated with higher 28-day 
 
 **Analysis plan:** describe with mean (SD) / median (IQR) / n (%); compare 28-day mortality with a chi-square test; report RR and risk difference with 95% CIs. Observational designs: adjusted OR (logistic) or HR (Cox) with confounders chosen in advance, about 1 model term per 10 events.
 
-**Missing-data plan (good enough):** names the variables likely to be missing and why; prevention; main handling (complete case if little missing and plausibly MCAR, otherwise multiple imputation); how missing data will be reported (n missing per variable, who). Imputation and sensitivity analyses are Level 2 topics; at Level 1, the focus is on reporting (n missing per variable, flow diagram). FLUID-ICU's SAP section 10 is a model.
+**Missing-data plan (good enough):** names the variables likely to be missing and why; prevention; main handling (complete case if little missing and plausibly MCAR, otherwise multiple imputation); how missing data will be reported (n missing per variable, who). Level 2 only touches on imputation; imputation and sensitivity analyses in depth are in Level 3, Module H. At Level 1, the focus is on reporting (n missing per variable, flow diagram). FLUID-ICU's SAP section 10 is a model.
 
 | Element | Good enough | Needs work |
 |---|---|---|

@@ -2,179 +2,179 @@
 title: "Buổi 6: Lời giải"
 ---
 
-::: {.lang-note}
-Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
-:::
+[Tải bản PDF](files/sessions/s6_solutions_VN.pdf) · [Quay lại Buổi 6](session6.qmd)
 
-[Tải bản PDF](files/sessions/s6_solutions.pdf) · [Quay lại Buổi 6](session6.qmd)
+**Nền tảng Nghiên cứu Lâm sàng · Cấp độ 1** · bản dành cho giảng viên (không phát trước buổi học)
 
-**Foundations of Clinical Research** · instructor copy (do not distribute before the session)
-
-Exercise numbers follow `Practicals/s6_exercises.md`. All FLUID-ICU numbers come from `Course/Data/key_results.md` (simulated data).
+Số thứ tự bài tập theo `Practicals/s6_exercises_VN.md`. Mọi con số FLUID-ICU lấy từ `Course/Data/key_results.md` (dữ liệu mô phỏng).
 
 
 * * *
 
-## Exercise 1: True or false
+## Bài tập 1: Đúng hay sai
 
-| # | Answer | One-line explanation |
+| # | Đáp án | Giải thích một dòng |
 |---|:-:|---|
-| 1 | **T** | That is the practical reading of a 95% CI: the range of values compatible with the data. |
-| 2 | **F** | Absence of evidence is not evidence of absence. The CI (−15.2 to 41.6 ml/kg) is wide: the pilot cannot tell. |
-| 3 | **F** | p is calculated *assuming* the null is true. It is the probability of data at least this extreme under the null, not the probability of the null. |
-| 4 | **T** | A 95% CI that includes the null value corresponds to p > 0.05 (two-sided), and vice versa. |
-| 5 | **T** | More patients give more precision, and so a narrower CI. |
-| 6 | **F** | A tiny p can accompany a trivial effect in a large study. Judge size from the estimate and CI. |
-| 7 | **T** | This is the strict definition: the 95% refers to the method over repeated studies (the "dance of the CIs"). |
-| 8 | **T** | A small study has low power, so a real effect can be missed (missed fire). |
-| 9 | **T** | Alpha = type I error rate = risk of a false alarm. |
-| 10 | **F** | p-values do not "trend". Report the estimate and CI and call it what it is: not statistically significant. |
-| 11 | **T** | With 20 independent tests and no real effect, the chance of at least one p < 0.05 is about 64% (the jelly-bean problem). |
-| 12 | **F** | Same patients measured twice: use a **paired** test (paired t-test, or Wilcoxon signed-rank if skewed). |
+| 1 | **Đ** | Đó là cách đọc thực tế của KTC 95%: khoảng các giá trị phù hợp với dữ liệu. |
+| 2 | **S** | Không có bằng chứng không phải là bằng chứng của việc không có. KTC (−15.2 đến 41.6 ml/kg) rộng: nghiên cứu thí điểm không thể kết luận. |
+| 3 | **S** | p được tính *với giả định* giả thuyết không là đúng. Đó là xác suất có dữ liệu ít nhất cực đoan như vậy nếu giả thuyết không đúng, không phải xác suất giả thuyết không đúng. |
+| 4 | **Đ** | KTC 95% chứa giá trị không có tác động tương ứng với p > 0.05 (hai phía), và ngược lại. |
+| 5 | **Đ** | Nhiều người bệnh hơn cho độ chính xác cao hơn, nên KTC hẹp hơn. |
+| 6 | **S** | p rất nhỏ có thể đi kèm một tác động không đáng kể trong một nghiên cứu lớn. Đánh giá độ lớn từ ước lượng và KTC. |
+| 7 | **Đ** | Đây là định nghĩa chặt chẽ: 95% nói về phương pháp qua nhiều nghiên cứu lặp lại ("điệu nhảy của các KTC"). |
+| 8 | **Đ** | Nghiên cứu nhỏ có lực thống kê thấp, nên có thể bỏ sót một tác động có thật (bắn trượt). |
+| 9 | **Đ** | Alpha = tỷ lệ sai lầm loại I = nguy cơ báo động nhầm. |
+| 10 | **S** | Giá trị p không có "xu hướng". Báo cáo ước lượng và KTC, và gọi đúng tên: không có ý nghĩa thống kê. |
+| 11 | **Đ** | Với 20 kiểm định độc lập và không có tác động thật, xác suất có ít nhất một p < 0.05 là khoảng 64% (bài toán "kẹo dẻo"). |
+| 12 | **S** | Cùng người bệnh đo hai lần: dùng kiểm định **ghép cặp** (kiểm định t ghép cặp, hoặc Wilcoxon dấu hạng nếu lệch). |
+| 13 | **S** | Chuyển sang một phía sau khi đã xem dữ liệu làm giá trị p giảm một nửa và không chấp nhận được. Mặc định là hai phía; kiểm định một phía cần một lý do mạnh, ghi trong đề cương trước khi có dữ liệu. |
+| 14 | **S** | Không kém hơn là một thiết kế khác: ngưỡng xác định trước, giả thuyết, cỡ mẫu và phân tích riêng (Buổi 3). |
 
 
 * * *
 
-## Exercise 2: Choose the test
+## Bài tập 2: Chọn kiểm định
 
-| # | Test | Why |
+| # | Kiểm định | Vì sao |
 |---|---|---|
-| a | **Independent (unpaired) t-test** | Numerical, roughly symmetric outcome, two independent groups. |
-| b | **Mann–Whitney U** | Numerical but skewed, small groups. (Same choice as Paper 1 for fluid balance.) |
-| c | **Chi-square test** | Binary outcome, two independent groups, large expected counts. |
-| d | **Fisher's exact test** | Binary outcome, very small counts (expected counts < 5). |
-| e | **Paired t-test** | Same patients measured twice; differences roughly symmetric. (Wilcoxon signed-rank if skewed.) |
-| f | **McNemar test** | Binary outcome measured twice in the same patients (paired categorical). |
+| a | **Kiểm định t độc lập (không ghép cặp)** | Kết cục dạng số, gần đối xứng, hai nhóm độc lập. |
+| b | **Mann–Whitney U** | Dạng số nhưng lệch, nhóm nhỏ. (Cùng lựa chọn với Bài báo 1 cho cân bằng dịch.) |
+| c | **Kiểm định khi bình phương** | Kết cục nhị phân, hai nhóm độc lập, tần số kỳ vọng lớn. |
+| d | **Kiểm định chính xác Fisher** | Kết cục nhị phân, tần số rất nhỏ (tần số kỳ vọng < 5). |
+| e | **Kiểm định t ghép cặp** | Cùng người bệnh đo hai lần; hiệu số gần đối xứng. (Wilcoxon dấu hạng nếu lệch.) |
+| f | **Kiểm định McNemar** | Kết cục nhị phân đo hai lần trên cùng người bệnh (biến phân loại ghép cặp). |
 
-Facilitation: if someone suggests "chi-square" for (f), ask "are these two independent groups?" They are not: the same patients are measured twice, so the data are paired and McNemar applies.
+Hướng dẫn: nếu có ai gợi ý "khi bình phương" cho câu (f), hãy hỏi "đây có phải hai nhóm độc lập không?" Không phải: cùng người bệnh được đo hai lần, nên dữ liệu ghép cặp và dùng McNemar.
 
 
 * * *
 
-## Exercise 3: Match r to the scatter plots
+## Bài tập 3: Ghép hệ số r với biểu đồ phân tán
 
-| Plot | r | Why |
+| Biểu đồ | r | Vì sao |
 |---|---|---|
-| A | **−0.58** | Points fall from left to right, moderate scatter |
-| B | **0.01** | Round cloud, no straight-line trend |
-| C | **0.86** | Tight rising band |
-| D | **0.30** | Weak rising trend, lots of scatter |
+| A | **−0.58** | Các điểm đi xuống từ trái sang phải, phân tán vừa phải |
+| B | **0.01** | Đám mây tròn, không có xu hướng đường thẳng |
+| C | **0.86** | Dải điểm đi lên, sát nhau |
+| D | **0.30** | Xu hướng đi lên yếu, phân tán nhiều |
 
-(The plotted data were simulated with exactly these correlations.)
+(Dữ liệu trên biểu đồ được mô phỏng với đúng các hệ số tương quan này.)
 
-Bonus: **no**, not on correlation alone. High r means the two methods rise and fall together, not that they give the same value. Look at **agreement**: a Bland–Altman plot (difference against average), the mean difference (bias) and the 95% limits of agreement, and decide whether those differences are clinically acceptable.
+Câu hỏi thêm: **không**, nếu chỉ dựa vào tương quan. r cao nghĩa là hai phương pháp cùng tăng cùng giảm, không có nghĩa là cho cùng giá trị. Hãy xem **mức độ đồng thuận**: biểu đồ Bland–Altman (hiệu số theo trung bình), hiệu số trung bình (độ lệch hệ thống) và giới hạn đồng thuận 95%, rồi quyết định những khác biệt đó có chấp nhận được về mặt lâm sàng không.
 
 
 * * *
 
-## Exercise 4: [DS] Interpret your group's comparison
+## Bài tập 4: [FLUID-ICU] Diễn giải phép so sánh (Q1 làm chung trong lớp; mỗi học viên làm cho câu hỏi mình chọn)
 
-Numbers from `Course/Data/key_results.md` (all unadjusted; simulated data).
+Số liệu từ `Course/Data/key_results.md` (đều chưa hiệu chỉnh; dữ liệu mô phỏng).
 
-| Q | Test | Result | Model sentence |
+| Q | Kiểm định | Kết quả | Câu mẫu |
 |---|---|---|---|
-| Q1 | Chi-square (binary outcome, two large groups) | 134/373 (35.9%) vs 45/245 (18.4%); RD 17.6 points (95% CI 10.7 to 24.4); RR 1.96; p < 0.001 | "Twenty-eight-day mortality was 35.9% with a positive and 18.4% with a negative balance (risk difference 17.6 percentage points, 95% CI 10.7 to 24.4)." |
-| Q2 | Chi-square | AKI 230/373 (61.7%) vs 71/245 (29.0%); p < 0.001; gradient 29%, 54%, 63%, 75% across balance groups | "AKI occurred in 61.7% of patients with a positive and 29.0% with a negative balance." |
-| Q3 | Mann–Whitney (count, piled at 0 and 28) | Median 20 (0 to 28) vs 28 (22 to 28) days; p < 0.001 | "Patients with a positive balance had fewer ventilator-free days (median 20 vs 28)." |
-| Q4 | Mann–Whitney (lactate skewed) | Median lactate 3.1 (2.2 to 4.5) in non-survivors vs 2.3 (1.6 to 3.4) mmol/L in survivors; mortality < 2: 19%, 2–4: 31%, > 4: 50% | "Non-survivors had higher admission lactate (median 3.1 vs 2.3 mmol/L)." |
-| Q5 | Mann–Whitney (skewed, survivors) | Median 7.5 (5.2 to 11.2) vs 4.8 (3.3 to 7.1) days; Hodges–Lehmann difference 2.5 days (95% CI 1.8 to 3.2); p < 0.001 | "Among survivors, ICU stay was longer with a positive balance (median 7.5 vs 4.8 days; difference 2.5 days, 95% CI 1.8 to 3.2)." Note: the t-test difference in means (2.7 days) is the wrong summary for this skewed outcome. |
+| Q1 | Khi bình phương (kết cục nhị phân, hai nhóm lớn) | 134/373 (35.9%) so với 45/245 (18.4%); RD 17.6 điểm (KTC 95% 10.7 đến 24.4); RR 1.96; p < 0.001 | "Tử vong 28 ngày là 35.9% ở nhóm cân bằng dịch dương và 18.4% ở nhóm cân bằng dịch âm (hiệu số nguy cơ 17.6 điểm phần trăm, KTC 95% 10.7 đến 24.4)." |
+| Q2 | Khi bình phương | AKI 230/373 (61.7%) so với 71/245 (29.0%); p < 0.001; tăng dần 29%, 54%, 63%, 75% qua các nhóm cân bằng dịch | "AKI xảy ra ở 61.7% người bệnh có cân bằng dịch dương và 29.0% người bệnh có cân bằng dịch âm." |
+| Q3 | Mann–Whitney (biến đếm, dồn ở 0 và 28) | Trung vị 20 (0 đến 28) so với 28 (22 đến 28) ngày; p < 0.001 | "Người bệnh có cân bằng dịch dương có ít ngày không thở máy hơn (trung vị 20 so với 28)." |
+| Q4 | Mann–Whitney (lactate lệch) | Trung vị lactate 3.1 (2.2 đến 4.5) ở người tử vong so với 2.3 (1.6 đến 3.4) mmol/L ở người sống sót; tử vong khi lactate < 2: 19%, 2–4: 31%, > 4: 50% | "Người tử vong có lactate lúc nhập viện cao hơn (trung vị 3.1 so với 2.3 mmol/L)." |
+| Q5 | Mann–Whitney (lệch, người sống sót) | Trung vị 7.5 (5.2 đến 11.2) so với 4.8 (3.3 đến 7.1) ngày; hiệu số Hodges–Lehmann 2.5 ngày (KTC 95% 1.8 đến 3.2); p < 0.001 | "Ở người sống sót, thời gian nằm ICU dài hơn khi cân bằng dịch dương (trung vị 7.5 so với 4.8 ngày; hiệu số 2.5 ngày, KTC 95% 1.8 đến 3.2)." Lưu ý: hiệu số trung bình theo kiểm định t (2.7 ngày) là cách tóm tắt sai cho kết cục lệch này. |
 
-Reason for bias (all groups): confounding by indication. The positive-balance group was sicker at baseline (Table 1).
+Lý do có thể sai lệch (cả năm câu hỏi): nhiễu do chỉ định. Nhóm cân bằng dịch dương nặng hơn lúc ban đầu (Bảng 1).
 
 
 * * *
 
-## Exercise 5: Read a regression table
+## Bài tập 5: Đọc bảng hồi quy (một ví dụ khác, bài về nhà)
 
-The table is mock data. The p-values are consistent with the CIs (computed from the log-scale standard error).
+Bảng là dữ liệu giả lập. Các giá trị p khớp với KTC (tính từ sai số chuẩn trên thang logarit).
 
-1. **Binary outcome** (delirium yes/no), so use logistic regression, which reports odds ratios.
-2. **1** (a ratio). An OR of 1 means equal odds.
-3. CI excludes 1 (✔) or includes 1 (✖):
+1. **Kết cục nhị phân** (mê sảng có/không), nên dùng hồi quy logistic, cho kết quả là tỷ số chênh.
+2. **1** (một tỷ số). OR bằng 1 nghĩa là odds bằng nhau.
+3. KTC không chứa 1 (✔) hoặc chứa 1 (✖):
 
-| Row | OR (95% CI) | Excludes 1? |
+| Dòng | OR (KTC 95%) | Không chứa 1? |
 |---|---|:-:|
 | Benzodiazepine | 2.10 (1.40–3.20) | ✔ |
-| Age per 10 y | 1.30 (1.12–1.51) | ✔ |
-| Mechanical ventilation | 1.60 (0.95–2.70) | ✖ |
-| Female sex | 0.85 (0.60–1.20) | ✖ |
-| Dementia | 3.40 (1.90–6.10) | ✔ |
-| Sleep protocol | 0.62 (0.41–0.94) | ✔ |
+| Tuổi mỗi 10 năm | 1.30 (1.12–1.51) | ✔ |
+| Thở máy | 1.60 (0.95–2.70) | ✖ |
+| Giới nữ | 0.85 (0.60–1.20) | ✖ |
+| Sa sút trí tuệ | 3.40 (1.90–6.10) | ✔ |
+| Quy trình giấc ngủ | 0.62 (0.41–0.94) | ✔ |
 
-4. Model sentence: *"After adjusting for age, sex, ventilation, dementia, sleep protocol and illness severity, patients who received a benzodiazepine infusion had about twice the odds of developing delirium (OR 2.10, 95% CI 1.40 to 3.20)."*
-5. The OR multiplies for each 10 years: 20 years older gives 1.30 × 1.30 ≈ **1.69 times the odds** (all else equal).
-6. **Mechanical ventilation** and **female sex** (CIs include 1).
-7. Problems in the conclusion:
-   - **Causal language** ("cause", "reduces") from an observational cohort: should be "associated with". Confounding by indication is likely (sicker or more agitated patients receive benzodiazepines).
-   - **"Trend"** for p = 0.08: the CI (0.95–2.70) includes 1, so it is not statistically significant. Report the estimate and CI.
-   - **"Reduces delirium by 38%"** confuses odds with risk (OR 0.62 is a 38% lower *odds*, not risk; delirium is common, so the risk reduction is smaller) and again implies causation. The sleep protocol was not randomised.
-
-
-* * *
-
-## Exercise 6: Read a Kaplan–Meier curve (simulated trial; values computed from the plotted data)
-
-1. About **82%** alive in the restrictive group and about **67%** in the usual-care group at day 28 (read where each curve ends). Accept ±3%.
-2. Each tick is a **censored** patient: follow-up stopped (lost to follow-up, transferred, withdrew) without death being observed. They count as alive up to that day.
-3. **67** usual-care patients were at risk at day 21. The number falls because of **deaths and censoring**. In the restrictive group 16 died but 33 left the risk set (from 100 to 67 at day 28) because 17 were censored before day 28.
-4. The log-rank test gives evidence that the two survival curves differ (p = 0.009: results this different would be unusual if the strategies had the same survival). It does **not** give the size of the effect, its 95% CI, or any adjustment for confounders (and in a trial, it is not "proof" of causation without a good design).
-5. **Cox regression** gives the hazard ratio with a 95% CI. Check the **proportional-hazards** assumption: curves that cross or converge strongly suggest the HR is not constant over time.
-6. No: without numbers at risk the reader cannot see how many patients support each part of the curve; the right-hand end may rest on very few patients. Reporting guidelines and reviewers expect them.
+4. Câu mẫu: *"Sau khi hiệu chỉnh theo tuổi, giới, thở máy, sa sút trí tuệ, quy trình giấc ngủ và mức độ nặng của bệnh, người bệnh được truyền benzodiazepine có odds bị mê sảng cao gấp khoảng hai lần (OR 2.10, KTC 95% 1.40 đến 3.20)."*
+5. OR nhân lên cho mỗi 10 năm: lớn hơn 20 tuổi cho 1.30 × 1.30 ≈ **odds gấp 1.69 lần** (khi các yếu tố khác như nhau).
+6. **Thở máy** và **giới nữ** (KTC chứa 1).
+7. Các vấn đề trong kết luận:
+   - **Ngôn ngữ nhân quả** ("gây", "làm giảm") từ một nghiên cứu thuần tập quan sát: nên dùng "có liên quan với". Rất có thể có nhiễu do chỉ định (người bệnh nặng hơn hoặc kích động hơn được dùng benzodiazepine).
+   - **"Xu hướng"** cho p = 0.08: KTC (0.95–2.70) chứa 1, nên không có ý nghĩa thống kê. Báo cáo ước lượng và KTC.
+   - **"Làm giảm mê sảng 38%"** nhầm odds với nguy cơ (OR 0.62 là odds thấp hơn 38%, không phải nguy cơ; mê sảng phổ biến, nên mức giảm nguy cơ nhỏ hơn) và lại hàm ý nhân quả. Quy trình giấc ngủ không được phân bổ ngẫu nhiên.
 
 
 * * *
 
-## Exercise 7: Why is it missing? MCAR, MAR or MNAR
+## Bài tập 6: Đọc đường cong Kaplan–Meier (thử nghiệm mô phỏng; giá trị tính từ dữ liệu trên biểu đồ)
 
-| # | Mechanism | Consequence for complete-case analysis |
+1. Ở ngày 28, khoảng **82%** còn sống ở nhóm hạn chế dịch và khoảng **67%** ở nhóm chăm sóc thường quy (đọc ở điểm cuối mỗi đường cong). Chấp nhận ±3%.
+2. Mỗi vạch là một người bệnh **bị kiểm duyệt**: việc theo dõi dừng lại (mất theo dõi, chuyển viện, rút lui) mà chưa ghi nhận tử vong. Họ được tính là còn sống đến ngày đó.
+3. **67** người bệnh nhóm chăm sóc thường quy còn trong nhóm nguy cơ ở ngày 21. Con số giảm do **tử vong và kiểm duyệt**. Ở nhóm hạn chế dịch, 16 người tử vong nhưng 33 người rời khỏi nhóm nguy cơ (từ 100 xuống 67 ở ngày 28) vì 17 người bị kiểm duyệt trước ngày 28.
+4. Kiểm định log-rank cho bằng chứng hai đường cong sống còn khác nhau (p = 0.009: kết quả khác biệt đến mức này sẽ hiếm gặp nếu hai chiến lược có cùng tỷ lệ sống). Nó **không** cho biết độ lớn tác động, KTC 95%, hay bất kỳ hiệu chỉnh nào theo yếu tố gây nhiễu (và trong một thử nghiệm, nó không phải "bằng chứng" nhân quả nếu thiết kế không tốt).
+5. **Hồi quy Cox** cho tỷ số nguy cơ tức thời kèm KTC 95%. Kiểm tra giả định **nguy cơ tỷ lệ**: các đường cong cắt nhau hoặc hội tụ mạnh gợi ý HR không hằng định theo thời gian.
+6. Không: thiếu số người còn trong nhóm nguy cơ, người đọc không thể thấy bao nhiêu người bệnh làm nền cho từng phần của đường cong; phần cuối bên phải có thể chỉ dựa trên rất ít người bệnh. Các hướng dẫn báo cáo và người phản biện đều yêu cầu số liệu này.
+
+
+* * *
+
+## Bài tập 7: Vì sao dữ liệu bị thiếu? MCAR, MAR hay MNAR
+
+| # | Cơ chế | Hệ quả đối với phân tích các trường hợp đầy đủ |
 |---|---|---|
-| a | **MCAR**: an accident unrelated to the patients | Unbiased, just less precise (fewer patients) |
-| b | **MAR**: depends on admission time, which is recorded | Possibly biased if night admissions differ; multiple imputation using admission time can correct it |
-| c | **MNAR**: depends on the missing value itself (the worst pain) | Biased (pain looks better than it is); no guaranteed fix: sensitivity analysis |
-| d | **MNAR** (deteriorating patients are transferred); at best MAR if the reason for transfer is recorded | Biased (mortality underestimated); chase day-28 status by phone/records; sensitivity analysis |
-| e | **MCAR** (missing by design for one month, unrelated to patients), unless patients in the first month differed | Usually unbiased; check whether early patients differed |
-| f | **MAR**: depends on age, recorded for all | Biased towards younger patients' quality of life; multiple imputation including age |
+| a | **MCAR**: một tai nạn không liên quan đến người bệnh | Không sai lệch, chỉ kém chính xác hơn (ít người bệnh hơn) |
+| b | **MAR**: phụ thuộc vào giờ nhập viện, vốn được ghi lại | Có thể sai lệch nếu người nhập viện ban đêm khác biệt; quy gán đa bội có dùng giờ nhập viện có thể khắc phục |
+| c | **MNAR**: phụ thuộc vào chính giá trị bị thiếu (đau nhiều nhất) | Sai lệch (đau trông nhẹ hơn thực tế); không có cách khắc phục chắc chắn: phân tích độ nhạy |
+| d | **MNAR** (người bệnh diễn tiến xấu được chuyển viện); tốt nhất là MAR nếu lý do chuyển viện được ghi lại | Sai lệch (tử vong bị ước tính thấp); truy tìm tình trạng ngày 28 qua điện thoại/hồ sơ; phân tích độ nhạy |
+| e | **MCAR** (thiếu theo thiết kế trong một tháng, không liên quan đến người bệnh), trừ khi người bệnh tháng đầu khác biệt | Thường không sai lệch; kiểm tra xem người bệnh giai đoạn đầu có khác biệt không |
+| f | **MAR**: phụ thuộc vào tuổi, được ghi cho mọi người | Lệch về phía chất lượng cuộc sống của người trẻ; quy gán đa bội có đưa tuổi vào |
 
-Bonus (d): report the main result plus a **best-case** (all transferred patients alive) and **worst-case** (all died) analysis, or vary the assumed mortality among transferred patients. If the conclusion holds under all scenarios, it is robust.
+Câu hỏi thêm (d): báo cáo kết quả chính cộng với phân tích **trường hợp tốt nhất** (mọi người bệnh chuyển viện còn sống) và **trường hợp xấu nhất** (mọi người đều tử vong), hoặc thay đổi tỷ lệ tử vong giả định ở nhóm chuyển viện. Nếu kết luận đứng vững ở mọi kịch bản, kết luận đó vững chắc.
 
 
 * * *
 
-## Exercise 8: [DS] Interpret your group's model
+## Bài tập 8: [FLUID-ICU] Diễn giải mô hình (Q1 làm chung trong lớp; mỗi học viên làm cho câu hỏi mình chọn)
 
-Numbers from `Course/Data/key_results.md` (simulated data).
+Số liệu từ `Course/Data/key_results.md` (dữ liệu mô phỏng).
 
-| Q | Crude | Adjusted (complete case, n = 527 unless stated) | Multiple imputation (from the pack) |
+| Q | Thô | Hiệu chỉnh (trường hợp đầy đủ, n = 527 trừ khi ghi khác) | Quy gán đa bội (từ gói kết quả) |
 |---|---|---|---|
-| Q1 | OR 2.49 (1.70 to 3.70), n = 618; same 527 patients 2.22 (1.48 to 3.39) | OR 1.62 (1.02 to 2.59), p = 0.044; Cox HR crude 2.17 (1.55 to 3.05), adjusted 1.46 (1.00 to 2.13), p = 0.053; PH test p = 0.10 | MI (m = 20, n = 620): OR 1.70 (1.09 to 2.64), p = 0.020 |
-| Q2 | OR per 10 ml/kg 1.37 (1.27 to 1.47) | 1.27 (1.16 to 1.40), p < 0.001 | n/a |
-| Q3 | −1.48 (−1.84 to −1.13) days per 10 ml/kg | −0.61 (−1.00 to −0.21) days, p = 0.003 | n/a |
-| Q4 | OR per 1 mmol/L: CC 1.38 (1.23 to 1.55) vs MI 1.44 (1.28 to 1.61) | Adjusted (age, sex, diabetes, CKD, HF): CC 1.39 (1.24 to 1.57), n = 527 vs MI 1.45 (1.29 to 1.64), n = 620; + SOFA: CC 1.21 (1.05 to 1.39) vs MI 1.23 (1.07 to 1.42) | Lactate missing 93/620 (15.0%), mostly less sick patients (SOFA 5 vs 8; mortality 19.4% vs 30.6%): not MCAR, MAR plausible |
-| Q5 | Ratio of geometric means 1.50 (1.34 to 1.68) | 1.24 (1.10 to 1.39), p < 0.001 (n = 366 survivors with complete data) | n/a |
+| Q1 | OR 2.49 (1.70 đến 3.70), n = 618; trên cùng 527 người bệnh 2.22 (1.48 đến 3.39) | OR 1.62 (1.02 đến 2.59), p = 0.044; HR Cox thô 2.17 (1.55 đến 3.05), hiệu chỉnh 1.46 (1.00 đến 2.13), p = 0.053; kiểm định PH p = 0.10 | MI (m = 20, n = 620): OR 1.70 (1.09 đến 2.64), p = 0.020 |
+| Q2 | OR mỗi 10 ml/kg 1.37 (1.27 đến 1.47) | 1.27 (1.16 đến 1.40), p < 0.001 | không áp dụng |
+| Q3 | −1.48 (−1.84 đến −1.13) ngày mỗi 10 ml/kg | −0.61 (−1.00 đến −0.21) ngày, p = 0.003 | không áp dụng |
+| Q4 | OR mỗi 1 mmol/L: CC 1.38 (1.23 đến 1.55) so với MI 1.44 (1.28 đến 1.61) | Hiệu chỉnh (tuổi, giới, đái tháo đường, CKD, suy tim): CC 1.39 (1.24 đến 1.57), n = 527 so với MI 1.45 (1.29 đến 1.64), n = 620; + SOFA: CC 1.21 (1.05 đến 1.39) so với MI 1.23 (1.07 đến 1.42) | Thiếu lactate 93/620 (15.0%), chủ yếu ở người bệnh nhẹ hơn (SOFA 5 so với 8; tử vong 19.4% so với 30.6%): không phải MCAR, MAR là hợp lý |
+| Q5 | Tỷ số trung bình nhân 1.50 (1.34 đến 1.68) | 1.24 (1.10 đến 1.39), p < 0.001 (n = 366 người sống sót có dữ liệu đầy đủ) | không áp dụng |
 
-1. Q1 confounders (pre-specified in the SAP): age, SOFA, lactate, vasopressor, mechanical ventilation, CKD. AKI and dialysis were deliberately NOT adjusted for (they occur after day 3, so they are outcomes or mediators).
-2. In every question the adjusted estimate is closer to "no effect" than the crude one: part of the crude association was severity (confounding by indication).
-3. All adjusted CIs above exclude the null, but Q1's lower limit is close to 1 (1.02; Cox 1.00): a modest, imprecise association.
-4. Complete case 527 of 620; the left-out patients were mostly those without lactate, who were less sick.
-5. MI changed the estimates only slightly (Q1 from 1.62 to 1.70; Q4 from 1.39 to 1.45): the conclusions are robust to how missing lactate was handled.
-6. (Q1) Day-28 survival 81.6% (negative) vs 64.1% (positive); log-rank p < 0.001 (unadjusted). Adjusted OR 1.62 (p = 0.044) and HR 1.46 (p = 0.053) are in the same direction and of similar size with overlapping CIs; whether p falls just below or above 0.05 does not change the interpretation.
+(CC = trường hợp đầy đủ; MI = quy gán đa bội.)
 
-Model sentences (Q1): "Positive fluid balance was associated with higher 28-day mortality (crude OR 2.49, 95% CI 1.70 to 3.70). After adjustment for age, SOFA, lactate, vasopressor use, mechanical ventilation and chronic kidney disease, the association was smaller (adjusted OR 1.62, 95% CI 1.02 to 2.59)."
+1. Các yếu tố gây nhiễu của Q1 (xác định trước trong SAP): tuổi, SOFA, lactate, thuốc vận mạch, thở máy, CKD. AKI và lọc máu cố ý KHÔNG được hiệu chỉnh (chúng xảy ra sau ngày 3, nên là kết cục hoặc yếu tố trung gian).
+2. Ở mọi câu hỏi, ước lượng hiệu chỉnh gần với "không có tác động" hơn ước lượng thô: một phần mối liên quan thô là do mức độ nặng (nhiễu do chỉ định).
+3. Mọi KTC hiệu chỉnh ở trên đều không chứa giá trị không có tác động, nhưng giới hạn dưới của Q1 gần 1 (1.02; Cox 1.00): một mối liên quan vừa phải, kém chính xác.
+4. Trường hợp đầy đủ 527 trên 620; những người bị loại chủ yếu là người không có lactate, vốn nhẹ hơn.
+5. MI chỉ làm thay đổi ước lượng một chút (Q1 từ 1.62 lên 1.70; Q4 từ 1.39 lên 1.45): kết luận vững chắc với cách xử lý lactate bị thiếu.
+6. (Q1) Tỷ lệ sống ngày 28 là 81.6% (âm) so với 64.1% (dương); log-rank p < 0.001 (chưa hiệu chỉnh). OR hiệu chỉnh 1.62 (p = 0.044) và HR 1.46 (p = 0.053) cùng hướng, độ lớn tương tự, KTC chồng lấn; việc p nằm ngay dưới hay ngay trên 0.05 không làm thay đổi cách diễn giải.
+
+Câu mẫu (Q1): "Cân bằng dịch dương có liên quan với tử vong 28 ngày cao hơn (OR thô 2.49, KTC 95% 1.70 đến 3.70). Sau khi hiệu chỉnh theo tuổi, SOFA, lactate, việc dùng thuốc vận mạch, thở máy và bệnh thận mạn, mối liên quan nhỏ hơn (OR hiệu chỉnh 1.62, KTC 95% 1.02 đến 2.59)."
 
 
 * * *
 
-## Exercise 9: Proposal builder 6 (what a good answer looks like)
+## Bài tập 9: Xây dựng đề cương 6 (câu trả lời tốt trông như thế nào)
 
-**Sample size (running example):** 40% vs 30% mortality, alpha 5% two-sided, power 80% gives 356 per group (spreadsheet sheet 2). Dividing by (1 − 0.10) gives 396 per group, 792 in total.
+**Cỡ mẫu (ví dụ xuyên suốt):** tử vong 40% so với 30%, alpha 5% hai phía, lực thống kê 80% cho 356 người mỗi nhóm (bảng tính trang 2). Chia cho (1 − 0.10) được 396 người mỗi nhóm, tổng cộng 792.
 
-**Analysis plan:** describe with mean (SD) / median (IQR) / n (%); compare 28-day mortality with a chi-square test; report RR and risk difference with 95% CIs. Observational designs: adjusted OR (logistic) or HR (Cox) with confounders chosen in advance, about 1 model term per 10 events.
+**Kế hoạch phân tích:** mô tả bằng trung bình (SD) / trung vị (IQR) / n (%); so sánh tử vong 28 ngày bằng kiểm định khi bình phương; báo cáo RR và hiệu số nguy cơ kèm KTC 95%. Thiết kế quan sát: OR hiệu chỉnh (logistic) hoặc HR (Cox) với các yếu tố gây nhiễu chọn trước, khoảng 1 số hạng trong mô hình cho mỗi 10 biến cố.
 
-**Missing-data plan (good enough):** names the variables likely to be missing and why; prevention; main handling (complete case if little missing and plausibly MCAR, otherwise multiple imputation); how missing data will be reported (n missing per variable, who). Imputation and sensitivity analyses are Level 2 topics; at Level 1, the focus is on reporting (n missing per variable, flow diagram). FLUID-ICU's SAP section 10 is a model.
+**Kế hoạch xử lý dữ liệu thiếu (đạt yêu cầu):** nêu các biến dễ bị thiếu và lý do; cách phòng ngừa; cách xử lý chính (trường hợp đầy đủ nếu thiếu ít và có thể là MCAR, nếu không thì quy gán đa bội); cách báo cáo dữ liệu thiếu (số thiếu của từng biến, ở ai). Cấp độ 2 chỉ giới thiệu về quy gán; quy gán và phân tích độ nhạy chuyên sâu nằm ở Cấp độ 3, Học phần H. Ở Cấp độ 1, trọng tâm là báo cáo (số thiếu của từng biến, sơ đồ dòng người tham gia). Mục 10 trong SAP của FLUID-ICU là một mẫu tốt.
 
-| Element | Good enough | Needs work |
+| Thành phần | Đạt yêu cầu | Cần cải thiện |
 |---|---|---|
-| Sample size | 4 inputs with a stated source | "All patients in one year" |
-| Analysis plan | Summary + test/model + effect measure with 95% CI | "Data will be analysed with SPSS" |
-| Confounders | Named, justified, within events-per-variable | Stepwise selection; mediators adjusted |
-| Missing data | Expected gaps + prevention + reporting | Nothing, or "missing data will be excluded" |
+| Cỡ mẫu | 4 thông số có nêu nguồn | "Mọi người bệnh trong một năm" |
+| Kế hoạch phân tích | Tóm tắt + kiểm định/mô hình + chỉ số tác động kèm KTC 95% | "Dữ liệu sẽ được phân tích bằng SPSS" |
+| Yếu tố gây nhiễu | Có nêu tên, có lý giải, trong giới hạn số biến cố trên mỗi biến | Chọn biến từng bước (stepwise); hiệu chỉnh cả yếu tố trung gian |
+| Dữ liệu thiếu | Dự kiến chỗ thiếu + phòng ngừa + báo cáo | Không có gì, hoặc "dữ liệu thiếu sẽ bị loại" |

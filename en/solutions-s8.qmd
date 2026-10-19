@@ -4,7 +4,7 @@ title: "Session 8: Solutions"
 
 [Download the PDF](files/sessions/s8_solutions.pdf) · [Back to Session 8](session8.qmd)
 
-Answer keys for `Practicals/s8_exercises.md`, Parts A–C. Model answers for the appraisal (Part D) are in `Resources/appraisal_instructor_guide.md`. Numbers in Part B are from `Course/Data/key_results.md` (SIMULATED data).
+Answer keys for `Course/Practicals/s8_exercises.md` (Session 8 exercise sheet), Parts A–C. Model answers for the appraisal (Part D) are in `Course/Resources/appraisal_instructor_guide.md`. Numbers in Part B are from `Course/Data/key_results.md` (SIMULATED data).
 
 
 * * *
@@ -28,14 +28,16 @@ a: **was observed in** (case series) · b: **is associated with** (cohort) · c:
 3. "In the Day-1 cohort, a positive fluid balance was not associated with 28-day mortality (HR 1.17, 95% CI 0.85 to 1.60; P = 0.354)." Do not write "had no effect".
 
 ### A4. Title from PICO (running example)
-"Restrictive vs usual fluids and 28-day mortality in septic shock: a randomised controlled trial" (14 words). Or, for an observational group proposal: "Cumulative fluid balance and 28-day mortality in adults with septic shock: a retrospective cohort study". Check: 10–16 words, design named, no "impact", observational = "and" / "association between".
+"Restrictive vs usual fluids and 28-day mortality in septic shock: a randomised controlled trial" (14 words). Or, for an observational proposal: "Cumulative fluid balance and 28-day mortality in adults with septic shock: a retrospective cohort study". Check: 10–16 words, design named, no "impact", observational = "and" / "association between".
 
 
 * * *
 
-## Part B: [DS] Manuscript workshop 2: model Introduction, Discussion, Abstract and Title for Q1
+## Part B: Manuscript workshop 2: model Introduction, Discussion, Abstract and Title for Q1
 
-All numbers from `Course/Data/key_results.md` and results pack Q1 (**SIMULATED DATA**). References are placeholders [n]; groups use their Session 1–2 references and Papers 1–2.
+Use these to steer the class draft in part 1 of the workshop (do not paste them). Participants who chose Q2–Q5 follow the same structure with their own pack.
+
+All numbers from `Course/Data/key_results.md` and results pack Q1 (**SIMULATED DATA**). References are placeholders [n]; participants use their Session 1–2 references and Papers 1–2.
 
 ### Model title and keywords
 **Positive fluid balance by day 3 and 28-day mortality in sepsis: a multicentre cohort study** (15 words; design named; calibrated).
@@ -60,8 +62,8 @@ Keywords: Fluid Therapy; Water-Electrolyte Balance; Critical Care; Mortality; Co
 **Results:** Of 618 patients analysed, 373 (60.4%) had a positive balance; 134/373 (35.9%) vs 45/245 (18.4%) died. The crude OR was 2.49 (95% CI 1.70 to 3.70) and the adjusted OR 1.62 (95% CI 1.02 to 2.59); with imputation 1.70 (1.09 to 2.64). The adjusted HR was 1.46 (95% CI 1.00 to 2.13).
 **Conclusions:** A positive fluid balance by day 3 was modestly associated with 28-day mortality; most of the crude association reflected illness severity. A randomised trial is needed before fluid strategies are changed.
 
-### Group-specific Discussion points (from the packs)
-| Group | Answer sentence (numbers from key_results.md) | Key limitation |
+### Question-specific Discussion points (from the packs)
+| Question | Answer sentence (numbers from key_results.md) | Key limitation |
 |---|---|---|
 | Q2 AKI | Adjusted OR 1.27 per 10 ml/kg (95% CI 1.16 to 1.40) | Reverse causation: oliguric AKI causes fluid accumulation |
 | Q3 VFD | Adjusted −0.61 days per 10 ml/kg (95% CI −1.00 to −0.21) | VFD combines death and ventilation; skewed outcome |

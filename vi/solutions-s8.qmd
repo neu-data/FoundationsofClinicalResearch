@@ -2,109 +2,117 @@
 title: "Buổi 8: Lời giải"
 ---
 
-::: {.lang-note}
-Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
-:::
+[Tải bản PDF](files/sessions/s8_solutions_VN.pdf) · [Quay lại Buổi 8](session8.qmd)
 
-[Tải bản PDF](files/sessions/s8_solutions.pdf) · [Quay lại Buổi 8](session8.qmd)
-
-Answer keys for `Practicals/s8_exercises.md`, Parts A–C. Model answers for the appraisal (Part D) are in `Resources/appraisal_instructor_guide.md`. Numbers in Part B are from `Course/Data/key_results.md` (SIMULATED data).
+Đáp án cho `Course/Practicals/s8_exercises_VN.md` (phiếu bài tập Buổi 8), Phần A–C. Đáp án mẫu cho phần thẩm định (Phần D) nằm trong `Course/Resources/appraisal_instructor_guide.md`. Số liệu trong Phần B lấy từ `Course/Data/key_results.md` (dữ liệu MÔ PHỎNG).
 
 
 * * *
 
-## Part A: Writing exercises
+## Phần A: Bài tập viết
 
-### A1. Fix the spin (model rewrites)
-| # | Model rewrite | Why |
+### A1. Sửa spin (bản viết lại mẫu)
+
+| # | Bản viết lại mẫu | Vì sao |
 |---|---|---|
-| a | "The point estimate favoured the restrictive strategy, but the 95% CI was wide (−15.2 to 41.6 ml/kg) and included no difference; a larger trial would be needed to detect a smaller effect." | p = 0.42 is not a trend; report the estimate and its uncertainty (annotation #41). |
-| b | "A positive fluid balance on the first ICU day was not associated with 28-day mortality (HR 1.17, 95% CI 0.85 to 1.60)." | "Impact" is causal; the cohort shows association only (#27). |
-| c | "Positive cumulative fluid balance during the first three ICU days and 28-day mortality in sepsis: a propensity score-matched cohort study" | Title must match the observational design (#1). |
-| d | "To our knowledge, this is among the lowest day-5 fluid balances reported in septic shock trials [refs]", or delete the sentence. | Superlatives need protection and a citation (#40). |
+| a | "Ước lượng điểm nghiêng về chiến lược hạn chế dịch, nhưng KTC 95% rộng (−15.2 đến 41.6 ml/kg) và có chứa giá trị không khác biệt; cần một thử nghiệm lớn hơn để phát hiện một tác động nhỏ hơn." | p = 0.42 không phải là xu hướng; báo cáo ước lượng và độ không chắc chắn của nó (chú giải #41). |
+| b | "Cân bằng dịch dương trong ngày ICU đầu tiên không liên quan với tử vong 28 ngày (HR 1.17, KTC 95% 0.85 đến 1.60)." | "Impact" (tác động) hàm ý nhân quả; nghiên cứu thuần tập chỉ cho thấy mối liên quan (#27). |
+| c | "Positive cumulative fluid balance during the first three ICU days and 28-day mortality in sepsis: a propensity score-matched cohort study" (Cân bằng dịch tích lũy dương trong ba ngày ICU đầu tiên và tử vong 28 ngày trong nhiễm khuẩn huyết: nghiên cứu thuần tập ghép cặp theo điểm xu hướng) | Tiêu đề phải tương xứng với thiết kế quan sát (#1). |
+| d | "Theo hiểu biết của chúng tôi, đây là một trong những mức cân bằng dịch ngày 5 thấp nhất được báo cáo trong các thử nghiệm về sốc nhiễm khuẩn [tài liệu tham khảo]", hoặc bỏ câu này. | So sánh bậc nhất cần có từ rào đón và trích dẫn (#40). |
 
-### A2. Verb ladder
-a: **was observed in** (case series) · b: **is associated with** (cohort) · c: **did not reduce** (one RCT; add "in this pilot" because it is small) · d: **reduces / causes** (consistent large RCTs and meta-analysis) · e: **was observed / was … %** (descriptive cross-sectional).
+### A2. Bậc thang động từ
 
-### A3. Results sentences
-1. "In the Day-3 matched cohort, a positive cumulative fluid balance was associated with higher 28-day mortality (HR 1.56, 95% CI 1.10 to 2.22; P = 0.012)."
-2. "By day 28, 6 of 24 patients had died in each group (relative risk 1.0, 95% CI 0.38 to 2.66)." In the Discussion: "the trial was too small to assess mortality".
-3. "In the Day-1 cohort, a positive fluid balance was not associated with 28-day mortality (HR 1.17, 95% CI 0.85 to 1.60; P = 0.354)." Do not write "had no effect".
+a: **được ghi nhận ở** (loạt ca bệnh) · b: **có liên quan với** (thuần tập) · c: **không làm giảm** (một RCT; thêm "trong nghiên cứu thí điểm này" vì cỡ mẫu nhỏ) · d: **làm giảm / gây ra** (các RCT lớn nhất quán và phân tích gộp) · e: **được ghi nhận / chiếm … %** (nghiên cứu mô tả cắt ngang).
 
-### A4. Title from PICO (running example)
-"Restrictive vs usual fluids and 28-day mortality in septic shock: a randomised controlled trial" (14 words). Or, for an observational group proposal: "Cumulative fluid balance and 28-day mortality in adults with septic shock: a retrospective cohort study". Check: 10–16 words, design named, no "impact", observational = "and" / "association between".
+### A3. Câu kết quả
+
+1. "Trong thuần tập ghép cặp ngày 3, cân bằng dịch tích lũy dương có liên quan với tử vong 28 ngày cao hơn (HR 1.56, KTC 95% 1.10 đến 2.22; P = 0.012)."
+2. "Đến ngày 28, mỗi nhóm có 6 trên 24 người bệnh tử vong (nguy cơ tương đối 1.0, KTC 95% 0.38 đến 2.66)." Trong phần Bàn luận: "thử nghiệm quá nhỏ để đánh giá tử vong".
+3. "Trong thuần tập ngày 1, cân bằng dịch dương không liên quan với tử vong 28 ngày (HR 1.17, KTC 95% 0.85 đến 1.60; P = 0.354)." Không viết "không có tác động".
+
+### A4. Tên đề tài từ PICO (ví dụ xuyên suốt)
+
+"Restrictive vs usual fluids and 28-day mortality in septic shock: a randomised controlled trial" (14 từ). Hoặc, cho đề cương quan sát: "Cumulative fluid balance and 28-day mortality in adults with septic shock: a retrospective cohort study". Kiểm tra: 10–16 từ, nêu thiết kế, không dùng "impact", thiết kế quan sát dùng "and" / "association between".
 
 
 * * *
 
-## Part B: [DS] Manuscript workshop 2: model Introduction, Discussion, Abstract and Title for Q1
+## Phần B: Thực hành bản thảo 2: Đặt vấn đề, Bàn luận, Tóm tắt và Tiêu đề mẫu cho Q1
 
-All numbers from `Course/Data/key_results.md` and results pack Q1 (**SIMULATED DATA**). References are placeholders [n]; groups use their Session 1–2 references and Papers 1–2.
+Dùng để định hướng bản nháp của lớp trong phần 1 của buổi thực hành (không dán nguyên văn). Học viên chọn Q2–Q5 theo cùng cấu trúc với gói kết quả của mình.
 
-### Model title and keywords
-**Positive fluid balance by day 3 and 28-day mortality in sepsis: a multicentre cohort study** (15 words; design named; calibrated).
-Keywords: Fluid Therapy; Water-Electrolyte Balance; Critical Care; Mortality; Cohort Studies.
+Mọi con số lấy từ `Course/Data/key_results.md` và gói kết quả Q1 (**DỮ LIỆU MÔ PHỎNG**). Tài liệu tham khảo để dạng giữ chỗ [n]; học viên dùng các tài liệu tham khảo từ Buổi 1–2 và Bài báo 1–2.
 
-### Model Introduction (~300 words, three paragraphs)
-1. *Known.* Intravenous fluids are a cornerstone of early sepsis treatment, but fluid given beyond the resuscitation phase accumulates. A positive cumulative fluid balance has been associated with higher mortality in several observational studies, including a large propensity-matched cohort in which a positive balance on ICU day 2 was associated with higher 28-day mortality (HR 2.13) [Paper 2].
-2. *Not known.* Because sicker patients receive more fluid, it remains uncertain how much of this association reflects illness severity (confounding by indication) rather than fluid itself [refs]. Randomised trials of restrictive strategies, such as a recent pilot targeting non-resuscitative fluids [Paper 1], have been small and inconclusive.
-3. *Aim.* We therefore examined whether a positive cumulative fluid balance by ICU day 3 was associated with 28-day mortality in adults with sepsis, before and after adjustment for severity.
+### Tiêu đề và từ khóa mẫu
 
-### Model Discussion (~500 words, six moves)
-1. **Answer.** In this multicentre cohort, a positive fluid balance by ICU day 3 was associated with higher 28-day mortality after adjustment for severity (adjusted OR 1.62, 95% CI 1.02 to 2.59).
-2. **Compare.** The direction agrees with Paper 2 (day-2 HR 2.13, 95% CI 1.48 to 3.06), although our adjusted estimate was smaller; differences in case mix, timing of the balance and adjustment sets may explain this.
-3. **Explain.** Most of the crude association (OR 2.49) disappeared after adjustment, consistent with confounding by indication: patients with a positive balance were sicker (median SOFA 8 vs 6; vasopressors 55.0% vs 24.9%). Fluid accumulation may contribute to organ oedema, but our data cannot show this.
-4. **Limitations.** Residual confounding by unmeasured severity is likely and would exaggerate the association; reverse causation (patients who deteriorate accumulate fluid) acts in the same direction. Patients who died before day 3 had less time to accumulate fluid. The adjusted Cox HR (1.46, 95% CI 1.00 to 2.13) had a lower limit at 1. Lactate was missing in 15%, but multiple imputation gave a similar estimate (OR 1.70). The association looked stronger in heart failure (adjusted OR 4.39 vs 1.29; p for interaction 0.031) but was based on 90 patients and should be treated as a hypothesis. The data are simulated.
-5. **Implications.** These findings do not justify restricting fluid in clinical practice; a randomised trial of fluid strategies after the resuscitation phase is needed.
-6. **Conclusion.** A positive cumulative fluid balance by ICU day 3 was modestly associated with higher 28-day mortality; most of the crude association reflected severity of illness.
+**Positive fluid balance by day 3 and 28-day mortality in sepsis: a multicentre cohort study** (Cân bằng dịch dương đến ngày 3 và tử vong 28 ngày trong nhiễm khuẩn huyết: nghiên cứu thuần tập đa trung tâm) (15 từ tiếng Anh; nêu thiết kế; từ ngữ chừng mực).
+Từ khóa: Fluid Therapy; Water-Electrolyte Balance; Critical Care; Mortality; Cohort Studies.
 
-### Model abstract (≈190 words)
-**Background:** A positive fluid balance is associated with death in sepsis, but sicker patients receive more fluid. We examined the association after adjustment for severity.
-**Methods:** Multicentre prospective cohort (simulated teaching data) of 620 adults with sepsis in four ICUs, 2023–2024. Exposure: positive cumulative fluid balance by ICU day 3. Outcome: 28-day mortality. Logistic and Cox regression adjusted for age, SOFA, lactate, vasopressors, mechanical ventilation and chronic kidney disease; multiple imputation for missing lactate.
-**Results:** Of 618 patients analysed, 373 (60.4%) had a positive balance; 134/373 (35.9%) vs 45/245 (18.4%) died. The crude OR was 2.49 (95% CI 1.70 to 3.70) and the adjusted OR 1.62 (95% CI 1.02 to 2.59); with imputation 1.70 (1.09 to 2.64). The adjusted HR was 1.46 (95% CI 1.00 to 2.13).
-**Conclusions:** A positive fluid balance by day 3 was modestly associated with 28-day mortality; most of the crude association reflected illness severity. A randomised trial is needed before fluid strategies are changed.
+### Đặt vấn đề mẫu (~300 từ, ba đoạn)
 
-### Group-specific Discussion points (from the packs)
-| Group | Answer sentence (numbers from key_results.md) | Key limitation |
+1. *Điều đã biết.* Dịch truyền tĩnh mạch là nền tảng trong điều trị sớm nhiễm khuẩn huyết, nhưng dịch truyền vượt quá giai đoạn hồi sức sẽ tích lũy. Cân bằng dịch tích lũy dương có liên quan với tử vong cao hơn trong nhiều nghiên cứu quan sát, trong đó có một nghiên cứu thuần tập lớn ghép cặp theo điểm xu hướng cho thấy cân bằng dịch dương ở ngày ICU thứ 2 liên quan với tử vong 28 ngày cao hơn (HR 2.13) [Bài báo 2].
+2. *Điều chưa biết.* Vì người bệnh nặng hơn được truyền nhiều dịch hơn, vẫn chưa rõ bao nhiêu phần của mối liên quan này phản ánh mức độ nặng của bệnh (nhiễu do chỉ định) chứ không phải do chính dịch truyền [tài liệu tham khảo]. Các thử nghiệm ngẫu nhiên về chiến lược hạn chế dịch, như một nghiên cứu thí điểm gần đây nhắm vào dịch không nhằm hồi sức [Bài báo 1], đều nhỏ và chưa đưa ra kết luận.
+3. *Mục tiêu.* Vì vậy chúng tôi xem xét liệu cân bằng dịch tích lũy dương đến ngày ICU thứ 3 có liên quan với tử vong 28 ngày ở người lớn bị nhiễm khuẩn huyết hay không, trước và sau khi hiệu chỉnh theo mức độ nặng.
+
+### Bàn luận mẫu (~500 từ, sáu bước)
+
+1. **Trả lời.** Trong nghiên cứu thuần tập đa trung tâm này, cân bằng dịch dương đến ngày ICU thứ 3 có liên quan với tử vong 28 ngày cao hơn sau khi hiệu chỉnh theo mức độ nặng (OR hiệu chỉnh 1.62, KTC 95% 1.02 đến 2.59).
+2. **So sánh.** Chiều hướng phù hợp với Bài báo 2 (HR ngày 2 là 2.13, KTC 95% 1.48 đến 3.06), dù ước lượng hiệu chỉnh của chúng tôi nhỏ hơn; khác biệt về đặc điểm người bệnh, thời điểm tính cân bằng dịch và bộ biến hiệu chỉnh có thể giải thích điều này.
+3. **Giải thích.** Phần lớn mối liên quan thô (OR 2.49) biến mất sau hiệu chỉnh, phù hợp với nhiễu do chỉ định: người bệnh có cân bằng dịch dương nặng hơn (trung vị SOFA 8 so với 6; thuốc vận mạch 55.0% so với 24.9%). Tích lũy dịch có thể góp phần gây phù cơ quan, nhưng dữ liệu của chúng tôi không chứng minh được điều này.
+4. **Hạn chế.** Nhiễu tồn dư do mức độ nặng chưa được đo là rất có thể và sẽ phóng đại mối liên quan; quan hệ nhân quả ngược (người bệnh diễn tiến xấu tích lũy dịch) cũng tác động theo cùng chiều. Người bệnh tử vong trước ngày 3 có ít thời gian tích lũy dịch hơn. HR Cox hiệu chỉnh (1.46, KTC 95% 1.00 đến 2.13) có giới hạn dưới bằng 1. Lactate bị thiếu ở 15%, nhưng quy gán đa bội cho ước lượng tương tự (OR 1.70). Mối liên quan có vẻ mạnh hơn ở người suy tim (OR hiệu chỉnh 4.39 so với 1.29; p tương tác 0.031) nhưng chỉ dựa trên 90 người bệnh và nên được xem là một giả thuyết. Dữ liệu là dữ liệu mô phỏng.
+5. **Ý nghĩa.** Các phát hiện này không đủ căn cứ để hạn chế dịch trong thực hành lâm sàng; cần một thử nghiệm ngẫu nhiên về chiến lược truyền dịch sau giai đoạn hồi sức.
+6. **Kết luận.** Cân bằng dịch tích lũy dương đến ngày ICU thứ 3 có liên quan ở mức vừa phải với tử vong 28 ngày cao hơn; phần lớn mối liên quan thô phản ánh mức độ nặng của bệnh.
+
+### Tóm tắt mẫu (≈190 từ)
+
+**Đặt vấn đề:** Cân bằng dịch dương có liên quan với tử vong trong nhiễm khuẩn huyết, nhưng người bệnh nặng hơn được truyền nhiều dịch hơn. Chúng tôi xem xét mối liên quan này sau khi hiệu chỉnh theo mức độ nặng.
+**Phương pháp:** Nghiên cứu thuần tập tiến cứu đa trung tâm (dữ liệu giảng dạy mô phỏng) trên 620 người lớn bị nhiễm khuẩn huyết tại bốn ICU, 2023–2024. Phơi nhiễm: cân bằng dịch tích lũy dương đến ngày ICU thứ 3. Kết cục: tử vong 28 ngày. Hồi quy logistic và Cox hiệu chỉnh theo tuổi, SOFA, lactate, thuốc vận mạch, thở máy và bệnh thận mạn; quy gán đa bội cho lactate bị thiếu.
+**Kết quả:** Trong 618 người bệnh được phân tích, 373 người (60.4%) có cân bằng dịch dương; 134/373 (35.9%) so với 45/245 (18.4%) tử vong. OR thô là 2.49 (KTC 95% 1.70 đến 3.70) và OR hiệu chỉnh là 1.62 (KTC 95% 1.02 đến 2.59); với quy gán là 1.70 (1.09 đến 2.64). HR hiệu chỉnh là 1.46 (KTC 95% 1.00 đến 2.13).
+**Kết luận:** Cân bằng dịch dương đến ngày 3 có liên quan ở mức vừa phải với tử vong 28 ngày; phần lớn mối liên quan thô phản ánh mức độ nặng của bệnh. Cần một thử nghiệm ngẫu nhiên trước khi thay đổi chiến lược truyền dịch.
+
+### Các điểm bàn luận riêng cho từng câu hỏi (từ các gói kết quả)
+
+| Câu hỏi | Câu trả lời (số liệu từ key_results.md) | Hạn chế chính |
 |---|---|---|
-| Q2 AKI | Adjusted OR 1.27 per 10 ml/kg (95% CI 1.16 to 1.40) | Reverse causation: oliguric AKI causes fluid accumulation |
-| Q3 VFD | Adjusted −0.61 days per 10 ml/kg (95% CI −1.00 to −0.21) | VFD combines death and ventilation; skewed outcome |
-| Q4 Lactate | Adjusted OR per mmol/L 1.39 (CC, n = 527) vs 1.45 (MI, n = 620) | Missing not at random cannot be excluded; MAR plausible (missing in less sick patients) |
-| Q5 ICU stay | Adjusted ratio of geometric means 1.24 (95% CI 1.10 to 1.39), survivors (n = 366 adjusted) | Survivors only (conditioning on survival); skewed outcome |
+| Q2 AKI | OR hiệu chỉnh 1.27 mỗi 10 ml/kg (KTC 95% 1.16 đến 1.40) | Quan hệ nhân quả ngược: AKI thiểu niệu gây tích lũy dịch |
+| Q3 VFD | Hiệu chỉnh −0.61 ngày mỗi 10 ml/kg (KTC 95% −1.00 đến −0.21) | Số ngày không thở máy gộp cả tử vong và thở máy; kết cục có phân phối lệch |
+| Q4 Lactate | OR hiệu chỉnh mỗi mmol/L 1.39 (CC, n = 527) so với 1.45 (MI, n = 620) | Không loại trừ được thiếu không ngẫu nhiên; MAR là hợp lý (thiếu ở người bệnh nhẹ hơn) |
+| Q5 Thời gian nằm ICU | Tỷ số trung bình nhân hiệu chỉnh 1.24 (KTC 95% 1.10 đến 1.39), người sống sót (n = 366 trong mô hình hiệu chỉnh) | Chỉ người sống sót (điều kiện hóa theo sống còn); kết cục có phân phối lệch |
 
-## Part C: Getting published
+## Phần C: Công bố
 
-### C1. Spot the predatory journal
+### C1. Nhận diện tạp chí săn mồi
 
-**1. Red flags in the invitation (at least 8):**
-1. Generic flattering greeting ("Respected Professor/Doctor"), unsolicited mass e-mail.
-2. Free e-mail address, not a publisher domain.
-3. Vague claim to have read "your excellent article" (no title).
-4. Absurdly broad scope (medicine, nursing, engineering, management; "all areas of science").
-5. A fake metric ("International Universal Index" impact factor). Only Clarivate issues the Journal Impact Factor.
-6. Guaranteed review in 48 h and publication in 5 days.
-7. Fees hidden until after acceptance.
-8. Pressure tactics ("this week only"), multiple exclamation marks, unusual grammar.
-9. Submission by replying to an e-mail instead of an editorial system.
+**1. Các dấu hiệu cảnh báo trong thư mời (ít nhất 8):**
+1. Lời chào chung chung, tâng bốc ("Respected Professor/Doctor"), email gửi hàng loạt không được yêu cầu.
+2. Địa chỉ email miễn phí, không phải tên miền của nhà xuất bản.
+3. Lời khẳng định mơ hồ đã đọc "your excellent article" (không nêu tên bài).
+4. Phạm vi rộng một cách vô lý (y khoa, điều dưỡng, kỹ thuật, quản lý; "all areas of science").
+5. Chỉ số giả ("International Universal Index" impact factor). Chỉ Clarivate cấp Journal Impact Factor.
+6. Cam kết bình duyệt trong 48 giờ và xuất bản trong 5 ngày.
+7. Phí được giấu đến sau khi chấp nhận bài.
+8. Chiến thuật gây áp lực ("this week only"), nhiều dấu chấm than, ngữ pháp bất thường.
+9. Nộp bài bằng cách trả lời email thay vì qua hệ thống biên tập.
 
-**2. Journal profiles:**
-| Journal | Verdict | Reason |
+**2. Hồ sơ tạp chí:**
+
+| Tạp chí | Nhận định | Lý do |
 |---|---|---|
-| J1 | **Trust** | Indexing verified at source, transparent fees and timelines, verifiable editors, uses reporting checklists. |
-| J2 | **Avoid** | Google Scholar / Index Copernicus are not quality indexes; 72-h acceptance; hidden fees; unverifiable board. |
-| J3 | **Trust / check further** | DOAJ listing and clear policies are good signs; no impact factor is normal for a new or small journal. Check it publishes work like yours. |
-| J4 | **Avoid** | A "hijacked" or look-alike journal. Always reach the real journal through its publisher's website or the NLM Catalog, not through an e-mail link. |
+| J1 | **Tin cậy** | Việc chỉ mục được xác minh tại nguồn, phí và thời gian minh bạch, biên tập viên kiểm chứng được, dùng bảng kiểm báo cáo. |
+| J2 | **Tránh** | Google Scholar / Index Copernicus không phải là chỉ mục chất lượng; chấp nhận trong 72 giờ; phí bị giấu; ban biên tập không kiểm chứng được. |
+| J3 | **Tin cậy / kiểm tra thêm** | Có trong DOAJ và chính sách rõ ràng là dấu hiệu tốt; chưa có hệ số ảnh hưởng là bình thường với tạp chí mới hoặc nhỏ. Kiểm tra xem tạp chí có đăng các nghiên cứu giống của bạn không. |
+| J4 | **Tránh** | Tạp chí "bị đánh cắp" (hijacked) hoặc giả danh. Luôn vào tạp chí thật qua website của nhà xuất bản hoặc NLM Catalog, không qua đường dẫn trong email. |
 
 
 * * *
 
-### C2. Responding to reviewers (model rows)
+### C2. Phản hồi ý kiến phản biện (các dòng mẫu)
 
-| # | Model response | Change |
+| # | Phản hồi mẫu | Thay đổi |
 |---|---|---|
-| R1.1 | "Thank you. We agree that our design supports association, not causation. We have changed the title to '… and …: a cohort study' and replaced 'improves' with 'was associated with' throughout." | Title p.1; abstract; Discussion p.x |
-| R1.2 | "Thank you. The main result is now reported as RR 0.78 (95% CI 0.61 to 0.99) in the abstract, Results and Table 2." | Abstract; Results p.x |
-| R1.3 | "Thank you for spotting this. 212 patients were included and 4 were excluded from the adjusted model because of missing lactate; the flow diagram and text now show 212 included and 208 analysed, with reasons." | Fig. 1; Results p.x |
-| R2.1 | (polite rebuttal) "We agree 1-year mortality is important. Our protocol, approved by the ethics committee, followed patients to day 28 only, so these data were not collected. We now mention this as a limitation and suggest it for future studies." | Limitations p.x |
+| R1.1 | "Xin cảm ơn. Chúng tôi đồng ý rằng thiết kế của chúng tôi chỉ ủng hộ mối liên quan, không phải quan hệ nhân quả. Chúng tôi đã đổi tiêu đề thành '… và …: nghiên cứu thuần tập' và thay 'cải thiện' bằng 'có liên quan với' trong toàn bài." | Tiêu đề tr.1; tóm tắt; Bàn luận tr.x |
+| R1.2 | "Xin cảm ơn. Kết quả chính nay được báo cáo là RR 0.78 (KTC 95% 0.61 đến 0.99) trong phần tóm tắt, Kết quả và Bảng 2." | Tóm tắt; Kết quả tr.x |
+| R1.3 | "Cảm ơn người phản biện đã phát hiện điều này. 212 người bệnh được đưa vào và 4 người bị loại khỏi mô hình hiệu chỉnh vì thiếu lactate; sơ đồ dòng và văn bản nay thể hiện 212 người được đưa vào và 208 người được phân tích, kèm lý do." | Hình 1; Kết quả tr.x |
+| R2.1 | (phản bác lịch sự) "Chúng tôi đồng ý tử vong 1 năm là quan trọng. Đề cương của chúng tôi, đã được hội đồng đạo đức chấp thuận, chỉ theo dõi người bệnh đến ngày 28, nên dữ liệu này không được thu thập. Chúng tôi nay nêu điều này như một hạn chế và đề xuất cho các nghiên cứu sau." | Hạn chế tr.x |
 
-Marking points: every comment answered; thanks without grovelling; concrete location of every change; no new data invented; disagreement supported by a reason (protocol, ethics approval).
+Các điểm chấm: trả lời mọi nhận xét; cảm ơn mà không khúm núm; nêu vị trí cụ thể của mọi thay đổi; không bịa thêm dữ liệu mới; phản bác có lý do (đề cương, chấp thuận của hội đồng đạo đức).

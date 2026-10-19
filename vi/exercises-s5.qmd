@@ -2,177 +2,178 @@
 title: "Buổi 5: Phiếu bài tập"
 ---
 
-::: {.lang-note}
-Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
-:::
+[Tải bản PDF](files/sessions/s5_exercises_VN.pdf) · [Tải bản Word (để điền)](files/sessions/s5_exercises_VN.docx) · [Quay lại Buổi 5](session5.qmd)
 
-[Tải bản PDF](files/sessions/s5_exercises.pdf) · [Quay lại Buổi 5](session5.qmd)
+**Nền tảng Nghiên cứu Lâm sàng · Cấp độ 1** · Neudata · *#ClearDataClearImpact* · Tuần 5 · Thứ Bảy 28/11/2026 · trực tuyến, 19:30–22:30
 
-**Foundations of Clinical Research** · Week 5, Saturday · Neudata · #ClearDataClearImpact
+Họ và tên: ______________________________   Khoa/Phòng: ______________________________
 
-Work with your neighbour or group as indicated. No calculator is needed: every exercise is about *choosing* and *interpreting*. Exercises marked **[DS]** use the course dataset FLUID-ICU (simulated) and your group's results pack in `Course/Data/results_packs/`. Exercise 8 becomes part of your proposal (Part 3).
+Phiếu được gửi qua email trước buổi học, dưới dạng tệp Word và tệp PDF. Gõ câu trả lời vào tệp Word (hoặc in bản PDF). Trong lớp, cả lớp cùng làm Bài tập 2, 6 và 7 (bạn trả lời trong khung chat hoặc bằng bình chọn; giảng viên gõ câu trả lời của lớp lên màn hình chia sẻ). Các bài tập khác là bài về nhà hoặc tự kiểm tra. Không cần máy tính bỏ túi: mọi bài tập đều là *chọn* và *diễn giải*. Các bài tập có ký hiệu **[FLUID-ICU]** dùng bộ dữ liệu của khóa học FLUID-ICU (mô phỏng) và các gói kết quả phân tích trong `Course/Data/results_packs/` (Results_Pack_Q1 đến Q5, cũng được gửi dưới dạng PDF). Bài tập 8 sẽ trở thành một phần đề cương của riêng bạn (Phần 3).
 
-| # | Exercise | When | Time |
+| # | Bài tập | Khi nào | Thời gian |
 |---|---|---|---|
-| 1 | Classify the variables | 5.1 pair task | 3 min |
-| 2 | Fix the bad CRF items | 5.1 pair task | 3 min |
-| 3 | Choose the right summary | 5.3 check / homework | 3 min |
-| 4 | Judge a bad figure | homework | 5 min |
-| 5 | [DS] Spot the problems in the raw FLUID-ICU data | homework (after the 5.2 demo) | 5 min |
-| 6 | [DS] Read your group's Table 1 | 5.4 group worksheet | 10 min |
-| 7 | [DS] Your group's question | 5.2 group task | 4 min |
-| 8 | Proposal builder 5 worksheet | proposal builder | 30 min |
+| 1 | Phân loại biến số | bài về nhà / tự kiểm tra (sau câu hỏi nhanh phần 5.1) | 5 phút |
+| 2 | Sửa các mục CRF viết chưa tốt | phần 5.1, cả lớp cùng làm | 7 phút |
+| 3 | Chọn cách tóm tắt phù hợp | kiểm tra nhanh phần 5.3 / bài về nhà | 3 phút |
+| 4 | Đánh giá một biểu đồ chưa tốt | bài về nhà | 5 phút |
+| 5 | [FLUID-ICU] Tìm lỗi trong dữ liệu thô FLUID-ICU | bài về nhà (sau phần trình diễn 5.2) | 5 phút |
+| 6 | [FLUID-ICU] Đọc Bảng 1 của FLUID-ICU | phần 5.4, cả lớp cùng làm | 10 phút |
+| 7 | [FLUID-ICU] Câu hỏi bản thảo của bạn dưới dạng câu PECO | phần 5.2, cả lớp cùng làm (Q1); sau đó cho câu hỏi bạn chọn | 4 phút |
+| 8 | Phiếu Xây dựng đề cương 5 (đề cương của riêng bạn) | xây dựng đề cương: giảng viên làm mẫu, bạn viết nháp; hoàn thành ở nhà | 30 phút |
 
 
 * * *
 
-## Exercise 1: Classify the variables
+## Bài tập 1: Phân loại biến số
 
-For each variable, tick **one** type.
+Với mỗi biến số, đánh dấu **một** loại.
 
-| # | Variable (ICU study of septic shock) | Continuous | Count | Binary | Nominal | Ordinal | Time-to-event |
+| # | Biến số (nghiên cứu ICU về sốc nhiễm khuẩn) | Liên tục | Đếm | Nhị phân | Định danh | Thứ hạng | Thời gian đến biến cố |
 |---|---|:-:|:-:|:-:|:-:|:-:|:-:|
-| a | Age at ICU admission (years) | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| b | Sex (male / female) | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| c | Glasgow Coma Scale on admission (3–15) | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| d | Main source of sepsis (lung / urine / abdomen / skin / other) | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| e | Number of vasopressors running at 24 h (0, 1, 2, 3) | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| f | Cumulative fluid balance at day 5 (ml/kg) | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| g | Alive at day 28 (yes / no) | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| h | Time from ICU admission to death (patients alive at day 28 are censored) | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| i | Pain: none / mild / moderate / severe | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| j | Blood group (A, B, AB, O) | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| a | Tuổi lúc vào ICU (năm) | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| b | Giới (nam / nữ) | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| c | Thang điểm hôn mê Glasgow lúc nhập viện (3–15) | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| d | Ổ nhiễm khuẩn chính (phổi / tiết niệu / ổ bụng / da / khác) | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| e | Số thuốc vận mạch đang dùng ở giờ 24 (0, 1, 2, 3) | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| f | Cân bằng dịch tích lũy ở ngày 5 (ml/kg) | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| g | Còn sống ở ngày 28 (có / không) | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| h | Thời gian từ lúc vào ICU đến tử vong (người bệnh còn sống ở ngày 28 bị kiểm duyệt) | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| i | Đau: không / nhẹ / vừa / nặng | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| j | Nhóm máu (A, B, AB, O) | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 
-**Bonus:** which ONE of these would you most like to collect as an exact number rather than in groups, and why?
+**Câu hỏi thêm:** bạn muốn thu thập biến nào nhất dưới dạng con số chính xác thay vì theo nhóm, và vì sao?
 
 
 * * *
 
-## Exercise 2: Fix the bad CRF items
+## Bài tập 2: Sửa các mục CRF viết chưa tốt
 
-Each item below can be filled in two different ways by two different nurses. Rewrite it so that it has **only one possible reading**. Check yourself: unit? time point? one answer only? an "unknown / not done" option?
+Trong lớp, giảng viên trình chiếu từng mục trên màn hình chia sẻ; bạn gõ phiên bản viết lại vào khung chat. Mỗi mục dưới đây có thể được hai điều dưỡng điền theo hai cách khác nhau. Hãy viết lại để mục đó **chỉ có một cách hiểu**. Tự kiểm tra: có đơn vị? có thời điểm? chỉ một câu trả lời? có lựa chọn "không rõ / không làm"?
 
-| # | Bad item | What is wrong? | Your rewritten item |
+| # | Mục chưa tốt | Sai ở đâu? | Mục bạn viết lại |
 |---|---|---|---|
-| a | Fluid given: ________ | | |
-| b | Weight: ______ | | |
-| c | Comorbidities: ______________________ | | |
-| d | Lactate high?   Y / N | | |
+| a | Dịch đã truyền: ________ | | |
+| b | Cân nặng: ______ | | |
+| c | Bệnh kèm theo: ______________________ | | |
+| d | Lactate cao?   Có / Không | | |
 
 
 * * *
 
-## Exercise 3: Choose the right summary
+## Bài tập 3: Chọn cách tóm tắt phù hợp
 
-For each variable, choose the summary you would report in Table 1 and the best graph.
+Với mỗi biến số, chọn cách tóm tắt bạn sẽ báo cáo trong Bảng 1 và loại biểu đồ tốt nhất.
 
-| # | Variable (200 ICU patients) | Shape / type | Summary | Graph |
+| # | Biến số (200 người bệnh ICU) | Hình dạng / loại | Cách tóm tắt | Biểu đồ |
 |---|---|---|---|---|
-| a | Age (years), bell-shaped | | | |
-| b | ICU length of stay (days): most 1–5 days, a few > 30 days | | | |
-| c | Died in hospital (yes / no) | | | |
-| d | C-reactive protein (mg/L): long right tail | | | |
-| e | Source of sepsis (5 categories) | | | |
-| f | Systolic blood pressure, compared between two treatment groups | | | |
+| a | Tuổi (năm), phân phối hình chuông | | | |
+| b | Thời gian nằm ICU (ngày): phần lớn 1–5 ngày, một số > 30 ngày | | | |
+| c | Tử vong trong bệnh viện (có / không) | | | |
+| d | Protein phản ứng C (mg/L): đuôi dài bên phải | | | |
+| e | Ổ nhiễm khuẩn (5 nhóm) | | | |
+| f | Huyết áp tâm thu, so sánh giữa hai nhóm điều trị | | | |
 
 
 * * *
 
-## Exercise 4: Judge a bad figure
+## Bài tập 4: Đánh giá một biểu đồ chưa tốt
 
-A poster in the hospital corridor shows this figure (fluid balance at day 5, 24 patients per group):
+Một poster ở hành lang bệnh viện có biểu đồ này (cân bằng dịch ở ngày 5, mỗi nhóm 24 người bệnh):
 
-![Dynamite plot](images/practicals/sat3/dynamite_bad.png)
+![Biểu đồ cột kèm thanh sai số](images/practicals/sat3/dynamite_bad.png)
 
-1. What does each bar show, and what does the error bar show? What is missing?
-2. Name **two things the reader cannot see** in this figure.
-3. Redraw it (sketch) the way you would show it in a paper. What do you gain?
+1. Mỗi cột thể hiện gì, và thanh sai số thể hiện gì? Còn thiếu gì?
+2. Nêu **hai điều người đọc không thể thấy** trong biểu đồ này.
+3. Vẽ lại (phác thảo) theo cách bạn sẽ trình bày trong một bài báo. Bạn được thêm gì?
 
-A second poster shows ward mortality as bars of 31% (Ward A) and 29% (Ward B), with the y-axis running from 28% to 32%.
+Poster thứ hai trình bày tử vong theo khoa bằng hai cột 31% (Khoa A) và 29% (Khoa B), với trục y chạy từ 28% đến 32%.
 
-4. What impression does it give, and how would you fix it?
-5. A third poster puts hand-hygiene compliance (%) and infection rate on one graph with two different y-axes and writes "hygiene works!". Give two reasons to be careful.
+4. Biểu đồ tạo ấn tượng gì, và bạn sẽ sửa thế nào?
+5. Poster thứ ba vẽ tỷ lệ tuân thủ vệ sinh tay (%) và tỷ lệ nhiễm khuẩn trên cùng một biểu đồ với hai trục y khác nhau, và viết "vệ sinh tay có hiệu quả!". Nêu hai lý do cần thận trọng.
 
 
 * * *
 
-## Exercise 5: [DS] Spot the problems in the raw FLUID-ICU data
+## Bài tập 5: [FLUID-ICU] Tìm lỗi trong dữ liệu thô FLUID-ICU
 
-Below are six cells copied from the raw file `Course/Data/fluid_icu_raw.csv` (as the four ICUs sent it). For each, say what is wrong and what the cleaning script should do.
+Dưới đây là sáu ô được sao chép từ tệp thô `Course/Data/fluid_icu_raw.csv` (đúng như bốn ICU gửi về). Với mỗi ô, hãy nói sai ở đâu và script làm sạch nên làm gì.
 
-| # | Column | Value in the raw file | What is wrong? | What should the script do? |
+| # | Cột | Giá trị trong tệp thô | Sai ở đâu? | Script nên làm gì? |
 |---|---|---|---|---|
 | a | sex | `m`, `male`, ` Female` | | |
-| b | admission date | `14/03/2023` in one row, `14-Mar-2023` in another | | |
+| b | ngày nhập viện | `14/03/2023` ở một dòng, `14-Mar-2023` ở dòng khác | | |
 | c | lactate (ICU C) | `23.4` | | |
 | d | lactate | `999` | | |
 | e | age | `210` | | |
-| f | patient ID | `FLU-139` appears in two identical rows | | |
+| f | mã người bệnh | `FLU-139` xuất hiện ở hai dòng giống hệt nhau | | |
 
-Bonus: why must the raw file never be edited by hand? Name two things the cleaning log records for every change.
+Câu hỏi thêm: vì sao không bao giờ được sửa tệp thô bằng tay? Nêu hai thông tin mà nhật ký làm sạch dữ liệu ghi lại cho mỗi thay đổi.
 
 
 * * *
 
-## Exercise 6: [DS] Read your group's Table 1 (results pack)
+## Bài tập 6: [FLUID-ICU] Đọc Bảng 1 của FLUID-ICU (gói kết quả phân tích)
 
-Open your group's results pack (`Course/Data/results_packs/Results_Pack_Qn.docx`, Table 1: baseline characteristics by fluid-balance group).
+Mở Bảng 1 (đặc điểm nền theo nhóm cân bằng dịch) trong bất kỳ gói kết quả nào: cả năm gói đều có cùng bảng này (`Course/Data/results_packs/Results_Pack_Q1` đến `Q5`, PDF). Trong lớp chúng ta cùng trả lời câu 1 đến 5; câu 6 dành cho bạn.
 
-1. How many patients are in each column? Why is the overall number 618 and not 620?
-2. For **three** variables, write the summary used (mean (SD), median (IQR) or n (%)) and why.
+1. Mỗi cột có bao nhiêu người bệnh? Vì sao tổng số là 618 mà không phải 620?
+2. Với **ba** biến số, ghi cách tóm tắt đã dùng (trung bình (SD), trung vị (IQR) hoặc n (%)) và vì sao.
 
-| Variable | Summary used | Why this summary? |
+| Biến số | Cách tóm tắt đã dùng | Vì sao dùng cách này? |
 |---|---|---|
 | | | |
 | | | |
 | | | |
 
-3. Were the two groups alike at the start? Name the **biggest** difference between the negative- and positive-balance groups.
-4. Which variable has the most missing values, and how many?
-5. Write **two sentences** describing the patients, as they would appear at the start of your Results section (numbers in brackets, no p-values).
+3. Lúc bắt đầu, hai nhóm có giống nhau không? Nêu khác biệt **lớn nhất** giữa nhóm cân bằng dịch âm và nhóm cân bằng dịch dương.
+4. Biến nào thiếu nhiều giá trị nhất, và thiếu bao nhiêu?
+5. Viết **hai câu** mô tả người bệnh, như cách chúng sẽ xuất hiện ở đầu phần Kết quả trong bản thảo của bạn (số liệu trong ngoặc, không có giá trị p).
 
 > ______________________________________________________________________________
 
-6. Looking at this table, would you expect the crude association between positive fluid balance and death to be larger or smaller than the adjusted one? Why?
+6. Nhìn vào bảng này, bạn dự đoán mối liên quan thô giữa cân bằng dịch dương và tử vong sẽ lớn hơn hay nhỏ hơn mối liên quan đã hiệu chỉnh? Vì sao?
 
 
 * * *
 
-## Exercise 7: [DS] Your group's question (5.2)
+## Bài tập 7: [FLUID-ICU] Câu hỏi bản thảo của bạn dưới dạng câu PECO (5.2)
 
-| | Your answer |
+Trong lớp chúng ta cùng điền bảng này cho Câu hỏi 1 (Q1). Sau đó, hãy điền cho MỘT câu hỏi (Q1 đến Q5) bạn chọn cho bản thảo của mình. PECO: P = đối tượng, E = phơi nhiễm, C = so sánh, O = kết cục.
+
+| | Câu trả lời của bạn |
 |---|---|
-| Group question (Q1–Q5), copied from page 1 of your results pack | |
-| **P**: population | |
-| **E**: exposure (variable name in the data dictionary) and its type | |
-| **C**: comparator | |
-| **O**: outcome (variable name) and its type | |
-| One-sentence research question | |
-| Which test will compare the groups? Which model will adjust? (guess now, check in Session 6) | |
+| Câu hỏi bạn chọn (Q1 đến Q5), chép từ trang 1 của gói kết quả | |
+| **P**: đối tượng | |
+| **E**: phơi nhiễm (tên biến trong từ điển dữ liệu) và loại biến | |
+| **C**: nhóm so sánh | |
+| **O**: kết cục (tên biến) và loại biến | |
+| Câu hỏi nghiên cứu viết thành một câu | |
+| Kiểm định nào sẽ so sánh các nhóm? Mô hình nào sẽ hiệu chỉnh? (đoán ngay bây giờ, kiểm tra lại ở Buổi 6) | |
 
 
 * * *
 
-## Exercise 8: Proposal builder 5 worksheet (group, 30 minutes)
+## Bài tập 8: Phiếu Xây dựng đề cương 5 (cá nhân)
 
-Write your answers here first, then copy them into Part 3 of the group proposal template. (Your **own** question, not the course dataset.)
+Giảng viên làm mẫu từng phần với ví dụ xuyên suốt; sau đó bạn viết nháp bảng biến số trong lớp (8 phút) và hoàn thành phần còn lại ở nhà. Viết câu trả lời ở đây trước, rồi chép vào Phần 3 trong mẫu đề cương của riêng bạn (`Course/Templates/Research_Proposal_Template.docx`). (Dùng câu hỏi **của riêng bạn**, không dùng bộ dữ liệu của khóa học.)
 
-### 8.1 Variables table (8 min)
+### 8.1 Bảng biến số (8 phút)
 
-| Role | Variable | How measured (unit, time point) | Type |
+| Vai trò | Biến số | Cách đo (đơn vị, thời điểm) | Loại |
 |---|---|---|---|
-| Primary outcome | | | |
-| Secondary outcome (optional) | | | |
-| Exposure / intervention | | | |
-| Confounder 1 | | | |
-| Confounder 2 | | | |
-| Confounder 3 | | | |
-| Descriptive (e.g. age, sex) | | | |
+| Kết cục chính | | | |
+| Kết cục phụ (không bắt buộc) | | | |
+| Phơi nhiễm / can thiệp | | | |
+| Yếu tố gây nhiễu 1 | | | |
+| Yếu tố gây nhiễu 2 | | | |
+| Yếu tố gây nhiễu 3 | | | |
+| Mô tả (ví dụ tuổi, giới) | | | |
 
-*Tip: if your design is an RCT, confounders are less of a problem (randomisation), but list the key baseline variables you will show in Table 1.*
-### 8.2 Mini-CRF: 6–10 items (10 min)
+*Gợi ý: nếu thiết kế của bạn là RCT, yếu tố gây nhiễu ít là vấn đề hơn (nhờ phân bổ ngẫu nhiên), nhưng hãy liệt kê các biến nền chính bạn sẽ trình bày trong Bảng 1.*
 
-| # | Question exactly as the data collector will read it | Answer format (boxes / ticks / unit) | "Unknown / not done" option? |
+### 8.2 CRF thu nhỏ: 6–10 mục (10 phút)
+
+| # | Câu hỏi đúng như người thu thập dữ liệu sẽ đọc | Cách trả lời (ô số / ô đánh dấu / đơn vị) | Có lựa chọn "không rõ / không làm"? |
 |---|---|---|:-:|
 | 1 | | | ☐ |
 | 2 | | | ☐ |
@@ -182,24 +183,25 @@ Write your answers here first, then copy them into Part 3 of the group proposal 
 | 6 | | | ☐ |
 | 7 | | | ☐ |
 | 8 | | | ☐ |
-### 8.3 Data dictionary: 3–5 rows + one data-quality rule (6 min)
 
-| Variable name | Label (meaning) | Type | Unit / codes | Allowed values |
+### 8.3 Từ điển dữ liệu: 3–5 dòng + một quy tắc chất lượng dữ liệu (6 phút)
+
+| Tên biến | Nhãn (ý nghĩa) | Loại | Đơn vị / mã | Giá trị cho phép |
 |---|---|---|---|---|
 | | | | | |
 | | | | | |
 | | | | | |
 
-**Data-quality plan (one or two sentences):** who checks the forms, how often, and what range/consistency check you will run.
+**Kế hoạch chất lượng dữ liệu (một hoặc hai câu):** ai kiểm tra phiếu, bao lâu một lần, và bạn sẽ chạy kiểm tra khoảng giá trị / tính nhất quán nào.
 
 > ______________________________________________________________________________
 
-### 8.4 Data-management plan (6 min)
+### 8.4 Kế hoạch quản lý dữ liệu (6 phút)
 
-| Question | Our answer |
+| Câu hỏi | Câu trả lời của chúng tôi |
 |---|---|
-| Paper CRF with double data entry, or electronic data capture (e.g. REDCap / KoBoToolbox)? | |
-| Coded study IDs? Where is the linking log kept, and who can open it? | |
-| Validation rules at entry (two examples from your data dictionary) | |
-| Audit trail / cleaning log: who records changes? | |
-| Backups (3-2-1) and data-sharing statement in the consent form | |
+| CRF giấy với nhập liệu kép, hay thu thập dữ liệu điện tử (ví dụ REDCap / KoBoToolbox)? | |
+| Mã nghiên cứu cho từng người bệnh? Danh sách liên kết mã được lưu ở đâu, và ai được mở? | |
+| Quy tắc kiểm tra khi nhập liệu (hai ví dụ từ từ điển dữ liệu của bạn) | |
+| Nhật ký thay đổi dữ liệu / nhật ký làm sạch: ai ghi lại các thay đổi? | |
+| Sao lưu (3-2-1) và tuyên bố chia sẻ dữ liệu trong phiếu đồng ý | |

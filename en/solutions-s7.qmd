@@ -4,7 +4,7 @@ title: "Session 7: Solutions"
 
 [Download the PDF](files/sessions/s7_solutions.pdf) · [Back to Session 7](session7.qmd)
 
-Answer keys for `Practicals/s7_exercises.md`, Parts A–C. Numbers in Part C are from `Course/Data/key_results.md` (SIMULATED data).
+Answer keys for `Course/Practicals/s7_exercises.md` (Session 7 exercise sheet), Parts A–C. Numbers in Part C are from `Course/Data/key_results.md` (SIMULATED data). In class the whole group works together; these keys are for the instructor.
 
 
 * * *
@@ -23,12 +23,14 @@ Answer keys for `Practicals/s7_exercises.md`, Parts A–C. Numbers in Part C are
 
 **Example on the slide** (a colleague lent an ultrasound machine and asks for authorship): **AMBER/RED**. Providing equipment is not authorship, so thank them in the Acknowledgements.
 
-Facilitation: when groups disagree (often on 4a and 5), ask each side for one reason, then state the rule. Emphasise that honest error is not misconduct but must be corrected openly.
+Facilitation: run each scenario as a three-option poll (green, amber, red). When the poll is split (often on 4a and 5), ask one person from each side for a reason in the chat, then state the rule. Emphasise that honest error is not misconduct but must be corrected openly.
 
 
 * * *
 
-## Part B: Proposal builder 7: what a good Part 4 looks like (example: observational ICU study)
+## Part B: Proposal builder 7: what a good Part 4 looks like (running example: observational ICU study)
+
+Use this as the model you build live on the shared screen in class (20:30). Each participant then writes Part 4 for their own proposal at home.
 
 ### B1–B3. Ethics, confidentiality, feasibility
 
@@ -50,7 +52,7 @@ Common errors to correct: "consent will be obtained" with no who/when/how; assum
 | Target journal | A critical-care or critical-care-nursing journal indexed in MEDLINE (checked in the NLM Catalog), APC and licence known; back-up: a general critical-care open-access journal listed in DOAJ |
 | Reporting guideline | STROBE (cohort), not CONSORT |
 | Registration | Not mandatory for an observational study; recommended (e.g. ClinicalTrials.gov) |
-| Authors and CRediT | PI: Conceptualization, Methodology, Writing – original draft; two nurses: Investigation, Data curation; pharmacist: Investigation, Writing – review & editing; statistician: Formal analysis; head of department: Supervision (only if all four ICMJE criteria are met, otherwise Acknowledgements) |
+| Authors and CRediT | PI: Conceptualization, Methodology, Writing (original draft); two nurses: Investigation, Data curation; a third team member: Investigation, Writing (review and editing); statistician: Formal analysis; head of department: Supervision (only if all four ICMJE criteria are met, otherwise Acknowledgements) |
 | COI / funding | None declared / internal departmental support |
 | Data sharing | De-identified dataset and data dictionary available from the corresponding author under a data-use agreement (if the ethics committee and consent allow) |
 | Conference | National critical-care congress abstract after the first analysis |
@@ -62,9 +64,9 @@ Common errors: CONSORT named for a cohort; "impact" or "effect" in the title; an
 
 * * *
 
-## Part C: [DS] Manuscript workshop 1: model Methods and Results for Q1
+## Part C: Manuscript workshop 1: model Methods and Results for Q1
 
-All numbers are from `Course/Data/key_results.md` and `Course/Data/results_packs/Q1/results_pack_Q1.md` (**SIMULATED DATA, NOT REAL PATIENTS**). Show these to groups only AFTER the workshop, or use them to coach. Other groups (Q2–Q5) take the same structure and their own pack.
+All numbers are from `Course/Data/key_results.md` and `Course/Data/results_packs/Q1/results_pack_Q1.md` (**SIMULATED DATA, NOT REAL PATIENTS**). Use them to steer the class draft in part 1 of the workshop (do not paste them). Participants who chose Q2–Q5 follow the same structure with the numbers from their own pack.
 
 ### Model Methods (~300 words)
 
@@ -92,7 +94,7 @@ All numbers are from `Course/Data/key_results.md` and `Course/Data/results_packs
 
 **Other analyses.** With multiple imputation (n = 620) the adjusted OR was 1.70 (95% CI 1.09 to 2.64). The association differed by heart failure (p for interaction = 0.031): adjusted OR 4.39 (95% CI 1.65 to 12.38) with heart failure (n = 90) and 1.29 (95% CI 0.77 to 2.19) without (n = 437).
 
-### Coaching checklist (any group)
+### Coaching checklist (any participant's draft)
 | Check | Typical fix |
 |---|---|
 | Statistical paragraph names a method for every result | Add the test/model and the covariates |

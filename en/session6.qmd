@@ -1,6 +1,6 @@
 ---
 title: "Session 6 · Analyse: from sample to answer"
-subtitle: "Week 6 · Saturday · 3 hours (15-minute break)"
+subtitle: "Week 6 · Saturday · online, 19:30–22:30 (3 hours, 15-minute break)"
 ---
 
 **Date:** 05/12/2026
@@ -8,7 +8,7 @@ subtitle: "Week 6 · Saturday · 3 hours (15-minute break)"
 ## Agenda
 
 - Recap quiz on Session 5 (10 min)
-- 6.1 From sample to population: CI, p-value, power, sample size, choosing a test
+- 6.1 From sample to population: CI, p-value, one- or two-sided, power, sample size, choosing a test
 - 6.2 Compare groups in the course dataset (live R demo)
 - 6.3 Relationships and models: regression, Kaplan-Meier and Cox
 - 6.4 Model the course dataset: adjusted OR, Cox HR, missing data, the SAP
@@ -18,16 +18,16 @@ subtitle: "Week 6 · Saturday · 3 hours (15-minute break)"
 
 | Start | Clock* | Min | Segment |
 |:----|:----|---:|:------------------------------------------------------------|
-| 0:00 | 08:00 | 10 | Recap quiz |
-| 0:10 | 08:10 | 40 | **6.1 From sample to population:** CI, p-values & misinterpretations, type I/II errors, power, sample size (**live demo**), choosing a test, paired vs unpaired, multiple comparisons |
-| 0:50 | 08:50 | 20 | **6.2 [DS] Compare groups in the course dataset:** live demo (t-test / Mann–Whitney / chi-square); groups interpret their outputs |
-| 1:10 | 09:10 | 15 | BREAK |
-| 1:25 | 09:25 | 35 | **6.3 Relationships and models:** correlation, linear and logistic regression, adjustment, interaction, overfitting, Kaplan–Meier & Cox, prediction/ML; reading regression tables & forest plots |
-| 2:00 | 10:00 | 25 | **6.4 [DS] Model the course dataset:** crude vs adjusted OR (confounding by indication made visible), Kaplan–Meier + Cox HR, complete-case vs multiple imputation; the SAP that was written before the analysis |
-| 2:25 | 10:25 | 30 | **Proposal builder 6:** sample size, analysis plan, missing-data plan |
-| 2:55 | 10:55 | 5 | Wrap-up |
+| 0:00 | 19:30 | 10 | Recap quiz |
+| 0:10 | 19:40 | 40 | **6.1 From sample to population:** CI, p-values & misinterpretations, one-sided vs two-sided tests, type I/II errors, power, sample size (**5-minute live demo**), choosing a test (decision table), paired vs unpaired, multiple comparisons |
+| 0:50 | 20:20 | 20 | **6.2 [DS] Compare groups in the course dataset:** live demo (t-test / Mann-Whitney / chi-square); the class interprets the outputs together (Q1 in full, Q2 to Q5 briefly) |
+| 1:10 | 20:40 | 15 | BREAK |
+| 1:25 | 20:55 | 35 | **6.3 Relationships and models:** correlation, linear and logistic regression, adjustment, reading a regression table, overfitting, censoring and Kaplan-Meier curves (prediction/ML and interaction in the extra slides) |
+| 2:00 | 21:30 | 25 | **6.4 [DS] Model the course dataset:** the SAP that was written before the analysis, crude vs adjusted OR (confounding by indication made visible), Kaplan-Meier + Cox HR, complete-case vs multiple imputation |
+| 2:25 | 21:55 | 30 | **Proposal builder 6:** modelled live (sample size, analysis plan, confounders, missing-data plan); each participant drafts their own sample-size inputs (finished as homework) |
+| 2:55 | 22:25 | 5 | Wrap-up |
 
-\*Times are relative to the start of the session; the clock column shows an example 08:00–11:00 session. **[DS]** = course-dataset content (FLUID-ICU analysis and manuscript writing).
+\*Times are relative to the start of the session; the clock column shows Vietnam time for the online 19:30–22:30 session. All exercises are done by the whole class together (no groups). **[DS]** = course-dataset content (FLUID-ICU analysis and manuscript writing).
 
 ## Slides
 
@@ -44,20 +44,21 @@ Press **F** for full screen, **S** for speaker notes, **E** to print, **Esc** fo
 | | |
 |:--|:--|
 | **Slides (PowerPoint)** | [English](files/slides/Session_6_EN.pptx) · [Tiếng Việt](../vi/files/slides/Session_6_VN.pptx) |
-| **Exercise sheet** | [Read online](exercises-s6.qmd) · [PDF](files/sessions/s6_exercises.pdf) |
+| **Exercise sheet** | [Read online](exercises-s6.qmd) · [Word](files/sessions/s6_exercises.docx) · [PDF](files/sessions/s6_exercises.pdf) |
 | **Solutions** | [Read online](solutions-s6.qmd) · [PDF](files/sessions/s6_solutions.pdf) |
 | **Live-demo script** | [Read online](demo-s6.qmd) · [PDF](files/sessions/s6_demo.pdf) |
 
 ## Before this session
 
-- Your group's results pack read (Table 1 and figures).
+- The Q1 results pack read (Table 1 and figures).
 - Proposal Part 3 started (variables table, mini-CRF, data-management plan).
 
 ## After this session (homework)
 
-- **Group:** finish Proposal Part 3 (sample size, analysis plan, missing-data plan).
+- **Your proposal:** finish Proposal Part 3 (sample size, analysis plan, missing-data plan).
+- **Your manuscript:** choose one question (Q1 to Q5), tell the course lead, and read its results pack.
 - Read [Papers 1 and 2](papers.qmd).
-- Start your group's 6-slide proposal presentation ([presentation guide](presentation-guide.qmd)).
+- Start your 6 proposal slides ([presentation guide](presentation-guide.qmd)).
 - Homework exercises on the Session 6 sheet (CIs and p-values, choose the test, match r, read a Kaplan–Meier curve, why is it missing?).
 
 ## Related materials

@@ -2,152 +2,165 @@
 title: "Buổi 7: Phiếu bài tập"
 ---
 
-::: {.lang-note}
-Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
-:::
+[Tải bản PDF](files/sessions/s7_exercises_VN.pdf) · [Tải bản Word (để điền)](files/sessions/s7_exercises_VN.docx) · [Quay lại Buổi 7](session7.qmd)
 
-[Tải bản PDF](files/sessions/s7_exercises.pdf) · [Quay lại Buổi 7](session7.qmd)
+**Nền tảng Nghiên cứu Lâm sàng · Cấp độ 1** · Neudata · *#ClearDataClearImpact* · Tuần 7 · Thứ Bảy 12/12/2026 · trực tuyến, 19:30–22:30
 
-**Foundations of Clinical Research · Session 7 (Week 7, Saturday): Protect & write (ethics, integrity, Methods and Results)**
+Họ và tên: ______________________________   Khoa/Phòng: ______________________________
 
-| Part | Exercise | When | Time |
+Phiếu được gửi qua email trước buổi học, dưới dạng tệp Word và tệp PDF. Hãy mở phiếu trên màn hình và gõ câu trả lời vào tệp Word (hoặc in bản PDF). Trong lớp, cả lớp cùng làm: bạn trả lời trong khung chat hoặc bằng bình chọn, và giảng viên viết câu trả lời của lớp lên màn hình chia sẻ. Bài viết bạn nộp là bài của riêng bạn.
+
+| Phần | Bài tập | Khi nào | Cách làm |
 |---|---|---|---|
-| A | Integrity scenarios: green, amber or red? | 0:55 | 5 min (3 in class, rest at home) |
-| B | Proposal builder 7: ethics, registration, feasibility, publication plan | 1:00 | 15 min, finish at home |
-| C | **[DS] Manuscript workshop 1**: Methods + Results of your FLUID-ICU paper | 2:05 | 50 min |
+| A | Tình huống liêm chính: xanh, vàng hay đỏ? | 20:25 (5 phút) | Cả lớp, bình chọn: 3 tình huống trong lớp, 3 tình huống ở nhà |
+| B | Xây dựng đề cương 7: đạo đức, đăng ký, tính khả thi, kế hoạch công bố | 20:30 (15 phút) | Giảng viên làm mẫu với ví dụ xuyên suốt; bạn viết Phần 4 của mình ở nhà |
+| C | **Thực hành bản thảo 1**: Phương pháp + Kết quả cho bài báo FLUID-ICU của bạn | 21:35 (45 phút) | 30 phút cả lớp làm Q1, rồi 15 phút cho câu hỏi của bạn; hoàn thành ở nhà |
+
+Các tệp bạn cần (đều có trong thư mục khóa học và được gửi trước buổi học): gói kết quả phân tích cho câu hỏi bạn chọn (`Course/Data/results_packs/Results_Pack_Q1` đến `Q5`); mẫu bản thảo (`Course/Templates/Manuscript_Template_IMRaD`); Bài báo 1 (Boulet 2024, thử nghiệm ngẫu nhiên thí điểm về hạn chế dịch trong sốc nhiễm khuẩn) và Bài báo 2 (Hyun 2023, nghiên cứu thuần tập ghép cặp theo điểm xu hướng về cân bằng dịch và tử vong trong nhiễm khuẩn huyết), cả hai trong `Course/Papers`.
 
 
 * * *
 
-## Part A: Integrity scenarios: green, amber or red? (5 minutes, 0:55; three in class, the rest at home)
+## Phần A: Tình huống liêm chính: xanh, vàng hay đỏ? (5 phút, 20:25)
 
-For each scenario, decide as a group and hold up a colour:
+Trong lớp chúng ta bình chọn cho tình huống 1, 3 và 4; tình huống 2, 5 và 6 là bài về nhà. Với mỗi tình huống, chọn:
 
-- **GREEN**: acceptable as described.
-- **AMBER**: acceptable **only if** something is fixed or disclosed (say what).
-- **RED**: research misconduct or a serious breach. Do not do it.
+- **XANH**: chấp nhận được như mô tả.
+- **VÀNG**: chấp nhận được **chỉ khi** sửa hoặc công khai một điều gì đó (nói rõ điều gì).
+- **ĐỎ**: hành vi sai trái trong nghiên cứu hoặc vi phạm nghiêm trọng. Không được làm.
 
-Write one sentence explaining your colour.
+Viết một câu giải thích màu bạn chọn.
 
-| # | Scenario | Colour | Why? |
+| # | Tình huống | Màu | Vì sao? |
 |---|---|---|---|
-| 1 | Three patients' day-3 fluid charts are lost. A resident "remembers roughly" what their balances were and enters values so the dataset is complete. | | |
-| 2 | After seeing the results, the team removes two patients with "strange" fluid values because they weaken the association. The paper does not mention it. | | |
-| 3 | The head of department did not take part in the study but asks to be last author "because it is my department". | | |
-| 4 | (a) A nurse uses an AI chatbot to improve the English of the Discussion she wrote, checks every sentence, and states this in the Acknowledgements. (b) A colleague uploads the study spreadsheet (names and hospital numbers included) to a free public chatbot and asks it to "run the statistics". | (a) | |
+| 1 | Phiếu theo dõi dịch ngày 3 của ba người bệnh bị mất. Một bác sĩ nội trú "nhớ đại khái" cân bằng dịch của họ và nhập các giá trị đó để bộ dữ liệu được đầy đủ. | | |
+| 2 | Sau khi xem kết quả, nhóm nghiên cứu loại hai người bệnh có giá trị dịch "lạ" vì họ làm yếu mối liên quan. Bài báo không đề cập việc này. | | |
+| 3 | Trưởng khoa không tham gia nghiên cứu nhưng đề nghị đứng tên tác giả cuối "vì đây là khoa của tôi". | | |
+| 4 | (a) Một điều dưỡng dùng chatbot AI để cải thiện tiếng Anh cho phần Bàn luận do chính cô viết, kiểm tra từng câu, và nêu rõ điều này trong phần Lời cảm ơn. (b) Một đồng nghiệp tải bảng tính của nghiên cứu (có cả họ tên và mã số bệnh viện) lên một chatbot công cộng miễn phí và nhờ nó "chạy thống kê". | (a) | |
 | | | (b) | |
-| 5 | A cohort study of ventilated patients is published as three papers (mortality, length of stay and ventilator days) in three journals, none mentioning the others. | | |
-| 6 | Two paragraphs of a published review are copied word for word into your Introduction. The review is cited at the end of the paragraph, but there are no quotation marks. | | |
+| 5 | Một nghiên cứu thuần tập trên người bệnh nhiễm khuẩn huyết giống FLUID-ICU được công bố thành ba bài báo (tử vong, tổn thương thận cấp và thời gian nằm ICU) trên ba tạp chí, không bài nào nhắc đến các bài kia. | | |
+| 6 | Hai đoạn văn của một bài tổng quan đã công bố được chép nguyên văn vào phần Đặt vấn đề của bạn. Bài tổng quan được trích dẫn ở cuối đoạn, nhưng không có dấu ngoặc kép. | | |
 
 
 * * *
 
-## Part B: Proposal builder 7: ethics, registration, feasibility and publication plan (15 minutes, 1:00)
+## Phần B: Xây dựng đề cương 7: đạo đức, đăng ký, tính khả thi và kế hoạch công bố
 
-Complete as a group in 15 minutes (B1–B3 about 8 minutes, B4 about 7 minutes); finish at home during the week. Slides 5 (ethics & feasibility) and 6 (publication plan) of next Saturday's presentation come from this sheet.
+**Trong lớp (20:30, 15 phút):** giảng viên điền trực tiếp phiếu này trên màn hình chia sẻ cho ví dụ xuyên suốt (nghiên cứu thuần tập hồi cứu về cân bằng dịch và tử vong 28 ngày ở người lớn bị sốc nhiễm khuẩn tại ICU của chúng ta). Bạn gợi ý câu trả lời trong khung chat.
 
-### B1. Ethics and consent
-| Question | Your answer |
+**Ở nhà trong tuần này:** điền phiếu cho đề cương **của riêng bạn**. Phiếu sẽ trở thành Phần 4 của đề cương viết và slide 5 (đạo đức và tính khả thi) và slide 6 (kế hoạch công bố) của bài trình bày. Mọi học viên nộp đề cương viết và 6 slide trước 19:30 ngày diễn ra Buổi 8 (`Course/Assignment/proposal_brief.md`).
+
+### B1. Đạo đức và sự đồng ý tham gia
+
+| Câu hỏi | Câu trả lời của bạn |
 |---|---|
-| Which ethics committee will review the study? What type of review do you expect (exempt / expedited / full)? The committee decides. | |
-| Who are the participants, and can they decide for themselves when they become eligible? | |
-| Who gives consent (patient / legal representative / deferred consent / waiver requested)? Use the ICU consent flowchart. | |
-| Who takes consent, when and where? | |
-| What are the risks and burdens for participants, and how are they minimised? | |
-| Does the study need registration (trials: yes, before the first patient, in ClinicalTrials.gov or another WHO registry; systematic reviews: PROSPERO; observational: recommended)? | |
+| Hội đồng đạo đức nào sẽ xét duyệt nghiên cứu? Bạn dự kiến hình thức xét duyệt nào (miễn xét duyệt / xét duyệt rút gọn / xét duyệt đầy đủ)? Hội đồng là bên quyết định. | |
+| Người tham gia là ai, và họ có tự quyết định được khi đủ điều kiện tham gia không? | |
+| Ai đồng ý tham gia (người bệnh / người đại diện hợp pháp / đồng ý trì hoãn / đề nghị miễn đồng ý)? Dùng sơ đồ quyết định về sự đồng ý trong ICU (slide Buổi 7). | |
+| Ai lấy sự đồng ý, khi nào và ở đâu? | |
+| Người tham gia có những nguy cơ và gánh nặng gì, và chúng được giảm thiểu thế nào? | |
+| Nghiên cứu có cần đăng ký không (thử nghiệm: có, trước người bệnh đầu tiên, trên ClinicalTrials.gov hoặc một sổ đăng ký khác của WHO; tổng quan hệ thống: PROSPERO; nghiên cứu quan sát: khuyến khích)? | |
 
-### B2. Confidentiality
-| Question | Your answer |
+### B2. Bảo mật thông tin
+
+| Câu hỏi | Câu trả lời của bạn |
 |---|---|
-| Which direct identifiers will you collect (if any), and why? | |
-| How will each patient get a study code? | |
-| Where is the key file (code ↔ identity) kept, and who can open it? | |
-| Where will the de-identified data be stored (institution-approved, password-protected)? | |
+| Bạn sẽ thu thập những thông tin định danh trực tiếp nào (nếu có), và vì sao? | |
+| Mỗi người bệnh sẽ được cấp mã nghiên cứu như thế nào? | |
+| Tệp khóa (mã với danh tính) được lưu ở đâu, và ai được mở? | |
+| Dữ liệu đã loại bỏ thông tin định danh sẽ được lưu ở đâu (được cơ sở phê duyệt, có mật khẩu bảo vệ)? | |
 
-### B3. Feasibility check (tick and comment)
-| ✓ | Question | Comment |
+### B3. Kiểm tra tính khả thi (đánh dấu và nhận xét)
+
+| ✓ | Câu hỏi | Nhận xét |
 |---|---|---|
-| ☐ | **Time:** realistic timeline (ethics 1–3 months, recruitment, analysis, writing)? | |
-| ☐ | **Money:** budget headings named (staff time, materials/tests, publication fee)? | |
-| ☐ | **People:** who collects data (nights, weekends), who analyses, protected time? | |
-| ☐ | **Patients:** how many eligible patients did your unit see last year? How many can you realistically enrol? | |
-| ☐ | **Data:** are the key variables recorded routinely? How much is likely missing? | |
+| ☐ | **Thời gian:** tiến độ thực tế (hội đồng đạo đức 1–3 tháng, tuyển chọn, phân tích, viết bài)? | |
+| ☐ | **Kinh phí:** đã nêu các khoản mục ngân sách (thời gian nhân lực, vật tư/xét nghiệm, phí công bố)? | |
+| ☐ | **Nhân lực:** ai thu thập dữ liệu (ban đêm, cuối tuần), ai phân tích, có thời gian dành riêng không? | |
+| ☐ | **Người bệnh:** năm ngoái khoa bạn có bao nhiêu người bệnh đủ điều kiện? Bạn có thể tuyển thực tế bao nhiêu người? | |
+| ☐ | **Dữ liệu:** các biến chính có được ghi nhận thường quy không? Khả năng thiếu bao nhiêu? | |
 
-Biggest feasibility risk: ______________________  One fix: ______________________
+Rủi ro lớn nhất về tính khả thi: ______________________  Một cách khắc phục: ______________________
 
-### B4. Publication plan (show it on slide 6 of your presentation)
-| Item | Your answer |
+### B4. Kế hoạch công bố (slide 6 của bài trình bày)
+
+| Mục | Câu trả lời của bạn |
 |---|---|
-| Working title (from your PICO: design, I vs C, P, O; 10–16 words) | |
-| Target journal (and a back-up), checked in DOAJ / NLM Catalog, with fees and licence known | |
-| Reporting guideline (CONSORT / STROBE / STARD / PRISMA / SPIRIT / CARE) | |
-| Registration needed? Where? (from B1) | |
-| Authors (all four ICMJE criteria) and their CRediT roles | |
-| Conflicts of interest and funding to declare | |
-| Data-sharing statement (what, where, under which conditions) | |
-| Conference where you would present an abstract first | |
+| Tên đề tài tạm thời (từ PICO: thiết kế, I so với C, P, O; 10–16 từ) | |
+| Tạp chí mục tiêu (và một tạp chí dự phòng), đã kiểm tra trên DOAJ / NLM Catalog, biết rõ phí và giấy phép | |
+| Hướng dẫn báo cáo (CONSORT / STROBE / STARD / PRISMA / SPIRIT / CARE) | |
+| Có cần đăng ký không? Ở đâu? (từ B1) | |
+| Các tác giả (đủ cả bốn tiêu chí ICMJE) và vai trò của họ (CRediT) | |
+| Xung đột lợi ích và nguồn tài trợ cần công bố | |
+| Tuyên bố chia sẻ dữ liệu (chia sẻ gì, ở đâu, với điều kiện gì) | |
+| Hội nghị nơi bạn sẽ trình bày tóm tắt đầu tiên | |
 
-**Structured-abstract skeleton.** One line each. Results are the results you *expect to report* (format, not numbers).
+**Khung tóm tắt có cấu trúc.** Mỗi mục một dòng. Phần Kết quả là kết quả bạn *dự kiến sẽ báo cáo* (định dạng, không phải con số).
 
-| Section | One line |
+| Mục | Một dòng |
 |---|---|
-| Background | |
-| Methods | |
-| Results (expected) | e.g. "28-day mortality: n/N per group, RR (95% CI)" |
-| Conclusion | Write the sentence you would use if the result is positive, and the one you would use if it is not. |
+| Đặt vấn đề | |
+| Phương pháp | |
+| Kết quả (dự kiến) | ví dụ "tử vong 28 ngày: n/N mỗi nhóm, RR (KTC 95%)" |
+| Kết luận | Viết câu bạn sẽ dùng nếu kết quả dương tính, và câu bạn sẽ dùng nếu không. |
 
 
 * * *
 
-## Part C: [DS] Manuscript workshop 1: draft your Methods and Results (50 minutes)
+## Phần C: Thực hành bản thảo 1: Phương pháp và Kết quả (45 phút, 21:35)
 
-### What you are doing
-Each group writes the **Methods** and **Results** of a short STROBE-guided original article answering its **FLUID-ICU question**, using **only** its results pack. Nobody calculates anything: every number comes from the pack.
+### Bạn sẽ làm gì
 
-| Group | Question (results pack) |
-|---|---|
-| 1 | Q1: Positive fluid balance by day 3 and 28-day mortality (`Course/Data/results_packs/Q1/`) |
-| 2 | Q2: Cumulative fluid balance and acute kidney injury (`Q2/`) |
-| 3 | Q3: Cumulative fluid balance and ventilator-free days (`Q3/`) |
-| 4 | Q4: Initial lactate and 28-day mortality; complete-case vs multiple imputation (`Q4/`) |
-| 5 | Q5: Fluid balance and ICU length of stay among survivors (`Q5/`) |
+Mỗi học viên viết phần **Phương pháp** và **Kết quả** cho bài báo ngắn của riêng mình theo hướng dẫn STROBE, về **một câu hỏi FLUID-ICU**, **chỉ** dùng gói kết quả phân tích của câu hỏi đó. Chúng tôi đưa kết quả cho bạn; bạn viết bài báo. Không ai phải tính toán gì.
 
-FLUID-ICU is a **simulated teaching dataset**. In your ethics sentence write: *"This analysis used a simulated teaching dataset; no ethics approval or consent was required."*
-
-### Roles (agree in the first minute)
-| Role | Who | Job |
+| Câu hỏi | Chủ đề | Gói kết quả |
 |---|---|---|
-| Methods writers | 2 | Design & setting, participants, variables, statistical analysis |
-| Results writers | 2 | Participants, Table 1 sentence, main result (crude + adjusted), one secondary/sensitivity result |
-| Tables & figures | 1 | Table 1 + one figure or table from the pack: title (what, in whom, when), n per column, units, footnotes |
-| Number checker | 1 | Compares every number in the text with the pack; checks STROBE items 4–17 |
+| Q1 | Cân bằng dịch dương đến ngày 3 và tử vong 28 ngày | `Course/Data/results_packs/Results_Pack_Q1` |
+| Q2 | Cân bằng dịch tích lũy và tổn thương thận cấp (AKI) | `Results_Pack_Q2` |
+| Q3 | Cân bằng dịch tích lũy và số ngày không thở máy | `Results_Pack_Q3` |
+| Q4 | Lactate ban đầu và tử vong 28 ngày; trường hợp đầy đủ so với quy gán đa bội | `Results_Pack_Q4` |
+| Q5 | Cân bằng dịch và thời gian nằm ICU ở người sống sót | `Results_Pack_Q5` |
 
-### Timing
-| Minute | Task |
-|---|---|
-| 0–5 | Read your results pack together. Write the main result in ONE sentence (effect size + 95% CI). |
-| 5–25 | Methods (~300 words), using the headings below. |
-| 25–40 | Results (~300 words): participants first, numbers with CIs, no interpretation. |
-| 40–47 | Table 1 + one figure/table with title, legend and footnotes. |
-| 47–50 | Tick STROBE items; check every number; save and share the file. |
+FLUID-ICU là một **bộ dữ liệu giảng dạy mô phỏng**. Trong câu về đạo đức, hãy viết: *"Phân tích này sử dụng bộ dữ liệu giảng dạy mô phỏng; không cần chấp thuận của hội đồng đạo đức hay sự đồng ý tham gia."*
 
-### Methods: headings and checklist (STROBE items in brackets)
-- **Study design and setting** (4, 5): prospective multicentre cohort; 4 ICUs; dates as given in the pack.
-- **Participants** (6): who was included and excluded; how many.
-- **Variables** (7): exposure (how fluid balance was calculated and over which days), outcome (definition and time point), confounders adjusted for.
-- **Data sources** (8): routine ICU charts / study CRF.
-- **Bias** (9): how confounding by indication was addressed (adjustment for severity).
-- **Study size** (10): "all eligible patients in the cohort were included" (no new sample size for a fixed dataset).
-- **Statistical analysis** (12): summary statistics; the test for each comparison; the regression model(s) and which variables; how missing data were handled; software (R, version from the pack); significance level / reporting of 95% CIs.
+### Cách dùng 45 phút
 
-### Results checklist
-- [ ] Participants first: number analysed (and excluded, with reasons) (13)
-- [ ] Table 1 summarised in one or two sentences: how the groups differed at baseline (14)
-- [ ] Outcome numbers per group (15)
-- [ ] Main result: **crude AND adjusted** estimate with 95% CI (16)
-- [ ] One further analysis (secondary outcome, sensitivity, imputation) (17)
-- [ ] No interpretation ("because", "suggests", "important"). Move it to the Discussion
-- [ ] No number without its unit and, for effects, its 95% CI
+| Giờ | Ai | Việc cần làm |
+|---|---|---|
+| 21:35–21:50 | Cả lớp, Q1 | Giảng viên chia sẻ mẫu bản thảo và gói kết quả Q1. Bạn gợi ý từng câu trong phần Phương pháp ở khung chat; giảng viên gõ câu tốt nhất. |
+| 21:50–22:02 | Cả lớp, Q1 | Kết quả: người tham gia trước, câu tóm tắt Bảng 1, số liệu kết cục, ước lượng thô và đã hiệu chỉnh. |
+| 22:02–22:05 | Cả lớp | Một bạn tình nguyện đối chiếu mọi con số trong bản nháp của lớp với gói kết quả. |
+| 22:05–22:20 | Bạn, tự làm | Mở gói kết quả cho câu hỏi CỦA BẠN. Theo cấu trúc của bản nháp của lớp và bắt đầu viết phần Phương pháp. Đặt câu hỏi trong khung chat. |
+| Ở nhà | Bạn | Hoàn thành Phương pháp và Kết quả (~600 từ), Bảng 1 và một hình hoặc bảng. Nếu bạn chọn Q1, hãy viết bằng lời của bạn; không chép bản nháp của lớp. |
 
-### Deliverable
-Methods + Results (~600 words) + Table 1 + one figure or table, saved in the shared folder as `FLUID-ICU_Q[n]_draft1`.
+Bản nháp của lớp được chia sẻ dưới dạng PDF sau buổi học.
+
+### Phương pháp: các tiêu đề và danh sách kiểm tra (mục STROBE trong ngoặc)
+
+- **Thiết kế nghiên cứu và bối cảnh** (4, 5): nghiên cứu thuần tập tiến cứu đa trung tâm; 4 ICU; thời gian như trong gói kết quả.
+- **Người tham gia** (6): ai được đưa vào và ai bị loại; bao nhiêu người.
+- **Biến số** (7): phơi nhiễm (cân bằng dịch được tính thế nào và trong những ngày nào), kết cục (định nghĩa và thời điểm), các yếu tố gây nhiễu được hiệu chỉnh.
+- **Nguồn dữ liệu** (8): phiếu theo dõi thường quy tại ICU / phiếu thu thập dữ liệu của nghiên cứu.
+- **Sai lệch** (9): nhiễu do chỉ định được xử lý thế nào (hiệu chỉnh theo mức độ nặng).
+- **Cỡ mẫu** (10): "mọi người bệnh đủ điều kiện trong nghiên cứu thuần tập đều được đưa vào" (không tính cỡ mẫu mới cho một bộ dữ liệu cố định).
+- **Phân tích thống kê** (12): thống kê tóm tắt; kiểm định cho từng phép so sánh; (các) mô hình hồi quy và những biến nào; cách xử lý dữ liệu thiếu; phần mềm (R, phiên bản ghi trong gói kết quả); báo cáo KTC 95%.
+
+### Danh sách kiểm tra phần Kết quả
+
+- [ ] Người tham gia trước tiên: số được phân tích (và số bị loại, kèm lý do) (13)
+- [ ] Tóm tắt Bảng 1 trong một hoặc hai câu: các nhóm khác nhau thế nào lúc ban đầu (14)
+- [ ] Số liệu kết cục theo từng nhóm (15)
+- [ ] Kết quả chính: ước lượng **thô VÀ đã hiệu chỉnh** kèm KTC 95% (16)
+- [ ] Một phân tích bổ sung (kết cục phụ, phân tích độ nhạy, quy gán) (17)
+- [ ] Không diễn giải ("vì", "gợi ý", "quan trọng"). Chuyển sang phần Bàn luận
+- [ ] Không có con số nào thiếu đơn vị và, với tác động, thiếu KTC 95%
+
+### Lưu ý riêng cho từng câu hỏi
+
+- **Q3:** số ngày không thở máy có phân phối lệch và tính tử vong là 0; chọn cách tóm tắt cho phù hợp.
+- **Q4:** báo cáo CẢ ước lượng trường hợp đầy đủ và ước lượng quy gán đa bội.
+- **Q5:** chỉ người sống sót; dùng trung vị và IQR.
+
+### Sản phẩm cần nộp
+
+Phần Phương pháp + Kết quả của riêng bạn (~600 từ) + Bảng 1 + một hình hoặc bảng, lưu với tên `Surname_Manuscript_QN_draft1` trong thư mục khóa học (hoặc gửi qua email) **trước Buổi 8**. Ở Buổi 8 bạn thêm phần Đặt vấn đề, Bàn luận, Tóm tắt và Tiêu đề, và nộp bản thảo hoàn chỉnh trước 23:59 ngày hôm đó (`Course/Assignment/manuscript_brief.md`).

@@ -2,142 +2,139 @@
 title: "Buổi 4: Kịch bản trình diễn"
 ---
 
-::: {.lang-note}
-Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
-:::
+[Tải bản PDF](files/sessions/s4_demo_VN.pdf) · [Quay lại Buổi 4](session4.qmd)
 
-[Tải bản PDF](files/sessions/s4_demo.pdf) · [Quay lại Buổi 4](session4.qmd)
-
-**Foundations of Clinical Research** · Week 4 · Saturday · Neudata · Instructor script
+**Nền tảng Nghiên cứu Lâm sàng** · Tuần 4 · Thứ Bảy 19:30-22:30, trực tuyến · Neudata · Kịch bản cho giảng viên
 
 | | |
 |---|---|
-| **Slots** | **Main demo (8 min):** section 4.2, just before the break, slide "Live demo: the 2x2 calculator" (sheet *Association*). **Short add-on (1–2 min, optional):** section 4.3, slide "Same test, different setting: PPV depends on prevalence" (sheet *Diagnostic*). |
-| **File** | `Course/Resources/tools/2x2_calculator.xlsx` (regenerate with `python make_2x2_calculator.py` in the same folder) |
-| **Software** | Excel or LibreOffice Calc (any recent version). No internet needed. |
-| **Participants** | Watch only. No laptops needed. |
-| **Goal** | Everyone sees risk, RR, RD, NNT and OR computed from ONE table and hears each one in plain words. In 4.3 they see the same test give very different PPVs in two settings. |
+| **Thời điểm** | **Trình diễn chính (8 phút, 20:37-20:45):** mục 4.2, ngay trước giờ giải lao, slide 26 "Trình diễn trực tiếp: công cụ tính bảng 2x2" (trang tính *Association*). **Kiểm tra bài tính của cả lớp (15 phút, 21:00-21:15):** slide 28, sau giờ giải lao. **Phần bổ sung ngắn (1-2 phút, tùy chọn):** mục 4.3, slide 31 "Cùng xét nghiệm, khác bối cảnh: PPV phụ thuộc tỷ lệ hiện mắc" (trang tính *Diagnostic*). |
+| **Tệp** | `Course/Resources/tools/2x2_calculator.xlsx` (tạo lại bằng `python make_2x2_calculator.py` trong cùng thư mục) |
+| **Phần mềm** | Excel hoặc LibreOffice Calc (phiên bản gần đây bất kỳ), chiếu cho cả lớp bằng chia sẻ màn hình trên Zoom hoặc Teams. |
+| **Học viên** | Theo dõi màn hình chia sẻ, trả lời các câu hỏi khảo sát nhanh về phép tính sau giờ giải lao. Tệp có trong thư mục khóa học nếu học viên muốn tự thử sau buổi học. |
+| **Mục tiêu** | Mọi người thấy nguy cơ, RR, RD, NNT và OR được tính từ MỘT bảng duy nhất và nghe giải thích từng chỉ số bằng lời đơn giản. Ở mục 4.3, học viên thấy cùng một xét nghiệm cho PPV rất khác nhau ở hai bối cảnh. |
+
+Lưu ý: nhãn trong tệp Excel bằng tiếng Anh. Kịch bản này giữ nguyên tên trang tính và nhãn như trên màn hình, kèm nghĩa tiếng Việt để giảng viên đọc cho lớp.
 
 
 * * *
 
-## Before the session (5 minutes, the day before)
+## Trước buổi học (5 phút, ngày hôm trước)
 
-1. Open the file and check that it shows the **worked example**: Restrictive 20 / 80, Usual care 30 / 70 (sheet **Association**); 18 / 16 / 2 / 64 and a new-setting prevalence of **2%** (sheet **Diagnostic**). If someone has changed it, rerun `make_2x2_calculator.py`.
-2. Set the zoom to about **150%** so the back row can read it. Close every other window.
-3. Only the yellow cells can be edited. The sheets are protected without a password (Review → Unprotect Sheet if you need to change a label).
-4. Keep a whiteboard marker ready for the fallback.
+1. Mở tệp và kiểm tra tệp đang hiển thị **ví dụ mẫu**: Restrictive (hạn chế dịch) 20 / 80, Usual care (chăm sóc thường quy) 30 / 70 (trang **Association**); 18 / 16 / 2 / 64 và tỷ lệ hiện mắc ở bối cảnh mới là **2%** (trang **Diagnostic**). Nếu ai đó đã sửa tệp, chạy lại `make_2x2_calculator.py`.
+2. Đặt mức thu phóng khoảng **150%** để học viên đọc được trên máy tính xách tay và điện thoại. Đóng mọi cửa sổ khác và tắt thông báo trước khi chia sẻ màn hình.
+3. Chỉ sửa được các ô màu vàng. Các trang tính được khóa không có mật khẩu (Review, rồi Unprotect Sheet nếu cần sửa một nhãn).
+4. Mở sẵn một tài liệu trực tuyến dùng chung để dự phòng (xem cuối kịch bản này).
 
 
 * * *
 
-## Part 1: Main demo in 4.2 (8 minutes, sheet *Association*)
+## Phần 1: Trình diễn chính ở mục 4.2 (8 phút, trang *Association*)
 
-### Step 1: Show the layout (1 minute)
+### Bước 1: Giới thiệu bố cục (1 phút)
 
-**Do:** open sheet **Association**. Point at the yellow cells.
+**Làm:** chia sẻ màn hình và mở trang **Association**. Dùng con trỏ chỉ vào các ô màu vàng.
 
-**Say:** *"Same layout as the slide: treatment or exposure in rows, with the treated group on top, and outcome in columns, with 'died' on the left. a, b, c and d are always in the same place."*
+**Nói:** *"Bố cục giống trên slide: điều trị hoặc phơi nhiễm theo hàng, nhóm được điều trị ở trên; kết cục theo cột, 'tử vong' ở bên trái. a, b, c và d luôn ở cùng một vị trí."*
 
-**Appears:** the 2×2 table with 20 | 80 and 30 | 70, totals 100 and 100.
+**Màn hình:** bảng 2×2 với 20 | 80 và 30 | 70, tổng 100 và 100.
 
-### Step 2: Read the results in words (3 minutes)
+### Bước 2: Đọc kết quả bằng lời (3 phút)
 
-**Do:** point at each row of the results table, reading the right-hand "In plain words" column aloud.
+**Làm:** dùng con trỏ chỉ vào từng hàng của bảng kết quả, đọc to cột "In plain words" (diễn giải bằng lời) bên phải, dịch sang tiếng Việt cho lớp.
 
-| Row | Value shown | Plain words shown | Teaching point |
+| Hàng | Giá trị hiển thị | Ý nghĩa của dòng diễn giải | Điểm giảng dạy |
 |---|---|---|---|
-| Risk in exposed / treated | 20.0% | 20 of 100 patients in the Restrictive group had the outcome | Risk is out of everyone in the group. |
-| Risk in unexposed / control | 30.0% | 30 of 100 ... Usual care ... | |
-| Risk ratio (RR) | 0.67 | The risk is 33% LOWER in the exposed/treated group | Relative effect. |
-| Risk difference (RD) | −10.0% | 10.0 fewer patients with the outcome per 100 | Absolute effect: the one patients need. |
-| NNT / NNH | 10.0 | NNT: treat about 10 patients to PREVENT one outcome | |
-| Odds (two rows) | 0.25 and 0.43 | Odds compare those WITH the outcome to those WITHOUT | Odds are not risks. |
-| Odds ratio (OR) | 0.58 | outcome is common, so OR lies further from 1 than RR | Matches the OR-vs-RR chart. |
+| Nguy cơ ở nhóm phơi nhiễm / điều trị | 20.0% | 20 trên 100 người bệnh trong nhóm Restrictive có kết cục | Nguy cơ tính trên tất cả mọi người trong nhóm. |
+| Nguy cơ ở nhóm không phơi nhiễm / chứng | 30.0% | 30 trên 100 ... Usual care ... | |
+| Tỷ số nguy cơ (RR) | 0.67 | Nguy cơ THẤP HƠN 33% ở nhóm phơi nhiễm/điều trị | Hiệu quả tương đối. |
+| Hiệu số nguy cơ (RD) | −10.0% | Ít hơn 10.0 người bệnh có kết cục trên mỗi 100 người | Hiệu quả tuyệt đối: con số người bệnh cần biết. |
+| NNT / NNH | 10.0 | NNT: điều trị khoảng 10 người bệnh để NGĂN được một kết cục | |
+| Odds (hai hàng) | 0.25 và 0.43 | Odds so sánh người CÓ kết cục với người KHÔNG có kết cục | Odds không phải là nguy cơ. |
+| Tỷ số chênh (OR) | 0.58 | kết cục thường gặp, nên OR xa 1 hơn RR | Khớp với biểu đồ OR so với RR. |
 
-### Step 3: Make the outcome rare (2 minutes)
+### Bước 3: Làm cho kết cục trở nên hiếm (2 phút)
 
-**Do:** type **2** in a (Restrictive, died), **98** in b, **3** in c (Usual care, died), **97** in d. Press Enter after each.
+**Làm:** nhập **2** vào a (Restrictive, tử vong), **98** vào b, **3** vào c (Usual care, tử vong), **97** vào d. Nhấn Enter sau mỗi ô.
 
-**Appears:**
+**Màn hình:**
 
-| | Before | After |
+| | Trước | Sau |
 |---|---|---|
-| Risks | 20% vs 30% | 2% vs 3% |
-| RR | 0.67 | **0.67 (unchanged)** |
+| Nguy cơ | 20% so với 30% | 2% so với 3% |
+| RR | 0.67 | **0.67 (không đổi)** |
 | RD | −10% | **−1%** |
 | NNT | 10 | **100** |
-| OR | 0.58 | **0.66, now close to RR** |
+| OR | 0.58 | **0.66, giờ đã gần RR** |
 
-**Say:** *"Same relative effect, but now we must treat 100 patients to prevent one death. And because death is now rare, the OR has almost caught up with the RR."*
+**Nói:** *"Hiệu quả tương đối vẫn vậy, nhưng giờ ta phải điều trị 100 người bệnh mới ngăn được một ca tử vong. Và vì tử vong giờ là hiếm, OR gần như đã bằng RR."*
 
-**Do:** type the original numbers back (20, 80, 30, 70).
+**Làm:** nhập lại các số ban đầu (20, 80, 30, 70).
 
-### Step 4: Case-control warning (1 minute)
+### Bước 4: Cảnh báo về nghiên cứu bệnh chứng (1 phút)
 
-**Do:** point at the red line under the table.
+**Làm:** dùng con trỏ chỉ vào dòng chữ đỏ bên dưới bảng.
 
-**Say:** *"The spreadsheet will happily calculate a 'risk' from case-control data. Do not read it, because the researchers chose how many cases and controls to include. In your second calculation, only the OR is valid. After the break you will do two calculations yourselves (Part C of your handout)."*
-
-
-* * *
-
-## Part 2: Add-on in 4.3 (1–2 minutes, optional, sheet *Diagnostic*)
-
-Use this only if the laptop is already open and you are on time. The slide makes the same point without it.
-
-1. **Do:** click the **Diagnostic** tab. **Appears:** sensitivity 90.0%, specificity 80.0%, PPV 52.9%, NPV 97.0%, prevalence 20.0% (the ICU picture).
-2. **Do:** point at the blue box *"Same test, another setting"*. The yellow prevalence cell shows **2%**. **Appears:** PPV in the new setting **8.4%**, NPV **99.7%**.
-3. **Say:** *"Same sensitivity, same specificity. Screening a population where 2 in 100 have the disease, fewer than 1 in 10 positive results are real."*
-4. **Do (optional):** point at the small table underneath: prevalence 1% / 2% / 5% / 20% / 50% gives PPV 4.3% / 8.4% / 19.1% / 52.9% / 81.8%.
+**Nói:** *"Bảng tính vẫn sẽ tính ra 'nguy cơ' từ dữ liệu bệnh chứng. Đừng đọc con số đó, vì nhà nghiên cứu đã tự chọn số ca bệnh và số ca chứng. Ở phép tính thứ hai sau giờ giải lao, chỉ OR là có giá trị. Sau giờ giải lao, chúng ta sẽ cùng làm hai phép tính: Phần C trong phiếu bài tập Buổi 4."*
 
 
 * * *
 
-## Teaching points to land
+## Phần 2: Phần bổ sung ở mục 4.3 (1-2 phút, tùy chọn, trang *Diagnostic*)
 
-1. **One layout, every measure.** Most errors are layout errors, not arithmetic errors.
-2. **Relative versus absolute.** An RR of 0.67 can mean an NNT of 10 or of 100, depending on the baseline risk.
-3. **OR ≈ RR only when the outcome is rare.**
-4. **Case-control data: OR only.**
-5. **Sensitivity and specificity belong to the test. PPV and NPV depend on how common the disease is.**
+Chỉ dùng phần này nếu tệp đã mở sẵn và lớp đang đúng giờ. Slide đã truyền đạt cùng ý này mà không cần trình diễn.
 
-## After the calculation exercise: checking the answers (about 8 minutes, after the break)
+1. **Làm:** chia sẻ màn hình và bấm thẻ **Diagnostic**. **Màn hình:** độ nhạy 90.0%, độ đặc hiệu 80.0%, PPV 52.9%, NPV 97.0%, tỷ lệ hiện mắc 20.0% (bối cảnh ICU).
+2. **Làm:** dùng con trỏ chỉ vào ô màu xanh *"Same test, another setting"* (cùng xét nghiệm, bối cảnh khác). Ô tỷ lệ hiện mắc màu vàng hiển thị **2%**. **Màn hình:** PPV ở bối cảnh mới **8.4%**, NPV **99.7%**.
+3. **Nói:** *"Cùng độ nhạy, cùng độ đặc hiệu. Khi sàng lọc một quần thể mà cứ 100 người có 2 người mắc bệnh, chưa đến 1 trên 10 kết quả dương tính là thật."*
+4. **Làm (tùy chọn):** dùng con trỏ chỉ vào bảng nhỏ bên dưới: tỷ lệ hiện mắc 1% / 2% / 5% / 20% / 50% cho PPV 4.3% / 8.4% / 19.1% / 52.9% / 81.8%.
 
-Type each calculation into the Association sheet in front of the room:
 
-| Exercise (handout Part C) | Type | Shows |
+* * *
+
+## Các ý giảng dạy cần truyền đạt
+
+1. **Một bố cục, mọi chỉ số.** Phần lớn lỗi là lỗi bố cục, không phải lỗi tính toán.
+2. **Tương đối và tuyệt đối.** Cùng RR 0.67 có thể ứng với NNT 10 hoặc 100, tùy nguy cơ nền.
+3. **OR ≈ RR chỉ khi kết cục hiếm.**
+4. **Dữ liệu bệnh chứng: chỉ dùng OR.**
+5. **Độ nhạy và độ đặc hiệu thuộc về xét nghiệm. PPV và NPV phụ thuộc vào mức độ phổ biến của bệnh.**
+
+## Sau giờ giải lao: kiểm tra bài tính của cả lớp (15 phút, slide 28)
+
+Chia sẻ màn hình lại. Với mỗi phép tính, chạy khảo sát nhanh trước (xem `Solutions/s4_solutions.md`, Phần C), rồi nhập số vào trang Association để mọi người cùng thấy đáp án:
+
+| Bài tập (phiếu bài tập Phần C) | Nhập | Kết quả hiển thị |
 |---|---|---|
-| Calculation 1 (mattress trial) | a 10, b 190, c 20, d 180 | RR 0.50, RD −5.0%, NNT 20, OR 0.47 |
-| Calculation 2 (candidaemia case-control) | a 24, b 16, c 16, d 64 | OR **6.00** (ignore the "risks") |
+| Phép tính 1 (thử nghiệm về dịch, 200 người mỗi nhóm) | a 20, b 180, c 30, d 170 | RR 0.67, RD −5.0%, NNT 20, OR 0.63 |
+| Phép tính 2 (nghiên cứu bệnh chứng về dịch, lọc máu mới) | a 24, b 16, c 16, d 64 | OR **6.00** (bỏ qua các "nguy cơ") |
 
-Discuss each result in words (one sentence each), including why Calculation 2 gives only an OR. Then restore the worked example (20, 80, 30, 70) so the file is ready for the next course.
+Mời một học viên tình nguyện nói mỗi kết quả bằng một câu đơn giản, kể cả lý do vì sao Phép tính 2 chỉ cho OR (và liệu chiều mũi tên nhân quả có thể ngược lại không). Sau đó khôi phục ví dụ mẫu (20, 80, 30, 70) để tệp sẵn sàng cho khóa sau.
 
-## Fallback: no projector or no spreadsheet
+## Dự phòng: chia sẻ màn hình hoặc bảng tính bị lỗi
 
-Draw this on the whiteboard and work through it with the room. The numbers are chosen to be easy:
+Gõ bảng này vào khung chat hoặc một tài liệu trực tuyến dùng chung và cùng cả lớp tính. Các số được chọn cho dễ tính:
 
-```
-              Died   Survived   Total
-Restrictive    20       80       100      risk 20/100 = 0.20
-Usual care     30       70       100      risk 30/100 = 0.30
+| | Tử vong | Sống | Tổng | Nguy cơ |
+|---|---|---|---|---|
+| Hạn chế dịch | 20 | 80 | 100 | 20/100 = 0.20 |
+| Chăm sóc thường quy | 30 | 70 | 100 | 30/100 = 0.30 |
 
-RR  = 0.20 / 0.30          = 0.67
-RD  = 0.20 - 0.30          = -0.10  (10 fewer deaths per 100)
-NNT = 1 / 0.10             = 10
-OR  = (20 x 70) / (80 x 30) = 1400 / 2400 = 0.58
-```
+- RR = 0.20 / 0.30 = 0.67
+- RD = 0.20 − 0.30 = −0.10 (ít hơn 10 ca tử vong trên 100 người)
+- NNT = 1 / 0.10 = 10
+- OR = (20 × 70) / (80 × 30) = 1400 / 2400 = 0.58
 
-For the rare-outcome point, write 2/100 vs 3/100: RR = 0.67, NNT = 100, OR = (2 × 97) / (98 × 3) = 194 / 294 = 0.66.
+Với ý kết cục hiếm, dùng 2/100 so với 3/100: RR = 0.67, NNT = 100, OR = (2 × 97) / (98 × 3) = 194 / 294 = 0.66.
 
-For the PPV point, use the slide "Same test, different setting" (PPV 90/170 = 53% in the ICU; 9/107 = 8% in screening).
+Với ý về PPV, dùng slide "Cùng xét nghiệm, khác bối cảnh" (PPV 90/170 = 53% trong ICU; 9/107 = 8% khi sàng lọc).
 
-## Common problems
+## Sự cố thường gặp
 
-| Problem | Fix |
+| Sự cố | Cách xử lý |
 |---|---|
-| Cells show `-` | One of the four counts is empty or zero in a denominator. Type a number in every yellow cell. |
-| Cannot type in a cell | Only yellow cells are editable (protected sheet). Review → Unprotect Sheet (no password). |
-| Formulas show as text (LibreOffice) | Tools → Options → LibreOffice Calc → View: untick "Formulas"; or press Ctrl + `. |
-| Prevalence typed as 2 instead of 2% | Type `2%` or `0.02`. The cell is formatted as a percentage. |
-| Numbers look wrong | Check the layout: treated/exposed on top, "died" on the left. |
+| Ô hiển thị `-` | Một trong bốn ô số đang trống hoặc bằng 0 ở mẫu số. Nhập số vào mọi ô màu vàng. |
+| Không gõ được vào ô | Chỉ ô màu vàng sửa được (trang tính được khóa). Review, rồi Unprotect Sheet (không có mật khẩu). |
+| Công thức hiện dưới dạng chữ (LibreOffice) | Tools, Options, LibreOffice Calc, View: bỏ chọn "Formulas"; hoặc nhấn Ctrl + `. |
+| Gõ tỷ lệ hiện mắc là 2 thay vì 2% | Gõ `2%` hoặc `0.02`. Ô được định dạng phần trăm. |
+| Số trông sai | Kiểm tra bố cục: nhóm điều trị/phơi nhiễm ở trên, "tử vong" ở bên trái. |

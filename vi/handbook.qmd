@@ -2,95 +2,93 @@
 title: "Sổ tay học viên"
 ---
 
-::: {.lang-note}
-Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
-:::
-
-[Tải bản PDF](files/docs/Participant_Handbook.pdf)
+[Tải bản PDF](files/docs/Participant_Handbook_VN.pdf)
 
 ::: {.callout-tip}
 Các tệp được nhắc đến trong bảng bộ công cụ bên dưới có ở các trang [Biểu mẫu](templates.qmd), [Tài liệu và công cụ](resources.qmd) và [Bộ dữ liệu](dataset.qmd).
 :::
 
-## Foundations of Clinical Research · Level 1: From Clinical Question to Publication
+## Nền tảng Nghiên cứu Lâm sàng · Cấp độ 1: Từ câu hỏi lâm sàng đến công bố
 
-**Provider:** Neudata · **#ClearDataClearImpact**
+**Đơn vị tổ chức:** Neudata · **#ClearDataClearImpact**
 
 
 * * *
 
-## Welcome
+## Chào mừng anh chị
 
-Every day you make clinical decisions that research could improve. Over eight weeks, with one session every Saturday, this course takes you through the whole research process: from a question at the bedside, to a sound study design, to analysing data, to writing and publishing the paper.
+Mỗi ngày anh chị đưa ra những quyết định lâm sàng mà nghiên cứu có thể giúp cải thiện. Trong tám tuần, với một buổi học trực tuyến vào mỗi tối thứ Bảy (19:30 đến 22:30, giờ Việt Nam), khóa học đưa anh chị đi qua toàn bộ quá trình nghiên cứu: từ một câu hỏi bên giường bệnh, đến một thiết kế nghiên cứu chặt chẽ, đến phân tích dữ liệu, rồi viết và công bố bài báo.
 
-You do not need any research or statistics background. We go slowly, with pictures, examples from your own wards and a lot of group work. You will never be asked to calculate anything beyond a simple 2×2 table, and you do not need any software: the trainers run the analyses, and you learn to read and write them up.
+Anh chị không cần nền tảng về nghiên cứu hay thống kê. Chúng ta đi chậm, dùng nhiều hình ảnh, một ví dụ xuyên suốt và nhiều câu hỏi khảo sát nhanh, câu hỏi trong khung chat. Khóa học hoàn toàn trực tuyến và anh chị tham gia từ nhà. Không có nhóm hay phòng thảo luận nhỏ: cả lớp cùng làm mọi bài tập với giảng viên. Anh chị sẽ không bao giờ phải tính toán gì phức tạp hơn một bảng 2×2 đơn giản, và không cần phần mềm nào: giảng viên chạy các phân tích, còn anh chị học cách đọc và viết lại kết quả.
 
-## The course at a glance
+## Tổng quan khóa học
 
-| Week | Session (all on Saturday) | Theme | Your group builds |
+| Tuần | Buổi (thứ Bảy, 19:30 đến 22:30, trực tuyến) | Chủ đề | Anh chị xây dựng (bài tập về nhà) |
 |---|---|---|---|
-| **1** | 1 | **ASK:** from clinical problem to research question | Proposal: topic, PICO, question, aims |
-| **2** | 2 | **FIND & READ:** searching, managing references, reading a paper in 15 minutes | Proposal: search, 5 references, problem statement, working title |
-| **3** | 3 | **DESIGN:** choosing the right study | Proposal: design, setting, population |
-| **4** | 4 | **BIAS & EFFECT:** bias, confounding, RR/OR/NNT, diagnostic tests, forest plots | Proposal: exposure, outcomes, bias plan |
-| **5** | 5 | **DATA:** CRFs, data management, describing data, *meeting the course dataset* | Proposal: variables, CRF, data plan · Manuscript: Table 1 understood |
-| **6** | 6 | **ANALYSE:** CIs, p-values, tests, regression, survival, missing data, *analysing the course dataset* | Proposal: sample size, analysis plan · Manuscript: results interpreted |
-| **7** | 7 | **PROTECT & WRITE:** ethics, registration, integrity, and writing Methods and Results | Proposal: ethics, feasibility, publication plan · Manuscript: Methods + Results |
-| **8** | 8 | **PUBLISH:** Introduction, Discussion, abstract, journals, submission, peer review and presentations | Manuscript: complete draft · Proposal presented |
+| **1** | 1 | **HỎI:** từ vấn đề lâm sàng đến câu hỏi nghiên cứu | Đề cương: chủ đề, PICO, câu hỏi, mục tiêu |
+| **2** | 2 | **TÌM VÀ ĐỌC:** tìm kiếm tài liệu, quản lý tài liệu tham khảo, đọc một bài báo trong 15 phút | Đề cương: chiến lược tìm kiếm, 5 tài liệu tham khảo, đặt vấn đề, tên đề tài tạm thời |
+| **3** | 3 | **THIẾT KẾ:** chọn đúng loại nghiên cứu | Đề cương: thiết kế, bối cảnh, đối tượng |
+| **4** | 4 | **SAI LỆCH VÀ TÁC ĐỘNG:** sai lệch, yếu tố gây nhiễu, RR/OR/NNT, xét nghiệm chẩn đoán, biểu đồ rừng | Đề cương: phơi nhiễm, kết cục, kế hoạch hạn chế sai lệch |
+| **5** | 5 | **DỮ LIỆU:** phiếu thu thập dữ liệu (CRF), quản lý dữ liệu, mô tả dữ liệu, *làm quen bộ dữ liệu khóa học* | Đề cương: biến số, CRF, kế hoạch dữ liệu · Bản thảo: hiểu Bảng 1 |
+| **6** | 6 | **PHÂN TÍCH:** KTC, giá trị p, kiểm định, hồi quy, phân tích sống còn, dữ liệu thiếu, *phân tích bộ dữ liệu khóa học* | Đề cương: cỡ mẫu, kế hoạch phân tích · Bản thảo: diễn giải kết quả |
+| **7** | 7 | **BẢO VỆ VÀ VIẾT:** đạo đức, đăng ký nghiên cứu, liêm chính, và viết phần Phương pháp và Kết quả | Đề cương: đạo đức, tính khả thi, kế hoạch công bố · Bản thảo: Phương pháp + Kết quả |
+| **8** | 8 | **CÔNG BỐ:** Đặt vấn đề, Bàn luận, tóm tắt, tạp chí, nộp bài, phản biện và trình bày | Bản thảo: bản nháp hoàn chỉnh · Nộp đề cương (khoảng 5 học viên tình nguyện trình bày) |
 
-Each session lasts 3 hours with a 15-minute break. It has a short recap, two teaching blocks with frequent "check your understanding" moments, and time to build your proposal or paper. Each session also has extra slides at the end for anyone who wants to read further at home.
+Mỗi buổi học kéo dài 3 giờ, có 15 phút giải lao. Buổi học gồm phần ôn tập ngắn, hai khối bài giảng với nhiều lúc "kiểm tra mức độ hiểu bài" (một câu hỏi khảo sát nhanh hoặc một câu trả lời trong khung chat), và phần xây dựng đề cương, trong đó giảng viên làm mẫu phần tiếp theo của đề cương trên ví dụ xuyên suốt. Sau đó anh chị viết phần tương ứng cho câu hỏi của mình ở nhà. Cuối mỗi buổi còn có các slide bổ sung cho ai muốn đọc thêm ở nhà.
 
-### The running example
-One clinical topic travels with us: **fluids in septic shock**. In Weeks 1–4 we ask, search and design the question, and look at two real papers (a randomised trial and a cohort study). In Weeks 5–8 we analyse FLUID-ICU, a realistic *simulated* dataset of 620 ICU patients, and write it up as a paper.
+### Ví dụ xuyên suốt
+Một chủ đề lâm sàng đi cùng chúng ta suốt khóa học: **truyền dịch trong sốc nhiễm khuẩn**. Từ Tuần 1 đến Tuần 4, chúng ta đặt câu hỏi, tìm kiếm tài liệu, thiết kế nghiên cứu và đọc hai bài báo thật (một thử nghiệm ngẫu nhiên có đối chứng và một nghiên cứu thuần tập). Từ Tuần 5 đến Tuần 8, chúng ta đọc kết quả của FLUID-ICU, một bộ dữ liệu *mô phỏng* sát thực tế gồm 620 người bệnh ICU, và anh chị viết các kết quả đó thành một bài báo.
 
-## Your group and its two products
+## Hai sản phẩm của anh chị (cá nhân)
 
-You stay in the same group of about six for all eight sessions. Agree roles in Session 1 (they can rotate): facilitator, scribe, timekeeper, literature lead, methods & data lead, presenter.
+Mỗi người làm sản phẩm của riêng mình. Không có nhóm.
 
-1. **A research proposal on your own question**, built one part every two weeks and presented in Session 8 (6 minutes + 2 minutes of feedback). See `Assignment/proposal_brief.md`.
-2. **A draft manuscript from the course dataset.** Each group answers a different question on FLUID-ICU (e.g. fluid balance and mortality, kidney injury, ventilator-free days, lactate and missing data, ICU length of stay), using its results pack. You draft Methods and Results in Session 7 and the rest in Session 8. After the course, groups review each other's drafts and reply like real authors. See `Assignment/manuscript_brief.md` and `Assignment/peer_review_instructions.md`.
+1. **Một đề cương nghiên cứu cho câu hỏi của chính anh chị**, xuất phát từ khoa của anh chị, được xây dựng từng phần qua bài tập về nhà và nộp ở Buổi 8 (đề cương viết + 6 slide). Khoảng 5 học viên tình nguyện cũng trình bày đề cương của mình ở Buổi 8 (6 phút + 2 phút góp ý); việc trình bày là tùy chọn. Xem `Assignment/proposal_brief.md`.
+2. **Một bản thảo bài báo từ bộ dữ liệu khóa học.** Anh chị chọn MỘT trong năm câu hỏi của FLUID-ICU, từ Q1 đến Q5 (cân bằng dịch và tử vong, tổn thương thận, số ngày không thở máy, lactat và dữ liệu thiếu, thời gian nằm ICU). Chúng tôi cung cấp kết quả trong một gói kết quả, và anh chị viết bài báo. Giảng viên làm mẫu phần Phương pháp và Kết quả ở Buổi 7, các phần còn lại ở Buổi 8; anh chị tự viết phần của mình ở nhà. Sau khóa học, anh chị phản biện bản thảo của một bạn cùng lớp (do giảng viên phân công) và trả lời ý kiến phản biện về bản thảo của mình như một tác giả thực thụ. Xem `Assignment/manuscript_brief.md` và `Assignment/peer_review_instructions.md`.
 
-## Between sessions (one week; about 30–60 minutes)
+## Giữa các buổi học (một tuần; khoảng 30 đến 60 phút)
 
-| After | Do this |
+| Sau | Việc cần làm |
 |---|---|
-| Session 1 | Think of synonyms for your PICO terms |
-| Session 2 | Finish Proposal Part 1 and the literature matrix; read the abstract of Paper 2 |
-| Session 4 | Finish Proposal Part 2 |
-| Session 5 | Read your group's results pack (Table 1 and figures) |
-| Session 6 | Finish Proposal Part 3; read Papers 1 and 2; start your 6-slide presentation |
-| Session 7 | Finish Proposal Part 4 and your presentation; re-read your Methods + Results |
-| Session 8 | Polish the manuscript; peer-review swap and response letter within 2 weeks |
+| Buổi 1 | Viết nháp chủ đề, PICO, câu hỏi nghiên cứu, kiểm tra FINER, mục tiêu chung và mục tiêu cụ thể; nghĩ các từ đồng nghĩa cho các thành phần PICO |
+| Buổi 2 | Hoàn thành Đề cương Phần 1 và ma trận tài liệu; đọc tóm tắt của Bài báo 2 |
+| Buổi 4 | Hoàn thành Đề cương Phần 2 |
+| Buổi 5 | Hoàn thành Đề cương Phần 3 (biến số, CRF, kế hoạch dữ liệu); xem qua năm gói kết quả (Q1 đến Q5) |
+| Buổi 6 | Hoàn thành Đề cương Phần 3; chọn câu hỏi cho bản thảo (Q1 đến Q5) và đọc gói kết quả tương ứng; đọc Bài báo 1 và 2; bắt đầu làm 6 slide |
+| Buổi 7 | Hoàn thành Đề cương Phần 4 và 6 slide; viết nháp phần Phương pháp + Kết quả cho câu hỏi của mình |
+| Buổi 8 | Hoàn thành và nộp bản thảo; phản biện bản thảo của một bạn cùng lớp trong vòng 1 tuần; gửi thư trả lời phản biện trong vòng 2 tuần |
 
-## What you need
-A pen, a notebook, and (optional) a laptop or phone for PubMed and the online quiz. No software to install. Participants who have done the free Neudata course *Clinical Data Analysis in R* may re-run the course analyses with the scripts in `Data/R/`.
+## Anh chị cần chuẩn bị
+Một máy tính (hoặc máy tính bảng) có kết nối internet ổn định, camera và micro (tai nghe có micro sẽ tốt hơn), đường dẫn vào phòng học trực tuyến được gửi trước Buổi 1, và một nơi yên tĩnh trong 3 giờ. Bút và sổ ghi chép. Không cần cài phần mềm thống kê. Phiếu bài tập và các tài liệu phát tay khác được gửi dưới dạng PDF trước mỗi buổi học. Học viên đã học khóa miễn phí *Clinical Data Analysis in R* của Neudata có thể tự chạy lại các phân tích của khóa học bằng các script trong `Data/R/`.
 
-## Your toolkit
+## Bộ công cụ của anh chị
 
-| Resource | File |
+| Tài liệu | Tệp |
 |---|---|
-| Research proposal template | `Templates/Research_Proposal_Template.docx` |
-| Study protocol template | `Templates/Study_Protocol_Template.docx` |
-| Informed consent template | `Templates/Informed_Consent_Template.docx` |
-| CRF + data dictionary template | `Templates/CRF_Template.docx` |
-| Literature review worksheet | `Templates/Literature_Review_Worksheet.docx` |
-| Statistical analysis plan template (+ worked example `Data/SAP_FLUID-ICU.md`) | `Templates/Statistical_Analysis_Plan_Template.docx` |
-| Manuscript (IMRaD) template | `Templates/Manuscript_Template_IMRaD.docx` |
-| Cover letter and response-to-reviewers templates | `Templates/Cover_Letter_Template.docx`, `Templates/Response_to_Reviewers_Template.docx` |
-| Conference abstract & poster guide | `Templates/Conference_Abstract_Template.docx` |
-| Critical appraisal checklist (10 questions) | `Resources/Critical_Appraisal_Checklist.pdf` |
-| Risk-of-bias tool chooser | `Resources/Risk_of_Bias_Tool_Chooser.pdf` |
-| Writing & submission checklist | `Resources/Writing_and_Submission_Checklist.pdf` |
-| Sample ethics application, sample grant concept note (fictional) | `Resources/` |
-| 2×2 and sample-size calculators | `Resources/tools/` |
-| Course dataset, data dictionary, results packs | `Data/` |
-| English–Vietnamese glossary, further reading | `References/` |
+| Mẫu đề cương nghiên cứu | `Templates/Research_Proposal_Template.docx` |
+| Mẫu đề cương chi tiết (protocol) | `Templates/Study_Protocol_Template.docx` |
+| Mẫu phiếu đồng ý tham gia nghiên cứu | `Templates/Informed_Consent_Template.docx` |
+| Mẫu CRF + từ điển dữ liệu | `Templates/CRF_Template.docx` |
+| Phiếu tổng quan tài liệu | `Templates/Literature_Review_Worksheet.docx` |
+| Mẫu kế hoạch phân tích thống kê (kèm ví dụ hoàn chỉnh `Data/SAP_FLUID-ICU.md`) | `Templates/Statistical_Analysis_Plan_Template.docx` |
+| Mẫu bản thảo (IMRaD) | `Templates/Manuscript_Template_IMRaD.docx` |
+| Mẫu thư gửi tạp chí và mẫu thư trả lời phản biện | `Templates/Cover_Letter_Template.docx`, `Templates/Response_to_Reviewers_Template.docx` |
+| Hướng dẫn tóm tắt hội nghị và poster | `Templates/Conference_Abstract_Template.docx` |
+| Bảng kiểm thẩm định phê phán (10 câu hỏi) | `Resources/Critical_Appraisal_Checklist.pdf` |
+| Hướng dẫn chọn công cụ đánh giá nguy cơ sai lệch | `Resources/Risk_of_Bias_Tool_Chooser.pdf` |
+| Bảng kiểm viết và nộp bài | `Resources/Writing_and_Submission_Checklist.pdf` |
+| Mẫu hồ sơ xin duyệt đạo đức, mẫu đề xuất tài trợ ngắn (hư cấu) | `Resources/` |
+| Công cụ tính bảng 2×2 và tính cỡ mẫu | `Resources/tools/` |
+| Bộ dữ liệu khóa học, từ điển dữ liệu, gói kết quả | `Data/` (hướng dẫn tiếng Việt: `Data/README_VN.md`) |
+| Thuật ngữ Anh–Việt, tài liệu đọc thêm | `References/` (tài liệu đọc thêm bằng tiếng Việt: `References/further_reading_VN.md`) |
 
-## The quiz
-In Session 1 and again at the end of Session 8 you answer the same 24 questions. It is anonymous (participant number only) and measures what the *course* achieved, not you.
+Khi một tài liệu có bản tiếng Việt, tệp tiếng Việt mang cùng tên với hậu tố `_VN` (ví dụ `participant_handbook_VN.md`).
 
-## After the course
-Take your proposal to the ethics committee and keep improving your manuscript. This course is Level 1. If you want to run analyses yourself, Level 2 is a hands-on course in R (prerequisite: this course and the free *Clinical Data Analysis in R* course). Level 3 offers advanced, specialised methods on request (`Course_Levels/`).
+## Bài kiểm tra
+Ở Buổi 1 và một lần nữa vào cuối Buổi 8, anh chị trả lời cùng 24 câu hỏi trực tuyến (đường dẫn được đăng trong khung chat). Bài kiểm tra ẩn danh (chỉ dùng mã học viên) và đo lường hiệu quả của *khóa học*, không đánh giá cá nhân anh chị.
+
+## Sau khóa học
+Mang đề cương của anh chị đến hội đồng đạo đức và tiếp tục hoàn thiện bản thảo. Khóa học này là Cấp độ 1. Nếu muốn tự chạy phân tích, Cấp độ 2 là khóa thực hành với R (điều kiện: đã học khóa này và khóa miễn phí *Clinical Data Analysis in R*). Cấp độ 3 cung cấp các phương pháp nâng cao, chuyên sâu theo yêu cầu (`Course_Levels/`).
 
 
 * * *

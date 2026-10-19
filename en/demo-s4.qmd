@@ -4,14 +4,14 @@ title: "Session 4: Live-demo script"
 
 [Download the PDF](files/sessions/s4_demo.pdf) · [Back to Session 4](session4.qmd)
 
-**Foundations of Clinical Research** · Week 4 · Saturday · Neudata · Instructor script
+**Foundations of Clinical Research** · Week 4 · Saturday 19:30-22:30, online · Neudata · Instructor script
 
 | | |
 |---|---|
-| **Slots** | **Main demo (8 min):** section 4.2, just before the break, slide "Live demo: the 2x2 calculator" (sheet *Association*). **Short add-on (1–2 min, optional):** section 4.3, slide "Same test, different setting: PPV depends on prevalence" (sheet *Diagnostic*). |
+| **Slots** | **Main demo (8 min, 20:37-20:45):** section 4.2, just before the break, slide 26 "Live demo: the 2x2 calculator" (sheet *Association*). **Checking the class calculations (15 min, 21:00-21:15):** slide 28, after the break. **Short add-on (1-2 min, optional):** section 4.3, slide 31 "Same test, different setting: PPV depends on prevalence" (sheet *Diagnostic*). |
 | **File** | `Course/Resources/tools/2x2_calculator.xlsx` (regenerate with `python make_2x2_calculator.py` in the same folder) |
-| **Software** | Excel or LibreOffice Calc (any recent version). No internet needed. |
-| **Participants** | Watch only. No laptops needed. |
+| **Software** | Excel or LibreOffice Calc (any recent version), shown to the class by sharing your screen in Zoom or Teams. |
+| **Participants** | Watch the shared screen; they answer the calculation polls after the break. The file is in the course folder if they want to try it afterwards. |
 | **Goal** | Everyone sees risk, RR, RD, NNT and OR computed from ONE table and hears each one in plain words. In 4.3 they see the same test give very different PPVs in two settings. |
 
 
@@ -20,9 +20,9 @@ title: "Session 4: Live-demo script"
 ## Before the session (5 minutes, the day before)
 
 1. Open the file and check that it shows the **worked example**: Restrictive 20 / 80, Usual care 30 / 70 (sheet **Association**); 18 / 16 / 2 / 64 and a new-setting prevalence of **2%** (sheet **Diagnostic**). If someone has changed it, rerun `make_2x2_calculator.py`.
-2. Set the zoom to about **150%** so the back row can read it. Close every other window.
-3. Only the yellow cells can be edited. The sheets are protected without a password (Review → Unprotect Sheet if you need to change a label).
-4. Keep a whiteboard marker ready for the fallback.
+2. Set the zoom to about **150%** so it is readable on participants' laptops and phones. Close every other window and mute notifications before you share the screen.
+3. Only the yellow cells can be edited. The sheets are protected without a password (Review, then Unprotect Sheet if you need to change a label).
+4. Have a shared online document open as a fallback (see the end of this script).
 
 
 * * *
@@ -31,7 +31,7 @@ title: "Session 4: Live-demo script"
 
 ### Step 1: Show the layout (1 minute)
 
-**Do:** open sheet **Association**. Point at the yellow cells.
+**Do:** share your screen and open sheet **Association**. Point at the yellow cells with the cursor.
 
 **Say:** *"Same layout as the slide: treatment or exposure in rows, with the treated group on top, and outcome in columns, with 'died' on the left. a, b, c and d are always in the same place."*
 
@@ -39,7 +39,7 @@ title: "Session 4: Live-demo script"
 
 ### Step 2: Read the results in words (3 minutes)
 
-**Do:** point at each row of the results table, reading the right-hand "In plain words" column aloud.
+**Do:** point with the cursor at each row of the results table, reading the right-hand "In plain words" column aloud.
 
 | Row | Value shown | Plain words shown | Teaching point |
 |---|---|---|---|
@@ -71,21 +71,21 @@ title: "Session 4: Live-demo script"
 
 ### Step 4: Case-control warning (1 minute)
 
-**Do:** point at the red line under the table.
+**Do:** point with the cursor at the red line under the table.
 
-**Say:** *"The spreadsheet will happily calculate a 'risk' from case-control data. Do not read it, because the researchers chose how many cases and controls to include. In your second calculation, only the OR is valid. After the break you will do two calculations yourselves (Part C of your handout)."*
+**Say:** *"The spreadsheet will happily calculate a 'risk' from case-control data. Do not read it, because the researchers chose how many cases and controls to include. In the second calculation after the break, only the OR is valid. After the break we will do two calculations together: Part C of your Session 4 exercise sheet."*
 
 
 * * *
 
-## Part 2: Add-on in 4.3 (1–2 minutes, optional, sheet *Diagnostic*)
+## Part 2: Add-on in 4.3 (1-2 minutes, optional, sheet *Diagnostic*)
 
-Use this only if the laptop is already open and you are on time. The slide makes the same point without it.
+Use this only if the file is already open and you are on time. The slide makes the same point without it.
 
-1. **Do:** click the **Diagnostic** tab. **Appears:** sensitivity 90.0%, specificity 80.0%, PPV 52.9%, NPV 97.0%, prevalence 20.0% (the ICU picture).
-2. **Do:** point at the blue box *"Same test, another setting"*. The yellow prevalence cell shows **2%**. **Appears:** PPV in the new setting **8.4%**, NPV **99.7%**.
+1. **Do:** share your screen and click the **Diagnostic** tab. **Appears:** sensitivity 90.0%, specificity 80.0%, PPV 52.9%, NPV 97.0%, prevalence 20.0% (the ICU picture).
+2. **Do:** point with the cursor at the blue box *"Same test, another setting"*. The yellow prevalence cell shows **2%**. **Appears:** PPV in the new setting **8.4%**, NPV **99.7%**.
 3. **Say:** *"Same sensitivity, same specificity. Screening a population where 2 in 100 have the disease, fewer than 1 in 10 positive results are real."*
-4. **Do (optional):** point at the small table underneath: prevalence 1% / 2% / 5% / 20% / 50% gives PPV 4.3% / 8.4% / 19.1% / 52.9% / 81.8%.
+4. **Do (optional):** point with the cursor at the small table underneath: prevalence 1% / 2% / 5% / 20% / 50% gives PPV 4.3% / 8.4% / 19.1% / 52.9% / 81.8%.
 
 
 * * *
@@ -98,33 +98,32 @@ Use this only if the laptop is already open and you are on time. The slide makes
 4. **Case-control data: OR only.**
 5. **Sensitivity and specificity belong to the test. PPV and NPV depend on how common the disease is.**
 
-## After the calculation exercise: checking the answers (about 8 minutes, after the break)
+## After the break: checking the class calculations (15 minutes, slide 28)
 
-Type each calculation into the Association sheet in front of the room:
+Share the screen again. For each calculation, run the polls first (see `Solutions/s4_solutions.md`, Part C), then type the numbers into the Association sheet so everyone sees the answers:
 
-| Exercise (handout Part C) | Type | Shows |
+| Exercise (exercise sheet Part C) | Type | Shows |
 |---|---|---|
-| Calculation 1 (mattress trial) | a 10, b 190, c 20, d 180 | RR 0.50, RD −5.0%, NNT 20, OR 0.47 |
-| Calculation 2 (candidaemia case-control) | a 24, b 16, c 16, d 64 | OR **6.00** (ignore the "risks") |
+| Calculation 1 (fluid trial, 200 per group) | a 20, b 180, c 30, d 170 | RR 0.67, RD −5.0%, NNT 20, OR 0.63 |
+| Calculation 2 (fluid case-control, new dialysis) | a 24, b 16, c 16, d 64 | OR **6.00** (ignore the "risks") |
 
-Discuss each result in words (one sentence each), including why Calculation 2 gives only an OR. Then restore the worked example (20, 80, 30, 70) so the file is ready for the next course.
+Ask a volunteer to say each result in one plain sentence, including why Calculation 2 gives only an OR (and whether the arrow could run the other way). Then restore the worked example (20, 80, 30, 70) so the file is ready for the next course.
 
-## Fallback: no projector or no spreadsheet
+## Fallback: screen sharing or the spreadsheet fails
 
-Draw this on the whiteboard and work through it with the room. The numbers are chosen to be easy:
+Type this table into the chat or a shared online document and work through it with the class. The numbers are chosen to be easy:
 
-```
-              Died   Survived   Total
-Restrictive    20       80       100      risk 20/100 = 0.20
-Usual care     30       70       100      risk 30/100 = 0.30
+| | Died | Survived | Total | Risk |
+|---|---|---|---|---|
+| Restrictive | 20 | 80 | 100 | 20/100 = 0.20 |
+| Usual care | 30 | 70 | 100 | 30/100 = 0.30 |
 
-RR  = 0.20 / 0.30          = 0.67
-RD  = 0.20 - 0.30          = -0.10  (10 fewer deaths per 100)
-NNT = 1 / 0.10             = 10
-OR  = (20 x 70) / (80 x 30) = 1400 / 2400 = 0.58
-```
+- RR = 0.20 / 0.30 = 0.67
+- RD = 0.20 − 0.30 = −0.10 (10 fewer deaths per 100)
+- NNT = 1 / 0.10 = 10
+- OR = (20 × 70) / (80 × 30) = 1400 / 2400 = 0.58
 
-For the rare-outcome point, write 2/100 vs 3/100: RR = 0.67, NNT = 100, OR = (2 × 97) / (98 × 3) = 194 / 294 = 0.66.
+For the rare-outcome point, use 2/100 vs 3/100: RR = 0.67, NNT = 100, OR = (2 × 97) / (98 × 3) = 194 / 294 = 0.66.
 
 For the PPV point, use the slide "Same test, different setting" (PPV 90/170 = 53% in the ICU; 9/107 = 8% in screening).
 
@@ -133,7 +132,7 @@ For the PPV point, use the slide "Same test, different setting" (PPV 90/170 = 53
 | Problem | Fix |
 |---|---|
 | Cells show `-` | One of the four counts is empty or zero in a denominator. Type a number in every yellow cell. |
-| Cannot type in a cell | Only yellow cells are editable (protected sheet). Review → Unprotect Sheet (no password). |
-| Formulas show as text (LibreOffice) | Tools → Options → LibreOffice Calc → View: untick "Formulas"; or press Ctrl + `. |
+| Cannot type in a cell | Only yellow cells are editable (protected sheet). Review, then Unprotect Sheet (no password). |
+| Formulas show as text (LibreOffice) | Tools, Options, LibreOffice Calc, View: untick "Formulas"; or press Ctrl + `. |
 | Prevalence typed as 2 instead of 2% | Type `2%` or `0.02`. The cell is formatted as a percentage. |
 | Numbers look wrong | Check the layout: treated/exposed on top, "died" on the left. |

@@ -2,93 +2,89 @@
 title: "Thang chấm bản thảo"
 ---
 
-::: {.lang-note}
-Tài liệu này hiện chỉ có bằng **tiếng Anh**. Thuật ngữ tiếng Việt: xem [Thuật ngữ Anh–Việt](glossary.qmd).
-:::
+Tải về: [Word](files/assignments/Manuscript_Rubric_VN.docx) · [PDF](files/assignments/Manuscript_Rubric_VN.pdf) · [Quay lại trang bài tập lớn](assignments.qmd)
 
-Tải về: [Word](files/assignments/Manuscript_Rubric.docx) · [PDF](files/assignments/Manuscript_Rubric.pdf) · [Quay lại trang bài tập nhóm](assignments.qmd)
+## Nền tảng Nghiên cứu Lâm sàng · Cấp độ 1: Từ câu hỏi lâm sàng đến công bố
 
-## Foundations of Clinical Research · Level 1: From Clinical Question to Publication
+**Tổ chức:** Neudata (*#ClearDataClearImpact*)
+**Tổng điểm:** 100 điểm: bản thảo 90 + bình duyệt và phản hồi 10
+**Dùng kèm:** `manuscript_brief_VN.md`, `peer_review_instructions_VN.md`, gói kết quả của câu hỏi học viên đã chọn (Q1 đến Q5) và bảng kiểm STROBE
 
-**Organisation:** Neudata (*#ClearDataClearImpact*)
-**Total:** 100 points: the manuscript itself 90 + peer review and response 10
-**Use with:** `manuscript_brief.md`, `peer_review_instructions.md`, the group's results pack and the STROBE checklist
-
-> **The marks are formative.** They help groups improve the paper and show instructors which writing skills need more time. Mark the **revised** manuscript (submitted with the response letter 2 weeks after Session 8). If no revision arrives, mark the draft and give 0 for criterion 10.
+> **Điểm mang tính hình thành.** Điểm giúp mỗi học viên cải thiện bài báo và cho giảng viên thấy kỹ năng viết nào cần thêm thời gian. Chấm bản thảo **đã sửa** (nộp cùng thư phản hồi 2 tuần sau Buổi 8). Nếu không có bản sửa, chấm bản nháp và cho 0 điểm ở tiêu chí 10.
 >
-> Mark **the writing, not the analysis.** The instructors did the analyses. The question is whether the group reported and interpreted them correctly, clearly and honestly.
+> Chấm **phần viết, không chấm phần phân tích.** Giảng viên đã làm phân tích. Chúng tôi đưa kết quả cho học viên; câu hỏi là học viên có báo cáo và diễn giải kết quả đúng, rõ ràng và trung thực hay không.
 
 
 * * *
 
-## How to score
+## Cách chấm điểm
 
-1. Open the group's results pack next to the manuscript and check the main numbers against it.
-2. For each criterion, choose the level that best describes the work and give its points. If the work sits between two levels, choose the lower one and note what would lift it.
-3. Write one comment for each criterion that loses points: what to change and where (page/line).
-4. Add the points. Use the bands at the end only to guide the overall comment.
+1. Mở gói kết quả của câu hỏi học viên đã chọn bên cạnh bản thảo và đối chiếu các số liệu chính.
+2. Với mỗi tiêu chí, chọn mức mô tả đúng nhất bài làm và cho điểm tương ứng. Nếu bài làm nằm giữa hai mức, chọn mức thấp hơn và ghi điều gì sẽ giúp nâng lên mức trên.
+3. Viết một nhận xét cho mỗi tiêu chí bị mất điểm: cần sửa gì và ở đâu (trang/dòng).
+4. Cộng điểm. Chỉ dùng các khoảng điểm ở cuối làm gợi ý cho nhận xét chung.
 
-**Levels:** **Excellent**: complete, correct, specific. **Good**: mostly complete and correct, minor gaps. **Needs work**: present but vague, incomplete or partly incorrect. **Missing**: absent or wholly incorrect.
-
-
-* * *
-
-## A. The manuscript (90 points)
-
-### Front matter and Introduction
-
-| Criterion | Excellent | Good | Needs work | Missing |
-|---|---|---|---|---|
-| **1. Title and abstract** (10) | Title names population, exposure, outcome and design. Structured abstract ≤ 250 words; Results give the main effect with 95% CI; conclusion matches the design. **10** | Minor gaps (e.g. design not in the title, CI missing for one estimate). **7** | Abstract unstructured, over length, missing the main number, or conclusion stronger than the data. **3** | Absent. **0** |
-| **2. Introduction** (10) | Funnel in about 3 paragraphs: what is known (cited), the gap, a clear aim that matches the group's question. About 350 words. **10** | Clear but long, or the gap is only implied. **7** | Mostly general background; aim missing or different from the analysis. **3** | Absent. **0** |
-
-### Methods and Results
-
-| Criterion | Excellent | Good | Needs work | Missing |
-|---|---|---|---|---|
-| **3. Methods** (15) | Design, setting, participants (eligibility), variables with definitions (exposure, outcome, confounders), data sources and cleaning, bias, study size, statistical methods (crude and adjusted models, missing data, software), the simulated-data statement. Enough detail to repeat. **15** | One or two STROBE items thin (e.g. confounders not justified). **10** | Vague ("data were analysed statistically"); methods do not match the results pack. **5** | Absent. **0** |
-| **4. Results** (15) | Participants first (flow, n analysed); descriptive data; main result as effect size with 95% CI (crude and adjusted); secondary or sensitivity results; numbers with denominators; no interpretation; numbers agree with the results pack. **15** | Correct but with minor omissions (e.g. crude estimate missing) or one inconsistency. **10** | p-values without effect sizes; interpretation in Results; several numbers disagree with the pack. **5** | Absent. **0** |
-| **5. Tables and figures** (10) | Table 1 plus one or two tables or figures that stand alone: informative title, units, n per column, abbreviations explained, sensible decimals; the figure type suits the data (e.g. Kaplan–Meier, box plot, forest plot). **10** | Clear, with minor formatting gaps. **7** | Cannot be read without the text; wrong figure type (e.g. dynamite plot for skewed data); duplicated text. **3** | None. **0** |
-
-### Discussion and reporting quality
-
-| Criterion | Excellent | Good | Needs work | Missing |
-|---|---|---|---|---|
-| **6. Discussion** (15) | Six moves, in order: main finding in one or two sentences; comparison with other studies (incl. Paper 2); possible explanations; strengths and limitations (confounding, missing data, simulated single dataset, generalisability); implications for practice and research; conclusion. **15** | Most moves present; limitations brief. **10** | Repeats the Results; no comparison; limitations missing or token. **5** | Absent. **0** |
-| **7. Calibrated language** (5) | "Associated with" throughout; uncertainty acknowledged; no "trend" for non-significant results; conclusion no stronger than the design allows. **5** | One overstatement. **3** | Causal claims ("fluid causes death") or spin. **1** | Not applicable. **0** |
-| **8. STROBE adherence** (5) | Checklist completed with page numbers; items not applicable are justified; the manuscript actually contains what the checklist claims. **5** | Completed; a few items claimed but thin. **3** | Incomplete or not matching the text. **1** | Not submitted. **0** |
-| **9. References, length and presentation** (5) | 10–20 relevant references in consistent Vancouver style; main text about 2,000 words (± 10%); template used; CRediT and AI-use statements present. **5** | Minor problems (a few formatting errors, slightly over length). **3** | Inconsistent or unverifiable references; far over or under length; required statements missing. **1** | Not applicable. **0** |
-
-**Manuscript subtotal:** ______ / 90
+**Các mức:** **Xuất sắc**: đầy đủ, đúng, cụ thể. **Tốt**: phần lớn đầy đủ và đúng, thiếu sót nhỏ. **Cần cải thiện**: có nhưng mơ hồ, chưa đầy đủ hoặc đúng một phần. **Thiếu**: không có hoặc sai hoàn toàn.
 
 
 * * *
 
-## B. Peer review and response to reviewers (10 points)
+## A. Bản thảo (90 điểm)
 
-| Criterion | Excellent | Good | Needs work | Missing |
+### Phần đầu và Đặt vấn đề
+
+| Tiêu chí | Xuất sắc | Tốt | Cần cải thiện | Thiếu |
 |---|---|---|---|---|
-| **10. Review given and response to reviewers** (10) | The group's review of another draft is specific, constructive and uses the checklist. The response letter answers every comment point by point and politely (the comment, the reply, then the change with page/line). Disagreements are explained with reasons, and the revised manuscript shows the changes. **10** | Good review and response, but some answers vague ("done") or one comment not addressed. **7** | Review generic or rude; response defensive, or changes claimed but not made. **3** | No review and no response. **0** |
+| **1. Tên bài và tóm tắt** (10) | Tên bài nêu đối tượng, phơi nhiễm, kết cục và thiết kế. Tóm tắt có cấu trúc, không quá 250 từ; phần Kết quả nêu tác động chính kèm KTC 95%; kết luận phù hợp với thiết kế. **10** | Thiếu sót nhỏ (ví dụ tên bài không nêu thiết kế, thiếu KTC cho một ước lượng). **7** | Tóm tắt không có cấu trúc, quá dài, thiếu số liệu chính, hoặc kết luận mạnh hơn dữ liệu cho phép. **3** | Không có. **0** |
+| **2. Đặt vấn đề** (10) | Hình phễu trong khoảng 3 đoạn: điều đã biết (có trích dẫn), khoảng trống, mục tiêu rõ ràng khớp với câu hỏi đã chọn (Q1 đến Q5). Khoảng 350 từ. **10** | Rõ nhưng dài, hoặc khoảng trống chỉ được ngụ ý. **7** | Chủ yếu là bối cảnh chung chung; thiếu mục tiêu hoặc mục tiêu khác với phân tích. **3** | Không có. **0** |
 
-**Total:** ______ / 100
+### Phương pháp và Kết quả
 
-### Guide to overall comment
+| Tiêu chí | Xuất sắc | Tốt | Cần cải thiện | Thiếu |
+|---|---|---|---|---|
+| **3. Phương pháp** (15) | Thiết kế, bối cảnh, người tham gia (tiêu chuẩn chọn), biến số kèm định nghĩa (phơi nhiễm, kết cục, yếu tố gây nhiễu), nguồn dữ liệu và làm sạch, sai lệch, cỡ mẫu, phương pháp thống kê (mô hình thô và đã hiệu chỉnh, dữ liệu thiếu, phần mềm), câu nêu dữ liệu mô phỏng. Đủ chi tiết để lặp lại. **15** | Một hoặc hai mục STROBE còn sơ sài (ví dụ không lý giải việc chọn yếu tố gây nhiễu). **10** | Mơ hồ ("dữ liệu được phân tích thống kê"); phương pháp không khớp với gói kết quả. **5** | Không có. **0** |
+| **4. Kết quả** (15) | Người tham gia trước (sơ đồ, số được phân tích); dữ liệu mô tả; kết quả chính là độ lớn tác động kèm KTC 95% (thô và đã hiệu chỉnh); kết quả phụ hoặc phân tích độ nhạy; số liệu kèm mẫu số; không diễn giải; số liệu khớp với gói kết quả. **15** | Đúng nhưng thiếu sót nhỏ (ví dụ thiếu ước lượng thô) hoặc có một chỗ không nhất quán. **10** | Giá trị p không kèm độ lớn tác động; có diễn giải trong Kết quả; nhiều số liệu không khớp với gói kết quả. **5** | Không có. **0** |
+| **5. Bảng và hình** (10) | Bảng 1 cộng một hoặc hai bảng hay hình tự đọc hiểu được: tên đầy đủ thông tin, đơn vị, n mỗi cột, giải thích chữ viết tắt, số chữ số thập phân hợp lý; loại hình phù hợp với dữ liệu (ví dụ Kaplan-Meier, biểu đồ hộp, biểu đồ rừng). **10** | Rõ ràng, còn thiếu sót nhỏ về định dạng. **7** | Không đọc hiểu được nếu không có phần chữ; sai loại hình (ví dụ biểu đồ cột kèm thanh sai số cho dữ liệu lệch); lặp lại phần chữ. **3** | Không có. **0** |
 
-| Total | Overall comment |
+### Bàn luận và chất lượng báo cáo
+
+| Tiêu chí | Xuất sắc | Tốt | Cần cải thiện | Thiếu |
+|---|---|---|---|---|
+| **6. Bàn luận** (15) | Sáu bước, theo thứ tự: phát hiện chính trong một hai câu; so sánh với các nghiên cứu khác (kể cả Bài báo 2); các giải thích có thể; điểm mạnh và hạn chế (nhiễu, dữ liệu thiếu, một bộ dữ liệu mô phỏng duy nhất, tính khái quát hóa); ý nghĩa cho thực hành và nghiên cứu; kết luận. **15** | Có hầu hết các bước; phần hạn chế ngắn. **10** | Lặp lại phần Kết quả; không so sánh; thiếu hạn chế hoặc chỉ nêu cho có. **5** | Không có. **0** |
+| **7. Ngôn ngữ chừng mực** (5) | Dùng "có liên quan với" xuyên suốt; thừa nhận độ không chắc chắn; không dùng "xu hướng" cho kết quả không có ý nghĩa; kết luận không mạnh hơn mức thiết kế cho phép. **5** | Một chỗ phát biểu quá mức. **3** | Khẳng định nhân quả ("dịch truyền gây tử vong") hoặc trình bày sai lệch kết quả ("spin"). **1** | Không áp dụng. **0** |
+| **8. Tuân thủ STROBE** (5) | Bảng kiểm điền đầy đủ kèm số trang; các mục không áp dụng có lý giải; bản thảo thực sự có những gì bảng kiểm ghi. **5** | Điền đủ; vài mục ghi là có nhưng còn sơ sài. **3** | Chưa đầy đủ hoặc không khớp với văn bản. **1** | Không nộp. **0** |
+| **9. Tài liệu tham khảo, độ dài và trình bày** (5) | 10 đến 20 tài liệu liên quan, kiểu Vancouver nhất quán; phần chính khoảng 2,000 từ (cộng trừ 10%); dùng mẫu; có tuyên bố CRediT, lời cảm ơn khóa học và câu công khai sử dụng AI. **5** | Vấn đề nhỏ (vài lỗi định dạng, hơi quá dài). **3** | Tài liệu không nhất quán hoặc không kiểm chứng được; quá dài hoặc quá ngắn nhiều; thiếu các tuyên bố bắt buộc. **1** | Không áp dụng. **0** |
+
+**Điểm phần bản thảo:** ______ / 90
+
+
+* * *
+
+## B. Bình duyệt và phản hồi ý kiến phản biện (10 điểm)
+
+| Tiêu chí | Xuất sắc | Tốt | Cần cải thiện | Thiếu |
+|---|---|---|---|---|
+| **10. Bình duyệt đã viết và thư phản hồi phản biện** (10) | Bản bình duyệt bản thảo của một bạn cùng lớp cụ thể, mang tính xây dựng và dùng bảng kiểm. Thư phản hồi trả lời từng nhận xét theo từng ý và lịch sự (nhận xét, câu trả lời, rồi thay đổi kèm trang/dòng). Những điểm không đồng ý được giải thích có lý do, và bản thảo đã sửa thể hiện các thay đổi. **10** | Bình duyệt và phản hồi tốt, nhưng một số câu trả lời mơ hồ ("đã sửa") hoặc một nhận xét chưa được giải quyết. **7** | Bình duyệt chung chung hoặc thiếu lịch sự; phản hồi mang tính phòng thủ, hoặc nói đã sửa nhưng không sửa. **3** | Không bình duyệt và không phản hồi. **0** |
+
+**Tổng điểm:** ______ / 100
+
+### Gợi ý cho nhận xét chung
+
+| Tổng điểm | Nhận xét chung |
 |---|---|
-| 80–100 | A well-reported paper. The structure would pass a journal's technical check. |
-| 60–79 | A good draft. Revise the flagged sections. |
-| 40–59 | The core is there, but Results reporting or the Discussion needs substantial work. |
-| Below 40 | Major revision needed. Meet an instructor to go through the results pack again. |
+| 80 đến 100 | Bài báo được báo cáo tốt. Cấu trúc sẽ qua được bước kiểm tra kỹ thuật của tạp chí. |
+| 60 đến 79 | Bản nháp khá. Sửa các phần được đánh dấu. |
+| 40 đến 59 | Đã có phần cốt lõi, nhưng cách báo cáo Kết quả hoặc phần Bàn luận cần sửa nhiều. |
+| Dưới 40 | Cần sửa nhiều. Gặp giảng viên để cùng xem lại gói kết quả. |
 
-### Common problems to look for (and comment on)
+### Các lỗi thường gặp cần tìm (và nhận xét)
 
-- Only the adjusted OR reported, so readers cannot see that confounding by severity shrank the association (or only the crude OR).
-- "Positive fluid balance increased mortality": causal language from a cohort.
-- p-values without effect sizes or 95% CIs; "p = 0.000"; percentages without denominators.
-- Methods describe analyses that are not in the results pack, or Results report analyses not described in the Methods.
-- Missing data not mentioned (especially lactate), or the complete-case vs imputation comparison left uninterpreted (Q4).
-- Mean ± SD for a skewed outcome such as ICU length of stay or ventilator-free days (Q3, Q5).
-- Hazard ratio interpreted as a risk ratio; Kaplan–Meier tick marks read as deaths (Q1).
-- The simulated-data statement or the AI-use statement missing.
-- Discussion that repeats the Results or ignores Paper 2.
+- Chỉ báo cáo OR đã hiệu chỉnh, nên người đọc không thấy nhiễu do mức độ nặng đã làm mối liên quan nhỏ lại (hoặc chỉ báo cáo OR thô).
+- "Cân bằng dịch dương làm tăng tử vong": ngôn ngữ nhân quả từ một nghiên cứu thuần tập.
+- Giá trị p không kèm độ lớn tác động hoặc KTC 95%; "p = 0.000"; tỷ lệ phần trăm không có mẫu số.
+- Phần Phương pháp mô tả phân tích không có trong gói kết quả, hoặc phần Kết quả báo cáo phân tích không được mô tả trong Phương pháp.
+- Không nhắc đến dữ liệu thiếu (đặc biệt là lactat), hoặc không diễn giải phép so sánh giữa phân tích các trường hợp đầy đủ và quy gán đa bội (Q4).
+- Dùng trung bình ± SD cho kết cục lệch như thời gian nằm ICU hoặc số ngày không thở máy (Q3, Q5).
+- Diễn giải tỷ số nguy cơ tức thời như nguy cơ tương đối; đọc các vạch dọc trên đường Kaplan-Meier thành ca tử vong (Q1).
+- Thiếu câu nêu dữ liệu mô phỏng hoặc câu công khai sử dụng AI.
+- Phần Bàn luận lặp lại Kết quả hoặc bỏ qua Bài báo 2.
