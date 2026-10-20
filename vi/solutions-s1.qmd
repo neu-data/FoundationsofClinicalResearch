@@ -23,7 +23,7 @@ title: "Buổi 1: Lời giải"
 | D | Tổng quan hệ thống / phân tích gộp | Các phân tích gộp thử nghiệm hạn chế dịch |
 
 **Điểm thảo luận (khung chat)**
-- Điều gì có thể làm C yếu hơn B? Cỡ mẫu rất nhỏ, mất theo dõi nhiều, che giấu phân bổ kém, kết cục không quan trọng với người bệnh, hoặc đối tượng khác với người bệnh của chúng ta.
+- Điều gì có thể làm C yếu hơn B? Cỡ mẫu rất nhỏ, mất theo dõi nhiều, che giấu phân bổ kém, kết cục không quan trọng với người bệnh, hoặc đối tượng khác với người bệnh của bạn.
 - Vì sao B và C có thể mâu thuẫn? Trong nghiên cứu thuần tập, người bệnh nặng hơn được truyền nhiều dịch hơn, nên dịch có thể trông như có hại dù thực ra không. Đây là **nhiễu do chỉ định** (dạy ở Buổi 4). Phân bổ ngẫu nhiên loại bỏ được điều này.
 - Tháp bằng chứng xếp hạng **thiết kế**, không xếp hạng từng bài báo. Vẫn phải kiểm tra chất lượng (Buổi 8).
 
@@ -59,45 +59,43 @@ Lỗi thường gặp: chọn "sốc nhiễm khuẩn" làm kết cục. Sốc đ
 
 ## Bài tập 1 (cả lớp): cứu ví dụ xuyên suốt
 
-Dùng phiên bản cả lớp đã chọn khi bình chọn. Nếu kết quả bình chọn chia đều, làm phiên bản A.
+Dùng phiên bản cả lớp đã chọn khi bình chọn. Nếu kết quả bình chọn chia đều, làm phiên bản A. Giả thuyết được dạy ở phần 1.3 (Bài tập 2), nên ở đây lớp chưa viết H0 và H1.
 
 ### Phiên bản A: thử nghiệm thí điểm (thực nghiệm, PICO)
 
-| P | Người lớn bị sốc nhiễm khuẩn tại ICU của chúng ta, trong vòng 24 giờ sau khi bắt đầu thuốc vận mạch |
+| P | Người lớn bị sốc nhiễm khuẩn tại ICU của bạn, trong vòng 24 giờ sau khi bắt đầu thuốc vận mạch |
 |---|---|
 | I | Quy trình hạn chế dịch |
 | C | Chăm sóc thường quy |
 | O | Cân bằng dịch tích lũy (ml/kg) |
 | T | Ngày 5 |
 
-*Ở người lớn bị sốc nhiễm khuẩn tại ICU của chúng ta, quy trình hạn chế dịch, so với chăm sóc thường quy, có làm giảm cân bằng dịch tích lũy ở ngày 5 không?*
+*Ở người lớn bị sốc nhiễm khuẩn tại ICU của bạn, quy trình hạn chế dịch, so với chăm sóc thường quy, có làm giảm cân bằng dịch tích lũy ở ngày 5 không?*
 Loại: phân tích, thực nghiệm (thử nghiệm ngẫu nhiên thí điểm, giống Bài báo 1).
 FINER: F xanh/vàng (khoảng 50 người bệnh trong 12–18 tháng) · I xanh · N vàng đến xanh (bối cảnh tại chỗ, quy trình khác) · E vàng (đồng ý trì hoãn hoặc đồng ý qua người đại diện, Buổi 7) · R xanh.
-H0: cân bằng dịch tích lũy ở ngày 5 như nhau ở hai nhóm. H1: có khác nhau.
 
 ### Phiên bản B: thuần tập (quan sát, PECO)
 
-| P | Người lớn bị nhiễm khuẩn huyết hoặc sốc nhiễm khuẩn vào ICU của chúng ta |
+| P | Người lớn bị nhiễm khuẩn huyết hoặc sốc nhiễm khuẩn vào ICU của bạn |
 |---|---|
-| E | Cân bằng dịch tích lũy dương đến ngày 3 (phơi nhiễm: chúng ta không chỉ định) |
+| E | Cân bằng dịch tích lũy dương đến ngày 3 (phơi nhiễm: nhà nghiên cứu không chỉ định) |
 | C | Cân bằng dịch tích lũy trung tính hoặc âm đến ngày 3 |
 | O | Tử vong do mọi nguyên nhân |
 | T | Trước ngày 28 |
 
-*Ở người lớn bị nhiễm khuẩn huyết tại ICU của chúng ta, cân bằng dịch tích lũy dương đến ngày 3, so với cân bằng dịch trung tính hoặc âm, có liên quan với tử vong 28 ngày cao hơn không?*
+*Ở người lớn bị nhiễm khuẩn huyết tại ICU của bạn, cân bằng dịch tích lũy dương đến ngày 3, so với cân bằng dịch trung tính hoặc âm, có liên quan với tử vong 28 ngày cao hơn không?*
 Loại: phân tích, quan sát. Đây là câu hỏi của Bài báo 2 và là câu hỏi chính của nghiên cứu khóa học FLUID-ICU (Buổi 5).
 Điểm cần lưu ý về FINER: F phụ thuộc vào số người bệnh và việc có ghi cân bằng dịch hằng ngày hay không; phải xử lý nhiễu do chỉ định (người bệnh nặng hơn được truyền nhiều dịch hơn) (Buổi 4).
-H0: tử vong 28 ngày như nhau ở người bệnh có và không có cân bằng dịch dương đến ngày 3. H1: có khác nhau.
 
 ### Phiên bản C: mô tả (P + O)
 
-| P | Người lớn bị sốc nhiễm khuẩn vào ICU của chúng ta trong 6 tháng |
+| P | Người lớn bị sốc nhiễm khuẩn vào ICU của bạn trong 6 tháng |
 |---|---|
 | O | Cân bằng dịch tích lũy dương |
 | T | Vào ngày ICU thứ 3 |
 
-*Bao nhiêu phần trăm người lớn bị sốc nhiễm khuẩn tại ICU của chúng ta có cân bằng dịch tích lũy dương vào ngày 3?*
-Loại: mô tả. Không cần giả thuyết: chúng ta **ước tính** một tỷ lệ kèm KTC 95%.
+*Bao nhiêu phần trăm người lớn bị sốc nhiễm khuẩn tại ICU của bạn có cân bằng dịch tích lũy dương vào ngày 3?*
+Loại: mô tả: chúng ta **ước tính** một tỷ lệ kèm KTC 95%. Ở phần 1.3, đây là ví dụ về câu hỏi không cần giả thuyết.
 FINER: F xanh (phiếu theo dõi thường quy) · N vàng (số liệu tại chỗ là mới) · E xanh (thường ít rủi ro; vẫn cần chấp thuận để dùng hồ sơ) · R xanh (cho thấy vấn đề có tồn tại ở đây hay không).
 
 **Thế nào là tốt (Bài tập 1)**
@@ -111,12 +109,12 @@ FINER: F xanh (phiếu theo dõi thường quy) · N vàng (số liệu tại ch
 
 ## Bài tập 2 (cá nhân): mục tiêu tổng quát, mục tiêu cụ thể và giả thuyết cho nghiên cứu thí điểm
 
-- *Mục tiêu tổng quát:* So sánh quy trình hạn chế dịch với chăm sóc thường quy ở người lớn bị sốc nhiễm khuẩn tại ICU của chúng ta.
+- *Mục tiêu tổng quát:* So sánh quy trình hạn chế dịch với chăm sóc thường quy ở người lớn bị sốc nhiễm khuẩn tại ICU của bạn.
 - *Mục tiêu cụ thể:* Chính: so sánh cân bằng dịch tích lũy (ml/kg) ở ngày 5 giữa hai nhóm. Phụ: ước tính tốc độ tuyển chọn và mức tuân thủ quy trình (tính khả thi). (Mục tiêu thứ ba, không bắt buộc: mô tả tử vong 28 ngày và tổn thương thận cần lọc máu ở mỗi nhóm, mang tính thăm dò.)
 - *Giả thuyết:* H0: cân bằng dịch tích lũy ở ngày 5 như nhau ở hai nhóm. H1: có khác nhau.
-- *Phiên bản mô tả C (không có giả thuyết):* Ước tính tỷ lệ người lớn bị sốc nhiễm khuẩn tại ICU của chúng ta có cân bằng dịch tích lũy dương vào ngày 3.
+- *Phiên bản mô tả C (không có giả thuyết):* Ước tính tỷ lệ người lớn bị sốc nhiễm khuẩn tại ICU của bạn có cân bằng dịch tích lũy dương vào ngày 3.
 
-**Kiểm tra động từ mơ hồ (câu hỏi cuối buổi số 2):** viết lại "Tìm hiểu cân bằng dịch tại ICU của chúng ta" thành *"Ước tính tỷ lệ người lớn bị sốc nhiễm khuẩn tại ICU của chúng ta có cân bằng dịch tích lũy dương vào ngày 3."*
+**Kiểm tra động từ mơ hồ (câu hỏi cuối buổi số 2):** viết lại "Tìm hiểu cân bằng dịch tại ICU của bạn" thành *"Ước tính tỷ lệ người lớn bị sốc nhiễm khuẩn tại ICU của bạn có cân bằng dịch tích lũy dương vào ngày 3."*
 
 **Thế nào là tốt**
 - H0 luôn phát biểu "không có khác biệt / không có mối liên quan".
@@ -133,11 +131,11 @@ Giảng viên làm mẫu Phần 1 trên màn hình với phiên bản thí đi�
 
 **PICO(T):** P người lớn bị sốc nhiễm khuẩn trong vòng 24 giờ sau khi bắt đầu thuốc vận mạch · I quy trình hạn chế dịch · C chăm sóc thường quy · O cân bằng dịch tích lũy (ml/kg) · T ở ngày 5.
 
-**Câu hỏi:** *Ở người lớn bị sốc nhiễm khuẩn tại ICU của chúng ta, quy trình hạn chế dịch, so với chăm sóc thường quy, có làm giảm cân bằng dịch tích lũy ở ngày 5 không?*
+**Câu hỏi:** *Ở người lớn bị sốc nhiễm khuẩn tại ICU của bạn, quy trình hạn chế dịch, so với chăm sóc thường quy, có làm giảm cân bằng dịch tích lũy ở ngày 5 không?*
 
 **FINER:** F xanh/vàng (nghiên cứu thí điểm khoảng 50 người bệnh trong 12–18 tháng) · I xanh · N vàng đến xanh (bối cảnh tại chỗ, quy trình khác) · E vàng (đồng ý trì hoãn hoặc đồng ý qua người đại diện, Buổi 7) · R xanh.
 
-**Mục tiêu tổng quát:** So sánh quy trình hạn chế dịch với chăm sóc thường quy ở người lớn bị sốc nhiễm khuẩn tại ICU của chúng ta.
+**Mục tiêu tổng quát:** So sánh quy trình hạn chế dịch với chăm sóc thường quy ở người lớn bị sốc nhiễm khuẩn tại ICU của bạn.
 **Mục tiêu cụ thể:**
 1. *(Chính)* So sánh cân bằng dịch tích lũy (ml/kg) ở ngày 5 giữa hai nhóm.
 2. Ước tính tốc độ tuyển chọn và mức tuân thủ quy trình (tính khả thi).
@@ -168,7 +166,7 @@ Mẫu cho ví dụ xuyên suốt: **P** septic shock · sepsis · vasopressor-de
 ## Câu hỏi cuối buổi: đáp án
 
 1. **Feasible (khả thi).** Kết cục tử vong cần hơn một nghìn người bệnh (Novel cũng màu vàng vì đã có các thử nghiệm lớn).
-2. Ví dụ: *"Ước tính tỷ lệ người lớn bị sốc nhiễm khuẩn tại ICU của chúng ta có cân bằng dịch tích lũy dương vào ngày 3."*
+2. Ví dụ: *"Ước tính tỷ lệ người lớn bị sốc nhiễm khuẩn tại ICU của bạn có cân bằng dịch tích lũy dương vào ngày 3."*
 
 
 * * *
@@ -180,11 +178,11 @@ Mẫu cho ví dụ xuyên suốt: **P** septic shock · sepsis · vasopressor-de
 **Tình huống A: Viêm phổi liên quan đến thở máy (thực nghiệm).** P người lớn thở máy xâm nhập ≥ 48 giờ tại ICU · I bảng kiểm điều dưỡng hai lần mỗi ngày về nâng đầu giường 30–45° · C chăm sóc thường quy (không có bảng kiểm) · O viêm phổi liên quan đến thở máy (theo định nghĩa đã nêu) · T đến ngày ICU thứ 28.
 *Ở người lớn thở máy ít nhất 48 giờ tại ICU, bảng kiểm điều dưỡng hai lần mỗi ngày về nâng đầu giường, so với chăm sóc thường quy, có làm giảm tỷ lệ mới mắc viêm phổi liên quan đến thở máy đến ngày ICU thứ 28 không?* Điểm cần lưu ý về FINER: **F** (định nghĩa VAP khác nhau và VAP không quá thường gặp).
 
-**Tình huống B: Tổn thương do tì đè (mô tả trước).** *Tỷ lệ mới mắc tổn thương do tì đè mắc phải trong bệnh viện (độ 2 trở lên) ở người lớn nhập khoa nội của chúng ta trong 6 tháng là bao nhiêu?* P người lớn nhập khoa nội · O tổn thương do tì đè mới, độ 2 trở lên · T trong thời gian nằm viện, trong 6 tháng. Mô tả: không có giả thuyết; ước tính tỷ lệ mới mắc kèm KTC 95%. Câu hỏi phân tích về sau: *xoay trở mỗi 2 giờ so với mỗi 4 giờ có làm giảm tổn thương do tì đè mới ở người lớn có nguy cơ không?*
+**Tình huống B: Tổn thương do tì đè (mô tả trước).** *Tỷ lệ mới mắc tổn thương do tì đè mắc phải trong bệnh viện (độ 2 trở lên) ở người lớn nhập khoa nội của bạn trong 6 tháng là bao nhiêu?* P người lớn nhập khoa nội · O tổn thương do tì đè mới, độ 2 trở lên · T trong thời gian nằm viện, trong 6 tháng. Mô tả: không có giả thuyết; ước tính tỷ lệ mới mắc kèm KTC 95%. Câu hỏi phân tích về sau: *xoay trở mỗi 2 giờ so với mỗi 4 giờ có làm giảm tổn thương do tì đè mới ở người lớn có nguy cơ không?*
 
 **Tình huống C: Mê sảng (thực nghiệm).** P người lớn từ 65 tuổi sau phẫu thuật gãy cổ xương đùi · I gói dự phòng mê sảng đa thành phần không dùng thuốc hằng ngày · C chăm sóc thường quy · O mê sảng mới mắc (công cụ đã được thẩm định, ví dụ 4AT hoặc CAM) · T 7 ngày đầu sau mổ. Điểm cần lưu ý về FINER: **E** (sự đồng ý của người bệnh có thể trở nên lú lẫn) và **F** (thời gian của nhân viên).
 
-**Tình huống D: Thời gian từ cửa đến kim trong đột quỵ (quan sát, PECO).** P người lớn bị đột quỵ thiếu máu não cấp được dùng thuốc tiêu sợi huyết tại khoa cấp cứu của chúng ta · E thông báo trước từ xe cấp cứu · C không có thông báo trước · O thời gian từ cửa đến kim (phút) · T từ lúc đến viện đến lúc bắt đầu thuốc tiêu sợi huyết. Kết cục là biến liên tục, nên giả thuyết nói về khác biệt trung vị hoặc trung bình thời gian.
+**Tình huống D: Thời gian từ cửa đến kim trong đột quỵ (quan sát, PECO).** P người lớn bị đột quỵ thiếu máu não cấp được dùng thuốc tiêu sợi huyết tại khoa cấp cứu của bạn · E thông báo trước từ xe cấp cứu · C không có thông báo trước · O thời gian từ cửa đến kim (phút) · T từ lúc đến viện đến lúc bắt đầu thuốc tiêu sợi huyết. Kết cục là biến liên tục, nên giả thuyết nói về khác biệt trung vị hoặc trung bình thời gian.
 
 **Tình huống E: Sai sót thuốc (thực nghiệm hoặc trước–sau).** P người lớn chuyển từ ICU sang khoa thường · I đối chiếu thuốc do dược sĩ thực hiện khi chuyển khoa · C quy trình chuyển khoa thường quy · O người bệnh có ít nhất một sai lệch về thuốc · T trong vòng 48 giờ sau chuyển khoa. Điểm cần lưu ý: định nghĩa "sai sót thuốc"; chỉ một kết cục chính.
 

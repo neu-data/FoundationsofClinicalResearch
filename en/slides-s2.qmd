@@ -1,5 +1,5 @@
 ---
-title: "Session 2 · Find & read: the evidence"
+title: "Session 2 · Find & read the evidence"
 subtitle: "Foundations of Clinical Research: From Clinical Question to Publication"
 author: "Vương Mỹ Lượng & Bernard Osang'ir"
 institute: "Neudata Consulting Ltd"
@@ -12,12 +12,12 @@ format:
     include-in-header: access-gate.html
 ---
 
-# Session 2 · Find & read: the evidence
+# Session 2 · Find & read the evidence
 
 ## Week 2 · Saturday
 
 - Recap quiz on Session 1
-- 2.1  Finding the evidence: PICO to search, Boolean, MeSH, live PubMed demo
+- 2.1  Finding the evidence: Boolean logic, MeSH, search blocks, live PubMed demo
 - 2.2  Managing and citing: Zotero demo, citation styles, paraphrasing, grey literature
 - Break
 - 2.3  Reading a paper in 15 minutes and 2.4 from literature to introduction
@@ -56,7 +56,7 @@ QUICK QUIZ · 8 min
 :::
 
 ::: {.notes}
-RECAP QUIZ (0:00-0:10, 19:30-19:40). Individual, in a short online form (or answers typed in the chat), 6 minutes, then 2 minutes to show the form results on screen. Answers on the next slide. The questions are also on the Session 2 exercise sheet.
+RECAP QUIZ (0:00-0:10, 19:30-19:40). Individual, answers typed in the chat, 6 minutes, then 2 minutes calling on 2-3 people to give their answers. Answers on the next slide. The questions are also on the Session 2 exercise sheet.
 
 This also re-activates last Saturday's vocabulary for today's search.
 
@@ -120,7 +120,7 @@ Before you study it, find out what is already known.
 :::
 
 ::: {.neu-sub}
-40 minutes: the search funnel, PICO to search blocks, Boolean, MeSH, search tools, checking for a systematic review and a live PubMed demo
+40 minutes: the search funnel, Boolean logic, MeSH, search tools, PICO search blocks, systematic reviews and a live PubMed demo
 :::
 ::::
 
@@ -156,7 +156,7 @@ Write down each step: the date, the search string, the filters and the number of
 ::: {.neu-step style="--c:#5FA39B"}
 [PICO blocks]{.neu-step-label}
 
-- MeSH and free text, AND and OR
+- All the words for P, I and O
 - **A few thousand**
 :::
 ::: {.neu-step style="--c:#0070C0"}
@@ -198,106 +198,12 @@ This slide is built from editable shapes: change a number or add a reference dir
 Timing: 2 minutes.
 :::
 
-## From PICO to search blocks
-
-::: {.neu-intro}
-OR inside a block, AND between blocks: (P synonyms) AND (I synonyms) AND (O synonyms). C (usual care) is usually not searched.
-:::
-
-:::: {.neu-cards style="--n:3"}
-::: {.neu-card .plain style="--c:#0D7377"}
-[P:  septic shock]{.neu-card-title}
-
-- "Shock, Septic"\[MeSH\]
-- OR "septic shock"\[tiab\]
-- OR sepsis\[tiab\]
-:::
-::: {.neu-card .plain style="--c:#0B376C"}
-[I:  restrictive fluids]{.neu-card-title}
-
-- "Fluid Therapy"\[MeSH\]
-- OR "fluid restrict\*"\[tiab\]
-- OR "restrictive fluid\*"\[tiab\]
-- OR "conservative fluid\*"\[tiab\]
-:::
-::: {.neu-card .plain style="--c:#0070C0"}
-[O:  mortality]{.neu-card-title}
-
-- Mortality\[MeSH\]
-- OR mortality\[tiab\]
-- OR death\[tiab\]
-:::
-::::
-
-::: {.neu-takeaway}
-**KEY MESSAGE** One block per PICO concept: OR inside a block, AND between blocks.
-:::
-
-::: {.notes}
-Turn each PICO element into a concept block: the MeSH term plus free-text words.
-
-\[tiab\] = title and abstract. The asterisk (\*) is truncation: restrictive fluid\* also finds 'restrictive fluids'.
-
-The comparison (usual care) is normally left out because the words vary too much.
-
-Misconception: 'just type the whole question into PubMed'. You lose control of synonyms and logic.
-
-Ask the class (chat): 'Which other words would authors use for restrictive?' Expected: conservative, limited, de-resuscitation, fluid removal, negative fluid balance.
-
-Timing: 4 minutes.
-:::
-
-## Another example: a ward question
-
-::: {.neu-intro}
-Question: in adults at risk on the ward, does 2-hourly repositioning reduce new pressure injuries?
-:::
-
-:::: {.neu-cards style="--n:3"}
-::: {.neu-card .plain style="--c:#0D7377"}
-[P + O:  pressure injury]{.neu-card-title}
-
-- "Pressure Ulcer"\[Mesh\]
-- OR "pressure injur\*"\[tiab\]
-- OR "pressure ulcer\*"\[tiab\]
-- OR bedsore\*\[tiab\]
-:::
-::: {.neu-card .plain style="--c:#0B376C"}
-[I:  repositioning]{.neu-card-title}
-
-- "Patient Positioning"\[Mesh\]
-- OR reposition\*\[tiab\]
-- OR turning\[tiab\]
-:::
-::: {.neu-card .plain style="--c:#055F56"}
-[Join the blocks with AND]{.neu-card-title}
-
-- Tip: when P and O are the same idea (pressure injury), one block can carry both.
-- Authors write ulcer, injury, bedsore, decubitus. MeSH collects them under "Pressure Ulcer".
-:::
-::::
-
-::: {.neu-takeaway}
-**KEY MESSAGE** Same method for any topic: concepts in blocks, synonyms with OR, blocks with AND.
-:::
-
-::: {.notes}
-Another worked example, from the ward, so colleagues outside the ICU see that the method works for any topic.
-
-Question: in adults at risk on the ward, does 2-hourly repositioning reduce new pressure injuries?
-
-Here P and O share the same idea (pressure injury), so one block carries both. The second block is the intervention.
-
-MeSH: authors write pressure ulcer, pressure injury, bedsore, decubitus. The MeSH heading 'Pressure Ulcer' collects them.
-
-Ask the class (chat): 'Which other words would authors use for repositioning?' Expected: turning, position change, mobilisation, offloading.
-
-Timing: 3 minutes.
-:::
-
 ## Boolean logic in pictures
 
-![](images/figures/sat1/boolean_venn.png){.neu-fig}
+
+```{=html}
+<div style="position:relative;width:100%;aspect-ratio:12.3/4.0;container-type:inline-size;margin:0.2em auto;font-family:Arial,sans-serif;line-height:1.1"><div style="position:absolute;left:0.000%;top:0.000%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(24 * 0.11292cqw);color:#055F56;font-weight:700">AND</div></div><div style="position:absolute;left:13.415%;top:21.250%;width:6.504%;height:40.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:50%"></div><div style="position:absolute;left:4.065%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:13.008%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:3.659%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;font-weight:700">septic</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;font-weight:700;margin-top:calc(0 * 0.11292cqw)">shock</div></div><div style="position:absolute;left:20.732%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;font-weight:700">fluids</div></div><div style="position:absolute;left:0.000%;top:71.250%;width:33.333%;height:11.250%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;font-style:italic">septic shock AND fluids</div></div><div style="position:absolute;left:0.000%;top:82.500%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#0D7377;font-weight:700">both terms: fewer hits</div></div><div style="position:absolute;left:33.333%;top:0.000%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(24 * 0.11292cqw);color:#055F56;font-weight:700">OR</div></div><div style="position:absolute;left:37.398%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:50%"></div><div style="position:absolute;left:46.341%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:50%"></div><div style="position:absolute;left:37.398%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:46.341%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:36.992%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;font-weight:700">septic</div><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;font-weight:700;margin-top:calc(0 * 0.11292cqw)">shock</div></div><div style="position:absolute;left:54.065%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;font-weight:700">sepsis</div></div><div style="position:absolute;left:33.333%;top:71.250%;width:33.333%;height:11.250%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;font-style:italic">septic shock OR sepsis</div></div><div style="position:absolute;left:33.333%;top:82.500%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#0D7377;font-weight:700">either term: more hits</div></div><div style="position:absolute;left:66.667%;top:0.000%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(24 * 0.11292cqw);color:#055F56;font-weight:700">NOT</div></div><div style="position:absolute;left:70.732%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:50%"></div><div style="position:absolute;left:79.675%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#FFFFFF;border-radius:50%"></div><div style="position:absolute;left:70.732%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:79.675%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:70.325%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;font-weight:700">sepsis</div></div><div style="position:absolute;left:87.398%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;font-weight:700">neonatal</div></div><div style="position:absolute;left:66.667%;top:71.250%;width:33.333%;height:11.250%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;font-style:italic">sepsis NOT neonatal</div></div><div style="position:absolute;left:66.667%;top:82.500%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#0D7377;font-weight:700">removes papers: use with care</div></div></div>
+```
 
 ::: {.neu-takeaway}
 **KEY MESSAGE** AND narrows, OR widens, NOT removes. Use NOT sparingly.
@@ -310,7 +216,7 @@ NOT removes every paper that mentions the second term, even good papers that men
 
 Tip: type the operators in capitals, and use brackets to control the order.
 
-Ask the class (chat): 'septic shock AND fluids vs septic shock OR fluids: which gives more hits?' Expected: OR.
+The circles are editable PowerPoint shapes: change the search words directly on the slide.
 
 Timing: 2 minutes.
 :::
@@ -338,20 +244,27 @@ Answers: 1 AND. 2 OR. 3 Fewer (AND narrows). 4 It removes every paper that menti
 Timing: 2 minutes.
 :::
 
-## MeSH: the shared label behind many words
+## MeSH: one label for many words
 
-![](images/figures/sat1/mesh_tree.png){.neu-fig}
+::: {.neu-intro}
+MeSH (Medical Subject Headings): the fixed list of subject labels that PubMed gives every paper.
+:::
+
+
+```{=html}
+<div style="position:relative;width:100%;aspect-ratio:12.3/3.6;container-type:inline-size;margin:0.2em auto;font-family:Arial,sans-serif;line-height:1.1"><div style="position:absolute;left:0.000%;top:0.000%;width:24.390%;height:11.111%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#8A99A3;font-weight:700">How authors write it</div></div><div style="position:absolute;left:0.000%;top:13.889%;width:24.390%;height:13.889%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#FFF4D6;border:calc(1.5 * 0.11292cqw) solid #E3B23C;border-radius:0.488cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">septic shock</div></div><div style="position:absolute;left:0.000%;top:31.111%;width:24.390%;height:13.889%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#FFF4D6;border:calc(1.5 * 0.11292cqw) solid #E3B23C;border-radius:0.488cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">sepsis with shock</div></div><div style="position:absolute;left:0.000%;top:48.333%;width:24.390%;height:13.889%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#FFF4D6;border:calc(1.5 * 0.11292cqw) solid #E3B23C;border-radius:0.488cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">vasopressor-dependent sepsis</div></div><div style="position:absolute;left:0.000%;top:65.556%;width:24.390%;height:13.889%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#FFF4D6;border:calc(1.5 * 0.11292cqw) solid #E3B23C;border-radius:0.488cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">refractory septic shock</div></div><div style="position:absolute;left:32.520%;top:29.167%;width:21.138%;height:26.389%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:0.927cqw"><div style="font-size:calc(16 * 0.11292cqw);color:#FFFFFF;font-weight:700">MeSH heading</div><div style="font-size:calc(16 * 0.11292cqw);color:#FFFFFF;font-weight:700;margin-top:calc(1 * 0.11292cqw)">&quot;Shock, Septic&quot;</div></div><svg viewBox="0 0 1230 360" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgmE3B23C27" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E3B23C"/></marker></defs><line x1="276.5" y1="100.8" x2="396.1" y2="125.2" marker-end="url(#dgmE3B23C27)" stroke="#E3B23C" stroke-width="2.78" stroke-linecap="round"/></svg><svg viewBox="0 0 1230 360" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgmE3B23C27" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E3B23C"/></marker></defs><line x1="304.0" y1="143.3" x2="396.0" y2="147.0" marker-end="url(#dgmE3B23C27)" stroke="#E3B23C" stroke-width="2.78" stroke-linecap="round"/></svg><svg viewBox="0 0 1230 360" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgmE3B23C27" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E3B23C"/></marker></defs><line x1="304.0" y1="180.2" x2="396.0" y2="168.9" marker-end="url(#dgmE3B23C27)" stroke="#E3B23C" stroke-width="2.78" stroke-linecap="round"/></svg><svg viewBox="0 0 1230 360" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgmE3B23C27" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E3B23C"/></marker></defs><line x1="241.4" y1="234.9" x2="396.2" y2="190.7" marker-end="url(#dgmE3B23C27)" stroke="#E3B23C" stroke-width="2.78" stroke-linecap="round"/></svg><div style="position:absolute;left:30.894%;top:56.944%;width:24.390%;height:19.444%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#8A99A3;font-style:italic">one label for all these words</div></div><div style="position:absolute;left:0.000%;top:84.722%;width:55.285%;height:13.889%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#D9822B;font-weight:700">New papers may not have MeSH yet: add free-text words [tiab]</div></div><div style="position:absolute;left:61.789%;top:0.000%;width:38.211%;height:11.111%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#8A99A3;font-weight:700">The MeSH tree (broad to narrow)</div></div><div style="position:absolute;left:61.789%;top:13.889%;width:21.138%;height:13.889%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#5FA39B;border-radius:0.488cqw"><div style="font-size:calc(16 * 0.11292cqw);color:#FFFFFF;font-weight:700">Infections</div></div><div style="position:absolute;left:65.854%;top:31.944%;width:21.138%;height:13.889%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0070C0;border-radius:0.488cqw"><div style="font-size:calc(16 * 0.11292cqw);color:#FFFFFF;font-weight:700">Sepsis</div></div><div style="position:absolute;left:69.919%;top:50.000%;width:21.138%;height:13.889%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:0.488cqw"><div style="font-size:calc(16 * 0.11292cqw);color:#FFFFFF;font-weight:700">Shock, Septic</div></div><svg viewBox="0 0 1230 360" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm8A99A327" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A99A3"/></marker></defs><line x1="785.0" y1="100.0" x2="785.0" y2="140.0" stroke="#8A99A3" stroke-width="2.78" stroke-linecap="round"/></svg><svg viewBox="0 0 1230 360" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm8A99A327" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A99A3"/></marker></defs><line x1="785.0" y1="140.0" x2="810.0" y2="140.0" stroke="#8A99A3" stroke-width="2.78" stroke-linecap="round"/></svg><svg viewBox="0 0 1230 360" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm8A99A327" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A99A3"/></marker></defs><line x1="835.0" y1="165.0" x2="835.0" y2="205.0" stroke="#8A99A3" stroke-width="2.78" stroke-linecap="round"/></svg><svg viewBox="0 0 1230 360" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm8A99A327" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A99A3"/></marker></defs><line x1="835.0" y1="205.0" x2="860.0" y2="205.0" stroke="#8A99A3" stroke-width="2.78" stroke-linecap="round"/></svg><svg viewBox="0 0 1230 360" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm0D737734" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0D7377"/></marker></defs><line x1="665.0" y1="175.0" x2="855.0" y2="205.0" marker-end="url(#dgm0D737734)" stroke="#0D7377" stroke-width="3.47" stroke-linecap="round"/></svg><div style="position:absolute;left:61.789%;top:72.222%;width:38.211%;height:26.389%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(7.2 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.618cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Searching Sepsis[MeSH] also finds the papers filed under Shock, Septic</div></div></div>
+```
 
 ::: {.neu-takeaway}
 **KEY MESSAGE** Search the MeSH term AND the free-text words, joined with OR.
 :::
 
 ::: {.notes}
-MeSH (Medical Subject Headings) is the controlled vocabulary of the US National Library of Medicine. Each MEDLINE record is tagged with MeSH terms, whatever words the authors used.
+MeSH (Medical Subject Headings) is the controlled vocabulary of the US National Library of Medicine. Indexers tag each MEDLINE record with MeSH terms, whatever words the authors used.
 
-Searching a MeSH term includes the narrower terms below it ('explode'). For example, Sepsis\[MeSH\] includes Shock, Septic.
+The tree runs from broad to narrow. Searching a MeSH term also searches the narrower terms below it: Sepsis\[MeSH\] includes Shock, Septic.
 
-The newest records may not be indexed yet, so always add free-text \[tiab\] words.
+The newest records may not be indexed yet, so always add free-text \[tiab\] words (\[tiab\] = title or abstract).
 
 Ask the class (chat): 'Why does MeSH help a nurse searching for pressure injury?' Expected: authors write pressure ulcer, bedsore, decubitus ulcer, and MeSH collects them under one heading.
 
@@ -422,7 +335,7 @@ Timing: 2 minutes.
 [Field tags]{.neu-card-title}
 
 - \[tiab\] title or abstract
-- \[mh\] MeSH term
+- \[mh\] or \[MeSH\] MeSH term
 - \[pt\] article type
 :::
 ::: {.neu-card .plain style="--c:#0070C0"}
@@ -451,27 +364,87 @@ Misconception: 'filter to free full text'. That throws away key papers.
 Timing: 3 minutes.
 :::
 
+## From PICO to search blocks
+
+::: {.neu-intro}
+Question: in adults with septic shock, does a restrictive fluid strategy, vs usual care, reduce 28-day mortality?
+:::
+
+
+```{=html}
+<div style="position:relative;width:100%;aspect-ratio:12.3/3.1;container-type:inline-size;margin:0.2em auto;font-family:Arial,sans-serif;line-height:1.1"><div style="position:absolute;left:-0.203%;top:0.000%;width:28.862%;height:17.742%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:0.358cqw"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">P:  septic shock</div></div><div style="position:absolute;left:-0.203%;top:17.742%;width:28.862%;height:56.452%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(5.8 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.569cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">&quot;Shock, Septic&quot;[MeSH]</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(2 * 0.11292cqw)">OR &quot;septic shock&quot;[tiab]</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(2 * 0.11292cqw)">OR sepsis[tiab]</div></div><div style="position:absolute;left:29.187%;top:34.355%;width:5.854%;height:23.226%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(0.0 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#055F56;border-radius:50%"><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;font-weight:700">AND</div></div><div style="position:absolute;left:35.569%;top:0.000%;width:28.862%;height:17.742%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0B376C;border-radius:0.358cqw"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">I:  restrictive fluids</div></div><div style="position:absolute;left:35.569%;top:17.742%;width:28.862%;height:56.452%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(5.8 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.569cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">&quot;Fluid Therapy&quot;[MeSH]</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(2 * 0.11292cqw)">OR &quot;fluid restrict*&quot;[tiab]</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(2 * 0.11292cqw)">OR &quot;restrictive fluid*&quot;[tiab]</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(2 * 0.11292cqw)">OR &quot;conservative fluid*&quot;[tiab]</div></div><div style="position:absolute;left:64.959%;top:34.355%;width:5.854%;height:23.226%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(0.0 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#055F56;border-radius:50%"><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;font-weight:700">AND</div></div><div style="position:absolute;left:71.341%;top:0.000%;width:28.862%;height:17.742%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0070C0;border-radius:0.358cqw"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">O:  mortality</div></div><div style="position:absolute;left:71.341%;top:17.742%;width:28.862%;height:56.452%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(5.8 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.569cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Mortality[MeSH]</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(2 * 0.11292cqw)">OR mortality[tiab]</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(2 * 0.11292cqw)">OR death[tiab]</div></div><div style="position:absolute;left:2.439%;top:82.258%;width:95.122%;height:16.129%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#595959;font-style:italic">C (usual care) is usually not searched: the words for it vary too much.</div></div></div>
+```
+
+::: {.neu-takeaway}
+**KEY MESSAGE** One block per PICO element: OR inside a block, AND between blocks.
+:::
+
+::: {.notes}
+Now put the pieces together. Each PICO element becomes a block: the MeSH term plus free-text words, joined with OR. The blocks are joined with AND.
+
+The asterisk (\*) is truncation: restrictive fluid\* also finds 'restrictive fluids'.
+
+The comparison (usual care) is normally left out because the words vary too much.
+
+Misconception: 'just type the whole question into PubMed'. You lose control of synonyms and logic.
+
+Ask the class (chat): 'Which other words would authors use for restrictive?' Expected: conservative, limited, de-resuscitation, fluid removal, negative fluid balance.
+
+Timing: 4 minutes.
+:::
+
+## Another example: a ward question
+
+::: {.neu-intro}
+Question: in adults at risk on the ward, does 2-hourly repositioning reduce new pressure injuries?
+:::
+
+
+```{=html}
+<div style="position:relative;width:100%;aspect-ratio:12.3/3.1;container-type:inline-size;margin:0.2em auto;font-family:Arial,sans-serif;line-height:1.1"><div style="position:absolute;left:17.683%;top:0.000%;width:28.862%;height:17.742%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:0.358cqw"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">P + O:  pressure injury</div></div><div style="position:absolute;left:17.683%;top:17.742%;width:28.862%;height:56.452%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(5.8 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.569cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">&quot;Pressure Ulcer&quot;[MeSH]</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(2 * 0.11292cqw)">OR &quot;pressure injur*&quot;[tiab]</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(2 * 0.11292cqw)">OR &quot;pressure ulcer*&quot;[tiab]</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(2 * 0.11292cqw)">OR bedsore*[tiab]</div></div><div style="position:absolute;left:47.073%;top:34.355%;width:5.854%;height:23.226%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(0.0 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#055F56;border-radius:50%"><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;font-weight:700">AND</div></div><div style="position:absolute;left:53.455%;top:0.000%;width:28.862%;height:17.742%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0B376C;border-radius:0.358cqw"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">I:  repositioning</div></div><div style="position:absolute;left:53.455%;top:17.742%;width:28.862%;height:56.452%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(5.8 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.569cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">&quot;Patient Positioning&quot;[MeSH]</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(2 * 0.11292cqw)">OR reposition*[tiab]</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(2 * 0.11292cqw)">OR turning[tiab]</div></div><div style="position:absolute;left:2.439%;top:82.258%;width:95.122%;height:16.129%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#595959;font-style:italic">P and O are one idea here (pressure injury), so one block carries both.</div></div></div>
+```
+
+::: {.neu-takeaway}
+**KEY MESSAGE** Same method for any topic: OR inside a block, AND between blocks.
+:::
+
+::: {.notes}
+A second worked example, from the ward, so colleagues outside the ICU see that the method works for any topic. Same layout as the previous slide.
+
+Here P and O share the same idea (pressure injury), so one block carries both. The second block is the intervention.
+
+MeSH: authors write pressure ulcer, pressure injury, bedsore, decubitus. The MeSH heading 'Pressure Ulcer' collects them.
+
+Ask the class (chat): 'Which other words would authors use for repositioning?' Expected: turning, position change, mobilisation, offloading.
+
+Timing: 3 minutes.
+:::
+
 ## PubMed vs Google Scholar
 
 | PubMed | Google Scholar |
 |:---|:---|
-| What it covers | Biomedical journals, indexed by experts | Almost everything: theses, books, preprints, websites |
-| MeSH (controlled vocabulary) | Yes | No |
-| Filters (design, age, date) | Yes, many | Few (date, reviews) |
-| Transparent, repeatable | Yes | No: ranking is hidden |
-| "Cited by" a key paper | Partial | Yes |
-| Best for | Your main, repeatable search | A quick check, grey literature, citations |
+| What it searches | Biomedical journals | Almost everything: journals, theses, books, preprints |
+| MeSH labels | Yes | No |
+| Filters (design, age, date) | Many | Few (date, reviews) |
+| Same search, same results later | Yes | No: the ranking is hidden |
+| Finds newer papers that cite a paper | Partly | Yes ('Cited by') |
+| Use it for | Your main search, written down | Checking for papers you missed |
 
 ::: {.neu-takeaway}
-**KEY MESSAGE** PubMed for the main search. Google Scholar to check and to follow citations.
+**KEY MESSAGE** PubMed for your main search. Google Scholar to check for papers you missed.
 :::
 
 ::: {.notes}
-PubMed: free, run by the US National Library of Medicine, biomedical journals, MeSH, many filters, a transparent search you can repeat.
+PubMed: free, run by the US National Library of Medicine, biomedical journals, MeSH labels, many filters. The same string gives the same results later, so the search can be reported and repeated.
 
-Google Scholar: very broad (theses, books, preprints), good for grey literature and 'Cited by', but hidden ranking, few filters, hard to repeat.
+Google Scholar: very broad (theses, books, preprints), but it ranks results with a hidden method, has few filters and is hard to repeat.
 
-PubMed is not the only database. Embase, the Cochrane Library, Web of Science, Scopus and CINAHL (for nursing) are the other standard sources. A systematic review searches several of them (extra slide 'Beyond PubMed'). For a Level 1 proposal, PubMed plus a trial registry is enough.
+Row 'Finds newer papers that cite a paper': open a key trial and click 'Cited by' to see every later paper that cites it. This is how you find recent work, and papers your PubMed string missed. PubMed shows this only for papers in PubMed Central.
+
+So: run and report your search in PubMed, then use Scholar to check that no important paper is missing.
+
+Other databases (Embase, Cochrane Library, Web of Science, Scopus, CINAHL) are on the extra slide 'Beyond PubMed'. For a Level 1 proposal, PubMed plus a trial registry is enough.
 
 Ask the class (chat): 'A colleague found a perfect paper in Google Scholar. What should you check?' Expected: peer-reviewed or preprint? Legitimate journal? (Predatory journals: Session 8.)
 
@@ -523,7 +496,7 @@ Ask the class (chat): 'Has anyone started a project and then found it had alread
 Timing: 2 minutes.
 :::
 
-## Live demo: searching PubMed for our question
+## Live demo: searching PubMed for the running example
 
 ::: {.neu-banner style="--c:#B5651D"}
 LIVE DEMO · 10 min
@@ -584,7 +557,7 @@ INDIVIDUAL TASK · 5 min
 :::
 
 ::: {.neu-output style="--c:#0B376C"}
-**OUTPUT** One search string for your own question, to run in Proposal builder 2
+**OUTPUT** One search string for your own question, ready to run in PubMed later today
 :::
 
 ::: {.notes}
@@ -607,7 +580,7 @@ Keep every reference you find, and use other people's work honestly.
 :::
 
 ::: {.neu-sub}
-20 minutes: reference managers (Zotero demo), citation styles, paraphrasing safely, grey literature
+20 minutes: reference managers, citation styles, a Zotero demo, paraphrasing safely, grey literature
 :::
 ::::
 
@@ -669,50 +642,6 @@ Misconception: 'I will sort the references at the end'. Saving as you go takes s
 Timing: 2 minutes.
 :::
 
-## Live demo: from PubMed to Zotero to Word
-
-::: {.neu-banner style="--c:#B5651D"}
-LIVE DEMO · 5 min
-:::
-
-:::: {.columns}
-::: {.column width="60%"}
-::: {.neu-activity-steps style="--c:#B5651D"}
-- Import the .nbib file from the PubMed demo into Zotero
-- Look: authors, title, journal, year, DOI, with nothing typed by hand
-- In Word, on the Zotero tab, click 'Add/Edit Citation' and type Meyhoff
-- Click 'Add/Edit Bibliography': the reference list appears
-- Open 'Document Preferences': switch Vancouver to APA and back
-:::
-:::
-::: {.column width="40%"}
-::: {.neu-side .plain style="--c:#B5651D"}
-Watch for
-
-- \[1\] becomes (Meyhoff et al., 2022)
-- The list reformats itself
-:::
-:::
-::::
-
-::: {.neu-output style="--c:#B5651D"}
-**OUTPUT** Everyone has seen the full cycle: collect, cite, list
-:::
-
-::: {.notes}
-Instructor script: Course/Demos/s2\_demo.md, Part B (Step 6), with what to click, what to say and what to do if Zotero fails. The same script is Course/Demos/s2\_demo.pdf and the 'Session 2 demo' page of the course website.
-
-The words in quotation marks on the slide are Zotero's own button names in Word.
-
-Preparation: Zotero desktop and its Word plug-in installed, an empty test library, a blank Word document.
-
-Everyone installed Zotero as Session 1 homework, so participants can repeat each step on their own computer. Anyone whose installation fails watches now and fixes it after the session with the second trainer.
-
-If Zotero fails, show the screenshots and say 'the same file works in Mendeley and EndNote'.
-
-Timing: 5 minutes.
-:::
-
 ## Citation styles: same paper, two looks
 
 ::: {.neu-intro}
@@ -749,9 +678,53 @@ Every journal states its style in the 'Guide for authors'. A reference manager s
 
 Teaching point: a citation lets the reader check your claim. Cite the original study for facts and numbers, not a review that quotes it, wherever you can.
 
-Ask the class (chat): 'Which style uses \[1\]?' Expected: Vancouver.
+Ask the class (chat): 'Which style uses \[1\]?' Expected: Vancouver. The Zotero demo comes next and switches between the two styles.
 
 Timing: 2 minutes.
+:::
+
+## Live demo: from PubMed to Zotero to Word
+
+::: {.neu-banner style="--c:#B5651D"}
+LIVE DEMO · 5 min
+:::
+
+:::: {.columns}
+::: {.column width="60%"}
+::: {.neu-activity-steps style="--c:#B5651D"}
+- In Zotero: File, Import, then choose the .nbib file saved in the PubMed demo
+- Check the entry: authors, title, journal, year, DOI, nothing typed by hand
+- In Word, Zotero tab: 'Add/Edit Citation', then type Meyhoff (first author of CLASSIC)
+- Click 'Add/Edit Bibliography': the reference list appears
+- Click 'Document Preferences': switch Vancouver to APA and back
+:::
+:::
+::: {.column width="40%"}
+::: {.neu-side .plain style="--c:#B5651D"}
+Watch for
+
+- \[1\] becomes (Meyhoff et al., 2022)
+- The list reformats itself
+:::
+:::
+::::
+
+::: {.neu-output style="--c:#B5651D"}
+**OUTPUT** Everyone has seen the full cycle: collect, export, import, cite, list
+:::
+
+::: {.notes}
+Instructor script: Course/Demos/s2\_demo.md, Part B (Step 6), with what to click, what to say and what to do if Zotero fails. The same script is Course/Demos/s2\_demo.pdf and the 'Session 2 demo' page of the course website.
+
+The words in quotation marks on the slide are Zotero's own button names in Word.
+
+Preparation: Zotero desktop and its Word plug-in installed, an empty test library, a blank Word document.
+
+Everyone installed Zotero as Session 1 homework, so participants can repeat each step on their own computer. Anyone whose installation fails watches now and fixes it after the session with the second trainer.
+
+If Zotero fails, show the screenshots and say 'the same file works in Mendeley and EndNote'.
+
+Timing: 5 minutes.
 :::
 
 ## Citing vs copying: paraphrase safely
@@ -866,10 +839,13 @@ Timing: 2 minutes.
 
 ## Grey literature, including trial registries
 
-![](images/figures/sat1/grey_iceberg.png){.neu-fig}
+
+```{=html}
+<div style="position:relative;width:100%;aspect-ratio:12.3/4.2;container-type:inline-size;margin:0.2em auto;font-family:Arial,sans-serif;line-height:1.1"><div style="position:absolute;left:0.000%;top:32.143%;width:53.659%;height:67.857%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#DCEBF2"></div><svg viewBox="0 0 1230 420" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm0070C034" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0070C0"/></marker></defs><line x1="0.0" y1="135.0" x2="660.0" y2="135.0" stroke="#0070C0" stroke-width="3.47" stroke-linecap="round"/></svg><div style="position:absolute;left:13.008%;top:0.000%;width:27.642%;height:32.143%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#FFFFFF;border:calc(2 * 0.11292cqw) solid #0070C0;clip-path:polygon(49.24% 0,50.76% 0,100% 100%,0 100%);padding-left:13.610cqw;padding-right:13.610cqw"></div><div style="position:absolute;left:16.260%;top:17.143%;width:21.138%;height:14.286%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(14 * 0.11292cqw);color:#0B376C;font-weight:700">Journal articles</div><div style="font-size:calc(14 * 0.11292cqw);color:#0B376C;font-weight:700;margin-top:calc(0 * 0.11292cqw)">(PubMed)</div></div><div style="position:absolute;left:3.659%;top:34.524%;width:46.341%;height:63.095%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#F4FAFC;border:calc(2 * 0.11292cqw) solid #0070C0;border-radius:6.463cqw"></div><div style="position:absolute;left:3.659%;top:36.905%;width:46.341%;height:10.714%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(17 * 0.11292cqw);color:#055F56;font-weight:700">Grey literature</div></div><div style="position:absolute;left:5.691%;top:48.810%;width:42.276%;height:45.238%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;justify-content:flex-start"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Trial registries (ClinicalTrials.gov, WHO ICTRP)</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(5 * 0.11292cqw)">Conference abstracts</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(5 * 0.11292cqw)">Theses and dissertations</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(5 * 0.11292cqw)">Reports, guidelines, preprints</div></div><div style="position:absolute;left:57.724%;top:1.190%;width:42.276%;height:41.667%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(8.6 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#FFFFFF;border:calc(2 * 0.11292cqw) solid #055F56;border-radius:1.138cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#055F56;font-weight:700">Why look below the water?</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">Trials with negative results are published less often (publication bias).</div></div><div style="position:absolute;left:57.724%;top:48.810%;width:42.276%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(8.6 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#FFFFFF;border:calc(2 * 0.11292cqw) solid #055F56;border-radius:1.366cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#055F56;font-weight:700">Trial registry</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">A public record of a trial, made before the first patient is enrolled.</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">Compare its planned primary outcome with the paper.</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">Paper 1: NCT04947904</div></div></div>
+```
 
 ::: {.neu-takeaway}
-**KEY MESSAGE** Look below the waterline: searching grey literature, including trial registries, reduces publication bias.
+**KEY MESSAGE** Search below the waterline too: grey literature and trial registries.
 :::
 
 ::: {.notes}
@@ -936,7 +912,10 @@ Timing: 30 seconds.
 
 ## Anatomy of a paper: IMRaD
 
-![](images/figures/sat1/imrad_hourglass.png){.neu-fig}
+
+```{=html}
+<div style="position:relative;width:100%;aspect-ratio:12.3/4.3;container-type:inline-size;margin:0.2em auto;font-family:Arial,sans-serif;line-height:1.1"><div style="position:absolute;left:1.626%;top:0.000%;width:34.146%;height:12.791%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#055F56;border-radius:0.894cqw"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">Title + abstract</div></div><svg viewBox="0 0 1230 430" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm055F5627" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#055F56"/></marker></defs><line x1="450.0" y1="27.5" x2="580.0" y2="27.5" stroke="#055F56" stroke-width="2.78" stroke-linecap="round" stroke-dasharray="6 5"/></svg><div style="position:absolute;left:48.374%;top:-0.581%;width:51.626%;height:13.953%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(17 * 0.11292cqw);color:#1A1A1A">Read first: what is the paper about?</div></div><div style="position:absolute;left:1.626%;top:14.651%;width:34.146%;height:22.093%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;clip-path:polygon(0 0,100% 0,80% 100%,20% 100%);padding-left:10%;padding-right:10%"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">Introduction</div></div><svg viewBox="0 0 1230 430" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm0D737727" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0D7377"/></marker></defs><line x1="401.0" y1="110.5" x2="515.0" y2="110.5" stroke="#0D7377" stroke-width="2.78" stroke-linecap="round" stroke-dasharray="6 5"/></svg><div style="position:absolute;left:42.276%;top:19.419%;width:4.390%;height:12.558%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(0.0 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:50%"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">I</div></div><div style="position:absolute;left:48.374%;top:18.721%;width:51.626%;height:13.953%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(17 * 0.11292cqw);color:#1A1A1A">Why? Broad to narrow, ends with the question</div></div><div style="position:absolute;left:8.455%;top:38.605%;width:20.488%;height:17.442%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0B376C"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">Methods</div></div><svg viewBox="0 0 1230 430" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm0B376C27" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0B376C"/></marker></defs><line x1="366.0" y1="203.5" x2="515.0" y2="203.5" stroke="#0B376C" stroke-width="2.78" stroke-linecap="round" stroke-dasharray="6 5"/></svg><div style="position:absolute;left:42.276%;top:41.047%;width:4.390%;height:12.558%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(0.0 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0B376C;border-radius:50%"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">M</div></div><div style="position:absolute;left:48.374%;top:40.349%;width:51.626%;height:13.953%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(17 * 0.11292cqw);color:#1A1A1A">What was done? Enough detail to repeat it</div></div><div style="position:absolute;left:8.455%;top:57.907%;width:20.488%;height:17.442%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0070C0"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">Results</div></div><svg viewBox="0 0 1230 430" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm0070C027" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0070C0"/></marker></defs><line x1="366.0" y1="286.5" x2="515.0" y2="286.5" stroke="#0070C0" stroke-width="2.78" stroke-linecap="round" stroke-dasharray="6 5"/></svg><div style="position:absolute;left:42.276%;top:60.349%;width:4.390%;height:12.558%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(0.0 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0070C0;border-radius:50%"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">R</div></div><div style="position:absolute;left:48.374%;top:59.651%;width:51.626%;height:13.953%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(17 * 0.11292cqw);color:#1A1A1A">What was found? Numbers, no opinions</div></div><div style="position:absolute;left:1.626%;top:77.209%;width:34.146%;height:22.093%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#5FA39B;clip-path:polygon(20.00% 0,80.00% 0,100% 100%,0 100%);padding-left:6.829cqw;padding-right:6.829cqw"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">Discussion</div></div><svg viewBox="0 0 1230 430" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm5FA39B27" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5FA39B"/></marker></defs><line x1="401.0" y1="379.5" x2="515.0" y2="379.5" stroke="#5FA39B" stroke-width="2.78" stroke-linecap="round" stroke-dasharray="6 5"/></svg><div style="position:absolute;left:42.276%;top:81.977%;width:4.390%;height:12.558%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(0.0 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#5FA39B;border-radius:50%"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">D</div></div><div style="position:absolute;left:48.374%;top:81.279%;width:51.626%;height:13.953%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(17 * 0.11292cqw);color:#1A1A1A">What does it mean? Narrow to broad, limitations</div></div></div>
+```
 
 ::: {.neu-takeaway}
 **KEY MESSAGE** Every original paper has the same shape: why, how, what, so what.
@@ -945,7 +924,7 @@ Timing: 30 seconds.
 ::: {.notes}
 IMRaD = Introduction, Methods, Results and Discussion: the standard structure of an original research paper.
 
-The title and the abstract sit on top of IMRaD. They are not one of its letters, which is why they come first in the picture. The small 'a' in IMRaD stands for 'and', not for 'abstract'.
+The title and the abstract sit on top of IMRaD and are read first. They are not one of its letters. The small 'a' in IMRaD stands for 'and', not for 'abstract'.
 
 The hourglass: the Introduction narrows from the broad problem to the specific question. Methods and Results are narrow and factual. The Discussion widens again to what it means for practice.
 
@@ -1226,14 +1205,14 @@ The papers you read become the first page of your proposal.
 :::
 
 ::: {.neu-sub}
-15 minutes: the literature matrix, the problem-statement funnel, a model problem statement, working title and keywords
+15 minutes: the literature review worksheet, the problem-statement funnel, a model problem statement, working title and keywords
 :::
 ::::
 
 ::: {.notes}
 SEGMENT 2.4 (2:05-2:20, 21:35-21:50).
 
-Teaching point: reading is not the end. A literature matrix turns papers into a gap, the gap into a problem statement, and the PICO into a working title.
+Teaching point: reading is not the end. The literature review worksheet turns papers into a gap, the gap into a problem statement, and the PICO into a working title.
 
 Timing: 30 seconds.
 :::
@@ -1256,7 +1235,7 @@ The worksheet is in Course/Templates (literature review worksheet). One row per 
 
 Rows 1-3 show the course papers: Paper 1 (Boulet 2024, pilot RCT: fluid balance, no significant difference), Paper 2 (Hyun 2023, matched cohort: positive balance on days 2-3 associated with higher 28-day mortality), and CLASSIC (Meyhoff 2022: no difference in 90-day mortality).
 
-Notice: the three papers measure different outcomes at different times. A matrix makes that visible at once.
+Notice: the three papers measure different outcomes at different times. The worksheet makes that visible at once.
 
 Teaching point: the 'key limitation' column is where the gap, and your study's justification, comes from.
 
@@ -1265,20 +1244,25 @@ Timing: 3 minutes.
 
 ## From literature to your Introduction
 
-![](images/figures/sat1/problem_funnel.png){.neu-fig}
+
+```{=html}
+<div style="position:relative;width:100%;aspect-ratio:12.3/4.2;container-type:inline-size;margin:0.2em auto;font-family:Arial,sans-serif;line-height:1.1"><div style="position:absolute;left:0.000%;top:0.000%;width:65.041%;height:26.190%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#5FA39B;border-radius:1.341cqw"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">What is known</div><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;margin-top:calc(3 * 0.11292cqw)">The problem and current practice, with references</div></div><svg viewBox="0 0 1230 420" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm8A99A341" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A99A3"/></marker></defs><line x1="400.0" y1="113.0" x2="400.0" y2="142.0" marker-end="url(#dgm8A99A341)" stroke="#8A99A3" stroke-width="4.17" stroke-linecap="round"/></svg><div style="position:absolute;left:5.285%;top:34.524%;width:54.472%;height:26.190%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0070C0;border-radius:1.341cqw"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">What is not known</div><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;margin-top:calc(3 * 0.11292cqw)">The gap: studies disagree, are too small or did not measure it</div></div><svg viewBox="0 0 1230 420" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm8A99A341" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A99A3"/></marker></defs><line x1="400.0" y1="258.0" x2="400.0" y2="287.0" marker-end="url(#dgm8A99A341)" stroke="#8A99A3" stroke-width="4.17" stroke-linecap="round"/></svg><div style="position:absolute;left:10.569%;top:69.048%;width:43.902%;height:26.190%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#055F56;border-radius:1.341cqw"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">Question and objectives</div><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;margin-top:calc(3 * 0.11292cqw)">Your PICO question, aim and objectives</div></div><div style="position:absolute;left:70.732%;top:0.000%;width:29.268%;height:45.238%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(8.6 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:1.236cqw"><div style="font-size:calc(16 * 0.11292cqw);color:#055F56;font-weight:700">Introduction</div><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">3 short paragraphs</div><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">About 300 words</div><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">A reference for every fact</div></div><div style="position:absolute;left:70.732%;top:51.190%;width:29.268%;height:48.810%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(8.6 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#FFFFFF;border:calc(2 * 0.11292cqw) solid #D9822B;border-radius:1.333cqw"><div style="font-size:calc(16 * 0.11292cqw);color:#D9822B;font-weight:700">Not in the Introduction</div><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">Your own data or results</div><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">Local figures only if they are published, with a reference</div></div></div>
+```
 
 ::: {.neu-takeaway}
-**KEY MESSAGE** Known, not known, why here: the question then follows naturally.
+**KEY MESSAGE** Known, then not known, then the question and objectives.
 :::
 
 ::: {.notes}
-The papers you read become the Introduction of your proposal. It is the same funnel as the top of the IMRaD hourglass.
+The papers you read become the Introduction of your proposal (the 'problem statement'). It is the same funnel as the top of the IMRaD hourglass.
 
 Paragraph 1, what is known: the size of the problem and current practice, with references.
 
-Paragraph 2, what is not known: the gap (conflicting studies, no studies in patients like ours, outcomes not measured). Your literature matrix's 'limitation' column feeds this paragraph.
+Paragraph 2, what is not known: the gap (conflicting studies, studies too small, outcomes not measured). The 'key limitation' column of your literature worksheet feeds this paragraph.
 
-Paragraph 3, why it matters here: local data (an audit, an incident review, a number from your unit). Then state the question and aim.
+Paragraph 3: the research question, the aim and the objectives, which follow from the gap.
+
+Science rule: the Introduction never contains your own data or results, and never 'our audit'. Your results belong in the Results. A local figure (for example a national or regional rate) may appear only if it comes from a publication, with its reference.
 
 Misconception: 'the background must review everything ever written'. Paper 1's introduction does the whole funnel in under 500 words.
 
@@ -1287,30 +1271,27 @@ Timing: 3 minutes.
 
 ## A model problem statement
 
-| Paragraph | Model text |
-|:---|:---|
-| 1  What is known | Septic shock is a leading cause of ICU death. Early fluids restore perfusion, but continued fluids often produce a positive fluid balance, which cohort studies associate with higher mortality \[2\]. |
-| 2  What is not known | Large trials of restrictive fluids found no mortality difference \[3, 4\], and a pilot targeting hidden fluids did not significantly reduce fluid balance \[1\]. Whether restriction is achievable in our setting is unknown. |
-| 3  Why it matters here | Our 3-month audit found that most septic shock patients were fluid-positive by day 3, and practice varies between consultants. We therefore ask: \[PICO question\]. |
 
-::: {.neu-table-caption}
-Model text: replace the audit numbers with your own
-:::
+```{=html}
+<div style="position:relative;width:100%;aspect-ratio:12.3/4.2;container-type:inline-size;margin:0.2em auto;font-family:Arial,sans-serif;line-height:1.1"><div style="position:absolute;left:0.000%;top:0.000%;width:21.951%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#5FA39B;border-radius:1.220cqw"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">1</div><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700;margin-top:calc(1 * 0.11292cqw)">What is known</div></div><div style="position:absolute;left:23.171%;top:0.000%;width:76.829%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(10.1 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.813cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Septic shock is a leading cause of death in the ICU. Early fluids restore perfusion, but continued fluids often cause a positive fluid balance, which cohort studies link to higher mortality [2].</div></div><div style="position:absolute;left:0.000%;top:34.524%;width:21.951%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0070C0;border-radius:1.220cqw"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">2</div><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700;margin-top:calc(1 * 0.11292cqw)">What is not known</div></div><div style="position:absolute;left:23.171%;top:34.524%;width:76.829%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(10.1 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.813cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Large trials of restrictive fluids found no difference in mortality [3, 4], and a pilot trial targeting hidden fluids did not significantly reduce fluid balance [1]. Whether restriction reliably reduces fluid balance is still unclear.</div></div><div style="position:absolute;left:0.000%;top:69.048%;width:21.951%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#055F56;border-radius:1.220cqw"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">3</div><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700;margin-top:calc(1 * 0.11292cqw)">Question and objectives</div></div><div style="position:absolute;left:23.171%;top:69.048%;width:76.829%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(10.1 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.813cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">We therefore ask whether, in adults with septic shock, a restrictive fluid protocol reduces fluid balance at day 5 compared with usual care. Primary objective: to compare day-5 fluid balance between the groups.</div></div></div>
+```
 
 ::: {.neu-takeaway}
-**KEY MESSAGE** Three short paragraphs, each with its own job, and references in brackets.
+**KEY MESSAGE** Three short paragraphs, one job each, and a reference for every fact.
 :::
 
 ::: {.notes}
-This is what the funnel looks like as real text, for the feasible rewrite of the running example.
+The funnel as real text, for the feasible pilot version of the running example (outcome: fluid balance at day 5).
 
-Paragraph 1 (known) cites Paper 2. Paragraph 2 (not known) cites CLASSIC, CLOVERS and Paper 1 and ends with the gap. Paragraph 3 (why here) uses local data (replace the audit statement with your own numbers) and ends with the question.
+Paragraph 1 (known) cites Paper 2 \[2\]. Paragraph 2 (not known) cites CLASSIC \[3\], CLOVERS \[4\] and Paper 1 \[1\], and ends with the gap. Paragraph 3 states the question and the primary objective, which follow from the gap.
 
-Teaching point: every factual sentence carries a citation number, and the last sentence leads straight into the PICO question.
+No own data and no audit results here: they are results, not background. If you want a local figure, use a published one and cite it.
+
+Teaching point: every factual sentence carries a reference number.
 
 Misconception: 'the problem statement should be long and impressive'. About 300 words is enough for a proposal.
 
-Model text in English. You may write your proposal in Vietnamese, but search and cite in English.
+Model text in English: participants write their proposal in English (Vietnamese allowed if English is impossible).
 
 Timing: 4 minutes.
 :::
@@ -1398,7 +1379,7 @@ PROPOSAL BUILDER · 35 min
 - Run your own search string in PubMed. Note the date and the number of hits
 - Screen titles and abstracts, pick 5 key papers and save them to Zotero
 - Fill one row per paper in the literature review worksheet
-- Draft your problem statement (known, not known, why here) and a working title
+- Draft your problem statement (known, not known, question) and a working title
 - Two volunteers read their title and gap sentence aloud
 :::
 :::
@@ -1435,7 +1416,7 @@ Timing: 35 minutes. Wrap-up starts at 2:55 (22:25).
 
 | Key word | In one line |
 |:---|:---|
-| MeSH | The shared label PubMed gives to many ways of writing one idea |
+| MeSH | Medical Subject Headings: one label for many ways of writing an idea |
 | AND / OR / NOT | Narrows / widens / removes. OR inside a block, AND between blocks |
 | Reference manager | Stores each paper once and formats citations in any style |
 | Patchwriting | Copying with a few words swapped: plagiarism even if cited |
@@ -1493,37 +1474,22 @@ Timing: 1.5 minutes.
 QUICK QUIZ · 2 min
 :::
 
-:::: {.columns}
-::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-- Answer now in the chat, or in the 1-question form linked there
+- Answer in the chat before you leave
 - Q1: which gives more hits: septic shock AND fluids, or septic shock OR fluids?
 - Q2: what was the primary outcome of Paper 1?
 :::
-:::
-::: {.column width="40%"}
-::: {.neu-side .plain style="--c:#6C3483"}
-Why we ask
-
-- It is not homework and not marked
-- It shows us what is still unclear
-- We read every answer before Session 3
-:::
-:::
-::::
 
 ::: {.neu-output style="--c:#6C3483"}
-**OUTPUT** One short answer per person, before you leave
+**OUTPUT** One short answer per person in the chat
 :::
 
 ::: {.notes}
-Purpose: a 2-minute check of understanding. It is not homework.
+Not marked. Answers: Q1 OR (either term counts). Q2 Cumulative fluid balance at day 5 (ml/kg), not mortality.
 
-Answers: Q1 OR (either term). Q2 Cumulative fluid balance at day 5 (ml/kg), not mortality.
+Save the chat and read the answers during the week. If more than a quarter get either wrong, start Session 3 with it.
 
-Save the chat (or the form responses) and read them after the session. If more than a quarter get either wrong, open Session 3 with it and revisit it in the recap quiz.
-
-Timing: 1.5 minutes.
+Timing: 2 minutes.
 :::
 
 ## Homework before Session 3 (next Saturday)

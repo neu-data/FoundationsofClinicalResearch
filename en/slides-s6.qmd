@@ -78,7 +78,7 @@ Q2: the unit (mmol/L), the time point (at ICU admission? highest in 24 h?), and 
 
 Q3: a range check (allowed range from the data dictionary). In FLUID-ICU it was patient flu-529: the value was set to missing and a query sent to the site. The cleaning log records the patient ID, the original value, what was done (here: set to missing), the reason (source document checked) and who did it when.
 
-Before starting 6.1, read three or four of the Session 5 exit answers (sent in the chat or form last week) and correct any common misunderstanding.
+Before starting 6.1, read three or four of the Session 5 exit answers (sent in the chat last week) and correct any common misunderstanding.
 
 Timing: 10 minutes (19:30 to 19:40).
 :::
@@ -1642,13 +1642,13 @@ Weeks 7-8
 ::::
 
 ::: {.neu-output style="--c:#1F5C7A"}
-**OUTPUT** Exit answer in the chat (or a one-question form). Part 3 complete
+**OUTPUT** Exit answer in the chat. Part 3 complete
 :::
 
 ::: {.notes}
 Wrap-up: 5 minutes (22:25 to 22:30), including the key-words and recap slides.
 
-Exit question in the chat (or a one-question form). Purpose: it checks the single most important skill of today, reading a CI. A good answer: 'The true hazard ratio is plausibly between 1.48 and 3.06. All values are above 1, so the data suggest higher mortality.' Read the answers before Session 7 and open Session 7 with two or three of them.
+Exit question in the chat. Purpose: it checks the single most important skill of today, reading a CI. A good answer: 'The true hazard ratio is plausibly between 1.48 and 3.06. All values are above 1, so the data suggest higher mortality.' Read the answers before Session 7 and open Session 7 with two or three of them.
 
 Homework: finish Part 3 of your own proposal. Start your proposal slides (6 slides, Course/Assignment/presentation\_guide.md): everyone submits slides, and about five volunteers present in Session 8 (6 minutes each). Re-read the results pack of the question you chose (Q1 to Q5) and your notes from today's worked examples, which become the Methods and Results you draft in Session 7. Optional exercises in the Session 6 exercise sheet (Exercises 2, 3, 5, 6 and 7).
 

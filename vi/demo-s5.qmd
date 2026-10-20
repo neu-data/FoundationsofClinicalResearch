@@ -42,15 +42,15 @@ title: "Buổi 5: Kịch bản trình diễn"
 | 4. Ngày tháng | ba định dạng | `2023-03-14`, `14/03/2023`, `14-Mar-2023`: thành một kiểu ngày; 0 lỗi chuyển đổi | "03/04 là tháng Ba hay tháng Tư? Không bao giờ đoán." |
 | 5–6. Giới tính và có/không | `tabyl()` trước/sau | nhiều cách viết (M, m, male, F, f, " Female"; Y, 1, yes) thành `Male/Female`, `Yes/No` | "1 và Yes phải có cùng một nghĩa." |
 | 7–8. Số và mã | `summary()` của lactat, MAP, APACHE II | giá trị lớn nhất **999**, nhỏ nhất **-99**: đặt là NA | "Một giá trị lactat 999 sẽ làm hỏng số trung bình." |
-| 9. Đơn vị đo | trung vị lactat **theo ICU** | ICU C cao gấp khoảng 9 lần (mg/dL): chia cho 9.01 | "Chỉ phát hiện được vì ta tóm tắt theo từng ICU. Hỏi lại phòng xét nghiệm của ICU đó." |
-| 10. Giá trị vô lý | kiểm tra khoảng giá trị | tuổi 210, cân nặng 7 kg, lượng dịch ra âm: đặt là NA và gửi câu hỏi xác minh; vẫn giữ người bệnh | "Ta không thể đoán là 21 hay 71. Không bao giờ xóa người bệnh." |
+| 9. Đơn vị đo | trung vị lactat **theo ICU** | ICU C cao gấp khoảng 9 lần (mg/dL): chia cho 9.01 | "Chỉ phát hiện được nhờ tóm tắt theo từng ICU. Hỏi lại phòng xét nghiệm của ICU đó." |
+| 10. Giá trị vô lý | kiểm tra khoảng giá trị | tuổi 210, cân nặng 7 kg, lượng dịch ra âm: đặt là NA và gửi câu hỏi xác minh; vẫn giữ người bệnh | "Không thể đoán là 21 hay 71. Không bao giờ xóa người bệnh." |
 | 12. Biến dẫn xuất | công thức cân bằng dịch | tính `cum_fluid_balance_d3_ml_kg`, `positive_balance_d3`, `aki_any` | "Giá trị dẫn xuất được tính ra, không bao giờ gõ tay." |
-| 13. Phần còn lại | `colSums(is.na(dat))` | lactat thiếu 93, rải rác vài giá trị thiếu ở biến khác | "Đây là những khoảng trống THẬT. Ta xử lý chúng ở Buổi 6." |
+| 13. Phần còn lại | `colSums(is.na(dat))` | lactat thiếu 93, rải rác vài giá trị thiếu ở biến khác | "Đây là những khoảng trống THẬT. Buổi 6 sẽ xử lý chúng." |
 | 14. Tính tái lập | lệnh `cat()` cuối cùng | `Cleaned data identical to the reference clean file: TRUE` / `byte-for-byte identical: TRUE` | "Ai cũng có thể chạy lại và được đúng dữ liệu này." |
 
 **Nếu thiếu thời gian:** chỉ chạy các Bước 0, 2, 9, 10 và 14 (4 phút) và cho xem nhật ký làm sạch cho phần còn lại.
 
-**Kết thúc Phần A** bằng cách mở `cleaning_log.md`: *"Mỗi khối anh chị vừa thấy là một dòng ở đây: vấn đề, bao nhiêu trường hợp, ta đã làm gì, vì sao."* Sau đó chiếu slide *Từ 623 dòng đến 527 trường hợp đầy đủ* (620 người được tuyển, rồi 618 người có cân bằng dịch ngày 3, rồi 527 trường hợp đầy đủ).
+**Kết thúc Phần A** bằng cách mở `cleaning_log.md`: *"Mỗi khối anh chị vừa thấy là một dòng ở đây: vấn đề, bao nhiêu trường hợp, đã làm gì, vì sao."* Sau đó chiếu slide *Từ 623 dòng đến 527 trường hợp đầy đủ* (620 người được tuyển, rồi 618 người có cân bằng dịch ngày 3, rồi 527 trường hợp đầy đủ).
 
 
 * * *
@@ -67,7 +67,7 @@ title: "Buổi 5: Kịch bản trình diễn"
 | 6. Biểu đồ cột | nguồn nhiễm khuẩn, đã sắp xếp | hô hấp thường gặp nhất | "Biến phân loại: cột đã sắp xếp, không dùng biểu đồ tròn 3-D." |
 | 7. Kết cục | mô tả, chưa so sánh | tử vong 28 ngày **179/620 (28.9%)**, thời gian nằm ICU trung bình 7.3 so với trung vị 6.0 ngày | "Hôm nay mô tả, thứ Bảy tới mới so sánh." |
 
-**Kết thúc Phần B:** *"Bảng 1 này có trong mọi gói kết quả, từ Q1 đến Q5. Giờ chúng ta cùng đọc nó như một người phản biện."* Sau đó chuyển sang phần cả lớp cùng đọc Bảng 1 (Bài tập 6).
+**Kết thúc Phần B:** *"Bảng 1 này có trong mọi gói kết quả, từ Q1 đến Q5. Giờ cả lớp cùng đọc nó như một người phản biện."* Sau đó chuyển sang phần cả lớp cùng đọc Bảng 1 (Bài tập 6).
 
 
 * * *

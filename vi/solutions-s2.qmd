@@ -13,9 +13,9 @@ title: "Buổi 2: Lời giải"
 
 ## Câu hỏi ôn tập: đáp án Buổi 1
 
-1. **Bài báo 1 (Boulet 2024) là thử nghiệm** (RCT thí điểm); **Bài báo 2 (Hyun 2023) là nghiên cứu thuần tập** (thuần tập ghép cặp từ sổ đăng ký).
+1. **Bài báo 1 (Boulet 2024) là thử nghiệm** (RCT thí điểm, pilot RCT); **Bài báo 2 (Hyun 2023) là nghiên cứu thuần tập** (thuần tập ghép cặp từ sổ đăng ký).
 2. **P** người lớn bị nhiễm khuẩn huyết · **E** cân bằng dịch tích lũy dương đến ngày 3 · **C** cân bằng dịch trung tính hoặc âm · **O** tử vong · **T** trước ngày 28 (câu hỏi PECO: E = phơi nhiễm).
-3. **Feasible (khả thi)**: kết cục tử vong cần hơn 1,000 người bệnh.
+3. **Feasible (khả thi)**: kết cục tử vong cần hơn 1000 người bệnh.
 4. **"Ước tính tỷ lệ người bệnh có cân bằng dịch dương vào ngày 3"**: động từ đo lường được. "Tìm hiểu" không đo lường được.
 5. **H0:** cân bằng dịch tích lũy ở ngày 5 như nhau khi dùng quy trình hạn chế dịch và khi chăm sóc thường quy.
 
@@ -55,7 +55,7 @@ AND ("Mortality"[Mesh] OR mortality[tiab] OR death[tiab])
 ```
 
 Các từ đồng nghĩa hợp lý có thể thêm cho khối I: `de-resuscitation[tiab]`, `deresuscitation[tiab]`, `"fluid balance"[tiab]`, `"Water-Electrolyte Balance"[Mesh]`.
-Các bộ lọc hợp lý (mỗi bộ lọc kèm lý do): loại bài *Randomized Controlled Trial* + *Systematic Review* (câu hỏi về điều trị); *Adult: 19+ years* (đối tượng của chúng ta); năm công bố *10 years* (thực hành hiện tại). Tránh *Free full text* (bỏ sót các bài báo quan trọng).
+Các bộ lọc hợp lý (mỗi bộ lọc kèm lý do): loại bài *Randomized Controlled Trial* + *Systematic Review* (câu hỏi về điều trị); *Adult: 19+ years* (đối tượng của câu hỏi); năm công bố *10 years* (thực hành hiện tại). Tránh *Free full text* (bỏ sót các bài báo quan trọng).
 
 **Chuỗi mẫu cho Tình huống C (mê sảng)**
 
@@ -101,13 +101,13 @@ Thế nào là tốt: cấu trúc mới; dữ kiện không đổi (28 ngày, t�
 | P | Người lớn 18–85 tuổi bị sốc nhiễm khuẩn, trong 24 giờ đầu truyền thuốc vận mạch, tại ba ICU; loại trừ: tổn thương thận cấp cần điều trị thay thế thận, bệnh thận mạn giai đoạn cuối, suy dinh dưỡng nặng |
 | I so với C | Hạn chế dịch tối ưu (giảm dịch duy trì và dịch pha thuốc trong 7 ngày đầu) so với chiến lược truyền dịch chuẩn |
 | Kết cục chính | **Cân bằng dịch tích lũy (ml/kg) trong 5 ngày đầu**, không phải tử vong |
-| Số liệu | 1,201 người được sàng lọc; 50 người được phân bổ ngẫu nhiên; 2 người rút lui (nhóm chứng); 48 người được phân tích (24 người mỗi nhóm) |
+| Số liệu | 1201 người được sàng lọc; 50 người được phân bổ ngẫu nhiên; 2 người rút lui (nhóm chứng); 48 người được phân tích (24 người mỗi nhóm) |
 | Kết quả chính | Trung vị cân bằng dịch tích lũy ở ngày 5: 6.9 so với 35.0 ml/kg; hiệu số tuyệt đối 13.2 ml/kg (KTC 95% −15.2 đến 41.6), p = 0.42. Con số 13.2 là hiệu số trung bình (phần Phương pháp báo cáo hiệu số trung bình kèm KTC 95%), nên không bằng chênh lệch giữa hai trung vị. |
 | Kết luận | "...did not reduce the overall fluid balance at day 5" (không làm giảm cân bằng dịch chung ở ngày 5) |
 | Khớp với kết quả? | **Có**. KTC chứa 0, và kết luận nói "không làm giảm". |
 | Có spin trong phần tóm tắt? | **Không** trong kết luận của phần tóm tắt. (Spin xuất hiện trong phần *Bàn luận*, gọi p = 0.42 là "xu hướng không có ý nghĩa thống kê".) Điểm cần lưu ý: *thể tích* dịch (89.7 so với 114.3 ml/kg, p = 0.0506) là kết quả phụ, và phần tóm tắt báo cáo bốn chữ số thập phân cho một giá trị p sát ngưỡng. Đây là nhấn mạnh nhẹ, không phải một khẳng định. |
 | Đăng ký | ClinicalTrials.gov **NCT04947904** (đăng ký ngày 1 tháng 7 năm 2021, trước khi bắt đầu tuyển chọn vào tháng 9 năm 2021) |
-| Trả lời câu hỏi về tử vong 28 ngày của chúng ta? | **Không.** Đây là một nghiên cứu thí điểm nhỏ, được thiết kế đủ lực cho cân bằng dịch. Tử vong 28 ngày là kết cục phụ và tương tự nhau giữa hai nhóm: "không có bằng chứng về khác biệt", không phải "không có khác biệt". |
+| Trả lời câu hỏi về tử vong 28 ngày của lớp? | **Không.** Đây là một nghiên cứu thí điểm nhỏ, được thiết kế đủ lực cho cân bằng dịch. Tử vong 28 ngày là kết cục phụ và tương tự nhau giữa hai nhóm: "không có bằng chứng về khác biệt", không phải "không có khác biệt". |
 
 **Ai làm xong sớm (Bài báo 2):** tiêu đề dùng **"Impact"** (tác động, hàm ý nhân quả); kết luận trong phần tóm tắt dùng đúng từ **"associated"** (có liên quan).
 
@@ -131,8 +131,10 @@ Giảng viên làm mẫu trực tiếp cho ví dụ xuyên suốt (phiên bản 
 
 **Đặt vấn đề (≈ 300 từ, ba đoạn)**
 1. *Điều đã biết:* sốc nhiễm khuẩn là nguyên nhân tử vong thường gặp tại ICU. Hồi sức dịch sớm giúp phục hồi tưới máu, nhưng tiếp tục truyền dịch thường dẫn đến cân bằng dịch dương, mà các nghiên cứu quan sát cho thấy có liên quan với tử vong cao hơn (ví dụ Hyun 2023).
-2. *Điều chưa biết:* các thử nghiệm lớn về hạn chế dịch (CLASSIC 2022; CLOVERS 2023) không thấy khác biệt về tử vong, và một nghiên cứu thí điểm nhắm vào dịch "không nhằm hồi sức" bị bỏ sót (Boulet 2024) không làm giảm có ý nghĩa cân bằng dịch ở ngày 5. Chưa biết liệu một quy trình hạn chế dịch có làm giảm cân bằng dịch trong bối cảnh *của chúng ta* hay không.
-3. *Vì sao ở đây:* một đánh giá thực hành 3 tháng tại ICU của chúng ta cho thấy phần lớn người bệnh sốc nhiễm khuẩn có cân bằng dịch dương đến ngày 3 (ghi con số từ đánh giá của chính bạn), và thực hành khác nhau giữa các bác sĩ điều trị.
+2. *Điều chưa biết:* các thử nghiệm lớn về hạn chế dịch (CLASSIC 2022; CLOVERS 2023) không thấy khác biệt về tử vong, và một nghiên cứu thí điểm nhắm vào dịch "không nhằm hồi sức" bị bỏ sót (Boulet 2024) không làm giảm có ý nghĩa cân bằng dịch ở ngày 5. Quy trình hạn chế dịch có thật sự làm giảm cân bằng dịch hay không vẫn chưa rõ.
+3. *Câu hỏi và mục tiêu:* ở người lớn bị sốc nhiễm khuẩn, quy trình hạn chế dịch so với chăm sóc thường quy có làm giảm cân bằng dịch tích lũy ngày 5 không? Mục tiêu chính: so sánh cân bằng dịch ngày 5 giữa hai nhóm.
+
+*Nguyên tắc khoa học:* phần Đặt vấn đề không bao giờ chứa số liệu hay kết quả của chính bạn (kể cả kết quả đánh giá thực hành, audit, tại khoa). Chúng thuộc về phần Kết quả. Số liệu địa phương chỉ được dùng khi đã được công bố, kèm trích dẫn.
 
 **Năm tài liệu tham khảo chính (mẫu)**
 
@@ -153,7 +155,7 @@ Giảng viên làm mẫu trực tiếp cho ví dụ xuyên suốt (phiên bản 
 | Tìm kiếm | Ghi lại chuỗi tìm kiếm, cơ sở dữ liệu, ngày, bộ lọc và số kết quả; ngoặc đúng | "Chúng tôi tìm trên Google"; không có ngày; AND trong một khối |
 | Tài liệu tham khảo | 5 tài liệu, phù hợp, có thiết kế tốt nhất hiện có, xuất sang phần mềm quản lý tài liệu tham khảo | Website, chỉ có sách giáo khoa, gõ tay, chưa đọc |
 | Bảng tổng quan tài liệu | Cùng các cột cho mọi bài báo; cột hạn chế được điền | Chép câu từ phần tóm tắt |
-| Đặt vấn đề | Điều đã biết, rồi khoảng trống, rồi lý do tại chỗ; mỗi dữ kiện đều có trích dẫn, kết thúc bằng câu hỏi | Liệt kê tài liệu, hoặc không có lý do tại chỗ |
+| Đặt vấn đề | Điều đã biết, rồi khoảng trống, rồi câu hỏi và mục tiêu; mỗi dữ kiện đều có trích dẫn | Liệt kê tài liệu; có số liệu hay kết quả của chính mình; số liệu địa phương chưa công bố |
 | Tên đề tài và từ khóa | 10–16 từ; thấy rõ P, I/E, C và thiết kế; từ ngữ chừng mực; từ khóa bổ sung MeSH chưa có trong tên đề tài | "Fluids in the ICU"; viết tắt; "impact of" cho thiết kế quan sát |
 | Liêm chính | Lời của chính mình, mọi khẳng định đều có trích dẫn | Câu dán nguyên từ phần tóm tắt |
 

@@ -24,9 +24,9 @@ format:
 - Xây dựng đề cương 4: phơi nhiễm, kết cục, sai lệch (40 phút), rồi tổng kết (5 phút)
 
 ::: {.notes}
-Mở đầu Buổi 4 (19:30). Thứ Bảy tuần trước ta chọn cách trả lời câu hỏi. Hôm nay hai câu hỏi cho mọi kết quả: có tin được không (sai lệch, yếu tố nhiễu, nhân quả) và lớn đến đâu (nguy cơ, nguy cơ tương đối, tỷ số chênh, hiệu số nguy cơ, số người cần điều trị)? Sau đó vượt ra ngoài một nghiên cứu: xét nghiệm chẩn đoán, phân tích gộp và công cụ thẩm định.
+Mở đầu Buổi 4 (19:30). Thứ Bảy tuần trước cả lớp đã chọn cách trả lời câu hỏi. Hôm nay hai câu hỏi cho mọi kết quả: có tin được không (sai lệch, yếu tố nhiễu, nhân quả) và lớn đến đâu (nguy cơ, nguy cơ tương đối, tỷ số chênh, hiệu số nguy cơ, số người cần điều trị)? Sau đó vượt ra ngoài một nghiên cứu: xét nghiệm chẩn đoán, phân tích gộp và công cụ thẩm định.
 
-Mở đầu bằng câu hỏi cuối Buổi 3: chiếu ba câu trả lời nhận được qua khung chat hoặc biểu mẫu (ẩn danh). Câu hỏi về việc bác sĩ chọn hạn chế dịch cho một số người bệnh: đó là thuần tập, nên chỉ nói 'có liên quan'. Nó dẫn thẳng vào yếu tố nhiễu.
+Mở đầu bằng câu hỏi cuối Buổi 3: chiếu ba câu trả lời nhận được qua khung chat. Câu hỏi về việc bác sĩ chọn hạn chế dịch cho một số người bệnh: đó là thuần tập, nên chỉ nói 'có liên quan'. Nó dẫn thẳng vào yếu tố nhiễu.
 
 Cách học trực tuyến (nhắc ngắn): câu trả lời nhanh qua bình chọn, câu hỏi khác thì mời hai ba người trả lời bật micro, bấm 'giơ tay' để phát biểu, mọi bài tập do cả lớp cùng làm.
 
@@ -86,7 +86,7 @@ Từ vựng hôm nay. Mỗi từ đi kèm một hình hoặc một ví dụ
 [Có tin được không?]{.neu-card-title}
 
 - Sai lệch, yếu tố nhiễu
-- Thay đổi tác động
+- Thay đổi tác động (effect modification)
 - Quan hệ nhân quả ngược
 :::
 ::: {.neu-card .plain style="--c:#0D7377"}
@@ -106,7 +106,7 @@ Từ vựng hôm nay. Mỗi từ đi kèm một hình hoặc một ví dụ
 ::: {.neu-card .plain style="--c:#055F56"}
 [Nhiều nghiên cứu]{.neu-card-title}
 
-- Biểu đồ rừng, tính không đồng nhất
+- Biểu đồ rừng (forest plot), không đồng nhất
 - Công cụ đánh giá nguy cơ sai lệch
 :::
 ::::
@@ -120,7 +120,7 @@ Phần 4.1 bắt đầu từ đây (tổng cộng 40 phút, từ slide này đ�
 
 Đọc bốn tiêu đề. Nói với cả lớp bảng thuật ngữ có ở đầu phiếu bài tập Buổi 4 (file PDF gửi trước buổi học).
 
-Ý chính: thứ tự quan trọng. Ta đánh giá kết quả có tin được không trước khi quan tâm nó lớn đến đâu.
+Ý chính: thứ tự quan trọng. Cần đánh giá kết quả có tin được không trước khi quan tâm nó lớn đến đâu.
 
 Hỏi cả lớp (mời hai ba người trả lời, bật micro): tháng này bạn đã gặp từ nào trong các bài báo? Dự kiến: OR, RR, KTC 95%, biểu đồ rừng.
 
@@ -142,7 +142,7 @@ Chọn lựa, thông tin, yếu tố nhiễu, thay đổi tác động, và từ
 ::: {.notes}
 Đánh dấu phần 4.1. 40 phút tính từ slide từ khóa đến câu bình chọn 'Phát hiện sai lệch'.
 
-Ba nhóm sai lệch: ai được đưa vào nghiên cứu (chọn lựa), mọi thứ được đo thế nào (thông tin), và sự trộn lẫn tác động (yếu tố nhiễu). Sau đó là cách thiết kế chống sai lệch, và bốn ý để đánh giá một kết quả: thay đổi tác động, giá trị nội tại và ngoại suy, quan hệ nhân quả ngược và các quan điểm của Bradford Hill.
+Ba nhóm sai lệch: ai được đưa vào nghiên cứu (chọn lựa), đo lường thế nào (thông tin), và sự trộn lẫn tác động (yếu tố nhiễu). Sau đó là cách thiết kế chống sai lệch, và bốn ý để đánh giá một kết quả: thay đổi tác động, giá trị nội tại và ngoại suy, quan hệ nhân quả ngược và các quan điểm của Bradford Hill.
 
 Thời gian: 30 giây.
 :::
@@ -156,11 +156,11 @@ Thời gian: 30 giây.
 :::
 
 ::: {.notes}
-Dùng hình bia phi tiêu. Trái: điều ta muốn, gần sự thật và tập trung. Giữa: sai số ngẫu nhiên, quanh sự thật nhưng phân tán. Cỡ mẫu lớn hơn sẽ kéo các phi tiêu lại gần nhau. Phải: sai lệch, tập trung nhưng sai chỗ. Cỡ mẫu lớn hơn chỉ làm ta tự tin hơn vào câu trả lời sai.
+Dùng hình bia phi tiêu. Trái: điều mong muốn, gần sự thật và tập trung. Giữa: sai số ngẫu nhiên, quanh sự thật nhưng phân tán. Cỡ mẫu lớn hơn sẽ kéo các phi tiêu lại gần nhau. Phải: sai lệch, tập trung nhưng sai chỗ. Cỡ mẫu lớn hơn chỉ làm người đọc tự tin hơn vào câu trả lời sai.
 
 Ý chính: khoảng tin cậy (Buổi 6) chỉ mô tả sai số ngẫu nhiên. Khoảng tin cậy hẹp không nói gì về sai lệch.
 
-Quan niệm sai: 'nghiên cứu 10 000 người bệnh không thể bị sai lệch'. Nghiên cứu sổ bộ lớn có thể rất chính xác mà vẫn sai lệch.
+Quan niệm sai: 'nghiên cứu 10000 người bệnh không thể bị sai lệch'. Nghiên cứu sổ bộ lớn có thể rất chính xác mà vẫn sai lệch.
 
 Hỏi cả lớp (bình chọn): bài nào trong hai bài báo dễ bị sai số ngẫu nhiên hơn, bài nào dễ bị sai lệch hơn? Dự kiến: Bài báo 1, Boulet 2024 (48 người bệnh) dễ bị sai số ngẫu nhiên. Bài báo 2, Hyun 2023 (quan sát) dễ bị sai lệch, nhất là yếu tố nhiễu. Cả hai bài nằm trong thư mục khóa học, Course/Papers.
 
@@ -176,20 +176,20 @@ Thời gian: 2 phút.
 :::
 
 ::: {.notes}
-Sai lệch chọn lựa xảy ra khi những người vào (hoặc ở lại) nghiên cứu khác một cách hệ thống với những người ta muốn tìm hiểu.
+Sai lệch chọn lựa xảy ra khi những người vào (hoặc ở lại) nghiên cứu khác một cách hệ thống với những người cần tìm hiểu.
 
-Ví dụ từ Bài báo 2 (Hyun): chỉ người bệnh nằm ICU ít nhất ba ngày và có dữ liệu dịch được đưa vào (2 516 trong 11 981 người bệnh của sổ bộ). Những người bệnh nặng nhất tử vong sớm, và những người nhẹ nhất ra sớm, bị loại. Kết quả áp dụng cho 'người bệnh còn ở ICU ngày 3', không phải mọi người bệnh nhiễm khuẩn huyết.
+Ví dụ từ Bài báo 2 (Hyun): chỉ người bệnh nằm ICU ít nhất ba ngày và có dữ liệu dịch được đưa vào (2516 trong 11981 người bệnh của sổ bộ). Những người bệnh nặng nhất tử vong sớm, và những người nhẹ nhất ra sớm, bị loại. Kết quả áp dụng cho 'người bệnh còn ở ICU ngày 3', không phải mọi người bệnh nhiễm khuẩn huyết.
 
 Nguồn thường gặp khác: người tình nguyện, người bệnh từ chối tham gia, mất theo dõi, trung tâm tuyến cuối duy nhất.
 
 Quan niệm sai: 'sai lệch chọn lựa chỉ quan trọng trong khảo sát'. Nó ảnh hưởng mọi thiết kế, kể cả RCT (tiêu chuẩn loại trừ chặt làm hẹp đối tượng áp dụng kết quả).
 
-Hỏi cả lớp (mời hai ba người trả lời, bật micro): trong Bài báo 1 (Boulet), 1 201 người bệnh được sàng lọc và 50 được đưa vào. Điều đó nói gì? Dự kiến: người bệnh thử nghiệm được chọn lọc rất kỹ. Kiểm tra xem họ có giống người bệnh của mình không trước khi áp dụng.
+Hỏi cả lớp (mời hai ba người trả lời, bật micro): trong Bài báo 1 (Boulet), 1201 người bệnh được sàng lọc và 50 được đưa vào. Điều đó nói gì? Dự kiến: người bệnh thử nghiệm được chọn lọc rất kỹ. Kiểm tra xem họ có giống người bệnh của mình không trước khi áp dụng.
 
 Thời gian: 2.5 phút.
 :::
 
-## Sai lệch thông tin: mọi thứ được đo thế nào
+## Sai lệch thông tin: đo lường thế nào
 
 :::: {.neu-cards style="--n:3"}
 ::: {.neu-card .plain style="--c:#B5651D"}
@@ -224,7 +224,7 @@ Sai lệch thông tin (đo lường): dữ liệu sai một cách hệ thống.
 
 Sai lệch nhớ lại: trong nghiên cứu bệnh–chứng, ca bệnh (hoặc gia đình) cố nhớ kỹ hơn ca chứng, nên phơi nhiễm có vẻ phổ biến hơn ở ca bệnh.
 
-Sai lệch người quan sát: người đánh giá biết nhóm có thể đánh giá kết cục 'mềm' khác đi, ví dụ 'đủ điều kiện ra viện' hay 'có mê sảng'. Trong Boulet, bác sĩ biết phân nhóm.
+Sai lệch người quan sát (observer bias): người đánh giá biết nhóm có thể đánh giá kết cục 'mềm' khác đi, ví dụ 'đủ điều kiện ra viện' hay 'có mê sảng'. Trong Boulet, bác sĩ biết phân nhóm.
 
 Sai lệch đo lường: cân luôn chỉ cao 0.5 kg, hoặc lượng nước tiểu bị ghi thiếu ở ca đêm. Với câu hỏi dịch truyền điều này rất quan trọng: thiếu ghi nước tiểu làm cân bằng dịch trông dương hơn thực tế. Nếu khác nhau giữa các nhóm, nó làm méo phép so sánh.
 
@@ -304,7 +304,7 @@ Số liệu giả định dùng cho giảng dạy. RR: nguy cơ tương đối. 
 :::
 
 ::: {.notes}
-Cả hai xuất hiện khi ta chia dữ liệu theo tầng, nhưng mang ý nghĩa ngược nhau.
+Cả hai xuất hiện khi chia dữ liệu theo tầng, nhưng mang ý nghĩa ngược nhau.
 
 Bên trái, yếu tố nhiễu (ví dụ dịch truyền): các tầng giống nhau (RR 1.0 và 1.0) nhưng khác kết quả thô (2.33). Yếu tố thứ ba (độ nặng) tạo ra một mối liên quan giả. Cách xử lý: hiệu chỉnh, và báo cáo ước lượng đã hiệu chỉnh.
 
@@ -322,7 +322,7 @@ Thời gian: 3 phút.
 ## Thiết kế chống lại sai lệch như thế nào
 
 ::: {.neu-intro}
-Xây sự bảo vệ vào thiết kế. Sửa phần còn lại trong phân tích
+Phòng sai lệch ngay từ thiết kế. Xử lý phần còn lại khi phân tích
 :::
 
 :::: {.neu-cards style="--n:3"}
@@ -355,7 +355,7 @@ Xây sự bảo vệ vào thiết kế. Sửa phần còn lại trong phân tíc
 :::
 
 ::: {.notes}
-Slide này là hộp công cụ. Ba slide sau minh họa từng công cụ.
+Slide này tóm tắt các công cụ. Ba slide sau minh họa từng công cụ.
 
 Giai đoạn thiết kế (phòng ngừa): phân bổ ngẫu nhiên, che giấu phân bổ, làm mù, giới hạn, ghép cặp. Giai đoạn phân tích (sửa chữa): phân tầng, hiệu chỉnh bằng hồi quy, điểm xu hướng (propensity score).
 
@@ -368,7 +368,7 @@ Hỏi cả lớp (bình chọn): Bài báo 2 (Hyun) đã dùng công cụ nào? 
 Thời gian: 2 phút.
 :::
 
-## Phân bổ ngẫu nhiên cân bằng điều ta biết và điều ta chưa biết
+## Phân bổ ngẫu nhiên cân bằng cả điều đã biết và điều chưa biết
 
 ![](images/figures/sat2/randomisation_balance.png){.neu-fig}
 
@@ -525,7 +525,7 @@ Thời gian: 2 phút.
 
 :::: {.neu-cards style="--n:3"}
 ::: {.neu-card .plain style="--c:#0070C0"}
-[Điều ta giả định]{.neu-card-title}
+[Giả định thường gặp]{.neu-card-title}
 
 - Cân bằng dịch dương làm hại thận
 - Tổn thương thận rồi dẫn đến tử vong
@@ -554,7 +554,7 @@ Thời gian: 2 phút.
 ::: {.notes}
 Quan hệ nhân quả ngược (reverse causation): 'kết cục' thực ra gây ra 'phơi nhiễm'.
 
-Ví dụ ICU: ta giả định cân bằng dịch dương gây tổn thương thận và tử vong. Nhưng thận suy tạo ít nước tiểu, và ít dịch ra nghĩa là cân bằng dương hơn. Mũi tên có thể chạy ngược lại. Đó là lý do Hyun ghép cặp theo cả lượng dịch ra lẫn dịch vào.
+Ví dụ ICU: thường giả định cân bằng dịch dương gây tổn thương thận và tử vong. Nhưng thận suy tạo ít nước tiểu, và ít dịch ra nghĩa là cân bằng dương hơn. Mũi tên có thể chạy ngược lại. Đó là lý do Hyun ghép cặp theo cả lượng dịch ra lẫn dịch vào.
 
 Ví dụ khác: người mắc bệnh sớm chưa chẩn đoán ngừng vận động (nên ít vận động trông có hại). Người bệnh đang xấu đi được làm nhiều xét nghiệm và dùng nhiều thuốc hơn.
 
@@ -699,7 +699,7 @@ Nguy cơ (risk) là số đo đơn giản nhất: 20/100 = 20% và 30/100 = 30%.
 
 Ý chính: luôn hỏi 'trên tổng số bao nhiêu?' Một tiêu đề '10 ca tử vong nhiều hơn' vô nghĩa nếu không có mẫu số.
 
-Quan niệm sai: nguy cơ và odds. Nguy cơ tính trên mọi người trong nhóm (20 trên 100). Odds so sánh người có kết cục với người không có (20 so với 80). Ta sẽ cần cả hai ngay sau đây.
+Quan niệm sai: nguy cơ và odds. Nguy cơ tính trên mọi người trong nhóm (20 trên 100). Odds so sánh người có kết cục với người không có (20 so với 80). Sẽ cần cả hai ngay sau đây.
 
 Hỏi cả lớp (mời hai ba người trả lời, bật micro): odds tử vong ở nhóm hạn chế dịch là bao nhiêu? Dự kiến: 20 so với 80, tức 0.25.
 
@@ -799,7 +799,7 @@ Thời gian: 5 phút.
 :::
 
 ::: {.notes}
-Thu nhỏ 100 người bệnh xuống 10. Với chăm sóc thường quy 3/10 tử vong. Với chiến lược hạn chế dịch 2/10 tử vong. Người màu xanh lá là người bệnh, tính trung bình, đã tránh được tử vong nhờ điều trị. Vậy ta điều trị 10 người bệnh để một người có lợi: NNT = 10.
+Thu nhỏ 100 người bệnh xuống 10. Với chăm sóc thường quy 3/10 tử vong. Với chiến lược hạn chế dịch 2/10 tử vong. Người màu xanh lá là người bệnh, tính trung bình, đã tránh được tử vong nhờ điều trị. Vậy cần điều trị 10 người bệnh để một người có lợi: NNT = 10.
 
 Ý chính: 9 người còn lại hoặc đằng nào cũng sống, hoặc đằng nào cũng tử vong. Họ chịu gánh nặng điều trị mà không được lợi. Vì vậy NNT là công cụ trao đổi hữu ích với người bệnh, gia đình và nhà quản lý.
 
@@ -827,7 +827,7 @@ Khi kết cục hiếm (bên trái, vùng tô), OR khoảng 2.1, gần như bằ
 
 Quan niệm sai: 'OR bằng 2 nghĩa là nguy cơ gấp đôi'. Chỉ đúng với kết cục hiếm.
 
-Hỏi cả lớp (mời hai ba người trả lời, bật micro): trong ví dụ của ta (tử vong 20% và 30%), OR là 0.58 còn RR là 0.67. Vì sao khác nhau? Dự kiến: tử vong phổ biến trong quần thể này, nên OR phóng đại tác động.
+Hỏi cả lớp (mời hai ba người trả lời, bật micro): trong ví dụ của mình (tử vong 20% và 30%), OR là 0.58 còn RR là 0.67. Vì sao khác nhau? Dự kiến: tử vong phổ biến trong quần thể này, nên OR phóng đại tác động.
 
 Thời gian: 1.5 phút.
 :::
@@ -868,7 +868,7 @@ Kịch bản: Course/Demos/s4\_demo.md. Tệp: Course/Resources/tools/2x2\_calcu
 
 Ý chính: bảng tính lo phần số học. Con người lo phần diễn giải. Đọc to các ô diễn giải bằng lời.
 
-Khoảnh khắc then chốt: đổi a thành 2 và c thành 3 (b = 98, d = 97). RR vẫn 0.67 nhưng OR giờ là 0.66, gần như bằng nhau. NNT nhảy lên 100. Cùng tác động tương đối, tác động tuyệt đối rất khác.
+Điểm then chốt: đổi a thành 2 và c thành 3 (b = 98, d = 97). RR vẫn 0.67 nhưng OR giờ là 0.66, gần như bằng nhau. NNT nhảy lên 100. Cùng tác động tương đối, tác động tuyệt đối rất khác.
 
 Phương án dự phòng nếu không chia sẻ được màn hình: gõ bảng 2x2 vào khung chat hoặc một tài liệu chia sẻ và cùng cả lớp tính RR và NNT bằng tay. Các con số được chọn để dễ tính.
 
@@ -980,7 +980,7 @@ Xem trước slide sau: trong 34 xét nghiệm dương tính, chỉ 18 người 
 
 Quan niệm sai: 'xét nghiệm có độ nhạy 90% nghĩa là người dương tính có 90% khả năng mắc bệnh'. Không. Đó là giá trị tiên đoán dương, ở đây chỉ 53%.
 
-Hỏi cả lớp (bình chọn): với xét nghiệm sàng lọc mà ta không muốn bỏ sót nhiễm khuẩn huyết, ưu tiên độ nhạy hay độ đặc hiệu? Dự kiến: độ nhạy.
+Hỏi cả lớp (bình chọn): với xét nghiệm sàng lọc không được bỏ sót nhiễm khuẩn huyết, ưu tiên độ nhạy hay độ đặc hiệu? Dự kiến: độ nhạy.
 
 Thời gian: 2.5 phút.
 :::
@@ -1041,7 +1041,7 @@ Hỏi cả lớp (bình chọn): để loại trừ nhiễm khuẩn huyết ở 
 Thời gian: 2.5 phút.
 :::
 
-## Sơ đồ PRISMA: từ 1 300 bản ghi đến 9 nghiên cứu
+## Sơ đồ PRISMA: từ 1300 bản ghi đến 9 nghiên cứu
 
 ![](images/figures/sat2/prisma_flow.png){.neu-fig}
 
@@ -1056,9 +1056,9 @@ PRISMA: hướng dẫn báo cáo tổng quan hệ thống và phân tích gộp.
 ::: {.notes}
 Số liệu minh họa. Mọi tổng quan hệ thống nên có sơ đồ này (PRISMA 2020).
 
-Nhận diện: 1 240 bản ghi từ cơ sở dữ liệu cộng 60 từ sổ đăng ký thử nghiệm = 1 300. Loại 300 bản trùng.
+Nhận diện: 1240 bản ghi từ cơ sở dữ liệu cộng 60 từ sổ đăng ký thử nghiệm = 1300. Loại 300 bản trùng.
 
-Sàng lọc: 1 000 tiêu đề và tóm tắt được sàng lọc, loại 920. Đọc 80 toàn văn, loại 71 có lý do (38 không phải RCT, 21 sai đối tượng, 12 không có dữ liệu tử vong, cộng lại đúng 71).
+Sàng lọc: 1000 tiêu đề và tóm tắt được sàng lọc, loại 920. Đọc 80 toàn văn, loại 71 có lý do (38 không phải RCT, 21 sai đối tượng, 12 không có dữ liệu tử vong, cộng lại đúng 71).
 
 Đưa vào: 9 nghiên cứu, cả 9 vào phân tích gộp.
 
@@ -1071,7 +1071,7 @@ Hỏi cả lớp (mời hai ba người trả lời, bật micro): vì sao tìm 
 Thời gian: 2.5 phút.
 :::
 
-## Đọc biểu đồ rừng trong bốn bước
+## Đọc biểu đồ rừng (forest plot) trong bốn bước
 
 ![](images/figures/sat2/forest_reading.png){.neu-fig}
 
@@ -1095,7 +1095,7 @@ Chưa đặt câu hỏi: bài tập cả lớp ở cuối phần 4.3 dùng đún
 Thời gian: 3.5 phút.
 :::
 
-## Tính không đồng nhất: các nghiên cứu có thống nhất?
+## Tính không đồng nhất (heterogeneity): các nghiên cứu có thống nhất?
 
 ![](images/figures/sat2/heterogeneity.png){.neu-fig}
 
@@ -1394,7 +1394,7 @@ THẢO LUẬN · 5 phút
 :::
 
 ::: {.neu-activity-steps style="--c:#1F5C7A"}
-- Câu hỏi cuối buổi (chat hoặc biểu mẫu 1 câu): người bệnh ICU được truyền nhiều dịch hơn tử vong nhiều hơn. Nêu một lý do khác ngoài bản thân dịch truyền
+- Câu hỏi cuối buổi (trong chat): người bệnh ICU được truyền nhiều dịch hơn tử vong nhiều hơn. Nêu một lý do khác ngoài bản thân dịch truyền
 - Vì sao: để kiểm tra ý chính hôm nay. Giảng viên đọc mọi câu trả lời và mở đầu Buổi 5 bằng chúng
 - Bài về nhà: hoàn thành Phần 2 đề cương của bạn (phơi nhiễm, so sánh, kết cục, sai lệch)
 - Tùy chọn: phiếu bài tập Phần B và D (thay đổi tác động, PPV ở hai bối cảnh)
@@ -1402,7 +1402,7 @@ THẢO LUẬN · 5 phút
 :::
 
 ::: {.neu-output style="--c:#1F5C7A"}
-**SẢN PHẨM** Mỗi người một câu trả lời cuối buổi, trong khung chat hoặc biểu mẫu
+**SẢN PHẨM** Mỗi người một câu trả lời cuối buổi, trong khung chat
 :::
 
 ::: {.notes}
@@ -1410,7 +1410,7 @@ THẢO LUẬN · 5 phút
 
 Mục đích: kiểm tra hai ý chính của phần 4.1 đã được hiểu chưa. Đọc mọi câu trả lời trước Buổi 5 và mở đầu Buổi 5 bằng ba câu (ẩn danh).
 
-Xem trước: ở Tuần 5-6 ta biến thiết kế thành dữ liệu (biến số, phiếu thu thập dữ liệu) và làm quen với bộ dữ liệu khóa học FLUID-ICU, một thuần tập mô phỏng trả lời phiên bản quan sát của câu hỏi về dịch truyền. Sau này mỗi học viên chọn một trong năm câu hỏi của bộ dữ liệu (Q1-Q5) để viết bản thảo của riêng mình.
+Xem trước: ở Tuần 5-6 cả lớp biến thiết kế thành dữ liệu (biến số, phiếu thu thập dữ liệu) và làm quen với bộ dữ liệu khóa học FLUID-ICU, một thuần tập mô phỏng trả lời phiên bản quan sát của câu hỏi về dịch truyền. Sau này mỗi học viên chọn một trong năm câu hỏi của bộ dữ liệu (Q1-Q5) để viết bản thảo của riêng mình.
 
 Thời gian: 3 phút sau slide tóm tắt 2 phút (tổng cộng 5 phút, đúng như trên băng tiêu đề và trong chương trình). Kết thúc lúc 22:30.
 :::
@@ -1505,7 +1505,7 @@ Trong mỗi ví dụ, một yếu tố thứ ba chi phối cả phơi nhiễm l�
 :::
 
 ::: {.notes}
-Extra (slide bổ sung): thêm ba ví dụ về nhiễu do chỉ định để ý tưởng thấm sâu hơn.
+Extra (slide bổ sung): thêm ba ví dụ về nhiễu do chỉ định để củng cố ý này.
 
 Với mỗi thẻ, đọc mối liên quan bề ngoài, rồi hỏi yếu tố thứ ba trước khi công bố.
 
@@ -1551,7 +1551,7 @@ Cùng xét nghiệm: độ nhạy 90%, độ đặc hiệu 80%
 :::
 
 ::: {.notes}
-Extra (slide bổ sung): chỉ học khái niệm. Tỷ số khả dĩ (likelihood ratio, LR) gộp độ nhạy và độ đặc hiệu thành một con số cho biết một kết quả nên thay đổi mức nghi ngờ của ta bao nhiêu.
+Extra (slide bổ sung): chỉ học khái niệm. Tỷ số khả dĩ (likelihood ratio, LR) gộp độ nhạy và độ đặc hiệu thành một con số cho biết một kết quả nên thay đổi mức nghi ngờ của bạn bao nhiêu.
 
 LR+ = 0.90 / 0.20 = 4.5: kết quả dương gặp ở người có bệnh nhiều gấp 4.5 lần người không bệnh. LR- = 0.10 / 0.80 = 0.13: kết quả âm ở người bệnh hiếm hơn khoảng 8 lần. Quy tắc gần đúng: LR+ trên 10 hoặc LR- dưới 0.1 thay đổi quyết định nhiều. Giá trị gần 1 thay đổi ít.
 

@@ -60,7 +60,7 @@ Khoảng 2 phút cho mỗi câu hỏi (10 phút), rồi 5 phút cho câu hỏi c
 | 2 | **Thử nghiệm ngẫu nhiên theo cụm** (phân bổ ngẫu nhiên các ICU) | Quy trình được triển khai ở cấp đơn vị; phân bổ ngẫu nhiên từng người bệnh sẽ gây "nhiễm chéo" giữa các nhóm | Cần nhiều người bệnh và đơn vị hơn; phân tích phải tính đến cụm; ít cụm dễ mất cân bằng do may rủi |
 | 3 | **Chuỗi thời gian ngắt quãng** (bán thực nghiệm) | Thay đổi đã xảy ra với mọi người; nhiều điểm hằng tháng trước và sau cho phép so sánh với xu hướng sẵn có | Có những thay đổi khác cùng lúc (đồng can thiệp); không phân bổ ngẫu nhiên (tăng cường bằng một chuỗi đối chứng) |
 | 4 | **Định tính**: phỏng vấn sâu hoặc thảo luận nhóm tập trung với điều dưỡng trực đêm | Câu hỏi "vì sao" về trải nghiệm và thực hành công việc; con số không trả lời được | Kết quả không khái quát hóa dưới dạng con số; phụ thuộc vào kỹ năng người phỏng vấn; mẫu có chủ đích, nhỏ |
-| 5 | **Nghiên cứu thí điểm hoặc nghiên cứu khả thi** | Câu hỏi là "chúng ta có làm được không?" (tuyển chọn, triển khai, độ đầy đủ của dữ liệu), không phải "có hiệu quả không?" | Không chứng minh được hiệu quả; tiêu chí thành công phải là về tính khả thi |
+| 5 | **Nghiên cứu thí điểm hoặc nghiên cứu khả thi** | Câu hỏi là "có làm được không?" (tuyển chọn, triển khai, độ đầy đủ của dữ liệu), không phải "có hiệu quả không?" | Không chứng minh được hiệu quả; tiêu chí thành công phải là về tính khả thi |
 
 **Câu hỏi của học viên (khung chat).** Đọc to bốn hoặc năm câu. Nhấn mạnh **tính khả thi**: một khoa, không có kinh phí, 12–24 tháng thường có nghĩa là nghiên cứu thuần tập hồi cứu, nghiên cứu cắt ngang hoặc chuỗi thời gian ngắt quãng hơn là thử nghiệm. Kiểm tra lời khẳng định: thiết kế quan sát phải nói "có liên quan với".
 
@@ -87,7 +87,7 @@ Giảng viên điền phần này trên màn hình chia sẻ trong 15 phút đ�
 
 | Mục | Câu trả lời mẫu (phiên bản quan sát của câu hỏi xuyên suốt) |
 |---|---|
-| Thiết kế và lý giải | Thuần tập hồi cứu. Câu hỏi của chúng ta là về tác động của một chiến lược truyền dịch lên tử vong; RCT là thiết kế lý tưởng nhưng không khả thi với một ICU không có kinh phí. Hồ sơ hiện có ghi lượng dịch vào và ra hằng ngày, điểm độ nặng và kết cục, nên nghiên cứu thuần tập có thể ước tính mối liên quan giữa cân bằng dịch dương và tử vong, và cung cấp độ lớn tác động cho một thử nghiệm trong tương lai. Chúng ta sẽ nói "có liên quan với", không nói "gây ra". |
+| Thiết kế và lý giải | Thuần tập hồi cứu. Câu hỏi xuyên suốt là về tác động của một chiến lược truyền dịch lên tử vong; RCT là thiết kế lý tưởng nhưng không khả thi với một ICU không có kinh phí. Hồ sơ hiện có ghi lượng dịch vào và ra hằng ngày, điểm độ nặng và kết cục, nên nghiên cứu thuần tập có thể ước tính mối liên quan giữa cân bằng dịch dương và tử vong, và cung cấp độ lớn tác động cho một thử nghiệm trong tương lai. Sẽ nói "có liên quan với", không nói "gây ra". |
 | Bối cảnh | ICU hỗn hợp người lớn của một bệnh viện giảng dạy; người bệnh nhập viện trong 3 năm dương lịch; dữ liệu từ bệnh án điện tử và sổ theo dõi ICU. |
 | Đối tượng | Tiêu chuẩn chọn: từ 18 tuổi trở lên; sốc nhiễm khuẩn (định nghĩa Sepsis-3) khi vào ICU; bắt đầu thuốc vận mạch trong vòng 24 giờ sau khi vào ICU; nằm ICU từ 72 giờ trở lên. Tiêu chuẩn loại trừ: lọc máu mạn tính (không diễn giải được cân bằng dịch); chuyển từ ICU khác sau hơn 24 giờ (dịch truyền sớm không được ghi tại đây); quyết định hạn chế điều trị trong vòng 24 giờ; thiếu phiếu theo dõi dịch ngày 1–3. |
 

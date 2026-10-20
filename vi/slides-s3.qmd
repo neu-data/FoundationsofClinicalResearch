@@ -25,7 +25,7 @@ format:
 - Xây dựng đề cương 3: thiết kế, bối cảnh và đối tượng (45 phút), rồi tổng kết (5 phút)
 
 ::: {.notes}
-Mở đầu Buổi 3 (19:30). Chào mừng đến Tuần 3. Ở Buổi 1 và 2 chúng ta đặt câu hỏi và tìm bằng chứng. Hôm nay chọn cách một nghiên cứu trả lời câu hỏi. Thứ Bảy tuần sau (Buổi 4) đánh giá có tin được câu trả lời không và tác động lớn đến đâu.
+Mở đầu Buổi 3 (19:30). Chào mừng đến Tuần 3. Ở Buổi 1 và 2 cả lớp đã đặt câu hỏi và tìm bằng chứng. Hôm nay chọn cách một nghiên cứu trả lời câu hỏi. Thứ Bảy tuần sau (Buổi 4) đánh giá có tin được câu trả lời không và tác động lớn đến đâu.
 
 Ý chính: thiết kế quyết định điều được phép kết luận ở cuối nghiên cứu. Câu hỏi hay mà chọn sai thiết kế sẽ cho ra một nghiên cứu yếu.
 
@@ -49,7 +49,7 @@ CÂU HỎI NHANH · 9 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-- C1. Tìm kiếm PubMed ra 3 000 bài. Thêm một khái niệm bằng AND, hay một từ đồng nghĩa bằng OR?
+- C1. Tìm kiếm PubMed ra 3000 bài. Thêm một khái niệm bằng AND, hay một từ đồng nghĩa bằng OR?
 - C2. Sau tiêu đề và tóm tắt, đọc phần nào tiếp theo trong bài báo?
 - C3. Một tóm tắt viết 'có xu hướng giảm tử vong (p = 0.42)'. Điều này gọi là gì?
 - Sau đó đọc lại câu hỏi nghiên cứu của chính bạn (Phần 1 đề cương, làm ở Buổi 1 và 2): 3 phút
@@ -73,7 +73,7 @@ Cách thực hiện
 ::: {.notes}
 Mục đích: gợi lại Buổi 2 và đặt câu hỏi nghiên cứu của mỗi học viên trở lại trước mắt họ. Phần xây dựng đề cương hôm nay chọn thiết kế cho câu hỏi đó.
 
-Chạy thành ba câu bình chọn (poll trên Zoom hoặc Teams, hoặc một biểu mẫu). Chiếu kết quả, rồi công bố đáp án.
+Chạy thành ba câu bình chọn (poll trên Zoom hoặc Teams). Chiếu kết quả, rồi công bố đáp án.
 
 Đáp án. C1: AND với một khái niệm khác thu hẹp tìm kiếm. OR mở rộng. C2: hình và bảng (thứ tự đọc: tiêu đề, tóm tắt, hình và bảng, rồi phương pháp). C3: tô vẽ (spin), tức là mô tả kết quả không có ý nghĩa như thể có lợi.
 
@@ -101,14 +101,14 @@ Những từ sẽ dùng hôm nay (không cần học thuộc định nghĩa)
 ::: {.neu-card .plain style="--c:#0B376C"}
 [Ai quyết định?]{.neu-card-title}
 
-- Quan sát: ta theo dõi
-- Thực nghiệm: ta chỉ định
+- Quan sát: chỉ theo dõi
+- Thực nghiệm: nhà nghiên cứu chỉ định
 - Ngẫu nhiên: may rủi chỉ định
 :::
 ::: {.neu-card .plain style="--c:#0070C0"}
-[Thời gian chiều nào?]{.neu-card-title}
+[Theo chiều thời gian nào?]{.neu-card-title}
 
-- Cắt ngang: ảnh chụp một lúc
+- Cắt ngang: đo tại một thời điểm
 - Bệnh–chứng: nhìn ngược lại
 - Thuần tập: theo dõi về sau
 :::
@@ -122,7 +122,7 @@ Những từ sẽ dùng hôm nay (không cần học thuộc định nghĩa)
 ::::
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Hai câu hỏi gọi tên hầu hết thiết kế: ai quyết định phơi nhiễm, và thời gian chạy chiều nào?
+**THÔNG ĐIỆP CHÍNH** Hai câu hỏi gọi tên hầu hết thiết kế: ai quyết định phơi nhiễm, và theo chiều thời gian nào?
 :::
 
 ::: {.notes}
@@ -130,7 +130,7 @@ Phần 3.1 bắt đầu từ đây (tổng cộng 45 phút, từ slide này đ�
 
 Chỉ đọc bốn tiêu đề. Chi tiết đến dần theo từng slide. Các từ này cũng có ở đầu phiếu bài tập Buổi 3 (file PDF gửi trước buổi học).
 
-Ý chính: gần như mọi câu hỏi về thiết kế trở nên dễ khi gọi tên được phơi nhiễm và kết cục. Ta luyện điều đó trước.
+Ý chính: gần như mọi câu hỏi về thiết kế trở nên dễ khi gọi tên được phơi nhiễm và kết cục. Vì vậy luyện điều đó trước.
 
 Quan niệm sai: 'phải học thuộc tên thiết kế'. Không. Có thể suy ra từ hai câu hỏi ở thông điệp chính.
 
@@ -157,7 +157,7 @@ Thời gian: 1 phút.
 ::: {.neu-card .plain style="--c:#0070C0"}
 [Bài báo 2: Hyun 2023, nghiên cứu thuần tập]{.neu-card-title}
 
-- Sổ bộ nhiễm khuẩn huyết: 11 981 người bệnh, 20 bệnh viện
+- Sổ bộ nhiễm khuẩn huyết: 11981 người bệnh, 20 bệnh viện
 - Cân bằng dịch dương so với âm, ngày 1-3
 - Kết cục: tử vong ngày 28 (các cặp đã ghép)
 - **Nhà nghiên cứu quan sát điều đã xảy ra**
@@ -169,15 +169,15 @@ Thời gian: 1 phút.
 :::
 
 ::: {.notes}
-Đây là sợi chỉ xuyên suốt cả buổi. Đọc to câu hỏi: đó là PICO (Đối tượng, Can thiệp, So sánh, Kết cục) cả lớp đã xây dựng ở Buổi 1.
+Đây là ví dụ xuyên suốt cả buổi. Đọc to câu hỏi: đó là PICO (Đối tượng, Can thiệp, So sánh, Kết cục) cả lớp đã xây dựng ở Buổi 1.
 
 Các bài báo ở đâu: toàn văn (bản gốc và bản có chú giải) nằm trong thư mục khóa học, Course/Papers: 'Paper 1 - Boulet 2024 Crit Care (RCT)' và 'Paper 2 - Hyun 2023 Ann Intensive Care (cohort)'. Học viên đã đọc hai bài này ở Buổi 2.
 
 Ý chính: Boulet chỉ định chiến lược dịch truyền bằng ngẫu nhiên (một thực nghiệm). Hyun chỉ quan sát điều bác sĩ đã làm và điều xảy ra sau đó (một nghiên cứu thuần tập quan sát).
 
-Chi tiết hay bị bỏ qua: kết cục chính của Boulet là cân bằng dịch ngày 5, không phải tử vong. Đây là thử nghiệm thí điểm. Hyun xét tử vong ngày 28 (đúng câu hỏi của chúng ta) nhưng không chỉ định được gì.
+Chi tiết hay bị bỏ qua: kết cục chính của Boulet là cân bằng dịch ngày 5, không phải tử vong. Đây là thử nghiệm thí điểm (pilot RCT). Hyun xét tử vong ngày 28 (đúng câu hỏi của lớp) nhưng không chỉ định được gì.
 
-Quan niệm sai: 'nghiên cứu lớn hơn luôn tốt hơn'. Cỡ mẫu làm giảm sai số ngẫu nhiên, không loại bỏ sai lệch. Ta quay lại ở Buổi 4.
+Quan niệm sai: 'nghiên cứu lớn hơn luôn tốt hơn'. Cỡ mẫu làm giảm sai số ngẫu nhiên, không loại bỏ sai lệch. Sẽ quay lại ở Buổi 4.
 
 Hỏi cả lớp (bình chọn, hoặc mời hai ba người trả lời): nghiên cứu nào đáng tin hơn để biết hạn chế dịch có cứu sống người bệnh không? Dự kiến: ý kiến khác nhau, và đó chính là vấn đề. Không nghiên cứu nào trả lời trọn vẹn. Giữ sự băn khoăn này đến cuối phần 3.1.
 
@@ -199,7 +199,7 @@ Một câu hỏi đó phân loại được gần như mọi thiết kế. (45 p
 ::: {.notes}
 Đánh dấu phần 3.1. 45 phút tính từ slide từ khóa đến câu bình chọn 'gây ra hay có liên quan', gồm một lần bình chọn ngắn.
 
-Ý chính: học thiết kế như những hình vẽ trên trục thời gian, không phải định nghĩa. Với mỗi thiết kế hỏi: ai quyết định phơi nhiễm, và thời gian chạy chiều nào? Sau mỗi hình là một ví dụ từng bước.
+Ý chính: học thiết kế như những hình vẽ trên trục thời gian, không phải định nghĩa. Với mỗi thiết kế hỏi: ai quyết định phơi nhiễm, và theo chiều thời gian nào? Sau mỗi hình là một ví dụ từng bước.
 
 Nói với cả lớp: không cần thuộc tên. Cuối phần này họ sẽ tự phác họa được.
 
@@ -219,14 +219,14 @@ Thời gian: 30 giây.
 ::: {.neu-card .plain style="--c:#0070C0"}
 [Quan sát]{.neu-card-title}
 
-- So sánh các nhóm, ta theo dõi
+- So sánh các nhóm, chỉ theo dõi
 - Bệnh–chứng
 - Thuần tập (tiến cứu hoặc hồi cứu)
 :::
 ::: {.neu-card .plain style="--c:#0D7377"}
 [Thực nghiệm]{.neu-card-title}
 
-- So sánh các nhóm, ta chỉ định
+- So sánh các nhóm, nhà nghiên cứu chỉ định
 - Thử nghiệm ngẫu nhiên có đối chứng (RCT)
 - Thử nghiệm không ngẫu nhiên
 :::
@@ -296,7 +296,7 @@ Thời gian: 3 phút.
 ::: {.neu-card .plain style="--c:#0070C0"}
 [Nghiên cứu cắt ngang]{.neu-card-title}
 
-- Một bức ảnh chụp cả khoa, trong một ngày
+- Khảo sát cả khoa trong một ngày
 - Cho tỷ lệ hiện mắc: bao nhiêu người đang mắc
 - Phơi nhiễm và kết cục đo cùng lúc
 - Không cho biết cái nào có trước
@@ -310,7 +310,7 @@ Thời gian: 3 phút.
 ::: {.notes}
 Báo cáo ca hoặc loạt ca: vài người bệnh đặc biệt được mô tả chi tiết. Có vai trò lịch sử quan trọng (những báo cáo đầu tiên về AIDS, tác hại của thalidomide) vì chúng báo động và gợi giả thuyết.
 
-Nghiên cứu cắt ngang: một bức ảnh chụp quần thể tại một thời điểm, ví dụ khảo sát mọi người bệnh trong ICU vào một ngày. Nó đo tỷ lệ hiện mắc (bao nhiêu người đang mắc ngay lúc này).
+Nghiên cứu cắt ngang: khảo sát quần thể tại một thời điểm, ví dụ khảo sát mọi người bệnh trong ICU vào một ngày. Nó đo tỷ lệ hiện mắc (bao nhiêu người đang mắc ngay lúc này).
 
 Ý chính: trong nghiên cứu cắt ngang, phơi nhiễm và kết cục được đo cùng lúc, nên thường không biết cái nào có trước.
 
@@ -351,7 +351,7 @@ Một nghiên cứu cắt ngang có thể làm ngay tuần tới
 ::::
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Một bức ảnh chụp cho tỷ lệ hiện mắc. Không cho biết cái nào có trước.
+**THÔNG ĐIỆP CHÍNH** Đo tại một thời điểm cho tỷ lệ hiện mắc. Không cho biết cái nào có trước.
 :::
 
 ::: {.notes}
@@ -363,7 +363,7 @@ Bước 1-2: mọi người có mặt trong một ngày, được khám cùng m�
 
 Quan niệm sai: 'cắt ngang = chất lượng thấp'. Với câu hỏi 'hiện nay phổ biến thế nào?' đó đúng là thiết kế phù hợp, lại rẻ và nhanh.
 
-Hỏi cả lớp (mời hai ba người trả lời, bật micro): với câu hỏi về dịch truyền, ta có thể đo gì ở ICU trong một ngày? Dự kiến: cân bằng dịch và chức năng thận hôm đó của mọi người bệnh có mặt.
+Hỏi cả lớp (mời hai ba người trả lời, bật micro): với câu hỏi về dịch truyền, có thể đo gì ở ICU trong một ngày? Dự kiến: cân bằng dịch và chức năng thận hôm đó của mọi người bệnh có mặt.
 
 Thời gian: 2 phút.
 :::
@@ -381,11 +381,11 @@ ICU: đơn vị hồi sức tích cực
 :::
 
 ::: {.notes}
-Dùng con trỏ chuột vẽ theo mũi tên từ phải sang trái. Ta bắt đầu hôm nay với những người đã có kết cục (nhóm bệnh) và những người tương tự không có (nhóm chứng). Rồi nhìn ngược lại tìm phơi nhiễm.
+Dùng con trỏ chuột vẽ theo mũi tên từ phải sang trái. Bắt đầu từ hôm nay, với những người đã có kết cục (nhóm bệnh) và những người tương tự không có (nhóm chứng). Rồi nhìn ngược lại tìm phơi nhiễm.
 
 Ví dụ trên hình: người bệnh ICU bị nhiễm nấm Candida máu (nhóm bệnh) so với người bệnh ICU không bị (nhóm chứng). Tra hồ sơ xem có nuôi ăn tĩnh mạch không.
 
-Điểm mạnh: hiệu quả với kết cục hiếm hoặc thời gian ủ bệnh dài, vì không cần theo dõi hàng nghìn người. Điểm yếu: sai lệch nhớ lại, khó chọn nhóm chứng tốt, và chỉ tính được tỷ số chênh (OR), không tính được nguy cơ.
+Điểm mạnh: hiệu quả với kết cục hiếm hoặc thời gian ủ bệnh dài, vì không cần theo dõi hàng nghìn người. Điểm yếu: sai lệch nhớ lại (recall bias), khó chọn nhóm chứng tốt, và chỉ tính được tỷ số chênh (OR), không tính được nguy cơ.
 
 Quan niệm sai: 'bệnh–chứng giống thuần tập hồi cứu vì cùng dùng hồ sơ cũ'. Khác biệt nằm ở cách chọn người: theo kết cục trong bệnh–chứng, theo phơi nhiễm trong thuần tập.
 
@@ -439,7 +439,7 @@ Bước 1: ca bệnh là người có kết cục. Bước 2: ca chứng là nh�
 
 Quan niệm sai: 'ca chứng nên là người tình nguyện khỏe mạnh'. Không. Ca chứng phải đến từ quần thể đã sinh ra ca bệnh, nếu không phép so sánh không công bằng.
 
-Hỏi cả lớp (mời hai ba người trả lời, bật micro): vì sao không báo cáo được nguy cơ nhiễm Candida máu từ nghiên cứu này? Dự kiến: ta tự chọn số ca bệnh và ca chứng (1:2), nên tỷ lệ mắc do ta quyết định.
+Hỏi cả lớp (mời hai ba người trả lời, bật micro): vì sao không báo cáo được nguy cơ nhiễm Candida máu từ nghiên cứu này? Dự kiến: nhà nghiên cứu tự chọn số ca bệnh và ca chứng (1:2), nên tỷ lệ mắc do thiết kế quyết định.
 
 Thời gian: 2.5 phút.
 :::
@@ -449,7 +449,7 @@ Thời gian: 2.5 phút.
 ![](images/figures/sat2/cohort_timeline.png){.neu-fig}
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Thuần tập: phơi nhiễm trước, kết cục sau, nên thời gian chạy đúng chiều.
+**THÔNG ĐIỆP CHÍNH** Thuần tập: phơi nhiễm trước, kết cục sau, nên trình tự thời gian đúng.
 :::
 
 ::: {.notes}
@@ -502,11 +502,11 @@ Câu hỏi: cân bằng dịch dương có liên quan với tử vong ngày 28 k
 ::: {.notes}
 Đây là cách Bài báo 2 (Hyun 2023, thư mục khóa học Course/Papers) hoạt động. Đây là ví dụ tốt về thuần tập xây dựng từ một sổ bộ có dữ liệu thu thập tiến cứu.
 
-Bước 1: nhóm thuần tập: ai được theo dõi (và ai bị loại: người bệnh rời ICU trước ngày 3). Bước 2: phơi nhiễm được đo trước kết cục. Bước 3: kết cục được đếm sau đó. Bước 4: so sánh các nhóm. Hyun ghép cặp theo điểm xu hướng để các nhóm tương đồng (483, 373 và 392 cặp cho ngày 1, 2 và 3). Kết quả ngày 2: tỷ số nguy cơ tức thời (HR) 2.13 (khoảng tin cậy, KTC, 95% 1.48-3.06). Ngày 1 không khác biệt rõ. HR được giải thích kỹ ở Buổi 6. Lúc này hiểu là 'tốc độ tử vong khoảng gấp đôi'.
+Bước 1: nhóm thuần tập: ai được theo dõi (và ai bị loại: người bệnh rời ICU trước ngày 3). Bước 2: phơi nhiễm được đo trước kết cục. Bước 3: kết cục được đếm sau đó. Bước 4: so sánh các nhóm. Hyun ghép cặp theo điểm xu hướng (propensity score) để các nhóm tương đồng (483, 373 và 392 cặp cho ngày 1, 2 và 3). Kết quả ngày 2: tỷ số nguy cơ tức thời (HR) 2.13 (khoảng tin cậy, KTC, 95% 1.48-3.06). Ngày 1 không khác biệt rõ. HR được giải thích kỹ ở Buổi 6. Lúc này hiểu là 'tốc độ tử vong khoảng gấp đôi'.
 
 Quan niệm sai: 'thuần tập phải bắt đầu từ hôm nay'. Thuần tập hồi cứu dùng hồ sơ cũ nhưng vẫn đi từ phơi nhiễm đến kết cục.
 
-Hỏi cả lớp (mời hai ba người trả lời, bật micro): ai quyết định người bệnh nào được truyền nhiều dịch hơn? Dự kiến: bác sĩ điều trị, thường vì người bệnh nặng hơn. Ta quay lại ở Buổi 4 (yếu tố nhiễu).
+Hỏi cả lớp (mời hai ba người trả lời, bật micro): ai quyết định người bệnh nào được truyền nhiều dịch hơn? Dự kiến: bác sĩ điều trị, thường vì người bệnh nặng hơn. Sẽ quay lại ở Buổi 4 (yếu tố nhiễu).
 
 Thời gian: 3 phút.
 :::
@@ -578,7 +578,7 @@ Câu hỏi: hạn chế dịch không phải hồi sức có giảm cân bằng 
 ::: {.notes}
 Đây là Bài báo 1 (Boulet 2024, thư mục khóa học Course/Papers), thử nghiệm ngẫu nhiên thí điểm tại 3 ICU.
 
-Bước 1: tiêu chuẩn chọn chặt chẽ (ta quay lại khi xây dựng đề cương). Bước 2: đồng ý tham gia (ở ICU thường từ người đại diện), trước hoặc ngay sau phân nhóm. Bước 3: phân nhóm bằng máy tính trung tâm giữ kín lần phân bổ tiếp theo (che giấu phân bổ, Buổi 4). Bước 4: thực hiện hai chiến lược. Bước 5: kết cục chính là cân bằng dịch ngày 5. Tử vong ngày 28 là 6/24 ở mỗi nhóm.
+Bước 1: tiêu chuẩn chọn chặt chẽ (sẽ quay lại khi xây dựng đề cương). Bước 2: đồng ý tham gia (ở ICU thường từ người đại diện), trước hoặc ngay sau phân nhóm. Bước 3: phân nhóm bằng máy tính trung tâm giữ kín lần phân bổ tiếp theo (che giấu phân bổ, allocation concealment, Buổi 4). Bước 4: thực hiện hai chiến lược. Bước 5: kết cục chính là cân bằng dịch ngày 5. Tử vong ngày 28 là 6/24 ở mỗi nhóm.
 
 Quan niệm sai: 'ngẫu nhiên = làm mù'. Không phải ở đây. Bác sĩ biết nhóm. Chỉ người bệnh và nhà thống kê được làm mù.
 
@@ -643,7 +643,7 @@ Thời gian: 1.5 phút.
 ![](images/figures/sat2/design_decision_tree.png){.neu-fig}
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Có chỉ định? Có ngẫu nhiên? Thời gian chạy chiều nào? Ba câu gọi tên thiết kế.
+**THÔNG ĐIỆP CHÍNH** Có chỉ định? Có ngẫu nhiên? Theo chiều thời gian nào? Ba câu gọi tên thiết kế.
 :::
 
 ::: {.notes}
@@ -660,10 +660,10 @@ Hỏi cả lớp (bình chọn): một nghiên cứu so sánh cân bằng dịch
 Thời gian: 5 phút. Cây này cũng có trong phiếu bài tập Buổi 3 (PDF), Phần A, để học viên mở sẵn khi làm bài.
 :::
 
-## Thiết kế nào cũng phải đánh đổi một điều gì đó
+## Thiết kế nào cũng có đánh đổi
 
 ::: {.neu-intro}
-Điểm mạnh và điểm yếu trong nháy mắt
+Tóm tắt điểm mạnh và điểm yếu
 :::
 
 :::: {.neu-cards style="--n:4"}
@@ -750,7 +750,7 @@ Quay lại ví dụ xuyên suốt để kết thúc phần 3.1.
 
 Boulet (RCT): vì may rủi làm hai nhóm tương đồng, mọi khác biệt về cân bằng dịch có thể quy cho chiến lược. Nhưng với 48 người bệnh và 6 ca tử vong mỗi nhóm, nó không nói được gì chắc chắn về tử vong. Bác sĩ biết phân nhóm, điều này có thể ảnh hưởng lượng dịch họ truyền.
 
-Hyun (thuần tập): hàng nghìn người bệnh và đúng kết cục ta quan tâm. Cân bằng dịch dương ở ngày 2-3 có liên quan với tử vong ngày 28 cao hơn (tỷ số nguy cơ tức thời, HR, 2.13 ở ngày 2 và 1.56 ở ngày 3, ngày 1 không khác biệt rõ). Nhưng không chứng minh được dịch gây tử vong, vì người bệnh nặng hơn được truyền nhiều dịch hơn.
+Hyun (thuần tập): hàng nghìn người bệnh và đúng kết cục cần quan tâm. Cân bằng dịch dương ở ngày 2-3 có liên quan với tử vong ngày 28 cao hơn (tỷ số nguy cơ tức thời, HR, 2.13 ở ngày 2 và 1.56 ở ngày 3, ngày 1 không khác biệt rõ). Nhưng không chứng minh được dịch gây tử vong, vì người bệnh nặng hơn được truyền nhiều dịch hơn.
 
 Quan niệm sai: 'đã hiệu chỉnh' hay 'đã ghép cặp theo điểm xu hướng' biến mối liên quan thành nhân quả. Nó chỉ giảm nhiễu do các yếu tố đã đo.
 
@@ -810,7 +810,7 @@ CẢ LỚP CÙNG LÀM · 15 phút
 - Giảng viên chiếu từng tóm tắt lên màn hình chia sẻ
 - Bình chọn thiết kế
 - Một bạn tình nguyện nói cụm từ làm bằng chứng, bật micro
-- Dùng ba câu hỏi: có chỉ định? có ngẫu nhiên? thời gian chạy chiều nào?
+- Dùng ba câu hỏi: có chỉ định? có ngẫu nhiên? theo chiều thời gian nào?
 :::
 :::
 ::: {.column width="40%"}
@@ -854,7 +854,7 @@ Nếu lớp làm nhanh: phiếu có thêm chín tóm tắt về chủ đề khá
 :::
 
 ::: {.notes}
-Slide chỉ có hình, có chủ ý. Trước giờ giải lao, nói: đứng dậy, vươn vai, uống nước. Gợi ý (tùy chọn): thiết kế nào có thể hợp với câu hỏi của bạn? Sau giải lao ta tiếp tục với các thiết kế khác.
+Slide chỉ có hình, có chủ ý. Trước giờ giải lao, nói: đứng dậy, vươn vai, uống nước. Gợi ý (tùy chọn): thiết kế nào có thể hợp với câu hỏi của bạn? Sau giải lao sẽ học tiếp các thiết kế khác.
 
 Giải lao 15 phút (20:40-20:55). Chiếu đồng hồ đếm ngược trên màn hình chia sẻ và để phiên họp mở.
 
@@ -865,7 +865,7 @@ Bắt đầu lại đúng giờ, kể cả khi vài người chưa bật lại c
 
 :::: {.neu-statement}
 ::: {.neu-big}
-Dự án thực tế uốn các thiết kế cơ bản.
+Dự án thực tế thường biến đổi các thiết kế cơ bản.
 :::
 
 ::: {.neu-sub}
@@ -909,7 +909,7 @@ Hỏi cả lớp (bình chọn): muốn thử một quy trình ghi cân bằng d
 Thời gian: 5.5 phút.
 :::
 
-## Vượt trội hay không kém hơn? Hình ảnh ngưỡng
+## Vượt trội hay không kém hơn (non-inferiority)? Đọc theo ngưỡng
 
 ![](images/figures/sat2/noninferiority.png){.neu-fig}
 
@@ -924,7 +924,7 @@ KTC: khoảng tin cậy. Kết quả giả định.
 ::: {.notes}
 Thử nghiệm vượt trội (superiority) hỏi: điều trị mới có tốt hơn không? Thử nghiệm không kém hơn (non-inferiority) hỏi: nó có không kém hơn đến mức không chấp nhận được không (thường vì nó rẻ hơn, an toàn hơn, đơn giản hơn hoặc dùng ít dịch hơn).
 
-Ngưỡng (ở đây +5 điểm phần trăm tử vong, giả định) là mức thiệt hại lớn nhất ta chấp nhận. Ngưỡng được định trong đề cương, trước khi có dữ liệu, dựa trên lập luận lâm sàng.
+Ngưỡng (ở đây +5 điểm phần trăm tử vong, giả định) là mức thiệt hại lớn nhất có thể chấp nhận. Ngưỡng được định trong đề cương, trước khi có dữ liệu, dựa trên lập luận lâm sàng.
 
 Đọc các thanh (hiệu số và khoảng tin cậy, KTC, 95%). A: toàn bộ KTC dưới 0, vậy là vượt trội. B: KTC cắt 0 nhưng vẫn dưới ngưỡng, vậy là không kém hơn. C: KTC cắt ngưỡng, vậy là chưa kết luận. D: toàn bộ KTC trên ngưỡng, vậy là kém hơn.
 
@@ -935,13 +935,13 @@ Hỏi cả lớp (bình chọn): ai nên quyết định ngưỡng: nhà thống
 Thời gian: 5 phút.
 :::
 
-## Nghiên cứu thí điểm và tính khả thi: buổi tổng duyệt
+## Nghiên cứu thí điểm và khả thi: chạy thử trước thử nghiệm lớn
 
 :::: {.neu-cards style="--n:2"}
 ::: {.neu-card .plain style="--c:#0D7377"}
 [Bài báo 1, Boulet 2024: thử nghiệm thí điểm]{.neu-card-title}
 
-- 1 201 người bệnh được sàng lọc
+- 1201 người bệnh được sàng lọc
 - 50 được phân nhóm ngẫu nhiên (4%)
 - 48 được phân tích (96%)
 - Khoảng 3 người bệnh mỗi tháng tại 3 ICU
@@ -962,15 +962,15 @@ Thời gian: 5 phút.
 :::
 
 ::: {.notes}
-Boulet 2024 tự gọi là thử nghiệm thí điểm (pilot). Giá trị thực sự nằm ở các con số bên trái: 1 201 người bệnh được sàng lọc để có 50 người bệnh được phân nhóm (khoảng 4%), khoảng 3 người bệnh mỗi tháng tại 3 ICU, 48/50 được phân tích.
+Boulet 2024 tự gọi là thử nghiệm thí điểm (pilot). Giá trị thực sự nằm ở các con số bên trái: 1201 người bệnh được sàng lọc để có 50 người bệnh được phân nhóm (khoảng 4%), khoảng 3 người bệnh mỗi tháng tại 3 ICU, 48/50 được phân tích.
 
-Nghiên cứu thí điểm hay khả thi kiểm tra bộ máy của thử nghiệm lớn: tuyển chọn, đồng ý tham gia, nhân viên có thực hiện được can thiệp không, kết cục có đo đầy đủ không, và các con số cần để tính cỡ mẫu.
+Nghiên cứu thí điểm hay khả thi kiểm tra các khâu vận hành của thử nghiệm lớn: tuyển chọn, đồng ý tham gia, nhân viên có thực hiện được can thiệp không, kết cục có đo đầy đủ không, và các con số cần để tính cỡ mẫu.
 
 Ý chính: không nên dùng nghiên cứu thí điểm để khẳng định hiệu quả. Tiêu chí thành công của nó là về tính khả thi (ví dụ 'tuyển 2 người bệnh mỗi điểm mỗi tháng', 'dữ liệu đầy đủ trên 90%').
 
 Quan niệm sai: 'nghiên cứu nhỏ của chúng tôi không thấy tác động, nên gọi là thí điểm'. Nghiên cứu thí điểm phải được lên kế hoạch như vậy từ đầu, với mục tiêu khả thi.
 
-Hỏi cả lớp (bình chọn): với những con số này, có nên làm thử nghiệm 1 000 người bệnh tại đúng 3 ICU đó không? Dự kiến: không theo thiết kế này. Với 3 người bệnh mỗi tháng sẽ mất hàng chục năm. Cần nhiều điểm hơn hoặc tiêu chuẩn chọn rộng hơn.
+Hỏi cả lớp (bình chọn): với những con số này, có nên làm thử nghiệm 1000 người bệnh tại đúng 3 ICU đó không? Dự kiến: không theo thiết kế này. Với 3 người bệnh mỗi tháng sẽ mất hàng chục năm. Cần nhiều điểm hơn hoặc tiêu chuẩn chọn rộng hơn.
 
 Thời gian: 4 phút.
 :::
@@ -992,7 +992,7 @@ Phần lớn dự án cải tiến chất lượng (QI) áp dụng thay đổi c
 
 Nghiên cứu trước-sau đơn giản so sánh trung bình trước với trung bình sau. Yếu: tỷ lệ thường tự giảm (mùa, nhân viên mới, dự án khác, hồi quy về trung bình sau một tháng xấu).
 
-Chuỗi thời gian ngắt quãng (interrupted time series, ITS) mạnh hơn nhiều: nhiều lần đo trước và sau (ở đây mỗi bên 24 điểm theo tháng). Ta so sánh điều đã xảy ra với điều mà xu hướng trước thay đổi dự báo (đường nét đứt). Tìm sự thay đổi về mức (sụt giảm) và về độ dốc (giảm nhanh hơn).
+Chuỗi thời gian ngắt quãng (interrupted time series, ITS) mạnh hơn nhiều: nhiều lần đo trước và sau (ở đây mỗi bên 24 điểm theo tháng). So sánh điều đã xảy ra với điều mà xu hướng trước thay đổi dự báo (đường nét đứt). Tìm sự thay đổi về mức (sụt giảm) và về độ dốc (giảm nhanh hơn).
 
 Ý chính: ITS là thiết kế chuẩn để đánh giá một gói can thiệp, quy trình hay chính sách trong một bệnh viện. Thêm một chuỗi đối chứng (một khoa không thay đổi) để mạnh hơn.
 
@@ -1118,7 +1118,7 @@ Bài tập cả lớp. Phiếu: phiếu bài tập Buổi 3 (Course/Practicals/s
 
 Cách chạy: khoảng 2 phút mỗi câu (10 phút), rồi 5 phút cho câu hỏi của chính học viên.
 
-Đáp án cho năm câu: 1 một chiến lược rẻ hơn, chỉ cần chứng minh tử vong ngày 28 không kém hơn (RCT không kém hơn, ngưỡng định trước), 2 quy trình ghi cân bằng dịch do điều dưỡng thực hiện cho cả ICU (thử nghiệm ngẫu nhiên theo cụm), 3 gói xử trí nhiễm khuẩn huyết có giới hạn dịch đã áp dụng từ năm 2023, có số liệu theo tháng (chuỗi thời gian ngắt quãng), 4 vì sao điều dưỡng ca đêm khó ghi lượng nước tiểu (phỏng vấn định tính hoặc thảo luận nhóm), 5 hai ICU của chúng ta có tuyển được người bệnh và thực hiện được hạn chế dịch trước khi làm thử nghiệm lớn không (nghiên cứu thí điểm hoặc khả thi).
+Đáp án cho năm câu: 1 một chiến lược rẻ hơn, chỉ cần chứng minh tử vong ngày 28 không kém hơn (RCT không kém hơn, ngưỡng định trước), 2 quy trình ghi cân bằng dịch do điều dưỡng thực hiện cho cả ICU (thử nghiệm ngẫu nhiên theo cụm), 3 gói xử trí nhiễm khuẩn huyết có giới hạn dịch đã áp dụng từ năm 2023, có số liệu theo tháng (chuỗi thời gian ngắt quãng), 4 vì sao điều dưỡng ca đêm khó ghi lượng nước tiểu (phỏng vấn định tính hoặc thảo luận nhóm), 5 hai ICU của mình có tuyển được người bệnh và thực hiện được hạn chế dịch trước khi làm thử nghiệm lớn không (nghiên cứu thí điểm hoặc khả thi).
 
 Câu hỏi của học viên: mời bốn hoặc năm người nói 'thiết kế của tôi là ..., nên tôi được nói gây ra / có liên quan', bật micro, và nhận xét ngắn. Đây là cầu nối sang phần xây dựng đề cương.
 
@@ -1148,7 +1148,7 @@ Quan niệm sai: viết tiêu chuẩn loại trừ là ngược lại của tiê
 
 Ý chính: mỗi tiêu chuẩn loại trừ thêm vào làm nghiên cứu 'sạch' hơn nhưng kết quả áp dụng cho ít người bệnh hơn (giá trị ngoại suy, Buổi 4).
 
-Hỏi cả lớp (mời hai ba người trả lời, bật micro): nêu một tiêu chuẩn loại trừ tốt cho nghiên cứu dịch truyền của chúng ta. Dự kiến: lọc máu mạn (không diễn giải được cân bằng dịch), chỉ chăm sóc giảm nhẹ.
+Hỏi cả lớp (mời hai ba người trả lời, bật micro): nêu một tiêu chuẩn loại trừ tốt cho nghiên cứu dịch truyền của lớp. Dự kiến: lọc máu mạn (không diễn giải được cân bằng dịch), chỉ chăm sóc giảm nhẹ.
 
 Thời gian: 3 phút.
 :::
@@ -1192,7 +1192,7 @@ Phiếu làm việc: phiếu bài tập Buổi 3 (PDF), Phần C, và mẫu đ�
 
 Nhịp (42 phút): 15 phút giảng viên điền Phần 2a cho ví dụ xuyên suốt trên màn hình chia sẻ, vừa viết vừa nói ra suy nghĩ, 20 phút học viên tự viết nháp Phần 2a của mình (có thể tắt camera, giảng viên vẫn trực tuyến để trả lời câu hỏi trong khung chat), 7 phút ba bạn tình nguyện đọc to câu thiết kế và biện luận và giảng viên nhận xét.
 
-Đáp án mẫu cho ví dụ xuyên suốt (phiên bản quan sát), để viết trực tiếp: thuần tập hồi cứu người lớn sốc nhiễm khuẩn tại ICU của chúng ta trong 3 năm. Biện luận: RCT là lý tưởng nhưng không khả thi với một ICU không có kinh phí. Hồ sơ sẵn có ghi dịch vào và ra cùng kết cục. Sẽ kết luận 'có liên quan với'. Bối cảnh: một ICU hỗn hợp người lớn, 3 năm, hồ sơ điện tử và sổ ICU. Tiêu chuẩn chọn và loại trừ như slide phễu. Mẫu đầy đủ ở Course/Solutions/s3\_solutions.md, Phần C.
+Đáp án mẫu cho ví dụ xuyên suốt (phiên bản quan sát), để viết trực tiếp: thuần tập hồi cứu người lớn sốc nhiễm khuẩn tại ICU của mình trong 3 năm. Biện luận: RCT là lý tưởng nhưng không khả thi với một ICU không có kinh phí. Hồ sơ sẵn có ghi dịch vào và ra cùng kết cục. Sẽ kết luận 'có liên quan với'. Bối cảnh: một ICU hỗn hợp người lớn, 3 năm, hồ sơ điện tử và sổ ICU. Tiêu chuẩn chọn và loại trừ như slide phễu. Mẫu đầy đủ ở Course/Solutions/s3\_solutions.md, Phần C.
 
 Vấn đề thường gặp: chọn RCT cho phơi nhiễm không thể chỉ định. Bối cảnh quá lớn. Tiêu chuẩn loại trừ chỉ lặp lại tiêu chuẩn chọn theo chiều ngược.
 
@@ -1207,7 +1207,7 @@ Thời gian: nhắc khi còn 10 phút và 2 phút của phần làm riêng.
 ::: {.neu-card .plain style="--c:#0D7377"}
 [3.1 Thiết kế cơ bản]{.neu-card-title}
 
-- Ảnh chụp, nhìn lại, theo dõi về sau
+- Một thời điểm, nhìn lại, theo dõi về sau
 - RCT: may rủi chỉ định phơi nhiễm
 - RCT nói 'gây ra'. Thuần tập nói 'có liên quan'
 :::
@@ -1246,7 +1246,7 @@ THẢO LUẬN · 5 phút
 :::
 
 ::: {.neu-activity-steps style="--c:#1F5C7A"}
-- Câu hỏi cuối buổi (chat hoặc biểu mẫu 1 câu): bác sĩ chọn hạn chế dịch cho một số người bệnh sốc nhiễm khuẩn và không cho số khác. Cả hai nhóm được theo dõi đến ngày 28. Thiết kế gì? 'Gây ra' hay 'có liên quan'?
+- Câu hỏi cuối buổi (trong chat): bác sĩ chọn hạn chế dịch cho một số người bệnh sốc nhiễm khuẩn và không cho số khác. Cả hai nhóm được theo dõi đến ngày 28. Thiết kế gì? 'Gây ra' hay 'có liên quan'?
 - Vì sao: để kiểm tra ý chính hôm nay. Giảng viên đọc mọi câu trả lời và mở đầu Buổi 4 bằng chúng
 - Bài về nhà: hoàn thành Phần 2a đề cương của bạn (thiết kế, bối cảnh, đối tượng)
 - Đọc: đoạn 'Patients' của Bài báo 1 (Boulet) và 'Data source' của Bài báo 2 (Hyun), trong Course/Papers
@@ -1254,7 +1254,7 @@ THẢO LUẬN · 5 phút
 :::
 
 ::: {.neu-output style="--c:#1F5C7A"}
-**SẢN PHẨM** Mỗi người một câu trả lời cuối buổi, trong khung chat hoặc biểu mẫu
+**SẢN PHẨM** Mỗi người một câu trả lời cuối buổi, trong khung chat
 :::
 
 ::: {.notes}
@@ -1316,7 +1316,7 @@ Thời gian: bỏ qua trong buổi học trừ khi còn thời gian.
 ::::
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Cho mọi bài báo đi qua cùng các câu hỏi trước khi đọc kết quả.
+**THÔNG ĐIỆP CHÍNH** Hỏi các câu này với mọi bài báo trước khi đọc kết quả.
 :::
 
 ::: {.notes}
@@ -1486,7 +1486,7 @@ Thời gian: 2 phút nếu dùng.
 ## Vượt trội, tương đương và không kém hơn
 
 ::: {.neu-intro}
-KTC: khoảng tin cậy. Ngưỡng: mức khác biệt lớn nhất ta chấp nhận, định trước
+KTC: khoảng tin cậy. Ngưỡng: mức khác biệt lớn nhất chấp nhận được, định trước
 :::
 
 :::: {.neu-cards style="--n:3"}
@@ -1515,7 +1515,7 @@ KTC: khoảng tin cậy. Ngưỡng: mức khác biệt lớn nhất ta chấp nh
 :::
 
 ::: {.notes}
-Extra (slide bổ sung): hoàn chỉnh hình ảnh ngưỡng ở phần 3.2.
+Extra (slide bổ sung): bổ sung cho slide về ngưỡng ở phần 3.2.
 
 Thử nghiệm vượt trội là loại thông thường. Thử nghiệm tương đương (thường gặp với thuốc generic) cần KTC nằm trong ngưỡng ở cả hai phía. Thử nghiệm không kém hơn chỉ cần phía trên.
 

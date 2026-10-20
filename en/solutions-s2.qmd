@@ -124,8 +124,10 @@ The trainer models this live for the running example (the feasible pilot version
 
 **Problem statement (≈ 300 words, three paragraphs)**
 1. *Known:* septic shock is a common cause of ICU death. Early fluid resuscitation restores perfusion, but continued fluid often produces a positive fluid balance, which observational studies associate with higher mortality (e.g. Hyun 2023).
-2. *Not known:* large trials of restrictive fluids (CLASSIC 2022; CLOVERS 2023) found no mortality difference, and a pilot targeting hidden "non-resuscitative" fluids (Boulet 2024) did not significantly reduce fluid balance at day 5. Whether a restrictive protocol can reduce fluid balance in *our* setting is unknown.
-3. *Why here:* a 3-month audit in our ICU found that most septic shock patients were fluid-positive by day 3 (state the number from your own audit), and practice varies between consultants.
+2. *Not known:* large trials of restrictive fluids (CLASSIC 2022; CLOVERS 2023) found no mortality difference, and a pilot targeting hidden "non-resuscitative" fluids (Boulet 2024) did not significantly reduce fluid balance at day 5. Whether a restrictive protocol reliably reduces fluid balance is still unclear.
+3. *Question and objectives:* in adults with septic shock, does a restrictive fluid protocol, compared with usual care, reduce cumulative fluid balance at day 5? Primary objective: to compare day-5 fluid balance between the two groups.
+
+*Science rule:* the Introduction never contains your own data or results (no "our audit"). They belong in the Results. A local figure may appear only if it comes from a publication, with its reference.
 
 **Five key references (model)**
 | # | Reference | Why included |
@@ -144,7 +146,7 @@ The trainer models this live for the running example (the feasible pilot version
 | Search | String, database, date, filters and hits recorded; brackets correct | "We googled it"; no date; AND inside a block |
 | References | 5, relevant, include the best available design, exported to a reference manager | Websites, textbooks only, typed by hand, unread |
 | Literature review worksheet | Same columns for every paper; limitation column filled | Copied abstract sentences |
-| Problem statement | Known, then gap, then local reason; each fact cited, ends with the question | A literature dump, or no local reason |
+| Problem statement | Known, then gap, then question and objectives; each fact cited | A literature dump; own data or results; unpublished local figures |
 | Title & keywords | 10–16 words; P, I/E, C and design visible; calibrated words; keywords add MeSH not in the title | "Fluids in the ICU"; abbreviations; "impact of" for an observational design |
 | Integrity | Own words, every claim cited | Sentences pasted from abstracts |
 

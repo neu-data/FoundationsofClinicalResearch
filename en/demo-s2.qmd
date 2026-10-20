@@ -8,7 +8,7 @@ title: "Session 2: Live-demo script"
 
 | | |
 |---|---|
-| **When** | Online, Saturday 19:30–22:30. **Part A, PubMed:** segment 2.1 (0:10–0:50), slide "Live demo: searching PubMed for our question" (about 0:30, 20:00). **Part B, Zotero:** segment 2.2 (0:50–1:10), slide "Live demo: from PubMed to Zotero to Word" (about 0:53, 20:23). **Part C, Google Scholar:** optional extra slide |
+| **When** | Online, Saturday 19:30–22:30. **Part A, PubMed:** segment 2.1 (0:10–0:50), slide "Live demo: searching PubMed for the running example" (about 0:30, 20:00). **Part B, Zotero:** segment 2.2 (0:50–1:10), slide "Live demo: from PubMed to Zotero to Word" (about 0:55, 20:25, just after the "Citation styles" slide). **Part C, Google Scholar:** optional extra slide |
 | **Length** | Part A 10 minutes (Steps 1–5 plus Send to citation manager), Part B 5 minutes (Step 6), Part C 3 minutes only if time allows |
 | **Question** | *In adults with septic shock in the ICU, does a restrictive fluid strategy, compared with usual care, reduce 28-day mortality?* |
 | **Goal** | Participants see a PICO question become a documented, repeatable search, and watch the hits fall step by step |
@@ -78,7 +78,7 @@ Go slowly: this audience has never seen PubMed's advanced features. After every 
 - **Do:** on the Advanced page, in **History and Search Details**, click the arrow (›) next to the latest line to expand the details.
 - **Audience sees:** how PubMed translated the search: the MeSH term with its narrower terms, the truncated words and the field tags.
 - **Say:** *"This is the single best way to check your search. Copy this line into your proposal with the date."*
-- **Teaching point:** the asterisk finds all endings, `[tiab]` means title/abstract, and `[Mesh]` explodes to narrower headings.
+- **Teaching point:** the asterisk finds all endings, `[tiab]` means title/abstract, and `[Mesh]` also searches the narrower headings below it.
 
 ### Step 4: Add filters (2 min)
 - **Do:** on the results page, left-hand filters:
@@ -106,8 +106,8 @@ Go slowly: this audience has never seen PubMed's advanced features. After every 
 - **Do (PubMed):** back on the results, tick 2–3 papers (e.g. CLASSIC and Paper 1), then choose **Send to** → **Citation manager** → **Create file**. A `.nbib` file downloads.
 - **Do (Zotero):** in Zotero desktop, use **File → Import…** and choose the `.nbib` file. (Double-clicking the file often works too.)
 - **Audience sees:** each paper appears as one entry with authors, title, journal, year, volume, pages, PMID and DOI, with nothing typed by hand.
-- **Do (Word):** in the blank document type one sentence, e.g. *"Restricting IV fluid did not change 90-day mortality"*, then **Zotero tab → Add/Edit Citation**, type `Meyhoff` and press Enter. Then **Add/Edit Bibliography**. Then open **Document Preferences** and switch the style from a numbered (Vancouver-type) style to **APA** and back.
-- **Audience sees:** `[1]` becomes `(Meyhoff et al., 2022)` and the reference list reformats itself. This is the citation-styles slide, live.
+- **Do (Word):** in the blank document type one sentence, e.g. *"Restricting IV fluid did not change 90-day mortality"*, then **Zotero tab → Add/Edit Citation**, type `Meyhoff` (the first author of CLASSIC) and press Enter. Then **Add/Edit Bibliography**. Then open **Document Preferences** and switch the style from a numbered (Vancouver-type) style to **APA** and back.
+- **Audience sees:** `[1]` becomes `(Meyhoff et al., 2022)` and the reference list reformats itself. This is the "Citation styles" slide that came just before, done live.
 - **Say:** *"Collect, export, import, cite, list. Never type a reference by hand, and never cite a paper you have not read."*
 - **Participants:** everyone installed Zotero as Session 1 homework, so they can repeat the import on their own computer as you go.
 - **Mention (do not demo):** the **Cite** button on each PubMed record (one reference); **Clipboard**; a free **My NCBI** account to save searches and get e-mail alerts (*Create alert*); the **Zotero Connector** browser button that saves a paper from a journal page in one click. Mendeley and EndNote work the same way.
@@ -123,7 +123,7 @@ Go slowly: this audience has never seen PubMed's advanced features. After every 
 
 ### Close (30 seconds)
 Ask: *"Which step reduced the hits most?"* Expected answer: combining the blocks with AND and the article-type filter.
-After Part A, participants do Exercise 1 (Boolean search builder, 5 minutes). After Part B, continue with the "Citation styles" slide.
+After Part A, participants do Exercise 1 (Boolean search builder, 5 minutes). After Part B, continue with the slide "Citing vs copying: paraphrase safely".
 
 
 * * *

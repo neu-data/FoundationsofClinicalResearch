@@ -8,7 +8,7 @@ title: "Buổi 2: Kịch bản trình diễn"
 
 | | |
 |---|---|
-| **Thời điểm** | Trực tuyến, thứ Bảy 19:30–22:30. **Phần A, PubMed:** mục 2.1 (0:10–0:50), slide "Trình diễn: tìm câu hỏi của chúng ta trên PubMed" (khoảng 0:30, tức 20:00). **Phần B, Zotero:** mục 2.2 (0:50–1:10), slide "Trình diễn: từ PubMed sang Zotero đến Word" (khoảng 0:53, tức 20:23). **Phần C, Google Scholar:** slide bổ sung tùy chọn |
+| **Thời điểm** | Trực tuyến, thứ Bảy 19:30–22:30. **Phần A, PubMed:** mục 2.1 (0:10–0:50), slide "Trình diễn: tìm trên PubMed cho ví dụ xuyên suốt" (khoảng 0:30, tức 20:00). **Phần B, Zotero:** mục 2.2 (0:50–1:10), slide "Trình diễn: từ PubMed sang Zotero đến Word" (khoảng 0:55, tức 20:25, ngay sau slide "Kiểu trích dẫn"). **Phần C, Google Scholar:** slide bổ sung tùy chọn |
 | **Thời lượng** | Phần A 10 phút (Bước 1–5 cộng Send to citation manager), Phần B 5 phút (Bước 6), Phần C 3 phút, chỉ khi còn thời gian |
 | **Câu hỏi** | *Ở người lớn bị sốc nhiễm khuẩn trong ICU, chiến lược hạn chế dịch so với chăm sóc thường quy có làm giảm tử vong 28 ngày không?* |
 | **Mục tiêu** | Học viên thấy một câu hỏi PICO trở thành một chiến lược tìm kiếm được ghi lại và lặp lại được, và nhìn số kết quả giảm dần qua từng bước |
@@ -80,7 +80,7 @@ septic shock
 - **Làm:** ở trang Advanced, trong **History and Search Details**, bấm mũi tên (›) cạnh dòng mới nhất để mở phần chi tiết.
 - **Học viên thấy:** cách PubMed diễn dịch chuỗi tìm kiếm: thuật ngữ MeSH cùng các thuật ngữ hẹp hơn, các từ có dấu cắt cụt và các nhãn trường.
 - **Nói:** *"Đây là cách tốt nhất để kiểm tra chiến lược tìm kiếm. Hãy chép dòng này vào đề cương kèm ngày tìm kiếm."*
-- **Ý giảng dạy:** dấu sao tìm mọi đuôi từ, `[tiab]` nghĩa là tiêu đề/tóm tắt, và `[Mesh]` tự mở rộng sang các đề mục hẹp hơn.
+- **Ý giảng dạy:** dấu sao tìm mọi đuôi từ, `[tiab]` nghĩa là tiêu đề/tóm tắt, và `[Mesh]` tìm luôn cả các đề mục hẹp hơn bên dưới.
 
 ### Bước 4: Thêm bộ lọc (2 phút)
 - **Làm:** ở trang kết quả, các bộ lọc bên trái:
@@ -88,7 +88,7 @@ septic shock
   - **Publication date** (năm xuất bản): *10 years*.
   - **Additional filters → Age** (tuổi): *Adult: 19+ years* (tùy chọn; giải thích sự đánh đổi bên dưới).
 - **Học viên thấy:** số kết quả giảm xuống vài trăm hoặc ít hơn, và các bộ lọc hiện phía trên kết quả, kèm tùy chọn xóa bộ lọc.
-- **Nói:** *"Mỗi bộ lọc cần một lý do anh chị viết ra được. Loại bài báo, vì câu hỏi của ta là câu hỏi điều trị. Mười năm, vì thực hành đã thay đổi."*
+- **Nói:** *"Mỗi bộ lọc cần một lý do anh chị viết ra được. Loại bài báo, vì câu hỏi của mình là câu hỏi điều trị. Mười năm, vì thực hành đã thay đổi."*
 - **Lưu ý cần nói ra:** bộ lọc tuổi và loài dựa vào việc lập chỉ mục, nên những bài mới nhất (chưa được lập chỉ mục) có thể bị mất. Không bao giờ dùng *Free full text* làm bộ lọc chất lượng.
 
 ### Bước 5: Mở một kết quả (2 phút), rồi Send to citation manager (30 giây)
@@ -108,8 +108,8 @@ septic shock
 - **Làm (PubMed):** quay lại trang kết quả, chọn 2–3 bài (ví dụ CLASSIC và Bài báo 1), rồi chọn **Send to** → **Citation manager** → **Create file**. Một tệp `.nbib` được tải về.
 - **Làm (Zotero):** trong Zotero bản máy tính, dùng **File → Import…** và chọn tệp `.nbib`. (Nhấp đúp vào tệp thường cũng được.)
 - **Học viên thấy:** mỗi bài hiện thành một mục với tác giả, tiêu đề, tạp chí, năm, tập, trang, PMID và DOI, không phải gõ tay gì cả.
-- **Làm (Word):** trong tài liệu trống, gõ một câu, ví dụ *"Hạn chế dịch truyền tĩnh mạch không làm thay đổi tử vong 90 ngày"*, rồi **thẻ Zotero → Add/Edit Citation**, gõ `Meyhoff` và nhấn Enter. Sau đó **Add/Edit Bibliography**. Rồi mở **Document Preferences** và đổi kiểu trích dẫn từ kiểu đánh số (kiểu Vancouver) sang **APA** rồi đổi lại.
-- **Học viên thấy:** `[1]` thành `(Meyhoff et al., 2022)` và danh mục tài liệu tham khảo tự định dạng lại. Đây chính là slide "Kiểu trích dẫn: một bài, hai cách trình bày", nhưng làm trực tiếp.
+- **Làm (Word):** trong tài liệu trống, gõ một câu, ví dụ *"Hạn chế dịch truyền tĩnh mạch không làm thay đổi tử vong 90 ngày"*, rồi **thẻ Zotero → Add/Edit Citation**, gõ `Meyhoff` (tác giả đầu của CLASSIC) và nhấn Enter. Sau đó **Add/Edit Bibliography**. Rồi mở **Document Preferences** và đổi kiểu trích dẫn từ kiểu đánh số (kiểu Vancouver) sang **APA** rồi đổi lại.
+- **Học viên thấy:** `[1]` thành `(Meyhoff et al., 2022)` và danh mục tài liệu tham khảo tự định dạng lại. Đây chính là slide "Kiểu trích dẫn: một bài, hai cách trình bày" vừa xem, nhưng làm trực tiếp.
 - **Nói:** *"Thu thập, xuất, nhập, trích dẫn, lập danh mục. Không bao giờ gõ tay tài liệu tham khảo, và không bao giờ trích dẫn bài báo anh chị chưa đọc."*
 - **Học viên:** mọi người đã cài Zotero trong bài tập về nhà của Buổi 1, nên có thể làm lại bước nhập trên máy của mình cùng lúc với giảng viên.
 - **Nhắc đến (không trình diễn):** nút **Cite** trên mỗi bản ghi PubMed (một tài liệu); **Clipboard**; tài khoản **My NCBI** miễn phí để lưu chiến lược tìm kiếm và nhận thông báo qua email (*Create alert*); nút **Zotero Connector** trên trình duyệt để lưu một bài từ trang tạp chí chỉ bằng một cú bấm. Mendeley và EndNote hoạt động theo cách tương tự.
@@ -125,7 +125,7 @@ septic shock
 
 ### Kết thúc (30 giây)
 Hỏi: *"Bước nào làm giảm số kết quả nhiều nhất?"* Câu trả lời dự kiến: kết hợp các khối bằng AND và bộ lọc loại bài báo.
-Sau Phần A, học viên làm Bài tập 1 (xây chuỗi tìm kiếm Boolean, 5 phút). Sau Phần B, tiếp tục với slide "Kiểu trích dẫn: một bài, hai cách trình bày".
+Sau Phần A, học viên làm Bài tập 1 (xây chuỗi tìm kiếm Boolean, 5 phút). Sau Phần B, tiếp tục với slide "Trích dẫn và sao chép: diễn đạt lại an toàn".
 
 
 * * *

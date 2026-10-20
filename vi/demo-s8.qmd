@@ -32,7 +32,7 @@ Lưu ý: các trang web trong phần trình diễn đều bằng tiếng Anh. K�
 | Thời gian | Bấm / cho xem | Nói |
 |---|---|---|
 | 0:00 | **Trang chủ EQUATOR.** Chỉ vào ô tìm kiếm và khung "Reporting guidelines for main study types" (hướng dẫn báo cáo cho các loại nghiên cứu chính). | "Mỗi thiết kế nghiên cứu đều có một bảng kiểm báo cáo, và tất cả đều ở đây, miễn phí." |
-| 0:30 | Gõ **CONSORT** và mở trang CONSORT (CONSORT 2025). Cuộn xuống bảng kiểm và **sơ đồ dòng chảy người tham gia**. | "Bài báo 1 là thử nghiệm ngẫu nhiên, nên dùng CONSORT. Đây là sơ đồ dòng chảy. Bài báo 1 có sơ đồ này ở trang 5: 1201 người được sàng lọc, 50 người được phân ngẫu nhiên." |
+| 0:30 | Gõ **CONSORT** và mở trang CONSORT (CONSORT 2025). Cuộn xuống bảng kiểm và **sơ đồ luồng người tham gia**. | "Bài báo 1 là thử nghiệm ngẫu nhiên, nên dùng CONSORT. Đây là sơ đồ luồng. Bài báo 1 có sơ đồ này ở trang 5: 1201 người được sàng lọc, 50 người được phân ngẫu nhiên." |
 | 1:00 | Quay lại, tìm **STROBE** và mở bảng kiểm (các phiên bản cho thuần tập / bệnh chứng / cắt ngang). | "Bài báo 2 là nghiên cứu thuần tập, nên dùng STROBE, và bản thảo FLUID-ICU của anh chị cũng vậy: các mục anh chị đã đánh dấu tuần trước (4–17) nằm trong bảng kiểm này. Thực ra cả hai bài báo đều không nêu tên hướng dẫn báo cáo mình theo, và người phản biện sẽ yêu cầu điều đó." |
 | 1:20 | **DOAJ:** tìm tên tạp chí đã chọn. Cho xem hồ sơ tạp chí (giấy phép, phí, hình thức phản biện). | "Với tạp chí truy cập mở, DOAJ liệt kê những tạp chí đạt các tiêu chuẩn cơ bản. Không có tên trong danh sách là lý do để kiểm tra thêm." |
 | 1:50 | **NLM Catalog:** tìm tên tạp chí, rồi thêm `AND currentlyindexed[All]` (hoặc dùng bộ lọc "Journals currently indexed in MEDLINE"). | "Nếu một tạp chí nói họ có trong MEDLINE, hãy kiểm tra ở đây. Tạp chí săn mồi thường tự nhận được chỉ mục mà thực ra không có." |
@@ -49,7 +49,7 @@ Lưu ý: các trang web trong phần trình diễn đều bằng tiếng Anh. K�
 ## Màn hình dự kiến (học viên sẽ thấy gì)
 
 1. Trang chủ EQUATOR với ô tìm kiếm lớn và đường dẫn đến các hướng dẫn chính (CONSORT, STROBE, PRISMA, STARD, SPIRIT, CARE …).
-2. Trang CONSORT: tuyên bố CONSORT, bảng kiểm tải về được (Word/PDF) và sơ đồ dòng chảy người tham gia.
+2. Trang CONSORT: tuyên bố CONSORT, bảng kiểm tải về được (Word/PDF) và sơ đồ luồng người tham gia.
 3. Trang STROBE: các bảng kiểm cho nghiên cứu thuần tập, bệnh chứng và cắt ngang.
 4. Hồ sơ tạp chí trên DOAJ: tên tạp chí, nhà xuất bản, giấy phép (ví dụ CC BY), phí xử lý bài báo, hình thức phản biện.
 5. Hồ sơ trên NLM Catalog: tên tạp chí, ISSN và dòng "Current Indexing Status: Currently indexed for MEDLINE" (hiện đang được chỉ mục trong MEDLINE) hoặc không.
@@ -62,7 +62,7 @@ Lưu ý: các trang web trong phần trình diễn đều bằng tiếng Anh. K�
 ## Dự phòng ngoại tuyến (mất mạng hoặc lỗi chia sẻ màn hình)
 
 1. Chiếu 5 ảnh màn hình đã chuẩn bị, theo đúng thứ tự, với cùng kịch bản.
-2. Nếu không có ảnh màn hình: chia sẻ tệp PDF **bảng kiểm và sơ đồ dòng chảy CONSORT 2025** đã tải về và chỉ vào sơ đồ dòng chảy của Bài báo 1 (trang 5): "đây là hình mà CONSORT yêu cầu".
+2. Nếu không có ảnh màn hình: chia sẻ tệp PDF **bảng kiểm và sơ đồ luồng CONSORT 2025** đã tải về và chỉ vào sơ đồ luồng của Bài báo 1 (trang 5): "đây là hình mà CONSORT yêu cầu".
 3. Dán các địa chỉ vào khung chat: **equator-network.org · doaj.org · thinkchecksubmit.org** (kèm "NLM Catalog" cho MEDLINE).
 4. Thay vào đó, đọc to bài "nhận diện email của tạp chí săn mồi" trong phiếu bài tập Buổi 8 (Phần C1, tệp PDF đã gửi trước buổi học) và cùng cả lớp phân tích (1 phút).
 

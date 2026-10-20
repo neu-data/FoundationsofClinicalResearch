@@ -38,7 +38,7 @@ Lưu ý: bảng tính và kết quả R hiển thị bằng tiếng Anh. Kịch 
 **Bước 2: Tái lập Bài báo 1 (hai trung bình, 2 phút).** Chênh lệch trung bình / hai trung bình độc lập: nhóm 1 = 70 ml/kg, nhóm 2 = 40 ml/kg, SD 35 ở cả hai nhóm, độ tin cậy 95% (alpha 5% hai phía), lực thống kê 80%, tỷ lệ 1.
 Dự kiến: **22 mỗi nhóm (tổng 44)**. Cộng thêm 10% cho tử vong được 25 mỗi nhóm, **tổng 50**, đúng như phần phương pháp của Bài báo 1. Bảng tính `3_Means`: B20 = 22, B21 = 25, B22 = 50.
 
-**Bước 3: Câu hỏi thật của chúng ta, tử vong (hai tỷ lệ, 2 phút).** 40% (chăm sóc thường quy) so với 30% (hạn chế dịch), alpha 5%, lực thống kê 80%, tỷ lệ 1.
+**Bước 3: Câu hỏi thật của mình, tử vong (hai tỷ lệ, 2 phút).** 40% (chăm sóc thường quy) so với 30% (hạn chế dịch), alpha 5%, lực thống kê 80%, tỷ lệ 1.
 Dự kiến mỗi nhóm: Fleiss **356**, có hiệu chỉnh liên tục **376** (công cụ có thể lệch ±1–2; Kelsey khoảng 358). Bảng tính `2_Proportions`: B20 = 356, B21 = 376, sau khi cộng 10% mất theo dõi B22 = 396 mỗi nhóm, B23 = 792 tổng cộng.
 *"Cùng câu hỏi lâm sàng, kết cục khác: cân bằng dịch cần 50 người bệnh, tử vong cần gần 800."*
 
@@ -86,9 +86,9 @@ Chạy từng khối khi đến slide tương ứng. Nếu thiếu thời gian, 
 |---|---|---|---|
 | SAP có trước | mở `SAP_FLUID-ICU.md` | yếu tố gây nhiễu: tuổi, SOFA, lactat, thuốc vận mạch, thở máy, bệnh thận mạn; một tương tác (suy tim); CC và MI | "Đã quyết định trước khi ai đó nhìn thấy kết quả." |
 | OR thô và OR hiệu chỉnh | 04: khối 1–2 | OR thô **2.49 (1.70 đến 3.70)**, n = 618; OR thô trên cùng 527 người: **2.22 (1.48 đến 3.39)**; OR hiệu chỉnh **1.62 (1.02 đến 2.59)**, p = 0.044, n = 527 | "Nhiễu do chỉ định, giờ đã nhìn thấy được." |
-| Biểu đồ rừng | 04: khối 3–4 | mô hình hiệu chỉnh, hàng phơi nhiễm 1.62 | "Chỉ hàng phơi nhiễm là câu hỏi của ta." |
+| Biểu đồ rừng | 04: khối 3–4 | mô hình hiệu chỉnh, hàng phơi nhiễm 1.62 | "Chỉ hàng phơi nhiễm là câu hỏi của mình." |
 | Kaplan–Meier | 04: khối 5 | tỷ lệ sống ngày 28 **81.6% so với 64.1%**; log-rank p < 0.001 (khi bình phương 21.4) | "Bậc thang, vạch kiểm duyệt, khoảng cách, số người còn nguy cơ." |
-| Cox | 04: khối 6 | HR thô **2.17 (1.55 đến 3.05)**, HR hiệu chỉnh **1.46 (1.00 đến 2.13)**, p = 0.053; kiểm định PH tổng thể p = 0.10 | "0.044 so với 0.053: cùng một câu chuyện." |
+| Cox | 04: khối 6 | HR thô **2.17 (1.55 đến 3.05)**, HR hiệu chỉnh **1.46 (1.00 đến 2.13)**, p = 0.053; kiểm định PH tổng thể p = 0.10 | "0.044 so với 0.053: cùng một kết luận." |
 | (bổ sung) Tương tác | 04: khối 7 | suy tim OR **4.39 (1.65 đến 12.38)**, n = 90; không suy tim **1.29 (0.77 đến 2.19)**, n = 437; p tương tác **0.031** | "Đã định trước, hợp lý, cần được xác nhận." |
 | Ai bị thiếu? | 05: khối 1–2 | thiếu lactat **93/620 (15.0%)**; SOFA 5 so với 8; tử vong **19.4% so với 30.6%** | "Không phải MCAR; MAR là hợp lý." |
 | CC so với MI | 05: khối 3–5 | Q4 OR hiệu chỉnh cho mỗi mmol/L: CC **1.39 (1.24 đến 1.57)**, n = 527 so với MI **1.45 (1.29 đến 1.64)**, n = 620; Q1 OR hiệu chỉnh với MI **1.70 (1.09 đến 2.64)** | "Vững: câu trả lời gần như không đổi." |
@@ -117,4 +117,4 @@ Chỉ cho lớp thấy trong `05_missing.R` khối 4: mô hình quy gán có c�
 
 **"Quy gán đa bội chẳng phải là bịa dữ liệu sao?"** Phương pháp này điền mỗi chỗ trống nhiều lần bằng các giá trị hợp lý được dự đoán từ dữ liệu đã ghi nhận, và nới rộng KTC để phản ánh sự không chắc chắn. Phương pháp hợp lệ khi dữ liệu là MAR. Luôn so sánh với phân tích trường hợp đầy đủ.
 
-**"Sao không hiệu chỉnh theo AKI?"** AKI xảy ra sau khi truyền dịch và có thể nằm trên đường nhân quả (một biến trung gian). Hiệu chỉnh theo AKI sẽ loại bỏ một phần tác động mà ta muốn ước lượng. SAP loại AKI vì lý do đó.
+**"Sao không hiệu chỉnh theo AKI?"** AKI xảy ra sau khi truyền dịch và có thể nằm trên đường nhân quả (một biến trung gian). Hiệu chỉnh theo AKI sẽ loại bỏ một phần tác động cần ước lượng. SAP loại AKI vì lý do đó.

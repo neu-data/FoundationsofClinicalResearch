@@ -44,7 +44,7 @@ Chương trình đào tạo nghiên cứu lâm sàng của Neudata gồm ba cấ
 | Quản lý và làm sạch dữ liệu | Khái niệm, trình diễn trực tiếp | Thực hành bằng script R: nhập, làm sạch, kiểm tra dữ liệu, nhật ký làm sạch dữ liệu | Dự án có thể lặp lại và quản lý phiên bản (Học phần G); dữ liệu lớn, liên kết hoặc theo cụm (Học phần F) |
 | Mô tả dữ liệu, Bảng 1, biểu đồ | Đọc và đánh giá | Bảng 1; biểu đồ EDA phù hợp với từng mô hình, dùng code của khóa học | Biểu đồ đạt yêu cầu của tạp chí (vector và raster, kích thước, độ phân giải, phông chữ) và code vẽ biểu đồ trong mọi học phần |
 | Hồi quy | Đọc và diễn giải kết quả | Xây dựng, kiểm tra, diễn giải và báo cáo mô hình tuyến tính, logistic, mô hình cho biến đếm (Poisson, nhị thức âm, thừa số 0) và mô hình Cox | Mô hình hỗn hợp, nguy cơ cạnh tranh, biến số thay đổi theo thời gian, mô hình dự báo |
-| Dữ liệu thiếu | Cơ chế và ý tưởng | Mô tả tình trạng thiếu dữ liệu; phân tích ca đầy đủ và quy gán đa bội, giới thiệu sơ lược | Quy gán đa bội trong thực hành và phân tích độ nhạy chuyên sâu (Học phần H) |
+| Dữ liệu thiếu | Cơ chế và ý tưởng | Mô tả tình trạng thiếu dữ liệu; phân tích các trường hợp đầy đủ và quy gán đa bội, giới thiệu sơ lược | Quy gán đa bội trong thực hành và phân tích độ nhạy chuyên sâu (Học phần H) |
 | Phân tích sống còn | Đọc đường cong Kaplan–Meier và HR | Kaplan–Meier và Cox, kể cả kiểm tra giả định nguy cơ tỷ lệ | Nâng cao: biến số thay đổi theo thời gian, nguy cơ cạnh tranh, thời gian sống trung bình giới hạn (Học phần D) |
 | Viết và công bố | Toàn bộ quy trình viết bài báo (bản thảo cá nhân) | Phần Kết quả viết từ kết quả R của chính học viên | Báo cáo Quarto trong đó mọi con số đều do code tạo ra; phần Phương pháp và Kết quả cho các phân tích phức tạp |
 

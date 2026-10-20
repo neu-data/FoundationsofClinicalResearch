@@ -25,9 +25,9 @@ Liên hệ Vương Mỹ Lượng qua [myluong1710@gmail.com](mailto:myluong1710@
 
 ## 1. Vì sao có Cấp độ 2
 
-Cấp độ 1 trình bày toàn bộ hành trình nghiên cứu. Giảng viên chạy các phân tích, còn học viên đọc và diễn giải kết quả. Cấp độ 2 dành cho học viên muốn tự chạy các phân tích.
+Cấp độ 1 trình bày toàn bộ quy trình nghiên cứu. Giảng viên chạy các phân tích, còn học viên đọc và diễn giải kết quả. Cấp độ 2 dành cho học viên muốn tự chạy các phân tích.
 
-Cấp độ 2 là một khóa thống kê dạy bằng R. Khóa học bao gồm các mô hình hồi quy mà nhà nghiên cứu lâm sàng gặp nhiều nhất, mỗi buổi một nhóm mô hình: hồi quy tuyến tính cho kết cục liên tục, hồi quy logistic cho kết cục nhị phân, mô hình Poisson, nhị thức âm và mô hình thừa số 0 (zero-inflated) cho biến đếm, Kaplan–Meier và mô hình Cox cho thời gian đến biến cố. Với mỗi mô hình, chúng ta đặt cùng một loạt câu hỏi:
+Cấp độ 2 là một khóa thống kê dạy bằng R. Khóa học bao gồm các mô hình hồi quy mà nhà nghiên cứu lâm sàng gặp nhiều nhất, mỗi buổi một nhóm mô hình: hồi quy tuyến tính cho kết cục liên tục, hồi quy logistic cho kết cục nhị phân, mô hình Poisson, nhị thức âm và mô hình thừa số 0 (zero-inflated) cho biến đếm, Kaplan–Meier và mô hình Cox cho thời gian đến biến cố. Với mỗi mô hình, lớp đặt cùng một loạt câu hỏi:
 
 - Mô hình này dùng cho những câu hỏi và kết cục nào?
 - Cần xem gì trong dữ liệu trước khi xây dựng mô hình (phân tích khám phá dữ liệu, exploratory data analysis, EDA)?
@@ -125,7 +125,7 @@ Khi kết thúc Cấp độ 2, học viên có thể:
 - **Mô hình thừa số 0:** Poisson thừa số 0 (ZIP) và nhị thức âm thừa số 0 (ZINB) với **pscl** (`zeroinfl`); hai phần của mô hình (xác suất là một giá trị 0 cấu trúc, và số đếm ở những người còn lại) và cách diễn giải từng phần.
 - **Mô hình hurdle:** khác với mô hình thừa số 0 như thế nào, và cách chọn giữa hai loại dựa trên ý nghĩa lâm sàng của giá trị 0.
 - **Chọn và kiểm tra mô hình:** so sánh các mô hình Poisson, nhị thức âm, ZIP, ZINB và hurdle (AIC, số giá trị 0 quan sát so với dự báo, rootogram); vì sao nên chọn mô hình trước hết dựa trên cơ chế tạo ra dữ liệu, sau đó mới đến các chỉ số khớp mô hình.
-- **Biến đếm có giới hạn:** số ngày không thở máy là số ngày trên tổng 28 ngày, với giá trị 0 cho người tử vong. Chúng ta thảo luận vì sao biến này khó mô hình hóa (giá trị 0, mức trần 28, tử vong là biến cố cạnh tranh) và các lựa chọn trong y văn: mô hình hurdle hoặc thừa số 0, hoặc mô hình nhị thức thừa số 0 (hay beta-nhị thức) cho "số ngày trên 28 ngày". Mô hình nhị thức thừa số 0 chỉ được trình diễn, không thực hành.
+- **Biến đếm có giới hạn:** số ngày không thở máy là số ngày trên tổng 28 ngày, với giá trị 0 cho người tử vong. Lớp thảo luận vì sao biến này khó mô hình hóa (giá trị 0, mức trần 28, tử vong là biến cố cạnh tranh) và các lựa chọn trong tài liệu đã công bố: mô hình hurdle hoặc thừa số 0, hoặc mô hình nhị thức thừa số 0 (hay beta-nhị thức) cho "số ngày trên 28 ngày". Mô hình nhị thức thừa số 0 chỉ được trình diễn, không thực hành.
 - **Báo cáo:** cần báo cáo gì cho một mô hình hai phần; diễn giải bằng ngôn ngữ dễ hiểu.
 - **FLUID-ICU:** phân tích lại số ngày không thở máy (Q3) bằng mô hình hurdle và so sánh với mô hình tuyến tính ở Buổi 2; một biến đếm mô phỏng có nhiều giá trị 0 (đề xuất: số ngày điều trị thay thế thận (RRT) tính đến ngày 28; xem các vấn đề còn mở).
 - **Sản phẩm:** `06_zero_inflated.R` và một bản so sánh ngắn các mô hình kèm một đoạn diễn giải.

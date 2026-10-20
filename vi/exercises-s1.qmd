@@ -43,18 +43,18 @@ Họ và tên: ______________________________   Khoa/Phòng: ___________________
 
 ## Bài tập 1: Cứu ví dụ xuyên suốt  *(cả lớp, 11 phút, phần 1.2)*
 
-Câu hỏi của chúng ta không đạt tiêu chí F (khả thi). Dưới đây là ba phiên bản khả thi.
+Câu hỏi trong ví dụ xuyên suốt không đạt tiêu chí F (khả thi). Dưới đây là ba phiên bản khả thi.
 
 | Phiên bản | Ý tưởng |
 |---|---|
 | **A** (thử nghiệm thí điểm) | Quy trình hạn chế dịch so với chăm sóc thường quy; kết cục: cân bằng dịch tích lũy ở ngày 5 |
 | **B** (thuần tập) | Cân bằng dịch dương so với không dương vào ngày 3; kết cục: tử vong trước ngày 28 |
-| **C** (mô tả) | Bao nhiêu người bệnh sốc nhiễm khuẩn của chúng ta có cân bằng dịch dương vào ngày 3? |
+| **C** (mô tả) | Bao nhiêu người bệnh sốc nhiễm khuẩn của bạn có cân bằng dịch dương vào ngày 3? |
 
-**Bình chọn:** ICU của chúng ta có thể làm phiên bản nào trong vòng hai năm? ☐ A ☐ B ☐ C
+**Bình chọn:** ICU của bạn có thể làm phiên bản nào trong vòng hai năm? ☐ A ☐ B ☐ C
 
 **Gợi ý**
-- Với câu hỏi quan sát, **I** trở thành **E** (Exposure, phơi nhiễm: điều người bệnh có hoặc nhận được mà chúng ta không chỉ định), thành **PECO**.
+- Với câu hỏi quan sát, **I** trở thành **E** (Exposure, phơi nhiễm: điều người bệnh có hoặc nhận được mà nhà nghiên cứu không chỉ định), thành **PECO**.
 - Câu hỏi mô tả (bao nhiêu? thường xuyên đến đâu?) có thể chỉ cần **P** và **O** (và **T**).
 - Chọn **một** kết cục chính và nói rõ đo **khi nào**.
 
@@ -84,12 +84,6 @@ ______________________________________________________________________________
 | **E**: Đạo đức | Hội đồng đạo đức có thể chấp thuận không? | |
 | **R**: Phù hợp | Câu trả lời có thể thay đổi thực hành, chính sách hay nghiên cứu không? | |
 
-**H0 và H1** (hoặc "mô tả: không cần giả thuyết"):
-
-H0: ___________________________________________________________________________
-
-H1: ___________________________________________________________________________
-
 
 * * *
 
@@ -112,6 +106,8 @@ ______________________________________________________________________________
 
 **H1:** ___________________________________________________________________________
 
+Câu hỏi mô tả (bao nhiêu? thường xuyên đến đâu?) chỉ ước tính một con số nên không cần giả thuyết.
+
 Sau đó gõ mục tiêu chính của bạn vào khung chat.
 
 
@@ -127,7 +123,7 @@ Sau đó gõ mục tiêu chính của bạn vào khung chat.
 | 8–25 phút | **1. Chọn MỘT vấn đề** từ khoa của bạn (các câu hỏi lưu lại từ khung chat đầu khóa có thể giúp bạn) | ☐ |
 | | **2. Bảng PICO(T) hoặc PECO** và **câu hỏi nghiên cứu** viết thành một câu | ☐ |
 | | **3. Kiểm tra FINER**: tô màu cho từng chữ cái; viết lại câu hỏi nếu có chữ cái màu đỏ | ☐ |
-| | **4. Mục tiêu tổng quát** (một câu), **2–3 mục tiêu cụ thể** (động từ đo lường được; đánh dấu mục tiêu chính), **H0 / H1** (hoặc "mô tả: không cần giả thuyết") | ☐ |
+| | **4. Mục tiêu tổng quát** (một câu), **2–3 mục tiêu cụ thể** (động từ đo lường được; đánh dấu mục tiêu chính), **H0 và H1** (câu hỏi mô tả thì không cần) | ☐ |
 | 25–30 phút | Hai bạn tình nguyện đọc to câu hỏi và mục tiêu tổng quát; mọi người góp một ý cải thiện trong khung chat | ☐ |
 
 **Câu hỏi của tôi:** ________________________________________________________________
@@ -157,10 +153,10 @@ PubMed tìm kiếm bằng **tiếng Anh**. Với mỗi thành phần PICO trong 
 
 * * *
 
-## Câu hỏi cuối buổi  *(trong khung chat, hoặc biểu mẫu 1 câu hỏi có đường dẫn trong khung chat; 2 phút, trước khi rời lớp)*
+## Câu hỏi cuối buổi  *(trong khung chat, 2 phút, trước khi rời lớp)*
 
-1. Ví dụ xuyên suốt của chúng ta không đạt chữ cái FINER nào, và vì sao?
-2. Viết lại thành một mục tiêu cụ thể: "Tìm hiểu cân bằng dịch tại ICU của chúng ta".
+1. Ví dụ xuyên suốt không đạt chữ cái FINER nào, và vì sao?
+2. Viết lại thành một mục tiêu cụ thể: "Tìm hiểu cân bằng dịch tại ICU của bạn".
 
 *Vì sao chúng tôi hỏi:* đây không phải bài về nhà và không chấm điểm. Câu trả lời cho chúng tôi biết điều gì còn chưa rõ. Giảng viên đọc mọi câu trả lời trước thứ Bảy tuần sau và mở đầu Buổi 2 bằng những gì tìm thấy.
 
@@ -188,7 +184,7 @@ PubMed tìm kiếm bằng **tiếng Anh**. Với mỗi thành phần PICO trong 
 
 1. "Ở mọi người lớn nằm viện trong cả nước, bổ sung vitamin D có làm giảm tử vong trong 10 năm không?" Vấn đề chính: ______
 2. "Ở người bệnh ICU bị sốc nhiễm khuẩn, trì hoãn kháng sinh 24 giờ có làm giảm kháng thuốc không?" Vấn đề chính: ______
-3. "Điều dưỡng ICU của chúng ta có rửa tay không?" (đã được đo hằng tháng trong 5 năm qua bởi đánh giá của bộ phận kiểm soát nhiễm khuẩn) Vấn đề chính: ______
+3. "Điều dưỡng ICU của bạn có rửa tay không?" (đã được đo hằng tháng trong 5 năm qua bởi đánh giá của bộ phận kiểm soát nhiễm khuẩn) Vấn đề chính: ______
 4. "Ở người lớn bị viêm phổi mắc phải tại cộng đồng, màu của tờ y lệnh thuốc có ảnh hưởng đến tử vong 28 ngày không?" Vấn đề chính: ______
 
 **C. Viết H0 và H1, hoặc nói vì sao không cần.**
@@ -199,6 +195,6 @@ H0: _____________________________________________________________________
 
 H1: _____________________________________________________________________
 
-b) "Bao nhiêu phần trăm người bệnh sốc nhiễm khuẩn của chúng ta có cân bằng dịch tích lũy dương vào ngày 3?"
+b) "Bao nhiêu phần trăm người bệnh sốc nhiễm khuẩn của bạn có cân bằng dịch tích lũy dương vào ngày 3?"
 
 Có cần H0 / H1 không? ☐ có ☐ không. Vì: ______________________________________

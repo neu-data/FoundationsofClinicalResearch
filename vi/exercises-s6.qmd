@@ -41,7 +41,7 @@ Khoanh **Đ** (đúng) hoặc **S** (sai). Chuẩn bị giải thích mỗi câu
 | 6 | p < 0.001 chứng minh tác động lớn và quan trọng về mặt lâm sàng. | Đ / S |
 | 7 | Nếu lặp lại cùng một nghiên cứu nhiều lần, khoảng 95% các KTC 95% sẽ chứa giá trị thật. | Đ / S |
 | 8 | Một kết quả "âm tính" (p > 0.05) trong một thử nghiệm thí điểm nhỏ có thể là sai lầm loại II. | Đ / S |
-| 9 | Alpha (thường là 5%) là nguy cơ chúng ta chấp nhận khi kết luận có tác động trong khi thực ra không có. | Đ / S |
+| 9 | Alpha (thường là 5%) là nguy cơ chấp nhận được khi kết luận có tác động trong khi thực ra không có. | Đ / S |
 | 10 | p = 0.06 cho thấy "một xu hướng tiến tới có ý nghĩa thống kê". | Đ / S |
 | 11 | Nếu bạn kiểm định 20 kết cục khác nhau và không kết cục nào có tác động thật, bạn thường vẫn tìm thấy ít nhất một kết cục có p < 0.05. | Đ / S |
 | 12 | Lactate đo trên cùng 40 người bệnh lúc nhập viện và 6 giờ sau nên được so sánh bằng kiểm định t không ghép cặp. | Đ / S |
@@ -87,7 +87,7 @@ Câu hỏi thêm: máy đo đường huyết tại giường và phòng xét ngh
 
 ## Bài tập 4: [FLUID-ICU] Diễn giải phép so sánh cho câu hỏi bạn chọn (6.2)
 
-Trong lớp chúng ta cùng làm cho Q1. Sau đó hoàn thành cho câu hỏi bạn chọn, dùng bảng so sánh trong gói kết quả của câu hỏi đó.
+Trên lớp, cả lớp cùng làm cho Q1. Sau đó hoàn thành cho câu hỏi bạn chọn, dùng bảng so sánh trong gói kết quả của câu hỏi đó.
 
 | | Câu trả lời của bạn |
 |---|---|
@@ -108,7 +108,7 @@ Trong lớp chúng ta cùng làm cho Q1. Sau đó hoàn thành cho câu hỏi b�
 
 ## Bài tập 5: Đọc bảng hồi quy (một ví dụ khác, bài về nhà)
 
-Trong lớp chúng ta đọc bảng của ví dụ xuyên suốt trên slide. Để luyện thêm: một nghiên cứu thuần tập (giả lập) trên 600 người lớn nằm ICU nội khoa tìm các yếu tố liên quan đến **mê sảng mắc phải trong bệnh viện** (có/không) trong thời gian nằm ICU.
+Trên lớp, cả lớp đọc bảng của ví dụ xuyên suốt trên slide. Để luyện thêm: một nghiên cứu thuần tập (giả lập) trên 600 người lớn nằm ICU nội khoa tìm các yếu tố liên quan đến **mê sảng mắc phải trong bệnh viện** (có/không) trong thời gian nằm ICU.
 
 **Bảng 3. Hồi quy logistic đa biến: các yếu tố liên quan đến mê sảng**
 
@@ -174,7 +174,7 @@ Với mỗi tình huống, chọn cơ chế có khả năng nhất (**MCAR**, **
 
 ## Bài tập 8: [FLUID-ICU] Diễn giải mô hình cho câu hỏi bạn chọn: thô so với hiệu chỉnh, trường hợp đầy đủ so với quy gán (6.4)
 
-Trong lớp chúng ta cùng làm cho Q1. Sau đó hoàn thành cho câu hỏi bạn chọn, dùng bảng hồi quy và bảng dữ liệu thiếu trong gói kết quả của câu hỏi đó.
+Trên lớp, cả lớp cùng làm cho Q1. Sau đó hoàn thành cho câu hỏi bạn chọn, dùng bảng hồi quy và bảng dữ liệu thiếu trong gói kết quả của câu hỏi đó.
 
 **Phần A: thô so với hiệu chỉnh**
 

@@ -1,5 +1,5 @@
 ---
-title: "Buổi 2 · Tìm & đọc: bằng chứng"
+title: "Buổi 2 · Tìm & đọc bằng chứng"
 subtitle: "Nền tảng Nghiên cứu Lâm sàng: Từ câu hỏi lâm sàng đến công bố"
 author: "Vương Mỹ Lượng & Bernard Osang'ir"
 institute: "Neudata Consulting Ltd"
@@ -12,12 +12,12 @@ format:
     include-in-header: access-gate.html
 ---
 
-# Buổi 2 · Tìm & đọc: bằng chứng
+# Buổi 2 · Tìm & đọc bằng chứng
 
 ## Tuần 2 · Thứ Bảy
 
 - Câu hỏi ôn tập Buổi 1
-- 2.1  Tìm bằng chứng: từ PICO đến tìm kiếm, Boolean, MeSH, trình diễn PubMed
+- 2.1  Tìm bằng chứng: logic Boolean, MeSH, khối tìm kiếm, trình diễn PubMed
 - 2.2  Quản lý và trích dẫn: trình diễn Zotero, kiểu trích dẫn, diễn đạt lại, tài liệu xám
 - Giải lao
 - 2.3  Đọc một bài báo trong 15 phút và 2.4 từ y văn đến phần đặt vấn đề
@@ -28,7 +28,7 @@ MỞ ĐẦU BUỔI 2 (0:00, 19:30).
 
 Mở đầu bằng những gì câu hỏi cuối Buổi 1 cho thấy (ví dụ còn bao nhiêu người dùng động từ mơ hồ) và dành một phút cho điểm đó nếu cần.
 
-Ý chính: thứ Bảy tuần trước mỗi học viên đã bắt đầu câu hỏi của riêng mình. Hôm nay ta tìm xem điều gì đã được biết về câu hỏi đó, lưu tài liệu tham khảo an toàn, và đọc bài báo hiệu quả.
+Ý chính: thứ Bảy tuần trước mỗi học viên đã bắt đầu câu hỏi của riêng mình. Hôm nay mỗi người tìm xem điều gì đã được biết về câu hỏi đó, lưu tài liệu tham khảo an toàn, và đọc bài báo hiệu quả.
 
 Nhịp độ: chậm hơn vẻ ngoài. Phần nào cũng có trình diễn hoặc bài tập. Dùng các slide 'Kiểm tra hiểu bài': đó là lúc phát hiện ai bị lạc.
 
@@ -52,11 +52,11 @@ CÂU HỎI NHANH · 8 phút
 :::
 
 ::: {.neu-output style="--c:#6C3483"}
-**SẢN PHẨM** Trả lời trong biểu mẫu trực tuyến (link trong chat), đối chiếu với slide sau
+**SẢN PHẨM** Trả lời trong khung chat, đối chiếu với slide sau
 :::
 
 ::: {.notes}
-CÂU HỎI ÔN TẬP (0:00-0:10, 19:30-19:40). Làm cá nhân trong một biểu mẫu trực tuyến ngắn (hoặc gõ câu trả lời vào chat), 6 phút, rồi 2 phút chiếu kết quả biểu mẫu lên màn hình. Đáp án ở slide sau. Các câu hỏi cũng có trong phiếu bài tập Buổi 2.
+CÂU HỎI ÔN TẬP (0:00-0:10, 19:30-19:40). Làm cá nhân, gõ câu trả lời vào chat, 6 phút, rồi 2 phút gọi 2-3 người nói đáp án. Đáp án ở slide sau. Các câu hỏi cũng có trong phiếu bài tập Buổi 2.
 
 Bài này cũng khơi lại từ vựng thứ Bảy tuần trước cho buổi tìm kiếm hôm nay.
 
@@ -85,7 +85,7 @@ Thời gian: 8 phút.
 ::: {.neu-card .plain style="--c:#5FA39B"}
 [Khả thi]{.neu-card-title}
 
-- Tử vong cần hơn 1 000 người bệnh
+- Tử vong cần hơn 1000 người bệnh
 :::
 ::: {.neu-card .plain style="--c:#0070C0"}
 [Ước tính]{.neu-card-title}
@@ -120,7 +120,7 @@ Trước khi nghiên cứu, hãy tìm xem điều gì đã được biết.
 :::
 
 ::: {.neu-sub}
-40 phút: phễu tìm kiếm, từ PICO đến khối tìm kiếm, Boolean, MeSH, công cụ tìm kiếm, kiểm tra tổng quan hệ thống và trình diễn PubMed trực tiếp
+40 phút: phễu tìm kiếm, logic Boolean, MeSH, công cụ tìm kiếm, khối tìm kiếm PICO, tổng quan hệ thống và trình diễn PubMed trực tiếp
 :::
 ::::
 
@@ -156,7 +156,7 @@ Ghi lại mỗi bước: ngày, chuỗi tìm kiếm, bộ lọc và số kết q
 ::: {.neu-step style="--c:#5FA39B"}
 [Khối PICO]{.neu-step-label}
 
-- MeSH và từ tự do, AND và OR
+- Mọi cách viết cho P, I và O
 - **Vài nghìn**
 :::
 ::: {.neu-step style="--c:#0070C0"}
@@ -198,108 +198,12 @@ Slide này dựng bằng các hình có thể chỉnh sửa: có thể sửa con
 Thời gian: 2 phút.
 :::
 
-## Từ PICO đến các khối tìm kiếm
-
-::: {.neu-intro}
-OR trong một khối, AND nối các khối: (các từ của P) AND (các từ của I) AND (các từ của O). C (thường quy) thường không cần tìm.
-:::
-
-:::: {.neu-cards style="--n:3"}
-::: {.neu-card .plain style="--c:#0D7377"}
-[P:  sốc nhiễm khuẩn]{.neu-card-title}
-
-- "Shock, Septic"\[MeSH\]
-- OR "septic shock"\[tiab\]
-- OR sepsis\[tiab\]
-:::
-::: {.neu-card .plain style="--c:#0B376C"}
-[I:  hạn chế dịch]{.neu-card-title}
-
-- "Fluid Therapy"\[MeSH\]
-- OR "fluid restrict\*"\[tiab\]
-- OR "restrictive fluid\*"\[tiab\]
-- OR "conservative fluid\*"\[tiab\]
-:::
-::: {.neu-card .plain style="--c:#0070C0"}
-[O:  tử vong]{.neu-card-title}
-
-- Mortality\[MeSH\]
-- OR mortality\[tiab\]
-- OR death\[tiab\]
-:::
-::::
-
-::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Mỗi khái niệm PICO một khối: OR trong khối, AND giữa các khối.
-:::
-
-::: {.notes}
-Chuyển mỗi thành phần PICO thành một khối khái niệm: thuật ngữ MeSH cộng với từ tự do.
-
-\[tiab\] = tiêu đề và tóm tắt. Dấu sao (\*) là cắt cụt (truncation): restrictive fluid\* tìm cả 'restrictive fluids'.
-
-Nhóm so sánh (thường quy) thường bỏ ra vì cách viết quá đa dạng.
-
-Lưu ý: PubMed là cơ sở dữ liệu tiếng Anh, nên luôn tìm bằng thuật ngữ tiếng Anh.
-
-Quan niệm sai: 'cứ gõ cả câu hỏi vào PubMed'. Bạn mất kiểm soát từ đồng nghĩa và logic.
-
-Hỏi cả lớp (chat): 'Tác giả còn dùng từ nào cho restrictive?' Mong đợi: conservative, limited, de-resuscitation, fluid removal, negative fluid balance.
-
-Thời gian: 4 phút.
-:::
-
-## Thêm một ví dụ: câu hỏi tại khoa
-
-::: {.neu-intro}
-Câu hỏi: ở người lớn có nguy cơ tại khoa, xoay trở mỗi 2 giờ có giảm tổn thương do tì đè mới?
-:::
-
-:::: {.neu-cards style="--n:3"}
-::: {.neu-card .plain style="--c:#0D7377"}
-[P + O:  tổn thương do tì đè]{.neu-card-title}
-
-- "Pressure Ulcer"\[Mesh\]
-- OR "pressure injur\*"\[tiab\]
-- OR "pressure ulcer\*"\[tiab\]
-- OR bedsore\*\[tiab\]
-:::
-::: {.neu-card .plain style="--c:#0B376C"}
-[I:  xoay trở]{.neu-card-title}
-
-- "Patient Positioning"\[Mesh\]
-- OR reposition\*\[tiab\]
-- OR turning\[tiab\]
-:::
-::: {.neu-card .plain style="--c:#055F56"}
-[Nối hai khối bằng AND]{.neu-card-title}
-
-- Mẹo: khi P và O là cùng một ý (tổn thương do tì đè), một khối có thể chứa cả hai.
-- Tác giả viết ulcer, injury, bedsore, decubitus. MeSH gom dưới "Pressure Ulcer".
-:::
-::::
-
-::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Cùng một cách cho mọi chủ đề: khái niệm thành khối, từ đồng nghĩa nối bằng OR, các khối nối bằng AND.
-:::
-
-::: {.notes}
-Thêm một ví dụ mẫu, từ khoa phòng, để đồng nghiệp ngoài ICU thấy phương pháp dùng được cho mọi chủ đề.
-
-Câu hỏi: ở người lớn có nguy cơ tại khoa, xoay trở mỗi 2 giờ có giảm tổn thương do tì đè mới không?
-
-Ở đây P và O cùng một ý (tổn thương do tì đè) nên một khối chứa cả hai. Khối thứ hai là can thiệp.
-
-MeSH: tác giả viết pressure ulcer, pressure injury, bedsore, decubitus. Đề mục MeSH 'Pressure Ulcer' gom tất cả.
-
-Hỏi cả lớp (chat): 'Tác giả còn dùng từ nào cho xoay trở?' Mong đợi: turning, position change, mobilisation, offloading.
-
-Thời gian: 3 phút.
-:::
-
 ## Logic Boolean bằng hình ảnh
 
-![](images/figures/sat1/boolean_venn.png){.neu-fig}
+
+```{=html}
+<div style="position:relative;width:100%;aspect-ratio:12.3/4.0;container-type:inline-size;margin:0.2em auto;font-family:Arial,sans-serif;line-height:1.1"><div style="position:absolute;left:0.000%;top:0.000%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(24 * 0.11292cqw);color:#055F56;font-weight:700">AND</div></div><div style="position:absolute;left:13.415%;top:21.250%;width:6.504%;height:40.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:50%"></div><div style="position:absolute;left:4.065%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:13.008%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:3.659%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;font-weight:700">septic</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;font-weight:700;margin-top:calc(0 * 0.11292cqw)">shock</div></div><div style="position:absolute;left:20.732%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;font-weight:700">fluids</div></div><div style="position:absolute;left:0.000%;top:71.250%;width:33.333%;height:11.250%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;font-style:italic">septic shock AND fluids</div></div><div style="position:absolute;left:0.000%;top:82.500%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#0D7377;font-weight:700">có cả hai: ít kết quả hơn</div></div><div style="position:absolute;left:33.333%;top:0.000%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(24 * 0.11292cqw);color:#055F56;font-weight:700">OR</div></div><div style="position:absolute;left:37.398%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:50%"></div><div style="position:absolute;left:46.341%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:50%"></div><div style="position:absolute;left:37.398%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:46.341%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:36.992%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;font-weight:700">septic</div><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;font-weight:700;margin-top:calc(0 * 0.11292cqw)">shock</div></div><div style="position:absolute;left:54.065%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;font-weight:700">sepsis</div></div><div style="position:absolute;left:33.333%;top:71.250%;width:33.333%;height:11.250%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;font-style:italic">septic shock OR sepsis</div></div><div style="position:absolute;left:33.333%;top:82.500%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#0D7377;font-weight:700">một trong hai: nhiều kết quả hơn</div></div><div style="position:absolute;left:66.667%;top:0.000%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(24 * 0.11292cqw);color:#055F56;font-weight:700">NOT</div></div><div style="position:absolute;left:70.732%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:50%"></div><div style="position:absolute;left:79.675%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#FFFFFF;border-radius:50%"></div><div style="position:absolute;left:70.732%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:79.675%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:70.325%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;font-weight:700">sepsis</div></div><div style="position:absolute;left:87.398%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;font-weight:700">neonatal</div></div><div style="position:absolute;left:66.667%;top:71.250%;width:33.333%;height:11.250%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;font-style:italic">sepsis NOT neonatal</div></div><div style="position:absolute;left:66.667%;top:82.500%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#0D7377;font-weight:700">loại bài: dùng thận trọng</div></div></div>
+```
 
 ::: {.neu-takeaway}
 **THÔNG ĐIỆP CHÍNH** AND thu hẹp, OR mở rộng, NOT loại bỏ. Hạn chế dùng NOT.
@@ -312,7 +216,7 @@ NOT loại mọi bài có nhắc từ thứ hai, kể cả bài tốt chỉ nh�
 
 Mẹo: viết hoa các toán tử, và dùng dấu ngoặc để quyết định thứ tự.
 
-Hỏi cả lớp (chat): 'septic shock AND fluids so với septic shock OR fluids: cái nào nhiều kết quả hơn?' Mong đợi: OR.
+Các vòng tròn là hình PowerPoint chỉnh sửa được: có thể đổi từ tìm kiếm ngay trên slide.
 
 Thời gian: 2 phút.
 :::
@@ -326,7 +230,7 @@ CÂU HỎI NHANH · 2 phút
 ::: {.neu-activity-steps style="--c:#6C3483"}
 - Bạn muốn bài có cả sốc nhiễm khuẩn và hạn chế dịch: dùng toán tử nào?
 - Bạn muốn bài dùng 'restrictive' hoặc 'conservative' cho dịch: toán tử nào?
-- Tìm kiếm ra 40 000 kết quả. Thêm khối AND thứ ba sẽ nhiều hơn hay ít hơn?
+- Tìm kiếm ra 40 nghìn kết quả. Thêm khối AND thứ ba sẽ nhiều hơn hay ít hơn?
 - Vì sao 'sepsis NOT children' là rủi ro?
 :::
 
@@ -340,20 +244,27 @@ CÂU HỎI NHANH · 2 phút
 Thời gian: 2 phút.
 :::
 
-## MeSH: nhãn chung cho nhiều cách viết
+## MeSH: một nhãn chung cho nhiều cách viết
 
-![](images/figures/sat1/mesh_tree.png){.neu-fig}
+::: {.neu-intro}
+MeSH (Medical Subject Headings): bộ nhãn chủ đề cố định mà PubMed gắn cho mỗi bài báo.
+:::
+
+
+```{=html}
+<div style="position:relative;width:100%;aspect-ratio:12.3/3.6;container-type:inline-size;margin:0.2em auto;font-family:Arial,sans-serif;line-height:1.1"><div style="position:absolute;left:0.000%;top:0.000%;width:24.390%;height:11.111%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#8A99A3;font-weight:700">Cách tác giả viết</div></div><div style="position:absolute;left:0.000%;top:13.889%;width:24.390%;height:13.889%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#FFF4D6;border:calc(1.5 * 0.11292cqw) solid #E3B23C;border-radius:0.488cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">septic shock</div></div><div style="position:absolute;left:0.000%;top:31.111%;width:24.390%;height:13.889%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#FFF4D6;border:calc(1.5 * 0.11292cqw) solid #E3B23C;border-radius:0.488cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">sepsis with shock</div></div><div style="position:absolute;left:0.000%;top:48.333%;width:24.390%;height:13.889%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#FFF4D6;border:calc(1.5 * 0.11292cqw) solid #E3B23C;border-radius:0.488cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">vasopressor-dependent sepsis</div></div><div style="position:absolute;left:0.000%;top:65.556%;width:24.390%;height:13.889%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#FFF4D6;border:calc(1.5 * 0.11292cqw) solid #E3B23C;border-radius:0.488cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">refractory septic shock</div></div><div style="position:absolute;left:32.520%;top:29.167%;width:21.138%;height:26.389%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:0.927cqw"><div style="font-size:calc(16 * 0.11292cqw);color:#FFFFFF;font-weight:700">Đề mục MeSH</div><div style="font-size:calc(16 * 0.11292cqw);color:#FFFFFF;font-weight:700;margin-top:calc(1 * 0.11292cqw)">&quot;Shock, Septic&quot;</div></div><svg viewBox="0 0 1230 360" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgmE3B23C27" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E3B23C"/></marker></defs><line x1="276.5" y1="100.8" x2="396.1" y2="125.2" marker-end="url(#dgmE3B23C27)" stroke="#E3B23C" stroke-width="2.78" stroke-linecap="round"/></svg><svg viewBox="0 0 1230 360" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgmE3B23C27" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E3B23C"/></marker></defs><line x1="304.0" y1="143.3" x2="396.0" y2="147.0" marker-end="url(#dgmE3B23C27)" stroke="#E3B23C" stroke-width="2.78" stroke-linecap="round"/></svg><svg viewBox="0 0 1230 360" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgmE3B23C27" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E3B23C"/></marker></defs><line x1="304.0" y1="180.2" x2="396.0" y2="168.9" marker-end="url(#dgmE3B23C27)" stroke="#E3B23C" stroke-width="2.78" stroke-linecap="round"/></svg><svg viewBox="0 0 1230 360" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgmE3B23C27" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E3B23C"/></marker></defs><line x1="241.4" y1="234.9" x2="396.2" y2="190.7" marker-end="url(#dgmE3B23C27)" stroke="#E3B23C" stroke-width="2.78" stroke-linecap="round"/></svg><div style="position:absolute;left:30.894%;top:56.944%;width:24.390%;height:19.444%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#8A99A3;font-style:italic">một nhãn chung cho mọi cách viết</div></div><div style="position:absolute;left:0.000%;top:84.722%;width:55.285%;height:13.889%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#D9822B;font-weight:700">Bài mới có thể chưa được gắn MeSH: thêm từ tự do [tiab]</div></div><div style="position:absolute;left:61.789%;top:0.000%;width:38.211%;height:11.111%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#8A99A3;font-weight:700">Cây MeSH (từ rộng đến hẹp)</div></div><div style="position:absolute;left:61.789%;top:13.889%;width:21.138%;height:13.889%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#5FA39B;border-radius:0.488cqw"><div style="font-size:calc(16 * 0.11292cqw);color:#FFFFFF;font-weight:700">Infections</div></div><div style="position:absolute;left:65.854%;top:31.944%;width:21.138%;height:13.889%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0070C0;border-radius:0.488cqw"><div style="font-size:calc(16 * 0.11292cqw);color:#FFFFFF;font-weight:700">Sepsis</div></div><div style="position:absolute;left:69.919%;top:50.000%;width:21.138%;height:13.889%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:0.488cqw"><div style="font-size:calc(16 * 0.11292cqw);color:#FFFFFF;font-weight:700">Shock, Septic</div></div><svg viewBox="0 0 1230 360" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm8A99A327" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A99A3"/></marker></defs><line x1="785.0" y1="100.0" x2="785.0" y2="140.0" stroke="#8A99A3" stroke-width="2.78" stroke-linecap="round"/></svg><svg viewBox="0 0 1230 360" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm8A99A327" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A99A3"/></marker></defs><line x1="785.0" y1="140.0" x2="810.0" y2="140.0" stroke="#8A99A3" stroke-width="2.78" stroke-linecap="round"/></svg><svg viewBox="0 0 1230 360" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm8A99A327" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A99A3"/></marker></defs><line x1="835.0" y1="165.0" x2="835.0" y2="205.0" stroke="#8A99A3" stroke-width="2.78" stroke-linecap="round"/></svg><svg viewBox="0 0 1230 360" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm8A99A327" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A99A3"/></marker></defs><line x1="835.0" y1="205.0" x2="860.0" y2="205.0" stroke="#8A99A3" stroke-width="2.78" stroke-linecap="round"/></svg><svg viewBox="0 0 1230 360" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm0D737734" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0D7377"/></marker></defs><line x1="665.0" y1="175.0" x2="855.0" y2="205.0" marker-end="url(#dgm0D737734)" stroke="#0D7377" stroke-width="3.47" stroke-linecap="round"/></svg><div style="position:absolute;left:61.789%;top:72.222%;width:38.211%;height:26.389%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(7.2 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.618cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Tìm Sepsis[MeSH] cũng ra các bài được xếp dưới Shock, Septic</div></div></div>
+```
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Tìm cả thuật ngữ MeSH VÀ từ tự do, nối với nhau bằng OR.
+**THÔNG ĐIỆP CHÍNH** Tìm cả thuật ngữ MeSH và từ tự do, nối với nhau bằng OR.
 :::
 
 ::: {.notes}
-MeSH (Medical Subject Headings, Đề mục chủ đề y học) là bộ từ vựng chuẩn của Thư viện Y khoa Quốc gia Hoa Kỳ. Mỗi bài MEDLINE được gắn thuật ngữ MeSH, bất kể tác giả dùng từ gì.
+MeSH (Medical Subject Headings, Đề mục chủ đề y học) là bộ từ vựng chuẩn của Thư viện Y khoa Quốc gia Hoa Kỳ. Người lập chỉ mục gắn thuật ngữ MeSH cho mỗi bài MEDLINE, bất kể tác giả dùng từ gì.
 
-Tìm một thuật ngữ MeSH sẽ gồm luôn các thuật ngữ hẹp hơn bên dưới ('explode', mở rộng). Ví dụ, Sepsis\[MeSH\] bao gồm Shock, Septic.
+Cây MeSH đi từ rộng đến hẹp. Tìm một thuật ngữ MeSH cũng tìm luôn các thuật ngữ hẹp hơn bên dưới: Sepsis\[MeSH\] bao gồm Shock, Septic.
 
-Bài mới nhất có thể chưa được gắn MeSH, nên luôn thêm từ tự do \[tiab\].
+Bài mới nhất có thể chưa được gắn MeSH, nên luôn thêm từ tự do \[tiab\] (\[tiab\] = tiêu đề hoặc tóm tắt).
 
 Hỏi cả lớp (chat): 'MeSH giúp gì cho điều dưỡng tìm về tổn thương do tì đè?' Mong đợi: tác giả viết pressure ulcer, bedsore, decubitus ulcer, và MeSH gom dưới một đề mục.
 
@@ -396,7 +307,7 @@ Học viên không thể biết từ nào là thuật ngữ MeSH. Chỉ cho họ
 
 Cách 1, MeSH Database: trên trang chủ PubMed, mục Explore, bấm 'MeSH Database' (hoặc vào https://www.ncbi.nlm.nih.gov/mesh). Gõ một từ thông dụng. Hồ sơ cho biết đề mục chính thức, định nghĩa, các từ đồng nghĩa mà đề mục gom lại (với Pressure Ulcer: bedsore, decubitus ulcer, pressure injury và các từ khác) và vị trí trong cây MeSH. Nút 'Add to search builder' đưa đề mục sang PubMed.
 
-Cách 2, một bài báo đã biết: mở một bài bạn biết chắc là liên quan (với ta là CLASSIC hoặc Bài báo 1), kéo xuống phần 'MeSH terms' và dùng lại các đề mục khớp với khái niệm của bạn. Phần trình diễn sẽ cho thấy điều này.
+Cách 2, một bài báo đã biết: mở một bài bạn biết chắc là liên quan (ở ví dụ này là CLASSIC hoặc Bài báo 1), kéo xuống phần 'MeSH terms' và dùng lại các đề mục khớp với khái niệm của bạn. Phần trình diễn sẽ cho thấy điều này.
 
 Cách 3, Search details: chạy các từ tự do, rồi mở 'Search details' trên trang Advanced. Cơ chế tự động gắn thuật ngữ của PubMed cho biết nó đã khớp với đề mục MeSH nào.
 
@@ -424,7 +335,7 @@ Thời gian: 2 phút.
 [Thẻ trường]{.neu-card-title}
 
 - \[tiab\] tiêu đề hoặc tóm tắt
-- \[mh\] thuật ngữ MeSH
+- \[mh\] hoặc \[MeSH\] thuật ngữ MeSH
 - \[pt\] loại bài báo
 :::
 ::: {.neu-card .plain style="--c:#0070C0"}
@@ -453,29 +364,91 @@ Quan niệm sai: 'lọc lấy toàn văn miễn phí'. Làm vậy bỏ mất bà
 Thời gian: 3 phút.
 :::
 
+## Từ PICO đến các khối tìm kiếm
+
+::: {.neu-intro}
+Câu hỏi: ở người lớn bị sốc nhiễm khuẩn, hạn chế dịch so với thường quy có giảm tử vong 28 ngày không?
+:::
+
+
+```{=html}
+<div style="position:relative;width:100%;aspect-ratio:12.3/3.1;container-type:inline-size;margin:0.2em auto;font-family:Arial,sans-serif;line-height:1.1"><div style="position:absolute;left:-0.203%;top:0.000%;width:28.862%;height:17.742%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:0.358cqw"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">P:  sốc nhiễm khuẩn</div></div><div style="position:absolute;left:-0.203%;top:17.742%;width:28.862%;height:56.452%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(5.8 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.569cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">&quot;Shock, Septic&quot;[MeSH]</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(2 * 0.11292cqw)">OR &quot;septic shock&quot;[tiab]</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(2 * 0.11292cqw)">OR sepsis[tiab]</div></div><div style="position:absolute;left:29.187%;top:34.355%;width:5.854%;height:23.226%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(0.0 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#055F56;border-radius:50%"><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;font-weight:700">AND</div></div><div style="position:absolute;left:35.569%;top:0.000%;width:28.862%;height:17.742%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0B376C;border-radius:0.358cqw"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">I:  hạn chế dịch</div></div><div style="position:absolute;left:35.569%;top:17.742%;width:28.862%;height:56.452%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(5.8 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.569cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">&quot;Fluid Therapy&quot;[MeSH]</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(2 * 0.11292cqw)">OR &quot;fluid restrict*&quot;[tiab]</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(2 * 0.11292cqw)">OR &quot;restrictive fluid*&quot;[tiab]</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(2 * 0.11292cqw)">OR &quot;conservative fluid*&quot;[tiab]</div></div><div style="position:absolute;left:64.959%;top:34.355%;width:5.854%;height:23.226%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(0.0 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#055F56;border-radius:50%"><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;font-weight:700">AND</div></div><div style="position:absolute;left:71.341%;top:0.000%;width:28.862%;height:17.742%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0070C0;border-radius:0.358cqw"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">O:  tử vong</div></div><div style="position:absolute;left:71.341%;top:17.742%;width:28.862%;height:56.452%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(5.8 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.569cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Mortality[MeSH]</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(2 * 0.11292cqw)">OR mortality[tiab]</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(2 * 0.11292cqw)">OR death[tiab]</div></div><div style="position:absolute;left:2.439%;top:82.258%;width:95.122%;height:16.129%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#595959;font-style:italic">C (thường quy) thường không đưa vào tìm kiếm: cách viết quá đa dạng.</div></div></div>
+```
+
+::: {.neu-takeaway}
+**THÔNG ĐIỆP CHÍNH** Mỗi thành phần PICO một khối: OR trong khối, AND giữa các khối.
+:::
+
+::: {.notes}
+Giờ ghép các phần lại. Mỗi thành phần PICO thành một khối: thuật ngữ MeSH cộng với từ tự do, nối bằng OR. Các khối nối với nhau bằng AND.
+
+Dấu sao (\*) là cắt cụt (truncation): restrictive fluid\* tìm cả 'restrictive fluids'.
+
+Nhóm so sánh (thường quy) thường bỏ ra vì cách viết quá đa dạng.
+
+Lưu ý: PubMed là cơ sở dữ liệu tiếng Anh, nên luôn tìm bằng thuật ngữ tiếng Anh.
+
+Quan niệm sai: 'cứ gõ cả câu hỏi vào PubMed'. Bạn mất kiểm soát từ đồng nghĩa và logic.
+
+Hỏi cả lớp (chat): 'Tác giả còn dùng từ nào cho restrictive?' Mong đợi: conservative, limited, de-resuscitation, fluid removal, negative fluid balance.
+
+Thời gian: 4 phút.
+:::
+
+## Thêm một ví dụ: câu hỏi tại khoa phòng
+
+::: {.neu-intro}
+Câu hỏi: ở người lớn có nguy cơ tại khoa phòng, xoay trở mỗi 2 giờ có làm giảm tổn thương do tì đè mới không?
+:::
+
+
+```{=html}
+<div style="position:relative;width:100%;aspect-ratio:12.3/3.1;container-type:inline-size;margin:0.2em auto;font-family:Arial,sans-serif;line-height:1.1"><div style="position:absolute;left:17.683%;top:0.000%;width:28.862%;height:17.742%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:0.358cqw"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">P + O:  tổn thương do tì đè</div></div><div style="position:absolute;left:17.683%;top:17.742%;width:28.862%;height:56.452%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(5.8 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.569cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">&quot;Pressure Ulcer&quot;[MeSH]</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(2 * 0.11292cqw)">OR &quot;pressure injur*&quot;[tiab]</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(2 * 0.11292cqw)">OR &quot;pressure ulcer*&quot;[tiab]</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(2 * 0.11292cqw)">OR bedsore*[tiab]</div></div><div style="position:absolute;left:47.073%;top:34.355%;width:5.854%;height:23.226%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(0.0 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#055F56;border-radius:50%"><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;font-weight:700">AND</div></div><div style="position:absolute;left:53.455%;top:0.000%;width:28.862%;height:17.742%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0B376C;border-radius:0.358cqw"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">I:  xoay trở</div></div><div style="position:absolute;left:53.455%;top:17.742%;width:28.862%;height:56.452%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(5.8 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.569cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">&quot;Patient Positioning&quot;[MeSH]</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(2 * 0.11292cqw)">OR reposition*[tiab]</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(2 * 0.11292cqw)">OR turning[tiab]</div></div><div style="position:absolute;left:2.439%;top:82.258%;width:95.122%;height:16.129%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#595959;font-style:italic">Ở đây P và O là một ý (tổn thương do tì đè), nên một khối chứa cả hai.</div></div></div>
+```
+
+::: {.neu-takeaway}
+**THÔNG ĐIỆP CHÍNH** Cùng một cách cho mọi chủ đề: OR trong khối, AND giữa các khối.
+:::
+
+::: {.notes}
+Ví dụ thứ hai, từ khoa phòng, để đồng nghiệp ngoài ICU thấy phương pháp dùng được cho mọi chủ đề. Bố cục giống slide trước.
+
+Ở đây P và O cùng một ý (tổn thương do tì đè) nên một khối chứa cả hai. Khối thứ hai là can thiệp.
+
+MeSH: tác giả viết pressure ulcer, pressure injury, bedsore, decubitus. Đề mục MeSH 'Pressure Ulcer' gom tất cả.
+
+Hỏi cả lớp (chat): 'Tác giả còn dùng từ nào cho xoay trở?' Mong đợi: turning, position change, mobilisation, offloading.
+
+Thời gian: 3 phút.
+:::
+
 ## PubMed và Google Scholar
 
 | PubMed | Google Scholar |
 |:---|:---|
-| Phạm vi | Tạp chí y sinh, do chuyên gia lập chỉ mục | Gần như mọi thứ: luận văn, sách, bản thảo, trang web |
-| MeSH (bộ từ vựng chuẩn) | Có | Không |
-| Bộ lọc (thiết kế, tuổi, năm) | Có, nhiều | Ít (năm, tổng quan) |
-| Minh bạch, lặp lại được | Có | Không: cách xếp hạng bị ẩn |
-| "Được trích dẫn bởi" một bài chính | Một phần | Có |
-| Phù hợp nhất cho | Tìm kiếm chính, lặp lại được | Kiểm tra nhanh, tài liệu xám, trích dẫn |
+| Phạm vi tìm | Tạp chí y sinh | Gần như mọi thứ: tạp chí, luận văn, sách, bản thảo trước in |
+| Nhãn MeSH | Có | Không |
+| Bộ lọc (thiết kế, tuổi, năm) | Nhiều | Ít (năm, tổng quan) |
+| Tìm lại sau, kết quả như cũ | Có | Không: cách xếp hạng bị ẩn |
+| Tìm bài mới hơn có trích dẫn một bài | Một phần | Có ('Cited by') |
+| Dùng để | Tìm kiếm chính, có ghi lại | Kiểm tra xem có sót bài nào không |
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** PubMed cho tìm kiếm chính. Google Scholar để kiểm tra và theo dấu trích dẫn.
+**THÔNG ĐIỆP CHÍNH** PubMed cho tìm kiếm chính. Google Scholar để kiểm tra xem có sót bài nào không.
 :::
 
 ::: {.notes}
-PubMed: miễn phí, do Thư viện Y khoa Quốc gia Hoa Kỳ vận hành, tạp chí y sinh, MeSH, nhiều bộ lọc, tìm kiếm minh bạch, lặp lại được.
+PubMed: miễn phí, do Thư viện Y khoa Quốc gia Hoa Kỳ vận hành, tạp chí y sinh, có nhãn MeSH, nhiều bộ lọc. Cùng một chuỗi tìm kiếm cho cùng kết quả về sau, nên có thể báo cáo và lặp lại.
 
-Google Scholar: rất rộng (luận văn, sách, bản thảo trước in), tốt cho tài liệu xám và 'Cited by', nhưng xếp hạng bị ẩn, ít bộ lọc, khó lặp lại.
+Google Scholar: rất rộng (luận văn, sách, bản thảo trước in), nhưng xếp hạng kết quả theo cách bị ẩn, ít bộ lọc và khó lặp lại.
 
-PubMed không phải cơ sở dữ liệu duy nhất. Embase, Thư viện Cochrane, Web of Science, Scopus và CINAHL (cho điều dưỡng) là các nguồn chuẩn khác. Một tổng quan hệ thống tìm trên nhiều nguồn trong số đó (slide bổ sung 'Ngoài PubMed'). Với đề cương ở Cấp độ 1, PubMed cộng một sổ đăng ký thử nghiệm là đủ.
+Dòng 'Tìm bài mới hơn có trích dẫn một bài': mở một thử nghiệm quan trọng và bấm 'Cited by' để thấy mọi bài về sau có trích dẫn nó. Đây là cách tìm nghiên cứu mới và những bài chuỗi PubMed bỏ sót. PubMed chỉ cho thấy điều này với các bài trong PubMed Central.
 
-Hỏi cả lớp (chat): 'Đồng nghiệp tìm được bài hoàn hảo trên Google Scholar. Cần kiểm tra gì?' Mong đợi: đã bình duyệt chưa hay chỉ là preprint? Tạp chí có uy tín không? (Tạp chí săn mồi: Buổi 8.)
+Tóm lại: chạy và báo cáo tìm kiếm trên PubMed, rồi dùng Scholar để kiểm tra không sót bài quan trọng nào.
+
+Các cơ sở dữ liệu khác (Embase, Thư viện Cochrane, Web of Science, Scopus, CINAHL) có ở slide bổ sung 'Ngoài PubMed'. Với đề cương ở Cấp độ 1, PubMed cộng một sổ đăng ký thử nghiệm là đủ.
+
+Hỏi cả lớp (chat): 'Đồng nghiệp tìm được bài hoàn hảo trên Google Scholar. Cần kiểm tra gì?' Mong đợi: đã bình duyệt chưa hay chỉ là bản thảo trước in? Tạp chí có uy tín không? (Tạp chí săn mồi: Buổi 8.)
 
 Thời gian: 2 phút.
 :::
@@ -525,7 +498,7 @@ Hỏi cả lớp (chat): 'Có ai từng bắt đầu một dự án rồi mới 
 Thời gian: 2 phút.
 :::
 
-## Trình diễn: tìm câu hỏi của chúng ta trên PubMed
+## Trình diễn: tìm trên PubMed cho ví dụ xuyên suốt
 
 ::: {.neu-banner style="--c:#B5651D"}
 TRÌNH DIỄN TRỰC TIẾP · 10 phút
@@ -562,7 +535,7 @@ Làm theo Course/Demos/s2\_demo.md, Phần A (PubMed): chuỗi tìm kiếm chín
 
 Không hứa số kết quả. Dự kiến hàng chục nghìn cho 'septic shock' và vài nghìn cho chuỗi PICO đầy đủ. Con số thay đổi hằng ngày.
 
-CLASSIC (lần đầu ta nhắc đến): một thử nghiệm ngẫu nhiên lớn, Meyhoff và cộng sự, N Engl J Med 2022, 'Restriction of Intravenous Fluid in ICU Patients with Septic Shock'. Tên viết tắt của Conservative versus Liberal Approach to Fluid Therapy of Septic Shock in Intensive Care (cách tiếp cận hạn chế so với tự do trong truyền dịch cho sốc nhiễm khuẩn tại hồi sức). Ở 1 554 người lớn bị sốc nhiễm khuẩn tại các ICU châu Âu, hạn chế dịch truyền tĩnh mạch không làm thay đổi tử vong 90 ngày. Đây là thử nghiệm chính đằng sau ví dụ xuyên suốt, nên hãy giải thích khi nó xuất hiện trong kết quả.
+CLASSIC (lần đầu được nhắc đến): một thử nghiệm ngẫu nhiên lớn, Meyhoff và cộng sự, N Engl J Med 2022, 'Restriction of Intravenous Fluid in ICU Patients with Septic Shock'. Tên viết tắt của Conservative versus Liberal Approach to Fluid Therapy of Septic Shock in Intensive Care (cách tiếp cận hạn chế so với tự do trong truyền dịch cho sốc nhiễm khuẩn tại hồi sức). Ở 1554 người lớn bị sốc nhiễm khuẩn tại các ICU châu Âu, hạn chế dịch truyền tĩnh mạch không làm thay đổi tử vong 90 ngày. Đây là thử nghiệm chính đằng sau ví dụ xuyên suốt, nên hãy giải thích khi nó xuất hiện trong kết quả.
 
 Chia sẻ màn hình. Nói chậm và dừng sau mỗi bước để học viên ghi số kết quả vào phiếu. Mời lớp gợi ý từ đồng nghĩa cho các khối trong chat và thêm trực tiếp một, hai từ.
 
@@ -586,7 +559,7 @@ BÀI TẬP CÁ NHÂN · 5 phút
 :::
 
 ::: {.neu-output style="--c:#0B376C"}
-**SẢN PHẨM** Một chuỗi tìm kiếm cho câu hỏi của bạn, để chạy trong Xây dựng đề cương 2
+**SẢN PHẨM** Một chuỗi tìm kiếm cho câu hỏi của bạn, để chạy trên PubMed ở cuối buổi hôm nay
 :::
 
 ::: {.notes}
@@ -609,7 +582,7 @@ Giữ lại mọi tài liệu bạn tìm được, và dùng công trình của 
 :::
 
 ::: {.neu-sub}
-20 phút: phần mềm quản lý tài liệu (trình diễn Zotero), kiểu trích dẫn, diễn đạt lại an toàn, tài liệu xám
+20 phút: phần mềm quản lý tài liệu, kiểu trích dẫn, trình diễn Zotero, diễn đạt lại an toàn, tài liệu xám
 :::
 ::::
 
@@ -671,50 +644,6 @@ Quan niệm sai: 'cuối cùng mới xử lý tài liệu tham khảo'. Lưu nga
 Thời gian: 2 phút.
 :::
 
-## Trình diễn: từ PubMed sang Zotero đến Word
-
-::: {.neu-banner style="--c:#B5651D"}
-TRÌNH DIỄN TRỰC TIẾP · 5 phút
-:::
-
-:::: {.columns}
-::: {.column width="60%"}
-::: {.neu-activity-steps style="--c:#B5651D"}
-- Nhập tệp .nbib từ phần trình diễn PubMed vào Zotero
-- Xem: tác giả, tiêu đề, tạp chí, năm, DOI, không gõ tay gì cả
-- Trong Word, ở thẻ Zotero, bấm 'Add/Edit Citation' và gõ Meyhoff
-- Bấm 'Add/Edit Bibliography': danh mục tài liệu xuất hiện
-- Mở 'Document Preferences': đổi Vancouver sang APA rồi đổi lại
-:::
-:::
-::: {.column width="40%"}
-::: {.neu-side .plain style="--c:#B5651D"}
-Hãy để ý
-
-- \[1\] thành (Meyhoff et al., 2022)
-- Danh mục tự định dạng lại
-:::
-:::
-::::
-
-::: {.neu-output style="--c:#B5651D"}
-**SẢN PHẨM** Mọi người đã thấy trọn chu trình: gom, trích dẫn, lập danh mục
-:::
-
-::: {.notes}
-Kịch bản cho giảng viên: Course/Demos/s2\_demo.md, Phần B (Bước 6), gồm chỗ cần bấm, lời cần nói và cách xử lý khi Zotero lỗi. Cùng kịch bản đó có ở Course/Demos/s2\_demo.pdf và trang 'Trình diễn Buổi 2' trên website khóa học.
-
-Các từ trong dấu nháy trên slide là tên nút của Zotero trong Word, giữ nguyên tiếng Anh.
-
-Chuẩn bị: Zotero desktop và plug-in Word đã cài, một thư viện thử trống, một tài liệu Word trắng.
-
-Mọi người đã cài Zotero ở bài về nhà Buổi 1, nên có thể làm lại từng bước trên máy của mình. Ai cài chưa được thì xem lúc này và sửa sau buổi học với giảng viên thứ hai.
-
-Nếu Zotero lỗi, dùng ảnh chụp màn hình và nói 'cùng tệp này dùng được trong Mendeley và EndNote'.
-
-Thời gian: 5 phút.
-:::
-
 ## Kiểu trích dẫn: một bài, hai cách trình bày
 
 ::: {.neu-intro}
@@ -751,9 +680,53 @@ Mỗi tạp chí nêu kiểu trích dẫn trong 'Hướng dẫn cho tác giả' 
 
 Ý chính: trích dẫn giúp người đọc kiểm tra nhận định của bạn. Khi có thể, hãy trích nghiên cứu gốc cho dữ kiện và con số, không trích bài tổng quan nhắc lại nó.
 
-Hỏi cả lớp (chat): 'Kiểu nào dùng \[1\]?' Mong đợi: Vancouver.
+Hỏi cả lớp (chat): 'Kiểu nào dùng \[1\]?' Mong đợi: Vancouver. Ngay sau đây, phần trình diễn Zotero đổi qua lại giữa hai kiểu này.
 
 Thời gian: 2 phút.
+:::
+
+## Trình diễn: từ PubMed sang Zotero đến Word
+
+::: {.neu-banner style="--c:#B5651D"}
+TRÌNH DIỄN TRỰC TIẾP · 5 phút
+:::
+
+:::: {.columns}
+::: {.column width="60%"}
+::: {.neu-activity-steps style="--c:#B5651D"}
+- Trong Zotero: File, Import, rồi chọn tệp .nbib đã lưu ở phần trình diễn PubMed
+- Kiểm tra mục vừa nhập: tác giả, tiêu đề, tạp chí, năm, DOI, không gõ tay gì cả
+- Trong Word, thẻ Zotero: 'Add/Edit Citation', rồi gõ Meyhoff (tác giả đầu của CLASSIC)
+- Bấm 'Add/Edit Bibliography': danh mục tài liệu xuất hiện
+- Bấm 'Document Preferences': đổi Vancouver sang APA rồi đổi lại
+:::
+:::
+::: {.column width="40%"}
+::: {.neu-side .plain style="--c:#B5651D"}
+Hãy để ý
+
+- \[1\] thành (Meyhoff et al., 2022)
+- Danh mục tự định dạng lại
+:::
+:::
+::::
+
+::: {.neu-output style="--c:#B5651D"}
+**SẢN PHẨM** Mọi người đã thấy trọn chu trình: gom, xuất, nhập, trích dẫn, lập danh mục
+:::
+
+::: {.notes}
+Kịch bản cho giảng viên: Course/Demos/s2\_demo.md, Phần B (Bước 6), gồm chỗ cần bấm, lời cần nói và cách xử lý khi Zotero lỗi. Cùng kịch bản đó có ở Course/Demos/s2\_demo.pdf và trang 'Trình diễn Buổi 2' trên website khóa học.
+
+Các từ trong dấu nháy trên slide là tên nút của Zotero trong Word, giữ nguyên tiếng Anh.
+
+Chuẩn bị: Zotero desktop và plug-in Word đã cài, một thư viện thử trống, một tài liệu Word trắng.
+
+Mọi người đã cài Zotero ở bài về nhà Buổi 1, nên có thể làm lại từng bước trên máy của mình. Ai cài chưa được thì xem lúc này và sửa sau buổi học với giảng viên thứ hai.
+
+Nếu Zotero lỗi, dùng ảnh chụp màn hình và nói 'cùng tệp này dùng được trong Mendeley và EndNote'.
+
+Thời gian: 5 phút.
 :::
 
 ## Trích dẫn và sao chép: diễn đạt lại an toàn
@@ -868,10 +841,13 @@ Thời gian: 2 phút.
 
 ## Tài liệu xám, kể cả sổ đăng ký thử nghiệm
 
-![](images/figures/sat1/grey_iceberg.png){.neu-fig}
+
+```{=html}
+<div style="position:relative;width:100%;aspect-ratio:12.3/4.2;container-type:inline-size;margin:0.2em auto;font-family:Arial,sans-serif;line-height:1.1"><div style="position:absolute;left:0.000%;top:32.143%;width:53.659%;height:67.857%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#DCEBF2"></div><svg viewBox="0 0 1230 420" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm0070C034" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0070C0"/></marker></defs><line x1="0.0" y1="135.0" x2="660.0" y2="135.0" stroke="#0070C0" stroke-width="3.47" stroke-linecap="round"/></svg><div style="position:absolute;left:13.008%;top:0.000%;width:27.642%;height:32.143%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#FFFFFF;border:calc(2 * 0.11292cqw) solid #0070C0;clip-path:polygon(49.24% 0,50.76% 0,100% 100%,0 100%);padding-left:13.610cqw;padding-right:13.610cqw"></div><div style="position:absolute;left:16.260%;top:17.143%;width:21.138%;height:14.286%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(14 * 0.11292cqw);color:#0B376C;font-weight:700">Bài báo tạp chí</div><div style="font-size:calc(14 * 0.11292cqw);color:#0B376C;font-weight:700;margin-top:calc(0 * 0.11292cqw)">(PubMed)</div></div><div style="position:absolute;left:3.659%;top:34.524%;width:46.341%;height:63.095%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#F4FAFC;border:calc(2 * 0.11292cqw) solid #0070C0;border-radius:6.463cqw"></div><div style="position:absolute;left:3.659%;top:36.905%;width:46.341%;height:10.714%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(17 * 0.11292cqw);color:#055F56;font-weight:700">Tài liệu xám</div></div><div style="position:absolute;left:5.691%;top:48.810%;width:42.276%;height:45.238%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;justify-content:flex-start"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Sổ đăng ký thử nghiệm (ClinicalTrials.gov, WHO ICTRP)</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(5 * 0.11292cqw)">Tóm tắt hội nghị</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(5 * 0.11292cqw)">Luận văn, luận án</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(5 * 0.11292cqw)">Báo cáo, hướng dẫn, bản thảo trước in (preprint)</div></div><div style="position:absolute;left:57.724%;top:1.190%;width:42.276%;height:41.667%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(8.6 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#FFFFFF;border:calc(2 * 0.11292cqw) solid #055F56;border-radius:1.138cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#055F56;font-weight:700">Vì sao cần tìm dưới mặt nước?</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">Thử nghiệm có kết quả âm tính ít được công bố hơn (sai lệch xuất bản).</div></div><div style="position:absolute;left:57.724%;top:48.810%;width:42.276%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(8.6 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#FFFFFF;border:calc(2 * 0.11292cqw) solid #055F56;border-radius:1.366cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#055F56;font-weight:700">Sổ đăng ký thử nghiệm</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">Hồ sơ công khai của một thử nghiệm, lập trước khi tuyển người bệnh đầu tiên.</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">So sánh kết cục chính dự kiến với bài báo.</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">Bài báo 1: NCT04947904</div></div></div>
+```
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Hãy nhìn dưới mặt nước: tìm trong tài liệu xám, kể cả sổ đăng ký thử nghiệm, làm giảm sai lệch xuất bản.
+**THÔNG ĐIỆP CHÍNH** Tìm cả phần dưới mặt nước: tài liệu xám và sổ đăng ký thử nghiệm.
 :::
 
 ::: {.notes}
@@ -938,7 +914,10 @@ Thời gian: 30 giây.
 
 ## Cấu trúc bài báo: IMRaD
 
-![](images/figures/sat1/imrad_hourglass.png){.neu-fig}
+
+```{=html}
+<div style="position:relative;width:100%;aspect-ratio:12.3/4.3;container-type:inline-size;margin:0.2em auto;font-family:Arial,sans-serif;line-height:1.1"><div style="position:absolute;left:1.626%;top:0.000%;width:34.146%;height:12.791%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#055F56;border-radius:0.894cqw"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">Tiêu đề + tóm tắt</div></div><svg viewBox="0 0 1230 430" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm055F5627" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#055F56"/></marker></defs><line x1="450.0" y1="27.5" x2="580.0" y2="27.5" stroke="#055F56" stroke-width="2.78" stroke-linecap="round" stroke-dasharray="6 5"/></svg><div style="position:absolute;left:48.374%;top:-0.581%;width:51.626%;height:13.953%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(17 * 0.11292cqw);color:#1A1A1A">Đọc đầu tiên: bài báo nói về gì?</div></div><div style="position:absolute;left:1.626%;top:14.651%;width:34.146%;height:22.093%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;clip-path:polygon(0 0,100% 0,80% 100%,20% 100%);padding-left:10%;padding-right:10%"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">Đặt vấn đề</div></div><svg viewBox="0 0 1230 430" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm0D737727" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0D7377"/></marker></defs><line x1="401.0" y1="110.5" x2="515.0" y2="110.5" stroke="#0D7377" stroke-width="2.78" stroke-linecap="round" stroke-dasharray="6 5"/></svg><div style="position:absolute;left:42.276%;top:19.419%;width:4.390%;height:12.558%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(0.0 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:50%"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">I</div></div><div style="position:absolute;left:48.374%;top:18.721%;width:51.626%;height:13.953%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(17 * 0.11292cqw);color:#1A1A1A">Vì sao? Từ rộng đến hẹp, kết thúc bằng câu hỏi</div></div><div style="position:absolute;left:8.455%;top:38.605%;width:20.488%;height:17.442%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0B376C"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">Phương pháp</div></div><svg viewBox="0 0 1230 430" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm0B376C27" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0B376C"/></marker></defs><line x1="366.0" y1="203.5" x2="515.0" y2="203.5" stroke="#0B376C" stroke-width="2.78" stroke-linecap="round" stroke-dasharray="6 5"/></svg><div style="position:absolute;left:42.276%;top:41.047%;width:4.390%;height:12.558%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(0.0 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0B376C;border-radius:50%"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">M</div></div><div style="position:absolute;left:48.374%;top:40.349%;width:51.626%;height:13.953%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(17 * 0.11292cqw);color:#1A1A1A">Đã làm gì? Đủ chi tiết để làm lại</div></div><div style="position:absolute;left:8.455%;top:57.907%;width:20.488%;height:17.442%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0070C0"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">Kết quả</div></div><svg viewBox="0 0 1230 430" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm0070C027" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0070C0"/></marker></defs><line x1="366.0" y1="286.5" x2="515.0" y2="286.5" stroke="#0070C0" stroke-width="2.78" stroke-linecap="round" stroke-dasharray="6 5"/></svg><div style="position:absolute;left:42.276%;top:60.349%;width:4.390%;height:12.558%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(0.0 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0070C0;border-radius:50%"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">R</div></div><div style="position:absolute;left:48.374%;top:59.651%;width:51.626%;height:13.953%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(17 * 0.11292cqw);color:#1A1A1A">Tìm thấy gì? Con số, không bình luận</div></div><div style="position:absolute;left:1.626%;top:77.209%;width:34.146%;height:22.093%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#5FA39B;clip-path:polygon(20.00% 0,80.00% 0,100% 100%,0 100%);padding-left:6.829cqw;padding-right:6.829cqw"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">Bàn luận</div></div><svg viewBox="0 0 1230 430" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm5FA39B27" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5FA39B"/></marker></defs><line x1="401.0" y1="379.5" x2="515.0" y2="379.5" stroke="#5FA39B" stroke-width="2.78" stroke-linecap="round" stroke-dasharray="6 5"/></svg><div style="position:absolute;left:42.276%;top:81.977%;width:4.390%;height:12.558%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(0.0 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#5FA39B;border-radius:50%"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">D</div></div><div style="position:absolute;left:48.374%;top:81.279%;width:51.626%;height:13.953%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(17 * 0.11292cqw);color:#1A1A1A">Ý nghĩa là gì? Từ hẹp ra rộng, nêu hạn chế</div></div></div>
+```
 
 ::: {.neu-takeaway}
 **THÔNG ĐIỆP CHÍNH** Mọi bài báo gốc có cùng hình dạng: vì sao, làm gì, thấy gì, ý nghĩa gì.
@@ -947,7 +926,7 @@ Thời gian: 30 giây.
 ::: {.notes}
 IMRaD = Đặt vấn đề (Introduction), Phương pháp (Methods), Kết quả (Results) và Bàn luận (Discussion): cấu trúc chuẩn của bài báo nghiên cứu gốc.
 
-Tiêu đề và tóm tắt nằm trên IMRaD. Chúng không phải một chữ cái của IMRaD, vì vậy chúng đứng đầu trong hình. Chữ 'a' viết thường trong IMRaD là 'and' (và), không phải 'abstract' (tóm tắt).
+Tiêu đề và tóm tắt nằm trên IMRaD và được đọc đầu tiên. Chúng không phải một chữ cái của IMRaD. Chữ 'a' viết thường trong IMRaD là 'and' (và), không phải 'abstract' (tóm tắt).
 
 Đồng hồ cát: Đặt vấn đề thu hẹp từ vấn đề rộng đến câu hỏi cụ thể. Phương pháp và Kết quả hẹp và thuần dữ kiện. Bàn luận mở rộng lại tới ý nghĩa cho thực hành.
 
@@ -1195,11 +1174,11 @@ Thời gian: 12 phút. Đáp án ở slide sau.
 
 | Mục | Bài báo 1 ghi gì |
 |:---|:---|
-| Thiết kế | RCT thử nghiệm, mù đơn (người bệnh và nhà thống kê), 3 ICU |
+| Thiết kế | RCT thí điểm (pilot RCT), mù đơn (người bệnh và nhà thống kê), 3 ICU |
 | P | Người lớn 18-85 tuổi, sốc nhiễm khuẩn, 24 giờ đầu dùng vận mạch |
 | I vs C | Hạn chế dịch duy trì và dịch pha thuốc (7 ngày) vs tiêu chuẩn |
 | Kết cục chính | Cân bằng dịch tích lũy ngày 5 (ml/kg) |
-| Số lượng | 1 201 sàng lọc, 50 phân nhóm, 48 phân tích (24 mỗi nhóm) |
+| Số lượng | 1201 sàng lọc, 50 phân nhóm, 48 phân tích (24 mỗi nhóm) |
 | **Kết quả chính** | **Trung vị 6.9 vs 35.0 ml/kg. Chênh lệch 13.2 (KTC 95% -15.2 đến 41.6), p = 0.42** |
 | **Kết luận** | Không giảm cân bằng dịch ngày 5 (khớp với kết quả) |
 | Đăng ký | ClinicalTrials.gov NCT04947904 |
@@ -1211,11 +1190,11 @@ Thời gian: 12 phút. Đáp án ở slide sau.
 ::: {.notes}
 Đi nhanh qua bảng. Hỏi từng dòng trong chat trước khi hiện đáp án.
 
-Điểm chính. (1) Thử nghiệm pilot (thí điểm) với 48 người bệnh được phân tích. (2) Kết cục chính là cân bằng dịch tích lũy ngày 5, không phải tử vong. (3) KTC của chênh lệch (-15.2 đến 41.6 ml/kg) chứa số 0, nên không có bằng chứng khác biệt. (4) Kết luận tóm tắt khớp với kết quả (thực hành tốt). (5) Thử nghiệm đã được đăng ký.
+Điểm chính. (1) Thử nghiệm thí điểm (pilot) với 48 người bệnh được phân tích. (2) Kết cục chính là cân bằng dịch tích lũy ngày 5, không phải tử vong. (3) KTC của chênh lệch (-15.2 đến 41.6 ml/kg) chứa số 0, nên không có bằng chứng khác biệt. (4) Kết luận tóm tắt khớp với kết quả (thực hành tốt). (5) Thử nghiệm đã được đăng ký.
 
 Nếu có học viên tinh ý hỏi: trung vị (6.9 vs 35.0 ml/kg) chênh nhau nhiều hơn mức chênh lệch được báo cáo 13.2 vì 13.2 là chênh lệch giữa hai trung bình (phần Phương pháp báo cáo chênh lệch trung bình kèm KTC 95%), không phải chênh lệch giữa hai trung vị. Bản chú giải của khóa học có nêu điểm không khớp này. Để dành cho Buổi 6-8.
 
-Liên hệ câu hỏi của ta: thử nghiệm này không trả lời câu hỏi tử vong 28 ngày. Nó trả lời câu hỏi kiểu khả thi về cân bằng dịch. Đó chính là 'phiên bản khả thi' ở slide FINER.
+Liên hệ với ví dụ xuyên suốt: thử nghiệm này không trả lời câu hỏi tử vong 28 ngày. Nó trả lời câu hỏi kiểu khả thi về cân bằng dịch. Đó chính là 'phiên bản khả thi' ở slide FINER.
 
 Thời gian: 5 phút, đi từng dòng. Phần 2.3 kết thúc lúc 2:05.
 :::
@@ -1228,14 +1207,14 @@ Các bài báo bạn đọc trở thành trang đầu tiên của đề cương.
 :::
 
 ::: {.neu-sub}
-15 phút: bảng ma trận tài liệu, phễu đặt vấn đề, một đoạn đặt vấn đề mẫu, tên đề tài tạm và từ khóa
+15 phút: phiếu tổng quan tài liệu, phễu đặt vấn đề, một phần đặt vấn đề mẫu, tên đề tài tạm và từ khóa
 :::
 ::::
 
 ::: {.notes}
 PHẦN 2.4 (2:05-2:20, 21:35-21:50).
 
-Ý chính: đọc chưa phải là xong. Bảng ma trận tài liệu biến các bài báo thành khoảng trống, khoảng trống thành phần đặt vấn đề, và PICO thành tên đề tài tạm.
+Ý chính: đọc chưa phải là xong. Phiếu tổng quan tài liệu biến các bài báo thành khoảng trống, khoảng trống thành phần đặt vấn đề, và PICO thành tên đề tài tạm.
 
 Thời gian: 30 giây.
 :::
@@ -1244,9 +1223,9 @@ Thời gian: 30 giây.
 
 | Nghiên cứu | Thiết kế, cỡ mẫu | So sánh | Kết cục chính: kết quả | Hạn chế chính |
 |:---|:---|:---|:---|:---|
-| Boulet 2024 Crit Care | RCT thử nghiệm, 3 ICU, n = 48 | Hạn chế dịch "ẩn" vs tiêu chuẩn | Cân bằng dịch ngày 5: khác biệt không ý nghĩa | Cỡ mẫu nhỏ, không đủ lực cho tử vong |
+| Boulet 2024 Crit Care | RCT thí điểm (pilot RCT), 3 ICU, n = 48 | Hạn chế dịch "ẩn" vs tiêu chuẩn | Cân bằng dịch ngày 5: khác biệt không ý nghĩa | Cỡ mẫu nhỏ, không đủ lực cho tử vong |
 | Hyun 2023 Ann Intensive Care | Thuần tập ghép cặp, sổ đăng ký, 20 BV | Cân bằng dịch dương vs âm | Tử vong 28 ngày cao hơn nếu dương ở ngày 2-3 | Quan sát: có thể có yếu tố gây nhiễu |
-| Meyhoff 2022 N Engl J Med | RCT lớn (CLASSIC), n = 1 554 | Hạn chế vs dịch tĩnh mạch chuẩn | Tử vong 90 ngày 42.3% vs 42.1%: không khác | Bác sĩ không được làm mù |
+| Meyhoff 2022 N Engl J Med | RCT lớn (CLASSIC), n = 1554 | Hạn chế vs dịch tĩnh mạch chuẩn | Tử vong 90 ngày 42.3% vs 42.1%: không khác | Bác sĩ không được làm mù |
 | **[Bài báo 4 của bạn]{style="color:#595959"}** | [...]{style="color:#595959"} | [...]{style="color:#595959"} | [...]{style="color:#595959"} | [...]{style="color:#595959"} |
 
 ::: {.neu-takeaway}
@@ -1256,9 +1235,9 @@ Thời gian: 30 giây.
 ::: {.notes}
 Phiếu nằm trong Course/Templates (phiếu tổng quan tài liệu, literature review worksheet). Mỗi bài một dòng, các cột giống nhau.
 
-Dòng 1-3 là các bài của khóa học: Bài báo 1 (Boulet 2024, RCT thử nghiệm: cân bằng dịch, khác biệt không có ý nghĩa), Bài báo 2 (Hyun 2023, thuần tập ghép cặp: cân bằng dương ở ngày 2-3 liên quan với tử vong 28 ngày cao hơn), và CLASSIC (Meyhoff 2022: không khác biệt tử vong 90 ngày).
+Dòng 1-3 là các bài của khóa học: Bài báo 1 (Boulet 2024, RCT thí điểm: cân bằng dịch, khác biệt không có ý nghĩa), Bài báo 2 (Hyun 2023, thuần tập ghép cặp: cân bằng dương ở ngày 2-3 liên quan với tử vong 28 ngày cao hơn), và CLASSIC (Meyhoff 2022: không khác biệt tử vong 90 ngày).
 
-Lưu ý: ba bài đo kết cục khác nhau ở thời điểm khác nhau. Bảng ma trận làm điều này lộ ra ngay.
+Lưu ý: ba bài đo kết cục khác nhau ở thời điểm khác nhau. Phiếu tổng quan làm điều này lộ ra ngay.
 
 Ý chính: cột 'hạn chế chính' là nơi khoảng trống, và lý do cho nghiên cứu của bạn, xuất hiện.
 
@@ -1267,52 +1246,54 @@ Thời gian: 3 phút.
 
 ## Từ y văn đến phần Đặt vấn đề
 
-![](images/figures/sat1/problem_funnel.png){.neu-fig}
+
+```{=html}
+<div style="position:relative;width:100%;aspect-ratio:12.3/4.2;container-type:inline-size;margin:0.2em auto;font-family:Arial,sans-serif;line-height:1.1"><div style="position:absolute;left:0.000%;top:0.000%;width:65.041%;height:26.190%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#5FA39B;border-radius:1.341cqw"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">Điều đã biết</div><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;margin-top:calc(3 * 0.11292cqw)">Vấn đề và thực hành hiện nay, có trích dẫn</div></div><svg viewBox="0 0 1230 420" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm8A99A341" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A99A3"/></marker></defs><line x1="400.0" y1="113.0" x2="400.0" y2="142.0" marker-end="url(#dgm8A99A341)" stroke="#8A99A3" stroke-width="4.17" stroke-linecap="round"/></svg><div style="position:absolute;left:5.285%;top:34.524%;width:54.472%;height:26.190%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0070C0;border-radius:1.341cqw"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">Điều chưa biết</div><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;margin-top:calc(3 * 0.11292cqw)">Khoảng trống: nghiên cứu mâu thuẫn, quá nhỏ hoặc chưa đo</div></div><svg viewBox="0 0 1230 420" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm8A99A341" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A99A3"/></marker></defs><line x1="400.0" y1="258.0" x2="400.0" y2="287.0" marker-end="url(#dgm8A99A341)" stroke="#8A99A3" stroke-width="4.17" stroke-linecap="round"/></svg><div style="position:absolute;left:10.569%;top:69.048%;width:43.902%;height:26.190%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#055F56;border-radius:1.341cqw"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">Câu hỏi và mục tiêu</div><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;margin-top:calc(3 * 0.11292cqw)">Câu hỏi PICO, mục đích và mục tiêu của bạn</div></div><div style="position:absolute;left:70.732%;top:0.000%;width:29.268%;height:45.238%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(8.6 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:1.236cqw"><div style="font-size:calc(16 * 0.11292cqw);color:#055F56;font-weight:700">Phần Đặt vấn đề</div><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">3 đoạn ngắn</div><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">Khoảng 300 từ</div><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">Mỗi dữ kiện có trích dẫn</div></div><div style="position:absolute;left:70.732%;top:51.190%;width:29.268%;height:48.810%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(8.6 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#FFFFFF;border:calc(2 * 0.11292cqw) solid #D9822B;border-radius:1.333cqw"><div style="font-size:calc(16 * 0.11292cqw);color:#D9822B;font-weight:700">Không đưa vào Đặt vấn đề</div><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">Số liệu hoặc kết quả của chính bạn</div><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">Số liệu địa phương chỉ khi đã công bố, có trích dẫn</div></div></div>
+```
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Đã biết, chưa biết, vì sao ở đây: rồi câu hỏi tự nhiên xuất hiện.
+**THÔNG ĐIỆP CHÍNH** Đã biết, rồi chưa biết, rồi câu hỏi và mục tiêu.
 :::
 
 ::: {.notes}
 Các bài báo bạn đọc trở thành phần Đặt vấn đề của đề cương. Đó là cùng cái phễu như phần trên của đồng hồ cát IMRaD.
 
-Đoạn 1, điều đã biết: quy mô vấn đề và thực hành hiện tại, có trích dẫn.
+Đoạn 1, điều đã biết: quy mô vấn đề và thực hành hiện nay, có trích dẫn.
 
-Đoạn 2, điều chưa biết: khoảng trống (nghiên cứu mâu thuẫn, chưa có nghiên cứu trên người bệnh như của ta, kết cục chưa được đo). Cột 'hạn chế' trong bảng ma trận tài liệu nuôi đoạn này.
+Đoạn 2, điều chưa biết: khoảng trống (nghiên cứu mâu thuẫn, nghiên cứu quá nhỏ, kết cục chưa được đo). Cột 'hạn chế chính' trong phiếu tổng quan tài liệu là nguồn cho đoạn này.
 
-Đoạn 3, vì sao quan trọng ở đây: số liệu tại chỗ (audit, phân tích sự cố, một con số của khoa). Sau đó nêu câu hỏi và mục đích.
+Đoạn 3: câu hỏi nghiên cứu, mục đích và mục tiêu, nảy ra từ khoảng trống.
 
-Quan niệm sai: 'phần tổng quan phải điểm lại mọi thứ đã viết'. Phần mở đầu Bài báo 1 đi hết cái phễu trong chưa đến 500 từ.
+Nguyên tắc khoa học: phần Đặt vấn đề không bao giờ chứa số liệu hay kết quả của chính bạn, kể cả kết quả đánh giá thực hành (audit) tại khoa. Kết quả thuộc về phần Kết quả. Số liệu địa phương (ví dụ một tỷ lệ toàn quốc hoặc khu vực) chỉ được dùng khi đã được công bố, kèm trích dẫn.
+
+Quan niệm sai: 'phần tổng quan phải điểm lại mọi thứ đã viết'. Phần Đặt vấn đề của Bài báo 1 đi hết cái phễu trong chưa đến 500 từ.
 
 Thời gian: 3 phút.
 :::
 
-## Một đoạn đặt vấn đề mẫu
+## Một phần đặt vấn đề mẫu
 
-| Đoạn | Văn bản mẫu |
-|:---|:---|
-| 1  Điều đã biết | Sốc nhiễm khuẩn là nguyên nhân tử vong hàng đầu ở ICU. Dịch sớm cải thiện tưới máu, nhưng truyền tiếp thường gây cân bằng dịch dương, điều mà các nghiên cứu thuần tập thấy liên quan với tử vong cao hơn \[2\]. |
-| 2  Điều chưa biết | Các thử nghiệm lớn về hạn chế dịch không thấy khác biệt tử vong \[3, 4\], và một pilot nhắm vào dịch "ẩn" không giảm có ý nghĩa cân bằng dịch \[1\]. Chưa rõ hạn chế dịch có làm được trong bối cảnh của chúng ta không. |
-| 3  Vì sao quan trọng ở đây | Audit 3 tháng của khoa cho thấy phần lớn người bệnh sốc nhiễm khuẩn dương dịch vào ngày 3, và thực hành khác nhau giữa các bác sĩ. Vì vậy chúng tôi đặt câu hỏi: \[câu hỏi PICO\]. |
 
-::: {.neu-table-caption}
-Văn bản mẫu: thay số liệu audit bằng số của bạn
-:::
+```{=html}
+<div style="position:relative;width:100%;aspect-ratio:12.3/4.2;container-type:inline-size;margin:0.2em auto;font-family:Arial,sans-serif;line-height:1.1"><div style="position:absolute;left:0.000%;top:0.000%;width:21.951%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#5FA39B;border-radius:1.220cqw"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">1</div><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700;margin-top:calc(1 * 0.11292cqw)">Điều đã biết</div></div><div style="position:absolute;left:23.171%;top:0.000%;width:76.829%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(10.1 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.813cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Sốc nhiễm khuẩn là nguyên nhân tử vong hàng đầu ở ICU. Dịch sớm cải thiện tưới máu, nhưng truyền tiếp thường gây cân bằng dịch dương, mà các nghiên cứu thuần tập thấy liên quan với tử vong cao hơn [2].</div></div><div style="position:absolute;left:0.000%;top:34.524%;width:21.951%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0070C0;border-radius:1.220cqw"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">2</div><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700;margin-top:calc(1 * 0.11292cqw)">Điều chưa biết</div></div><div style="position:absolute;left:23.171%;top:34.524%;width:76.829%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(10.1 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.813cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Các thử nghiệm lớn về hạn chế dịch không thấy khác biệt tử vong [3, 4], và một thử nghiệm thí điểm nhắm vào dịch &quot;ẩn&quot; không giảm có ý nghĩa cân bằng dịch [1]. Hạn chế dịch có thật sự giảm được cân bằng dịch hay không vẫn chưa rõ.</div></div><div style="position:absolute;left:0.000%;top:69.048%;width:21.951%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#055F56;border-radius:1.220cqw"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">3</div><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700;margin-top:calc(1 * 0.11292cqw)">Câu hỏi và mục tiêu</div></div><div style="position:absolute;left:23.171%;top:69.048%;width:76.829%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(10.1 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.813cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Vì vậy chúng tôi đặt câu hỏi: ở người lớn bị sốc nhiễm khuẩn, quy trình hạn chế dịch có làm giảm cân bằng dịch ngày 5 so với thường quy không? Mục tiêu chính: so sánh cân bằng dịch ngày 5 giữa hai nhóm.</div></div></div>
+```
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Ba đoạn ngắn, mỗi đoạn một nhiệm vụ, và tài liệu tham khảo trong ngoặc.
+**THÔNG ĐIỆP CHÍNH** Ba đoạn ngắn, mỗi đoạn một nhiệm vụ, mỗi dữ kiện có trích dẫn.
 :::
 
 ::: {.notes}
-Đây là cái phễu khi viết thành văn bản thật, cho phiên bản khả thi của ví dụ xuyên suốt.
+Cái phễu khi viết thành văn bản thật, cho phiên bản thí điểm khả thi của ví dụ xuyên suốt (kết cục: cân bằng dịch ngày 5).
 
-Đoạn 1 (đã biết) trích Bài báo 2. Đoạn 2 (chưa biết) trích CLASSIC, CLOVERS và Bài báo 1, kết thúc bằng khoảng trống. Đoạn 3 (vì sao ở đây) dùng số liệu tại chỗ (thay câu về audit bằng số liệu của bạn) và kết thúc bằng câu hỏi.
+Đoạn 1 (đã biết) trích Bài báo 2 \[2\]. Đoạn 2 (chưa biết) trích CLASSIC \[3\], CLOVERS \[4\] và Bài báo 1 \[1\], và kết thúc bằng khoảng trống. Đoạn 3 nêu câu hỏi và mục tiêu chính, nảy ra từ khoảng trống.
 
-Ý chính: mỗi câu nêu dữ kiện đều có số trích dẫn, và câu cuối dẫn thẳng vào câu hỏi PICO.
+Không đưa số liệu của chính mình hay kết quả đánh giá thực hành (audit) vào đây: đó là kết quả, không phải bối cảnh. Nếu muốn dùng một con số địa phương, hãy dùng số đã công bố và trích dẫn.
+
+Ý chính: mỗi câu nêu dữ kiện đều có số trích dẫn.
 
 Quan niệm sai: 'phần đặt vấn đề phải dài và ấn tượng'. Khoảng 300 từ là đủ cho một đề cương.
 
-Bạn có thể viết đề cương bằng tiếng Việt, nhưng tìm kiếm và trích dẫn bằng tiếng Anh.
+Học viên viết đề cương bằng tiếng Anh (được viết tiếng Việt nếu tiếng Anh là quá khó). Luôn tìm kiếm và trích dẫn bằng tiếng Anh.
 
 Thời gian: 4 phút.
 :::
@@ -1327,7 +1308,7 @@ Thời gian: 4 phút.
 - I: hạn chế dịch
 - C: dịch thường quy
 - O: cân bằng dịch
-- TK (thiết kế): RCT thử nghiệm
+- TK (thiết kế): RCT thí điểm (pilot RCT)
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
 [Tên đề tài tạm (13 từ)]{.neu-card-title}
@@ -1400,7 +1381,7 @@ XÂY DỰNG ĐỀ CƯƠNG · 35 phút
 - Chạy chuỗi tìm kiếm của bạn trên PubMed. Ghi ngày và số kết quả
 - Sàng lọc tiêu đề và tóm tắt, chọn 5 bài chính và lưu vào Zotero
 - Điền mỗi bài một dòng trong phiếu tổng quan tài liệu
-- Viết nháp đặt vấn đề (đã biết, chưa biết, vì sao ở đây) và tên đề tài tạm
+- Viết nháp đặt vấn đề (đã biết, chưa biết, câu hỏi) và tên đề tài tạm
 - Hai bạn tình nguyện đọc to tên đề tài và câu nêu khoảng trống
 :::
 :::
@@ -1437,7 +1418,7 @@ Thời gian: 35 phút. Tổng kết bắt đầu lúc 2:55 (22:25).
 
 | Từ khóa | Trong một câu |
 |:---|:---|
-| MeSH | Nhãn chung PubMed gán cho nhiều cách viết của một ý |
+| MeSH | Medical Subject Headings: một nhãn chung cho nhiều cách viết của một ý |
 | AND / OR / NOT | Thu hẹp / mở rộng / loại bỏ. OR trong khối, AND giữa các khối |
 | Phần mềm quản lý tài liệu | Lưu mỗi bài một lần và định dạng trích dẫn theo mọi kiểu |
 | Viết chắp vá | Chép và đổi vài từ: đạo văn dù có trích dẫn |
@@ -1484,7 +1465,7 @@ Thời gian: 1 phút.
 ::: {.notes}
 Đọc ba thông điệp, rồi hỏi một học viên: 'Điều đầu tiên bạn tìm trong phần tóm tắt là gì?' Mong đợi: kết cục chính và kết quả của nó kèm KTC.
 
-Nối sang buổi sau: hai thứ Bảy tới (Buổi 3 và 4) ta chọn thiết kế phù hợp cho từng câu hỏi, và tìm hiểu sai lệch, yếu tố gây nhiễu và các số đo tác động qua hai bài báo về dịch truyền.
+Nối sang buổi sau: hai thứ Bảy tới (Buổi 3 và 4) lớp sẽ chọn thiết kế phù hợp cho từng câu hỏi, và tìm hiểu sai lệch, yếu tố gây nhiễu và các số đo tác động qua hai bài báo về dịch truyền.
 
 Thời gian: 1.5 phút.
 :::
@@ -1495,37 +1476,22 @@ Thời gian: 1.5 phút.
 CÂU HỎI NHANH · 2 phút
 :::
 
-:::: {.columns}
-::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-- Trả lời ngay trong chat, hoặc trong biểu mẫu một câu hỏi có link trong chat
+- Trả lời trong chat trước khi rời lớp
 - Câu 1: chuỗi nào cho nhiều kết quả hơn: septic shock AND fluids, hay septic shock OR fluids?
 - Câu 2: kết cục chính của Bài báo 1 là gì?
 :::
-:::
-::: {.column width="40%"}
-::: {.neu-side .plain style="--c:#6C3483"}
-Vì sao hỏi
-
-- Không phải bài về nhà, không chấm điểm
-- Cho biết điều gì còn chưa rõ
-- Giảng viên đọc mọi câu trả lời trước Buổi 3
-:::
-:::
-::::
 
 ::: {.neu-output style="--c:#6C3483"}
-**SẢN PHẨM** Mỗi người một câu trả lời ngắn, trước khi rời lớp
+**SẢN PHẨM** Mỗi người một câu trả lời ngắn trong chat
 :::
 
 ::: {.notes}
-Mục đích: kiểm tra nhanh mức hiểu trong 2 phút. Đây không phải bài về nhà.
+Không chấm điểm. Đáp án: Câu 1 OR (chỉ cần một trong hai từ). Câu 2 Cân bằng dịch tích lũy ngày 5 (ml/kg), không phải tử vong.
 
-Đáp án: Câu 1 OR (một trong hai từ). Câu 2 Cân bằng dịch tích lũy ngày 5 (ml/kg), không phải tử vong.
+Lưu khung chat và đọc câu trả lời trong tuần. Nếu hơn một phần tư trả lời sai câu nào, mở đầu Buổi 3 bằng điểm đó.
 
-Lưu khung chat (hoặc câu trả lời của biểu mẫu) và đọc sau buổi học. Nếu hơn một phần tư trả lời sai câu nào, mở đầu Buổi 3 bằng điểm đó và ôn lại trong câu hỏi ôn tập.
-
-Thời gian: 1.5 phút.
+Thời gian: 2 phút.
 :::
 
 ## Bài về nhà trước Buổi 3 (thứ Bảy tuần sau)

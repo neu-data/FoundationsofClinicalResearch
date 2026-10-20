@@ -59,7 +59,7 @@ Common error: choosing "septic shock" as the outcome. It has already happened an
 
 ## Exercise 1 (whole class): rescue the running example
 
-Use the version the class chose in the poll. If the vote is split, work on A.
+Use the version the class chose in the poll. If the vote is split, work on A. Hypotheses are taught in segment 1.3 (Exercise 2), so the class does not write H0 and H1 here.
 
 ### Version A: pilot trial (experimental, PICO)
 | P | Adults with septic shock in our ICU, within 24 h of starting vasopressors |
@@ -72,7 +72,6 @@ Use the version the class chose in the poll. If the vote is split, work on A.
 *In adults with septic shock in our ICU, does a restrictive fluid protocol, compared with usual care, reduce cumulative fluid balance at day 5?*
 Type: analytical, experimental (a pilot randomised trial, like Paper 1).
 FINER: F green/amber (about 50 patients over 12–18 months) · I green · N amber to green (local setting, different protocol) · E amber (deferred or surrogate consent, Session 7) · R green.
-H0: cumulative fluid balance at day 5 is the same in both groups. H1: it differs.
 
 ### Version B: cohort (observational, PECO)
 | P | Adults with sepsis or septic shock admitted to our ICU |
@@ -85,7 +84,6 @@ H0: cumulative fluid balance at day 5 is the same in both groups. H1: it differs
 *In adults with sepsis in our ICU, is a positive cumulative fluid balance by day 3, compared with a neutral or negative balance, associated with higher 28-day mortality?*
 Type: analytical, observational. This is Paper 2's question and the main question of the FLUID-ICU course study (Session 5).
 FINER watch-points: F depends on patient numbers and on records of daily fluid balance; confounding by indication (sicker patients get more fluid) must be handled (Session 4).
-H0: 28-day mortality is the same in patients with and without a positive fluid balance by day 3. H1: it differs.
 
 ### Version C: descriptive (P + O)
 | P | Adults with septic shock admitted to our ICU over 6 months |
@@ -94,7 +92,7 @@ H0: 28-day mortality is the same in patients with and without a positive fluid b
 | T | On ICU day 3 |
 
 *What proportion of adults with septic shock in our ICU have a positive cumulative fluid balance on day 3?*
-Type: descriptive. No hypothesis is needed: we **estimate** a proportion with its 95% CI.
+Type: descriptive: we **estimate** a proportion with its 95% CI. In segment 1.3 this is the example of a question that needs no hypothesis.
 FINER: F green (routine charts) · N amber (local data are new) · E green (usually low risk; still needs approval for records) · R green (shows whether the problem exists here).
 
 **What good looks like (Exercise 1)**

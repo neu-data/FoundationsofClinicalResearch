@@ -72,7 +72,7 @@ Answers (reveal after)
 ::: {.notes}
 Purpose: wake up Session 4 memory and catch anyone who missed it. Keep it light: no marks.
 
-Run it: launch one poll per question (Zoom/Teams poll or a form), give 1 minute each, show the results, then reveal. Hide the side panel until the reveal (or read the answers from these notes).
+Run it: launch one poll per question (Zoom/Teams poll), give 1 minute each, show the results, then reveal. Hide the side panel until the reveal (or read the answers from these notes).
 
 Q1 answer: prospective cohort. Exposure (smoking) is measured first, then we wait for the outcome. Common wrong answer: case-control. Point out that case-control starts from the outcome and looks back.
 
@@ -1817,13 +1817,13 @@ Next Saturday: Session 6
 ::::
 
 ::: {.neu-output style="--c:#1F5C7A"}
-**OUTPUT** Exit answer in the chat (or a one-question form)
+**OUTPUT** Exit answer in the chat
 :::
 
 ::: {.notes}
 Wrap-up: 5 minutes (22:25 to 22:30), including the key-words and recap slides.
 
-Exit question in the chat (or a one-question form): name one data-quality problem found in the raw FLUID-ICU data and how the cleaning fixed it. Purpose: it checks understanding of today's core idea (clean with a script and a log, never by hand). Read the answers before Session 6 and open Session 6 with two or three of them.
+Exit question in the chat: name one data-quality problem found in the raw FLUID-ICU data and how the cleaning fixed it. Purpose: it checks understanding of today's core idea (clean with a script and a log, never by hand). Read the answers before Session 6 and open Session 6 with two or three of them.
 
 Homework: finish the mini-CRF, data dictionary rows and data-management plan of your own proposal (Part 3, first half). Choose one of the five FLUID-ICU questions for your manuscript, tell the instructor, and read its results pack (Table 1, figures). Optional: Exercises 1, 3, 4 and 5 of the Session 5 exercise sheet.
 

@@ -80,7 +80,7 @@ AND ("Mortality"[Mesh] OR mortality[tiab] OR death[tiab])
 
 | Field tag / symbol | Meaning |
 |---|---|
-| `[Mesh]` or `[mh]` | MeSH term (includes narrower terms automatically) |
+| `[Mesh]` or `[mh]` | MeSH term (also searches the narrower terms below it) |
 | `[tiab]` | word in the title or abstract |
 | `[pt]` | publication type, e.g. `randomized controlled trial[pt]` |
 | `"..."` | exact phrase |
@@ -164,7 +164,7 @@ First the trainer searches live for the running example and you suggest terms an
 | 10–30 min | **1. Run your search string** (Exercise 1) in PubMed; write the date, the filters and the number of hits | ☐ |
 | | **2. Screen** titles and abstracts; pick **5 key papers**; save them to Zotero (*Send to → Citation manager*, then import) | ☐ |
 | | **3. Literature review worksheet**: one row per paper | ☐ |
-| | **4. Problem statement**: three short paragraphs (about 300 words): (a) what is known, (b) what is not known (the gap), (c) why it matters *here* (local data, if you have them) | ☐ |
+| | **4. Problem statement**: three short paragraphs (about 300 words): (a) what is known, (b) what is not known (the gap), (c) your question and objectives. No own data or results here; a local figure only if it is published, with its reference | ☐ |
 | | **5. Working title** and **keywords** (see below) | ☐ |
 | 30–35 min | Two volunteers read their title and gap sentence aloud; everyone suggests one improvement in the chat | ☐ |
 
@@ -200,12 +200,12 @@ ______________________________________________________________________________
 
 * * *
 
-## Exit question  *(in the chat, or the 1-question form linked there; 2 minutes, before you leave)*
+## Exit question  *(in the chat, 2 minutes, before you leave)*
 
 1. Which gives MORE hits: `septic shock AND fluids` or `septic shock OR fluids`?
 2. What was the primary outcome of Paper 1?
 
-*Why we ask:* it is not homework and not marked. It shows us what is still unclear. The trainers read every answer before Session 3.
+Not marked. The trainers read every answer before Session 3.
 
 ## Homework before Session 3 (next Saturday)
 

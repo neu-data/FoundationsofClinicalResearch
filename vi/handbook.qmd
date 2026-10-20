@@ -19,7 +19,7 @@ Các tệp được nhắc đến trong bảng bộ công cụ bên dưới có 
 
 Mỗi ngày anh chị đưa ra những quyết định lâm sàng mà nghiên cứu có thể giúp cải thiện. Trong tám tuần, với một buổi học trực tuyến vào mỗi tối thứ Bảy (19:30 đến 22:30, giờ Việt Nam), khóa học đưa anh chị đi qua toàn bộ quá trình nghiên cứu: từ một câu hỏi bên giường bệnh, đến một thiết kế nghiên cứu chặt chẽ, đến phân tích dữ liệu, rồi viết và công bố bài báo.
 
-Anh chị không cần nền tảng về nghiên cứu hay thống kê. Chúng ta đi chậm, dùng nhiều hình ảnh, một ví dụ xuyên suốt và nhiều câu hỏi khảo sát nhanh, câu hỏi trong khung chat. Khóa học hoàn toàn trực tuyến và anh chị tham gia từ nhà. Không có nhóm hay phòng thảo luận nhỏ: cả lớp cùng làm mọi bài tập với giảng viên. Anh chị sẽ không bao giờ phải tính toán gì phức tạp hơn một bảng 2×2 đơn giản, và không cần phần mềm nào: giảng viên chạy các phân tích, còn anh chị học cách đọc và viết lại kết quả.
+Anh chị không cần nền tảng về nghiên cứu hay thống kê. Lớp học đi chậm, dùng nhiều hình ảnh, một ví dụ xuyên suốt và nhiều câu hỏi khảo sát nhanh, câu hỏi trong khung chat. Khóa học hoàn toàn trực tuyến và anh chị tham gia từ nhà. Không có nhóm hay phòng thảo luận nhỏ: cả lớp cùng làm mọi bài tập với giảng viên. Anh chị sẽ không bao giờ phải tính toán gì phức tạp hơn một bảng 2×2 đơn giản, và không cần phần mềm nào: giảng viên chạy các phân tích, còn anh chị học cách đọc và viết lại kết quả.
 
 ## Tổng quan khóa học
 
@@ -37,7 +37,7 @@ Anh chị không cần nền tảng về nghiên cứu hay thống kê. Chúng t
 Mỗi buổi học kéo dài 3 giờ, có 15 phút giải lao. Buổi học gồm phần ôn tập ngắn, hai khối bài giảng với nhiều lúc "kiểm tra mức độ hiểu bài" (một câu hỏi khảo sát nhanh hoặc một câu trả lời trong khung chat), và phần xây dựng đề cương, trong đó giảng viên làm mẫu phần tiếp theo của đề cương trên ví dụ xuyên suốt. Sau đó anh chị viết phần tương ứng cho câu hỏi của mình ở nhà. Cuối mỗi buổi còn có các slide bổ sung cho ai muốn đọc thêm ở nhà.
 
 ### Ví dụ xuyên suốt
-Một chủ đề lâm sàng đi cùng chúng ta suốt khóa học: **truyền dịch trong sốc nhiễm khuẩn**. Từ Tuần 1 đến Tuần 4, chúng ta đặt câu hỏi, tìm kiếm tài liệu, thiết kế nghiên cứu và đọc hai bài báo thật (một thử nghiệm ngẫu nhiên có đối chứng và một nghiên cứu thuần tập). Từ Tuần 5 đến Tuần 8, chúng ta đọc kết quả của FLUID-ICU, một bộ dữ liệu *mô phỏng* sát thực tế gồm 620 người bệnh ICU, và anh chị viết các kết quả đó thành một bài báo.
+Một chủ đề lâm sàng xuyên suốt khóa học: **truyền dịch trong sốc nhiễm khuẩn**. Từ Tuần 1 đến Tuần 4, cả lớp đặt câu hỏi, tìm kiếm tài liệu, thiết kế nghiên cứu và đọc hai bài báo thật (một thử nghiệm ngẫu nhiên có đối chứng và một nghiên cứu thuần tập). Từ Tuần 5 đến Tuần 8, cả lớp đọc kết quả của FLUID-ICU, một bộ dữ liệu *mô phỏng* sát thực tế gồm 620 người bệnh ICU, và anh chị viết các kết quả đó thành một bài báo.
 
 ## Hai sản phẩm của anh chị (cá nhân)
 
@@ -74,7 +74,7 @@ Một máy tính (hoặc máy tính bảng) có kết nối internet ổn địn
 | Mẫu bản thảo (IMRaD) | `Templates/Manuscript_Template_IMRaD.docx` |
 | Mẫu thư gửi tạp chí và mẫu thư trả lời phản biện | `Templates/Cover_Letter_Template.docx`, `Templates/Response_to_Reviewers_Template.docx` |
 | Hướng dẫn tóm tắt hội nghị và poster | `Templates/Conference_Abstract_Template.docx` |
-| Bảng kiểm thẩm định phê phán (10 câu hỏi) | `Resources/Critical_Appraisal_Checklist.pdf` |
+| Bảng kiểm thẩm định phê bình (10 câu hỏi) | `Resources/Critical_Appraisal_Checklist.pdf` |
 | Hướng dẫn chọn công cụ đánh giá nguy cơ sai lệch | `Resources/Risk_of_Bias_Tool_Chooser.pdf` |
 | Bảng kiểm viết và nộp bài | `Resources/Writing_and_Submission_Checklist.pdf` |
 | Mẫu hồ sơ xin duyệt đạo đức, mẫu đề xuất tài trợ ngắn (hư cấu) | `Resources/` |
@@ -85,7 +85,7 @@ Một máy tính (hoặc máy tính bảng) có kết nối internet ổn địn
 Khi một tài liệu có bản tiếng Việt, tệp tiếng Việt mang cùng tên với hậu tố `_VN` (ví dụ `participant_handbook_VN.md`).
 
 ## Bài kiểm tra
-Ở Buổi 1 và một lần nữa vào cuối Buổi 8, anh chị trả lời cùng 24 câu hỏi trực tuyến (đường dẫn được đăng trong khung chat). Bài kiểm tra ẩn danh (chỉ dùng mã học viên) và đo lường hiệu quả của *khóa học*, không đánh giá cá nhân anh chị.
+Ở Buổi 1 và một lần nữa vào cuối Buổi 8, anh chị trả lời cùng 24 câu hỏi trực tuyến (đường dẫn được đăng trong khung chat). Anh chị ghi họ và tên để có thể so sánh hai lần làm bài. Chỉ nhóm giảng viên xem được tên và điểm, và đáp án chỉ được chia sẻ sau Buổi 8. Bài kiểm tra đo lường hiệu quả của *khóa học*, không đánh giá cá nhân anh chị.
 
 ## Sau khóa học
 Mang đề cương của anh chị đến hội đồng đạo đức và tiếp tục hoàn thiện bản thảo. Khóa học này là Cấp độ 1. Nếu muốn tự chạy phân tích, Cấp độ 2 là khóa thực hành với R (điều kiện: đã học khóa này và khóa miễn phí *Clinical Data Analysis in R*). Cấp độ 3 cung cấp các phương pháp nâng cao, chuyên sâu theo yêu cầu (`Course_Levels/`).

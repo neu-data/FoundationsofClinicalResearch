@@ -14,16 +14,16 @@ Mọi bài tập đều do **cả lớp cùng làm**: giảng viên trình chi�
 
 | Phần | Hoạt động | Khi nào | Cách làm |
 |---|---|---|---|
-| A | Gọi tên thiết kế (6 tóm tắt ngắn về câu hỏi dịch truyền của chúng ta) | Cuối phần 3.1 (15 phút) | Cả lớp: bình chọn cho từng tóm tắt, cụm từ làm bằng chứng gõ vào khung chat |
+| A | Gọi tên thiết kế (6 tóm tắt ngắn về câu hỏi dịch truyền xuyên suốt) | Cuối phần 3.1 (15 phút) | Cả lớp: bình chọn cho từng tóm tắt, cụm từ làm bằng chứng gõ vào khung chat |
 | B | Chọn thiết kế (5 câu hỏi lập kế hoạch + câu hỏi của bạn) | Cuối phần 3.2 (15 phút) | Cả lớp: bình chọn cho từng câu hỏi; thiết kế của bạn gõ vào khung chat |
 | C | Xây dựng đề cương 3: thiết kế, bối cảnh và đối tượng | Cuối buổi (42 phút) và bài về nhà | Giảng viên làm mẫu trực tiếp; sau đó bạn viết bản nháp của mình |
 
 Mỗi phần còn có **thực hành thêm** về các chủ đề khác, để tự học sau buổi.
 
-**Câu hỏi xuyên suốt của chúng ta (từ Buổi 1):** ở người lớn bị sốc nhiễm khuẩn, chiến lược hạn chế dịch, so với chăm sóc thường quy, có làm giảm tử vong 28 ngày không?
+**Câu hỏi xuyên suốt (từ Buổi 1):** ở người lớn bị sốc nhiễm khuẩn, chiến lược hạn chế dịch, so với chăm sóc thường quy, có làm giảm tử vong 28 ngày không?
 **Hai bài báo** (thư mục khóa học, `Course/Papers`): Bài báo 1, Boulet 2024 (thử nghiệm ngẫu nhiên thí điểm về hạn chế dịch); Bài báo 2, Hyun 2023 (nghiên cứu thuần tập từ sổ đăng ký về cân bằng dịch và tử vong).
 
-**Từ khóa của buổi học:** phơi nhiễm (điều xảy ra trước) · kết cục (điều đếm về sau) · nhóm so sánh · quan sát (chúng ta chỉ theo dõi) · thực nghiệm (chúng ta chỉ định) · ngẫu nhiên (may rủi quyết định) · cắt ngang (ảnh chụp nhanh) · bệnh–chứng (nhìn ngược lại) · thuần tập (theo dõi về phía trước) · thử nghiệm theo cụm, bắt chéo và giai thừa · thử nghiệm không kém hơn · nghiên cứu thí điểm · chuỗi thời gian ngắt quãng · nghiên cứu định tính.
+**Từ khóa của buổi học:** phơi nhiễm (điều xảy ra trước) · kết cục (điều đếm về sau) · nhóm so sánh · quan sát (chỉ theo dõi) · thực nghiệm (nhà nghiên cứu chỉ định) · ngẫu nhiên (may rủi quyết định) · cắt ngang (đo tại một thời điểm) · bệnh–chứng (nhìn ngược lại) · thuần tập (theo dõi về phía trước) · thử nghiệm theo cụm, bắt chéo và giai thừa · thử nghiệm không kém hơn · nghiên cứu thí điểm · chuỗi thời gian ngắt quãng · nghiên cứu định tính.
 
 **Chữ viết tắt trong phiếu:** ICU = khoa hồi sức tích cực; RCT = thử nghiệm lâm sàng ngẫu nhiên có đối chứng.
 
@@ -42,7 +42,7 @@ Mỗi phần còn có **thực hành thêm** về các chủ đề khác, để 
 
 - **Nhà nghiên cứu có CHỈ ĐỊNH phơi nhiễm hoặc điều trị không?** Nếu có: **có phân bổ ngẫu nhiên không?** (có: RCT; không: nghiên cứu không ngẫu nhiên)
 - Nếu không chỉ định: **có nhóm so sánh không?** (không: nghiên cứu mô tả, ví dụ loạt ca bệnh)
-- Nếu có: **thời gian chạy theo chiều nào?** Phơi nhiễm trước, rồi kết cục (thuần tập); kết cục trước, rồi nhìn ngược lại (bệnh–chứng); cả hai cùng một thời điểm (cắt ngang).
+- Nếu có: **theo chiều thời gian nào?** Phơi nhiễm trước, rồi kết cục (thuần tập); kết cục trước, rồi nhìn ngược lại (bệnh–chứng); cả hai cùng một thời điểm (cắt ngang).
 
 > **Các lựa chọn thiết kế:** báo cáo ca bệnh hoặc loạt ca bệnh · cắt ngang · bệnh–chứng · thuần tập (tiến cứu hoặc hồi cứu) · nghiên cứu can thiệp không ngẫu nhiên · thử nghiệm lâm sàng ngẫu nhiên có đối chứng (RCT) · tổng quan hệ thống và phân tích gộp
 
@@ -62,7 +62,7 @@ Thiết kế: ______________________  Bằng chứng: ______________________
 
 Thiết kế: ______________________  Bằng chứng: ______________________
 
-**Tóm tắt 5.** ICU của chúng ta áp dụng quy trình hạn chế dịch cho mọi người bệnh sốc nhiễm khuẩn từ ngày 1 tháng 1 năm 2024. Tử vong trong sáu tháng trước được so sánh với tử vong trong sáu tháng sau.
+**Tóm tắt 5.** ICU của bạn áp dụng quy trình hạn chế dịch cho mọi người bệnh sốc nhiễm khuẩn từ ngày 1 tháng 1 năm 2024. Tử vong trong sáu tháng trước được so sánh với tử vong trong sáu tháng sau.
 
 Thiết kế: ______________________  Bằng chứng: ______________________
 
@@ -99,13 +99,13 @@ Cùng nhiệm vụ, với chín tóm tắt từ các khoa khác. Đáp án nằm
 
 **Cách làm.** Với mỗi câu hỏi, giảng viên mở một bình chọn gồm các lựa chọn thiết kế. Hãy chọn thiết kế **khả thi** tốt nhất. Sau đó một bạn tình nguyện nêu **một lý do** và **điểm yếu chính** của thiết kế, và giảng viên gõ vào bảng trên màn hình chia sẻ. Dùng cây quyết định và slide "Chọn thiết kế phù hợp với câu hỏi".
 
-| # | Câu hỏi lập kế hoạch (đều về câu hỏi dịch truyền của chúng ta) | Thiết kế | Lý do | Điểm yếu chính |
+| # | Câu hỏi lập kế hoạch (đều về câu hỏi dịch truyền xuyên suốt) | Thiết kế | Lý do | Điểm yếu chính |
 |---|---|---|---|---|
-| 1 | Chiến lược hạn chế dịch rẻ hơn và dùng ít dịch hơn. Chúng ta chỉ cần chứng minh tử vong 28 ngày không tệ hơn so với chăm sóc thường quy. | | | |
+| 1 | Chiến lược hạn chế dịch rẻ hơn và dùng ít dịch hơn. Chỉ cần chứng minh tử vong 28 ngày không tệ hơn so với chăm sóc thường quy. | | | |
 | 2 | Một quy trình ghi chép cân bằng dịch do điều dưỡng thực hiện sẽ được áp dụng cho cả ICU; điều dưỡng trong một ICU không thể chỉ áp dụng cho một nửa số người bệnh. | | | |
-| 3 | Gói xử trí nhiễm khuẩn huyết của bệnh viện, trong đó có giới hạn dịch duy trì, bắt đầu từ năm 2023. Chúng ta có số liệu tử vong do nhiễm khuẩn huyết hằng tháng trong 3 năm trước và 2 năm sau. Tử vong có giảm không? | | | |
+| 3 | Gói xử trí nhiễm khuẩn huyết của bệnh viện, trong đó có giới hạn dịch duy trì, bắt đầu từ năm 2023. Đã có số liệu tử vong do nhiễm khuẩn huyết hằng tháng trong 3 năm trước và 2 năm sau. Tử vong có giảm không? | | | |
 | 4 | Vì sao điều dưỡng trực đêm thấy khó ghi lượng nước tiểu? | | | |
-| 5 | Trước một thử nghiệm lớn: hai ICU của chúng ta có tuyển đủ người bệnh và thực hiện hạn chế dịch đúng kế hoạch được không? | | | |
+| 5 | Trước một thử nghiệm lớn: hai ICU của mình có tuyển đủ người bệnh và thực hiện hạn chế dịch đúng kế hoạch được không? | | | |
 
 **Câu hỏi của bạn.** Cuối phần này, gõ vào khung chat: *"Câu hỏi của tôi: ... Thiết kế của tôi: ... Cuối cùng tôi có thể nói: gây ra / có liên quan với."* Giảng viên đọc và nhận xét bốn hoặc năm câu.
 

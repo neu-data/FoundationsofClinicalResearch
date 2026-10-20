@@ -67,7 +67,7 @@ Lưu ý: nhãn trong tệp Excel bằng tiếng Anh. Kịch bản này giữ ngu
 | NNT | 10 | **100** |
 | OR | 0.58 | **0.66, giờ đã gần RR** |
 
-**Nói:** *"Hiệu quả tương đối vẫn vậy, nhưng giờ ta phải điều trị 100 người bệnh mới ngăn được một ca tử vong. Và vì tử vong giờ là hiếm, OR gần như đã bằng RR."*
+**Nói:** *"Hiệu quả tương đối vẫn vậy, nhưng giờ phải điều trị 100 người bệnh mới ngăn được một ca tử vong. Và vì tử vong giờ là hiếm, OR gần như đã bằng RR."*
 
 **Làm:** nhập lại các số ban đầu (20, 80, 30, 70).
 
@@ -75,7 +75,7 @@ Lưu ý: nhãn trong tệp Excel bằng tiếng Anh. Kịch bản này giữ ngu
 
 **Làm:** dùng con trỏ chỉ vào dòng chữ đỏ bên dưới bảng.
 
-**Nói:** *"Bảng tính vẫn sẽ tính ra 'nguy cơ' từ dữ liệu bệnh chứng. Đừng đọc con số đó, vì nhà nghiên cứu đã tự chọn số ca bệnh và số ca chứng. Ở phép tính thứ hai sau giờ giải lao, chỉ OR là có giá trị. Sau giờ giải lao, chúng ta sẽ cùng làm hai phép tính: Phần C trong phiếu bài tập Buổi 4."*
+**Nói:** *"Bảng tính vẫn sẽ tính ra 'nguy cơ' từ dữ liệu bệnh chứng. Đừng đọc con số đó, vì nhà nghiên cứu đã tự chọn số ca bệnh và số ca chứng. Ở phép tính thứ hai sau giờ giải lao, chỉ OR là có giá trị. Sau giờ giải lao, cả lớp sẽ cùng làm hai phép tính: Phần C trong phiếu bài tập Buổi 4."*
 
 
 * * *

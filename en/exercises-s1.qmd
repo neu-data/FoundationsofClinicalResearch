@@ -84,12 +84,6 @@ ______________________________________________________________________________
 | **E**: Ethical | Could an ethics committee approve it? | |
 | **R**: Relevant | Could the answer change practice, policy or research? | |
 
-**H0 and H1** (or "descriptive: no hypothesis"):
-
-H0: ___________________________________________________________________________
-
-H1: ___________________________________________________________________________
-
 
 * * *
 
@@ -112,6 +106,8 @@ ______________________________________________________________________________
 
 **H1:** ___________________________________________________________________________
 
+A descriptive question (how many? how often?) estimates a number and needs no hypothesis.
+
 Then type your primary objective in the chat.
 
 
@@ -127,7 +123,7 @@ First the trainer fills Part 1 of the template for the running example on screen
 | 8–25 min | **1. Choose ONE problem** from your own department (the questions saved from the welcome chat may help) | ☐ |
 | | **2. PICO(T) or PECO table** and the **research question** in one sentence | ☐ |
 | | **3. FINER check**: a colour for every letter; rewrite the question if any letter is red | ☐ |
-| | **4. Aim** (one sentence), **2–3 objectives** (measurable verbs; mark the primary), **H0 / H1** (or "descriptive: no hypothesis") | ☐ |
+| | **4. Aim** (one sentence), **2–3 objectives** (measurable verbs; mark the primary), **H0 and H1** (none for a descriptive question) | ☐ |
 | 25–30 min | Two volunteers read their question and aim aloud; everyone suggests one improvement in the chat | ☐ |
 
 **My question:** ________________________________________________________________
@@ -157,7 +153,7 @@ PubMed searches in **English**. For each PICO word in **your own** question, wri
 
 * * *
 
-## Exit question  *(in the chat, or the 1-question form linked there; 2 minutes, before you leave)*
+## Exit question  *(in the chat, 2 minutes, before you leave)*
 
 1. Which FINER letter did our running example fail, and why?
 2. Rewrite as an objective: "To understand fluid balance in our ICU".
