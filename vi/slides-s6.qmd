@@ -1292,6 +1292,54 @@ Bài học lớn: mô hình logistic cho p = 0.044 và mô hình Cox cho p = 0.0
 Hỏi (mời hai ba người trả lời, bật micro): anh chị viết điều này thế nào trong phần Kết quả? Dự kiến: báo cáo cả hai ước lượng kèm KTC, và mô tả liên quan là vừa phải và kém chính xác.
 :::
 
+## RR, OR và HR: ý nghĩa và khi nào gặp
+
+::: {.neu-intro}
+Cả ba đều so sánh hai nhóm. 1 = không khác biệt. Trên 1: nhiều biến cố hơn. Dưới 1: ít hơn.
+:::
+
+:::: {.neu-cards style="--n:3"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[Tỷ số nguy cơ (RR)]{.neu-card-title}
+
+- Nguy cơ ở nhóm này / nguy cơ ở nhóm kia
+- Thử nghiệm và thuần tập, từ bảng 2x2
+- Buổi 4
+:::
+::: {.neu-card .plain style="--c:#0070C0"}
+[Tỷ số chênh (OR)]{.neu-card-title}
+
+- Odds ở nhóm này / odds ở nhóm kia
+- Nghiên cứu bệnh-chứng và hồi quy logistic
+- Gần bằng RR khi kết cục hiếm
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[Tỷ số nguy cơ tức thời (HR)]{.neu-card-title}
+
+- Tốc độ xảy ra biến cố theo thời gian, nhóm này so với nhóm kia
+- Thời gian đến biến cố: Kaplan-Meier và hồi quy Cox
+- Buổi 6
+:::
+::::
+
+::: {.neu-takeaway}
+**THÔNG ĐIỆP CHÍNH** Kết cục và thiết kế quyết định tỷ số: nguy cơ (RR), odds (OR) hay tốc độ theo thời gian (HR).
+:::
+
+::: {.notes}
+Mục đích: một nơi để học viên thấy ba tỷ số cạnh nhau (theo góp ý của người phản biện).
+
+RR: tỷ lệ người bệnh có biến cố ở mỗi nhóm, dùng trong thử nghiệm và thuần tập có thời gian theo dõi cố định (Buổi 4, bảng 2x2).
+
+OR: dùng odds thay cho nguy cơ. Đây là đại lượng nghiên cứu bệnh-chứng ước lượng được và hồi quy logistic báo cáo. Khi kết cục hiếm (dưới khoảng 10%), OR gần bằng RR. Khi kết cục thường gặp, OR trông lớn hơn RR (Buổi 4).
+
+HR: so sánh tốc độ xảy ra biến cố theo thời gian và dùng thời gian theo dõi của mọi người, kể cả người bị kiểm duyệt. Hồi quy Cox báo cáo HR (Bài báo 2 và câu hỏi Q1 của FLUID-ICU).
+
+Hỏi (gọi hai hoặc ba người, bật micro): ở Bài báo 2, tử vong đến ngày 28 được so sánh theo thời gian. Tỷ số nào? Đáp án: HR.
+
+Thời gian: 2 phút, lấy từ phần thảo luận ở slide Cox ngay trước, nên thời lượng phần học không đổi.
+:::
+
 ## Vì sao bị thiếu? MCAR, MAR và MNAR
 
 ![](images/figures/sat3/missing_mechanisms.png){.neu-fig}

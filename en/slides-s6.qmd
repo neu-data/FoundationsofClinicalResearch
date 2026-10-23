@@ -1292,6 +1292,54 @@ The big lesson: the logistic model gives p = 0.044 and the Cox model p = 0.053. 
 Ask (call on two or three people, microphone on): how would you write this in the Results? Expected: report both estimates with their CIs, and describe the association as modest and imprecise.
 :::
 
+## RR, OR and HR: what each means and when you meet it
+
+::: {.neu-intro}
+All three compare two groups. 1 = no difference. Above 1: more events. Below 1: fewer.
+:::
+
+:::: {.neu-cards style="--n:3"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[Risk ratio (RR)]{.neu-card-title}
+
+- Risk in one group / risk in the other
+- Trials and cohorts, from a 2x2 table
+- Session 4
+:::
+::: {.neu-card .plain style="--c:#0070C0"}
+[Odds ratio (OR)]{.neu-card-title}
+
+- Odds in one group / odds in the other
+- Case-control studies and logistic regression
+- Close to the RR when the outcome is rare
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[Hazard ratio (HR)]{.neu-card-title}
+
+- Event rate over time, one group vs the other
+- Time to event: Kaplan-Meier and Cox regression
+- Session 6
+:::
+::::
+
+::: {.neu-takeaway}
+**KEY MESSAGE** The outcome and the design decide the ratio: risk (RR), odds (OR) or rate over time (HR).
+:::
+
+::: {.notes}
+Purpose: one place where participants see the three ratios side by side (reviewer request).
+
+RR: a proportion of patients with the event in each group, used in trials and cohorts with a fixed follow-up (Session 4, 2x2 table).
+
+OR: odds instead of risk. It is what a case-control study can estimate and what logistic regression reports. When the outcome is rare (under about 10%) the OR is close to the RR. When the outcome is common, the OR looks bigger than the RR (Session 4).
+
+HR: compares the rate of events over time and uses everyone's follow-up time, including censored patients. Cox regression reports it (Paper 2 and FLUID-ICU Q1).
+
+Ask (call on two or three people, microphone on): in Paper 2, deaths by day 28 were compared over time. Which ratio? Expected: HR.
+
+Timing: 2 minutes, taken from the discussion on the Cox slide before, so the segment time is unchanged.
+:::
+
 ## Why is it missing? MCAR, MAR and MNAR
 
 ![](images/figures/sat3/missing_mechanisms.png){.neu-fig}

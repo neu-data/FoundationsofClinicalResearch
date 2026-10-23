@@ -469,7 +469,7 @@ Timing: 2 minutes.
 ## Worked example: Paper 2 (Hyun 2023), step by step
 
 ::: {.neu-intro}
-Question: is a positive fluid balance associated with death by day 28?
+Read it as in Session 2. Question: is a positive fluid balance associated with death by day 28?
 :::
 
 :::: {.neu-steps}
@@ -491,7 +491,7 @@ Question: is a positive fluid balance associated with death by day 28?
 ::: {.neu-step style="--c:#0070C0"}
 [Compare]{.neu-step-label}
 
-- Matched pairs. Hazard ratio (HR) 2.13 for day 2
+- Matched pairs. On day 2, deaths about twice as frequent
 :::
 ::::
 
@@ -502,7 +502,7 @@ Question: is a positive fluid balance associated with death by day 28?
 ::: {.notes}
 This is how Paper 2 (Hyun 2023, course folder Course/Papers) works. It is a good example of a cohort built from a registry whose data were collected prospectively.
 
-Step 1: the cohort: who is followed (and who is left out: patients who left the ICU before day 3). Step 2: exposure measured before the outcome. Step 3: outcome counted later. Step 4: compare the groups. Hyun used propensity-score matching to make them similar (483, 373 and 392 matched pairs for days 1, 2 and 3). Day 2 result: hazard ratio (HR) 2.13 (95% confidence interval, CI, 1.48-3.06). Day 1 showed no clear difference. HR is explained properly in Session 6. For now 'about twice the rate of death'.
+Step 1: the cohort: who is followed (and who is left out: patients who left the ICU before day 3). Step 2: exposure measured before the outcome. Step 3: outcome counted later. Step 4: compare the groups. Hyun used propensity-score matching to make them similar (483, 373 and 392 matched pairs for days 1, 2 and 3). Day 2 result: hazard ratio (HR) 2.13 (95% confidence interval, CI, 1.48-3.06). Day 1 showed no clear difference. Participants learned how to read a paper in Session 2 (2.3): question, design, main result. This slide applies it. The paper reports a hazard ratio (HR); on the slide we say it in plain words. Ratios come later: risk ratio and odds ratio in Session 4, HR in Session 6, with a summary slide on when each is used.
 
 Misconception: 'a cohort needs to start today'. A retrospective cohort uses old records but still goes exposure then outcome.
 
@@ -734,7 +734,7 @@ Timing: 2 minutes. The same table is in the Session 3 exercise sheet (PDF).
 
 - **[It can claim]{style="color:#2E8B57"}**
 - Large, real patients, 28-day mortality
-- 'Associated with' (HR 2.13 on day 2)
+- 'Associated with' (day 2: deaths about twice as frequent)
 - **[Its limits]{style="color:#B23B2E"}**
 - Cannot prove that fluid causes death
 - Sicker patients got more fluid (confounding)

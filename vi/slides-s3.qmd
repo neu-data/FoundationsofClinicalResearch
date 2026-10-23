@@ -469,7 +469,7 @@ Thời gian: 2 phút.
 ## Ví dụ: Bài báo 2 (Hyun 2023), từng bước
 
 ::: {.neu-intro}
-Câu hỏi: cân bằng dịch dương có liên quan với tử vong ngày 28 không?
+Đọc như ở Buổi 2. Câu hỏi: cân bằng dịch dương có liên quan với tử vong ngày 28 không?
 :::
 
 :::: {.neu-steps}
@@ -491,7 +491,7 @@ Câu hỏi: cân bằng dịch dương có liên quan với tử vong ngày 28 k
 ::: {.neu-step style="--c:#0070C0"}
 [So sánh]{.neu-step-label}
 
-- Các cặp đã ghép. Tỷ số nguy cơ tức thời (HR) 2.13 ở ngày 2
+- Các cặp đã ghép. Ngày 2: tử vong gấp khoảng 2 lần
 :::
 ::::
 
@@ -502,7 +502,7 @@ Câu hỏi: cân bằng dịch dương có liên quan với tử vong ngày 28 k
 ::: {.notes}
 Đây là cách Bài báo 2 (Hyun 2023, thư mục khóa học Course/Papers) hoạt động. Đây là ví dụ tốt về thuần tập xây dựng từ một sổ bộ có dữ liệu thu thập tiến cứu.
 
-Bước 1: nhóm thuần tập: ai được theo dõi (và ai bị loại: người bệnh rời ICU trước ngày 3). Bước 2: phơi nhiễm được đo trước kết cục. Bước 3: kết cục được đếm sau đó. Bước 4: so sánh các nhóm. Hyun ghép cặp theo điểm xu hướng (propensity score) để các nhóm tương đồng (483, 373 và 392 cặp cho ngày 1, 2 và 3). Kết quả ngày 2: tỷ số nguy cơ tức thời (HR) 2.13 (khoảng tin cậy, KTC, 95% 1.48-3.06). Ngày 1 không khác biệt rõ. HR được giải thích kỹ ở Buổi 6. Lúc này hiểu là 'tốc độ tử vong khoảng gấp đôi'.
+Bước 1: nhóm thuần tập: ai được theo dõi (và ai bị loại: người bệnh rời ICU trước ngày 3). Bước 2: phơi nhiễm được đo trước kết cục. Bước 3: kết cục được đếm sau đó. Bước 4: so sánh các nhóm. Hyun ghép cặp theo điểm xu hướng (propensity score) để các nhóm tương đồng (483, 373 và 392 cặp cho ngày 1, 2 và 3). Kết quả ngày 2: tỷ số nguy cơ tức thời (HR) 2.13 (khoảng tin cậy, KTC, 95% 1.48-3.06). Ngày 1 không khác biệt rõ. HR được giải thích kỹ ở Buổi 6. Học viên đã học cách đọc một bài báo ở Buổi 2 (2.3): câu hỏi, thiết kế, kết quả chính. Slide này áp dụng điều đó. Bài báo báo cáo tỷ số nguy cơ tức thời (hazard ratio, HR); slide diễn đạt bằng lời thường. Tỷ số nguy cơ (RR) và tỷ số chênh (OR) học ở Buổi 4, HR ở Buổi 6, kèm một slide tóm tắt khi nào dùng tỷ số nào. Lúc này hiểu là 'tốc độ tử vong khoảng gấp đôi'.
 
 Quan niệm sai: 'thuần tập phải bắt đầu từ hôm nay'. Thuần tập hồi cứu dùng hồ sơ cũ nhưng vẫn đi từ phơi nhiễm đến kết cục.
 
@@ -734,7 +734,7 @@ Thời gian: 2 phút. Phiếu bài tập Buổi 3 (PDF) có lại bảng này.
 
 - **[Có thể kết luận]{style="color:#2E8B57"}**
 - Cỡ mẫu lớn, người bệnh thực tế, tử vong ngày 28
-- 'Có liên quan' (HR 2.13 ở ngày 2)
+- 'Có liên quan' (ngày 2: tử vong gấp khoảng 2 lần)
 - **[Giới hạn]{style="color:#B23B2E"}**
 - Không chứng minh được dịch gây tử vong
 - Người bệnh nặng hơn được truyền nhiều dịch hơn (nhiễu)
