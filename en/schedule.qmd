@@ -24,7 +24,7 @@ Eight weeks, **online**, one session every **Saturday from 19:30 to 22:30** (Vie
 |:----|:----|---:|:------------------------------------------------------------|
 | 0:00 | 19:30 | 20 | Welcome, course map, the two individual products, how each session runs, introductions in the chat, how we work online (chat, polls, raise hand), ground rules |
 | 0:20 | 19:50 | 15 | Pre-course quiz (online form) |
-| 0:35 | 20:05 | 35 | **1.1 Why research?** Anecdote vs evidence, why small numbers mislead, the two course papers (Paper 1 Boulet 2024, Paper 2 Hyun 2023), evidence pyramid, research cycle, types of research, the journey from idea to publication (research vs audit vs QI is in the extra slides) |
+| 0:35 | 20:05 | 35 | **1.1 Why research?** Anecdote vs evidence, why small numbers mislead, evidence pyramid, the two course papers (Paper 1 Boulet 2024, Paper 2 Hyun 2023), research cycle, types of research, the journey from idea to publication (research vs audit vs QI is in the extra slides) |
 | 1:10 | 20:40 | 15 | BREAK |
 | 1:25 | 20:55 | 40 | **1.2 From problem to question:** where questions come from, PICO(T) with several worked examples, descriptive vs analytical questions, vague vs answerable, FINER, whole-class task: rescue the running example |
 | 2:05 | 21:35 | 20 | **1.3 Aims, objectives, hypotheses** (null vs alternative) + quick individual exercise |
@@ -42,8 +42,8 @@ Eight weeks, **online**, one session every **Saturday from 19:30 to 22:30** (Vie
 | Start | Clock* | Min | Segment |
 |:----|:----|---:|:------------------------------------------------------------|
 | 0:00 | 19:30 | 10 | Recap quiz |
-| 0:10 | 19:40 | 40 | **2.1 Finding the evidence:** search funnel, from PICO to search blocks, Boolean, MeSH, search tools, PubMed vs Google Scholar, **live PubMed demo**, each participant builds a Boolean search for their own question |
-| 0:50 | 20:20 | 20 | **2.2 Managing and citing:** reference managers (**Zotero demo**), citation styles, paraphrasing safely, grey literature & trial registries |
+| 0:10 | 19:40 | 40 | **2.1 Finding the evidence:** search funnel, Boolean, MeSH and how to find a MeSH term, search tools, from PICO to search blocks (running example and a ward example), PubMed vs Google Scholar, checking for a systematic review, **live PubMed demo**, each participant builds a Boolean search for their own question |
+| 0:50 | 20:20 | 20 | **2.2 Managing and citing:** reference managers, citation styles, **Zotero demo**, paraphrasing safely, grey literature & trial registries |
 | 1:10 | 20:40 | 15 | BREAK |
 | 1:25 | 20:55 | 40 | **2.3 Reading a paper in 15 minutes:** IMRaD, reading order, what an abstract must contain, spin; individual reading task on Paper 1's abstract (Boulet 2024, RCT; in `Course/Papers/`) |
 | 2:05 | 21:35 | 15 | **2.4 From literature to introduction:** literature matrix, problem-statement funnel, working title & keywords |
@@ -122,7 +122,7 @@ Eight weeks, **online**, one session every **Saturday from 19:30 to 22:30** (Vie
 | 0:50 | 20:20 | 20 | **6.2 [DS] Compare groups in the course dataset:** live demo (t-test / Mann-Whitney / chi-square); the class interprets the outputs together (Q1 in full, Q2 to Q5 briefly) |
 | 1:10 | 20:40 | 15 | BREAK |
 | 1:25 | 20:55 | 35 | **6.3 Relationships and models:** correlation, linear and logistic regression, adjustment, reading a regression table, overfitting, censoring and Kaplan-Meier curves (prediction/ML and interaction in the extra slides) |
-| 2:00 | 21:30 | 25 | **6.4 [DS] Model the course dataset:** the SAP that was written before the analysis, crude vs adjusted OR (confounding by indication made visible), Kaplan-Meier + Cox HR, complete-case vs multiple imputation |
+| 2:00 | 21:30 | 25 | **6.4 [DS] Model the course dataset:** the SAP that was written before the analysis, crude vs adjusted OR (confounding by indication made visible), Kaplan-Meier + Cox HR, RR, OR and HR side by side, complete-case vs multiple imputation |
 | 2:25 | 21:55 | 30 | **Proposal builder 6:** modelled live (sample size, analysis plan, confounders, missing-data plan); each participant drafts their own sample-size inputs (finished as homework) |
 | 2:55 | 22:25 | 5 | Wrap-up |
 
