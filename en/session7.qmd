@@ -1,5 +1,5 @@
 ---
-title: "Session 7 · Protect & write: ethics, integrity and the Results section"
+title: "Session 7 · Protect & write: ethics, integrity, Methods and Results"
 subtitle: "Week 7 · Saturday · online, 19:30–22:30 (3 hours, 15-minute break)"
 ---
 
@@ -11,7 +11,7 @@ subtitle: "Week 7 · Saturday · online, 19:30–22:30 (3 hours, 15-minute break
 - 19:40  7.1  Protocol, ethics, consent, registration, feasibility
 - 20:10  7.2  Research integrity: authorship, conflicts of interest, data sharing, AI
 - 20:30  Proposal builder 7: ethics and publication plan
-- 21:00  7.3  Writing the paper (I): the Results section, tables, STROBE
+- 21:00  7.3  Writing the paper (I): IMRaD, Methods and Results
 - 21:35  Manuscript workshop 1: the Results section, together then on your own
 
 ## Timetable
@@ -23,16 +23,16 @@ subtitle: "Week 7 · Saturday · online, 19:30–22:30 (3 hours, 15-minute break
 | 0:40 | 20:10 | 20 | **7.2 Research integrity:** FFP, duplicate/salami, authorship, conflicts of interest, data sharing, AI use, scenario poll |
 | 1:00 | 20:30 | 15 | **Proposal builder 7:** modelled live (ethics, registration, feasibility, publication plan), participants draft their own Part 4 as homework |
 | 1:15 | 20:45 | 15 | BREAK |
-| 1:30 | 21:00 | 35 | **7.3 Writing the paper (I): the Results section.** Writing order, Results (participants first, numbers with CIs, no interpretation), stand-alone tables and figures, STROBE for the course-dataset paper. Methods writing as optional practice |
-| 2:05 | 21:35 | 45 | **[DS] Manuscript workshop 1:** the instructor writes the Q1 Results live with the class (participants and Table 1, main results, other analyses, number check: 30 min). Each participant then starts the Results section for their chosen question, with Table 1 and one main table or figure from its results pack (15 min, finished as homework) |
-| 2:50 | 22:20 | 10 | Your reviewer and the deadlines, key words, wrap-up, exit question, homework |
+| 1:30 | 21:00 | 35 | **7.3 Writing the paper (I): IMRaD, Methods and Results.** What each IMRaD section is for, writing order, Methods (design, participants, variables, statistics) and Results (participants first, numbers with CIs, no interpretation), stand-alone tables and figures, STROBE |
+| 2:05 | 21:35 | 45 | **[DS] Manuscript workshop 1:** the class writes the Q1 Results together, then each participant starts the Results section for their chosen question, with Table 1 and one main table or figure from its results pack (finished as homework) |
+| 2:50 | 22:20 | 10 | Key words, peer review and deadlines (your reviewer), wrap-up |
 
 \*Times are relative to the start of the session; the clock column shows Vietnam time for the online 19:30–22:30 session. All exercises are done by the whole class together (no groups). **[DS]** = course-dataset content (FLUID-ICU analysis and manuscript writing).
 
 ## Slides
 
 ```{=html}
-<div class="slides-embed"><iframe src="slides-s7.html" title="Session 7 · Protect &amp; write: ethics, integrity and the Results section" loading="lazy" allowfullscreen></iframe></div>
+<div class="slides-embed"><iframe src="slides-s7.html" title="Session 7 · Protect &amp; write: ethics, integrity, Methods and Results" loading="lazy" allowfullscreen></iframe></div>
 ```
 
 [Open the slides full screen](slides-s7.qmd){.btn .btn-primary role="button"}
@@ -55,7 +55,7 @@ Press **F** for full screen, **S** for speaker notes, **E** to print, **Esc** fo
 ## After this session (homework)
 
 - **Your proposal:** write Part 4 (Part B of the Session 7 sheet) and finish your 6 slides. To present in Session 8, email the course lead by the Wednesday before.
-- **Your Results section:** write it for your question, as modelled on Q1 in class (Part C of the Session 7 sheet). It is due by 23:59 on the day of Session 8.
+- **Your Results section:** write it for your question, as modelled on Q1 in class (Part C of the Session 7 sheet). It is due by 23:59 on Sunday 20 December 2026.
 - Your reviewer is announced in this session and sent to you by email.
 - Integrity scenarios 2, 5 and 6 on the Session 7 sheet.
 

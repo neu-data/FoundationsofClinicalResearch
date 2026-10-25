@@ -14,23 +14,21 @@ Tải về: [Word](files/assignments/Manuscript_Brief_VN.docx) · [PDF](files/as
 **Không bắt buộc:** Phương pháp, Đặt vấn đề, Bàn luận và Tóm tắt. Giảng viên cũng nhận xét các phần này.
 **Chúng tôi cung cấp:** kết quả. Bạn không phải phân tích dữ liệu.
 **Thời điểm gửi hướng dẫn này:** cuối Buổi 6, khi bạn chọn câu hỏi.
-**Chấm theo:** `Manuscript_Rubric_VN.pdf` (mang tính hình thành). Bình duyệt: `Peer_Review_Instructions_VN.pdf`.
+**Chấm theo:** `Manuscript_Rubric_VN.pdf`. Bình duyệt: `Peer_Review_Instructions_VN.pdf`.
 
 
 * * *
 
 ## 1. Mục đích
 
-Trong đề cương, bạn lập kế hoạch cho một nghiên cứu chưa được thực hiện. Ở đây bạn báo cáo một nghiên cứu đã được thực hiện. Bạn viết phần Kết quả của một bài báo FLUID-ICU theo đúng chuẩn tạp chí yêu cầu: mọi số liệu đều đúng, mọi ước lượng đều kèm KTC 95%, bảng tự đọc hiểu được và không diễn giải. Nếu có thời gian, bạn có thể viết thêm các phần khác.
-
-> **Dữ liệu mô phỏng.** FLUID-ICU là bộ dữ liệu mô phỏng dùng cho đào tạo. Ghi câu sau ngay dưới tên bài: "Bản thảo này sử dụng dữ liệu mô phỏng tạo ra cho mục đích đào tạo. Bản thảo không báo cáo người bệnh thật nào." Không bao giờ nộp bản thảo này cho tạp chí.
+Bạn viết phần Kết quả của một bài báo FLUID-ICU theo đúng chuẩn tạp chí yêu cầu: mọi số liệu đều đúng, mọi ước lượng đều kèm KTC 95%, bảng tự đọc hiểu được và không diễn giải.
 
 
 * * *
 
 ## 2. Chọn một câu hỏi (cuối Buổi 6)
 
-Cả lớp cùng làm năm câu hỏi ở Buổi 5 và 6 (Q1 làm đầy đủ). Đến cuối Buổi 6, hãy chọn một câu hỏi và báo cho trưởng khóa học trong khung chat hoặc qua email. Nhiều học viên có thể chọn cùng một câu hỏi. Q1 được làm mẫu trực tiếp ở Buổi 7 nên dễ bắt đầu nhất.
+Cả lớp cùng làm năm câu hỏi ở Buổi 5 và 6 (Q1 làm đầy đủ). Đến cuối Buổi 6, hãy chọn một câu hỏi và báo cho giảng viên trong khung chat hoặc qua email. Nhiều học viên có thể chọn cùng một câu hỏi. Q1 được làm mẫu trực tiếp ở Buổi 7 nên dễ bắt đầu nhất.
 
 | Q | Câu hỏi nghiên cứu | Phân tích chính trong gói kết quả |
 |---|---|---|
@@ -52,7 +50,7 @@ Cả lớp cùng làm năm câu hỏi ở Buổi 5 và 6 (Q1 làm đầy đủ).
 | `SAP_FLUID-ICU_VN.pdf` và `Data_Dictionary_VN.pdf` | Định nghĩa biến và phương pháp phân tích, cho phần Phương pháp (không bắt buộc) |
 | `Response_to_Reviewers_Template_VN.docx` | Để trả lời người bình duyệt |
 
-Chỉ dùng số liệu trong gói kết quả của bạn. Nếu thiếu thông tin, hãy hỏi giảng viên.
+Nếu gói kết quả thiếu thông tin, hãy hỏi giảng viên.
 
 
 * * *
@@ -65,9 +63,11 @@ Chỉ dùng số liệu trong gói kết quả của bạn. Nếu thiếu thông
 |---|---|
 | Tên bài dự kiến | Một dòng, nêu đối tượng, phơi nhiễm, kết cục và thiết kế, ví dụ "Cân bằng dịch dương đến ngày 3 và tử vong 28 ngày ở người bệnh nhiễm khuẩn huyết: một nghiên cứu thuần tập đa trung tâm" |
 | Nội dung phần Kết quả | Mục 13 đến 17 của STROBE, theo thứ tự: (1) người tham gia và lưu đồ, (2) đặc điểm ban đầu (Bảng 1) và dữ liệu thiếu, (3) số kết cục ở mỗi nhóm, (4) kết quả chính, thô và đã hiệu chỉnh, kèm KTC 95%, (5) các phân tích khác trong gói kết quả (phân tích độ nhạy, quy gán hoặc phân nhóm). Khoảng 400 đến 600 từ |
-| Bảng 1 | Đặc điểm ban đầu theo nhóm phơi nhiễm, lấy từ gói kết quả |
+| Bảng 1 | Đặc điểm ban đầu, lấy từ gói kết quả |
 | Một bảng hoặc hình kết quả chính | Ví dụ ước lượng thô và đã hiệu chỉnh, hoặc đường cong Kaplan-Meier (Q1) |
-| Hai câu tuyên bố | Câu về dữ liệu mô phỏng (mục 1) và câu công khai sử dụng AI (mục 6) |
+| Câu công khai sử dụng AI | Xem mục 6 |
+
+Bảng 1 và bảng hoặc hình kết quả chính đã có sẵn trong gói kết quả (mỗi câu hỏi Q1 đến Q5 có một gói). Bạn sao chép, định dạng lại và viết phần lời.
 
 **Sẵn sàng để nộp** nghĩa là:
 - mọi số liệu khớp với gói kết quả
@@ -80,12 +80,12 @@ Chỉ dùng số liệu trong gói kết quả của bạn. Nếu thiếu thông
 
 | Phần | Ghi chú |
 |---|---|
-| Phương pháp | Mục 4 đến 12 của STROBE. Mọi thông tin có trong gói kết quả, SAP và từ điển dữ liệu. Giới thiệu ở Buổi 7 |
-| Đặt vấn đề | Ba đoạn: điều đã biết, điều chưa biết, mục tiêu. Buổi 8 |
-| Bàn luận | Sáu bước: trả lời, so sánh, giải thích, hạn chế, ý nghĩa, kết luận. Buổi 8 |
-| Tóm tắt | Có cấu trúc, không quá 250 từ. Buổi 8 |
+| Phương pháp | Mục 4 đến 12 của STROBE. Mọi thông tin có trong gói kết quả, SAP và từ điển dữ liệu. Học ở Buổi 7 |
+| Đặt vấn đề | Ba đoạn: điều đã biết, điều chưa biết, mục tiêu. Học ở Buổi 8 |
+| Bàn luận | Sáu bước: trả lời, so sánh, giải thích, hạn chế, ý nghĩa, kết luận. Học ở Buổi 8 |
+| Tóm tắt | Có cấu trúc, không quá 250 từ. Học ở Buổi 8 |
 
-Gửi các phần không bắt buộc trong cùng tệp với phần Kết quả. Các phần này không tính điểm, nhưng bạn sẽ nhận được nhận xét viết.
+Gửi các phần không bắt buộc trong cùng tệp với phần Kết quả. Các phần này không tính điểm.
 
 
 * * *
@@ -96,11 +96,11 @@ Gửi các phần không bắt buộc trong cùng tệp với phần Kết quả
 |---|---|
 | Buổi 5 và 6 | Cả lớp cùng đọc dữ liệu, Bảng 1 và các kết quả |
 | Cuối Buổi 6 (5/12) | Bạn chọn câu hỏi và nhận hướng dẫn này |
-| Buổi 7 (12/12) | Hội thảo viết bản thảo 1: giảng viên viết trực tiếp phần Kết quả của Q1 cùng cả lớp, sau đó bạn bắt đầu viết bài của mình. **Công bố người bình duyệt của bạn** |
-| Buổi 8 (19/12) | Hội thảo viết bản thảo 2: hoàn thiện phần Kết quả, và giới thiệu các phần không bắt buộc |
-| **23:59, thứ Bảy 19/12/2026** | Hạn nộp bản nháp phần Kết quả. Gửi email cho người bình duyệt của bạn và cho trưởng khóa học |
-| **Thứ Bảy 2/1/2027** (2 tuần sau Buổi 8) | Hạn nộp bản nhận xét bình duyệt. Gửi email cho tác giả và cho trưởng khóa học |
-| **Thứ Bảy 30/1/2027** (4 tuần sau khi nhận bản bình duyệt) | Hạn nộp phần Kết quả đã sửa và thư phản hồi người bình duyệt |
+| Buổi 7 (12/12) | Học IMRaD, Phương pháp và Kết quả. Hội thảo viết bản thảo 1: giảng viên viết trực tiếp phần Kết quả của Q1 cùng cả lớp, sau đó bạn bắt đầu viết bài của mình. **Công bố người bình duyệt của bạn** |
+| Buổi 8 (19/12) | Học Đặt vấn đề, Bàn luận, Tóm tắt và tên bài. Hội thảo viết bản thảo 2: hoàn thiện phần Kết quả |
+| **23:59, Chủ nhật 20/12/2026** (giờ Việt Nam) | Hạn nộp bản nháp phần Kết quả. Gửi email cho người bình duyệt của bạn và cho giảng viên |
+| **Thứ Tư 30/12/2026** | Hạn nộp bản nhận xét bình duyệt. Gửi email cho tác giả và cho giảng viên |
+| **Thứ Bảy 9/1/2027** | Hạn nộp phần Kết quả đã sửa và thư phản hồi người bình duyệt |
 
 
 * * *
@@ -118,13 +118,13 @@ Gửi các phần không bắt buộc trong cùng tệp với phần Kết quả
 
 ## 7. Nộp bài và tên tệp
 
-Viết bằng tiếng Anh. Nếu bạn thấy không thể viết bằng tiếng Anh, bạn được viết bằng tiếng Việt. Gửi mọi tệp qua email cho trưởng khóa học, Vương Mỹ Lượng, địa chỉ **myluong1710@gmail.com**.
+Viết bằng tiếng Anh. Nếu bạn thấy không thể viết bằng tiếng Anh, bạn được viết bằng tiếng Việt. Gửi mọi tệp qua email cho giảng viên Vương Mỹ Lượng (**myluong1710@gmail.com**).
 
 | Tệp | Gửi cho | Hạn nộp |
 |---|---|---|
-| `Surname_Firstname_Results_QN.docx`, ví dụ `Nguyen_An_Results_Q2.docx` | Người bình duyệt của bạn và trưởng khóa học | 23:59, 19/12/2026 |
-| `Surname_Firstname_Review.docx` (bản bình duyệt bài của bạn cùng lớp) | Tác giả và trưởng khóa học | 2/1/2027 |
-| `Surname_Firstname_Results_QN_revised.docx` (có theo dõi thay đổi) và `Surname_Firstname_Response.docx` | Trưởng khóa học | 30/1/2027 |
+| `Surname_Firstname_Results_QN.docx`, ví dụ `Nguyen_An_Results_Q2.docx` | Người bình duyệt của bạn và giảng viên | 23:59, Chủ nhật 20/12/2026 |
+| `Surname_Firstname_Review.docx` (bản bình duyệt bài của bạn cùng lớp) | Tác giả và giảng viên | Thứ Tư 30/12/2026 |
+| `Surname_Firstname_Results_QN_revised.docx` (có theo dõi thay đổi) và `Surname_Firstname_Response.docx` | Giảng viên | Thứ Bảy 9/1/2027 |
 
 
 * * *
@@ -132,5 +132,4 @@ Viết bằng tiếng Anh. Nếu bạn thấy không thể viết bằng tiếng
 ## 8. Nhận xét
 
 - Bạn nhận một bản bình duyệt từ bạn cùng lớp, và nhận xét viết của giảng viên về phần Kết quả đã sửa (hoặc bản nháp, nếu không có bản sửa) và về các phần không bắt buộc bạn gửi.
-- **Điểm mang tính hình thành.**
 

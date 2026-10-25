@@ -17,8 +17,8 @@ format:
 ## Tuần 8 · Thứ Bảy, 19:30-22:30 (trực tuyến)
 
 - 19:30  Ôn tập: Buổi 7
-- 19:35  8.1  Viết bài báo (II): các phần không bắt buộc và tên bài
-- 20:00  Thực hành bản thảo 2: hoàn thiện phần Kết quả
+- 19:35  8.1  Viết bài báo (II): Đặt vấn đề, Bàn luận, Tóm tắt, tên bài
+- 20:05  Thực hành bản thảo 2: hoàn thiện phần Kết quả
 - 20:30  8.2  Công bố: từ bảng kiểm đến người phản biện
 - 21:05  8.3  Làm người phản biện: Bài 1 và Bài 2, cả lớp cùng làm
 - 21:30  Trình bày đề cương (khoảng 5 người tình nguyện), 22:15 bế mạc
@@ -26,7 +26,7 @@ format:
 ::: {.notes}
 Buổi 8 (19:30-22:30, giải lao 20:50-21:05). Buổi cuối cùng.
 
-Hôm nay: các phần không bắt buộc và tên bài, hoàn thiện bản nháp phần Kết quả, công bố, phản biện, và khoảng năm phần trình bày đề cương. Phần bế mạc (22:15) có slide riêng.
+Hôm nay: Đặt vấn đề, Bàn luận, Tóm tắt và tên bài, hoàn thiện bản nháp phần Kết quả, công bố, phản biện, và khoảng năm phần trình bày đề cương. Phần bế mạc (22:15) có slide riêng.
 
 Trước buổi học: gửi email phiếu bài tập, hai bài báo gốc và phần Kết quả Q1 của lớp từ Buổi 7. Thu và mở sẵn slide của người trình bày.
 :::
@@ -66,22 +66,22 @@ CÂU HỎI NHANH · 5 phút
 Câu 3 dẫn vào 8.1: Bàn luận là nơi để diễn giải.
 :::
 
-## 8.1  \|  25 phút
+## 8.1  \|  30 phút
 
 :::: {.neu-statement}
 ::: {.neu-big}
-Viết bài báo (II): các phần không bắt buộc
+Viết bài báo (II): Đặt vấn đề, Bàn luận, Tóm tắt và tên bài
 :::
 
 ::: {.neu-sub}
-Đặt vấn đề, Bàn luận, Tóm tắt, và tên bài bạn cần có
+Mỗi phần để làm gì, một ví dụ mẫu trên Q1, một bài kiểm tra ngắn
 :::
 ::::
 
 ::: {.notes}
-Phần 8.1 (19:35-20:00). Khoảng 2 phút mỗi slide.
+Phần 8.1 (19:35-20:05). Khoảng 2 phút mỗi slide và ba bài kiểm tra 2 phút.
 
-Đặt vấn đề, Bàn luận và Tóm tắt không bắt buộc trong bản thảo. Tên bài là bắt buộc. Đi chậm ở ví dụ Bàn luận.
+Cả bốn phần đều là nội dung chính. Với bài tập, tên bài là bắt buộc cùng phần Kết quả. Đặt vấn đề, Bàn luận và Tóm tắt không bắt buộc nộp. Đi chậm ở ví dụ Bàn luận.
 :::
 
 ## Đặt vấn đề: hình phễu trong ba đoạn
@@ -134,6 +134,39 @@ Ví dụ mẫu cho Q1. Câu mẫu (điều chỉnh, không chép):
 Đoạn 3: 'Do đó, chúng tôi đánh giá liệu cân bằng dịch dương đến ngày 3 có liên quan với tử vong 28 ngày hay không.'
 
 Khoảng trống chính là nhiễu do chỉ định ở Buổi 4.
+:::
+
+## Kiểm tra: điều đã biết, điều chưa biết hay mục tiêu?
+
+::: {.neu-banner style="--c:#6C3483"}
+CÂU HỎI NHANH · 2 phút
+:::
+
+:::: {.columns}
+::: {.column width="60%"}
+::: {.neu-activity-steps style="--c:#6C3483"}
+- 'Truyền dịch sớm là phần cốt lõi trong điều trị nhiễm khuẩn huyết.'
+- 'Người bệnh nặng hơn được truyền nhiều dịch hơn, nên chưa rõ mối liên quan với tử vong có còn sau khi hiệu chỉnh hay không.'
+- 'Chúng tôi đánh giá liệu cân bằng dịch dương đến ngày 3 có liên quan với tử vong 28 ngày hay không.'
+- 'Trong nghiên cứu của chúng tôi, 35.9% người bệnh cân bằng dương đã tử vong.'
+:::
+:::
+::: {.column width="40%"}
+::: {.neu-side .plain style="--c:#6C3483"}
+Đáp án
+
+- Đoạn 1: điều đã biết
+- Đoạn 2: điều chưa biết
+- Đoạn 3: mục tiêu
+- Không thuộc Đặt vấn đề: kết quả của bạn nằm ở phần Kết quả
+:::
+:::
+::::
+
+::: {.notes}
+Kiểm tra (2 phút). Mỗi câu một thăm dò: đã biết, chưa biết, mục tiêu, hay không thuộc Đặt vấn đề.
+
+Câu 4 là câu bẫy: không bao giờ đưa kết quả của chính mình vào Đặt vấn đề.
 :::
 
 ## Bàn luận: sáu bước
@@ -338,11 +371,44 @@ Chép số liệu từ phần Kết quả của bạn (dữ liệu mô phỏng, 
 - Kết luận: Cân bằng dương có liên quan ở mức vừa phải với tử vong 28 ngày. Phần lớn mối liên quan thô phản ánh mức độ nặng. Cần một thử nghiệm ngẫu nhiên.
 
 ::: {.notes}
-Ví dụ mẫu (mô phỏng). Tên bài là bắt buộc với mọi người. Tóm tắt không bắt buộc.
+Ví dụ mẫu (mô phỏng). Tên bài là bắt buộc với mọi người. Tóm tắt không bắt buộc nộp, nhưng ai cũng cần biết cách viết.
 
-Dòng Phương pháp phải nói dữ liệu là mô phỏng. Kết luận: 'có liên quan ở mức vừa phải', khớp với KTC 1.02 đến 2.59.
+Kết luận: 'có liên quan ở mức vừa phải', khớp với KTC 1.02 đến 2.59.
 
 Hỏi: câu nào thay đổi nếu KTC là 0.95 đến 2.40? Kỳ vọng: Kết quả và Kết luận.
+:::
+
+## Kiểm tra: sửa các câu trong tóm tắt
+
+::: {.neu-banner style="--c:#6C3483"}
+CÂU HỎI NHANH · 2 phút
+:::
+
+:::: {.columns}
+::: {.column width="60%"}
+::: {.neu-activity-steps style="--c:#6C3483"}
+- Phương pháp: 'Chúng tôi nghiên cứu cân bằng dịch ở người bệnh ICU.'
+- Kết quả: 'Tử vong cao hơn có ý nghĩa ở nhóm cân bằng dương.'
+- Kết luận: 'Cân bằng dương làm tăng tử vong.'
+- Kết quả: 'Kết quả được trình bày trong bài.'
+:::
+:::
+::: {.column width="40%"}
+::: {.neu-side .plain style="--c:#6C3483"}
+Tốt hơn
+
+- Thêm thiết kế, bối cảnh, đối tượng, phơi nhiễm, kết cục
+- Nêu n, %, và OR kèm KTC 95%
+- 'có liên quan với': đây là nghiên cứu thuần tập
+- Nêu các con số chính: tóm tắt phải đọc hiểu được khi tách riêng
+:::
+:::
+::::
+
+::: {.notes}
+Kiểm tra (2 phút). Mời một người sửa mỗi câu.
+
+Mọi con số trong tóm tắt phải khớp với phần Kết quả.
 :::
 
 ## Tiêu đề và từ khóa: PICO của bạn trong một dòng
@@ -420,7 +486,7 @@ Bảng kiểm: điền trong khi viết.
 Đọc lần cuối: đối chiếu mọi con số trong văn bản với bảng. Phần lớn lỗi ở hai bài chỉ cần một đồng tác giả cẩn thận.
 :::
 
-## Thực hành bản thảo 2  \|  30 phút
+## Thực hành bản thảo 2  \|  25 phút
 
 :::: {.neu-statement}
 ::: {.neu-big}
@@ -428,12 +494,12 @@ Hoàn thiện phần Kết quả: cả lớp cùng làm, rồi mỗi người t�
 :::
 
 ::: {.neu-sub}
-22 phút cho bản nháp Q1 của lớp, rồi 8 phút cho bản nháp và tên bài của riêng bạn
+17 phút cho bản nháp Q1 của lớp, rồi 8 phút cho bản nháp và tên bài của riêng bạn
 :::
 ::::
 
 ::: {.notes}
-Thực hành bản thảo 2 (20:00-20:30).
+Thực hành bản thảo 2 (20:05-20:30).
 
 Phần 1: hoàn thiện trực tiếp phần Kết quả Q1 của lớp từ tuần trước, dùng bảng kiểm bình duyệt. Phần 2: mỗi học viên kiểm tra bản nháp của mình và viết tên bài dự kiến.
 
@@ -443,17 +509,16 @@ Hướng dẫn: s8\_exercises\_VN Phần B. Văn bản mẫu: s8\_solutions\_VN 
 ## Thực hành bản thảo 2, phần 1: cả lớp hoàn thiện phần Kết quả Q1
 
 ::: {.neu-banner style="--c:#0D7377"}
-CẢ LỚP CÙNG LÀM · 22 phút
+CẢ LỚP CÙNG LÀM · 17 phút
 :::
 
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0D7377"}
-- Kiểm số (6 phút): đối chiếu mọi con số với gói kết quả Q1
-- Bảng và hình (5 phút): có tự đọc hiểu được không?
+- Kiểm số (5 phút): đối chiếu mọi con số với gói kết quả Q1
+- Bảng và hình (4 phút): có tự đọc hiểu được không?
 - Từ ngữ (5 phút): không bình luận, không 'xu hướng', không động từ nhân quả
 - Tên bài dự kiến (3 phút): nêu thiết kế, dùng 'có liên quan'
-- Các phần không bắt buộc (3 phút): mỗi phần sẽ bổ sung gì
 :::
 :::
 ::: {.column width="40%"}
@@ -472,11 +537,9 @@ Dùng
 :::
 
 ::: {.notes}
-Thực hành phần 1 (20:00-20:22). Mở bản nháp của lớp từ tuần trước và gõ trực tiếp. Báo từng bước.
+Thực hành phần 1 (20:05-20:22). Mở bản nháp của lớp từ tuần trước và gõ trực tiếp. Báo từng bước.
 
 Câu gợi ý: 'Mọi tỷ lệ phần trăm đã có mẫu số chưa?' 'Đọc Bảng 1 mà không cần văn bản được không?' 'Có câu nào đang giải thích thay vì báo cáo?'
-
-Trong 3 phút cuối, cho thấy Đặt vấn đề và Bàn luận sẽ nằm ở đâu và nói gì.
 
 Gửi bản đã hoàn thiện dạng PDF sau buổi học.
 :::
@@ -493,7 +556,7 @@ BÀI TẬP CÁ NHÂN · 8 phút
 - Áp dụng các bước kiểm tra trên cho bản nháp phần Kết quả của bạn
 - Viết tên bài dự kiến: nêu thiết kế, 10-16 từ, dùng 'có liên quan'
 - Hai bạn tình nguyện đọc to tên bài. Giảng viên nhận xét
-- Tối nay: kiểm tra lần cuối, rồi gửi email trước 23:59
+- Trước 23:59 Chủ nhật 20/12: kiểm tra lần cuối, rồi gửi email
 :::
 :::
 ::: {.column width="40%"}
@@ -501,15 +564,15 @@ BÀI TẬP CÁ NHÂN · 8 phút
 Nộp bài
 
 - Phần Kết quả, tên bài dự kiến, Bảng 1, một bảng hoặc hình chính
-- Trước 23:59 tối nay
-- Gửi email cho người bình duyệt và trưởng khóa học
-- Các phần không bắt buộc trong cùng tệp
+- Trước 23:59 Chủ nhật 20/12
+- Gửi email cho người bình duyệt và giảng viên
+- Các phần khác (không bắt buộc) trong cùng tệp
 :::
 :::
 ::::
 
 ::: {.neu-output style="--c:#0B376C"}
-**SẢN PHẨM** Tên bài dự kiến của bạn. Phần Kết quả gửi email trước 23:59 tối nay
+**SẢN PHẨM** Tên bài dự kiến của bạn. Phần Kết quả gửi email trước 23:59 Chủ nhật 20/12
 :::
 
 ::: {.notes}
@@ -517,7 +580,7 @@ Thực hành phần 2 (20:22-20:30). Cá nhân.
 
 Đăng trong khung chat: Q2, AKI cũng có thể gây tích dịch. Q3, số ngày không thở máy tính tử vong là 0. Q4, nêu cả ước lượng trường hợp đầy đủ và quy gán. Q5, chỉ người sống sót.
 
-Nhắc: bản nháp gửi email cho người bình duyệt và trưởng khóa học (myluong1710\@gmail.com) trước 23:59.
+Nhắc: gửi email bản nháp cho người bình duyệt và giảng viên Vương Mỹ Lượng (myluong1710\@gmail.com) trước 23:59 ngày mai, Chủ nhật 20/12.
 :::
 
 ## 8.2  \|  20 phút
@@ -1080,7 +1143,7 @@ Khoảng 5 người tình nguyện, mỗi người 6 phút, rồi 2 phút góp �
 ::: {.notes}
 Trình bày (21:30-22:15): khoảng năm người tình nguyện, 6 phút cộng 2 phút nhận xét, rồi 5 phút tổng kết.
 
-Mọi người nộp slide và đề cương viết qua email cho trưởng khóa học (myluong1710\@gmail.com) trước 19:30 hôm nay.
+Mọi người gửi slide và đề cương qua email cho giảng viên Vương Mỹ Lượng (myluong1710\@gmail.com) trước 19:30 hôm nay.
 
 Trợ giảng ghi '2 phút', '1 phút' và 'Hết giờ' trong khung chat. Dừng phần trình bày ở 6:30.
 :::
@@ -1090,7 +1153,7 @@ Trợ giảng ghi '2 phút', '1 phút' và 'Hết giờ' trong khung chat. Dừn
 | Tiêu chí | Điều chúng tôi tìm | Điểm |
 |:---|:---|:---|
 | 12  Cấu trúc và nội dung | Đủ 6 slide. Thấy rõ câu hỏi, thiết kế, kết cục, cỡ mẫu, đạo đức, tạp chí và hướng dẫn báo cáo | 0-6 |
-| 13  Rõ ràng | Mọi bác sĩ và điều dưỡng trong lớp đều hiểu. Mỗi slide một thông điệp | 0-6 |
+| 13  Rõ ràng | Mọi người trong lớp đều hiểu. Mỗi slide một thông điệp | 0-6 |
 | 14  Hình thức slide | Đọc được trên màn hình chia sẻ. Hình ảnh thay cho khối chữ | 0-6 |
 | 15  Thời gian | Kết thúc trong khoảng 5:00 đến 6:00 | 0-6 |
 | 16  Câu hỏi và thảo luận | Trả lời thẳng, trung thực. Nêu được hạn chế | 0-6 |
@@ -1100,9 +1163,9 @@ Trợ giảng ghi '2 phút', '1 phút' và 'Hết giờ' trong khung chat. Dừn
 :::
 
 ::: {.notes}
-Đề cương viết được chấm cho mọi người sau khóa học. Tiêu chí 12-16 chấm phần trình bày, chỉ cho người trình bày. Trình bày không bao giờ làm giảm điểm.
+Đề cương viết được chấm cho mọi người sau khóa học. Tiêu chí 12-16 chấm phần trình bày, chỉ cho người trình bày. Trình bày không làm giảm điểm.
 
-Nhận xét trong 2 phút: hai người nêu hai ngôi sao và một mong muốn, rồi giảng viên, rồi người trình bày nói cảm ơn.
+Nhận xét trong 2 phút: hai người nêu hai điểm làm tốt và một góp ý, rồi giảng viên, rồi người trình bày nói cảm ơn.
 :::
 
 ## Trình bày đề cương
@@ -1450,7 +1513,7 @@ Thời gian: 8 phút.
 [Viết]{.neu-step-label}
 
 - Phần Kết quả
-- Không bắt buộc: Phương pháp, Đặt vấn đề, Bàn luận, Tóm tắt
+- Cách viết mọi phần và phần Tóm tắt
 :::
 ::: {.neu-step style="--c:#055F56"}
 [Công bố]{.neu-step-label}
@@ -1501,19 +1564,19 @@ Thời gian: 2 phút.
 - Người bình duyệt được phân ngẫu nhiên
 :::
 ::: {.neu-step style="--c:#0B376C"}
-[Tối nay]{.neu-step-label}
+[CN 20/12]{.neu-step-label}
 
 - Email bản nháp phần Kết quả trước 23:59
-- Gửi người bình duyệt và trưởng khóa học
+- Gửi người bình duyệt và giảng viên
 :::
 ::: {.neu-step style="--c:#5FA39B"}
-[2 tuần]{.neu-step-label}
+[Thứ Tư 30/12]{.neu-step-label}
 
 - Gửi báo cáo bình duyệt
 - Dùng bảng kiểm phần Kết quả
 :::
 ::: {.neu-step style="--c:#0070C0"}
-[4 tuần sau]{.neu-step-label}
+[Thứ Bảy 9/1]{.neu-step-label}
 
 - Bản sửa phần Kết quả
 - Thư phản hồi ý kiến bình duyệt
@@ -1527,7 +1590,7 @@ Thời gian: 2 phút.
 ::: {.notes}
 Mỗi bản nháp được bình duyệt một lần. Người bình duyệt được phân công ngẫu nhiên và công bố ở Buổi 7.
 
-Nộp bài qua email tới myluong1710\@gmail.com. Báo cáo bình duyệt nộp sau Buổi 8 hai tuần. Bản sửa phần Kết quả và thư phản hồi nộp sau khi nhận bình duyệt bốn tuần.
+Nộp bài qua email tới myluong1710\@gmail.com. Bản nháp phần Kết quả nộp trước 23:59 Chủ nhật 20/12 (giờ Việt Nam). Báo cáo bình duyệt nộp thứ Tư 30/12. Bản sửa phần Kết quả và thư phản hồi nộp thứ Bảy 9/1/2027.
 
 Tài liệu: Peer\_Review\_Instructions\_VN và Response\_to\_Reviewers\_Template\_VN.
 

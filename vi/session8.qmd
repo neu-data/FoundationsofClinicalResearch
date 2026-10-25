@@ -8,8 +8,8 @@ subtitle: "Tuần 8 · Thứ Bảy · trực tuyến, 19:30–22:30 (3 giờ, gi
 ## Nội dung
 
 - 19:30  Ôn tập: Buổi 7
-- 19:35  8.1  Viết bài báo (II): các phần không bắt buộc và tên bài
-- 20:00  Thực hành bản thảo 2: hoàn thiện phần Kết quả
+- 19:35  8.1  Viết bài báo (II): Đặt vấn đề, Bàn luận, Tóm tắt, tên bài
+- 20:05  Thực hành bản thảo 2: hoàn thiện phần Kết quả
 - 20:30  8.2  Công bố: từ bảng kiểm đến người phản biện
 - 21:05  8.3  Làm người phản biện: Bài 1 và Bài 2, cả lớp cùng làm
 - 21:30  Trình bày đề cương (khoảng 5 người tình nguyện), 22:15 bế mạc
@@ -19,13 +19,13 @@ subtitle: "Tuần 8 · Thứ Bảy · trực tuyến, 19:30–22:30 (3 giờ, gi
 | Bắt đầu | Giờ* | Phút | Hoạt động |
 |:----|:----|---:|:------------------------------------------------------------|
 | 0:00 | 19:30 | 5 | Ôn tập |
-| 0:05 | 19:35 | 25 | **8.1 Viết bài báo (II): các phần không bắt buộc và tên bài.** Phễu Đặt vấn đề, sáu bước của Bàn luận, ngôn ngữ chừng mực, tóm tắt, tên bài và từ khóa, trước khi nộp bài |
-| 0:30 | 20:00 | 30 | **[DS] Thực hành bản thảo 2:** cả lớp cùng hoàn thiện phần Kết quả Q1 của lớp (số liệu, bảng, câu chữ, tên bài, các phần không bắt buộc: 22 phút). Mỗi học viên kiểm tra bản nháp phần Kết quả của mình và viết tên bài dự kiến (8 phút), rồi gửi email phần Kết quả trước 23:59 tối nay |
+| 0:05 | 19:35 | 30 | **8.1 Viết bài báo (II): Đặt vấn đề, Bàn luận, Tóm tắt và tên bài.** Phễu Đặt vấn đề, sáu bước của Bàn luận, ngôn ngữ chừng mực, tóm tắt có cấu trúc, tên bài và từ khóa, với hai câu hỏi kiểm tra nhanh |
+| 0:35 | 20:05 | 25 | **[DS] Thực hành bản thảo 2:** cả lớp cùng hoàn thiện phần Kết quả Q1 (số liệu, bảng, câu chữ, tên bài), rồi mỗi học viên kiểm tra bản nháp phần Kết quả của mình. Hạn nộp: 23:59 Chủ nhật 20/12/2026 |
 | 1:00 | 20:30 | 20 | **8.2 Công bố:** hướng dẫn báo cáo (**trình diễn EQUATOR**), chọn tạp chí, tạp chí săn mồi, hồ sơ nộp bài, bình duyệt, trả lời phản biện (bản tiền ấn phẩm, bị từ chối, bản in thử và tóm tắt hội nghị nằm trong slide bổ sung) |
 | 1:20 | 20:50 | 15 | GIẢI LAO |
 | 1:35 | 21:05 | 25 | **8.3 Làm người phản biện:** cả lớp cùng thẩm định đơn giản Bài báo 1 và 2 (Boulet 2024 RCT và Hyun 2023 thuần tập, gửi qua email) bằng bảng kiểm 10 câu hỏi, để luyện tập cho phần bình duyệt cá nhân sau khóa học |
 | 2:00 | 21:30 | 45 | **Học viên tình nguyện trình bày:** khoảng 5 học viên trình bày đề cương nghiên cứu của mình + kế hoạch công bố (mỗi người 6 phút + 2 phút góp ý), sau đó 5 phút tổng kết; mọi học viên nộp slide và đề cương viết |
-| 2:45 | 22:15 | 15 | Bài kiểm tra cuối khóa, đánh giá khóa học, bước tiếp theo (bình duyệt phần Kết quả của một bạn cùng lớp, hạn 2/1/2027) |
+| 2:45 | 22:15 | 15 | Bài kiểm tra cuối khóa, đánh giá khóa học, bước tiếp theo (bình duyệt phần Kết quả của một bạn cùng lớp, hạn 30/12/2026) |
 
 \*Thời gian tính từ đầu buổi học; cột giờ là giờ Việt Nam của buổi học trực tuyến 19:30–22:30. Mọi bài tập đều do cả lớp cùng làm (không chia nhóm). **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
 
@@ -50,15 +50,15 @@ Nhấn **F** để toàn màn hình, **S** để xem ghi chú, **E** để in, *
 
 ## Chuẩn bị trước buổi học
 
-- Đề cương viết và 6 slide, gửi email cho trưởng khóa học trước 19:30 hôm nay (người tình nguyện: đã tập trình bày trong 6 phút).
+- Đề cương viết và 6 slide, gửi email cho giảng viên trước 19:30 hôm nay (người tình nguyện: đã tập trình bày trong 6 phút).
 - Bản nháp phần Kết quả, gói kết quả của bạn và phần Kết quả Q1 của lớp từ Buổi 7 (PDF).
 - Mở sẵn Bài báo 1 và 2 (tệp PDF gửi trước Buổi 1) cho phần *Làm người phản biện*.
 
 ## Sau buổi học (bài về nhà)
 
-- **Trước 23:59 tối nay (19/12/2026):** gửi email phần Kết quả (`Ho_Ten_Results_QN.docx`) cho người bình duyệt của bạn và trưởng khóa học ([myluong1710@gmail.com](mailto:myluong1710@gmail.com)). Các phần không bắt buộc để chung trong cùng tệp ([hướng dẫn bản thảo](manuscript-brief.qmd)).
-- **Trước 2/1/2027:** nhận xét phần Kết quả của bạn cùng lớp và gửi email bản nhận xét cho tác giả và trưởng khóa học ([hướng dẫn bình duyệt](peer-review.qmd)).
-- **Trước 30/1/2027:** gửi email cho trưởng khóa học phần Kết quả đã sửa (có theo dõi thay đổi) và thư phản hồi người bình duyệt.
+- **Trước 23:59 Chủ nhật 20/12/2026 (giờ Việt Nam):** gửi email phần Kết quả (`Ho_Ten_Results_QN.docx`) cho người bình duyệt của bạn và giảng viên ([myluong1710@gmail.com](mailto:myluong1710@gmail.com)). Các phần không bắt buộc để chung trong cùng tệp ([hướng dẫn bản thảo](manuscript-brief.qmd)).
+- **Trước 30/12/2026:** nhận xét phần Kết quả của bạn cùng lớp và gửi email bản nhận xét cho tác giả và giảng viên ([hướng dẫn bình duyệt](peer-review.qmd)).
+- **Trước 9/1/2027:** gửi email cho giảng viên phần Kết quả đã sửa (có theo dõi thay đổi) và thư phản hồi người bình duyệt.
 - **Tùy chọn:** Phần A và C trong phiếu Buổi 8, và phần còn lại của bảng trả lời Phần D, để luyện tập.
 
 ## Tài liệu liên quan

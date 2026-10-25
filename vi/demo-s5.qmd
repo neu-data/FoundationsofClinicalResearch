@@ -83,7 +83,7 @@ title: "Buổi 5: Kịch bản trình diễn"
 
 ## Các câu hỏi có thể gặp
 
-**"Đây có phải dữ liệu thật không?"** Không. Đây là dữ liệu mô phỏng, được thiết kế để giống dữ liệu ICU và để minh họa các vấn đề kinh điển. Bản thảo nào dùng dữ liệu này cũng phải nói rõ điều đó.
+**"Đây có phải dữ liệu thật không?"** Không. Đây là dữ liệu mô phỏng, được thiết kế để giống dữ liệu ICU và để minh họa các vấn đề kinh điển.
 
 **"Sao không sửa lỗi trong Excel?"** Sửa tay không để lại dấu vết và không lặp lại được, và một lần dán nhầm thì không ai thấy. Script kèm nhật ký thì người phản biện kiểm tra được và ai cũng chạy lại được.
 

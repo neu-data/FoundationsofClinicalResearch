@@ -48,7 +48,7 @@ Viết một câu giải thích màu bạn chọn.
 
 **Trong lớp (20:30, 15 phút):** giảng viên điền trực tiếp phiếu này trên màn hình chia sẻ cho ví dụ xuyên suốt (nghiên cứu thuần tập hồi cứu về cân bằng dịch và tử vong 28 ngày ở người lớn bị sốc nhiễm khuẩn tại ICU của mình). Bạn gợi ý câu trả lời trong khung chat.
 
-**Ở nhà trong tuần này:** điền phiếu cho đề cương **của riêng bạn**. Phiếu sẽ trở thành Phần 4 của đề cương viết và slide 5 (đạo đức và tính khả thi) và slide 6 (kế hoạch công bố) của bài trình bày. Mọi học viên nộp đề cương viết và 6 slide qua email trước 19:30 ngày diễn ra Buổi 8 (`Proposal_Brief_VN.pdf`).
+**Ở nhà trong tuần này:** điền phiếu cho đề cương **của riêng bạn**. Phiếu sẽ trở thành Phần 4 của đề cương viết và slide 5 (đạo đức và tính khả thi) và slide 6 (kế hoạch công bố) của bài trình bày. Mọi học viên nộp đề cương viết và 6 slide qua email trước 19:30 thứ Bảy 19/12/2026, Buổi 8 (`Proposal_Brief_VN.pdf`).
 
 ### B1. Đạo đức và sự đồng ý tham gia
 
@@ -109,7 +109,7 @@ Rủi ro lớn nhất về tính khả thi: ______________________  Một cách 
 
 ## Phần C: Thực hành bản thảo 1: phần Kết quả (45 phút, 21:35)
 
-Bạn viết **phần Kết quả** cho câu hỏi FLUID-ICU của mình, chỉ dùng gói kết quả của câu hỏi đó. Phương pháp, Đặt vấn đề, Bàn luận và Tóm tắt không bắt buộc (`Manuscript_Brief_VN.pdf`).
+Bạn viết **phần Kết quả** cho câu hỏi FLUID-ICU của mình, chỉ dùng gói kết quả của câu hỏi đó. Chỉ bắt buộc nộp phần Kết quả. Bạn có thể thêm các phần khác vào cùng tệp (`Manuscript_Brief_VN.pdf`).
 
 | Câu hỏi | Chủ đề | Gói kết quả |
 |---|---|---|
@@ -138,15 +138,15 @@ Bản nháp của lớp được gửi dạng PDF sau buổi học. Nếu bạn 
 - [ ] Các phân tích khác trong gói kết quả: độ nhạy, quy gán hoặc phân nhóm (17)
 - [ ] Bảng 1 và một bảng hoặc hình chính tự đọc hiểu được
 - [ ] Không bình luận ("vì", "gợi ý rằng") và không dùng từ nhân quả
-- [ ] Tên bài dự kiến, câu về dữ liệu mô phỏng và câu công khai sử dụng AI
+- [ ] Tên bài dự kiến và câu công khai sử dụng AI
 
 ### Lưu ý riêng cho từng câu hỏi
 - **Q3:** số ngày không thở máy phân bố lệch và tính tử vong là 0.
 - **Q4:** báo cáo cả ước lượng trường hợp đầy đủ và quy gán đa bội.
 - **Q5:** chỉ người sống sót. Dùng trung vị và IQR.
 
-### Không bắt buộc: Phương pháp
-Nếu bạn viết thêm phần Phương pháp, dùng mục 4 đến 12 của STROBE: thiết kế và bối cảnh, người tham gia, biến số, nguồn dữ liệu, sai lệch, cỡ mẫu ("mọi người bệnh đủ tiêu chuẩn trong nghiên cứu thuần tập đều được đưa vào"), phương pháp thống kê và dữ liệu thiếu. Thông tin có trong gói kết quả, `SAP_FLUID-ICU_VN.pdf` và `Data_Dictionary_VN.pdf`.
+### Phương pháp (học ở 7.3, không bắt buộc nộp)
+Nếu bạn nộp thêm phần Phương pháp, dùng mục 4 đến 12 của STROBE: thiết kế và bối cảnh, người tham gia, biến số, nguồn dữ liệu, sai lệch, cỡ mẫu ("mọi người bệnh đủ tiêu chuẩn trong nghiên cứu thuần tập đều được đưa vào"), phương pháp thống kê và dữ liệu thiếu. Thông tin có trong gói kết quả, `SAP_FLUID-ICU_VN.pdf` và `Data_Dictionary_VN.pdf`.
 
 ### Sản phẩm cần nộp
-Phần Kết quả của bạn, đặt tên `Surname_Firstname_Results_QN.docx`, gửi email cho người bình duyệt của bạn và trưởng khóa học (myluong1710@gmail.com) **trước 23:59 ngày học Buổi 8**. Người bình duyệt của bạn được công bố cuối buổi học hôm nay.
+Phần Kết quả của bạn, đặt tên `Surname_Firstname_Results_QN.docx`, gửi email cho người bình duyệt của bạn và giảng viên Vương Mỹ Lượng (myluong1710@gmail.com) **trước 23:59 Chủ nhật 20/12/2026 (giờ Việt Nam)**. Người bình duyệt của bạn được công bố cuối buổi học hôm nay.

@@ -83,7 +83,7 @@ title: "Session 5: Live-demo script"
 
 ## Anticipated questions
 
-**"Is this real data?"** No. It is simulated, designed to behave like ICU data and to show the classic problems. Any manuscript must say so.
+**"Is this real data?"** No. It is simulated, designed to behave like ICU data and to show the classic problems.
 
 **"Why not fix the errors in Excel?"** Hand edits leave no trace and cannot be repeated, and one wrong paste is invisible. A script plus a log is checkable by a reviewer and repeatable by anyone.
 

@@ -64,9 +64,9 @@ Lỗi thường gặp: nêu CONSORT cho nghiên cứu thuần tập; dùng "impa
 
 * * *
 
-## Phần C: Thực hành bản thảo 1: Kết quả mẫu cho Q1 (và Phương pháp không bắt buộc)
+## Phần C: Thực hành bản thảo 1: Kết quả mẫu cho Q1 (và Phương pháp mẫu)
 
-Mọi con số lấy từ `Results_Pack_Q1–Q5` và `FLUID-ICU/results_packs/Q1/results_pack_Q1.md` (**DỮ LIỆU MÔ PHỎNG, KHÔNG PHẢI NGƯỜI BỆNH THẬT**). Dùng để định hướng bản nháp của lớp trong phần 1 của buổi thực hành (không dán nguyên văn). Học viên chọn Q2–Q5 theo cùng cấu trúc với số liệu từ gói kết quả của mình. Phương pháp mẫu dành cho học viên viết phần Phương pháp (không bắt buộc).
+Mọi con số lấy từ `Results_Pack_Q1–Q5` và `FLUID-ICU/results_packs/Q1/results_pack_Q1.md` (**DỮ LIỆU MÔ PHỎNG, KHÔNG PHẢI NGƯỜI BỆNH THẬT**). Dùng để định hướng bản nháp của lớp trong phần 1 của buổi thực hành (không dán nguyên văn). Học viên chọn Q2–Q5 theo cùng cấu trúc với số liệu từ gói kết quả của mình. Phương pháp mẫu đi kèm phần Phương pháp đã dạy ở 7.3 (slide 28 đến 30).
 
 ### Kết quả mẫu (~300 từ)
 
@@ -80,7 +80,7 @@ Mọi con số lấy từ `Results_Pack_Q1–Q5` và `FLUID-ICU/results_packs/Q1
 
 **Các phân tích khác.** Với quy gán đa bội (n = 620), OR hiệu chỉnh là 1.70 (KTC 95% 1.09 đến 2.64). Mối liên quan khác nhau theo tình trạng suy tim (p tương tác = 0.031): OR hiệu chỉnh 4.39 (KTC 95% 1.65 đến 12.38) ở người có suy tim (n = 90) và 1.29 (KTC 95% 0.77 đến 2.19) ở người không suy tim (n = 437).
 
-### Không bắt buộc: Phương pháp mẫu (~300 từ)
+### Phương pháp mẫu (~300 từ)
 
 **Thiết kế nghiên cứu và bối cảnh.** Chúng tôi phân tích FLUID-ICU, một nghiên cứu thuần tập tiến cứu đa trung tâm gồm những người lớn bị nhiễm khuẩn huyết liên tiếp nhập bốn khoa hồi sức tích cực (ICU A–D) từ tháng 1 năm 2023 đến tháng 12 năm 2024. FLUID-ICU là bộ dữ liệu giảng dạy mô phỏng; không cần chấp thuận của hội đồng đạo đức hay sự đồng ý tham gia.
 
@@ -105,5 +105,5 @@ Mọi con số lấy từ `Results_Pack_Q1–Q5` và `FLUID-ICU/results_packs/Q1
 | Q4: trường hợp đầy đủ VÀ quy gán | CC OR 1.39 (1.24 đến 1.57) so với MI 1.45 (1.29 đến 1.64) mỗi mmol/L (hiệu chỉnh theo tuổi, giới, đái tháo đường, CKD, suy tim) |
 | Q5: trung vị/IQR, chỉ người sống sót | 439 người sống sót; trung vị 7.5 so với 4.8 ngày |
 | Bảng tự đọc hiểu được | Tên bảng, đơn vị, n mỗi cột, chú thích chữ viết tắt |
-| Có nêu dữ liệu mô phỏng | Thêm câu về dữ liệu mô phỏng dưới tên bài |
-| Phương pháp (không bắt buộc): mỗi kết quả có phương pháp | Thêm kiểm định hoặc mô hình và các biến hiệu chỉnh |
+| Có câu công khai sử dụng AI | Thêm "Sử dụng AI: không." hoặc câu một dòng trong hướng dẫn bài tập |
+| Phương pháp (nếu có nộp): mỗi kết quả có phương pháp | Thêm kiểm định hoặc mô hình và các biến hiệu chỉnh |

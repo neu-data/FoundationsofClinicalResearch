@@ -1,5 +1,5 @@
 ---
-title: "Buổi 7 · Bảo vệ & viết: đạo đức, liêm chính và phần Kết quả"
+title: "Buổi 7 · Bảo vệ & viết: đạo đức, liêm chính, Phương pháp và Kết quả"
 subtitle: "Nền tảng Nghiên cứu Lâm sàng: Từ câu hỏi lâm sàng đến công bố"
 author: "Vương Mỹ Lượng & Bernard Osang'ir"
 institute: "Neudata Consulting Ltd"
@@ -12,7 +12,7 @@ format:
     include-in-header: access-gate.html
 ---
 
-# Buổi 7 · Bảo vệ & viết: đạo đức, liêm chính và phần Kết quả
+# Buổi 7 · Bảo vệ & viết: đạo đức, liêm chính, Phương pháp và Kết quả
 
 ## Tuần 7 · Thứ Bảy, 19:30-22:30 (trực tuyến)
 
@@ -20,11 +20,11 @@ format:
 - 19:40  7.1  Đề cương chi tiết, đạo đức, sự đồng ý, đăng ký, tính khả thi
 - 20:10  7.2  Liêm chính: quyền tác giả, xung đột lợi ích, chia sẻ dữ liệu, AI
 - 20:30  Xây dựng đề cương 7: đạo đức và kế hoạch công bố
-- 21:00  7.3  Viết bài báo (I): phần Kết quả, bảng, STROBE
+- 21:00  7.3  Viết bài báo (I): IMRaD, Phương pháp và Kết quả
 - 21:35  Thực hành bản thảo 1: phần Kết quả, cả lớp cùng viết rồi mỗi người tự viết
 
 ::: {.notes}
-Buổi 7 (19:30-22:30, giải lao 20:45-21:00). Trước giải lao: đạo đức, liêm chính và Phần 4 đề cương. Sau giải lao: phần Kết quả.
+Buổi 7 (19:30-22:30, giải lao 20:45-21:00). Trước giải lao: đạo đức, liêm chính và Phần 4 đề cương. Sau giải lao: IMRaD, Phương pháp và Kết quả.
 
 Trước buổi học, gửi email phiếu bài tập, năm gói kết quả, mẫu bản thảo và danh sách cặp bình duyệt.
 
@@ -91,8 +91,8 @@ FLUID-ICU = bộ dữ liệu của khóa học: thuần tập mô phỏng 620 ng
 
 - Câu hỏi FLUID-ICU của bạn (Q1 đến Q5)
 - Chúng tôi đưa kết quả. Bạn viết
-- Hôm nay: phần Kết quả, viết trực tiếp trên Q1
-- Buổi 8: hoàn thiện. Các phần khác không bắt buộc
+- Hôm nay: Phương pháp, Kết quả (viết trên Q1)
+- Buổi 8: Đặt vấn đề, Bàn luận, Tóm tắt, tên bài
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
 [Hai bài báo làm ví dụ]{.neu-card-title}
@@ -104,13 +104,15 @@ FLUID-ICU = bộ dữ liệu của khóa học: thuần tập mô phỏng 620 ng
 ::::
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Trước giải lao: Đề cương Phần 4. Sau giải lao: phần Kết quả.
+**THÔNG ĐIỆP CHÍNH** Trước giải lao: Đề cương Phần 4. Sau giải lao: Phương pháp và Kết quả.
 :::
 
 ::: {.notes}
 Hai sản phẩm cá nhân. Đề cương: Phần 4 hôm nay, nộp vào thứ Bảy tuần sau.
 
-Phần Kết quả: chúng tôi đưa kết quả cho câu hỏi của mỗi người, họ viết một phần Kết quả sẵn sàng để nộp. Phương pháp, Đặt vấn đề, Bàn luận và Tóm tắt không bắt buộc.
+Phần Kết quả: chúng tôi đưa kết quả cho câu hỏi của mỗi người, họ viết một phần Kết quả sẵn sàng để nộp.
+
+Mọi phần đều được dạy: hôm nay Phương pháp và Kết quả, tuần sau Đặt vấn đề, Bàn luận, Tóm tắt và tên bài. Chỉ bắt buộc nộp phần Kết quả.
 
 Hỏi: bạn đã chọn câu hỏi nào (Q1-Q5)?
 :::
@@ -505,8 +507,6 @@ FLUID-ICU là dữ liệu mô phỏng. Nếu là thật, bài báo sẽ viết n
 ::: {.notes}
 Nếu FLUID-ICU là thật, đoạn đạo đức sẽ trả lời bốn câu hỏi này bằng bốn câu.
 
-Đây là dữ liệu mô phỏng: học viên ghi câu về dữ liệu mô phỏng ngay dưới tên bài, như hướng dẫn bài tập. Chỉ cần đoạn đạo đức nếu viết phần Phương pháp (không bắt buộc).
-
 Hỏi: trong bài báo thật, đoạn này nằm ở đâu? Kỳ vọng: phần Phương pháp.
 :::
 
@@ -887,7 +887,7 @@ Xây dựng đề cương 7 (20:30-20:45). Điền trực tiếp Phần B cho v�
 
 Chú ý: 'sẽ lấy đồng ý' mà không nói ai và khi nào, cho rằng hồi cứu hồ sơ được miễn duyệt, lấy số tuyển chọn từ cỡ mẫu, chọn CONSORT cho thuần tập.
 
-Về nhà: Phần 4 đề cương của mình. Ai muốn trình bày thì gửi email cho trưởng khóa học trước thứ Tư trước Buổi 8.
+Về nhà: Phần 4 đề cương của mình. Ai muốn trình bày thì gửi email cho giảng viên trước thứ Tư 16/12.
 :::
 
 ---
@@ -910,18 +910,34 @@ Chuẩn bị màn hình: mẫu bản thảo và gói kết quả Q1 cạnh nhau.
 
 :::: {.neu-statement}
 ::: {.neu-big}
-Viết bài báo (I): phần Kết quả
+Viết bài báo (I): IMRaD, Phương pháp và Kết quả
 :::
 
 ::: {.neu-sub}
-Báo cáo những gì đã thấy, không hơn
+Nói rõ đã làm gì, rồi báo cáo những gì đã thấy
 :::
 ::::
 
 ::: {.notes}
-Phần 7.3 (21:00-21:35). Chín slide và 3 phút kiểm tra.
+Phần 7.3 (21:00-21:35). Mười slide và 3 phút kiểm tra.
 
-Các slide về Kết quả và ví dụ mẫu là trọng tâm. Các slide về Phương pháp ngắn hơn: Phương pháp không bắt buộc trong bản thảo.
+IMRaD trước, rồi Phương pháp và Kết quả, mỗi phần có ví dụ mẫu trên Q1. Phần kiểm tra luyện cả hai.
+:::
+
+## IMRaD: hình đồng hồ cát của mọi bài báo
+
+![](images/figures/sat4/imrad_hourglass.png){.neu-fig}
+
+::: {.neu-takeaway}
+**THÔNG ĐIỆP CHÍNH** Đặt vấn đề thu hẹp đến câu hỏi. Bàn luận mở rộng trở lại thực hành.
+:::
+
+::: {.notes}
+IMRaD: Đặt vấn đề (vì sao), Phương pháp (đã làm gì), Kết quả (đã thấy gì), Bàn luận (điều đó có nghĩa gì). Tóm tắt và tên bài tóm lược toàn bài.
+
+Đặt vấn đề thu hẹp về câu hỏi, Bàn luận mở rộng trở lại thực hành. Đặt vấn đề của Bài 1 là hình phễu ba đoạn, và Bàn luận mở đầu bằng câu trả lời cho câu hỏi.
+
+Hôm nay: Phương pháp và Kết quả. Thứ Bảy tuần sau: Đặt vấn đề, Bàn luận, Tóm tắt và tên bài.
 :::
 
 ## Viết theo thứ tự khác với thứ tự người đọc
@@ -978,7 +994,7 @@ Hiểu lầm: 'phải viết xong Đặt vấn đề mới bắt đầu được
 ## Phương pháp: đủ chi tiết để người khác làm lại
 
 ::: {.neu-intro}
-Không bắt buộc trong bản thảo của bạn. Nếu đồng nghiệp không làm lại được nghiên cứu từ phần này, hãy thêm chi tiết.
+Phương pháp nói rõ bạn đã làm gì. Nếu đồng nghiệp không làm lại được nghiên cứu từ phần này, hãy thêm chi tiết.
 :::
 
 :::: {.neu-cards style="--n:4"}
@@ -1023,10 +1039,10 @@ Phương pháp: đủ chi tiết để làm lại nghiên cứu, theo thứ tự
 
 Tốt: Bài 1 mô tả can thiệp đủ để làm lại. Cần sửa: Bài 2 không nói biến hiệu chỉnh bị thiếu được xử lý thế nào.
 
-Phương pháp không bắt buộc trong bản thảo: mọi thông tin có trong gói kết quả, SAP và từ điển dữ liệu.
+Với FLUID-ICU, mọi thông tin có trong gói kết quả, SAP và từ điển dữ liệu.
 :::
 
-## Không bắt buộc: Phương pháp cho FLUID-ICU câu hỏi 1
+## Ví dụ mẫu: Phương pháp cho FLUID-ICU câu hỏi 1
 
 ::: {.neu-intro}
 Mỗi mục STROBE một câu (dữ liệu mô phỏng). STROBE = bảng kiểm báo cáo nghiên cứu quan sát.
@@ -1040,14 +1056,14 @@ Mỗi mục STROBE một câu (dữ liệu mô phỏng). STROBE = bảng kiểm 
 - [Đạo đức (bản khóa học): Phân tích này dùng bộ dữ liệu giảng dạy mô phỏng. Không cần phê duyệt đạo đức hay sự đồng ý.]{style="color:#0B376C"}
 
 ::: {.notes}
-Dành cho ai viết phần Phương pháp (không bắt buộc). Mỗi mục STROBE một câu, tất cả từ gói kết quả Q1, mục 2.
+Mỗi mục STROBE một câu, tất cả từ gói kết quả Q1, mục 2.
 
 Mục 10: với thuần tập có sẵn, ghi là mọi người bệnh đủ tiêu chuẩn đều được đưa vào.
 
 Hỏi: câu nào người đọc cần để làm lại nghiên cứu? Kỳ vọng: cách tính cân bằng dịch.
 :::
 
-## Không bắt buộc: đoạn phân tích thống kê
+## Ví dụ mẫu: đoạn phân tích thống kê
 
 ::: {.neu-intro}
 Mục STROBE 12 cho Q1: mỗi quyết định một câu, tất cả được chọn trước khi xem dữ liệu.
@@ -1194,7 +1210,7 @@ FLUID-ICU là nghiên cứu thuần tập, nên bài báo theo STROBE. Các số
 ::::
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Phần Kết quả của bạn: mục 13 đến 17. Phương pháp (không bắt buộc): mục 4 đến 12.
+**THÔNG ĐIỆP CHÍNH** Phương pháp: mục 4 đến 12. Kết quả: mục 13 đến 17.
 :::
 
 ::: {.notes}
@@ -1334,7 +1350,7 @@ Năm câu hỏi
 ::::
 
 ::: {.neu-output style="--c:#0B376C"}
-**SẢN PHẨM** Phần Kết quả của bạn, hạn 23:59 ngày học Buổi 8
+**SẢN PHẨM** Phần Kết quả của bạn, hạn 23:59 Chủ nhật 20/12
 :::
 
 ::: {.notes}
@@ -1342,7 +1358,7 @@ Thực hành phần 2 (22:05-22:20). Mỗi người tự viết. Trả lời câ
 
 Q1: viết lại bằng lời của mình, không chép bản nháp của lớp. Q3: số ngày không thở máy tính tử vong là 0. Q4: báo cáo cả ước lượng trường hợp đầy đủ và quy gán. Q5: chỉ người sống sót, trung vị và IQR.
 
-Có thể thêm các phần không bắt buộc nếu còn thời gian.
+Có thể thêm các phần khác, nhưng chỉ bắt buộc nộp phần Kết quả.
 :::
 
 ## Từ khóa của Buổi 7
@@ -1368,24 +1384,24 @@ Từ khóa (22:20-22:22). Chiếu thuật ngữ, mời một người giải th�
 
 | Khi nào | Bạn làm gì |
 |:---|:---|
-| 23:59, thứ Bảy 19/12 (Buổi 8) | Gửi email phần Kết quả cho người bình duyệt của bạn và trưởng khóa học |
-| Thứ Bảy 2/1 | Người bình duyệt gửi email bản bình duyệt cho tác giả và trưởng khóa học |
-| Thứ Bảy 30/1 | Gửi email phần Kết quả đã sửa và thư phản hồi cho trưởng khóa học |
+| 23:59, Chủ nhật 20/12 | Gửi email phần Kết quả cho người bình duyệt của bạn và giảng viên |
+| Thứ Tư 30/12 | Người bình duyệt gửi email bản bình duyệt cho tác giả và giảng viên |
+| Thứ Bảy 9/1/2027 | Gửi email phần Kết quả đã sửa và thư phản hồi cho giảng viên |
 
 ::: {.neu-table-caption}
-Người bình duyệt được phân công ngẫu nhiên: xem danh sách trên màn hình và trong email. Trưởng khóa học: myluong1710\@gmail.com
+Người bình duyệt được phân công ngẫu nhiên: xem danh sách trên màn hình và trong email. Email giảng viên Vương Mỹ Lượng: myluong1710\@gmail.com
 :::
 
 ::: {.notes}
 Bình duyệt (22:22-22:24). Chiếu danh sách cặp bình duyệt và nói rõ đã bốc thăm ngẫu nhiên. Mỗi người bình duyệt một bản nháp và nhận một bản bình duyệt.
 
-Gửi bản nháp thẳng cho người bình duyệt giúp tiết kiệm thời gian: bản bình duyệt nộp sau hai tuần, bản sửa sau đó bốn tuần.
+Gửi bản nháp thẳng cho người bình duyệt giúp tiết kiệm thời gian: bản bình duyệt nộp sau mười ngày, bản sửa mười ngày sau đó.
 :::
 
 ## Tổng kết, câu hỏi cuối buổi và bài về nhà
 
 ::: {.neu-banner style="--c:#1F5C7A"}
-THẢO LUẬN · 7 phút
+THẢO LUẬN · 6 phút
 :::
 
 :::: {.columns}
@@ -1394,7 +1410,7 @@ THẢO LUẬN · 7 phút
 - Ba thông điệp mang về (bên phải)
 - Câu hỏi cuối buổi trong khung chat: 'Ai đồng ý cho người bệnh sốc nhiễm khuẩn đang an thần, và khi nào?'
 - Bài về nhà 1: viết Phần 4 cho đề cương của bạn
-- Bài về nhà 2: viết phần Kết quả (hạn 23:59 ngày học Buổi 8)
+- Bài về nhà 2: viết phần Kết quả (hạn 23:59 Chủ nhật 20/12)
 - Bài về nhà 3: chuẩn bị 6 slide trình bày (mọi người đều nộp)
 :::
 :::
@@ -1468,20 +1484,6 @@ CÂU HỎI NHANH · 2 phút
 Kiểm tra bổ sung. Mỗi tình huống một thăm dò: bắt buộc, nên, hay không cần.
 
 Tình huống 4: kiểm định chất lượng (audit) đi qua phòng quản lý chất lượng, không đăng ký. Nếu muốn công bố như nghiên cứu, hỏi hội đồng đạo đức trước.
-:::
-
-## IMRaD: hình đồng hồ cát của mọi bài báo
-
-![](images/figures/sat4/imrad_hourglass.png){.neu-fig}
-
-::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Đặt vấn đề thu hẹp đến câu hỏi. Bàn luận mở rộng trở lại thực hành.
-:::
-
-::: {.notes}
-Bổ sung. IMRaD: Đặt vấn đề thu hẹp về câu hỏi, Bàn luận mở rộng trở lại thực hành.
-
-Đặt vấn đề của Bài 1 là hình phễu ba đoạn, và Bàn luận mở đầu bằng câu trả lời cho câu hỏi.
 :::
 
 ## CRediT: ghi rõ ai làm gì

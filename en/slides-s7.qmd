@@ -1,5 +1,5 @@
 ---
-title: "Session 7 · Protect & write: ethics, integrity and the Results section"
+title: "Session 7 · Protect & write: ethics, integrity, Methods and Results"
 subtitle: "Foundations of Clinical Research: From Clinical Question to Publication"
 author: "Vương Mỹ Lượng & Bernard Osang'ir"
 institute: "Neudata Consulting Ltd"
@@ -12,7 +12,7 @@ format:
     include-in-header: access-gate.html
 ---
 
-# Session 7 · Protect & write: ethics, integrity and the Results section
+# Session 7 · Protect & write: ethics, integrity, Methods and Results
 
 ## Week 7 · Saturday, 19:30-22:30 (online)
 
@@ -20,11 +20,11 @@ format:
 - 19:40  7.1  Protocol, ethics, consent, registration, feasibility
 - 20:10  7.2  Research integrity: authorship, conflicts of interest, data sharing, AI
 - 20:30  Proposal builder 7: ethics and publication plan
-- 21:00  7.3  Writing the paper (I): the Results section, tables, STROBE
+- 21:00  7.3  Writing the paper (I): IMRaD, Methods and Results
 - 21:35  Manuscript workshop 1: the Results section, together then on your own
 
 ::: {.notes}
-Session 7 (19:30-22:30, break 20:45-21:00). Before the break: ethics, integrity and Proposal Part 4. After the break: the Results section.
+Session 7 (19:30-22:30, break 20:45-21:00). Before the break: ethics, integrity and Proposal Part 4. After the break: IMRaD, Methods and Results.
 
 Before the session, email the exercise sheet, the five results packs, the manuscript template and the list of reviewer pairs.
 
@@ -91,8 +91,8 @@ FLUID-ICU = the course dataset: a simulated cohort of 620 adults with sepsis in 
 
 - Your FLUID-ICU question (Q1 to Q5)
 - We give the results. You write
-- Today: the Results, live on Q1
-- Session 8: improve it. Other parts optional
+- Today: Methods, Results (live on Q1)
+- Session 8: Introduction, Discussion, abstract, title
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
 [Our two example papers]{.neu-card-title}
@@ -104,13 +104,15 @@ FLUID-ICU = the course dataset: a simulated cohort of 620 adults with sepsis in 
 ::::
 
 ::: {.neu-takeaway}
-**KEY MESSAGE** Before the break: proposal Part 4. After the break: the Results section.
+**KEY MESSAGE** Before the break: proposal Part 4. After the break: Methods and Results.
 :::
 
 ::: {.notes}
 Two individual products. Proposal: Part 4 today, submitted next Saturday.
 
-Results section: we give the results for each person's question, they write a submission-ready Results section. Methods, Introduction, Discussion and Abstract are optional.
+Results section: we give the results for each person's question, they write a submission-ready Results section.
+
+Every section is taught: Methods and Results today, Introduction, Discussion, abstract and title next week. Only the Results must be submitted.
 
 Ask: which question (Q1-Q5) have you chosen?
 :::
@@ -505,8 +507,6 @@ FLUID-ICU is simulated. If it were real, this is what the paper would say.
 ::: {.notes}
 If FLUID-ICU were real, the ethics paragraph would answer these four questions in four sentences.
 
-It is simulated: participants put the simulated-data sentence under their title, as the brief says. An ethics paragraph is only needed if they write the optional Methods.
-
 Ask: where does this paragraph go in a real paper? Expected: the Methods.
 :::
 
@@ -887,7 +887,7 @@ Proposal builder 7 (20:30-20:45). Fill in Part B live for the running example. A
 
 Watch for: 'consent will be obtained' with no who or when, chart reviews assumed exempt, recruitment from the sample size, CONSORT for a cohort.
 
-Homework: Part 4 of their own proposal. Volunteers who want to present email the course lead by the Wednesday before Session 8.
+Homework: Part 4 of their own proposal. Volunteers who want to present email the course lead by Wednesday 16 December.
 :::
 
 ---
@@ -910,18 +910,34 @@ Prepare your screen: the template and results pack Q1 side by side.
 
 :::: {.neu-statement}
 ::: {.neu-big}
-Writing the paper (I): the Results section
+Writing the paper (I): IMRaD, Methods and Results
 :::
 
 ::: {.neu-sub}
-Report what you found, nothing more
+Say what you did, then report what you found
 :::
 ::::
 
 ::: {.notes}
-Section 7.3 (21:00-21:35). Nine slides and a 3-minute check.
+Section 7.3 (21:00-21:35). Ten slides and a 3-minute check.
 
-The Results slides and their worked examples are the heart of the block. The Methods slides are shorter: Methods is optional for the manuscript.
+IMRaD first, then Methods and Results, each with a worked example on Q1. The check practises both.
+:::
+
+## IMRaD: the hourglass shape of every paper
+
+![](images/figures/sat4/imrad_hourglass.png){.neu-fig}
+
+::: {.neu-takeaway}
+**KEY MESSAGE** Introduction narrows to your question. Discussion widens back to practice.
+:::
+
+::: {.notes}
+IMRaD: Introduction (why), Methods (what we did), Results (what we found), Discussion (what it means). The abstract and title summarise it.
+
+The Introduction narrows to the question, the Discussion widens back to practice. Paper 1's Introduction is a three-paragraph funnel, and its Discussion opens by answering the question.
+
+Today: Methods and Results. Next Saturday: Introduction, Discussion, abstract and title.
 :::
 
 ## Write in a different order from the one readers read
@@ -978,7 +994,7 @@ Misconception: 'I must finish the Introduction before I can start'.
 ## Methods: enough detail for someone to repeat it
 
 ::: {.neu-intro}
-Optional for your manuscript. If a colleague could not redo the study from it, add detail.
+Methods say what you did. If a colleague could not redo the study from it, add detail.
 :::
 
 :::: {.neu-cards style="--n:4"}
@@ -1023,10 +1039,10 @@ Methods: enough detail to repeat the study, in STROBE order.
 
 Good: Paper 1 describes its intervention well enough to replicate. To fix: Paper 2 never says how missing covariates were handled.
 
-Methods is optional for the manuscript: all the facts are in the results pack, the SAP and the data dictionary.
+For FLUID-ICU, all the facts are in the results pack, the SAP and the data dictionary.
 :::
 
-## Optional: Methods for FLUID-ICU question 1
+## Worked example: Methods for FLUID-ICU question 1
 
 ::: {.neu-intro}
 One sentence per STROBE item (simulated data). STROBE = the reporting checklist for observational studies.
@@ -1040,14 +1056,14 @@ One sentence per STROBE item (simulated data). STROBE = the reporting checklist 
 - [Ethics (course version): This analysis used a simulated teaching dataset. No ethics approval or consent was required.]{style="color:#0B376C"}
 
 ::: {.notes}
-For participants who write the optional Methods. One sentence per STROBE item, all from results pack Q1, section 2.
+One sentence per STROBE item, all from results pack Q1, section 2.
 
 Item 10: for a fixed cohort, say all eligible patients were included.
 
 Ask: which sentence would a reader need to repeat the study? Expected: how fluid balance was calculated.
 :::
 
-## Optional: the statistical-analysis paragraph
+## Worked example: the statistical-analysis paragraph
 
 ::: {.neu-intro}
 STROBE item 12 for Q1: one sentence per decision, all chosen before seeing the data.
@@ -1194,7 +1210,7 @@ FLUID-ICU is a cohort, so the paper follows STROBE. Numbers are STROBE item numb
 ::::
 
 ::: {.neu-takeaway}
-**KEY MESSAGE** Your Results section: items 13 to 17. Methods (optional): items 4 to 12.
+**KEY MESSAGE** Methods: items 4 to 12. Results: items 13 to 17.
 :::
 
 ::: {.notes}
@@ -1334,7 +1350,7 @@ The five questions
 ::::
 
 ::: {.neu-output style="--c:#0B376C"}
-**OUTPUT** Your Results section, due 23:59 on the day of Session 8
+**OUTPUT** Your Results section, due 23:59 on Sunday 20 December
 :::
 
 ::: {.notes}
@@ -1342,7 +1358,7 @@ Workshop part 2 (22:05-22:20). Quiet individual writing. Answer questions in the
 
 Q1: rewrite in your own words, do not copy the class draft. Q3: ventilator-free days count death as zero. Q4: report both complete-case and imputed estimates. Q5: survivors only, medians and IQR.
 
-Optional parts can be added if there is time.
+Other sections may be added, but only the Results must be submitted.
 :::
 
 ## Key words of Session 7
@@ -1368,9 +1384,9 @@ Key words (22:20-22:22). Show the term, call on someone to explain it, then reve
 
 | When | What you do |
 |:---|:---|
-| 23:59, Saturday 19 December (Session 8) | Email your Results section to your reviewer and the course lead |
-| Saturday 2 January | Reviewers email their review to the author and the course lead |
-| Saturday 30 January | Email your revised Results section and response letter to the course lead |
+| 23:59, Sunday 20 December | Email your Results section to your reviewer and the course lead |
+| Wednesday 30 December | Reviewers email their review to the author and the course lead |
+| Saturday 9 January 2027 | Email your revised Results section and response letter to the course lead |
 
 ::: {.neu-table-caption}
 Reviewers were assigned at random: see the list on screen and in your email. Course lead: myluong1710\@gmail.com
@@ -1379,13 +1395,13 @@ Reviewers were assigned at random: see the list on screen and in your email. Cou
 ::: {.notes}
 Peer review (22:22-22:24). Show the list of reviewer pairs on screen and say it was drawn at random. Everyone reviews one draft and receives one review.
 
-Sending the draft straight to the reviewer saves time: the review is due two weeks later, the revision four weeks after that.
+Sending the draft straight to the reviewer saves time: the review is due ten days later, the revision ten days after that.
 :::
 
 ## Wrap-up, exit question and homework
 
 ::: {.neu-banner style="--c:#1F5C7A"}
-DISCUSSION · 7 min
+DISCUSSION · 6 min
 :::
 
 :::: {.columns}
@@ -1394,7 +1410,7 @@ DISCUSSION · 7 min
 - Three take-home messages (right)
 - Exit question in the chat: 'Who consents for a sedated patient in septic shock, and when?'
 - Homework 1: write Part 4 of your own proposal
-- Homework 2: write your Results section (due 23:59 on the day of Session 8)
+- Homework 2: write your Results section (due 23:59, Sunday 20 December)
 - Homework 3: prepare your 6 presentation slides (everyone submits them)
 :::
 :::
@@ -1468,20 +1484,6 @@ Answers
 Extra check. One poll per scenario: must, should or not needed.
 
 Scenario 4: an audit goes through the quality office, not a registry. To publish it as research, ask the ethics committee first.
-:::
-
-## IMRaD: the hourglass shape of every paper
-
-![](images/figures/sat4/imrad_hourglass.png){.neu-fig}
-
-::: {.neu-takeaway}
-**KEY MESSAGE** Introduction narrows to your question. Discussion widens back to practice.
-:::
-
-::: {.notes}
-Extra. IMRaD: the Introduction narrows to the question, the Discussion widens back to practice.
-
-Paper 1's Introduction is a three-paragraph funnel, and its Discussion opens by answering the question.
 :::
 
 ## CRediT: say who did what

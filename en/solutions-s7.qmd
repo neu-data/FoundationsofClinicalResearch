@@ -64,9 +64,9 @@ Common errors: CONSORT named for a cohort; "impact" or "effect" in the title; an
 
 * * *
 
-## Part C: Manuscript workshop 1: model Results for Q1 (and optional Methods)
+## Part C: Manuscript workshop 1: model Results for Q1 (and model Methods)
 
-All numbers are from `Results_Pack_Q1–Q5` and `FLUID-ICU/results_packs/Q1/results_pack_Q1.md` (**SIMULATED DATA, NOT REAL PATIENTS**). Use them to steer the class draft in part 1 of the workshop (do not paste them). Participants who chose Q2–Q5 follow the same structure with the numbers from their own pack. The Methods model is for participants who write the optional Methods.
+All numbers are from `Results_Pack_Q1–Q5` and `FLUID-ICU/results_packs/Q1/results_pack_Q1.md` (**SIMULATED DATA, NOT REAL PATIENTS**). Use them to steer the class draft in part 1 of the workshop (do not paste them). Participants who chose Q2–Q5 follow the same structure with the numbers from their own pack. The Methods model goes with the Methods taught in 7.3 (slides 28 to 30).
 
 ### Model Results (~300 words)
 
@@ -80,7 +80,7 @@ All numbers are from `Results_Pack_Q1–Q5` and `FLUID-ICU/results_packs/Q1/resu
 
 **Other analyses.** With multiple imputation (n = 620) the adjusted OR was 1.70 (95% CI 1.09 to 2.64). The association differed by heart failure (p for interaction = 0.031): adjusted OR 4.39 (95% CI 1.65 to 12.38) with heart failure (n = 90) and 1.29 (95% CI 0.77 to 2.19) without (n = 437).
 
-### Optional: model Methods (~300 words)
+### Model Methods (~300 words)
 
 **Study design and setting.** We analysed FLUID-ICU, a multicentre prospective cohort of consecutive adults with sepsis admitted to four intensive care units (ICUs A–D) between January 2023 and December 2024. FLUID-ICU is a simulated teaching dataset; no ethics approval or consent was required.
 
@@ -104,5 +104,5 @@ All numbers are from `Results_Pack_Q1–Q5` and `FLUID-ICU/results_packs/Q1/resu
 | Q4: complete-case AND imputed | CC OR 1.39 (1.24 to 1.57) vs MI 1.45 (1.29 to 1.64) per mmol/L (adjusted for age, sex, diabetes, CKD, heart failure) |
 | Q5: medians/IQR, survivors only | 439 survivors; median 7.5 vs 4.8 days |
 | Tables stand alone | Title, units, n per column, abbreviations in a footnote |
-| Simulated data stated | Add the simulated-data sentence under the title |
-| Optional Methods: a method for every result | Add the test or model and the covariates |
+| AI-use statement present | Add "AI use: none." or the one-line statement from the brief |
+| Methods (if submitted): a method for every result | Add the test or model and the covariates |

@@ -12,7 +12,7 @@ Download: [Word](files/assignments/Manuscript_Rubric.docx) · [PDF](files/assign
 **Total:** 100 points: the Results section 80 + peer review and response 20
 **Use with:** `Manuscript_Brief.pdf`, `Peer_Review_Instructions.pdf` and the results pack for the participant's question (Q1 to Q5)
 
-> **The marks are formative.** Mark the **revised** Results section (due 30 January 2027). If no revision arrives, mark the draft and give 0 for criterion 9. Mark the writing, not the analysis: the instructors did the analyses.
+> Mark the **revised** Results section (due Saturday 9 January 2027). If no revision arrives, mark the draft and give 0 for criterion 9. Mark the writing, not the analysis.
 
 
 * * *
@@ -38,7 +38,7 @@ Download: [Word](files/assignments/Manuscript_Rubric.docx) · [PDF](files/assign
 | **4. Main results** (20) (STROBE 15, 16) | Outcome numbers per group with denominators. Crude and adjusted estimates with 95% CI and the variables adjusted for. **20** | One element missing (e.g. crude estimate). **14** | p-values without effect sizes, or several numbers wrong. **6** | Absent. **0** |
 | **5. Other analyses** (10) (STROBE 17) | The sensitivity, imputation or subgroup results in the pack, reported correctly (Q4: both complete-case and imputed). **10** | Reported with one error. **7** | Mentioned without numbers. **3** | Absent. **0** |
 | **6. Tables and figure** (15) | Table 1 and one main table or figure that stand alone: title, units, n per column, abbreviations, sensible decimals. The figure suits the data. **15** | Minor formatting gaps. **10** | Cannot be read without the text, or wrong figure type. **5** | None. **0** |
-| **7. Reporting quality** (10) | No interpretation. Calibrated words. Numbers in text and tables agree with the pack. Template used. Simulated-data and AI-use statements present. **10** | One lapse. **7** | Interpretation or causal words in the Results, or a statement missing. **3** | Not applicable. **0** |
+| **7. Reporting quality** (10) | No interpretation. Calibrated words. Numbers in text and tables agree with the pack. Template used. AI-use statement present. **10** | One lapse. **7** | Interpretation or causal words in the Results, or no AI-use statement. **3** | Not applicable. **0** |
 
 **Results subtotal:** ______ / 80
 
@@ -77,4 +77,4 @@ If the participant sent Methods, Introduction, Discussion or Abstract, write two
 - Missing data not mentioned (especially lactate), or Q4 without both estimates.
 - Mean (SD) for a skewed outcome (Q3, Q5).
 - Hazard ratio read as a risk ratio (Q1).
-- Simulated-data or AI-use statement missing.
+- AI-use statement missing.

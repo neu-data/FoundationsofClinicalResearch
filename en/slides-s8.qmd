@@ -17,8 +17,8 @@ format:
 ## Week 8 · Saturday, 19:30-22:30 (online)
 
 - 19:30  Recap: Session 7
-- 19:35  8.1  Writing the paper (II): the optional parts and the title
-- 20:00  Manuscript workshop 2: improve your Results section
+- 19:35  8.1  Writing the paper (II): Introduction, Discussion, abstract, title
+- 20:05  Manuscript workshop 2: improve your Results section
 - 20:30  8.2  Getting published: from checklist to reviewers
 - 21:05  8.3  Be the reviewer: Papers 1 and 2, as a whole class
 - 21:30  Proposal presentations (about 5 volunteers), 22:15 closing
@@ -26,7 +26,7 @@ format:
 ::: {.notes}
 Session 8 (19:30-22:30, break 20:50-21:05). The last session.
 
-Today: the optional parts and the title, improving the Results drafts, publishing, reviewing, and about five proposal presentations. The closing (22:15) has its own slides.
+Today: the Introduction, Discussion, abstract and title, improving the Results drafts, publishing, reviewing, and about five proposal presentations. The closing (22:15) has its own slides.
 
 Before: email the exercise sheet, the original papers and the class Q1 Results from Session 7. Collect and open the presenters' slides.
 :::
@@ -66,22 +66,22 @@ Recap (19:30-19:35). Question 1 was the exit question: read two or three answers
 Question 3 leads into 8.1: the Discussion is where interpretation lives.
 :::
 
-## 8.1  \|  25 minutes
+## 8.1  \|  30 minutes
 
 :::: {.neu-statement}
 ::: {.neu-big}
-Writing the paper (II): the optional parts
+Writing the paper (II): Introduction, Discussion, abstract and title
 :::
 
 ::: {.neu-sub}
-Introduction, Discussion, Abstract, and the title you need
+What each part does, a worked example on Q1, a short check
 :::
 ::::
 
 ::: {.notes}
-Section 8.1 (19:35-20:00). About 2 minutes per slide.
+Section 8.1 (19:35-20:05). About 2 minutes per slide and three 2-minute checks.
 
-The Introduction, Discussion and Abstract are optional for the manuscript. The title is required. Slow down on the Discussion example.
+All four parts are taught as core. For the assignment, the title is required with the Results. The Introduction, Discussion and abstract are optional to submit. Slow down on the Discussion example.
 :::
 
 ## Introduction: a funnel in three paragraphs
@@ -134,6 +134,39 @@ P2: 'Because sicker patients receive more fluid, it remains uncertain whether th
 P3: 'We therefore examined whether a positive fluid balance by day 3 was associated with 28-day mortality.'
 
 The gap is the confounding by indication from Session 4.
+:::
+
+## Check: known, not known or aim?
+
+::: {.neu-banner style="--c:#6C3483"}
+QUICK QUIZ · 2 min
+:::
+
+:::: {.columns}
+::: {.column width="60%"}
+::: {.neu-activity-steps style="--c:#6C3483"}
+- 'Early fluids are a core part of sepsis care.'
+- 'Sicker patients receive more fluid, so it is unclear whether the link with death remains after adjustment.'
+- 'We examined whether a positive balance by day 3 was associated with 28-day mortality.'
+- 'In our cohort, 35.9% of patients with a positive balance died.'
+:::
+:::
+::: {.column width="40%"}
+::: {.neu-side .plain style="--c:#6C3483"}
+Answers
+
+- Paragraph 1: known
+- Paragraph 2: not known
+- Paragraph 3: aim
+- Not in the Introduction: your own results go in the Results
+:::
+:::
+::::
+
+::: {.notes}
+Check (2 minutes). One poll per sentence: known, not known, aim, or not in the Introduction.
+
+Sentence 4 is the trap: your own results never go in the Introduction.
 :::
 
 ## Discussion: six moves
@@ -338,11 +371,44 @@ Copy the numbers from your Results (simulated data, about 120 words shown).
 - Conclusions: A positive balance was modestly associated with 28-day mortality. Most of the crude association reflected severity. A randomised trial is needed.
 
 ::: {.notes}
-Worked example (simulated). The title is required for everyone. The abstract is optional.
+Worked example (simulated). The title is required for everyone. The abstract is optional to submit, but everyone should be able to write one.
 
-The Methods line must say the data are simulated. Conclusions: 'modestly associated', matching a CI of 1.02 to 2.59.
+Conclusions: 'modestly associated', matching a CI of 1.02 to 2.59.
 
 Ask: which sentences change if the CI had been 0.95 to 2.40? Expected: Results and Conclusions.
+:::
+
+## Check: fix these abstract sentences
+
+::: {.neu-banner style="--c:#6C3483"}
+QUICK QUIZ · 2 min
+:::
+
+:::: {.columns}
+::: {.column width="60%"}
+::: {.neu-activity-steps style="--c:#6C3483"}
+- Methods: 'We studied fluid balance in ICU patients.'
+- Results: 'Mortality was significantly higher with a positive balance.'
+- Conclusions: 'A positive balance increases mortality.'
+- Results: 'The results are discussed in the paper.'
+:::
+:::
+::: {.column width="40%"}
+::: {.neu-side .plain style="--c:#6C3483"}
+Better
+
+- Add design, setting, participants, exposure, outcome
+- Give n, %, and the OR with its 95% CI
+- 'was associated with': it is a cohort
+- Give the main numbers: the abstract must stand alone
+:::
+:::
+::::
+
+::: {.notes}
+Check (2 minutes). Call on one person per sentence for the fix.
+
+Every number in the abstract must match the Results.
 :::
 
 ## Title and keywords: your PICO in one line
@@ -420,7 +486,7 @@ Checklist: fill it in while you write.
 Final read: every number in the text against the tables. Most errors in both papers needed only a careful co-author.
 :::
 
-## Manuscript workshop 2  \|  30 minutes
+## Manuscript workshop 2  \|  25 minutes
 
 :::: {.neu-statement}
 ::: {.neu-big}
@@ -428,12 +494,12 @@ Improve your Results section: together, then on your own
 :::
 
 ::: {.neu-sub}
-22 minutes on the class Q1 draft, then 8 minutes on your own draft and title
+17 minutes on the class Q1 draft, then 8 minutes on your own draft and title
 :::
 ::::
 
 ::: {.notes}
-Manuscript workshop 2 (20:00-20:30).
+Manuscript workshop 2 (20:05-20:30).
 
 Part 1: improve last week's class Q1 Results live, using the reviewer checklist. Part 2: each participant checks their own draft and writes the working title.
 
@@ -443,17 +509,16 @@ Instructions: s8\_exercises Part B. Model text: s8\_solutions Part B.
 ## Manuscript workshop 2, part 1: we improve the Q1 Results together
 
 ::: {.neu-banner style="--c:#0D7377"}
-WHOLE-CLASS TASK · 22 min
+WHOLE-CLASS TASK · 17 min
 :::
 
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0D7377"}
-- Number check (6 min): every number against results pack Q1
-- Tables and figure (5 min): does each stand alone?
+- Number check (5 min): every number against results pack Q1
+- Tables and figure (4 min): does each stand alone?
 - Words (5 min): no interpretation, no 'trend', no causal verbs
 - Working title (3 min): design stated, 'associated'
-- The optional parts (3 min): what each would add
 :::
 :::
 ::: {.column width="40%"}
@@ -472,11 +537,9 @@ Use
 :::
 
 ::: {.notes}
-Workshop part 1 (20:00-20:22). Open last week's class draft and type into it. Call each phase.
+Workshop part 1 (20:05-20:22). Open last week's class draft and type into it. Call each phase.
 
 Prompts: 'Does every percentage have a denominator?' 'Can Table 1 be read without the text?' 'Is any sentence explaining rather than reporting?'
-
-In the last 3 minutes, show where an Introduction and Discussion would sit and what they would say.
 
 Send the improved draft as a PDF after the session.
 :::
@@ -493,7 +556,7 @@ INDIVIDUAL TASK · 8 min
 - Run the same checks on your own Results draft
 - Write your working title: design stated, 10-16 words, 'associated'
 - Two volunteers read their title aloud. The instructor comments
-- Tonight: a final check, then email it by 23:59
+- By 23:59 on Sunday 20 December: a final check, then email it
 :::
 :::
 ::: {.column width="40%"}
@@ -501,15 +564,15 @@ INDIVIDUAL TASK · 8 min
 Submit
 
 - Results section, working title, Table 1, main table or figure
-- By 23:59 tonight
+- By 23:59, Sunday 20 December
 - Email it to your reviewer and the course lead
-- Optional parts in the same file
+- Other sections (optional) in the same file
 :::
 :::
 ::::
 
 ::: {.neu-output style="--c:#0B376C"}
-**OUTPUT** Your working title. Your Results section emailed by 23:59 tonight
+**OUTPUT** Your working title. Your Results section emailed by 23:59 on Sunday 20 December
 :::
 
 ::: {.notes}
@@ -517,7 +580,7 @@ Workshop part 2 (20:22-20:30). Individual.
 
 Post in the chat: Q2, AKI may also cause fluid accumulation. Q3, ventilator-free days count death as zero. Q4, give both complete-case and imputed estimates. Q5, survivors only.
 
-Remind: the draft goes by email to the reviewer and the course lead (myluong1710\@gmail.com) by 23:59.
+Remind: the draft goes by email to the reviewer and the course lead (myluong1710\@gmail.com) by 23:59 tomorrow, Sunday 20 December.
 :::
 
 ## 8.2  \|  20 minutes
@@ -1090,7 +1153,7 @@ The co-instructor posts '2 min', '1 min' and 'Time' in the chat. Stop the talk a
 | Criterion | What we look for | Points |
 |:---|:---|:---|
 | 12  Structure and content | All 6 slides. Question, design, outcome, sample size, ethics, journal and guideline visible | 0-6 |
-| 13  Clarity | Every doctor and nurse in the class understands. One message per slide | 0-6 |
+| 13  Clarity | Everyone in the class understands. One message per slide | 0-6 |
 | 14  Visual design | Readable on a shared screen. Pictures, not text | 0-6 |
 | 15  Timekeeping | Finished between 5:00 and 6:00 | 0-6 |
 | 16  Questions and discussion | Answers directly and honestly, names the limitations | 0-6 |
@@ -1100,9 +1163,9 @@ Written proposal (criteria 1-11, /70): everyone. Criteria 12-16 (/30): presenter
 :::
 
 ::: {.notes}
-The written proposal is scored for everyone after the course. Criteria 12-16 score the presentation, for presenters only. Presenting never lowers a score.
+The written proposal is scored for everyone after the course. Criteria 12-16 score the presentation, for presenters only. Presenting does not lower the score.
 
-Feedback in 2 minutes: two people give two stars and a wish, then the instructor, then the presenter says thank you.
+Feedback in 2 minutes: two people give two strengths and one suggestion, then the instructor, then the presenter says thank you.
 :::
 
 ## Proposal presentations
@@ -1117,7 +1180,7 @@ PRESENTATIONS · 45 min
 - About 5 volunteers present their own proposal: 6 minutes, 6 slides
 - Slides: title, problem and PICO, design, data and analysis, ethics and feasibility, publication plan
 - Time signals in the chat: '2 min' at 4:00, '1 min' at 5:00, 'Time' at 6:00
-- Feedback, 2 minutes: two people give two stars and a wish (microphone on), then the instructor
+- Feedback, 2 minutes: two people give two strengths and one suggestion (microphone on), then the instructor
 - Everyone submits slides and the written proposal
 :::
 :::
@@ -1450,7 +1513,7 @@ Timing: 8 minutes.
 [Write]{.neu-step-label}
 
 - A Results section
-- Optional: Methods, Introduction, Discussion, Abstract
+- How to write every section and the abstract
 :::
 ::: {.neu-step style="--c:#055F56"}
 [Publish]{.neu-step-label}
@@ -1501,19 +1564,19 @@ Timing: 2 minutes.
 - Your reviewer is assigned at random
 :::
 ::: {.neu-step style="--c:#0B376C"}
-[Tonight]{.neu-step-label}
+[Sun 20 Dec]{.neu-step-label}
 
 - Email your Results draft by 23:59
 - To your reviewer and the course lead
 :::
 ::: {.neu-step style="--c:#5FA39B"}
-[2 weeks]{.neu-step-label}
+[Wed 30 Dec]{.neu-step-label}
 
 - Send your review report
 - Use the Results checklist
 :::
 ::: {.neu-step style="--c:#0070C0"}
-[4 weeks later]{.neu-step-label}
+[Sat 9 Jan]{.neu-step-label}
 
 - Revised Results section
 - Response to reviewers
@@ -1527,7 +1590,7 @@ Timing: 2 minutes.
 ::: {.notes}
 Each draft is reviewed once. Reviewers were assigned at random and announced in Session 7.
 
-Submissions go by email to myluong1710\@gmail.com. Review report due 2 weeks after Session 8. Revised Results section and response to reviewers due 4 weeks after the review.
+Submissions go by email to myluong1710\@gmail.com. Results draft due 23:59 on Sunday 20 December (Vietnam time). Review report due Wednesday 30 December. Revised Results section and response to reviewers due Saturday 9 January 2027.
 
 Files: Peer\_Review\_Instructions and Response\_to\_Reviewers\_Template.
 

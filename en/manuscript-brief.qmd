@@ -14,16 +14,14 @@ Download: [Word](files/assignments/Manuscript_Brief.docx) · [PDF](files/assignm
 **Optional:** Methods, Introduction, Discussion and Abstract. Trainers give feedback on these too.
 **What we give you:** the results. You do not analyse any data.
 **Shared:** at the end of Session 6, when you choose your question.
-**Marked with:** `Manuscript_Rubric.pdf` (formative). Peer review: `Peer_Review_Instructions.pdf`.
+**Marked with:** `Manuscript_Rubric.pdf`. Peer review: `Peer_Review_Instructions.pdf`.
 
 
 * * *
 
 ## 1. Purpose
 
-In the proposal you plan a study that has not been done. Here you report one that has. You write the Results section of a FLUID-ICU paper to the standard a journal expects: every number correct, every estimate with its 95% CI, tables that stand alone and no interpretation. If you have time, you can write the other sections too.
-
-> **Simulated data.** FLUID-ICU is a simulated training dataset. Put this sentence under your title: "This manuscript uses simulated data created for training. It reports no real patients." Never submit it to a journal.
+You write the Results section of a FLUID-ICU paper to the standard a journal expects: every number correct, every estimate with its 95% CI, tables that stand alone and no interpretation.
 
 
 * * *
@@ -52,7 +50,7 @@ All five questions are worked through in Sessions 5 and 6 (Q1 in full). By the e
 | `SAP_FLUID-ICU.pdf` and `Data_Dictionary.pdf` | Definitions and analysis methods, for the optional Methods |
 | `Response_to_Reviewers_Template.docx` | For your reply to your reviewer |
 
-Use only the numbers in your results pack. If something is missing, ask the instructor.
+If something is missing from your results pack, ask the instructor.
 
 
 * * *
@@ -65,9 +63,11 @@ Use only the numbers in your results pack. If something is missing, ask the inst
 |---|---|
 | Working title | One line naming the population, exposure, outcome and design, e.g. "Positive fluid balance by day 3 and 28-day mortality in sepsis: a multicentre cohort study" |
 | Results text | STROBE items 13 to 17, in this order: (1) participants and flow, (2) baseline characteristics (Table 1) and missing data, (3) outcome numbers per group, (4) the main result, crude and adjusted, with 95% CI, (5) other analyses in your pack (sensitivity, imputation or subgroup). About 400 to 600 words |
-| Table 1 | Baseline characteristics by exposure group, from your results pack |
+| Table 1 | Baseline characteristics, from your results pack |
 | Main results table or figure | e.g. crude and adjusted estimates, or the Kaplan-Meier curve (Q1) |
-| Two statements | The simulated-data sentence (section 1) and the AI-use statement (section 6) |
+| AI-use statement | See section 6 |
+
+Table 1 and the main results table or figure come ready in your results pack (one pack per question, Q1 to Q5). You copy and format them, and write the text.
 
 **Submission-ready** means:
 - every number agrees with your results pack
@@ -80,12 +80,12 @@ Use only the numbers in your results pack. If something is missing, ask the inst
 
 | Part | Notes |
 |---|---|
-| Methods | STROBE items 4 to 12. All the information is in the results pack, the SAP and the data dictionary. Shown in Session 7 |
-| Introduction | Three paragraphs: what is known, what is not known, the aim. Session 8 |
-| Discussion | Six moves: answer, compare, explain, limitations, implications, conclusion. Session 8 |
-| Abstract | Structured, 250 words or fewer. Session 8 |
+| Methods | STROBE items 4 to 12. All the information is in the results pack, the SAP and the data dictionary. Taught in Session 7 |
+| Introduction | Three paragraphs: what is known, what is not known, the aim. Taught in Session 8 |
+| Discussion | Six moves: answer, compare, explain, limitations, implications, conclusion. Taught in Session 8 |
+| Abstract | Structured, 250 words or fewer. Taught in Session 8 |
 
-Send optional parts in the same file as your Results. They are not marked, but you get written feedback.
+Send optional parts in the same file as your Results. They are not marked.
 
 
 * * *
@@ -96,11 +96,11 @@ Send optional parts in the same file as your Results. They are not marked, but y
 |---|---|
 | Sessions 5 and 6 | The class reads the data, Table 1 and the results together |
 | End of Session 6 (5 December) | You choose your question and receive this brief |
-| Session 7 (12 December) | Manuscript workshop 1: the instructor writes the Q1 Results live with the class, then you start yours. **Your reviewer is announced** |
-| Session 8 (19 December) | Manuscript workshop 2: improve your Results section, and an introduction to the optional parts |
-| **23:59, Saturday 19 December 2026** | Results draft due. Email it to your reviewer and to the course lead |
-| **Saturday 2 January 2027** (2 weeks after Session 8) | Review report due. Email it to the author and to the course lead |
-| **Saturday 30 January 2027** (4 weeks after the review) | Revised Results section and response to the reviewer due |
+| Session 7 (12 December) | IMRaD, Methods and Results taught. Manuscript workshop 1: the instructor writes the Q1 Results live with the class, then you start yours. **Your reviewer is announced** |
+| Session 8 (19 December) | Introduction, Discussion, abstract and title taught. Manuscript workshop 2: improve your Results section |
+| **23:59, Sunday 20 December 2026** (Vietnam time) | Results draft due. Email it to your reviewer and to the course lead |
+| **Wednesday 30 December 2026** | Review report due. Email it to the author and to the course lead |
+| **Saturday 9 January 2027** | Revised Results section and response to the reviewer due |
 
 
 * * *
@@ -122,9 +122,9 @@ Write in English. If English is impossible for you, Vietnamese is accepted. Send
 
 | File | Send to | Due |
 |---|---|---|
-| `Surname_Firstname_Results_QN.docx`, e.g. `Nguyen_An_Results_Q2.docx` | Your reviewer and the course lead | 23:59, 19 December 2026 |
-| `Surname_Firstname_Review.docx` (your review of a classmate's draft) | The author and the course lead | 2 January 2027 |
-| `Surname_Firstname_Results_QN_revised.docx` (tracked changes) and `Surname_Firstname_Response.docx` | The course lead | 30 January 2027 |
+| `Surname_Firstname_Results_QN.docx`, e.g. `Nguyen_An_Results_Q2.docx` | Your reviewer and the course lead | 23:59, Sunday 20 December 2026 |
+| `Surname_Firstname_Review.docx` (your review of a classmate's draft) | The author and the course lead | Wednesday 30 December 2026 |
+| `Surname_Firstname_Results_QN_revised.docx` (tracked changes) and `Surname_Firstname_Response.docx` | The course lead | Saturday 9 January 2027 |
 
 
 * * *

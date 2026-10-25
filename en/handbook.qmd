@@ -31,8 +31,8 @@ You do not need any research or statistics background. We go slowly, with pictur
 | **4** | 4 | **BIAS & EFFECT:** bias, confounding, RR/OR/NNT, diagnostic tests, forest plots | Proposal: exposure, outcomes, bias plan |
 | **5** | 5 | **DATA:** CRFs, data management, describing data, *meeting the course dataset* | Proposal: variables, CRF, data plan · Manuscript: Table 1 understood |
 | **6** | 6 | **ANALYSE:** CIs, p-values, tests, regression, survival, missing data, *analysing the course dataset* | Proposal: sample size, analysis plan · Manuscript: results interpreted, question chosen |
-| **7** | 7 | **PROTECT & WRITE:** ethics, registration, integrity, and writing the Results section | Proposal: ethics, feasibility, publication plan · Manuscript: Results section |
-| **8** | 8 | **PUBLISH:** improving the Results, the optional parts, journals, submission, peer review and presentations | Manuscript: Results section submitted · Proposal submitted (about 5 volunteers present) |
+| **7** | 7 | **PROTECT & WRITE:** ethics, integrity, Methods and Results | Proposal: ethics, feasibility, publication plan · Manuscript: Results section |
+| **8** | 8 | **PUBLISH:** Introduction, Discussion, abstract and title, improving the Results, journals, submission, peer review and presentations | Manuscript: Results section submitted · Proposal submitted (about 5 volunteers present) |
 
 Each session lasts 3 hours with a 15-minute break. It has a short recap, two teaching blocks with frequent "check your understanding" moments (a quick poll or an answer in the chat), and a proposal-builder segment in which the instructor shows the next part of the proposal on the running example. You then write the same part for your own question at home. Each session also has extra slides at the end for anyone who wants to read further at home.
 
@@ -44,7 +44,7 @@ One clinical topic travels with us: **fluids in septic shock**. In Weeks 1 to 4 
 Everyone works on their own products. There are no groups.
 
 1. **A research proposal on your own question**, from your own department, built one part at a time as homework and submitted in Session 8 (written proposal + 6 slides). About 5 volunteers also present their proposal in Session 8 (6 minutes + 2 minutes of feedback). Presenting is optional. Details: the proposal brief (`Proposal_Brief.pdf`, sent by email before Session 1).
-2. **The Results section of a paper from the course dataset.** At the end of Session 6 you choose ONE of the five FLUID-ICU questions, Q1 to Q5. We give you the results in a results pack, and you write a submission-ready Results section. Methods, Introduction, Discussion and Abstract are optional. The instructor models the Results in Session 7, and you finish yours by 23:59 on the day of Session 8. After the course you review one classmate's draft (reviewer assigned at random in Session 7) and revise yours. Details: the manuscript brief (`Manuscript_Brief.pdf`, sent by email at the end of Session 6).
+2. **The Results section of a paper from the course dataset.** At the end of Session 6 you choose ONE of the five FLUID-ICU questions, Q1 to Q5. We give you the results in a results pack, and you write a submission-ready Results section. All sections of a paper are taught in Sessions 7 and 8. Only the Results section must be submitted, the others are optional. The instructor models the Results in Session 7, and you finish yours by 23:59 on Sunday 20 December 2026 (Vietnam time). After the course you review one classmate's draft (reviewer assigned at random in Session 7) and revise yours. Details: the manuscript brief (`Manuscript_Brief.pdf`, sent by email at the end of Session 6).
 
 ## Between sessions (about 30 to 60 minutes a week)
 
@@ -56,8 +56,8 @@ Everyone works on their own products. There are no groups.
 | Session 4 | Finish Proposal Part 2 |
 | Session 5 | Draft the first half of Proposal Part 3 (variables, CRF, data plan). Look at the five results packs (Q1 to Q5) |
 | Session 6 | Finish Proposal Part 3. Read the results pack of the question you chose. Start your 6 slides |
-| Session 7 | Finish Proposal Part 4 and your 6 slides, and email both before 19:30 on the day of Session 8. Write the Results section for your question |
-| Session 8 | Email your Results section to your reviewer and the course lead by 23:59. Send your review within 2 weeks. Send your revision and response 4 weeks after you receive the review |
+| Session 7 | Finish Proposal Part 4 and your 6 slides, and email both before 19:30 on Saturday 19 December (Session 8). Write the Results section for your question |
+| Session 8 | Email your Results section to your reviewer and the course lead by 23:59 on Sunday 20 December. Send your review by Wednesday 30 December. Send your revision and response by Saturday 9 January 2027 |
 
 ## What you need
 A computer (or tablet) with a stable internet connection, camera and microphone (a headset helps), the meeting link sent before Session 1, and a quiet place for 3 hours. A pen and a notebook. No statistics software to install. Exercise sheets and other handouts are sent by email before each session. Participants who have done the free Neudata course *Clinical Data Analysis in R* may ask for the R scripts and re-run the course analyses.
@@ -84,7 +84,7 @@ Every exercise sheet arrives by email before its session, as a Word file and a P
 In Session 1 and again at the end of Session 8 you answer the same 24 questions online (a link is posted in the chat). You give your full name so that your two attempts can be compared. Only the course team sees names and scores, and you do not see the answers until after Session 8. The quiz measures what the *course* achieved, not you.
 
 ## After the course
-Take your proposal to the ethics committee. If you like, add the optional parts to your Results section. This course is Level 1. If you want to run analyses yourself, Level 2 is a hands-on course in R (prerequisite: this course and the free *Clinical Data Analysis in R* course). Level 3 offers advanced, specialised methods on request.
+Take your proposal to the ethics committee. If you like, add the other sections to your Results section. This course is Level 1. If you want to run analyses yourself, Level 2 is a hands-on course in R (prerequisite: this course and the free *Clinical Data Analysis in R* course). Level 3 offers advanced, specialised methods on request.
 
 
 * * *
