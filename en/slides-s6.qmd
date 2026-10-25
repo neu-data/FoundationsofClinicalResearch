@@ -24,17 +24,11 @@ format:
 - Proposal builder 6: sample size, analysis plan, missing-data plan
 
 ::: {.notes}
-Welcome back. We meet online, 19:30 to 22:30 with a 15-minute break. Last Saturday (Session 5) we collected, cleaned and described the data. Today we analyse: how a sample answers a question about a population, and how to read the numbers a computer gives us.
+Session 6 (19:30-22:30, break 20:40-20:55). The most technical session: go slowly, drop extra slides, never checks.
 
-Key promise: still no formulas. Every idea is a picture, a worked example from the running example, then a one-minute check: a poll, or two or three people called on with the microphone on.
+FLUID-ICU returns in 6.2 (comparisons) and 6.4 (models, survival, missing data): Q1 in full, Q2 to Q5 briefly.
 
-The course dataset FLUID-ICU comes back twice: in 6.2 (comparing groups) and 6.4 (models, survival and missing data). We work through the five FLUID-ICU questions together: Question 1 (Q1) in full, Q2 to Q5 as shorter worked examples. Watch closely the question you chose for your manuscript: these interpretations become the Results section you write in Weeks 7-8 from its results pack.
-
-Abbreviations used today, each defined on its slide: CI (confidence interval), OR (odds ratio), HR (hazard ratio), SAP (statistical analysis plan).
-
-Timing: recap 19:30, 6.1 at 19:40, 6.2 at 20:20, break at 20:40, 6.3 at 20:55, 6.4 at 21:30, proposal builder at 21:55, wrap-up at 22:25.
-
-This is the most technical session of the course. Go slowly. Drop extra slides, not checks.
+At the end, each participant chooses one question for the Results section and receives the manuscript brief.
 :::
 
 ## Recap quiz: Session 5 in three questions
@@ -68,19 +62,11 @@ Answers (reveal after)
 :::
 
 ::: {.notes}
-Purpose: wake up Session 5 and catch anyone who missed it. No marks.
+Recap (19:30-19:40). Q1 as a poll, Q2 and Q3: call on two or three people. Then reveal.
 
-Run it: Q1 as a poll (mean (SD) or median (IQR)). Q2 and Q3: call on two or three people each. Then reveal.
+Q1: median (IQR). Q2: unit, time point, 'not done' option. Q3: range check. The log records the ID, the value, the action, the reason, who and when.
 
-Q1: median (IQR, interquartile range), because the mean is pulled by a few very long stays.
-
-Q2: the unit (mmol/L), the time point (at ICU admission? highest in 24 h?), and a 'not done' option. Also the number of decimal places.
-
-Q3: a range check (allowed range from the data dictionary). In FLUID-ICU it was patient flu-529: the value was set to missing and a query sent to the site. The cleaning log records the patient ID, the original value, what was done (here: set to missing), the reason (source document checked) and who did it when.
-
-Before starting 6.1, read three or four of the Session 5 exit answers (sent in the chat last week) and correct any common misunderstanding.
-
-Timing: 10 minutes (19:30 to 19:40).
+First read three or four Session 5 exit answers and correct misunderstandings.
 :::
 
 ## 6.1 From sample to population, without fear
@@ -96,13 +82,11 @@ We study a few patients to learn about many.
 ::::
 
 ::: {.notes}
-Section 6.1 opener (40 minutes, 19:40 to 20:20: confidence intervals, p-values, one- or two-sided tests, five p-value mistakes, a check, errors and power, sample size with a 5-minute live demo, choosing a test, paired data, multiple comparisons, a second check).
+Section 6.1 (19:40-20:20).
 
-Key message: statistics exists because we cannot study every patient with septic shock in the world. We study a sample and use statistics to say how far our answer might be from the truth.
+We study a sample and use statistics to say how far our answer might be from the truth.
 
-Reassure: today you learn to read confidence intervals and p-values correctly. That is more than many published authors manage.
-
-Transition: we study a sample of 40, 400 or 620 patients. How far is our estimate from the truth? The dance of the confidence intervals shows it (the sample-and-population picture is an extra slide).
+Reassure: reading CIs and p-values correctly is more than many published authors manage.
 :::
 
 ## The dance of the confidence intervals
@@ -114,19 +98,13 @@ Transition: we study a sample of 40, 400 or 620 patients. How far is our estimat
 :::
 
 ::: {.notes}
-Teaching point: this is the most important picture of the evening. Take your time.
+The most important picture tonight. Same study 20 times, 25 patients each: 19 intervals contain the true value, one misses. That is what '95%' means.
 
-We simulated the same study 20 times, 25 patients each, from a population where the true mean fluid balance is 30 ml/kg (dashed line). Each study gives a different estimate (dot) and a different 95% confidence interval (CI, vertical line). The intervals 'dance'.
+In real life you see one interval and never the dashed line.
 
-19 of the 20 intervals contain the true value. One (red) misses it. That is what '95%' means: the method captures the truth in about 95% of studies.
+Safe wording: 'a range of plausible values'.
 
-In real life you run one study, you see one interval, and you cannot see the dashed line. You do not know if yours is one of the lucky 19 or the unlucky one.
-
-Practical reading: a 95% CI is the range of values for the true effect that are compatible with our data. Narrow interval = precise. Wide interval = imprecise.
-
-Common misinterpretation: 'there is a 95% probability that the true value lies in this interval'. Strictly, the 95% refers to the method over many repeats. For teaching at this level, 'a range of plausible values' is the safe wording.
-
-Ask (call on two or three people, microphone on): what makes the intervals shorter? Expected: more patients, less variability between patients.
+Ask: what makes intervals shorter? Expected: more patients, less variability.
 :::
 
 ## The p-value in one picture
@@ -138,19 +116,11 @@ Ask (call on two or three people, microphone on): what makes the intervals short
 :::
 
 ::: {.notes}
-Teaching point: start by imagining that there is no real difference between the groups (the null hypothesis, H0). Even then, chance alone produces results that scatter around 'no difference': that is the bell curve.
+Imagine no real difference (H0): chance alone scatters results around zero. The p-value is the orange area: results at least as extreme as ours.
 
-Now place our result on the picture. The p-value is the orange area: the proportion of results at least as extreme as ours (in either direction) that chance alone would produce if there were no real difference.
+p = 0.04: surprising if there were no difference. p = 0.42 (Paper 1): not surprising, but not proof of no difference.
 
-p = 0.04 means: if there were truly no difference, results this extreme or more would happen about 4 times in 100 studies. That is fairly surprising, so we doubt the 'no difference' assumption.
-
-p = 0.42 (Paper 1: Boulet 2024, a pilot RCT of restrictive vs usual fluids in septic shock, in the course folder, Course/Papers) means: results like this would be common even with no real difference. Not surprising, so no evidence against 'no difference'. But not proof of 'no difference' either.
-
-The 0.05 cut-off is a convention, not a law of nature. p = 0.049 and p = 0.051 are practically the same evidence.
-
-Note the words 'in either direction': the orange area sits in both tails. That is a two-sided p-value, the default. The next slide explains why.
-
-Ask (call on two or three people, microphone on): does a small p-value tell you the effect is big? Expected: no. That is mistake number 2, two slides on.
+0.05 is a convention: 0.049 and 0.051 are the same evidence.
 :::
 
 ## One-sided or two-sided? Two-sided is the default
@@ -188,17 +158,13 @@ H0 (null hypothesis): no difference. H1 (alternative hypothesis): there is a dif
 :::
 
 ::: {.notes}
-Teaching point: every test starts from two hypotheses. H0, the null hypothesis: no difference between the groups. H1, the alternative hypothesis: there is a difference. The question is whether H1 allows a difference in both directions or in one direction only.
+Two-sided is the default: benefit and harm both count. Paper 1 and the FLUID-ICU SAP use two-sided tests.
 
-Two-sided (the default): H1 says 'the restrictive strategy changes mortality', up or down. A result far out in either tail counts as evidence. This protects patients: a new treatment can harm as well as help, and we want to detect both. Paper 1's sample size used alpha 5% two-sided. The FLUID-ICU SAP (statistical analysis plan, Course/Data/SAP\_FLUID-ICU.md) uses two-sided tests throughout.
+One-sided halves the p-value: acceptable only with a reason written before the data. Switching after seeing results is p-hacking.
 
-One-sided: H1 says 'the restrictive strategy lowers mortality'. A result in the other direction, however extreme, is treated as 'no difference'. Because only one tail counts, the same data give about half the p-value (a two-sided p of 0.08 becomes a one-sided p of 0.04). That is the temptation, and why reviewers distrust one-sided tests.
+Non-inferiority is a different design with its own margin.
 
-When is one-sided acceptable? Only with a strong reason stated in the protocol before the data are seen, typically when a difference in the other direction is impossible or would lead to exactly the same decision. That is rare in clinical research. Switching to one-sided after seeing the results is a form of p-hacking.
-
-Not the same as non-inferiority: a non-inferiority trial (Session 3, the margin picture) asks whether a new treatment is not worse than the old one by more than a margin fixed in advance. It looks one-directional, but it is a different design, with its own hypotheses, margin, sample size and analysis. Do not turn a superiority trial into a non-inferiority one by switching to a one-sided test.
-
-Ask (poll): a trial reports 'one-sided p = 0.03' without explaining why. Convinced? Expected: no. Ask why one-sided, and whether it was planned. The two-sided p would be about 0.06.
+Poll: 'one-sided p = 0.03' with no reason. Convinced? Expected: no.
 
 Timing: 3 minutes.
 :::
@@ -243,19 +209,11 @@ Each of these sentences appears in published papers. All are wrong. (H0 = the nu
 :::
 
 ::: {.notes}
-Teaching point: five misinterpretations, one per card. Launch a quick true/false poll on each sentence before you explain.
+Run a quick true/false poll on each card before explaining.
 
-1. 'p = 0.03 means a 3% chance that the null hypothesis is true.' False: p is calculated assuming the null is true. It cannot also be the probability of the null.
+1: p assumes H0, it is not its probability. 2: a tiny p can come with a trivial effect. 3: Paper 1, p = 0.42 with a wide CI means 'we do not know'. 4: no 'trend'. 5: give the effect and its CI, as Paper 2 does (HR 2.13, 1.48-3.06).
 
-2. 'p \< 0.001, so the effect is large.' False: with thousands of patients, a clinically trivial difference can have a tiny p-value. Look at the effect size and ask if it matters to patients.
-
-3. 'p = 0.42, so the two strategies are equivalent.' False: Paper 1 is the perfect example. The wide CI shows we simply do not know.
-
-4. 'p = 0.08 shows a trend towards benefit.' False: a p-value does not move towards anything. The course appraisal checklist asks exactly this: no 'trend' for p = 0.42.
-
-5. 'Results: p = 0.02.' Not enough: the reader needs the size of the effect and its uncertainty. Paper 2 (Hyun 2023, a propensity-matched cohort of fluid balance and mortality, Course/Papers) does it right: hazard ratio (HR) 2.13 (95% CI 1.48-3.06), p \< 0.001.
-
-These five statements are in Exercise 1 (true or false) of the Session 6 exercise sheet (PDF sent before the session).
+Also in Exercise 1.
 :::
 
 ## Check your understanding: CI and p-value
@@ -290,17 +248,11 @@ Answers
 :::
 
 ::: {.notes}
-Check your understanding (3 minutes). One true/false poll per statement, then reveal.
+Check (3 minutes), one true/false poll each.
 
-1. True: the practical reading of a 95% CI (Paper 2, day 2).
+1 true. 2 false: absence of evidence is not evidence of absence. 3 false: p assumes no effect. 4 true.
 
-2. False: absence of evidence is not evidence of absence. Paper 1's CI was wide (-15.2 to 41.6).
-
-3. False: p is calculated assuming there is no effect. It is not the probability of no effect.
-
-4. True: more patients, more precision.
-
-If the class splits on 2 or 3, go back to the p-value picture for one minute. This is the most important misunderstanding to fix today.
+If the class splits on 2 or 3, go back to the p-value picture.
 :::
 
 ## Type I and type II errors: the fire alarm
@@ -315,21 +267,11 @@ Alpha = risk of a false alarm. Power = chance of detecting a real effect. A less
 :::
 
 ::: {.notes}
-Teaching point: a statistical test is like a fire alarm. Two things can go wrong.
+A test is a fire alarm. Type I error: false alarm (alpha, 5%). Type II error: missed fire (beta). Power: the alarm rings when there is a fire (aim 80-90%).
 
-Type I error (false alarm): the alarm rings but there is no fire. We conclude the treatment works when it does not. We accept a 5% risk of this: that is alpha = 0.05.
+A small 'negative' trial may be a missed fire: Paper 1 was a pilot.
 
-Type II error (missed fire): there is a fire but the alarm stays silent. The treatment works but our study fails to show it. Its risk is called beta.
-
-Power = 1 - beta = the chance that the alarm rings when there really is a fire. We usually aim for 80% or 90%.
-
-Trade-off: making the alarm less sensitive (smaller alpha) gives fewer false alarms but more missed fires, unless you buy a better alarm: more patients.
-
-Clinical link: a small trial that is 'negative' may simply be a missed fire. Paper 1 was a pilot designed to detect a large difference. A smaller real difference could easily be missed.
-
-Ask (call on two or three people, microphone on): which error is worse when testing a new, expensive and risky drug? And for a cheap, safe intervention? There is no single right answer. Read two or three replies.
-
-This slide is now an editable table (it was a picture before).
+Ask: which error is worse for an expensive, risky drug? For a cheap, safe one?
 :::
 
 ## Sample size: bigger effect, less noise = fewer patients
@@ -341,17 +283,13 @@ This slide is now an editable table (it was a picture before).
 :::
 
 ::: {.notes}
-Teaching point: you need fewer patients when (1) the difference you want to detect is bigger and (2) patients vary less (less noise, smaller standard deviation, SD). Alpha and power are usually fixed at 5% (two-sided) and 80-90%.
+Fewer patients are needed when the difference is bigger and patients vary less.
 
-Read the curves: for a 30 ml/kg difference with SD 35, you need 22 patients per group (red dot). Halve the difference to 15 ml/kg and you need about four times as many (86 per group). With noisier data (SD 50), every point moves up.
+Halve the difference: about four times the patients.
 
-Running example: this is exactly the calculation in Paper 1's methods: they expected 70 vs 40 ml/kg with SD 35, 80% power, alpha 5% two-sided: 22 per group, 44 in total, increased by 10% for deaths to 50 patients.
+Paper 1: 70 vs 40 ml/kg, SD 35, 80% power: 22 per group, 50 in total with deaths.
 
-The hardest input is the expected effect: take it from previous studies, pilot data, or the smallest difference that would change practice (the minimal clinically important difference). Do not choose it just to make the number small.
-
-Common mistake: 'we included all patients from last year' with no calculation. Reviewers will ask about power.
-
-Transition: let us do this live.
+The expected effect comes from earlier studies or the smallest difference that would change practice.
 :::
 
 ## Live demo: an online sample-size calculator
@@ -387,21 +325,13 @@ What changes n?
 :::
 
 ::: {.notes}
-Live demo on the shared screen, 5 minutes (shortened from 8 to make room for the one-sided vs two-sided slide). Full script with expected outputs in Course/Demos/s6\_demo.md (Part A).
+Live demo, 5 minutes. Script: s6\_demo.md, Part A.
 
-Step 1: open the calculator. Say: any free, reputable calculator works. What matters is understanding the inputs.
+Reproduce Paper 1 (70 vs 40, SD 35): 22 per group. Then mortality 40% vs 30%: about 356 per group.
 
-Step 2: two independent means, reproduce Paper 1: mean 1 = 70, mean 2 = 40, SD 35 in both groups, alpha 5% two-sided, power 80%, ratio 1. Expected: 22 per group (44 total). Add 10% for deaths: 50. Matches the paper.
+Change one input at a time and poll the direction first.
 
-Step 3: two proportions (our real question: 28-day mortality). Usual care 40%, restrictive 30%, power 80%, alpha 5% two-sided. Expected: about 356 per group without continuity correction (about 376 with it). Different methods give slightly different numbers. That is normal.
-
-Step 4 (one or two changes only): power 90% (n rises to about 477 per group). Difference 40% vs 35% (n rises above 1400 per group). Ask the class to predict the direction in a poll before you click.
-
-Step 5: if the internet fails, open Course/Resources/tools/sample\_size\_calculator.xlsx and show the same examples. The yellow cells are inputs.
-
-Key message: Paper 1 needed 50 patients for fluid balance, but a mortality trial needs hundreds per group. The outcome you choose changes everything.
-
-Do not let participants calculate. They watch and predict.
+Offline: the sample-size spreadsheet. Participants watch and predict, they do not calculate.
 :::
 
 ## Choosing a test: one decision table
@@ -418,23 +348,13 @@ Outcome type + shape + paired or not = the right test. Paper 1 (Boulet 2024) use
 :::
 
 ::: {.notes}
-Teaching point: for comparing two groups, two questions choose the test.
+Two questions choose the test: number or category, then shape or counts. Paired data use the last column.
 
-Question 1: what is the outcome? A number (continuous) or a category (yes/no)?
+Paper 1 used Mann-Whitney because fluid balance is skewed.
 
-Question 2a (numbers): is it roughly symmetric? Then t-test (compares means). Skewed or very small sample? Then Mann-Whitney U (compares distributions/ranks, often reported with medians).
+Three or more groups: mention ANOVA or Kruskal-Wallis only.
 
-Question 2b (categories): are the expected counts in each cell 5 or more? Then chi-square. Small counts? Then Fisher's exact test.
-
-Paired data (same patients measured before and after, or matched pairs): use the paired version in the last column: paired t-test, Wilcoxon signed-rank, McNemar.
-
-Running example: Paper 1 used a Mann-Whitney test because fluid balance is skewed: consistent with reporting medians.
-
-Three or more groups: ANOVA or Kruskal-Wallis. Mention only, ask a statistician.
-
-This table is one of the take-home tools of the course (it is also in the Session 6 exercise sheet, Exercise 2). It replaces the earlier flow-chart picture with an editable table. The content is the same.
-
-Ask (call on two or three people, microphone on): comparing the proportion with acute kidney injury in 24 vs 24 patients, with only 3 and 7 events? Expected: Fisher's exact (small counts).
+Ask: AKI in 24 vs 24 patients, 3 and 7 events? Expected: Fisher's exact.
 :::
 
 ## Paired or unpaired? Same patients or different patients
@@ -446,17 +366,11 @@ Ask (call on two or three people, microphone on): comparing the proportion with 
 :::
 
 ::: {.notes}
-Teaching point: the decision table asked 'paired or not?'. This picture shows why it matters.
+Same 20 patients: as two clouds the change is hidden, joined as pairs every line goes down. Each patient is their own control.
 
-Simulated lactate in 20 patients at ICU admission and 6 hours later. Left: drawn as two separate clouds, the before and after values overlap heavily. Patients differ a lot from each other, and that variation hides the change.
+Common mistake: an unpaired test on before/after data.
 
-Right: the same numbers, but each patient's two values are joined. Every line goes down. Each patient is their own control, so the between-patient noise disappears. A paired test (paired t-test, or Wilcoxon signed-rank if skewed) uses exactly this, and has much more power.
-
-Paired designs: before/after in the same patients, crossover trials, matched pairs (Paper 2 matched patients 1:1 on a propensity score and analysed the pairs).
-
-Common mistake: analysing before/after data with an unpaired t-test. It throws away the pairing and can miss a real change.
-
-Ask (call on two or three people, microphone on): you measure pain scores in 30 patients before and after a new analgesia protocol. Paired or unpaired? Expected: paired.
+Ask: pain scores before and after a new protocol in 30 patients? Expected: paired.
 
 Timing: 2 minutes.
 :::
@@ -484,17 +398,11 @@ Timing: 2 minutes.
 :::
 
 ::: {.notes}
-Teaching point: every test carries a 5% risk of a false alarm. Run many tests and false alarms become almost certain.
+Test 20 colours with no real effect and one comes out at p = 0.03. With 20 tests the chance of at least one false alarm is about 64%.
 
-The picture (inspired by a famous cartoon): researchers test whether jelly beans cause acne. Nothing is found overall, so they test 20 colours separately. With no real effect anywhere (simulated), one colour comes out at p = 0.03, and the headline reads 'Green jelly beans cause acne!'.
+Remedies: one pre-specified primary outcome, the rest exploratory, Bonferroni if needed, report every test.
 
-With 20 independent tests and no real effect, the chance of at least one p \< 0.05 is about 64%.
-
-Clinical versions: 10 secondary outcomes, 8 subgroups, 5 time points, several lab values, all tested and only the 'significant' one reported.
-
-Remedies (side panel): pre-specify one primary outcome in the protocol or SAP (6.4). Call everything else exploratory. Adjust the threshold when many tests answer the same question (Bonferroni: 0.05 divided by the number of tests, so 0.0025 for 20 tests). And report all tests, not just the winners.
-
-Ask (call on two or three people, microphone on): a paper reports 12 subgroups and highlights the one with p = 0.04. How convinced are you? Expected: not very, it needs confirmation.
+Ask: 12 subgroups, one with p = 0.04. Convinced? Expected: not very.
 
 Timing: 2 minutes.
 :::
@@ -531,17 +439,11 @@ Answers
 :::
 
 ::: {.notes}
-Check your understanding (3 minutes). One poll per scenario with the four test names as options, using the decision table (number or category? shape or counts? paired?).
+Check (3 minutes), one poll per scenario.
 
-1. Mann-Whitney U: numerical, skewed, two independent groups (this is the FLUID-ICU ICU-stay question, Q5).
+1 Mann-Whitney (skewed, this is Q5). 2 chi-square. 3 paired t-test. 4 Fisher's exact.
 
-2. Chi-square: binary outcome, two large independent groups.
-
-3. Paired t-test (or Wilcoxon signed-rank if the changes are skewed): same patients twice.
-
-4. Fisher's exact: binary outcome, very small counts.
-
-Transition: now we run exactly these tests on the course dataset (6.2).
+Next: these tests on FLUID-ICU.
 :::
 
 ## 6.2 Compare groups in the course dataset
@@ -557,9 +459,9 @@ Choose the test from the outcome, then read the result as an effect with a CI.
 ::::
 
 ::: {.notes}
-Section 6.2 opener (20 minutes, 20:20 to 20:40: a 6-minute live demo of the tests, the results table, a worked example on Q1, then 7 minutes interpreting the comparisons together: Q1 in full, Q2 to Q5 briefly).
+Section 6.2 (20:20-20:40).
 
-Key message: the decision table from 6.1, applied to FLUID-ICU. All comparisons here are unadjusted: remember Table 1 (the positive-balance group was sicker).
+The decision table applied to FLUID-ICU. All comparisons are unadjusted: the positive-balance group was sicker (Table 1).
 :::
 
 ## Live demo: comparing two groups in R
@@ -595,13 +497,13 @@ Decision table
 :::
 
 ::: {.notes}
-Live demo on the shared screen, 6 minutes. Full script: Course/Demos/s6\_demo.md (Part B), using Course/Data/R/03\_compare.R.
+Live demo, 6 minutes. Script: s6\_demo.md, Part B (03\_compare.R).
 
-For each comparison, call on someone to name the test before you run it (decision table).
+Call on someone to name the test before each run.
 
-Show: age with a t-test. SOFA (severity score) and lactate with Mann-Whitney (note that 91 patients have no lactate, so n changes), 28-day death as a 2x2 table: 134/373 (35.9%) vs 45/245 (18.4%), chi-square p \< 0.001. The 'wrong' t-test on skewed ICU stay in survivors (difference in means 2.7 days) next to the Mann-Whitney / Hodges-Lehmann difference (2.5 days).
+Show death as a 2x2 table: 134/373 (35.9%) vs 45/245 (18.4%). End with the wrong t-test on skewed ICU stay.
 
-If R fails: use the next slide (all results in one table).
+If R fails, use the next slide.
 :::
 
 ## FLUID-ICU: four outcomes, four comparisons
@@ -618,23 +520,13 @@ n (%) or median (IQR). Unadjusted comparisons, simulated data (key\_results.md).
 :::
 
 ::: {.notes}
-Teaching point: the right test for each outcome type, and the result read as an effect.
+One test per outcome type, each result read as an effect.
 
-28-day death (binary, Q1): 134/373 (35.9%) vs 45/245 (18.4%), risk difference 17.6 percentage points (95% CI 10.7 to 24.4), RR 1.96. Chi-square p \< 0.001.
+Death (Q1): risk difference 17.6 points (10.7 to 24.4). AKI (Q2): 61.7% vs 29.0%. Ventilator-free days (Q3): median 20 vs 28. ICU stay in survivors (Q5): difference 2.5 days (1.8 to 3.2).
 
-AKI (binary, Q2): 230/373 (61.7%) vs 71/245 (29.0%). Chi-square p \< 0.001.
+All unadjusted: they mix fluid and severity.
 
-Ventilator-free days (count 0-28, piled up at 0 and 28, Q3): median 20 (0 to 28) vs 28 (22 to 28). Mann-Whitney p \< 0.001.
-
-ICU stay in survivors (skewed, Q5): median 7.5 (5.2 to 11.2) vs 4.8 (3.3 to 7.1) days. Mann-Whitney p \< 0.001, Hodges-Lehmann difference 2.5 days (95% CI 1.8 to 3.2).
-
-(Q4 compares lactate between non-survivors and survivors: median 3.1 vs 2.3 mmol/L, it is in the Q4 results pack.)
-
-All unadjusted: the positive-balance group was sicker at the start (Table 1). These differences mix the effect of fluid with the effect of severity. That is why 6.4 adjusts.
-
-Ask (call on two or three people, microphone on): which number would you put in the abstract for death: p \< 0.001, or the risk difference with its CI? Expected: the risk difference with its CI (and later the adjusted OR).
-
-This slide is now an editable table (it was a picture before).
+Ask: which number goes in an abstract? Expected: the effect with its CI.
 :::
 
 ## Worked example: reading the mortality comparison
@@ -679,19 +571,13 @@ Question 1 (Q1), unadjusted: positive vs negative fluid balance by day 3.
 :::
 
 ::: {.notes}
-Worked example (3 minutes), the only calculation step: the 2x2 table from Session 4 applied to the dataset.
+Worked example (3 minutes): the Session 4 2x2 table on the dataset.
 
-Risks: 134 of 373 patients with a positive balance died (35.9%), 45 of 245 with a negative balance (18.4%).
+35.9% vs 18.4%: difference 17.6 points (10.7 to 24.4), RR 1.96, p \< 0.001.
 
-Risk difference: 35.9 - 18.4 = 17.6 percentage points (rounding), 95% CI 10.7 to 24.4: far from 0.
+But the positive group was sicker: the crude comparison cannot separate fluid from severity.
 
-Risk ratio: 35.9 / 18.4 = 1.96: about twice the risk.
-
-Test: chi-square p \< 0.001 (two-sided): such a difference would be very surprising if there were no difference.
-
-But: this is a cohort. Patients with a positive balance were sicker (SOFA 8 vs 6). The crude comparison cannot separate fluid from severity.
-
-Model sentence: 'Twenty-eight-day mortality was 35.9% in patients with a positive balance and 18.4% in those with a negative balance (risk difference 17.6 percentage points, 95% CI 10.7 to 24.4).'
+Model Results sentence: 'Twenty-eight-day mortality was 35.9% with a positive and 18.4% with a negative balance (risk difference 17.6 percentage points, 95% CI 10.7 to 24.4).'
 :::
 
 ## Interpret the comparisons together
@@ -727,21 +613,13 @@ Avoid
 :::
 
 ::: {.notes}
-Whole-class task, 7 minutes (20:33 to 20:40). Exercise 4 of the Session 6 exercise sheet has the same questions. Each participant completes it later for the question they chose. Model answers in Course/Solutions/s6\_solutions.md.
+Whole class, 7 minutes (20:33-20:40). Exercise 4. Answers: s6\_solutions.md.
 
-Q1 in full (4 minutes): poll on the test (chi-square: binary outcome, two large groups). Call on two or three people for the effect. Type the class sentence in the shared document: 'Twenty-eight-day mortality was 35.9% with a positive and 18.4% with a negative balance (risk difference 17.6 percentage points, 95% CI 10.7 to 24.4).' Then ask about bias: confounding by indication. The positive-balance group was sicker.
+Q1 (4 min): poll the test (chi-square), build one Results sentence with the CI, then ask for a bias: confounding by indication.
 
-Q2 to Q5 (3 minutes), one sentence each, read by the instructor:
+Q2 to Q5 (3 min): read one sentence each from the solutions.
 
-Q2: AKI 61.7% vs 29.0% (positive vs negative balance), chi-square p \< 0.001.
-
-Q3: ventilator-free days median 20 (0 to 28) vs 28 (22 to 28), Mann-Whitney p \< 0.001.
-
-Q4: median lactate 3.1 (2.2 to 4.5) mmol/L in non-survivors vs 2.3 (1.6 to 3.4) in survivors.
-
-Q5: ICU stay in survivors median 7.5 (5.2 to 11.2) vs 4.8 (3.3 to 7.1) days, Hodges-Lehmann difference 2.5 days (95% CI 1.8 to 3.2).
-
-Then break.
+Participants later redo it for the question they choose. Then break.
 :::
 
 ---
@@ -755,13 +633,9 @@ Then break.
 :::
 
 ::: {.notes}
-The slide is only a picture on purpose. Before the break, say: we restart at 20:55 with 6.3 (correlation, linear and logistic regression, adjustment, Kaplan-Meier and Cox, the FLUID-ICU models). Anyone may post a question about the comparisons in the chat.
+Break (20:40-20:55). Say: we restart at 20:55 with 6.3.
 
-Break: 15 minutes (20:40 to 20:55). Start again on time.
-
-During the break: open 04\_models.R and 05\_missing.R and check the fallback figures for 6.4.
-
-Collect the questions posted in the chat about the comparison results. Answer the common ones at the start of 6.3.
+Open 04\_models.R and 05\_missing.R. Collect chat questions about the comparisons and answer them at the start of 6.3.
 :::
 
 ## 6.3 Relationships and models (concepts)
@@ -777,13 +651,11 @@ You do not need to run a model to read one.
 ::::
 
 ::: {.notes}
-Section 6.3 opener (35 minutes, 20:55 to 21:30: correlation, linear and logistic regression, which model, adjustment, reading a regression table with a 4-minute check, overfitting, censoring and reading a Kaplan-Meier curve, interaction, null values and prediction/machine learning are extra slides).
+Section 6.3 (20:55-21:30).
 
-Key message: every model answers the same question in a different language: how is the outcome related to the exposure, and how sure are we? You need four things to read any of them: what the outcome is, which model goes with it, what the number means (coefficient, OR or HR) and where the 'no effect' value is.
+Every model answers one question: how is the outcome related to the exposure, and how sure are we? Read four things: the outcome, the model, the number, the 'no effect' value.
 
-Link back to Session 4: confounding by indication. Models are one of the main tools for dealing with measured confounders in observational studies.
-
-Transition: start with the simplest relationship, two numbers on a scatter plot.
+Models are a main tool against measured confounding (Session 4).
 :::
 
 ## Correlation: how closely two numbers move together
@@ -795,17 +667,11 @@ Transition: start with the simplest relationship, two numbers on a scatter plot.
 :::
 
 ::: {.notes}
-Teaching point: the correlation coefficient r summarises a scatter plot of two numerical variables in one number.
+r summarises a scatter plot in one number, from -1 to +1.
 
-Read the panels: r near +1, points close to a rising line. R around 0.5, a loose cloud with a trend. R near 0, no straight-line link. R negative, one goes up while the other goes down.
+The last panel is the trap: r near 0 but a strong curve. Always look at the plot.
 
-The last panel is the trap: r is near 0, but there is a very strong curved relationship (think of an optimal dose, or U-shaped mortality with blood pressure). r only measures straight-line association, so always look at the plot.
-
-Rough guide (not a rule): 0.1 weak, 0.3 moderate, 0.5 or more strong, but the clinical meaning matters more.
-
-r has a p-value too. With many patients, a tiny r like 0.1 can be 'significant' and still useless.
-
-Ask (call on two or three people, microphone on): which panel looks like age versus systolic blood pressure in adults? Expected: moderate positive.
+With many patients a tiny r can be 'significant' and useless.
 
 Timing: 2 minutes.
 :::
@@ -819,21 +685,11 @@ Timing: 2 minutes.
 :::
 
 ::: {.notes}
-Teaching point: linear regression draws the straight line that best fits the points, for a numerical outcome.
+Linear regression: the best straight line for a numerical outcome. Slope = change per unit of exposure, null 0. R² = how much the line explains.
 
-Intercept: the expected outcome when the exposure is 0 (here a P/F ratio, PaO2 divided by FiO2, of about 292 with a fluid balance of 0). Often not interesting on its own.
+Adding variables gives 'adjusted' slopes.
 
-Slope: how much the outcome changes for each one-unit increase in the exposure: here about -15 per extra litre of fluid balance. This is the coefficient B you read in a regression table, with its 95% CI. Null value 0.
-
-R²: the proportion of the variation in the outcome explained by the line (here about 0.6). Many other factors explain the rest.
-
-Adding more variables to the model (multivariable regression) gives each slope 'adjusted for' the others: the same idea as the stratification picture, done by the computer.
-
-Data are simulated. This is not a claim about real oxygenation.
-
-Common mistake: extrapolating the line beyond the data (a fluid balance of 20 L would predict a negative P/F ratio).
-
-Ask (call on two or three people, microphone on): in the table, B = -15 (95% CI -19 to -11). What does it mean? Expected: each extra litre is associated with a P/F ratio about 15 points lower, plausibly 11 to 19.
+Ask: B = -15 (-19 to -11)? Expected: each extra litre goes with a P/F ratio about 15 lower.
 
 Timing: 2 minutes.
 :::
@@ -847,17 +703,11 @@ Timing: 2 minutes.
 :::
 
 ::: {.notes}
-Teaching point: when the outcome is yes/no (died by day 28), a straight line does not work: probabilities cannot go below 0% or above 100%. Logistic regression fits an S-shaped curve instead.
+For yes/no outcomes the curve is an S. The model reports an OR per unit (here 1.42 per mmol/L lactate). Null 1.
 
-Grey dots: each simulated patient, at the top if they died and at the bottom if they survived. Blue curve: the probability of death at each lactate level: about 9% at 2 mmol/L, 29% at 6, 62% at 10.
+Common mistake: 'OR 1.42 means 42% more deaths'. It is 42% higher odds.
 
-The model reports an odds ratio (OR): here each extra 1 mmol/L multiplies the odds of death by 1.42. The OR is constant along the curve. The change in probability is not (small at the ends, large in the middle).
-
-This is the OR you read in a logistic regression table, with its 95% CI. Null value 1. Adjusted ORs come from a model with several variables.
-
-Common mistake: 'OR 1.42 means 42% more deaths'. It is 42% higher odds per unit. The risk change depends on where you are on the curve.
-
-Ask (call on two or three people, microphone on): what would the curve look like if lactate had no effect? Expected: a flat horizontal line, OR = 1.
+Ask: what if lactate had no effect? Expected: a flat line, OR 1.
 
 Timing: 2 minutes.
 :::
@@ -875,21 +725,11 @@ The outcome type tells you the model and the number to read.
 :::
 
 ::: {.notes}
-Teaching point: the outcome decides the model, just as it decided the test.
+The outcome decides the model: number, linear (difference, null 0). Yes/no, logistic (OR, null 1). Time to event, Cox (HR, null 1).
 
-A number (fluid balance in ml/kg): linear regression. Reports a coefficient (B or beta), which is a difference in the outcome per unit of the exposure. No effect = 0.
+Common mistake: looking for 0 in an OR table.
 
-Yes/no (died by day 28): logistic regression. Reports an odds ratio (OR). No effect = 1.
-
-Time to event (time to death, with patients censored if still alive at day 28): Cox regression. Reports a hazard ratio (HR). No effect = 1. Paper 2 used Cox regression.
-
-Why 0 vs 1? A difference of 0 means no difference. A ratio of 1 means the two groups are the same (2 divided by 2 = 1).
-
-Common mistake: looking for 'does the CI cross 0' in an OR table. For ratios it is 1.
-
-Ask (call on two or three people, microphone on): a study of length of stay in days analysed as a number. Which model and which no-effect value? Expected: linear, 0. (A statistician may choose a different model for skewed data, but the reading principle is the same.)
-
-This slide is now an editable table (it was a picture before).
+Ask: length of stay as a number? Expected: linear, null 0.
 :::
 
 ## What 'adjusted' means: compare like with like
@@ -905,19 +745,11 @@ Simulated numbers
 :::
 
 ::: {.notes}
-Teaching point: adjusting for a confounder means comparing patients who are alike on that confounder.
+Crude: more fluid, more deaths (33% vs 18%). Split by severity: no difference in either stratum.
 
-Left (crude): patients who received a lot of fluid died more often (33% vs 18%). It looks as if fluid is harmful.
+Severity drove both: confounding by indication. A model does this split for many confounders at once.
 
-Right (stratified by severity): among less sick patients, 10% died with high or low fluid. Among sicker patients, 40% died either way. Within each level of severity there is no difference.
-
-What happened? Sicker patients were both more likely to receive more fluid (150 of 200) and more likely to die. Severity created the crude difference: confounding by indication, exactly as in Session 4.
-
-A regression model does the same thing as this split, but for many confounders at once (age, SOFA, lactate, ...). Paper 2 used propensity-score matching for the same purpose.
-
-Limitation: you can only adjust for confounders you measured. Unmeasured confounding remains. Only randomisation protects against it.
-
-Ask (call on two or three people, microphone on): after adjustment, can we say fluid does not cause death? Expected: not with certainty. Other unmeasured confounders may exist, and these numbers are simulated.
+Only measured confounders can be adjusted for. Only randomisation handles the rest.
 :::
 
 ## Reading a regression table, row by row
@@ -935,25 +767,13 @@ Outcome: death by day 28. Multivariable logistic regression, mock data. The rows
 :::
 
 ::: {.notes}
-Teaching point: a regression table has one row per variable in the model. Read each row in four steps.
+Read each row in four steps: the comparison (reference and unit), the effect, the CI, does the CI include 1?
 
-1. The comparison: 'positive fluid balance (yes vs no)'. 'Age per 10 years', 'female vs male'. Always check the reference group and the unit.
+OR 1.80 (1.20 to 2.70): 1.8 times the odds, adjusted.
 
-2. The effect: OR 1.80. Patients with positive fluid balance had 1.8 times the odds of death, adjusted for the other variables in the table.
+Sex and lactate rows include 1: compatible with no association.
 
-3. The 95% CI: 1.20 to 2.70. Plausible values from a 20% to a 170% increase in odds.
-
-4. The null: does the CI include 1? No, so p \< 0.05 (p = 0.004). For female sex (0.65-1.30) and lactate (0.98-1.24) the CI includes 1 (last column): compatible with no association.
-
-Per-unit rows: OR 1.15 per SOFA point means each extra point multiplies the odds by 1.15, 5 extra points multiply them by about 2 (1.15 to the power 5).
-
-This table is mock data, built so the p-values agree with the CIs.
-
-Wording: 'associated with', not 'caused'. It is an observational analysis.
-
-Common mistake: interpreting an OR of 1.8 as '80% more deaths'. It is 80% higher odds. When the outcome is common (like ICU death), the risk ratio is smaller than the OR.
-
-This slide is now an editable table (it was a picture before). The 'Does the CI include 1?' column replaces the red colouring.
+Mock data. Say 'associated', and 'odds', not 'risk'.
 :::
 
 ## Check your understanding: read the regression table
@@ -989,19 +809,13 @@ The 4-step reading
 :::
 
 ::: {.notes}
-Check your understanding (4 minutes), on the running-example table from the previous slide (go back to it on screen).
+Check (4 minutes), using the previous table.
 
-Poll 1: yes, 0.65 to 1.30 includes 1: compatible with no association between sex and death.
+Poll 1: yes, compatible with no association. Poll 2: odds multiplied by 1.15 per SOFA point ('15% more deaths' is the classic wrong answer).
 
-Poll 2: each extra SOFA point multiplies the odds of death by 1.15, adjusted for the other variables (options: '15% more deaths per point' is the classic wrong answer: it is odds, not risk).
+Model sentence: 'After adjustment, patients with a positive balance had about 1.8 times the odds of death by day 28 (OR 1.80, 95% CI 1.20 to 2.70).'
 
-Call on two or three people, pick a good answer and refine it on screen. Model sentence: 'After adjusting for age, SOFA, sex and lactate, patients with a positive fluid balance had about 1.8 times the odds of death by day 28 (OR 1.80, 95% CI 1.20 to 2.70).'
-
-What to listen for: correct reference groups ('vs no'), the word 'odds' rather than 'risk', 'associated with' rather than 'causes'.
-
-Extra practice (homework): Exercise 5 of the Session 6 exercise sheet (a mock table on delirium, another example) and Exercise 6 (read a Kaplan-Meier curve). Answers in Course/Solutions/s6\_solutions.md.
-
-Transition: next, why too many variables can mislead (overfitting), then survival analysis.
+Exercises 5 and 6 are homework.
 :::
 
 ## Overfitting: too many variables for too few events
@@ -1027,17 +841,11 @@ Transition: next, why too many variables can mislead (overfitting), then surviva
 :::
 
 ::: {.notes}
-Teaching point: a model with too many variables for the number of events learns the noise in your data, not the truth. It fits your patients perfectly and fails on the next ones.
+Too many variables for too few events: the model learns the noise and fails on new patients.
 
-Picture: the red curve passes through all 10 filled points (our data) but misses the hollow points (new patients). The simple teal line does better on new patients.
+Rule of thumb: about 10 events per variable. Stepwise selection keeps chance findings.
 
-Rule of thumb: about 10 events (deaths, not patients) per variable in a logistic or Cox model. 80 deaths: no more than about 8 variables, including categories counted separately. Some modern guidance asks for more.
-
-Stepwise selection (side panel): letting the software add or drop variables by p-value. It looks objective but it multiplies the multiple-comparison problem, keeps chance findings, overestimates the effects that survive, gives CIs that are too narrow, and different samples pick different variables.
-
-Better: choose confounders in advance from clinical knowledge and the literature (a causal diagram helps), write them in the SAP (6.4), and keep within the events-per-variable budget.
-
-Ask (call on two or three people, microphone on): a study of 40 deaths reports a model with 15 variables chosen by stepwise selection. Concerns? Expected: overfitting. Results will not replicate.
+Choose confounders in advance and write them in the SAP.
 
 Timing: 2 minutes.
 :::
@@ -1051,17 +859,9 @@ Timing: 2 minutes.
 :::
 
 ::: {.notes}
-Teaching point: time-to-event outcomes need special methods because not everyone has the event while we watch.
+A circle is a censored patient: followed until then, without the event. Censored is not excluded: they still tell us they were alive up to that day.
 
-Each line is a patient followed from ICU admission. A red X is the event (death). A circle is a censored patient: we stop watching before any event, because they were lost to follow-up (transferred, phone unreachable) or because the study ended at day 28.
-
-Censored does not mean excluded. Patient 3 tells us they were alive for 12 days, and survival methods use that information. Dropping them, or counting them as survivors for the full 28 days, both bias the result.
-
-Why not just compare the proportion dead at day 28? You can, if everyone is followed to day 28. Survival methods also use when deaths happen and handle unequal follow-up.
-
-Assumption: censoring is unrelated to the outcome (being transferred out for palliative care would break it). Sound familiar? It is the same logic as missing data (6.4).
-
-Ask (call on two or three people, microphone on): a patient is discharged home on day 9 and not contacted again. Event or censored? Expected: censored at day 9.
+Ask: discharged home on day 9, never contacted again? Expected: censored at day 9.
 
 Timing: 2 minutes.
 :::
@@ -1075,23 +875,11 @@ Timing: 2 minutes.
 :::
 
 ::: {.notes}
-Teaching point: the Kaplan-Meier (KM) curve shows the proportion still alive over time in each group, using censored patients correctly.
+Four reading steps: steps down are deaths, ticks are censored patients, the gap is the difference, and the numbers at risk show how certain the right end is.
 
-Walk through the four reading steps on the right of the figure:
+The log-rank test gives a p-value, not the size of the effect (Cox, 6.4).
 
-1. Each step down is one or more deaths.
-
-2. Each small vertical tick is a censored patient.
-
-3. The vertical gap between curves is the difference in survival at that time. Here about 70% vs 59% alive at day 28 (simulated cohort, 150 per group, mirroring Paper 2's question).
-
-4. The numbers at risk under the plot show how many patients are still being followed. As they shrink, the right end of the curve rests on few patients and becomes less certain. A figure without numbers at risk hides this. Reviewers will ask for them.
-
-The log-rank test compares the whole curves and gives a p-value (here p = 0.040). It does not give the size of the effect. That comes from the Cox model (section 6.4).
-
-Paper 2 shows exactly this kind of figure (Kaplan-Meier survival to day 28 in its matched cohorts).
-
-Ask (call on two or three people, microphone on): if the curves cross half-way, what does that suggest? Expected: the effect changes over time. The proportional-hazards assumption may not hold.
+Ask: curves cross half-way? Expected: the effect changes over time.
 
 Timing: 3 minutes.
 :::
@@ -1109,9 +897,7 @@ Adjust for what you planned, read the CI, and be honest about the gaps.
 ::::
 
 ::: {.notes}
-Section 6.4 opener (25 minutes, 21:30 to 21:55: the SAP, crude vs adjusted OR, the adjusted model, Kaplan-Meier and Cox, missing lactate, complete-case vs multiple imputation, then 7 minutes interpreting the models together: Q1 in full, Q2 to Q5 briefly).
-
-Key message: this is 6.3 (models) applied to FLUID-ICU, and the payoff of Weeks 5-6: you will see confounding by indication shrink an odds ratio.
+Section 6.4 (21:30-21:55): the models applied to FLUID-ICU. You will see confounding by indication shrink an odds ratio.
 :::
 
 ## The SAP came first
@@ -1158,19 +944,11 @@ The statistical analysis plan (SAP) was signed before the database was locked.
 :::
 
 ::: {.notes}
-Teaching point: the statistical analysis plan exists for FLUID-ICU. Show Course/Data/SAP\_FLUID-ICU.md on the shared screen.
+Show the SAP on screen (SAP\_FLUID-ICU.md). Primary: logistic regression for 28-day death. Confounders chosen in advance. Kaplan-Meier and Cox as support. One subgroup. Complete case plus multiple imputation.
 
-Primary analysis: 28-day mortality by multivariable logistic regression. Effect measure: odds ratio with 95% CI. The crude OR and the risk difference are also reported. All tests two-sided.
+AKI and dialysis are not adjusted for: they come after the fluid.
 
-Confounders chosen in advance from clinical knowledge (a simple causal diagram): age. Severity (SOFA, lactate, vasopressor, mechanical ventilation). Chronic kidney disease. Variables measured after day 3 (acute kidney injury, dialysis) are not adjusted for: they are outcomes or mediators.
-
-Supportive analysis: Kaplan-Meier curves with numbers at risk, log-rank test, Cox model with the same confounders. Proportional hazards checked.
-
-One pre-specified effect modifier: heart failure (an extra slide shows the result).
-
-Missing data: assessed and handled by complete case plus multiple imputation (m = 20) as sensitivity analysis.
-
-Ask (call on two or three people, microphone on): why does writing this first protect the authors? Expected: nobody can accuse them of choosing the analysis that gave the 'best' p-value (or of switching to a one-sided test).
+Ask: why write this first? Expected: no one can say you chose the analysis with the best p-value.
 :::
 
 ## Confounding by indication, made visible
@@ -1182,21 +960,13 @@ Ask (call on two or three people, microphone on): why does writing this first pr
 :::
 
 ::: {.notes}
-Teaching point: the key picture of the course dataset (Q1). Take 4 minutes.
+The key picture of the dataset (4 minutes).
 
-Crude odds ratio (OR), all 618 patients: 2.49 (95% CI 1.70 to 3.70): positive balance looks strongly associated with death.
+Crude OR 2.49 (1.70 to 3.70). Crude in the same 527 complete cases 2.22. Adjusted 1.62 (1.02 to 2.59), p = 0.044.
 
-Crude OR in the 527 complete cases: 2.22 (1.48 to 3.39): same patients as the adjusted model, so the comparison is fair.
+It shrank because sicker patients got more fluid and died more. What remains is modest and imprecise, and still an association.
 
-Adjusted OR (age, SOFA, lactate, vasopressor, ventilation, CKD), n = 527: 1.62 (95% CI 1.02 to 2.59), p = 0.044.
-
-Why it shrinks: sicker patients receive more fluid and die more often. Part of the crude association was severity, not fluid. This is confounding by indication, exactly the stratification picture from 6.3, done by the model.
-
-What remains: an adjusted association that is smaller and less precise. The lower CI limit is close to 1. It is compatible with a modest harm, or with almost no effect.
-
-It is still an association: unmeasured confounding (severity we did not record) may remain.
-
-Ask (call on two or three people, microphone on): if we had adjusted for AKI as well, would that be right? Expected: no. AKI happens after the fluid and may be on the pathway (a mediator), as the SAP says.
+Ask: adjust for AKI too? Expected: no, it comes after the fluid.
 :::
 
 ## The adjusted model, as a forest plot
@@ -1208,15 +978,11 @@ Ask (call on two or three people, microphone on): if we had adjusted for AKI as 
 :::
 
 ::: {.notes}
-Teaching point: the multivariable logistic model of Q1 drawn as a forest plot (all ORs adjusted for each other, n = 527).
+The Q1 model as a forest plot (n = 527). Positive balance: OR 1.62 (1.02 to 2.59).
 
-Positive fluid balance: OR 1.62 (1.02 to 2.59).
+The other rows are confounders: they are there to adjust, not to interpret.
 
-The other rows are the confounders: severity markers (SOFA per point, lactate per mmol/L, vasopressor, ventilation), age per year, CKD (chronic kidney disease). They are in the model to adjust. They are not the question. Do not over-interpret them (the 'Table 2 fallacy').
-
-Notice the units: per year, per point, per mmol/L: a small OR per unit can be a large effect over many units.
-
-Ask (call on two or three people, microphone on): which row would go in your abstract? Expected: only the exposure row (positive balance), with its CI.
+Ask: which row goes in your abstract? Expected: only the exposure row, with its CI.
 :::
 
 ## Kaplan-Meier: survival to day 28 by fluid balance
@@ -1228,17 +994,11 @@ Ask (call on two or three people, microphone on): which row would go in your abs
 :::
 
 ::: {.notes}
-Teaching point: read a real Kaplan-Meier figure (Q1) with the four steps from 6.3.
+Read the real curve with the four steps. Most deaths are in the first week.
 
-Steps down are deaths. Most deaths happen in the first week.
+Day-28 survival 81.6% vs 64.1%, log-rank p \< 0.001, but unadjusted.
 
-The gap: day-28 survival 81.6% (negative balance) vs 64.1% (positive balance).
-
-Numbers at risk under the plot: 245 and 373 at day 0, shrinking as patients die.
-
-Log-rank test: p \< 0.001 (chi-square 21.4): the curves differ. But the log-rank test is unadjusted: the same confounding as the crude OR.
-
-Ask (call on two or three people, microphone on): is the difference larger early or late? Expected: it opens in the first days and then the curves run roughly parallel, which is reassuring for the proportional-hazards assumption of the Cox model (next slide).
+Ask: is the gap larger early or late? Expected: it opens early, then the curves run roughly parallel.
 :::
 
 ## Cox model: the same story in hazard ratios
@@ -1281,15 +1041,11 @@ Q1 supportive analysis (04\_models.R). HR = hazard ratio. OR = odds ratio.
 :::
 
 ::: {.notes}
-Teaching point: the Cox model gives a hazard ratio, adjusted for the same confounders.
+Cox adjusted HR 1.46 (1.00 to 2.13), p = 0.053. Proportional hazards acceptable (p = 0.10).
 
-Crude HR 2.17 (95% CI 1.55 to 3.05) shrinks to an adjusted HR of 1.46 (95% CI 1.00 to 2.13), p = 0.053: the same confounding as for the OR.
+The lesson: OR p = 0.044 and HR p = 0.053 tell the same story. Never let 0.05 decide what you believe.
 
-Proportional hazards checked: global test p = 0.10. No strong evidence against the assumption.
-
-The big lesson: the logistic model gives p = 0.044 and the Cox model p = 0.053. One is 'significant', the other is not, but they say the same thing: a moderate association, imprecise, with a lower limit close to 1. Never let 0.05 decide whether you believe a finding (the five p-value mistakes, 6.1). And never rescue p = 0.053 by switching to a one-sided test (6.1).
-
-Ask (call on two or three people, microphone on): how would you write this in the Results? Expected: report both estimates with their CIs, and describe the association as modest and imprecise.
+Ask: how would you write this in the Results? Expected: both estimates with their CIs.
 :::
 
 ## RR, OR and HR: what each means and when you meet it
@@ -1327,17 +1083,11 @@ All three compare two groups. 1 = no difference. Above 1: more events. Below 1: 
 :::
 
 ::: {.notes}
-Purpose: one place where participants see the three ratios side by side (reviewer request).
+RR: risks, from a 2x2 table (trials, cohorts). OR: odds, from case-control studies and logistic regression, close to the RR only when the outcome is rare. HR: event rates over time, from Cox.
 
-RR: a proportion of patients with the event in each group, used in trials and cohorts with a fixed follow-up (Session 4, 2x2 table).
+Ask: Paper 2 compared deaths over time. Which ratio? Expected: HR.
 
-OR: odds instead of risk. It is what a case-control study can estimate and what logistic regression reports. When the outcome is rare (under about 10%) the OR is close to the RR. When the outcome is common, the OR looks bigger than the RR (Session 4).
-
-HR: compares the rate of events over time and uses everyone's follow-up time, including censored patients. Cox regression reports it (Paper 2 and FLUID-ICU Q1).
-
-Ask (call on two or three people, microphone on): in Paper 2, deaths by day 28 were compared over time. Which ratio? Expected: HR.
-
-Timing: 2 minutes, taken from the discussion on the Cox slide before, so the segment time is unchanged.
+Timing: 2 minutes.
 :::
 
 ## Why is it missing? MCAR, MAR and MNAR
@@ -1349,21 +1099,11 @@ Timing: 2 minutes, taken from the discussion on the Cox slide before, so the seg
 :::
 
 ::: {.notes}
-Teaching point: three mechanisms, shown on the same 8 patients with some lactate values missing. (This slide stays a picture: the small data tables, with the hidden values in red, are the point.)
+Three mechanisms on the same 8 patients. MCAR: unrelated to the patient. MAR: depends on something recorded, imputation can help. MNAR: depends on the missing value itself, no method fully fixes it.
 
-MCAR, missing completely at random: a tube dropped, an analyser broke. Missingness has nothing to do with the patient. The remaining patients are a random subset. A complete-case analysis is unbiased, just less precise. Rare in practice.
+The data cannot prove which applies: write down why values are missing.
 
-MAR, missing at random (given what we recorded): lactate was not measured for night admissions. Missingness depends on something we have in the data (admission time). Methods such as multiple imputation can use that recorded variable to correct the bias.
-
-MNAR, missing not at random: the missing lactates are the highest ones (the sickest patients, values off the analyser's scale, red numbers we never see). Missingness depends on the missing value itself. No statistical method can fully fix this. We can only test how much it might matter (sensitivity analysis).
-
-We can never prove which mechanism applies from the data alone. Clinical knowledge of why values are missing is essential. Write the reasons down when you collect data.
-
-Remember the first missing-data slide in 5.1: the sickest patients going missing is MNAR, the worst case.
-
-Ask (call on two or three people, microphone on): day-28 outcome missing for patients transferred to another hospital. Which mechanism is most likely? Expected: possibly MNAR (sicker or improving patients transferred). At least MAR if transfer reason is recorded.
-
-Timing: 2 minutes. Then FLUID-ICU's own missing lactate.
+Timing: 2 minutes.
 :::
 
 ## Who is missing lactate? Not a random 15%
@@ -1375,15 +1115,11 @@ Timing: 2 minutes. Then FLUID-ICU's own missing lactate.
 :::
 
 ::: {.notes}
-Teaching point: before handling missing data, ask why it is missing (previous slide: MCAR, MAR, MNAR).
+Lactate missing in 93 of 620 (15.0%), mostly in less sick patients (median SOFA 5 vs 8, mortality 19.4% vs 30.6%).
 
-Lactate is missing for 93 of 620 patients (15.0%). The figure shows the proportion missing by SOFA score: much higher in the least sick patients.
+So not MCAR: complete cases drop the less sick. MAR is plausible, which suits multiple imputation.
 
-Patients without lactate had a median SOFA of 5 (4 to 6) vs 8 (6 to 10) in those with lactate, and lower mortality: 18/93 (19.4%) vs 161/527 (30.6%).
-
-So the data are not missing completely at random (MCAR): a complete-case analysis drops mostly the less sick patients. Missingness depends on things we recorded (severity, ICU): missing at random (MAR) is plausible, which is the situation where multiple imputation works well.
-
-Ask (call on two or three people, microphone on): clinically, why would lactate not be measured in the less sick? Expected: the clinician judged it unnecessary, or no point-of-care analyser in one ICU.
+Ask: why would lactate not be measured in the less sick?
 :::
 
 ## Complete case vs multiple imputation (Q4)
@@ -1395,17 +1131,15 @@ Ask (call on two or three people, microphone on): clinically, why would lactate 
 :::
 
 ::: {.notes}
-Teaching point: the sensitivity analysis planned in the SAP.
+The sensitivity analysis from the SAP.
 
-Q4 (lactate and 28-day death), OR per 1 mmol/L adjusted for age, sex, diabetes, CKD and heart failure: complete case 1.39 (1.24 to 1.57), n = 527, multiple imputation 1.45 (1.29 to 1.64), n = 620. Adding SOFA: 1.21 (1.05 to 1.39) vs 1.23 (1.07 to 1.42).
+Q4: OR per mmol/L 1.39 (complete case, n = 527) vs 1.45 (imputation, n = 620).
 
-Q1 primary model with multiple imputation (m = 20, n = 620): adjusted OR 1.70 (95% CI 1.09 to 2.64), p = 0.020, compared with 1.62 (1.02 to 2.59) in complete cases.
+Q1: adjusted OR 1.70 (1.09 to 2.64) with imputation vs 1.62 in complete cases.
 
-Interpretation: the conclusions do not depend on how the missing lactate was handled: a robust result. Had the two approaches disagreed strongly, we would have to say so.
+The conclusion does not depend on how missing lactate was handled.
 
-Note also: the median lactate was 2.6 mmol/L in complete cases and 2.4 after imputation: the imputed values are lower, as expected, because the missing patients were less sick.
-
-Ask (call on two or three people, microphone on): what would you write in the Methods? Expected: 'Missing lactate (15.0%) was handled by multiple imputation (20 data sets) as a sensitivity analysis. Results were similar to the complete-case analysis.'
+Ask: how would you report this? Expected: both estimates, and that they were similar.
 :::
 
 ## Interpret the models together
@@ -1441,23 +1175,13 @@ Words to use
 :::
 
 ::: {.notes}
-Whole-class task, 7 minutes (21:48 to 21:55). Exercise 8 of the Session 6 exercise sheet has the same questions. Each participant completes it later for the question they chose. Model answers in Course/Solutions/s6\_solutions.md.
+Whole class, 7 minutes (21:48-21:55). Exercise 8. Answers: s6\_solutions.md.
 
-Q1 in full (4 minutes): crude OR 2.49 (1.70 to 3.70), adjusted 1.62 (1.02 to 2.59): it shrank because severity was a confounder (confounding by indication). Poll: no, the adjusted CI does not include 1, but its lower limit is close to 1. Type the class sentences: 'Positive fluid balance was associated with higher 28-day mortality (crude OR 2.49, 95% CI 1.70 to 3.70). After adjustment for age, SOFA, lactate, vasopressor use, mechanical ventilation and chronic kidney disease, the association was smaller (adjusted OR 1.62, 95% CI 1.02 to 2.59).' Mention the Cox adjusted HR 1.46 (1.00 to 2.13) and the multiple-imputation adjusted OR 1.70 (1.09 to 2.64).
+Q1 (4 min): crude 2.49, adjusted 1.62. Ask why it shrank. Type two Results sentences, crude then adjusted, with CIs.
 
-Q2 to Q5 (3 minutes), one line each, read by the instructor:
+Q2 to Q5 (3 min): read one line each from the solutions.
 
-Q2: AKI OR per 10 ml/kg crude 1.37 (1.27 to 1.47), adjusted 1.27 (1.16 to 1.40).
-
-Q3: ventilator-free days per 10 ml/kg crude -1.48 (-1.84 to -1.13), adjusted -0.61 (-1.00 to -0.21) days.
-
-Q4: lactate OR per 1 mmol/L adjusted, complete case 1.39 (1.24 to 1.57) vs multiple imputation 1.45 (1.29 to 1.64).
-
-Q5: ICU stay ratio of geometric means crude 1.50 (1.34 to 1.68), adjusted 1.24 (1.10 to 1.39).
-
-Pattern to point out: in every question the adjusted estimate is closer to 'no effect' than the crude one, the fingerprint of confounding by indication.
-
-These sentences become the core of the Results section each participant drafts in Session 7 for their chosen question.
+Pattern: every adjusted estimate is closer to no effect. These sentences are the core of each participant's Results section.
 :::
 
 ## Proposal builder 6: what a good one contains
@@ -1501,17 +1225,13 @@ Modelled on the running example (a restrictive fluids trial).
 :::
 
 ::: {.notes}
-Show for 1 minute before the instructor starts modelling.
+Show for 1 minute before modelling.
 
-Sample size: one sentence with the four inputs (expected values in each group, alpha, power) and the drop-out allowance: 'Assuming 28-day mortality of 40% with usual care and 30% with the restrictive strategy, 356 patients per group give 80% power at a two-sided alpha of 5%. Allowing 10% loss to follow-up, we will recruit 396 per group.' (356 / 0.9 = 395.6, rounded up.)
+Sample size in one sentence with its four inputs and the drop-out allowance (356 per group, 396 with 10% loss).
 
-Analysis plan in plain language: the summary for each variable type, the test or model for the primary outcome, the effect measure with its 95% CI, and 'all tests two-sided'.
+Analysis plan in plain words, confounders in advance, a missing-data plan.
 
-Confounders: for observational designs, name them (from Part 2's bias section) within the events-per-variable budget. No stepwise selection.
-
-Missing-data plan: expected missingness and why (MCAR / MAR / MNAR thinking), prevention (Session 5), and how missing data will be reported (how many, in whom). Level 2 touches on imputation. Imputation and sensitivity analyses in depth are in Level 3 (Module H).
-
-Each participant writes this for their own research question (their own proposal).
+Each participant writes this for their own proposal.
 :::
 
 ## Proposal builder 6: sample size and analysis plan
@@ -1546,19 +1266,11 @@ Use these tools
 :::
 
 ::: {.notes}
-Proposal builder 6: 30 minutes (21:55 to 22:25). Template: Course/Templates/Research\_Proposal\_Template.docx. Worksheet: Exercise 9 of the Session 6 exercise sheet, with the same headings.
+Proposal builder 6, 30 minutes (21:55-22:25). Template: Research\_Proposal\_Template.docx. Worksheet: Exercise 9.
 
-Model live (18 minutes) on the running example, typing into a copy of the template on the shared screen: sample-size statement with its four inputs and sources (6 min, using Course/Resources/tools/sample\_size\_calculator.xlsx), plain-language analysis plan (5 min), confounders within about 10 events per variable (3 min), missing-data plan (4 min). Call on people for suggestions as you go.
+Model live (18 min): sample size, analysis plan, confounders, missing-data plan. Then 10 minutes on their own sample-size inputs, 2 minutes for questions.
 
-Individual slot (10 minutes): everyone writes the four sample-size inputs for their own study and where each comes from (cameras can stay off). A final number is not needed yet. Then 2 minutes for questions in the chat.
-
-The FLUID-ICU SAP is a good model: participants have just seen that it was written before the analysis.
-
-Common problems to mention while modelling: 'SPSS will be used' as the analysis plan. Stepwise selection. No word on missing data. Sample size = 'all patients we can get'. A one-sided test without a reason.
-
-Homework: complete Part 3 (analysis plan, confounders, missing-data plan) in your own template. Offer to check sample-size inputs by email.
-
-At 22:25, stop for the wrap-up.
+Watch for: 'SPSS will be used' as a plan, stepwise selection, no word on missing data.
 :::
 
 ## Key words of the day
@@ -1603,17 +1315,9 @@ Twelve words you should now be able to explain to a colleague.
 :::
 
 ::: {.notes}
-Key words of the day (2 minutes). Point to each word and call on someone for a one-line definition, microphone on.
+Key words (2 minutes). Point to a word and call on someone for a one-line definition.
 
-95% CI (confidence interval): range of plausible values. p-value: how surprising the data would be if there were no effect. Two-sided by default. Power: chance of detecting a real effect.
-
-t-test / Mann-Whitney: compare a number between two groups (symmetric / skewed). Chi-square: compare proportions. Paired: same patients measured twice.
-
-Adjusted OR (odds ratio): odds ratio after accounting for confounders. Hazard ratio: ratio of death rates over time (Cox). Censoring: follow-up ended without the event.
-
-SAP (statistical analysis plan): analysis plan written before seeing the data. MCAR / MAR / MNAR: why data are missing. Multiple imputation: filling gaps several times and pooling, honestly.
-
-All terms are in the EN-VN glossary.
+All terms are in the English-Vietnamese glossary.
 :::
 
 ## Session 6 recap
@@ -1650,15 +1354,51 @@ Three messages to take home.
 :::
 
 ::: {.notes}
-Session recap (2 minutes). Ask three volunteers (raise-hand button) for one example from today for each card.
+Recap (1 minute). Ask volunteers for one example per card.
 
-Read the CI: the size, the direction, the precision. The null value 0 or 1. Avoid the five p-value mistakes.
+Next Saturday: ethics, integrity and the Results section, written live on Q1.
+:::
 
-Adjust honestly: FLUID-ICU showed confounding by indication: the crude OR shrank after adjustment for severity. Confounders are chosen from knowledge, not by stepwise selection.
+## Your second product: the Results section
 
-Plan first: the FLUID-ICU SAP was written before the analysis, with two-sided tests. Missing lactate was reported, handled with multiple imputation and checked against complete-case analysis.
+::: {.neu-intro}
+Choose one FLUID-ICU question (Q1 to Q5) tonight. The manuscript brief arrives by email.
+:::
 
-Next two Saturdays: write it up (Methods and Results in Session 7, the rest and publication in Session 8).
+:::: {.neu-cards style="--n:3"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[Required]{.neu-card-title}
+
+- The Results section for your question
+- A working title
+- Table 1 and one main table or figure
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[Optional]{.neu-card-title}
+
+- Methods, Introduction
+- Discussion, Abstract
+- Trainers give feedback on these too
+:::
+::: {.neu-card .plain style="--c:#5FA39B"}
+[When]{.neu-card-title}
+
+- Session 7: Results written live on Q1
+- Session 8: improve your draft
+- Due 23:59 on the day of Session 8
+:::
+::::
+
+::: {.neu-takeaway}
+**KEY MESSAGE** Tell the course lead your question tonight, in the chat or by email.
+:::
+
+::: {.notes}
+Product 2 (2 minutes). Say it plainly: we give you the results, you write a submission-ready Results section. The other sections are optional, and we give feedback on them too.
+
+Ask everyone to post their question (Q1 to Q5) in the chat. Q1 is the easiest start because it is modelled live next Saturday.
+
+After the session, email the manuscript brief (Manuscript\_Brief.pdf) and the manuscript template.
 :::
 
 ## Wrap-up and homework
@@ -1670,10 +1410,10 @@ DISCUSSION · 5 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#1F5C7A"}
-- Key words and recap (previous two slides)
+- Key words, recap and your Results section (previous slides)
 - Exit question in the chat: in one sentence, what does '95% CI 1.48 to 3.06' tell you?
 - Homework: finish Part 3 of your own proposal. Start your proposal slides (everyone submits them)
-- Re-read the results pack of the question you chose: it becomes your Methods and Results in Session 7
+- Choose your FLUID-ICU question tonight and read its results pack
 :::
 :::
 ::: {.column width="40%"}
@@ -1682,7 +1422,7 @@ Weeks 7-8
 
 - Protocol, ethics, registration
 - Research integrity
-- Writing Methods and Results
+- Writing the Results section
 - Getting published
 - Volunteer presentations
 :::
@@ -1694,13 +1434,13 @@ Weeks 7-8
 :::
 
 ::: {.notes}
-Wrap-up: 5 minutes (22:25 to 22:30), including the key-words and recap slides.
+Wrap-up (22:25-22:30).
 
-Exit question in the chat. Purpose: it checks the single most important skill of today, reading a CI. A good answer: 'The true hazard ratio is plausibly between 1.48 and 3.06. All values are above 1, so the data suggest higher mortality.' Read the answers before Session 7 and open Session 7 with two or three of them.
+Exit question: what does '95% CI 1.48 to 3.06' tell you? Good answer: the true HR is plausibly 1.48 to 3.06, all above 1. Open Session 7 with two or three answers.
 
-Homework: finish Part 3 of your own proposal. Start your proposal slides (6 slides, Course/Assignment/presentation\_guide.md): everyone submits slides, and about five volunteers present in Session 8 (6 minutes each). Re-read the results pack of the question you chose (Q1 to Q5) and your notes from today's worked examples, which become the Methods and Results you draft in Session 7. Optional exercises in the Session 6 exercise sheet (Exercises 2, 3, 5, 6 and 7).
+Homework: Part 3 of the proposal, start the 6 slides, choose a question and read its results pack.
 
-Thank the class: this was the most technical session of the course. Acknowledge that they stayed with it.
+After the session: email the manuscript brief to everyone.
 :::
 
 ## Extra slides: Session 6
@@ -1716,7 +1456,7 @@ Interaction, null values, prediction and machine learning, missing-data details
 ::::
 
 ::: {.notes}
-Extra: the slides after this point are optional. Use them if the class is ahead of time, or point participants to them for self-study (they are in the handout deck).
+Extra slides: optional, for a fast class or self-study.
 :::
 
 ## Extra: the pre-specified interaction with heart failure (Q1)
@@ -1728,15 +1468,9 @@ Extra: the slides after this point are optional. Use them if the class is ahead 
 :::
 
 ::: {.notes}
-Extra: the one pre-specified effect modifier in the FLUID-ICU SAP.
+Extra. The one pre-specified effect modifier: heart failure (n = 90) OR 4.39 (1.65 to 12.38) vs 1.29 without, p for interaction 0.031.
 
-Adjusted OR for death, positive vs negative balance: heart failure (n = 90) 4.39 (95% CI 1.65 to 12.38). No heart failure (n = 437) 1.29 (0.77 to 2.19). Interaction p = 0.031 (Wald, likelihood-ratio test p = 0.028).
-
-Clinically plausible: patients with heart failure tolerate fluid less well.
-
-But: small subgroup (90 patients), very wide CI, and the SAP said an interaction p \< 0.05 is 'evidence needing confirmation, not a definite finding'. Report it as exploratory.
-
-Link to the interaction extra slide and to multiple comparisons (one pre-specified test, not 20 post hoc subgroups).
+Plausible, but small and imprecise: report it as exploratory.
 :::
 
 ## Extra: AKI rises with fluid balance (Q2)
@@ -1748,15 +1482,9 @@ Link to the interaction extra slide and to multiple comparisons (one pre-specifi
 :::
 
 ::: {.notes}
-Extra: Question 2 (Q2), acute kidney injury (AKI).
+Extra, Q2. AKI rises across balance groups: 29%, 54%, 63%, 75%. Adjusted OR 1.27 (1.16 to 1.40) per 10 ml/kg.
 
-AKI (KDIGO stage 1 or more) by cumulative balance: 0 ml/kg or less 29%. Above 0 to 20: 54%. Above 20 to 40: 63%, above 40: 75%. A gradient (dose-response) is one of the Bradford Hill considerations (Session 4).
-
-OR per 10 ml/kg: crude 1.37 (1.27 to 1.47), adjusted 1.27 (1.16 to 1.40), p \< 0.001 (n = 527).
-
-Caution: reverse causation is possible: patients developing AKI pass less urine, so their balance becomes more positive. The timing of AKI vs the balance matters. Discuss it in the limitations.
-
-Useful for anyone who chose Q2 for the manuscript.
+Caution: AKI can also cause a positive balance (reverse causation).
 :::
 
 ## Extra: ventilator-free days, a tricky outcome (Q3)
@@ -1768,15 +1496,9 @@ Useful for anyone who chose Q2 for the manuscript.
 :::
 
 ::: {.notes}
-Extra: Question 3 (Q3).
+Extra, Q3. Ventilator-free days pile up at 0 (death) and 28: report medians, use non-parametric tests.
 
-Ventilator-free days to day 28 are 0 for patients who died or stayed ventilated, and 28 for those never ventilated: two piles, nothing like a bell.
-
-Median 20 (0 to 28) days in the positive-balance group vs 28 (22 to 28) in the negative. Mann-Whitney p \< 0.001.
-
-Linear regression per 10 ml/kg: crude -1.48 (-1.84 to -1.13) days, adjusted -0.61 (-1.00 to -0.21) days, p = 0.003 (n = 527).
-
-Teaching point: always look at the distribution before choosing the summary and the model. Useful for anyone who chose Q3 for the manuscript.
+Adjusted -0.61 days (-1.00 to -0.21) per 10 ml/kg.
 :::
 
 ## Extra: Sample and population
@@ -1788,23 +1510,15 @@ Teaching point: always look at the distribution before choosing the summary and 
 :::
 
 ::: {.notes}
-Extra: Teaching point: the population is everyone we want to learn about (all adults with septic shock). We never see all of them. The sample is the patients we actually study.
+Extra. The sample is the patients we study, the population everyone we want to learn about. 12 of 40 died: 30% (95% CI 17% to 47%).
 
-In our sample of 40 patients, 12 died: 30%. That is our estimate of the true mortality.
-
-A different sample of 40 would give a slightly different number, maybe 25% or 35%. This variation from sample to sample is called sampling error. It is not a mistake. It is chance.
-
-The 95% confidence interval (17% to 47%) expresses that uncertainty: the true mortality could plausibly be anywhere in that range. With only 40 patients, the range is wide.
-
-Two conditions for a sample to tell us about the population: it must be representative (selection, from Session 4) and large enough (precision).
-
-Ask: if we had studied 400 patients instead of 40, what would happen to the interval? Expected: narrower. That is the dance of the confidence intervals and the sample-size slide in 6.1.
+Ask: 400 patients instead of 40? Expected: a narrower interval.
 :::
 
 ## Extra: Reading a 95% CI in a real paper
 
 ::: {.neu-intro}
-Paper 1 (Boulet 2024, pilot RCT, Course/Papers), primary outcome: cumulative fluid balance at day 5.
+Paper 1 (Boulet 2024, pilot RCT), primary outcome: cumulative fluid balance at day 5.
 :::
 
 :::: {.neu-cards style="--n:3"}
@@ -1836,17 +1550,11 @@ Paper 1 (Boulet 2024, pilot RCT, Course/Papers), primary outcome: cumulative flu
 :::
 
 ::: {.notes}
-Extra: Teaching point: read every CI in three steps: the estimate, where the 'no-effect' value is, and how wide the interval is.
+Extra. Read every CI in three steps: the estimate, where the null is, how wide.
 
-Paper 1 (Boulet 2024, RCT): median day-5 cumulative fluid balance 6.9 ml/kg (restrictive) vs 35.0 ml/kg (usual care). The paper also reports the difference in means: 13.2 ml/kg with 95% CI -15.2 to 41.6, p = 0.42.
+Paper 1: 13.2 ml/kg (-15.2 to 41.6), p = 0.42. Includes 0 and also a large difference: we do not know.
 
-The interval includes 0, so the data are compatible with no difference. But it also includes a large difference of 40 ml/kg. Conclusion: the study cannot tell us whether the strategy works. It was a pilot of 48 patients.
-
-If someone asks why 13.2 is not 35.0 minus 6.9 (28.1): 13.2 is the difference between the two group means, which the authors report with its 95% CI. The medians describe the skewed data. Means and medians differ when data are skewed, which is exactly the lesson of 5.3.
-
-Common mistake: reading p = 0.42 as 'the restrictive strategy does not work'. Absence of evidence is not evidence of absence.
-
-Ask: what would the CI look like if the trial had 500 patients? Expected: much narrower, possibly excluding 0.
+If asked why 13.2 is not 35.0 minus 6.9: it is a difference in means, the medians describe skewed data.
 :::
 
 ## Extra: the running example in one forest plot
@@ -1862,21 +1570,9 @@ Paper 2 (Hyun 2023): positive vs negative cumulative fluid balance, propensity-m
 :::
 
 ::: {.notes}
-Extra: Teaching point: a forest plot shows several estimates with their CIs against the null line. Each square is an HR, each horizontal line its 95% CI.
+Extra. Paper 2 forest plot: day 1 HR 1.17 (0.85-1.60) crosses 1. Day 2 HR 2.13 (1.48-3.06) and day 3 HR 1.56 (1.10-2.22) are above 1.
 
-Paper 2 (Hyun 2023, Ann Intensive Care), 28-day mortality, positive vs negative cumulative fluid balance:
-
-Day 1 (483 matched pairs): HR 1.17 (0.85-1.60), p = 0.354. Crosses 1: no clear association.
-
-Day 2 (373 pairs): HR 2.13 (1.48-3.06), p \< 0.001. Entirely above 1: about double the hazard.
-
-Day 3 (392 pairs): HR 1.56 (1.10-2.22), p = 0.012. Above 1, but the lower limit is close to 1.
-
-Interpretation: a positive balance that persists beyond the first day is associated with higher mortality. Associated, not caused: this is a cohort, and even after matching, sicker patients may still receive more fluid (residual confounding).
-
-Compare with Paper 1: an RCT showing no clear difference in fluid balance. The two designs answer different questions with different strengths. This is the core of the appraisal in Sessions 7-8.
-
-Ask: why are the day-1 CI and the day-2 CI different widths? Expected: different numbers of patients and events, and different variability.
+Associated, not caused: residual confounding remains.
 :::
 
 ## Extra: Log-rank, Cox and proportional hazards
@@ -1913,17 +1609,7 @@ Three terms you will meet in every survival paper. KM = Kaplan-Meier. HR = hazar
 :::
 
 ::: {.notes}
-Extra: Teaching point: the three tools that go with a KM curve.
-
-Log-rank test: answers 'are the curves different?' with a p-value. It cannot adjust for confounders and does not say how big the difference is.
-
-Cox (proportional hazards) regression: gives a hazard ratio, the ratio of the instantaneous death rates between groups, with a 95% CI. Null value 1. Like logistic regression, it can include several variables, so the HR can be adjusted. Paper 2 used a (clustered) Cox model on its matched pairs: day-2 HR 2.13 (95% CI 1.48 to 3.06).
-
-Proportional hazards: the Cox model assumes the HR is the same throughout follow-up. If the KM curves cross or converge strongly, one HR is misleading. Good papers say how they checked this assumption.
-
-HR versus RR: an HR of 2 means the death rate at any moment is twice as high. It is not exactly 'twice as many deaths by day 28', although it is often close when events are uncommon.
-
-Ask: a paper shows KM curves that cross at day 10 and reports one HR of 1.0. What might be hidden? Expected: early harm and late benefit (or the reverse) cancelling out.
+Extra. Log-rank: a p-value, no size, no adjustment. Cox: an adjusted HR with its CI. Proportional hazards: the HR is assumed constant, check it when curves cross.
 
 Timing: 2 minutes.
 :::
@@ -1937,13 +1623,7 @@ Timing: 2 minutes.
 :::
 
 ::: {.notes}
-Extra: Teaching point: two classic misuses of correlation.
-
-Left, agreement: a bedside lactate device against the main laboratory (simulated). r = 0.98, so many authors write 'excellent agreement'. But every point lies below the line of perfect agreement: the device reads about 0.9 mmol/L lower. Correlation measures whether values rise together, not whether they are the same. To compare two measurement methods, use a Bland-Altman plot (differences against averages, with limits of agreement).
-
-Right, causation: more fluid on day 1 goes with longer ICU stay (r = 0.85). But within each severity group there is no relationship at all. Severity drives both. This is confounding again (Session 4), and the reason we adjust in models (6.3 and 6.4).
-
-Ask: a new point-of-care haemoglobin meter correlates r = 0.95 with the lab. Can you replace the lab test? Expected: not yet. Check agreement (bias and limits) first.
+Extra. Left: r = 0.98 but the device reads 0.9 lower: correlation is not agreement (use Bland-Altman). Right: fluid and ICU stay correlate only through severity.
 
 Timing: 2 minutes.
 :::
@@ -1957,17 +1637,9 @@ Timing: 2 minutes.
 :::
 
 ::: {.notes}
-Extra: Teaching point: adjustment (6.3 and 6.4) assumes the exposure has the same effect in everyone. Interaction (also called effect modification, Session 4) means the effect is different in different groups.
+Extra. Parallel lines: one adjusted effect is enough. Different slopes: interaction, report the effect in each group.
 
-Left, no interaction: mortality rises with fluid balance at the same rate in patients with and without ARDS (acute respiratory distress syndrome). ARDS patients simply start higher. One adjusted estimate is enough.
-
-Right, interaction: fluid balance hardly matters without ARDS but matters a lot with ARDS. A single 'average' effect would describe nobody. The model includes an interaction term (fluid x ARDS). If it is important, report the effect in each group.
-
-Rules: pre-specify the few interactions you will test, with a clinical reason (multiple comparisons again), and do not claim a subgroup difference just because one subgroup has p \< 0.05 and the other does not. Test the interaction itself.
-
-Lines are illustrative.
-
-Ask: confounding or interaction? 'The drug works in women but not in men.' Expected: interaction (effect modification).
+Pre-specify the few interactions you test, and test the interaction itself.
 
 Timing: 2 minutes.
 :::
@@ -1981,17 +1653,9 @@ Timing: 2 minutes.
 :::
 
 ::: {.notes}
-Extra: Teaching point: put both running-example papers side by side.
+Extra. Find the null first: 0 for differences (Paper 1 crosses it), 1 for ratios (Paper 2 day 2 is above it).
 
-Left, Paper 1 (mean difference, null = 0): 13.2 ml/kg (95% CI -15.2 to 41.6). The interval crosses 0: no statistically significant difference, and very imprecise.
-
-Right, Paper 2, day-2 cohort (ratio, null = 1): HR 2.13 (95% CI 1.48 to 3.06), p \< 0.001. The whole interval is above 1: positive fluid balance by day 2 was associated with higher 28-day mortality.
-
-Note the ratio scale is drawn on a log scale: HR 0.5 (halving) and HR 2 (doubling) are equally far from 1. That is why forest plots of ratios look symmetric around 1.
-
-Rule: CI excludes the null value means p \< 0.05 (for a 95% CI and a two-sided test), and vice versa. The CI tells you everything the p-value does, plus the size and precision.
-
-Ask: if a CI for an HR were 0.95 to 1.40, significant or not? Expected: not significant, it includes 1.
+A CI that excludes the null means p \< 0.05, and the CI also gives size and precision.
 :::
 
 ## Extra: Prediction models: discrimination and calibration
@@ -2003,17 +1667,9 @@ Ask: if a CI for an HR were 0.95 to 1.40, significant or not? Expected: not sign
 :::
 
 ::: {.notes}
-Extra: Teaching point: so far, models explained (is fluid associated with death, adjusted for confounders?). Prediction models predict an individual's risk (SOFA, APACHE, sepsis early-warning alerts, machine-learning scores). They are judged differently.
+Extra. Prediction models are judged by discrimination (AUC), calibration and external validation. A high AUC alone is not enough.
 
-Discrimination (left): does the model give higher risks to patients who die than to those who survive? Measured by the c-statistic (= area under the ROC curve, AUC): 0.5 is a coin toss, 1.0 perfect, here about 0.89 (simulated).
-
-Calibration (middle): when the model predicts 30%, do about 30% die? Points on the diagonal line = well calibrated.
-
-External validation (right): the same model in a new hospital over-predicts risk (points below the line). Case mix, treatments and measurement differ. A model must be tested on patients who were not used to build it, ideally elsewhere, before anyone uses it.
-
-A high AUC alone is not enough: a model can rank patients well and still give wrong absolute risks.
-
-Ask: a vendor says its sepsis alert has an AUC of 0.92 'in our development data'. What do you ask? Expected: calibration, and external validation in a setting like ours.
+Ask: a vendor quotes AUC 0.92 in its own data. What do you ask?
 
 Timing: 2 minutes.
 :::
@@ -2060,19 +1716,9 @@ Machine learning (ML) is a flexible way to build prediction models. The same que
 :::
 
 ::: {.notes}
-Extra: Teaching point: machine learning (ML) and AI tools are prediction models built with flexible algorithms (random forests, neural networks). Judge them with four questions.
+Extra. Machine learning is prediction. Four questions: what is it for, enough data, does it work (AUC, calibration, external validation), is it reported (TRIPOD+AI)?
 
-What is it for? Prediction answers 'who is at high risk?', not 'what causes death?'. A variable that predicts well (e.g. being in the ICU at night) need not be a cause. Ask which decision the prediction will change.
-
-Enough data? Flexible methods overfit easily. They need many more events than a regression model. Check how internal validation was done (cross-validation, bootstrapping, a held-out sample).
-
-Does it work? Discrimination (AUC, area under the ROC curve) and calibration, and above all external validation in a different time or place.
-
-Is it reported properly? TRIPOD+AI is the reporting guideline for prediction models, including AI (on EQUATOR, Sessions 7-8). Look for missing data handling, fairness across groups, and whether the model has been tested for impact on patient outcomes, not just accuracy.
-
-The optional Advanced Modules include building and validating prediction models.
-
-Ask: is an early-warning score with excellent accuracy but no impact study ready for routine use? Expected: not yet. Accuracy is not the same as benefit.
+Accuracy is not the same as benefit.
 
 Timing: 2 minutes.
 :::
@@ -2086,17 +1732,7 @@ Timing: 2 minutes.
 :::
 
 ::: {.notes}
-Extra: Teaching point: two common ways to handle gaps, shown as a picture. No formulas.
-
-Complete-case analysis (top): use only patients with no missing values in the variables analysed. Simple and the default in most software, but you lose patients (here 3 of 5 rows) and the answer is biased unless data are MCAR. With many variables, small gaps in each add up to large losses.
-
-Multiple imputation (bottom), the idea in three steps: 1. Fill each gap several times (here 5) with plausible values predicted from the other recorded variables, each time with a little random variation. 2. Analyse each completed dataset in the usual way. 3. Pool the results into one estimate whose CI includes the extra uncertainty from not knowing the missing values.
-
-Works well when data are MAR and the imputation model includes the variables that explain the missingness. It is not 'making up data': it is honest about what we do not know.
-
-Numbers are illustrative. In 6.4 you saw it run on the course dataset. Your job is to recognise it and ask whether it was appropriate.
-
-Ask: a paper excludes 30% of patients for missing data and does a complete-case analysis only. What do you ask? Expected: who was excluded, were they different, and was there a sensitivity analysis with imputation?
+Extra. Complete case: simple, loses patients, biased unless MCAR. Multiple imputation: fill each gap several times, analyse each, pool. It is honest about what we do not know.
 
 Timing: 2 minutes.
 :::
@@ -2141,17 +1777,7 @@ Four things a reviewer will look for. MI = multiple imputation.
 :::
 
 ::: {.notes}
-Extra: Teaching point: what a good paper (and your proposal) says about missing data.
-
-Report: the number of missing values for each variable (Table 1 'n' column or a footnote) and, for the outcome, a flow diagram showing who was lost and why (CONSORT, STROBE, Sessions 7-8).
-
-Compare: patients with complete data against those with gaps on baseline characteristics. Big differences suggest the gaps are not random.
-
-Sensitivity analysis: repeat the main analysis in a different way: complete-case vs multiple imputation. For a missing binary outcome, a best case (all missing survived) and worst case (all missing died). If the conclusion holds in all versions, it is robust. If it flips, say so.
-
-Plan: all of this goes in the SAP and in Part 3 of your proposal: expected missingness, prevention (5.1), and how missing data will be reported.
-
-Ask: Paper 1 analysed 48 of 50 randomised patients. Two control patients withdrew. Is that a problem? Expected: small loss (4%), reported transparently. A sensitivity analysis would still be good practice.
+Extra. What a reviewer looks for: missing values reported per variable, patients with and without complete data compared, a sensitivity analysis, and a plan written in advance.
 
 Timing: 2 minutes.
 :::

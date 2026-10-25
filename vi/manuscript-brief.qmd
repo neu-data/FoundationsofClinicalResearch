@@ -2,136 +2,135 @@
 title: "Hướng dẫn bản thảo"
 ---
 
+*Gửi qua email vào cuối Buổi 6.*
+
 Tải về: [Word](files/assignments/Manuscript_Brief_VN.docx) · [PDF](files/assignments/Manuscript_Brief_VN.pdf) · [Quay lại trang bài tập lớn](assignments.qmd)
 
 ## Nền tảng Nghiên cứu Lâm sàng · Cấp độ 1: Từ câu hỏi lâm sàng đến công bố
 
 **Tổ chức:** Neudata (*#ClearDataClearImpact*)
-**Hình thức đánh giá:** bài tập cá nhân. Cả lớp cùng đọc kết quả ở Buổi 5 và 6, giảng viên làm mẫu phần viết trực tiếp ở Buổi 7 và 8 và bạn viết ở nhà, bình duyệt chéo trong 2 tuần sau Buổi 8.
-**Ai làm:** mỗi học viên viết bản thảo của riêng mình. Bạn chọn **một** trong năm câu hỏi FLUID-ICU (Q1 đến Q5). Không làm theo nhóm.
-**Chúng tôi cung cấp:** kết quả. Mỗi câu hỏi có một gói kết quả phân tích với đầy đủ bảng, hình và số liệu bạn cần. Bạn không phân tích dữ liệu: bạn viết bài báo.
-**Sản phẩm:** một bài báo nghiên cứu gốc theo hướng dẫn STROBE, dài khoảng **2,000 từ**, một bản bình duyệt bản thảo của một bạn cùng lớp, và một thư phản hồi ý kiến phản biện
-**Chấm theo:** `manuscript_rubric_VN.md` (mang tính hình thành); bình duyệt theo `peer_review_instructions_VN.md`
+**Ai làm:** mỗi học viên tự làm. Không làm theo nhóm.
+**Bắt buộc:** một **phần Kết quả** hoàn chỉnh, sẵn sàng để nộp tạp chí, cho một câu hỏi FLUID-ICU (Q1 đến Q5), kèm tên bài dự kiến, Bảng 1 và một bảng hoặc hình kết quả chính.
+**Không bắt buộc:** Phương pháp, Đặt vấn đề, Bàn luận và Tóm tắt. Giảng viên cũng nhận xét các phần này.
+**Chúng tôi cung cấp:** kết quả. Bạn không phải phân tích dữ liệu.
+**Thời điểm gửi hướng dẫn này:** cuối Buổi 6, khi bạn chọn câu hỏi.
+**Chấm theo:** `Manuscript_Rubric_VN.pdf` (mang tính hình thành). Bình duyệt: `Peer_Review_Instructions_VN.pdf`.
 
 
 * * *
 
 ## 1. Mục đích
 
-Trong đề cương, bạn lập kế hoạch cho một nghiên cứu chưa được thực hiện. Trong bài tập này, bạn làm nửa còn lại của hành trình nghiên cứu: bạn lấy kết quả của một nghiên cứu **đã** được thực hiện và biến chúng thành một bài báo mà tạp chí có thể xem xét. Bạn sẽ thực hành mọi thứ từ Buổi 5 đến Buổi 8: đọc Bảng 1 và kết quả hồi quy, viết phần Phương pháp và Kết quả, dùng ngôn ngữ chừng mực trong phần Bàn luận, viết tóm tắt và tên bài, dùng bảng kiểm báo cáo, bình duyệt và phản hồi ý kiến phản biện.
+Trong đề cương, bạn lập kế hoạch cho một nghiên cứu chưa được thực hiện. Ở đây bạn báo cáo một nghiên cứu đã được thực hiện. Bạn viết phần Kết quả của một bài báo FLUID-ICU theo đúng chuẩn tạp chí yêu cầu: mọi số liệu đều đúng, mọi ước lượng đều kèm KTC 95%, bảng tự đọc hiểu được và không diễn giải. Nếu có thời gian, bạn có thể viết thêm các phần khác.
 
-Không ai cần chạy phần mềm. Giảng viên chạy phân tích trực tiếp bằng R ở Buổi 5 và 6, và mỗi câu hỏi có một **gói kết quả phân tích** với đầy đủ số liệu, bảng và hình bạn cần. Học viên đã hoàn thành khóa học miễn phí của Neudata *Clinical Data Analysis in R* có thể tự chạy lại phân tích bằng các script trong `Course/Data/`, nhưng việc này không bắt buộc.
-
-> **Quan trọng: dữ liệu mô phỏng.** FLUID-ICU là **bộ dữ liệu mô phỏng dùng cho đào tạo**. Bản thảo của bạn là một bài tập đào tạo. Hãy nêu rõ điều này trong phần Phương pháp và ở trang tên bài ("Bản thảo này sử dụng dữ liệu mô phỏng tạo ra cho mục đích đào tạo; không báo cáo người bệnh thật nào"), và không bao giờ nộp bản thảo cho tạp chí hoặc trình bày như một nghiên cứu thật.
+> **Dữ liệu mô phỏng.** FLUID-ICU là bộ dữ liệu mô phỏng dùng cho đào tạo. Ghi câu sau ngay dưới tên bài: "Bản thảo này sử dụng dữ liệu mô phỏng tạo ra cho mục đích đào tạo. Bản thảo không báo cáo người bệnh thật nào." Không bao giờ nộp bản thảo này cho tạp chí.
 
 
 * * *
 
-## 2. Bộ dữ liệu của khóa học: FLUID-ICU
+## 2. Chọn một câu hỏi (cuối Buổi 6)
 
-Một nghiên cứu thuần tập tiến cứu đa trung tâm mô phỏng trên khoảng **600 người lớn bị nhiễm khuẩn huyết** nhập 4 ICU. Bộ dữ liệu gồm thông tin nhân khẩu học, bệnh kèm theo (đái tháo đường, bệnh thận mạn, suy tim, tăng huyết áp), ổ nhiễm khuẩn, mức độ nặng (SOFA, APACHE II), lactat, huyết áp động mạch trung bình, thuốc vận mạch, thở máy, lượng dịch vào và ra hằng ngày ở ngày 1 đến 3, cân nặng, cân bằng dịch tích lũy ở ngày 3 (ml/kg) và cân bằng dịch dương (có/không), tổn thương thận cấp (KDIGO), điều trị thay thế thận, số ngày không thở máy, thời gian nằm ICU và tử vong 28 ngày kèm thời gian đến khi tử vong hoặc bị kiểm duyệt.
+Cả lớp cùng làm năm câu hỏi ở Buổi 5 và 6 (Q1 làm đầy đủ). Đến cuối Buổi 6, hãy chọn một câu hỏi và báo cho trưởng khóa học trong khung chat hoặc qua email. Nhiều học viên có thể chọn cùng một câu hỏi. Q1 được làm mẫu trực tiếp ở Buổi 7 nên dễ bắt đầu nhất.
 
-Những gì bạn sẽ tìm thấy trong `Course/Data/` (trong thư mục khóa học trực tuyến): dữ liệu thô và dữ liệu sạch, từ điển dữ liệu, **nhật ký làm sạch dữ liệu**, kế hoạch phân tích thống kê (viết trước khi phân tích), các script R, và mỗi câu hỏi một gói kết quả phân tích.
-
-
-* * *
-
-## 3. Năm câu hỏi: chọn một
-
-Năm câu hỏi được giới thiệu ở Buổi 5. Trên lớp, giảng viên cùng cả lớp làm lần lượt các câu hỏi: Q1 đầy đủ, Q2 đến Q5 dưới dạng ví dụ ngắn hơn. **Đến cuối Buổi 6, hãy chọn một câu hỏi cho bản thảo của bạn** và báo cho trưởng khóa học (qua email hoặc biểu mẫu chia sẻ trong khung chat). Mỗi câu hỏi có thể được bao nhiêu học viên chọn cũng được. Q1 được làm đầy đủ trên lớp nên dễ bắt đầu nhất; Q2 đến Q5 khó hơn một chút.
-
-| Q | Câu hỏi nghiên cứu | Phơi nhiễm | Kết cục | Phân tích chính trong gói kết quả |
-|---|---|---|---|---|
-| **Q1** | Cân bằng dịch dương đến ngày 3 có liên quan với tử vong 28 ngày cao hơn không? (câu hỏi chính) | Cân bằng dịch tích lũy dương đến ngày 3 (có/không) | Tử vong 28 ngày | Hồi quy logistic thô và đã hiệu chỉnh (OR); đường cong Kaplan-Meier và mô hình Cox (HR) |
-| **Q2** | Cân bằng dịch tích lũy có liên quan với tổn thương thận cấp không? | Cân bằng dịch tích lũy ở ngày 3 (ml/kg) | Tổn thương thận cấp (KDIGO) | Hồi quy logistic thô và đã hiệu chỉnh |
-| **Q3** | Cân bằng dịch tích lũy có liên quan với số ngày không thở máy ít hơn không? | Cân bằng dịch tích lũy ở ngày 3 (ml/kg) | Số ngày không thở máy đến ngày 28 | Hồi quy tuyến tính và một phép so sánh phi tham số |
-| **Q4** | Lactat ban đầu có liên quan với tử vong 28 ngày không, và câu trả lời có thay đổi theo cách xử lý lactat bị thiếu không? | Lactat ban đầu (mmol/l) | Tử vong 28 ngày | Hồi quy logistic; phân tích các trường hợp đầy đủ so với quy gán đa bội |
-| **Q5** | Ở người sống sót, cân bằng dịch có liên quan với thời gian nằm ICU dài hơn không? | Cân bằng dịch tích lũy ở ngày 3 (ml/kg) | Thời gian nằm ICU ở người sống sót | Trung vị (IQR); hồi quy tuyến tính trên thang logarit hoặc kiểm định phi tham số |
-
-Gói kết quả của bạn là `Course/Data/results_packs/QN/results_pack_QN.md`, trong đó N là số thứ tự câu hỏi của bạn (ví dụ `results_packs/Q4/results_pack_Q4.md`). Mỗi gói kết quả gồm Bảng 1, các hình, bảng hồi quy và ghi chú bằng ngôn ngữ đơn giản. **Chỉ dùng số liệu trong gói kết quả của bạn.** Nếu thiếu thông tin cần thiết, hãy hỏi giảng viên thay vì tự ước tính.
-
-
-* * *
-
-## 4. Viết gì, và khi nào
-
-Dùng mẫu Word **`Course/Templates/Manuscript_Template_IMRaD_VN.docx`** (bản tiếng Anh: `Manuscript_Template_IMRaD.docx`) và theo bảng kiểm **STROBE** cho nghiên cứu thuần tập.
-
-| Bước | Khi nào | Bạn làm gì | Sản phẩm |
-|---|---|---|---|
-| 1. Hiểu dữ liệu | **Buổi 5** (5.2, 5.4) | Cùng cả lớp: đọc từ điển dữ liệu, nhật ký làm sạch, Bảng 1 và các hình trong gói kết quả Q1 | Ghi chú: ai có trong nghiên cứu thuần tập, các biến được định nghĩa thế nào, những gì đã được làm sạch |
-| 2. Diễn giải kết quả và chọn câu hỏi | **Buổi 6** (6.2, 6.4), sau đó làm ở nhà | Cùng cả lớp: đọc các phép so sánh, kết quả hồi quy và Kaplan-Meier/Cox, ước lượng thô so với đã hiệu chỉnh và phân tích độ nhạy về dữ liệu thiếu. Sau buổi học: chọn câu hỏi và đọc gói kết quả của câu hỏi đó | Danh sách "số liệu chính" cho câu hỏi của bạn: tác động chính kèm KTC 95%, cộng 3 đến 5 kết quả hỗ trợ |
-| 3. Phương pháp + Kết quả | **Buổi 7** (hội thảo viết bản thảo 1: giảng viên viết nháp Q1 trực tiếp cùng cả lớp), sau đó làm ở nhà | Viết nháp phần Phương pháp (thiết kế, bối cảnh, người tham gia, biến số, nguồn dữ liệu, sai lệch, phương pháp thống kê kể cả dữ liệu thiếu) và phần Kết quả (người tham gia trước, sau đó kết quả mô tả, phân tích chính và các phân tích khác) cho câu hỏi của bạn | Bản nháp đầu khoảng 600 từ (độ dài cuối cùng: Phương pháp khoảng 550, Kết quả khoảng 450; xem bảng dưới) + Bảng 1 + một bảng hoặc hình khác |
-| 4. Đặt vấn đề, Bàn luận, Tóm tắt, Tên bài | **Buổi 8** (hội thảo viết bản thảo 2: làm mẫu trực tiếp trên Q1), sau đó làm ở nhà | Viết phần Đặt vấn đề (hình phễu), phần Bàn luận (sáu bước, ngôn ngữ chừng mực), tóm tắt có cấu trúc và tên bài | **Bản nháp hoàn chỉnh** |
-| 5. Hoàn thiện và nộp | **Trước 23:59 ngày học Buổi 8** | Điền bảng kiểm STROBE kèm số trang, kiểm tra số liệu, thêm câu công khai sử dụng AI, nộp bài | Bản thảo nháp |
-| 6. Bình duyệt | **Trong vòng 1 tuần sau Buổi 8** | Bình duyệt bản thảo của một bạn cùng lớp do giảng viên gửi cho bạn (`peer_review_instructions_VN.md`) | Bản nhận xét bình duyệt |
-| 7. Phản hồi và chỉnh sửa | **Trong vòng 2 tuần sau Buổi 8** | Trả lời từng ý trong bản bình duyệt bạn nhận được và sửa bản thảo | Thư phản hồi + bản thảo đã sửa |
-
-### Độ dài và định dạng
-
-| Phần | Mục tiêu | Ghi chú |
+| Q | Câu hỏi nghiên cứu | Phân tích chính trong gói kết quả |
 |---|---|---|
-| Trang tên bài | Không giới hạn | Tên bài, tên bạn là tác giả, tuyên bố vai trò CRediT, số từ, câu nêu dữ liệu mô phỏng, lời cảm ơn khóa học |
-| Tóm tắt có cấu trúc | Không quá 250 từ | Đặt vấn đề, Phương pháp, Kết quả (tác động chính kèm KTC 95%), Kết luận |
-| Đặt vấn đề | khoảng 350 từ | Ba đoạn: điều đã biết, rồi điều chưa biết, rồi mục tiêu |
-| Phương pháp | khoảng 550 từ | Mục 4 đến 12 của STROBE; gồm đoạn phân tích thống kê và cách xử lý dữ liệu thiếu |
-| Kết quả | khoảng 450 từ | Người tham gia trước; số liệu kèm mẫu số và KTC 95%; không diễn giải |
-| Bàn luận | khoảng 650 từ | Theo thứ tự: phát hiện chính, so sánh với y văn (kể cả Bài báo 2, Hyun 2023, trong `Course/Papers/`), các giải thích có thể, điểm mạnh và hạn chế, ý nghĩa, kết luận |
-| **Tổng phần chính** | **khoảng 2,000 từ** | Từ Đặt vấn đề đến Bàn luận (cộng trừ 10%); không tính tóm tắt, bảng và tài liệu tham khảo |
-| Bảng và hình | Bảng 1 + tối đa 2 bảng/hình khác | Mỗi bảng/hình phải tự đọc hiểu được (tên, đơn vị, n, giải thích chữ viết tắt) |
-| Tài liệu tham khảo | 10 đến 20 | Kiểu Vancouver, quản lý bằng Zotero hoặc phần mềm quản lý tài liệu tham khảo khác |
-| Bảng kiểm STROBE | Điền đầy đủ | Ghi số trang cho từng mục, hoặc "không áp dụng" |
+| **Q1** | Cân bằng dịch dương đến ngày 3 có liên quan với tử vong 28 ngày cao hơn không? | Hồi quy logistic thô và đã hiệu chỉnh (OR), đường cong Kaplan-Meier và mô hình Cox (HR) |
+| **Q2** | Cân bằng dịch tích lũy có liên quan với tổn thương thận cấp (AKI) không? | Hồi quy logistic thô và đã hiệu chỉnh |
+| **Q3** | Cân bằng dịch tích lũy có liên quan với số ngày không thở máy ít hơn không? | Hồi quy tuyến tính và một phép so sánh phi tham số |
+| **Q4** | Lactat ban đầu có liên quan với tử vong 28 ngày không, và câu trả lời có thay đổi theo cách xử lý lactat bị thiếu không? | Hồi quy logistic, phân tích các trường hợp đầy đủ so với quy gán đa bội |
+| **Q5** | Ở người sống sót, cân bằng dịch có liên quan với thời gian nằm ICU dài hơn không? | Trung vị (IQR), hồi quy tuyến tính trên thang logarit hoặc kiểm định phi tham số |
 
 
 * * *
 
-## 5. Quyền tác giả và lời cảm ơn
+## 3. Bạn nhận được gì (qua email)
 
-Bạn là tác giả duy nhất của bản thảo. Dùng bản thảo để thực hành các ý về quyền tác giả ở Buổi 7 (tiêu chí ICMJE và vai trò CRediT):
+| Tệp | Dùng để làm gì |
+|---|---|
+| `Results_Pack_QN_VN.pdf` (N = số câu hỏi của bạn) | Toàn bộ số liệu: lưu đồ người tham gia, Bảng 1, các bảng kết quả, các hình, ghi chú bằng ngôn ngữ đơn giản |
+| `Manuscript_Template_IMRaD_VN.docx` | Viết bài trong mẫu này. Phần Kết quả được đánh dấu là bắt buộc |
+| `SAP_FLUID-ICU_VN.pdf` và `Data_Dictionary_VN.pdf` | Định nghĩa biến và phương pháp phân tích, cho phần Phương pháp (không bắt buộc) |
+| `Response_to_Reviewers_Template_VN.docx` | Để trả lời người bình duyệt |
 
-- **Tuyên bố CRediT:** liệt kê vai trò của bạn và của những người đã tạo ra dữ liệu và phân tích, ví dụ "Lên ý tưởng, viết bản thảo (bản đầu tiên), viết bản thảo (rà soát và chỉnh sửa): [tên bạn]. Quản lý dữ liệu, phân tích: giảng viên khóa học."
-- **Lời cảm ơn:** giảng viên khóa học đã tạo bộ dữ liệu và chạy phân tích. Họ được cảm ơn, không được ghi là tác giả, ví dụ "Bộ dữ liệu mô phỏng FLUID-ICU và phân tích do khóa học *Foundations of Clinical Research, Level 1* của Neudata cung cấp. Chúng tôi cảm ơn [tên bạn cùng lớp đã bình duyệt bản nháp] đã bình duyệt."
+Chỉ dùng số liệu trong gói kết quả của bạn. Nếu thiếu thông tin, hãy hỏi giảng viên.
 
-Bạn có thể trao đổi kết quả với bạn cùng lớp, nhưng văn bản phải là của chính bạn.
+
+* * *
+
+## 4. Bạn viết gì
+
+### Bắt buộc
+
+| Phần | Yêu cầu |
+|---|---|
+| Tên bài dự kiến | Một dòng, nêu đối tượng, phơi nhiễm, kết cục và thiết kế, ví dụ "Cân bằng dịch dương đến ngày 3 và tử vong 28 ngày ở người bệnh nhiễm khuẩn huyết: một nghiên cứu thuần tập đa trung tâm" |
+| Nội dung phần Kết quả | Mục 13 đến 17 của STROBE, theo thứ tự: (1) người tham gia và lưu đồ, (2) đặc điểm ban đầu (Bảng 1) và dữ liệu thiếu, (3) số kết cục ở mỗi nhóm, (4) kết quả chính, thô và đã hiệu chỉnh, kèm KTC 95%, (5) các phân tích khác trong gói kết quả (phân tích độ nhạy, quy gán hoặc phân nhóm). Khoảng 400 đến 600 từ |
+| Bảng 1 | Đặc điểm ban đầu theo nhóm phơi nhiễm, lấy từ gói kết quả |
+| Một bảng hoặc hình kết quả chính | Ví dụ ước lượng thô và đã hiệu chỉnh, hoặc đường cong Kaplan-Meier (Q1) |
+| Hai câu tuyên bố | Câu về dữ liệu mô phỏng (mục 1) và câu công khai sử dụng AI (mục 6) |
+
+**Sẵn sàng để nộp** nghĩa là:
+- mọi số liệu khớp với gói kết quả
+- tỷ lệ phần trăm có mẫu số, ước lượng có KTC 95%
+- mỗi bảng và hình tự đọc hiểu được (tên, đơn vị, n, giải thích chữ viết tắt)
+- không diễn giải ("vì", "gợi ý rằng", "có xu hướng có ý nghĩa")
+- viết trong mẫu, ở thì quá khứ
+
+### Không bắt buộc (khuyến khích)
+
+| Phần | Ghi chú |
+|---|---|
+| Phương pháp | Mục 4 đến 12 của STROBE. Mọi thông tin có trong gói kết quả, SAP và từ điển dữ liệu. Giới thiệu ở Buổi 7 |
+| Đặt vấn đề | Ba đoạn: điều đã biết, điều chưa biết, mục tiêu. Buổi 8 |
+| Bàn luận | Sáu bước: trả lời, so sánh, giải thích, hạn chế, ý nghĩa, kết luận. Buổi 8 |
+| Tóm tắt | Có cấu trúc, không quá 250 từ. Buổi 8 |
+
+Gửi các phần không bắt buộc trong cùng tệp với phần Kết quả. Các phần này không tính điểm, nhưng bạn sẽ nhận được nhận xét viết.
+
+
+* * *
+
+## 5. Tiến độ
+
+| Khi nào | Việc gì |
+|---|---|
+| Buổi 5 và 6 | Cả lớp cùng đọc dữ liệu, Bảng 1 và các kết quả |
+| Cuối Buổi 6 (5/12) | Bạn chọn câu hỏi và nhận hướng dẫn này |
+| Buổi 7 (12/12) | Hội thảo viết bản thảo 1: giảng viên viết trực tiếp phần Kết quả của Q1 cùng cả lớp, sau đó bạn bắt đầu viết bài của mình. **Công bố người bình duyệt của bạn** |
+| Buổi 8 (19/12) | Hội thảo viết bản thảo 2: hoàn thiện phần Kết quả, và giới thiệu các phần không bắt buộc |
+| **23:59, thứ Bảy 19/12/2026** | Hạn nộp bản nháp phần Kết quả. Gửi email cho người bình duyệt của bạn và cho trưởng khóa học |
+| **Thứ Bảy 2/1/2027** (2 tuần sau Buổi 8) | Hạn nộp bản nhận xét bình duyệt. Gửi email cho tác giả và cho trưởng khóa học |
+| **Thứ Bảy 30/1/2027** (4 tuần sau khi nhận bản bình duyệt) | Hạn nộp phần Kết quả đã sửa và thư phản hồi người bình duyệt |
 
 
 * * *
 
 ## 6. Quy định
 
-- **Số liệu:** chỉ báo cáo số liệu trong gói kết quả của bạn (hoặc từ lần bạn tự chạy lại bằng script của khóa học, nếu có, và ghi rõ điều đó). Không bao giờ làm tròn theo cách làm thay đổi ý nghĩa. Mỗi ước lượng chính phải kèm KTC 95%.
-- **Ngôn ngữ:** FLUID-ICU là nghiên cứu quan sát. Viết "có liên quan với", không viết "gây ra" hay "dẫn đến". Không viết "có xu hướng có ý nghĩa".
-- **Dữ liệu thiếu:** nêu thiếu bao nhiêu và được xử lý thế nào, như trong gói kết quả của bạn.
-- **Tính nguyên bản:** viết bằng lời của bạn và trích dẫn mọi nguồn. Hạn chế trích nguyên văn và luôn dùng dấu ngoặc kép khi trích. Hai học viên chọn cùng một câu hỏi sẽ có cùng số liệu, nhưng văn bản phải là của riêng mỗi người.
-- **Câu công khai sử dụng AI (bắt buộc):** ở cuối bản thảo, thêm một trong các câu sau:
-  - "Sử dụng AI: không."
-  - "Sử dụng AI: [tên công cụ] được dùng để [cải thiện tiếng Anh / dịch bản nháp / gợi ý cách diễn đạt]. Tác giả đã kiểm tra từng câu và từng tài liệu tham khảo và chịu hoàn toàn trách nhiệm về nội dung."
-
-  **Không** được dùng công cụ AI để tạo kết quả, bịa hoặc tìm tài liệu tham khảo mà bạn chưa đọc, hay viết phần diễn giải thay bạn. Công cụ AI không thể là tác giả. Khi bình duyệt bản thảo của bạn cùng lớp, **không dán bản thảo vào công cụ AI**. Bản thảo đó là thông tin bảo mật.
+- **Số liệu:** chỉ lấy từ gói kết quả của bạn. Làm tròn không được làm thay đổi ý nghĩa.
+- **Ngôn ngữ:** FLUID-ICU là nghiên cứu quan sát. Viết "có liên quan với", không bao giờ viết "gây ra" hay "dẫn đến".
+- **Dữ liệu thiếu:** nêu thiếu bao nhiêu, như trong gói kết quả.
+- **Tính nguyên bản:** viết bằng lời của bạn. Hai học viên cùng câu hỏi có cùng số liệu nhưng không được có cùng văn bản.
+- **Câu công khai sử dụng AI (bắt buộc):** ở cuối bài, viết "Sử dụng AI: không." hoặc "Sử dụng AI: [công cụ] được dùng để [cải thiện tiếng Anh / dịch]. Tác giả đã kiểm tra từng câu và chịu hoàn toàn trách nhiệm." AI không được tạo kết quả hay viết bài thay bạn. Không bao giờ dán bản nháp của bạn cùng lớp vào công cụ AI.
 
 
 * * *
 
 ## 7. Nộp bài và tên tệp
 
-Viết bản thảo, bản bình duyệt và thư phản hồi bằng tiếng Anh. Nếu bạn thấy không thể viết bằng tiếng Anh, bạn được viết bằng tiếng Việt.
+Viết bằng tiếng Anh. Nếu bạn thấy không thể viết bằng tiếng Anh, bạn được viết bằng tiếng Việt. Gửi mọi tệp qua email cho trưởng khóa học, Vương Mỹ Lượng, địa chỉ **myluong1710@gmail.com**.
 
-Gửi tất cả cho trưởng khóa học qua email (hoặc tải lên thư mục khóa học trực tuyến):
-
-| Tệp | Hạn nộp |
-|---|---|
-| `Surname_Manuscript_QN_draft.docx` (bản nháp + bảng kiểm STROBE đã điền làm phụ lục) | 23:59 ngày học Buổi 8 |
-| `Surname_Review_of_[author's surname].docx` (bản nhận xét bình duyệt) | 1 tuần sau Buổi 8 |
-| `Surname_Manuscript_QN_revised.docx` (có theo dõi thay đổi) và `Surname_Response_to_Reviewers.docx` (dùng `Course/Templates/Response_to_Reviewers_Template_VN.docx`) | 2 tuần sau Buổi 8 |
-
-Trong vòng 2 ngày sau Buổi 8, trưởng khóa học gửi cho mỗi học viên bản nháp của **một** bạn cùng lớp để bình duyệt, qua email hoặc qua thư mục khóa học. Mỗi học viên bình duyệt một bản nháp và nhận một bản bình duyệt. Khi có thể, giảng viên ghép các bản nháp khác câu hỏi với câu hỏi của bạn, để bạn đọc kỹ thêm một câu hỏi nữa.
+| Tệp | Gửi cho | Hạn nộp |
+|---|---|---|
+| `Surname_Firstname_Results_QN.docx`, ví dụ `Nguyen_An_Results_Q2.docx` | Người bình duyệt của bạn và trưởng khóa học | 23:59, 19/12/2026 |
+| `Surname_Firstname_Review.docx` (bản bình duyệt bài của bạn cùng lớp) | Tác giả và trưởng khóa học | 2/1/2027 |
+| `Surname_Firstname_Results_QN_revised.docx` (có theo dõi thay đổi) và `Surname_Firstname_Response.docx` | Trưởng khóa học | 30/1/2027 |
 
 
 * * *
 
 ## 8. Nhận xét
 
-- Nhận xét cho bản thảo đến từ bạn cùng lớp bình duyệt bản nháp của bạn (`peer_review_instructions_VN.md`) và từ giảng viên.
-- Giảng viên chấm bản thảo đã sửa và thư phản hồi theo `manuscript_rubric_VN.md` và gửi lại nhận xét viết trong khoảng 3 tuần. Nếu bạn không gửi bản sửa, bản nháp sẽ được chấm.
+- Bạn nhận một bản bình duyệt từ bạn cùng lớp, và nhận xét viết của giảng viên về phần Kết quả đã sửa (hoặc bản nháp, nếu không có bản sửa) và về các phần không bắt buộc bạn gửi.
 - **Điểm mang tính hình thành.**
 

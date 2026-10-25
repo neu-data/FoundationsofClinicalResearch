@@ -26,7 +26,7 @@ Clinical staff make decisions every day that research could improve, but few hav
 
 - **Slow and visual.** Built for participants with no research background: pictures first, a "check your understanding" every 20 minutes, no formulas beyond a 2×2 table, and extra slides at the end of each session for anyone who wants to read further at home.
 - **Online, one class.** You join from home. There are no groups or breakout rooms: every exercise is done by the whole class together, with polls and the chat.
-- **The whole road in one course.** Weeks 1–4 build understanding and design skills; Weeks 5–8 read the results of a realistic simulated dataset (FLUID-ICU, 620 ICU patients) through live instructor demos in R, and each participant writes them up as a manuscript.
+- **The whole road in one course.** Weeks 1–4 build understanding and design skills; Weeks 5–8 read the results of a realistic simulated dataset (FLUID-ICU, 620 ICU patients) through live instructor demos in R, and each participant writes the Results section of a paper from them.
 - **Level 1 of three.** This course is Level 1. Level 2 is a separate hands-on course in R for those who want to run analyses themselves (in preparation). Level 3 covers advanced, specialised methods on request. See [Course levels](levels.qmd).
 - **One running example:** fluids in septic shock. The example is followed through question and search, design, analysis, write-up and publication, and appraised through two real papers.
 
@@ -40,15 +40,15 @@ Clinical staff make decisions every day that research could improve, but few hav
 | 4 | [Session 4 · Bias & effect: can we trust it, how big is it?](session4.qmd) |
 | 5 | [Session 5 · Data: collect it well, describe it honestly](session5.qmd) |
 | 6 | [Session 6 · Analyse: from sample to answer](session6.qmd) |
-| 7 | [Session 7 · Protect & write: ethics, integrity, Methods and Results](session7.qmd) |
-| 8 | [Session 8 · Publish: finish the paper, get it out, present](session8.qmd) |
+| 7 | [Session 7 · Protect & write: ethics, integrity and the Results section](session7.qmd) |
+| 8 | [Session 8 · Publish: polish your Results, get it out, present](session8.qmd) |
 
 [See the full schedule](schedule.qmd)
 
 ## Two individual products
 
 ```{=html}
-<div class="cards2"><div><h4>1 · A research proposal</h4><p>On your <strong>own clinical question</strong> from your department, with a publication plan. Each part is shown live on the running example and you write your own as homework. Everyone <strong>submits it in Session 8</strong>; about 5 volunteers also present it (6 minutes + 2 minutes feedback).</p></div><div><h4>2 · A draft manuscript</h4><p>From the course dataset <strong>FLUID-ICU</strong>: you choose one of the five questions (Q1 to Q5). We give you the results in a results pack, and you write the paper: Methods and Results after Session 7, the rest after Session 8. After the course, you <strong>peer review</strong> one classmate's draft and reply to the review of yours like a real author.</p></div></div>
+<div class="cards2"><div><h4>1 · A research proposal</h4><p>On your <strong>own clinical question</strong> from your department, with a publication plan. Each part is shown live on the running example and you write your own as homework. Everyone <strong>submits it in Session 8</strong>; about 5 volunteers also present it (6 minutes + 2 minutes feedback).</p></div><div><h4>2 · A Results section</h4><p>From the course dataset <strong>FLUID-ICU</strong>: at the end of Session 6 you choose one of the five questions (Q1 to Q5). We give you the results pack, and you write a <strong>submission-ready Results section</strong> with a working title, Table 1 and a main table or figure. The other sections are optional. It is due by 23:59 on the day of Session 8. A classmate <strong>peer reviews</strong> it (by 2 January 2027), and you send your revision and response by 30 January 2027.</p></div></div>
 ```
 
 ## Who it is for
@@ -58,8 +58,17 @@ Clinical staff make decisions every day that research could improve, but few hav
 ## How to start
 
 - Request your free [access code](access.qmd) (once per browser).
-- Read the [participant handbook](handbook.qmd) and look at the [schedule](schedule.qmd).
-- Each [session page](session1.qmd) has the agenda, the slides, the exercise sheet and what to prepare.
+- **Before Session 1, read the [proposal brief](proposal-brief.qmd).** It is the one document to read before the course. It comes by email with the proposal template, the presentation guide and the proposal rubric (table below).
+- Then see [Session 1](session1.qmd): the two papers, the exercise sheet and the online set-up. Look at the [schedule](schedule.qmd).
+- Each session page has the agenda, the slides, the exercise sheet and what to prepare.
+
+| | English | Tiếng Việt |
+|:----------------|:--------------|:--------------|
+| **[Proposal brief](proposal-brief.qmd)** | [Word](files/assignments/Proposal_Brief.docx) · [PDF](files/assignments/Proposal_Brief.pdf) | [Word](../vi/files/assignments/Proposal_Brief_VN.docx) · [PDF](../vi/files/assignments/Proposal_Brief_VN.pdf) |
+| **Proposal template** | [Word](files/templates/Research_Proposal_Template.docx) · [PDF](files/templates/Research_Proposal_Template.pdf) | [Word](../vi/files/templates/Research_Proposal_Template_VN.docx) · [PDF](../vi/files/templates/Research_Proposal_Template_VN.pdf) |
+| **[Presentation guide](presentation-guide.qmd)** | [Word](files/assignments/Presentation_Guide.docx) · [PDF](files/assignments/Presentation_Guide.pdf) | [Word](../vi/files/assignments/Presentation_Guide_VN.docx) · [PDF](../vi/files/assignments/Presentation_Guide_VN.pdf) |
+| **[Proposal rubric](proposal-rubric.qmd)** | [Word](files/assignments/Proposal_Rubric.docx) · [PDF](files/assignments/Proposal_Rubric.pdf) | [Word](../vi/files/assignments/Proposal_Rubric_VN.docx) · [PDF](../vi/files/assignments/Proposal_Rubric_VN.pdf) |
+
 
 ## Trainers
 

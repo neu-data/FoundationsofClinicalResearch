@@ -55,9 +55,9 @@ website:
           - href: session6.qmd
             text: "Buổi 6 · Phân tích: từ mẫu đến câu trả lời"
           - href: session7.qmd
-            text: "Buổi 7 · Bảo vệ & viết: đạo đức, liêm chính, Phương pháp và Kết quả"
+            text: "Buổi 7 · Bảo vệ & viết: đạo đức, liêm chính và phần Kết quả"
           - href: session8.qmd
-            text: "Buổi 8 · Công bố: hoàn thiện bài báo, gửi đăng, trình bày"
+            text: "Buổi 8 · Công bố: hoàn thiện phần Kết quả, gửi đăng, trình bày"
       - text: "Bộ dữ liệu"
         menu:
           - href: dataset.qmd
@@ -80,8 +80,6 @@ website:
             text: "Gói kết quả Q5"
       - text: "Tài liệu"
         menu:
-          - href: handbook.qmd
-            text: "Sổ tay học viên"
           - href: book.qmd
             text: "Sách"
           - href: templates.qmd
@@ -94,6 +92,8 @@ website:
             text: "Tài liệu đọc thêm"
           - href: papers.qmd
             text: "Hai bài báo"
+          - href: handbook.qmd
+            text: "Sổ tay học viên (tham khảo, không bắt buộc)"
           - href: downloads.qmd
             text: "Tất cả tệp tải xuống"
       - text: "Bài tập lớn"

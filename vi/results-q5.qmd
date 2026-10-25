@@ -22,7 +22,7 @@ Tải về: [Word](files/data/results_packs/Results_Pack_Q5_VN.docx) · [PDF](fi
 - Kết cục: thời gian nằm ICU tính bằng ngày (icu_los_days), phân phối lệch phải.
 - Mẫu phân tích: 439 người sống có cân bằng dịch ngày 3 (239 dương, 200 âm); mô hình hiệu chỉnh 366 trường hợp đầy đủ.
 - Các yếu tố gây nhiễu xác định trước (SAP): tuổi, điểm SOFA, lactat, thuốc vận mạch, thở máy, bệnh thận mạn.
-- Phần mềm: R 4.6 (các gói gtsummary, survival, mice). Script: Course/Data/R/.
+- Phần mềm: R 4.6 (các gói gtsummary, survival, mice). Script: FLUID-ICU/R/.
 
 ## 3. Bảng 1: đối tượng nghiên cứu
 

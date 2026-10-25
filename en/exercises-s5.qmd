@@ -8,7 +8,7 @@ title: "Session 5: Exercise sheet"
 
 Name: ______________________________   Department: ______________________________
 
-This sheet is sent by email before the session, as a Word file and as a PDF. Type your answers into the Word file (or print the PDF). In class we do Exercises 2, 6 and 7 together as a whole class (you answer in the chat or a poll; the instructor types the class answer on the shared screen). The other exercises are homework or self-check. No calculator is needed: every exercise is about *choosing* and *interpreting*. Exercises marked **[FLUID-ICU]** use the course dataset FLUID-ICU (simulated) and the results packs in `Course/Data/results_packs/` (Results_Pack_Q1 to Q5, also sent as PDFs). Exercise 8 becomes part of your own proposal (Part 3).
+Type your answers into this Word file or print the PDF. Exercises 2, 6 and 7 are done in class. **[FLUID-ICU]** exercises use the five results packs (`Results_Pack_Q1.pdf` to `Results_Pack_Q5.pdf`, sent by email). Exercise 8 is Part 3 of your own proposal.
 
 | # | Exercise | When | Time |
 |---|---|---|---|
@@ -18,7 +18,7 @@ This sheet is sent by email before the session, as a Word file and as a PDF. Typ
 | 4 | Judge a bad figure | homework | 5 min |
 | 5 | [FLUID-ICU] Spot the problems in the raw FLUID-ICU data | homework (after the 5.2 demo) | 5 min |
 | 6 | [FLUID-ICU] Read the FLUID-ICU Table 1 | 5.4 whole-class task | 10 min |
-| 7 | [FLUID-ICU] Your manuscript question as a PECO sentence | 5.2 whole-class task (Q1); later for the question you choose | 4 min |
+| 7 | [FLUID-ICU] A FLUID-ICU question as a PECO sentence | 5.2 whole-class task (Q1) | 4 min |
 | 8 | Proposal builder 5 worksheet (your own proposal) | proposal builder: instructor models, you draft; finish as homework | 30 min |
 
 
@@ -96,7 +96,7 @@ A second poster shows ward mortality as bars of 31% (Ward A) and 29% (Ward B), w
 
 ## Exercise 5: [FLUID-ICU] Spot the problems in the raw FLUID-ICU data
 
-Below are six cells copied from the raw file `Course/Data/fluid_icu_raw.csv` (as the four ICUs sent it). For each, say what is wrong and what the cleaning script should do.
+Below are six cells copied from the raw file `fluid_icu_raw.csv` (as the four ICUs sent it). For each, say what is wrong and what the cleaning script should do.
 
 | # | Column | Value in the raw file | What is wrong? | What should the script do? |
 |---|---|---|---|---|
@@ -114,7 +114,7 @@ Bonus: why must the raw file never be edited by hand? Name two things the cleani
 
 ## Exercise 6: [FLUID-ICU] Read the FLUID-ICU Table 1 (results pack)
 
-Open Table 1 (baseline characteristics by fluid-balance group) in any results pack: the same table is in all five (`Course/Data/results_packs/Results_Pack_Q1` to `Q5`, PDF). In class we answer questions 1 to 5 together; question 6 is for you.
+Open Table 1 (baseline characteristics by fluid-balance group) in any results pack: the same table is in all five. In class we answer questions 1 to 5 together; question 6 is for you.
 
 1. How many patients are in each column? Why is the overall number 618 and not 620?
 2. For **three** variables, write the summary used (mean (SD), median (IQR) or n (%)) and why.
@@ -127,7 +127,7 @@ Open Table 1 (baseline characteristics by fluid-balance group) in any results pa
 
 3. Were the two groups alike at the start? Name the **biggest** difference between the negative- and positive-balance groups.
 4. Which variable has the most missing values, and how many?
-5. Write **two sentences** describing the patients, as they would appear at the start of the Results section of your manuscript (numbers in brackets, no p-values).
+5. Write **two sentences** describing the patients, as they would appear at the start of a Results section (numbers in brackets, no p-values).
 
 > ______________________________________________________________________________
 
@@ -136,13 +136,13 @@ Open Table 1 (baseline characteristics by fluid-balance group) in any results pa
 
 * * *
 
-## Exercise 7: [FLUID-ICU] Your manuscript question as a PECO sentence (5.2)
+## Exercise 7: [FLUID-ICU] A FLUID-ICU question as a PECO sentence (5.2)
 
-In class we fill this in together for Question 1 (Q1). Afterwards, fill it in for the ONE question (Q1 to Q5) you choose for your manuscript. PECO: P = population, E = exposure, C = comparison, O = outcome.
+In class we fill this in for Question 1 (Q1). When you choose your own question at the end of Session 6, fill it in again for that question. PECO: P = population, E = exposure, C = comparison, O = outcome.
 
 | | Your answer |
 |---|---|
-| Your chosen question (Q1 to Q5), copied from page 1 of its results pack | |
+| The question (Q1 to Q5), copied from page 1 of its results pack | |
 | **P**: population | |
 | **E**: exposure (variable name in the data dictionary) and its type | |
 | **C**: comparator | |
@@ -155,7 +155,7 @@ In class we fill this in together for Question 1 (Q1). Afterwards, fill it in fo
 
 ## Exercise 8: Proposal builder 5 worksheet (individual)
 
-The instructor models each part on the running example; then you draft the variables table in class (8 minutes) and finish the rest as homework. Write your answers here first, then copy them into Part 3 of your own proposal template (`Course/Templates/Research_Proposal_Template.docx`). (Your **own** question, not the course dataset.)
+The instructor models each part on the running example; then you draft the variables table in class (8 minutes) and finish the rest as homework. Write your answers here first, then copy them into Part 3 of your proposal template (`Research_Proposal_Template.docx`, sent by email). (Your **own** question, not the course dataset.)
 
 ### 8.1 Variables table (8 min)
 

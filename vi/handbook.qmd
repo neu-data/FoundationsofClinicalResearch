@@ -5,7 +5,7 @@ title: "Sổ tay học viên"
 [Tải bản PDF](files/docs/Participant_Handbook_VN.pdf)
 
 ::: {.callout-tip}
-Các tệp được nhắc đến trong bảng bộ công cụ bên dưới có ở các trang [Biểu mẫu](templates.qmd), [Tài liệu và công cụ](resources.qmd) và [Bộ dữ liệu](dataset.qmd).
+Tài liệu tham khảo, không bắt buộc: bạn không cần đọc trước khóa học. Tài liệu duy nhất cần đọc trước Buổi 1 là [hướng dẫn đề cương](proposal-brief.qmd). Các tệp được nhắc đến trong bảng bộ công cụ bên dưới có ở các trang [Biểu mẫu](templates.qmd), [Tài liệu và công cụ](resources.qmd) và [Bộ dữ liệu](dataset.qmd).
 :::
 
 ## Nền tảng Nghiên cứu Lâm sàng · Cấp độ 1: Từ câu hỏi lâm sàng đến công bố
@@ -30,65 +30,61 @@ Anh chị không cần nền tảng về nghiên cứu hay thống kê. Lớp h�
 | **3** | 3 | **THIẾT KẾ:** chọn đúng loại nghiên cứu | Đề cương: thiết kế, bối cảnh, đối tượng |
 | **4** | 4 | **SAI LỆCH VÀ TÁC ĐỘNG:** sai lệch, yếu tố gây nhiễu, RR/OR/NNT, xét nghiệm chẩn đoán, biểu đồ rừng | Đề cương: phơi nhiễm, kết cục, kế hoạch hạn chế sai lệch |
 | **5** | 5 | **DỮ LIỆU:** phiếu thu thập dữ liệu (CRF), quản lý dữ liệu, mô tả dữ liệu, *làm quen bộ dữ liệu khóa học* | Đề cương: biến số, CRF, kế hoạch dữ liệu · Bản thảo: hiểu Bảng 1 |
-| **6** | 6 | **PHÂN TÍCH:** KTC, giá trị p, kiểm định, hồi quy, phân tích sống còn, dữ liệu thiếu, *phân tích bộ dữ liệu khóa học* | Đề cương: cỡ mẫu, kế hoạch phân tích · Bản thảo: diễn giải kết quả |
-| **7** | 7 | **BẢO VỆ VÀ VIẾT:** đạo đức, đăng ký nghiên cứu, liêm chính, và viết phần Phương pháp và Kết quả | Đề cương: đạo đức, tính khả thi, kế hoạch công bố · Bản thảo: Phương pháp + Kết quả |
-| **8** | 8 | **CÔNG BỐ:** Đặt vấn đề, Bàn luận, tóm tắt, tạp chí, nộp bài, phản biện và trình bày | Bản thảo: bản nháp hoàn chỉnh · Nộp đề cương (khoảng 5 học viên tình nguyện trình bày) |
+| **6** | 6 | **PHÂN TÍCH:** KTC, giá trị p, kiểm định, hồi quy, phân tích sống còn, dữ liệu thiếu, *phân tích bộ dữ liệu khóa học* | Đề cương: cỡ mẫu, kế hoạch phân tích · Bản thảo: diễn giải kết quả, chọn câu hỏi |
+| **7** | 7 | **BẢO VỆ VÀ VIẾT:** đạo đức, đăng ký nghiên cứu, liêm chính, và viết phần Kết quả | Đề cương: đạo đức, tính khả thi, kế hoạch công bố · Bản thảo: phần Kết quả |
+| **8** | 8 | **CÔNG BỐ:** hoàn thiện phần Kết quả, các phần không bắt buộc, tạp chí, nộp bài, phản biện và trình bày | Bản thảo: nộp phần Kết quả · Nộp đề cương (khoảng 5 học viên tình nguyện trình bày) |
 
 Mỗi buổi học kéo dài 3 giờ, có 15 phút giải lao. Buổi học gồm phần ôn tập ngắn, hai khối bài giảng với nhiều lúc "kiểm tra mức độ hiểu bài" (một câu hỏi khảo sát nhanh hoặc một câu trả lời trong khung chat), và phần xây dựng đề cương, trong đó giảng viên làm mẫu phần tiếp theo của đề cương trên ví dụ xuyên suốt. Sau đó anh chị viết phần tương ứng cho câu hỏi của mình ở nhà. Cuối mỗi buổi còn có các slide bổ sung cho ai muốn đọc thêm ở nhà.
 
 ### Ví dụ xuyên suốt
-Một chủ đề lâm sàng xuyên suốt khóa học: **truyền dịch trong sốc nhiễm khuẩn**. Từ Tuần 1 đến Tuần 4, cả lớp đặt câu hỏi, tìm kiếm tài liệu, thiết kế nghiên cứu và đọc hai bài báo thật (một thử nghiệm ngẫu nhiên có đối chứng và một nghiên cứu thuần tập). Từ Tuần 5 đến Tuần 8, cả lớp đọc kết quả của FLUID-ICU, một bộ dữ liệu *mô phỏng* sát thực tế gồm 620 người bệnh ICU, và anh chị viết các kết quả đó thành một bài báo.
+Một chủ đề lâm sàng xuyên suốt khóa học: **truyền dịch trong sốc nhiễm khuẩn**. Từ Tuần 1 đến Tuần 4, cả lớp đặt câu hỏi, tìm kiếm tài liệu, thiết kế nghiên cứu và đọc hai bài báo thật (một thử nghiệm ngẫu nhiên có đối chứng và một nghiên cứu thuần tập). Từ Tuần 5 đến Tuần 8, cả lớp đọc kết quả của FLUID-ICU, một bộ dữ liệu *mô phỏng* sát thực tế gồm 620 người bệnh ICU, và anh chị viết các kết quả đó thành phần Kết quả.
 
 ## Hai sản phẩm của anh chị (cá nhân)
 
 Mỗi người làm sản phẩm của riêng mình. Không có nhóm.
 
-1. **Một đề cương nghiên cứu cho câu hỏi của chính anh chị**, xuất phát từ khoa của anh chị, được xây dựng từng phần qua bài tập về nhà và nộp ở Buổi 8 (đề cương viết + 6 slide). Khoảng 5 học viên tình nguyện cũng trình bày đề cương của mình ở Buổi 8 (6 phút + 2 phút góp ý); việc trình bày là tùy chọn. Xem `Assignment/proposal_brief.md`.
-2. **Một bản thảo bài báo từ bộ dữ liệu khóa học.** Anh chị chọn MỘT trong năm câu hỏi của FLUID-ICU, từ Q1 đến Q5 (cân bằng dịch và tử vong, tổn thương thận, số ngày không thở máy, lactat và dữ liệu thiếu, thời gian nằm ICU). Chúng tôi cung cấp kết quả trong một gói kết quả, và anh chị viết bài báo. Giảng viên làm mẫu phần Phương pháp và Kết quả ở Buổi 7, các phần còn lại ở Buổi 8; anh chị tự viết phần của mình ở nhà. Sau khóa học, anh chị phản biện bản thảo của một bạn cùng lớp (do giảng viên phân công) và trả lời ý kiến phản biện về bản thảo của mình như một tác giả thực thụ. Xem `Assignment/manuscript_brief.md` và `Assignment/peer_review_instructions.md`.
+1. **Một đề cương nghiên cứu cho câu hỏi của chính anh chị**, xuất phát từ khoa của anh chị, được xây dựng từng phần qua bài tập về nhà và nộp ở Buổi 8 (đề cương viết + 6 slide). Khoảng 5 học viên tình nguyện cũng trình bày đề cương của mình ở Buổi 8 (6 phút + 2 phút góp ý). Việc trình bày là tùy chọn. Chi tiết: hướng dẫn đề cương (`Proposal_Brief_VN.pdf`, gửi qua email trước Buổi 1).
+2. **Phần Kết quả của một bài báo từ bộ dữ liệu khóa học.** Cuối Buổi 6, anh chị chọn MỘT trong năm câu hỏi của FLUID-ICU, từ Q1 đến Q5. Chúng tôi cung cấp kết quả trong một gói kết quả, và anh chị viết một phần Kết quả sẵn sàng để nộp tạp chí. Phương pháp, Đặt vấn đề, Bàn luận và Tóm tắt không bắt buộc. Giảng viên làm mẫu phần Kết quả ở Buổi 7, và anh chị hoàn thành bài của mình trước 23:59 ngày học Buổi 8. Sau khóa học, anh chị bình duyệt bản nháp của một bạn cùng lớp (người bình duyệt được phân công ngẫu nhiên ở Buổi 7) và sửa bài của mình. Chi tiết: hướng dẫn bài tập bản thảo (`Manuscript_Brief_VN.pdf`, gửi qua email cuối Buổi 6).
 
-## Giữa các buổi học (một tuần; khoảng 30 đến 60 phút)
+## Giữa các buổi học (khoảng 30 đến 60 phút mỗi tuần)
 
 | Sau | Việc cần làm |
 |---|---|
-| Buổi 1 | Viết nháp chủ đề, PICO, câu hỏi nghiên cứu, kiểm tra FINER, mục tiêu chung và mục tiêu cụ thể; nghĩ các từ đồng nghĩa cho các thành phần PICO |
-| Buổi 2 | Hoàn thành Đề cương Phần 1 và ma trận tài liệu; đọc tóm tắt của Bài báo 2 |
+| Buổi 1 | Viết nháp chủ đề, PICO, câu hỏi nghiên cứu, kiểm tra FINER, mục tiêu chung và mục tiêu cụ thể. Nghĩ các từ đồng nghĩa cho các thành phần PICO |
+| Buổi 2 | Hoàn thành Đề cương Phần 1 và ma trận tài liệu. Đọc tóm tắt của Bài báo 2 |
+| Buổi 3 | Viết nháp Đề cương Phần 2 (thiết kế, bối cảnh, đối tượng) |
 | Buổi 4 | Hoàn thành Đề cương Phần 2 |
-| Buổi 5 | Hoàn thành Đề cương Phần 3 (biến số, CRF, kế hoạch dữ liệu); xem qua năm gói kết quả (Q1 đến Q5) |
-| Buổi 6 | Hoàn thành Đề cương Phần 3; chọn câu hỏi cho bản thảo (Q1 đến Q5) và đọc gói kết quả tương ứng; đọc Bài báo 1 và 2; bắt đầu làm 6 slide |
-| Buổi 7 | Hoàn thành Đề cương Phần 4 và 6 slide; viết nháp phần Phương pháp + Kết quả cho câu hỏi của mình |
-| Buổi 8 | Hoàn thành và nộp bản thảo; phản biện bản thảo của một bạn cùng lớp trong vòng 1 tuần; gửi thư trả lời phản biện trong vòng 2 tuần |
+| Buổi 5 | Viết nháp nửa đầu Đề cương Phần 3 (biến số, CRF, kế hoạch dữ liệu). Xem qua năm gói kết quả (Q1 đến Q5) |
+| Buổi 6 | Hoàn thành Đề cương Phần 3. Đọc gói kết quả của câu hỏi đã chọn. Bắt đầu làm 6 slide |
+| Buổi 7 | Hoàn thành Đề cương Phần 4 và 6 slide, gửi email cả hai trước 19:30 ngày học Buổi 8. Viết phần Kết quả cho câu hỏi của mình |
+| Buổi 8 | Gửi email phần Kết quả cho người bình duyệt và trưởng khóa học trước 23:59. Gửi bản bình duyệt trong vòng 2 tuần. Gửi bản sửa và thư phản hồi 4 tuần sau khi nhận bản bình duyệt |
 
 ## Anh chị cần chuẩn bị
-Một máy tính (hoặc máy tính bảng) có kết nối internet ổn định, camera và micro (tai nghe có micro sẽ tốt hơn), đường dẫn vào phòng học trực tuyến được gửi trước Buổi 1, và một nơi yên tĩnh trong 3 giờ. Bút và sổ ghi chép. Không cần cài phần mềm thống kê. Phiếu bài tập và các tài liệu phát tay khác được gửi dưới dạng PDF trước mỗi buổi học. Học viên đã học khóa miễn phí *Clinical Data Analysis in R* của Neudata có thể tự chạy lại các phân tích của khóa học bằng các script trong `Data/R/`.
+Một máy tính (hoặc máy tính bảng) có kết nối internet ổn định, camera và micro (tai nghe có micro sẽ tốt hơn), đường dẫn vào phòng học trực tuyến được gửi trước Buổi 1, và một nơi yên tĩnh trong 3 giờ. Bút và sổ ghi chép. Không cần cài phần mềm thống kê. Phiếu bài tập và các tài liệu phát tay khác được gửi qua email trước mỗi buổi học. Học viên đã học khóa miễn phí *Clinical Data Analysis in R* của Neudata có thể xin các script R để tự chạy lại các phân tích của khóa học.
 
 ## Bộ công cụ của anh chị
 
-| Tài liệu | Tệp |
-|---|---|
-| Mẫu đề cương nghiên cứu | `Templates/Research_Proposal_Template.docx` |
-| Mẫu đề cương chi tiết (protocol) | `Templates/Study_Protocol_Template.docx` |
-| Mẫu phiếu đồng ý tham gia nghiên cứu | `Templates/Informed_Consent_Template.docx` |
-| Mẫu CRF + từ điển dữ liệu | `Templates/CRF_Template.docx` |
-| Phiếu tổng quan tài liệu | `Templates/Literature_Review_Worksheet.docx` |
-| Mẫu kế hoạch phân tích thống kê (kèm ví dụ hoàn chỉnh `Data/SAP_FLUID-ICU.md`) | `Templates/Statistical_Analysis_Plan_Template.docx` |
-| Mẫu bản thảo (IMRaD) | `Templates/Manuscript_Template_IMRaD.docx` |
-| Mẫu thư gửi tạp chí và mẫu thư trả lời phản biện | `Templates/Cover_Letter_Template.docx`, `Templates/Response_to_Reviewers_Template.docx` |
-| Hướng dẫn tóm tắt hội nghị và poster | `Templates/Conference_Abstract_Template.docx` |
-| Bảng kiểm thẩm định phê bình (10 câu hỏi) | `Resources/Critical_Appraisal_Checklist.pdf` |
-| Hướng dẫn chọn công cụ đánh giá nguy cơ sai lệch | `Resources/Risk_of_Bias_Tool_Chooser.pdf` |
-| Bảng kiểm viết và nộp bài | `Resources/Writing_and_Submission_Checklist.pdf` |
-| Mẫu hồ sơ xin duyệt đạo đức, mẫu đề xuất tài trợ ngắn (hư cấu) | `Resources/` |
-| Công cụ tính bảng 2×2 và tính cỡ mẫu | `Resources/tools/` |
-| Bộ dữ liệu khóa học, từ điển dữ liệu, gói kết quả | `Data/` (hướng dẫn tiếng Việt: `Data/README_VN.md`) |
-| Thuật ngữ Anh–Việt, tài liệu đọc thêm | `References/` (tài liệu đọc thêm bằng tiếng Việt: `References/further_reading_VN.md`) |
+Mọi tài liệu đều được gửi qua email, bằng tiếng Anh và tiếng Việt (tệp tiếng Việt có hậu tố `_VN`).
 
-Khi một tài liệu có bản tiếng Việt, tệp tiếng Việt mang cùng tên với hậu tố `_VN` (ví dụ `participant_handbook_VN.md`).
+| Khi nào | Tài liệu |
+|---|---|
+| Trước Buổi 1 | Hướng dẫn đề cương (`Proposal_Brief_VN.pdf`), `Presentation_Guide_VN.pdf`, `Proposal_Rubric_VN.pdf`, mẫu đề cương (`Research_Proposal_Template_VN.docx`), Bài báo 1 và 2 (bản PDF gốc), phiếu bài tập Buổi 1, bảng thuật ngữ Anh–Việt (`Glossary_EN_VN.pdf`) |
+| Trước Buổi 2 | `Literature_Review_Worksheet_VN.docx` |
+| Buổi 4 | `Risk_of_Bias_Tool_Chooser_VN.pdf` (trước buổi), `2x2_calculator_VN.xlsx` (sau buổi) |
+| Trước Buổi 5 | Năm gói kết quả (`Results_Pack_Q1_VN.pdf` đến `Results_Pack_Q5_VN.pdf`), `Data_Dictionary_VN.pdf`, `CRF_Template_VN.docx` |
+| Trước Buổi 6 | Kế hoạch phân tích của FLUID-ICU (`SAP_FLUID-ICU_VN.pdf`), `Statistical_Analysis_Plan_Template_VN.docx`, `sample_size_calculator_VN.xlsx` |
+| Cuối Buổi 6 | Hướng dẫn bản thảo (`Manuscript_Brief_VN.pdf`), `Manuscript_Template_IMRaD_VN.docx`, `Manuscript_Rubric_VN.pdf`, `Peer_Review_Instructions_VN.pdf`, `Response_to_Reviewers_Template_VN.docx` |
+| Trước Buổi 7 | `Informed_Consent_Template_VN.docx` và danh sách người bình duyệt |
+| Trước Buổi 8 | `Critical_Appraisal_Checklist_VN.pdf`, `Writing_and_Submission_Checklist_VN.pdf` |
+| Khi anh chị yêu cầu | Mẫu đề cương chi tiết (protocol), mẫu thư gửi tạp chí và mẫu tóm tắt hội nghị, mẫu hồ sơ xin duyệt đạo đức và mẫu đề xuất tài trợ ngắn (hư cấu), tài liệu đọc thêm, các script R của bộ dữ liệu khóa học |
+
+Mỗi phiếu bài tập được gửi qua email trước buổi học tương ứng, dưới dạng tệp Word và PDF.
 
 ## Bài kiểm tra
 Ở Buổi 1 và một lần nữa vào cuối Buổi 8, anh chị trả lời cùng 24 câu hỏi trực tuyến (đường dẫn được đăng trong khung chat). Anh chị ghi họ và tên để có thể so sánh hai lần làm bài. Chỉ nhóm giảng viên xem được tên và điểm, và đáp án chỉ được chia sẻ sau Buổi 8. Bài kiểm tra đo lường hiệu quả của *khóa học*, không đánh giá cá nhân anh chị.
 
 ## Sau khóa học
-Mang đề cương của anh chị đến hội đồng đạo đức và tiếp tục hoàn thiện bản thảo. Khóa học này là Cấp độ 1. Nếu muốn tự chạy phân tích, Cấp độ 2 là khóa thực hành với R (điều kiện: đã học khóa này và khóa miễn phí *Clinical Data Analysis in R*). Cấp độ 3 cung cấp các phương pháp nâng cao, chuyên sâu theo yêu cầu (`Course_Levels/`).
+Mang đề cương của anh chị đến hội đồng đạo đức. Nếu muốn, hãy viết thêm các phần không bắt buộc cho phần Kết quả của mình. Khóa học này là Cấp độ 1. Nếu muốn tự chạy phân tích, Cấp độ 2 là khóa thực hành với R (điều kiện: đã học khóa này và khóa miễn phí *Clinical Data Analysis in R*). Cấp độ 3 cung cấp các phương pháp nâng cao, chuyên sâu theo yêu cầu.
 
 
 * * *

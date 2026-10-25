@@ -8,21 +8,19 @@ title: "Session 6: Exercise sheet"
 
 Name: ______________________________   Department: ______________________________
 
-This sheet is sent by email before the session, as a Word file and as a PDF. Type your answers into the Word file (or print the PDF). In class, the whole class works through Exercises 4 and 8 together for Question 1 (Q1) in full and Q2 to Q5 briefly (answers in the chat or a poll; the instructor types the class answer on the shared screen). Afterwards, complete Exercises 4 and 8 for the ONE question you chose for your manuscript, using its results pack (`Course/Data/results_packs/Results_Pack_Q1` to `Q5`, PDF): your answers become the core of your manuscript's Results (Session 7). The other exercises are homework or self-check. No calculator is needed. Exercises marked **[FLUID-ICU]** use the course dataset FLUID-ICU (simulated). Exercise 9 completes Part 3 of your own proposal.
+Type your answers into this Word file or print the PDF. Exercises 4 and 8 are done in class for Q1. At the end of the session you choose your own question (Q1 to Q5). Then redo Exercises 4 and 8 for it, using its results pack: your answers become the core of your Results section. Exercise 9 completes Part 3 of your own proposal.
 
 | # | Exercise | When | Time |
 |---|---|---|---|
 | 1 | True or false: CIs, p-values and multiple tests | 6.1 / homework | 5 min |
 | 2 | Choose the test | 6.1 check / homework | 5 min |
 | 3 | Match r to the scatter plots | homework | 3 min |
-| 4 | [FLUID-ICU] Interpret the comparison for your chosen question | 6.2 whole-class task (Q1), then homework for your question | 7 min |
+| 4 | [FLUID-ICU] Interpret the comparison | 6.2 whole-class task (Q1), then homework for your question | 7 min |
 | 5 | Read a regression table (another example) | homework (the 6.3 check uses the slide table) | 5 min |
 | 6 | Read a Kaplan–Meier curve | homework | 5 min |
 | 7 | Why is it missing? MCAR, MAR or MNAR | homework | 5 min |
-| 8 | [FLUID-ICU] Interpret the model for your chosen question | 6.4 whole-class task (Q1), then homework for your question | 7 min |
+| 8 | [FLUID-ICU] Interpret the model | 6.4 whole-class task (Q1), then homework for your question | 7 min |
 | 9 | Proposal builder 6 worksheet (your own proposal) | proposal builder: instructor models, you draft; finish as homework | 30 min |
-
-Figures for Exercises 3 and 6 are in `Resources/figures/en/sat3/` (Vietnamese versions in `.../vi/sat3/`).
 
 
 * * *
@@ -85,7 +83,7 @@ Bonus: a bedside glucose meter and the laboratory have r = 0.97 in 50 patients. 
 
 * * *
 
-## Exercise 4: [FLUID-ICU] Interpret the comparison for your chosen question (6.2)
+## Exercise 4: [FLUID-ICU] Interpret the comparison (6.2)
 
 In class we do this together for Q1. Then complete it for your chosen question, using the comparison table in its results pack.
 
@@ -172,7 +170,7 @@ For each scenario, choose the most likely mechanism (**MCAR**, **MAR** or **MNAR
 
 * * *
 
-## Exercise 8: [FLUID-ICU] Interpret the model for your chosen question: crude vs adjusted, complete case vs imputation (6.4)
+## Exercise 8: [FLUID-ICU] Interpret the model: crude vs adjusted, complete case vs imputation (6.4)
 
 In class we do this together for Q1. Then complete it for your chosen question, using the regression table and the missing-data table in its results pack.
 
@@ -187,7 +185,7 @@ In class we do this together for Q1. Then complete it for your chosen question, 
 2. How much did the estimate move after adjustment, and in which direction? What does that tell you about confounding by indication?
 3. Does the adjusted 95% CI include the "no effect" value (1 for a ratio, 0 for a difference)?
 
-**Part B: complete case vs multiple imputation** *(read the result from your pack; it was produced by the example script `Course/Data/R/05_missing.R`. Level 1 does not teach how imputation works; Level 2 touches on it and Level 3, Module H covers it in depth.)*
+**Part B: complete case vs multiple imputation** (read the result from your pack)
 
 4. How many patients were in the complete-case model, and how many in the multiple-imputation model? Who was left out of the complete-case analysis?
 5. Is the multiple-imputation estimate close to the complete-case estimate?
@@ -205,7 +203,7 @@ In class we do this together for Q1. Then complete it for your chosen question, 
 
 ## Exercise 9: Proposal builder 6 worksheet (individual)
 
-Your **own** question again. The instructor models each part on the running example; you draft the sample-size inputs in class (8 minutes) and finish the rest as homework. Copy the answers into Part 3 of your own proposal template (`Course/Templates/Research_Proposal_Template.docx`).
+Your **own** question again. The instructor models each part on the running example; you draft the sample-size inputs in class (8 minutes) and finish the rest as homework. Copy the answers into Part 3 of your proposal template (`Research_Proposal_Template.docx`, sent by email).
 
 ### 9.1 Sample-size statement (8 min)
 
@@ -218,7 +216,7 @@ Your **own** question again. The instructor models each part on the running exam
 | Power | 80% / 90% | |
 | Expected drop-out | | |
 
-**Sentence** (use the spreadsheet `Resources/tools/sample_size_calculator.xlsx` or email the instructor):
+**Sentence** (use the spreadsheet `sample_size_calculator.xlsx`, sent by email, or email the instructor):
 
 > Assuming ______ in the control group and ______ in the intervention group, ______ patients per group give ____% power at a two-sided alpha of 5%; allowing ____% loss, we will recruit ______ patients in total.
 

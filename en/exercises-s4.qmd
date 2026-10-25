@@ -8,9 +8,7 @@ title: "Session 4: Exercise sheet"
 
 Name: ______________________________   Department: ______________________________
 
-This sheet is sent by email before the session, as a Word file and as a PDF. Keep it open on your screen and type your answers into the Word file (or print the PDF). Have a pen, paper and a calculator (or your phone) ready. For the calculations, simple division is enough. The instructor checks every answer live with the 2x2 calculator (`Course/Resources/tools/2x2_calculator.xlsx`).
-
-All in-session exercises are done by the **whole class together**: the instructor shows each item on the shared screen, you answer in the **poll** or the **chat**, and the instructor types the class answer on the shared screen. There are no groups. The proposal builder (Part F) is your **own** individual work.
+Type your answers in the Word file, or print the PDF. Have a pen, paper and a calculator (or your phone) ready. Simple division is enough.
 
 | Part | Activity | When | How |
 |---|---|---|---|
@@ -19,14 +17,14 @@ All in-session exercises are done by the **whole class together**: the instructo
 | C | Two 2x2 calculations | After the break (15 min) | Whole class: poll for each answer |
 | D | PPV in two settings | Homework (optional) | On your own |
 | E | Read a forest plot and choose the risk-of-bias tool | End of section 4.3 (8 min) | Whole class: polls and chat |
-| F | Proposal builder 4: exposure, outcomes and biases | End of the session (38 min) and homework | Instructor models it live; then you draft your own |
+| F | Proposal builder 4: exposure, outcomes and biases | End of the session (38 min) and homework | Instructor models it live, then you draft your own |
 
 **Our running question:** in adults with septic shock, does a restrictive fluid strategy, compared with usual care, reduce 28-day mortality?
-**The two papers** (PDFs sent before Session 1): Paper 1, Boulet 2024 (a pilot randomised trial of restrictive fluids); Paper 2, Hyun 2023 (a registry cohort of fluid balance and death).
+**The two papers** (PDFs sent before Session 1): Paper 1, Boulet 2024 (a pilot randomised trial of restrictive fluids), Paper 2, Hyun 2023 (a registry cohort of fluid balance and death).
 
 **Key words of the day:** bias · confounding · effect modification (interaction) · reverse causation · risk · risk ratio (RR) · risk difference (RD) · number needed to treat (NNT) · odds ratio (OR) · sensitivity · specificity · positive and negative predictive value (PPV, NPV) · ROC (receiver operating characteristic) curve · forest plot · I-squared (I², heterogeneity) · risk-of-bias tool.
 
-**Other abbreviations on this sheet:** ICU = intensive care unit; CI = confidence interval; RCT = randomised controlled trial.
+**Other abbreviations on this sheet:** ICU = intensive care unit, CI = confidence interval, RCT = randomised controlled trial.
 
 
 * * *
@@ -151,7 +149,7 @@ PPV = ______  NPV = ______
 
 ## Part E: Read a forest plot and choose the risk-of-bias tool
 
-**How it runs.** The instructor shows the plot on the shared screen and asks each question as a poll or in the chat. The plot is the one shown in section 4.3 (six hypothetical trials of restrictive vs usual fluids; outcome death; fixed-effect pooling).
+**How it runs.** The instructor shows the plot on the shared screen and asks each question as a poll or in the chat. The plot is the one shown in section 4.3 (six hypothetical trials of restrictive vs usual fluids, outcome death, fixed-effect pooling).
 
 ![Forest plot of six hypothetical trials](images/practicals/sat2/forest_reading.png)
 
@@ -171,7 +169,7 @@ PPV = ______  NPV = ______
 3. (Chat) Does the pooled diamond cross RR = 1? Write the pooled result in one plain sentence.  ______________________
 4. (Self-study) Trial 3 points the other way (RR 1.14). Should it worry you? Why or why not?  ______________________
 
-**Choosing the tool (poll).** For each study, choose: **RoB 2** (Cochrane risk-of-bias tool for randomised trials), **ROBINS-I** (non-randomised studies of interventions), **Newcastle-Ottawa Scale (or ROBINS-E)** (cohort or case-control studies of exposures), **QUADAS-2** (diagnostic accuracy studies) or **AMSTAR 2** (systematic reviews). A one-page chooser is in `Course/Resources/Risk_of_Bias_Tool_Chooser.pdf`.
+**Choosing the tool (poll).** For each study, choose: **RoB 2** (Cochrane risk-of-bias tool for randomised trials), **ROBINS-I** (non-randomised studies of interventions), **Newcastle-Ottawa Scale (or ROBINS-E)** (cohort or case-control studies of exposures), **QUADAS-2** (diagnostic accuracy studies) or **AMSTAR 2** (systematic reviews).
 
 | # | Study | Tool |
 |---|---|---|
@@ -187,15 +185,13 @@ PPV = ______  NPV = ______
 
 ## Part F: Proposal builder 4 (exposure, outcomes and biases)
 
-**This is your own work.** Every participant writes their own research proposal on a question from their own department (see `Course/Assignment/proposal_brief.md`).
-
 **How it runs (38 minutes).**
 
 1. **Watch (15 min).** The instructor fills in rows 4-6 below for the running example on the shared screen, thinking aloud.
 2. **Draft (16 min).** You fill in the same rows for your own question, quietly (cameras optional). Ask questions in the chat.
-3. **Feedback (7 min).** Three volunteers paste one bias and its fix in the chat; the instructor comments.
+3. **Feedback (7 min).** Three volunteers paste one bias and its fix in the chat, the instructor comments.
 
-Then finish as homework and copy your answers into the proposal template (`Course/Templates/Research_Proposal_Template.docx`, Part 2). Rows 1-3 (design, setting, population) were drafted after Session 3. For every outcome write **what**, **how** and **when**.
+Then finish as homework and copy your answers into the proposal template (`Research_Proposal_Template.docx`, Part 2). Rows 1-3 (design, setting, population) were drafted after Session 3. For every outcome write **what**, **how** and **when**.
 
 **My research question:** _______________________________________________
 

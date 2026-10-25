@@ -10,9 +10,9 @@ title: "Session 6: Live-demo script"
 |---|---|---|---|
 | **Slot** | 6.1, after the slide *Sample size: bigger effect, less noise* (about 20:05) | 6.2 (about 20:21) | 6.4, while showing its slides (21:30 to 21:48) |
 | **Duration** | 5 min (Steps 2, 3 and one change; full version 8 min if time allows) | 6 min | woven into the 6.4 slides (about 8 min of R in total, optional) |
-| **Tool** | free online calculator (e.g. OpenEpi) + `Course/Resources/tools/sample_size_calculator.xlsx` | `Course/Data/R/03_compare.R` | `Course/Data/R/04_models.R`, `05_missing.R` |
+| **Tool** | free online calculator (e.g. OpenEpi) + `sample_size_calculator.xlsx` | `FLUID-ICU/R/03_compare.R` | `FLUID-ICU/R/04_models.R`, `05_missing.R` |
 
-Participants **watch your shared screen and predict in the chat**. They never calculate or run code. FLUID-ICU is **simulated**, and all its numbers below come from `Course/Data/key_results.md`.
+Participants **watch your shared screen and predict in the chat**. They never calculate or run code. FLUID-ICU is **simulated**, and all its numbers below come from `Results_Pack_Q1–Q5`.
 
 
 * * *
@@ -20,7 +20,7 @@ Participants **watch your shared screen and predict in the chat**. They never ca
 ## Before the session
 
 - [ ] Browser tab on the online calculator, zoomed to 150%, with the spreadsheet open on sheet `3_Means` as fallback.
-- [ ] `Course/Data/FLUID-ICU.Rproj` open. Run `03_compare.R`, `04_models.R` and `05_missing.R` once end to end the night before (`05_missing.R` runs 20 imputations: allow about a minute).
+- [ ] `FLUID-ICU/FLUID-ICU.Rproj` open. Run `03_compare.R`, `04_models.R` and `05_missing.R` once end to end the night before (`05_missing.R` runs 20 imputations: allow about a minute).
 - [ ] Fallback figures open: `Course/Resources/figures/en/data/` (`crude_vs_adjusted.png`, `forest_adjusted.png`, `km_balance.png`, `missing_lactate.png`, `cc_vs_mi.png`) (the comparison table is now a native slide table, *FLUID-ICU: four outcomes, four comparisons*).
 - [ ] A slide or shared document listing the four sample-size inputs (expected effect, noise (SD), alpha, power) plus drop-out.
 

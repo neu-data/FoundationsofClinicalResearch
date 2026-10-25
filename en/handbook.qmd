@@ -5,7 +5,7 @@ title: "Participant handbook"
 [Download the PDF](files/docs/Participant_Handbook.pdf)
 
 ::: {.callout-tip}
-The files named in the toolkit table below are on the [Templates](templates.qmd), [Resources](resources.qmd) and [Course dataset](dataset.qmd) pages.
+An optional reference: you do not need to read it before the course. The one document to read before Session 1 is the [proposal brief](proposal-brief.qmd). The files named in the toolkit table below are on the [Templates](templates.qmd), [Resources](resources.qmd) and [Course dataset](dataset.qmd) pages.
 :::
 
 ## Foundations of Clinical Research · Level 1: From Clinical Question to Publication
@@ -30,63 +30,61 @@ You do not need any research or statistics background. We go slowly, with pictur
 | **3** | 3 | **DESIGN:** choosing the right study | Proposal: design, setting, population |
 | **4** | 4 | **BIAS & EFFECT:** bias, confounding, RR/OR/NNT, diagnostic tests, forest plots | Proposal: exposure, outcomes, bias plan |
 | **5** | 5 | **DATA:** CRFs, data management, describing data, *meeting the course dataset* | Proposal: variables, CRF, data plan · Manuscript: Table 1 understood |
-| **6** | 6 | **ANALYSE:** CIs, p-values, tests, regression, survival, missing data, *analysing the course dataset* | Proposal: sample size, analysis plan · Manuscript: results interpreted |
-| **7** | 7 | **PROTECT & WRITE:** ethics, registration, integrity, and writing Methods and Results | Proposal: ethics, feasibility, publication plan · Manuscript: Methods + Results |
-| **8** | 8 | **PUBLISH:** Introduction, Discussion, abstract, journals, submission, peer review and presentations | Manuscript: complete draft · Proposal submitted (about 5 volunteers present) |
+| **6** | 6 | **ANALYSE:** CIs, p-values, tests, regression, survival, missing data, *analysing the course dataset* | Proposal: sample size, analysis plan · Manuscript: results interpreted, question chosen |
+| **7** | 7 | **PROTECT & WRITE:** ethics, registration, integrity, and writing the Results section | Proposal: ethics, feasibility, publication plan · Manuscript: Results section |
+| **8** | 8 | **PUBLISH:** improving the Results, the optional parts, journals, submission, peer review and presentations | Manuscript: Results section submitted · Proposal submitted (about 5 volunteers present) |
 
 Each session lasts 3 hours with a 15-minute break. It has a short recap, two teaching blocks with frequent "check your understanding" moments (a quick poll or an answer in the chat), and a proposal-builder segment in which the instructor shows the next part of the proposal on the running example. You then write the same part for your own question at home. Each session also has extra slides at the end for anyone who wants to read further at home.
 
 ### The running example
-One clinical topic travels with us: **fluids in septic shock**. In Weeks 1 to 4 we ask, search and design the question, and look at two real papers (a randomised trial and a cohort study). In Weeks 5 to 8 we read the results of FLUID-ICU, a realistic *simulated* dataset of 620 ICU patients, and you write them up as a paper.
+One clinical topic travels with us: **fluids in septic shock**. In Weeks 1 to 4 we ask, search and design the question, and look at two real papers (a randomised trial and a cohort study). In Weeks 5 to 8 we read the results of FLUID-ICU, a realistic *simulated* dataset of 620 ICU patients, and you report them as a Results section.
 
 ## Your two products (individual)
 
 Everyone works on their own products. There are no groups.
 
-1. **A research proposal on your own question**, from your own department, built one part at a time as homework and submitted in Session 8 (written proposal + 6 slides). About 5 volunteers also present their proposal in Session 8 (6 minutes + 2 minutes of feedback); presenting is optional. See `Assignment/proposal_brief.md`.
-2. **A draft manuscript from the course dataset.** You choose ONE of the five FLUID-ICU questions, Q1 to Q5 (fluid balance and mortality, kidney injury, ventilator-free days, lactate and missing data, ICU length of stay). We give you the results in a results pack, and you write the paper. The instructor models Methods and Results in Session 7 and the rest in Session 8; you write your own as homework. After the course, you review one classmate's draft (assigned by the instructor) and reply to the review of yours like a real author. See `Assignment/manuscript_brief.md` and `Assignment/peer_review_instructions.md`.
+1. **A research proposal on your own question**, from your own department, built one part at a time as homework and submitted in Session 8 (written proposal + 6 slides). About 5 volunteers also present their proposal in Session 8 (6 minutes + 2 minutes of feedback). Presenting is optional. Details: the proposal brief (`Proposal_Brief.pdf`, sent by email before Session 1).
+2. **The Results section of a paper from the course dataset.** At the end of Session 6 you choose ONE of the five FLUID-ICU questions, Q1 to Q5. We give you the results in a results pack, and you write a submission-ready Results section. Methods, Introduction, Discussion and Abstract are optional. The instructor models the Results in Session 7, and you finish yours by 23:59 on the day of Session 8. After the course you review one classmate's draft (reviewer assigned at random in Session 7) and revise yours. Details: the manuscript brief (`Manuscript_Brief.pdf`, sent by email at the end of Session 6).
 
-## Between sessions (one week; about 30 to 60 minutes)
+## Between sessions (about 30 to 60 minutes a week)
 
 | After | Do this |
 |---|---|
-| Session 1 | Draft your topic, PICO, research question, FINER check, aim and objectives; think of synonyms for your PICO terms |
-| Session 2 | Finish Proposal Part 1 and the literature matrix; read the abstract of Paper 2 |
+| Session 1 | Draft your topic, PICO, research question, FINER check, aim and objectives. Think of synonyms for your PICO terms |
+| Session 2 | Finish Proposal Part 1 and the literature matrix. Read the abstract of Paper 2 |
+| Session 3 | Draft Proposal Part 2 (design, setting, population) |
 | Session 4 | Finish Proposal Part 2 |
-| Session 5 | Finish Proposal Part 3 (variables, CRF, data plan); look at the five results packs (Q1 to Q5) |
-| Session 6 | Finish Proposal Part 3; choose your manuscript question (Q1 to Q5) and read its results pack; read Papers 1 and 2; start your 6 slides |
-| Session 7 | Finish Proposal Part 4 and your 6 slides; draft the Methods + Results for your question |
-| Session 8 | Finish and submit the manuscript; review one classmate's draft within 1 week; response letter within 2 weeks |
+| Session 5 | Draft the first half of Proposal Part 3 (variables, CRF, data plan). Look at the five results packs (Q1 to Q5) |
+| Session 6 | Finish Proposal Part 3. Read the results pack of the question you chose. Start your 6 slides |
+| Session 7 | Finish Proposal Part 4 and your 6 slides, and email both before 19:30 on the day of Session 8. Write the Results section for your question |
+| Session 8 | Email your Results section to your reviewer and the course lead by 23:59. Send your review within 2 weeks. Send your revision and response 4 weeks after you receive the review |
 
 ## What you need
-A computer (or tablet) with a stable internet connection, camera and microphone (a headset helps), the meeting link sent before Session 1, and a quiet place for 3 hours. A pen and a notebook. No statistics software to install. Exercise sheets and other handouts are sent as PDFs before each session. Participants who have done the free Neudata course *Clinical Data Analysis in R* may re-run the course analyses with the scripts in `Data/R/`.
+A computer (or tablet) with a stable internet connection, camera and microphone (a headset helps), the meeting link sent before Session 1, and a quiet place for 3 hours. A pen and a notebook. No statistics software to install. Exercise sheets and other handouts are sent by email before each session. Participants who have done the free Neudata course *Clinical Data Analysis in R* may ask for the R scripts and re-run the course analyses.
 
 ## Your toolkit
 
-| Resource | File |
+Every file comes by email, in English and Vietnamese (the Vietnamese file ends in `_VN`).
+
+| When | Files |
 |---|---|
-| Research proposal template | `Templates/Research_Proposal_Template.docx` |
-| Study protocol template | `Templates/Study_Protocol_Template.docx` |
-| Informed consent template | `Templates/Informed_Consent_Template.docx` |
-| CRF + data dictionary template | `Templates/CRF_Template.docx` |
-| Literature review worksheet | `Templates/Literature_Review_Worksheet.docx` |
-| Statistical analysis plan template (+ worked example `Data/SAP_FLUID-ICU.md`) | `Templates/Statistical_Analysis_Plan_Template.docx` |
-| Manuscript (IMRaD) template | `Templates/Manuscript_Template_IMRaD.docx` |
-| Cover letter and response-to-reviewers templates | `Templates/Cover_Letter_Template.docx`, `Templates/Response_to_Reviewers_Template.docx` |
-| Conference abstract & poster guide | `Templates/Conference_Abstract_Template.docx` |
-| Critical appraisal checklist (10 questions) | `Resources/Critical_Appraisal_Checklist.pdf` |
-| Risk-of-bias tool chooser | `Resources/Risk_of_Bias_Tool_Chooser.pdf` |
-| Writing & submission checklist | `Resources/Writing_and_Submission_Checklist.pdf` |
-| Sample ethics application, sample grant concept note (fictional) | `Resources/` |
-| 2×2 and sample-size calculators | `Resources/tools/` |
-| Course dataset, data dictionary, results packs | `Data/` |
-| English–Vietnamese glossary, further reading | `References/` |
+| Before Session 1 | Proposal brief (`Proposal_Brief.pdf`), `Presentation_Guide.pdf`, `Proposal_Rubric.pdf`, the proposal template (`Research_Proposal_Template.docx`), Papers 1 and 2 (original PDFs), the Session 1 exercise sheet, the English–Vietnamese glossary (`Glossary_EN_VN.pdf`) |
+| Before Session 2 | `Literature_Review_Worksheet.docx` |
+| Session 4 | `Risk_of_Bias_Tool_Chooser.pdf` (before), `2x2_calculator.xlsx` (after) |
+| Before Session 5 | The five results packs (`Results_Pack_Q1.pdf` to `Results_Pack_Q5.pdf`), `Data_Dictionary.pdf`, `CRF_Template.docx` |
+| Before Session 6 | The FLUID-ICU analysis plan (`SAP_FLUID-ICU.pdf`), `Statistical_Analysis_Plan_Template.docx`, `sample_size_calculator.xlsx` |
+| End of Session 6 | Manuscript brief (`Manuscript_Brief.pdf`), `Manuscript_Template_IMRaD.docx`, `Manuscript_Rubric.pdf`, `Peer_Review_Instructions.pdf`, `Response_to_Reviewers_Template.docx` |
+| Before Session 7 | `Informed_Consent_Template.docx` and the list of reviewers |
+| Before Session 8 | `Critical_Appraisal_Checklist.pdf`, `Writing_and_Submission_Checklist.pdf` |
+| On request | Study protocol, cover letter and conference abstract templates, a sample ethics application and grant concept note (fictional), further reading, the R scripts of the course dataset |
+
+Every exercise sheet arrives by email before its session, as a Word file and a PDF.
 
 ## The quiz
 In Session 1 and again at the end of Session 8 you answer the same 24 questions online (a link is posted in the chat). You give your full name so that your two attempts can be compared. Only the course team sees names and scores, and you do not see the answers until after Session 8. The quiz measures what the *course* achieved, not you.
 
 ## After the course
-Take your proposal to the ethics committee and keep improving your manuscript. This course is Level 1. If you want to run analyses yourself, Level 2 is a hands-on course in R (prerequisite: this course and the free *Clinical Data Analysis in R* course). Level 3 offers advanced, specialised methods on request (`Course_Levels/`).
+Take your proposal to the ethics committee. If you like, add the optional parts to your Results section. This course is Level 1. If you want to run analyses yourself, Level 2 is a hands-on course in R (prerequisite: this course and the free *Clinical Data Analysis in R* course). Level 3 offers advanced, specialised methods on request.
 
 
 * * *

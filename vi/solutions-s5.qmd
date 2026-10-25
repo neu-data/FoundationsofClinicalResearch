@@ -6,7 +6,7 @@ title: "Buổi 5: Lời giải"
 
 **Nền tảng Nghiên cứu Lâm sàng · Cấp độ 1** · bản dành cho giảng viên (không phát trước buổi học)
 
-Số thứ tự bài tập theo `Practicals/s5_exercises_VN.md`. Mọi con số FLUID-ICU lấy từ `Course/Data/key_results.md` (dữ liệu mô phỏng).
+Số thứ tự bài tập theo `s5_exercises_VN.md`. Mọi con số FLUID-ICU lấy từ `Results_Pack_Q1–Q5` (dữ liệu mô phỏng).
 
 
 * * *
@@ -74,7 +74,7 @@ Chấp nhận mọi phiên bản qua được bốn bước kiểm tra (đơn v�
 
 ## Bài tập 5: [FLUID-ICU] Tìm lỗi trong dữ liệu thô FLUID-ICU
 
-(Xem `Course/Data/cleaning_log.md` để biết nhật ký đầy đủ.)
+(Xem `FLUID-ICU/cleaning_log.md` để biết nhật ký đầy đủ.)
 
 | # | Sai ở đâu | Script làm gì |
 |---|---|---|
@@ -92,7 +92,7 @@ Câu hỏi thêm: sửa bằng tay thì không ai thấy và không lặp lại 
 
 ## Bài tập 6: [FLUID-ICU] Đọc Bảng 1 của FLUID-ICU (cả lớp)
 
-Mọi con số từ `Course/Data/key_results.md` (dữ liệu mô phỏng).
+Mọi con số từ `FLUID-ICU/key_results.md` (dữ liệu mô phỏng).
 
 1. Cân bằng dịch âm n = 245, dương n = 373, tổng 618. Hai trong số 620 người bệnh được tuyển không tính được cân bằng dịch ngày 3 (một cân nặng hoặc lượng dịch ra không thể có đã được đặt thành giá trị thiếu khi làm sạch), nên không xếp được vào nhóm nào.
 2. Câu trả lời dự kiến: trung bình (SD) cho tuổi, gần đối xứng (64.6 so với 61.4 tuổi); trung vị (IQR) cho SOFA, một điểm số có phân phối lệch (6 (4 đến 8) so với 8 (6 đến 10)); trung vị (IQR) cho lactate, lệch phải (2.2 (1.4 đến 3.0) so với 2.9 (1.9 đến 4.0) mmol/L); n (%) cho thuốc vận mạch, thở máy, suy tim và giới.
@@ -104,9 +104,9 @@ Mọi con số từ `Course/Data/key_results.md` (dữ liệu mô phỏng).
 
 * * *
 
-## Bài tập 7: [FLUID-ICU] Câu hỏi bản thảo của bạn dưới dạng câu PECO
+## Bài tập 7: [FLUID-ICU] Một câu hỏi FLUID-ICU dưới dạng câu PECO
 
-Trong lớp, Q1 được làm chung; sau đó mỗi học viên hoàn thành bảng cho câu hỏi mình đã chọn.
+Trong lớp, Q1 được làm chung. Học viên làm lại sau khi chọn câu hỏi của mình vào cuối Buổi 6.
 
 | Q | Kết cục (loại) | Phơi nhiễm (loại) | Phép so sánh / mô hình dự kiến |
 |---|---|---|---|

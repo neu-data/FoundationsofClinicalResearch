@@ -10,10 +10,10 @@ title: "Buổi 5: Kịch bản trình diễn"
 |---|---|---|
 | **Thời điểm** | 5.2 *Làm quen bộ dữ liệu khóa học* (khoảng 20:25) | 5.4 *Mô tả bộ dữ liệu khóa học* (khoảng 21:31) |
 | **Thời lượng** | 8 phút | 6 phút |
-| **Script** | `Course/Data/R/01_clean.R` | `Course/Data/R/02_describe.R` |
+| **Script** | `FLUID-ICU/R/01_clean.R` | `FLUID-ICU/R/02_describe.R` |
 | **Học viên** | theo dõi màn hình chia sẻ của giảng viên và dự đoán trong khung chat (học viên không chạy R) | như trên |
 
-> **FLUID-ICU là dữ liệu MÔ PHỎNG.** Nhắc lại điều này mỗi lần mở dữ liệu: không có người bệnh, bệnh viện hay quốc gia thật nào. Mọi con số dưới đây lấy từ `Course/Data/key_results.md` và `Course/Data/cleaning_log.md`.
+> **FLUID-ICU là dữ liệu MÔ PHỎNG.** Nhắc lại điều này mỗi lần mở dữ liệu: không có người bệnh, bệnh viện hay quốc gia thật nào. Mọi con số dưới đây lấy từ `Results_Pack_Q1–Q5` và `FLUID-ICU/cleaning_log.md`.
 
 
 * * *
@@ -21,10 +21,10 @@ title: "Buổi 5: Kịch bản trình diễn"
 ## Trước buổi học (tối hôm trước và 10 phút trước giờ học)
 
 - [ ] Đã cài R (4.x) và RStudio trên máy tính dùng để chia sẻ màn hình; các gói: tidyverse, janitor, gtsummary, flextable, survival, survminer, mice, broom.
-- [ ] Mở `Course/Data/FLUID-ICU.Rproj` (đặt thư mục làm việc). Chạy trọn `01_clean.R` và `02_describe.R` một lần từ đầu đến cuối. Cả hai phải chạy xong không lỗi.
+- [ ] Mở `FLUID-ICU/FLUID-ICU.Rproj` (đặt thư mục làm việc). Chạy trọn `01_clean.R` và `02_describe.R` một lần từ đầu đến cuối. Cả hai phải chạy xong không lỗi.
 - [ ] Tăng cỡ chữ của cửa sổ soạn thảo và cửa sổ console (Tools, Global Options, Appearance: 18 đến 20 pt) để học viên đọc được trên màn hình nhỏ. Chỉ chia sẻ cửa sổ RStudio.
-- [ ] Mở sẵn các hình dự phòng trong trình xem ảnh: `Course/Resources/figures/vi/data/` (`raw_vs_clean.png`, `table1_snapshot.png`, `fluid_balance_hist.png`, `sofa_by_group.png`, `los_skewed.png`; bản tiếng Anh ở `Course/Resources/figures/en/data/`) và `Course/Data/output/figures/`.
-- [ ] Mở `Course/Data/cleaning_log.md` và `data_dictionary.md` trong một thẻ trình duyệt: giảng viên sẽ cho lớp xem hai tệp này.
+- [ ] Mở sẵn các hình dự phòng trong trình xem ảnh: `Course/Resources/figures/vi/data/` (`raw_vs_clean.png`, `table1_snapshot.png`, `fluid_balance_hist.png`, `sofa_by_group.png`, `los_skewed.png`; bản tiếng Anh ở `Course/Resources/figures/en/data/`) và `FLUID-ICU/output/figures/`.
+- [ ] Mở `FLUID-ICU/cleaning_log.md` và `data_dictionary.md` trong một thẻ trình duyệt: giảng viên sẽ cho lớp xem hai tệp này.
 
 **Quy tắc khi trình diễn:** chạy từng khối một (Ctrl+Enter). Trước mỗi khối, hỏi cả lớp *"anh chị dự đoán sẽ thấy gì?"* và đọc hai hoặc ba câu trả lời trong khung chat. Sau mỗi khối, nói *vấn đề nào vừa được sửa và việc sửa đó được ghi vào nhật ký*. Không bao giờ gõ code mới trực tiếp, vì các script đã hoàn chỉnh.
 
@@ -79,7 +79,7 @@ title: "Buổi 5: Kịch bản trình diễn"
 | R hoặc một gói bị lỗi | Chiếu `raw_vs_clean.png` và giải thích các vấn đề (Phần A); chiếu `table1_snapshot.png`, `fluid_balance_hist.png`, `sofa_by_group.png` (Phần B). Các ý giảng dạy giữ nguyên. |
 | Chia sẻ màn hình không hiển thị RStudio đủ rõ | Dùng các hình PNG và `cleaning_log.md` trong trình duyệt với mức thu phóng 150%. |
 | Bị trễ giờ | Phần A: Bước 0, 2, 9, 10, 14. Phần B: chỉ khối 3 và 5. |
-| Một học viên muốn tự chạy | Giới thiệu `Course/Data/README.md` (bản tiếng Việt: `Course/Data/README_VN.md`) và khóa học miễn phí *Clinical Data Analysis in R*, và đề nghị hỗ trợ sau buổi học. |
+| Một học viên muốn tự chạy | Giới thiệu `FLUID-ICU/README.md` (bản tiếng Việt: `FLUID-ICU/README_VN.md`) và khóa học miễn phí *Clinical Data Analysis in R*, và đề nghị hỗ trợ sau buổi học. |
 
 ## Các câu hỏi có thể gặp
 

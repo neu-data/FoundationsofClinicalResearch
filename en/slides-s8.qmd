@@ -1,5 +1,5 @@
 ---
-title: "Session 8 · Publish: finish the paper, get it out, present"
+title: "Session 8 · Publish: polish your Results, get it out, present"
 subtitle: "Foundations of Clinical Research: From Clinical Question to Publication"
 author: "Vương Mỹ Lượng & Bernard Osang'ir"
 institute: "Neudata Consulting Ltd"
@@ -12,21 +12,23 @@ format:
     include-in-header: access-gate.html
 ---
 
-# Session 8 · Publish: finish the paper, get it out, present
+# Session 8 · Publish: polish your Results, get it out, present
 
 ## Week 8 · Saturday, 19:30-22:30 (online)
 
 - 19:30  Recap: Session 7
-- 19:35  8.1  Writing the paper (II): Introduction, Discussion, Abstract, Title
-- 20:00  Manuscript workshop 2: Q1 together, then your own
+- 19:35  8.1  Writing the paper (II): the optional parts and the title
+- 20:00  Manuscript workshop 2: improve your Results section
 - 20:30  8.2  Getting published: from checklist to reviewers
 - 21:05  8.3  Be the reviewer: Papers 1 and 2, as a whole class
 - 21:30  Proposal presentations (about 5 volunteers), 22:15 closing
 
 ::: {.notes}
-Session 8 (19:30). Online, 19:30-22:30, with a 15-minute break at 20:50. The last session. Today we finish writing the FLUID-ICU manuscript (Q1 together, then each participant's own question), follow a paper from submission to reviewers, practise reviewing as a whole class, and about five volunteers present their own proposals.
+Session 8 (19:30-22:30, break 20:50-21:05). The last session.
 
-Before the session: send the PDFs (Session 8 exercise sheet, Papers 1 and 2 original versions, the class Q1 draft from Session 7). Collect the presenters' slides and open them on your computer. Load the polls.
+Today: the optional parts and the title, improving the Results drafts, publishing, reviewing, and about five proposal presentations. The closing (22:15) has its own slides.
+
+Before: email the exercise sheet, the original papers and the class Q1 Results from Session 7. Collect and open the presenters' slides.
 :::
 
 ## Recap: three questions from Session 7
@@ -59,7 +61,7 @@ Answers
 :::
 
 ::: {.notes}
-Recap (19:30-19:35). Question 1 was last week's exit question: read two or three of the answers you received and correct any misunderstanding. Questions 2 and 3 are quick polls. Reveal the answers.
+Recap (19:30-19:35). Question 1 was the exit question: read two or three answers. Questions 2 and 3 are quick polls.
 
 Question 3 leads into 8.1: the Discussion is where interpretation lives.
 :::
@@ -68,20 +70,18 @@ Question 3 leads into 8.1: the Discussion is where interpretation lives.
 
 :::: {.neu-statement}
 ::: {.neu-big}
-Writing the paper (II)
+Writing the paper (II): the optional parts
 :::
 
 ::: {.neu-sub}
-Introduction, Discussion, Abstract and Title, in that order
+Introduction, Discussion, Abstract, and the title you need
 :::
 ::::
 
 ::: {.notes}
-Section 8.1 (19:35-20:00). Ten slides with three worked examples from FLUID-ICU Q1 and a 2-minute check.
+Section 8.1 (19:35-20:00). About 2 minutes per slide.
 
-Order follows the writing order from last Saturday: Introduction, Discussion, then the Abstract and the Title last.
-
-Pace: about 2 minutes per slide. Slow down on the worked Discussion example.
+The Introduction, Discussion and Abstract are optional for the manuscript. The title is required. Slow down on the Discussion example.
 :::
 
 ## Introduction: a funnel in three paragraphs
@@ -93,15 +93,11 @@ Pace: about 2 minutes per slide. Slow down on the worked Discussion example.
 :::
 
 ::: {.notes}
-Teaching point: the introduction is a funnel, not a literature review. Paragraph 1: what is known (burden, mechanism, current practice). Paragraph 2: what is not known: the gap, ideally with conflicting evidence cited on both sides. Paragraph 3: 'We therefore aimed to ...', one aim sentence that matches the primary outcome in the Methods.
+The Introduction is a funnel: known, not known, aim. The aim matches the primary outcome.
 
-Paper 1 (Boulet 2024, the trial) is the model (annotations \#10-\#12): known (positive fluid balance is linked to death, hidden fluids are a large share of intake), unknown (earlier trials targeted resuscitation fluids only), aim (primary objective = fluid balance after 5 days), all in under 500 words (pages 2-3).
+Paper 1 does this in under 500 words. Paper 2 cites both sides of a conflict in paragraph 2.
 
-Paper 2 (Hyun 2023, the cohort) defines the gap in paragraph 2 by citing both sides of a conflict (annotation \#9). Copy that. But its introduction runs to about 550 words and the aim repeats the causal word 'impact' (\#3, \#10).
-
-Link to Sessions 1-2: the problem statement and PICO of your proposal already give you this funnel.
-
-Ask (call on two or three people, microphone on): in one sentence, what is not known about the question you chose? That sentence is your paragraph 2.
+Ask: in one sentence, what is not known about your question? That is paragraph 2.
 :::
 
 ## Worked example: the Introduction funnel for FLUID-ICU (Q1)
@@ -131,17 +127,13 @@ Ask (call on two or three people, microphone on): in one sentence, what is not k
 :::
 
 ::: {.notes}
-Worked example. Model opening sentences (adapt, do not copy):
+Worked example for Q1. Model sentences (adapt, do not copy):
 
-P1: 'Intravenous fluids are a cornerstone of early sepsis care, but a positive cumulative fluid balance has been associated with higher mortality in several observational studies \[refs\].'
+P2: 'Because sicker patients receive more fluid, it remains uncertain whether this association persists after adjustment for severity.'
 
-P2: 'Because sicker patients receive more fluid, it remains uncertain whether this association persists after adjustment for illness severity \[refs\].'
+P3: 'We therefore examined whether a positive fluid balance by day 3 was associated with 28-day mortality.'
 
-P3: 'We therefore examined whether a positive cumulative fluid balance by ICU day 3 was associated with 28-day mortality in adults with sepsis, before and after adjustment for severity.'
-
-References: participants use the references found in Sessions 1-2 plus Papers 1 and 2.
-
-Point out: the confounding by indication from Session 4 is the gap. That is why the study is worth doing.
+The gap is the confounding by indication from Session 4.
 :::
 
 ## Discussion: six moves
@@ -189,13 +181,11 @@ Point out: the confounding by indication from Session 4 is the gap. That is why 
 :::
 
 ::: {.notes}
-Teaching point: a good discussion makes six moves, in this order: answer the question, compare with other studies and explain why results differ. Explain the mechanism briefly, state the limitations specifically, with their likely direction and a fix. Give implications for practice and research, labelled as such. Conclude with the same message as the abstract and title.
+Six moves in order: answer, compare, explain, limitations with their direction, implications, conclusion.
 
-Paper 1 does most of this well: the first sentence answers the primary question (annotation \#36). The comparison with the CLASSIC and POINCARE-2 trials explains why results differ (\#37). Limitations are specific, with mechanism and a fix (\#38, \#39). The conclusion matches the abstract (\#44). Weak point: 'would probably be advantageous' is speculation without data (\#46).
+Paper 1 answers in its first sentence. Paper 2 misses survivor bias in its limitations.
 
-Paper 2: one-paragraph mechanism using the four-phase fluid model (\#34). Comparison closes the loop with the conflicting studies from the introduction (\#35). But its limitations miss survivor bias, residual lactate imbalance and confounding by indication (\#36).
-
-Poll: which move do first-time writers usually skip? Expected: the limitations' direction, saying whether a bias makes the effect look bigger or smaller.
+Poll: which move do first-time writers skip? Expected: the direction of each limitation.
 :::
 
 ## Worked example: the Discussion for FLUID-ICU question 1
@@ -212,11 +202,11 @@ Six moves, one sentence each (simulated data).
 - 6 Conclusion: 'associated with', the same verb as the aim, abstract and title.
 
 ::: {.notes}
-Worked example (six moves, one sentence each, numbers from key\_results.md, simulated data). OR = odds ratio. HR = hazard ratio. CI = confidence interval.
+Six moves, one sentence each, numbers from results pack Q1 (simulated).
 
-1 Answer: adjusted OR 1.62 (95% CI 1.02 to 2.59). 2 Compare: Paper 2 found day-2 HR 2.13 (1.48 to 3.06). 3 Explain: the crude OR 2.49 fell to 1.62 after adjustment (confounding by indication). 4 Limitations: residual confounding, reverse causation (patients who are dying accumulate fluid), patients dying before day 3. The adjusted Cox HR 1.46 had a CI reaching 1.00. 5 Implications: no basis to restrict fluid. A trial like Paper 1 is needed. 6 Conclusion: 'associated with'.
+The heart-failure interaction (OR 4.39 vs 1.29) is a hypothesis, not a finding.
 
-Optional point for those who chose Q1: the association looked stronger in heart failure (adjusted OR 4.39 vs 1.29, p for interaction 0.031, only 90 patients). This is a hypothesis, not a finding.
+The conclusion uses the same verb as the aim and the title: 'associated with'.
 :::
 
 ## Why the odds ratio shrank: explain it in the Discussion
@@ -242,13 +232,11 @@ Optional point for those who chose Q1: the association looked stronger in heart 
 :::
 
 ::: {.notes}
-The figure shows the three estimates from results pack Q1 (Table 6): crude (n = 618), adjusted complete-case (n = 527) and adjusted after multiple imputation (n = 620).
+Crude 2.49, adjusted 1.62, imputed 1.70. The drop is the Session 4 lesson made visible.
 
-Teaching point: the drop from 2.49 to 1.62 is the Session 4 lesson made visible: sicker patients received more fluid and died more. The imputed estimate is close to the complete-case one, so missing lactate did not change the conclusion.
+The adjusted CI starts at 1.02: 'a modest association remained'.
 
-The adjusted CI starts at 1.02, just above 1. Calibrated sentence: 'a modest association remained'.
-
-Ask: what would you write if the adjusted CI had crossed 1? Expected: 'no clear evidence of an association after adjustment', not 'no effect'.
+Ask: what if the adjusted CI had crossed 1? Expected: 'no clear evidence of an association after adjustment', not 'no effect'.
 :::
 
 ## Calibrated language: match the verb to the design
@@ -274,13 +262,13 @@ Never: 'trend' for p = 0.42. 'No difference' (say 'no evidence of a difference')
 :::
 
 ::: {.notes}
-Teaching point: the strength of a verb is a claim. Over-interpretation (conclusions that go beyond the data) is one of the commonest reasons for rejection.
+The strength of a verb is a claim. Read the ladder from the bottom.
 
-Read the ladder from the bottom: descriptive studies 'observe'. Cohorts and case-control studies find that something 'is associated with' an outcome. Strong observational evidence plus causal reasoning may 'contribute to'. A randomised trial may say 'reduced' or 'did not reduce'. 'Causes' or 'proves' needs several consistent large trials.
+Never: 'trend' for p = 0.42 (Paper 1), 'impact' in a cohort (Paper 2), 'first' or 'novel' unchecked.
 
-Never: 'non-significant trend' for p = 0.42 (Paper 1, page 10, annotation \#41). 'No difference' when the study was too small (say 'no evidence of a difference', \#29). 'First', 'ever', 'novel' without checking ('lowest fluid balance ever published', \#40). 'Impact', 'did not impact', 'show' in an observational study (Paper 2, \#1, \#27, \#28). 'The most reliable comparison' (\#32). Ranking HRs from different cohorts as 'the highest risk' without a test (\#37).
+These words matter in the Results section too.
 
-Ask (call on two or three people, microphone on): rewrite 'positive fluid balance increases mortality' for Paper 2. Expected: 'a positive fluid balance on ICU day 2 was associated with higher 28-day mortality'.
+Ask: rewrite 'positive fluid balance increases mortality' for Paper 2.
 :::
 
 ## Check: fix the verb (FLUID-ICU, simulated)
@@ -311,13 +299,9 @@ Better
 ::::
 
 ::: {.notes}
-Check (2 minutes). Numbers from key\_results.md (simulated): Q1 adjusted OR 1.62. Q2 adjusted OR 1.27 per 10 ml/kg. Q1 adjusted Cox HR 1.46 (1.00 to 2.13). Q4 adjusted complete-case OR 1.39 per mmol/L.
+Check (2 minutes). One poll per sentence: 'fine' or 'fix'. Call on one person for the fix.
 
-One poll per sentence: 'fine' or 'fix'. Call on one person to say the fix with the microphone on.
-
-Sentence 3: no 'trend'. Give the estimate and say the CI reaches 1.
-
-Sentence 4: 'predicts' is acceptable in a prediction sense. If the authors mean cause, 'associated with' is the honest verb.
+Sentence 3: no 'trend', give the estimate and say the CI reaches 1. Sentence 4: 'predicts' is fine for prediction.
 :::
 
 ## The structured abstract: the shop window
@@ -334,13 +318,11 @@ Sentence 4: 'predicts' is acceptable in a prediction sense. If the authors mean 
 :::
 
 ::: {.notes}
-Teaching point: most clinical journals want a structured abstract (Background, Methods, Results, Conclusions) of about 250-300 words. Trials add the registration number. Many readers never go further, so it must stand alone.
+Structured abstract, 250-300 words, must stand alone.
 
-Good practice: Paper 2's abstract gives the source population, setting and size (annotation \#4) and every result as HR with 95% CI and exact P (annotation \#5). Paper 1's conclusion reports a negative result plainly, with no spin (annotation \#6), and the registration number is in the abstract (annotation \#7).
+Paper 2 gives every result as HR with CI. Paper 1 states its negative result plainly.
 
-Fix (Paper 1, annotation \#4): medians are reported but the estimate is called a 'mean difference', and p = 0.0506 with a CI touching 0 is given to four decimals. The summary, the estimate and the test must match, and borderline p-values are not 'nearly significant'.
-
-Write the abstract last, and check that each number appears identically in the abstract, text and tables.
+Write it last and check every number matches the text and tables.
 :::
 
 ## Worked example: the abstract and title for FLUID-ICU question 1
@@ -356,17 +338,11 @@ Copy the numbers from your Results (simulated data, about 120 words shown).
 - Conclusions: A positive balance was modestly associated with 28-day mortality. Most of the crude association reflected severity. A randomised trial is needed.
 
 ::: {.notes}
-Worked example (simulated data, about 120 words shown, and a full abstract is up to 250).
+Worked example (simulated). The title is required for everyone. The abstract is optional.
 
-Title: names the exposure, outcome, population and design. No 'impact'.
+The Methods line must say the data are simulated. Conclusions: 'modestly associated', matching a CI of 1.02 to 2.59.
 
-Methods: must say the data are simulated (course rule).
-
-Results: the crude and adjusted ORs, as in the Results. The participant numbers (618 analysed, 373 positive).
-
-Conclusions: 'modestly associated', which matches an adjusted CI of 1.02 to 2.59.
-
-Ask: which abstract sentence would change if the adjusted CI had been 0.95 to 2.40? Expected: Results and Conclusions, which would read 'no clear evidence of an association after adjustment'.
+Ask: which sentences change if the CI had been 0.95 to 2.40? Expected: Results and Conclusions.
 :::
 
 ## Title and keywords: your PICO in one line
@@ -397,15 +373,13 @@ Formula from your PICO: design, I vs C, in P, on O. 10-16 words. No 'impact', 'n
 :::
 
 ::: {.notes}
-Teaching point: the title is the most-read sentence of the paper. Build it from the PICO: design, intervention or exposure vs comparator, population, outcome. Aim for about 10-16 words. State the design. Avoid value-laden words ('impact', 'optimized', 'novel', 'first').
+Build the title from the PICO: design, exposure, population, outcome, 10-16 words. No 'impact', 'novel', 'first'.
 
-Paper 1 (annotation \#1): the design is in the title (good), but it is over 25 words and uses value words. A shorter descriptive version is shown in green.
+Paper 2's 'Impact' is causal wording for a cohort.
 
-Paper 2 (annotation \#1): 'Impact' is causal wording for an observational cohort. Reviewers routinely ask for 'Association between ...'.
+Keywords: 3-6 MeSH terms not already in the title.
 
-Keywords (Paper 1, annotation \#9): its keywords repeat words already in the title. Choose 3-6 MeSH (Medical Subject Headings) terms that are NOT in the title, so the paper is found by more searches.
-
-You will write your own title in the workshop that follows.
+Everyone writes their own working title in the workshop that follows.
 :::
 
 ## Before you submit: references, checklist, final read
@@ -439,38 +413,34 @@ You will write your own title in the workshop that follows.
 :::
 
 ::: {.notes}
-References: use a reference manager (Zotero, Mendeley, EndNote) and check every citation. In Paper 2 the covariate list cites reference 26 (the Sepsis-3 definitions paper), almost certainly the wrong number (annotation \#22). Never cite a reference an AI tool suggested without reading it.
+References: use a reference manager and check every citation. Never cite a reference an AI suggested without reading it.
 
-Reporting checklist: fill in CONSORT (trials) or STROBE (observational studies) while you write, with page numbers. Many journals require it at submission. Neither paper names its guideline (both annotated summaries flag this).
+Checklist: fill it in while you write.
 
-Final read: check every number in the text against the tables (Paper 1's creatinine, \#25), every figure call-out (Paper 1 refers to Fig. 1 where it means Fig. 2A, \#28), and typography of numbers (an IQR whose upper limit is below the lower limit, \#35).
-
-Key message from the annotated summaries: almost all of Paper 1's errors would have been caught by a co-author reading the tables against the text.
+Final read: every number in the text against the tables. Most errors in both papers needed only a careful co-author.
 :::
 
 ## Manuscript workshop 2  \|  30 minutes
 
 :::: {.neu-statement}
 ::: {.neu-big}
-Complete the draft: together, then on your own
+Improve your Results section: together, then on your own
 :::
 
 ::: {.neu-sub}
-22 minutes drafting Q1 live with the whole class, then 8 minutes on your own aim and title
+22 minutes on the class Q1 draft, then 8 minutes on your own draft and title
 :::
 ::::
 
 ::: {.notes}
-Manuscript workshop 2 (20:00-20:30). Course dataset.
+Manuscript workshop 2 (20:00-20:30).
 
-Part 1 (20:00-20:22): you add the Introduction, Discussion, Abstract and Title to last Saturday's class draft for Q1, live on the shared screen.
+Part 1: improve last week's class Q1 Results live, using the reviewer checklist. Part 2: each participant checks their own draft and writes the working title.
 
-Part 2 (20:22-20:30): each participant writes the aim sentence and title for their own question, then finishes the draft and submits it by 23:59 tonight (Course/Assignment/manuscript\_brief.md).
-
-Instructions: Course/Practicals/s8\_exercises.md, Part B. Model paragraphs for Q1: Course/Solutions/s8\_solutions.md.
+Instructions: s8\_exercises Part B. Model text: s8\_solutions Part B.
 :::
 
-## Manuscript workshop 2, part 1: we complete Q1 together
+## Manuscript workshop 2, part 1: we improve the Q1 Results together
 
 ::: {.neu-banner style="--c:#0D7377"}
 WHOLE-CLASS TASK · 22 min
@@ -479,36 +449,39 @@ WHOLE-CLASS TASK · 22 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0D7377"}
-- Introduction (6 min): three paragraphs. You suggest sentences aloud when called on
-- Discussion (9 min): six moves, one or two sentences each
-- Abstract (5 min): numbers copied from the class Results
-- Title and verb check (2 min): every 'cause' or 'impact' becomes 'associated with'
+- Number check (6 min): every number against results pack Q1
+- Tables and figure (5 min): does each stand alone?
+- Words (5 min): no interpretation, no 'trend', no causal verbs
+- Working title (3 min): design stated, 'associated'
+- The optional parts (3 min): what each would add
 :::
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#0D7377"}
 Use
 
-- Class Q1 draft from Session 7 (PDF)
+- Class Q1 Results from Session 7 (PDF)
 - Results pack Q1
-- The worked examples (slides)
+- The checklist in Peer\_Review\_Instructions
 :::
 :::
 ::::
 
 ::: {.neu-output style="--c:#0D7377"}
-**OUTPUT** A complete class draft for Q1, shared as a PDF after the session
+**OUTPUT** An improved class Q1 Results section, sent as a PDF after the session
 :::
 
 ::: {.notes}
-Workshop Part 1 (20:00-20:22). Whole class. Open last week's class draft and type into it. Call each phase.
+Workshop part 1 (20:00-20:22). Open last week's class draft and type into it. Call each phase.
 
-Prompts: 'Does our first Discussion sentence answer the question with the number?' 'Is there a limitation with its direction?' 'Does our conclusion use the same verb as our aim?' 'Is every number in the abstract identical to the Results?'
+Prompts: 'Does every percentage have a denominator?' 'Can Table 1 be read without the text?' 'Is any sentence explaining rather than reporting?'
 
-Share the completed class draft as a PDF after the session. It is the model for everyone's own manuscript.
+In the last 3 minutes, show where an Introduction and Discussion would sit and what they would say.
+
+Send the improved draft as a PDF after the session.
 :::
 
-## Manuscript workshop 2, part 2: your own aim and title
+## Manuscript workshop 2, part 2: your own Results and title
 
 ::: {.neu-banner style="--c:#0B376C"}
 INDIVIDUAL TASK · 8 min
@@ -517,34 +490,34 @@ INDIVIDUAL TASK · 8 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0B376C"}
-- Write the aim sentence for your question (Q1 to Q5)
-- Write your title: design stated, 10-16 words, 'associated'
+- Run the same checks on your own Results draft
+- Write your working title: design stated, 10-16 words, 'associated'
 - Two volunteers read their title aloud. The instructor comments
-- Tonight: add the Introduction, Discussion and Abstract. Submit by 23:59
+- Tonight: a final check, then email it by 23:59
 :::
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#0B376C"}
 Submit
 
-- Complete draft, about 2,000 words
+- Results section, working title, Table 1, main table or figure
 - By 23:59 tonight
-- Course folder or email to the course lead
-- Then the peer review (closing slides)
+- Email it to your reviewer and the course lead
+- Optional parts in the same file
 :::
 :::
 ::::
 
 ::: {.neu-output style="--c:#0B376C"}
-**OUTPUT** Your aim sentence and working title. The complete draft submitted by 23:59 tonight
+**OUTPUT** Your working title. Your Results section emailed by 23:59 tonight
 :::
 
 ::: {.notes}
-Workshop Part 2 (20:22-20:30). Individual.
+Workshop part 2 (20:22-20:30). Individual.
 
-Question-specific reminders (post them in the chat): Q2, AKI may also cause fluid accumulation (reverse causation). Q3, ventilator-free days count death as zero. Explain the measure. Q4, compare complete-case and imputed estimates and say what MAR (missing at random) means for the conclusion. Q5, survivors only: say who the result applies to.
+Post in the chat: Q2, AKI may also cause fluid accumulation. Q3, ventilator-free days count death as zero. Q4, give both complete-case and imputed estimates. Q5, survivors only.
 
-Deadline: the complete draft by 23:59 on the day of Session 8 (Course/Assignment/manuscript\_brief.md). It then goes to the individual peer review (closing slides).
+Remind: the draft goes by email to the reviewer and the course lead (myluong1710\@gmail.com) by 23:59.
 :::
 
 ## 8.2  \|  20 minutes
@@ -560,11 +533,9 @@ From checklist to reviewers, and the traps on the way
 ::::
 
 ::: {.notes}
-Section 8.2 (20:30-20:50). Six slides, the 3-minute live demo at 20:36 and a 2-minute check at 20:48.
+Section 8.2 (20:30-20:50). About 2 minutes per slide, a 3-minute demo and a 2-minute check.
 
-Pace: about 2 minutes per slide. Point to the slide, give one example, move on.
-
-Link to the manuscripts: a FLUID-ICU paper would go through exactly this route: STROBE checklist, journal choice, submission package, peer review. Preprints, licences, what happens after acceptance and rejection are in the Extra slides.
+Preprints, licences, acceptance and rejection are in the extra slides.
 :::
 
 ## Reporting guidelines: choose by design
@@ -583,17 +554,11 @@ All checklists are free at the EQUATOR Network (equator-network.org). Name your 
 :::
 
 ::: {.notes}
-Teaching point: for each study design there is an internationally agreed reporting checklist. all of them are collected free at the EQUATOR Network (Enhancing the QUAlity and Transparency Of health Research).
+One reporting guideline per design, all free on the EQUATOR Network. Many journals require the checklist with page numbers.
 
-CONSORT for randomised trials (updated as CONSORT 2025), STROBE for observational studies (cohort, case-control, cross-sectional), STARD for diagnostic accuracy, PRISMA for systematic reviews, SPIRIT for trial protocols (SPIRIT 2025), CARE for case reports.
+Neither paper names its guideline.
 
-Running example: Paper 1 is an RCT (CONSORT). Paper 2 is a cohort (STROBE). Interesting finding from the annotated papers: neither paper names its guideline. Paper 1 does include the CONSORT flow diagram in the main text. Paper 2 keeps its flow chart in the supplement.
-
-Many journals require the completed checklist at submission, with page numbers.
-
-Misconception: 'reporting guidelines tell you how to do the study'. They tell you what to report, but reading them before you start is the best design checklist you will find.
-
-Poll: which guideline fits your own proposal? Expected: most ICU proposals are cohort or cross-sectional (STROBE). A few are trials (CONSORT, and SPIRIT for the protocol).
+Poll: which guideline fits your proposal? Expected: mostly STROBE.
 :::
 
 ## Choosing a journal: four checks
@@ -637,15 +602,13 @@ Decide the target journal before you write: it sets the rules.
 :::
 
 ::: {.notes}
-Teaching point: choose the journal at the start, because its Guide for Authors sets word limits, structure, checklist and registration rules.
+Choose the journal first: its Guide for Authors sets the rules.
 
-Fit: the people who need your answer (ICU nurses? intensivists?) decide the journal. Trust: indexed in MEDLINE/PubMed, the Directory of Open Access Journals (DOAJ), Scopus or Web of Science, with a clear peer-review and retraction policy.
+Trust: indexed in MEDLINE, DOAJ, Scopus or Web of Science. Cost: the article fee and waivers.
 
-Cost: many open-access journals charge an article-processing charge (APC). Ask about waivers and institutional agreements. Licence: Paper 1 is CC BY-NC-ND (share, but no adaptation or commercial use), Paper 2 is CC BY (re-use with attribution). CC = Creative Commons.
+Paper 1 took 7 weeks to acceptance, Paper 2 7 months.
 
-Speed: Paper 1 went from submission to acceptance in about 7 weeks (10 Sept to 31 Oct 2024). Paper 2 took about 7 months (15 Jan to 24 Aug 2023). Speed varies. It is not a sign of quality by itself.
-
-Ask (call on two or three people, microphone on): name one journal your unit reads regularly. That is often a sensible first target.
+Ask: name one journal your unit reads.
 :::
 
 ## Spot the predatory journal
@@ -657,15 +620,11 @@ Ask (call on two or three people, microphone on): name one journal your unit rea
 :::
 
 ::: {.notes}
-Teaching point: predatory journals take publication fees without providing real peer review, editing or indexing. Your work disappears into a journal nobody trusts, and you cannot submit it elsewhere.
+Predatory journals take fees without real peer review or indexing.
 
-Walk the five red flags on this (invented) e-mail: flattering mass e-mail from a free address. A vague, huge scope and a name that imitates a real journal. Impossibly fast review, fake or unknown 'impact' metrics. Fees hidden until after acceptance. Other flags: editorial board members who cannot be verified, no physical address, many spelling errors.
+Walk the five red flags on the invented e-mail. Checks: Think.Check.Submit, DOAJ, the NLM Catalog, the hospital librarian.
 
-Checks: Think.Check.Submit (a free checklist), DOAJ for open-access journals, the NLM Catalog (US National Library of Medicine) to see if a journal is really indexed in MEDLINE. Also ask the hospital librarian.
-
-Poll: did you receive an e-mail like this in the last month? Usually most say yes: every clinician who has published once receives them.
-
-The Session 8 exercise sheet (Part C) has a short 'spot the predatory journal' exercise for homework.
+Poll: did you get an e-mail like this last month?
 :::
 
 ## Live demo: find a checklist and check a journal
@@ -700,11 +659,9 @@ Watch for
 :::
 
 ::: {.notes}
-Demo (20:36-20:39), on the shared screen. Full script with offline fallback: Course/Demos/s8\_demo.md.
+Demo (20:36-20:39). Script and offline fallback: s8\_demo.md.
 
-Keep it to 3 minutes: EQUATOR home page, search box, CONSORT 2025 page, checklist and flow diagram, then STROBE. Then a DOAJ search for a journal title, and the NLM Catalog with the filter 'currently indexed in MEDLINE'. End on the Think.Check.Submit checklist. Paste the four web addresses in the chat.
-
-If your internet fails, use the screenshots described in the demo script.
+EQUATOR: CONSORT, then STROBE. DOAJ, then the NLM Catalog ('currently indexed in MEDLINE'). End on Think.Check.Submit. Paste the four addresses in the chat.
 :::
 
 ## The submission package
@@ -722,13 +679,13 @@ If your internet fails, use the screenshots described in the demo script.
 | Supplementary files | Protocol, extra tables, long flow charts |
 
 ::: {.notes}
-Teaching point: journals check the package before any scientific review. Missing items send the manuscript straight back.
+Journals check the package before any scientific review. Missing items send the paper back.
 
-Cover letter: one page covering why this journal, what is new, that the work is not under consideration elsewhere, and any preprint. Title page: all authors, affiliations, ORCID iDs (a free, permanent researcher identifier that every participant can register at orcid.org), corresponding author, word count. Manuscript in the journal's format (blinded if the journal uses double-blind review). Declarations: ethics approval number, consent, competing interests, funding, data availability, author contributions (CRediT) and AI use. Suggested reviewers: experts without conflicts. The editor decides whether to use them.
+ORCID iD: free, register at orcid.org.
 
-Running example: Paper 1 has a complete declarations block, exactly what the submission system asks for, item by item (annotation \#48). Templates: Course/Templates/Cover\_Letter\_Template.
+Paper 1 has a complete declarations block. Template: Cover\_Letter\_Template.
 
-Ask: who already has an ORCID iD? Encourage everyone to register this week.
+Ask: who already has an ORCID iD?
 :::
 
 ## The peer-review journey
@@ -777,13 +734,11 @@ Rejected? Improve the paper, then submit to another journal. Never to two at onc
 :::
 
 ::: {.notes}
-Walk the six steps. Submit (with cover letter, reporting checklist and declarations). The editor screens, and many papers are rejected here without review ('desk rejection') because they do not fit or are poorly reported. Two or three peer reviewers comment. The editor decides: accept, minor revision, major revision or reject. You revise and answer every comment point by point. Accepted, then proofs (read them carefully!) and publication.
+Submit, editor screen (desk rejection is common), 2 or 3 reviewers, decision, revision, acceptance.
 
-Running example: our annotators judged Paper 1 'minor revision' and Paper 2 'major revision'. Both were published, and both still contain errors a careful reviewer would have caught. Paper 1 took about 7 weeks from submission to acceptance. Paper 2 about 7 months.
+One journal at a time. After rejection, improve the paper and submit elsewhere.
 
-Rule: submit to one journal at a time. After rejection, improve the paper using the reviews, then submit elsewhere.
-
-Ask: a reviewer is wrong about something. What do you do? Expected: thank them, explain politely with evidence, and clarify the text so the next reader is not confused.
+Ask: a reviewer is wrong. What do you do? Expected: thank, explain with evidence, clarify the text.
 :::
 
 ## Responding to reviewers: the point-by-point table
@@ -821,15 +776,13 @@ Comment, response, and exactly where the paper changed. Illustrative rows built 
 :::
 
 ::: {.notes}
-Teaching point: the response letter is a table: every reviewer comment, your response, and exactly where the manuscript changed (page and line). Number the comments (R1.1, R1.2, R2.1 ...).
+The response letter is a table: comment, response, and where the paper changed.
 
-Tone: thank the reviewers, agree where you can, never ignore a point, never argue emotionally. When you disagree (a rebuttal), explain politely with evidence and, where possible, still clarify the text so the next reader is not confused.
+The three rows: accept, clarify, and a polite rebuttal for data never collected.
 
-The three rows are what the annotators say a reviewer would have asked Paper 1: remove the 'non-significant trend' (accept). Justify blocks of 2 (clarify and add a limitation). A request for an outcome that was never collected (polite rebuttal: you cannot add data that do not exist, but you can name it as a limitation).
+Common mistakes: 'done' with no detail, changes without a location.
 
-Common mistakes: changing the manuscript without saying where. Answering 'done' with no detail. accepting a request that makes the paper wrong just to please the reviewer.
-
-Template: Course/Templates/Response\_to\_Reviewers\_Template. Participants use this format when they answer their peer reviewer after the course.
+Participants use Response\_to\_Reviewers\_Template after their peer review.
 :::
 
 ## Check: true or false?
@@ -862,11 +815,9 @@ Answers
 ::::
 
 ::: {.notes}
-Check (20:48-20:50). One true/false poll per statement. Reveal.
+Check (20:48-20:50). One true/false poll each.
 
-Statement 1 is 'often true' rather than always. Real journals also invite papers, but a flattering mass e-mail from an unknown journal deserves the five-flag check.
-
-Statement 3: a preprint is a manuscript posted publicly (e.g. on medRxiv) before peer review (Extra slides).
+Statement 1 is 'often true'. Statement 3: a preprint is posted before peer review.
 :::
 
 ---
@@ -880,13 +831,9 @@ Statement 3: a preprint is a manuscript posted publicly (e.g. on medRxiv) before
 :::
 
 ::: {.notes}
-The slide is only a picture on purpose. Before the break, say: we are back at 21:05 for 8.3, be the reviewer (25 min), then the proposal presentations (45 min) and the closing (15 min). During the break, open Paper 1 and Paper 2 (original PDFs) and the Session 8 exercise sheet, Part D (the answer grid). Presenters: check that your slides reached the instructor.
+Break (20:50-21:05). Say: we restart at 21:05 with 8.3, then presentations and closing. Open Paper 1, Paper 2 and Part D of the exercise sheet.
 
-Break (20:50-21:05).
-
-Open the presenters' slides on your computer and check you can share each one. Confirm the running order by chat with the volunteers.
-
-Prepare your screen for 8.3: Paper 1 and Paper 2 (original, unannotated PDFs) in two tabs.
+Check you can share each presenter's slides.
 :::
 
 ## 8.3  \|  25 minutes
@@ -902,19 +849,17 @@ The whole class appraises Paper 1 and Paper 2 together
 ::::
 
 ::: {.notes}
-Section 8.3 (21:05-21:30). Full instructor guide: Course/Resources/appraisal\_instructor\_guide.md (model answers, prompts, key messages).
+Section 8.3 (21:05-21:30). Guide with model answers: appraisal\_instructor\_guide.md.
 
-Structure: 3 minutes set-up (two papers, the 10 questions), 15 minutes whole-class appraisal with polls, 7 minutes on what each design may claim.
+3 minutes set-up, 15 minutes appraisal with polls, 7 minutes on what each design may claim.
 
-Why now: after the course each participant reviews one peer's FLUID-ICU draft with the same 10 questions. This is the rehearsal.
-
-Reassure: 'Can't tell' is a perfectly good answer if the paper does not say.
+The reviewing skills return in the peer review of the Results sections, which uses the Results checklist in Peer\_Review\_Instructions.
 :::
 
 ## Two papers, one question
 
 ::: {.neu-intro}
-Same clinical question (fluids in septic shock), two designs. Both PDFs: Course/Papers.
+Same clinical question (fluids in septic shock), two designs. Both PDFs were sent by email.
 :::
 
 :::: {.neu-cards style="--n:2"}
@@ -941,11 +886,9 @@ Same clinical question (fluids in septic shock), two designs. Both PDFs: Course/
 :::
 
 ::: {.notes}
-Explain the set-up in one minute. Both papers address our running question (fluids in septic shock) with different designs. The whole class appraises both, with the same 10 questions (next two slides).
+Set-up (1 minute): same clinical question, two designs, the same 10 questions.
 
-Each participant keeps their own copy of the answer grid (Session 8 exercise sheet, Part D) and fills it in as we go: Yes / No / Can't tell, plus the page.
-
-Link to Session 4: the 10 questions are a simplified version of the formal risk-of-bias tools: RoB 2 for Paper 1, Newcastle-Ottawa (or the newer ROBINS-E) for Paper 2. We do not run the formal tools today.
+Each participant fills in their own answer grid (Part D): Yes, No or Can't tell, plus the page.
 :::
 
 ## The 10-question checklist (1-5)
@@ -982,11 +925,9 @@ Link to Session 4: the 10 questions are a simplified version of the formal risk-
 ::::
 
 ::: {.notes}
-The checklist, part 1. Read each question aloud once. Do not explain the answers.
+Read each question once. Do not give answers.
 
-Q1-Q2 are about the question and the design (Sessions 1-4). Q3 is about who was studied, external validity: would your patients be in this study? Q4 is about whether the groups were comparable at baseline (look at Table 1). Q5 is about blinding.
-
-Answers are Yes / No / Can't tell, plus the page.
+Q3 is external validity: would your patients be in this study? Q4: look at Table 1.
 :::
 
 ## The 10-question checklist (6-10)
@@ -1023,13 +964,7 @@ Answers are Yes / No / Can't tell, plus the page.
 ::::
 
 ::: {.notes}
-The checklist, part 2. Q6 and Q7 use what we learnt in Session 6: one primary outcome, an effect size with its 95% confidence interval.
-
-Q8 is the heart of today's exercise: are the words in the title, abstract and discussion as strong as the design allows? 'Caused' or 'impact' needs randomisation. Observational studies say 'associated'. And p = 0.42 is never a 'trend'.
-
-Q9: the authors' own limitations section, plus one they missed. Each paper has a clear one (see the instructor guide).
-
-Q10: clinical judgement. There is no single right answer, but a reason is needed.
+Q6 and Q7 use Session 6. Q8 is the heart of today: are the words as strong as the design allows? Q9: one limitation the authors missed. Q10: a reason is needed.
 :::
 
 ## Be the reviewer: the whole class appraises both papers
@@ -1065,11 +1000,11 @@ Where to look
 :::
 
 ::: {.notes}
-Whole-class appraisal (21:08-21:23). About 1.5 minutes per question. Read the question, show the page, run the poll, then call on one person to give the evidence with the microphone on. Type the class answer into the grid on the shared screen.
+Appraisal (21:08-21:23), about 1.5 minutes per question: read, show the page, poll, one person gives the evidence.
 
-The most useful prompts (more in the instructor guide): Paper 1: 'Who was not blinded, and who decided how much fluid the patients got?' (clinicians were unblinded and they prescribe the fluids that make up the outcome). 'Find p = 0.42 in the Discussion. What word did the authors use?' (page 10, 'non-significant trend'). Paper 2: 'Who decided which patients got more fluid?' (the doctors, and sicker patients receive more fluid: confounding by indication). 'Patients had to stay at least 3 days in the ICU. Who is missing?' (early deaths and early discharges: survivor bias).
+Key prompts: Paper 1, who was not blinded and who prescribed the fluid? Paper 2, who is missing when patients must stay 3 days?
 
-The remaining questions (1-3, 6 and 10) are homework on the answer grid: good practice for the peer review after the course.
+Questions 1-3, 6 and 10 are homework.
 :::
 
 ## What may each design claim?
@@ -1098,13 +1033,13 @@ The remaining questions (1-3, 6 and 10) are homework on the answer grid: good pr
 :::
 
 ::: {.notes}
-Plenary (21:23-21:30), with the next table.
+Plenary (21:23-21:30).
 
-Paper 1: chance decided who got the restrictive strategy, so known and unknown factors are balanced on average, so a randomised trial may make a causal claim. Its claim is negative: the strategy did not reduce day-5 fluid balance (difference 13.2 ml/kg, 95% CI -15.2 to 41.6, p = 0.42). But with 48 patients the CI is wide: this is 'no evidence of an effect', not 'evidence of no effect', and certainly not a 'trend'.
+Paper 1: randomised, may say 'did not reduce', but 48 patients: no evidence of an effect, not evidence of none, and no 'trend'.
 
-Paper 2: doctors decided how much fluid each patient got. Propensity matching balances only the factors that were measured. Sicker patients receive more fluid (confounding by indication, Session 4) and some severity is never fully measured. So the paper may say a positive balance on day 2 'is associated with' higher 28-day mortality (HR, hazard ratio, 2.13, 95% CI 1.48 to 3.06), not that it 'impacts' or 'shows' anything causal, although its title says 'Impact'.
+Paper 2: doctors decided the fluid, so 'is associated with', not 'impact'.
 
-Poll: if you had to change ICU practice tomorrow, which paper is stronger evidence for causation, and which tells you more about real-world risk? Expected: the RCT for causation (but it is a small pilot). The cohort for a large, real-world association that needs a trial to confirm.
+Poll: which paper is stronger for causation, which for real-world risk?
 :::
 
 ## The two papers side by side
@@ -1119,19 +1054,15 @@ Poll: if you had to change ICU practice tomorrow, which paper is stronger eviden
 | May claim | Did not reduce day-5 balance (small pilot) | Positive balance associated with death |
 
 ::: {.neu-table-caption}
-RCT = randomised controlled trial. Pages and details: Course/Resources/appraisal\_instructor\_guide.md
+RCT = randomised controlled trial. Pages and details: the trainers' appraisal guide
 :::
 
 ::: {.notes}
-Reveal this table at the end of the plenary as the summary, after the class has given its own answers, not before.
+Reveal this table only after the class has answered.
 
-Row by row: how the groups were made comparable. Who knew the allocation. The main effect with its CI. The limitation the authors missed (Paper 1: permuted blocks of 2 make the next allocation predictable when clinicians are unblinded, page 3. Paper 2: requiring at least 3 ICU days excludes patients who died or left early (survivor bias), page 2). The wording problem (Paper 1 page 10. Paper 2 title and page 4). And the claim each design supports.
+Four messages: design sets the verb, a wide CI means 'we don't know yet', published is not the same as correct, name the reporting guideline.
 
-Both papers are good, published papers in Q1 journals, and both have fixable flaws. That is the normal state of the literature, which is why appraisal is a clinical skill.
-
-Land the four messages: design sets the verb. A wide CI means 'we don't know yet'. Published is not the same as correct. Name the reporting guideline.
-
-Transition: 'Now it is time to hear some of your own proposals.'
+Transition: 'Now some of your own proposals.'
 :::
 
 ## Proposal presentations  \|  45 minutes
@@ -1147,13 +1078,11 @@ About 5 volunteers, 6 minutes each, then 2 minutes of feedback. Everyone submits
 ::::
 
 ::: {.notes}
-Presentations (21:30-22:15). About five volunteers present their own proposal (volunteers told the course lead by the Wednesday before Session 8): 5 x (6 minutes + 2 minutes feedback) = 40 minutes, then a 5-minute closing round in which you sum up the common strengths and problems seen in the submitted proposals and remind everyone of the deadlines. Show this slide and the scoring slide in the first minute.
+Presentations (21:30-22:15): about five volunteers, 6 minutes plus 2 minutes feedback, then a 5-minute closing round.
 
-Everyone, presenting or not, submits slides and the written proposal before 19:30 today (Course/Assignment/proposal\_brief.md).
+Everyone submits slides and the written proposal by email to the course lead (myluong1710\@gmail.com) before 19:30 today.
 
-The co-instructor keeps time and posts '2 min' at 4:00, '1 min' at 5:00 and 'Time' at 6:00 in the chat. The chair stops the talk at 6:30.
-
-Remind the class: the reviewing skills we just used now apply to our own proposals, but feedback is given the way you would like to receive it.
+The co-instructor posts '2 min', '1 min' and 'Time' in the chat. Stop the talk at 6:30.
 :::
 
 ## How proposals and presentations are scored
@@ -1167,17 +1096,13 @@ Remind the class: the reviewing skills we just used now apply to our own proposa
 | 16  Questions and discussion | Answers directly and honestly, names the limitations | 0-6 |
 
 ::: {.neu-table-caption}
-Written proposal (criteria 1-11, /70): everyone. Criteria 12-16 (/30): presenters only. Rubric: Course/Assignment/proposal\_rubric.md
+Written proposal (criteria 1-11, /70): everyone. Criteria 12-16 (/30): presenters only. Rubric: Proposal\_Rubric (sent by email with the proposal brief)
 :::
 
 ::: {.notes}
-Scoring: the written proposal (criteria 1-11 of Course/Assignment/proposal\_rubric.md, out of 70) is scored for every participant, after the course. Criteria 12-16 (6/4/2/0 points each, out of 30) score the presentation, and only for those who present. Non-presenters: the written subtotal is scaled to 100 (rule at the top of the rubric). Presenting never lowers anyone's score.
+The written proposal is scored for everyone after the course. Criteria 12-16 score the presentation, for presenters only. Presenting never lowers a score.
 
-Who scores the presentations: the instructors. Two or three people give feedback with the microphone on (two stars and a wish).
-
-Feedback in 2 minutes (Course/Assignment/presentation\_guide.md): call on two people to give two stars and a wish with the microphone on (45 seconds). instructor 1 minute (one strength, the most important improvement, one question). Presenter 15 seconds ('thank you', no defending). Fill in the feedback form at the end of the rubric and email it with the saved chat after the session.
-
-The score is feedback to help each participant polish the proposal for the ethics committee.
+Feedback in 2 minutes: two people give two stars and a wish, then the instructor, then the presenter says thank you.
 :::
 
 ## Proposal presentations
@@ -1215,15 +1140,11 @@ Running order
 :::
 
 ::: {.notes}
-Presentations (21:30-22:15). Share each presenter's slides from your computer, or let the presenter share their screen. Keep this slide up between presenters.
+Share each presenter's slides. Keep this slide up between talks.
 
-Instructor feedback: start with a genuine strength. Give the most important improvement for the written proposal or publication plan (usually design, outcome definition, feasibility or the choice of journal and guideline). One question if time allows.
+Feedback: a genuine strength, the most important improvement, one question if time allows. Check slide 6: journal, guideline, a calibrated title, author roles.
 
-Check slide 6 of each presenter: target journal and correct guideline (STROBE for a cohort, CONSORT for a trial), working title in calibrated words, author roles, one line of the abstract skeleton.
-
-Typical issues to watch for: outcome not measurable in routine data. A causal claim planned from an observational design (link back to the appraisal!). No plan for consent in sedated patients. unrealistic recruitment.
-
-If the session runs late, shorten the closing round, never the last presentations.
+If late, shorten the closing round, never the last talks. At 22:15 move to the closing.
 :::
 
 ## Extra slides  \|  Session 8
@@ -1239,7 +1160,7 @@ Use only if time allows, or for self-study
 ::::
 
 ::: {.notes}
-Extra: the slides after this divider are optional. Use them if time allows or point participants to them for self-study.
+Extra slides: optional, for a fast class or self-study.
 :::
 
 ## Key words of Session 8
@@ -1258,7 +1179,7 @@ Full glossary (English-Vietnamese): the PDF sent by email
 :::
 
 ::: {.notes}
-Extra: the key words of Session 8, for self-study. They also appear in the post-course quiz.
+Extra: the key words of Session 8, for self-study and the post-course quiz.
 :::
 
 ## Write it right: fix the spin, then draft your title
@@ -1293,13 +1214,11 @@ Publication plan (Part 4)
 :::
 
 ::: {.notes}
-Extra: optional 6-minute writing drill on the two papers (use it as homework). Worksheet: Course/Practicals/s8\_exercises.md, Part A.
+Extra writing drill (homework). Worksheet: s8\_exercises Part A.
 
-Spin sentence (Paper 1, page 10): 'considering the non-significant trend in fluid balance reduction in the optimized group, our approach ... remains worth exploring in a larger randomized controlled trial'. Model rewrite: 'The point estimate favoured the restrictive strategy, but the 95% CI was wide (-15.2 to 41.6 ml/kg) and included no effect. A larger trial would be needed to detect a smaller difference.'
+Model rewrite of Paper 1's 'trend': 'The point estimate favoured the restrictive strategy, but the 95% CI was wide (-15.2 to 41.6 ml/kg) and included no effect.'
 
-Title (Paper 2): 'Positive cumulative fluid balance during the first three ICU days and 28-day mortality in sepsis: a propensity score-matched cohort study'. Use 'association', not 'impact'.
-
-Own title: check 10-16 words, design stated, no value words. Abstract skeleton: Results are Expected results, so write the format, e.g. '28-day mortality, RR (95% CI)'.
+Paper 2's title: 'association', not 'impact'.
 :::
 
 ## Preprints, open access and licences
@@ -1335,11 +1254,7 @@ Own title: check 10-16 words, design stated, no value words. Abstract skeleton: 
 :::
 
 ::: {.notes}
-Extra. Preprints: a manuscript posted on a public server (for health research, medRxiv is the best known) before or during peer review. Benefits: speed, a public timestamp, early feedback. Risks: it has not been peer-reviewed, and the media or colleagues may treat it as established. Most journals accept submissions that were preprinted. Check the journal's policy first.
-
-Open access: gold OA means the journal makes the article free and usually charges an article-processing charge (APC). Both our papers are gold OA. Green OA means you deposit the accepted manuscript in a repository, often after an embargo.
-
-Licences (CC = Creative Commons): Paper 2 is CC BY (anyone may re-use and adapt with credit). Paper 1 is CC BY-NC-ND (share, but no adaptation or commercial use). This also matters when you want to re-use a figure in teaching.
+Extra. A preprint is posted before peer review: say so. Gold open access usually has a fee, green means a repository copy. Paper 2 is CC BY, Paper 1 CC BY-NC-ND.
 :::
 
 ## After acceptance: proofs, sharing, corrections
@@ -1377,13 +1292,7 @@ Licences (CC = Creative Commons): Paper 2 is CC BY (anyone may re-use and adapt 
 :::
 
 ::: {.notes}
-Extra. Teaching point: after acceptance the publisher sends proofs, often with a short deadline (days). Read them slowly: every number, every name and affiliation, every table and figure. This is the last chance.
-
-Running example: Paper 1 prints the whole 'Study protocol' paragraph twice: in the Methods (page 4) and again after the Conclusions (page 11). It is a duplication that should have been caught at proof stage (annotation \#45). Paper 2's affiliations have inconsistent capitalisation (\#42).
-
-Sharing: post the article as its licence and the journal's policy allow (Paper 2 is CC BY and allows re-use. Paper 1 is CC BY-NC-ND and allows no adaptation): institutional repository, a plain-language summary for patients and colleagues, a short talk in your department.
-
-Corrections: if you find an error after publication, contact the journal. A correction is honest, a retraction is for serious errors or misconduct.
+Extra. Read proofs as carefully as the data: Paper 1 prints its protocol paragraph twice. Share as the licence allows. Correct errors openly.
 :::
 
 ## Rejected? Resubmit smarter
@@ -1421,15 +1330,7 @@ Rejection is normal: most papers are rejected at least once.
 :::
 
 ::: {.notes}
-Extra: Teaching point: rejection is part of publishing, not a verdict on you. Many good papers are rejected once or twice before acceptance.
-
-Desk rejection: the editor declines without review, usually because the topic does not fit the journal or the reporting is poor. Re-target: choose a journal whose readers need your result.
-
-After peer review: read the reviews, wait a day before reacting, then fix what they found. The same reviewers are often invited by the next journal in the same field. An unchanged manuscript annoys them.
-
-Next journal: reformat to the new Guide for Authors. Some publishers offer to transfer the manuscript and reviews to a sister journal, which can save months. Appeal only if there is a clear factual error in the decision.
-
-Never submit to two journals at once (duplicate submission is misconduct).
+Extra. Rejection is normal. Desk rejection: re-target. After review: fix what the reviewers found before resubmitting. Never submit to two journals at once.
 :::
 
 ## Conference abstracts and posters
@@ -1441,13 +1342,7 @@ Never submit to two journals at once (duplicate submission is misconduct).
 :::
 
 ::: {.notes}
-Extra: Teaching point: a conference abstract is often the first output of a study. It follows the same IMRaD logic as the paper's abstract, usually 250-300 words, with real numbers and confidence intervals. An abstract that says 'results will be presented' is usually rejected. Follow the conference template and deadline.
-
-Poster: a billboard, not a paper on a wall. A short title that states the finding, a few words of background and methods (a flow chart), one big figure, a take-home message in one sentence, and a QR code linking to more detail. It should be readable from 2 metres.
-
-Presenting an abstract does not normally prevent publication of the full paper, but check the journal's policy. Do write the full paper: many abstracts never become publications.
-
-A conference abstract template is in Course/Templates/Conference\_Abstract\_Template.
+Extra. A conference abstract has real numbers and CIs, never 'results will be presented'. A poster is a billboard: one message, one figure, readable from 2 metres. Template: Conference\_Abstract\_Template.
 :::
 
 ## From question to publication: what you can now do
@@ -1482,11 +1377,11 @@ A conference abstract template is in Course/Templates/Conference\_Abstract\_Temp
 ::::
 
 ::: {.neu-takeaway}
-**KEY MESSAGE** Next: submit your proposal and your manuscript, then review one peer's draft.
+**KEY MESSAGE** Next: submit your proposal and your Results section, then review one peer's draft.
 :::
 
 ::: {.notes}
-Extra: a one-slide summary of Sessions 7-8 for self-study. The closing slides cover what the whole course built.
+Extra: one-slide summary of Sessions 7-8 for self-study.
 :::
 
 # Closing: what you built and what happens next
@@ -1496,13 +1391,11 @@ Extra: a one-slide summary of Sessions 7-8 for self-study. The closing slides co
 - Post-course quiz (the same 24 questions)
 - What you built in eight sessions
 - Course evaluation
-- After the course: submit, then review one peer's manuscript
+- After the course: submit, then review one peer's Results section
 - Next steps
 
 ::: {.notes}
-Closing (22:15-22:30), the last 15 minutes of Session 8. Keep it brisk and positive.
-
-Thank the volunteers who presented, and everyone who submitted slides, before starting the quiz.
+Closing 22:15-22:30. Keep it brisk. Thank the presenters and everyone who submitted.
 
 Paste the links to the post-course quiz and the evaluation form in the chat.
 :::
@@ -1525,11 +1418,9 @@ QUICK QUIZ · 8 min
 :::
 
 ::: {.notes}
-Post-course quiz (22:15-22:23), the same Google Form as in Session 1. The full name matches the two attempts.
+Same Google Form as Session 1. The full name matches the two attempts. Participants see no score.
 
-The trainers see the results at once in the Responses tab and the linked results sheet. Participants see no score.
-
-Later: report the mean pre/post change in the course report (answer key: Course/Assessment).
+Timing: 8 minutes.
 :::
 
 ## What you built in eight sessions
@@ -1558,25 +1449,25 @@ Later: report the mean pre/post change in the course report (answer key: Course/
 ::: {.neu-step style="--c:#0070C0"}
 [Write]{.neu-step-label}
 
-- Methods, Results
-- Introduction, Discussion, Abstract
+- A Results section
+- Optional: Methods, Introduction, Discussion, Abstract
 :::
 ::: {.neu-step style="--c:#055F56"}
 [Publish]{.neu-step-label}
 
 - Your own proposal
-- Your own draft manuscript
+- Your own Results section
 :::
 ::::
 
 ::: {.neu-takeaway}
-**KEY MESSAGE** Each of you leaves with a research proposal and a draft paper.
+**KEY MESSAGE** Each of you leaves with a research proposal and a Results section ready to submit.
 :::
 
 ::: {.notes}
-What you built (1 minute). Each participant has a proposal they could take to the ethics committee and a draft paper. CRF = case report form.
-
 Ask two or three people: what is your next step with your proposal?
+
+Timing: 1 minute.
 :::
 
 ## Course evaluation
@@ -1596,45 +1487,51 @@ INDIVIDUAL TASK · 2 min
 :::
 
 ::: {.notes}
-Evaluation (2 minutes). Short anonymous online form, link in the chat. The pace question matters most.
+Anonymous form, link in the chat. The pace question matters most.
+
+Timing: 2 minutes.
 :::
 
 ## After the course: peer review like real authors
 
 :::: {.neu-steps}
 ::: {.neu-step style="--c:#0D7377"}
-[Tonight]{.neu-step-label}
+[Session 7]{.neu-step-label}
 
-- Submit your complete draft by 23:59
-- Course folder or email
+- Your reviewer is assigned at random
 :::
 ::: {.neu-step style="--c:#0B376C"}
-[2 days]{.neu-step-label}
+[Tonight]{.neu-step-label}
 
-- The course lead sends you one peer's draft to review
+- Email your Results draft by 23:59
+- To your reviewer and the course lead
 :::
 ::: {.neu-step style="--c:#5FA39B"}
-[Week 1]{.neu-step-label}
+[2 weeks]{.neu-step-label}
 
 - Send your review report
-- Use the 10-question checklist
+- Use the Results checklist
 :::
 ::: {.neu-step style="--c:#0070C0"}
-[Week 2]{.neu-step-label}
+[4 weeks later]{.neu-step-label}
 
-- Revised draft and response letter
-- Use the response-to-reviewers template
+- Revised Results section
+- Response to reviewers
 :::
 ::::
 
 ::: {.neu-takeaway}
-**KEY MESSAGE** Individual homework: everyone reviews one draft and receives one review.
+**KEY MESSAGE** Everyone reviews one Results draft and receives one review.
 :::
 
 ::: {.notes}
-Peer review (2 minutes), individual homework. Each draft is reviewed exactly once, where possible by someone on a different question.
+Each draft is reviewed once. Reviewers were assigned at random and announced in Session 7.
 
-Reviews follow Course/Assignment/peer\_review\_instructions.md and the 10-question checklist from 8.3. Authors reply with Course/Templates/Response\_to\_Reviewers\_Template.
+Submissions go by email to myluong1710\@gmail.com. Review report due 2 weeks after Session 8. Revised Results section and response to reviewers due 4 weeks after the review.
+
+Files: Peer\_Review\_Instructions and Response\_to\_Reviewers\_Template.
+
+Timing: 2 minutes.
 :::
 
 ## What comes next
@@ -1658,9 +1555,9 @@ Reviews follow Course/Assignment/peer\_review\_instructions.md and the 10-questi
 ::: {.notes}
 Presenting is not required.
 
-Level 2: statistical modelling in R (linear, logistic, count and Cox models) with an individual analysis project. Level 3: advanced methods on request. Details in Course\_Levels/.
-
 Post the trainers' contact details in the chat.
+
+Timing: 2 minutes.
 :::
 
 ---
@@ -1676,5 +1573,5 @@ Good questions. Sound designs. Honest analysis. Clear writing.
 ::::
 
 ::: {.notes}
-Thank the department leadership, the organisers and the participants. If everyone agrees, take a screenshot of the class with cameras on.
+Thank the leadership, organisers and participants. If everyone agrees, take a screenshot with cameras on.
 :::

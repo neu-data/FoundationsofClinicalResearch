@@ -6,7 +6,7 @@ title: "Buổi 6: Lời giải"
 
 **Nền tảng Nghiên cứu Lâm sàng · Cấp độ 1** · bản dành cho giảng viên (không phát trước buổi học)
 
-Số thứ tự bài tập theo `Practicals/s6_exercises_VN.md`. Mọi con số FLUID-ICU lấy từ `Course/Data/key_results.md` (dữ liệu mô phỏng).
+Số thứ tự bài tập theo `s6_exercises_VN.md`. Mọi con số FLUID-ICU lấy từ `Results_Pack_Q1–Q5` (dữ liệu mô phỏng).
 
 
 * * *
@@ -67,7 +67,7 @@ Câu hỏi thêm: **không**, nếu chỉ dựa vào tương quan. r cao nghĩa 
 
 ## Bài tập 4: [FLUID-ICU] Diễn giải phép so sánh (Q1 làm chung trong lớp; mỗi học viên làm cho câu hỏi mình chọn)
 
-Số liệu từ `Course/Data/key_results.md` (đều chưa hiệu chỉnh; dữ liệu mô phỏng).
+Số liệu từ `FLUID-ICU/key_results.md` (đều chưa hiệu chỉnh; dữ liệu mô phỏng).
 
 | Q | Kiểm định | Kết quả | Câu mẫu |
 |---|---|---|---|
@@ -140,7 +140,7 @@ Câu hỏi thêm (d): báo cáo kết quả chính cộng với phân tích **tr
 
 ## Bài tập 8: [FLUID-ICU] Diễn giải mô hình (Q1 làm chung trong lớp; mỗi học viên làm cho câu hỏi mình chọn)
 
-Số liệu từ `Course/Data/key_results.md` (dữ liệu mô phỏng).
+Số liệu từ `FLUID-ICU/key_results.md` (dữ liệu mô phỏng).
 
 | Q | Thô | Hiệu chỉnh (trường hợp đầy đủ, n = 527 trừ khi ghi khác) | Quy gán đa bội (từ gói kết quả) |
 |---|---|---|---|

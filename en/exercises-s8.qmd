@@ -8,23 +8,23 @@ title: "Session 8: Exercise sheet"
 
 Name: ______________________________   Department: ______________________________
 
-This sheet is sent by email before the session, as a Word file and as a PDF. Keep it open on your screen and type your answers into the Word file (or print the PDF). In class the whole group works together: you answer in the chat or in polls, and the instructor writes the class answer on the shared screen. The writing you hand in is your own.
+Type your answers into this Word file or print the PDF.
 
 | Part | Exercise | When | How |
 |---|---|---|---|
 | A | Writing exercises: fix the spin, verb ladder, results sentence, title from PICO | homework | Alone |
-| B | **Manuscript workshop 2**: Introduction, Discussion, Abstract, Title | 20:00 (30 min) | 22 min whole class on Q1, then 8 min on your own aim and title; finish tonight |
+| B | **Manuscript workshop 2**: improve your Results section | 20:00 (30 min) | 22 min whole class on Q1, then 8 min on your own draft and title. Send it tonight |
 | C | Getting published: spot the predatory journal; responding to reviewers | homework | Alone |
 | D | **Answer grid: "Be the reviewer"** | 21:05 (25 min) | Whole class with polls; you fill in your own grid |
 
-Files you need (sent before the session; all in the course folder): Paper 1 (Boulet 2024, *Crit Care*, a randomised pilot trial of restrictive fluids in septic shock) and Paper 2 (Hyun 2023, *Ann Intensive Care*, a propensity-matched cohort of fluid balance and death in sepsis), original PDFs in `Course/Papers`; the class Q1 draft from Session 7 (PDF); your own Methods and Results draft and the results pack for your question.
+Files you need (sent by email): the original PDFs of Paper 1 (Boulet 2024) and Paper 2 (Hyun 2023), the class Q1 Results from Session 7 (PDF), your own Results draft and your results pack.
 
 
 * * *
 
 ## Part A: Writing exercises (homework)
 
-Use these to practise after the session, before you finish your manuscript.
+Practice for after the session.
 
 ### A1. Fix the spin
 Rewrite each sentence so it says only what the data and the design allow.
@@ -66,39 +66,37 @@ Word count: ____  Design named? ☐  Calibrated verb (association for observatio
 
 * * *
 
-## Part B: Manuscript workshop 2: complete the draft (30 minutes, 20:00)
-
-Today the Introduction, Discussion, Abstract and Title are added, and the draft is complete. We give you the results; you write the paper.
+## Part B: Manuscript workshop 2: improve your Results section (30 minutes, 20:00)
 
 ### How the 30 minutes are used
 | Clock | Who | Task |
 |---|---|---|
-| 20:00–20:06 | Whole class, on Q1 | **Introduction**: three paragraphs (known, not known, aim). You suggest sentences in the chat; the instructor types them into the class draft. |
-| 20:06–20:15 | Whole class | **Discussion**: six moves (answer, compare, explain, limitations with direction, implications, conclusion). |
-| 20:15–20:20 | Whole class | **Abstract**: Background / Methods / Results / Conclusions, numbers copied from the class Results. |
-| 20:20–20:22 | Whole class | **Title** and verb check: every "cause", "impact", "effect of" and "show" becomes "associated with". |
-| 20:22–20:30 | You, alone | Write the aim sentence and the title for YOUR question. Paste your title in the chat. |
-| Tonight, by 23:59 | You | Add your Introduction (~350 words), Discussion (~600 words), Abstract (≤ 250 words) and Title + 3–6 keywords, and submit the complete draft. |
+| 20:00–20:06 | Whole class, Q1 | **Numbers**: every number in the class Q1 Results against results pack Q1 |
+| 20:06–20:11 | Whole class | **Tables and figure**: title, units, n, abbreviations. Does each stand alone? |
+| 20:11–20:16 | Whole class | **Words**: no interpretation, no "trend", no causal verbs |
+| 20:16–20:19 | Whole class | **Working title**: design stated, "associated" |
+| 20:19–20:22 | Whole class | **The optional parts**: what an Introduction, Discussion and Abstract would add |
+| 20:22–20:30 | You | Run the same checks on your own draft. Write your working title and paste it in the chat |
+| Tonight, by 23:59 | You | Final check, then email your Results section |
 
-The completed class draft for Q1 is shared as a PDF after the session. If you chose Q1, write your paper in your own words; do not copy the class draft.
+The improved class Q1 Results are sent as a PDF after the session.
 
-### Discussion: six moves checklist
-- [ ] **1 Answer**: first sentence answers the question with the main number (adjusted estimate + 95% CI)
-- [ ] **2 Compare**: with Paper 2 and at least one other study, and why results may differ
-- [ ] **3 Explain**: one short paragraph on mechanism / plausibility
-- [ ] **4 Limitations**: observational design (residual confounding, especially severity), simulated teaching data, missing data, single time point… each with its likely *direction*
-- [ ] **5 Implications**: for practice (cautious) and research (e.g. a randomised trial such as Paper 1)
-- [ ] **6 Conclusion**: one sentence, same verb and message as the abstract and title
+### Final check before you send
+- [ ] Every number agrees with your results pack
+- [ ] Percentages with denominators, estimates with 95% CIs
+- [ ] Crude and adjusted estimates both reported
+- [ ] Table 1 and one main table or figure that stand alone
+- [ ] No interpretation and no causal words
+- [ ] Working title, simulated-data sentence, AI-use statement
 
-### Question-specific reminders
-- **Q1:** crude and adjusted ORs differ. Explain confounding by indication in move 3 or 4.
-- **Q2:** acute kidney injury may also *cause* fluid accumulation (reverse causation). Say so.
-- **Q3:** ventilator-free days are skewed and count death as zero. Explain what the measure means.
-- **Q4:** compare complete-case and multiple-imputation estimates; say what the missing-data assumption (MAR, missing at random) means for your conclusion.
-- **Q5:** survivors only. Those who died are excluded, so say who the result applies to.
+### Optional parts
+If you have time, add any of these in the same file. Trainers give feedback on them.
+- **Introduction:** three paragraphs: known, not known, aim
+- **Discussion:** answer, compare (e.g. with Paper 2), explain, limitations with their direction, implications, conclusion
+- **Abstract:** structured, 250 words or fewer, numbers identical to your Results
 
 ### Deliverable
-Your complete draft (~2,000 words, template `Course/Templates/Manuscript_Template_IMRaD`) saved as `Surname_Manuscript_QN_draft.docx`, submitted **by 23:59 on the day of Session 8** (course folder or email to the course lead; see `Course/Assignment/manuscript_brief.md`). Then the individual peer review: within 2 days the course lead sends you one classmate's draft; you review it with the 10 questions of Part D and send your review within 1 week; you send your revised draft and a response letter (`Course/Templates/Response_to_Reviewers_Template`) within 2 weeks (`Course/Assignment/peer_review_instructions.md`).
+`Surname_Firstname_Results_QN.docx`, emailed to your reviewer and to the course lead (myluong1710@gmail.com) **by 23:59 tonight**. Then the peer review (`Peer_Review_Instructions.pdf`): your review is due on 2 January 2027, and your revised Results section and response letter (`Response_to_Reviewers_Template.docx`) on 30 January 2027.
 
 
 * * *
@@ -171,8 +169,6 @@ The whole class appraises **both** papers together. The instructor shows the rig
 | 21:08–21:23 | Whole-class appraisal with polls. Paper 1: questions 4, 5, 7, 8 and 9. Paper 2: questions 4, 5, 8 and 9. |
 | 21:23–21:30 | What may each design claim? The side-by-side summary. |
 | At home | Answer the remaining questions (1–3, 6 and 10) for both papers. |
-
-> **Why this matters:** after the course you use the **same 10 questions** to review one classmate's FLUID-ICU manuscript (individual peer review, 2 weeks).
 
 ### Where to look
 | Question | Paper 1 (RCT): pages | Paper 2 (cohort): pages |

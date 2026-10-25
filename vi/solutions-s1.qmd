@@ -6,7 +6,7 @@ title: "Buổi 1: Lời giải"
 
 **Nền tảng Nghiên cứu Lâm sàng · Cấp độ 1** · Neudata · *Bản dành cho giảng viên. Không chia sẻ trước buổi học.*
 
-Đây là các câu trả lời **mẫu**. Nhiều câu trả lời khác vẫn chấp nhận được: hãy khen những bài cụ thể, nhất quán và có thể thực hiện được. Khóa học diễn ra trực tuyến và cả lớp làm việc như một nhóm: dùng các ô "thế nào là tốt" khi đọc khung chat và khi gõ câu trả lời của lớp lên màn hình chia sẻ.
+Đáp án mẫu. Câu trả lời khác vẫn được chấp nhận nếu cụ thể và nhất quán.
 
 
 * * *
@@ -24,8 +24,7 @@ title: "Buổi 1: Lời giải"
 
 **Điểm thảo luận (khung chat)**
 - Điều gì có thể làm C yếu hơn B? Cỡ mẫu rất nhỏ, mất theo dõi nhiều, che giấu phân bổ kém, kết cục không quan trọng với người bệnh, hoặc đối tượng khác với người bệnh của bạn.
-- Vì sao B và C có thể mâu thuẫn? Trong nghiên cứu thuần tập, người bệnh nặng hơn được truyền nhiều dịch hơn, nên dịch có thể trông như có hại dù thực ra không. Đây là **nhiễu do chỉ định** (dạy ở Buổi 4). Phân bổ ngẫu nhiên loại bỏ được điều này.
-- Tháp bằng chứng xếp hạng **thiết kế**, không xếp hạng từng bài báo. Vẫn phải kiểm tra chất lượng (Buổi 8).
+- Vì sao B và C có thể mâu thuẫn? Người bệnh nặng hơn được truyền nhiều dịch hơn: **nhiễu do chỉ định** (Buổi 4).
 
 
 * * *
@@ -59,7 +58,7 @@ Lỗi thường gặp: chọn "sốc nhiễm khuẩn" làm kết cục. Sốc đ
 
 ## Bài tập 1 (cả lớp): cứu ví dụ xuyên suốt
 
-Dùng phiên bản cả lớp đã chọn khi bình chọn. Nếu kết quả bình chọn chia đều, làm phiên bản A. Giả thuyết được dạy ở phần 1.3 (Bài tập 2), nên ở đây lớp chưa viết H0 và H1.
+Nếu bình chọn chia đều, làm phiên bản A. Chưa viết H0 và H1 ở đây (học ở phần 1.3).
 
 ### Phiên bản A: thử nghiệm thí điểm (thực nghiệm, PICO)
 
@@ -118,16 +117,16 @@ FINER: F xanh (phiếu theo dõi thường quy) · N vàng (số liệu tại ch
 
 **Thế nào là tốt**
 - H0 luôn phát biểu "không có khác biệt / không có mối liên quan".
-- H1 thường viết là "có khác nhau" (theo bất kỳ chiều nào), kể cả khi chúng ta kỳ vọng có lợi, vì can thiệp cũng có thể gây hại. Kiểm định một phía và hai phía được dạy ở Buổi 6.
+- H1 thường viết là "có khác nhau" (theo bất kỳ chiều nào).
 - Giả thuyết dùng **cùng** kết cục và thời điểm với mục tiêu chính.
-- Sửa quan niệm sai: dữ liệu có thể **bác bỏ** H0 hoặc **không bác bỏ** H0; chúng ta không bao giờ "chứng minh H0". "Không có khác biệt có ý nghĩa thống kê" không có nghĩa là "không có khác biệt" (Bài báo 1, n = 48, không thể phát hiện khác biệt về tử vong vì không được thiết kế đủ lực cho kết cục này).
+- Dữ liệu có thể **bác bỏ** H0 hoặc **không bác bỏ** H0, nhưng không bao giờ chứng minh H0.
 
 
 * * *
 
 ## Bài tập 3 (cá nhân): Xây dựng đề cương 1, thế nào là tốt
 
-Giảng viên làm mẫu Phần 1 trên màn hình với phiên bản thí điểm (A) của ví dụ xuyên suốt; sau đó mỗi học viên viết Phần 1 cho câu hỏi của mình. Dùng bài mẫu này làm chuẩn chất lượng, không phải làm đáp án. Tài liệu tham khảo, đặt vấn đề và tên đề tài được thêm vào thứ Bảy tuần sau (Buổi 2).
+Giảng viên làm mẫu Phần 1 trên màn hình với phiên bản A của ví dụ xuyên suốt.
 
 **PICO(T):** P người lớn bị sốc nhiễm khuẩn trong vòng 24 giờ sau khi bắt đầu thuốc vận mạch · I quy trình hạn chế dịch · C chăm sóc thường quy · O cân bằng dịch tích lũy (ml/kg) · T ở ngày 5.
 
@@ -194,8 +193,6 @@ Mẫu cho ví dụ xuyên suốt: **P** septic shock · sepsis · vasopressor-de
 | 2 | **Ethical (đạo đức)** | Trì hoãn kháng sinh trong sốc nhiễm khuẩn gây hại; không có thế cân bằng (equipoise). Hội đồng đạo đức sẽ từ chối. |
 | 3 | **Novel (mới)** | Câu trả lời đã được đo hằng tháng. Đây là câu hỏi đánh giá thực hành (audit) hơn là câu hỏi nghiên cứu, nên hãy dùng dữ liệu sẵn có. |
 | 4 | **Relevant (phù hợp)** (và Interesting) | Không có cơ chế hợp lý và không ảnh hưởng đến thực hành. |
-
-Các câu này cũng có trên một slide bổ sung ("Luyện thêm: chữ cái FINER nào không đạt?").
 
 ### C. Giả thuyết
 

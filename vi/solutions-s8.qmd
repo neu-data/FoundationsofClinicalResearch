@@ -4,7 +4,7 @@ title: "Buổi 8: Lời giải"
 
 [Tải bản PDF](files/sessions/s8_solutions_VN.pdf) · [Quay lại Buổi 8](session8.qmd)
 
-Đáp án cho `Course/Practicals/s8_exercises_VN.md` (phiếu bài tập Buổi 8), Phần A–C. Đáp án mẫu cho phần thẩm định (Phần D) nằm trong `Course/Resources/appraisal_instructor_guide.md`. Số liệu trong Phần B lấy từ `Course/Data/key_results.md` (dữ liệu MÔ PHỎNG).
+Đáp án cho `s8_exercises_VN.md` (phiếu bài tập Buổi 8), Phần A–C. Đáp án mẫu cho phần thẩm định (Phần D) nằm trong `appraisal_instructor_guide.md`. Số liệu trong Phần B lấy từ `Results_Pack_Q1–Q5` (dữ liệu MÔ PHỎNG).
 
 
 * * *
@@ -37,11 +37,21 @@ a: **được ghi nhận ở** (loạt ca bệnh) · b: **có liên quan với**
 
 * * *
 
-## Phần B: Thực hành bản thảo 2: Đặt vấn đề, Bàn luận, Tóm tắt và Tiêu đề mẫu cho Q1
+## Phần B: Thực hành bản thảo 2: hoàn thiện phần Kết quả, và mẫu cho các phần không bắt buộc
 
-Dùng để định hướng bản nháp của lớp trong phần 1 của buổi thực hành (không dán nguyên văn). Học viên chọn Q2–Q5 theo cùng cấu trúc với gói kết quả của mình.
+### Hoàn thiện phần Kết quả Q1 của lớp (phần 1 của buổi thực hành)
+| Kiểm tra | Cách sửa điển hình trong bản nháp của lớp |
+|---|---|
+| Mọi con số khớp với gói kết quả Q1 | Sửa theo gói kết quả, ví dụ 134/373 (35.9%) |
+| Tỷ lệ phần trăm có mẫu số | "35.9%" thành "134 trên 373 (35.9%)" |
+| Có cả ước lượng thô và đã hiệu chỉnh | OR thô 2.49 (1.70 đến 3.70), hiệu chỉnh 1.62 (1.02 đến 2.59), n = 527 |
+| Bảng tự đọc hiểu được | Tên bảng nêu ai và khi nào, n mỗi cột, đơn vị, chú thích SOFA và IQR |
+| Không diễn giải | Xóa "vì người bệnh nặng hơn được truyền nhiều dịch hơn" |
+| Tên bài dự kiến | "Cân bằng dịch dương đến ngày 3 và tử vong 28 ngày ở người bệnh nhiễm khuẩn huyết: một nghiên cứu thuần tập đa trung tâm" |
 
-Mọi con số lấy từ `Course/Data/key_results.md` và gói kết quả Q1 (**DỮ LIỆU MÔ PHỎNG**). Tài liệu tham khảo để dạng giữ chỗ [n]; học viên dùng các tài liệu tham khảo từ Buổi 1–2 và Bài báo 1–2.
+Các mẫu dưới đây dành cho các phần không bắt buộc. Dùng để cho thấy mỗi phần bổ sung gì (không dán nguyên văn). Học viên chọn Q2–Q5 theo cùng cấu trúc với gói kết quả của mình.
+
+Mọi con số lấy từ `Results_Pack_Q1–Q5` và gói kết quả Q1 (**DỮ LIỆU MÔ PHỎNG**). Tài liệu tham khảo để dạng giữ chỗ [n]; học viên dùng các tài liệu tham khảo từ Buổi 1–2 và Bài báo 1–2.
 
 ### Tiêu đề và từ khóa mẫu
 

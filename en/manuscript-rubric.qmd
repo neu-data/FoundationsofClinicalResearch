@@ -2,89 +2,79 @@
 title: "Manuscript rubric"
 ---
 
+*Shared by email at the end of Session 6.*
+
 Download: [Word](files/assignments/Manuscript_Rubric.docx) · [PDF](files/assignments/Manuscript_Rubric.pdf) · [Back to assignments](assignments.qmd)
 
 ## Foundations of Clinical Research · Level 1: From Clinical Question to Publication
 
 **Organisation:** Neudata (*#ClearDataClearImpact*)
-**Total:** 100 points: the manuscript itself 90 + peer review and response 10
-**Use with:** `manuscript_brief.md`, `peer_review_instructions.md`, the results pack for the question the participant chose (Q1 to Q5) and the STROBE checklist
+**Total:** 100 points: the Results section 80 + peer review and response 20
+**Use with:** `Manuscript_Brief.pdf`, `Peer_Review_Instructions.pdf` and the results pack for the participant's question (Q1 to Q5)
 
-> **The marks are formative.** They help each participant improve their paper and show instructors which writing skills need more time. Mark the **revised** manuscript (submitted with the response letter 2 weeks after Session 8). If no revision arrives, mark the draft and give 0 for criterion 10.
->
-> Mark **the writing, not the analysis.** The instructors did the analyses. We gave participants the results; the question is whether the participant reported and interpreted them correctly, clearly and honestly.
+> **The marks are formative.** Mark the **revised** Results section (due 30 January 2027). If no revision arrives, mark the draft and give 0 for criterion 9. Mark the writing, not the analysis: the instructors did the analyses.
 
 
 * * *
 
 ## How to score
 
-1. Open the results pack for the participant's question next to the manuscript and check the main numbers against it.
-2. For each criterion, choose the level that best describes the work and give its points. If the work sits between two levels, choose the lower one and note what would lift it.
-3. Write one comment for each criterion that loses points: what to change and where (page/line).
-4. Add the points. Use the bands at the end only to guide the overall comment.
+1. Open the results pack next to the manuscript and check the numbers.
+2. For each criterion, choose the level that fits best. Between two levels, choose the lower one.
+3. Write one comment for each criterion that loses points: what to change and where.
 
-**Levels:** **Excellent**: complete, correct, specific. **Good**: mostly complete and correct, minor gaps. **Needs work**: present but vague, incomplete or partly incorrect. **Missing**: absent or wholly incorrect.
-
-
-* * *
-
-## A. The manuscript (90 points)
-
-### Front matter and Introduction
-
-| Criterion | Excellent | Good | Needs work | Missing |
-|---|---|---|---|---|
-| **1. Title and abstract** (10) | Title names population, exposure, outcome and design. Structured abstract of 250 words or fewer; Results give the main effect with 95% CI; conclusion matches the design. **10** | Minor gaps (e.g. design not in the title, CI missing for one estimate). **7** | Abstract unstructured, over length, missing the main number, or conclusion stronger than the data. **3** | Absent. **0** |
-| **2. Introduction** (10) | Funnel in about 3 paragraphs: what is known (cited), the gap, a clear aim that matches the chosen question (Q1 to Q5). About 350 words. **10** | Clear but long, or the gap is only implied. **7** | Mostly general background; aim missing or different from the analysis. **3** | Absent. **0** |
-
-### Methods and Results
-
-| Criterion | Excellent | Good | Needs work | Missing |
-|---|---|---|---|---|
-| **3. Methods** (15) | Design, setting, participants (eligibility), variables with definitions (exposure, outcome, confounders), data sources and cleaning, bias, study size, statistical methods (crude and adjusted models, missing data, software), the simulated-data statement. Enough detail to repeat. **15** | One or two STROBE items thin (e.g. confounders not justified). **10** | Vague ("data were analysed statistically"); methods do not match the results pack. **5** | Absent. **0** |
-| **4. Results** (15) | Participants first (flow, n analysed); descriptive data; main result as effect size with 95% CI (crude and adjusted); secondary or sensitivity results; numbers with denominators; no interpretation; numbers agree with the results pack. **15** | Correct but with minor omissions (e.g. crude estimate missing) or one inconsistency. **10** | p-values without effect sizes; interpretation in Results; several numbers disagree with the pack. **5** | Absent. **0** |
-| **5. Tables and figures** (10) | Table 1 plus one or two tables or figures that stand alone: informative title, units, n per column, abbreviations explained, sensible decimals; the figure type suits the data (e.g. Kaplan-Meier, box plot, forest plot). **10** | Clear, with minor formatting gaps. **7** | Cannot be read without the text; wrong figure type (e.g. dynamite plot for skewed data); duplicated text. **3** | None. **0** |
-
-### Discussion and reporting quality
-
-| Criterion | Excellent | Good | Needs work | Missing |
-|---|---|---|---|---|
-| **6. Discussion** (15) | Six moves, in order: main finding in one or two sentences; comparison with other studies (incl. Paper 2); possible explanations; strengths and limitations (confounding, missing data, simulated single dataset, generalisability); implications for practice and research; conclusion. **15** | Most moves present; limitations brief. **10** | Repeats the Results; no comparison; limitations missing or token. **5** | Absent. **0** |
-| **7. Calibrated language** (5) | "Associated with" throughout; uncertainty acknowledged; no "trend" for non-significant results; conclusion no stronger than the design allows. **5** | One overstatement. **3** | Causal claims ("fluid causes death") or spin. **1** | Not applicable. **0** |
-| **8. STROBE adherence** (5) | Checklist completed with page numbers; items not applicable are justified; the manuscript actually contains what the checklist claims. **5** | Completed; a few items claimed but thin. **3** | Incomplete or not matching the text. **1** | Not submitted. **0** |
-| **9. References, length and presentation** (5) | 10 to 20 relevant references in consistent Vancouver style; main text about 2,000 words (plus or minus 10%); template used; CRediT statement, acknowledgement of the course and AI-use statement present. **5** | Minor problems (a few formatting errors, slightly over length). **3** | Inconsistent or unverifiable references; far over or under length; required statements missing. **1** | Not applicable. **0** |
-
-**Manuscript subtotal:** ______ / 90
+**Levels:** **Excellent**: complete and correct. **Good**: minor gaps. **Needs work**: vague, incomplete or partly wrong. **Missing**: absent or wholly wrong.
 
 
 * * *
 
-## B. Peer review and response to reviewers (10 points)
+## A. The Results section (80 points)
 
 | Criterion | Excellent | Good | Needs work | Missing |
 |---|---|---|---|---|
-| **10. Review given and response to reviewers** (10) | The participant's review of one classmate's draft is specific, constructive and uses the checklist. The response letter answers every comment point by point and politely (the comment, the reply, then the change with page/line). Disagreements are explained with reasons, and the revised manuscript shows the changes. **10** | Good review and response, but some answers vague ("done") or one comment not addressed. **7** | Review generic or rude; response defensive, or changes claimed but not made. **3** | No review and no response. **0** |
+| **1. Working title** (5) | Names population, exposure, outcome and design. "Associated", no "impact". **5** | One element missing. **3** | Vague or causal wording. **1** | Absent. **0** |
+| **2. Participants** (10) (STROBE 13) | Numbers enrolled, analysed and excluded at each step, with reasons. Survivors only for Q5. **10** | One step or reason missing. **7** | Only the total n. **3** | Absent. **0** |
+| **3. Descriptive data** (10) (STROBE 14) | One or two sentences on how the groups differed at baseline, with numbers. Missing data reported. **10** | Correct but missing data not mentioned. **7** | Repeats Table 1 row by row, or uses p-values. **3** | Absent. **0** |
+| **4. Main results** (20) (STROBE 15, 16) | Outcome numbers per group with denominators. Crude and adjusted estimates with 95% CI and the variables adjusted for. **20** | One element missing (e.g. crude estimate). **14** | p-values without effect sizes, or several numbers wrong. **6** | Absent. **0** |
+| **5. Other analyses** (10) (STROBE 17) | The sensitivity, imputation or subgroup results in the pack, reported correctly (Q4: both complete-case and imputed). **10** | Reported with one error. **7** | Mentioned without numbers. **3** | Absent. **0** |
+| **6. Tables and figure** (15) | Table 1 and one main table or figure that stand alone: title, units, n per column, abbreviations, sensible decimals. The figure suits the data. **15** | Minor formatting gaps. **10** | Cannot be read without the text, or wrong figure type. **5** | None. **0** |
+| **7. Reporting quality** (10) | No interpretation. Calibrated words. Numbers in text and tables agree with the pack. Template used. Simulated-data and AI-use statements present. **10** | One lapse. **7** | Interpretation or causal words in the Results, or a statement missing. **3** | Not applicable. **0** |
+
+**Results subtotal:** ______ / 80
+
+
+* * *
+
+## B. Peer review and response (20 points)
+
+| Criterion | Excellent | Good | Needs work | Missing |
+|---|---|---|---|---|
+| **8. Review given** (10) | Specific and constructive, uses the checklist, checks the numbers against the pack, page or line for each comment. **10** | Good but some comments vague. **7** | Generic or rude. **3** | No review. **0** |
+| **9. Response and revision** (10) | Every comment answered point by point (comment, reply, change and where). Disagreements explained. The changes are in the revised text. **10** | One comment unanswered or "done" without detail. **7** | Defensive, or changes claimed but not made. **3** | No response. **0** |
 
 **Total:** ______ / 100
 
-### Guide to overall comment
 
-| Total | Overall comment |
-|---|---|
-| 80 to 100 | A well-reported paper. The structure would pass a journal's technical check. |
-| 60 to 79 | A good draft. Revise the flagged sections. |
-| 40 to 59 | The core is there, but Results reporting or the Discussion needs substantial work. |
-| Below 40 | Major revision needed. Meet an instructor to go through the results pack again. |
+* * *
 
-### Common problems to look for (and comment on)
+## C. Optional sections (feedback only, no points)
 
-- Only the adjusted OR reported, so readers cannot see that confounding by severity shrank the association (or only the crude OR).
-- "Positive fluid balance increased mortality": causal language from a cohort.
-- p-values without effect sizes or 95% CIs; "p = 0.000"; percentages without denominators.
-- Methods describe analyses that are not in the results pack, or Results report analyses not described in the Methods.
-- Missing data not mentioned (especially lactate), or the complete-case vs imputation comparison left uninterpreted (Q4).
-- Mean ± SD for a skewed outcome such as ICU length of stay or ventilator-free days (Q3, Q5).
-- Hazard ratio interpreted as a risk ratio; Kaplan-Meier tick marks read as deaths (Q1).
-- The simulated-data statement or the AI-use statement missing.
-- Discussion that repeats the Results or ignores Paper 2.
+If the participant sent Methods, Introduction, Discussion or Abstract, write two or three comments on each:
+
+- **Methods:** design, participants, variables, statistics and missing data match the results pack and the SAP.
+- **Introduction:** known, not known, aim. The aim matches the analysis.
+- **Discussion:** the six moves, limitations with their direction, conclusion no stronger than the design.
+- **Abstract:** structured, 250 words or fewer, numbers identical to the Results.
+
+
+* * *
+
+## Common problems
+
+- Only the adjusted OR, or only the crude OR.
+- "Positive fluid balance increased mortality": causal words from a cohort.
+- p-values without effect sizes, "p = 0.000", percentages without denominators.
+- Missing data not mentioned (especially lactate), or Q4 without both estimates.
+- Mean (SD) for a skewed outcome (Q3, Q5).
+- Hazard ratio read as a risk ratio (Q1).
+- Simulated-data or AI-use statement missing.

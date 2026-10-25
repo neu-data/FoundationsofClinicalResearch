@@ -8,15 +8,15 @@ title: "Session 7: Exercise sheet"
 
 Name: ______________________________   Department: ______________________________
 
-This sheet is sent by email before the session, as a Word file and as a PDF. Keep it open on your screen and type your answers into the Word file (or print the PDF). In class the whole group works together: you answer in the chat or in polls, and the instructor writes the class answer on the shared screen. The writing you hand in is your own.
+Type your answers into this Word file or print the PDF.
 
 | Part | Exercise | When | How |
 |---|---|---|---|
 | A | Integrity scenarios: green, amber or red? | 20:25 (5 min) | Whole class, polls: 3 scenarios in class, 3 at home |
 | B | Proposal builder 7: ethics, registration, feasibility, publication plan | 20:30 (15 min) | The instructor models it on the running example; you write your own Part 4 at home |
-| C | **Manuscript workshop 1**: Methods + Results of your FLUID-ICU paper | 21:35 (45 min) | 30 min whole class on Q1, then 15 min on your own question; finish at home |
+| C | **Manuscript workshop 1**: the Results section for your FLUID-ICU question | 21:35 (45 min) | 30 min whole class on Q1, then 15 min on your own question. Finish at home |
 
-Files you need (all in the course folder and sent before the session): the results pack for the question you chose (`Course/Data/results_packs/Results_Pack_Q1` to `Q5`); the manuscript template (`Course/Templates/Manuscript_Template_IMRaD`); Paper 1 (Boulet 2024, a randomised pilot trial of restrictive fluids in septic shock) and Paper 2 (Hyun 2023, a propensity-matched cohort of fluid balance and death in sepsis), both in `Course/Papers`.
+Files you need (sent by email): the results pack for your question (`Results_Pack_QN.pdf`), the manuscript template (`Manuscript_Template_IMRaD.docx`), Paper 1 (Boulet 2024) and Paper 2 (Hyun 2023).
 
 
 * * *
@@ -48,7 +48,7 @@ Write one sentence explaining your colour.
 
 **In class (20:30, 15 minutes):** the instructor fills in this worksheet live on the shared screen for the running example (a retrospective cohort of fluid balance and 28-day mortality in adults with septic shock in our ICU). You suggest answers in the chat.
 
-**At home this week:** fill it in for **your own** proposal. It becomes Part 4 of your written proposal and slides 5 (ethics and feasibility) and 6 (publication plan) of your presentation. Everyone submits the written proposal and the 6 slides before 19:30 on the day of Session 8 (`Course/Assignment/proposal_brief.md`).
+**At home this week:** fill it in for **your own** proposal. It becomes Part 4 of your written proposal and slides 5 (ethics and feasibility) and 6 (publication plan) of your presentation. Everyone submits the written proposal and the 6 slides by email before 19:30 on the day of Session 8 (`Proposal_Brief.pdf`).
 
 ### B1. Ethics and consent
 | Question | Your answer |
@@ -103,54 +103,46 @@ Biggest feasibility risk: ______________________  One fix: _____________________
 
 * * *
 
-## Part C: Manuscript workshop 1: Methods and Results (45 minutes, 21:35)
+## Part C: Manuscript workshop 1: the Results section (45 minutes, 21:35)
 
-### What you are doing
-Each participant writes the **Methods** and **Results** of their own short STROBE-guided paper on **one FLUID-ICU question**, using **only** the results pack for that question. We give you the results; you write the paper. Nobody calculates anything.
+You write the **Results section** for your FLUID-ICU question, using only your results pack. Methods, Introduction, Discussion and Abstract are optional (`Manuscript_Brief.pdf`).
 
 | Question | Topic | Results pack |
 |---|---|---|
-| Q1 | Positive fluid balance by day 3 and 28-day mortality | `Course/Data/results_packs/Results_Pack_Q1` |
-| Q2 | Cumulative fluid balance and acute kidney injury (AKI) | `Results_Pack_Q2` |
-| Q3 | Cumulative fluid balance and ventilator-free days | `Results_Pack_Q3` |
-| Q4 | Initial lactate and 28-day mortality; complete-case vs multiple imputation | `Results_Pack_Q4` |
-| Q5 | Fluid balance and ICU length of stay among survivors | `Results_Pack_Q5` |
-
-FLUID-ICU is a **simulated teaching dataset**. In your ethics sentence write: *"This analysis used a simulated teaching dataset; no ethics approval or consent was required."*
+| Q1 | Positive fluid balance by day 3 and 28-day mortality | `Results_Pack_Q1.pdf` |
+| Q2 | Cumulative fluid balance and acute kidney injury (AKI) | `Results_Pack_Q2.pdf` |
+| Q3 | Cumulative fluid balance and ventilator-free days | `Results_Pack_Q3.pdf` |
+| Q4 | Initial lactate and 28-day mortality, complete case vs multiple imputation | `Results_Pack_Q4.pdf` |
+| Q5 | Fluid balance and ICU length of stay among survivors | `Results_Pack_Q5.pdf` |
 
 ### How the 45 minutes are used
 | Clock | Who | Task |
 |---|---|---|
-| 21:35–21:50 | Whole class, on Q1 | The instructor shares the template and results pack Q1. You suggest each Methods sentence in the chat; the instructor types the best one. |
-| 21:50–22:02 | Whole class, on Q1 | Results: participants first, the Table 1 sentence, outcome numbers, crude and adjusted estimates. |
-| 22:02–22:05 | Whole class | A volunteer reads every number in the class draft against the pack. |
-| 22:05–22:20 | You, alone | Open the results pack for YOUR question. Follow the structure of the class draft and start your Methods. Ask questions in the chat. |
-| At home | You | Finish the Methods and Results (~600 words), Table 1 and one figure or table. If you chose Q1, write it in your own words; do not copy the class draft. |
+| 21:35–21:45 | Whole class, Q1 | Participants and the Table 1 sentence. You suggest sentences in the chat. The instructor types the best one |
+| 21:45–21:57 | Whole class, Q1 | Deaths per group, crude and adjusted OR with 95% CI |
+| 21:57–22:02 | Whole class, Q1 | Other analyses: Cox model and multiple imputation |
+| 22:02–22:05 | Whole class | A volunteer checks every number against the pack |
+| 22:05–22:20 | You | Start the Results for YOUR question, following the class draft |
 
-The class draft is shared as a PDF after the session.
+The class draft is sent as a PDF after the session. If you chose Q1, write it in your own words.
 
-### Methods: headings and checklist (STROBE items in brackets)
-- **Study design and setting** (4, 5): prospective multicentre cohort; 4 ICUs; dates as given in the pack.
-- **Participants** (6): who was included and excluded; how many.
-- **Variables** (7): exposure (how fluid balance was calculated and over which days), outcome (definition and time point), confounders adjusted for.
-- **Data sources** (8): routine ICU charts / study case report form.
-- **Bias** (9): how confounding by indication was addressed (adjustment for severity).
-- **Study size** (10): "all eligible patients in the cohort were included" (no new sample size for a fixed dataset).
-- **Statistical analysis** (12): summary statistics; the test for each comparison; the regression model(s) and which variables; how missing data were handled; software (R, version from the pack); reporting of 95% CIs.
-
-### Results checklist
-- [ ] Participants first: number analysed (and excluded, with reasons) (13)
-- [ ] Table 1 summarised in one or two sentences: how the groups differed at baseline (14)
-- [ ] Outcome numbers per group (15)
-- [ ] Main result: **crude AND adjusted** estimate with 95% CI (16)
-- [ ] One further analysis (secondary outcome, sensitivity, imputation) (17)
-- [ ] No interpretation ("because", "suggests", "important"). Move it to the Discussion
-- [ ] No number without its unit and, for effects, its 95% CI
+### Results checklist (STROBE items)
+- [ ] Participants first: numbers enrolled, analysed and excluded, with reasons (13)
+- [ ] Table 1 in one or two sentences, with numbers. Missing data reported (14)
+- [ ] Outcome numbers per group, with denominators (15)
+- [ ] Main result: **crude and adjusted** estimate with 95% CI (16)
+- [ ] Other analyses in your pack: sensitivity, imputation or subgroup (17)
+- [ ] Table 1 and one main table or figure that stand alone
+- [ ] No interpretation ("because", "suggests") and no causal words
+- [ ] A working title, the simulated-data sentence and the AI-use statement
 
 ### Question-specific reminders
-- **Q3:** ventilator-free days are skewed and count death as zero; choose the summary accordingly.
-- **Q4:** report BOTH the complete-case and the multiple-imputation estimates.
-- **Q5:** survivors only; use medians and IQR.
+- **Q3:** ventilator-free days are skewed and count death as zero.
+- **Q4:** report both the complete-case and the multiple-imputation estimates.
+- **Q5:** survivors only. Use medians and IQR.
+
+### Optional: Methods
+If you also write the Methods, use STROBE items 4 to 12: design and setting, participants, variables, data sources, bias, study size ("all eligible patients in the cohort were included"), statistical methods and missing data. The facts are in your results pack, `SAP_FLUID-ICU.pdf` and `Data_Dictionary.pdf`.
 
 ### Deliverable
-Your own Methods + Results (~600 words) + Table 1 + one figure or table, saved as `Surname_Manuscript_QN_draft1` in the course folder (or sent by email) **before Session 8**. In Session 8 you add the Introduction, Discussion, Abstract and Title, and submit the complete draft by 23:59 that day (`Course/Assignment/manuscript_brief.md`).
+Your Results section, named `Surname_Firstname_Results_QN.docx`, emailed to your reviewer and to the course lead (myluong1710@gmail.com) **by 23:59 on the day of Session 8**. Your reviewer is announced at the end of today's session.

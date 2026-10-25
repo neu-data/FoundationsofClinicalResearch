@@ -4,7 +4,7 @@ title: "Session 8: Solutions"
 
 [Download the PDF](files/sessions/s8_solutions.pdf) · [Back to Session 8](session8.qmd)
 
-Answer keys for `Course/Practicals/s8_exercises.md` (Session 8 exercise sheet), Parts A–C. Model answers for the appraisal (Part D) are in `Course/Resources/appraisal_instructor_guide.md`. Numbers in Part B are from `Course/Data/key_results.md` (SIMULATED data).
+Answer keys for `s8_exercises.md` (Session 8 exercise sheet), Parts A–C. Model answers for the appraisal (Part D) are in `appraisal_instructor_guide.md`. Numbers in Part B are from `Results_Pack_Q1–Q5` (SIMULATED data).
 
 
 * * *
@@ -33,11 +33,21 @@ a: **was observed in** (case series) · b: **is associated with** (cohort) · c:
 
 * * *
 
-## Part B: Manuscript workshop 2: model Introduction, Discussion, Abstract and Title for Q1
+## Part B: Manuscript workshop 2: improving the Results, and models for the optional parts
 
-Use these to steer the class draft in part 1 of the workshop (do not paste them). Participants who chose Q2–Q5 follow the same structure with their own pack.
+### Improving the class Q1 Results (part 1 of the workshop)
+| Check | Typical fix in the class draft |
+|---|---|
+| Every number matches results pack Q1 | Correct it from the pack, e.g. 134/373 (35.9%) |
+| Percentages with denominators | "35.9%" becomes "134 of 373 (35.9%)" |
+| Crude and adjusted both given | Crude OR 2.49 (1.70 to 3.70), adjusted 1.62 (1.02 to 2.59), n = 527 |
+| Tables stand alone | Title with who and when, n per column, units, footnote for SOFA and IQR |
+| No interpretation | Delete "because sicker patients received more fluid" |
+| Working title | "Positive fluid balance by day 3 and 28-day mortality in sepsis: a multicentre cohort study" |
 
-All numbers from `Course/Data/key_results.md` and results pack Q1 (**SIMULATED DATA**). References are placeholders [n]; participants use their Session 1–2 references and Papers 1–2.
+The models below are for the optional parts. Use them to show what each part would add (do not paste them). Participants who chose Q2–Q5 follow the same structure with their own pack.
+
+All numbers from `Results_Pack_Q1–Q5` and results pack Q1 (**SIMULATED DATA**). References are placeholders [n]; participants use their Session 1–2 references and Papers 1–2.
 
 ### Model title and keywords
 **Positive fluid balance by day 3 and 28-day mortality in sepsis: a multicentre cohort study** (15 words; design named; calibrated).

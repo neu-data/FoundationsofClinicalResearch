@@ -65,9 +65,9 @@ Khi kết thúc Cấp độ 2, học viên có thể:
 | **Nhịp độ mỗi buổi** | 20 đến 30 phút khái niệm. Khoảng 2 giờ viết code trực tiếp và bài tập: giảng viên viết code, học viên làm theo, rồi tự thực hành. 20 phút tóm tắt, hỏi đáp và giao bài tập về nhà. Một lần nghỉ 15 phút. |
 | **Học cùng nhau** | Cả lớp học chung như một nhóm, không có phòng thảo luận nhóm nhỏ. Bài tập được làm cá nhân trên máy tính của từng học viên. Học viên gửi câu trả lời và kết quả vào khung chat, và giảng viên (hoặc một học viên tình nguyện chia sẻ màn hình) cùng cả lớp xem lại. Lỗi code được hỗ trợ qua khung chat hoặc khi học viên chia sẻ màn hình. |
 | **Cấu trúc mỗi buổi về mô hình** | (1) Câu hỏi và loại kết cục. (2) **EDA cho vấn đề này**: các số liệu tóm tắt và biểu đồ cần xem trước khi dùng mô hình này. (3) Mô hình và ý nghĩa các tham số. (4) Giả định và chẩn đoán mô hình, và cách xử lý khi giả định không được đáp ứng. (5) Diễn giải và bảng báo cáo, kèm một câu viết thành lời. Mỗi buổi đều có code ggplot2 đơn giản cho biểu đồ EDA và biểu đồ kết quả; không có buổi riêng về biểu đồ. |
-| **Bộ dữ liệu dùng chung** | **FLUID-ICU** (`Course/Data/`): bộ dữ liệu thuần tập mô phỏng về nhiễm khuẩn huyết tại ICU (dữ liệu thô và dữ liệu sạch, từ điển dữ liệu, nhật ký làm sạch dữ liệu, kế hoạch phân tích thống kê, script R) đã dùng ở Cấp độ 1. Kết cục dạng biến đếm cần một biến đếm mà FLUID-ICU hiện chưa có (xem Mục 8, các vấn đề còn mở). |
+| **Bộ dữ liệu dùng chung** | **FLUID-ICU** (`FLUID-ICU/`): bộ dữ liệu thuần tập mô phỏng về nhiễm khuẩn huyết tại ICU (dữ liệu thô và dữ liệu sạch, từ điển dữ liệu, nhật ký làm sạch dữ liệu, kế hoạch phân tích thống kê, script R) đã dùng ở Cấp độ 1. Kết cục dạng biến đếm cần một biến đếm mà FLUID-ICU hiện chưa có (xem Mục 8, các vấn đề còn mở). |
 | **Dữ liệu của học viên** | Mỗi học viên có thể mang theo một bộ dữ liệu đã loại bỏ thông tin định danh (có phê duyệt đạo đức hoặc bảo vệ dữ liệu cần thiết). Hai **buổi gặp riêng** trực tuyến, mỗi buổi 30 đến 45 phút (sau Buổi 2 và Buổi 5), giúp điều chỉnh script của khóa học cho dữ liệu của học viên. |
-| **Hỗ trợ** | Thư mục chung của khóa học (dữ liệu, script khởi đầu, lời giải sau mỗi buổi), một kênh hỏi đáp trực tuyến, và một giờ giải đáp của giảng viên mỗi tuần. |
+| **Hỗ trợ** | Dữ liệu và script khởi đầu trong một dự án R, gửi qua email (lời giải sau mỗi buổi), một kênh hỏi đáp trực tuyến, và một giờ giải đáp của giảng viên mỗi tuần. |
 | **Các gói R chính** | tidyverse (readr, dplyr, tidyr, ggplot2), readxl, janitor, gtsummary, flextable, naniar, mice, broom, car, performance, DHARMa, MASS, pscl, pROC, splines, survival, ggsurvfit. |
 
 ## 4. Đề cương từng buổi
@@ -75,10 +75,10 @@ Khi kết thúc Cấp độ 2, học viên có thể:
 ### Buổi 1: Chuẩn bị và mô tả dữ liệu: làm sạch, Bảng 1 và dữ liệu thiếu
 
 - **Khái niệm:** không bao giờ sửa dữ liệu thô; nhật ký làm sạch dữ liệu và từ điển dữ liệu; dữ liệu gọn (tidy data); chọn đúng số liệu tóm tắt (trung bình và SD, trung vị và IQR, n và %); Bảng 1 dùng để làm gì, và vì sao giá trị p không nên có trong Bảng 1 của một RCT.
-- **Làm việc với script R:** mỗi bước một script, đánh số (`01_clean.R`, `02_describe.R`); phần đầu script ngắn gọn và chú thích; nạp các gói ở đầu script; đọc dữ liệu từ thư mục của khóa học. Thư mục khóa học được cung cấp sẵn.
+- **Làm việc với script R:** mỗi bước một script, đánh số (`01_clean.R`, `02_describe.R`); phần đầu script ngắn gọn và chú thích; nạp các gói ở đầu script; đọc dữ liệu từ dự án R được cung cấp sẵn.
 - **Làm sạch (tệp thô FLUID-ICU):** nhập tệp CSV và Excel; kiểm tra cấu trúc và kiểu dữ liệu; tìm bản ghi trùng lặp; mã hóa lại các mã giá trị thiếu (999, -99); thống nhất các nhóm phân loại (M, Male, 1); chuyển đổi ngày tháng; kiểm tra khoảng giá trị và tính nhất quán; tính cân bằng dịch tích lũy theo ml/kg; đặt các mức của biến factor và nhóm tham chiếu. Mỗi thay đổi đều được ghi vào nhật ký làm sạch dữ liệu.
 - **Mô tả:** phân phối và độ lệch (biểu đồ histogram, biểu đồ hộp); Bảng 1 theo nhóm cân bằng dịch bằng **gtsummary** (nhãn, đơn vị, số liệu thống kê phù hợp với từng loại biến, số giá trị thiếu, chú thích); xuất sang Word bằng **flextable**.
-- **Dữ liệu thiếu, kiến thức cơ bản:** đếm và trực quan hóa giá trị thiếu (**naniar**); so sánh người bệnh có và không có lactate; MCAR, MAR và MNAR, mỗi loại một slide; phân tích ca đầy đủ giả định điều gì; quy gán đa bội làm gì, trình bày một lần bằng kết quả từ `Course/Data/R/05_missing.R` (lactate: OR phân tích ca đầy đủ 1.39 so với OR sau quy gán 1.45). Học viên không tự chạy quy gán ở Cấp độ 2. Phân tích độ nhạy được nhắc đến như bước tiếp theo và được dạy ở Cấp độ 3.
+- **Dữ liệu thiếu, kiến thức cơ bản:** đếm và trực quan hóa giá trị thiếu (**naniar**); so sánh người bệnh có và không có lactate; MCAR, MAR và MNAR, mỗi loại một slide; phân tích ca đầy đủ giả định điều gì; quy gán đa bội làm gì, trình bày một lần bằng kết quả từ `FLUID-ICU/R/05_missing.R` (lactate: OR phân tích ca đầy đủ 1.39 so với OR sau quy gán 1.45). Học viên không tự chạy quy gán ở Cấp độ 2. Phân tích độ nhạy được nhắc đến như bước tiếp theo và được dạy ở Cấp độ 3.
 - **FLUID-ICU:** tệp sạch khớp với tệp sạch của khóa học; Bảng 1 khớp với bộ kết quả của Cấp độ 1.
 - **Sản phẩm:** `01_clean.R`, `02_describe.R`, một nhật ký làm sạch dữ liệu và Bảng 1 dạng bảng Word.
 
@@ -169,7 +169,7 @@ Khi kết thúc Cấp độ 2, học viên có thể:
 | 7 | Script R cho câu hỏi phân tích cá nhân và ghi chú về lựa chọn mô hình và các kiểm tra |
 | 8 | Phần Kết quả kèm Bảng 1, một bảng kết quả và một biểu đồ, cùng các script |
 
-Mỗi sản phẩm được nộp vào thư mục khóa học trước buổi tiếp theo; giảng viên phản hồi ngắn bằng văn bản.
+Mỗi sản phẩm được gửi qua email cho giảng viên trước buổi tiếp theo. Giảng viên phản hồi ngắn bằng văn bản.
 
 ## 6. Dự án cuối khóa (không bắt buộc)
 
@@ -195,7 +195,7 @@ Không yêu cầu một dự án có thể lặp lại hoàn chỉnh với báo 
 | Tài liệu | Nội dung |
 |---|---|
 | Slide (EN + VN) | 8 bộ slide khái niệm ngắn (mỗi bộ 20 đến 30 slide) kèm ghi chú cho người trình bày; mỗi bộ về mô hình theo cùng năm phần (câu hỏi, EDA, mô hình, giả định, báo cáo) |
-| Script R | Script khởi đầu (có chỗ trống) và script hoàn chỉnh của giảng viên cho từng buổi, xây dựng từ các script FLUID-ICU trong `Course/Data/R/`; code ggplot2 làm sẵn cho biểu đồ EDA và biểu đồ kết quả của từng mô hình |
+| Script R | Script khởi đầu (có chỗ trống) và script hoàn chỉnh của giảng viên cho từng buổi, xây dựng từ các script FLUID-ICU trong `FLUID-ICU/R/`; code ggplot2 làm sẵn cho biểu đồ EDA và biểu đồ kết quả của từng mô hình |
 | Bài tập | Mỗi buổi một phiếu bài tập (phần cơ bản và phần nâng cao) trên FLUID-ICU, kèm một bài "dữ liệu của bạn" |
 | Lời giải | Lời giải đầy đủ kèm kết quả, phát sau mỗi buổi |
 | Mô tả dự án phân tích | 8 đến 12 câu hỏi cá nhân trải trên các loại mô hình (tuyến tính, logistic, biến đếm, thừa số 0, Cox), mỗi câu kèm dữ liệu và hướng dẫn chấm điểm |
@@ -204,5 +204,5 @@ Không yêu cầu một dự án có thể lặp lại hoàn chỉnh với báo 
 
 **Các vấn đề còn mở**
 
-- **FLUID-ICU cần biến đếm.** Bộ dữ liệu chưa có kết cục dạng biến đếm thực sự. Đề xuất bổ sung vào chương trình tạo dữ liệu (`Course/Data/R/00_generate_fluid_icu.R`), từ điển dữ liệu và `key_results.md`: (1) `icu_infections_n`, số lần nhiễm khuẩn mắc phải tại ICU trong thời gian nằm ICU, có quá phân tán, với `icu_los_days` làm offset (Buổi 4); (2) `rrt_days_28`, số ngày điều trị thay thế thận tính đến ngày 28, bằng 0 với người bệnh không điều trị thay thế thận (Buổi 5; liên kết với biến `rrt` hiện có). Các phương án khác: số lần tái nhập ICU trong 90 ngày, hoặc số ngày hỗ trợ cơ quan. Trước khi có các biến này, Buổi 5 có thể dùng số ngày không thở máy, còn Buổi 4 cần một bộ dữ liệu biến đếm mô phỏng nhỏ riêng.
+- **FLUID-ICU cần biến đếm.** Bộ dữ liệu chưa có kết cục dạng biến đếm thực sự. Đề xuất bổ sung vào chương trình tạo dữ liệu (`FLUID-ICU/R/00_generate_fluid_icu.R`), từ điển dữ liệu và `key_results.md`: (1) `icu_infections_n`, số lần nhiễm khuẩn mắc phải tại ICU trong thời gian nằm ICU, có quá phân tán, với `icu_los_days` làm offset (Buổi 4); (2) `rrt_days_28`, số ngày điều trị thay thế thận tính đến ngày 28, bằng 0 với người bệnh không điều trị thay thế thận (Buổi 5; liên kết với biến `rrt` hiện có). Các phương án khác: số lần tái nhập ICU trong 90 ngày, hoặc số ngày hỗ trợ cơ quan. Trước khi có các biến này, Buổi 5 có thể dùng số ngày không thở máy, còn Buổi 4 cần một bộ dữ liệu biến đếm mô phỏng nhỏ riêng.
 - **Có thể cần một bộ dữ liệu mô phỏng thứ hai** cho các câu hỏi dự án phân tích, để mỗi học viên có một câu hỏi khác nhau và không phải ai cũng dùng FLUID-ICU.

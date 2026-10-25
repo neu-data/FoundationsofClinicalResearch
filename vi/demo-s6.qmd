@@ -10,9 +10,9 @@ title: "Buổi 6: Kịch bản trình diễn"
 |---|---|---|---|
 | **Thời điểm** | 6.1, sau slide *Cỡ mẫu: tác động lớn hơn, ít nhiễu hơn* (khoảng 20:05) | 6.2 (khoảng 20:21) | 6.4, trong khi chiếu các slide của mục này (21:30 đến 21:48) |
 | **Thời lượng** | 5 phút (Bước 2, 3 và một thay đổi; bản đầy đủ 8 phút nếu còn thời gian) | 6 phút | lồng vào các slide 6.4 (tổng cộng khoảng 8 phút chạy R, tùy chọn) |
-| **Công cụ** | công cụ tính trực tuyến miễn phí (ví dụ OpenEpi) và `Course/Resources/tools/sample_size_calculator.xlsx` | `Course/Data/R/03_compare.R` | `Course/Data/R/04_models.R`, `05_missing.R` |
+| **Công cụ** | công cụ tính trực tuyến miễn phí (ví dụ OpenEpi) và `sample_size_calculator.xlsx` | `FLUID-ICU/R/03_compare.R` | `FLUID-ICU/R/04_models.R`, `05_missing.R` |
 
-Học viên **theo dõi màn hình chia sẻ của giảng viên và dự đoán trong khung chat**. Học viên không tự tính và không chạy code. FLUID-ICU là dữ liệu **mô phỏng**, và mọi con số về FLUID-ICU dưới đây lấy từ `Course/Data/key_results.md`.
+Học viên **theo dõi màn hình chia sẻ của giảng viên và dự đoán trong khung chat**. Học viên không tự tính và không chạy code. FLUID-ICU là dữ liệu **mô phỏng**, và mọi con số về FLUID-ICU dưới đây lấy từ `Results_Pack_Q1–Q5`.
 
 Lưu ý: bảng tính và kết quả R hiển thị bằng tiếng Anh. Kịch bản giữ nguyên tên trang tính, tên ô và đầu ra như trên màn hình.
 
@@ -22,7 +22,7 @@ Lưu ý: bảng tính và kết quả R hiển thị bằng tiếng Anh. Kịch 
 ## Trước buổi học
 
 - [ ] Mở thẻ trình duyệt với công cụ tính trực tuyến, thu phóng 150%, và mở sẵn bảng tính ở trang `3_Means` để dự phòng.
-- [ ] Mở `Course/Data/FLUID-ICU.Rproj`. Tối hôm trước, chạy trọn `03_compare.R`, `04_models.R` và `05_missing.R` một lần từ đầu đến cuối (`05_missing.R` chạy 20 lần quy gán: cần khoảng một phút).
+- [ ] Mở `FLUID-ICU/FLUID-ICU.Rproj`. Tối hôm trước, chạy trọn `03_compare.R`, `04_models.R` và `05_missing.R` một lần từ đầu đến cuối (`05_missing.R` chạy 20 lần quy gán: cần khoảng một phút).
 - [ ] Mở sẵn các hình dự phòng: `Course/Resources/figures/vi/data/` (`crude_vs_adjusted.png`, `forest_adjusted.png`, `km_balance.png`, `missing_lactate.png`, `cc_vs_mi.png`; bản tiếng Anh ở `Course/Resources/figures/en/data/`). Bảng so sánh giờ là bảng trực tiếp trên slide, *FLUID-ICU: bốn kết cục, bốn phép so sánh*.
 - [ ] Một slide hoặc tài liệu dùng chung liệt kê bốn đầu vào để tính cỡ mẫu (tác động dự kiến, độ nhiễu (SD), alpha, lực thống kê) cộng với tỷ lệ bỏ cuộc.
 

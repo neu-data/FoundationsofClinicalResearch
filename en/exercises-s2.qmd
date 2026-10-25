@@ -8,14 +8,7 @@ title: "Session 2: Exercise sheet"
 
 Name: ______________________________   Department: ______________________________
 
-> **How to use this sheet.** This sheet is sent by email before the session, as a Word file and as a PDF. Keep it open on your computer during the session and type your answers into the Word file (or print the PDF at home).
-> - Recap quiz on Session 1: on your own, answers typed in the chat (8 minutes, start of the session).
-> - Exercise 1 (Boolean search builder): **on your own**, for your own question, segment 2.1 (5 minutes).
-> - Exercise 2 (paraphrasing): at home.
-> - Exercise 3 (reading Paper 1's abstract): **on your own**, segment 2.3 (12 minutes). The clean abstract is linked in the chat.
-> - Exercise 4: **your own** Proposal builder 2 (35 minutes).
->
-> The answers are discussed in class, in the chat. There is no mark.
+> Type your answers in the Word file, or print the PDF. Answers are discussed in class. There is no mark.
 
 
 * * *
@@ -68,7 +61,7 @@ Name: ______________________________   Department: _____________________________
 
 **One filter I would add, and why:** __________________________________________
 
-**Share your search.** The trainer calls on two or three of you to read out one block; the class suggests a synonym to add. One synonym suggested for my search: ______________________
+**Share your search.** The trainer calls on two or three of you to read out one block, the class suggests a synonym to add. One synonym suggested for my search: ______________________
 
 **The search string from the live demo (copy it here to run at home):**
 
@@ -122,7 +115,7 @@ ______________________________________________________________________________
 
 ## Exercise 3: Read Paper 1's abstract  *(individual, 12 minutes, segment 2.3)*
 
-Use the **abstract only** of Paper 1: Boulet N, et al. *Crit Care* 2024;28:429 (in `Papers/`). 8 minutes reading alone, then 4 minutes typing your primary outcome and main result in the chat.
+Use the **abstract only** of Paper 1: Boulet N, et al. *Crit Care* 2024;28:429 (PDF sent by email before Session 1). 8 minutes reading alone, then 4 minutes typing your primary outcome and main result in the chat.
 
 **The 15-minute reading order (for later):** title (30 s), abstract (3 min), figures and tables (4 min), methods (5 min), then discussion and limitations (2–3 min). Stop early if the paper does not answer your question.
 
@@ -156,25 +149,25 @@ Use the **abstract only** of Paper 1: Boulet N, et al. *Crit Care* 2024;28:429 (
 
 ## Exercise 4: Proposal builder 2  *(on your own, 35 minutes)*
 
-First the trainer searches live for the running example and you suggest terms and papers in the chat (10 minutes). Then you continue Part 1 of **your own** proposal in the **Research Proposal template** (`Templates/Research_Proposal_Template.docx`) and the **literature review worksheet**, building on last week's question, aim and objectives. This sheet is your checklist. Anything unfinished is homework.
+First the trainer searches live for the running example and you suggest terms and papers in the chat (10 minutes). Then you continue Part 1 of **your own** proposal in the proposal template (`Research_Proposal_Template.docx`) and the literature review worksheet (`Literature_Review_Worksheet.docx`), both sent by email. Anything unfinished is homework.
 
 | Time | Task | Done |
 |---|---|---|
-| 0–10 min | Watch the trainer search and screen for the running example; suggest terms and papers in the chat | ☐ |
-| 10–30 min | **1. Run your search string** (Exercise 1) in PubMed; write the date, the filters and the number of hits | ☐ |
-| | **2. Screen** titles and abstracts; pick **5 key papers**; save them to Zotero (*Send to → Citation manager*, then import) | ☐ |
+| 0–10 min | Watch the trainer search and screen for the running example, suggest terms and papers in the chat | ☐ |
+| 10–30 min | **1. Run your search string** (Exercise 1) in PubMed, write the date, the filters and the number of hits | ☐ |
+| | **2. Screen** titles and abstracts, pick **5 key papers**, save them to Zotero (*Send to → Citation manager*, then import) | ☐ |
 | | **3. Literature review worksheet**: one row per paper | ☐ |
-| | **4. Problem statement**: three short paragraphs (about 300 words): (a) what is known, (b) what is not known (the gap), (c) your question and objectives. No own data or results here; a local figure only if it is published, with its reference | ☐ |
+| | **4. Problem statement**: three short paragraphs (about 300 words): (a) what is known, (b) what is not known (the gap), (c) your question and objectives. No own data or results here, a local figure only if it is published, with its reference | ☐ |
 | | **5. Working title** and **keywords** (see below) | ☐ |
-| 30–35 min | Two volunteers read their title and gap sentence aloud; everyone suggests one improvement in the chat | ☐ |
+| 30–35 min | Two volunteers read their title and gap sentence aloud, everyone suggests one improvement in the chat | ☐ |
 
 **Working title and keywords**
 
 | | |
 |---|---|
-| Working title (10–16 words; population, comparison or exposure, and design visible; no abbreviations; no "impact" or "effect" for observational designs) | |
+| Working title (10–16 words, population, comparison or exposure, and design visible, no abbreviations, no "impact" or "effect" for observational designs) | |
 | Number of words | |
-| Keywords (3–6; MeSH terms **not** already in the title) | 1. ____________ 2. ____________ 3. ____________ 4. ____________ |
+| Keywords (3–6, MeSH terms **not** already in the title) | 1. ____________ 2. ____________ 3. ____________ 4. ____________ |
 
 *Example (feasible rewrite of the running example):* "Restrictive versus usual fluids in adults with septic shock: a pilot randomised trial" (13 words). Keywords: Fluid Therapy; Water-Electrolyte Balance; Critical Care; Vasoconstrictor Agents.
 
@@ -193,8 +186,8 @@ First the trainer searches live for the running example and you suggest terms an
 ______________________________________________________________________________
 
 **Quality checks before you stop**
-- [ ] The problem statement ends with your question; the title names the same population and outcome as the question.
-- [ ] At least one reference is a randomised trial or a systematic review, if one exists; you checked a trial registry for ongoing trials.
+- [ ] The problem statement ends with your question, the title names the same population and outcome as the question.
+- [ ] At least one reference is a randomised trial or a systematic review, if one exists, you checked a trial registry for ongoing trials.
 - [ ] References are saved in Zotero. No sentence is copied from a source.
 
 
@@ -204,8 +197,6 @@ ______________________________________________________________________________
 
 1. Which gives MORE hits: `septic shock AND fluids` or `septic shock OR fluids`?
 2. What was the primary outcome of Paper 1?
-
-Not marked. The trainers read every answer before Session 3.
 
 ## Homework before Session 3 (next Saturday)
 

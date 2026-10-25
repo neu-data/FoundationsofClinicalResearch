@@ -8,7 +8,7 @@ title: "Kế hoạch phân tích thống kê (FLUID-ICU)"
 
 [Tải bản PDF](files/data/SAP_FLUID-ICU_VN.pdf)
 
-> **NGHIÊN CỨU MÔ PHỎNG: DÙNG ĐỂ GIẢNG DẠY.** FLUID-ICU và dữ liệu của nghiên cứu là hư cấu. Bản SAP này cho thấy một kế hoạch được viết **trước khi** phân tích trông như thế nào. Kế hoạch theo 14 mục của mẫu `Course/Templates/Statistical_Analysis_Plan_Template.docx`.
+> **NGHIÊN CỨU MÔ PHỎNG: DÙNG ĐỂ GIẢNG DẠY.** FLUID-ICU và dữ liệu của nghiên cứu là hư cấu. Bản SAP này cho thấy một kế hoạch được viết **trước khi** phân tích trông như thế nào. Kế hoạch theo 14 mục của mẫu `Statistical_Analysis_Plan_Template.docx`.
 
 | | |
 |---|---|
@@ -107,7 +107,7 @@ FLUID-ICU tuyển tất cả người bệnh đủ tiêu chuẩn trong 2 năm t�
 
 ## 12. Phần mềm
 
-R phiên bản 4.6 với các gói tidyverse, gtsummary, flextable, broom, survival, survminer, mice và janitor. Mã trong `Course/Data/R/` (các script 01-06), chạy theo thứ tự; việc làm sạch và phân tích dữ liệu đều được viết thành script hoàn toàn và tái lập được (hạt giống ngẫu nhiên cố định).
+R phiên bản 4.6 với các gói tidyverse, gtsummary, flextable, broom, survival, survminer, mice và janitor. Mã trong `FLUID-ICU/R/` (các script 01-06), chạy theo thứ tự; việc làm sạch và phân tích dữ liệu đều được viết thành script hoàn toàn và tái lập được (hạt giống ngẫu nhiên cố định).
 
 ## 13. Khung bảng và hình
 

@@ -22,7 +22,7 @@ Tải về: [Word](files/data/results_packs/Results_Pack_Q2_VN.docx) · [PDF](fi
 - Kết cục: tổn thương thận cấp (AKI; KDIGO giai đoạn >= 1, giai đoạn cao nhất trong các ngày ICU 1-7; aki_any). Kết cục phụ: AKI giai đoạn 2-3; điều trị thay thế thận (RRT, chỉ mô tả).
 - Mẫu phân tích: 618 người bệnh có cân bằng dịch ngày 3; các mô hình hiệu chỉnh 527 trường hợp đầy đủ.
 - Các yếu tố gây nhiễu xác định trước (SAP): tuổi, điểm SOFA, lactat, thuốc vận mạch, thở máy, bệnh thận mạn.
-- Phần mềm: R 4.6 (các gói gtsummary, survival, mice). Script: Course/Data/R/.
+- Phần mềm: R 4.6 (các gói gtsummary, survival, mice). Script: FLUID-ICU/R/.
 
 Lưu đồ người tham gia: 620 người bệnh được tuyển -> 2 người không có cân bằng dịch ngày 3 (thiếu cân nặng hoặc lượng dịch ra sau khi làm sạch) -> 618 người trong phân tích phơi nhiễm -> 91 người không có lactat (hoặc tuổi) -> 527 người trong mô hình hiệu chỉnh trên các trường hợp đầy đủ.
 

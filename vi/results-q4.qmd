@@ -22,7 +22,7 @@ Tải về: [Word](files/data/results_packs/Results_Pack_Q4_VN.docx) · [PDF](fi
 - Kết cục: tử vong do mọi nguyên nhân trong vòng 28 ngày (died_28d).
 - Mẫu phân tích: tất cả 620 người bệnh; thiếu lactat ở 93/620 (15.0%); các mô hình trường hợp đầy đủ 527 người bệnh; quy gán đa bội 620.
 - Các yếu tố gây nhiễu xác định trước (SAP): tuổi, điểm SOFA, lactat, thuốc vận mạch, thở máy, bệnh thận mạn.
-- Phần mềm: R 4.6 (các gói gtsummary, survival, mice). Script: Course/Data/R/.
+- Phần mềm: R 4.6 (các gói gtsummary, survival, mice). Script: FLUID-ICU/R/.
 
 ## 3. Bảng 1: đối tượng nghiên cứu
 

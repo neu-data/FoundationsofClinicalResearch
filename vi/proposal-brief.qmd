@@ -2,142 +2,75 @@
 title: "Hướng dẫn đề cương"
 ---
 
+*Gửi qua email trước Buổi 1, cùng mẫu đề cương.*
+
 Tải về: [Word](files/assignments/Proposal_Brief_VN.docx) · [PDF](files/assignments/Proposal_Brief_VN.pdf) · [Quay lại trang bài tập lớn](assignments.qmd)
 
 ## Nền tảng Nghiên cứu Lâm sàng · Cấp độ 1: Từ câu hỏi lâm sàng đến công bố
 
 **Tổ chức:** Neudata (*#ClearDataClearImpact*)
-**Hình thức đánh giá:** bài tập cá nhân. Mỗi phần được giảng viên làm mẫu trực tiếp ở Buổi 1 đến Buổi 7 và được bạn viết nháp ở nhà. Nộp ở Buổi 8.
-**Ai làm:** mỗi học viên viết đề cương của riêng mình, về một câu hỏi từ chính khoa của mình. Không làm theo nhóm.
-**Sản phẩm:** một đề cương nghiên cứu viết kèm kế hoạch công bố (khoảng 6 đến 8 trang) + 6 slide, mọi người đều nộp. Khoảng 5 học viên tình nguyện trình bày đề cương của mình ở Buổi 8 (6 phút).
-**Chấm theo:** `proposal_rubric_VN.md` (nhận xét mang tính hình thành)
-**Sản phẩm cá nhân còn lại:** bản thảo bài báo viết từ bộ dữ liệu của khóa học (xem `manuscript_brief_VN.md`)
+**Ai làm:** mỗi học viên tự làm bài của mình. Không làm theo nhóm.
+**Sản phẩm:** một đề cương nghiên cứu kèm kế hoạch công bố (khoảng 6 đến 8 trang) và 6 slide
+**Thời hạn:** trước 19:30 ngày học Buổi 8, gửi email đến myluong1710@gmail.com
 
 
 * * *
 
-## 1. Mục đích
+## 1. Nhiệm vụ
 
-Phần lớn nghiên cứu lâm sàng bắt đầu từ một câu hỏi đặt ra tại giường bệnh. Bài tập này biến một câu hỏi như vậy từ **chính khoa của bạn** thành một đề cương nghiên cứu thực tế, đúng đạo đức và khả thi: loại đề cương bạn có thể mang đến phòng nghiên cứu khoa học, hội đồng đạo đức hoặc một hội đồng xét tài trợ nhỏ.
+Chọn một câu hỏi từ chính khoa của bạn và lập kế hoạch cho một nghiên cứu để trả lời câu hỏi đó: câu hỏi rõ ràng, thiết kế phù hợp, dữ liệu tốt, quan tâm đến sai lệch và đạo đức, tiến độ thực tế và kế hoạch công bố. Bạn không thu thập hay phân tích dữ liệu.
 
-Bạn không thu thập dữ liệu hay phân tích gì cho đề cương. Mục tiêu của sản phẩm này là **lập kế hoạch nghiên cứu tốt** (câu hỏi rõ ràng, thiết kế đúng, dữ liệu tốt, quan tâm trung thực đến sai lệch và đạo đức, tiến độ thực tế) và **lập kế hoạch công bố ngay từ đầu**: tạp chí dự kiến, hướng dẫn báo cáo, tác giả và bản nháp tóm tắt. Trong mỗi buổi, giảng viên làm mẫu trực tiếp một phần của đề cương trên ví dụ xuyên suốt. Sau đó bạn viết đúng phần đó cho câu hỏi của mình ở nhà. Đến Buổi 7, bạn có một đề cương hoàn chỉnh kèm kế hoạch công bố, và ở Buổi 8 bạn nộp bài.
+Một chủ đề tốt là một vấn đề bạn thường gặp, quan trọng với người bệnh, và khoa của bạn có thể nghiên cứu trong 12 đến 24 tháng. Trên lớp chúng tôi dùng một ví dụ xuyên suốt (truyền dịch trong sốc nhiễm khuẩn). Vui lòng chọn một chủ đề khác.
 
-Đây là sản phẩm đầu tiên trong **hai sản phẩm cá nhân** của khóa học. Sản phẩm thứ hai là bản thảo bài báo viết từ kết quả của bộ dữ liệu mô phỏng FLUID-ICU, được xây dựng ở Buổi 5 đến Buổi 8 và mô tả trong `manuscript_brief_VN.md`. Hai sản phẩm được cố ý làm khác nhau. Đề cương là về **câu hỏi của chính bạn** (lập kế hoạch cho một nghiên cứu chưa được thực hiện), còn bản thảo là về **dữ liệu chúng tôi cung cấp** (báo cáo một nghiên cứu đã được thực hiện).
-
-Trong suốt khóa học, giảng viên dùng một ví dụ xuyên suốt để minh họa từng phần: *Ở người lớn bị sốc nhiễm khuẩn tại ICU, chiến lược truyền dịch hạn chế, so với chăm sóc thường quy, có làm giảm tử vong 28 ngày không?* **Bạn tự chọn câu hỏi của mình.** Câu hỏi có thể thuộc bất kỳ lĩnh vực nào trong công việc của bạn (ví dụ loét tì đè, vệ sinh tay, mê sảng, sai sót thuốc, viêm phổi liên quan đến thở máy, thời gian từ khi vào viện đến khi dùng thuốc tiêu sợi huyết). Vui lòng không dùng lại ví dụ xuyên suốt.
-
-**Một chủ đề tốt là:** một vấn đề bạn thường gặp, quan trọng với người bệnh, và khoa của bạn có thể nghiên cứu một cách thực tế trong 12 đến 24 tháng với người bệnh và hồ sơ của chính khoa.
+Đề cương là sản phẩm cá nhân thứ nhất trong hai sản phẩm của bạn. Sản phẩm thứ hai được mô tả trong hướng dẫn bản thảo, gửi ở Buổi 6.
 
 
 * * *
 
-## 2. Cần làm gì, theo từng Phần
+## 2. Bốn phần, xây dựng trên lớp
 
-Dùng mẫu Word **`Course/Templates/Research_Proposal_Template_VN.docx`** (trong thư mục khóa học; bản tiếng Anh: `Research_Proposal_Template.docx`). Các đề mục của mẫu khớp với bốn Phần dưới đây. Khi điền xong, mẫu dài khoảng 6 đến 8 trang. Viết câu ngắn, đơn giản. Có thể dùng bảng và gạch đầu dòng. Xóa phần chữ hướng dẫn màu xám trước khi nộp.
+Bạn viết đề cương trên mẫu đề cương, gửi qua email cùng hướng dẫn này: `Research_Proposal_Template_VN.docx` (tiếng Việt) và `Research_Proposal_Template.docx` (tiếng Anh). Mỗi đề mục có hướng dẫn ngắn và một ví dụ mẫu.
 
-### Phần 1: Buổi 1 và 2 (Đặt câu hỏi; Tìm và đọc y văn)
+Trong phần xây dựng đề cương cuối mỗi buổi học, giảng viên điền một phần cho ví dụ xuyên suốt trên màn hình chia sẻ. Sau đó bạn viết phần tương ứng cho câu hỏi của mình ở nhà, trước buổi học tiếp theo.
 
-| Mục | Yêu cầu |
-|---|---|
-| Tên đề tài dự kiến | Xây dựng từ PICO: nêu đối tượng, can thiệp/phơi nhiễm, kết cục và (nên có) thiết kế, ví dụ "Truyền dịch hạn chế và tử vong 28 ngày ở người bệnh sốc nhiễm khuẩn: một thử nghiệm ngẫu nhiên". Bạn sẽ hoàn thiện tên đề tài ở Phần 4. |
-| Đặt vấn đề và lý do nghiên cứu | Vấn đề là gì, lớn đến mức nào, vì sao quan trọng ở đây, điều gì chưa được biết (nửa trang). |
-| PICO | Đối tượng, Can thiệp/phơi nhiễm, So sánh, Kết cục (và Thời gian), mỗi thành phần một dòng. |
-| Câu hỏi nghiên cứu | Một câu, xây dựng từ PICO. |
-| Kiểm tra FINER | Mỗi tiêu chí Khả thi, Thú vị, Mới, Đạo đức và Phù hợp một dòng, cùng với điều bạn đã thay đổi nhờ bước kiểm tra này. |
-| Mục tiêu tổng quát, mục tiêu cụ thể, giả thuyết | Một mục tiêu tổng quát; 2 hoặc 3 mục tiêu cụ thể, đo lường được; một giả thuyết có thể kiểm định (nếu nghiên cứu so sánh các nhóm người bệnh). |
-| 5 tài liệu tham khảo chính | Từ lần tìm kiếm PubMed sau Buổi 2 (phiếu tổng quan tài liệu / ma trận tài liệu), lưu trong Zotero hoặc phần mềm quản lý tài liệu tham khảo khác; kiểu Vancouver; ít nhất 3 tài liệu trong 10 năm gần đây. |
+| Phần | Nội dung bạn viết | Buổi xây dựng | Xong trước buổi |
+|---|---|---|---|
+| Phần 1: Đặt câu hỏi | Chủ đề, PICO, câu hỏi nghiên cứu, kiểm tra FINER, mục tiêu tổng quát, mục tiêu cụ thể, giả thuyết | 1 | 2 |
+| Phần 1: Đặt câu hỏi | Tìm kiếm PubMed, 5 tài liệu tham khảo chính, đặt vấn đề, tên đề tài dự kiến | 2 | 3 |
+| Phần 2: Thiết kế | Thiết kế và lý giải, bối cảnh, đối tượng nghiên cứu | 3 | 4 |
+| Phần 2: Thiết kế | Phơi nhiễm và nhóm so sánh, kết cục, các sai lệch chính và cách hạn chế | 4 | 5 |
+| Phần 3: Đo lường | Bảng biến số, mini-CRF, từ điển dữ liệu, quản lý dữ liệu | 5 | 6 |
+| Phần 3: Đo lường | Cỡ mẫu, kế hoạch phân tích, kế hoạch xử lý dữ liệu thiếu | 6 | 7 |
+| Phần 4: Bảo vệ và công bố | Đạo đức và sự đồng ý, đăng ký, bảo mật, tính khả thi, kế hoạch công bố (tạp chí, hướng dẫn báo cáo, tác giả, tên đề tài, khung tóm tắt) | 7 | 8 |
 
-### Phần 2: Buổi 3 và 4 (Thiết kế; Sai lệch và đo lường tác động)
-
-| Mục | Yêu cầu |
-|---|---|
-| Thiết kế nghiên cứu và lý giải | Nêu tên thiết kế và giải thích vì sao phù hợp với câu hỏi của bạn (và vì sao có thể hoặc không thể dùng một thiết kế mạnh hơn). |
-| Bối cảnh | Loại đơn vị/bệnh viện, thời gian nghiên cứu (không cần nêu tên bệnh viện thật). |
-| Đối tượng nghiên cứu | Tiêu chuẩn chọn và tiêu chuẩn loại trừ, viết sao cho hai người khác nhau sẽ chọn ra cùng những người bệnh. |
-| Phơi nhiễm/can thiệp và nhóm so sánh | Chính xác cái gì được áp dụng hoặc đo lường, và được so sánh với cái gì. |
-| Kết cục | Một kết cục chính (kèm cách đo và thời điểm đo) + 1 đến 3 kết cục phụ. |
-| Các sai lệch chính và cách hạn chế | Ít nhất 2 nguy cơ cụ thể (chọn lựa, thông tin, nhiễu) và bước làm giảm từng nguy cơ (phân bổ ngẫu nhiên, làm mù, định nghĩa chuẩn, ghép cặp, hiệu chỉnh). |
-
-### Phần 3: Buổi 5 và 6 (Dữ liệu; Phân tích)
-
-| Mục | Yêu cầu |
-|---|---|
-| Bảng biến số | Kết cục, phơi nhiễm và 3 đến 6 yếu tố gây nhiễu/biến khác, mỗi biến có loại (nhị phân, phân loại, thứ hạng, liên tục) và đơn vị. |
-| Mini-CRF và từ điển dữ liệu | Một phiếu thu thập dữ liệu gồm 6 đến 10 mục, và các dòng tương ứng trong từ điển dữ liệu (tên, định nghĩa, loại biến, đơn vị/mã hóa, khoảng giá trị cho phép). |
-| Kế hoạch quản lý và bảo đảm chất lượng dữ liệu | Dữ liệu sẽ được thu thập thế nào (CRF giấy hoặc thu thập dữ liệu điện tử, ví dụ REDCap hoặc KoBoToolbox), mã hóa, kiểm tra (kiểm tra khoảng giá trị và tính nhất quán, nhập liệu kép hoặc kiểm tra ngẫu nhiên), lưu trữ an toàn có sao lưu, và ai được phép sửa (nhật ký thay đổi dữ liệu). |
-| Phát biểu về cỡ mẫu | Một hoặc hai câu: tỷ lệ kết cục dự kiến (từ y văn), khác biệt bạn muốn phát hiện, lực thống kê, mức ý nghĩa và con số thu được. Với nghiên cứu mô tả, nêu độ chính xác mong muốn. Ghi rõ công cụ bạn đã dùng. |
-| Kế hoạch phân tích bằng ngôn ngữ đơn giản | Mỗi biến sẽ được tóm tắt thế nào (trung bình/SD, trung vị/IQR, n/%), kiểm định hoặc mô hình nào cho so sánh chính, sẽ hiệu chỉnh theo những yếu tố gây nhiễu nào, và tránh vấn đề so sánh bội thế nào (một kết cục chính xác định trước). |
-| Kế hoạch xử lý dữ liệu thiếu | Bạn sẽ phòng ngừa dữ liệu thiếu thế nào, báo cáo thế nào (thiếu bao nhiêu, ở biến nào), và xử lý ra sao (ví dụ phân tích các trường hợp đầy đủ, cộng với quy gán đa bội làm phân tích độ nhạy nếu có nhà thống kê hỗ trợ). |
-
-### Phần 4: Buổi 7 (Bảo vệ người tham gia và viết bài)
-
-| Mục | Yêu cầu |
-|---|---|
-| Đạo đức và sự đồng ý | Đây là nghiên cứu, audit hay QI? Quy trình xin phê duyệt của hội đồng đạo đức, ai đồng ý và đồng ý thế nào (kể cả người bệnh mất năng lực quyết định, nếu có), nguy cơ và lợi ích. |
-| Đăng ký nghiên cứu | Nghiên cứu sẽ được đăng ký ở đâu và khi nào (ví dụ ClinicalTrials.gov hoặc một cơ sở đăng ký chính của WHO ICTRP cho thử nghiệm, trước người tham gia đầu tiên; PROSPERO cho tổng quan hệ thống), hoặc vì sao không cần đăng ký. |
-| Bảo mật thông tin | Loại bỏ thông tin định danh (mã số nghiên cứu), ai giữ bảng mã, dữ liệu lưu ở đâu, ai được truy cập, lưu trong bao lâu. |
-| Tính khả thi | Tiến độ (biểu đồ Gantt đơn giản), các khoản mục kinh phí (không cần số tiền), nhân lực và nguồn lực, số người tham gia dự kiến tuyển mỗi tháng và căn cứ để biết con số đó khả thi. |
-| Kế hoạch công bố: tạp chí dự kiến và hướng dẫn báo cáo | Một tạp chí dự kiến (đã kiểm tra bằng Think. Check. Submit.; phạm vi, phí truy cập mở) và một tạp chí dự phòng; hướng dẫn báo cáo phù hợp với thiết kế của bạn (CONSORT, STROBE, STARD, PRISMA, SQUIRE), tìm qua EQUATOR. |
-| Kế hoạch công bố: quyền tác giả và vai trò CRediT | Ai sẽ là tác giả nếu nghiên cứu được thực hiện ở khoa của bạn (tiêu chí ICMJE), theo thứ tự nào, và vai trò CRediT của từng người (ví dụ lên ý tưởng, phương pháp, quản lý dữ liệu, phân tích, viết bản thảo đầu tiên); ai sẽ được cảm ơn thay vì đứng tên tác giả. Chỉ cần ghi vai trò hoặc chức danh; không cần tên thật. |
-| Kế hoạch công bố: tên đề tài dự kiến | Tên đề tài cuối cùng (từ Phần 1, đã hoàn thiện). |
-| Kế hoạch công bố: khung tóm tắt có cấu trúc | Khoảng 200 từ: Đặt vấn đề (1 hoặc 2 câu), Phương pháp (thiết kế, bối cảnh, người tham gia, kết cục chính, phân tích), Kết quả *dự kiến* (bạn sẽ báo cáo gì, dùng chỗ trống, ví dụ "Tử vong 28 ngày là X% so với Y% (RR ..., KTC 95% ...)", không bịa số liệu), Kết luận (mỗi kết quả có thể xảy ra sẽ có ý nghĩa gì). |
-| Phổ biến kết quả | Kết quả sẽ được phản hồi cho khoa thế nào (họp khoa, poster, tóm tắt hội nghị) và cho người bệnh nếu phù hợp. |
-
-**Độ dài:** khoảng 6 đến 8 trang, kể cả mini-CRF, biểu đồ Gantt và khung tóm tắt (có thể đưa vào phụ lục). Ngắn và rõ tốt hơn dài.
-
-**Buổi nào xây dựng phần nào (các phần xây dựng đề cương):** trong mỗi phần, giảng viên làm mẫu trực tiếp trên ví dụ xuyên suốt và trả lời câu hỏi trong khung chat. Sau đó bạn viết nháp phần tương ứng cho câu hỏi của mình ở nhà, trước buổi học tiếp theo.
-
-| Buổi | Xây dựng đề cương | Phần |
-|---|---|---|
-| B1 | Chủ đề, PICO, câu hỏi nghiên cứu, kiểm tra FINER, mục tiêu tổng quát và mục tiêu cụ thể | 1 |
-| B2 | Chuỗi tìm kiếm, 5 tài liệu trong ma trận tài liệu, đặt vấn đề, tên đề tài dự kiến | 1 |
-| B3 | Thiết kế và lý giải, bối cảnh, đối tượng (tiêu chuẩn chọn/loại trừ) | 2 |
-| B4 | Phơi nhiễm và nhóm so sánh, kết cục, các sai lệch chính và cách hạn chế | 2 |
-| B5 | Bảng biến số, mini-CRF, các dòng từ điển dữ liệu, kế hoạch quản lý dữ liệu | 3 |
-| B6 | Cỡ mẫu, kế hoạch phân tích, kế hoạch xử lý dữ liệu thiếu | 3 |
-| B7 | Đạo đức và sự đồng ý, đăng ký, bảo mật, tính khả thi, kế hoạch công bố | 4 |
-| B8 | Nộp bài; khoảng 5 học viên tình nguyện trình bày (không viết thêm trên lớp) | Không |
-
-**Khi cần hỗ trợ:** hỏi trong khung chat trong phần xây dựng đề cương, hoặc gửi email câu hỏi ngắn cho giảng viên giữa các buổi học. Giảng viên có thể chiếu (khi được bạn cho phép) một ví dụ tốt đã ẩn danh từ bài về nhà của một học viên ở đầu buổi học sau.
+Bạn có thể đặt câu hỏi trong khung chat trong phần xây dựng đề cương, hoặc gửi email cho trưởng khóa học giữa các buổi.
 
 
 * * *
 
-## 3. Thời hạn
+## 3. Phần trình bày
 
-Tất cả các buổi học đều trực tuyến, thứ Bảy 19:30 đến 22:30 (giờ Việt Nam).
-
-| Khi nào | Cần hoàn thành |
-|---|---|
-| **Trước Buổi 2** (Tuần 2) | Đã chọn chủ đề; đã viết nháp PICO, câu hỏi nghiên cứu, kiểm tra FINER, mục tiêu tổng quát và mục tiêu cụ thể. |
-| **Trước Buổi 3** (Tuần 3) | Hoàn thành Phần 1: đặt vấn đề, tên đề tài dự kiến và 5 tài liệu tham khảo chính. |
-| **Trước Buổi 5** (Tuần 5) | Hoàn thành Phần 2. |
-| **Trước Buổi 7** (Tuần 7) | Hoàn thành Phần 3. Bắt đầu làm 6 slide (`presentation_guide_VN.md`) và suy nghĩ về tạp chí dự kiến và tác giả. |
-| **Trước Buổi 8** (Tuần 8) | Hoàn thành Phần 4 (đạo đức, đăng ký, tính khả thi, kế hoạch công bố); hoàn thành 6 slide. Nếu muốn trình bày ở Buổi 8, báo cho trưởng khóa học trước thứ Tư của tuần có Buổi 8 (khoảng 5 suất, ai đăng ký trước được trước; giảng viên có thể mời thêm nếu ít người tình nguyện). |
-| **Buổi 8** (Tuần 8, thứ Bảy) | **Mọi người nộp** đề cương viết và 6 slide (gửi trước 19:30). Khoảng 5 học viên tình nguyện **trình bày** (6 phút + 2 phút nhận xét). |
-| **2 tuần sau Buổi 8** | Không bắt buộc: nộp đề cương đã sửa (Phần 1 đến 4, chỉnh sửa theo nhận xét) để nhận thêm một vòng nhận xét viết. Thời hạn này trùng với thời hạn nộp thư phản hồi phản biện của bản thảo. |
+- **Mọi người** chuẩn bị 6 slide từ đề cương của mình. `Presentation_Guide_VN.pdf`, gửi qua email cùng hướng dẫn này, nêu nội dung từng slide, các mẹo trình bày và cách nhận xét.
+- **Khoảng 5 học viên tình nguyện** trình bày ở Buổi 8: 6 phút, sau đó 2 phút nhận xét từ cả lớp và giảng viên.
+- **Muốn trình bày**, hãy gửi email cho trưởng khóa học trước thứ Tư của tuần có Buổi 8. Trình bày là tự nguyện.
 
 
 * * *
 
 ## 4. Nộp bài
 
-- **Định dạng:** mỗi học viên một tệp Word, dùng mẫu, đặt tên `Surname_Proposal.docx` (ví dụ `Nguyen_Proposal.docx`), cùng các slide đặt tên `Surname_slides.pptx` hoặc PDF.
-- **Ngôn ngữ:** viết đề cương và slide bằng tiếng Anh. Nếu bạn thấy không thể viết bằng tiếng Anh, bạn được viết bằng tiếng Việt.
-- **Nơi nộp:** gửi email cho trưởng khóa học, hoặc tải lên thư mục khóa học trực tuyến được thông báo ở Buổi 1.
-- **Ghi ở trang bìa:** họ tên và nghề nghiệp của bạn, khoa của bạn (chỉ cần loại đơn vị) và tên đề tài dự kiến. (Quyền tác giả và vai trò CRediT cho nghiên cứu tương lai ghi trong kế hoạch công bố, Phần 4.)
-- **Sử dụng công cụ AI:** bạn có thể dùng công cụ AI để cải thiện ngôn ngữ hoặc gợi ý ý tưởng, nhưng phải ghi rõ trong một câu ngắn ở cuối bài ("Sử dụng AI: ..."), tự kiểm tra mọi dữ kiện và tài liệu tham khảo, và không bao giờ để AI bịa ra tài liệu tham khảo. Bạn chịu trách nhiệm về từng chữ (Buổi 7, phần 7.2).
-- **Bảo mật:** không đưa bất kỳ dữ liệu người bệnh thật, tên hoặc số hồ sơ nào vào bài. Các con số bạn nêu (ví dụ "khoảng 40 ca sốc nhiễm khuẩn nhập khoa mỗi năm") nên là số liệu ước tính của đơn vị, không phải trích xuất từ hồ sơ.
-- **Tính nguyên bản:** viết bằng lời của bạn và trích dẫn mọi nguồn. Chép văn bản từ bài báo hoặc internet mà không có dấu ngoặc kép và trích dẫn là đạo văn. Bạn có thể trao đổi ý tưởng với đồng nghiệp, nhưng đề cương viết phải là bài của chính bạn.
+| | |
+|---|---|
+| **Nộp gì** | Đề cương (tệp Word, dùng mẫu) và 6 slide (PowerPoint hoặc PDF). Mọi người đều nộp cả hai. |
+| **Khi nào** | Trước 19:30 ngày học Buổi 8 |
+| **Cách nộp** | Gửi email cho trưởng khóa học, Vương Mỹ Lượng: myluong1710@gmail.com |
+| **Tên tệp** | Ho_Ten_Proposal.docx và Ho_Ten_slides.pptx (hoặc .pdf), ví dụ Nguyen_An_Proposal.docx và Nguyen_An_slides.pptx |
+| **Ngôn ngữ** | Tiếng Anh. Nếu bạn thấy không thể viết bằng tiếng Anh, hãy viết bằng tiếng Việt. |
+| **Trang bìa** | Họ tên, nghề nghiệp, loại đơn vị công tác và tên đề tài dự kiến |
+
+- **Dữ liệu người bệnh:** không đưa dữ liệu người bệnh thật, tên hay số hồ sơ. Số liệu của đơn vị chỉ ghi ước tính (ví dụ "khoảng 40 ca sốc nhiễm khuẩn nhập khoa mỗi năm").
+- **Bài của chính bạn:** viết bằng lời của bạn và trích dẫn mọi nguồn.
+- **Công cụ AI:** bạn có thể dùng để sửa ngôn ngữ hoặc gợi ý ý tưởng. Ghi rõ trong một dòng ở cuối bài ("Sử dụng AI: ..."), tự kiểm tra mọi dữ kiện và tài liệu tham khảo, và không bao giờ để AI bịa ra tài liệu tham khảo.
 
 
 * * *
-
-## 5. Nhận xét
-
-- **Đề cương viết (mọi người):** được chấm theo thang chấm trong `proposal_rubric_VN.md` và gửi lại kèm nhận xét viết trong khoảng 3 tuần sau khi nộp.
-- **Trình bày (chỉ người tình nguyện):** 2 phút nhận xét trực tiếp từ giảng viên và cả lớp (trong khung chat), cùng một phiếu nhận xét đã điền. Người trình bày cũng được chấm điểm phần trình bày (xem `proposal_rubric_VN.md`). Không trình bày không làm giảm điểm của bạn: người không trình bày được chấm trên đề cương viết, quy đổi về thang 100.
-- **Điểm mang tính hình thành.** Điểm giúp bạn cải thiện đề cương, không dùng để đánh đỗ hay trượt ai.
-
-
-**Sau khóa học:** các đề cương tốt có thể được phát triển thành đề cương đầy đủ và kế hoạch phân tích thống kê (các mẫu trong `Course/Templates/`), đăng ký và nộp cho phòng nghiên cứu khoa học hoặc hội đồng đạo đức. Khi đã thu thập dữ liệu, các kỹ năng viết bản thảo ở Buổi 7 và 8 áp dụng trực tiếp. Khóa học này là **Cấp độ 1**. **Cấp độ 2** (*Thực hành phân tích*, `Course_Levels/level2_hands_on.md`) dạy bạn tự chạy phân tích bằng R, thực hành trực tiếp, và **Cấp độ 3** (`Course_Levels/level3_advanced.md`) cung cấp các phương pháp nâng cao cho dữ liệu phức tạp dưới dạng hội thảo chuyên đề hoặc tư vấn.

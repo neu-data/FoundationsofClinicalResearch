@@ -8,7 +8,7 @@ title: "Buổi 6: Phiếu bài tập"
 
 Họ và tên: ______________________________   Khoa/Phòng: ______________________________
 
-Phiếu được gửi qua email trước buổi học, dưới dạng tệp Word và tệp PDF. Gõ câu trả lời vào tệp Word (hoặc in bản PDF). Trong lớp, cả lớp cùng làm Bài tập 4 và 8: làm đầy đủ cho Câu hỏi 1 (Q1) và làm nhanh cho Q2 đến Q5 (trả lời trong khung chat hoặc bằng bình chọn; giảng viên gõ câu trả lời của lớp lên màn hình chia sẻ). Sau buổi học, hãy hoàn thành Bài tập 4 và 8 cho MỘT câu hỏi bạn đã chọn cho bản thảo, dùng gói kết quả phân tích của câu hỏi đó (`Course/Data/results_packs/Results_Pack_Q1` đến `Q5`, PDF): câu trả lời của bạn sẽ là phần cốt lõi của mục Kết quả trong bản thảo (Buổi 7). Các bài tập khác là bài về nhà hoặc tự kiểm tra. Không cần máy tính bỏ túi. Các bài tập có ký hiệu **[FLUID-ICU]** dùng bộ dữ liệu của khóa học FLUID-ICU (mô phỏng). Bài tập 9 hoàn thiện Phần 3 đề cương của riêng bạn.
+Gõ câu trả lời vào tệp Word này hoặc in bản PDF. Bài tập 4 và 8 làm trên lớp cho Q1. Cuối buổi, bạn chọn câu hỏi của mình (Q1 đến Q5). Sau đó làm lại Bài tập 4 và 8 cho câu hỏi đó, dùng gói kết quả của nó: câu trả lời sẽ là phần cốt lõi của phần Kết quả. Bài tập 9 hoàn thiện Phần 3 đề cương của riêng bạn.
 
 | # | Bài tập | Khi nào | Thời gian |
 |---|---|---|---|
@@ -21,8 +21,6 @@ Phiếu được gửi qua email trước buổi học, dưới dạng tệp Wor
 | 7 | Vì sao dữ liệu bị thiếu? MCAR, MAR hay MNAR | bài về nhà | 5 phút |
 | 8 | [FLUID-ICU] Diễn giải mô hình cho câu hỏi bạn chọn | phần 6.4, cả lớp cùng làm (Q1), sau đó làm ở nhà cho câu hỏi của bạn | 7 phút |
 | 9 | Phiếu Xây dựng đề cương 6 (đề cương của riêng bạn) | xây dựng đề cương: giảng viên làm mẫu, bạn viết nháp; hoàn thành ở nhà | 30 phút |
-
-Hình cho Bài tập 3 và 6 nằm trong `Resources/figures/vi/sat3/` (bản tiếng Anh trong `.../en/sat3/`).
 
 
 * * *
@@ -187,7 +185,7 @@ Trên lớp, cả lớp cùng làm cho Q1. Sau đó hoàn thành cho câu hỏi 
 2. Ước lượng thay đổi bao nhiêu sau khi hiệu chỉnh, và theo hướng nào? Điều đó cho bạn biết gì về nhiễu do chỉ định?
 3. KTC 95% đã hiệu chỉnh có chứa giá trị "không có tác động" (1 với tỷ số, 0 với hiệu số) không?
 
-**Phần B: trường hợp đầy đủ so với quy gán đa bội** *(đọc kết quả từ gói của bạn; kết quả được tạo bởi script mẫu `Course/Data/R/05_missing.R`. Cấp độ 1 không dạy cách quy gán hoạt động; Cấp độ 2 có giới thiệu và Cấp độ 3, Học phần H trình bày sâu.)*
+**Phần B: trường hợp đầy đủ so với quy gán đa bội** (đọc kết quả từ gói của bạn)
 
 4. Mô hình trường hợp đầy đủ có bao nhiêu người bệnh, và mô hình quy gán đa bội có bao nhiêu? Ai bị loại khỏi phân tích trường hợp đầy đủ?
 5. Ước lượng quy gán đa bội có gần với ước lượng trường hợp đầy đủ không?
@@ -205,7 +203,7 @@ Trên lớp, cả lớp cùng làm cho Q1. Sau đó hoàn thành cho câu hỏi 
 
 ## Bài tập 9: Phiếu Xây dựng đề cương 6 (cá nhân)
 
-Lại là câu hỏi **của riêng bạn**. Giảng viên làm mẫu từng phần với ví dụ xuyên suốt; bạn viết nháp các thông số cỡ mẫu trong lớp (8 phút) và hoàn thành phần còn lại ở nhà. Chép câu trả lời vào Phần 3 trong mẫu đề cương của riêng bạn (`Course/Templates/Research_Proposal_Template.docx`).
+Lại là câu hỏi **của riêng bạn**. Giảng viên làm mẫu từng phần với ví dụ xuyên suốt; bạn viết nháp các thông số cỡ mẫu trong lớp (8 phút) và hoàn thành phần còn lại ở nhà. Chép câu trả lời vào Phần 3 trong mẫu đề cương của riêng bạn (`Research_Proposal_Template_VN.docx`, gửi qua email).
 
 ### 9.1 Phát biểu về cỡ mẫu (8 phút)
 
@@ -218,7 +216,7 @@ Lại là câu hỏi **của riêng bạn**. Giảng viên làm mẫu từng ph�
 | Lực thống kê | 80% / 90% | |
 | Tỷ lệ mất mẫu dự kiến | | |
 
-**Câu phát biểu** (dùng bảng tính `Resources/tools/sample_size_calculator.xlsx` hoặc email cho giảng viên):
+**Câu phát biểu** (dùng bảng tính `sample_size_calculator.xlsx` (gửi qua email) hoặc email cho giảng viên):
 
 > Giả định ______ ở nhóm chứng và ______ ở nhóm can thiệp, ______ người bệnh mỗi nhóm cho lực thống kê ____% với alpha hai phía 5%; tính thêm ____% mất mẫu, chúng tôi sẽ tuyển tổng cộng ______ người bệnh.
 

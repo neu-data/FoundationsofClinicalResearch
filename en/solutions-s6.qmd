@@ -6,7 +6,7 @@ title: "Session 6: Solutions"
 
 **Foundations of Clinical Research** · instructor copy (do not distribute before the session)
 
-Exercise numbers follow `Practicals/s6_exercises.md`. All FLUID-ICU numbers come from `Course/Data/key_results.md` (simulated data).
+Exercise numbers follow `s6_exercises.md`. All FLUID-ICU numbers come from `Results_Pack_Q1–Q5` (simulated data).
 
 
 * * *
@@ -67,7 +67,7 @@ Bonus: **no**, not on correlation alone. High r means the two methods rise and f
 
 ## Exercise 4: [FLUID-ICU] Interpret the comparison (Q1 together in class; each participant for their chosen question)
 
-Numbers from `Course/Data/key_results.md` (all unadjusted; simulated data).
+Numbers from `Results_Pack_Q1–Q5` (all unadjusted; simulated data).
 
 | Q | Test | Result | Model sentence |
 |---|---|---|---|
@@ -140,7 +140,7 @@ Bonus (d): report the main result plus a **best-case** (all transferred patients
 
 ## Exercise 8: [FLUID-ICU] Interpret the model (Q1 together in class; each participant for their chosen question)
 
-Numbers from `Course/Data/key_results.md` (simulated data).
+Numbers from `Results_Pack_Q1–Q5` (simulated data).
 
 | Q | Crude | Adjusted (complete case, n = 527 unless stated) | Multiple imputation (from the pack) |
 |---|---|---|---|

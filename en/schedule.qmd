@@ -2,7 +2,7 @@
 title: "Schedule"
 ---
 
-Eight weeks, **online**, one session every **Saturday from 19:30 to 22:30** (Vietnam time), from **31 October to 19 December 2026**: eight sessions of **3 hours** (with a 15-minute break), Session *n* in Week *n*. There are no groups: the whole class works through every exercise together, and each participant builds their own proposal and manuscript as homework. Weeks 1–4 build understanding and design skills; Weeks 5–8 read the results of the simulated **FLUID-ICU** dataset through live instructor demos, and each participant writes them up as a manuscript. The whole course is **Level 1** ([course levels](levels.qmd)).
+Eight weeks, **online**, one session every **Saturday from 19:30 to 22:30** (Vietnam time), from **31 October to 19 December 2026**: eight sessions of **3 hours** (with a 15-minute break), Session *n* in Week *n*. There are no groups: the whole class works through every exercise together, and each participant builds their own proposal and Results section as homework. Weeks 1–4 build understanding and design skills; Weeks 5–8 read the results of the simulated **FLUID-ICU** dataset through live instructor demos, and each participant writes the Results section of a paper from them. The whole course is **Level 1** ([course levels](levels.qmd)).
 
 | Week | Session | Day | Theme | You build (homework) |
 |:---:|:--------|:--------|:----------|:------------------------------------|
@@ -11,9 +11,9 @@ Eight weeks, **online**, one session every **Saturday from 19:30 to 22:30** (Vie
 | 3 | [Session 3](session3.qmd) | Saturday 14/11/2026 | **Design** | Proposal: design, setting, population |
 | 4 | [Session 4](session4.qmd) | Saturday 21/11/2026 | **Bias & effect** | Proposal: exposure, outcomes, bias plan |
 | 5 | [Session 5](session5.qmd) | Saturday 28/11/2026 | **Data** | Proposal: variables, CRF, data plan · Manuscript: Table 1 understood |
-| 6 | [Session 6](session6.qmd) | Saturday 05/12/2026 | **Analyse** | Proposal: sample size, analysis plan · Manuscript: results interpreted |
-| 7 | [Session 7](session7.qmd) | Saturday 12/12/2026 | **Protect & write** | Proposal: ethics, feasibility, publication plan · Manuscript: Methods + Results |
-| 8 | [Session 8](session8.qmd) | Saturday 19/12/2026 | **Publish** | Manuscript: complete draft · Proposal submitted (about 5 volunteers present) |
+| 6 | [Session 6](session6.qmd) | Saturday 05/12/2026 | **Analyse** | Proposal: sample size, analysis plan · Manuscript: question chosen |
+| 7 | [Session 7](session7.qmd) | Saturday 12/12/2026 | **Protect & write** | Proposal: ethics, feasibility, publication plan · Manuscript: Results section |
+| 8 | [Session 8](session8.qmd) | Saturday 19/12/2026 | **Publish** | Results section submitted · Proposal submitted (about 5 volunteers present) |
 
 ## Detailed timetables
 
@@ -28,7 +28,7 @@ Eight weeks, **online**, one session every **Saturday from 19:30 to 22:30** (Vie
 | 1:10 | 20:40 | 15 | BREAK |
 | 1:25 | 20:55 | 40 | **1.2 From problem to question:** where questions come from, PICO(T) with several worked examples, descriptive vs analytical questions, vague vs answerable, FINER, whole-class task: rescue the running example |
 | 2:05 | 21:35 | 20 | **1.3 Aims, objectives, hypotheses** (null vs alternative) + quick individual exercise |
-| 2:25 | 21:55 | 30 | **Proposal builder 1:** the instructor models Part 1 live on the running example (topic, PICO, research question, FINER check, aim and objectives); each participant drafts their own Part 1 (finished as homework); two volunteers share |
+| 2:25 | 21:55 | 30 | **Proposal builder 1:** the instructor models Part 1 live on the running example (topic, PICO, research question, FINER check, aim and objectives), each participant drafts their own Part 1 (finished as homework), two volunteers share |
 | 2:55 | 22:25 | 5 | Wrap-up, homework |
 
 \*Times are relative to the start of the session; the clock column shows Vietnam time for the online 19:30–22:30 session. All exercises are done by the whole class together (no groups). **[DS]** = course-dataset content (FLUID-ICU analysis and manuscript writing).
@@ -45,9 +45,9 @@ Eight weeks, **online**, one session every **Saturday from 19:30 to 22:30** (Vie
 | 0:10 | 19:40 | 40 | **2.1 Finding the evidence:** search funnel, Boolean, MeSH and how to find a MeSH term, search tools, from PICO to search blocks (running example and a ward example), PubMed vs Google Scholar, checking for a systematic review, **live PubMed demo**, each participant builds a Boolean search for their own question |
 | 0:50 | 20:20 | 20 | **2.2 Managing and citing:** reference managers, citation styles, **Zotero demo**, paraphrasing safely, grey literature & trial registries |
 | 1:10 | 20:40 | 15 | BREAK |
-| 1:25 | 20:55 | 40 | **2.3 Reading a paper in 15 minutes:** IMRaD, reading order, what an abstract must contain, spin; individual reading task on Paper 1's abstract (Boulet 2024, RCT; in `Course/Papers/`) |
+| 1:25 | 20:55 | 40 | **2.3 Reading a paper in 15 minutes:** IMRaD, reading order, what an abstract must contain, spin, individual reading task on Paper 1's abstract (Boulet 2024, RCT, sent by email) |
 | 2:05 | 21:35 | 15 | **2.4 From literature to introduction:** literature matrix, problem-statement funnel, working title & keywords |
-| 2:20 | 21:50 | 35 | **Proposal builder 2:** modelled live (search string, 5 references in the matrix, problem statement, working title); each participant searches and drafts their own (finished as homework); two volunteers share |
+| 2:20 | 21:50 | 35 | **Proposal builder 2:** modelled live (search string, 5 references in the matrix, problem statement, working title), each participant searches and drafts their own (finished as homework), two volunteers share |
 | 2:55 | 22:25 | 5 | Wrap-up |
 
 \*Times are relative to the start of the session; the clock column shows Vietnam time for the online 19:30–22:30 session. All exercises are done by the whole class together (no groups). **[DS]** = course-dataset content (FLUID-ICU analysis and manuscript writing).
@@ -62,11 +62,11 @@ Eight weeks, **online**, one session every **Saturday from 19:30 to 22:30** (Vie
 |:----|:----|---:|:------------------------------------------------------------|
 | 0:00 | 19:30 | 10 | Recap quiz |
 | 0:10 | 19:40 | 45 | **3.1 Study designs in pictures:** descriptive vs analytical, case report/series, cross-sectional, case-control, cohort, RCT, systematic review/meta-analysis, evidence pyramid, decision tree, strengths & weaknesses, what each design can claim |
-| 0:55 | 20:25 | 15 | Whole-class exercise: Name that design (6 abstracts on the fluid question; poll + chat) |
+| 0:55 | 20:25 | 15 | Whole-class exercise: Name that design (6 abstracts on the fluid question, poll + chat) |
 | 1:10 | 20:40 | 15 | BREAK |
-| 1:25 | 20:55 | 30 | **3.2 More designs:** trial variants (parallel, crossover, cluster, factorial; superiority vs non-inferiority), pilot/feasibility, before-after & interrupted time series (QI), qualitative designs; matching design to question |
-| 1:55 | 21:25 | 15 | Whole-class exercise: choose the design for 5 questions (poll); each participant then names the design for their own question in the chat |
-| 2:10 | 21:40 | 45 | **Proposal builder 3:** inclusion and exclusion criteria, then modelled live (design + justification, setting, population, inclusion/exclusion); each participant drafts their own (finished as homework); three volunteers share in the chat |
+| 1:25 | 20:55 | 30 | **3.2 More designs:** trial variants (parallel, crossover, cluster, factorial, superiority vs non-inferiority), pilot/feasibility, before-after & interrupted time series (QI), qualitative designs, matching design to question |
+| 1:55 | 21:25 | 15 | Whole-class exercise: choose the design for 5 questions (poll), each participant then names the design for their own question in the chat |
+| 2:10 | 21:40 | 45 | **Proposal builder 3:** inclusion and exclusion criteria, then modelled live (design + justification, setting, population, inclusion/exclusion), each participant drafts their own (finished as homework), three volunteers share in the chat |
 | 2:55 | 22:25 | 5 | Wrap-up |
 
 \*Times are relative to the start of the session; the clock column shows Vietnam time for the online 19:30–22:30 session. All exercises are done by the whole class together (no groups). **[DS]** = course-dataset content (FLUID-ICU analysis and manuscript writing).
@@ -80,12 +80,12 @@ Eight weeks, **online**, one session every **Saturday from 19:30 to 22:30** (Vie
 | Start | Clock* | Min | Segment |
 |:----|:----|---:|:------------------------------------------------------------|
 | 0:00 | 19:30 | 10 | Recap quiz |
-| 0:10 | 19:40 | 40 | **4.1 Bias, confounding and causation:** random error vs bias, selection, information, confounding (by indication), effect modification, how designs fight bias, validity, reverse causation, Bradford Hill; spot-the-bias quiz |
-| 0:50 | 20:20 | 25 | **4.2 Measuring disease and association:** prevalence vs incidence, risk, 2×2, RR / OR / RD / NNT, OR vs RR; **live 2×2 calculator demo** |
+| 0:10 | 19:40 | 40 | **4.1 Bias, confounding and causation:** random error vs bias, selection, information, confounding (by indication), effect modification, how designs fight bias, validity, reverse causation, Bradford Hill, spot-the-bias quiz |
+| 0:50 | 20:20 | 25 | **4.2 Measuring disease and association:** prevalence vs incidence, risk, 2×2, RR / OR / RD / NNT, OR vs RR, **live 2×2 calculator demo** |
 | 1:15 | 20:45 | 15 | BREAK |
 | 1:30 | 21:00 | 15 | Whole-class exercise: two 2×2 calculations, answers by poll |
 | 1:45 | 21:15 | 30 | **4.3 Beyond single studies:** diagnostic accuracy (sens/spec, PPV & prevalence, ROC), systematic reviews & forest plots, heterogeneity, risk-of-bias tools, "are the conclusions supported?" (whole-class task) |
-| 2:15 | 21:45 | 40 | **Proposal builder 4:** outcomes, then modelled live (exposure & comparator, outcomes, main biases & mitigation); each participant drafts their own (finished as homework); three volunteers share in the chat |
+| 2:15 | 21:45 | 40 | **Proposal builder 4:** outcomes, then modelled live (exposure & comparator, outcomes, main biases & mitigation), each participant drafts their own (finished as homework), three volunteers share in the chat |
 | 2:55 | 22:25 | 5 | Wrap-up |
 
 \*Times are relative to the start of the session; the clock column shows Vietnam time for the online 19:30–22:30 session. All exercises are done by the whole class together (no groups). **[DS]** = course-dataset content (FLUID-ICU analysis and manuscript writing).
@@ -99,12 +99,12 @@ Eight weeks, **online**, one session every **Saturday from 19:30 to 22:30** (Vie
 | Start | Clock* | Min | Segment |
 |:----|:----|---:|:------------------------------------------------------------|
 | 0:00 | 19:30 | 10 | Recap quiz |
-| 0:10 | 19:40 | 35 | **5.1 Good data by design:** variable types, CRF principles, data dictionary, validation, data management (EDC, double entry, audit trail, backups), preventing missing data; whole-class task: fix the CRF items |
-| 0:45 | 20:15 | 25 | **5.2 [DS] Meet the course dataset:** the FLUID-ICU study, raw vs clean data, the data-quality problems found, **live R demo of cleaning** and the cleaning log; the five questions Q1 to Q5 introduced (each participant chooses one for their manuscript by the end of Session 6) |
+| 0:10 | 19:40 | 35 | **5.1 Good data by design:** variable types, CRF principles, data dictionary, validation, data management (EDC, double entry, audit trail, backups), preventing missing data, whole-class task: fix the CRF items |
+| 0:45 | 20:15 | 25 | **5.2 [DS] Meet the course dataset:** the FLUID-ICU study, raw vs clean data, the data-quality problems found, **live R demo of cleaning** and the cleaning log, the five questions Q1 to Q5 introduced (each participant chooses one at the end of Session 6) |
 | 1:10 | 20:40 | 15 | BREAK |
 | 1:25 | 20:55 | 35 | **5.3 Describing and showing data:** mean/median, SD/IQR, shapes, which graph for which data, good vs bad figures, publication-quality tables, Table 1 |
-| 2:00 | 21:30 | 25 | **5.4 [DS] Describe the course dataset:** live demo of Table 1 and figures; the class reads the FLUID-ICU Table 1 and figures together |
-| 2:25 | 21:55 | 30 | **Proposal builder 5:** modelled live (variables table, mini-CRF, data dictionary rows, data-management plan); each participant drafts their own variables table (finished as homework) |
+| 2:00 | 21:30 | 25 | **5.4 [DS] Describe the course dataset:** live demo of Table 1 and figures, the class reads the FLUID-ICU Table 1 and figures together |
+| 2:25 | 21:55 | 30 | **Proposal builder 5:** modelled live (variables table, mini-CRF, data dictionary rows, data-management plan), each participant drafts their own variables table (finished as homework) |
 | 2:55 | 22:25 | 5 | Wrap-up |
 
 \*Times are relative to the start of the session; the clock column shows Vietnam time for the online 19:30–22:30 session. All exercises are done by the whole class together (no groups). **[DS]** = course-dataset content (FLUID-ICU analysis and manuscript writing).
@@ -119,11 +119,11 @@ Eight weeks, **online**, one session every **Saturday from 19:30 to 22:30** (Vie
 |:----|:----|---:|:------------------------------------------------------------|
 | 0:00 | 19:30 | 10 | Recap quiz |
 | 0:10 | 19:40 | 40 | **6.1 From sample to population:** CI, p-values & misinterpretations, one-sided vs two-sided tests, type I/II errors, power, sample size (**5-minute live demo**), choosing a test (decision table), paired vs unpaired, multiple comparisons |
-| 0:50 | 20:20 | 20 | **6.2 [DS] Compare groups in the course dataset:** live demo (t-test / Mann-Whitney / chi-square); the class interprets the outputs together (Q1 in full, Q2 to Q5 briefly) |
+| 0:50 | 20:20 | 20 | **6.2 [DS] Compare groups in the course dataset:** live demo (t-test / Mann-Whitney / chi-square), the class interprets the outputs together (Q1 in full, Q2 to Q5 briefly) |
 | 1:10 | 20:40 | 15 | BREAK |
 | 1:25 | 20:55 | 35 | **6.3 Relationships and models:** correlation, linear and logistic regression, adjustment, reading a regression table, overfitting, censoring and Kaplan-Meier curves (prediction/ML and interaction in the extra slides) |
 | 2:00 | 21:30 | 25 | **6.4 [DS] Model the course dataset:** the SAP that was written before the analysis, crude vs adjusted OR (confounding by indication made visible), Kaplan-Meier + Cox HR, RR, OR and HR side by side, complete-case vs multiple imputation |
-| 2:25 | 21:55 | 30 | **Proposal builder 6:** modelled live (sample size, analysis plan, confounders, missing-data plan); each participant drafts their own sample-size inputs (finished as homework) |
+| 2:25 | 21:55 | 30 | **Proposal builder 6:** modelled live (sample size, analysis plan, confounders, missing-data plan), each participant drafts their own sample-size inputs (finished as homework) |
 | 2:55 | 22:25 | 5 | Wrap-up |
 
 \*Times are relative to the start of the session; the clock column shows Vietnam time for the online 19:30–22:30 session. All exercises are done by the whole class together (no groups). **[DS]** = course-dataset content (FLUID-ICU analysis and manuscript writing).
@@ -132,18 +132,18 @@ Eight weeks, **online**, one session every **Saturday from 19:30 to 22:30** (Vie
 :::
 
 ::: {.callout-note collapse="true" appearance="simple"}
-## Session 7 · Protect & write: ethics, integrity, Methods and Results
+## Session 7 · Protect & write: ethics, integrity and the Results section
 
 | Start | Clock* | Min | Segment |
 |:----|:----|---:|:------------------------------------------------------------|
 | 0:00 | 19:30 | 10 | Recap quiz |
 | 0:10 | 19:40 | 30 | **7.1 Protocol, ethics and consent:** protocol (SPIRIT), Helsinki & GCP, ethics committee journey, registration, consent incl. ICU consent, confidentiality, feasibility |
-| 0:40 | 20:10 | 20 | **7.2 Research integrity:** FFP, duplicate/salami, authorship, conflicts of interest, data sharing, AI use; scenario poll |
-| 1:00 | 20:30 | 15 | **Proposal builder 7:** modelled live (ethics, registration, feasibility, publication plan); participants draft their own Part 4 as homework |
+| 0:40 | 20:10 | 20 | **7.2 Research integrity:** FFP, duplicate/salami, authorship, conflicts of interest, data sharing, AI use, scenario poll |
+| 1:00 | 20:30 | 15 | **Proposal builder 7:** modelled live (ethics, registration, feasibility, publication plan), participants draft their own Part 4 as homework |
 | 1:15 | 20:45 | 15 | BREAK |
-| 1:30 | 21:00 | 35 | **7.3 Writing the paper (I):** writing order, Methods (incl. statistical paragraph), Results (participants first, numbers with CIs, no interpretation), stand-alone tables & figures, STROBE for the course-dataset paper |
-| 2:05 | 21:35 | 45 | **[DS] Manuscript workshop 1:** the instructor drafts Methods + Results for Q1 live with the class (30 min); each participant then starts the Methods + Results (~600 words) for their chosen question, with Table 1 and one figure/table from its results pack (15 min, finished as homework) |
-| 2:50 | 22:20 | 10 | Key words, wrap-up, exit question, homework |
+| 1:30 | 21:00 | 35 | **7.3 Writing the paper (I): the Results section.** Writing order, Results (participants first, numbers with CIs, no interpretation), stand-alone tables and figures, STROBE for the course-dataset paper. Methods writing as optional practice |
+| 2:05 | 21:35 | 45 | **[DS] Manuscript workshop 1:** the instructor writes the Q1 Results live with the class (participants and Table 1, main results, other analyses, number check: 30 min). Each participant then starts the Results section for their chosen question, with Table 1 and one main table or figure from its results pack (15 min, finished as homework) |
+| 2:50 | 22:20 | 10 | Your reviewer and the deadlines, key words, wrap-up, exit question, homework |
 
 \*Times are relative to the start of the session; the clock column shows Vietnam time for the online 19:30–22:30 session. All exercises are done by the whole class together (no groups). **[DS]** = course-dataset content (FLUID-ICU analysis and manuscript writing).
 
@@ -151,18 +151,18 @@ Eight weeks, **online**, one session every **Saturday from 19:30 to 22:30** (Vie
 :::
 
 ::: {.callout-note collapse="true" appearance="simple"}
-## Session 8 · Publish: finish the paper, get it out, present
+## Session 8 · Publish: polish your Results, get it out, present
 
 | Start | Clock* | Min | Segment |
 |:----|:----|---:|:------------------------------------------------------------|
 | 0:00 | 19:30 | 5 | Recap |
-| 0:05 | 19:35 | 25 | **8.1 Writing the paper (II):** Introduction funnel, Discussion six moves, calibrated language, abstract, title & keywords, before you submit |
-| 0:30 | 20:00 | 30 | **[DS] Manuscript workshop 2:** Introduction, Discussion, Abstract and Title modelled live on Q1 (22 min); each participant writes their own aim and title (8 min) and completes their draft as homework |
+| 0:05 | 19:35 | 25 | **8.1 Writing the paper (II): the optional parts and the title.** Introduction funnel, Discussion six moves, calibrated language, abstract, title and keywords, before you submit |
+| 0:30 | 20:00 | 30 | **[DS] Manuscript workshop 2:** the class improves the Q1 Results together (numbers, tables, words, title, the optional parts: 22 min). Each participant checks their own Results draft and writes the working title (8 min), then emails the Results section by 23:59 tonight |
 | 1:00 | 20:30 | 20 | **8.2 Getting published:** reporting guidelines (**EQUATOR demo**), choosing a journal, predatory journals, submission package, peer review, responding to reviewers (preprints, rejection, proofs and conference abstracts in the extra slides) |
 | 1:20 | 20:50 | 15 | BREAK |
-| 1:35 | 21:05 | 25 | **8.3 Be the reviewer:** simplified appraisal of Papers 1 and 2 (Boulet 2024 RCT and Hyun 2023 cohort, in `Course/Papers/`) with the whole class, using the 10-question checklist, as training for the individual peer review after the course |
-| 2:00 | 21:30 | 45 | **Volunteer presentations:** about 5 volunteers present their own research proposal + publication plan (6 min + 2 min feedback each), then a 5-minute closing round; everyone submits slides and the written proposal |
-| 2:45 | 22:15 | 15 | Post-course quiz, evaluation, next steps (individual peer review of one peer's manuscript as homework) |
+| 1:35 | 21:05 | 25 | **8.3 Be the reviewer:** simplified appraisal of Papers 1 and 2 (Boulet 2024 RCT and Hyun 2023 cohort) with the whole class, using the 10-question checklist, as reviewing practice |
+| 2:00 | 21:30 | 45 | **Volunteer presentations:** about 5 volunteers present their own research proposal + publication plan (6 min + 2 min feedback each), then a 5-minute closing round, everyone submits slides and the written proposal |
+| 2:45 | 22:15 | 15 | Post-course quiz, evaluation, next steps (peer review of one classmate's Results section, due 2 January 2027) |
 
 \*Times are relative to the start of the session; the clock column shows Vietnam time for the online 19:30–22:30 session. All exercises are done by the whole class together (no groups). **[DS]** = course-dataset content (FLUID-ICU analysis and manuscript writing).
 

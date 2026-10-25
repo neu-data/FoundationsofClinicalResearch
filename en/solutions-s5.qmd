@@ -6,7 +6,7 @@ title: "Session 5: Solutions"
 
 **Foundations of Clinical Research** · instructor copy (do not distribute before the session)
 
-Exercise numbers follow `Practicals/s5_exercises.md`. All FLUID-ICU numbers come from `Course/Data/key_results.md` (simulated data).
+Exercise numbers follow `s5_exercises.md`. All FLUID-ICU numbers come from `Results_Pack_Q1–Q5` (simulated data).
 
 
 * * *
@@ -74,7 +74,7 @@ Accept any version that passes the four checks (unit, time point, one reading, u
 
 ## Exercise 5: [FLUID-ICU] Spot the problems in the raw FLUID-ICU data
 
-(See `Course/Data/cleaning_log.md` for the full log.)
+(See `FLUID-ICU/cleaning_log.md` for the full log.)
 
 | # | What is wrong | What the script does |
 |---|---|---|
@@ -92,7 +92,7 @@ Bonus: editing by hand is invisible and not reproducible. A script plus a log le
 
 ## Exercise 6: [FLUID-ICU] Read the FLUID-ICU Table 1 (whole class)
 
-All numbers from `Course/Data/key_results.md` (simulated data).
+All numbers from `Results_Pack_Q1–Q5` (simulated data).
 
 1. Negative balance n = 245, positive n = 373, overall 618. Two of the 620 enrolled patients have no computable day-3 fluid balance (an impossible weight or fluid output was set to missing during cleaning), so they cannot be placed in a group.
 2. Expected answers: mean (SD) for age, which is roughly symmetric (64.6 vs 61.4 years); median (IQR) for SOFA, a skewed score (6 (4 to 8) vs 8 (6 to 10)); median (IQR) for lactate, which is right-skewed (2.2 (1.4 to 3.0) vs 2.9 (1.9 to 4.0) mmol/L); n (%) for vasopressor, ventilation, heart failure and sex.
@@ -104,9 +104,9 @@ All numbers from `Course/Data/key_results.md` (simulated data).
 
 * * *
 
-## Exercise 7: [FLUID-ICU] Your manuscript question as a PECO sentence
+## Exercise 7: [FLUID-ICU] A FLUID-ICU question as a PECO sentence
 
-In class, Q1 is done together; each participant later completes the table for the question they chose.
+In class, Q1 is done together. Participants redo it after choosing their own question at the end of Session 6.
 
 | Q | Outcome (type) | Exposure (type) | Planned comparison / model |
 |---|---|---|---|

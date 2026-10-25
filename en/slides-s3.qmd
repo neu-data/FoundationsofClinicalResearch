@@ -25,19 +25,13 @@ format:
 - Proposal builder 3: design, setting and population (45 min), then wrap-up (5 min)
 
 ::: {.notes}
-Session 3 opening (19:30). Welcome to Week 3. In Sessions 1 and 2 we asked a question and found the evidence. Today we choose how a study answers a question. Next Saturday (Session 4) we judge whether we can trust the answer and how big the effect is.
+Start 19:30. Point: the design decides what you may claim at the end.
 
-Teaching point: the design decides what you are allowed to claim at the end. A good question with the wrong design produces a weak study.
+Ask: 'Who has ever collected data for a study?' Use them as examples later.
 
-How we work online (repeat briefly): quick answers go in the poll. For other questions the instructor calls on two or three people to answer with the microphone on. Use the 'raise hand' button to speak. Every exercise is done by the whole class together, with the instructor typing the class answer on the shared screen. There are no groups.
+Clock: 19:30 recap, 19:40 3.1, 20:25 Name that design, 20:40 break, 20:55 3.2, 21:25 choose the design, 21:40 proposal builder 3, 22:25 wrap-up.
 
-Pace: this is a slow session on purpose. Every design is shown as a picture or a short table, then as a worked example, then checked with a quick poll.
-
-Running example: our fluid question, answered twice: by a small randomised trial (Paper 1, Boulet 2024) and by a large cohort (Paper 2, Hyun 2023). Both are in the course folder, Course/Papers.
-
-Ask the class (call on two or three people, microphone on): who has ever collected data for a study? Expected: a few. Use them as examples later.
-
-Timing: 1 minute. Clock: 19:30 recap quiz (10), 19:40 section 3.1 (45), 20:25 Name that design (15), 20:40 break (15), 20:55 section 3.2 (30), 21:25 choose the design (15), 21:40 proposal builder 3 (45), 22:25 wrap-up (5), 22:30 end.
+Timing: 1 minute.
 :::
 
 ## Recap quiz: three questions on Session 2
@@ -71,17 +65,13 @@ How we run it
 :::
 
 ::: {.notes}
-Purpose: wake up Session 2 and put each participant's own question back in front of them. Today's proposal builder chooses a design for it.
+Three poll questions. Show results, then the answer.
 
-Run it as three poll questions (Zoom or Teams poll). Show the results, then the answer.
+Answers: Q1 AND narrows, OR widens. Q2 the figures and tables. Q3 spin.
 
-Answers. Q1: AND with another concept narrows the search. OR widens it. Q2: the figures and tables (reading order: title, abstract, figures and tables, then methods). Q3: spin (describing a non-significant result as if it were a benefit).
+After Q3 ask for a rewrite. Expected: 'mortality did not differ clearly between groups (p = 0.42)'.
 
-Misconception to catch: 'p = 0.42 is nearly significant'. It is not. The honest phrase is 'no clear difference'.
-
-Ask the class after Q3 (call on two or three people, microphone on): how should the sentence be rewritten? Expected answer: 'mortality did not differ clearly between groups (p = 0.42)'.
-
-Timing: 9 minutes (about 6 for the questions, 3 for re-reading). Together with the opening slide this is the 10-minute recap.
+Timing: 9 minutes.
 :::
 
 ## Key words of the day
@@ -126,15 +116,9 @@ The words you will use today (no need to memorise definitions)
 :::
 
 ::: {.notes}
-Section 3.1 starts here (45 minutes in all, this slide to the 'caused or associated' poll).
+3.1 starts here (45 minutes). Read the four headings only.
 
-Read the four headings only. The details come slide by slide. These words are also listed at the top of the Session 3 exercise sheet (PDF sent before the session).
-
-Teaching point: almost every design question becomes easy once people can name the exposure and the outcome. We practise that first.
-
-Misconception: 'design names must be memorised'. No. They can be worked out from the two questions on the key message.
-
-Ask the class (call on two or three people, microphone on): in our fluid question, what is the exposure and what is the outcome? Expected answer: exposure = restrictive fluid strategy (vs usual care). Outcome = death by day 28.
+Ask: 'In our fluid question, what is the exposure and what is the outcome?' Expected: restrictive fluids (vs usual care), death by day 28.
 
 Timing: 1 minute.
 :::
@@ -142,7 +126,7 @@ Timing: 1 minute.
 ## One question, two designs
 
 ::: {.neu-intro}
-In adults with septic shock, does a restrictive fluid strategy reduce 28-day mortality? Both papers: course folder, Course/Papers
+In adults with septic shock, does a restrictive fluid strategy reduce 28-day mortality? Both papers were emailed before Session 1
 :::
 
 :::: {.neu-cards style="--n:2"}
@@ -169,17 +153,9 @@ In adults with septic shock, does a restrictive fluid strategy reduce 28-day mor
 :::
 
 ::: {.notes}
-This is the thread for the whole session. Read the question aloud: it is the PICO (Population, Intervention, Comparison, Outcome) the class built in Session 1.
+Boulet assigned the strategy by chance. Hyun only observed. Boulet's primary outcome was fluid balance, not mortality.
 
-Where the papers are: both full texts (original and annotated) are in the course folder, Course/Papers: 'Paper 1 - Boulet 2024 Crit Care (RCT)' and 'Paper 2 - Hyun 2023 Ann Intensive Care (cohort)'. Participants met them in Session 2.
-
-Teaching point: Boulet assigned the fluid strategy by chance (an experiment). Hyun only observed what clinicians did and what happened afterwards (an observational cohort).
-
-Point out a detail people miss: Boulet's primary outcome was fluid balance at day 5, not mortality. It was a pilot trial. Hyun looked at 28-day mortality, which is our question, but could not assign anything.
-
-Misconception: 'the bigger study is always the better study'. Size reduces random error. It does not remove bias. We come back to this in Session 4.
-
-Ask the class (poll, or call on two or three people): which study would you trust more to tell you whether restriction saves lives? Expected answer: mixed, and that is the point. Neither answers it fully. Keep the tension. We resolve it by the end of 3.1.
+Ask (poll): 'Which study would you trust more on whether restriction saves lives?' Expected: mixed. Neither answers it fully. Resolve it by the end of 3.1.
 
 Timing: 2.5 minutes.
 :::
@@ -197,11 +173,7 @@ That one question sorts almost every study design. (45 minutes)
 ::::
 
 ::: {.notes}
-Section marker for 3.1. The 45 minutes run from the key-words slide to the 'caused or associated' poll, including one short poll.
-
-Teaching point: we learn designs as pictures on a timeline, not as definitions. For each design we ask: who decided the exposure, and in which direction does time run? Each picture is followed by a worked example in steps.
-
-Tell the class they do not need to memorise names. By the end they will be able to sketch them.
+For each design ask: who decided the exposure, and which way does time run? No need to memorise names.
 
 Timing: 30 seconds.
 :::
@@ -244,13 +216,9 @@ Timing: 30 seconds.
 :::
 
 ::: {.notes}
-Go left to right. Descriptive studies describe what is there, with no comparison. Analytical studies compare groups to test an association, and they come in two kinds: observational (the investigator watches what happens in normal care) and experimental (the investigator decides who gets what).
+Observational does not mean bad: harm, prognosis and rare diseases often need it.
 
-Systematic reviews sit apart: they are studies of studies, combining many of the designs on this slide.
-
-Misconception: 'observational means bad'. No. Many key questions (harm, prognosis, rare diseases) can only be answered observationally. It is about fit, not rank.
-
-Ask the class (poll): which card does Paper 1 (Boulet) belong to? Paper 2 (Hyun)? Expected answer: Boulet = experimental, RCT. Hyun = observational, cohort.
+Poll: 'Which card for Paper 1? Paper 2?' Expected: Boulet experimental (RCT), Hyun observational (cohort).
 
 Timing: 2 minutes.
 :::
@@ -269,15 +237,9 @@ Exposure: a treatment, strategy or risk factor. Outcome: death, infection, injur
 :::
 
 ::: {.notes}
-Before any design, everyone must be able to name the two pieces of a question.
+Fluid balance is the outcome in Boulet but the exposure in Hyun. A treatment is an exposure too.
 
-Exposure: what comes first (a treatment, a strategy, a risk factor, a behaviour). Outcome: what we count later (death, infection, injury, a lab value). The comparison group is people without the exposure, or with usual care.
-
-Walk down the rows. The same variable can play different roles: fluid balance is the outcome in Boulet (day-5 balance) but the exposure in Hyun (balance by day 3, outcome death). The last two rows are other examples that come back later today.
-
-Misconception: 'the exposure must be harmful'. No. A treatment is an exposure too.
-
-Ask the class (call on two or three people, microphone on): in our running question, name the exposure, the outcome and the comparison. Expected: restrictive fluid strategy. Death by day 28, usual care.
+Ask: 'Name the exposure, outcome and comparison in our question.' Expected: restrictive fluids, death by day 28, usual care.
 
 Timing: 3 minutes.
 :::
@@ -308,15 +270,9 @@ Timing: 3 minutes.
 :::
 
 ::: {.notes}
-Case report or series: a few unusual patients written up in detail. Historically important (first reports of AIDS, thalidomide harms) because they raise alarms and hypotheses.
+Cross-sectional: exposure and outcome measured at the same moment, so time order is unknown.
 
-Cross-sectional study: one snapshot of a population at one moment, for example a one-day survey of every patient in the ICU. It measures prevalence (how many have it now).
-
-Teaching point: in a cross-sectional study exposure and outcome are measured at the same moment, so you usually cannot tell which came first.
-
-Misconception: 'a cross-sectional study can show cause because it has two groups'. It can compare groups (analytical cross-sectional), but time order is missing.
-
-Ask the class (call on two or three people, microphone on): how could you measure, on one day, how common a positive fluid balance is in your ICU? Expected answer: a point-prevalence survey of all patients present that day.
+Ask: 'How could you measure, on one day, how common a positive fluid balance is in your ICU?' Expected: a point-prevalence survey.
 
 Timing: 2 minutes.
 :::
@@ -355,15 +311,9 @@ A cross-sectional study you could run next week
 :::
 
 ::: {.notes}
-Another example (outside the fluid question), to make 'cross-sectional' concrete. Hypothetical numbers.
+Hypothetical numbers. You cannot tell whether the mattress or the injury came first. For 'how common is it now?' this is the right design.
 
-Steps 1-2: everyone present on one day, examined the same way (this protects against information bias, which we meet in Session 4). Step 3: exposure (mattress) and outcome (pressure injury) are recorded at the same moment. Step 4: the result is a prevalence: 37 of 412 patients, 9%.
-
-Teaching point: you can compare groups (injury on standard vs air mattress), but you cannot tell whether the mattress came first or whether patients with injuries were moved onto air mattresses.
-
-Misconception: 'cross-sectional = low quality'. For 'how common is it now?' it is exactly the right design, and it is cheap and fast.
-
-Ask the class (call on two or three people, microphone on): what in our ICU could you measure in one day for the fluid question? Expected: today's fluid balance and today's kidney function for every patient present.
+Ask: 'What could you measure in one day for the fluid question?' Expected: today's fluid balance and kidney function for every patient.
 
 Timing: 2 minutes.
 :::
@@ -381,15 +331,11 @@ ICU: intensive care unit
 :::
 
 ::: {.notes}
-Trace the arrow with the cursor from right to left. We start today with people who already have the outcome (cases) and similar people who do not (controls). Then we look back for the exposure.
+Trace the arrow right to left. Good for rare outcomes. Weaknesses: recall bias, choosing controls, odds ratio only.
 
-Example on the picture: ICU patients who developed candidaemia (cases) versus ICU patients who did not (controls). Look back in the records for parenteral nutrition.
+Case-control selects by outcome, a cohort by exposure.
 
-Strengths: efficient for rare outcomes or long latency, because you do not need to follow thousands of people. Weaknesses: recall bias, choosing good controls is hard, and you can only calculate an odds ratio, not risks.
-
-Misconception: 'case-control is the same as a retrospective cohort because both use old records'. The difference is how people are selected: by outcome in case-control, by exposure in a cohort.
-
-Ask the class (call on two or three people, microphone on): why can you not calculate the risk of candidaemia from a case-control study? Expected answer: the investigator chose how many cases and controls to include, so the proportion with the outcome is set by design, not by nature.
+Ask: 'Why can you not calculate the risk of candidaemia here?' Expected: we chose how many cases and controls.
 
 Timing: 2.5 minutes.
 :::
@@ -433,13 +379,9 @@ Question: is parenteral nutrition a risk factor for candidaemia in the ICU?
 :::
 
 ::: {.notes}
-Another example (outside the fluid question). In Session 4 the class calculates the odds ratio for a case-control study on our fluid question that uses the same numbers (24 of 40 vs 16 of 80), so take your time here.
+Take your time: Session 4 uses the same numbers to calculate the OR.
 
-Step 1: cases are people with the outcome. Step 2: controls are similar people without it, from the same source (same ICUs, same period). Choosing controls well is the hardest part. Step 3: look back for the exposure, the same way for both groups. Step 4: 60% of cases vs 20% of controls were exposed. Step 5: the result is an odds ratio (OR = 6.0, which we calculate next Saturday).
-
-Misconception: 'controls should be healthy volunteers'. No. Controls must come from the population that produced the cases, otherwise the comparison is unfair.
-
-Ask the class (call on two or three people, microphone on): why can we not report the risk of candidaemia from this study? Expected answer: we chose how many cases and controls to include (1:2), so the proportion with candidaemia is set by us.
+Controls must come from the population that produced the cases, not healthy volunteers.
 
 Timing: 2.5 minutes.
 :::
@@ -453,15 +395,9 @@ Timing: 2.5 minutes.
 :::
 
 ::: {.notes}
-Arrow left to right. Group people by exposure (here: positive versus negative fluid balance in the first ICU days) and count who develops the outcome (death by day 28). This is Paper 2, Hyun 2023.
+Arrow left to right. This is Paper 2. A retrospective cohort still goes from exposure to outcome.
 
-Prospective cohort: you start now and follow into the future. Retrospective cohort: you start in old records, but the logic is still exposure then outcome. Hyun analysed a registry whose data were collected prospectively.
-
-Strengths: clear time order, can study several outcomes, gives risks and incidence. Weaknesses: slow and costly if prospective, poor for rare outcomes, and confounding, because the investigator did not choose who got more fluid.
-
-Misconception: 'retrospective means poor quality'. Not necessarily. The quality depends on how well the data were recorded.
-
-Ask the class (call on two or three people, microphone on): in Hyun, who decided which patients received more fluid? Expected answer: the treating clinicians, according to how sick the patient looked. Hold that thought for confounding in Session 4.
+Ask: 'In Hyun, who decided which patients got more fluid?' Expected: the clinicians, by how sick the patient looked. Hold this for Session 4.
 
 Timing: 2 minutes.
 :::
@@ -500,13 +436,7 @@ Read it as in Session 2. Question: is a positive fluid balance associated with d
 :::
 
 ::: {.notes}
-This is how Paper 2 (Hyun 2023, course folder Course/Papers) works. It is a good example of a cohort built from a registry whose data were collected prospectively.
-
-Step 1: the cohort: who is followed (and who is left out: patients who left the ICU before day 3). Step 2: exposure measured before the outcome. Step 3: outcome counted later. Step 4: compare the groups. Hyun used propensity-score matching to make them similar (483, 373 and 392 matched pairs for days 1, 2 and 3). Day 2 result: hazard ratio (HR) 2.13 (95% confidence interval, CI, 1.48-3.06). Day 1 showed no clear difference. Participants learned how to read a paper in Session 2 (2.3): question, design, main result. This slide applies it. The paper reports a hazard ratio (HR); on the slide we say it in plain words. Ratios come later: risk ratio and odds ratio in Session 4, HR in Session 6, with a summary slide on when each is used.
-
-Misconception: 'a cohort needs to start today'. A retrospective cohort uses old records but still goes exposure then outcome.
-
-Ask the class (call on two or three people, microphone on): who decided which patients received more fluid? Expected: the treating clinicians, often because the patient was sicker. We come back to this in Session 4 (confounding).
+Day 2 result: HR 2.13 (95% CI 1.48-3.06). Day 1: no clear difference. Say the HR in plain words. HR is taught in Session 6.
 
 Timing: 3 minutes.
 :::
@@ -524,17 +454,13 @@ R: randomisation by a central computer, 1:1
 :::
 
 ::: {.notes}
-Paper 1, Boulet 2024: 50 adults with septic shock randomised by a central computer, 1:1, to a restrictive strategy for non-resuscitation fluids or usual care. Two patients in the usual-care group withdrew consent, so 24 + 24 were analysed.
+An RCT is a cohort in which chance assigns the exposure, so groups are alike for measured and unmeasured factors.
 
-Teaching point: an RCT is a cohort in which the investigator assigns the exposure by chance. That is why groups are alike at the start, for factors we measured and factors we did not.
+6 deaths in each group: almost nothing about mortality. The pilot was powered for fluid balance.
 
-Note the honest result: 6 deaths in each group by day 28. With 24 patients per arm this tells us almost nothing about mortality. The trial was a pilot powered for fluid balance.
+Ask: 'Why not randomise everything?' Expected: ethics, rare or slow outcomes, cost.
 
-Misconception: 'RCT = truth'. A small, unblinded or badly run RCT can still mislead. Design is necessary, not sufficient.
-
-Ask the class (call on two or three people, microphone on): why not randomise everything? Expected answer: some exposures cannot ethically be assigned (smoking, harm), some outcomes are rare or take years, and trials are expensive.
-
-Timing: 2 minutes. After the break, 3.2 shows the other ways a trial can be laid out.
+Timing: 2 minutes.
 :::
 
 ## Worked example: Paper 1 (Boulet 2024), step by step
@@ -576,13 +502,9 @@ Question: does restricting non-resuscitation fluids reduce the day-5 fluid balan
 :::
 
 ::: {.notes}
-This is Paper 1 (Boulet 2024, course folder Course/Papers), a pilot randomised trial in 3 ICUs.
+Clinicians knew the group. Only patients and statisticians were blinded.
 
-Step 1: strict eligibility criteria (we return to these in the proposal builder). Step 2: consent (in the ICU often from a surrogate), before or soon after randomisation. Step 3: randomisation by a central computer keeps the next allocation hidden (allocation concealment, Session 4). Step 4: the two strategies are delivered. Step 5: the primary outcome is the day-5 fluid balance. Death by day 28 was 6 of 24 in each group.
-
-Misconception: 'randomised = blinded'. Not here. Clinicians knew the group. Only patients and statisticians were blinded.
-
-Ask the class (poll): which step makes this an experiment rather than a cohort? Expected: step 3, where the investigator assigns the exposure.
+Poll: 'Which step makes this an experiment?' Expected: step 3, randomisation.
 
 Timing: 2.5 minutes.
 :::
@@ -596,13 +518,9 @@ Timing: 2.5 minutes.
 :::
 
 ::: {.notes}
-A systematic review uses a pre-specified, reproducible search (remember PubMed and Boolean operators from Session 2) and appraises every study found. A meta-analysis then pools the results into one estimate: the diamond at the bottom of a forest plot.
+Illustrative forest plot. A meta-analysis is only as good as the studies it pools.
 
-The forest plot here is illustrative: each square is one trial, the line its 95% confidence interval, the vertical line 'no difference'. Session 4 reads a PRISMA flow diagram and a forest plot step by step.
-
-Misconception: 'a meta-analysis is always the best evidence'. It is only as good as the studies it pools: garbage in, garbage out. A review of small biased trials gives a precise wrong answer.
-
-Ask the class (call on two or three people, microphone on): what is the difference between a narrative review and a systematic review? Expected answer: the systematic review has a stated, reproducible method for search and selection. A narrative review is the author's choice.
+Ask: 'Narrative vs systematic review?' Expected: a systematic review has a stated, reproducible search and selection.
 
 Timing: 2 minutes.
 :::
@@ -627,13 +545,9 @@ Timing: 2 minutes.
 ::::
 
 ::: {.notes}
-Recap from Session 1, now with the two papers placed on it. Paper 1 (Boulet) is an RCT, Paper 2 (Hyun) a cohort.
+A 48-patient pilot does not overrule a careful cohort on mortality.
 
-Teaching point: the pyramid ranks designs by their typical protection against bias for questions about treatment effects. It does not rank questions about prevalence, prognosis or rare harms, where other designs are the right tool.
-
-Misconception: 'anything on a higher level beats anything lower down'. A 48-patient pilot RCT does not overrule a careful multicentre cohort on mortality. They answer different parts of the question.
-
-Ask the class (poll): which paper is higher, and does that make it more useful for our mortality question? Expected answer: Boulet is higher, but it was not designed or powered for mortality, so for mortality it adds little.
+Poll: 'Which paper is higher, and is it more useful for our mortality question?' Expected: Boulet is higher, but it was not powered for mortality.
 
 Timing: 1.5 minutes.
 :::
@@ -647,17 +561,11 @@ Timing: 1.5 minutes.
 :::
 
 ::: {.notes}
-This is the tool for the 'Name that design' exercise at the end of 3.1. Walk it once slowly with Paper 1 (Boulet), then with Paper 2 (Hyun).
+Walk the tree once with Boulet (assigned, random: RCT) and once with Hyun (not assigned, comparison, exposure first: cohort). Do not name designs from title words.
 
-Boulet: did the investigator assign the strategy? Yes. At random? Yes. RCT.
+Poll: 'Fluid balance and kidney function of every patient on one day?' Expected: cross-sectional. 'Protocol from one date, before vs after?' Expected: non-randomised (quasi-experimental).
 
-Hyun: assigned? No. Comparison group? Yes (positive vs negative balance). Exposure measured first and outcome followed afterwards? Yes. Cohort.
-
-Misconception: people name the design from words in the title ('prospective', 'registry', 'retrospective'). Titles can mislead, so use the three questions instead.
-
-Ask the class (poll): a study compares the fluid balance and the kidney function of every ICU patient on one day. What design? Expected answer: no assignment, comparison yes, same moment = cross-sectional. And a fluid protocol introduced on one date, compared before and after? Assigned but not random: a non-randomised (quasi-experimental) study.
-
-Timing: 5 minutes. The same tree is also in the Session 3 exercise sheet (PDF), Part A, so participants can keep it open during the exercise.
+Timing: 5 minutes.
 :::
 
 ## Every design trades something away
@@ -705,15 +613,11 @@ Strengths and weaknesses at a glance
 :::
 
 ::: {.notes}
-Do not read every line. Pick one strength and one weakness per card and link it to a picture they have just seen.
+Pick one strength and one weakness per card. The RCT balances unknown confounders but trial patients are selected (Boulet excluded patients over 85).
 
-Teaching point: the RCT's unique strength is balancing unknown confounders. Its weakness is often generalisability: trial patients are selected (Boulet excluded patients over 85, those needing dialysis and the severely malnourished).
+Ask: 'Which design for risk factors of a rare drug reaction?' Expected: case-control.
 
-Misconception: 'case-control studies are weak'. For a rare outcome they are often the only feasible design, and they first linked smoking with lung cancer.
-
-Ask the class (call on two or three people, microphone on): which design would you choose to find risk factors for a rare drug reaction? Expected answer: case-control.
-
-Timing: 2 minutes. The same table is in the Session 3 exercise sheet (PDF).
+Timing: 2 minutes.
 :::
 
 ## What can each design claim?
@@ -746,17 +650,11 @@ Timing: 2 minutes. The same table is in the Session 3 exercise sheet (PDF).
 :::
 
 ::: {.notes}
-Back to the running example to close 3.1.
+Adjusting or matching reduces measured confounding only.
 
-Boulet (RCT): because chance made the groups comparable, any difference in fluid balance can be attributed to the strategy. But with 48 patients and 6 deaths in each arm, it cannot tell us anything firm about mortality. Clinicians knew the allocation, which could influence how much fluid they gave.
+Ask for one honest conclusion per paper. Expected: Boulet 'did not clearly reduce day-5 fluid balance'. Hyun 'a positive balance on days 2-3 was associated with higher mortality'.
 
-Hyun (cohort): thousands of patients and the outcome we care about. A positive balance on days 2-3 was associated with higher 28-day mortality (hazard ratio, HR, 2.13 for day 2 and 1.56 for day 3, no clear difference on day 1). But it cannot prove that the fluid caused the deaths, because sicker patients receive more fluid.
-
-Misconception: 'adjusted' or 'propensity-matched' turns an association into a cause. It reduces measured confounding only.
-
-Ask the class (call on two or three people, microphone on): write one honest sentence for each paper's conclusion. Expected answer: for Boulet, 'the strategy did not clearly reduce day-5 fluid balance'. For Hyun, 'a positive balance on days 2-3 was associated with higher mortality'.
-
-Timing: 4 minutes. Then a 3-minute poll, then the exercise.
+Timing: 4 minutes.
 :::
 
 ## Check your understanding: caused or associated?
@@ -788,13 +686,9 @@ For each sentence
 :::
 
 ::: {.notes}
-Run it as a three-question poll (right or wrong for each sentence). Show the results after each.
+Three-question poll. Answers: A right. B wrong, a cohort says 'associated with'. C right.
 
-Answers. A: right. A randomised trial may make causal statements, and this one honestly reports a null result. B: wrong. A cohort can say 'associated with', not 'causes' (Hyun's own abstract correctly says 'associated'). C: right. 'Associated' is the right word for a cross-sectional survey. It cannot show which came first.
-
-Teaching point: this is question 8 of the 10-question appraisal checklist used in Session 8 (Course/Resources/Critical\_Appraisal\_Checklist.pdf): do the words match the design?
-
-Timing: 3 minutes. This closes the 45 minutes of 3.1.
+Timing: 3 minutes. 3.1 ends here.
 :::
 
 ## Exercise: Name that design
@@ -830,17 +724,11 @@ Use the tree
 :::
 
 ::: {.notes}
-Whole-class exercise, about 2.5 minutes per abstract. Sheet: Course/Practicals/s3\_exercises.md, Part A (sent as a PDF before the session). Answer key: Course/Solutions/s3\_solutions.md, Part A.
+About 2.5 minutes per abstract: read it, poll, ask one person for the phrase that proves it, type it on screen.
 
-Run it: show abstract 1 on the shared screen and read it aloud. Open a poll with the design choices (cross-sectional, case-control, cohort, non-randomised study, RCT, systematic review). Show the results. Ask one volunteer (raise hand, microphone on) for the phrase that proves it, and type it next to the abstract on the shared screen. Then the next abstract.
+Abstracts 3 and 4 are the hardest. If someone says 'old records, so case-control', ask: selected by outcome or by exposure?
 
-Abstracts 3 (case-control, looks back from dialysis) and 4 (retrospective cohort that sounds like a case-control) are usually the hardest. Spend the extra time there.
-
-Teaching point: the evidence phrase matters more than the label: 'randomly allocated', 'compared with patients who did not', 'divided them by', 'on one day'.
-
-Misconception to listen for: 'it used old records so it is case-control'. Ask: were people selected by outcome or by exposure?
-
-If the class is quick: the sheet has nine more abstracts on other topics for self-study (Part A, extra practice). Announce the break at the end of this slide.
+Key: s3\_solutions, Part A. Announce the break at the end.
 :::
 
 ---
@@ -854,11 +742,7 @@ If the class is quick: the sheet has nine more abstracts on other topics for sel
 :::
 
 ::: {.notes}
-The slide is only a picture on purpose. Before the break, say: stand up, stretch, drink some water. Optional thought: which design might fit your own question? We restart with more study designs.
-
-15-minute break (20:40-20:55). Put a countdown timer on the shared screen and leave the session open.
-
-Restart on time: start the next slide even if a few people have not yet turned their cameras back on.
+Break 20:40-20:55. Put a countdown timer on screen. Restart on time.
 :::
 
 ## 3.2  More designs
@@ -874,9 +758,7 @@ Trial variants, non-inferiority, pilots, quality-improvement designs and qualita
 ::::
 
 ::: {.notes}
-Section marker for 3.2 (30 minutes).
-
-Why this matters: most projects in a hospital department are not classic two-arm trials. They are unit-level changes, quality-improvement projects, pilots or interviews. Knowing these designs lets participants choose something feasible for their own proposal.
+3.2 runs 30 minutes. Most hospital projects are unit-level changes, QI, pilots or interviews.
 
 Timing: 30 seconds.
 :::
@@ -894,17 +776,9 @@ R: randomisation. A and B: the two treatments
 :::
 
 ::: {.notes}
-Most trials are parallel: each patient gets one treatment (Boulet). Three variants solve particular problems.
+Crossover only for stable chronic conditions, never septic shock. A cluster trial is a proper RCT, analysed for clustering.
 
-Crossover: each patient receives both treatments in random order, with a washout in between, and acts as their own control, so fewer patients are needed. Only for stable, chronic conditions where the effect wears off (e.g. inhalers in chronic obstructive pulmonary disease). Useless in septic shock: the patient is not the same on day 7.
-
-Cluster: whole wards, ICUs or hospitals are randomised, not individual patients. Use it when the intervention works at unit level (a hand-hygiene programme, a sepsis bundle, a nurse-led fluid charting protocol) or when patients in the same unit would 'contaminate' each other. Needs more patients, because patients in one cluster resemble each other.
-
-Factorial: two questions in one trial. Patients are randomised twice (e.g. fluid strategy and vitamin C), giving four groups. Efficient if the two treatments do not interact.
-
-Misconception: 'a cluster trial is a weaker trial'. It is a proper RCT. The analysis must account for clustering.
-
-Ask the class (poll): you want to test a new fluid-balance charting protocol run by ICU nurses. Which layout? Expected answer: cluster. Randomise ICUs, not patients.
+Poll: 'A nurse-led fluid-charting protocol: which layout?' Expected: cluster, randomise ICUs.
 
 Timing: 5.5 minutes.
 :::
@@ -922,15 +796,11 @@ CI: confidence interval. Hypothetical results.
 :::
 
 ::: {.notes}
-A superiority trial asks: is the new treatment better? A non-inferiority trial asks: is it not unacceptably worse (usually because it is cheaper, safer, simpler or uses less fluid).
+The margin is fixed in the protocol before the data. A superior, B non-inferior, C inconclusive, D inferior.
 
-The margin (here +5 percentage points of mortality, hypothetical) is the largest loss we would accept. It is fixed in the protocol, before the data, with clinical reasoning.
+Boulet's p = 0.42 does not show restriction is as good as usual care.
 
-Read the bars (difference and 95% confidence interval, CI). A: the whole CI is below 0, so superior. B: the CI crosses 0 but stays below the margin, so non-inferior. C: the CI crosses the margin, so inconclusive. D: the whole CI is above the margin, so inferior.
-
-Misconception: 'p \> 0.05 in a superiority trial shows the treatments are equivalent'. No. Absence of evidence is not evidence of absence. Boulet's p = 0.42 does not show that restriction is as good as usual care.
-
-Ask the class (poll): who should decide the margin: the statistician or the clinicians? Expected answer: clinicians (and patients), with the statistician. It is a clinical judgement.
+Poll: 'Who decides the margin?' Expected: clinicians and patients, with the statistician.
 
 Timing: 5 minutes.
 :::
@@ -962,15 +832,9 @@ Timing: 5 minutes.
 :::
 
 ::: {.notes}
-Boulet 2024 calls itself a pilot. Its real value is in the numbers on the left: 1,201 patients screened for 50 randomised (about 4%), roughly 3 patients per month across 3 ICUs, 48 of 50 analysed.
+Boulet: 1,201 screened, 50 randomised, about 3 patients per month. A pilot tests feasibility, not effectiveness, and is planned as a pilot from the start.
 
-A pilot or feasibility study tests the machinery of the big trial: recruitment, consent, whether staff can deliver the intervention, whether outcomes can be measured completely, and the numbers needed to calculate the sample size.
-
-Teaching point: a pilot should not be used to claim effectiveness. Its success criteria are about feasibility (e.g. 'recruit 2 patients per site per month', 'over 90% data completeness').
-
-Misconception: 'our small study did not find an effect, so we call it a pilot'. A pilot is planned as a pilot from the start, with feasibility objectives.
-
-Ask the class (poll): from these numbers, would you launch a 1,000-patient trial in the same 3 ICUs? Expected answer: not as designed. At 3 patients per month it would take decades. You need many more sites or broader eligibility.
+Poll: 'Would you launch a 1,000-patient trial in the same 3 ICUs?' Expected: not as designed. It would take decades.
 
 Timing: 4 minutes.
 :::
@@ -988,17 +852,9 @@ Simulated data for teaching. ITS: interrupted time series, QI: quality improveme
 :::
 
 ::: {.notes}
-Most quality-improvement (QI) projects introduce a change for everyone at once, with no randomisation and no parallel control. These are quasi-experimental designs.
+Before-after is weak: rates often fall anyway. ITS compares the post-change data with the earlier trend (level and slope).
 
-The simple before-after study compares the average before with the average after. Weak: rates often fall anyway (seasons, new staff, other projects, regression to the mean after a bad month).
-
-The interrupted time series (ITS) is much stronger: many measurements before and after (here 24 monthly points each). We compare what happened with what the pre-change trend predicted (dashed line). We look for a change in level (the drop) and in slope (steeper fall).
-
-Teaching point: ITS is the standard design for evaluating a bundle, a protocol or a policy in one hospital. Add a control series (a unit that did not change) to make it stronger.
-
-Misconception: 'the infection rate fell after our bundle, so the bundle worked'. Only if the fall is bigger than the existing trend.
-
-Ask the class (call on two or three people, microphone on): what else changed in your hospital in the same month as your last QI project? Expected answer: usually something (staff rotation, a new policy, an audit), which is exactly why a trend matters.
+Ask: 'What else changed in your hospital in the month of your last QI project?' Expected: usually something.
 
 Timing: 5 minutes.
 :::
@@ -1038,17 +894,9 @@ Why? How? What is it like? Words, not numbers, analysed as themes
 :::
 
 ::: {.notes}
-Some questions are not about how many or how much but about why, how and what it is like. Why do nurses not chart urine output at night? How do families experience surrogate consent in the ICU? Numbers cannot answer these.
+Sampling is purposive, until no new themes appear. Reporting: COREQ or SRQR.
 
-Three main methods: in-depth interviews (one person, open questions), focus groups (6-8 people, discussion reveals shared views and disagreements), and observation (what people actually do, which may differ from what they say).
-
-Sampling is purposive (choose people who know the topic) and continues until no new themes emerge (saturation). Analysis looks for themes in transcripts. Reporting guidelines: COREQ (Consolidated criteria for Reporting Qualitative research) or SRQR (Standards for Reporting Qualitative Research).
-
-Mixed methods combine both: a trial plus interviews to understand why an intervention was or was not delivered.
-
-Misconception: 'qualitative means anecdotal'. Done properly it is systematic, transparent and peer-reviewed.
-
-Ask the class (call on two or three people, microphone on): one question about fluid management in your unit that only interviews could answer. Expected answer: why fluid charts are incomplete, why doctors hesitate to stop maintenance fluids.
+Ask: 'One fluid question only interviews could answer?' Expected: why fluid charts are incomplete, why doctors hesitate to stop maintenance fluids.
 
 Timing: 4.5 minutes.
 :::
@@ -1068,17 +916,11 @@ Start from the question, and the design follows from it. Then check that it is f
 :::
 
 ::: {.notes}
-This is the practical summary of both sections of today. Read each row as: if your question sounds like this, start with this design.
+In the proposal builder everyone justifies their design this way: 'my question is about X, so the best feasible design is Y'. A retrospective cohort with honest limits is acceptable.
 
-Teaching point: in the proposal builder later today every participant will justify the design of their own question with exactly this logic: 'my question is about X, so the best feasible design is Y'.
+Poll: 'How many ICU patients have a positive fluid balance today?' Expected: cross-sectional.
 
-Note the word feasible: the ideal design for 'does restriction save lives?' is a large RCT, but a participant with one ICU and no funding may honestly choose a retrospective cohort and state its limits.
-
-Misconception: 'we must do an RCT to be taken seriously'. A well-done, honestly reported cohort is publishable and useful.
-
-Ask the class (poll): we want to know how many ICU patients have a positive fluid balance today. Which design? Expected answer: cross-sectional (point prevalence).
-
-Timing: 5.5 minutes. This closes the 30 minutes of 3.2.
+Timing: 5.5 minutes. 3.2 ends here.
 :::
 
 ## Exercise: choose the design
@@ -1114,17 +956,15 @@ Remember
 :::
 
 ::: {.notes}
-Whole-class exercise. Sheet: Session 3 exercise sheet (Course/Practicals/s3\_exercises.md, PDF sent before the session), Part B. Key: Course/Solutions/s3\_solutions.md, Part B.
+About 2 minutes per question, then 5 minutes on people's own questions.
 
-Run it: about 2 minutes per question (10 minutes), then 5 minutes for the participants' own questions.
+Answers: 1 non-inferiority RCT. 2 cluster RCT. 3 interrupted time series. 4 qualitative interviews or focus groups. 5 pilot or feasibility study.
 
-Answers for the five questions: 1 a cheaper strategy that only needs to be not worse for 28-day mortality (non-inferiority RCT, margin fixed in advance), 2 a nurse-led fluid-balance charting protocol for whole ICUs (cluster randomised trial), 3 a sepsis bundle with a fluid limit already introduced in 2023, with monthly data (interrupted time series), 4 why night nurses find it hard to record urine output (qualitative interviews or focus groups), 5 can our two ICUs recruit patients and deliver restrictive fluids before a large trial (pilot or feasibility study).
+Then call on 4 or 5 people: 'my design is ..., so I may say caused / associated'.
 
-Own questions: call on four or five people to say 'my design is ..., so I may say caused / associated' with the microphone on, and comment briefly. This is the bridge to the proposal builder.
+Watch for: an RCT for a harm or prognosis question. Ask: could you ethically assign this?
 
-Common problem: choosing an RCT for a harm or prognosis question. Ask: could you ethically assign this exposure?
-
-If the class is quick: Part B of the sheet also has four questions on other topics for self-study.
+Key: s3\_solutions, Part B.
 :::
 
 ## Who is in your study? Inclusion and exclusion criteria
@@ -1136,19 +976,13 @@ If the class is quick: Part B of the sheet also has four questions on other topi
 :::
 
 ::: {.notes}
-Proposal builder 3 starts here (45 minutes in all, the figure shown on the builder banner and in the agenda: this slide 3 minutes, then 42 minutes of builder work).
+Proposal builder 3 starts here (3 minutes on this slide, then 42 minutes).
 
-This slide prepares the proposal builder: everyone writes the study population of their own proposal today.
+Boulet included ages 18-85 within 24 h of vasopressors, and excluded dialysis within 24 h, end-stage kidney disease and BMI below 18.
 
-Walk down the funnel with the ICU example (an observational version of our fluid question). Source population: everyone who could be studied. Inclusion criteria: the P (Population) of the PICO, made measurable (age 18 or over, septic shock, vasopressor started within 24 h). Exclusion criteria: people who meet the inclusion criteria but must be removed for a reason, such as safety or an outcome that cannot be measured (chronic dialysis, comfort care only).
+'Age under 18' is not an exclusion, it is simply not included.
 
-Compare with Paper 1 (Boulet): included septic shock, age 18-85, within 24 h of vasopressor start. Excluded acute kidney injury needing renal replacement therapy within 24 h, end-stage kidney disease, severe malnutrition (body mass index below 18).
-
-Misconception: writing exclusions as the opposite of inclusions ('age under 18' is not an exclusion, it is simply not included).
-
-Teaching point: every extra exclusion makes the study cleaner but the result applies to fewer patients (external validity, Session 4).
-
-Ask the class (call on two or three people, microphone on): give one good exclusion criterion for our fluid study. Expected: chronic dialysis (the fluid balance cannot be interpreted), comfort care only.
+Ask: 'One good exclusion for our fluid study?' Expected: chronic dialysis, comfort care only.
 
 Timing: 3 minutes.
 :::
@@ -1188,17 +1022,13 @@ Check your draft
 :::
 
 ::: {.notes}
-Worksheet: Session 3 exercise sheet (PDF), Part C, and the proposal template (Course/Templates/Research\_Proposal\_Template.docx, Part 2). Everyone writes their own proposal. There are no groups.
+15 minutes: fill in Part 2a for the running example on screen, thinking aloud. 20 minutes: everyone drafts alone. 7 minutes: three volunteers read their design and justification.
 
-Rhythm (42 minutes): 15 minutes in which the instructor fills in Part 2a for the running example on the shared screen, thinking aloud, 20 minutes in which participants draft their own Part 2a quietly (cameras optional, the instructor stays online for questions in the chat), 7 minutes in which three volunteers read their design and justification sentence aloud and the instructor comments.
+Model: retrospective cohort, one adult ICU, 3 years. An RCT is not feasible without funding, so we say 'associated with'. Full model in s3\_solutions, Part C.
 
-Model answer for the running example (observational version), to write live: retrospective cohort of adults with septic shock in our ICU over 3 years. Justification: an RCT is ideal but not feasible for one ICU without funding. Existing charts record fluid in and out and outcomes. We will say 'associated with'. Setting: one adult mixed ICU, 3 calendar years, electronic chart and ICU register. Inclusion and exclusion as on the funnel slide. Full model in Course/Solutions/s3\_solutions.md, Part C.
+Watch for: an RCT for an exposure that cannot be assigned, a setting far too large, exclusions that repeat the inclusions.
 
-Common problems: an RCT chosen for an exposure that cannot be assigned. A setting that is far too large. Exclusions that repeat the inclusions in the negative.
-
-The rest of Part 2 (exposure, comparator, outcomes, biases) is built in Session 4.
-
-Timing: warn at 10 minutes and 2 minutes before the end of the individual slot.
+Warn at 10 and 2 minutes before the end.
 :::
 
 ## Session 3 in one slide
@@ -1232,11 +1062,9 @@ Timing: warn at 10 minutes and 2 minutes before the end of the individual slot.
 :::
 
 ::: {.notes}
-Session recap (22:25). Ask three volunteers (raise hand) to explain one card each in their own words.
+Ask three volunteers to explain one card each. If time is short, read the key message only.
 
-If time is short, read the key message only.
-
-Timing: 2 minutes. With the wrap-up slide (3 minutes) this is the 5-minute close.
+Timing: 2 minutes.
 :::
 
 ## Wrap-up and homework
@@ -1247,22 +1075,21 @@ DISCUSSION · 5 min
 
 ::: {.neu-activity-steps style="--c:#1F5C7A"}
 - Exit question (in the chat): doctors chose restrictive fluids for some patients with septic shock and not for others. Both groups are followed to day 28. Which design? 'Caused' or 'associated'?
-- Why: it checks today's key idea. The instructor reads every answer and opens Session 4 with them
 - Homework: finish your own Proposal Part 2a (design, setting, population)
-- Reading: 'Patients' in Paper 1 (Boulet) and 'Data source' in Paper 2 (Hyun), in Course/Papers
+- Reading: 'Patients' in Paper 1 (Boulet) and 'Data source' in Paper 2 (Hyun)
 - Next Saturday (Session 4): can we trust the result, and how big is the effect?
 :::
 
 ::: {.neu-output style="--c:#1F5C7A"}
-**OUTPUT** One exit answer per person, in the chat or the form
+**OUTPUT** One exit answer per person, in the chat
 :::
 
 ::: {.notes}
-Exit question answer: a cohort (grouped by the exposure the doctors chose, followed forward). It may only say 'associated', because doctors choose restrictive fluids for patients who differ in many ways (less sick, or more fluid-overloaded). This previews confounding by indication next Saturday.
+Exit answer: a cohort. It may only say 'associated' (confounding by indication, next Saturday).
 
-Purpose of the exit question: it checks whether the main idea of today landed. Read all the answers before Session 4 and open Session 4 by showing three of them (anonymously).
+Open Session 4 with three anonymous answers.
 
-Timing: 3 minutes after the 2-minute recap slide (5 minutes in all, as on the banner and in the agenda). Finish at 22:30.
+Timing: 3 minutes. Finish at 22:30.
 :::
 
 ## Extra slides: Session 3
@@ -1278,9 +1105,7 @@ Use if time allows, or for self-study
 ::::
 
 ::: {.notes}
-Extra: the slides after this point are optional. Use them if the class is quick, for questions, or point participants to them for self-study (the deck is shared as a PDF after the session).
-
-Timing: skip in the live session unless time allows.
+Optional. Use if time allows, or for self-study.
 :::
 
 ## The decision tree in action: Paper 1 (Boulet) and Paper 2 (Hyun)
@@ -1320,11 +1145,7 @@ Timing: skip in the live session unless time allows.
 :::
 
 ::: {.notes}
-Extra: a slow walk-through of the decision tree with the two running-example papers (both in Course/Papers). Useful if the 'Name that design' exercise showed confusion.
-
-Boulet: assigned? Yes. Random? Yes. So RCT. Hyun: assigned? No. Comparison group? Yes. Exposure measured before outcome? Yes. So cohort.
-
-Ask participants to do the same for a paper from their own reference list (Proposal Part 1).
+Use if 'Name that design' showed confusion. Then ask people to try a paper from their own reference list.
 
 Timing: 2 minutes if used.
 :::
@@ -1360,11 +1181,9 @@ Choose
 :::
 
 ::: {.notes}
-Extra: three more scenarios from other wards, for a quick poll or for self-study.
+Watch for scenario C: two groups, but the physiotherapist decided, not chance.
 
-Watch for scenario C: some will say RCT because there are two groups. Ask: who decided who got mobilised? (The physiotherapist, not chance.)
-
-Timing: 3 minutes including the answer slide, if used.
+Timing: 3 minutes with the answers, if used.
 :::
 
 ## Answers: name the design (other examples)
@@ -1398,13 +1217,7 @@ Timing: 3 minutes including the answer slide, if used.
 :::
 
 ::: {.notes}
-Extra: answers to the previous slide.
-
-Teaching point for C: two groups do not make a trial. If chance did not decide, it is observational.
-
-Misconception: 'looking at old records makes it case-control'. Selection decides: by outcome = case-control. By exposure = cohort.
-
-Timing: included in the 3 minutes, if used.
+Two groups do not make a trial. Selected by outcome = case-control, by exposure = cohort.
 :::
 
 ## More practice (other examples): which design?
@@ -1437,9 +1250,7 @@ Choose
 :::
 
 ::: {.notes}
-Extra: more practice on the 3.2 designs, with examples from other topics.
-
-Answers. A: non-inferiority trial. Define the margin in advance. B: cluster randomised trial. Randomise wards, not patients. C: qualitative design using in-depth interviews (or focus groups) with families.
+Answers: A non-inferiority trial with a margin set in advance. B cluster RCT. C qualitative interviews or focus groups.
 
 Timing: 3 minutes if used.
 :::
@@ -1472,13 +1283,7 @@ Timing: 3 minutes if used.
 :::
 
 ::: {.notes}
-Extra: for participants planning a case-control study.
-
-Controls must come from the population that produced the cases: in the candidaemia example, other ICU patients in the same units and months, not healthy volunteers.
-
-Exposure must be measured the same way in cases and controls, ideally by someone who does not know which is which.
-
-Matching on a few factors can improve efficiency, but over-matching (on things linked to the exposure) hides the effect.
+Controls from the same units and months. Measure exposure the same way in both groups. Do not over-match.
 
 Timing: 2 minutes if used.
 :::
@@ -1515,11 +1320,7 @@ CI: confidence interval. Margin: the largest difference we accept, fixed in adva
 :::
 
 ::: {.notes}
-Extra: completes the margin picture from 3.2.
-
-Superiority trials are the usual type. Equivalence trials (common for generic drugs) need the CI inside a margin on both sides. Non-inferiority trials need only the upper side.
-
-Misconception: 'a failed superiority trial shows equivalence'. No. It was not designed with a margin.
+A failed superiority trial does not show equivalence: it had no margin.
 
 Timing: 2 minutes if used.
 :::
@@ -1552,11 +1353,7 @@ Timing: 2 minutes if used.
 :::
 
 ::: {.notes}
-Extra: for participants whose project evaluates a change already made in their unit.
-
-The interrupted time series compares the post-change data with the trend before the change. More data points, a control series and a diary of other changes make it much more convincing.
-
-Reporting guideline for quality-improvement projects: SQUIRE 2.0 (Standards for QUality Improvement Reporting Excellence).
+More data points, a control series and a diary of other changes. Reporting: SQUIRE 2.0.
 
 Timing: 2 minutes if used.
 :::

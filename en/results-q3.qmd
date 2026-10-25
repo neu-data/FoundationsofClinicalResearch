@@ -22,7 +22,7 @@ Download: [Word](files/data/results_packs/Results_Pack_Q3.docx) · [PDF](files/d
 - Outcome: ventilator-free days (VFD) to day 28: days alive and free of mechanical ventilation; patients who died = 0; never ventilated and alive = 28 (vent_free_days_28).
 - Analysis sample: 618 patients; adjusted models 527 complete cases; 313 were ventilated on admission.
 - Pre-specified confounders (SAP): age, SOFA score, lactate, vasopressor, mechanical ventilation, chronic kidney disease.
-- Software: R 4.6 (packages gtsummary, survival, mice). Scripts: Course/Data/R/.
+- Software: R 4.6 (packages gtsummary, survival, mice). Scripts: FLUID-ICU/R/.
 
 Participant flow: 620 patients enrolled -> 2 without a day-3 fluid balance (weight or output missing after cleaning) -> 618 in the exposure analysis -> 91 without lactate (or age) -> 527 in the complete-case adjusted model.
 

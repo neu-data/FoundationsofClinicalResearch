@@ -1,5 +1,5 @@
 ---
-title: "Session 8 · Publish: finish the paper, get it out, present"
+title: "Session 8 · Publish: polish your Results, get it out, present"
 subtitle: "Week 8 · Saturday · online, 19:30–22:30 (3 hours, 15-minute break)"
 ---
 
@@ -8,8 +8,8 @@ subtitle: "Week 8 · Saturday · online, 19:30–22:30 (3 hours, 15-minute break
 ## Agenda
 
 - 19:30  Recap: Session 7
-- 19:35  8.1  Writing the paper (II): Introduction, Discussion, Abstract, Title
-- 20:00  Manuscript workshop 2: Q1 together, then your own
+- 19:35  8.1  Writing the paper (II): the optional parts and the title
+- 20:00  Manuscript workshop 2: improve your Results section
 - 20:30  8.2  Getting published: from checklist to reviewers
 - 21:05  8.3  Be the reviewer: Papers 1 and 2, as a whole class
 - 21:30  Proposal presentations (about 5 volunteers), 22:15 closing
@@ -19,20 +19,20 @@ subtitle: "Week 8 · Saturday · online, 19:30–22:30 (3 hours, 15-minute break
 | Start | Clock* | Min | Segment |
 |:----|:----|---:|:------------------------------------------------------------|
 | 0:00 | 19:30 | 5 | Recap |
-| 0:05 | 19:35 | 25 | **8.1 Writing the paper (II):** Introduction funnel, Discussion six moves, calibrated language, abstract, title & keywords, before you submit |
-| 0:30 | 20:00 | 30 | **[DS] Manuscript workshop 2:** Introduction, Discussion, Abstract and Title modelled live on Q1 (22 min); each participant writes their own aim and title (8 min) and completes their draft as homework |
+| 0:05 | 19:35 | 25 | **8.1 Writing the paper (II): the optional parts and the title.** Introduction funnel, Discussion six moves, calibrated language, abstract, title and keywords, before you submit |
+| 0:30 | 20:00 | 30 | **[DS] Manuscript workshop 2:** the class improves the Q1 Results together (numbers, tables, words, title, the optional parts: 22 min). Each participant checks their own Results draft and writes the working title (8 min), then emails the Results section by 23:59 tonight |
 | 1:00 | 20:30 | 20 | **8.2 Getting published:** reporting guidelines (**EQUATOR demo**), choosing a journal, predatory journals, submission package, peer review, responding to reviewers (preprints, rejection, proofs and conference abstracts in the extra slides) |
 | 1:20 | 20:50 | 15 | BREAK |
-| 1:35 | 21:05 | 25 | **8.3 Be the reviewer:** simplified appraisal of Papers 1 and 2 (Boulet 2024 RCT and Hyun 2023 cohort, in `Course/Papers/`) with the whole class, using the 10-question checklist, as training for the individual peer review after the course |
-| 2:00 | 21:30 | 45 | **Volunteer presentations:** about 5 volunteers present their own research proposal + publication plan (6 min + 2 min feedback each), then a 5-minute closing round; everyone submits slides and the written proposal |
-| 2:45 | 22:15 | 15 | Post-course quiz, evaluation, next steps (individual peer review of one peer's manuscript as homework) |
+| 1:35 | 21:05 | 25 | **8.3 Be the reviewer:** simplified appraisal of Papers 1 and 2 (Boulet 2024 RCT and Hyun 2023 cohort) with the whole class, using the 10-question checklist, as reviewing practice |
+| 2:00 | 21:30 | 45 | **Volunteer presentations:** about 5 volunteers present their own research proposal + publication plan (6 min + 2 min feedback each), then a 5-minute closing round, everyone submits slides and the written proposal |
+| 2:45 | 22:15 | 15 | Post-course quiz, evaluation, next steps (peer review of one classmate's Results section, due 2 January 2027) |
 
 \*Times are relative to the start of the session; the clock column shows Vietnam time for the online 19:30–22:30 session. All exercises are done by the whole class together (no groups). **[DS]** = course-dataset content (FLUID-ICU analysis and manuscript writing).
 
 ## Slides
 
 ```{=html}
-<div class="slides-embed"><iframe src="slides-s8.html" title="Session 8 · Publish: finish the paper, get it out, present" loading="lazy" allowfullscreen></iframe></div>
+<div class="slides-embed"><iframe src="slides-s8.html" title="Session 8 · Publish: polish your Results, get it out, present" loading="lazy" allowfullscreen></iframe></div>
 ```
 
 [Open the slides full screen](slides-s8.qmd){.btn .btn-primary role="button"}
@@ -50,15 +50,16 @@ Press **F** for full screen, **S** for speaker notes, **E** to print, **Esc** fo
 
 ## Before this session
 
-- Written proposal and 6 slides ready to submit (volunteers: presentation rehearsed, 6 minutes).
-- Your Methods + Results draft and your results pack.
-- The abstracts of Papers 1 and 2 read.
+- Your written proposal and 6 slides, emailed to the course lead before 19:30 today (volunteers: presentation rehearsed, 6 minutes).
+- Your Results draft, your results pack and the class Q1 Results from Session 7 (PDF).
+- Papers 1 and 2 (the PDFs sent before Session 1) open for *Be the reviewer*.
 
 ## After this session (homework)
 
-- Finish the manuscript and submit it (see the [manuscript brief](manuscript-brief.qmd)).
-- Peer review: review the one classmate's draft the instructor sends you, with the 10-question checklist, within 1 week; then answer the review of your own draft with the response-to-reviewers template within 2 weeks ([peer-review instructions](peer-review.qmd)).
-- Writing exercises (Part A of the Session 8 sheet) for practice.
+- **By 23:59 tonight (19 December 2026):** email your Results section (`Surname_Firstname_Results_QN.docx`) to your reviewer and the course lead ([myluong1710@gmail.com](mailto:myluong1710@gmail.com)). Optional parts go in the same file ([manuscript brief](manuscript-brief.qmd)).
+- **By 2 January 2027:** review your classmate's Results section and email the review to the author and the course lead ([peer-review instructions](peer-review.qmd)).
+- **By 30 January 2027:** email your revised Results section (tracked changes) and your response to the reviewer to the course lead.
+- **Optional:** Parts A and C of the Session 8 sheet, and the rest of the Part D answer grid, for practice.
 
 ## Related materials
 

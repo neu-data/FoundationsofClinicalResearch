@@ -22,7 +22,7 @@ Tải về: [Word](files/data/results_packs/Results_Pack_Q3_VN.docx) · [PDF](fi
 - Kết cục: số ngày không thở máy (VFD) đến ngày 28: số ngày còn sống và không thở máy; người bệnh tử vong = 0; không thở máy và còn sống = 28 (vent_free_days_28).
 - Mẫu phân tích: 618 người bệnh; các mô hình hiệu chỉnh 527 trường hợp đầy đủ; 313 người thở máy lúc nhập ICU.
 - Các yếu tố gây nhiễu xác định trước (SAP): tuổi, điểm SOFA, lactat, thuốc vận mạch, thở máy, bệnh thận mạn.
-- Phần mềm: R 4.6 (các gói gtsummary, survival, mice). Script: Course/Data/R/.
+- Phần mềm: R 4.6 (các gói gtsummary, survival, mice). Script: FLUID-ICU/R/.
 
 Lưu đồ người tham gia: 620 người bệnh được tuyển -> 2 người không có cân bằng dịch ngày 3 (thiếu cân nặng hoặc lượng dịch ra sau khi làm sạch) -> 618 người trong phân tích phơi nhiễm -> 91 người không có lactat (hoặc tuổi) -> 527 người trong mô hình hiệu chỉnh trên các trường hợp đầy đủ.
 

@@ -9,9 +9,9 @@ title: "Buổi 4: Kịch bản trình diễn"
 | | |
 |---|---|
 | **Thời điểm** | **Trình diễn chính (8 phút, 20:37-20:45):** mục 4.2, ngay trước giờ giải lao, slide 26 "Trình diễn trực tiếp: công cụ tính bảng 2x2" (trang tính *Association*). **Kiểm tra bài tính của cả lớp (15 phút, 21:00-21:15):** slide 28, sau giờ giải lao. **Phần bổ sung ngắn (1-2 phút, tùy chọn):** mục 4.3, slide 31 "Cùng xét nghiệm, khác bối cảnh: PPV phụ thuộc tỷ lệ hiện mắc" (trang tính *Diagnostic*). |
-| **Tệp** | `Course/Resources/tools/2x2_calculator.xlsx` (tạo lại bằng `python make_2x2_calculator.py` trong cùng thư mục) |
+| **Tệp** | `2x2_calculator.xlsx` (tạo lại bằng `python make_2x2_calculator.py`) |
 | **Phần mềm** | Excel hoặc LibreOffice Calc (phiên bản gần đây bất kỳ), chiếu cho cả lớp bằng chia sẻ màn hình trên Zoom hoặc Teams. |
-| **Học viên** | Theo dõi màn hình chia sẻ, trả lời các câu hỏi khảo sát nhanh về phép tính sau giờ giải lao. Tệp có trong thư mục khóa học nếu học viên muốn tự thử sau buổi học. |
+| **Học viên** | Theo dõi màn hình chia sẻ, trả lời các câu hỏi khảo sát nhanh về phép tính sau giờ giải lao. Tệp được gửi qua email cho học viên sau buổi học. |
 | **Mục tiêu** | Mọi người thấy nguy cơ, RR, RD, NNT và OR được tính từ MỘT bảng duy nhất và nghe giải thích từng chỉ số bằng lời đơn giản. Ở mục 4.3, học viên thấy cùng một xét nghiệm cho PPV rất khác nhau ở hai bối cảnh. |
 
 Lưu ý: nhãn trong tệp Excel bằng tiếng Anh. Kịch bản này giữ nguyên tên trang tính và nhãn như trên màn hình, kèm nghĩa tiếng Việt để giảng viên đọc cho lớp.
@@ -102,7 +102,7 @@ Chỉ dùng phần này nếu tệp đã mở sẵn và lớp đang đúng giờ
 
 ## Sau giờ giải lao: kiểm tra bài tính của cả lớp (15 phút, slide 28)
 
-Chia sẻ màn hình lại. Với mỗi phép tính, chạy khảo sát nhanh trước (xem `Solutions/s4_solutions.md`, Phần C), rồi nhập số vào trang Association để mọi người cùng thấy đáp án:
+Chia sẻ màn hình lại. Với mỗi phép tính, chạy khảo sát nhanh trước (xem s4_solutions_VN, Phần C), rồi nhập số vào trang Association để mọi người cùng thấy đáp án:
 
 | Bài tập (phiếu bài tập Phần C) | Nhập | Kết quả hiển thị |
 |---|---|---|

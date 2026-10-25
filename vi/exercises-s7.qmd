@@ -8,15 +8,15 @@ title: "Buổi 7: Phiếu bài tập"
 
 Họ và tên: ______________________________   Khoa/Phòng: ______________________________
 
-Phiếu được gửi qua email trước buổi học, dưới dạng tệp Word và tệp PDF. Hãy mở phiếu trên màn hình và gõ câu trả lời vào tệp Word (hoặc in bản PDF). Trong lớp, cả lớp cùng làm: bạn trả lời trong khung chat hoặc bằng bình chọn, và giảng viên viết câu trả lời của lớp lên màn hình chia sẻ. Bài viết bạn nộp là bài của riêng bạn.
+Gõ câu trả lời vào tệp Word này hoặc in bản PDF.
 
 | Phần | Bài tập | Khi nào | Cách làm |
 |---|---|---|---|
 | A | Tình huống liêm chính: xanh, vàng hay đỏ? | 20:25 (5 phút) | Cả lớp, bình chọn: 3 tình huống trong lớp, 3 tình huống ở nhà |
 | B | Xây dựng đề cương 7: đạo đức, đăng ký, tính khả thi, kế hoạch công bố | 20:30 (15 phút) | Giảng viên làm mẫu với ví dụ xuyên suốt; bạn viết Phần 4 của mình ở nhà |
-| C | **Thực hành bản thảo 1**: Phương pháp + Kết quả cho bài báo FLUID-ICU của bạn | 21:35 (45 phút) | 30 phút cả lớp làm Q1, rồi 15 phút cho câu hỏi của bạn; hoàn thành ở nhà |
+| C | **Thực hành bản thảo 1**: phần Kết quả cho câu hỏi FLUID-ICU của bạn | 21:35 (45 phút) | 30 phút cả lớp làm Q1, rồi 15 phút cho câu hỏi của bạn. Hoàn thành ở nhà |
 
-Các tệp bạn cần (đều có trong thư mục khóa học và được gửi trước buổi học): gói kết quả phân tích cho câu hỏi bạn chọn (`Course/Data/results_packs/Results_Pack_Q1` đến `Q5`); mẫu bản thảo (`Course/Templates/Manuscript_Template_IMRaD`); Bài báo 1 (Boulet 2024, thử nghiệm ngẫu nhiên thí điểm về hạn chế dịch trong sốc nhiễm khuẩn) và Bài báo 2 (Hyun 2023, nghiên cứu thuần tập ghép cặp theo điểm xu hướng về cân bằng dịch và tử vong trong nhiễm khuẩn huyết), cả hai trong `Course/Papers`.
+Các tệp bạn cần (gửi qua email): gói kết quả của câu hỏi bạn chọn (`Results_Pack_QN_VN.pdf`), mẫu bản thảo (`Manuscript_Template_IMRaD_VN.docx`), Bài báo 1 (Boulet 2024) và Bài báo 2 (Hyun 2023).
 
 
 * * *
@@ -48,7 +48,7 @@ Viết một câu giải thích màu bạn chọn.
 
 **Trong lớp (20:30, 15 phút):** giảng viên điền trực tiếp phiếu này trên màn hình chia sẻ cho ví dụ xuyên suốt (nghiên cứu thuần tập hồi cứu về cân bằng dịch và tử vong 28 ngày ở người lớn bị sốc nhiễm khuẩn tại ICU của mình). Bạn gợi ý câu trả lời trong khung chat.
 
-**Ở nhà trong tuần này:** điền phiếu cho đề cương **của riêng bạn**. Phiếu sẽ trở thành Phần 4 của đề cương viết và slide 5 (đạo đức và tính khả thi) và slide 6 (kế hoạch công bố) của bài trình bày. Mọi học viên nộp đề cương viết và 6 slide trước 19:30 ngày diễn ra Buổi 8 (`Course/Assignment/proposal_brief.md`).
+**Ở nhà trong tuần này:** điền phiếu cho đề cương **của riêng bạn**. Phiếu sẽ trở thành Phần 4 của đề cương viết và slide 5 (đạo đức và tính khả thi) và slide 6 (kế hoạch công bố) của bài trình bày. Mọi học viên nộp đề cương viết và 6 slide qua email trước 19:30 ngày diễn ra Buổi 8 (`Proposal_Brief_VN.pdf`).
 
 ### B1. Đạo đức và sự đồng ý tham gia
 
@@ -107,60 +107,46 @@ Rủi ro lớn nhất về tính khả thi: ______________________  Một cách 
 
 * * *
 
-## Phần C: Thực hành bản thảo 1: Phương pháp và Kết quả (45 phút, 21:35)
+## Phần C: Thực hành bản thảo 1: phần Kết quả (45 phút, 21:35)
 
-### Bạn sẽ làm gì
-
-Mỗi học viên viết phần **Phương pháp** và **Kết quả** cho bài báo ngắn của riêng mình theo hướng dẫn STROBE, về **một câu hỏi FLUID-ICU**, **chỉ** dùng gói kết quả phân tích của câu hỏi đó. Chúng tôi đưa kết quả cho bạn; bạn viết bài báo. Không ai phải tính toán gì.
+Bạn viết **phần Kết quả** cho câu hỏi FLUID-ICU của mình, chỉ dùng gói kết quả của câu hỏi đó. Phương pháp, Đặt vấn đề, Bàn luận và Tóm tắt không bắt buộc (`Manuscript_Brief_VN.pdf`).
 
 | Câu hỏi | Chủ đề | Gói kết quả |
 |---|---|---|
-| Q1 | Cân bằng dịch dương đến ngày 3 và tử vong 28 ngày | `Course/Data/results_packs/Results_Pack_Q1` |
-| Q2 | Cân bằng dịch tích lũy và tổn thương thận cấp (AKI) | `Results_Pack_Q2` |
-| Q3 | Cân bằng dịch tích lũy và số ngày không thở máy | `Results_Pack_Q3` |
-| Q4 | Lactate ban đầu và tử vong 28 ngày; trường hợp đầy đủ so với quy gán đa bội | `Results_Pack_Q4` |
-| Q5 | Cân bằng dịch và thời gian nằm ICU ở người sống sót | `Results_Pack_Q5` |
-
-FLUID-ICU là một **bộ dữ liệu giảng dạy mô phỏng**. Trong câu về đạo đức, hãy viết: *"Phân tích này sử dụng bộ dữ liệu giảng dạy mô phỏng; không cần chấp thuận của hội đồng đạo đức hay sự đồng ý tham gia."*
+| Q1 | Cân bằng dịch dương đến ngày 3 và tử vong 28 ngày | `Results_Pack_Q1_VN.pdf` |
+| Q2 | Cân bằng dịch tích lũy và tổn thương thận cấp (AKI) | `Results_Pack_Q2_VN.pdf` |
+| Q3 | Cân bằng dịch tích lũy và số ngày không thở máy | `Results_Pack_Q3_VN.pdf` |
+| Q4 | Lactat ban đầu và tử vong 28 ngày, trường hợp đầy đủ so với quy gán đa bội | `Results_Pack_Q4_VN.pdf` |
+| Q5 | Cân bằng dịch và thời gian nằm ICU ở người sống sót | `Results_Pack_Q5_VN.pdf` |
 
 ### Cách dùng 45 phút
-
-| Giờ | Ai | Việc cần làm |
+| Giờ | Ai | Việc |
 |---|---|---|
-| 21:35–21:50 | Cả lớp, Q1 | Giảng viên chia sẻ mẫu bản thảo và gói kết quả Q1. Bạn gợi ý từng câu trong phần Phương pháp ở khung chat; giảng viên gõ câu tốt nhất. |
-| 21:50–22:02 | Cả lớp, Q1 | Kết quả: người tham gia trước, câu tóm tắt Bảng 1, số liệu kết cục, ước lượng thô và đã hiệu chỉnh. |
-| 22:02–22:05 | Cả lớp | Một bạn tình nguyện đối chiếu mọi con số trong bản nháp của lớp với gói kết quả. |
-| 22:05–22:20 | Bạn, tự làm | Mở gói kết quả cho câu hỏi CỦA BẠN. Theo cấu trúc của bản nháp của lớp và bắt đầu viết phần Phương pháp. Đặt câu hỏi trong khung chat. |
-| Ở nhà | Bạn | Hoàn thành Phương pháp và Kết quả (~600 từ), Bảng 1 và một hình hoặc bảng. Nếu bạn chọn Q1, hãy viết bằng lời của bạn; không chép bản nháp của lớp. |
+| 21:35–21:45 | Cả lớp, Q1 | Người tham gia và câu về Bảng 1. Bạn gợi ý câu trong khung chat. Giảng viên gõ câu tốt nhất |
+| 21:45–21:57 | Cả lớp, Q1 | Số tử vong mỗi nhóm, OR thô và hiệu chỉnh kèm KTC 95% |
+| 21:57–22:02 | Cả lớp, Q1 | Các phân tích khác: mô hình Cox và quy gán đa bội |
+| 22:02–22:05 | Cả lớp | Một học viên đối chiếu mọi con số với gói kết quả |
+| 22:05–22:20 | Bạn | Bắt đầu phần Kết quả cho câu hỏi CỦA BẠN, theo bản nháp của lớp |
 
-Bản nháp của lớp được chia sẻ dưới dạng PDF sau buổi học.
+Bản nháp của lớp được gửi dạng PDF sau buổi học. Nếu bạn chọn Q1, hãy viết bằng lời của mình.
 
-### Phương pháp: các tiêu đề và danh sách kiểm tra (mục STROBE trong ngoặc)
-
-- **Thiết kế nghiên cứu và bối cảnh** (4, 5): nghiên cứu thuần tập tiến cứu đa trung tâm; 4 ICU; thời gian như trong gói kết quả.
-- **Người tham gia** (6): ai được đưa vào và ai bị loại; bao nhiêu người.
-- **Biến số** (7): phơi nhiễm (cân bằng dịch được tính thế nào và trong những ngày nào), kết cục (định nghĩa và thời điểm), các yếu tố gây nhiễu được hiệu chỉnh.
-- **Nguồn dữ liệu** (8): phiếu theo dõi thường quy tại ICU / phiếu thu thập dữ liệu của nghiên cứu.
-- **Sai lệch** (9): nhiễu do chỉ định được xử lý thế nào (hiệu chỉnh theo mức độ nặng).
-- **Cỡ mẫu** (10): "mọi người bệnh đủ điều kiện trong nghiên cứu thuần tập đều được đưa vào" (không tính cỡ mẫu mới cho một bộ dữ liệu cố định).
-- **Phân tích thống kê** (12): thống kê tóm tắt; kiểm định cho từng phép so sánh; (các) mô hình hồi quy và những biến nào; cách xử lý dữ liệu thiếu; phần mềm (R, phiên bản ghi trong gói kết quả); báo cáo KTC 95%.
-
-### Danh sách kiểm tra phần Kết quả
-
-- [ ] Người tham gia trước tiên: số được phân tích (và số bị loại, kèm lý do) (13)
-- [ ] Tóm tắt Bảng 1 trong một hoặc hai câu: các nhóm khác nhau thế nào lúc ban đầu (14)
-- [ ] Số liệu kết cục theo từng nhóm (15)
-- [ ] Kết quả chính: ước lượng **thô VÀ đã hiệu chỉnh** kèm KTC 95% (16)
-- [ ] Một phân tích bổ sung (kết cục phụ, phân tích độ nhạy, quy gán) (17)
-- [ ] Không diễn giải ("vì", "gợi ý", "quan trọng"). Chuyển sang phần Bàn luận
-- [ ] Không có con số nào thiếu đơn vị và, với tác động, thiếu KTC 95%
+### Danh sách kiểm tra phần Kết quả (mục STROBE)
+- [ ] Người tham gia trước: số được thu nhận, được phân tích và bị loại, kèm lý do (13)
+- [ ] Bảng 1 trong một hoặc hai câu có số liệu. Có báo cáo dữ liệu thiếu (14)
+- [ ] Số kết cục ở mỗi nhóm, kèm mẫu số (15)
+- [ ] Kết quả chính: ước lượng **thô và đã hiệu chỉnh** kèm KTC 95% (16)
+- [ ] Các phân tích khác trong gói kết quả: độ nhạy, quy gán hoặc phân nhóm (17)
+- [ ] Bảng 1 và một bảng hoặc hình chính tự đọc hiểu được
+- [ ] Không bình luận ("vì", "gợi ý rằng") và không dùng từ nhân quả
+- [ ] Tên bài dự kiến, câu về dữ liệu mô phỏng và câu công khai sử dụng AI
 
 ### Lưu ý riêng cho từng câu hỏi
+- **Q3:** số ngày không thở máy phân bố lệch và tính tử vong là 0.
+- **Q4:** báo cáo cả ước lượng trường hợp đầy đủ và quy gán đa bội.
+- **Q5:** chỉ người sống sót. Dùng trung vị và IQR.
 
-- **Q3:** số ngày không thở máy có phân phối lệch và tính tử vong là 0; chọn cách tóm tắt cho phù hợp.
-- **Q4:** báo cáo CẢ ước lượng trường hợp đầy đủ và ước lượng quy gán đa bội.
-- **Q5:** chỉ người sống sót; dùng trung vị và IQR.
+### Không bắt buộc: Phương pháp
+Nếu bạn viết thêm phần Phương pháp, dùng mục 4 đến 12 của STROBE: thiết kế và bối cảnh, người tham gia, biến số, nguồn dữ liệu, sai lệch, cỡ mẫu ("mọi người bệnh đủ tiêu chuẩn trong nghiên cứu thuần tập đều được đưa vào"), phương pháp thống kê và dữ liệu thiếu. Thông tin có trong gói kết quả, `SAP_FLUID-ICU_VN.pdf` và `Data_Dictionary_VN.pdf`.
 
 ### Sản phẩm cần nộp
-
-Phần Phương pháp + Kết quả của riêng bạn (~600 từ) + Bảng 1 + một hình hoặc bảng, lưu với tên `Surname_Manuscript_QN_draft1` trong thư mục khóa học (hoặc gửi qua email) **trước Buổi 8**. Ở Buổi 8 bạn thêm phần Đặt vấn đề, Bàn luận, Tóm tắt và Tiêu đề, và nộp bản thảo hoàn chỉnh trước 23:59 ngày hôm đó (`Course/Assignment/manuscript_brief.md`).
+Phần Kết quả của bạn, đặt tên `Surname_Firstname_Results_QN.docx`, gửi email cho người bình duyệt của bạn và trưởng khóa học (myluong1710@gmail.com) **trước 23:59 ngày học Buổi 8**. Người bình duyệt của bạn được công bố cuối buổi học hôm nay.

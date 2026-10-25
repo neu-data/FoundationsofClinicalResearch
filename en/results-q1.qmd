@@ -22,7 +22,7 @@ Download: [Word](files/data/results_packs/Results_Pack_Q1.docx) · [PDF](files/d
 - Outcome: death from any cause within 28 days of ICU admission (died_28d); time to death for survival analysis (time_to_event_28d, censored at day 28).
 - Analysis sample: 618 of 620 patients (2 without a day-3 balance). Adjusted models: 527 complete cases.
 - Pre-specified confounders (SAP): age, SOFA score, lactate, vasopressor, mechanical ventilation, chronic kidney disease.
-- Software: R 4.6 (packages gtsummary, survival, mice). Scripts: Course/Data/R/.
+- Software: R 4.6 (packages gtsummary, survival, mice). Scripts: FLUID-ICU/R/.
 
 Participant flow: 620 patients enrolled -> 2 without a day-3 fluid balance (weight or output missing after cleaning) -> 618 in the exposure analysis -> 91 without lactate (or age) -> 527 in the complete-case adjusted model.
 

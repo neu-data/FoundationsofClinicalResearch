@@ -8,9 +8,7 @@ title: "Buổi 4: Phiếu bài tập"
 
 Họ và tên: ______________________________   Khoa/Phòng: ______________________________
 
-Phiếu được gửi qua email trước buổi học, dưới dạng tệp Word và tệp PDF. Hãy mở phiếu trên màn hình và gõ câu trả lời vào tệp Word (hoặc in bản PDF). Chuẩn bị sẵn bút, giấy và máy tính bỏ túi (hoặc điện thoại). Các phép tính chỉ cần phép chia đơn giản. Giảng viên kiểm tra mọi đáp án trực tiếp bằng công cụ tính bảng 2x2 (`Course/Resources/tools/2x2_calculator.xlsx`).
-
-Mọi bài tập trong buổi học đều do **cả lớp cùng làm**: giảng viên trình chiếu từng mục trên màn hình chia sẻ, bạn trả lời bằng **bình chọn** hoặc trong **khung chat**, và giảng viên gõ câu trả lời của lớp lên màn hình chia sẻ. Không chia nhóm. Phần xây dựng đề cương (Phần F) là bài làm cá nhân **của riêng bạn**.
+Gõ câu trả lời vào tệp Word, hoặc in bản PDF. Chuẩn bị sẵn bút, giấy và máy tính bỏ túi (hoặc điện thoại). Chỉ cần phép chia đơn giản.
 
 | Phần | Hoạt động | Khi nào | Cách làm |
 |---|---|---|---|
@@ -19,14 +17,14 @@ Mọi bài tập trong buổi học đều do **cả lớp cùng làm**: giảng
 | C | Hai phép tính bảng 2x2 | Sau giờ nghỉ (15 phút) | Cả lớp: bình chọn cho từng đáp án |
 | D | PPV ở hai bối cảnh | Bài về nhà (không bắt buộc) | Tự làm |
 | E | Đọc biểu đồ rừng và chọn công cụ đánh giá nguy cơ sai lệch | Cuối phần 4.3 (8 phút) | Cả lớp: bình chọn và khung chat |
-| F | Xây dựng đề cương 4: phơi nhiễm, kết cục và sai lệch | Cuối buổi (38 phút) và bài về nhà | Giảng viên làm mẫu trực tiếp; sau đó bạn viết bản nháp của mình |
+| F | Xây dựng đề cương 4: phơi nhiễm, kết cục và sai lệch | Cuối buổi (38 phút) và bài về nhà | Giảng viên làm mẫu trực tiếp, sau đó bạn viết bản nháp của mình |
 
 **Câu hỏi xuyên suốt:** ở người lớn bị sốc nhiễm khuẩn, chiến lược hạn chế dịch, so với chăm sóc thường quy, có làm giảm tử vong 28 ngày không?
-**Hai bài báo** (tệp PDF gửi trước Buổi 1): Bài báo 1, Boulet 2024 (thử nghiệm ngẫu nhiên thí điểm về hạn chế dịch); Bài báo 2, Hyun 2023 (nghiên cứu thuần tập từ sổ đăng ký về cân bằng dịch và tử vong).
+**Hai bài báo** (tệp PDF gửi trước Buổi 1): Bài báo 1, Boulet 2024 (thử nghiệm ngẫu nhiên thí điểm về hạn chế dịch), Bài báo 2, Hyun 2023 (nghiên cứu thuần tập từ sổ đăng ký về cân bằng dịch và tử vong).
 
 **Từ khóa của buổi học:** sai lệch · nhiễu · thay đổi tác động (tương tác) · quan hệ nhân quả ngược · nguy cơ · nguy cơ tương đối (RR) · hiệu số nguy cơ (RD) · số người cần điều trị (NNT) · tỷ số chênh (OR) · độ nhạy · độ đặc hiệu · giá trị tiên đoán dương và âm (PPV, NPV) · đường cong ROC · biểu đồ rừng (forest plot) · I² (tính không đồng nhất) · công cụ đánh giá nguy cơ sai lệch.
 
-**Các chữ viết tắt khác trong phiếu:** ICU = khoa hồi sức tích cực; KTC = khoảng tin cậy (CI); RCT = thử nghiệm lâm sàng ngẫu nhiên có đối chứng.
+**Các chữ viết tắt khác trong phiếu:** ICU = khoa hồi sức tích cực, KTC = khoảng tin cậy (CI), RCT = thử nghiệm lâm sàng ngẫu nhiên có đối chứng.
 
 
 * * *
@@ -151,7 +149,7 @@ PPV = ______  NPV = ______
 
 ## Phần E: Đọc biểu đồ rừng và chọn công cụ đánh giá nguy cơ sai lệch
 
-**Cách làm.** Giảng viên trình chiếu biểu đồ trên màn hình chia sẻ và hỏi từng câu bằng bình chọn hoặc trong khung chat. Đây là biểu đồ trong phần 4.3 (sáu thử nghiệm giả định về hạn chế dịch so với thường quy; kết cục tử vong; gộp theo mô hình ảnh hưởng cố định).
+**Cách làm.** Giảng viên trình chiếu biểu đồ trên màn hình chia sẻ và hỏi từng câu bằng bình chọn hoặc trong khung chat. Đây là biểu đồ trong phần 4.3 (sáu thử nghiệm giả định về hạn chế dịch so với thường quy, kết cục tử vong, gộp theo mô hình ảnh hưởng cố định).
 
 ![Biểu đồ rừng của sáu thử nghiệm giả định](images/practicals/sat2/forest_reading.png)
 
@@ -171,7 +169,7 @@ PPV = ______  NPV = ______
 3. (Khung chat) Hình thoi gộp có cắt qua RR = 1 không? Viết kết quả gộp bằng một câu đơn giản.  ______________________
 4. (Tự học) Thử nghiệm 3 chỉ theo hướng ngược lại (RR 1.14). Điều đó có đáng lo không? Vì sao?  ______________________
 
-**Chọn công cụ (bình chọn).** Với mỗi nghiên cứu, chọn: **RoB 2** (công cụ đánh giá nguy cơ sai lệch của Cochrane cho thử nghiệm ngẫu nhiên), **ROBINS-I** (nghiên cứu can thiệp không ngẫu nhiên), **thang Newcastle-Ottawa (hoặc ROBINS-E)** (nghiên cứu thuần tập hoặc bệnh–chứng về phơi nhiễm), **QUADAS-2** (nghiên cứu độ chính xác chẩn đoán) hoặc **AMSTAR 2** (tổng quan hệ thống). Bảng chọn công cụ một trang có trong `Course/Resources/Risk_of_Bias_Tool_Chooser.pdf`.
+**Chọn công cụ (bình chọn).** Với mỗi nghiên cứu, chọn: **RoB 2** (công cụ đánh giá nguy cơ sai lệch của Cochrane cho thử nghiệm ngẫu nhiên), **ROBINS-I** (nghiên cứu can thiệp không ngẫu nhiên), **thang Newcastle-Ottawa (hoặc ROBINS-E)** (nghiên cứu thuần tập hoặc bệnh–chứng về phơi nhiễm), **QUADAS-2** (nghiên cứu độ chính xác chẩn đoán) hoặc **AMSTAR 2** (tổng quan hệ thống).
 
 | # | Nghiên cứu | Công cụ |
 |---|---|---|
@@ -187,15 +185,13 @@ PPV = ______  NPV = ______
 
 ## Phần F: Xây dựng đề cương 4 (phơi nhiễm, kết cục và sai lệch)
 
-**Đây là bài làm của riêng bạn.** Mỗi học viên viết đề cương nghiên cứu của riêng mình về một câu hỏi từ khoa của mình (xem `Course/Assignment/proposal_brief.md`).
-
 **Cách làm (38 phút).**
 
 1. **Xem (15 phút).** Giảng viên điền các dòng 4–6 dưới đây cho ví dụ xuyên suốt trên màn hình chia sẻ, vừa làm vừa nói ra suy nghĩ.
 2. **Viết nháp (16 phút).** Bạn điền các dòng tương tự cho câu hỏi của mình, làm yên lặng (không bắt buộc bật camera). Đặt câu hỏi trong khung chat.
-3. **Phản hồi (7 phút).** Ba bạn tình nguyện dán một sai lệch và cách khắc phục vào khung chat; giảng viên nhận xét.
+3. **Phản hồi (7 phút).** Ba bạn tình nguyện dán một sai lệch và cách khắc phục vào khung chat, giảng viên nhận xét.
 
-Sau đó hoàn thành ở nhà và chép câu trả lời vào mẫu đề cương (`Course/Templates/Research_Proposal_Template.docx`, Phần 2). Các dòng 1–3 (thiết kế, bối cảnh, đối tượng) đã viết nháp sau Buổi 3. Với mỗi kết cục, ghi rõ **cái gì**, **đo thế nào** và **khi nào**.
+Sau đó hoàn thành ở nhà và chép câu trả lời vào mẫu đề cương (`Research_Proposal_Template_VN.docx`, Phần 2). Các dòng 1–3 (thiết kế, bối cảnh, đối tượng) đã viết nháp sau Buổi 3. Với mỗi kết cục, ghi rõ **cái gì**, **đo thế nào** và **khi nào**.
 
 **Câu hỏi nghiên cứu của tôi:** _______________________________________________
 

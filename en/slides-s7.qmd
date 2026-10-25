@@ -1,5 +1,5 @@
 ---
-title: "Session 7 · Protect & write: ethics, integrity, Methods and Results"
+title: "Session 7 · Protect & write: ethics, integrity and the Results section"
 subtitle: "Foundations of Clinical Research: From Clinical Question to Publication"
 author: "Vương Mỹ Lượng & Bernard Osang'ir"
 institute: "Neudata Consulting Ltd"
@@ -12,7 +12,7 @@ format:
     include-in-header: access-gate.html
 ---
 
-# Session 7 · Protect & write: ethics, integrity, Methods and Results
+# Session 7 · Protect & write: ethics, integrity and the Results section
 
 ## Week 7 · Saturday, 19:30-22:30 (online)
 
@@ -20,17 +20,15 @@ format:
 - 19:40  7.1  Protocol, ethics, consent, registration, feasibility
 - 20:10  7.2  Research integrity: authorship, conflicts of interest, data sharing, AI
 - 20:30  Proposal builder 7: ethics and publication plan
-- 21:00  7.3  Writing the paper (I): Methods, Results, tables, STROBE
-- 21:35  Manuscript workshop 1: Methods and Results, together then on your own
+- 21:00  7.3  Writing the paper (I): the Results section, tables, STROBE
+- 21:35  Manuscript workshop 1: the Results section, together then on your own
 
 ::: {.notes}
-Session 7 (19:30). Online, 19:30-22:30, with a 15-minute break at 20:45. Two halves: before the break we protect the patient and the science (ethics, integrity) and model Part 4 of the proposal. After the break we start writing the FLUID-ICU manuscript.
+Session 7 (19:30-22:30, break 20:45-21:00). Before the break: ethics, integrity and Proposal Part 4. After the break: the Results section.
 
-Format: the whole class works together. Participants answer in polls, or the instructor calls on two or three people to answer with the microphone on. You (or a volunteer) type the class answer on the shared screen. No breakout rooms.
+Before the session, email the exercise sheet, the five results packs, the manuscript template and the list of reviewer pairs.
 
-Before the session: send the PDFs (Session 7 exercise sheet, the five results packs Q1-Q5, Papers 1 and 2, the manuscript template). Load the polls. Open one shared document for the class answers.
-
-Pace: slow. If time is short, drop slides from the 'Extra slides: Session 7' section at the end, never the workshop.
+If time is short, drop extra slides, never the workshop.
 :::
 
 ## Recap quiz: Session 6 in five questions
@@ -67,13 +65,11 @@ Answers
 :::
 
 ::: {.notes}
-Recap (19:30-19:40, including 1 minute of welcome and the 'Today' slide). Start by reading two or three answers to the Session 6 exit question (you read them during the week) and correct any misunderstanding.
+Recap (19:30-19:40). Start with two or three Session 6 exit answers.
 
-Questions 1-4 are open questions. Read each one, give 30 seconds, then call on two or three people to answer, microphone on. Reveal the answer panel after each question. Spend longest where answers differ.
+Questions 1-4: 30 seconds each, call on two or three people, then reveal. Question 1 leads to today: the Results report both crude and adjusted estimates.
 
-Question 1 links straight to today's writing: in the Results we report both crude and adjusted estimates (STROBE item 16), and in the Discussion we explain why they differ.
-
-Question 5 goes in the chat. This is the number each participant will write about after the break. Anyone who has not yet chosen a question chooses one today (Q1 to Q5, results packs sent before the session).
+Question 5 in the chat: the main result of the question each person chose. Anyone without a question chooses one now.
 :::
 
 ## Today: finish the proposal, start the paper
@@ -91,34 +87,32 @@ FLUID-ICU = the course dataset: a simulated cohort of 620 adults with sepsis in 
 - Session 8: submit it. About 5 people present
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
-[Product 2: your manuscript]{.neu-card-title}
+[Product 2: your Results section]{.neu-card-title}
 
 - Your FLUID-ICU question (Q1 to Q5)
 - We give the results. You write
-- Today: Methods, Results
-- Session 8: Introduction, Discussion, Abstract, Title
+- Today: the Results, live on Q1
+- Session 8: improve it. Other parts optional
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
 [Our two example papers]{.neu-card-title}
 
 - Paper 1: Boulet 2024, randomised trial, 48 patients
 - Paper 2: Hyun 2023, cohort, 2,516 patients
-- PDFs in Course/Papers
+- PDFs sent by email
 :::
 ::::
 
 ::: {.neu-takeaway}
-**KEY MESSAGE** Before the break: proposal Part 4. After the break: Methods and Results.
+**KEY MESSAGE** Before the break: proposal Part 4. After the break: the Results section.
 :::
 
 ::: {.notes}
-Two products, both individual. Product 1, each participant's own research proposal, gets its last part today (ethics, registration, feasibility, publication plan). Everyone submits it. About five volunteers present theirs next Saturday.
+Two individual products. Proposal: Part 4 today, submitted next Saturday.
 
-Product 2, each participant's own draft manuscript, moves from 'reading the analysis' (Session 6) to writing. Say it plainly: we give you the results for your chosen FLUID-ICU question in a results pack, and you write the paper. Nobody calculates anything.
+Results section: we give the results for each person's question, they write a submission-ready Results section. Methods, Introduction, Discussion and Abstract are optional.
 
-Name the two papers once more: Paper 1 (Boulet 2024) is a randomised trial of restrictive fluids in septic shock (48 patients). Paper 2 (Hyun 2023) is a cohort study of fluid balance and death in sepsis (2,516 patients). We use them all day as examples of good and less good practice.
-
-Ask (call on two or three people, microphone on): which question (Q1-Q5) have you chosen?
+Ask: which question (Q1-Q5) have you chosen?
 :::
 
 ## 7.1  \|  30 minutes
@@ -134,11 +128,11 @@ Protect the patient before the first data point
 ::::
 
 ::: {.notes}
-Section 7.1 (19:40-20:10). Ten slides, about 3 minutes each, including two worked examples.
+Section 7.1 (19:40-20:10). Ten slides, about 3 minutes each.
 
-The ICU consent slide and its worked example deserve the most time: it is the real-life problem of our ICUs.
+Spend the most time on ICU consent: it is the real problem in our units.
 
-Link: everything in this block becomes a paragraph of Proposal Part 4 (Proposal builder 7 at 20:30).
+Everything here becomes a paragraph of Proposal Part 4.
 :::
 
 ## The protocol: your study's building plan
@@ -187,15 +181,13 @@ Protocol = the full written plan of a study, approved before the first patient. 
 :::
 
 ::: {.notes}
-Teaching point: a protocol is the full written plan of the study, written and approved before the first patient is enrolled. SPIRIT 2025 (Standard Protocol Items: Recommendations for Interventional Trials) is the international checklist for what a trial protocol should contain. Observational studies follow the same logic.
+A protocol is the full plan, approved before the first patient. SPIRIT 2025 is the checklist for trial protocols.
 
-Walk the four cards: who and what (title page, registration, team, funding), why (Part 1), how (Parts 2 and 3), protect and share (Part 4, today). PICO = Population, Intervention or exposure, Comparison, Outcome.
+Walk the four cards: they are the four proposal parts.
 
-Changes after approval are made as formal amendments, approved before they are applied, never quietly.
+Paper 1 registered its protocol and SAP before the first patient (NCT04947904).
 
-Running example: Paper 1 says its protocol and statistical analysis plan were registered at ClinicalTrials.gov (NCT04947904) before the first patient. That is what lets a reader check the authors did what they planned.
-
-Poll: which part of your own proposal is weakest right now? Expected: How (sample size or analysis plan). Reassure: the proposal template (Course/Templates/Research\_Proposal\_Template) follows exactly this order.
+Poll: which part of your proposal is weakest? Expected: sample size or analysis plan.
 :::
 
 ## Two rule books: Helsinki and Good Clinical Practice
@@ -228,15 +220,11 @@ Poll: which part of your own proposal is weakest right now? Expected: How (sampl
 :::
 
 ::: {.notes}
-Teaching point: the Declaration of Helsinki (World Medical Association, latest revision October 2024) is the ethical foundation for research with people. Its core: the rights and interests of the individual participant come before the goal of new knowledge. A protocol approved by an independent research ethics committee before the study starts. Free, informed consent, risks minimised and justified, privacy protected. Every study registered before the first participant and all results made public, including negative and inconclusive ones.
+Helsinki (2024): the participant comes before new knowledge. Ethics approval, free consent, privacy, registration, publish all results.
 
-The 2024 revision speaks of 'participants' rather than 'subjects', strengthens the protection of vulnerable groups and of people who cannot consent, and stresses scientific integrity.
+GCP (ICH E6(R3), 2025): the quality standard for trials. Paper 1, an academic trial, followed it.
 
-ICH E6(R3) Good Clinical Practice (ICH = International Council for Harmonisation, adopted January 2025) is the international quality standard for clinical trials. Its spirit applies to every study.
-
-Misconception: 'GCP is only for drug companies'. Paper 1, an academic ICU trial, states its analyses followed ICH-GCP.
-
-Poll: which of these 12 points would be hardest in our unit? Typical answer: reliable data (charts incomplete) or protected time.
+Poll: which of the 12 points would be hardest in our unit?
 :::
 
 ## The ethics-committee journey: approval before data
@@ -287,17 +275,13 @@ Plan 1 to 3 months. Questions and revisions from the committee are normal.
 :::
 
 ::: {.notes}
-Walk the six steps left to right. Most institutions want a scientific or department review first. Then the dossier goes to the research ethics committee (also called IRB, institutional review board, or IEC, independent ethics committee).
+Walk the six steps. Most institutions want a scientific review first.
 
-The dossier: protocol, participant information and consent form, case report form (CRF), investigator CVs and GCP training records, budget and insurance where required.
+The committee decides the review type, not you. Plan 1 to 3 months.
 
-Review types: some low-risk studies are exempt or get an expedited review. Trials and anything with more than minimal risk go to the full committee. Your committee decides the category, not you.
+Misconception: 'collect now, ask later'. Committees cannot approve retrospectively.
 
-During the study: amendments, adverse-event reports, progress and final reports go to the committee.
-
-Misconception to correct: 'we can collect data now and ask for approval later'. Committees cannot approve retrospectively, and journals will reject the paper.
-
-Running example: Paper 1 gives its committee name and approval number in the Methods. Paper 2 gives the IRB approval number in its Declarations.
+Paper 1 gives its approval number in the Methods.
 :::
 
 ## Register before the first participant
@@ -335,17 +319,13 @@ The order: protocol, ethics approval, registration, first participant.
 :::
 
 ::: {.notes}
-Teaching point: registration puts the study's existence, design and primary outcome on a public record before anyone is enrolled. It prevents hidden negative studies and outcome switching.
+Registration puts the study and its primary outcome on public record before anyone is enrolled.
 
-Clinical trials: registration is mandatory. Journals that follow ICMJE (International Committee of Medical Journal Editors) will not publish a trial that was not registered before the first participant, and many countries require it by law. Use ClinicalTrials.gov or another who primary registry. The WHO ICTRP (International Clinical Trials Registry Platform) searches all of them at once. It is a search portal, not a registry itself.
+Trials: mandatory. Reviews: PROSPERO. Observational: recommended.
 
-Systematic reviews: register the protocol on PROSPERO before data extraction. Many journals expect it.
+Paper 1: registered 1 July 2021, first patient September 2021.
 
-Observational studies: registration is encouraged rather than required. The Declaration of Helsinki asks for every study with human participants to be registered.
-
-Running example: Paper 1 was registered as NCT04947904 on 1 July 2021, and the first patient was enrolled in September 2021, so registration was prospective. Its registration number is in the abstract.
-
-Ask (call on two or three people, microphone on): does your own study need registration? Expected: trials yes, most cohort proposals 'recommended'. A short poll on four scenarios is in the Extra slides if you have time.
+Ask: does your study need registration?
 :::
 
 ## Informed consent: four essentials
@@ -391,15 +371,11 @@ Consent is a conversation, not a signature.
 :::
 
 ::: {.notes}
-Teaching point: valid consent needs all four: information, understanding, voluntariness and a record.
+Valid consent needs all four: information, understanding, voluntariness, a record.
 
-Patients often ask the nurses and other team members afterwards 'what did I sign?', so this is everybody's job, not only the investigator's.
+In Paper 1, two control patients withdrew and were not analysed: the right respected.
 
-Withdrawal: participants may leave at any time without giving a reason and without any effect on their care. Running example: in Paper 1, two control patients withdrew consent and were not analysed. That is the right being respected, and it is why the trial analysed 48 of 50.
-
-Common mistake: a consent form written at university reading level, in a language the family does not read fluently. Ask the committee for its template (there is also one in Course/Templates/Informed\_Consent\_Template).
-
-Ask (call on two or three people, microphone on): who would take consent in your own study, and when? Expected answer: a trained team member who is not the treating doctor under time pressure, if possible.
+Ask: who takes consent in your study, and when? Expected: a trained team member, not the treating doctor under time pressure.
 :::
 
 ## Consent in the ICU: when the patient cannot decide
@@ -411,17 +387,13 @@ Ask (call on two or three people, microphone on): who would take consent in your
 :::
 
 ::: {.notes}
-This is the real-life ICU problem: most of our patients are sedated, delirious or in shock when they become eligible. This flowchart stays a picture because its branches are the message.
+Most ICU patients cannot decide when they become eligible.
 
-Read the flowchart left to right. 1) Can the patient decide now? Then the patient consents. 2) If not, a legally authorised representative (surrogate: usually family, as defined by local law) consents, and the patient is asked again when able. 3) If no representative can be reached in time and the treatment cannot wait, research may proceed only if the protocol explains why and the ethics committee approved this emergency procedure in advance. Consent to continue is then sought as soon as possible. This is 'deferred consent'. The 2024 Declaration of Helsinki allows exactly this, under these conditions.
+Patient, then legal representative, then deferred consent only if the committee approved it in advance. Paper 1 used this route. Paper 2 had a waiver for registry data.
 
-Paper 1 used this: written consent from the patient or legal surrogate 'before randomization or as soon as possible thereafter' (page 3).
+Local law decides who may be the representative.
 
-Paper 2 is different: a registry using routine data. The committee waived individual consent and the data were de-identified before analysis (page 8).
-
-Local law decides who may act as representative and whether deferred consent is allowed. Check with your committee before you write the protocol.
-
-Ask: if a family refuses after the patient was enrolled under deferred consent, what happens? Expected: the patient leaves the study. Whether data already collected may be used depends on the approved protocol and what the family agrees to.
+Ask: the family refuses after enrolment. What happens? Expected: the patient leaves the study.
 :::
 
 ## Worked example: who consents for these three ICU patients?
@@ -459,15 +431,11 @@ Walk each patient through the flowchart on the previous slide.
 :::
 
 ::: {.notes}
-Worked example, whole class. For each patient, call on someone to answer before you reveal the bottom line (click through slowly).
+Call on someone for each patient before revealing.
 
-Mr A: capacity present, so the patient decides.
+Mr A: consents himself. Mrs B: the representative consents, ask her when she can decide. Mr C: deferred consent, only if approved.
 
-Mrs B: lacks capacity now. The legally authorised representative (here the daughter, if local law allows) consents. Mrs B is asked to continue when she regains capacity, and she may withdraw.
-
-Mr C: no representative in time and treatment cannot wait. Deferred consent applies only if the protocol describes it and the committee approved it. Seek consent from family or patient as soon as possible. Paper 1 used this route.
-
-Misconception: 'the treating doctor can consent for the patient'. No. The treating doctor is not the representative.
+Misconception: the treating doctor can consent for the patient. No.
 :::
 
 ## Confidentiality: de-identify before you analyse
@@ -485,19 +453,13 @@ Names stay on the ward. Only study codes travel. The key file (code = identity) 
 :::
 
 ::: {.notes}
-Teaching point: confidentiality is protected by design, not by good intentions.
+Confidentiality by design: study codes, age instead of birth date, month instead of exact date.
 
-Before: direct identifiers such as name, hospital number, exact date of birth, address, phone, photos. After: a study code, age instead of birth date, month instead of exact dates, and only the variables in your data dictionary. The invented example row is one patient before and after.
+The key file is kept separately, locked, with one or two named people.
 
-The key file that links codes to identities is kept separately, password-protected and locked, with access for one or two named people only.
+No patient data on personal phones, messaging apps or public AI tools.
 
-Beware indirect identification: 'the only 19-year-old with ECMO in March' is identifiable even without a name. Report very small groups with care.
-
-Practical rules: no patient data on personal phones, messaging apps, private email or public cloud and AI tools. Encrypted, institution-approved storage only.
-
-Running example: Paper 2 states that patient information was anonymised and de-identified before analysis.
-
-Ask (call on two or three people, microphone on): where would the key file of your own study live? Expected answer: an institution-approved, password-protected location, not a USB stick in a pocket.
+Ask: where would your key file live?
 :::
 
 ## Worked example: the ethics paragraph for a cohort like FLUID-ICU
@@ -541,11 +503,11 @@ FLUID-ICU is simulated. If it were real, this is what the paper would say.
 :::
 
 ::: {.notes}
-Worked example linking 7.1 to the manuscript. Make clear FLUID-ICU is a simulated teaching dataset with no real approval, so in their manuscripts participants write: 'This analysis used a simulated teaching dataset. No ethics approval or consent was required.' In a real cohort the paragraph would read like the four cards.
+If FLUID-ICU were real, the ethics paragraph would answer these four questions in four sentences.
 
-Model sentence (real study): 'The study was approved by the ethics committees of the four participating hospitals (number, date), which waived individual consent because data were collected during routine care and analysed after de-identification.'
+It is simulated: participants put the simulated-data sentence under their title, as the brief says. An ethics paragraph is only needed if they write the optional Methods.
 
-Ask: where does this paragraph go? Expected: the Methods. Most journals also ask for it in a 'Declarations' section.
+Ask: where does this paragraph go in a real paper? Expected: the Methods.
 :::
 
 ## Feasibility: five honest questions
@@ -592,13 +554,11 @@ Ask: where does this paragraph go? Expected: the Methods. Most journals also ask
 :::
 
 ::: {.notes}
-Walk the five cards. Timeline: ethics approval alone can take 1-3 months. Recruitment always takes longer than planned. Budget: name the headings even if the amounts are small. People: who collects data on night shifts and weekends, who analyses, and is there protected time? Recruitment: Paper 1 screened 1201 patients in three ICUs over 17 months to randomise 50 (about 4%). Most eligible-looking patients are not eligible or not enrolled. Data: is the variable already recorded routinely? Paper 2 could not study diuretics because the registry never recorded them.
+Walk the five cards. Ethics takes 1-3 months. Recruitment always takes longer: Paper 1 screened 1,201 patients to randomise 50.
 
-Rule of thumb: count how many patients meeting your criteria your unit saw last year, then assume you will enrol a fraction of them.
+Rule of thumb: count last year's eligible patients and expect to enrol a fraction.
 
-Poll: which card is the biggest risk for your own study? Expected answers: recruitment and people (night-shift data collection).
-
-This is the only feasibility slide in Level 1. Do not go deeper.
+Poll: which card is the biggest risk for your study?
 :::
 
 ## 7.2  \|  20 minutes
@@ -614,11 +574,11 @@ Honest data, honest credit, honest use of AI
 ::::
 
 ::: {.notes}
-Section 7.2 (20:10-20:30). Six slides (about 2.5 minutes each), then the 5-minute scenario poll at 20:25.
+Section 7.2 (20:10-20:30). Six slides, then a 5-minute scenario poll.
 
-Tone: this is not about catching cheats. Most integrity problems start as small shortcuts under pressure: a missing value 'filled in', an outlier 'cleaned', a boss added as author. We want people to recognise the slope early.
+Tone: most integrity problems start as small shortcuts under pressure.
 
-Link to the manuscript: every participant's draft needs an authorship, conflicts-of-interest, data-availability and AI-use statement.
+Every Results draft needs the AI-use statement.
 :::
 
 ## Research misconduct: fabrication, falsification, plagiarism
@@ -653,19 +613,11 @@ FFP = the three forms of research misconduct. An honest error is not misconduct:
 :::
 
 ::: {.notes}
-Teaching point: the three classic forms of research misconduct (FFP).
+Fabrication, falsification, plagiarism. An honest error is not misconduct: correct it openly.
 
-Fabrication: making up data or patients (e.g. filling day-3 fluid balances 'from memory' because the chart is lost).
+The data-quality plan from Session 5 protects against accidental falsification.
 
-Falsification: changing, selecting or leaving out data, images or results so the story looks better (e.g. dropping two 'odd' patients after seeing they weaken the result).
-
-Plagiarism: using other people's words, ideas or figures without credit, including copying a paragraph with a citation but without quotation marks.
-
-Honest error is not misconduct, but it must be corrected openly (a correction or erratum).
-
-Link to Session 5: the data-quality plan (range checks, pre-specified rules for outliers) is what protects you from accidental falsification.
-
-Poll: which of these three is the most common in student theses? Expected answer: plagiarism, often copy-paste in the introduction. Similarity-check software will find it.
+Poll: which is most common in student theses? Expected: plagiarism.
 :::
 
 ## Also off-limits: tricks that distort the record
@@ -701,15 +653,11 @@ One study should tell one complete, honest story.
 :::
 
 ::: {.notes}
-Teaching point: these practices distort the evidence that doctors and guideline panels rely on.
+Duplicate publication counts the same patients twice. Salami slicing hides the whole study. Selective reporting is why trials register one primary outcome.
 
-Duplicate publication counts the same patients twice in a meta-analysis and can exaggerate an effect. A legitimate secondary paper is fine if it is clearly cross-referenced and adds something new.
+Paper 1 reported its negative primary outcome plainly.
 
-Salami slicing: e.g. mortality in one paper, kidney injury in another and ICU stay in a third, from the same cohort, each without mentioning the others.
-
-Selective reporting and outcome switching are why trials must be registered with one primary outcome before the first patient. Running example: Paper 1 registered its protocol at ClinicalTrials.gov on 1 July 2021, before recruitment began in September 2021, and reported its negative primary outcome plainly in the abstract. That is good practice.
-
-Ask: Paper 1's primary outcome was negative. Why does it matter that it was published at all? Expected: publication bias. If only positive trials appear, the literature overstates benefit.
+Ask: why does it matter that a negative trial is published? Expected: publication bias.
 :::
 
 ## Who is an author? The four ICMJE criteria
@@ -753,17 +701,13 @@ ICMJE = International Committee of Medical Journal Editors. An author meets all 
 :::
 
 ::: {.notes}
-Teaching point: the International Committee of Medical Journal Editors (ICMJE) requires all four criteria for authorship: 1) substantial contribution to conception or design, or to acquisition, analysis or interpretation of data, 2) drafting or critically revising the work, 3) final approval of the version to be published, 4) agreement to be accountable for all aspects of the work.
+An author meets all four ICMJE criteria. Others go in the Acknowledgements.
 
-Anyone who contributed but does not meet all four goes in the Acknowledgements (data collectors, a colleague who checked adherence, the department head who provided support).
+Gift author: named without the work. Ghost author: did the work, not named.
 
-Gift author: a name added for seniority or friendship. Ghost author: someone who did the work (often a junior or a paid writer) but is not named. Both are misconduct.
+Poll: is data collection alone enough for authorship? Expected: no.
 
-Running example: Paper 2 is published 'on behalf of' a study group, and the group members are listed in the Acknowledgements. That is a correct way to credit a large network.
-
-Poll: data collection alone, is that enough for authorship? Expected answer: no, not without criteria 2, 3 and 4.
-
-Practical tip: agree the author list and order in writing at the protocol stage and revisit it before submission. CRediT (who did what) is in the Extra slides.
+Agree the author list at the protocol stage.
 :::
 
 ## Conflicts of interest and funding: declare them all
@@ -799,15 +743,11 @@ Practical tip: agree the author list and order in writing at the protocol stage 
 :::
 
 ::: {.notes}
-Teaching point: a conflict (competing) interest is anything that could be seen to influence your judgement, financial or not. Having one is common and not wrong. Hiding it is.
+Having an interest is common. Hiding it is the problem. Most journals use the ICMJE form.
 
-Every author completes the journal's disclosure form (most journals use the ICMJE disclosure form), usually covering the last 36 months.
+Paper 2 states its funder had no role. Paper 1 states an internal grant.
 
-Funding statement: who paid, the grant number, and the role of the funder in design, data collection, analysis, writing and the decision to publish.
-
-Running example: Paper 2 states its funder had no role in the design, data collection and analysis or manuscript preparation, an ICMJE requirement that is often forgotten (annotation \#39). Paper 1 states an internal hospital grant and no competing interests (page 12).
-
-Ask: a drug company paid your travel to a congress last year. Do you declare it on a fluids paper? Expected: yes if it could be perceived as relevant. When in doubt, declare.
+Ask: a company paid your travel last year. Declare it? Expected: if in doubt, declare.
 :::
 
 ## Data sharing: from 'on request' to open
@@ -836,15 +776,11 @@ Ask: a drug company paid your travel to a congress last year. Do you declare it 
 :::
 
 ::: {.notes}
-Teaching point: journals increasingly ask for a data-sharing statement. ICMJE requires one for clinical trials, and trials must describe their data-sharing plan when they register.
+From 'available on request' (both papers) to an open repository with a DOI.
 
-The ladder: not available. 'Available on reasonable request' (the weakest promise, used by both papers, pages 12 and 8). A controlled-access repository (researchers apply). An open repository with a DOI (digital object identifier, for fully de-identified data).
+Before sharing: consent and ethics must allow it, data de-identified, dictionary and code included.
 
-Before you share: the consent form and the ethics approval must allow it, data are de-identified, and you share the data dictionary and analysis code with the data so others can use them.
-
-Link to Session 5: a clean data dictionary is what makes shared data usable.
-
-Ask (call on two or three people, microphone on): what would you need to write in your consent form today so your data can be shared tomorrow? Expected: a sentence asking permission for de-identified data to be shared for future research.
+Ask: what must your consent form say today so you can share tomorrow?
 :::
 
 ## AI in research and writing: what is allowed
@@ -871,17 +807,11 @@ Ask (call on two or three people, microphone on): what would you need to write i
 :::
 
 ::: {.notes}
-Teaching point: the current positions of ICMJE and COPE (Committee on Publication Ethics). AI tools cannot be authors, because they cannot take responsibility or be accountable for the work. Authors who use AI must disclose it (writing help usually in the Acknowledgements, use in data collection, analysis or figures in the Methods), and they remain fully responsible for every word, number and reference, including anything the tool produced.
+AI cannot be an author. Disclose its use and check every claim and reference.
 
-Never paste identifiable patient data, or a manuscript you are reviewing, into a public AI tool: it breaches confidentiality, and reviewers are bound to keep manuscripts confidential.
+Never paste patient data or a manuscript you review into a public AI tool.
 
-AI tools can invent references that look real. Check every citation against PubMed.
-
-Images: AI-generated or AI-altered images are not acceptable as data.
-
-Always check the target journal's own AI policy in its Guide for Authors, because policies change.
-
-Ask: a colleague asks a chatbot to 'write the discussion' and submits it unread. Which never points does this hit? Expected: invented references and an unaccountable text, and it is undisclosed.
+Ask: a colleague has a chatbot write the Discussion and submits it unread. Which rules does this break?
 :::
 
 ## Integrity scenarios: green, amber or red?
@@ -914,13 +844,11 @@ Scenario 1
 :::
 
 ::: {.notes}
-Quiz, whole class (20:25-20:30). Scenarios and answer key: Course/Practicals/s7\_exercises.md (Part A) and Course/Solutions/s7\_solutions.md.
+Quiz (20:25-20:30). Scenarios and answers: s7\_exercises Part A and s7\_solutions.
 
-Use three: 1 (missing data 'filled from memory': red, fabrication), 3 (head of department as last author without contributing: red, gift authorship, offer the Acknowledgements), 4 (AI polish of the English, checked and disclosed: green, the same chatbot fed the patient spreadsheet: red).
+Use scenarios 1 (red, fabrication), 3 (red, gift authorship) and 4 (green for checked and disclosed polishing, red for the patient spreadsheet).
 
-Run each as a three-option poll. Show the result, then ask one person from the largest and one from the smallest colour for a reason.
-
-If the class is split, that is the teaching moment.
+Ask one person from the largest and one from the smallest colour for a reason.
 :::
 
 ## Proposal builder 7: ethics, registration, feasibility, publication plan
@@ -955,13 +883,11 @@ Then, at home
 :::
 
 ::: {.notes}
-Proposal builder 7 (20:30-20:45). Whole class. Share the Part B worksheet and fill it in live for the running example: a retrospective cohort of fluid balance and 28-day mortality in adults with septic shock in our ICU (model answers: Course/Solutions/s7\_solutions.md, Part B). For each answer, call on two or three people and type the best one.
+Proposal builder 7 (20:30-20:45). Fill in Part B live for the running example. Answers: s7\_solutions Part B.
 
-Raise the typical problems as you go: (1) 'consent will be obtained' with no who, when or how (use the ICU flowchart). (2) retrospective chart reviews assuming no ethics review is needed (wrong: the committee decides and may grant a waiver). (3) recruitment numbers taken from the sample-size calculation instead of the unit's admissions. (4) CONSORT chosen for an observational study.
+Watch for: 'consent will be obtained' with no who or when, chart reviews assumed exempt, recruitment from the sample size, CONSORT for a cohort.
 
-Homework: each participant writes Part 4 for their own proposal this week. The journal choice and reporting guideline are checked again in 8.2 next Saturday.
-
-Remind: everyone submits the written proposal and 6 presentation slides. About five volunteers present next Saturday (6 minutes each). Ask volunteers to tell you in the chat or by email this week.
+Homework: Part 4 of their own proposal. Volunteers who want to present email the course lead by the Wednesday before Session 8.
 :::
 
 ---
@@ -975,33 +901,27 @@ Remind: everyone submits the written proposal and 6 presentation slides. About f
 :::
 
 ::: {.notes}
-The slide is only a picture on purpose. Before the break, say: we are back at 21:00 for 7.3, writing the paper (35 min), then manuscript workshop 1 (45 min). During the break, open the results pack for the question you chose (Q1 to Q5) and the manuscript template (Course/Templates/Manuscript\_Template\_IMRaD). If you have not chosen a question yet, choose one now.
+Break (20:45-21:00). Say: we restart at 21:00 with the Results section. Open your results pack and the manuscript template.
 
-Break (20:45-21:00).
-
-Keep the session open. Stay available in the chat for anyone who could not say their main result in the recap.
-
-Prepare your screen for the workshop: the manuscript template and results pack Q1 side by side.
+Prepare your screen: the template and results pack Q1 side by side.
 :::
 
 ## 7.3  \|  35 minutes
 
 :::: {.neu-statement}
 ::: {.neu-big}
-Writing the paper (I): Methods and Results
+Writing the paper (I): the Results section
 :::
 
 ::: {.neu-sub}
-Write what you did and what you found, nothing more
+Report what you found, nothing more
 :::
 ::::
 
 ::: {.notes}
-Section 7.3 (21:00-21:35). Nine slides (about 3.5 minutes each) and a 3-minute check at 21:32.
+Section 7.3 (21:00-21:35). Nine slides and a 3-minute check.
 
-Every example comes from the course dataset (Q1, the primary question) or from the two papers.
-
-The two worked examples are the heart of the block. Read them slowly with the class.
+The Results slides and their worked examples are the heart of the block. The Methods slides are shorter: Methods is optional for the manuscript.
 :::
 
 ## Write in a different order from the one readers read
@@ -1048,19 +968,17 @@ Readers read: Title, Abstract, Introduction, Methods, Results, Discussion. Write
 :::
 
 ::: {.notes}
-Teaching point: readers go from title to abstract, introduction, methods, results and discussion. Writers should not. Start from the evidence: draft the tables and figures, then the Methods (it can be drafted from the protocol even before the data), then Results (describe the tables), then the Introduction (set up exactly the question you answered), then the Discussion, and only then the abstract and the title.
+Writers start from the evidence: tables first, the title last.
 
-Why it works: each section is written from something that already exists, and the abstract and title summarise a paper that is finished, so they cannot promise more than the paper delivers.
+For FLUID-ICU the tables already exist in your results pack, so your Results section starts from them.
 
-Misconception: 'I must finish the introduction before I can start'. Many first-time writers stall on the introduction for months.
-
-For the FLUID-ICU manuscript the tables already exist: they are in your results pack.
+Misconception: 'I must finish the Introduction before I can start'.
 :::
 
 ## Methods: enough detail for someone to repeat it
 
 ::: {.neu-intro}
-If a colleague could not redo your study from the Methods, add detail.
+Optional for your manuscript. If a colleague could not redo the study from it, add detail.
 :::
 
 :::: {.neu-cards style="--n:4"}
@@ -1101,16 +1019,14 @@ If a colleague could not redo your study from the Methods, add detail.
 :::
 
 ::: {.notes}
-Teaching point: Methods = enough detail to repeat the study, in the order of the reporting checklist (CONSORT for trials or STROBE for observational studies).
+Methods: enough detail to repeat the study, in STROBE order.
 
-Good practice: Paper 1 puts the ethics committee, approval number, consent procedure and funding inside the Methods (annotation \#13). Describes the intervention well enough to replicate: staff training, a daily pharmacist check, dilution charts in a supplement (\#16). Separates one primary outcome from secondary and safety outcomes (\#17). States the software and version (\#21). Paper 2 defines exactly which inputs and outputs make up fluid balance (\#13) and cites its cohort-profile paper instead of repeating it (\#12).
+Good: Paper 1 describes its intervention well enough to replicate. To fix: Paper 2 never says how missing covariates were handled.
 
-To fix: Paper 1 is a 'pilot' with an efficacy sample size whose assumptions (70 vs 40 ml/kg) were not met (\#18). It names a Mann-Whitney test but reports mean differences with CIs (\#19). About 40 secondary p-values with no word on multiplicity (\#20). Paper 2: 'caliper of 0.1' of what? How were missing covariates handled? Clustered by what? (\#15, \#17). No sample-size statement (\#19).
-
-The annotated papers are in Course/Papers (annotation numbers refer to them).
+Methods is optional for the manuscript: all the facts are in the results pack, the SAP and the data dictionary.
 :::
 
-## Worked example: Methods for FLUID-ICU question 1
+## Optional: Methods for FLUID-ICU question 1
 
 ::: {.neu-intro}
 One sentence per STROBE item (simulated data). STROBE = the reporting checklist for observational studies.
@@ -1124,18 +1040,14 @@ One sentence per STROBE item (simulated data). STROBE = the reporting checklist 
 - [Ethics (course version): This analysis used a simulated teaching dataset. No ethics approval or consent was required.]{style="color:#0B376C"}
 
 ::: {.notes}
-Worked example (course dataset). Read each sentence and name its STROBE item.
+For participants who write the optional Methods. One sentence per STROBE item, all from results pack Q1, section 2.
 
-All facts come from results pack Q1, section 2: prospective multicentre cohort, 4 ICUs, consecutive adults with sepsis, January 2023 to December 2024. Exposure = cumulative balance (in minus out, days 1-3) \> 0 ml/kg. Outcome = death within 28 days of ICU admission.
+Item 10: for a fixed cohort, say all eligible patients were included.
 
-STROBE 10 (study size): for a fixed cohort we do not invent a sample-size calculation. We say all eligible patients were included.
-
-The ethics sentence is specific to the course: FLUID-ICU is simulated, and every manuscript must say so.
-
-Ask (call on two or three people, microphone on): which sentence would a reader need to repeat the study? Expected: the exposure definition (how fluid balance was calculated).
+Ask: which sentence would a reader need to repeat the study? Expected: how fluid balance was calculated.
 :::
 
-## Worked example: the statistical-analysis paragraph
+## Optional: the statistical-analysis paragraph
 
 ::: {.neu-intro}
 STROBE item 12 for Q1: one sentence per decision, all chosen before seeing the data.
@@ -1149,15 +1061,9 @@ STROBE item 12 for Q1: one sentence per decision, all chosen before seeing the d
 - Estimates with 95% confidence intervals. Analyses in R 4.6.
 
 ::: {.notes}
-Worked example. This is STROBE item 12 written out for Q1 (results pack Q1, sections 2 and 4-5). SD = standard deviation. IQR = interquartile range. SOFA = Sequential Organ Failure Assessment.
+STROBE item 12 for Q1. Covariates were chosen in the SAP before the data were seen.
 
-Covariates: age, SOFA, lactate, vasopressor, mechanical ventilation, chronic kidney disease. All were pre-specified in the statistical analysis plan (SAP, Session 6), not chosen by looking at p-values.
-
-Missing data: lactate missing in 93/620 (15.0%). Main analysis on complete cases (n = 527), multiple imputation (m = 20) as sensitivity.
-
-Effect modification: heart failure, pre-specified.
-
-Misconception: 'the statistics paragraph is for the statistician'. Reviewers read it first. Every number in the Results must be traceable to one sentence here.
+Every number in the Results must trace back to one sentence here. Reviewers read this paragraph first.
 :::
 
 ## Results: report, do not interpret
@@ -1194,15 +1100,9 @@ Misconception: 'the statistics paragraph is for the statistician'. Reviewers rea
 :::
 
 ::: {.notes}
-Four rules. 1) Participants first: how many were screened, included, analysed and why some were lost, with a flow diagram. Paper 1 has its CONSORT flow chart in the main text (annotations \#23, \#27). Paper 2 keeps it in the supplement although 79% of the registry was excluded (\#20).
+Four rules. Participants first, with a flow. Effects with 95% CIs, not 'p = 0.42, NS'. No interpretation. One home per number, and text and tables must agree: Paper 1's text and Table 1 disagree on creatinine.
 
-2) Numbers with confidence intervals, not 'p = 0.42, NS'. Analysing 48 of 50 randomised patients is a modified intention-to-treat analysis and should be called that (\#24).
-
-3) No interpretation in the Results. Paper 2 reports its results in the order of the aims, each with HR, CI and P, and no comment (\#25).
-
-4) One home for each number: key numbers in the text, all details in the tables, and they must agree. Paper 1's text says creatinine was higher in the intervention group. Table 1 shows the opposite (\#25). Text-table contradictions are a classic rejection reason.
-
-Tell participants: before you submit your draft, check every number in your text against your results pack.
+Before submitting, check every number against your results pack.
 :::
 
 ## Worked example: Results for FLUID-ICU question 1
@@ -1219,17 +1119,11 @@ Participants, Table 1, outcome numbers, crude and adjusted estimates (simulated 
 - [No 'because', no 'significant', no 'suggests': numbers with 95% CIs only.]{style="color:#0B376C"}
 
 ::: {.notes}
-Worked example. All numbers from Course/Data/key\_results.md (simulated data). OR = odds ratio. HR = hazard ratio.
+All numbers from results pack Q1 (simulated). One sentence per STROBE item, 13 to 17.
 
-Flow: 620 enrolled, 618 with a day-3 balance, 527 in the complete-case adjusted model (91 without lactate or age).
+Point out what is missing: no 'because', no 'significant', no reason why the OR shrank. That belongs in a Discussion.
 
-Positive balance 373/618 (60.4%). SOFA median 8 (6 to 10) vs 6 (4 to 8). Vasopressor 205/373 (55.0%) vs 61/245 (24.9%).
-
-Deaths: 134/373 (35.9%) vs 45/245 (18.4%). Crude OR 2.49 (1.70 to 3.70), adjusted OR 1.62 (1.02 to 2.59), p 0.044. Sensitivity: multiple imputation OR 1.70 (1.09 to 2.64). Adjusted Cox HR 1.46 (1.00 to 2.13).
-
-Point out what is not in the paragraph: no 'because', no 'significant', no explanation of why the OR shrank. That belongs to the Discussion next Saturday.
-
-Poll: which STROBE item does the crude-and-adjusted sentence satisfy? Expected: 16.
+Poll: which item asks for crude and adjusted estimates? Expected: 16.
 :::
 
 ## Tables and figures that stand alone
@@ -1241,15 +1135,11 @@ Poll: which STROBE item does the crude-and-adjusted sentence satisfy? Expected: 
 :::
 
 ::: {.notes}
-Teaching point: reviewers and clinicians read tables more carefully than text. A table must stand alone: a title that says what, in whom and when, n in every column header. Units and the summary statistic in each row. Footnotes defining abbreviations and missing data. The picture is Paper 1's Table 1, redrawn.
+A table must stand alone: a title that says what, who and when, n per column, units and summary per row, footnotes for abbreviations and missing data.
 
-Good practice: Paper 1's Table 1 has n in each column, SD or IQR per row and no baseline p-values, which is correct for a randomised trial (annotation \#31). Paper 2's Table 1 adds SMDs (standardised mean differences) and footnotes with the number of patients with missing data (\#30). Its timeline figure has a self-contained legend (\#21).
+Errors in the papers: wrong units (Paper 1), no numbers at risk under a Kaplan-Meier curve (Paper 2).
 
-Errors to avoid: sodium and potassium printed in umol per liter (should be mmol/L) in Paper 1 (\#30). A copy-pasted row in Paper 1's Table 2 (\#32). Wrong figure call-outs in Paper 1 (\#28, \#41). A vague table title (\#34). White-cell units written '\* 10\^3/L' in Paper 2 (\#30). Kaplan-Meier curves should show numbers at risk (Paper 2, \#31).
-
-Link to Session 5: the publication-quality table rules. The FLUID-ICU Table 1 in each results pack already follows them.
-
-Ask: what is wrong with a table titled 'Results'? Expected: it says nothing about what, who or when.
+Ask: what is wrong with a table titled 'Results'?
 :::
 
 ## Worked example: FLUID-ICU Table 1 in one sentence
@@ -1268,15 +1158,9 @@ Simulated data (results pack Q1, Table 1). SOFA = organ failure score. IQR = int
 :::
 
 ::: {.notes}
-Worked example: from Table 1 to one Results sentence (STROBE 14).
+From Table 1 to one Results sentence (STROBE 14): 'Patients with a positive balance were sicker at baseline (median SOFA 8 vs 6, vasopressors 55.0% vs 24.9%) and less often had heart failure (11.5% vs 22.0%).'
 
-Model sentence: 'Patients with a positive balance were sicker at baseline (median SOFA 8 vs 6, vasopressors 55.0% vs 24.9%) and less often had heart failure (11.5% vs 22.0%).'
-
-Teaching point: the Table 1 sentence describes, it does not test, so no p-values are needed (observational Table 1s often show SMDs instead).
-
-Heart failure is lower in the positive group because clinicians give less fluid in heart failure: a good example of how treatment decisions shape the data.
-
-The full Table 1 with missing-data rows is in each results pack.
+The sentence describes, it does not test: no p-values.
 :::
 
 ## STROBE for the FLUID-ICU paper: which item goes where
@@ -1310,17 +1194,15 @@ FLUID-ICU is a cohort, so the paper follows STROBE. Numbers are STROBE item numb
 ::::
 
 ::: {.neu-takeaway}
-**KEY MESSAGE** Write with the STROBE checklist open and tick each item as you write it.
+**KEY MESSAGE** Your Results section: items 13 to 17. Methods (optional): items 4 to 12.
 :::
 
 ::: {.notes}
-Teaching point: FLUID-ICU is a cohort, so the paper follows STROBE (STrengthening the Reporting of OBservational studies in Epidemiology), cohort version. Item 11 (quantitative variables) is covered inside items 7 and 12.
+FLUID-ICU is a cohort, so STROBE. The Results section covers items 13 to 17.
 
-Items most often forgotten: 9 (bias: say how you addressed confounding by indication, i.e. adjustment for severity), 10 (study size: for a fixed dataset say 'all eligible patients in the cohort were included'), 12 (missing data: how lactate was handled), 16 (give both crude and adjusted estimates, with the variables adjusted for).
+Most often forgotten: 16 (crude and adjusted, with the variables adjusted for) and missing data.
 
-The checklist is in the Session 7 exercise sheet (Part C) and on equator-network.org (demo next Saturday).
-
-Poll: which item covers Table 1? Expected: 14 (descriptive data).
+Poll: which item covers Table 1? Expected: 14.
 :::
 
 ## Check: Methods, Results or Discussion?
@@ -1353,33 +1235,31 @@ Answers
 ::::
 
 ::: {.notes}
-Check (21:32-21:35). One poll per sentence with three options: Methods, Results, Discussion. All numbers are FLUID-ICU Q1 results (key\_results.md).
+Check (21:32-21:35). One poll per sentence.
 
-Sentence 4 is the trick: how missing data were handled is Methods. How many were missing is Results.
+Sentence 4 is the trick: how missing data were handled is Methods, how many were missing is Results.
 
-Sentence 3 is the classic error: an interpretation slipped into the Results. Move it to the Discussion.
+Sentence 3 is the classic error: interpretation in the Results.
 :::
 
 ## Manuscript workshop 1  \|  45 minutes
 
 :::: {.neu-statement}
 ::: {.neu-big}
-Write the Methods and Results: together, then on your own
+Write the Results section: together, then on your own
 :::
 
 ::: {.neu-sub}
-30 minutes drafting Q1 live with the whole class, then 15 minutes on your own question
+30 minutes on Q1 with the whole class, then 15 minutes on your own question
 :::
 ::::
 
 ::: {.notes}
-Manuscript workshop 1 (21:35-22:20). Course dataset.
+Manuscript workshop 1 (21:35-22:20).
 
-Part 1 (21:35-22:05): you draft the Methods and Results for Q1 live on the shared screen, calling on people to suggest sentences with the microphone on.
+Part 1: you write the Q1 Results live, calling on people for sentences. Part 2: each participant starts the Results for their own question.
 
-Part 2 (22:05-22:20): each participant starts their own draft on the question they chose (Q1 to Q5) and finishes it at home.
-
-Instructions: Course/Practicals/s7\_exercises.md, Part C. Model paragraphs for Q1: Course/Solutions/s7\_solutions.md (use them to steer the class draft, do not paste them).
+Instructions: s7\_exercises Part C. Model text: s7\_solutions Part C (steer with it, do not paste it).
 :::
 
 ## Manuscript workshop 1, part 1: we draft Q1 together
@@ -1392,8 +1272,9 @@ WHOLE-CLASS TASK · 30 min
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0D7377"}
 - The instructor shares the manuscript template and results pack Q1
-- Methods (15 min): you suggest each sentence aloud when called on. The instructor types the best one
-- Results (12 min): participants, Table 1 sentence, crude and adjusted OR
+- Participants and Table 1 (10 min): you suggest each sentence when called on
+- Main results (12 min): deaths per group, crude and adjusted OR with 95% CI
+- Other analyses (5 min): Cox model and multiple imputation
 - Number check (3 min): a volunteer reads each number against the pack
 :::
 :::
@@ -1401,26 +1282,26 @@ WHOLE-CLASS TASK · 30 min
 ::: {.neu-side .plain style="--c:#0D7377"}
 Use
 
-- Results pack Q1 (sent before the session)
-- Manuscript template (Course/Templates)
-- STROBE items 4-17
+- Results pack Q1
+- Manuscript template
+- STROBE items 13-17
 - The worked examples (slides)
 :::
 :::
 ::::
 
 ::: {.neu-output style="--c:#0D7377"}
-**OUTPUT** A class draft of the Q1 Methods and Results, shared as a PDF after the session
+**OUTPUT** A class Results section for Q1, sent as a PDF after the session
 :::
 
 ::: {.notes}
-Workshop Part 1 (21:35-22:05). Whole class. Start a visible timer and call each phase.
+Workshop part 1 (21:35-22:05). Keep a visible timer.
 
-Methods in this order: design and setting, participants, variables (exposure, outcome, confounders), data sources and bias, study size, statistical analysis, ethics sentence (simulated data). Results: participants and flow, Table 1 sentence, outcome numbers, crude and adjusted OR, one sensitivity result.
+Order: flow, Table 1 sentence, deaths per group, crude and adjusted OR, Cox HR and imputation.
 
-Prompts to the class: 'Where is the statistical paragraph?' 'What did we adjust for?' 'Is there a number without a confidence interval?' 'Is there an adjective ("significant", "strong") that should be a number?' 'Is there any interpretation in our Results?'
+Prompts: 'Is there a number without its CI?' 'Is there an adjective that should be a number?' 'Any interpretation?'
 
-Aim for about 300 words each. Save the class draft and share it as a PDF after the session: it is the model for everyone's own draft.
+Aim for about 300 words. Send the class draft as a PDF after the session.
 :::
 
 ## Manuscript workshop 1, part 2: start your own draft
@@ -1434,9 +1315,9 @@ INDIVIDUAL TASK · 15 min
 ::: {.neu-activity-steps style="--c:#0B376C"}
 - Open the results pack for your question (Q1 to Q5)
 - Follow the structure of the class draft. Take every number from your pack
-- Start with the Methods: design, participants, variables, statistics
-- Questions: raise your hand or use the chat. The instructor answers
-- At home: finish the Methods and Results, Table 1 and one figure or table
+- Start with participants and the Table 1 sentence
+- Questions: raise your hand or use the chat
+- At home: finish the Results, Table 1 and one main table or figure
 :::
 :::
 ::: {.column width="40%"}
@@ -1453,17 +1334,15 @@ The five questions
 ::::
 
 ::: {.neu-output style="--c:#0B376C"}
-**OUTPUT** Your own Methods and Results (about 600 words), sent by email before Session 8
+**OUTPUT** Your Results section, due 23:59 on the day of Session 8
 :::
 
 ::: {.notes}
-Workshop Part 2 (22:05-22:20). Individual, quiet writing. Keep the timer on screen and answer questions in the chat.
+Workshop part 2 (22:05-22:20). Quiet individual writing. Answer questions in the chat.
 
-Participants who chose Q1 rewrite the class draft in their own words and add a figure or table. They do not copy it.
+Q1: rewrite in your own words, do not copy the class draft. Q3: ventilator-free days count death as zero. Q4: report both complete-case and imputed estimates. Q5: survivors only, medians and IQR.
 
-Question-specific points to post in the chat: Q4 reports both complete-case and imputed estimates. Q5 uses medians and IQR (survivors only). Q3: ventilator-free days are skewed and count death as zero, so check the summary.
-
-Deadline for the Methods and Results draft: before Session 8 (by email). Next Saturday's workshop adds the Introduction, Discussion, Abstract and Title.
+Optional parts can be added if there is time.
 :::
 
 ## Key words of Session 7
@@ -1482,9 +1361,25 @@ Full glossary (English-Vietnamese): the PDF sent by email
 :::
 
 ::: {.notes}
-Key words (22:20-22:23). Show the term, call on someone to explain it with the microphone on, then reveal the right-hand column.
+Key words (22:20-22:22). Show the term, call on someone to explain it, then reveal.
+:::
 
-These are also the words most likely to appear in the post-course quiz next Saturday.
+## Peer review: your reviewer and your deadlines
+
+| When | What you do |
+|:---|:---|
+| 23:59, Saturday 19 December (Session 8) | Email your Results section to your reviewer and the course lead |
+| Saturday 2 January | Reviewers email their review to the author and the course lead |
+| Saturday 30 January | Email your revised Results section and response letter to the course lead |
+
+::: {.neu-table-caption}
+Reviewers were assigned at random: see the list on screen and in your email. Course lead: myluong1710\@gmail.com
+:::
+
+::: {.notes}
+Peer review (22:22-22:24). Show the list of reviewer pairs on screen and say it was drawn at random. Everyone reviews one draft and receives one review.
+
+Sending the draft straight to the reviewer saves time: the review is due two weeks later, the revision four weeks after that.
 :::
 
 ## Wrap-up, exit question and homework
@@ -1499,7 +1394,7 @@ DISCUSSION · 7 min
 - Three take-home messages (right)
 - Exit question in the chat: 'Who consents for a sedated patient in septic shock, and when?'
 - Homework 1: write Part 4 of your own proposal
-- Homework 2: finish your Methods and Results draft before Session 8
+- Homework 2: write your Results section (due 23:59 on the day of Session 8)
 - Homework 3: prepare your 6 presentation slides (everyone submits them)
 :::
 :::
@@ -1509,21 +1404,21 @@ Take home
 
 - No approval, no data: not even 'a few patients'
 - Every author meets all four criteria. Declare every interest
-- Methods = what you did. Results = numbers with CIs, no opinions
+- Results = numbers with CIs, no opinions
 :::
 :::
 ::::
 
 ::: {.neu-output style="--c:#1F5C7A"}
-**OUTPUT** Exit answers read before Session 8. Part 4 and Methods + Results drafted
+**OUTPUT** Exit answers read before Session 8. Part 4 and the Results drafted
 :::
 
 ::: {.notes}
-Wrap-up (22:23-22:30). Read the three take-home messages. Call on one person to add a fourth.
+Wrap-up (22:24-22:30). Read the three messages and call on one person to add a fourth.
 
-Exit question: its purpose is to check understanding. Read the answers before Session 8 and open Session 8 with them (the recap).
+Read the exit answers before Session 8 and open with them.
 
-Homework: Part 4 of the proposal (worksheet Part B). The Methods + Results draft, 6 slides following the presentation guide (Course/Assignment/presentation\_guide.md). Everyone submits slides and the written proposal. About five volunteers present (6 minutes each). Ask volunteers to tell you this week.
+Homework: Part 4 of the proposal, the Results draft, the 6 slides (Presentation\_Guide).
 :::
 
 ## Extra slides  \|  Session 7
@@ -1539,7 +1434,7 @@ Use only if time allows, or for self-study
 ::::
 
 ::: {.notes}
-Extra: the slides after this divider are optional. Use them if the class moves faster than planned, or point participants to them for self-study.
+Extra slides: optional, for a fast class or self-study.
 :::
 
 ## Check: register or not?
@@ -1570,9 +1465,9 @@ Answers
 ::::
 
 ::: {.notes}
-Extra check (1 minute + 1 minute answers). One poll per scenario with three options: must, should, not needed. Then reveal.
+Extra check. One poll per scenario: must, should or not needed.
 
-Scenario 4 starts a useful discussion: an audit compares practice with a standard and is usually approved through the quality office, not registered. If you plan to publish it as research, ask the ethics committee first (Session 1: research vs audit vs quality improvement).
+Scenario 4: an audit goes through the quality office, not a registry. To publish it as research, ask the ethics committee first.
 :::
 
 ## IMRaD: the hourglass shape of every paper
@@ -1584,13 +1479,9 @@ Scenario 4 starts a useful discussion: an audit compares practice with a standar
 :::
 
 ::: {.notes}
-Extra: Teaching point: almost every clinical paper follows IMRaD (Introduction, Methods, Results and Discussion), framed by the title and abstract and closed by references and declarations.
+Extra. IMRaD: the Introduction narrows to the question, the Discussion widens back to practice.
 
-Introduction: from what is known, to what is not known, to your question (a funnel). Methods: enough detail for someone else to repeat the study. Results: numbers, without opinions. Discussion: answer the question first, compare with other studies, state the limitations, then say what it means.
-
-Running example: Paper 1's introduction is a textbook funnel in three paragraphs (pages 2-3), ending 'The primary objective was to assess the fluid balance after the first 5 days'. Its Discussion opens by answering that question (page 8).
-
-Tip for the appraisal in Session 8: the hourglass tells you where to look. PICO is in the last paragraph of the Introduction, design and outcome in the Methods, the main effect in the first paragraph of the Results, limitations near the end of the Discussion.
+Paper 1's Introduction is a three-paragraph funnel, and its Discussion opens by answering the question.
 :::
 
 ## CRediT: say who did what
@@ -1632,11 +1523,9 @@ CRediT (Contributor Roles Taxonomy): 14 standard roles that journals now ask for
 :::
 
 ::: {.notes}
-Extra: CRediT (Contributor Roles Taxonomy) is a list of 14 standard roles. It does not replace the ICMJE criteria. It makes each person's contribution visible.
+Extra. CRediT names who did what (14 roles). It does not replace the ICMJE criteria.
 
-Running example: Paper 1 (page 12) gives a CRediT statement. For example, the statistician is credited for Methodology and Formal analysis. Paper 2 (page 8) describes contributions in free text and states that all authors read and approved the final manuscript. That is acceptable, but CRediT is the format most journals now ask for.
+Paper 1 gives a CRediT statement.
 
-Ask each participant to write, in their own proposal, who would be first author and who would do what. It prevents painful conversations later.
-
-Question: in a hospital, who usually ends up as last author, and why? Expected: the senior supervisor. That is legitimate if they meet all four criteria, and a gift if they do not.
+Ask each participant to write who would do what in their own proposal.
 :::

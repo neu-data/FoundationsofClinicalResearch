@@ -10,10 +10,10 @@ title: "Session 5: Live-demo script"
 |---|---|---|
 | **Slot** | 5.2 *Meet the course dataset* (about 20:25) | 5.4 *Describe the course dataset* (about 21:31) |
 | **Duration** | 8 minutes | 6 minutes |
-| **Script** | `Course/Data/R/01_clean.R` | `Course/Data/R/02_describe.R` |
+| **Script** | `FLUID-ICU/R/01_clean.R` | `FLUID-ICU/R/02_describe.R` |
 | **Participants** | watch your shared screen and predict in the chat (they do not run R) | same |
 
-> **FLUID-ICU is SIMULATED.** Say so every time you open the data: no real patient, hospital or country. All numbers below are from `Course/Data/key_results.md` and `Course/Data/cleaning_log.md`.
+> **FLUID-ICU is SIMULATED.** Say so every time you open the data: no real patient, hospital or country. All numbers below are from `Results_Pack_Q1–Q5` and `FLUID-ICU/cleaning_log.md`.
 
 
 * * *
@@ -21,10 +21,10 @@ title: "Session 5: Live-demo script"
 ## Before the session (night before + 10 minutes before)
 
 - [ ] R (4.x) and RStudio installed on the laptop you will screen-share from; packages: tidyverse, janitor, gtsummary, flextable, survival, survminer, mice, broom.
-- [ ] Open `Course/Data/FLUID-ICU.Rproj` (sets the working folder). Run `01_clean.R` and `02_describe.R` once end to end. Both must finish without error.
+- [ ] Open `FLUID-ICU/FLUID-ICU.Rproj` (sets the working folder). Run `01_clean.R` and `02_describe.R` once end to end. Both must finish without error.
 - [ ] Increase the editor and console font (Tools, Global Options, Appearance: 18 to 20 pt) so participants can read it on a small screen. Share only the RStudio window.
-- [ ] Keep the fallback figures open in an image viewer: `Course/Resources/figures/en/data/` (`raw_vs_clean.png`, `table1_snapshot.png`, `fluid_balance_hist.png`, `sofa_by_group.png`, `los_skewed.png`) and `Course/Data/output/figures/`.
-- [ ] Open `Course/Data/cleaning_log.md` and `data_dictionary.md` in a browser tab: you will show them.
+- [ ] Keep the fallback figures open in an image viewer: `Course/Resources/figures/en/data/` (`raw_vs_clean.png`, `table1_snapshot.png`, `fluid_balance_hist.png`, `sofa_by_group.png`, `los_skewed.png`) and `FLUID-ICU/output/figures/`.
+- [ ] Open `FLUID-ICU/cleaning_log.md` and `data_dictionary.md` in a browser tab: you will show them.
 
 **Rules of the demo:** run one block at a time (Ctrl+Enter). Before each block, ask the class *"what do you expect?"* and read two or three chat answers After it, say *what was fixed and that it goes in the log*. Never type new code live, because the scripts are complete.
 
@@ -79,7 +79,7 @@ title: "Session 5: Live-demo script"
 | R or a package fails | Show `raw_vs_clean.png` and talk through the problems (Part A); show `table1_snapshot.png`, `fluid_balance_hist.png`, `sofa_by_group.png` (Part B). Teaching points are identical. |
 | Screen sharing does not show RStudio legibly | Use the PNG figures and `cleaning_log.md` in a browser at 150% zoom. |
 | Running late | Part A: Steps 0, 2, 9, 10, 14. Part B: blocks 3 and 5 only. |
-| A participant asks to run it themselves | Point to `Course/Data/README.md` and the free *Clinical Data Analysis in R* course, and offer to help after the session. |
+| A participant asks to run it themselves | Point to `FLUID-ICU/README.md` and the free *Clinical Data Analysis in R* course, and offer to help after the session. |
 
 ## Anticipated questions
 

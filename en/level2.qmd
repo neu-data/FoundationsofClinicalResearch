@@ -65,9 +65,9 @@ By the end of Level 2, participants will be able to:
 | **Session rhythm** | 20 to 30 min concepts. About 2 hours of live coding and exercises: the instructor codes, participants follow, then practise on their own. 20 min recap, questions and homework briefing. One 15-minute break. |
 | **Working together** | The whole class works as one group; there are no breakout rooms. Exercises are done individually on each participant's laptop. Participants post answers and output in the chat, and the instructor (or a volunteer sharing their screen) goes through them with the class. Help with code errors is given in the chat or by a participant sharing their screen. |
 | **Structure of each modelling session** | (1) The question and the outcome type. (2) **EDA for this problem**: the summaries and plots that should come before this model. (3) The model and what its parameters mean. (4) Assumptions and diagnostics, and what to do when they fail. (5) Interpretation and a reporting table, with a written sentence. Simple ggplot2 code for the EDA and result plots is given in each session; there is no separate session on figures. |
-| **Shared dataset** | **FLUID-ICU** (`Course/Data/`): the simulated ICU sepsis cohort (raw and clean data, data dictionary, cleaning log, statistical analysis plan, R scripts) used in Level 1. Count outcomes need a count variable that FLUID-ICU does not yet have (see Section 8, open items). |
+| **Shared dataset** | **FLUID-ICU** (`FLUID-ICU/`): the simulated ICU sepsis cohort (raw and clean data, data dictionary, cleaning log, statistical analysis plan, R scripts) used in Level 1. Count outcomes need a count variable that FLUID-ICU does not yet have (see Section 8, open items). |
 | **Own data** | Each participant may bring a de-identified dataset (with the necessary ethics or data-protection approval). Two online **one-to-one slots** of 30 to 45 minutes (after Sessions 2 and 5) help adapt the course scripts to their data. |
-| **Support** | Shared course folder (data, starter scripts, solutions after each session), an online question channel, and an instructor office hour each week. |
+| **Support** | The data and starter scripts as one R project, sent by email (solutions after each session), an online question channel, and an instructor office hour each week. |
 | **Main R packages** | tidyverse (readr, dplyr, tidyr, ggplot2), readxl, janitor, gtsummary, flextable, naniar, mice, broom, car, performance, DHARMa, MASS, pscl, pROC, splines, survival, ggsurvfit. |
 
 ## 4. Session-by-session outline
@@ -75,10 +75,10 @@ By the end of Level 2, participants will be able to:
 ### Session 1: Preparing and describing data: cleaning, Table 1 and missing data
 
 - **Concepts:** raw data are never edited; the cleaning log and the data dictionary; tidy data; choosing the right summary (mean and SD, median and IQR, n and %); what Table 1 is for, and why p-values do not belong in Table 1 of an RCT.
-- **Working with R scripts:** one script per step, numbered (`01_clean.R`, `02_describe.R`); a short header and comments; packages loaded at the top; reading the data from the course folder. The course folder is provided ready-made.
+- **Working with R scripts:** one script per step, numbered (`01_clean.R`, `02_describe.R`); a short header and comments; packages loaded at the top; reading the data from the R project, which is provided ready-made.
 - **Cleaning (FLUID-ICU raw file):** import CSV and Excel; check structure and types; find duplicates; recode missing-value codes (999, -99); harmonise categories (M, Male, 1); parse dates; range and consistency checks; derive cumulative fluid balance in ml/kg; set factor levels and reference categories. Each change is written in the cleaning log.
 - **Describing:** distributions and skewness (histograms, box plots); Table 1 by fluid-balance group with **gtsummary** (labels, units, the right statistic per variable type, missing counts, footnotes); export to Word with **flextable**.
-- **Missing data, the basics:** count and visualise missing values (**naniar**); compare patients with and without lactate; MCAR, MAR and MNAR in one slide each; what a complete-case analysis assumes; what multiple imputation does, shown once with the result from `Course/Data/R/05_missing.R` (lactate: complete-case OR 1.39 vs imputed OR 1.45). Participants do not run imputation themselves in Level 2. Sensitivity analyses are mentioned as the next step and taught in Level 3.
+- **Missing data, the basics:** count and visualise missing values (**naniar**); compare patients with and without lactate; MCAR, MAR and MNAR in one slide each; what a complete-case analysis assumes; what multiple imputation does, shown once with the result from `FLUID-ICU/R/05_missing.R` (lactate: complete-case OR 1.39 vs imputed OR 1.45). Participants do not run imputation themselves in Level 2. Sensitivity analyses are mentioned as the next step and taught in Level 3.
 - **FLUID-ICU:** the clean file matches the course clean file; Table 1 matches the Level 1 results pack.
 - **Deliverable:** `01_clean.R`, `02_describe.R`, a cleaning log and Table 1 as a Word table.
 
@@ -169,7 +169,7 @@ By the end of Level 2, participants will be able to:
 | 7 | R scripts for the individual analysis question and a note on model choice and checks |
 | 8 | Results section with Table 1, a results table and a figure, plus the scripts |
 
-Each deliverable is submitted to the course folder before the next session; instructors give short written feedback.
+Each deliverable is emailed to the instructors before the next session. Instructors give short written feedback.
 
 ## 6. Final project (optional)
 
@@ -195,7 +195,7 @@ Marks are used for feedback; there is no ranking.
 | Material | Content |
 |---|---|
 | Slides (EN + VN) | 8 short concept decks (20 to 30 slides each) with speaker notes; each modelling deck follows the same five parts (question, EDA, model, assumptions, reporting) |
-| R scripts | Starter scripts (with gaps) and complete instructor scripts for each session, built from the FLUID-ICU scripts in `Course/Data/R/`; ready-made ggplot2 code for the EDA and result plots of each model |
+| R scripts | Starter scripts (with gaps) and complete instructor scripts for each session, built from the FLUID-ICU scripts in `FLUID-ICU/R/`; ready-made ggplot2 code for the EDA and result plots of each model |
 | Exercises | One exercise sheet per session (core and stretch tasks) on FLUID-ICU, with a "your data" task |
 | Solutions | Full worked solutions and output, released after each session |
 | Analysis-project briefs | 8 to 12 individual questions across the model types (linear, logistic, count, zero-inflated, Cox), each with data and a marking guide |
@@ -204,5 +204,5 @@ Marks are used for feedback; there is no ranking.
 
 **Open items**
 
-- **FLUID-ICU needs count variables.** The dataset has no true count outcome. Proposed additions to the generator (`Course/Data/R/00_generate_fluid_icu.R`), the data dictionary and `key_results.md`: (1) `icu_infections_n`, number of ICU-acquired infections during the ICU stay, overdispersed, with `icu_los_days` as the offset (Session 4); (2) `rrt_days_28`, days on renal replacement therapy by day 28, zero for patients without RRT (Session 5; links to the existing `rrt` variable). Alternatives: number of ICU readmissions within 90 days, or organ-support days. Until then, Session 5 can use ventilator-free days, and Session 4 needs a small separate simulated count dataset.
+- **FLUID-ICU needs count variables.** The dataset has no true count outcome. Proposed additions to the generator (`FLUID-ICU/R/00_generate_fluid_icu.R`), the data dictionary and `key_results.md`: (1) `icu_infections_n`, number of ICU-acquired infections during the ICU stay, overdispersed, with `icu_los_days` as the offset (Session 4); (2) `rrt_days_28`, days on renal replacement therapy by day 28, zero for patients without RRT (Session 5; links to the existing `rrt` variable). Alternatives: number of ICU readmissions within 90 days, or organ-support days. Until then, Session 5 can use ventilator-free days, and Session 4 needs a small separate simulated count dataset.
 - **A second simulated dataset** may be needed for the analysis-project questions, so that each participant has a different question and not all use FLUID-ICU.

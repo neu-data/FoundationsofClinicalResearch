@@ -4,7 +4,7 @@ title: "Buổi 7: Lời giải"
 
 [Tải bản PDF](files/sessions/s7_solutions_VN.pdf) · [Quay lại Buổi 7](session7.qmd)
 
-Đáp án cho `Course/Practicals/s7_exercises_VN.md` (phiếu bài tập Buổi 7), Phần A–C. Số liệu trong Phần C lấy từ `Course/Data/key_results.md` (dữ liệu MÔ PHỎNG). Trong lớp cả lớp cùng làm; các đáp án này dành cho giảng viên.
+Đáp án cho `s7_exercises_VN.md` (phiếu bài tập Buổi 7), Phần A–C. Số liệu trong Phần C lấy từ `Results_Pack_Q1–Q5` (dữ liệu MÔ PHỎNG). Trong lớp cả lớp cùng làm; các đáp án này dành cho giảng viên.
 
 
 * * *
@@ -64,23 +64,9 @@ Lỗi thường gặp: nêu CONSORT cho nghiên cứu thuần tập; dùng "impa
 
 * * *
 
-## Phần C: Thực hành bản thảo 1: Phương pháp và Kết quả mẫu cho Q1
+## Phần C: Thực hành bản thảo 1: Kết quả mẫu cho Q1 (và Phương pháp không bắt buộc)
 
-Mọi con số lấy từ `Course/Data/key_results.md` và `Course/Data/results_packs/Q1/results_pack_Q1.md` (**DỮ LIỆU MÔ PHỎNG, KHÔNG PHẢI NGƯỜI BỆNH THẬT**). Dùng để định hướng bản nháp của lớp trong phần 1 của buổi thực hành (không dán nguyên văn). Học viên chọn Q2–Q5 theo cùng cấu trúc với số liệu từ gói kết quả của mình.
-
-### Phương pháp mẫu (~300 từ)
-
-**Thiết kế nghiên cứu và bối cảnh.** Chúng tôi phân tích FLUID-ICU, một nghiên cứu thuần tập tiến cứu đa trung tâm gồm những người lớn bị nhiễm khuẩn huyết liên tiếp nhập bốn khoa hồi sức tích cực (ICU A–D) từ tháng 1 năm 2023 đến tháng 12 năm 2024. FLUID-ICU là bộ dữ liệu giảng dạy mô phỏng; không cần chấp thuận của hội đồng đạo đức hay sự đồng ý tham gia.
-
-**Người tham gia.** Mọi người lớn bị nhiễm khuẩn huyết được tuyển vào nghiên cứu thuần tập đều đủ điều kiện. Người bệnh không có cân bằng dịch tích lũy ở ngày 3 bị loại khỏi phân tích phơi nhiễm.
-
-**Biến số.** Phơi nhiễm là cân bằng dịch tích lũy dương đến ngày ICU thứ 3, định nghĩa là tổng lượng dịch vào trừ tổng lượng dịch ra trong các ngày ICU 1–3 lớn hơn 0 ml/kg, so với cân bằng dịch âm hoặc bằng 0. Kết cục chính là tử vong do mọi nguyên nhân trong vòng 28 ngày sau khi vào ICU; trong phân tích sống còn, thời gian đến tử vong được kiểm duyệt ở ngày 28. Các yếu tố gây nhiễu được xác định trước trong kế hoạch phân tích thống kê: tuổi, điểm SOFA, lactate, việc dùng thuốc vận mạch, thở máy và bệnh thận mạn. Suy tim được xác định trước là yếu tố có thể thay đổi tác động.
-
-**Nguồn dữ liệu và sai lệch.** Dữ liệu được thu thập từ phiếu theo dõi tại ICU trên một phiếu thu thập dữ liệu chuẩn. Để xử lý nhiễu do chỉ định (người bệnh nặng hơn được truyền nhiều dịch hơn), chúng tôi hiệu chỉnh theo các chỉ dấu mức độ nặng của bệnh và bệnh kèm theo.
-
-**Cỡ mẫu.** Mọi người bệnh đủ điều kiện trong nghiên cứu thuần tập đều được đưa vào; không tính cỡ mẫu riêng.
-
-**Phân tích thống kê.** Đặc điểm nền được trình bày dưới dạng trung bình (SD), trung vị (IQR) hoặc n (%), theo nhóm cân bằng dịch. Tử vong 28 ngày được so sánh bằng kiểm định khi bình phương, và tỷ số chênh (OR) thô và hiệu chỉnh được ước lượng bằng hồi quy logistic. Sống còn đến ngày 28 được mô tả bằng đường cong Kaplan–Meier (kiểm định log-rank) và phân tích bằng hồi quy Cox với cùng các biến hiệu chỉnh; giả định nguy cơ tỷ lệ đã được kiểm tra. Thay đổi tác động theo suy tim được kiểm định bằng một số hạng tương tác. Phân tích chính dùng các trường hợp đầy đủ; lactate bị thiếu được xử lý bằng quy gán đa bội (20 bộ dữ liệu) trong phân tích độ nhạy. Các ước lượng được báo cáo kèm khoảng tin cậy 95% (KTC). Phân tích dùng R 4.6 (các gói gtsummary, survival, mice).
+Mọi con số lấy từ `Results_Pack_Q1–Q5` và `FLUID-ICU/results_packs/Q1/results_pack_Q1.md` (**DỮ LIỆU MÔ PHỎNG, KHÔNG PHẢI NGƯỜI BỆNH THẬT**). Dùng để định hướng bản nháp của lớp trong phần 1 của buổi thực hành (không dán nguyên văn). Học viên chọn Q2–Q5 theo cùng cấu trúc với số liệu từ gói kết quả của mình. Phương pháp mẫu dành cho học viên viết phần Phương pháp (không bắt buộc).
 
 ### Kết quả mẫu (~300 từ)
 
@@ -94,15 +80,30 @@ Mọi con số lấy từ `Course/Data/key_results.md` và `Course/Data/results_
 
 **Các phân tích khác.** Với quy gán đa bội (n = 620), OR hiệu chỉnh là 1.70 (KTC 95% 1.09 đến 2.64). Mối liên quan khác nhau theo tình trạng suy tim (p tương tác = 0.031): OR hiệu chỉnh 4.39 (KTC 95% 1.65 đến 12.38) ở người có suy tim (n = 90) và 1.29 (KTC 95% 0.77 đến 2.19) ở người không suy tim (n = 437).
 
+### Không bắt buộc: Phương pháp mẫu (~300 từ)
+
+**Thiết kế nghiên cứu và bối cảnh.** Chúng tôi phân tích FLUID-ICU, một nghiên cứu thuần tập tiến cứu đa trung tâm gồm những người lớn bị nhiễm khuẩn huyết liên tiếp nhập bốn khoa hồi sức tích cực (ICU A–D) từ tháng 1 năm 2023 đến tháng 12 năm 2024. FLUID-ICU là bộ dữ liệu giảng dạy mô phỏng; không cần chấp thuận của hội đồng đạo đức hay sự đồng ý tham gia.
+
+**Người tham gia.** Mọi người lớn bị nhiễm khuẩn huyết được tuyển vào nghiên cứu thuần tập đều đủ điều kiện. Người bệnh không có cân bằng dịch tích lũy ở ngày 3 bị loại khỏi phân tích phơi nhiễm.
+
+**Biến số.** Phơi nhiễm là cân bằng dịch tích lũy dương đến ngày ICU thứ 3, định nghĩa là tổng lượng dịch vào trừ tổng lượng dịch ra trong các ngày ICU 1–3 lớn hơn 0 ml/kg, so với cân bằng dịch âm hoặc bằng 0. Kết cục chính là tử vong do mọi nguyên nhân trong vòng 28 ngày sau khi vào ICU; trong phân tích sống còn, thời gian đến tử vong được kiểm duyệt ở ngày 28. Các yếu tố gây nhiễu được xác định trước trong kế hoạch phân tích thống kê: tuổi, điểm SOFA, lactate, việc dùng thuốc vận mạch, thở máy và bệnh thận mạn. Suy tim được xác định trước là yếu tố có thể thay đổi tác động.
+
+**Nguồn dữ liệu và sai lệch.** Dữ liệu được thu thập từ phiếu theo dõi tại ICU trên một phiếu thu thập dữ liệu chuẩn. Để xử lý nhiễu do chỉ định (người bệnh nặng hơn được truyền nhiều dịch hơn), chúng tôi hiệu chỉnh theo các chỉ dấu mức độ nặng của bệnh và bệnh kèm theo.
+
+**Cỡ mẫu.** Mọi người bệnh đủ điều kiện trong nghiên cứu thuần tập đều được đưa vào; không tính cỡ mẫu riêng.
+
+**Phân tích thống kê.** Đặc điểm nền được trình bày dưới dạng trung bình (SD), trung vị (IQR) hoặc n (%), theo nhóm cân bằng dịch. Tử vong 28 ngày được so sánh bằng kiểm định khi bình phương, và tỷ số chênh (OR) thô và hiệu chỉnh được ước lượng bằng hồi quy logistic. Sống còn đến ngày 28 được mô tả bằng đường cong Kaplan–Meier (kiểm định log-rank) và phân tích bằng hồi quy Cox với cùng các biến hiệu chỉnh; giả định nguy cơ tỷ lệ đã được kiểm tra. Thay đổi tác động theo suy tim được kiểm định bằng một số hạng tương tác. Phân tích chính dùng các trường hợp đầy đủ; lactate bị thiếu được xử lý bằng quy gán đa bội (20 bộ dữ liệu) trong phân tích độ nhạy. Các ước lượng được báo cáo kèm khoảng tin cậy 95% (KTC). Phân tích dùng R 4.6 (các gói gtsummary, survival, mice).
+
 ### Danh sách kiểm tra khi hướng dẫn (bản nháp của bất kỳ học viên nào)
 
 | Kiểm tra | Cách sửa điển hình |
 |---|---|
-| Đoạn phân tích thống kê nêu phương pháp cho mọi kết quả | Thêm kiểm định/mô hình và các biến hiệu chỉnh |
 | Phần Kết quả bắt đầu bằng người tham gia và sơ đồ dòng | Thêm "Trong 620 người được tuyển, 618 … 527 …" (Q1) |
 | Có ước lượng thô VÀ đã hiệu chỉnh (STROBE 16) | Thêm ước lượng còn thiếu, kèm n |
 | Không diễn giải trong phần Kết quả | Chuyển "vì người bệnh nặng hơn…" sang phần Bàn luận |
 | Mọi tác động đều có KTC 95% | Chép từ gói kết quả |
 | Q4: trường hợp đầy đủ VÀ quy gán | CC OR 1.39 (1.24 đến 1.57) so với MI 1.45 (1.29 đến 1.64) mỗi mmol/L (hiệu chỉnh theo tuổi, giới, đái tháo đường, CKD, suy tim) |
 | Q5: trung vị/IQR, chỉ người sống sót | 439 người sống sót; trung vị 7.5 so với 4.8 ngày |
-| Có nêu dữ liệu mô phỏng | Thêm câu về đạo đức của khóa học |
+| Bảng tự đọc hiểu được | Tên bảng, đơn vị, n mỗi cột, chú thích chữ viết tắt |
+| Có nêu dữ liệu mô phỏng | Thêm câu về dữ liệu mô phỏng dưới tên bài |
+| Phương pháp (không bắt buộc): mỗi kết quả có phương pháp | Thêm kiểm định hoặc mô hình và các biến hiệu chỉnh |

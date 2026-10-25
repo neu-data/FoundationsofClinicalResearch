@@ -6,7 +6,7 @@ title: "Session 1: Solutions"
 
 **Foundations of Clinical Research · Level 1** · Neudata · *Instructor copy. Do not share before the session.*
 
-These are **model** answers. Many other answers are acceptable: reward work that is specific, consistent and could be acted on. The course is online and the whole class works as one group: use the "what good looks like" boxes when you read the chat and when you type the class answer on the shared screen.
+Model answers. Other answers are fine if they are specific and consistent.
 
 
 * * *
@@ -24,8 +24,7 @@ These are **model** answers. Many other answers are acceptable: reward work that
 
 **Discussion points (chat)**
 - What could make C weaker than B? Very small size, many losses to follow-up, poor allocation concealment, an outcome that does not matter to patients, or a population unlike ours.
-- Why might B and C disagree? In a cohort, sicker patients receive more fluid, so fluid can look harmful even if it is not. This is **confounding by indication** (taught in Session 4). Randomisation removes this.
-- The pyramid ranks **designs**, not individual papers. Quality must still be checked (Session 8).
+- Why might B and C disagree? Sicker patients receive more fluid: **confounding by indication** (Session 4).
 
 
 * * *
@@ -59,17 +58,17 @@ Common error: choosing "septic shock" as the outcome. It has already happened an
 
 ## Exercise 1 (whole class): rescue the running example
 
-Use the version the class chose in the poll. If the vote is split, work on A. Hypotheses are taught in segment 1.3 (Exercise 2), so the class does not write H0 and H1 here.
+If the vote is split, work on A. No H0 and H1 here (they come in 1.3).
 
 ### Version A: pilot trial (experimental, PICO)
-| P | Adults with septic shock in our ICU, within 24 h of starting vasopressors |
+| P | Adults with septic shock in your ICU, within 24 h of starting vasopressors |
 |---|---|
 | I | Restrictive fluid protocol |
 | C | Usual care |
 | O | Cumulative fluid balance (ml/kg) |
 | T | Day 5 |
 
-*In adults with septic shock in our ICU, does a restrictive fluid protocol, compared with usual care, reduce cumulative fluid balance at day 5?*
+*In adults with septic shock in your ICU, does a restrictive fluid protocol, compared with usual care, reduce cumulative fluid balance at day 5?*
 Type: analytical, experimental (a pilot randomised trial, like Paper 1).
 FINER: F green/amber (about 50 patients over 12–18 months) · I green · N amber to green (local setting, different protocol) · E amber (deferred or surrogate consent, Session 7) · R green.
 
@@ -106,8 +105,8 @@ FINER: F green (routine charts) · N amber (local data are new) · E green (usua
 
 ## Exercise 2 (individual): aim, objectives and hypothesis for the pilot
 
-- *Aim:* To compare a restrictive fluid protocol with usual care in adults with septic shock in our ICU.
-- *Objectives:* Primary: to compare cumulative fluid balance (ml/kg) at day 5 between groups. Secondary: to estimate the recruitment rate and protocol adherence (feasibility). (Optional third: to describe 28-day mortality and kidney injury needing dialysis in each group, exploratory.)
+- *Aim:* To compare a restrictive fluid protocol with usual care in adults with septic shock in your ICU.
+- *Objectives:* Primary: to compare cumulative fluid balance (ml/kg) at day 5 between groups. Secondary: to estimate recruitment rate and protocol adherence (feasibility). (Optional third: to describe 28-day mortality and kidney injury needing dialysis in each group, exploratory.)
 - *Hypothesis:* H0: cumulative fluid balance at day 5 is the same in both groups. H1: it differs.
 - *Descriptive version C (no hypothesis):* To estimate the proportion of adults with septic shock in our ICU who have a positive cumulative fluid balance on day 3.
 
@@ -115,24 +114,24 @@ FINER: F green (routine charts) · N amber (local data are new) · E green (usua
 
 **What good looks like**
 - H0 always states "no difference / no association".
-- H1 is usually written as "differs" (in either direction), even when we expect benefit, because the intervention could also harm. One- vs two-sided tests are taught in Session 6.
+- H1 is usually "differs" (in either direction).
 - The hypothesis uses the **same** outcome and time point as the primary objective.
-- Correct the misconception: data can **reject** H0 or **fail to reject** it; we never "prove H0". "No significant difference" is not "no difference" (Paper 1, n = 48, could not detect a mortality difference because it was not powered for it).
+- Data can **reject** H0 or **fail to reject** it. They never prove H0.
 
 
 * * *
 
 ## Exercise 3 (individual): Proposal builder 1, what good looks like
 
-The trainer models Part 1 on screen for the pilot version (A) of the running example; each participant then writes Part 1 for their own question. Use this model as the quality benchmark, not as the answer. The references, problem statement and title are added next Saturday (Session 2).
+The trainer models Part 1 on screen for version A of the running example.
 
 **PICO(T):** P adults with septic shock within 24 h of starting vasopressors · I restrictive fluid protocol · C usual care · O cumulative fluid balance (ml/kg) · T at day 5.
 
-**Question:** *In adults with septic shock in our ICU, does a restrictive fluid protocol, compared with usual care, reduce cumulative fluid balance at day 5?*
+**Question:** *In adults with septic shock in your ICU, does a restrictive fluid protocol, compared with usual care, reduce cumulative fluid balance at day 5?*
 
 **FINER:** F green/amber (pilot of about 50 patients over 12–18 months) · I green · N amber to green (local setting, different protocol) · E amber (deferred or surrogate consent, Session 7) · R green.
 
-**Aim:** To compare a restrictive fluid protocol with usual care in adults with septic shock in our ICU.
+**Aim:** To compare a restrictive fluid protocol with usual care in adults with septic shock in your ICU.
 **Objectives:**
 1. *(Primary)* To compare cumulative fluid balance (ml/kg) at day 5 between groups.
 2. To estimate recruitment rate and protocol adherence (feasibility).
@@ -189,8 +188,6 @@ Model for the running example: **P** septic shock · sepsis · vasopressor-depen
 | 2 | **Ethical** | Withholding antibiotics in septic shock causes harm; there is no equipoise. An ethics committee would refuse it. |
 | 3 | **Novel** | The answer is already measured monthly. This is an audit question rather than a research question, so use the existing data. |
 | 4 | **Relevant** (and Interesting) | No plausible mechanism and no impact on practice. |
-
-These are also on an extra slide ("More practice: which FINER letter fails?").
 
 ### C. Hypotheses
 **a) Early mobilisation.** H0: ICU length of stay is the **same** with early mobilisation and with usual care. H1: ICU length of stay **differs** between early mobilisation and usual care.

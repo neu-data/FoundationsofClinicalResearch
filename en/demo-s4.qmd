@@ -9,9 +9,9 @@ title: "Session 4: Live-demo script"
 | | |
 |---|---|
 | **Slots** | **Main demo (8 min, 20:37-20:45):** section 4.2, just before the break, slide 26 "Live demo: the 2x2 calculator" (sheet *Association*). **Checking the class calculations (15 min, 21:00-21:15):** slide 28, after the break. **Short add-on (1-2 min, optional):** section 4.3, slide 31 "Same test, different setting: PPV depends on prevalence" (sheet *Diagnostic*). |
-| **File** | `Course/Resources/tools/2x2_calculator.xlsx` (regenerate with `python make_2x2_calculator.py` in the same folder) |
+| **File** | `2x2_calculator.xlsx` (regenerate with `python make_2x2_calculator.py`) |
 | **Software** | Excel or LibreOffice Calc (any recent version), shown to the class by sharing your screen in Zoom or Teams. |
-| **Participants** | Watch the shared screen; they answer the calculation polls after the break. The file is in the course folder if they want to try it afterwards. |
+| **Participants** | Watch the shared screen; they answer the calculation polls after the break. The file is emailed to them after the session. |
 | **Goal** | Everyone sees risk, RR, RD, NNT and OR computed from ONE table and hears each one in plain words. In 4.3 they see the same test give very different PPVs in two settings. |
 
 
@@ -100,7 +100,7 @@ Use this only if the file is already open and you are on time. The slide makes t
 
 ## After the break: checking the class calculations (15 minutes, slide 28)
 
-Share the screen again. For each calculation, run the polls first (see `Solutions/s4_solutions.md`, Part C), then type the numbers into the Association sheet so everyone sees the answers:
+Share the screen again. For each calculation, run the polls first (see s4_solutions, Part C), then type the numbers into the Association sheet so everyone sees the answers:
 
 | Exercise (exercise sheet Part C) | Type | Shows |
 |---|---|---|

@@ -2,20 +2,34 @@
 title: "Bài tập lớn"
 ---
 
-Mỗi học viên tạo ra **hai sản phẩm cá nhân** trong khóa học (không chia nhóm): một **đề cương nghiên cứu** cho câu hỏi của chính mình (giảng viên làm mẫu từng phần ở Buổi 1–7, học viên viết ở nhà, nộp ở Buổi 8, khoảng 5 học viên tình nguyện trình bày) và một **bản thảo bài báo** cho một trong năm câu hỏi của FLUID-ICU, Q1 đến Q5 (chúng tôi cung cấp gói kết quả, bạn viết bài báo; viết sau Buổi 7–8, được một bạn cùng lớp bình duyệt sau khóa học). Điểm số mang tính góp ý để bạn hoàn thiện.
+Mỗi học viên tạo ra **hai sản phẩm cá nhân** (không chia nhóm): một **đề cương nghiên cứu** cho câu hỏi của chính mình, và **phần Kết quả** cho một trong năm câu hỏi FLUID-ICU, Q1 đến Q5. Mọi bài nộp đều gửi qua email cho trưởng khóa học, Vương Mỹ Lượng ([myluong1710@gmail.com](mailto:myluong1710@gmail.com)). Điểm số mang tính góp ý để bạn hoàn thiện.
 
-| | Nội dung | Tải về |
-|:----------------|:----------------------------------------|:--------------|
-| **[Hướng dẫn đề cương](proposal-brief.qmd)** | Những gì cần làm cho đề cương, từng phần, kèm thời hạn | [Word](files/assignments/Proposal_Brief_VN.docx) · [PDF](files/assignments/Proposal_Brief_VN.pdf) |
-| **[Hướng dẫn trình bày](presentation-guide.qmd)** | Sáu slide (mọi học viên), quản lý thời gian và cách góp ý cho phần trình bày tình nguyện ở Buổi 8 | [Word](files/assignments/Presentation_Guide_VN.docx) · [PDF](files/assignments/Presentation_Guide_VN.pdf) |
-| **[Thang chấm đề cương](proposal-rubric.qmd)** | Cách chấm đề cương viết (mọi học viên) và bài trình bày (người trình bày) (100 điểm) | [Word](files/assignments/Proposal_Rubric_VN.docx) · [PDF](files/assignments/Proposal_Rubric_VN.pdf) |
-| **[Hướng dẫn bản thảo](manuscript-brief.qmd)** | Bản thảo FLUID-ICU: năm câu hỏi, viết gì và khi nào, các quy định | [Word](files/assignments/Manuscript_Brief_VN.docx) · [PDF](files/assignments/Manuscript_Brief_VN.pdf) |
-| **[Thang chấm bản thảo](manuscript-rubric.qmd)** | Cách chấm bản thảo và phần phản biện (100 điểm) | [Word](files/assignments/Manuscript_Rubric_VN.docx) · [PDF](files/assignments/Manuscript_Rubric_VN.pdf) |
-| **[Hướng dẫn bình duyệt chéo](peer-review.qmd)** | Bình duyệt cá nhân sau Buổi 8: cách nhận xét bản thảo của một bạn cùng lớp và cách trả lời | [Word](files/assignments/Peer_Review_Instructions_VN.docx) · [PDF](files/assignments/Peer_Review_Instructions_VN.pdf) |
+## Sản phẩm 1: đề cương nghiên cứu (gửi trước Buổi 1) {#before-session-1}
+
+Hướng dẫn đề cương là tài liệu duy nhất cần đọc trước Buổi 1. Tài liệu này được gửi qua email cùng mẫu đề cương, hướng dẫn trình bày và thang chấm đề cương. Giảng viên làm mẫu từng phần ở Buổi 1 đến 7, học viên viết ở nhà. Mọi học viên nộp đề cương và 6 slide trước 19:30 ngày học Buổi 8, và khoảng 5 học viên tình nguyện trình bày.
+
+| | Nội dung | Tiếng Việt | English |
+|:----------------|:----------------------------------|:--------------|:--------------|
+| **[Hướng dẫn đề cương](proposal-brief.qmd)** | Những gì cần làm, từng phần, cách nộp và cách chấm | [Word](files/assignments/Proposal_Brief_VN.docx) · [PDF](files/assignments/Proposal_Brief_VN.pdf) | [Word](../en/files/assignments/Proposal_Brief.docx) · [PDF](../en/files/assignments/Proposal_Brief.pdf) |
+| **Mẫu đề cương** | Viết đề cương trong mẫu này. Mỗi mục có hướng dẫn và ví dụ | [Word](files/templates/Research_Proposal_Template_VN.docx) · [PDF](files/templates/Research_Proposal_Template_VN.pdf) | [Word](../en/files/templates/Research_Proposal_Template.docx) · [PDF](../en/files/templates/Research_Proposal_Template.pdf) |
+| **[Hướng dẫn trình bày](presentation-guide.qmd)** | Sáu slide (mọi học viên), quản lý thời gian và cách góp ý cho phần trình bày tình nguyện ở Buổi 8 | [Word](files/assignments/Presentation_Guide_VN.docx) · [PDF](files/assignments/Presentation_Guide_VN.pdf) | [Word](../en/files/assignments/Presentation_Guide.docx) · [PDF](../en/files/assignments/Presentation_Guide.pdf) |
+| **[Thang chấm đề cương](proposal-rubric.qmd)** | Cách chấm đề cương viết (mọi học viên) và bài trình bày (người trình bày) (100 điểm) | [Word](files/assignments/Proposal_Rubric_VN.docx) · [PDF](files/assignments/Proposal_Rubric_VN.pdf) | [Word](../en/files/assignments/Proposal_Rubric.docx) · [PDF](../en/files/assignments/Proposal_Rubric.pdf) |
+
+## Sản phẩm 2: phần Kết quả (gửi vào cuối Buổi 6) {#session-6}
+
+Hướng dẫn bản thảo và các tệp bên dưới được gửi qua email vào cuối Buổi 6, khi bạn chọn câu hỏi. Chúng tôi cung cấp gói kết quả, bạn viết phần Kết quả sẵn sàng để nộp tạp chí, kèm tên bài dự kiến, Bảng 1 và một bảng hoặc hình chính. Phương pháp, Đặt vấn đề, Bàn luận và Tóm tắt không bắt buộc, và giảng viên cũng nhận xét các phần này.
+
+| | Nội dung | Tiếng Việt | English |
+|:----------------|:----------------------------------|:--------------|:--------------|
+| **[Hướng dẫn bản thảo](manuscript-brief.qmd)** | Phần Kết quả: năm câu hỏi, viết gì, các hạn nộp, các quy định | [Word](files/assignments/Manuscript_Brief_VN.docx) · [PDF](files/assignments/Manuscript_Brief_VN.pdf) | [Word](../en/files/assignments/Manuscript_Brief.docx) · [PDF](../en/files/assignments/Manuscript_Brief.pdf) |
+| **Mẫu bản thảo (IMRaD)** | Viết phần Kết quả trong mẫu này. Các phần khác không bắt buộc | [Word](files/templates/Manuscript_Template_IMRaD_VN.docx) · [PDF](files/templates/Manuscript_Template_IMRaD_VN.pdf) | [Word](../en/files/templates/Manuscript_Template_IMRaD.docx) · [PDF](../en/files/templates/Manuscript_Template_IMRaD.pdf) |
+| **[Thang chấm bản thảo](manuscript-rubric.qmd)** | Cách chấm phần Kết quả và phần bình duyệt (100 điểm) | [Word](files/assignments/Manuscript_Rubric_VN.docx) · [PDF](files/assignments/Manuscript_Rubric_VN.pdf) | [Word](../en/files/assignments/Manuscript_Rubric.docx) · [PDF](../en/files/assignments/Manuscript_Rubric.pdf) |
+| **[Hướng dẫn bình duyệt chéo](peer-review.qmd)** | Cách nhận xét phần Kết quả của một bạn cùng lớp, và cách trả lời người bình duyệt | [Word](files/assignments/Peer_Review_Instructions_VN.docx) · [PDF](files/assignments/Peer_Review_Instructions_VN.pdf) | [Word](../en/files/assignments/Peer_Review_Instructions.docx) · [PDF](../en/files/assignments/Peer_Review_Instructions.pdf) |
+| **Mẫu thư trả lời phản biện** | Thư trả lời từng ý kiến của người bình duyệt | [Word](files/templates/Response_to_Reviewers_Template_VN.docx) · [PDF](files/templates/Response_to_Reviewers_Template_VN.pdf) | [Word](../en/files/templates/Response_to_Reviewers_Template.docx) · [PDF](../en/files/templates/Response_to_Reviewers_Template.pdf) |
 
 ## Tiến độ
 
-- **Đề cương:** Phần 1 sau Buổi 1–2, Phần 2 sau Buổi 3–4, Phần 3 sau Buổi 5–6, Phần 4 sau Buổi 7; mọi học viên nộp ở Buổi 8 (khoảng 5 học viên tình nguyện trình bày).
-- **Bản thảo:** làm quen năm câu hỏi và Bảng 1 ở Buổi 5, diễn giải kết quả và chọn câu hỏi (Q1 đến Q5) chậm nhất cuối Buổi 6, viết Phương pháp và Kết quả sau Buổi 7, bản nháp hoàn chỉnh sau Buổi 8, sau đó bình duyệt một bản thảo (trong 1 tuần) và viết thư trả lời (trong 2 tuần).
+- **Đề cương:** Phần 1 sau Buổi 1–2, Phần 2 sau Buổi 3–4, Phần 3 sau Buổi 5–6, Phần 4 sau Buổi 7. Mọi học viên gửi email đề cương và 6 slide trước 19:30 ngày học Buổi 8 (khoảng 5 học viên tình nguyện trình bày).
+- **Phần Kết quả:** làm quen năm câu hỏi ở Buổi 5, chọn câu hỏi (Q1 đến Q5) vào cuối Buổi 6, cả lớp viết phần Kết quả của Q1 ở Buổi 7, nơi công bố người bình duyệt của bạn. Gửi email phần Kết quả cho người bình duyệt và trưởng khóa học trước **23:59 ngày học Buổi 8 (19/12/2026)**. Hạn nộp bản nhận xét bình duyệt: **2/1/2027**. Hạn nộp phần Kết quả đã sửa và thư phản hồi người bình duyệt: **30/1/2027**.
 
-Các mẫu Word có ở trang [Biểu mẫu](templates.qmd).
+Tất cả mẫu Word có ở trang [Biểu mẫu](templates.qmd).

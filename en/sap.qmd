@@ -8,7 +8,7 @@ title: "Statistical analysis plan (FLUID-ICU)"
 
 [Download the PDF](files/data/SAP_FLUID-ICU.pdf)
 
-> **SIMULATED STUDY: FOR TEACHING.** FLUID-ICU and its data are invented. This SAP shows what a plan written **before** the analysis looks like. It follows the 14 sections of `Course/Templates/Statistical_Analysis_Plan_Template.docx`.
+> **SIMULATED STUDY: FOR TEACHING.** FLUID-ICU and its data are invented. This SAP shows what a plan written **before** the analysis looks like. It follows the 14 sections of `Statistical_Analysis_Plan_Template.docx`.
 
 | | |
 |---|---|
@@ -107,7 +107,7 @@ FLUID-ICU enrols all eligible patients during 2 years in 4 ICUs (expected about 
 
 ## 12. Software
 
-R version 4.6 with packages tidyverse, gtsummary, flextable, broom, survival, survminer, mice and janitor. Code in `Course/Data/R/` (scripts 01-06), run in order; data cleaning and analysis are fully scripted and reproducible (fixed random seeds).
+R version 4.6 with packages tidyverse, gtsummary, flextable, broom, survival, survminer, mice and janitor. Code in `FLUID-ICU/R/` (scripts 01-06), run in order; data cleaning and analysis are fully scripted and reproducible (fixed random seeds).
 
 ## 13. Table and figure shells
 

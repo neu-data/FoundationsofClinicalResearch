@@ -22,7 +22,7 @@ Tải về: [Word](files/data/results_packs/Results_Pack_Q1_VN.docx) · [PDF](fi
 - Kết cục: tử vong do mọi nguyên nhân trong vòng 28 ngày kể từ khi nhập ICU (died_28d); thời gian đến tử vong cho phân tích sống còn (time_to_event_28d, kiểm duyệt tại ngày 28).
 - Mẫu phân tích: 618 trong số 620 người bệnh (2 người không có cân bằng dịch ngày 3). Các mô hình hiệu chỉnh: 527 trường hợp đầy đủ.
 - Các yếu tố gây nhiễu xác định trước (SAP): tuổi, điểm SOFA, lactat, thuốc vận mạch, thở máy, bệnh thận mạn.
-- Phần mềm: R 4.6 (các gói gtsummary, survival, mice). Script: Course/Data/R/.
+- Phần mềm: R 4.6 (các gói gtsummary, survival, mice). Script: FLUID-ICU/R/.
 
 Lưu đồ người tham gia: 620 người bệnh được tuyển -> 2 người không có cân bằng dịch ngày 3 (thiếu cân nặng hoặc lượng dịch ra sau khi làm sạch) -> 618 người trong phân tích phơi nhiễm -> 91 người không có lactat (hoặc tuổi) -> 527 người trong mô hình hiệu chỉnh trên các trường hợp đầy đủ.
 

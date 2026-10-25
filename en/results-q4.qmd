@@ -22,7 +22,7 @@ Download: [Word](files/data/results_packs/Results_Pack_Q4.docx) · [PDF](files/d
 - Outcome: death from any cause within 28 days (died_28d).
 - Analysis sample: all 620 patients; lactate missing in 93/620 (15.0%); complete-case models 527 patients; multiple imputation 620.
 - Pre-specified confounders (SAP): age, SOFA score, lactate, vasopressor, mechanical ventilation, chronic kidney disease.
-- Software: R 4.6 (packages gtsummary, survival, mice). Scripts: Course/Data/R/.
+- Software: R 4.6 (packages gtsummary, survival, mice). Scripts: FLUID-ICU/R/.
 
 ## 3. Table 1: who was studied
 

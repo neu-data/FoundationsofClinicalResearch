@@ -26,7 +26,7 @@ Nhân viên y tế đưa ra quyết định lâm sàng mỗi ngày mà nghiên c
 
 - **Chậm và trực quan.** Dành cho người chưa có nền tảng nghiên cứu: hình ảnh trước, kiểm tra mức hiểu mỗi 20 phút, không có công thức nào ngoài bảng 2×2, và mỗi buổi có slide bổ sung để ai muốn có thể đọc thêm ở nhà.
 - **Học trực tuyến, cả lớp cùng làm.** Bạn học từ nhà. Không chia nhóm, không chia phòng nhỏ: mọi bài tập đều do cả lớp cùng làm, trả lời qua khảo sát nhanh và khung chat.
-- **Cả con đường trong một khóa.** Tuần 1–4 xây dựng hiểu biết và kỹ năng thiết kế; tuần 5–8 đọc kết quả phân tích bộ dữ liệu mô phỏng FLUID-ICU (620 người bệnh ICU) qua các trình diễn R của giảng viên, và mỗi học viên viết thành bản thảo bài báo.
+- **Cả con đường trong một khóa.** Tuần 1–4 xây dựng hiểu biết và kỹ năng thiết kế; tuần 5–8 đọc kết quả phân tích bộ dữ liệu mô phỏng FLUID-ICU (620 người bệnh ICU) qua các trình diễn R của giảng viên, và mỗi học viên viết phần Kết quả của một bài báo từ các kết quả đó.
 - **Cấp độ 1 trong ba cấp độ.** Khóa học này là Cấp độ 1. Cấp độ 2 là một khóa thực hành R riêng cho những ai muốn tự phân tích (đang chuẩn bị). Cấp độ 3 gồm các phương pháp nâng cao, chuyên sâu theo yêu cầu. Xem [Các cấp độ](levels.qmd).
 - **Một ví dụ xuyên suốt:** dịch truyền trong sốc nhiễm khuẩn. Ví dụ này đi qua các bước đặt câu hỏi và tìm kiếm, thiết kế, phân tích, viết và công bố, và được thẩm định qua hai bài báo thực tế.
 
@@ -40,15 +40,15 @@ Nhân viên y tế đưa ra quyết định lâm sàng mỗi ngày mà nghiên c
 | 4 | [Buổi 4 · Sai lệch và tác động: có tin được không, lớn đến đâu?](session4.qmd) |
 | 5 | [Buổi 5 · Dữ liệu: thu thập tốt, mô tả trung thực](session5.qmd) |
 | 6 | [Buổi 6 · Phân tích: từ mẫu đến câu trả lời](session6.qmd) |
-| 7 | [Buổi 7 · Bảo vệ & viết: đạo đức, liêm chính, Phương pháp và Kết quả](session7.qmd) |
-| 8 | [Buổi 8 · Công bố: hoàn thiện bài báo, gửi đăng, trình bày](session8.qmd) |
+| 7 | [Buổi 7 · Bảo vệ & viết: đạo đức, liêm chính và phần Kết quả](session7.qmd) |
+| 8 | [Buổi 8 · Công bố: hoàn thiện phần Kết quả, gửi đăng, trình bày](session8.qmd) |
 
 [Xem toàn bộ lịch học](schedule.qmd)
 
 ## Hai sản phẩm cá nhân
 
 ```{=html}
-<div class="cards2"><div><h4>1 · Đề cương nghiên cứu</h4><p>Cho <strong>câu hỏi lâm sàng của chính bạn</strong> tại khoa, kèm kế hoạch công bố. Giảng viên làm mẫu từng phần trên ví dụ xuyên suốt, bạn tự viết phần của mình ở nhà. Mọi học viên <strong>nộp đề cương ở Buổi 8</strong>; khoảng 5 học viên tình nguyện trình bày (6 phút + 2 phút góp ý).</p></div><div><h4>2 · Bản thảo bài báo</h4><p>Từ bộ dữ liệu khóa học <strong>FLUID-ICU</strong>: bạn chọn một trong năm câu hỏi (Q1 đến Q5). Chúng tôi cung cấp kết quả trong gói kết quả, bạn viết bài báo: Phương pháp và Kết quả sau Buổi 7, phần còn lại sau Buổi 8. Sau khóa học, bạn <strong>bình duyệt</strong> bản thảo của một bạn cùng lớp và trả lời nhận xét về bản thảo của mình như một tác giả thực thụ.</p></div></div>
+<div class="cards2"><div><h4>1 · Đề cương nghiên cứu</h4><p>Cho <strong>câu hỏi lâm sàng của chính bạn</strong> tại khoa, kèm kế hoạch công bố. Giảng viên làm mẫu từng phần trên ví dụ xuyên suốt, bạn tự viết phần của mình ở nhà. Mọi học viên <strong>nộp đề cương ở Buổi 8</strong>; khoảng 5 học viên tình nguyện trình bày (6 phút + 2 phút góp ý).</p></div><div><h4>2 · Phần Kết quả</h4><p>Từ bộ dữ liệu khóa học <strong>FLUID-ICU</strong>: vào cuối Buổi 6, bạn chọn một trong năm câu hỏi (Q1 đến Q5). Chúng tôi cung cấp gói kết quả, bạn viết <strong>phần Kết quả sẵn sàng để nộp tạp chí</strong>, kèm tên bài dự kiến, Bảng 1 và một bảng hoặc hình chính. Các phần khác không bắt buộc. Hạn nộp là 23:59 ngày học Buổi 8. Một bạn cùng lớp <strong>bình duyệt</strong> bài của bạn (hạn 2/1/2027), và bạn gửi bản đã sửa cùng thư phản hồi trước 30/1/2027.</p></div></div>
 ```
 
 ## Dành cho ai
@@ -58,8 +58,17 @@ Nhân viên y tế đưa ra quyết định lâm sàng mỗi ngày mà nghiên c
 ## Bắt đầu thế nào
 
 - Yêu cầu [mã truy cập](access.qmd) miễn phí (một lần cho mỗi trình duyệt).
-- Đọc [sổ tay học viên](handbook.qmd) và xem [lịch học](schedule.qmd).
-- Mỗi [trang buổi học](session1.qmd) có nội dung, bài giảng, phiếu bài tập và những việc cần chuẩn bị.
+- **Trước Buổi 1, hãy đọc [hướng dẫn đề cương](proposal-brief.qmd).** Đây là tài liệu duy nhất cần đọc trước khóa học. Tài liệu được gửi qua email cùng mẫu đề cương, hướng dẫn trình bày và thang chấm đề cương (bảng bên dưới).
+- Sau đó xem [Buổi 1](session1.qmd): hai bài báo, phiếu bài tập và cách chuẩn bị học trực tuyến. Xem [lịch học](schedule.qmd).
+- Mỗi trang buổi học có nội dung, bài giảng, phiếu bài tập và những việc cần chuẩn bị.
+
+| | Tiếng Việt | English |
+|:----------------|:--------------|:--------------|
+| **[Hướng dẫn đề cương](proposal-brief.qmd)** | [Word](files/assignments/Proposal_Brief_VN.docx) · [PDF](files/assignments/Proposal_Brief_VN.pdf) | [Word](../en/files/assignments/Proposal_Brief.docx) · [PDF](../en/files/assignments/Proposal_Brief.pdf) |
+| **Mẫu đề cương** | [Word](files/templates/Research_Proposal_Template_VN.docx) · [PDF](files/templates/Research_Proposal_Template_VN.pdf) | [Word](../en/files/templates/Research_Proposal_Template.docx) · [PDF](../en/files/templates/Research_Proposal_Template.pdf) |
+| **[Hướng dẫn trình bày](presentation-guide.qmd)** | [Word](files/assignments/Presentation_Guide_VN.docx) · [PDF](files/assignments/Presentation_Guide_VN.pdf) | [Word](../en/files/assignments/Presentation_Guide.docx) · [PDF](../en/files/assignments/Presentation_Guide.pdf) |
+| **[Thang chấm đề cương](proposal-rubric.qmd)** | [Word](files/assignments/Proposal_Rubric_VN.docx) · [PDF](files/assignments/Proposal_Rubric_VN.pdf) | [Word](../en/files/assignments/Proposal_Rubric.docx) · [PDF](../en/files/assignments/Proposal_Rubric.pdf) |
+
 
 ## Giảng viên
 

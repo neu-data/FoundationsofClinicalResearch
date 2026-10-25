@@ -22,7 +22,7 @@ Download: [Word](files/data/results_packs/Results_Pack_Q5.docx) · [PDF](files/d
 - Outcome: ICU length of stay in days (icu_los_days), right-skewed.
 - Analysis sample: 439 survivors with a day-3 balance (239 positive, 200 negative); adjusted model 366 complete cases.
 - Pre-specified confounders (SAP): age, SOFA score, lactate, vasopressor, mechanical ventilation, chronic kidney disease.
-- Software: R 4.6 (packages gtsummary, survival, mice). Scripts: Course/Data/R/.
+- Software: R 4.6 (packages gtsummary, survival, mice). Scripts: FLUID-ICU/R/.
 
 ## 3. Table 1: who was studied
 

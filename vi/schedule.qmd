@@ -2,7 +2,7 @@
 title: "Lịch học"
 ---
 
-Tám tuần, học **trực tuyến**, mỗi **thứ Bảy từ 19:30 đến 22:30** (giờ Việt Nam), từ **31/10 đến 19/12/2026**: tám buổi học, mỗi buổi **3 giờ** (giải lao 15 phút), Buổi *n* vào Tuần *n*. Không chia nhóm: cả lớp cùng làm mọi bài tập, và mỗi học viên tự xây dựng đề cương và bản thảo của mình qua bài về nhà. Tuần 1–4 xây dựng hiểu biết và kỹ năng thiết kế; tuần 5–8 đọc kết quả phân tích bộ dữ liệu mô phỏng **FLUID-ICU** qua trình diễn của giảng viên, và mỗi học viên viết thành bản thảo bài báo. Toàn bộ khóa học là **Cấp độ 1** ([các cấp độ](levels.qmd)).
+Tám tuần, học **trực tuyến**, mỗi **thứ Bảy từ 19:30 đến 22:30** (giờ Việt Nam), từ **31/10 đến 19/12/2026**: tám buổi học, mỗi buổi **3 giờ** (giải lao 15 phút), Buổi *n* vào Tuần *n*. Không chia nhóm: cả lớp cùng làm mọi bài tập, và mỗi học viên tự xây dựng đề cương và phần Kết quả của mình qua bài về nhà. Tuần 1–4 xây dựng hiểu biết và kỹ năng thiết kế; tuần 5–8 đọc kết quả phân tích bộ dữ liệu mô phỏng **FLUID-ICU** qua trình diễn của giảng viên, và mỗi học viên viết phần Kết quả của một bài báo. Toàn bộ khóa học là **Cấp độ 1** ([các cấp độ](levels.qmd)).
 
 | Tuần | Buổi | Ngày | Chủ đề | Bạn xây dựng (bài về nhà) |
 |:---:|:--------|:--------|:----------|:------------------------------------|
@@ -11,9 +11,9 @@ Tám tuần, học **trực tuyến**, mỗi **thứ Bảy từ 19:30 đến 22:
 | 3 | [Buổi 3](session3.qmd) | Thứ Bảy 14/11/2026 | **Thiết kế** | Đề cương: thiết kế, bối cảnh, đối tượng |
 | 4 | [Buổi 4](session4.qmd) | Thứ Bảy 21/11/2026 | **Sai lệch & tác động** | Đề cương: phơi nhiễm, kết cục, kế hoạch hạn chế sai lệch |
 | 5 | [Buổi 5](session5.qmd) | Thứ Bảy 28/11/2026 | **Dữ liệu** | Đề cương: biến số, CRF, kế hoạch dữ liệu · Bản thảo: hiểu Bảng 1 |
-| 6 | [Buổi 6](session6.qmd) | Thứ Bảy 05/12/2026 | **Phân tích** | Đề cương: cỡ mẫu, kế hoạch phân tích · Bản thảo: diễn giải kết quả |
-| 7 | [Buổi 7](session7.qmd) | Thứ Bảy 12/12/2026 | **Bảo vệ & viết** | Đề cương: đạo đức, khả thi, kế hoạch công bố · Bản thảo: Phương pháp + Kết quả |
-| 8 | [Buổi 8](session8.qmd) | Thứ Bảy 19/12/2026 | **Công bố** | Bản thảo: bản nháp hoàn chỉnh · Nộp đề cương (khoảng 5 học viên tình nguyện trình bày) |
+| 6 | [Buổi 6](session6.qmd) | Thứ Bảy 05/12/2026 | **Phân tích** | Đề cương: cỡ mẫu, kế hoạch phân tích · Bản thảo: chọn câu hỏi |
+| 7 | [Buổi 7](session7.qmd) | Thứ Bảy 12/12/2026 | **Bảo vệ & viết** | Đề cương: đạo đức, khả thi, kế hoạch công bố · Bản thảo: phần Kết quả |
+| 8 | [Buổi 8](session8.qmd) | Thứ Bảy 19/12/2026 | **Công bố** | Nộp phần Kết quả · Nộp đề cương (khoảng 5 học viên tình nguyện trình bày) |
 
 ## Thời gian biểu chi tiết
 
@@ -45,7 +45,7 @@ Tám tuần, học **trực tuyến**, mỗi **thứ Bảy từ 19:30 đến 22:
 | 0:10 | 19:40 | 40 | **2.1 Tìm bằng chứng:** phễu tìm kiếm, từ PICO đến các khối tìm kiếm, Boolean, MeSH, công cụ tìm kiếm, PubMed và Google Scholar, **trình diễn PubMed trực tiếp**, mỗi học viên xây dựng chuỗi tìm kiếm Boolean cho câu hỏi của mình |
 | 0:50 | 20:20 | 20 | **2.2 Quản lý và trích dẫn:** phần mềm quản lý tài liệu tham khảo (**trình diễn Zotero**), kiểu trích dẫn, diễn giải bằng lời của mình một cách an toàn, tài liệu xám và cơ sở dữ liệu đăng ký thử nghiệm |
 | 1:10 | 20:40 | 15 | GIẢI LAO |
-| 1:25 | 20:55 | 40 | **2.3 Đọc một bài báo trong 15 phút:** IMRaD, thứ tự đọc, một bản tóm tắt cần có gì, "spin"; bài tập cá nhân với phần tóm tắt của Bài báo 1 (Boulet 2024, RCT; trong thư mục khóa học) |
+| 1:25 | 20:55 | 40 | **2.3 Đọc một bài báo trong 15 phút:** IMRaD, thứ tự đọc, một bản tóm tắt cần có gì, "spin"; bài tập cá nhân với phần tóm tắt của Bài báo 1 (Boulet 2024, RCT; gửi qua email) |
 | 2:05 | 21:35 | 15 | **2.4 Từ y văn đến phần đặt vấn đề:** ma trận y văn, phễu đặt vấn đề, tên đề tài tạm thời và từ khóa |
 | 2:20 | 21:50 | 35 | **Xây dựng đề cương 2:** làm mẫu trực tiếp (chuỗi tìm kiếm, 5 tài liệu trong ma trận, đặt vấn đề, tên đề tài tạm thời); mỗi học viên tự tìm kiếm và viết phần của mình (hoàn thành ở nhà); hai học viên tình nguyện chia sẻ |
 | 2:55 | 22:25 | 5 | Tổng kết |
@@ -132,7 +132,7 @@ Tám tuần, học **trực tuyến**, mỗi **thứ Bảy từ 19:30 đến 22:
 :::
 
 ::: {.callout-note collapse="true" appearance="simple"}
-## Buổi 7 · Bảo vệ & viết: đạo đức, liêm chính, Phương pháp và Kết quả
+## Buổi 7 · Bảo vệ & viết: đạo đức, liêm chính và phần Kết quả
 
 | Bắt đầu | Giờ* | Phút | Hoạt động |
 |:----|:----|---:|:------------------------------------------------------------|
@@ -141,9 +141,9 @@ Tám tuần, học **trực tuyến**, mỗi **thứ Bảy từ 19:30 đến 22:
 | 0:40 | 20:10 | 20 | **7.2 Liêm chính nghiên cứu:** bịa đặt, làm sai lệch, đạo văn (FFP), xuất bản trùng lặp/cắt lát, quyền tác giả, xung đột lợi ích, chia sẻ dữ liệu, sử dụng AI; khảo sát nhanh theo tình huống |
 | 1:00 | 20:30 | 15 | **Xây dựng đề cương 7:** làm mẫu trực tiếp (đạo đức, đăng ký, tính khả thi, kế hoạch công bố); học viên tự viết Phần 4 của mình ở nhà |
 | 1:15 | 20:45 | 15 | GIẢI LAO |
-| 1:30 | 21:00 | 35 | **7.3 Viết bài báo (I):** thứ tự viết, Phương pháp (kể cả đoạn thống kê), Kết quả (người tham gia trước, số liệu kèm KTC, không diễn giải), bảng và biểu đồ tự đứng được, STROBE cho bài báo từ bộ dữ liệu khóa học |
-| 2:05 | 21:35 | 45 | **[DS] Thực hành bản thảo 1:** giảng viên cùng cả lớp soạn Phương pháp + Kết quả cho Q1 (30 phút); sau đó mỗi học viên bắt đầu viết Phương pháp + Kết quả (~600 từ) cho câu hỏi mình đã chọn, với Bảng 1 và một biểu đồ/bảng từ gói kết quả phân tích (15 phút, hoàn thành ở nhà) |
-| 2:50 | 22:20 | 10 | Từ khóa, tổng kết, câu hỏi cuối buổi, bài về nhà |
+| 1:30 | 21:00 | 35 | **7.3 Viết bài báo (I): phần Kết quả.** Thứ tự viết, Kết quả (người tham gia trước, số liệu kèm KTC, không diễn giải), bảng và biểu đồ tự đứng được, STROBE cho bài báo từ bộ dữ liệu khóa học. Phần Phương pháp là bài luyện tập không bắt buộc |
+| 2:05 | 21:35 | 45 | **[DS] Thực hành bản thảo 1:** giảng viên cùng cả lớp viết phần Kết quả của Q1 (người tham gia và Bảng 1, kết quả chính, các phân tích khác, kiểm tra số liệu: 30 phút). Sau đó mỗi học viên bắt đầu viết phần Kết quả cho câu hỏi mình đã chọn, với Bảng 1 và một bảng hoặc hình chính từ gói kết quả (15 phút, hoàn thành ở nhà) |
+| 2:50 | 22:20 | 10 | Người bình duyệt của bạn và các hạn nộp, từ khóa, tổng kết, câu hỏi cuối buổi, bài về nhà |
 
 \*Thời gian tính từ đầu buổi học; cột giờ là giờ Việt Nam của buổi học trực tuyến 19:30–22:30. Mọi bài tập đều do cả lớp cùng làm (không chia nhóm). **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
 
@@ -151,18 +151,18 @@ Tám tuần, học **trực tuyến**, mỗi **thứ Bảy từ 19:30 đến 22:
 :::
 
 ::: {.callout-note collapse="true" appearance="simple"}
-## Buổi 8 · Công bố: hoàn thiện bài báo, gửi đăng, trình bày
+## Buổi 8 · Công bố: hoàn thiện phần Kết quả, gửi đăng, trình bày
 
 | Bắt đầu | Giờ* | Phút | Hoạt động |
 |:----|:----|---:|:------------------------------------------------------------|
 | 0:00 | 19:30 | 5 | Ôn tập |
-| 0:05 | 19:35 | 25 | **8.1 Viết bài báo (II):** phễu Đặt vấn đề, sáu bước của Bàn luận, ngôn ngữ chừng mực, tóm tắt, tiêu đề và từ khóa, trước khi nộp bài |
-| 0:30 | 20:00 | 30 | **[DS] Thực hành bản thảo 2:** làm mẫu trực tiếp trên Q1 phần Đặt vấn đề, Bàn luận, Tóm tắt và Tiêu đề (22 phút); mỗi học viên viết mục tiêu và tiêu đề của mình (8 phút) và hoàn thành bản nháp ở nhà |
+| 0:05 | 19:35 | 25 | **8.1 Viết bài báo (II): các phần không bắt buộc và tên bài.** Phễu Đặt vấn đề, sáu bước của Bàn luận, ngôn ngữ chừng mực, tóm tắt, tên bài và từ khóa, trước khi nộp bài |
+| 0:30 | 20:00 | 30 | **[DS] Thực hành bản thảo 2:** cả lớp cùng hoàn thiện phần Kết quả Q1 của lớp (số liệu, bảng, câu chữ, tên bài, các phần không bắt buộc: 22 phút). Mỗi học viên kiểm tra bản nháp phần Kết quả của mình và viết tên bài dự kiến (8 phút), rồi gửi email phần Kết quả trước 23:59 tối nay |
 | 1:00 | 20:30 | 20 | **8.2 Công bố:** hướng dẫn báo cáo (**trình diễn EQUATOR**), chọn tạp chí, tạp chí săn mồi, hồ sơ nộp bài, bình duyệt, trả lời phản biện (bản tiền ấn phẩm, bị từ chối, bản in thử và tóm tắt hội nghị nằm trong slide bổ sung) |
 | 1:20 | 20:50 | 15 | GIẢI LAO |
-| 1:35 | 21:05 | 25 | **8.3 Làm người phản biện:** cả lớp cùng thẩm định đơn giản Bài báo 1 và 2 (Boulet 2024 RCT và Hyun 2023 thuần tập, trong thư mục khóa học) bằng bảng kiểm 10 câu hỏi, để luyện tập cho phần bình duyệt cá nhân sau khóa học |
+| 1:35 | 21:05 | 25 | **8.3 Làm người phản biện:** cả lớp cùng thẩm định đơn giản Bài báo 1 và 2 (Boulet 2024 RCT và Hyun 2023 thuần tập, gửi qua email) bằng bảng kiểm 10 câu hỏi, để luyện tập cho phần bình duyệt cá nhân sau khóa học |
 | 2:00 | 21:30 | 45 | **Học viên tình nguyện trình bày:** khoảng 5 học viên trình bày đề cương nghiên cứu của mình + kế hoạch công bố (mỗi người 6 phút + 2 phút góp ý), sau đó 5 phút tổng kết; mọi học viên nộp slide và đề cương viết |
-| 2:45 | 22:15 | 15 | Bài kiểm tra cuối khóa, đánh giá khóa học, bước tiếp theo (bình duyệt bản thảo của một bạn cùng lớp, làm ở nhà) |
+| 2:45 | 22:15 | 15 | Bài kiểm tra cuối khóa, đánh giá khóa học, bước tiếp theo (bình duyệt phần Kết quả của một bạn cùng lớp, hạn 2/1/2027) |
 
 \*Thời gian tính từ đầu buổi học; cột giờ là giờ Việt Nam của buổi học trực tuyến 19:30–22:30. Mọi bài tập đều do cả lớp cùng làm (không chia nhóm). **[DS]** = nội dung bộ dữ liệu khóa học (phân tích FLUID-ICU và viết bản thảo).
 

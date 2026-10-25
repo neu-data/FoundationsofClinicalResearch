@@ -24,19 +24,11 @@ format:
 - Xây dựng đề cương 5: biến số, CRF thu gọn, từ điển dữ liệu, quản lý dữ liệu
 
 ::: {.notes}
-Chào mừng anh chị đến Tuần 5. Lớp học trực tuyến từ 19:30 đến 22:30, có 15 phút giải lao. Buổi 1-4 đã đặt câu hỏi, tìm bằng chứng và chọn thiết kế. Hai thứ Bảy này dành cho đo lường và phân tích: hôm nay (Buổi 5) là dữ liệu, thứ Bảy tuần sau (Buổi 6) là phân tích.
+Buổi 5 (19:30-22:30, giải lao 20:40-20:55). Hôm nay là dữ liệu, thứ Bảy tuần sau là phân tích.
 
-Lời hứa: không có công thức. Mỗi ý tưởng đi theo thứ tự: hình ảnh, ví dụ minh họa, rồi một phút kiểm tra nhanh: bình chọn (poll), hoặc mời hai ba người trả lời, bật micro. Việc của anh chị là diễn giải, không phải tính toán.
+Mới: bộ dữ liệu mô phỏng của khóa học FLUID-ICU (620 người lớn nhiễm khuẩn huyết) và năm câu hỏi, Q1 đến Q5. Cuối Buổi 6, mỗi học viên chọn một câu và viết phần Kết quả cho câu đó.
 
-Mới trong Tuần 5-6: bộ dữ liệu khóa học FLUID-ICU, một thuần tập thực tế (mô phỏng) gồm 620 người lớn bị nhiễm khuẩn huyết. Anh chị sẽ thấy dữ liệu được làm sạch và mô tả trực tiếp bằng R trên màn hình chia sẻ. Bộ dữ liệu đi kèm năm câu hỏi nghiên cứu (Q1 đến Q5), mỗi câu có một gói kết quả phân tích. Trên lớp, cả lớp cùng đi qua các câu hỏi. Sau đó, mỗi anh chị chọn một câu hỏi và tự viết bản thảo bài báo từ gói kết quả của câu đó ở Tuần 7-8: chúng tôi đưa kết quả, anh chị viết bài.
-
-Ví dụ xuyên suốt: dịch truyền trong sốc nhiễm khuẩn. Biến 'cân bằng dịch tích lũy (ml/kg)' xuất hiện suốt buổi tối: trên phiếu, trong từ điển dữ liệu, trong bộ dữ liệu đã làm sạch, trong Bảng 1.
-
-Hỏi cả lớp (mời hai ba người trả lời, bật micro): ai từng điền một phiếu thu thập dữ liệu và tự hỏi 'ô này thực ra muốn gì?' Dự kiến: nhiều người trả lời. Đó chính là phần 5.1.
-
-Thời lượng: ôn tập 19:30, 5.1 lúc 19:40, 5.2 lúc 20:15, giải lao 20:40, 5.3 lúc 20:55, 5.4 lúc 21:30, xây dựng đề cương 21:55, tổng kết 22:25.
-
-Nhịp độ: chậm. Học trực tuyến buổi tối thì khó tập trung hơn. Nếu lớp cần thêm thời gian, bỏ các trang bổ sung ở cuối. Không bao giờ bỏ các phần kiểm tra.
+Không có công thức: hình, ví dụ minh họa, câu kiểm tra. Không bao giờ bỏ câu kiểm tra.
 :::
 
 ## Ôn tập: Buổi 3-4 trong ba câu hỏi
@@ -70,19 +62,11 @@ CÂU HỎI NHANH · 10 phút
 :::
 
 ::: {.notes}
-Mục đích: khơi lại kiến thức Buổi 4 và giúp những ai vắng mặt bắt kịp. Giữ không khí nhẹ nhàng: không chấm điểm.
+Ôn tập (19:30-19:40). Mỗi câu một cuộc thăm dò, 1 phút mỗi câu, rồi mở đáp án.
 
-Cách làm: mở một bình chọn cho mỗi câu (poll của Zoom/Teams), mỗi câu 1 phút, cho xem kết quả rồi công bố đáp án. Che khung bên phải cho đến lúc công bố (hoặc đọc đáp án từ ghi chú này).
+Q1: thuần tập tiến cứu (bệnh-chứng bắt đầu từ kết cục). Q2: nhiễu do chỉ định, lý do Bài báo 2 dùng ghép cặp theo điểm xu hướng. Q3: RR 0.67, RD 10%, NNT 10.
 
-Đáp án C1: thuần tập tiến cứu. Phơi nhiễm (hút thuốc) được đo trước, sau đó chờ kết cục xảy ra. Đáp án sai thường gặp: bệnh–chứng. Nhấn mạnh rằng nghiên cứu bệnh–chứng bắt đầu từ kết cục rồi nhìn ngược lại.
-
-Đáp án C2: nhiễu do chỉ định. Mức độ nặng gây ra cả việc truyền nhiều dịch hơn và tử vong nhiều hơn. Đây chính là lý do Bài báo 2 (Hyun 2023, nghiên cứu thuần tập về cân bằng dịch và tử vong trong sốc nhiễm khuẩn, trong thư mục khóa học Course/Papers) dùng ghép cặp theo điểm xu hướng, và lý do Buổi 6 (6.3 và 6.4) nói về kết quả 'đã hiệu chỉnh'.
-
-Đáp án C3: RR = 0.20 / 0.30 = 0.67 (giảm tương đối một phần ba). Hiệu số nguy cơ = 10 điểm phần trăm. NNT = 1 / 0.10 = 10 người bệnh cần điều trị để ngăn một ca tử vong.
-
-Nếu hơn một phần ba lớp trả lời sai C3, dành thêm 2 phút vẽ lại bảng 2x2 trên màn hình chia sẻ (bảng trắng) trước khi chuyển tiếp.
-
-Thời lượng: 10 phút kể cả công bố đáp án (19:30 đến 19:40).
+Nếu một phần ba lớp sai Q3, vẽ bảng 2x2 trên màn hình.
 :::
 
 ## 5.1 Dữ liệu tốt từ khâu thiết kế
@@ -98,15 +82,11 @@ Thống kê giỏi đến đâu cũng không cứu được dữ liệu xấu.
 ::::
 
 ::: {.notes}
-Mở đầu phần 5.1 (35 phút, 19:40 đến 20:15: loại biến số kèm kiểm tra nhanh, thiết kế CRF với ví dụ minh họa, từ điển dữ liệu, kiểm tra dữ liệu, quản lý dữ liệu, dữ liệu bị thiếu, rồi 7 phút cả lớp cùng sửa các mục CRF).
+Phần 5.1 (19:40-20:15).
 
-Thông điệp chính: phần lớn vấn đề trong nghiên cứu lâm sàng nằm ở dữ liệu hơn là ở khâu phân tích. Sáu tháng sau, nhà thống kê không thể sửa một ô bị bỏ trống, một đơn vị bị thiếu hay một giá trị vô lý.
+Thông điệp: phần lớn vấn đề nằm ở dữ liệu, không ở phân tích. Nhà thống kê không thể sửa một ô bị bỏ trống về sau.
 
-Dữ liệu vào kém thì kết quả ra kém: chất lượng câu trả lời bị giới hạn bởi chất lượng phiếu thu thập.
-
-Hỏi cả lớp (mời hai ba người trả lời, bật micro): có ai từng được nhờ 'giúp xử lý số liệu' sau khi nghiên cứu kết thúc, rồi phát hiện một nửa số phiếu không đầy đủ? Mời một hai người bật micro kể lại trong một câu.
-
-Chuyển ý: bắt đầu từ quyết định cơ bản nhất: anh chị đang thu thập loại biến số nào? Điều đó quyết định cách viết câu hỏi trong CRF, cách tóm tắt và kiểm định cần dùng.
+Hỏi: ai từng được nhờ 'giúp phần số liệu' và thấy một nửa số phiếu bị thiếu?
 :::
 
 ## Biến số này thuộc loại nào?
@@ -153,21 +133,13 @@ Biến số đo được là con số (hai thẻ đầu). Biến phân loại l�
 :::
 
 ::: {.notes}
-Ý chính: mọi biến số hoặc là một số đo được, hoặc là một phân loại được gán. Sau đó chia thêm một lần nữa.
+Mỗi biến là một con số (liên tục, đếm) hoặc một nhóm (nhị phân, định danh, thứ bậc). Thời gian đến sự kiện: chỉ nhắc qua, sẽ quay lại ở Buổi 6.
 
-Số: liên tục (bất kỳ giá trị nào trên một thang đo: cân bằng dịch ml/kg, lactat, tuổi) hoặc đếm (số nguyên: số cơ quan bị suy).
+Hiểu lầm: giới tính mã hóa 1/2 vẫn là biến phân nhóm.
 
-Phân loại: nhị phân (hai lựa chọn: tử vong có/không), định danh (nhiều nhóm không có thứ tự: nguồn nhiễm khuẩn) và thứ hạng (các nhóm có thứ tự: tổn thương thận cấp (AKI) giai đoạn 1 đến 3, đau nhẹ/vừa/nặng).
+Mẹo: thu số liệu dạng số. Có thể chia nhóm tuổi sau, không thể làm ngược lại.
 
-Thời gian đến sự kiện (time-to-event, ở dòng giới thiệu) là loại đặc biệt: kết hợp bao lâu (thời gian đến tử vong) và có xảy ra không (tử vong, hoặc bị kiểm duyệt (censoring) ở ngày 28 nếu còn sống). Chỉ cần nhắc qua. Sẽ gặp lại nó với đường cong Kaplan-Meier và mô hình Cox ở Buổi 6 (6.3).
-
-Quan niệm sai thường gặp: 'mã hóa bằng số thì là biến số'. Giới tính mã hóa 1/2 vẫn là biến phân loại. Giá trị trung bình 1.4 không có ý nghĩa gì.
-
-Trò chơi phân loại nhanh: đọc tên một biến và mời một người nói loại của nó: thang điểm Glasgow (thứ hạng, dù hay được xử lý như số), nhịp tim (liên tục), thở máy có/không (nhị phân), nhóm máu (định danh), số ngày thở máy (đếm), thời gian đến khi rút ống (thời gian đến sự kiện).
-
-Mẹo: hãy thu thập biến liên tục dưới dạng số bất cứ khi nào có thể. Có thể nhóm tuổi thành khoảng sau này, nhưng không bao giờ lấy lại được tuổi chính xác từ '60-69'.
-
-Trang này thay hình sơ đồ cây trước đây bằng các thẻ chỉnh sửa được. Nội dung không đổi.
+Thời gian: 3 phút.
 :::
 
 ## Kiểm tra nhanh: biến số loại gì?
@@ -204,21 +176,11 @@ CÂU HỎI NHANH · 3 phút
 :::
 
 ::: {.notes}
-Kiểm tra nhanh (3 phút). Mở bình chọn cho từng biến với sáu lựa chọn (liên tục, đếm, nhị phân, định danh, thứ hạng, thời gian đến sự kiện), hoặc mỗi biến mời một người trả lời. Chỉ công bố khung đáp án sau mỗi lần bình chọn.
+Kiểm tra (3 phút). Mỗi biến một cuộc thăm dò, sáu lựa chọn. Mở đáp án sau mỗi lần bình chọn.
 
-Nhịp tim: liên tục.
+GCS: thứ bậc, thường được phân tích như số. Thời gian đến khi rút ống: thời gian đến sự kiện, vì một số người bệnh không bao giờ được rút ống.
 
-GCS: thứ hạng. Điểm có thứ tự với khoảng cách không đều, thường được phân tích như số, chấp nhận được nếu nói rõ.
-
-Nhóm máu: định danh. Không có thứ tự.
-
-Thở máy có/không: nhị phân.
-
-Thời gian đến khi rút ống: thời gian đến sự kiện, vì có người bệnh không bao giờ được rút ống (tử vong hoặc chuyển đi) và phải được kiểm duyệt.
-
-Nếu hơn một phần ba lớp sai GCS hoặc thời gian rút ống, quay lại trang trước một phút.
-
-Vì sao quan trọng: loại biến quyết định ô trong CRF, cách tóm tắt (5.3) và kiểm định (Buổi 6).
+Nếu một phần ba lớp sai, quay lại trang trước.
 :::
 
 ## Mục CRF tốt và chưa tốt
@@ -245,21 +207,11 @@ Rõ ràng: đơn vị, mốc thời gian, một đáp án, 'không rõ'
 ::::
 
 ::: {.notes}
-Ý chính: một mục CRF là tốt khi hai người khác nhau, cùng điền cho một người bệnh, sẽ ghi cùng một câu trả lời.
+Một mục CRF tốt: hai người điền cho cùng một người bệnh sẽ ghi cùng một câu trả lời.
 
-Đi qua phía bên trái và mời từng người 'chẩn đoán' từng lỗi trước khi anh chị đọc dòng chữ đỏ:
+Cho lớp chỉ ra lỗi của từng mục bên trái trước khi mở đáp án: không có đơn vị hay mốc thời gian, tuổi không gắn ngày, thiếu lựa chọn, hai ý kiến trong một câu.
 
-Cân bằng dịch: không có đơn vị (ml? lít? ml/kg?), không có mốc thời gian (hôm nay? tích lũy?). Trong ví dụ xuyên suốt, chỉ riêng ô này đã quyết định kết cục chính của cả nghiên cứu.
-
-Tuổi: năm hay tháng, tính tại ngày nào? Tốt hơn: thu thập ngày sinh và ngày nhập viện, để máy tính tự tính tuổi.
-
-Nguồn nhiễm khuẩn: lựa chọn chưa đủ (không có 'khác', không có 'không rõ') và không rõ được chọn một hay nhiều.
-
-Dịch truyền có hiệu quả và người bệnh cải thiện: hai câu hỏi trong một, và cả hai đều là ý kiến chủ quan. Thay bằng số đo khách quan (lactat, huyết áp động mạch trung bình, liều vận mạch).
-
-Bên phải: đơn vị và mốc thời gian nằm ngay trong câu hỏi, các ô cho từng chữ số kèm ô dấu +/- (cân bằng dịch có thể âm), định dạng ngày cố định, chọn một, có lựa chọn 'khác' và 'không rõ', thể hiện chữ số thập phân cho lactat.
-
-Hỏi: để trống một ô thì có vấn đề gì? Dự kiến: không phân biệt được 'không làm', 'quên ghi' hay 'bằng không'. Vì thế cần thêm lựa chọn 'không rõ / không làm'.
+Hỏi: để trống một ô thì sao? Kỳ vọng: 'không làm', 'quên' và 'bằng 0' trông giống nhau.
 :::
 
 ## Ví dụ minh họa: từ câu hỏi đến một mục CRF
@@ -304,21 +256,11 @@ Biến 'cân bằng dịch tích lũy' qua năm quyết định.
 :::
 
 ::: {.notes}
-Ví dụ minh họa (3 phút): cùng xây dựng một mục CRF, chính là phơi nhiễm chính của bộ dữ liệu khóa học.
+Ví dụ minh họa (3 phút): biến phơi nhiễm của FLUID-ICU qua năm quyết định.
 
-Cái gì: cân bằng dịch tích lũy = tổng dịch vào (dịch tinh thể, dịch keo, máu, dịch pha thuốc, nuôi ăn qua ống) trừ tổng dịch ra (nước tiểu, dẫn lưu, mất dịch). Quyết định có tính mất nước không nhận biết hay không. Ghi vào từ điển dữ liệu.
+Cái gì: tổng dịch vào trừ tổng dịch ra. Khi nào: từ lúc vào ICU đến hết ngày 3. Đơn vị: ml/kg cân nặng lúc vào. Dạng: số có dấu +/-. Thiếu: ô 'không ghi nhận'.
 
-Khi nào: từ lúc vào ICU đến hết ngày 3 (định nghĩa của FLUID-ICU). Mốc thời gian khác cho ra một biến khác.
-
-Đơn vị: ml/kg cân nặng lúc vào, để so sánh được người bệnh có thể trạng khác nhau. Nghĩa là cân nặng cũng phải có trong CRF.
-
-Định dạng: số có dấu với các ô chữ số. Cân bằng dịch có thể âm.
-
-Thiếu: ô 'không ghi nhận' và lý do, để ô trống luôn có nghĩa là 'quên'.
-
-Hỏi (mời hai ba người trả lời, bật micro): vì đơn vị này, CRF bắt buộc phải có thêm mục nào? Dự kiến: cân nặng lúc vào (và cách đo).
-
-Ở phần xây dựng đề cương cuối buổi, giảng viên làm mẫu đúng các bước này cho ví dụ xuyên suốt, rồi anh chị làm cho biến số của mình.
+Hỏi: CRF giờ phải có thêm mục nào? Kỳ vọng: cân nặng lúc vào ICU.
 :::
 
 ## Năm nguyên tắc cho một CRF tốt
@@ -365,21 +307,11 @@ Viết phiếu trước người bệnh đầu tiên, rồi thử trên năm ng�
 :::
 
 ::: {.notes}
-Ý chính: năm nguyên tắc giải quyết phần lớn vấn đề của CRF. Đọc tiêu đề từng thẻ, cho một ví dụ mỗi thẻ.
+Đọc tên năm thẻ, mỗi thẻ một ví dụ.
 
-Chỉ thu thập cái cần: mỗi mục phải trả lời một mục tiêu, mô tả quần thể, hoặc dùng để hiệu chỉnh một yếu tố gây nhiễu. Các mục 'biết thì tốt' làm phiếu dài và bị bỏ sót.
+Lỗi thường gặp: sửa phiếu khi đã bắt đầu thu thập dữ liệu sẽ tạo ra hai bộ dữ liệu khác nhau.
 
-Một câu, một đáp án: tránh câu hỏi kép. Ưu tiên giá trị đo được hơn ý kiến.
-
-Đơn vị và thời điểm: viết đơn vị và mốc thời gian ngay trong câu hỏi.
-
-Câu trả lời đóng: ô đánh dấu có mã hóa giúp điền và phân tích nhanh hơn văn bản tự do. Luôn có 'khác (ghi rõ)' và 'không rõ / không làm'.
-
-Thử nghiệm trước: đưa phiếu cho hai đồng nghiệp điền cho cùng năm người bệnh rồi so sánh. Chỗ nào không khớp là chỗ cần viết lại.
-
-Lỗi thường gặp: thiết kế phiếu sau khi đã bắt đầu thu thập. Đổi phiếu giữa chừng tạo ra hai bộ dữ liệu khác nhau.
-
-Hỏi (mời hai ba người trả lời, bật micro): nguyên tắc nào hay bị vi phạm nhất trong các phiếu ở khoa anh chị? Dự kiến: quá dài, không có đơn vị, văn bản tự do khắp nơi.
+Hỏi: quy tắc nào hay bị vi phạm nhất ở khoa anh chị? Kỳ vọng: phiếu quá dài, không có đơn vị, toàn chữ tự do.
 :::
 
 ## Từ điển dữ liệu: mỗi biến số một dòng
@@ -397,21 +329,11 @@ Các dòng ví dụ cho nghiên cứu dịch truyền trong sốc nhiễm khuẩ
 :::
 
 ::: {.notes}
-Ý chính: từ điển dữ liệu (data dictionary, còn gọi là codebook) giải thích từng cột trong bộ dữ liệu: tên ngắn, ý nghĩa, loại biến, đơn vị hoặc mã, và giá trị cho phép.
+Từ điển dữ liệu: mỗi biến một dòng, để ai cũng hiểu dữ liệu mà không cần gọi điện hỏi anh chị.
 
-Vì sao quan trọng: sáu tháng sau sẽ không ai nhớ giới tính 1 là nam hay nữ, hay fb\_d5 tính bằng ml hay ml/kg. Nhà thống kê, đồng tác giả hay người phản biện phải hiểu được dữ liệu mà không cần gọi điện hỏi anh chị.
+Đọc to dòng fb\_d5. Khoảng giá trị cho phép trở thành phép kiểm tra khoảng ở trang sau. Lưu ý mã 9 là 'không rõ'.
 
-Đọc to một dòng: fb\_d5 là cân bằng dịch tích lũy tại ngày 5, biến liên tục, đơn vị ml/kg, cho phép từ -100 đến 300. Khoảng cho phép này trở thành một phép kiểm tra khoảng giá trị tự động ở trang sau.
-
-Chú ý mã 'không rõ' (9) cho nguồn nhiễm khuẩn. Thiếu và không rõ phải được ghi lại, không để trống.
-
-Mẹo: tên biến ngắn, không dấu cách, không dấu tiếng Việt (fb\_d5, không phải 'Cân bằng dịch ngày 5') dùng được trong mọi phần mềm.
-
-Phần xây dựng đề cương hôm nay yêu cầu anh chị viết 3 đến 5 dòng như thế này cho nghiên cứu của chính mình (Bài 8 trong phiếu bài tập Buổi 5).
-
-Hỏi (mời hai ba người trả lời, bật micro): ai có từ điển dữ liệu cho một cuộc đánh giá (audit) mình từng làm? Thường rất ít. Điều đó bình thường và dễ khắc phục.
-
-Bảng này chỉnh sửa được: có thể sửa một dòng ngay trên lớp nếu học viên gợi ý cách viết tốt hơn.
+Học viên viết 3 đến 5 dòng như vậy ở Phần xây dựng đề cương 5.
 :::
 
 ## Kiểm tra dữ liệu: để quy tắc bắt lỗi
@@ -452,23 +374,13 @@ Bốn phép kiểm tra đơn giản bắt được phần lớn lỗi nhập li�
 :::
 
 ::: {.notes}
-Ý chính: bốn loại kiểm tra đơn giản bắt được phần lớn lỗi nhập liệu.
+Bốn phép kiểm tra bắt được phần lớn lỗi nhập liệu: khoảng giá trị, nhất quán, logic, đầy đủ. Khoảng giá trị lấy từ từ điển dữ liệu.
 
-Kiểm tra khoảng giá trị: giá trị nằm ngoài khoảng cho phép (tuổi 230 có lẽ là 23 hoặc 30). Khoảng này lấy trực tiếp từ từ điển dữ liệu.
+Tìm lỗi khi bệnh án còn ở khoa.
 
-Kiểm tra nhất quán: hai giá trị không thể cùng đúng (ra viện trước ngày vào viện).
+Hỏi: anh chị từng thấy giá trị vô lý nào? Kỳ vọng: 700 kg, ngày trong tương lai.
 
-Kiểm tra logic: kết hợp câu trả lời không thể có (nam và có thai).
-
-Kiểm tra đầy đủ: trường bắt buộc bị trống. Bổ sung ngay khi hồ sơ còn ở khoa.
-
-Thực hành: phiếu điện tử có thể chặn giá trị vô lý ngay khi nhập (trang sau). Với phiếu giấy, điều phối viên kiểm tra hằng tuần cũng làm được việc này.
-
-Ý lâm sàng: phát hiện lỗi càng sớm càng dễ sửa. Tuần sau hồ sơ còn ở khoa. Năm sau hồ sơ đã vào kho lưu trữ.
-
-Hỏi (mời hai ba người trả lời, bật micro): anh chị đã thấy những giá trị vô lý nào trong dữ liệu bệnh viện? Dự kiến: cân nặng 700 kg, ngày trong tương lai, nhịp tim bằng 0 ở người bệnh còn sống.
-
-Thời lượng: 2 phút. Sau đó là quản lý dữ liệu trong thực tế, rồi hai trang về dữ liệu bị thiếu.
+Thời gian: 2 phút.
 :::
 
 ## Quản lý dữ liệu thực tế: từ giường bệnh đến cơ sở dữ liệu
@@ -506,19 +418,13 @@ Hai con đường an toàn từ người bệnh đến một cơ sở dữ liệ
 :::
 
 ::: {.notes}
-Ý chính: dữ liệu tốt cần một con đường an toàn từ người bệnh đến tệp phân tích. Có hai con đường.
+Hai đường an toàn: phiếu giấy nhập liệu hai lần, hoặc thu thập dữ liệu điện tử (REDCap, KoBoToolbox) có kiểm tra ngay khi nhập.
 
-Đường giấy: CRF được nhập vào máy tính hai lần bởi hai người khác nhau (nhập liệu kép). Một phép so sánh đơn giản cho thấy mọi chỗ lệch, và mỗi chỗ được sửa bằng cách đối chiếu với phiếu giấy. Cách này bắt được phần lớn lỗi gõ (lactat 21 thay vì 2.1).
+Cơ sở dữ liệu chỉ giữ mã nghiên cứu, không bao giờ có tên, và lưu vết mọi thay đổi.
 
-Thu thập dữ liệu điện tử (EDC): phiếu được điền trực tiếp trên máy tính bảng hoặc máy tính. Các ví dụ miễn phí, phổ biến là REDCap và KoBoToolbox. Các phép kiểm tra khoảng giá trị, logic và trường bắt buộc từ từ điển dữ liệu chạy ngay khi nhập, nên giá trị vô lý bị chặn trước khi được lưu.
+Hỏi: ai từng thấy một tệp Excel có tên người bệnh và kết quả được gửi qua email?
 
-Nhật ký thay đổi dữ liệu (audit trail, thẻ thứ ba): một hệ thống tốt ghi lại ai đã đổi gì, khi nào và vì sao. Không bao giờ ghi đè lặng lẽ. Hội đồng đạo đức, giám sát viên và tạp chí có thể yêu cầu xem.
-
-Cơ sở dữ liệu chỉ chứa mã số nghiên cứu, không có tên. Bảng liên kết mã số với tên được lưu riêng và khóa lại.
-
-Hỏi (mời hai ba người trả lời, bật micro): ai đã từng thấy một tệp Excel có cả tên, số điện thoại và kết quả, được gửi qua email? Dự kiến: nhiều người. Đó chính là điều cần tránh.
-
-Thời lượng: 2 phút.
+Thời gian: 2 phút.
 :::
 
 ## Dữ liệu bị thiếu: vì sao quan trọng
@@ -530,19 +436,11 @@ Thời lượng: 2 phút.
 :::
 
 ::: {.notes}
-Dữ liệu bị thiếu, phần 1: vì sao quan trọng (tiếp theo là phòng ngừa, các cơ chế và cách xử lý thống kê ở Buổi 6, phần 6.4).
+Dữ liệu thiếu, phần 1. Đi qua hình: 30% thực sự tử vong, nhưng 15 ca tử vong bị bỏ trống, nên ta chỉ thấy 18%.
 
-Ý chính: dữ liệu bị thiếu làm giảm số người bệnh, và còn có thể cho câu trả lời sai.
+Dữ liệu thiếu gắn với chính kết cục: người nặng nhất bị thiếu trước. Ai bị thiếu quan trọng hơn thiếu bao nhiêu.
 
-Đi qua hình: 100 người bệnh, thực tế có 30 người tử vong. Nhưng 15 ca tử vong có ô kết cục bị bỏ trống (chuyển viện, tử vong ban đêm, phiếu không được hoàn thành). Trong 85 người bệnh có ghi nhận, chỉ thấy 15 ca tử vong: 18%. Sự thật là 30%.
-
-Vì sao? Vì việc thiếu dữ liệu liên quan đến chính kết cục. Những người bệnh nặng nhất, diễn biến phức tạp nhất là những người có phiếu bị bỏ trống.
-
-Quan niệm sai: 'chỉ mất 15%, không sao'. Ai bị thiếu quan trọng hơn bao nhiêu người bị thiếu.
-
-Thứ Bảy tuần sau (Buổi 6, phần 6.4) sẽ gọi tên các cơ chế (MCAR, MAR, MNAR) và xem ý tưởng quy gán đa bội (multiple imputation). Nhưng cách xử lý thống kê luôn kém hơn phòng ngừa.
-
-Hỏi (mời hai ba người trả lời, bật micro): ở khoa anh chị, người bệnh nào dễ có hồ sơ không đầy đủ nhất? Dự kiến: chuyển viện, tử vong, nhập viện ban đêm, nằm viện rất ngắn.
+Cơ chế và quy gán sẽ học ở 6.4.
 :::
 
 ## Dữ liệu bị thiếu: cách phòng ngừa
@@ -589,23 +487,11 @@ Phòng ngừa là cách chữa duy nhất đáng tin cậy.
 :::
 
 ::: {.notes}
-Dữ liệu bị thiếu, phần 2: phòng ngừa.
+Dữ liệu thiếu, phần 2: năm thói quen ngăn được phần lớn dữ liệu thiếu.
 
-Ý chính: năm thói quen ngăn ngừa phần lớn dữ liệu bị thiếu.
+Kết cục ngày 28 là biến hay bị thiếu nhất trong nghiên cứu ICU: lên kế hoạch ai kiểm tra cho người bệnh chuyển viện.
 
-Ít mục: mỗi mục thêm vào làm tăng khả năng có ô bị bỏ trống.
-
-Phiếu rõ: đánh dấu trường bắt buộc. Có lựa chọn 'không làm' và 'không rõ' để ô trống luôn có nghĩa là 'quên'.
-
-Tập huấn: 30 phút cho mọi điều dưỡng hoặc bác sĩ nội trú sẽ thu thập số liệu, có từ điển dữ liệu trong tay.
-
-Kiểm tra hằng tuần: đếm đơn giản số ô trống theo từng biến và từng người bệnh. Nếu một mục luôn trống, chính mục đó có vấn đề.
-
-Bổ sung sớm: kết cục ngày 28 là biến hay bị thiếu nhất trong các nghiên cứu ICU. Hãy phân công ai sẽ kiểm tra (gọi điện, tra hồ sơ) cho những người bệnh đã chuyển đi.
-
-Nhắc: viết các bước này vào đề cương như 'kế hoạch bảo đảm chất lượng dữ liệu' (Phần 3).
-
-Chuyển ý: giờ cả lớp cùng sửa vài mục CRF chưa tốt.
+Các bước này đưa vào kế hoạch chất lượng dữ liệu của Phần 3 đề cương.
 :::
 
 ## Cả lớp cùng sửa các mục CRF
@@ -641,17 +527,11 @@ Bốn câu kiểm tra
 :::
 
 ::: {.notes}
-Bài tập cả lớp kết thúc phần 5.1 (7 phút, 20:08 đến 20:15). Bài 1 và 2 nằm trong phiếu bài tập Buổi 5 (Course/Practicals/s5\_exercises.md, gửi dạng PDF trước buổi học). Đáp án trong Course/Solutions/s5\_solutions.md.
+Cả lớp, 7 phút (20:08-20:15). Bài 2 của phiếu bài tập Buổi 5. Đáp án: s5\_solutions\_VN.md.
 
-Cách làm: chia sẻ phiếu bài tập trên màn hình. Với mỗi mục (bắt đầu bằng 'Dịch đã truyền: \_\_\_\_', rồi 'Lactat cao? C / K'), cho 1 phút, mời hai ba người đọc to phiên bản của mình, rồi gõ phiên bản chung vào tài liệu chia sẻ trong khi cả lớp áp dụng bốn câu kiểm tra ở khung bên phải. Làm kỹ hai mục tốt hơn làm vội bốn mục.
+Mỗi lần một mục, 1 phút mỗi mục. Mời hai hoặc ba người đọc bài của mình và gõ phiên bản của lớp. Làm tốt hai mục hơn làm vội bốn mục.
 
-Câu mẫu cho (a): 'Tổng dịch truyền tĩnh mạch từ lúc vào ICU đến 24 giờ (ml), gồm dịch tinh thể, dịch keo và dịch pha thuốc: \[ \]\[ \]\[ \]\[ \]\[ \] ml, hoặc đánh dấu: không ghi nhận.'
-
-Câu mẫu cho (d): 'Lactat huyết thanh lúc vào ICU (mmol/L): \[ \]\[ \].\[ \], hoặc đánh dấu: không làm.' Thu thập con số tốt hơn câu trả lời có/không.
-
-Bài 1 (phân loại 10 biến) đã được ôn qua câu hỏi nhanh. Giữ làm bài về nhà để tự kiểm tra.
-
-Nếu lớp làm nhanh: mời cả lớp gợi ý một dòng từ điển dữ liệu cho mục dịch truyền vừa viết lại.
+Bài 1 làm ở nhà.
 :::
 
 ## 5.2 Làm quen bộ dữ liệu khóa học
@@ -667,13 +547,13 @@ Một bộ dữ liệu thực tế, năm câu hỏi nghiên cứu.
 ::::
 
 ::: {.notes}
-Mở đầu phần 5.2 (25 phút, 20:15 đến 20:40: nghiên cứu, luồng người bệnh, dữ liệu thô và sạch, 8 phút trình diễn làm sạch bằng R, nhật ký làm sạch dữ liệu, năm câu hỏi, rồi cả lớp cùng viết Câu hỏi 1 thành một câu PECO).
+Phần 5.2 (20:15-20:40).
 
-Thông điệp chính: từ giờ, ngoài việc đọc nghiên cứu của người khác, anh chị sẽ phân tích và viết bài từ một nghiên cứu thực tế. FLUID-ICU là dữ liệu mô phỏng: do máy tính tạo ra, không có người bệnh, bệnh viện hay quốc gia thật. Nhưng nó vận hành như dữ liệu ICU thật, kể cả các vấn đề của nó.
+FLUID-ICU là dữ liệu mô phỏng: không có người bệnh, bệnh viện hay quốc gia thật, nhưng hành xử giống dữ liệu ICU thật.
 
-Không ai cần chạy R. Giảng viên chạy trực tiếp trên màn hình chia sẻ. Anh chị đọc và diễn giải. Ai đã học khóa 'Clinical Data Analysis in R' của Neudata có thể tái lập mọi thứ bằng các script trong Course/Data/R.
+Không ai phải chạy R. Giảng viên chạy trên màn hình.
 
-Nối với ví dụ xuyên suốt: Buổi 1-4 đặt câu hỏi can thiệp (hạn chế dịch: một RCT, Bài báo 1, Boulet 2024, thử nghiệm thí điểm (pilot) so sánh hạn chế dịch với truyền dịch thường quy trong sốc nhiễm khuẩn, trong Course/Papers). FLUID-ICU đặt câu hỏi ở dạng quan sát: cân bằng dịch dương có liên quan với tử vong không? Đó là câu hỏi thuần tập, giống Bài báo 2 (Hyun 2023). Hỏi (mời hai ba người trả lời, bật micro): thuần tập kết luận được gì mà RCT không làm được, và ngược lại? Dự kiến: liên quan, không phải nhân quả. Nhưng người bệnh thực tế và đông hơn.
+Hỏi: thuần tập kết luận được điều gì mà thử nghiệm thì không? Kỳ vọng: mối liên quan, không phải quan hệ nhân quả.
 :::
 
 ## FLUID-ICU tóm tắt (thuần tập mô phỏng)
@@ -716,19 +596,11 @@ Thuần tập tiến cứu đa trung tâm tại 4 khoa hồi sức tích cực (
 :::
 
 ::: {.notes}
-Ý chính: trước mọi phân tích, phải hiểu nghiên cứu: ai, phơi nhiễm, kết cục, đo thêm những gì.
+Hiểu nghiên cứu trước khi phân tích.
 
-Đối tượng: 620 người lớn nhiễm khuẩn huyết ở 4 ICU (ICU A 191, ICU B 164, ICU C 147, ICU D 118), tuyển từ 01/2023 đến 12/2024. Dữ liệu mô phỏng.
+620 người lớn nhiễm khuẩn huyết, 4 ICU, 2023-2024. Phơi nhiễm: cân bằng dịch tích lũy đến ngày 3, dương ở 373 trên 618 (60.4%). Kết cục chính: tử vong đến ngày 28, 179 trên 620 (28.9%).
 
-Phơi nhiễm: cân bằng dịch tích lũy đến ngày 3, (tổng dịch vào trừ tổng dịch ra trong ngày 1-3) chia cho cân nặng lúc vào, đơn vị ml/kg. Cân bằng dương ở 373 trong 618 người bệnh tính được cân bằng (60.4%), trung vị 8.8 ml/kg (IQR -10.3 đến 26.2).
-
-Kết cục chính: tử vong đến ngày 28: 179 trong 620 (28.9%). Thời gian đến tử vong cũng được ghi (người sống được kiểm duyệt ở ngày 28).
-
-Các biến khác: nhân khẩu học, bệnh kèm, nguồn nhiễm khuẩn, điểm mức độ nặng (SOFA = đánh giá suy đa cơ quan tuần tự, APACHE II = thang điểm sinh lý cấp tính và bệnh mạn tính II), lactat, vận mạch, thở máy, AKI, lọc máu, số ngày không thở máy, thời gian nằm ICU.
-
-Từ điển dữ liệu đầy đủ ở Course/Data/data\_dictionary.md (cũng được gửi dạng PDF): cùng cấu trúc với từ điển anh chị thấy ở phần 5.1.
-
-Hỏi (mời hai ba người trả lời, bật micro): từ những gì đã học ở Buổi 4 và Bài báo 2, anh chị đoán người bệnh nào có cân bằng dương? Dự kiến: những người nặng nhất. Hãy nhớ điều này cho Bảng 1 và Buổi 6.
+Hỏi: ai sẽ có cân bằng dương? Kỳ vọng: người nặng nhất. Nhớ điều này khi xem Bảng 1.
 :::
 
 ## Từ 623 dòng đến 527 trường hợp đầy đủ
@@ -769,19 +641,9 @@ FLUID-ICU (mô phỏng): ai được đưa vào ở mỗi bước, và vì sao k
 :::
 
 ::: {.notes}
-Ý chính: luồng người bệnh (sơ đồ STROBE trong bản thảo, STROBE là hướng dẫn báo cáo cho nghiên cứu quan sát, Buổi 7).
+Lưu đồ người bệnh: 623 dòng, bỏ 3 bản ghi trùng, còn 620. 2 người không có cân bằng ngày 3: phân tích 618. 91 người thiếu lactat hoặc tuổi: 527 người trong mô hình hiệu chỉnh.
 
-Tệp thô: 623 dòng. Ba người bệnh bị nhập hai lần: sau khi loại bản trùng còn 620 người bệnh tham gia.
-
-Hai người bệnh không có cân bằng dịch ngày 3 (cân nặng hoặc một lượng dịch ra vô lý và được đặt là thiếu khi làm sạch): 618 người trong quần thể phơi nhiễm, dùng cho Bảng 1 và các so sánh.
-
-Thêm 91 người không có lactat (hoặc tuổi): 527 trường hợp đầy đủ cho mô hình hiệu chỉnh ở Buổi 6.
-
-Vì sao quan trọng: 527 trên 620 là 85%. 91 người bệnh thiếu lactat có khác biệt không? Buổi 6 (6.4) trả lời: họ nhẹ hơn.
-
-Hỏi (mời hai ba người trả lời, bật micro): luồng này nằm ở phần nào của bản thảo? Dự kiến: đoạn đầu phần Kết quả (đối tượng nghiên cứu), là Hình 1.
-
-Trang này giờ được dựng bằng các hình chỉnh sửa được (trước đây là ảnh). Các con số không đổi.
+Hỏi: lưu đồ này nằm ở đâu trong bài báo? Kỳ vọng: đoạn đầu của phần Kết quả. Mọi phần Kết quả đều bắt đầu từ đây.
 :::
 
 ## Dữ liệu thô và sạch: bốn ICU thực sự đã gửi gì
@@ -801,17 +663,11 @@ Trang này giờ được dựng bằng các hình chỉnh sửa được (trư�
 :::
 
 ::: {.notes}
-Ý chính: đây là các vấn đề chất lượng dữ liệu tìm thấy trong tệp thô, và cách sửa từng vấn đề. Mời từng người đoán vấn đề ở mỗi dòng trước khi cho xem cột dữ liệu sạch.
+Mời học viên đoán lỗi của từng dòng trước khi mở cột dữ liệu sạch.
 
-Giới tính và các biến có/không được viết nhiều kiểu. Ba định dạng ngày (03/04 là tháng Ba hay tháng Tư?). ICU C gửi lactat bằng mg/dL thay vì mmol/L (phát hiện nhờ so sánh trung vị theo ICU), 999 và -99 dùng làm mã thiếu. Giá trị vô lý (tuổi 210, cân nặng 7 kg, lượng dịch ra âm). Bản ghi trùng (623 dòng cho 620 người bệnh).
+Mỗi lỗi làm hỏng phân tích một cách âm thầm: 999 kéo trung bình lên, 'Y' và 'Yes' thành hai nhóm, mg/dL làm ICU C trông như thảm họa.
 
-Mỗi vấn đề làm hỏng phân tích một cách lặng lẽ: lactat 999 làm trung bình tăng vọt. 'Y' và 'Yes' thành hai nhóm. Giá trị mg/dL làm lactat ở ICU C trông cao bất thường.
-
-Giá trị vô lý được đặt là thiếu và gửi câu hỏi đến cơ sở. Người bệnh vẫn ở trong nghiên cứu. Không bao giờ đoán.
-
-Nối với 5.1: mọi vấn đề này đều có thể được ngăn bằng CRF điện tử có quy tắc kiểm tra và từ điển dữ liệu.
-
-Hỏi (mời hai ba người trả lời, bật micro): vấn đề nào anh chị sẽ không bao giờ phát hiện nếu không có biểu đồ hoặc tóm tắt theo ICU? Dự kiến: đơn vị lactat.
+Giá trị vô lý được chuyển thành thiếu và gửi câu hỏi về cơ sở. Không bao giờ đoán.
 :::
 
 ## Trình diễn: làm sạch FLUID-ICU bằng R
@@ -847,23 +703,19 @@ Chú ý
 :::
 
 ::: {.notes}
-Trình diễn trực tiếp trên màn hình chia sẻ, 8 phút. Kịch bản đầy đủ với kết quả dự kiến và ảnh chụp dự phòng: Course/Demos/s5\_demo.md (Phần A).
+Trình diễn trực tiếp, 8 phút. Kịch bản và ảnh dự phòng: s5\_demo\_VN.md, Phần A.
 
-Giảng viên chạy R. Học viên quan sát. Chạy từng khối bằng Ctrl+Enter và nói to mỗi khối sửa gì. Trước mỗi khối, mời cả lớp dự đoán (bình chọn, hoặc mời hai ba người trả lời).
+Chạy từng khối và nói khối đó sửa gì. Cho lớp đoán trước.
 
-Cho thấy: dữ liệu thô đọc dưới dạng văn bản, 623 dòng giảm còn 620 sau khi loại 3 bản trùng. Bảng các cách viết giới tính trước và sau. Ba định dạng ngày. Trung vị lactat theo ICU (ICU C cao gấp khoảng 9 lần) và phép đổi đơn vị. Giá trị vô lý đặt là thiếu. Bước kiểm tra cuối cùng cho thấy tệp đã làm sạch giống hệt tệp tham chiếu.
+Ba ý: tệp thô không bao giờ bị sửa, mỗi lỗi một khối, script cho cùng một kết quả mỗi lần chạy.
 
-Ý chính: (1) tệp thô không bao giờ bị sửa. (2) một vấn đề, một khối, một dòng nhật ký. (3) vì là script, ai cũng có thể chạy lại và được đúng dữ liệu sạch đó: tính tái lập.
-
-Nếu R lỗi: chiếu lại trang dữ liệu thô và sạch và ảnh chụp trong kịch bản trình diễn. Ý chính vẫn như vậy.
-
-Không để trình diễn quá giờ: dừng sau 8 phút, kể cả khi phải bỏ một khối.
+Dừng ở phút thứ 8.
 :::
 
 ## Nhật ký làm sạch dữ liệu: dấu vết của mọi thay đổi
 
 ::: {.neu-intro}
-Course/Data/cleaning\_log.md: mỗi thay đổi trên dữ liệu thô là một dòng.
+cleaning\_log.md: mỗi thay đổi trên dữ liệu thô là một dòng.
 :::
 
 :::: {.neu-cards style="--n:4"}
@@ -901,25 +753,19 @@ Course/Data/cleaning\_log.md: mỗi thay đổi trên dữ liệu thô là một
 :::
 
 ::: {.notes}
-Ý chính: nhật ký làm sạch dữ liệu là dấu vết của mọi thay đổi trên bộ dữ liệu. Mở tệp thật trên màn hình chia sẻ (Course/Data/cleaning\_log.md).
+Nhật ký làm sạch (cleaning\_log\_VN.md): mỗi thay đổi một dòng, kèm lý do.
 
-Nguyên tắc: tệp thô không bao giờ bị sửa. Mọi thay đổi được thực hiện bằng script và ghi lại.
+Giá trị vô lý được chuyển thành thiếu và gửi câu hỏi. Người bệnh vẫn ở lại trong nghiên cứu.
 
-Mỗi dòng: vấn đề phát hiện, số bản ghi, đã làm gì và vì sao (ví dụ: lactat ở ICU C tính bằng mg/dL, chia cho 9.01 để ra mmol/L, đã xác nhận với phòng xét nghiệm của cơ sở).
+Phần còn lại là dữ liệu thiếu thật: lactat 93 trên 620 (15.0%).
 
-Câu hỏi gửi cơ sở: giá trị vô lý được đặt là thiếu và gửi câu hỏi đến cơ sở. Không xóa người bệnh (xóa sẽ làm sai lệch mẫu).
-
-Phần còn lại sau làm sạch là dữ liệu thiếu thật: lactat 93 trên 620 (15.0%), mọi biến khác 1% hoặc ít hơn. Các ô trống này là chủ đề của phần 6.4 thứ Bảy tuần sau.
-
-Hỏi (mời hai ba người trả lời, bật micro): vì sao không xóa luôn người bệnh có tuổi 210? Dự kiến: phần còn lại của hồ sơ vẫn đúng. Xóa người bệnh vì lỗi gõ có thể làm sai lệch mẫu.
-
-Phần Phương pháp trong bản thảo sẽ ghi: 'Dữ liệu được làm sạch bằng script. Mọi thay đổi được ghi trong nhật ký làm sạch dữ liệu.'
+Hỏi: sao không xóa người bệnh 210 tuổi? Kỳ vọng: phần còn lại của hồ sơ vẫn đúng.
 :::
 
 ## Năm câu hỏi, một bộ dữ liệu
 
 ::: {.neu-intro}
-Trên lớp, cả lớp cùng đi qua năm câu. Với bản thảo, mỗi anh chị chọn một câu.
+Trên lớp, cả lớp cùng đi qua năm câu. Cuối Buổi 6, mỗi anh chị chọn một câu.
 :::
 
 :::: {.neu-cards style="--n:5"}
@@ -957,25 +803,17 @@ Trên lớp, cả lớp cùng đi qua năm câu. Với bản thảo, mỗi anh c
 ::::
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Chúng tôi đưa kết quả. Anh chị viết bài về câu hỏi mình chọn.
+**THÔNG ĐIỆP CHÍNH** Chúng tôi đưa kết quả. Anh chị viết phần Kết quả cho câu hỏi mình chọn.
 :::
 
 ::: {.notes}
-Ý chính: một bộ dữ liệu, năm câu hỏi nghiên cứu khác nhau, tương ứng các mục tiêu phụ trong kế hoạch phân tích thống kê (SAP) của FLUID-ICU (Course/Data/SAP\_FLUID-ICU.md).
+Một bộ dữ liệu, năm câu hỏi, đều lấy từ SAP của FLUID-ICU.
 
-Câu hỏi 1 (Q1): cân bằng dịch dương đến ngày 3 và tử vong 28 ngày: hồi quy logistic cùng Kaplan-Meier và Cox. Câu hỏi chính. Cả lớp làm Q1 đầy đủ ở Buổi 5 và 6.
+Q1 (câu hỏi chính) làm đầy đủ ở Buổi 5 và 6. Q2 đến Q5 làm ngắn hơn.
 
-Câu hỏi 2 (Q2): cân bằng dịch tích lũy và tổn thương thận cấp: hồi quy logistic.
+Mỗi câu hỏi có một gói kết quả (Results\_Pack\_Q1\_VN đến Q5\_VN, PDF, gửi qua email).
 
-Câu hỏi 3 (Q3): cân bằng dịch tích lũy và số ngày không thở máy: biến đếm từ 0 đến 28, dồn ở hai đầu: Mann-Whitney và hồi quy tuyến tính.
-
-Câu hỏi 4 (Q4): lactat ban đầu và tử vong 28 ngày, và ảnh hưởng của lactat bị thiếu: phân tích các trường hợp đầy đủ so với quy gán đa bội.
-
-Câu hỏi 5 (Q5): cân bằng dịch và thời gian nằm ICU ở người sống: kết cục lệch (trung vị, IQR, thang log).
-
-Mỗi câu hỏi có một gói kết quả phân tích: Course/Data/results\_packs/Results\_Pack\_Q1 đến Q5 (Bảng 1, biểu đồ, bảng hồi quy, ghi chú dễ hiểu), đã gửi cho mọi người dạng PDF trước buổi học. Trên lớp, cả năm câu được dùng làm ví dụ minh họa (Q1 đầy đủ, Q2 đến Q5 ngắn gọn hơn).
-
-Với bản thảo (Tuần 7-8), mỗi học viên chọn một câu hỏi và viết bài từ gói kết quả của câu đó: chúng tôi đưa kết quả, anh chị viết bài. Đề nghị học viên báo lựa chọn (chat, email hoặc biểu mẫu của khóa học) trước Buổi 6.
+Cuối Buổi 6, mỗi học viên chọn một câu hỏi và viết phần Kết quả từ gói kết quả đó.
 :::
 
 ## Cả lớp cùng viết Câu hỏi 1 thành câu PECO
@@ -987,7 +825,7 @@ CẢ LỚP CÙNG LÀM · 4 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0D7377"}
-- Mở gói kết quả Q1 (tệp PDF gửi trước buổi học), trang 1
+- Mở gói kết quả Q1 (Results\_Pack\_Q1\_VN.pdf, gửi qua email), trang 1
 - Câu hỏi cho cả lớp: kết cục là gì, thuộc loại biến nào?
 - Câu hỏi cho cả lớp: phơi nhiễm là gì, thuộc loại biến nào?
 - Giảng viên viết Q1 thành một câu PECO trên màn hình chia sẻ
@@ -1011,15 +849,11 @@ PECO cho Q1
 :::
 
 ::: {.notes}
-Bài tập cả lớp, 4 phút (20:36 đến 20:40). Bài 7 trong phiếu bài tập Buổi 5 có cùng bảng. Học viên tự hoàn thành sau cho câu hỏi mình chọn.
+Cả lớp, 4 phút (20:36-20:40). Bài 7 của phiếu bài tập.
 
-PECO: P = đối tượng, E = phơi nhiễm, C = so sánh, O = kết cục (dạng quan sát của PICO ở Buổi 1). Dùng các loại biến số ở phần 5.1.
+Q1: mời học viên nêu loại kết cục (nhị phân, cũng là thời gian đến sự kiện) và loại phơi nhiễm (nhị phân). Gõ: 'Ở người lớn nhiễm khuẩn huyết tại ICU, cân bằng dịch dương đến ngày 3, so với cân bằng âm, có liên quan với tử vong 28 ngày cao hơn không?'
 
-Q1 đầy đủ: mời hai ba người trả lời về loại kết cục (nhị phân, và cũng là thời gian đến sự kiện) và loại phơi nhiễm (nhị phân: cân bằng dương so với âm). Rồi gõ câu: 'Ở người lớn nhiễm khuẩn huyết nằm ICU, cân bằng dịch tích lũy dương đến ngày 3, so với cân bằng âm, có liên quan với tử vong 28 ngày cao hơn không?'
-
-Q2 đến Q5, mỗi câu một dòng: Q2 kết cục nhị phân (AKI), phơi nhiễm liên tục. Q3 kết cục đếm (0-28, lệch), phơi nhiễm liên tục. Q4 kết cục nhị phân, phơi nhiễm liên tục (lactat) có giá trị thiếu. Q5 kết cục liên tục lệch (chỉ người sống), phơi nhiễm nhị phân.
-
-Sau đó giải lao.
+Q2 đến Q5: mỗi câu một dòng. Sau đó giải lao.
 :::
 
 ---
@@ -1033,13 +867,9 @@ Sau đó giải lao.
 :::
 
 ::: {.notes}
-Slide chỉ có hình, có chủ ý. Trước giờ giải lao, nói: lớp bắt đầu lại lúc 20:55 với phần 5.3 (trung bình hay trung vị, SD hay IQR, biểu đồ nào, biểu đồ tốt và chưa tốt, Bảng 1). Tùy chọn: xem Bảng 1 trong gói kết quả Q1.
+Giải lao (20:40-20:55). Nói: 20:55 bắt đầu lại với phần 5.3.
 
-Giải lao: 15 phút (20:40 đến 20:55). Bắt đầu lại đúng giờ.
-
-Trong giờ giải lao: kiểm tra dự án R cho 02\_describe.R mở và chạy được, và các hình dự phòng cho phần 5.4 đã sẵn sàng để chia sẻ.
-
-Đọc khung chat, hoặc hỏi hai ba người điều gì khó nhất đến giờ (thường là phần làm sạch bộ dữ liệu khóa học). Điều chỉnh tốc độ phần 5.3.
+Kiểm tra 02\_describe.R chạy được và các hình dự phòng cho 5.4 đã sẵn sàng.
 :::
 
 ## 5.3 Mô tả và trình bày dữ liệu
@@ -1055,13 +885,9 @@ Trước khi so sánh các nhóm, hãy mô tả chúng.
 ::::
 
 ::: {.notes}
-Mở đầu phần 5.3 (35 phút, 20:55 đến 21:30: ví dụ tính tay, trung bình và trung vị, độ phân tán, hình dạng, kiểm tra nhanh, chọn biểu đồ, biểu đồ trung thực, Bảng 1 và bảng đạt chuẩn công bố).
+Phần 5.3 (20:55-21:30).
 
-Thông điệp chính: mọi bài báo đều bắt đầu phần kết quả bằng việc mô tả người bệnh: họ là ai, nặng đến mức nào, bao nhiêu tuổi. Với một biến số, anh chị cần hai con số: giá trị trung tâm (người bệnh điển hình ở đâu?) và độ phân tán (các người bệnh khác nhau đến mức nào?).
-
-Việc chọn giữa hai bộ (trung bình và SD, hay trung vị và IQR) phụ thuộc vào một điều: hình dạng của dữ liệu.
-
-Chuyển ý: hãy nhìn vào biến số lệch nổi tiếng nhất trong y khoa bệnh viện: thời gian nằm viện.
+Thông điệp: mỗi biến số cần một giá trị trung tâm và một độ phân tán. Hình dạng dữ liệu quyết định dùng cặp nào: trung bình (SD) hay trung vị (IQR).
 :::
 
 ## Ví dụ minh họa: tính trung bình và trung vị bằng tay
@@ -1098,19 +924,13 @@ Thời gian nằm ICU của 7 người bệnh (ngày): 1, 2, 2, 3, 4, 6, 24
 :::
 
 ::: {.notes}
-Ví dụ minh họa (3 phút). Gõ bảy con số lên màn hình chia sẻ (bảng trắng hoặc một trang trống).
+Ví dụ minh họa (3 phút). Gõ bảy số ngày nằm viện lên màn hình.
 
-Xếp hàng: đã được sắp xếp sẵn: 1, 2, 2, 3, 4, 6, 24.
+Trung vị: người thứ 4, 3 ngày. Trung bình: 42 / 7 = 6 ngày. Một ca nằm lâu làm trung bình tăng gấp đôi.
 
-Trung vị: người ở giữa trong bảy người là người thứ 4: 3 ngày. Một nửa nằm ít hơn, một nửa nằm lâu hơn.
+Hỏi: nếu người đó nằm 60 ngày? Kỳ vọng: trung vị vẫn là 3, trung bình khoảng 11.
 
-Trung bình: cộng lại: 1 + 2 + 2 + 3 + 4 + 6 + 24 = 42. Chia cho 7 = 6 ngày.
-
-So sánh: sáu trong bảy người bệnh nằm 6 ngày hoặc ít hơn. Trung bình 6 bị kéo lên bởi một ca 24 ngày. Trung vị mô tả người bệnh điển hình.
-
-Hỏi tiếp (mời hai ba người trả lời, bật micro): nếu ca nằm lâu nằm 60 ngày thay vì 24, điều gì xảy ra? Dự kiến: trung vị vẫn là 3, trung bình tăng lên khoảng 11 (78 / 7 = 11.1).
-
-Đây là phép tính tay duy nhất hôm nay. Sau đó máy tính làm và anh chị diễn giải.
+Đây là phép tính tay duy nhất hôm nay.
 :::
 
 ## Trung bình hay trung vị? Hãy nhìn hình dạng trước
@@ -1122,19 +942,11 @@ Hỏi tiếp (mời hai ba người trả lời, bật micro): nếu ca nằm l�
 :::
 
 ::: {.notes}
-Ý chính: trung vị là người bệnh ở giữa khi xếp hàng tất cả mọi người. Trung bình là trung bình cộng.
+Phần lớn người bệnh nằm 1 đến 5 ngày, vài người nằm hàng tuần: trung bình (3.9) bị kéo sang phải trung vị (2.8).
 
-Trong ICU mô phỏng này, phần lớn người bệnh nằm 1 đến 5 ngày, nhưng một số ít nằm 3 đến 6 tuần. Vài ca nằm lâu đó kéo trung bình sang phải (3.9 ngày) trong khi trung vị vẫn ở cạnh người bệnh điển hình (2.8 ngày).
+Quy tắc nhanh: trung bình và trung vị cách xa nhau nghĩa là phân bố lệch, hãy báo cáo trung vị.
 
-Diễn giải lâm sàng: nếu lãnh đạo nói 'thời gian nằm ICU trung bình là 3.9 ngày', thì phần lớn người bệnh của anh chị thực ra rời ICU sớm hơn thế.
-
-Quan niệm sai: 'trung bình luôn là con số đúng'. Với dữ liệu lệch, nó không mô tả người bệnh thật nào cả.
-
-Quy tắc nhanh: nếu trung bình và trung vị cách xa nhau, dữ liệu bị lệch: hãy báo cáo trung vị.
-
-Hỏi (mời hai ba người trả lời, bật micro): kể tên các biến lệch khác trong công việc của anh chị. Dự kiến: chi phí điều trị, CRP, troponin, thời gian đến khi dùng kháng sinh, số ngày thở máy.
-
-Ví dụ xuyên suốt: Bài báo 1 (Boulet 2024) báo cáo cân bằng dịch tích lũy bằng trung vị (6.9 so với 35.0 ml/kg) chính vì lý do này.
+Hỏi: biến nào khác trong công việc của anh chị bị lệch? Kỳ vọng: chi phí, CRP, số ngày thở máy.
 :::
 
 ## Độ phân tán: SD cho dữ liệu đối xứng, IQR cho dữ liệu lệch
@@ -1146,17 +958,11 @@ Ví dụ xuyên suốt: Bài báo 1 (Boulet 2024) báo cáo cân bằng dịch t
 :::
 
 ::: {.notes}
-Ý chính: độ phân tán cho biết các người bệnh khác nhau đến mức nào.
+Dữ liệu đối xứng: trung bình (SD). Dữ liệu lệch: trung vị (IQR), tức nửa giữa của người bệnh.
 
-Bên trái: tuổi gần đối xứng. Độ lệch chuẩn (SD) là khoảng cách điển hình từ một người bệnh đến giá trị trung bình. Với dữ liệu hình chuông, khoảng hai phần ba người bệnh nằm trong phạm vi một SD quanh trung bình.
+Đọc to 'trung vị 2.8 (IQR 1.5-4.7)' bằng lời đơn giản.
 
-Bên phải: thời gian nằm ICU bị lệch. Biểu đồ hộp thể hiện trung vị (vạch đậm), hộp từ bách phân vị 25 đến 75 (khoảng tứ phân vị, IQR: 50% người bệnh ở giữa), các râu và giá trị ngoại lai là các chấm.
-
-Cách đọc 'trung vị 2.8 (IQR 1.5-4.7)': một nửa số người bệnh nằm dưới 2.8 ngày. Một nửa ở giữa nằm từ 1.5 đến 4.7 ngày.
-
-Lỗi thường gặp: báo cáo trung bình kèm IQR, hoặc trung vị kèm SD. Và nhầm SD (độ phân tán của người bệnh) với sai số chuẩn hay khoảng tin cậy (độ chính xác của ước lượng), sẽ học ở phần 6.1.
-
-Ví dụ Bài báo 1: cân bằng dịch nhóm chứng 'trung vị 35.0 (IQR -7.9, 40.2)'. Chỉ ra tứ phân vị dưới là số âm: một phần tư người bệnh có cân bằng dịch âm.
+Lỗi thường gặp: trung bình đi với IQR, trung vị đi với SD, và nhầm SD (độ phân tán giữa người bệnh) với KTC (độ chính xác, 6.1).
 :::
 
 ## Vì sao là hai hình dạng này? Chúng bao phủ phần lớn dữ liệu lâm sàng
@@ -1168,21 +974,11 @@ Ví dụ Bài báo 1: cân bằng dịch nhóm chứng 'trung vị 35.0 (IQR -7.
 :::
 
 ::: {.notes}
-Ý chính: hai hình dạng bao phủ phần lớn dữ liệu lâm sàng.
+Hai hình dạng bao phủ phần lớn dữ liệu lâm sàng: đối xứng (sinh lý, kích thước cơ thể) và lệch phải (thời gian, số đếm, chi phí, xét nghiệm không thể dưới 0).
 
-Vì sao là hai hình dạng này (câu hỏi của người phản biện): hầu hết số đo lâm sàng hoặc tập trung quanh một giá trị điển hình (kích thước cơ thể, các chỉ số sinh lý được cơ thể điều hòa chặt: đối xứng), hoặc không thể nhỏ hơn 0 nhưng có thể rất cao (thời gian, số đếm, chi phí, dấu ấn viêm: lệch phải). Hai dạng này bao phủ phần lớn biến số trong một bộ dữ liệu lâm sàng và dẫn tới hai cách tóm tắt dữ liệu.
+Hình dạng cũng quyết định kiểm định ở 6.1.
 
-Có những hình dạng khác nhưng hiếm hơn: lệch trái (có trần, ví dụ tuổi thai lúc sinh, độ bão hòa oxy), hai đỉnh (trộn hai nhóm, ví dụ tuổi ở một khoa nhận cả trẻ em và người lớn). Với mọi hình dạng không rõ ràng là đối xứng, hãy trình bày biểu đồ tần suất và báo cáo trung vị (IQR).
-
-Đối xứng, hình chuông (thường gọi là 'phân phối chuẩn'): trung bình và trung vị trùng nhau. Ví dụ: tuổi ở người lớn, chiều cao, hemoglobin, huyết áp tâm thu. Báo cáo trung bình (SD).
-
-Lệch phải: một đuôi dài các giá trị cao kéo trung bình sang phải trung vị. Ví dụ: thời gian nằm viện, chi phí, CRP, nhiều xét nghiệm không thể âm. Báo cáo trung vị (IQR).
-
-Kiểm tra nhanh không cần phần mềm: nếu SD lớn hơn một nửa giá trị trung bình với một biến không thể âm, nhiều khả năng biến đó bị lệch.
-
-Vì sao quan trọng về sau: hình dạng cũng quyết định kiểm định (kiểm định t cho dữ liệu đối xứng, Mann-Whitney cho dữ liệu lệch). Đó là bảng chọn kiểm định ở phần 6.1.
-
-Hỏi (mời hai ba người trả lời, bật micro): 'số ngày dùng vận mạch' đối xứng hay lệch? Dự kiến: lệch (phần lớn người bệnh 1-3 ngày, một số vài tuần).
+Hỏi: số ngày dùng vận mạch đối xứng hay lệch? Kỳ vọng: lệch.
 :::
 
 ## Kiểm tra nhanh: tóm tắt bằng gì?
@@ -1217,19 +1013,11 @@ CÂU HỎI NHANH · 3 phút
 :::
 
 ::: {.notes}
-Kiểm tra nhanh (3 phút), giữa phần 5.3. Làm dưới dạng bình chọn (mỗi câu một lượt).
+Kiểm tra (3 phút), mỗi mục một cuộc thăm dò.
 
-C1: trung vị (IQR): thời gian nằm viện lệch phải.
+Thời gian nằm viện: trung vị (IQR). Tuổi: trung bình (SD). Thở máy: n (%). Giai đoạn AKI: n (%) theo từng giai đoạn kèm biểu đồ cột, không bao giờ dùng 'giai đoạn trung bình'.
 
-C2: trung bình (SD): dữ liệu hình chuông.
-
-C3: n (%): biến nhị phân không có trung bình hay SD. Báo cáo số lượng và phần trăm.
-
-C4: n (%) cho từng giai đoạn, thể hiện bằng biểu đồ cột. Trung vị giai đoạn cũng chấp nhận được với biến thứ hạng. Không báo cáo 'giai đoạn trung bình 1.8'.
-
-Nếu nhiều người sai C1, quay lại trang biểu đồ tần suất một phút.
-
-Chuyển ý: giờ là cách trình bày các con số tóm tắt: biểu đồ, hình và bảng.
+Nếu nhiều người sai mục 1, quay lại biểu đồ tần suất.
 :::
 
 ## Biểu đồ nào cho loại dữ liệu nào?
@@ -1241,19 +1029,9 @@ Chuyển ý: giờ là cách trình bày các con số tóm tắt: biểu đồ,
 :::
 
 ::: {.notes}
-Ý chính: bốn loại biểu đồ bao phủ phần lớn nhu cầu mô tả dữ liệu. Đường cong sống còn (Kaplan-Meier) được giới thiệu ở Buổi 6, khi phân tích kết cục thời gian đến sự kiện.
+Bốn biểu đồ đủ cho phần lớn nhu cầu: biểu đồ cột (một biến phân nhóm), biểu đồ tần suất (một biến số), biểu đồ hộp (một biến số theo nhóm), biểu đồ phân tán (hai biến số).
 
-Một biến phân loại: biểu đồ cột với số lượng hoặc phần trăm (nguồn nhiễm khuẩn). Tránh biểu đồ tròn 3 chiều.
-
-Một biến số: biểu đồ tần suất (histogram) để thấy hình dạng (thời gian nằm viện).
-
-Một biến số so sánh giữa các nhóm: các biểu đồ hộp đặt cạnh nhau (cân bằng dịch ở nhóm hạn chế dịch so với thường quy).
-
-Hai biến số: biểu đồ phân tán (cân bằng dịch theo lactat).
-
-Lỗi thường gặp: biểu đồ cột thể hiện trung bình với thanh sai số nhỏ cho dữ liệu lệch. Nó che giấu hình dạng và các giá trị ngoại lai. Biểu đồ hộp cho thấy nhiều hơn hẳn.
-
-Hỏi (mời hai ba người trả lời, bật micro): anh chị dùng biểu đồ nào để so sánh thời gian nằm ICU giữa hai nhóm dịch truyền? Dự kiến: các biểu đồ hộp đặt cạnh nhau (biến số lệch, theo nhóm).
+Hỏi: biểu đồ nào so sánh thời gian nằm ICU giữa hai nhóm dịch? Kỳ vọng: các biểu đồ hộp đặt cạnh nhau.
 :::
 
 ## Cho thấy dữ liệu: biểu đồ 'thuốc nổ' (dynamite plot) và chấm + hộp
@@ -1280,19 +1058,13 @@ Thấy từng người bệnh: hình dạng, độ phân tán và giá trị ngo
 ::::
 
 ::: {.notes}
-Ý chính: 'biểu đồ thuốc nổ' (dynamite plot: cột trung bình kèm thanh sai số) là hình xấu phổ biến nhất trên các tạp chí lâm sàng. Nó chỉ cho thấy hai con số mỗi nhóm và che giấu phần còn lại.
+Biểu đồ 'thuốc nổ' che mất hình dạng và giá trị ngoại lai. Các chấm cho thấy một người bệnh 160 ml/kg kéo trung bình lên và hai nhóm chồng lấn nhiều.
 
-Bên trái: các cột gợi ý nhóm thường quy có cân bằng dịch cao hơn nhiều. Bên phải: cùng dữ liệu mô phỏng thể hiện bằng các chấm kèm biểu đồ hộp. Giờ thấy rõ một người bệnh cực đoan (160 ml/kg) kéo trung bình nhóm thường quy lên, dữ liệu bị lệch, và hai nhóm chồng lấp nhiều.
+Luôn ghi thanh sai số là SD, SE hay KTC 95%.
 
-Chú ý thêm: hình bên trái dùng sai số chuẩn (SE), không phải SD, làm độ phân tán trông nhỏ. Luôn ghi rõ thanh sai số là SD, SE hay KTC 95%.
+Hỏi: chỉ nhìn hình bên trái, anh chị sẽ kết luận gì?
 
-Quy tắc: với ít hơn khoảng 100 người bệnh mỗi nhóm, hãy thể hiện từng điểm dữ liệu.
-
-Nhiều tạp chí hiện nay khuyến cáo rõ không dùng biểu đồ cột cho dữ liệu liên tục.
-
-Hỏi (mời hai ba người trả lời, bật micro): chỉ nhìn hình bên trái, anh chị sẽ kết luận gì? Dự kiến: 'nhóm thường quy rõ ràng cao hơn'. Đó chính là mối nguy.
-
-Thời lượng: 2 phút.
+Thời gian: 2 phút.
 :::
 
 ## 'Bảng 1' cho biết điều gì
@@ -1310,21 +1082,13 @@ Số liệu minh họa. Đối xứng: trung bình (SD). Lệch: trung vị (IQR
 :::
 
 ::: {.notes}
-Ý chính: Bảng 1 (bảng đặc điểm nền) trong hầu hết các bài báo lâm sàng mô tả đặc điểm ban đầu của người bệnh theo từng nhóm.
+Bảng 1 mô tả người bệnh lúc ban đầu, theo nhóm. Cách tóm tắt ghi ngay ở nhãn dòng.
 
-Đọc từng dòng: cách tóm tắt được ghi ngay trong nhãn dòng. Biến đối xứng dùng trung bình (SD), biến lệch dùng trung vị (IQR), biến phân loại dùng n (%).
+Hai câu hỏi: những người bệnh này có giống người bệnh của tôi không, và các nhóm có giống nhau lúc ban đầu không?
 
-Hai câu hỏi cho mọi Bảng 1: (1) Những người bệnh này có giống người bệnh của tôi không? (khả năng khái quát hóa) (2) Các nhóm có giống nhau lúc ban đầu không? (so sánh công bằng).
+Trong thử nghiệm, khác biệt là do ngẫu nhiên (không cần giá trị p). Trong thuần tập, khác biệt lớn là dấu hiệu nhiễu.
 
-Trong RCT, các nhóm sẽ giống nhau một cách ngẫu nhiên nhờ phân bổ ngẫu nhiên. Khác biệt nhỏ là bình thường. Nhiều hướng dẫn (CONSORT, hướng dẫn báo cáo thử nghiệm) khuyên không dùng giá trị p trong Bảng 1 của RCT, vì mọi khác biệt theo định nghĩa đều do ngẫu nhiên.
-
-Trong nghiên cứu thuần tập (Bài báo 2), khác biệt lớn lúc ban đầu là dấu hiệu cảnh báo nhiễu. Đó là lý do Bài báo 2 ghép cặp người bệnh theo điểm xu hướng trước khi so sánh.
-
-Số liệu trên trang là minh họa, không lấy từ Bài báo 1. Bảng 1 thật của Bài báo 1 có 24 người bệnh mỗi nhóm. Học viên có thể mở xem trong Course/Papers.
-
-Hỏi (mời hai ba người trả lời, bật micro): anh chị lo ngại điều gì nếu nhóm hạn chế dịch có SOFA trung vị 6 còn nhóm thường quy là 11? Dự kiến: hai nhóm không so sánh được. Một nhánh có người bệnh nặng hơn.
-
-Trang này giờ là bảng chỉnh sửa được (trước đây là ảnh). Thời lượng: 2 phút. Tiếp theo: một bảng được viết chưa tốt và tốt.
+Số liệu chỉ để minh họa.
 :::
 
 ## Bảng đạt chuẩn công bố: chưa tốt và tốt
@@ -1351,25 +1115,11 @@ Gọn, tự giải thích, sẵn sàng gửi tạp chí
 ::::
 
 ::: {.notes}
-Ý chính: một bảng trong bài báo phải tự giải thích được, không cần đọc phần chữ. So sánh hai phiên bản theo từng dòng. (Hai bảng này cố ý giữ dạng ảnh: bảng chưa tốt cho thấy lỗi định dạng, như kẻ ô dày đặc, mà bảng gốc trên trang chiếu sẽ không thể hiện được.)
+Bảng phải tự đọc hiểu được. So sánh từng dòng: tên nhóm và n ở tiêu đề cột, đơn vị và cách tóm tắt ở nhãn dòng, số thập phân hợp lý, chú thích chữ viết tắt.
 
-Tiêu đề cột: 'Nhóm A / Nhóm B' không cho người đọc biết gì. Hãy ghi tên nhóm và số người bệnh mỗi cột (n = 24).
+Hỏi: tìm bốn lỗi trong bảng bên trái trong 30 giây.
 
-Nhãn dòng: ghi đơn vị và cách tóm tắt: 'Tuổi, năm, trung bình (SD)', 'Lactat, mmol/L, trung vị (IQR)'.
-
-Con số: số thập phân hợp lý và nhất quán: tuổi là số năm nguyên, phần trăm không cần số thập phân với mẫu nhỏ, lactat một chữ số thập phân. 63.4567 gợi ý một độ chính xác không hề có.
-
-Biến phân loại ghi n (%), không bao giờ ghi tỷ lệ như 0.375.
-
-Chú thích giải thích mọi chữ viết tắt (SOFA, IQR) và, nếu có giá trị p, kiểm định đã dùng. Trong Bảng 1 của RCT, không đưa giá trị p (CONSORT).
-
-Không kẻ dọc, ít kẻ ngang. Tạp chí sẽ dàn trang lại, nhưng người phản biện vẫn để ý bảng lộn xộn.
-
-Mẫu đề cương và Buổi 7-8 (viết bài báo) dùng đúng các quy tắc này.
-
-Hỏi (mời hai ba người trả lời, bật micro): tìm bốn lỗi trong bảng bên trái trong 30 giây. Dự kiến: không có n, không đơn vị, không %, quá nhiều số thập phân, SOFA không giải thích, giá trị p trong RCT.
-
-Thời lượng: 2 phút.
+Thời gian: 2 phút.
 :::
 
 ## 5.4 Mô tả bộ dữ liệu khóa học
@@ -1385,9 +1135,7 @@ Trước khi so sánh các nhóm, hãy mô tả chúng: giờ với con số th�
 ::::
 
 ::: {.notes}
-Mở đầu phần 5.4 (25 phút, 21:30 đến 21:55: trình diễn trực tiếp Bảng 1 và biểu đồ 6 phút, bốn trang kết quả FLUID-ICU, rồi 10 phút cả lớp cùng đọc Bảng 1).
-
-Thông điệp chính: mọi điều ở phần 5.3 (hình dạng, trung bình hay trung vị, biểu đồ nào, Bảng 1) giờ áp dụng cho FLUID-ICU. Cùng quy tắc, con số thật (mô phỏng).
+Phần 5.4 (21:30-21:55): áp dụng các quy tắc của 5.3 cho FLUID-ICU. Trình diễn, bốn trang kết quả, rồi 10 phút cả lớp cùng đọc Bảng 1.
 :::
 
 ## Trình diễn: Bảng 1 và biểu đồ bằng R
@@ -1423,13 +1171,13 @@ Cùng quy tắc như 5.3
 :::
 
 ::: {.notes}
-Trình diễn trực tiếp trên màn hình chia sẻ, 6 phút. Kịch bản đầy đủ: Course/Demos/s5\_demo.md (Phần B), dùng Course/Data/R/02\_describe.R.
+Trình diễn trực tiếp, 6 phút. Kịch bản: s5\_demo\_VN.md, Phần B (02\_describe.R).
 
-Cho thấy: hình dạng của tuổi (gần đối xứng, nên dùng trung bình và SD) so với lactat và thời gian nằm ICU (lệch phải, nên dùng trung vị và IQR). Bảng 1 theo nhóm cân bằng dịch với các cột chung, âm (n = 245) và dương (n = 373) và số thiếu mỗi biến. Biểu đồ tần suất cân bằng dịch, biểu đồ hộp SOFA theo nhóm, biểu đồ cột nguồn nhiễm khuẩn đã sắp xếp.
+Cho xem hình dạng trước, rồi Bảng 1 theo nhóm cân bằng dịch kèm số giá trị thiếu, rồi các hình.
 
-Nhấn mạnh: không có giá trị p trong Bảng 1 (bảng mô tả, không kiểm định), như đã ghi trong SAP của FLUID-ICU.
+Không có giá trị p trong Bảng 1, đúng như SAP.
 
-Nếu R lỗi: chuyển ngay sang các trang sau. Chúng cho thấy cùng kết quả.
+Nếu R lỗi, các trang sau có cùng kết quả.
 :::
 
 ## Bảng 1 FLUID-ICU: các nhóm có giống nhau lúc đầu?
@@ -1452,17 +1200,13 @@ n = 373 |
 :::
 
 ::: {.notes}
-Ý chính: đọc Bảng 1 với hai câu hỏi từ phần 5.3: người bệnh này có giống người bệnh của tôi không, và các nhóm có giống nhau lúc đầu không?
+Đọc với hai câu hỏi của 5.3.
 
-Tuổi: trung bình 64.6 so với 61.4 năm (âm so với dương): tương tự.
+Tuổi tương tự. Mức độ nặng thì không: SOFA 6 so với 8, vận mạch 24.9% so với 55.0%, thở máy 39.6% so với 57.9%. Suy tim theo chiều ngược lại (22.0% so với 11.5%).
 
-Mức độ nặng không tương tự: SOFA trung vị 6 (4 đến 8) so với 8 (6 đến 10). Vận mạch 61/245 (24.9%) so với 205/373 (55.0%). Thở máy 97/245 (39.6%) so với 216/373 (57.9%). Lactat trung vị 2.2 so với 2.9 mmol/L.
+Người nặng hơn được truyền nhiều dịch hơn: nhiễu do chỉ định.
 
-Suy tim: 54/245 (22.0%) so với 43/373 (11.5%): bác sĩ truyền ít dịch hơn cho người bệnh suy tim.
-
-Diễn giải: người bệnh có cân bằng dương đã nặng hơn trước khi được truyền dịch. Người bệnh nặng hơn được truyền nhiều dịch hơn và tử vong nhiều hơn: nhiễu do chỉ định (Buổi 4). Mọi so sánh thô về tử vong sẽ bị sai lệch. Buổi 6 sẽ hiệu chỉnh.
-
-Hỏi (bình chọn, hoặc mời hai ba người trả lời): chỉ từ bảng này, anh chị dự đoán tỷ số chênh (OR) thô cho tử vong lớn hơn hay nhỏ hơn OR đã hiệu chỉnh? Dự kiến: lớn hơn (mức độ nặng làm nó phình lên).
+Hỏi: OR thô lớn hơn hay nhỏ hơn OR đã hiệu chỉnh? Kỳ vọng: lớn hơn.
 :::
 
 ## Phơi nhiễm: cân bằng dịch tích lũy ngày 3
@@ -1474,13 +1218,9 @@ Hỏi (bình chọn, hoặc mời hai ba người trả lời): chỉ từ bản
 :::
 
 ::: {.notes}
-Ý chính: luôn nhìn phơi nhiễm trước khi sử dụng.
+Xem biến phơi nhiễm trước khi dùng: trung vị 8.8 ml/kg (IQR -10.3 đến 26.2), dương ở 373 trên 618.
 
-Cân bằng dịch tích lũy ngày 3 dao động rộng. Trung vị 8.8 ml/kg (IQR -10.3 đến 26.2). 373 trong 618 người bệnh (60.4%) có cân bằng dương.
-
-Phân tích chính (Q1) cắt biến liên tục tại 0 ml/kg thành hai nhóm. Q2 và Q3 giữ dạng liên tục (mỗi 10 ml/kg). Cắt làm mất thông tin nhưng dễ giải thích hơn. SAP đã cố định lựa chọn này từ trước.
-
-Hỏi (mời hai ba người trả lời, bật micro): anh chị báo cáo biến này trong Bảng 1 bằng cách nào? Dự kiến: trung vị (IQR), như ở đây, vì có đuôi. Phần giữa gần đối xứng nên trung bình (SD) cũng chấp nhận được nếu nói rõ.
+Q1 cắt tại 0 ml/kg. Q2 và Q3 giữ dạng liên tục (mỗi 10 ml/kg). SAP đã quyết định điều này từ trước.
 :::
 
 ## Mức độ nặng theo nhóm: cho thấy từng người bệnh
@@ -1506,13 +1246,11 @@ Hỏi (mời hai ba người trả lời, bật micro): anh chị báo cáo bi�
 :::
 
 ::: {.notes}
-Ý chính: biểu đồ 'chấm kèm hộp' từ phần 5.3, áp dụng cho FLUID-ICU.
+Chấm cộng hộp cho FLUID-ICU: trung vị SOFA 6 so với 8, thấy được từng người bệnh.
 
-Điểm SOFA lúc vào: trung vị 6 (IQR 4 đến 8) ở nhóm cân bằng âm so với 8 (6 đến 10) ở nhóm cân bằng dương. Mỗi chấm là một người bệnh, nên người đọc thấy cả sự chồng lấp và sự dịch chuyển.
+Hình này là bằng chứng trực quan của nhiễu do chỉ định.
 
-Riêng hình này là bằng chứng trực quan của nhiễu do chỉ định trong bộ dữ liệu.
-
-Hỏi (mời hai ba người trả lời, bật micro): vì sao dùng biểu đồ hộp mà không dùng cột trung bình SOFA? Dự kiến: SOFA là điểm có phân phối lệch. Cột sẽ che độ phân tán và sự chồng lấp.
+Hỏi: sao không dùng cột trung bình SOFA? Kỳ vọng: nó che mất độ phân tán và sự chồng lấn.
 :::
 
 ## Kết cục lệch: thời gian nằm ICU ở người sống (Q5)
@@ -1524,13 +1262,11 @@ Hỏi (mời hai ba người trả lời, bật micro): vì sao dùng biểu đ�
 :::
 
 ::: {.notes}
-Ý chính: hình thời gian nằm viện ở phần 5.3 cũng đúng với FLUID-ICU.
+Thời gian nằm ICU ở 439 người sống sót lệch phải: trung bình 7.5, trung vị 6.2 ngày.
 
-Thời gian nằm ICU ở 439 người sống bị lệch phải: vài ca nằm rất lâu kéo trung bình (7.5 ngày) lên trên trung vị (6.2 ngày). Ở tất cả người bệnh: trung bình 7.3, trung vị 6.0.
+Q5 báo cáo trung vị (IQR), dùng Mann-Whitney và thang logarit trong mô hình.
 
-Câu hỏi 5 (Q5) là về kết cục này: báo cáo trung vị (IQR), so sánh bằng kiểm định Mann-Whitney và dùng thang log trong mô hình (Buổi 6).
-
-Hỏi (mời hai ba người trả lời, bật micro): ai cần trang này nhất? Dự kiến: người chọn Q5 cho bản thảo, nhưng bản thảo nào cũng có ít nhất một biến lệch trong Bảng 1.
+Bảng 1 nào cũng có ít nhất một biến lệch.
 :::
 
 ## Cả lớp cùng đọc Bảng 1 của FLUID-ICU
@@ -1566,21 +1302,13 @@ Kiểm tra
 :::
 
 ::: {.notes}
-Bài tập cả lớp, 10 phút (21:45 đến 21:55). Bài 6 trong phiếu bài tập Buổi 5. Đáp án mẫu trong Course/Solutions/s5\_solutions.md.
+Cả lớp, 10 phút (21:45-21:55). Bài 6. Đáp án: s5\_solutions\_VN.md.
 
-Chia sẻ Bảng 1 từ gói kết quả Q1 lên màn hình. Cả năm gói đều có cùng Bảng 1 theo nhóm cân bằng dịch (gói Q5 có thêm bảng cho người sống).
+Thăm dò cách tóm tắt (tuổi: trung bình, SOFA: trung vị, vận mạch: n %). Hỏi khác biệt lớn nhất: mức độ nặng.
 
-Bình chọn (2 phút): tuổi = trung bình (SD), đối xứng. SOFA = trung vị (IQR), điểm lệch. Vận mạch = n (%), nhị phân.
+Cùng viết hai câu, ví dụ 'Trong 620 người bệnh, 618 có cân bằng ngày 3 và 373 (60.4%) có cân bằng dương. Nhóm này nặng hơn (trung vị SOFA 8 so với 6, vận mạch 55.0% so với 24.9%).'
 
-Mời hai ba người trả lời (3 phút): khác biệt lớn nhất = mức độ nặng (SOFA, vận mạch, thở máy). Có người sẽ thấy suy tim đi theo chiều ngược lại: bác sĩ truyền ít dịch hơn cho người bệnh suy tim.
-
-Cùng viết (4 phút), gõ vào tài liệu chia sẻ: 'Trong 620 người bệnh tham gia, 618 người tính được cân bằng dịch ngày 3, 373 (60.4%) có cân bằng dương. Người bệnh có cân bằng dương nặng hơn lúc vào (SOFA trung vị 8 so với 6, vận mạch 55.0% so với 24.9%, thở máy 57.9% so với 39.6%).'
-
-Q2 đến Q5 (1 phút): cùng người bệnh nên cùng Bảng 1. Q5 thêm bảng chỉ cho người sống (n = 439).
-
-Lắng nghe: cách tóm tắt đúng (trung bình hay trung vị), không diễn giải 'ý nghĩa thống kê' trong Bảng 1, và nhận ra mức độ nặng khác nhau giữa các nhóm.
-
-Các câu này đưa thẳng vào phần Kết quả trong bản thảo của mỗi học viên (Buổi 7).
+Hai câu này là phần mở đầu của một phần Kết quả.
 :::
 
 ## Xây dựng đề cương 5: một phần tốt gồm những gì
@@ -1625,19 +1353,11 @@ Làm mẫu trên ví dụ xuyên suốt (một thử nghiệm hạn chế dịch
 :::
 
 ::: {.notes}
-Chiếu 1 phút trước khi giảng viên bắt đầu làm mẫu, để học viên thấy mức độ mong đợi.
+Chiếu 1 phút trước khi làm mẫu để học viên thấy mức yêu cầu.
 
-Bảng biến số: kết cục chính, phơi nhiễm (hoặc can thiệp), 3-5 yếu tố gây nhiễu, mỗi biến kèm loại. Bảng này dẫn dắt mọi thứ khác.
+Bảng biến số làm trước: nó quyết định CRF, từ điển dữ liệu và phân tích.
 
-CRF thu gọn: 6 đến 10 mục thu thập đúng các biến đó, có đơn vị, thời điểm và lựa chọn 'không rõ' (như ví dụ minh họa).
-
-Từ điển dữ liệu: 3 đến 5 dòng với tên biến ngắn, nhãn, loại, đơn vị hoặc mã, và giá trị cho phép.
-
-Kế hoạch quản lý dữ liệu: một hai câu: EDC (thu thập dữ liệu điện tử) hoặc phiếu giấy với nhập liệu kép, mã số nghiên cứu với sổ liên kết khóa riêng, nhật ký thay đổi, sao lưu, và tuyên bố chia sẻ dữ liệu trong phiếu đồng ý.
-
-Mỗi học viên viết phần này cho câu hỏi nghiên cứu của chính mình (đề cương của mình), không phải cho FLUID-ICU.
-
-Thứ Bảy tuần sau (Buổi 6) đề cương được bổ sung cỡ mẫu, kế hoạch phân tích và kế hoạch xử lý dữ liệu thiếu.
+Mỗi học viên viết phần này cho đề cương của mình, không phải cho FLUID-ICU.
 :::
 
 ## Xây dựng đề cương 5: biến số, CRF và quản lý dữ liệu
@@ -1672,19 +1392,11 @@ Dùng các công cụ này
 :::
 
 ::: {.notes}
-Xây dựng đề cương 5: 30 phút (21:55 đến 22:25). Mẫu: Course/Templates/Research\_Proposal\_Template.docx (đã gửi trước Buổi 1). Phiếu bài tập: Bài 8 trong phiếu bài tập Buổi 5, có cùng các tiêu đề.
+Xây dựng đề cương 5, 30 phút (21:55-22:25). Mẫu: Research\_Proposal\_Template\_VN.docx. Phiếu: Bài 8.
 
-Làm mẫu trực tiếp (18 phút) trên ví dụ xuyên suốt, gõ vào một bản sao của mẫu đề cương trên màn hình chia sẻ: bảng biến số (5 phút), CRF thu gọn (5 phút), các dòng từ điển dữ liệu kèm một quy tắc kiểm tra (4 phút), kế hoạch quản lý dữ liệu (4 phút). Mời từng người gợi ý trong lúc làm.
+Làm mẫu trực tiếp (18 phút): bảng biến số, mini-CRF, các dòng từ điển dữ liệu, kế hoạch quản lý dữ liệu. Sau đó 10 phút học viên làm bảng biến số của mình, 2 phút hỏi đáp.
 
-Thời gian làm riêng (10 phút): mỗi người tự viết bảng biến số của mình (có thể tắt camera). Sau đó 2 phút hỏi đáp qua khung chat.
-
-Dùng từ điển dữ liệu FLUID-ICU làm mẫu: học viên vừa thấy một từ điển thật trông như thế nào.
-
-Vấn đề thường gặp cần nhắc khi làm mẫu: quá nhiều mục CRF (giữ tối đa 10). 'Yếu tố gây nhiễu' thực ra là kết cục. Tên và mã số trong cùng một tệp. Không có kế hoạch sao lưu.
-
-Về nhà: hoàn thành CRF thu gọn, các dòng từ điển dữ liệu và kế hoạch quản lý dữ liệu trong mẫu của mình trước Buổi 6.
-
-Đúng 22:25, dừng để tổng kết.
+Chú ý: quá nhiều mục CRF, kết cục bị liệt kê như biến nhiễu, tên người bệnh trong tệp dữ liệu.
 :::
 
 ## Từ khóa của buổi học
@@ -1729,17 +1441,9 @@ Mười hai thuật ngữ anh chị giờ có thể giải thích cho đồng ng
 :::
 
 ::: {.notes}
-Từ khóa của buổi học (2 phút). Chỉ vào từng từ và mời một người định nghĩa trong một câu, bật micro. Sửa nhẹ nhàng.
+Từ khóa (2 phút). Chỉ vào một từ, mời một người định nghĩa trong một dòng, sửa nhẹ nhàng.
 
-Loại biến số: số đo hay phân loại, và các loại con. CRF (phiếu thu thập dữ liệu): phiếu dùng để ghi dữ liệu. Từ điển dữ liệu: mỗi biến một dòng, có loại, đơn vị/mã và giá trị cho phép.
-
-Quy tắc kiểm tra: quy tắc đánh dấu giá trị vô lý (khoảng giá trị, nhất quán, logic, đầy đủ). Nhật ký thay đổi dữ liệu (audit trail): ghi lại ai đổi gì, khi nào, vì sao. Nhật ký làm sạch dữ liệu: danh sách mọi chỉnh sửa trên dữ liệu thô (FLUID-ICU).
-
-Trung vị (IQR) cho dữ liệu lệch, trung bình (SD) cho dữ liệu đối xứng. Phân phối lệch = có đuôi dài.
-
-Bảng 1: đặc điểm nền theo nhóm. Chấm + hộp: cho thấy từng người bệnh, n (%): cách báo cáo biến phân loại.
-
-Mọi thuật ngữ có trong bảng thuật ngữ Anh-Việt ở Course/References.
+Mọi thuật ngữ đều có trong bảng thuật ngữ Anh-Việt.
 :::
 
 ## Tóm tắt Buổi 5
@@ -1777,15 +1481,9 @@ Ba thông điệp mang về.
 :::
 
 ::: {.notes}
-Tóm tắt buổi học (2 phút). Mời ba người tình nguyện (nút giơ tay) cho một ví dụ hôm nay cho mỗi thẻ.
+Tóm tắt (2 phút). Mời ba người tình nguyện nêu một ví dụ cho mỗi thẻ.
 
-Thiết kế dữ liệu: mục CRF minh họa, từ điển dữ liệu, các quy tắc kiểm tra.
-
-Giữ dữ liệu sạch: FLUID-ICU cho thấy dữ liệu thật trông thế nào trước khi làm sạch và vì sao nhật ký làm sạch quan trọng.
-
-Mô tả trung thực: trung vị hay trung bình, chấm thay cho biểu đồ thuốc nổ, Bảng 1 người đọc hiểu được mà không cần đọc phần chữ.
-
-Thứ Bảy tuần sau (Buổi 6): từ mẫu đến câu trả lời: khoảng tin cậy, giá trị p, kiểm định, hồi quy, sống còn và dữ liệu thiếu, tất cả chạy trực tiếp trên FLUID-ICU.
+Thứ Bảy tuần sau: khoảng tin cậy, giá trị p, kiểm định, hồi quy, sống còn và dữ liệu thiếu, chạy trực tiếp trên FLUID-ICU.
 :::
 
 ## Tổng kết và bài tập về nhà
@@ -1800,7 +1498,7 @@ THẢO LUẬN · 5 phút
 - Từ khóa và tóm tắt (hai trang trước)
 - Câu hỏi cuối buổi trong khung chat: một lỗi chất lượng dữ liệu tìm thấy trong FLUID-ICU, và cách sửa
 - Về nhà: hoàn thành Phần 3 (nửa đầu) đề cương của chính anh chị
-- Chọn một câu hỏi (Q1 đến Q5) cho bản thảo và đọc gói kết quả của câu đó trước Buổi 6
+- Xem qua năm gói kết quả. Anh chị chọn câu hỏi vào cuối Buổi 6
 :::
 :::
 ::: {.column width="40%"}
@@ -1821,13 +1519,11 @@ Thứ Bảy tuần sau: Buổi 6
 :::
 
 ::: {.notes}
-Tổng kết: 5 phút (22:25 đến 22:30), gồm cả trang từ khóa và tóm tắt.
+Tổng kết (22:25-22:30).
 
-Câu hỏi cuối buổi trong khung chat: nêu một lỗi chất lượng dữ liệu tìm thấy trong dữ liệu thô FLUID-ICU và cách làm sạch đã sửa nó. Mục đích: kiểm tra học viên đã hiểu ý chính hôm nay (làm sạch bằng script và nhật ký, không bao giờ bằng tay). Giảng viên đọc các câu trả lời trước Buổi 6 và mở đầu Buổi 6 bằng hai ba câu trong số đó.
+Câu hỏi cuối buổi: một lỗi chất lượng dữ liệu trong FLUID-ICU và cách sửa. Đọc câu trả lời và mở đầu Buổi 6 bằng hai hoặc ba câu.
 
-Về nhà: hoàn thành CRF thu gọn, các dòng từ điển dữ liệu và kế hoạch quản lý dữ liệu trong đề cương của mình (Phần 3, nửa đầu). Chọn một trong năm câu hỏi FLUID-ICU cho bản thảo, báo cho giảng viên, và đọc gói kết quả của câu đó (Bảng 1, biểu đồ). Tùy chọn: Bài 1, 3, 4 và 5 trong phiếu bài tập Buổi 5.
-
-Cảm ơn cả lớp: hôm nay có nhiều từ mới. Buổi 6 sẽ dựa trực tiếp trên nền này.
+Về nhà: mini-CRF, các dòng từ điển dữ liệu và kế hoạch quản lý dữ liệu cho đề cương của mình. Không bắt buộc: Bài 1, 3, 4 và 5.
 :::
 
 ## Trang bổ sung: Buổi 5
@@ -1843,7 +1539,7 @@ Không bắt buộc để theo Buổi 6
 ::::
 
 ::: {.notes}
-Bổ sung: các trang sau đây là tùy chọn. Dùng nếu lớp đi nhanh hơn dự kiến, hoặc giới thiệu cho học viên tự học (có trong bộ tài liệu phát).
+Trang bổ sung: không bắt buộc, dùng khi lớp đi nhanh hoặc để tự học.
 :::
 
 ## Bổ sung: Mã hóa, phiên bản, sao lưu và chia sẻ dữ liệu
@@ -1886,19 +1582,9 @@ Bốn thói quen bảo vệ dữ liệu và bài báo tương lai của anh ch�
 :::
 
 ::: {.notes}
-Bổ sung: Ý chính: bốn thói quen tốn ít công nhưng cứu được nghiên cứu.
+Bổ sung. Bốn thói quen ít tốn kém: dùng mã thay cho chữ tự do, tệp thô chỉ đọc kèm các bản sao có ngày, sao lưu 3-2-1, tuyên bố chia sẻ dữ liệu được lên kế hoạch ngay trong phiếu đồng ý.
 
-Mã hóa: lưu các biến phân loại bằng mã số được định nghĩa trong từ điển dữ liệu (1 = phổi, 2 = tiết niệu...). Mỗi người bệnh có một mã nghiên cứu. Tên và số hồ sơ nằm trong một sổ liên kết riêng, được khóa.
-
-Phiên bản: tệp dữ liệu gốc không bao giờ bị sửa. Đặt chế độ chỉ đọc. Mỗi bước làm sạch tạo một bản sao mới có ghi ngày (data\_2026-03-12\_v2) và một ghi chú ngắn về thay đổi. Nhờ đó mọi kết quả đều truy ngược được.
-
-Sao lưu: quy tắc 3-2-1: ba bản, trên hai loại phương tiện, một bản ở nơi khác, được mã hóa. Bản sao lưu chưa từng thử khôi phục chỉ là một hy vọng.
-
-Tuyên bố chia sẻ dữ liệu: hầu hết tạp chí hiện nay yêu cầu (Buổi 7-8). Ví dụ: 'Dữ liệu đã khử định danh và từ điển dữ liệu sẽ được cung cấp bởi tác giả liên hệ khi có yêu cầu hợp lý sau khi công bố, với điều kiện được hội đồng đạo đức chấp thuận.' Hãy đưa nội dung này vào phiếu đồng ý và đề cương ngay bây giờ, nếu không sau này có thể không được phép chia sẻ.
-
-Hỏi: nếu máy tính xách tay của anh chị bị mất tối nay, nghiên cứu có còn không? Dự kiến: một khoảng lặng khó chịu. Tốt.
-
-Thời lượng: 2 phút.
+Hỏi: nếu tối nay máy tính của anh chị bị mất, nghiên cứu có còn không?
 :::
 
 ## Bổ sung: Ba lỗi biểu đồ nữa và cách sửa
@@ -1910,17 +1596,7 @@ Thời lượng: 2 phút.
 :::
 
 ::: {.notes}
-Bổ sung: Ý chính: ba kiểu bóp méo anh chị sẽ gặp trên poster, báo cáo và bài báo. Hàng trên gây hiểu nhầm, hàng dưới đã sửa.
+Bổ sung. Hàng trên gây hiểu lầm, hàng dưới đã sửa: biểu đồ tròn 3-D, trục bị cắt (chênh 2 điểm trông như gấp ba), hai trục tung. Cột phải bắt đầu từ 0.
 
-Biểu đồ tròn 3-D: độ nghiêng làm các lát phía trước trông to hơn. Mắt người so sánh góc rất kém. Hỏi: lát nào lớn hơn, tiết niệu hay ổ bụng? Sau đó cho xem biểu đồ cột đã sắp xếp: 25% so với 20%, rõ ngay lập tức.
-
-Trục bị cắt: trục tung bắt đầu từ 28.5%, nên khác biệt 2 điểm phần trăm về tử vong (31% so với 29%) trông như gấp ba. Biểu đồ cột phải bắt đầu từ 0. (Biểu đồ đường có thể phóng to, nhưng phải nói rõ.)
-
-Hai trục tung: hai trục khác nhau do tác giả tự chọn tỷ lệ có thể làm hai đường cắt nhau ở bất kỳ đâu tác giả muốn, gợi ý 'vệ sinh tay tăng nên nhiễm khuẩn giảm'. Tốt hơn: hai khung dùng chung trục thời gian, và nhớ rằng tương quan không phải nhân quả (6.3).
-
-Mọi dữ liệu ở đây là mô phỏng.
-
-Hỏi: gần đây anh chị thấy trục bị cắt ở đâu? Dự kiến: bảng điều khiển của bệnh viện, quảng cáo dược phẩm, tin tức.
-
-Thời lượng: 2 phút.
+Hỏi: gần đây anh chị thấy trục bị cắt ở đâu?
 :::
