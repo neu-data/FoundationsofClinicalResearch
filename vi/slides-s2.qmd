@@ -311,7 +311,7 @@ Thời gian: 2 phút.
 :::
 
 ::: {.notes}
-Ví dụ: child\* tìm được child, children, childhood. Lưu ý: nó cũng tìm ra childbirth, và từ cắt cụt không được ánh xạ sang MeSH.
+Cắt cụt (truncation). Ví dụ: child\* tìm được child, children, childhood. Lưu ý: nó cũng tìm ra childbirth, và từ cắt cụt không được ánh xạ sang MeSH.
 
 Không lọc 'free full text': sẽ mất bài quan trọng.
 
