@@ -2,11 +2,11 @@
 title: "Lịch học"
 ---
 
-Tám tuần, học **trực tuyến**, mỗi **thứ Bảy từ 19:30 đến 22:30** (giờ Việt Nam), từ **31/10 đến 19/12/2026**: tám buổi học, mỗi buổi **3 giờ** (giải lao 15 phút), Buổi *n* vào Tuần *n*. Không chia nhóm: cả lớp cùng làm mọi bài tập, và mỗi học viên tự xây dựng đề cương và phần Kết quả của mình qua bài về nhà. Tuần 1–4 xây dựng hiểu biết và kỹ năng thiết kế; tuần 5–8 đọc kết quả phân tích bộ dữ liệu mô phỏng **FLUID-ICU** qua trình diễn của giảng viên, và mỗi học viên viết phần Kết quả của một bài báo. Toàn bộ khóa học là **Cấp độ 1** ([các cấp độ](levels.qmd)).
+Tám tuần, học **trực tuyến**, mỗi **thứ Bảy từ 19:30 đến 22:30** (giờ Việt Nam; riêng Buổi 1 vào **Chủ nhật 1/11**), từ **1/11 đến 19/12/2026**: tám buổi học, mỗi buổi **3 giờ** (giải lao 15 phút), Buổi *n* vào Tuần *n*. Không chia nhóm: cả lớp cùng làm mọi bài tập, và mỗi học viên tự xây dựng đề cương và phần Kết quả của mình qua bài về nhà. Tuần 1–4 xây dựng hiểu biết và kỹ năng thiết kế; tuần 5–8 đọc kết quả phân tích bộ dữ liệu mô phỏng **FLUID-ICU** qua trình diễn của giảng viên, và mỗi học viên viết phần Kết quả của một bài báo. Toàn bộ khóa học là **Cấp độ 1** ([các cấp độ](levels.qmd)).
 
 | Tuần | Buổi | Ngày | Chủ đề | Bạn xây dựng (bài về nhà) |
 |:---:|:--------|:--------|:----------|:------------------------------------|
-| 1 | [Buổi 1](session1.qmd) | Thứ Bảy 31/10/2026 | **Hỏi** | Đề cương: chủ đề, PICO, câu hỏi, mục tiêu |
+| 1 | [Buổi 1](session1.qmd) | Chủ nhật 01/11/2026 | **Hỏi** | Đề cương: chủ đề, PICO, câu hỏi, mục tiêu |
 | 2 | [Buổi 2](session2.qmd) | Thứ Bảy 07/11/2026 | **Tìm & đọc** | Đề cương: tìm kiếm, 5 tài liệu, đặt vấn đề, tên đề tài |
 | 3 | [Buổi 3](session3.qmd) | Thứ Bảy 14/11/2026 | **Thiết kế** | Đề cương: thiết kế, bối cảnh, đối tượng |
 | 4 | [Buổi 4](session4.qmd) | Thứ Bảy 21/11/2026 | **Sai lệch & tác động** | Đề cương: phơi nhiễm, kết cục, kế hoạch hạn chế sai lệch |
@@ -22,7 +22,7 @@ Tám tuần, học **trực tuyến**, mỗi **thứ Bảy từ 19:30 đến 22:
 
 | Bắt đầu | Giờ* | Phút | Hoạt động |
 |:----|:----|---:|:------------------------------------------------------------|
-| 0:00 | 19:30 | 20 | Chào mừng, lộ trình khóa học, hai sản phẩm cá nhân, cách mỗi buổi học diễn ra, tự giới thiệu trong khung chat, cách học trực tuyến (chat, khảo sát nhanh, giơ tay), nội quy lớp học |
+| 0:00 | 19:30 | 20 | Chào mừng, vì sao cần nghiên cứu, tự giới thiệu trong khung chat, lộ trình khóa học, hai sản phẩm cá nhân, cách mỗi buổi học diễn ra, cách học trực tuyến (chat, khảo sát nhanh, giơ tay), nội quy lớp học |
 | 0:20 | 19:50 | 15 | Bài kiểm tra đầu khóa (biểu mẫu trực tuyến) |
 | 0:35 | 20:05 | 35 | **1.1 Vì sao cần nghiên cứu?** Giai thoại và bằng chứng, vì sao số nhỏ dễ gây hiểu lầm, hai bài báo của khóa học (Bài báo 1 Boulet 2024, Bài báo 2 Hyun 2023), tháp bằng chứng, chu trình nghiên cứu, các loại nghiên cứu, hành trình từ ý tưởng đến công bố (nghiên cứu, audit và cải tiến chất lượng nằm trong slide bổ sung) |
 | 1:10 | 20:40 | 15 | GIẢI LAO |

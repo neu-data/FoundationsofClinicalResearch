@@ -25,14 +25,49 @@ This course helps you ask those questions properly, answer them and publish the 
 ::::
 
 ::: {.notes}
-Ask: 'What does your department do in different ways, where nobody knows which is best? Type it in the chat.' Read two or three aloud.
-
-Point: research starts from clinical uncertainty, not from statistics.
+Why do we need research? You treat patients every day, and each of your decisions can affect them. But the evidence is not always there, or strong enough, to support those decisions. That is when questions need answering, and that is when we need research. After the research, the decisions you make will, we hope, be better for your patients. This course will help you reach three main goals: ...
 
 Timing: 2 minutes.
 :::
 
-## Eight Saturdays, eight sessions
+## Welcome: introduce yourself
+
+::: {.neu-banner style="--c:#0D7377"}
+WHOLE-CLASS TASK · 6 min
+:::
+
+:::: {.columns}
+::: {.column width="60%"}
+::: {.neu-activity-steps style="--c:#0D7377"}
+- Type your name, department and profession in the chat
+- Add one question you wish research could answer in your department
+- Read the other messages: many are possible research topics
+- A few of you then say your question with the microphone on
+:::
+:::
+::: {.column width="40%"}
+::: {.neu-side .plain style="--c:#0D7377"}
+Example message
+
+- Lan, ICU, nurse
+- 'Do patients with septic shock need less fluid than we give?'
+:::
+:::
+::::
+
+::: {.neu-output style="--c:#0D7377"}
+**OUTPUT** One introduction per person in the chat
+:::
+
+::: {.notes}
+Give 3 minutes for typing. Then call on 4 or 5 people and point out shared themes (fluids, sedation, infection, mobilisation, medication safety).
+
+The questions stay in the chat for Proposal builder 1.
+
+Timing: 6 minutes.
+:::
+
+## Eight weeks, eight sessions
 
 
 ```{=html}
@@ -113,6 +148,8 @@ Results section: at the end of Session 6 each person chooses one FLUID-ICU quest
 
 Write in English. Vietnamese is accepted if English is impossible.
 
+Show the proposal brief we sent them.
+
 Timing: 2 minutes.
 :::
 
@@ -156,6 +193,8 @@ Timing: 2 minutes.
 ::: {.notes}
 Ask: 'Which card worries you most? Answer in the chat.' Usually analysis. Reassure: we go slowly and check often.
 
+Registration statistics: almost 50% have a master’s degree, so most have done some research. This course goes back to the basics. Some concepts will be familiar, but revisiting them helps you master them. 30.4% want to write a scientific paper and 26.1% want to understand statistics better (p-values, confidence intervals).
+
 Timing: 1 minute.
 :::
 
@@ -171,7 +210,7 @@ Timing: 1 minute.
 :::
 
 ::: {.notes}
-The same rhythm every Saturday. Extra slides at the end are used only if there is time.
+The same rhythm every session. Extra slides at the end are used only if there is time.
 
 Timing: 1 minute.
 :::
@@ -220,44 +259,9 @@ In each proposal builder the trainer first fills in the part for the running exa
 
 Template: Research\_Proposal\_Template.docx (EN) or Research\_Proposal\_Template\_VN.docx (VN), emailed with the proposal brief before Session 1.
 
+Show them the research proposal template: 'This is a complete research proposal. If you write one like it before every study, it goes a long way to ensuring the quality of your research.'
+
 Timing: 1 minute.
-:::
-
-## Welcome: introduce yourself
-
-::: {.neu-banner style="--c:#0D7377"}
-WHOLE-CLASS TASK · 6 min
-:::
-
-:::: {.columns}
-::: {.column width="60%"}
-::: {.neu-activity-steps style="--c:#0D7377"}
-- Type your name, department and profession in the chat
-- Add one question you wish research could answer in your department
-- Read the other messages: many are possible research topics
-- A few of you then say your question with the microphone on
-:::
-:::
-::: {.column width="40%"}
-::: {.neu-side .plain style="--c:#0D7377"}
-Example message
-
-- Lan, ICU, nurse
-- 'Do patients with septic shock need less fluid than we give?'
-:::
-:::
-::::
-
-::: {.neu-output style="--c:#0D7377"}
-**OUTPUT** One introduction per person in the chat
-:::
-
-::: {.notes}
-Give 3 minutes for typing. Then call on 4 or 5 people and point out shared themes (fluids, sedation, infection, mobilisation, medication safety).
-
-The questions stay in the chat for Proposal builder 1.
-
-Timing: 6 minutes.
 :::
 
 ## How we learn together online
@@ -306,7 +310,7 @@ QUICK QUIZ · 15 min
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
 - Open the quiz form: the link is in the chat now
-- Enter your full name
+- Enter your full name (as in your Teams sign-in)
 - 24 multiple-choice questions, one answer each (about 12 minutes)
 - Work alone: no notes and no colleagues
 - Guess if you are not sure: this is not an exam
@@ -336,7 +340,7 @@ Timing: 15 minutes.
 
 # Session 1 · Ask: from clinical problem to research question
 
-## Week 1 · Saturday
+## Week 1 · Sunday
 
 - 1.1  Why research? Evidence, study designs, the two course papers
 - Break
@@ -774,6 +778,8 @@ Timing: 4 minutes.
 Row 3 asks how common something is, so it needs only P and O (and T).
 
 Ask: 'Make a PECO question about fluids.' Expected: in adults with sepsis, is a positive fluid balance by day 3, compared with a neutral or negative balance, associated with death by day 28? (Paper 2's question.)
+
+To have participants write out the three research questions, use the backup slide 'Extra: the three examples as research questions' (extra slides).
 
 Timing: 4 minutes.
 :::

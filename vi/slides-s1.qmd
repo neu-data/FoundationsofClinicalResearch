@@ -25,14 +25,47 @@ Khóa học giúp bạn đặt câu hỏi đúng cách, trả lời và công b�
 ::::
 
 ::: {.notes}
-Hỏi: 'Việc gì trong khoa mỗi người làm một kiểu mà chưa ai biết cách nào tốt nhất? Gõ vào chat.' Đọc to hai ba câu trả lời.
-
-Ý chính: nghiên cứu bắt đầu từ điều chưa chắc chắn trong lâm sàng, không phải từ thống kê.
-
-Thời gian: 2 phút.
+Tại sao cần nghiên cứu? Anh chị là bác sĩ hang ngày điều trị bệnh nhân. Mỗi quyết định của anh chị đều có thể ảnh hưởng đến người bệnh. Nhưng không phải lúc nào bằng chứng cũng có sẵn hoặc đủ mạnh để hỗ trợ các quyết định đấy. Và đó là những lúc những câu hỏi cần được giải quyết được đặt ra và đó là lúc chúng ta cần đến nghiên cứu. Và hi vọng sau khi nghiên cứu thì những quyết định mà anh chị đưa ra sẽ tốt hơn cho người bệnh. Và khóa học này sẽ giúp anh chị đạt được 3 mục tiêu chính, đó là ...
 :::
 
-## Tám thứ Bảy, tám buổi học
+## Chào mừng: giới thiệu bản thân
+
+::: {.neu-banner style="--c:#0D7377"}
+CẢ LỚP CÙNG LÀM · 6 phút
+:::
+
+:::: {.columns}
+::: {.column width="60%"}
+::: {.neu-activity-steps style="--c:#0D7377"}
+- Gõ vào chat: tên, khoa và nghề nghiệp của bạn
+- Thêm một câu hỏi bạn mong nghiên cứu trả lời được cho khoa mình
+- Đọc tin nhắn của mọi người: nhiều câu là chủ đề nghiên cứu tiềm năng
+- Sau đó vài bạn bật micro nói câu hỏi của mình
+:::
+:::
+::: {.column width="40%"}
+::: {.neu-side .plain style="--c:#0D7377"}
+Tin nhắn mẫu
+
+- Lan, ICU, điều dưỡng
+- 'Người bệnh sốc nhiễm khuẩn có cần ít dịch hơn lượng mình đang truyền không?'
+:::
+:::
+::::
+
+::: {.neu-output style="--c:#0D7377"}
+**SẢN PHẨM** Mỗi người một lời giới thiệu trong chat
+:::
+
+::: {.notes}
+Cho 3 phút để gõ. Sau đó mời 4-5 người nói và chỉ ra các chủ đề chung (dịch truyền, an thần, nhiễm khuẩn, vận động sớm, an toàn dùng thuốc).
+
+Các câu hỏi nằm sẵn trong chat để dùng ở phần Xây dựng đề cương 1.
+
+Thời gian: 6 phút.
+:::
+
+## Tám tuần, tám buổi học
 
 
 ```{=html}
@@ -114,6 +147,8 @@ Phần Kết quả: cuối Buổi 6, mỗi người chọn một câu hỏi FLUI
 Viết bằng tiếng Anh. Có thể viết tiếng Việt nếu thật sự không viết được tiếng Anh.
 
 Thời gian: 2 phút.
+
+Show proposal brief that we sent them
 :::
 
 ## Sau khóa học, bạn sẽ có thể
@@ -157,6 +192,8 @@ Thời gian: 2 phút.
 Hỏi: 'Thẻ nào làm bạn lo nhất? Trả lời trong chat.' Thường là phân tích. Trấn an: lớp đi chậm và kiểm tra thường xuyên.
 
 Thời gian: 1 phút.
+
+Registration statistics: almost 50% have master’s degree so they more or less did research before. This course really goes to the basics, equip you with fundamental knowledge of doing research. Some concepts you might have known or heard, but still I think it’s valuable to re-visit them so that it helps you really master them. 30.4% of students want to write a scientific paper, and 26.1% wants to enhance their understanding of statistics (p-values, confidence interval)
 :::
 
 ## Mỗi buổi học diễn ra như thế nào
@@ -171,7 +208,7 @@ Thời gian: 1 phút.
 :::
 
 ::: {.notes}
-Thứ Bảy nào cũng cùng một nhịp. Slide bổ sung ở cuối chỉ dùng khi còn thời gian.
+Buổi nào cũng cùng một nhịp. Slide bổ sung ở cuối chỉ dùng khi còn thời gian.
 
 Thời gian: 1 phút.
 :::
@@ -221,43 +258,10 @@ Trong mỗi phần xây dựng đề cương, giảng viên điền trước ph�
 Mẫu: Research\_Proposal\_Template\_VN.docx (tiếng Việt) hoặc Research\_Proposal\_Template.docx (tiếng Anh), gửi qua email cùng hướng dẫn viết đề cương trước Buổi 1.
 
 Thời gian: 1 phút.
-:::
 
-## Chào mừng: giới thiệu bản thân
+Show them the research proposal template.
 
-::: {.neu-banner style="--c:#0D7377"}
-CẢ LỚP CÙNG LÀM · 6 phút
-:::
-
-:::: {.columns}
-::: {.column width="60%"}
-::: {.neu-activity-steps style="--c:#0D7377"}
-- Gõ vào chat: tên, khoa và nghề nghiệp của bạn
-- Thêm một câu hỏi bạn mong nghiên cứu trả lời được cho khoa mình
-- Đọc tin nhắn của mọi người: nhiều câu là chủ đề nghiên cứu tiềm năng
-- Sau đó vài bạn bật micro nói câu hỏi của mình
-:::
-:::
-::: {.column width="40%"}
-::: {.neu-side .plain style="--c:#0D7377"}
-Tin nhắn mẫu
-
-- Lan, ICU, điều dưỡng
-- 'Người bệnh sốc nhiễm khuẩn có cần ít dịch hơn lượng mình đang truyền không?'
-:::
-:::
-::::
-
-::: {.neu-output style="--c:#0D7377"}
-**SẢN PHẨM** Mỗi người một lời giới thiệu trong chat
-:::
-
-::: {.notes}
-Cho 3 phút để gõ. Sau đó mời 4-5 người nói và chỉ ra các chủ đề chung (dịch truyền, an thần, nhiễm khuẩn, vận động sớm, an toàn dùng thuốc).
-
-Các câu hỏi nằm sẵn trong chat để dùng ở phần Xây dựng đề cương 1.
-
-Thời gian: 6 phút.
+“Đây là 1 bản đề cương nghiên cứu được thiết kế rất hoành chỉnh. Nếu trước mỗi nghiên cứu anh chị đều làm 1 cái đề cương như thế này thì sẽ giúp đảm bảo chất lượng nghiên cứu của mình rất tốt”
 :::
 
 ## Chúng ta cùng học trực tuyến như thế nào
@@ -306,7 +310,7 @@ CÂU HỎI NHANH · 15 phút
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
 - Mở biểu mẫu: đường link đang có trong chat
-- Nhập họ và tên của bạn
+- Nhập họ và tên của bạn (giống mã đăng nhập Teams)
 - 24 câu trắc nghiệm, chọn một đáp án cho mỗi câu (khoảng 12 phút)
 - Làm một mình: không xem tài liệu, không hỏi đồng nghiệp
 - Nếu không chắc, hãy đoán: đây không phải kỳ thi
@@ -332,7 +336,7 @@ Question form in VNM - https://forms.gle/7U2tjio2qVatVJja7
 
 # Buổi 1 · Hỏi: từ vấn đề lâm sàng đến câu hỏi nghiên cứu
 
-## Tuần 1 · Thứ Bảy
+## Tuần 1 · Chủ nhật
 
 - 1.1  Vì sao cần nghiên cứu? Bằng chứng, thiết kế nghiên cứu, hai bài báo của khóa học
 - Giải lao
@@ -770,6 +774,8 @@ Thời gian: 4 phút.
 Hàng 3 hỏi một điều phổ biến đến mức nào, nên chỉ cần P và O (và T).
 
 Hỏi: 'Hãy đặt một câu hỏi PECO về dịch truyền.' Gợi ý: ở người lớn bị nhiễm khuẩn huyết, cân bằng dịch dương đến ngày 3, so với cân bằng trung tính hoặc âm, có liên quan với tử vong đến ngày 28 không? (Câu hỏi của Bài báo 2.)
+
+Muốn học viên viết ba câu hỏi nghiên cứu: dùng slide dự phòng 'Bổ sung: ba ví dụ viết thành câu hỏi nghiên cứu' (phần slide bổ sung).
 
 Thời gian: 4 phút.
 :::
