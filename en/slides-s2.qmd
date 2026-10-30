@@ -182,11 +182,11 @@ Timing: 2 minutes.
 
 
 ```{=html}
-<div style="position:relative;width:100%;aspect-ratio:12.3/4.0;container-type:inline-size;margin:0.2em auto;font-family:Arial,sans-serif;line-height:1.1"><div style="position:absolute;left:0.000%;top:0.000%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(24 * 0.11292cqw);color:#055F56;font-weight:700">AND</div></div><div style="position:absolute;left:13.415%;top:21.250%;width:6.504%;height:40.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:50%"></div><div style="position:absolute;left:4.065%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:13.008%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:3.659%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;font-weight:700">septic</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;font-weight:700;margin-top:calc(0 * 0.11292cqw)">shock</div></div><div style="position:absolute;left:20.732%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;font-weight:700">fluids</div></div><div style="position:absolute;left:0.000%;top:71.250%;width:33.333%;height:11.250%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;font-style:italic">septic shock AND fluids</div></div><div style="position:absolute;left:0.000%;top:82.500%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#0D7377;font-weight:700">both terms: fewer hits</div></div><div style="position:absolute;left:33.333%;top:0.000%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(24 * 0.11292cqw);color:#055F56;font-weight:700">OR</div></div><div style="position:absolute;left:37.398%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:50%"></div><div style="position:absolute;left:46.341%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:50%"></div><div style="position:absolute;left:37.398%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:46.341%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:36.992%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;font-weight:700">septic</div><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;font-weight:700;margin-top:calc(0 * 0.11292cqw)">shock</div></div><div style="position:absolute;left:54.065%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;font-weight:700">sepsis</div></div><div style="position:absolute;left:33.333%;top:71.250%;width:33.333%;height:11.250%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;font-style:italic">septic shock OR sepsis</div></div><div style="position:absolute;left:33.333%;top:82.500%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#0D7377;font-weight:700">either term: more hits</div></div><div style="position:absolute;left:66.667%;top:0.000%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(24 * 0.11292cqw);color:#055F56;font-weight:700">NOT</div></div><div style="position:absolute;left:70.732%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:50%"></div><div style="position:absolute;left:79.675%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#FFFFFF;border-radius:50%"></div><div style="position:absolute;left:70.732%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:79.675%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:70.325%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;font-weight:700">sepsis</div></div><div style="position:absolute;left:87.398%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;font-weight:700">neonatal</div></div><div style="position:absolute;left:66.667%;top:71.250%;width:33.333%;height:11.250%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;font-style:italic">sepsis NOT neonatal</div></div><div style="position:absolute;left:66.667%;top:82.500%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#0D7377;font-weight:700">removes papers: use with care</div></div></div>
+<div style="position:relative;width:100%;aspect-ratio:12.3/4.0;container-type:inline-size;margin:0.2em auto;font-family:Arial,sans-serif;line-height:1.1"><div style="position:absolute;left:0.000%;top:0.000%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(24 * 0.11292cqw);color:#055F56;font-weight:700">AND</div></div><svg viewBox="0 0 1230 400" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><polygon points="205.0,81.5 211.7,86.3 218.0,91.6 223.8,97.5 229.1,103.8 233.8,110.5 238.0,117.6 241.6,125.0 244.6,132.6 247.0,140.5 248.6,148.6 249.7,156.8 250.0,165.0 249.7,173.2 248.6,181.4 247.0,189.5 244.6,197.4 241.6,205.0 238.0,212.4 233.8,219.5 229.1,226.2 223.8,232.5 218.0,238.4 211.7,243.7 205.0,248.5 205.0,248.5 198.3,243.7 192.0,238.4 186.2,232.5 180.9,226.2 176.2,219.5 172.0,212.4 168.4,205.0 165.4,197.4 163.0,189.5 161.4,181.4 160.3,173.2 160.0,165.0 160.3,156.8 161.4,148.6 163.0,140.5 165.4,132.6 168.4,125.0 172.0,117.6 176.2,110.5 180.9,103.8 186.2,97.5 192.0,91.6 198.3,86.3 205.0,81.5" fill="#0D7377"/></svg><div style="position:absolute;left:4.065%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:13.008%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:3.659%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;font-weight:700">septic</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;font-weight:700;margin-top:calc(0 * 0.11292cqw)">shock</div></div><div style="position:absolute;left:20.732%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;font-weight:700">fluids</div></div><div style="position:absolute;left:0.000%;top:71.250%;width:33.333%;height:11.250%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;font-style:italic">septic shock AND fluids</div></div><div style="position:absolute;left:0.000%;top:82.500%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#0D7377;font-weight:700">both terms: fewer hits</div></div><div style="position:absolute;left:33.333%;top:0.000%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(24 * 0.11292cqw);color:#055F56;font-weight:700">OR</div></div><div style="position:absolute;left:37.398%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:50%"></div><div style="position:absolute;left:46.341%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:50%"></div><div style="position:absolute;left:37.398%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:46.341%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:36.992%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;font-weight:700">septic</div><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;font-weight:700;margin-top:calc(0 * 0.11292cqw)">shock</div></div><div style="position:absolute;left:54.065%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;font-weight:700">sepsis</div></div><div style="position:absolute;left:33.333%;top:71.250%;width:33.333%;height:11.250%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;font-style:italic">septic shock OR sepsis</div></div><div style="position:absolute;left:33.333%;top:82.500%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#0D7377;font-weight:700">either term: more hits</div></div><div style="position:absolute;left:66.667%;top:0.000%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(24 * 0.11292cqw);color:#055F56;font-weight:700">NOT</div></div><div style="position:absolute;left:70.732%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:50%"></div><div style="position:absolute;left:79.675%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#FFFFFF;border-radius:50%"></div><div style="position:absolute;left:70.732%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:79.675%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:70.325%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;font-weight:700">sepsis</div></div><div style="position:absolute;left:87.398%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;font-weight:700">neonatal</div></div><div style="position:absolute;left:66.667%;top:71.250%;width:33.333%;height:11.250%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;font-style:italic">sepsis NOT neonatal</div></div><div style="position:absolute;left:66.667%;top:82.500%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#0D7377;font-weight:700">removes papers: use with care</div></div></div>
 ```
 
 ::: {.neu-takeaway}
-**KEY MESSAGE** AND narrows, OR widens, NOT removes. Use NOT sparingly.
+**KEY MESSAGE** AND narrows, OR widens, NOT removes. Use NOT sparingly: it also drops good papers that mention the term.
 :::
 
 ::: {.notes}
@@ -213,9 +213,48 @@ QUICK QUIZ · 2 min
 :::
 
 ::: {.notes}
-Answers: 1 AND. 2 OR. 3 Fewer. 4 It removes every paper that mentions children, including good adult studies.
+Answers on the next slide.
 
 Timing: 2 minutes.
+:::
+
+## Answers: AND, OR or NOT?
+
+:::: {.neu-cards style="--n:4"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[AND]{.neu-card-title}
+
+- Papers must have both septic shock and fluid restriction
+- AND narrows
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[OR]{.neu-card-title}
+
+- restrictive OR conservative
+- OR gathers synonyms
+:::
+::: {.neu-card .plain style="--c:#5FA39B"}
+[Fewer]{.neu-card-title}
+
+- Each AND block adds a condition
+- The number of results falls
+:::
+::: {.neu-card .plain style="--c:#0070C0"}
+[NOT is risky]{.neu-card-title}
+
+- It removes every paper that mentions children
+- Including good adult studies
+:::
+::::
+
+::: {.neu-takeaway}
+**KEY MESSAGE** OR inside a block, AND between blocks. Use NOT only when you must.
+:::
+
+::: {.notes}
+Show this after the class has answered in the chat. Question 4: an adult study that says "children were excluded" is also removed by NOT.
+
+Timing: within the 2 minutes of the check.
 :::
 
 ## MeSH: one label for many words
@@ -255,14 +294,14 @@ Timing: 2 minutes.
 [A paper you trust]{.neu-card-title}
 
 - Open a relevant paper in PubMed
-- Scroll down to 'MeSH terms'
+- Scroll down to 'MeSH terms' (very recent papers may not have them yet)
 - Reuse the ones that fit
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
 [Search details]{.neu-card-title}
 
 - PubMed maps your words to MeSH
-- Check which heading it used
+- Advanced → History and Search Details → Details
 :::
 ::::
 
@@ -272,6 +311,10 @@ Timing: 2 minutes.
 
 ::: {.notes}
 Show the three routes briefly. The demo uses route 2. Check the heading's definition before using it.
+
+Not every PubMed record has MeSH terms: new papers are not indexed yet, and papers in journals outside MEDLINE are never indexed. An example with MeSH: PMID 30664905.
+
+Search details: run a search, click Advanced, open History and Search Details, then click Details: PubMed has mapped your words to MeSH.
 
 Timing: 2 minutes.
 :::
@@ -455,7 +498,7 @@ Watch for
 ::::
 
 ::: {.neu-output style="--c:#B5651D"}
-**OUTPUT** A search string we can all copy (Exercise 1 on the sheet)
+**OUTPUT** A model search string for the running example: the pattern for your Exercise 1
 :::
 
 ::: {.notes}
@@ -517,7 +560,7 @@ Keep every reference you find, and use other people's work honestly.
 [Collect]{.neu-step-label}
 
 - Tick papers in PubMed
-- Clipboard or My NCBI Collections
+- 'Send to' menu: Clipboard or Collections
 :::
 ::: {.neu-step style="--c:#0B376C"}
 [Export]{.neu-step-label}
@@ -604,14 +647,14 @@ LIVE DEMO · 5 min
 - Check the entry: authors, title, journal, year, DOI, nothing typed by hand
 - In Word, Zotero tab: 'Add/Edit Citation', then type Meyhoff (first author of CLASSIC)
 - Click 'Add/Edit Bibliography': the reference list appears
-- Click 'Document Preferences': switch Vancouver to APA and back
+- Click 'Document Preferences': switch NLM/Vancouver to APA and back
 :::
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#B5651D"}
 Watch for
 
-- \[1\] becomes (Meyhoff et al., 2022)
+- (1) becomes (Meyhoff et al., 2022)
 - The list reformats itself
 :::
 :::
@@ -625,6 +668,8 @@ Watch for
 Script: s2\_demo.md, Part B. People repeat each step on their own computer. If Zotero fails for someone, they watch and fix it later with the second trainer.
 
 If Zotero fails for you, show the screenshots.
+
+Zotero has no style called 'Vancouver'. The built-in one is 'NLM/Vancouver (Citing Medicine 2nd edition)', which numbers citations (1).
 
 Timing: 5 minutes.
 :::
@@ -1025,6 +1070,8 @@ Key points: pilot, 48 patients. Outcome fluid balance, not mortality. CI include
 If asked: the 13.2 is a difference in means, not medians. Park it.
 
 Timing: 5 minutes. 2.3 ends at 21:35.
+
+Spin: see the answer file.
 :::
 
 ## 2.4  From literature to introduction
@@ -1098,7 +1145,7 @@ Every factual sentence carries a reference. About 300 words is enough. Written i
 Timing: 4 minutes.
 :::
 
-## Working title and keywords from PICO
+## Running example: working title and keywords from PICO
 
 :::: {.neu-cards style="--n:3"}
 ::: {.neu-card .plain style="--c:#0D7377"}
@@ -1195,7 +1242,7 @@ Minutes 10-30: everyone works alone. Common problems: too many hits (add a block
 
 Minutes 30-35: two volunteers read their title and gap sentence.
 
-Key: s2\_solutions, Exercise 4.
+Key: s2\_solutions, Exercise 4: the live part (minutes 0-10), the five references and the model worksheet rows.
 
 Timing: 35 minutes. Wrap-up at 22:25.
 :::
@@ -1285,7 +1332,7 @@ INDIVIDUAL TASK
 ::: {.neu-activity-steps style="--c:#0B376C"}
 - Finish your 5 key references, worksheet rows and problem statement
 - Read one of your papers with the 15-minute routine
-- Read the abstract of Paper 2 (Hyun 2023) with the reading grid (Exercise 3)
+- Read the abstract of Paper 2 (Hyun 2023) following Exercise 3
 - Exercise 2 (paraphrasing), at home
 - Optional: look up Paper 1 (NCT04947904) on ClinicalTrials.gov
 :::

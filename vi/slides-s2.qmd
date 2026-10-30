@@ -182,11 +182,11 @@ Thời gian: 2 phút.
 
 
 ```{=html}
-<div style="position:relative;width:100%;aspect-ratio:12.3/4.0;container-type:inline-size;margin:0.2em auto;font-family:Arial,sans-serif;line-height:1.1"><div style="position:absolute;left:0.000%;top:0.000%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(24 * 0.11292cqw);color:#055F56;font-weight:700">AND</div></div><div style="position:absolute;left:13.415%;top:21.250%;width:6.504%;height:40.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:50%"></div><div style="position:absolute;left:4.065%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:13.008%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:3.659%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;font-weight:700">septic</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;font-weight:700;margin-top:calc(0 * 0.11292cqw)">shock</div></div><div style="position:absolute;left:20.732%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;font-weight:700">fluids</div></div><div style="position:absolute;left:0.000%;top:71.250%;width:33.333%;height:11.250%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;font-style:italic">septic shock AND fluids</div></div><div style="position:absolute;left:0.000%;top:82.500%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#0D7377;font-weight:700">có cả hai: ít kết quả hơn</div></div><div style="position:absolute;left:33.333%;top:0.000%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(24 * 0.11292cqw);color:#055F56;font-weight:700">OR</div></div><div style="position:absolute;left:37.398%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:50%"></div><div style="position:absolute;left:46.341%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:50%"></div><div style="position:absolute;left:37.398%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:46.341%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:36.992%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;font-weight:700">septic</div><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;font-weight:700;margin-top:calc(0 * 0.11292cqw)">shock</div></div><div style="position:absolute;left:54.065%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;font-weight:700">sepsis</div></div><div style="position:absolute;left:33.333%;top:71.250%;width:33.333%;height:11.250%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;font-style:italic">septic shock OR sepsis</div></div><div style="position:absolute;left:33.333%;top:82.500%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#0D7377;font-weight:700">một trong hai: nhiều kết quả hơn</div></div><div style="position:absolute;left:66.667%;top:0.000%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(24 * 0.11292cqw);color:#055F56;font-weight:700">NOT</div></div><div style="position:absolute;left:70.732%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:50%"></div><div style="position:absolute;left:79.675%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#FFFFFF;border-radius:50%"></div><div style="position:absolute;left:70.732%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:79.675%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:70.325%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;font-weight:700">sepsis</div></div><div style="position:absolute;left:87.398%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;font-weight:700">neonatal</div></div><div style="position:absolute;left:66.667%;top:71.250%;width:33.333%;height:11.250%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;font-style:italic">sepsis NOT neonatal</div></div><div style="position:absolute;left:66.667%;top:82.500%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#0D7377;font-weight:700">loại bài: dùng thận trọng</div></div></div>
+<div style="position:relative;width:100%;aspect-ratio:12.3/4.0;container-type:inline-size;margin:0.2em auto;font-family:Arial,sans-serif;line-height:1.1"><div style="position:absolute;left:0.000%;top:0.000%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(24 * 0.11292cqw);color:#055F56;font-weight:700">AND</div></div><svg viewBox="0 0 1230 400" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><polygon points="205.0,81.5 211.7,86.3 218.0,91.6 223.8,97.5 229.1,103.8 233.8,110.5 238.0,117.6 241.6,125.0 244.6,132.6 247.0,140.5 248.6,148.6 249.7,156.8 250.0,165.0 249.7,173.2 248.6,181.4 247.0,189.5 244.6,197.4 241.6,205.0 238.0,212.4 233.8,219.5 229.1,226.2 223.8,232.5 218.0,238.4 211.7,243.7 205.0,248.5 205.0,248.5 198.3,243.7 192.0,238.4 186.2,232.5 180.9,226.2 176.2,219.5 172.0,212.4 168.4,205.0 165.4,197.4 163.0,189.5 161.4,181.4 160.3,173.2 160.0,165.0 160.3,156.8 161.4,148.6 163.0,140.5 165.4,132.6 168.4,125.0 172.0,117.6 176.2,110.5 180.9,103.8 186.2,97.5 192.0,91.6 198.3,86.3 205.0,81.5" fill="#0D7377"/></svg><div style="position:absolute;left:4.065%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:13.008%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:3.659%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;font-weight:700">septic</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;font-weight:700;margin-top:calc(0 * 0.11292cqw)">shock</div></div><div style="position:absolute;left:20.732%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;font-weight:700">fluids</div></div><div style="position:absolute;left:0.000%;top:71.250%;width:33.333%;height:11.250%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;font-style:italic">septic shock AND fluids</div></div><div style="position:absolute;left:0.000%;top:82.500%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#0D7377;font-weight:700">có cả hai: ít kết quả hơn</div></div><div style="position:absolute;left:33.333%;top:0.000%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(24 * 0.11292cqw);color:#055F56;font-weight:700">OR</div></div><div style="position:absolute;left:37.398%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:50%"></div><div style="position:absolute;left:46.341%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:50%"></div><div style="position:absolute;left:37.398%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:46.341%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:36.992%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;font-weight:700">septic</div><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;font-weight:700;margin-top:calc(0 * 0.11292cqw)">shock</div></div><div style="position:absolute;left:54.065%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;font-weight:700">sepsis</div></div><div style="position:absolute;left:33.333%;top:71.250%;width:33.333%;height:11.250%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;font-style:italic">septic shock OR sepsis</div></div><div style="position:absolute;left:33.333%;top:82.500%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#0D7377;font-weight:700">một trong hai: nhiều kết quả hơn</div></div><div style="position:absolute;left:66.667%;top:0.000%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(24 * 0.11292cqw);color:#055F56;font-weight:700">NOT</div></div><div style="position:absolute;left:70.732%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:50%"></div><div style="position:absolute;left:79.675%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#FFFFFF;border-radius:50%"></div><div style="position:absolute;left:70.732%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:79.675%;top:16.250%;width:16.260%;height:50.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;border:calc(2.25 * 0.11292cqw) solid #0B376C;border-radius:50%"></div><div style="position:absolute;left:70.325%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;font-weight:700">sepsis</div></div><div style="position:absolute;left:87.398%;top:31.250%;width:8.943%;height:20.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;font-weight:700">neonatal</div></div><div style="position:absolute;left:66.667%;top:71.250%;width:33.333%;height:11.250%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;font-style:italic">sepsis NOT neonatal</div></div><div style="position:absolute;left:66.667%;top:82.500%;width:33.333%;height:12.500%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(16 * 0.11292cqw);color:#0D7377;font-weight:700">loại bài: dùng thận trọng</div></div></div>
 ```
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** AND thu hẹp, OR mở rộng, NOT loại bỏ. Hạn chế dùng NOT.
+**THÔNG ĐIỆP CHÍNH** AND thu hẹp, OR mở rộng, NOT loại bỏ. Ít dùng NOT: nó loại cả bài tốt có nhắc đến từ đó.
 :::
 
 ::: {.notes}
@@ -213,9 +213,48 @@ CÂU HỎI NHANH · 2 phút
 :::
 
 ::: {.notes}
-Đáp án: 1 AND. 2 OR. 3 Ít hơn. 4 Loại mọi bài có nhắc đến trẻ em, kể cả nghiên cứu tốt ở người lớn.
+Đáp án ở slide sau.
 
 Thời gian: 2 phút.
+:::
+
+## Đáp án: AND, OR hay NOT?
+
+:::: {.neu-cards style="--n:4"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[AND]{.neu-card-title}
+
+- Bài phải có cả sốc nhiễm khuẩn và hạn chế dịch
+- AND thu hẹp
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[OR]{.neu-card-title}
+
+- restrictive OR conservative
+- OR gom các từ đồng nghĩa
+:::
+::: {.neu-card .plain style="--c:#5FA39B"}
+[Ít hơn]{.neu-card-title}
+
+- Mỗi khối AND thêm một điều kiện
+- Số kết quả giảm
+:::
+::: {.neu-card .plain style="--c:#0070C0"}
+[NOT có rủi ro]{.neu-card-title}
+
+- Loại mọi bài có nhắc đến trẻ em
+- Kể cả nghiên cứu tốt ở người lớn
+:::
+::::
+
+::: {.neu-takeaway}
+**THÔNG ĐIỆP CHÍNH** OR trong một khối, AND giữa các khối. Chỉ dùng NOT khi thật cần.
+:::
+
+::: {.notes}
+Chiếu sau khi cả lớp đã trả lời trong chat. Câu 4: một bài ở người lớn có câu "trẻ em được loại trừ" cũng bị NOT loại bỏ.
+
+Thời gian: trong 2 phút của câu hỏi.
 :::
 
 ## MeSH: một nhãn chung cho nhiều cách viết
@@ -255,14 +294,14 @@ Thời gian: 2 phút.
 [Một bài báo tin cậy]{.neu-card-title}
 
 - Mở một bài liên quan trên PubMed
-- Kéo xuống phần 'MeSH terms'
+- Kéo xuống phần 'MeSH terms' (bài rất mới có thể chưa có)
 - Dùng lại các thuật ngữ phù hợp
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
 [Search details]{.neu-card-title}
 
 - PubMed tự gắn từ của bạn với MeSH
-- Xem PubMed đã dùng đề mục nào
+- Advanced → History and Search Details → Details
 :::
 ::::
 
@@ -272,6 +311,10 @@ Thời gian: 2 phút.
 
 ::: {.notes}
 Giới thiệu nhanh ba cách. Phần trình diễn dùng cách 2. Đọc định nghĩa của tiêu đề trước khi dùng.
+
+Không phải bài nào trên PubMed cũng có MeSH: bài mới chưa được gắn nhãn, và bài của tạp chí không thuộc MEDLINE không được gắn. Ví dụ có MeSH: PMID 30664905.
+
+Search details: chạy tìm kiếm, bấm Advanced, mở History and Search Details, rồi bấm Details: PubMed đã tự gắn từ của bạn với MeSH.
 
 Thời gian: 2 phút.
 :::
@@ -455,7 +498,7 @@ Hãy để ý
 ::::
 
 ::: {.neu-output style="--c:#B5651D"}
-**SẢN PHẨM** Một chuỗi tìm kiếm cả lớp có thể chép lại (Bài tập 1 trong phiếu)
+**SẢN PHẨM** Một chuỗi tìm kiếm mẫu cho ví dụ xuyên suốt: mẫu để bạn làm Bài tập 1
 :::
 
 ::: {.notes}
@@ -517,7 +560,7 @@ Phần 2.2: 20:20-20:40. Thời gian: 30 giây.
 [Gom]{.neu-step-label}
 
 - Đánh dấu bài trên PubMed
-- Clipboard hoặc Collections
+- Menu 'Send to': Clipboard hoặc Collections
 :::
 ::: {.neu-step style="--c:#0B376C"}
 [Xuất]{.neu-step-label}
@@ -604,14 +647,14 @@ TRÌNH DIỄN TRỰC TIẾP · 5 phút
 - Kiểm tra mục vừa nhập: tác giả, tiêu đề, tạp chí, năm, DOI, không gõ tay gì cả
 - Trong Word, thẻ Zotero: 'Add/Edit Citation', rồi gõ Meyhoff (tác giả đầu của CLASSIC)
 - Bấm 'Add/Edit Bibliography': danh mục tài liệu xuất hiện
-- Bấm 'Document Preferences': đổi Vancouver sang APA rồi đổi lại
+- Bấm 'Document Preferences': đổi NLM/Vancouver sang APA rồi đổi lại
 :::
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#B5651D"}
 Hãy để ý
 
-- \[1\] thành (Meyhoff et al., 2022)
+- (1) thành (Meyhoff et al., 2022)
 - Danh mục tự định dạng lại
 :::
 :::
@@ -625,6 +668,8 @@ Hãy để ý
 Kịch bản: s2\_demo\_VN.md, Phần B. Mọi người làm lại từng bước trên máy mình. Ai bị lỗi Zotero thì xem trước, sửa sau với giảng viên thứ hai.
 
 Nếu Zotero của giảng viên lỗi, chiếu ảnh chụp màn hình.
+
+Zotero không có sẵn kiểu tên 'Vancouver'. Kiểu có sẵn là 'NLM/Vancouver (Citing Medicine 2nd edition)', đánh số (1).
 
 Thời gian: 5 phút.
 :::
@@ -1025,6 +1070,8 @@ Hỏi từng dòng trong chat trước khi hiện đáp án.
 Nếu có người hỏi: 13.2 là chênh lệch trung bình, không phải trung vị. Để sau.
 
 Thời gian: 5 phút. Phần 2.3 kết thúc lúc 21:35.
+
+Thổi phồng: xem file đáp án
 :::
 
 ## 2.4  Từ y văn đến phần đặt vấn đề
@@ -1085,7 +1132,7 @@ Thời gian: 3 phút.
 
 
 ```{=html}
-<div style="position:relative;width:100%;aspect-ratio:12.3/4.2;container-type:inline-size;margin:0.2em auto;font-family:Arial,sans-serif;line-height:1.1"><div style="position:absolute;left:0.000%;top:0.000%;width:21.951%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#5FA39B;border-radius:1.220cqw"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">1</div><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700;margin-top:calc(1 * 0.11292cqw)">Điều đã biết</div></div><div style="position:absolute;left:23.171%;top:0.000%;width:76.829%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(10.1 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.813cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Sốc nhiễm khuẩn là nguyên nhân tử vong hàng đầu ở ICU. Dịch sớm cải thiện tưới máu, nhưng truyền tiếp thường gây cân bằng dịch dương, mà các nghiên cứu thuần tập thấy liên quan với tử vong cao hơn [2].</div></div><div style="position:absolute;left:0.000%;top:34.524%;width:21.951%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0070C0;border-radius:1.220cqw"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">2</div><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700;margin-top:calc(1 * 0.11292cqw)">Điều chưa biết</div></div><div style="position:absolute;left:23.171%;top:34.524%;width:76.829%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(10.1 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.813cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Các thử nghiệm lớn về hạn chế dịch không thấy khác biệt tử vong [3, 4], và một thử nghiệm thí điểm nhắm vào dịch &quot;ẩn&quot; không giảm có ý nghĩa cân bằng dịch [1]. Hạn chế dịch có thật sự giảm được cân bằng dịch hay không vẫn chưa rõ.</div></div><div style="position:absolute;left:0.000%;top:69.048%;width:21.951%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#055F56;border-radius:1.220cqw"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">3</div><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700;margin-top:calc(1 * 0.11292cqw)">Câu hỏi và mục tiêu</div></div><div style="position:absolute;left:23.171%;top:69.048%;width:76.829%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(10.1 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.813cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Vì vậy chúng tôi đặt câu hỏi: ở người lớn bị sốc nhiễm khuẩn, quy trình hạn chế dịch có làm giảm cân bằng dịch ngày 5 so với thường quy không? Mục tiêu chính: so sánh cân bằng dịch ngày 5 giữa hai nhóm.</div></div></div>
+<div style="position:relative;width:100%;aspect-ratio:12.3/4.2;container-type:inline-size;margin:0.2em auto;font-family:Arial,sans-serif;line-height:1.1"><div style="position:absolute;left:0.000%;top:0.000%;width:21.951%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#5FA39B;border-radius:1.220cqw"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">1</div><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700;margin-top:calc(1 * 0.11292cqw)">Điều đã biết</div></div><div style="position:absolute;left:23.171%;top:0.000%;width:76.829%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(10.1 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.813cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Septic shock is a leading cause of death in the ICU. Early fluids restore perfusion, but continued fluids often cause a positive fluid balance, which cohort studies link to higher mortality [2].</div></div><div style="position:absolute;left:0.000%;top:34.524%;width:21.951%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0070C0;border-radius:1.220cqw"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">2</div><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700;margin-top:calc(1 * 0.11292cqw)">Điều chưa biết</div></div><div style="position:absolute;left:23.171%;top:34.524%;width:76.829%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(10.1 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.813cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Large trials of restrictive fluids found no difference in mortality [3, 4], and a pilot trial targeting hidden fluids did not significantly reduce fluid balance [1]. Whether restriction reliably reduces fluid balance is still unclear.</div></div><div style="position:absolute;left:0.000%;top:69.048%;width:21.951%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#055F56;border-radius:1.220cqw"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">3</div><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700;margin-top:calc(1 * 0.11292cqw)">Câu hỏi và mục tiêu</div></div><div style="position:absolute;left:23.171%;top:69.048%;width:76.829%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(10.1 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.813cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">We therefore ask whether, in adults with septic shock, a restrictive fluid protocol reduces fluid balance at day 5 compared with usual care. Primary objective: to compare day-5 fluid balance between the groups.</div></div></div>
 ```
 
 ::: {.neu-takeaway}
@@ -1098,7 +1145,7 @@ Mỗi câu nêu dữ kiện đều có số trích dẫn. Khoảng 300 từ là 
 Thời gian: 4 phút.
 :::
 
-## Tên đề tài tạm và từ khóa từ PICO
+## Ví dụ xuyên suốt: tên đề tài tạm và từ khóa từ PICO
 
 :::: {.neu-cards style="--n:3"}
 ::: {.neu-card .plain style="--c:#0D7377"}
@@ -1195,7 +1242,7 @@ Phút 10-30: mỗi người tự làm. Lỗi hay gặp: quá nhiều kết quả
 
 Phút 30-35: hai bạn tình nguyện đọc tên đề tài và câu nêu khoảng trống.
 
-Đáp án: s2\_solutions\_VN, Bài tập 4.
+Đáp án: s2\_solutions\_VN, Bài tập 4: phần làm mẫu (phút 0-10), năm tài liệu và các dòng phiếu mẫu.
 
 Thời gian: 35 phút. Tổng kết lúc 22:25.
 :::
@@ -1285,7 +1332,7 @@ BÀI TẬP CÁ NHÂN
 ::: {.neu-activity-steps style="--c:#0B376C"}
 - Hoàn thành 5 tài liệu chính, các dòng phiếu tổng quan và phần đặt vấn đề
 - Đọc một bài của bạn theo quy trình 15 phút
-- Đọc tóm tắt Bài báo 2 (Hyun 2023) với bảng đọc (Bài tập 3)
+- Đọc tóm tắt Bài báo 2 (Hyun 2023) theo mẫu ở Bài tập 3
 - Bài tập 2 (diễn đạt lại), làm ở nhà
 - Không bắt buộc: tra Bài báo 1 (NCT04947904) trên ClinicalTrials.gov
 :::

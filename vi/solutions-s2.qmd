@@ -148,6 +148,24 @@ Giảng viên làm mẫu trực tiếp cho ví dụ xuyên suốt (phiên bản 
 
 *Ghi chú cho giảng viên:* kiểm tra thông tin trích dẫn với PubMed trước khi phát. Học viên phải tự kiểm tra mọi tài liệu tham khảo, đó chính là thói quen cần luyện.
 
+**Phần làm mẫu (phút 0–10): giảng viên trình bày gì**
+
+1. Chạy chuỗi tìm kiếm đầy đủ trong phần trình diễn PubMed (`s2_demo_VN.md`, Các chuỗi để sao chép, Bước 3) với bộ lọc RCT và tổng quan hệ thống, người lớn, 10 năm. Ghi lại trên màn hình: cơ sở dữ liệu, ngày, chuỗi tìm kiếm, bộ lọc, số kết quả. Số kết quả thay đổi mỗi ngày, nên đọc trực tiếp trên màn hình.
+2. Đọc to và sàng lọc các tiêu đề đầu tiên. Giữ bài ở người lớn bị nhiễm khuẩn huyết hoặc sốc nhiễm khuẩn, có so sánh chiến lược dịch hoặc cân bằng dịch, là thử nghiệm, nghiên cứu thuần tập hoặc tổng quan. Bỏ bài ở trẻ em, bỏng, phẫu thuật, và thử nghiệm so sánh hai loại dịch (tinh thể với keo). Học viên gợi ý bài và từ khóa trong chat.
+3. Lưu Boulet 2024 và CLASSIC vào Zotero (*Send to → Citation manager*) và cùng điền hai dòng phiếu tổng quan (dòng mẫu bên dưới).
+4. Tìm "septic shock" và "fluid" trên ClinicalTrials.gov để chỉ cách tìm thử nghiệm đang tiến hành.
+5. Hỏi từ khóa trong chat. Đáp án mẫu: bốn thuật ngữ MeSH ở trên.
+
+**Phiếu tổng quan tài liệu: dòng mẫu**
+
+| # | Nghiên cứu | Thiết kế, cỡ mẫu | So sánh | Kết cục chính: kết quả | Hạn chế chính | Vì sao quan trọng với câu hỏi của chúng ta |
+|---|---|---|---|---|---|---|
+| 1 | Boulet 2024, *Crit Care* | RCT thí điểm, 3 ICU, 50 người được phân nhóm, 48 người được phân tích | Hạn chế dịch duy trì và dịch pha thuốc trong 7 ngày so với chăm sóc tiêu chuẩn | Cân bằng dịch tích lũy ngày 5: trung vị 6.9 so với 35.0 ml/kg, p = 0.42, không khác biệt có ý nghĩa | Cỡ mẫu nhỏ, không đủ lực cho tử vong, bác sĩ không được làm mù | Thiết kế và kết cục gần nhất với nghiên cứu thí điểm của chúng ta |
+| 2 | Hyun 2023, *Ann Intensive Care* | Thuần tập ghép cặp theo điểm xu hướng, sổ bộ đa trung tâm, 20 bệnh viện, 2516 người bệnh | Cân bằng dịch tích lũy dương so với âm vào cuối ngày ICU thứ 1, 2 hoặc 3 | Tử vong 28 ngày: HR 1.17 (KTC 95% 0.85 đến 1.60) ở ngày 1, 2.13 (1.48 đến 3.06) ở ngày 2, 1.56 (1.10 đến 2.22) ở ngày 3 | Nghiên cứu quan sát, có thể bị nhiễu | Cân bằng dịch có liên quan với tử vong, nên đáng để giảm |
+| 3 | Meyhoff 2022, *N Engl J Med* (CLASSIC) | RCT, 1554 người lớn bị sốc nhiễm khuẩn | Hạn chế dịch so với dịch truyền tĩnh mạch tiêu chuẩn | Tử vong 90 ngày 42.3% so với 42.1%, không khác biệt | Bác sĩ không được làm mù | Hạn chế dịch không làm thay đổi tử vong trong một thử nghiệm lớn |
+| 4 | Shapiro 2023, *N Engl J Med* (CLOVERS) | RCT, 1563 người lớn bị tụt huyết áp do nhiễm khuẩn huyết | Hạn chế dịch (dùng vận mạch sớm hơn) so với truyền dịch tự do | Tử vong trước khi ra viện về nhà trong 90 ngày: 14.0% so với 14.9%, không khác biệt | Không làm mù, chỉ giai đoạn đầu của điều trị | Khẳng định kết quả của CLASSIC ở một quần thể khác |
+| 5 | Evans 2021, *Crit Care Med* (Surviving Sepsis Campaign) | Hướng dẫn quốc tế | Không áp dụng | Không có khuyến cáo về hạn chế dịch so với truyền dịch tự do sau hồi sức ban đầu (chưa đủ bằng chứng) | Ý kiến chuyên gia khi bằng chứng còn yếu | Cho thấy điều còn chưa chắc chắn mà nghiên cứu thí điểm của chúng ta giải quyết |
+
 **Hướng dẫn phản hồi khi đọc bản nháp (không chấm điểm)**
 
 | Thành phần | Tốt | Cần cải thiện |

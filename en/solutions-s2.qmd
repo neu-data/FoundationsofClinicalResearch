@@ -140,6 +140,24 @@ The trainer models this live for the running example (the feasible pilot version
 
 *Instructor note:* check citation details against PubMed before distributing. Participants must verify every reference themselves, which is exactly the habit to practise.
 
+**The live part (minutes 0–10): what the trainer shows**
+
+1. Run the full string from the PubMed demo (`s2_demo.md`, Strings to copy, Step 3) with the filters RCT and systematic review, adults, 10 years. Write the search record on screen: database, date, string, filters, number of results. The number changes every day, so read it from the screen.
+2. Screen the first titles aloud. Keep adults with sepsis or septic shock, a comparison of fluid strategies or fluid balance, and a trial, cohort or review. Skip children, burns and surgery, and trials of one fluid type against another (crystalloid against colloid). Participants suggest papers and keywords in the chat.
+3. Save Boulet 2024 and CLASSIC to Zotero (*Send to → Citation manager*) and fill their two worksheet rows together (model rows below).
+4. Search ClinicalTrials.gov for "septic shock" and "fluid" to show how to look for ongoing trials.
+5. Ask for keywords in the chat. Model answer: the four MeSH terms above.
+
+**Literature review worksheet: model rows**
+
+| # | Study | Design, size | Compared | Primary outcome: result | Key limitation | Why it matters for our question |
+|---|---|---|---|---|---|---|
+| 1 | Boulet 2024, *Crit Care* | Pilot RCT, 3 ICUs, 50 randomised, 48 analysed | Restricting maintenance and drug-dilution fluids for 7 days vs standard care | Cumulative fluid balance at day 5: median 6.9 vs 35.0 ml/kg, p = 0.42, no significant difference | Small, not powered for mortality, clinicians not blinded | Closest design and outcome to our pilot |
+| 2 | Hyun 2023, *Ann Intensive Care* | Propensity-matched cohort, multicentre registry, 20 hospitals, 2,516 patients | Positive vs negative cumulative fluid balance at the end of ICU day 1, 2 or 3 | 28-day death: HR 1.17 (95% CI 0.85 to 1.60) at day 1, 2.13 (1.48 to 3.06) at day 2, 1.56 (1.10 to 2.22) at day 3 | Observational, confounding possible | Fluid balance is linked with death, so it is worth reducing |
+| 3 | Meyhoff 2022, *N Engl J Med* (CLASSIC) | RCT, 1,554 adults with septic shock | Restrictive vs standard intravenous fluid | 90-day death 42.3% vs 42.1%, no difference | Clinicians not blinded | Restriction did not change mortality in a large trial |
+| 4 | Shapiro 2023, *N Engl J Med* (CLOVERS) | RCT, 1,563 adults with sepsis-induced hypotension | Restrictive (earlier vasopressors) vs liberal fluid | Death before discharge home by day 90: 14.0% vs 14.9%, no difference | Open label, early phase of care only | Confirms CLASSIC in a different population |
+| 5 | Evans 2021, *Crit Care Med* (Surviving Sepsis Campaign) | International guideline | Not applicable | No recommendation on restrictive vs liberal fluid after initial resuscitation (insufficient evidence) | Expert judgement where evidence is weak | Shows the uncertainty our pilot addresses |
+
 **Feedback guide when reading drafts (not a grade)**
 | Element | Good | Needs work |
 |---|---|---|

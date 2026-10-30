@@ -8,7 +8,7 @@ title: "Session 4: Live-demo script"
 
 | | |
 |---|---|
-| **Slots** | **Main demo (8 min, 20:37-20:45):** section 4.2, just before the break, slide 26 "Live demo: the 2x2 calculator" (sheet *Association*). **Checking the class calculations (15 min, 21:00-21:15):** slide 28, after the break. **Short add-on (1-2 min, optional):** section 4.3, slide 31 "Same test, different setting: PPV depends on prevalence" (sheet *Diagnostic*). |
+| **Slots** | **Main demo (8 min, 20:37-20:45):** section 4.2, just before the break, slide 27 "Live demo: the 2x2 calculator" (sheet *Association*). **Checking the class calculations (15 min, 21:00-21:15):** slide 29, after the break. **Short add-on (1-2 min, optional):** section 4.3, slide 32 "Same test, different setting: PPV depends on prevalence" (sheet *Diagnostic*). |
 | **File** | `2x2_calculator.xlsx` (regenerate with `python make_2x2_calculator.py`) |
 | **Software** | Excel or LibreOffice Calc (any recent version), shown to the class by sharing your screen in Zoom or Teams. |
 | **Participants** | Watch the shared screen; they answer the calculation polls after the break. The file is emailed to them after the session. |
@@ -98,7 +98,7 @@ Use this only if the file is already open and you are on time. The slide makes t
 4. **Case-control data: OR only.**
 5. **Sensitivity and specificity belong to the test. PPV and NPV depend on how common the disease is.**
 
-## After the break: checking the class calculations (15 minutes, slide 28)
+## After the break: checking the class calculations (15 minutes, slide 29)
 
 Share the screen again. For each calculation, run the polls first (see s4_solutions, Part C), then type the numbers into the Association sheet so everyone sees the answers:
 

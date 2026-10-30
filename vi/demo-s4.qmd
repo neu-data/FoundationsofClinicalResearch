@@ -8,7 +8,7 @@ title: "Buổi 4: Kịch bản trình diễn"
 
 | | |
 |---|---|
-| **Thời điểm** | **Trình diễn chính (8 phút, 20:37-20:45):** mục 4.2, ngay trước giờ giải lao, slide 26 "Trình diễn trực tiếp: công cụ tính bảng 2x2" (trang tính *Association*). **Kiểm tra bài tính của cả lớp (15 phút, 21:00-21:15):** slide 28, sau giờ giải lao. **Phần bổ sung ngắn (1-2 phút, tùy chọn):** mục 4.3, slide 31 "Cùng xét nghiệm, khác bối cảnh: PPV phụ thuộc tỷ lệ hiện mắc" (trang tính *Diagnostic*). |
+| **Thời điểm** | **Trình diễn chính (8 phút, 20:37-20:45):** mục 4.2, ngay trước giờ giải lao, slide 27 "Trình diễn trực tiếp: công cụ tính bảng 2x2" (trang tính *Association*). **Kiểm tra bài tính của cả lớp (15 phút, 21:00-21:15):** slide 29, sau giờ giải lao. **Phần bổ sung ngắn (1-2 phút, tùy chọn):** mục 4.3, slide 32 "Cùng xét nghiệm, khác bối cảnh: PPV phụ thuộc tỷ lệ hiện mắc" (trang tính *Diagnostic*). |
 | **Tệp** | `2x2_calculator.xlsx` (tạo lại bằng `python make_2x2_calculator.py`) |
 | **Phần mềm** | Excel hoặc LibreOffice Calc (phiên bản gần đây bất kỳ), chiếu cho cả lớp bằng chia sẻ màn hình trên Zoom hoặc Teams. |
 | **Học viên** | Theo dõi màn hình chia sẻ, trả lời các câu hỏi khảo sát nhanh về phép tính sau giờ giải lao. Tệp được gửi qua email cho học viên sau buổi học. |
@@ -100,7 +100,7 @@ Chỉ dùng phần này nếu tệp đã mở sẵn và lớp đang đúng giờ
 4. **Dữ liệu bệnh chứng: chỉ dùng OR.**
 5. **Độ nhạy và độ đặc hiệu thuộc về xét nghiệm. PPV và NPV phụ thuộc vào mức độ phổ biến của bệnh.**
 
-## Sau giờ giải lao: kiểm tra bài tính của cả lớp (15 phút, slide 28)
+## Sau giờ giải lao: kiểm tra bài tính của cả lớp (15 phút, slide 29)
 
 Chia sẻ màn hình lại. Với mỗi phép tính, chạy khảo sát nhanh trước (xem s4_solutions_VN, Phần C), rồi nhập số vào trang Association để mọi người cùng thấy đáp án:
 
