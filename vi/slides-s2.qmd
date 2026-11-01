@@ -39,7 +39,7 @@ CÂU HỎI NHANH · 8 phút
 
 ::: {.neu-activity-steps style="--c:#6C3483"}
 - Bài báo nào của khóa học là thử nghiệm, bài nào là thuần tập: Bài báo 1 (Boulet) hay Bài báo 2 (Hyun)?
-- 'Ở người lớn bị nhiễm khuẩn huyết, cân bằng dịch dương đến ngày 3, so với không, có liên quan với tử vong đến ngày 28?' Nêu P, E, C, O, T
+- 'Ở người lớn bị sepsis, cân bằng dịch dương đến ngày 3, so với không, có liên quan với tử vong đến ngày 28?' Nêu P, E, C, O, T
 - Ví dụ xuyên suốt trượt tiêu chí FINER nào?
 - Câu nào là mục tiêu cụ thể: 'tìm hiểu về cân bằng dịch' hay 'ước tính tỷ lệ có cân bằng dịch dương ở ngày 3'?
 - Viết H0 cho: quy trình hạn chế dịch có làm giảm cân bằng dịch ngày 5 không?
@@ -67,7 +67,7 @@ Thời gian: 8 phút.
 ::: {.neu-card .plain style="--c:#0B376C"}
 [PECO(T)]{.neu-card-title}
 
-- P: người lớn bị nhiễm khuẩn huyết
+- P: người lớn bị sepsis
 - E: cân bằng dương đến ngày 3
 - C: cân bằng trung tính hoặc âm
 - O và T: tử vong đến ngày 28
@@ -986,7 +986,7 @@ CÂU HỎI NHANH · 3 phút
 :::
 
 ::: {.neu-activity-steps style="--c:#6C3483"}
-- Một nghiên cứu thuần tập: 'Cân bằng dịch dương làm tăng tử vong trong nhiễm khuẩn huyết'
+- Một nghiên cứu thuần tập: 'Cân bằng dịch dương làm tăng tử vong trong sepsis'
 - Kết cục chính p = 0.31: 'một xu hướng có lợi đầy hứa hẹn'
 - Kết cục chính không khác biệt, nhưng tiêu điểm tóm tắt lại là 'cải thiện sự hài lòng của người bệnh'
 - 'Tử vong giảm từ 30% xuống 22% sau quy trình dịch mới của chúng tôi' (không có nhóm chứng)

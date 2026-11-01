@@ -79,8 +79,6 @@ Two sessions per block, one week between sessions.
 
 One running example throughout: fluids in septic shock and 28-day mortality. From Session 5 it continues in the course study, FLUID-ICU.
 
-What is expected: Proposal\_Brief, sent before Session 1 with Presentation\_Guide and Proposal\_Rubric. The manuscript brief is shared in Session 6.
-
 Timing: 2 minutes.
 :::
 
@@ -114,6 +112,10 @@ Timing: 2 minutes.
 ::: {.notes}
 In Level 1 the trainers run the software. You read and interpret the results.
 
+Level 2: participants learn to run the common statistical analyses of medical research in R, so they can analyse their own data for publication.
+
+Level 3: more in-depth topics: systematic review and meta-analysis, handling missing data, competing risks analysis.
+
 Timing: 1 minute.
 :::
 
@@ -142,15 +144,17 @@ Both are individual work. Each brief says what is expected and how it is assesse
 ::::
 
 ::: {.notes}
-Proposal: about 5 volunteers present in Session 8 (6 minutes each). Everyone submits the proposal and 6 slides by email. Details: Proposal\_Brief, sent by email before Session 1.
+Proposal: about 5 volunteers present in Session 8 (6 minutes each). Everyone submits the proposal and 6 slides by email. Details: Proposal\_Brief, sent by email before Session 1 (see the email of Monday 26/10/2026).
 
-Results section: at the end of Session 6 each person chooses one FLUID-ICU question (Q1 to Q5) and writes its Results from the results pack. After Session 8 each person reviews one colleague's draft.
+What is expected: Proposal\_Brief, sent before Session 1 with Presentation\_Guide and Proposal\_Rubric.
+
+The manuscript brief is shared in Session 6. For this part: at the end of Session 6 each person chooses one FLUID-ICU question (Q1 to Q5) and writes its Results from the results pack. After Session 8 each person reviews one colleague's draft.
 
 Write in English. Vietnamese is accepted if English is impossible.
 
-Show the proposal brief we sent them.
-
 Timing: 2 minutes.
+
+Show the proposal brief we sent them.
 :::
 
 ## By the end of the course you will be able to
@@ -193,9 +197,9 @@ Timing: 2 minutes.
 ::: {.notes}
 Ask: 'Which card worries you most? Answer in the chat.' Usually analysis. Reassure: we go slowly and check often.
 
-Registration statistics: almost 50% have a master’s degree, so most have done some research. This course goes back to the basics. Some concepts will be familiar, but revisiting them helps you master them. 30.4% want to write a scientific paper and 26.1% want to understand statistics better (p-values, confidence intervals).
-
 Timing: 1 minute.
+
+Registration statistics: almost 50% (10) have a master’s degree, so most have done some research (4, 18.2%, have a bachelor's degree, so are probably medical residents). 73.9% have taken part in research (collecting data, or designing or running a study) and 17.4% have their own publications. This course goes back to the basics. Some concepts will be familiar, but revisiting them helps you master them. 30.4% want to write a scientific paper and 26.1% want to understand statistics better (p-values, confidence intervals). About 50% have had no training in biostatistics.
 :::
 
 ## How each session runs
@@ -333,9 +337,7 @@ Why a quiz now?
 ::: {.notes}
 Paste the Google Form link in the chat. No scores or answers are shown. The answers are shared after Session 8.
 
-Close the form after 15 minutes. Teaching starts at 20:05.
-
-Timing: 15 minutes.
+Timing: 12 minutes.
 :::
 
 # Session 1 · Ask: from clinical problem to research question
@@ -387,8 +389,6 @@ Timing: 1 minute.
 :::
 
 ::: {.notes}
-The numbers are illustrative. CLASSIC (NEJM 2022, 1,554 patients) found the same 90-day mortality with restrictive and standard fluids (42.3% vs 42.1%).
-
 Ask: 'Why do we remember the three good outcomes?' Expected: recall bias.
 
 Timing: 4 minutes.
@@ -481,7 +481,7 @@ Answer: A, B, C, D. C is the real CLASSIC trial.
 
 What could make C weaker than B? Very small, many patients lost, or patients unlike ours.
 
-Timing: 3 minutes.
+Timing: 3 minutes (longer if the previous slides finished early, under 4 minutes).
 :::
 
 ## The two papers we read together in this course
@@ -514,8 +514,6 @@ Both are open access. You receive the two PDFs by email before Session 1.
 :::
 
 ::: {.notes}
-Paper 1: a pilot trial (a small trial that tests whether a larger one is possible). Paper 2: a matched cohort, like option B in the quiz.
-
 Do not read them now. Session 2 reads Paper 1's abstract.
 
 Email the two original PDFs with the Session 1 exercise sheet before Session 1.
@@ -557,7 +555,11 @@ Timing: 2 minutes.
 :::
 
 ::: {.notes}
-Point: qualitative research has its own rigorous methods.
+By the nature of the study: qualitative, quantitative or mixed. All the methods in this course are quantitative.
+
+We do qualitative research when we want to explore attitudes and behaviour, with the aim of changing them.
+
+By the nature of the data collected: primary or secondary.
 
 Timing: 3 minutes.
 :::
@@ -639,11 +641,15 @@ Timing: 1 minute.
 :::
 
 ::: {.notes}
+This course walks with you along the whole road: from ...
+
 Stops 1-6 plan and do the study. Stops 7-11 publish it.
 
 Ask: 'At which stop do hospital studies get stuck?' Expected: ethics paperwork, data collection or writing.
 
-Timing: 3 minutes + 3 minutes for questions. 1.1 ends at 20:40.
+Timing: 3 minutes + 3 minutes for questions.
+
+Part 1.1 ends at 20:40.
 :::
 
 ---
@@ -781,7 +787,7 @@ Ask: 'Make a PECO question about fluids.' Expected: in adults with sepsis, is a 
 
 To have participants write out the three research questions, use the backup slide 'Extra: the three examples as research questions' (extra slides).
 
-Timing: 4 minutes.
+Timing: 4 minutes (if there is time, ask participants to write the 3 questions).
 :::
 
 ## Check your understanding: spot the PICO
@@ -933,7 +939,9 @@ Timing: 3 minutes.
 :::
 
 ::: {.notes}
-Ask: 'Make this answerable: Is albumin better?' Expected: in adults with septic shock, does albumin plus crystalloid, compared with crystalloid alone, reduce 28-day mortality?
+A question must be specific. When we first have a research idea, the question is usually vague. To make it a good research question we make it specific, and PICO helps with that.
+
+E.g.: 'Make this answerable: Is albumin better?' Expected: in adults with septic shock, does albumin plus crystalloid, compared with crystalloid alone, reduce 28-day mortality?
 
 Timing: 3 minutes.
 :::

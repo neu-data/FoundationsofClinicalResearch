@@ -12,12 +12,12 @@ Tải về: [Word](files/data/results_packs/Results_Pack_Q1_VN.docx) · [PDF](fi
 
 ## 1. Câu hỏi
 
-**Ở người lớn bị nhiễm khuẩn huyết điều trị tại ICU, cân bằng dịch tích lũy dương vào ngày 3 có liên quan với tử vong 28 ngày cao hơn không?**
+**Ở người lớn bị sepsis điều trị tại ICU, cân bằng dịch tích lũy dương vào ngày 3 có liên quan với tử vong 28 ngày cao hơn không?**
 
 ## 2. Thiết kế và dữ liệu
 
 - Thiết kế: nghiên cứu thuần tập tiến cứu đa trung tâm (quan sát).
-- Bối cảnh: 4 ICU (ICU A-D), người lớn bị nhiễm khuẩn huyết được tuyển liên tiếp, thời gian tuyển từ tháng 1/2023 đến tháng 12/2024.
+- Bối cảnh: 4 ICU (ICU A-D), người lớn bị sepsis được tuyển liên tiếp, thời gian tuyển từ tháng 1/2023 đến tháng 12/2024.
 - Phơi nhiễm: cân bằng dịch tích lũy dương vào ngày 3 (dịch vào trừ dịch ra trong các ngày ICU 1-3 > 0 ml/kg) so với cân bằng âm hoặc bằng 0.
 - Kết cục: tử vong do mọi nguyên nhân trong vòng 28 ngày kể từ khi nhập ICU (died_28d); thời gian đến tử vong cho phân tích sống còn (time_to_event_28d, kiểm duyệt tại ngày 28).
 - Mẫu phân tích: 618 trong số 620 người bệnh (2 người không có cân bằng dịch ngày 3). Các mô hình hiệu chỉnh: 527 trường hợp đầy đủ.

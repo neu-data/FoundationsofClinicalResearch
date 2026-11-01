@@ -75,7 +75,7 @@ Câu 5 trong khung chat: kết quả chính của câu hỏi mỗi người đã
 ## Hôm nay: hoàn thành đề cương, bắt đầu bài báo
 
 ::: {.neu-intro}
-FLUID-ICU = bộ dữ liệu của khóa học: thuần tập mô phỏng 620 người lớn nhiễm khuẩn huyết ở 4 ICU (Buổi 5-6).
+FLUID-ICU = bộ dữ liệu của khóa học: thuần tập mô phỏng 620 người lớn bị sepsis ở 4 ICU (Buổi 5-6).
 :::
 
 :::: {.neu-cards style="--n:3"}
@@ -1050,7 +1050,7 @@ Với FLUID-ICU, mọi thông tin có trong gói kết quả, SAP và từ đi�
 Mỗi mục STROBE một câu (dữ liệu mô phỏng). STROBE = bảng kiểm báo cáo nghiên cứu quan sát.
 :::
 
-- Mục 4-6: Chúng tôi phân tích FLUID-ICU, một nghiên cứu thuần tập tiến cứu gồm người lớn nhiễm khuẩn huyết liên tiếp nhập bốn ICU từ tháng 1/2023 đến tháng 12/2024.
+- Mục 4-6: Chúng tôi phân tích FLUID-ICU, một nghiên cứu thuần tập tiến cứu gồm người lớn bị sepsis liên tiếp nhập bốn ICU từ tháng 1/2023 đến tháng 12/2024.
 - Mục 7: Phơi nhiễm là cân bằng dịch tích lũy dương đến ngày ICU thứ 3 (dịch vào trừ dịch ra ngày 1-3, \> 0 ml/kg). Kết cục là tử vong do mọi nguyên nhân trong 28 ngày sau nhập ICU.
 - Mục 8: Dữ liệu lấy từ hồ sơ ICU theo phiếu thu thập dữ liệu chuẩn.
 - Mục 9: Để xử lý nhiễu do chỉ định, chúng tôi hiệu chỉnh theo mức độ nặng và bệnh nền đã định trước trong kế hoạch phân tích.
@@ -1465,7 +1465,7 @@ CÂU HỎI NHANH · 2 phút
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
 - Thử nghiệm ngẫu nhiên so sánh hạn chế dịch với dịch thông thường trong sốc nhiễm khuẩn
-- Tổng quan hệ thống về chiến lược dịch truyền trong nhiễm khuẩn huyết
+- Tổng quan hệ thống về chiến lược dịch truyền trong sepsis
 - Nghiên cứu thuần tập hồi cứu từ hồ sơ ICU (như FLUID-ICU)
 - Đánh giá lâm sàng (audit) việc ghi phiếu cân bằng dịch so với chuẩn của khoa
 :::

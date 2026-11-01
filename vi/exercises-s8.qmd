@@ -34,7 +34,7 @@ Viết lại mỗi câu sao cho câu chỉ nói điều mà dữ liệu và thi�
 |---|---|---|
 | a | Bài báo 1 (tr.10), kết cục chính p = 0.42, hiệu số 13.2 ml/kg (KTC 95% −15.2 đến 41.6): tác giả dựa vào "the non-significant trend in fluid balance reduction" (xu hướng giảm cân bằng dịch không có ý nghĩa thống kê) để đề xuất một thử nghiệm lớn hơn. | |
 | b | Bài báo 2 (tr.4): "a positive fluid balance on the first ICU day did not impact the 28-day mortality" (cân bằng dịch dương trong ngày ICU đầu tiên không tác động đến tử vong 28 ngày). | |
-| c | Bài báo 2 (tiêu đề): "Impact of a cumulative positive fluid balance during the first three ICU days in patients with sepsis …" (Tác động của cân bằng dịch tích lũy dương trong ba ngày ICU đầu tiên ở người bệnh nhiễm khuẩn huyết …) | |
+| c | Bài báo 2 (tiêu đề): "Impact of a cumulative positive fluid balance during the first three ICU days in patients with sepsis …" (Tác động của cân bằng dịch tích lũy dương trong ba ngày ICU đầu tiên ở người bệnh sepsis …) | |
 | d | Bài báo 1 (tr.10): quy trình đạt được "the lowest fluid balance on Day 5 ever published" (cân bằng dịch ngày 5 thấp nhất từng được công bố). | |
 
 ### A2. Leo bậc thang động từ
@@ -44,7 +44,7 @@ Chọn động từ mạnh nhất mà mỗi thiết kế cho phép: **được g
 | # | Nghiên cứu | Động từ mạnh nhất mà vẫn trung thực |
 |---|---|---|
 | a | Loạt ca bệnh gồm 12 người bệnh ICU bị sốc nhiễm khuẩn có phù phổi sau khi truyền lượng dịch lớn | |
-| b | Nghiên cứu thuần tập trên 3,000 người bệnh nhiễm khuẩn huyết: cân bằng dịch dương và tử vong, có hiệu chỉnh theo mức độ nặng | |
+| b | Nghiên cứu thuần tập trên 3,000 người bệnh sepsis: cân bằng dịch dương và tử vong, có hiệu chỉnh theo mức độ nặng | |
 | c | Một thử nghiệm ngẫu nhiên đơn lẻ trên 48 người bệnh: quy trình hạn chế dịch và cân bằng dịch ngày 5 | |
 | d | Năm thử nghiệm ngẫu nhiên lớn và một phân tích gộp, tất cả đều nhất quán | |
 | e | Khảo sát cắt ngang về mức độ đầy đủ của phiếu theo dõi cân bằng dịch tại hai ICU | |
@@ -160,7 +160,7 @@ Hai bài báo đã công bố trả lời câu hỏi xuyên suốt (**dịch tru
 | | Bài báo | Thiết kế |
 |---|---|---|
 | **Bài báo 1** | Boulet N, et al. *Crit Care* 2024;28:429 (chiến lược hạn chế dịch không nhằm hồi sức, OPTIFLUID) | Thử nghiệm ngẫu nhiên có đối chứng thí điểm, 48 người bệnh được phân tích |
-| **Bài báo 2** | Hyun D-G, et al. *Ann Intensive Care* 2023;13:105 (cân bằng dịch tích lũy dương trong ba ngày ICU đầu tiên) | Nghiên cứu thuần tập ghép cặp theo điểm xu hướng từ sổ đăng ký nhiễm khuẩn huyết, 2516 người bệnh |
+| **Bài báo 2** | Hyun D-G, et al. *Ann Intensive Care* 2023;13:105 (cân bằng dịch tích lũy dương trong ba ngày ICU đầu tiên) | Nghiên cứu thuần tập ghép cặp theo điểm xu hướng từ sổ đăng ký sepsis, 2516 người bệnh |
 
 Cả lớp cùng thẩm định **cả hai** bài báo. Giảng viên trình chiếu trang tương ứng trên màn hình chia sẻ, bạn bình chọn **Có / Không / Không rõ**, và một bạn tình nguyện nêu số trang và câu văn trong khung chat. Điền phiếu của riêng bạn trong lúc làm. "Không rõ" là câu trả lời tốt khi bài báo không nói đến.
 

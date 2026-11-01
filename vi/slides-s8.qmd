@@ -106,7 +106,7 @@ Hỏi: trong một câu, điều gì chưa biết về câu hỏi của bạn? �
 ::: {.neu-card .plain style="--c:#0D7377"}
 [1  Đã biết]{.neu-card-title}
 
-- Dịch truyền cứu sống ở giai đoạn sớm của nhiễm khuẩn huyết
+- Dịch truyền cứu sống ở giai đoạn sớm của sepsis
 - Cân bằng dương liên quan với tử vong (Bài 2 và các nghiên cứu thuần tập khác)
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
@@ -145,7 +145,7 @@ CÂU HỎI NHANH · 2 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-- 'Truyền dịch sớm là phần cốt lõi trong điều trị nhiễm khuẩn huyết.'
+- 'Truyền dịch sớm là phần cốt lõi trong điều trị sepsis.'
 - 'Người bệnh nặng hơn được truyền nhiều dịch hơn, nên chưa rõ mối liên quan với tử vong có còn sau khi hiệu chỉnh hay không.'
 - 'Chúng tôi đánh giá liệu cân bằng dịch dương đến ngày 3 có liên quan với tử vong 28 ngày hay không.'
 - 'Trong nghiên cứu của chúng tôi, 35.9% người bệnh cân bằng dương đã tử vong.'
@@ -364,8 +364,8 @@ Viết sau cùng và kiểm tra mọi con số khớp với văn bản và bản
 Chép số liệu từ phần Kết quả của bạn (dữ liệu mô phỏng, khoảng 120 từ).
 :::
 
-- **Tiêu đề: Cân bằng dịch dương đến ngày 3 và tử vong 28 ngày ở người bệnh nhiễm khuẩn huyết: nghiên cứu thuần tập đa trung tâm**
-- Đặt vấn đề: Cân bằng dịch dương liên quan với tử vong trong nhiễm khuẩn huyết, nhưng người bệnh nặng hơn được truyền nhiều dịch hơn. Chúng tôi đánh giá mối liên quan sau khi hiệu chỉnh theo mức độ nặng.
+- **Tiêu đề: Cân bằng dịch dương đến ngày 3 và tử vong 28 ngày ở người bệnh sepsis: nghiên cứu thuần tập đa trung tâm**
+- Đặt vấn đề: Cân bằng dịch dương liên quan với tử vong trong sepsis, nhưng người bệnh nặng hơn được truyền nhiều dịch hơn. Chúng tôi đánh giá mối liên quan sau khi hiệu chỉnh theo mức độ nặng.
 - Phương pháp: Nghiên cứu thuần tập tiến cứu (dữ liệu giảng dạy mô phỏng), 620 người lớn, 4 ICU, 2023-2024. Phơi nhiễm: cân bằng dương đến ngày 3. Kết cục: tử vong 28 ngày. Hồi quy logistic và Cox hiệu chỉnh theo mức độ nặng.
 - Kết quả: Trong 618 người bệnh, 373 (60.4%) có cân bằng dương. Tử vong 35.9% so với 18.4%. OR thô 2.49 (1.70 đến 3.70). OR hiệu chỉnh 1.62 (KTC 95% 1.02 đến 2.59).
 - Kết luận: Cân bằng dương có liên quan ở mức vừa phải với tử vong 28 ngày. Phần lớn mối liên quan thô phản ánh mức độ nặng. Cần một thử nghiệm ngẫu nhiên.
@@ -430,7 +430,7 @@ Công thức từ PICO: thiết kế, I so với C, ở P, lên O. 10-16 từ. K
 
 - Đã đăng: 'Impact of a cumulative positive fluid balance during the first three ICU days in patients with sepsis: a propensity score-matched cohort study'
 - [Vấn đề: 'impact' là từ nhân quả, không hợp với nghiên cứu thuần tập]{style="color:#C0392B"}
-- **[Tốt hơn: Cân bằng dịch dương trong 3 ngày đầu ở ICU và tử vong 28 ngày ở nhiễm khuẩn huyết: nghiên cứu thuần tập ghép cặp theo điểm xu hướng]{style="color:#2E8B57"}**
+- **[Tốt hơn: Cân bằng dịch dương trong 3 ngày đầu ở ICU và tử vong 28 ngày ở sepsis: nghiên cứu thuần tập ghép cặp theo điểm xu hướng]{style="color:#2E8B57"}**
 :::
 ::::
 
@@ -939,7 +939,7 @@ Cùng câu hỏi lâm sàng (dịch truyền trong sốc nhiễm khuẩn), hai t
 
 - Hyun 2023, Annals of Intensive Care
 - Thuần tập ghép cặp theo điểm xu hướng, 2516 người bệnh
-- Cân bằng dịch dương trong nhiễm khuẩn huyết
+- Cân bằng dịch dương trong sepsis
 - Kết cục: tử vong 28 ngày
 :::
 ::::

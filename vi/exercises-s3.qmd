@@ -48,11 +48,11 @@ Mỗi phần còn có **thực hành thêm** về các chủ đề khác, để 
 
 Thiết kế: ______________________  Bằng chứng: ______________________
 
-**Tóm tắt 2.** Vào một ngày trong tháng Ba, hai bác sĩ xem xét toàn bộ 64 người bệnh nhiễm khuẩn huyết tại bốn ICU. Với mỗi người bệnh, họ ghi cân bằng dịch của ngày hôm đó và người bệnh có tổn thương thận cấp trong ngày hôm đó hay không.
+**Tóm tắt 2.** Vào một ngày trong tháng Ba, hai bác sĩ xem xét toàn bộ 64 người bệnh sepsis tại bốn ICU. Với mỗi người bệnh, họ ghi cân bằng dịch của ngày hôm đó và người bệnh có tổn thương thận cấp trong ngày hôm đó hay không.
 
 Thiết kế: ______________________  Bằng chứng: ______________________
 
-**Tóm tắt 3.** Bốn mươi người bệnh nhiễm khuẩn huyết tại ICU cần lọc máu mới được so sánh với 80 người bệnh nhiễm khuẩn huyết tại cùng các đơn vị đó nhưng không cần lọc máu. Sau đó các nhà nghiên cứu xem lại hồ sơ bệnh án để tìm cân bằng dịch ngày 3 của từng người bệnh.
+**Tóm tắt 3.** Bốn mươi người bệnh sepsis tại ICU cần lọc máu mới được so sánh với 80 người bệnh sepsis tại cùng các đơn vị đó nhưng không cần lọc máu. Sau đó các nhà nghiên cứu xem lại hồ sơ bệnh án để tìm cân bằng dịch ngày 3 của từng người bệnh.
 
 Thiết kế: ______________________  Bằng chứng: ______________________
 
@@ -84,7 +84,7 @@ Cùng nhiệm vụ, với chín tóm tắt từ các khoa khác. Đáp án nằm
 
 **E6.** Chúng tôi mô tả năm người bệnh bị tăng natri máu nặng trong vòng một tuần sau khi khoa áp dụng quy trình truyền dịch mới, kèm kết quả xét nghiệm và diễn biến lâm sàng.
 
-**E7.** Tỷ lệ nhiễm khuẩn huyết liên quan đến catheter tĩnh mạch trung tâm được so sánh giữa sáu tháng trước và sáu tháng sau một chương trình đào tạo về gói đặt catheter trên toàn khoa, do nhóm nghiên cứu triển khai cho mọi giường bệnh cùng một ngày.
+**E7.** Tỷ lệ sepsis liên quan đến catheter tĩnh mạch trung tâm được so sánh giữa sáu tháng trước và sáu tháng sau một chương trình đào tạo về gói đặt catheter trên toàn khoa, do nhóm nghiên cứu triển khai cho mọi giường bệnh cùng một ngày.
 
 **E8.** Mười hai khoa phòng của bệnh viện được phân bổ ngẫu nhiên, theo từng khoa, vào chương trình phản hồi vệ sinh tay mới hoặc thực hành thường quy. Nhiễm khuẩn bệnh viện được đếm ở mọi người bệnh trong các khoa đó trong sáu tháng.
 
@@ -101,7 +101,7 @@ Cùng nhiệm vụ, với chín tóm tắt từ các khoa khác. Đáp án nằm
 |---|---|---|---|---|
 | 1 | Chiến lược hạn chế dịch rẻ hơn và dùng ít dịch hơn. Chỉ cần chứng minh tử vong 28 ngày không tệ hơn so với chăm sóc thường quy. | | | |
 | 2 | Một quy trình ghi chép cân bằng dịch do điều dưỡng thực hiện sẽ được áp dụng cho cả ICU, điều dưỡng trong một ICU không thể chỉ áp dụng cho một nửa số người bệnh. | | | |
-| 3 | Gói xử trí nhiễm khuẩn huyết của bệnh viện, trong đó có giới hạn dịch duy trì, bắt đầu từ năm 2023. Đã có số liệu tử vong do nhiễm khuẩn huyết hằng tháng trong 3 năm trước và 2 năm sau. Tử vong có giảm không? | | | |
+| 3 | Gói xử trí sepsis của bệnh viện, trong đó có giới hạn dịch duy trì, bắt đầu từ năm 2023. Đã có số liệu tử vong do sepsis hằng tháng trong 3 năm trước và 2 năm sau. Tử vong có giảm không? | | | |
 | 4 | Vì sao điều dưỡng trực đêm thấy khó ghi lượng nước tiểu? | | | |
 | 5 | Trước một thử nghiệm lớn: hai ICU của mình có tuyển đủ người bệnh và thực hiện hạn chế dịch đúng kế hoạch được không? | | | |
 
@@ -114,7 +114,7 @@ Câu hỏi của tôi: ______________________________  Thiết kế của tôi: 
 | # | Câu hỏi | Thiết kế | Lý do |
 |---|---|---|---|
 | E1 | Hôm nay có bao nhiêu người bệnh nội trú bị tổn thương do tì đè, và tổn thương có phổ biến hơn ở người nằm đệm thường không? | | |
-| E2 | Tắm bằng chlorhexidine hằng ngày có làm giảm nhiễm khuẩn huyết không? Biện pháp sẽ được áp dụng theo từng khoa. | | |
+| E2 | Tắm bằng chlorhexidine hằng ngày có làm giảm sepsis không? Biện pháp sẽ được áp dụng theo từng khoa. | | |
 | E3 | Các yếu tố nguy cơ của một biến cố hiếm là gì: hội chứng Stevens-Johnson ở người bệnh nằm viện? | | |
 | E4 | Vì sao điều dưỡng không báo cáo các sự cố suýt xảy ra về thuốc? | | |
 

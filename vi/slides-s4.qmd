@@ -42,7 +42,7 @@ CÂU HỎI NHANH · 9 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
-- C1. Người bệnh nhiễm khuẩn huyết đã tử vong được so sánh với người sống sót về lượng dịch đã nhận ở ngày 1-3. Thiết kế?
+- C1. Người bệnh sepsis đã tử vong được so sánh với người sống sót về lượng dịch đã nhận ở ngày 1-3. Thiết kế?
 - C2. Thiết kế nào phân nhóm ngẫu nhiên cả đơn vị hồi sức tích cực (ICU) thay vì từng người bệnh?
 - C3. Hạn chế dịch so với thường quy: hiệu số tử vong, KTC 95% từ -1 đến +3 điểm. Ngưỡng +4 điểm. Kết quả?
 - Sau đó đọc lại Phần 2a đề cương của bạn (thiết kế, bối cảnh, đối tượng): 3 phút
@@ -162,7 +162,7 @@ Thời gian: 2 phút.
 :::
 
 ::: {.notes}
-Hyun chỉ chọn người bệnh còn ở ICU đến ngày 3 (2516/11981). Kết quả áp dụng cho nhóm này, không cho mọi người bệnh nhiễm khuẩn huyết.
+Hyun chỉ chọn người bệnh còn ở ICU đến ngày 3 (2516/11981). Kết quả áp dụng cho nhóm này, không cho mọi người bệnh sepsis.
 
 Hỏi: 'Boulet sàng lọc 1201, chọn 50. Điều đó cho biết gì?' Mong đợi: người bệnh được chọn lọc nhiều. Kiểm tra họ có giống người bệnh của mình không.
 
@@ -828,7 +828,7 @@ Thời gian: 30 giây.
 ::: {.notes}
 Xét nghiệm nhạy giúp loại trừ. Xét nghiệm đặc hiệu giúp khẳng định. PPV ở đây chỉ 53%.
 
-Bình chọn: 'Sàng lọc không được bỏ sót nhiễm khuẩn huyết: ưu tiên độ nhạy hay độ đặc hiệu?' Mong đợi: độ nhạy.
+Bình chọn: 'Sàng lọc không được bỏ sót sepsis: ưu tiên độ nhạy hay độ đặc hiệu?' Mong đợi: độ nhạy.
 
 Thời gian: 2.5 phút.
 :::
@@ -870,7 +870,7 @@ ROC: đường cong đặc trưng hoạt động của xét nghiệm. AUC: diệ
 ::: {.notes}
 Ngưỡng tốt nhất tùy vào cái giá của bỏ sót so với báo động giả. AUC không chọn ngưỡng.
 
-Bình chọn: 'Loại trừ nhiễm khuẩn huyết khi phân loại: ngưỡng lactate thấp hay cao?' Mong đợi: thấp.
+Bình chọn: 'Loại trừ sepsis khi phân loại: ngưỡng lactate thấp hay cao?' Mong đợi: thấp.
 
 Thời gian: 2.5 phút.
 :::
@@ -956,7 +956,7 @@ Hướng dẫn báo cáo kiểm tra điều đã báo cáo. Công cụ nguy cơ 
 
 Bản một trang: Risk\_of\_Bias\_Tool\_Chooser.pdf.
 
-Bình chọn: 'Nghiên cứu trước-sau về gói nhiễm khuẩn huyết: công cụ nào?' Mong đợi: ROBINS-I.
+Bình chọn: 'Nghiên cứu trước-sau về gói sepsis: công cụ nào?' Mong đợi: ROBINS-I.
 
 Thời gian: 2.5 phút.
 :::

@@ -17,7 +17,7 @@ title: "Buổi 8: Lời giải"
 |---|---|---|
 | a | "Ước lượng điểm nghiêng về chiến lược hạn chế dịch, nhưng KTC 95% rộng (−15.2 đến 41.6 ml/kg) và có chứa giá trị không khác biệt; cần một thử nghiệm lớn hơn để phát hiện một tác động nhỏ hơn." | p = 0.42 không phải là xu hướng; báo cáo ước lượng và độ không chắc chắn của nó (chú giải #41). |
 | b | "Cân bằng dịch dương trong ngày ICU đầu tiên không liên quan với tử vong 28 ngày (HR 1.17, KTC 95% 0.85 đến 1.60)." | "Impact" (tác động) hàm ý nhân quả; nghiên cứu thuần tập chỉ cho thấy mối liên quan (#27). |
-| c | "Positive cumulative fluid balance during the first three ICU days and 28-day mortality in sepsis: a propensity score-matched cohort study" (Cân bằng dịch tích lũy dương trong ba ngày ICU đầu tiên và tử vong 28 ngày trong nhiễm khuẩn huyết: nghiên cứu thuần tập ghép cặp theo điểm xu hướng) | Tiêu đề phải tương xứng với thiết kế quan sát (#1). |
+| c | "Positive cumulative fluid balance during the first three ICU days and 28-day mortality in sepsis: a propensity score-matched cohort study" (Cân bằng dịch tích lũy dương trong ba ngày ICU đầu tiên và tử vong 28 ngày trong sepsis: nghiên cứu thuần tập ghép cặp theo điểm xu hướng) | Tiêu đề phải tương xứng với thiết kế quan sát (#1). |
 | d | "Theo hiểu biết của chúng tôi, đây là một trong những mức cân bằng dịch ngày 5 thấp nhất được báo cáo trong các thử nghiệm về sốc nhiễm khuẩn [tài liệu tham khảo]", hoặc bỏ câu này. | So sánh bậc nhất cần có từ rào đón và trích dẫn (#40). |
 
 ### A2. Bậc thang động từ
@@ -47,7 +47,7 @@ a: **được ghi nhận ở** (loạt ca bệnh) · b: **có liên quan với**
 | Có cả ước lượng thô và đã hiệu chỉnh | OR thô 2.49 (1.70 đến 3.70), hiệu chỉnh 1.62 (1.02 đến 2.59), n = 527 |
 | Bảng tự đọc hiểu được | Tên bảng nêu ai và khi nào, n mỗi cột, đơn vị, chú thích SOFA và IQR |
 | Không diễn giải | Xóa "vì người bệnh nặng hơn được truyền nhiều dịch hơn" |
-| Tên bài dự kiến | "Cân bằng dịch dương đến ngày 3 và tử vong 28 ngày ở người bệnh nhiễm khuẩn huyết: một nghiên cứu thuần tập đa trung tâm" |
+| Tên bài dự kiến | "Cân bằng dịch dương đến ngày 3 và tử vong 28 ngày ở người bệnh sepsis: một nghiên cứu thuần tập đa trung tâm" |
 
 Các mẫu dưới đây dành cho phần Đặt vấn đề, Bàn luận và Tóm tắt đã học ở 8.1. Các phần này không bắt buộc nộp. Dùng để định hướng, không dán nguyên văn. Học viên chọn Q2–Q5 theo cùng cấu trúc với gói kết quả của mình.
 
@@ -55,14 +55,14 @@ Mọi con số lấy từ `Results_Pack_Q1–Q5` và gói kết quả Q1 (**DỮ
 
 ### Tiêu đề và từ khóa mẫu
 
-**Positive fluid balance by day 3 and 28-day mortality in sepsis: a multicentre cohort study** (Cân bằng dịch dương đến ngày 3 và tử vong 28 ngày trong nhiễm khuẩn huyết: nghiên cứu thuần tập đa trung tâm) (15 từ tiếng Anh; nêu thiết kế; từ ngữ chừng mực).
+**Positive fluid balance by day 3 and 28-day mortality in sepsis: a multicentre cohort study** (Cân bằng dịch dương đến ngày 3 và tử vong 28 ngày trong sepsis: nghiên cứu thuần tập đa trung tâm) (15 từ tiếng Anh; nêu thiết kế; từ ngữ chừng mực).
 Từ khóa: Fluid Therapy; Water-Electrolyte Balance; Critical Care; Mortality; Cohort Studies.
 
 ### Đặt vấn đề mẫu (~300 từ, ba đoạn)
 
-1. *Điều đã biết.* Dịch truyền tĩnh mạch là nền tảng trong điều trị sớm nhiễm khuẩn huyết, nhưng dịch truyền vượt quá giai đoạn hồi sức sẽ tích lũy. Cân bằng dịch tích lũy dương có liên quan với tử vong cao hơn trong nhiều nghiên cứu quan sát, trong đó có một nghiên cứu thuần tập lớn ghép cặp theo điểm xu hướng cho thấy cân bằng dịch dương ở ngày ICU thứ 2 liên quan với tử vong 28 ngày cao hơn (HR 2.13) [Bài báo 2].
+1. *Điều đã biết.* Dịch truyền tĩnh mạch là nền tảng trong điều trị sớm sepsis, nhưng dịch truyền vượt quá giai đoạn hồi sức sẽ tích lũy. Cân bằng dịch tích lũy dương có liên quan với tử vong cao hơn trong nhiều nghiên cứu quan sát, trong đó có một nghiên cứu thuần tập lớn ghép cặp theo điểm xu hướng cho thấy cân bằng dịch dương ở ngày ICU thứ 2 liên quan với tử vong 28 ngày cao hơn (HR 2.13) [Bài báo 2].
 2. *Điều chưa biết.* Vì người bệnh nặng hơn được truyền nhiều dịch hơn, vẫn chưa rõ bao nhiêu phần của mối liên quan này phản ánh mức độ nặng của bệnh (nhiễu do chỉ định) chứ không phải do chính dịch truyền [tài liệu tham khảo]. Các thử nghiệm ngẫu nhiên về chiến lược hạn chế dịch, như một nghiên cứu thí điểm gần đây nhắm vào dịch không nhằm hồi sức [Bài báo 1], đều nhỏ và chưa đưa ra kết luận.
-3. *Mục tiêu.* Vì vậy chúng tôi xem xét liệu cân bằng dịch tích lũy dương đến ngày ICU thứ 3 có liên quan với tử vong 28 ngày ở người lớn bị nhiễm khuẩn huyết hay không, trước và sau khi hiệu chỉnh theo mức độ nặng.
+3. *Mục tiêu.* Vì vậy chúng tôi xem xét liệu cân bằng dịch tích lũy dương đến ngày ICU thứ 3 có liên quan với tử vong 28 ngày ở người lớn bị sepsis hay không, trước và sau khi hiệu chỉnh theo mức độ nặng.
 
 ### Bàn luận mẫu (~500 từ, sáu bước)
 
@@ -75,8 +75,8 @@ Từ khóa: Fluid Therapy; Water-Electrolyte Balance; Critical Care; Mortality; 
 
 ### Tóm tắt mẫu (≈190 từ)
 
-**Đặt vấn đề:** Cân bằng dịch dương có liên quan với tử vong trong nhiễm khuẩn huyết, nhưng người bệnh nặng hơn được truyền nhiều dịch hơn. Chúng tôi xem xét mối liên quan này sau khi hiệu chỉnh theo mức độ nặng.
-**Phương pháp:** Nghiên cứu thuần tập tiến cứu đa trung tâm (dữ liệu giảng dạy mô phỏng) trên 620 người lớn bị nhiễm khuẩn huyết tại bốn ICU, 2023–2024. Phơi nhiễm: cân bằng dịch tích lũy dương đến ngày ICU thứ 3. Kết cục: tử vong 28 ngày. Hồi quy logistic và Cox hiệu chỉnh theo tuổi, SOFA, lactate, thuốc vận mạch, thở máy và bệnh thận mạn; quy gán đa bội cho lactate bị thiếu.
+**Đặt vấn đề:** Cân bằng dịch dương có liên quan với tử vong trong sepsis, nhưng người bệnh nặng hơn được truyền nhiều dịch hơn. Chúng tôi xem xét mối liên quan này sau khi hiệu chỉnh theo mức độ nặng.
+**Phương pháp:** Nghiên cứu thuần tập tiến cứu đa trung tâm (dữ liệu giảng dạy mô phỏng) trên 620 người lớn bị sepsis tại bốn ICU, 2023–2024. Phơi nhiễm: cân bằng dịch tích lũy dương đến ngày ICU thứ 3. Kết cục: tử vong 28 ngày. Hồi quy logistic và Cox hiệu chỉnh theo tuổi, SOFA, lactate, thuốc vận mạch, thở máy và bệnh thận mạn; quy gán đa bội cho lactate bị thiếu.
 **Kết quả:** Trong 618 người bệnh được phân tích, 373 người (60.4%) có cân bằng dịch dương; 134/373 (35.9%) so với 45/245 (18.4%) tử vong. OR thô là 2.49 (KTC 95% 1.70 đến 3.70) và OR hiệu chỉnh là 1.62 (KTC 95% 1.02 đến 2.59); với quy gán là 1.70 (1.09 đến 2.64). HR hiệu chỉnh là 1.46 (KTC 95% 1.00 đến 2.13).
 **Kết luận:** Cân bằng dịch dương đến ngày 3 có liên quan ở mức vừa phải với tử vong 28 ngày; phần lớn mối liên quan thô phản ánh mức độ nặng của bệnh. Cần một thử nghiệm ngẫu nhiên trước khi thay đổi chiến lược truyền dịch.
 

@@ -12,14 +12,14 @@ title: "Kế hoạch phân tích thống kê (FLUID-ICU)"
 
 | | |
 |---|---|
-| **Tên nghiên cứu** | FLUID-ICU: cân bằng dịch tích lũy trong ba ngày đầu nằm ICU và kết cục ở người lớn bị nhiễm khuẩn huyết. Một nghiên cứu thuần tập tiến cứu đa trung tâm |
+| **Tên nghiên cứu** | FLUID-ICU: cân bằng dịch tích lũy trong ba ngày đầu nằm ICU và kết cục ở người lớn bị sepsis. Một nghiên cứu thuần tập tiến cứu đa trung tâm |
 | **Phiên bản đề cương** | 2.0 (mô phỏng) |
 | **Phiên bản / ngày của SAP** | 1.0, ký trước khi khóa cơ sở dữ liệu |
 | **Người viết** | Nhà thống kê của nghiên cứu và nghiên cứu viên chính (nhóm biên soạn khóa học) |
 
 ## 1. Tóm tắt nghiên cứu và mục tiêu
 
-Nghiên cứu thuần tập tiến cứu đa trung tâm. Người lớn (từ 18 tuổi trở lên) nhập 4 ICU (ICU A-D) vì nhiễm khuẩn huyết (Sepsis-3), được tuyển liên tiếp trong 2 năm (tháng 1/2023 đến tháng 12/2024). Người bệnh được chăm sóc thường quy; nghiên cứu chỉ ghi nhận dữ liệu.
+Nghiên cứu thuần tập tiến cứu đa trung tâm. Người lớn (từ 18 tuổi trở lên) nhập 4 ICU (ICU A-D) vì sepsis (Sepsis-3), được tuyển liên tiếp trong 2 năm (tháng 1/2023 đến tháng 12/2024). Người bệnh được chăm sóc thường quy; nghiên cứu chỉ ghi nhận dữ liệu.
 
 - **Mục tiêu chính:** ước lượng mối liên quan giữa cân bằng dịch tích lũy dương vào ngày 3 và tử vong do mọi nguyên nhân trong 28 ngày, có hiệu chỉnh theo các yếu tố gây nhiễu đã xác định trước.
 - **Mục tiêu phụ:**

@@ -12,12 +12,12 @@ Tải về: [Word](files/data/results_packs/Results_Pack_Q3_VN.docx) · [PDF](fi
 
 ## 1. Câu hỏi
 
-**Ở người lớn bị nhiễm khuẩn huyết điều trị tại ICU, cân bằng dịch tích lũy cao hơn vào ngày 3 có liên quan với ít số ngày không thở máy đến ngày 28 hơn không?**
+**Ở người lớn bị sepsis điều trị tại ICU, cân bằng dịch tích lũy cao hơn vào ngày 3 có liên quan với ít số ngày không thở máy đến ngày 28 hơn không?**
 
 ## 2. Thiết kế và dữ liệu
 
 - Thiết kế: nghiên cứu thuần tập tiến cứu đa trung tâm (quan sát).
-- Bối cảnh: 4 ICU (ICU A-D), người lớn bị nhiễm khuẩn huyết được tuyển liên tiếp, thời gian tuyển từ tháng 1/2023 đến tháng 12/2024.
+- Bối cảnh: 4 ICU (ICU A-D), người lớn bị sepsis được tuyển liên tiếp, thời gian tuyển từ tháng 1/2023 đến tháng 12/2024.
 - Phơi nhiễm: cân bằng dịch tích lũy ngày 3 theo mỗi 10 ml/kg (liên tục); phân tích phụ: dương so với âm.
 - Kết cục: số ngày không thở máy (VFD) đến ngày 28: số ngày còn sống và không thở máy; người bệnh tử vong = 0; không thở máy và còn sống = 28 (vent_free_days_28).
 - Mẫu phân tích: 618 người bệnh; các mô hình hiệu chỉnh 527 trường hợp đầy đủ; 313 người thở máy lúc nhập ICU.

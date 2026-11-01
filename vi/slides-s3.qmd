@@ -141,7 +141,7 @@ Thời gian: 1 phút.
 ::: {.neu-card .plain style="--c:#0070C0"}
 [Bài báo 2: Hyun 2023, nghiên cứu thuần tập]{.neu-card-title}
 
-- Sổ bộ nhiễm khuẩn huyết: 11981 người bệnh, 20 bệnh viện
+- Sổ bộ sepsis: 11981 người bệnh, 20 bệnh viện
 - Cân bằng dịch dương so với âm, ngày 1-3
 - Kết cục: tử vong ngày 28 (các cặp đã ghép)
 - **Nhà nghiên cứu quan sát điều đã xảy ra**
@@ -412,7 +412,7 @@ Thời gian: 2 phút.
 ::: {.neu-step style="--c:#0D7377"}
 [Xác định nhóm]{.neu-step-label}
 
-- Người lớn nhiễm khuẩn huyết ở 20 bệnh viện, nằm ICU từ 3 ngày trở lên
+- Người lớn bị sepsis ở 20 bệnh viện, nằm ICU từ 3 ngày trở lên
 :::
 ::: {.neu-step style="--c:#0B376C"}
 [Đo phơi nhiễm]{.neu-step-label}
@@ -906,7 +906,7 @@ Thời gian: 4.5 phút.
 | Nếu câu hỏi của bạn là... | Bắt đầu với | Ví dụ với câu hỏi dịch truyền |
 |:---|:---|:---|
 | Hiện nay phổ biến thế nào? | Cắt ngang | Người bệnh có cân bằng dịch dương ở ICU hôm nay |
-| Kết cục hiếm: yếu tố nào làm tăng nguy cơ? | Bệnh–chứng | Người bệnh nhiễm khuẩn huyết phải lọc máu mới, nhìn lại lượng dịch đã nhận |
+| Kết cục hiếm: yếu tố nào làm tăng nguy cơ? | Bệnh–chứng | Người bệnh sepsis phải lọc máu mới, nhìn lại lượng dịch đã nhận |
 | Điều gì xảy ra sau một phơi nhiễm? | Thuần tập | Cân bằng dịch dương và tử vong ngày 28 (Bài báo 2) |
 | Điều trị này có hiệu quả không? | RCT | Hạn chế dịch so với thường quy (Bài báo 1) |
 | Tất cả nghiên cứu nói gì? | Tổng quan hệ thống và phân tích gộp | Gộp mọi thử nghiệm hạn chế dịch |

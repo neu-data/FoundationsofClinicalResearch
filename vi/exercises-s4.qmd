@@ -35,7 +35,7 @@ Gõ câu trả lời vào tệp Word, hoặc in bản PDF. Chuẩn bị sẵn b�
 
 | # | Tình huống | Sai lệch chính | Một cách để giảm |
 |---|---|---|---|
-| 1 | Trong một nghiên cứu bệnh–chứng, gia đình của người bệnh tử vong do nhiễm khuẩn huyết nhớ những ngày trước khi vào ICU chi tiết hơn gia đình của người sống sót. | | |
+| 1 | Trong một nghiên cứu bệnh–chứng, gia đình của người bệnh tử vong do sepsis nhớ những ngày trước khi vào ICU chi tiết hơn gia đình của người sống sót. | | |
 | 2 | Trong một thử nghiệm không làm mù về hạn chế dịch, bác sĩ biết người bệnh thuộc nhóm nào là người quyết định khi nào người bệnh "đủ điều kiện ra khỏi ICU". | | |
 | 3 | Một nghiên cứu về cân bằng dịch và tử vong chỉ đưa vào những người bệnh nằm ICU từ 3 ngày trở lên. | | |
 | 4 | Trong một sổ đăng ký, người bệnh có lactate cao hơn được truyền nhiều dịch hơn và cũng tử vong nhiều hơn. Tác giả kết luận rằng dịch truyền làm tăng tử vong. | | |
@@ -93,7 +93,7 @@ Một thử nghiệm giả định phân bổ ngẫu nhiên 400 người lớn b
 
 ### Phép tính 2: một nghiên cứu bệnh–chứng về dịch truyền
 
-Các nhà nghiên cứu chọn **40** người bệnh nhiễm khuẩn huyết tại ICU cần lọc máu mới (nhóm bệnh) và **80** người bệnh nhiễm khuẩn huyết tại cùng các đơn vị không cần lọc máu (nhóm chứng). Họ xem lại cân bằng dịch ngày 3 của từng người bệnh. Trong nhóm bệnh, **24** người có cân bằng dịch dương và 16 người không. Trong nhóm chứng, **16** người có cân bằng dịch dương và 64 người không.
+Các nhà nghiên cứu chọn **40** người bệnh sepsis tại ICU cần lọc máu mới (nhóm bệnh) và **80** người bệnh sepsis tại cùng các đơn vị không cần lọc máu (nhóm chứng). Họ xem lại cân bằng dịch ngày 3 của từng người bệnh. Trong nhóm bệnh, **24** người có cân bằng dịch dương và 16 người không. Trong nhóm chứng, **16** người có cân bằng dịch dương và 64 người không.
 
 |  | Nhóm bệnh (lọc máu mới) | Nhóm chứng (không lọc máu) |
 |---|---|---|

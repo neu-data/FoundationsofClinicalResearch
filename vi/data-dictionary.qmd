@@ -10,7 +10,7 @@ Tải về: [CSV](files/data/data_dictionary.csv) · [PDF](files/data/Data_Dicti
 
 > **DỮ LIỆU MÔ PHỎNG: KHÔNG PHẢI NGƯỜI BỆNH THẬT.** FLUID-ICU được tạo bởi `R/00_generate_fluid_icu.R` để giảng dạy.
 
-**Nghiên cứu:** FLUID-ICU, một nghiên cứu thuần tập tiến cứu đa trung tâm ở người lớn bị nhiễm khuẩn huyết nhập 4 ICU (ICU A-D), từ tháng 1/2023 đến tháng 12/2024.
+**Nghiên cứu:** FLUID-ICU, một nghiên cứu thuần tập tiến cứu đa trung tâm ở người lớn bị sepsis nhập 4 ICU (ICU A-D), từ tháng 1/2023 đến tháng 12/2024.
 
 **Tệp:** `fluid_icu_raw.csv` / `.xlsx` (đúng như các đơn vị gửi về, 623 dòng, dùng trong phần trình diễn làm sạch) và `fluid_icu_clean.csv` / `.rds` (620 người bệnh, 32 biến, sẵn sàng để phân tích).
 

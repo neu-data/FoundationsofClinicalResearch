@@ -12,12 +12,12 @@ Tải về: [Word](files/data/results_packs/Results_Pack_Q5_VN.docx) · [PDF](fi
 
 ## 1. Câu hỏi
 
-**Ở người lớn bị nhiễm khuẩn huyết còn sống đến ngày 28, cân bằng dịch tích lũy dương vào ngày 3 có liên quan với thời gian nằm ICU dài hơn không?**
+**Ở người lớn bị sepsis còn sống đến ngày 28, cân bằng dịch tích lũy dương vào ngày 3 có liên quan với thời gian nằm ICU dài hơn không?**
 
 ## 2. Thiết kế và dữ liệu
 
 - Thiết kế: nghiên cứu thuần tập tiến cứu đa trung tâm (quan sát); phân tích giới hạn ở người bệnh còn sống đến ngày 28.
-- Bối cảnh: 4 ICU (ICU A-D), người lớn bị nhiễm khuẩn huyết được tuyển liên tiếp, thời gian tuyển từ tháng 1/2023 đến tháng 12/2024.
+- Bối cảnh: 4 ICU (ICU A-D), người lớn bị sepsis được tuyển liên tiếp, thời gian tuyển từ tháng 1/2023 đến tháng 12/2024.
 - Phơi nhiễm: cân bằng dịch tích lũy dương so với âm vào ngày 3; phân tích phụ: theo mỗi 10 ml/kg.
 - Kết cục: thời gian nằm ICU tính bằng ngày (icu_los_days), phân phối lệch phải.
 - Mẫu phân tích: 439 người sống có cân bằng dịch ngày 3 (239 dương, 200 âm); mô hình hiệu chỉnh 366 trường hợp đầy đủ.

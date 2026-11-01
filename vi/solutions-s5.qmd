@@ -116,7 +116,7 @@ Trong lớp, Q1 được làm chung. Học viên làm lại sau khi chọn câu 
 | Q4 | Tử vong trước ngày 28 (nhị phân) | Lactate lúc nhập viện, mmol/L (liên tục, thiếu 15%) | Hồi quy logistic; trường hợp đầy đủ so với quy gán đa bội |
 | Q5 | Thời gian nằm ICU ở người sống sót (liên tục, lệch phải) | Cân bằng dịch dương (nhị phân) | Mann–Whitney; hồi quy tuyến tính trên thang logarit |
 
-Ví dụ (Q1): "Ở người lớn bị nhiễm khuẩn huyết vào ICU, cân bằng dịch tích lũy dương đến ngày 3, so với cân bằng dịch âm, có liên quan với tử vong 28 ngày cao hơn không?"
+Ví dụ (Q1): "Ở người lớn bị sepsis vào ICU, cân bằng dịch tích lũy dương đến ngày 3, so với cân bằng dịch âm, có liên quan với tử vong 28 ngày cao hơn không?"
 
 
 * * *

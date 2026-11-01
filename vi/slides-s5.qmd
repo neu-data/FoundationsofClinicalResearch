@@ -26,7 +26,7 @@ format:
 ::: {.notes}
 Buổi 5 (19:30-22:30, giải lao 20:40-20:55). Hôm nay là dữ liệu, thứ Bảy tuần sau là phân tích.
 
-Mới: bộ dữ liệu mô phỏng của khóa học FLUID-ICU (620 người lớn nhiễm khuẩn huyết) và năm câu hỏi, Q1 đến Q5. Cuối Buổi 6, mỗi học viên chọn một câu và viết phần Kết quả cho câu đó.
+Mới: bộ dữ liệu mô phỏng của khóa học FLUID-ICU (620 người lớn bị sepsis) và năm câu hỏi, Q1 đến Q5. Cuối Buổi 6, mỗi học viên chọn một câu và viết phần Kết quả cho câu đó.
 
 Không có công thức: hình, ví dụ minh họa, câu kiểm tra. Không bao giờ bỏ câu kiểm tra.
 :::
@@ -566,7 +566,7 @@ Thuần tập tiến cứu đa trung tâm tại 4 khoa hồi sức tích cực (
 ::: {.neu-card .plain style="--c:#0D7377"}
 [Đối tượng]{.neu-card-title}
 
-- 620 người lớn nhiễm khuẩn huyết
+- 620 người lớn bị sepsis
 - ICU A 191, ICU B 164, ICU C 147, ICU D 118
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
@@ -598,7 +598,7 @@ Thuần tập tiến cứu đa trung tâm tại 4 khoa hồi sức tích cực (
 ::: {.notes}
 Hiểu nghiên cứu trước khi phân tích.
 
-620 người lớn nhiễm khuẩn huyết, 4 ICU, 2023-2024. Phơi nhiễm: cân bằng dịch tích lũy đến ngày 3, dương ở 373 trên 618 (60.4%). Kết cục chính: tử vong đến ngày 28, 179 trên 620 (28.9%).
+620 người lớn bị sepsis, 4 ICU, 2023-2024. Phơi nhiễm: cân bằng dịch tích lũy đến ngày 3, dương ở 373 trên 618 (60.4%). Kết cục chính: tử vong đến ngày 28, 179 trên 620 (28.9%).
 
 Hỏi: ai sẽ có cân bằng dương? Kỳ vọng: người nặng nhất. Nhớ điều này khi xem Bảng 1.
 :::
@@ -836,7 +836,7 @@ CẢ LỚP CÙNG LÀM · 4 phút
 ::: {.neu-side .plain style="--c:#0D7377"}
 PECO cho Q1
 
-- P (đối tượng): người lớn nhiễm khuẩn huyết ở ICU
+- P (đối tượng): người lớn bị sepsis ở ICU
 - E (phơi nhiễm): cân bằng dương đến ngày 3
 - C (so sánh): cân bằng âm
 - O (kết cục): tử vong đến ngày 28 (nhị phân)
@@ -851,7 +851,7 @@ PECO cho Q1
 ::: {.notes}
 Cả lớp, 4 phút (20:36-20:40). Bài 7 của phiếu bài tập.
 
-Q1: mời học viên nêu loại kết cục (nhị phân, cũng là thời gian đến sự kiện) và loại phơi nhiễm (nhị phân). Gõ: 'Ở người lớn nhiễm khuẩn huyết tại ICU, cân bằng dịch dương đến ngày 3, so với cân bằng âm, có liên quan với tử vong 28 ngày cao hơn không?'
+Q1: mời học viên nêu loại kết cục (nhị phân, cũng là thời gian đến sự kiện) và loại phơi nhiễm (nhị phân). Gõ: 'Ở người lớn bị sepsis tại ICU, cân bằng dịch dương đến ngày 3, so với cân bằng âm, có liên quan với tử vong 28 ngày cao hơn không?'
 
 Q2 đến Q5: mỗi câu một dòng. Sau đó giải lao.
 :::

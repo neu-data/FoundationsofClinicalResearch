@@ -12,12 +12,12 @@ Tải về: [Word](files/data/results_packs/Results_Pack_Q4_VN.docx) · [PDF](fi
 
 ## 1. Câu hỏi
 
-**Ở người lớn bị nhiễm khuẩn huyết điều trị tại ICU, lactat lúc nhập ICU có liên quan với tử vong 28 ngày không, và câu trả lời có thay đổi không khi các giá trị lactat bị thiếu được xử lý bằng quy gán đa bội?**
+**Ở người lớn bị sepsis điều trị tại ICU, lactat lúc nhập ICU có liên quan với tử vong 28 ngày không, và câu trả lời có thay đổi không khi các giá trị lactat bị thiếu được xử lý bằng quy gán đa bội?**
 
 ## 2. Thiết kế và dữ liệu
 
 - Thiết kế: nghiên cứu thuần tập tiến cứu đa trung tâm (quan sát); câu hỏi về yếu tố tiên lượng.
-- Bối cảnh: 4 ICU (ICU A-D), người lớn bị nhiễm khuẩn huyết được tuyển liên tiếp, thời gian tuyển từ tháng 1/2023 đến tháng 12/2024.
+- Bối cảnh: 4 ICU (ICU A-D), người lớn bị sepsis được tuyển liên tiếp, thời gian tuyển từ tháng 1/2023 đến tháng 12/2024.
 - Phơi nhiễm: lactat lúc nhập ICU tính bằng mmol/L, theo mỗi 1 mmol/L (liên tục); và theo các nhóm < 2, 2 đến 4, > 4 mmol/L.
 - Kết cục: tử vong do mọi nguyên nhân trong vòng 28 ngày (died_28d).
 - Mẫu phân tích: tất cả 620 người bệnh; thiếu lactat ở 93/620 (15.0%); các mô hình trường hợp đầy đủ 527 người bệnh; quy gán đa bội 620.
