@@ -10,28 +10,29 @@ Name: ______________________________   Department: _____________________________
 
 Type your answers in the Word file, or print the PDF. Have a pen, paper and a calculator (or your phone) ready. Simple division is enough.
 
-| Part | Activity | When | How |
-|---|---|---|---|
-| A | Spot the bias (4 scenarios) | End of section 4.1 (5 min) | Whole class: poll for each scenario, one fix in the chat |
-| B | Confounding or effect modification? (3 scenarios) | Homework (optional) | On your own |
-| C | Two 2x2 calculations | After the break (15 min) | Whole class: poll for each answer |
-| D | PPV in two settings | Homework (optional) | On your own |
-| E | Read a forest plot and choose the risk-of-bias tool | End of section 4.3 (8 min) | Whole class: polls and chat |
-| F | Proposal builder 4: exposure, outcomes and biases | End of the session (38 min) and homework | Instructor models it live, then you draft your own |
+| Part | Task | When |
+|---|---|---|
+| A | Name the main bias in 4 scenarios, and one way to reduce it | End of section 4.1 |
+| B | Confounding or effect modification? (3 scenarios) | At home (optional) |
+| C | Two 2x2 calculations | After the break |
+| D | PPV in two settings | At home (optional) |
+| E | Read a forest plot and choose the risk-of-bias tool | End of section 4.3 |
+| F | Proposal builder 4: draft sections 2.4 to 2.6 of your proposal | End of the session, finish at home |
+
+Parts C and E also have **extra practice** (self-study) for after the session.
 
 **Our running question:** in adults with septic shock, does a restrictive fluid strategy, compared with usual care, reduce 28-day mortality?
-**The two papers** (PDFs sent before Session 1): Paper 1, Boulet 2024 (a pilot randomised trial of restrictive fluids), Paper 2, Hyun 2023 (a registry cohort of fluid balance and death).
 
-**Key words of the day:** bias · confounding · effect modification (interaction) · reverse causation · risk · risk ratio (RR) · risk difference (RD) · number needed to treat (NNT) · odds ratio (OR) · sensitivity · specificity · positive and negative predictive value (PPV, NPV) · ROC (receiver operating characteristic) curve · forest plot · I-squared (I², heterogeneity) · risk-of-bias tool.
-
-**Other abbreviations on this sheet:** ICU = intensive care unit, CI = confidence interval, RCT = randomised controlled trial.
+**Abbreviations:** ICU = intensive care unit, CI = confidence interval, RCT = randomised controlled trial, RR = risk ratio, RD = risk difference, NNT = number needed to treat, OR = odds ratio, PPV and NPV = positive and negative predictive value.
 
 
 * * *
 
 ## Part A: Spot the bias
 
-**How it runs.** The instructor shows each scenario and opens a poll: **selection bias**, **recall bias**, **observer bias** or **confounding**. After the result, type **one practical way** to reduce it in the chat.
+**Task.** For each scenario, write the main bias (choose from the list) and one practical way to reduce it. You will vote for the bias in a poll, so have your answers ready.
+
+> **Choose from:** selection bias · recall bias · observer bias · confounding
 
 | # | Scenario | Main bias | One way to reduce it |
 |---|---|---|---|
@@ -45,7 +46,9 @@ Type your answers in the Word file, or print the PDF. Have a pen, paper and a ca
 
 ## Part B: Confounding or effect modification? (homework, optional)
 
-**Instructions.** Each study splits its result by a third factor. Compare the strata **with each other** and **with the overall (crude) result**. Decide: **confounding**, **effect modification (interaction)** or **neither**. Then say what the authors should report.
+**Task.** Each study splits its result by a third factor. Compare the strata **with each other** and **with the overall (crude) result**. Write your answer and what the authors should report.
+
+> **Choose from:** confounding · effect modification (interaction) · neither
 
 > Rule of thumb: strata similar to each other but different from the crude result mean confounding. Strata different from each other mean effect modification.
 
@@ -60,11 +63,10 @@ Type your answers in the Word file, or print the PDF. Have a pen, paper and a ca
 
 ## Part C: Two 2x2 calculations
 
-**How it runs.** Draw each table on your paper first. The instructor then asks each answer as a poll, checks it live with the 2x2 calculator on the shared screen, and a volunteer says the result in one plain sentence.
+**Task.** Work alone on both calculations. For each one, fill in the 2x2 table, answer the questions and write the result in **one sentence** a colleague without research training would understand. Be ready to share your answers when the instructor asks.
 
-1. **Draw the 2x2 table first.** Exposure (or treatment) in **rows**, with the exposed or treated group on top. Outcome in **columns**, with "outcome yes" on the left.
-2. Round to two decimals.
-3. Say the result in **one sentence** a colleague without research training would understand.
+- Draw the table this way: exposure (or treatment) in **rows**, with the exposed or treated group on top. Outcome in **columns**, with "outcome yes" on the left.
+- Round to two decimals.
 
 **Reminder**
 
@@ -116,9 +118,9 @@ A trial randomised 400 adults on a medical ward to a new pressure-relieving matt
 
 ## Part D: PPV in two settings (homework, optional)
 
-**Instructions.** The same test has **sensitivity 90%** and **specificity 80%**. Complete each table for 500 people, then calculate PPV and NPV.
+**Task.** The same test has **sensitivity 90%** and **specificity 80%**. Complete each table for 500 people, then calculate PPV and NPV and answer the questions.
 
-> Disease present = prevalence × 500. True positives (TP) = sensitivity × disease present. True negatives (TN) = specificity × disease absent. FP = false positives; FN = false negatives.
+> Disease present = prevalence × 500. True positives (TP) = sensitivity × disease present. True negatives (TN) = specificity × disease absent. FP = false positives, FN = false negatives.
 
 **Setting 1: ICU, prevalence 20%**
 
@@ -149,7 +151,7 @@ PPV = ______  NPV = ______
 
 ## Part E: Read a forest plot and choose the risk-of-bias tool
 
-**How it runs.** The instructor shows the plot on the shared screen and asks each question as a poll or in the chat. The plot is the one shown in section 4.3 (six hypothetical trials of restrictive vs usual fluids, outcome death, fixed-effect pooling).
+**Task.** Work alone. Answer questions 1 to 3 about the forest plot, then choose the risk-of-bias tool for studies a to c. Be ready to share your answers when the instructor asks. The plot is the one shown in section 4.3: six hypothetical trials of restrictive vs usual fluids, outcome death, fixed-effect pooling.
 
 ![Forest plot of six hypothetical trials](images/practicals/sat2/forest_reading.png)
 
@@ -164,12 +166,14 @@ PPV = ______  NPV = ______
 
 **Reading the plot**
 
-1. (Poll) Which trial carries the most weight? Why?  ______________________
-2. (Poll) Does any single trial show a clear effect (a 95% CI that does not cross 1)?  ______________________
-3. (Chat) Does the pooled diamond cross RR = 1? Write the pooled result in one plain sentence.  ______________________
+1. Which trial carries the most weight? Why?  ______________________
+2. Does any single trial show a clear effect (a 95% CI that does not cross 1)?  ______________________
+3. Does the pooled diamond cross RR = 1? Write the pooled result in one plain sentence.  ______________________
 4. (Self-study) Trial 3 points the other way (RR 1.14). Should it worry you? Why or why not?  ______________________
 
-**Choosing the tool (poll).** For each study, choose: **RoB 2** (Cochrane risk-of-bias tool for randomised trials), **ROBINS-I** (non-randomised studies of interventions), **Newcastle-Ottawa Scale (or ROBINS-E)** (cohort or case-control studies of exposures), **QUADAS-2** (diagnostic accuracy studies) or **AMSTAR 2** (systematic reviews).
+**Choosing the tool.** Write one tool for each study.
+
+> **Choose from:** **RoB 2** (Cochrane risk-of-bias tool for randomised trials) · **ROBINS-I** (non-randomised studies of interventions) · **Newcastle-Ottawa Scale (or ROBINS-E)** (cohort or case-control studies of exposures) · **QUADAS-2** (diagnostic accuracy studies) · **AMSTAR 2** (systematic reviews)
 
 | # | Study | Tool |
 |---|---|---|
@@ -185,21 +189,15 @@ PPV = ______  NPV = ______
 
 ## Part F: Proposal builder 4 (exposure, outcomes and biases)
 
-**How it runs (38 minutes).**
-
-1. **Watch (15 min).** The instructor fills in rows 4-6 below for the running example on the shared screen, thinking aloud.
-2. **Draft (16 min).** You fill in the same rows for your own question, quietly (cameras optional). Ask questions in the chat.
-3. **Feedback (7 min).** Three volunteers paste one bias and its fix in the chat, the instructor comments.
-
-Then finish as homework and copy your answers into the proposal template (`Research_Proposal_Template.docx`, Part 2). Rows 1-3 (design, setting, population) were drafted after Session 3. For every outcome write **what**, **how** and **when**.
+**Task.** Draft sections 2.4 to 2.6 of your proposal for your own question. First watch the instructor fill them in for the running example. Finish at home, then copy your answers into Part 2 of the proposal template (`Research_Proposal_Template.docx`). Sections 2.1 to 2.3 (design, setting, population) were drafted in Session 3. For every outcome write **what**, **how** and **when**.
 
 **My research question:** _______________________________________________
 
-| # | Section | What to write | My answer |
-|---|---|---|---|
-| 4 | **Exposure or intervention** and **comparator** | What exactly is the exposure or intervention, and how is it defined or measured? Who is the comparison group? | |
-| 5 | **Outcomes** | **ONE primary outcome**: what it is, how and when it is measured. **2-3 secondary outcomes.** | |
-| 6 | **Main biases and how I reduce them** | Name at least **two** threats (selection, information, confounding) and the step in your design that reduces each. | |
+| Section | What to write | My answer |
+|---|---|---|
+| **2.4 Intervention or exposure, and comparator** | What exactly is the exposure or intervention, and how is it defined or measured? Who is the comparison group? | |
+| **2.5 Outcomes** | **ONE primary outcome**: what it is, how and when it is measured. **2-3 secondary outcomes.** | |
+| **2.6 Main threats of bias and how they are reduced** | Name at least **two** threats (selection, information, confounding) and the step in your design that reduces each. | |
 
 **My claim at the end will be:** ☐ "caused" (randomised design) ☐ "associated with" (observational design), because ____________________
 
@@ -209,4 +207,4 @@ Then finish as homework and copy your answers into the proposal template (`Resea
 - [ ] There is only ONE primary outcome, with a method and a time point.
 - [ ] If my design is observational, I have named the main confounders (think: confounding by indication).
 - [ ] Each bias has a concrete mitigation step ("we will be careful" is not a mitigation).
-- [ ] Part 2 is complete: design, setting, population (Session 3) + exposure, comparator, outcomes, biases (today).
+- [ ] Part 2 is complete: sections 2.1 to 2.3 (Session 3) and 2.4 to 2.6 (today).

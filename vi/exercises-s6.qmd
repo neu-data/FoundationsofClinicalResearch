@@ -8,26 +8,30 @@ title: "Buổi 6: Phiếu bài tập"
 
 Họ và tên: ______________________________   Khoa/Phòng: ______________________________
 
-Gõ câu trả lời vào tệp Word này hoặc in bản PDF. Bài tập 4 và 8 làm trên lớp cho Q1. Cuối buổi, bạn chọn câu hỏi của mình (Q1 đến Q5). Sau đó làm lại Bài tập 4 và 8 cho câu hỏi đó, dùng gói kết quả của nó: câu trả lời sẽ là phần cốt lõi của phần Kết quả. Bài tập 9 hoàn thiện Phần 3 đề cương của riêng bạn.
+Gõ câu trả lời vào tệp Word, hoặc in bản PDF.
 
-| # | Bài tập | Khi nào | Thời gian |
-|---|---|---|---|
-| 1 | Đúng hay sai: KTC, giá trị p và so sánh bội | phần 6.1 / bài về nhà | 5 phút |
-| 2 | Chọn kiểm định | kiểm tra nhanh phần 6.1 / bài về nhà | 5 phút |
-| 3 | Ghép hệ số r với biểu đồ phân tán | bài về nhà | 3 phút |
-| 4 | [FLUID-ICU] Diễn giải phép so sánh cho câu hỏi bạn chọn | phần 6.2, cả lớp cùng làm (Q1), sau đó làm ở nhà cho câu hỏi của bạn | 7 phút |
-| 5 | Đọc bảng hồi quy (một ví dụ khác) | bài về nhà (phần kiểm tra 6.3 dùng bảng trên slide) | 5 phút |
-| 6 | Đọc đường cong Kaplan–Meier | bài về nhà | 5 phút |
-| 7 | Vì sao dữ liệu bị thiếu? MCAR, MAR hay MNAR | bài về nhà | 5 phút |
-| 8 | [FLUID-ICU] Diễn giải mô hình cho câu hỏi bạn chọn | phần 6.4, cả lớp cùng làm (Q1), sau đó làm ở nhà cho câu hỏi của bạn | 7 phút |
-| 9 | Phiếu Xây dựng đề cương 6 (đề cương của riêng bạn) | xây dựng đề cương: giảng viên làm mẫu, bạn viết nháp; hoàn thành ở nhà | 30 phút |
+| # | Bài tập | Khi nào |
+|---|---|---|
+| 1 | Đúng hay sai: KTC, giá trị p và so sánh bội | Phần 6.1, hoặc ở nhà |
+| 2 | Chọn kiểm định | Phần 6.1, hoặc ở nhà |
+| 3 | Ghép hệ số r với biểu đồ phân tán | Ở nhà |
+| 4 | [FLUID-ICU] Diễn giải phép so sánh | Phần 6.2 cho Q1, sau đó ở nhà cho câu hỏi của bạn |
+| 5 | Đọc bảng hồi quy | Ở nhà |
+| 6 | Đọc đường cong Kaplan–Meier | Ở nhà |
+| 7 | Vì sao dữ liệu bị thiếu? MCAR, MAR hay MNAR | Ở nhà |
+| 8 | [FLUID-ICU] Diễn giải mô hình | Phần 6.4 cho Q1, sau đó ở nhà cho câu hỏi của bạn |
+| 9 | Xây dựng đề cương 6: Phần 3 đề cương của bạn | Cuối buổi, hoàn thành ở nhà |
+
+**Câu hỏi FLUID-ICU của bạn.** Cuối buổi, bạn chọn một câu hỏi (Q1 đến Q5). Sau đó làm lại Bài tập 4 và 8 cho câu hỏi đó, dùng gói kết quả của nó. Câu trả lời sẽ là phần cốt lõi của phần Kết quả.
+
+**Viết tắt:** KTC = khoảng tin cậy, HR = tỷ số nguy cơ tức thời, OR = tỷ số chênh, SD = độ lệch chuẩn, ICU = đơn vị hồi sức tích cực, SAP = kế hoạch phân tích thống kê.
 
 
 * * *
 
 ## Bài tập 1: Đúng hay sai: khoảng tin cậy, giá trị p và so sánh bội
 
-Khoanh **Đ** (đúng) hoặc **S** (sai). Chuẩn bị giải thích mỗi câu "sai" bằng một câu.
+**Nhiệm vụ.** Khoanh **Đ** (đúng) hoặc **S** (sai) cho mỗi nhận định. Với mỗi câu S, chuẩn bị nói bằng một câu vì sao nó sai.
 
 | # | Nhận định | |
 |---|---|:-:|
@@ -51,7 +55,9 @@ Khoanh **Đ** (đúng) hoặc **S** (sai). Chuẩn bị giải thích mỗi câu
 
 ## Bài tập 2: Chọn kiểm định
 
-Dùng bảng quyết định trên slide (trước hết là loại kết cục, rồi đến hình dạng phân phối hoặc số đếm, rồi đến ghép cặp hay không). Ghi kiểm định và một lý do.
+**Nhiệm vụ.** Với mỗi tình huống, ghi kiểm định bạn sẽ dùng và một lý do. Quyết định theo ba bước: loại kết cục (một số đo hay một phân loại), rồi hình dạng phân phối hoặc số đếm, rồi có phải cùng người bệnh được đo hai lần không (ghép cặp).
+
+> **Chọn trong:** kiểm định t · kiểm định t ghép cặp · Mann-Whitney U · Wilcoxon dấu hạng · khi bình phương · Fisher chính xác · McNemar
 
 | # | Tình huống | Kiểm định | Vì sao? |
 |---|---|---|---|
@@ -67,9 +73,11 @@ Dùng bảng quyết định trên slide (trước hết là loại kết cục,
 
 ## Bài tập 3: Ghép hệ số r với biểu đồ phân tán
 
+**Nhiệm vụ.** Ghép mỗi biểu đồ (A đến D) với một hệ số tương quan. Sau đó trả lời câu hỏi thêm.
+
 ![Bốn biểu đồ phân tán A đến D](images/practicals/sat3/ex_match_r.png)
 
-Ghép mỗi biểu đồ (A–D) với một hệ số tương quan: **r = 0.86**, **r = 0.30**, **r = 0.01**, **r = −0.58**.
+> **Chọn trong:** r = 0.86 · r = 0.30 · r = 0.01 · r = −0.58
 
 | Biểu đồ | r |
 |---|---|
@@ -83,9 +91,9 @@ Câu hỏi thêm: máy đo đường huyết tại giường và phòng xét ngh
 
 * * *
 
-## Bài tập 4: [FLUID-ICU] Diễn giải phép so sánh cho câu hỏi bạn chọn (6.2)
+## Bài tập 4: [FLUID-ICU] Diễn giải phép so sánh (6.2)
 
-Trên lớp, cả lớp cùng làm cho Q1. Sau đó hoàn thành cho câu hỏi bạn chọn, dùng bảng so sánh trong gói kết quả của câu hỏi đó.
+**Nhiệm vụ.** Điền bảng và viết một câu Kết quả. Trên lớp, làm cho Q1 với bảng so sánh trong gói kết quả Q1. Ở nhà, làm lại cho câu hỏi bạn chọn với bảng so sánh trong gói kết quả của câu hỏi đó.
 
 | | Câu trả lời của bạn |
 |---|---|
@@ -106,7 +114,9 @@ Trên lớp, cả lớp cùng làm cho Q1. Sau đó hoàn thành cho câu hỏi 
 
 ## Bài tập 5: Đọc bảng hồi quy (một ví dụ khác, bài về nhà)
 
-Trên lớp, cả lớp đọc bảng của ví dụ xuyên suốt trên slide. Để luyện thêm: một nghiên cứu thuần tập (giả lập) trên 600 người lớn nằm ICU nội khoa tìm các yếu tố liên quan đến **mê sảng mắc phải trong bệnh viện** (có/không) trong thời gian nằm ICU.
+**Nhiệm vụ.** Đọc bảng và kết luận của tác giả, rồi trả lời bảy câu hỏi.
+
+Một nghiên cứu thuần tập (giả lập) trên 600 người lớn nằm ICU nội khoa tìm các yếu tố liên quan đến **mê sảng mắc phải trong bệnh viện** (có/không) trong thời gian nằm ICU.
 
 **Bảng 3. Hồi quy logistic đa biến: các yếu tố liên quan đến mê sảng**
 
@@ -123,8 +133,6 @@ Trên lớp, cả lớp đọc bảng của ví dụ xuyên suốt trên slide. 
 
 **Kết luận của tác giả:** *"Benzodiazepine gây mê sảng ở người bệnh ICU. Thở máy cho thấy xu hướng tăng mê sảng (p = 0.08). Quy trình giấc ngủ của chúng tôi làm giảm mê sảng 38%."*
 
-Câu hỏi:
-
 1. Đây là loại kết cục gì, và vì sao dùng hồi quy logistic?
 2. Giá trị "không có tác động" của các con số trong bảng này là bao nhiêu?
 3. Với mỗi dòng, KTC 95% có chứa giá trị không có tác động không? Đánh dấu ✔ (không chứa) hoặc ✖ (có chứa).
@@ -137,6 +145,8 @@ Câu hỏi:
 * * *
 
 ## Bài tập 6: Đọc đường cong Kaplan–Meier
+
+**Nhiệm vụ.** Đọc đường cong và trả lời sáu câu hỏi.
 
 Một thử nghiệm (mô phỏng) phân bổ ngẫu nhiên 200 người lớn bị sốc nhiễm khuẩn vào chiến lược hạn chế dịch hoặc chăm sóc thường quy và theo dõi họ trong 28 ngày.
 
@@ -154,25 +164,25 @@ Một thử nghiệm (mô phỏng) phân bổ ngẫu nhiên 200 người lớn b
 
 ## Bài tập 7: Vì sao dữ liệu bị thiếu? MCAR, MAR hay MNAR
 
-Với mỗi tình huống, chọn cơ chế có khả năng nhất (**MCAR**, **MAR** hay **MNAR**) và nói điều đó có ý nghĩa gì đối với phân tích các trường hợp đầy đủ.
+**Nhiệm vụ.** Với mỗi tình huống, ghi cơ chế có khả năng nhất và điều đó có ý nghĩa gì đối với phân tích các trường hợp đầy đủ (phân tích chỉ những người bệnh không thiếu giá trị nào).
+
+> **Chọn trong:** MCAR (thiếu hoàn toàn ngẫu nhiên) · MAR (thiếu ngẫu nhiên: phụ thuộc vào điều đã ghi nhận) · MNAR (thiếu không ngẫu nhiên: phụ thuộc vào chính giá trị bị thiếu)
 
 | # | Tình huống | Cơ chế | Hệ quả đối với phân tích các trường hợp đầy đủ |
 |---|---|---|---|
 | a | 12 mẫu máu xét nghiệm lactate bị mất khi thùng vận chuyển bị rơi. | | |
-| b | Cân nặng bị thiếu thường hơn ở người bệnh nhập viện ban đêm; giờ nhập viện được ghi cho mọi người. | | |
+| b | Cân nặng bị thiếu thường hơn ở người bệnh nhập viện ban đêm. Giờ nhập viện được ghi cho mọi người. | | |
 | c | Điểm đau bị thiếu ở những người bệnh đau nhiều nhất, vì họ không thể hoàn thành bảng hỏi. | | |
 | d | Tình trạng ở ngày 28 bị thiếu ở những người bệnh chuyển sang bệnh viện khác, thường vì họ đang diễn tiến xấu. | | |
 | e | Một phiên bản phiếu dùng trong tháng đầu không có câu hỏi về "hút thuốc". | | |
-| f | Người bệnh lớn tuổi ít gửi lại bảng hỏi chất lượng cuộc sống ở tháng thứ 3; tuổi được ghi cho mọi người. | | |
-
-*(Phân tích độ nhạy, dùng để kiểm tra dữ liệu thiếu có làm thay đổi câu trả lời hay không, được thực hành ở Cấp độ 3, Học phần H.)*
+| f | Người bệnh lớn tuổi ít gửi lại bảng hỏi chất lượng cuộc sống ở tháng thứ 3. Tuổi được ghi cho mọi người. | | |
 
 
 * * *
 
-## Bài tập 8: [FLUID-ICU] Diễn giải mô hình cho câu hỏi bạn chọn: thô so với hiệu chỉnh, trường hợp đầy đủ so với quy gán (6.4)
+## Bài tập 8: [FLUID-ICU] Diễn giải mô hình: thô so với hiệu chỉnh, trường hợp đầy đủ so với quy gán (6.4)
 
-Trên lớp, cả lớp cùng làm cho Q1. Sau đó hoàn thành cho câu hỏi bạn chọn, dùng bảng hồi quy và bảng dữ liệu thiếu trong gói kết quả của câu hỏi đó.
+**Nhiệm vụ.** Điền Phần A và B và viết hai câu Kết quả. Trên lớp, làm Phần A và hai câu cho Q1 với bảng mô hình trong gói kết quả Q1. Ở nhà, làm Phần A và B cho câu hỏi bạn chọn với bảng hồi quy và bảng dữ liệu thiếu trong gói kết quả của câu hỏi đó. Phần C chỉ dành cho Q1.
 
 **Phần A: thô so với hiệu chỉnh**
 
@@ -185,27 +195,27 @@ Trên lớp, cả lớp cùng làm cho Q1. Sau đó hoàn thành cho câu hỏi 
 2. Ước lượng thay đổi bao nhiêu sau khi hiệu chỉnh, và theo hướng nào? Điều đó cho bạn biết gì về nhiễu do chỉ định?
 3. KTC 95% đã hiệu chỉnh có chứa giá trị "không có tác động" (1 với tỷ số, 0 với hiệu số) không?
 
-**Phần B: trường hợp đầy đủ so với quy gán đa bội** (đọc kết quả từ gói của bạn)
+**Phần B: trường hợp đầy đủ so với quy gán đa bội**
 
 4. Mô hình trường hợp đầy đủ có bao nhiêu người bệnh, và mô hình quy gán đa bội có bao nhiêu? Ai bị loại khỏi phân tích trường hợp đầy đủ?
 5. Ước lượng quy gán đa bội có gần với ước lượng trường hợp đầy đủ không?
 
 **Phần C (chỉ Q1): Kaplan–Meier và Cox**
 
-6. Tỷ lệ sống ở ngày 28 của mỗi nhóm; giá trị p của log-rank; HR Cox đã hiệu chỉnh kèm KTC 95%. Vì sao kết quả logistic (p = 0.044) và Cox (p = 0.053) cho cùng một thông điệp?
+6. Ghi tỷ lệ sống ở ngày 28 của mỗi nhóm, giá trị p của log-rank, và HR Cox đã hiệu chỉnh kèm KTC 95%. Vì sao kết quả logistic (p = 0.044) và Cox (p = 0.053) cho cùng một thông điệp?
 
-**Hai câu Kết quả của bạn** (thô, rồi hiệu chỉnh, kèm KTC; dùng "có liên quan với", không dùng "gây ra"):
+**Hai câu Kết quả của bạn** (thô, rồi hiệu chỉnh, kèm KTC, dùng "có liên quan với", không dùng "gây ra"):
 
 > ______________________________________________________________________________
 
 
 * * *
 
-## Bài tập 9: Phiếu Xây dựng đề cương 6 (cá nhân)
+## Bài tập 9: Xây dựng đề cương 6 (đề cương của bạn)
 
-Lại là câu hỏi **của riêng bạn**. Giảng viên làm mẫu từng phần với ví dụ xuyên suốt; bạn viết nháp các thông số cỡ mẫu trong lớp (8 phút) và hoàn thành phần còn lại ở nhà. Chép câu trả lời vào Phần 3 trong mẫu đề cương của riêng bạn (`Research_Proposal_Template_VN.docx`, gửi qua email).
+**Nhiệm vụ.** Viết nháp Phần 3 đề cương cho câu hỏi của riêng bạn: cỡ mẫu, kế hoạch phân tích, yếu tố gây nhiễu và kế hoạch dữ liệu thiếu. Trước tiên xem giảng viên điền cho ví dụ xuyên suốt. Trên lớp, điền mục 9.1 (10 phút). Hoàn thành mục 9.2 đến 9.4 ở nhà, rồi chép câu trả lời vào Phần 3 của mẫu đề cương (`Research_Proposal_Template_VN.docx`, gửi qua email).
 
-### 9.1 Phát biểu về cỡ mẫu (8 phút)
+### 9.1 Phát biểu về cỡ mẫu
 
 | Thông số | Giá trị của bạn | Nguồn (bài báo, đánh giá thực hành, nghiên cứu thí điểm, nhận định lâm sàng) |
 |---|---|---|
@@ -216,21 +226,21 @@ Lại là câu hỏi **của riêng bạn**. Giảng viên làm mẫu từng ph�
 | Lực thống kê | 80% / 90% | |
 | Tỷ lệ mất mẫu dự kiến | | |
 
-**Câu phát biểu** (dùng bảng tính `sample_size_calculator.xlsx` (gửi qua email) hoặc email cho giảng viên):
+**Câu phát biểu.** Tính số người bệnh mỗi nhóm bằng bảng tính `sample_size_calculator.xlsx` (gửi qua email), rồi điền vào:
 
-> Giả định ______ ở nhóm chứng và ______ ở nhóm can thiệp, ______ người bệnh mỗi nhóm cho lực thống kê ____% với alpha hai phía 5%; tính thêm ____% mất mẫu, chúng tôi sẽ tuyển tổng cộng ______ người bệnh.
+> Giả định ______ ở nhóm chứng và ______ ở nhóm can thiệp, ______ người bệnh mỗi nhóm cho lực thống kê ____% với alpha hai phía 5%. Tính thêm ____% mất mẫu, chúng tôi sẽ tuyển tổng cộng ______ người bệnh.
 
-### 9.2 Kế hoạch phân tích bằng ngôn ngữ dễ hiểu (10 phút)
+### 9.2 Kế hoạch phân tích bằng ngôn ngữ dễ hiểu
 
 | Bước | Chúng tôi sẽ làm gì |
 |---|---|
-| Mô tả người bệnh (Bảng 1) | Biến số dạng số phân phối đối xứng trình bày bằng ______; phân phối lệch bằng ______; biến phân loại bằng ______ |
+| Mô tả người bệnh (Bảng 1) | Biến số dạng số phân phối đối xứng trình bày bằng ______, phân phối lệch bằng ______, biến phân loại bằng ______ |
 | So sánh kết cục chính | Kiểm định: ______ vì kết cục là ______ |
 | Báo cáo tác động | Chỉ số tác động (hiệu số / RR / OR / HR) kèm KTC 95%: ______ |
 | Xử lý nhiễu (chỉ với thiết kế quan sát) | Chúng tôi sẽ hiệu chỉnh theo: ______ bằng ______ (ví dụ hồi quy logistic) |
 | Dữ liệu thiếu | Chúng tôi sẽ báo cáo số giá trị thiếu của từng biến và phòng ngừa bằng cách: ______ |
 
-### 9.3 Các yếu tố gây nhiễu (5 phút)
+### 9.3 Các yếu tố gây nhiễu
 
 | Yếu tố gây nhiễu | Vì sao đây là yếu tố gây nhiễu (liên quan đến phơi nhiễm VÀ kết cục, không do phơi nhiễm gây ra) |
 |---|---|
@@ -240,7 +250,7 @@ Lại là câu hỏi **của riêng bạn**. Giảng viên làm mẫu từng ph�
 
 Số biến cố dự kiến: ____  Số số hạng tối đa trong mô hình (khoảng 1 cho mỗi 10 biến cố): ____
 
-### 9.4 Kế hoạch xử lý dữ liệu thiếu (7 phút)
+### 9.4 Kế hoạch xử lý dữ liệu thiếu
 
 | Câu hỏi | Câu trả lời của chúng tôi |
 |---|---|

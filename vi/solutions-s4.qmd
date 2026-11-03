@@ -38,7 +38,7 @@ Lỗi điển hình: gọi tình huống 2 là "nhiễu" vì các con số thay 
 
 ## Phần C: Hai phép tính bảng 2x2 (cả lớp, 15 phút)
 
-Khoảng 7 phút cho mỗi phép tính: bình chọn từng đáp án, rồi nhập bảng vào công cụ tính trên màn hình chia sẻ.
+7 phút: mọi người tự làm cả hai phép tính. Sau đó khoảng 4 phút cho mỗi phép tính: mời hai hoặc ba người trả lời từng câu, rồi nhập bảng vào công cụ tính trên màn hình chia sẻ.
 
 ### Phép tính 1: thử nghiệm dịch truyền (200 người mỗi nhóm)
 
@@ -120,6 +120,8 @@ Các số này khớp với slide "Cùng một xét nghiệm, bối cảnh khác
 
 ## Phần E: Đọc biểu đồ rừng và chọn công cụ đánh giá nguy cơ sai lệch (cả lớp, 8 phút)
 
+4 phút: mọi người tự làm câu 1 đến 3 và công cụ a đến c. Sau đó 4 phút: mời hai hoặc ba người trả lời từng câu.
+
 Các con số được tính bằng gộp nghịch đảo phương sai (mô hình ảnh hưởng cố định) các log tỷ số nguy cơ trong `figs_sat2.py`.
 
 | Thử nghiệm | RR (KTC 95%) | Trọng số |
@@ -134,7 +136,7 @@ Các con số được tính bằng gộp nghịch đảo phương sai (mô hìn
 
 1. **Trọng số lớn nhất:** Thử nghiệm 4 (38%). Đây là thử nghiệm lớn nhất với nhiều ca tử vong nhất (103), nên có KTC hẹp nhất.
 2. **Có thử nghiệm đơn lẻ nào rõ ràng không?** Không. Mọi KTC riêng lẻ đều cắt qua 1.
-3. **Kết quả gộp:** hình thoi không cắt qua 1. *"Qua sáu thử nghiệm này, chiến lược hạn chế dịch có liên quan với nguy cơ tử vong tương đối thấp hơn khoảng 21% (RR 0.79, KTC 95% 0.64 đến 0.98); giới hạn trên gần với không có tác động."* (Với thử nghiệm ngẫu nhiên, có thể chấp nhận "làm giảm"; điểm chính là phải nêu KTC.) Gõ câu tốt nhất từ khung chat lên màn hình chia sẻ.
+3. **Kết quả gộp:** hình thoi không cắt qua 1. *"Qua sáu thử nghiệm này, chiến lược hạn chế dịch có liên quan với nguy cơ tử vong tương đối thấp hơn khoảng 21% (RR 0.79, KTC 95% 0.64 đến 0.98); giới hạn trên gần với không có tác động."* (Với thử nghiệm ngẫu nhiên, có thể chấp nhận "làm giảm"; điểm chính là phải nêu KTC.) Gõ câu tốt nhất bạn nghe được lên màn hình chia sẻ.
 4. **Thử nghiệm 3 (tự học):** không đáng lo nhiều. Thử nghiệm nhỏ (trọng số 5%, 15 ca tử vong) với KTC rất rộng, chồng lên mọi thử nghiệm khác; I² = 0% nghĩa là độ phân tán phù hợp với may rủi.
 
 **Chọn công cụ**
@@ -155,17 +157,17 @@ Lỗi thường gặp: chọn ROBINS-I cho bài của Hyun. Có thể chấp nh�
 
 ## Phần F: Xây dựng đề cương 4 (nội dung làm mẫu trực tiếp)
 
-Giảng viên điền phần này trên màn hình chia sẻ trong 15 phút đầu, vừa làm vừa nói ra suy nghĩ. Sau đó mỗi học viên viết các dòng tương tự cho câu hỏi của mình. (Các dòng 1–3, gồm thiết kế, bối cảnh và đối tượng, có trong `s3_solutions_VN.md`, Phần C.)
+Giảng viên điền phần này trên màn hình chia sẻ trong 15 phút đầu, vừa làm vừa nói ra suy nghĩ. Sau đó mỗi học viên viết ba mục tương tự (2.4 đến 2.6) cho câu hỏi của mình. (Mục 2.1 đến 2.3, gồm thiết kế, bối cảnh và đối tượng, có trong `s3_solutions_VN.md`, Phần C.)
 
 | Mục | Câu trả lời mẫu (phiên bản quan sát của câu hỏi xuyên suốt) |
 |---|---|
-| Phơi nhiễm và nhóm so sánh | Phơi nhiễm: cân bằng dịch tích lũy dương (ml/kg) ở giờ 72 sau khi vào ICU. Nhóm so sánh: cân bằng dịch tích lũy bằng 0 hoặc âm ở giờ 72. |
-| Kết cục | Chính: tử vong do mọi nguyên nhân trước ngày 28 sau khi vào ICU (hồ sơ bệnh viện; gọi điện nếu đã ra viện). Phụ: tổn thương thận cấp đến ngày 7 (tiêu chuẩn KDIGO); số ngày còn sống và không thở máy đến ngày 28; thời gian nằm ICU. |
-| Sai lệch và cách giảm | Nhiễu do chỉ định (người bệnh nặng hơn được truyền nhiều dịch hơn): ghi điểm SOFA, lactate, liều thuốc vận mạch, tuổi và bệnh kèm theo lúc vào ICU rồi hiệu chỉnh hoặc ghép cặp. Sai lệch chọn lựa (yêu cầu nằm ICU 72 giờ loại các ca tử vong sớm): nêu là hạn chế và báo cáo số bị loại và lý do. Sai lệch thông tin (phiếu theo dõi dịch không đầy đủ, thiếu lượng nước tiểu ban đêm): định nghĩa xác định trước, hai người thu thập dữ liệu với kiểm tra nhập liệu kép trên 10% mẫu. |
+| 2.4 Can thiệp hoặc phơi nhiễm, và nhóm so sánh | Phơi nhiễm: cân bằng dịch tích lũy dương (ml/kg) ở giờ 72 sau khi vào ICU. Nhóm so sánh: cân bằng dịch tích lũy bằng 0 hoặc âm ở giờ 72. |
+| 2.5 Kết cục | Chính: tử vong do mọi nguyên nhân trước ngày 28 sau khi vào ICU (hồ sơ bệnh viện; gọi điện nếu đã ra viện). Phụ: tổn thương thận cấp đến ngày 7 (tiêu chuẩn KDIGO); số ngày còn sống và không thở máy đến ngày 28; thời gian nằm ICU. |
+| 2.6 Các nguy cơ sai lệch chính và cách hạn chế | Nhiễu do chỉ định (người bệnh nặng hơn được truyền nhiều dịch hơn): ghi điểm SOFA, lactate, liều thuốc vận mạch, tuổi và bệnh kèm theo lúc vào ICU rồi hiệu chỉnh hoặc ghép cặp. Sai lệch chọn lựa (yêu cầu nằm ICU 72 giờ loại các ca tử vong sớm): nêu là hạn chế và báo cáo số bị loại và lý do. Sai lệch thông tin (phiếu theo dõi dịch không đầy đủ, thiếu lượng nước tiểu ban đêm): định nghĩa xác định trước, hai người thu thập dữ liệu với kiểm tra nhập liệu kép trên 10% mẫu. |
 
 Khẳng định: "có liên quan với" (thiết kế quan sát).
 
-**Các vấn đề thường gặp cần chú ý trong khung chat và trong bản nháp**
+**Các vấn đề thường gặp cần chú ý trong bản nháp**
 
 1. Không có nhóm so sánh ("chúng tôi sẽ nghiên cứu những người bệnh được dùng X").
 2. Ba kết cục "chính", hoặc kết cục chính không có thời điểm đo.

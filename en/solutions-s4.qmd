@@ -38,7 +38,7 @@ Typical error: calling scenario 2 "confounding" because the numbers change. Ask:
 
 ## Part C: Two 2x2 calculations (whole class, 15 minutes)
 
-About 7 minutes per calculation: poll each answer, then type the table into the calculator on the shared screen.
+7 minutes: everyone works alone on both calculations. Then about 4 minutes per calculation: call on two or three people for each answer, and type the table into the calculator on the shared screen.
 
 ### Calculation 1: fluid trial (200 per group)
 
@@ -120,6 +120,8 @@ These match the slide "Same test, different setting" (4.3) and the prevalence ta
 
 ## Part E: Read a forest plot and choose the risk-of-bias tool (whole class, 8 minutes)
 
+4 minutes: everyone works alone on questions 1 to 3 and tools a to c. Then 4 minutes: call on two or three people for each answer.
+
 Numbers are computed by inverse-variance (fixed-effect) pooling of the log risk ratios in `figs_sat2.py`.
 
 | Trial | RR (95% CI) | Weight |
@@ -134,7 +136,7 @@ Numbers are computed by inverse-variance (fixed-effect) pooling of the log risk 
 
 1. **Most weight:** Trial 4 (38%). It is the largest trial with the most deaths (103), so it has the narrowest CI.
 2. **Any single trial clear?** No. Every individual CI crosses 1.
-3. **Pooled:** the diamond does not cross 1. *"Across these six trials, a restrictive strategy was associated with about 21% lower relative risk of death (RR 0.79, 95% CI 0.64 to 0.98); the upper limit is close to no effect."* (For randomised trials "reduced" is acceptable; the point is to give the CI.) Type the best sentence from the chat on the shared screen.
+3. **Pooled:** the diamond does not cross 1. *"Across these six trials, a restrictive strategy was associated with about 21% lower relative risk of death (RR 0.79, 95% CI 0.64 to 0.98); the upper limit is close to no effect."* (For randomised trials "reduced" is acceptable; the point is to give the CI.) Type the best sentence you hear on the shared screen.
 4. **Trial 3 (self-study):** no great concern. It is small (5% weight, 15 deaths) with a very wide CI that overlaps all the others; I² = 0% means the spread is compatible with chance.
 
 **Choosing the tool**
@@ -155,17 +157,17 @@ Common error: choosing ROBINS-I for Hyun. Accept it with discussion (fluid balan
 
 ## Part F: Proposal builder 4 (what to model live)
 
-The instructor fills this in on the shared screen during the first 15 minutes, thinking aloud. Each participant then writes the same rows for their own question. (Rows 1-3, covering design, setting and population, are in `s3_solutions.md`, Part C.)
+The instructor fills this in on the shared screen during the first 15 minutes, thinking aloud. Each participant then writes the same three sections (2.4 to 2.6) for their own question. (Sections 2.1 to 2.3, covering design, setting and population, are in `s3_solutions.md`, Part C.)
 
 | Section | Model answer (observational version of the running question) |
 |---|---|
-| Exposure and comparator | Exposure: positive cumulative fluid balance (ml/kg) at 72 h after ICU admission. Comparator: zero or negative cumulative balance at 72 h. |
-| Outcomes | Primary: death from any cause by day 28 after ICU admission (hospital record; phone call if discharged). Secondary: acute kidney injury by day 7 (KDIGO criteria); days alive and free of mechanical ventilation by day 28; ICU length of stay. |
-| Biases and mitigation | Confounding by indication (sicker patients receive more fluid): record SOFA score, lactate, vasopressor dose, age and comorbidity at admission and adjust or match. Selection bias (requiring 72 h of ICU stay excludes early deaths): state it as a limitation and report how many were excluded and why. Information bias (incomplete fluid charts, missing night-time urine output): pre-specified definitions, two data collectors with a double-entry check on a 10% sample. |
+| 2.4 Intervention or exposure, and comparator | Exposure: positive cumulative fluid balance (ml/kg) at 72 h after ICU admission. Comparator: zero or negative cumulative balance at 72 h. |
+| 2.5 Outcomes | Primary: death from any cause by day 28 after ICU admission (hospital record; phone call if discharged). Secondary: acute kidney injury by day 7 (KDIGO criteria); days alive and free of mechanical ventilation by day 28; ICU length of stay. |
+| 2.6 Main threats of bias and how they are reduced | Confounding by indication (sicker patients receive more fluid): record SOFA score, lactate, vasopressor dose, age and comorbidity at admission and adjust or match. Selection bias (requiring 72 h of ICU stay excludes early deaths): state it as a limitation and report how many were excluded and why. Information bias (incomplete fluid charts, missing night-time urine output): pre-specified definitions, two data collectors with a double-entry check on a 10% sample. |
 
 Claim: "associated with" (observational design).
 
-**Common problems to look for in the chat and in the drafts**
+**Common problems to look for in the drafts**
 
 1. No comparator ("we will study patients who receive X").
 2. Three "primary" outcomes, or a primary outcome without a time point.

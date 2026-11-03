@@ -8,25 +8,27 @@ title: "Session 5: Exercise sheet"
 
 Name: ______________________________   Department: ______________________________
 
-Type your answers into this Word file or print the PDF. Exercises 2, 6 and 7 are done in class. **[FLUID-ICU]** exercises use the five results packs (`Results_Pack_Q1.pdf` to `Results_Pack_Q5.pdf`, sent by email). Exercise 8 is Part 3 of your own proposal.
+Type your answers in the Word file, or print the PDF. Exercises marked **[FLUID-ICU]** use the course dataset and its five results packs (`Results_Pack_Q1.pdf` to `Results_Pack_Q5.pdf`, sent by email). FLUID-ICU is simulated.
 
-| # | Exercise | When | Time |
-|---|---|---|---|
-| 1 | Classify the variables | homework / self-check (after the 5.1 quiz) | 5 min |
-| 2 | Fix the bad CRF items | 5.1 whole-class task | 7 min |
-| 3 | Choose the right summary | 5.3 check / homework | 3 min |
-| 4 | Judge a bad figure | homework | 5 min |
-| 5 | [FLUID-ICU] Spot the problems in the raw FLUID-ICU data | homework (after the 5.2 demo) | 5 min |
-| 6 | [FLUID-ICU] Read the FLUID-ICU Table 1 | 5.4 whole-class task | 10 min |
-| 7 | [FLUID-ICU] A FLUID-ICU question as a PECO sentence | 5.2 whole-class task (Q1) | 4 min |
-| 8 | Proposal builder 5 worksheet (your own proposal) | proposal builder: instructor models, you draft; finish as homework | 30 min |
+| # | Exercise | When |
+|---|---|---|
+| 1 | Classify the variables | At home |
+| 2 | Fix the bad CRF items | In class, section 5.1 |
+| 3 | Choose the right summary | At home |
+| 4 | Judge a bad figure | At home |
+| 5 | [FLUID-ICU] Spot the problems in the raw data | At home |
+| 6 | [FLUID-ICU] Read the FLUID-ICU Table 1 | In class, section 5.4 |
+| 7 | [FLUID-ICU] A FLUID-ICU question as a PECO sentence | In class, section 5.2 |
+| 8 | Proposal builder 5: data for your own proposal | In class (8.1), then at home |
+
+**Abbreviations:** CRF = case report form, ICU = intensive care unit, IQR = interquartile range, SD = standard deviation.
 
 
 * * *
 
 ## Exercise 1: Classify the variables
 
-For each variable, tick **one** type.
+**Task.** For each variable, tick **one** type. Then answer the bonus question.
 
 | # | Variable (ICU study of septic shock) | Continuous | Count | Binary | Nominal | Ordinal | Time-to-event |
 |---|---|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -48,7 +50,9 @@ For each variable, tick **one** type.
 
 ## Exercise 2: Fix the bad CRF items
 
-In class the instructor shows one item at a time on the shared screen; type your rewrite in the chat. Each item below can be filled in two different ways by two different nurses. Rewrite it so that it has **only one possible reading**. Check yourself: unit? time point? one answer only? an "unknown / not done" option?
+**Task.** Two nurses could fill in each item below in two different ways. For each item, write what is wrong, then rewrite it so that it has **only one possible reading**. Be ready to read one rewrite aloud when the instructor asks.
+
+Check each rewrite: Is the unit in the question? Is the time point in the question? Is only one answer possible? Is there an "unknown / not done" option?
 
 | # | Bad item | What is wrong? | Your rewritten item |
 |---|---|---|---|
@@ -62,7 +66,9 @@ In class the instructor shows one item at a time on the shared screen; type your
 
 ## Exercise 3: Choose the right summary
 
-For each variable, choose the summary you would report in Table 1 and the best graph.
+**Task.** For each variable, write its shape or type, the summary you would report in Table 1, and the best graph.
+
+> **Choose from:** shape or type: symmetric · right-skewed · binary · nominal. Summary: mean (SD) · median (IQR) · n (%). Graph: bar chart · histogram · boxplot · scatter plot
 
 | # | Variable (200 ICU patients) | Shape / type | Summary | Graph |
 |---|---|---|---|---|
@@ -78,25 +84,30 @@ For each variable, choose the summary you would report in Table 1 and the best g
 
 ## Exercise 4: Judge a bad figure
 
+**Task.** Look at the three posters described below and answer questions 1 to 5.
+
 A poster in the hospital corridor shows this figure (fluid balance at day 5, 24 patients per group):
 
 ![Dynamite plot](images/practicals/sat3/dynamite_bad.png)
 
 1. What does each bar show, and what does the error bar show? What is missing?
 2. Name **two things the reader cannot see** in this figure.
-3. Redraw it (sketch) the way you would show it in a paper. What do you gain?
+3. Sketch how you would show the same data in a paper. What do you gain?
 
 A second poster shows ward mortality as bars of 31% (Ward A) and 29% (Ward B), with the y-axis running from 28% to 32%.
 
 4. What impression does it give, and how would you fix it?
-5. A third poster puts hand-hygiene compliance (%) and infection rate on one graph with two different y-axes and writes "hygiene works!". Give two reasons to be careful.
+
+A third poster puts hand-hygiene compliance (%) and infection rate on one graph with two different y-axes and writes "hygiene works!".
+
+5. Give two reasons to be careful.
 
 
 * * *
 
 ## Exercise 5: [FLUID-ICU] Spot the problems in the raw FLUID-ICU data
 
-Below are six cells copied from the raw file `fluid_icu_raw.csv` (as the four ICUs sent it). For each, say what is wrong and what the cleaning script should do.
+**Task.** The six values below come from the raw file `fluid_icu_raw.csv`, as the four ICUs sent it. For each one, write what is wrong and what the cleaning script should do. Then answer the bonus question.
 
 | # | Column | Value in the raw file | What is wrong? | What should the script do? |
 |---|---|---|---|---|
@@ -107,14 +118,14 @@ Below are six cells copied from the raw file `fluid_icu_raw.csv` (as the four IC
 | e | age | `210` | | |
 | f | patient ID | `FLU-139` appears in two identical rows | | |
 
-Bonus: why must the raw file never be edited by hand? Name two things the cleaning log records for every change.
+**Bonus:** why must the raw file never be edited by hand? Name two things the cleaning log records for every change.
 
 
 * * *
 
-## Exercise 6: [FLUID-ICU] Read the FLUID-ICU Table 1 (results pack)
+## Exercise 6: [FLUID-ICU] Read the FLUID-ICU Table 1
 
-Open Table 1 (baseline characteristics by fluid-balance group) in any results pack: the same table is in all five. In class we answer questions 1 to 5 together; question 6 is for you.
+**Task.** Open Table 1 (baseline characteristics by fluid-balance group) in any results pack. The same table is in all five. Answer questions 1 to 5 alone, ending with your two Results sentences, and be ready to share them when the instructor asks. Question 6 is for after class.
 
 1. How many patients are in each column? Why is the overall number 618 and not 620?
 2. For **three** variables, write the summary used (mean (SD), median (IQR) or n (%)) and why.
@@ -136,9 +147,11 @@ Open Table 1 (baseline characteristics by fluid-balance group) in any results pa
 
 * * *
 
-## Exercise 7: [FLUID-ICU] A FLUID-ICU question as a PECO sentence (5.2)
+## Exercise 7: [FLUID-ICU] A FLUID-ICU question as a PECO sentence
 
-In class we fill this in for Question 1 (Q1). When you choose your own question at the end of Session 6, fill it in again for that question. PECO: P = population, E = exposure, C = comparison, O = outcome.
+**Task.** Fill in the table for Question 1 (Q1), from page 1 of its results pack. Be ready to read your sentence aloud when the instructor asks. At the end of Session 6 you choose one of the five questions: then fill in the table again for that question.
+
+PECO: P = population, E = exposure, C = comparison, O = outcome.
 
 | | Your answer |
 |---|---|
@@ -153,11 +166,11 @@ In class we fill this in for Question 1 (Q1). When you choose your own question 
 
 * * *
 
-## Exercise 8: Proposal builder 5 worksheet (individual)
+## Exercise 8: Proposal builder 5 worksheet
 
-The instructor models each part on the running example; then you draft the variables table in class (8 minutes) and finish the rest as homework. Write your answers here first, then copy them into Part 3 of your proposal template (`Research_Proposal_Template.docx`, sent by email). (Your **own** question, not the course dataset.)
+**Task.** Plan the data for your **own** research question, not for FLUID-ICU. First watch the instructor fill in each part for the running example. In class, draft the variables table (8.1, 10 minutes). At home, finish 8.2 to 8.4. Then copy everything into Part 3 of your proposal template (`Research_Proposal_Template.docx`, sent by email).
 
-### 8.1 Variables table (8 min)
+### 8.1 Variables table (in class)
 
 | Role | Variable | How measured (unit, time point) | Type |
 |---|---|---|---|
@@ -169,9 +182,9 @@ The instructor models each part on the running example; then you draft the varia
 | Confounder 3 | | | |
 | Descriptive (e.g. age, sex) | | | |
 
-*Tip: if your design is an RCT, confounders are less of a problem (randomisation), but list the key baseline variables you will show in Table 1.*
+*Tip: in an RCT, randomisation deals with most confounding. List the key baseline variables you will show in Table 1 instead.*
 
-### 8.2 Mini-CRF: 6–10 items (10 min)
+### 8.2 Mini-CRF: 6–10 items
 
 | # | Question exactly as the data collector will read it | Answer format (boxes / ticks / unit) | "Unknown / not done" option? |
 |---|---|---|:-:|
@@ -184,7 +197,7 @@ The instructor models each part on the running example; then you draft the varia
 | 7 | | | ☐ |
 | 8 | | | ☐ |
 
-### 8.3 Data dictionary: 3–5 rows + one data-quality rule (6 min)
+### 8.3 Data dictionary: 3–5 rows and one data-quality plan
 
 | Variable name | Label (meaning) | Type | Unit / codes | Allowed values |
 |---|---|---|---|---|
@@ -192,13 +205,13 @@ The instructor models each part on the running example; then you draft the varia
 | | | | | |
 | | | | | |
 
-**Data-quality plan (one or two sentences):** who checks the forms, how often, and what range/consistency check you will run.
+**Data-quality plan (one or two sentences):** who checks the forms, how often, and which range or consistency check you will run.
 
 > ______________________________________________________________________________
 
-### 8.4 Data-management plan (6 min)
+### 8.4 Data-management plan
 
-| Question | Our answer |
+| Question | Your answer |
 |---|---|
 | Paper CRF with double data entry, or electronic data capture (e.g. REDCap / KoBoToolbox)? | |
 | Coded study IDs? Where is the linking log kept, and who can open it? | |

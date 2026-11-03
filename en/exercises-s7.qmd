@@ -10,26 +10,22 @@ Name: ______________________________   Department: _____________________________
 
 Type your answers into this Word file or print the PDF.
 
-| Part | Exercise | When | How |
-|---|---|---|---|
-| A | Integrity scenarios: green, amber or red? | 20:25 (5 min) | Whole class, polls: 3 scenarios in class, 3 at home |
-| B | Proposal builder 7: ethics, registration, feasibility, publication plan | 20:30 (15 min) | The instructor models it on the running example; you write your own Part 4 at home |
-| C | **Manuscript workshop 1**: the Results section for your FLUID-ICU question | 21:35 (45 min) | 30 min whole class on Q1, then 15 min on your own question. Finish at home |
+| Part | Task | When |
+|---|---|---|
+| A | Integrity scenarios: green, amber or red? | End of section 7.2, finish at home |
+| B | Proposal builder 7: write Part 4 of your proposal (ethics, registration, feasibility, publication plan) | Before the break, finish at home |
+| C | **Manuscript workshop 1**: write the Results section for your FLUID-ICU question | After section 7.3, finish at home |
 
 Files you need (sent by email): the results pack for your question (`Results_Pack_QN.pdf`), the manuscript template (`Manuscript_Template_IMRaD.docx`), Paper 1 (Boulet 2024) and Paper 2 (Hyun 2023).
 
 
 * * *
 
-## Part A: Integrity scenarios: green, amber or red? (5 minutes, 20:25)
+## Part A: Integrity scenarios: green, amber or red?
 
-In class we vote on scenarios 1, 3 and 4 in a poll; scenarios 2, 5 and 6 are homework. For each scenario choose:
+**Task.** For each scenario, choose a colour and write one sentence explaining why. In class, do scenarios 1, 3 and 4 alone, then vote in the poll and be ready to give your reason when the instructor asks. Do scenarios 2, 5 and 6 at home.
 
-- **GREEN**: acceptable as described.
-- **AMBER**: acceptable **only if** something is fixed or disclosed (say what).
-- **RED**: research misconduct or a serious breach. Do not do it.
-
-Write one sentence explaining your colour.
+> **Choose from:** **GREEN** = acceptable as described · **AMBER** = acceptable **only if** something is fixed or disclosed (say what) · **RED** = research misconduct or a serious breach. Do not do it.
 
 | # | Scenario | Colour | Why? |
 |---|---|---|---|
@@ -46,9 +42,9 @@ Write one sentence explaining your colour.
 
 ## Part B: Proposal builder 7: ethics, registration, feasibility and publication plan
 
-**In class (20:30, 15 minutes):** the instructor fills in this worksheet live on the shared screen for the running example (a retrospective cohort of fluid balance and 28-day mortality in adults with septic shock in our ICU). You suggest answers in the chat.
+**Task.** Fill in this worksheet for **your own** proposal. In class, the instructor first fills in each block for the running example (a retrospective cohort of fluid balance and 28-day mortality in adults with septic shock in our ICU). After each block, write your own answer alone and be ready to read it out when the instructor asks. Finish at home.
 
-**At home this week:** fill it in for **your own** proposal. It becomes Part 4 of your written proposal and slides 5 (ethics and feasibility) and 6 (publication plan) of your presentation. Everyone submits the written proposal and the 6 slides by email before 19:30 on Saturday 19 December 2026, Session 8 (`Proposal_Brief.pdf`).
+Your answers become Part 4 of your written proposal and slides 5 (ethics and feasibility) and 6 (publication plan) of your presentation. Email the written proposal and the 6 slides before 19:30 on Saturday 19 December 2026, Session 8 (`Proposal_Brief.pdf`).
 
 ### B1. Ethics and consent
 | Question | Your answer |
@@ -58,7 +54,7 @@ Write one sentence explaining your colour.
 | Who gives consent (patient / legal representative / deferred consent / waiver requested)? Use the ICU consent flowchart (Session 7 slides). | |
 | Who takes consent, when and where? | |
 | What are the risks and burdens for participants, and how are they minimised? | |
-| Does the study need registration (trials: yes, before the first patient, in ClinicalTrials.gov or another WHO registry; systematic reviews: PROSPERO; observational: recommended)? | |
+| Does the study need registration? Trials: yes, before the first patient, in ClinicalTrials.gov or another WHO registry. Systematic reviews: PROSPERO. Observational studies: recommended. | |
 
 ### B2. Confidentiality
 | Question | Your answer |
@@ -82,7 +78,7 @@ Biggest feasibility risk: ______________________  One fix: _____________________
 ### B4. Publication plan (slide 6 of your presentation)
 | Item | Your answer |
 |---|---|
-| Working title (from your PICO: design, I vs C, P, O; 10–16 words) | |
+| Working title (from your PICO: design, I vs C, P, O, in 10 to 16 words) | |
 | Target journal (and a back-up), checked in DOAJ / NLM Catalog, with fees and licence known | |
 | Reporting guideline (CONSORT / STROBE / STARD / PRISMA / SPIRIT / CARE) | |
 | Registration needed? Where? (from B1) | |
@@ -103,9 +99,9 @@ Biggest feasibility risk: ______________________  One fix: _____________________
 
 * * *
 
-## Part C: Manuscript workshop 1: the Results section (45 minutes, 21:35)
+## Part C: Manuscript workshop 1: the Results section
 
-You write the **Results section** for your FLUID-ICU question, using only your results pack. Only the Results section is required. You may add other sections in the same file (`Manuscript_Brief.pdf`).
+**Task.** Write the **Results section** for your FLUID-ICU question, using only the results pack for that question. In class we first write the Results for Q1 together, block by block: for each block you write the sentences alone, then share them when the instructor asks. Then start the Results for your own question. Finish at home and hand it in (see "Deliverable" below). Only the Results section is required. You may add other sections in the same file (`Manuscript_Brief.pdf`).
 
 | Question | Topic | Results pack |
 |---|---|---|
@@ -114,15 +110,6 @@ You write the **Results section** for your FLUID-ICU question, using only your r
 | Q3 | Cumulative fluid balance and ventilator-free days | `Results_Pack_Q3.pdf` |
 | Q4 | Initial lactate and 28-day mortality, complete case vs multiple imputation | `Results_Pack_Q4.pdf` |
 | Q5 | Fluid balance and ICU length of stay among survivors | `Results_Pack_Q5.pdf` |
-
-### How the 45 minutes are used
-| Clock | Who | Task |
-|---|---|---|
-| 21:35–21:45 | Whole class, Q1 | Participants and the Table 1 sentence. You suggest sentences in the chat. The instructor types the best one |
-| 21:45–21:57 | Whole class, Q1 | Deaths per group, crude and adjusted OR with 95% CI |
-| 21:57–22:02 | Whole class, Q1 | Other analyses: Cox model and multiple imputation |
-| 22:02–22:05 | Whole class | A volunteer checks every number against the pack |
-| 22:05–22:20 | You | Start the Results for YOUR question, following the class draft |
 
 The class draft is sent as a PDF after the session. If you chose Q1, write it in your own words.
 

@@ -8,26 +8,30 @@ title: "Session 6: Exercise sheet"
 
 Name: ______________________________   Department: ______________________________
 
-Type your answers into this Word file or print the PDF. Exercises 4 and 8 are done in class for Q1. At the end of the session you choose your own question (Q1 to Q5). Then redo Exercises 4 and 8 for it, using its results pack: your answers become the core of your Results section. Exercise 9 completes Part 3 of your own proposal.
+Type your answers in the Word file, or print the PDF.
 
-| # | Exercise | When | Time |
-|---|---|---|---|
-| 1 | True or false: CIs, p-values and multiple tests | 6.1 / homework | 5 min |
-| 2 | Choose the test | 6.1 check / homework | 5 min |
-| 3 | Match r to the scatter plots | homework | 3 min |
-| 4 | [FLUID-ICU] Interpret the comparison | 6.2 whole-class task (Q1), then homework for your question | 7 min |
-| 5 | Read a regression table (another example) | homework (the 6.3 check uses the slide table) | 5 min |
-| 6 | Read a Kaplan–Meier curve | homework | 5 min |
-| 7 | Why is it missing? MCAR, MAR or MNAR | homework | 5 min |
-| 8 | [FLUID-ICU] Interpret the model | 6.4 whole-class task (Q1), then homework for your question | 7 min |
-| 9 | Proposal builder 6 worksheet (your own proposal) | proposal builder: instructor models, you draft; finish as homework | 30 min |
+| # | Exercise | When |
+|---|---|---|
+| 1 | True or false: CIs, p-values and multiple tests | Section 6.1, or at home |
+| 2 | Choose the test | Section 6.1, or at home |
+| 3 | Match r to the scatter plots | At home |
+| 4 | [FLUID-ICU] Interpret the comparison | Section 6.2 for Q1, then at home for your question |
+| 5 | Read a regression table | At home |
+| 6 | Read a Kaplan–Meier curve | At home |
+| 7 | Why is it missing? MCAR, MAR or MNAR | At home |
+| 8 | [FLUID-ICU] Interpret the model | Section 6.4 for Q1, then at home for your question |
+| 9 | Proposal builder 6: Part 3 of your own proposal | End of the session, finish at home |
+
+**Your FLUID-ICU question.** At the end of the session you choose one question (Q1 to Q5). Then do Exercises 4 and 8 again for it, using its results pack. Your answers become the core of your Results section.
+
+**Abbreviations:** CI = confidence interval, HR = hazard ratio, OR = odds ratio, SD = standard deviation, ICU = intensive care unit, SAP = statistical analysis plan.
 
 
 * * *
 
 ## Exercise 1: True or false: confidence intervals, p-values and multiple tests
 
-Circle **T** (true) or **F** (false). Be ready to explain each "false" in one sentence.
+**Task.** Circle **T** (true) or **F** (false) for each statement. For each F, be ready to say in one sentence why it is false.
 
 | # | Statement | |
 |---|---|:-:|
@@ -51,7 +55,9 @@ Circle **T** (true) or **F** (false). Be ready to explain each "false" in one se
 
 ## Exercise 2: Choose the test
 
-Use the decision table from the slides (first the outcome type, then the shape or counts, then paired or not). Write the test and one reason.
+**Task.** For each scenario, write the test you would use and one reason. Decide in three steps: the type of outcome (a number or a category), then its shape or the counts, then whether the same patients are measured twice (paired).
+
+> **Choose from:** t-test · paired t-test · Mann-Whitney U · Wilcoxon signed-rank · chi-square · Fisher's exact · McNemar
 
 | # | Scenario | Test | Why? |
 |---|---|---|---|
@@ -67,9 +73,11 @@ Use the decision table from the slides (first the outcome type, then the shape o
 
 ## Exercise 3: Match r to the scatter plots
 
+**Task.** Match each plot (A to D) to one correlation coefficient. Then answer the bonus question.
+
 ![Four scatter plots A to D](images/practicals/sat3/ex_match_r.png)
 
-Match each plot (A–D) to one correlation coefficient: **r = 0.86**, **r = 0.30**, **r = 0.01**, **r = −0.58**.
+> **Choose from:** r = 0.86 · r = 0.30 · r = 0.01 · r = −0.58
 
 | Plot | r |
 |---|---|
@@ -85,7 +93,7 @@ Bonus: a bedside glucose meter and the laboratory have r = 0.97 in 50 patients. 
 
 ## Exercise 4: [FLUID-ICU] Interpret the comparison (6.2)
 
-In class we do this together for Q1. Then complete it for your chosen question, using the comparison table in its results pack.
+**Task.** Fill in the table and write one Results sentence. In class, do it for Q1 with the comparison table in the Q1 results pack. At home, do it again for your chosen question with the comparison table in its results pack.
 
 | | Your answer |
 |---|---|
@@ -106,7 +114,9 @@ In class we do this together for Q1. Then complete it for your chosen question, 
 
 ## Exercise 5: Read a regression table (another example, homework)
 
-In class we read the running-example table on the slides. For extra practice: a (mock) cohort study of 600 adults admitted to a medical ICU asked which factors are associated with **hospital-acquired delirium** (yes/no) during the ICU stay.
+**Task.** Read the table and the authors' conclusion, then answer the seven questions.
+
+A (mock) cohort study of 600 adults admitted to a medical ICU asked which factors are associated with **hospital-acquired delirium** (yes/no) during the ICU stay.
 
 **Table 3. Multivariable logistic regression: factors associated with delirium**
 
@@ -123,8 +133,6 @@ In class we read the running-example table on the slides. For extra practice: a 
 
 **Authors' conclusion:** *"Benzodiazepines cause delirium in ICU patients. Mechanical ventilation showed a trend towards more delirium (p = 0.08). Our sleep protocol reduces delirium by 38%."*
 
-Questions:
-
 1. What type of outcome is this, and why was logistic regression used?
 2. What is the "no effect" value for the numbers in this table?
 3. For each row, does the 95% CI include the no-effect value? Mark ✔ (excludes) or ✖ (includes).
@@ -137,6 +145,8 @@ Questions:
 * * *
 
 ## Exercise 6: Read a Kaplan–Meier curve
+
+**Task.** Read the curve and answer the six questions.
 
 A (simulated) trial randomised 200 adults with septic shock to a restrictive fluid strategy or usual care and followed them for 28 days.
 
@@ -154,25 +164,25 @@ A (simulated) trial randomised 200 adults with septic shock to a restrictive flu
 
 ## Exercise 7: Why is it missing? MCAR, MAR or MNAR
 
-For each scenario, choose the most likely mechanism (**MCAR**, **MAR** or **MNAR**) and say what it means for a complete-case analysis.
+**Task.** For each scenario, write the most likely mechanism and what it means for a complete-case analysis (an analysis of only the patients with no missing values).
+
+> **Choose from:** MCAR (missing completely at random) · MAR (missing at random: depends on something recorded) · MNAR (missing not at random: depends on the missing value itself)
 
 | # | Scenario | Mechanism | Consequence for complete-case analysis |
 |---|---|---|---|
 | a | 12 blood samples for lactate were lost when a courier box was dropped. | | |
-| b | Weight is missing more often in patients admitted at night; admission time is recorded for everyone. | | |
+| b | Weight is missing more often in patients admitted at night. Admission time is recorded for everyone. | | |
 | c | Pain scores are missing for the patients in most pain, who could not complete the questionnaire. | | |
 | d | Day-28 status is missing for patients transferred to another hospital, often because they were deteriorating. | | |
 | e | A form version used in the first month did not include the "smoking" question. | | |
-| f | Older patients are less likely to return a quality-of-life questionnaire at 3 months; age is recorded for all. | | |
-
-*(Sensitivity analyses, which test whether missing data change the answer, are covered hands-on in Level 3, Module H.)*
+| f | Older patients are less likely to return a quality-of-life questionnaire at 3 months. Age is recorded for all. | | |
 
 
 * * *
 
 ## Exercise 8: [FLUID-ICU] Interpret the model: crude vs adjusted, complete case vs imputation (6.4)
 
-In class we do this together for Q1. Then complete it for your chosen question, using the regression table and the missing-data table in its results pack.
+**Task.** Fill in Parts A and B and write two Results sentences. In class, do Part A and the sentences for Q1 with the model table in the Q1 results pack. At home, do Parts A and B for your chosen question with the regression table and the missing-data table in its results pack. Part C is for Q1 only.
 
 **Part A: crude vs adjusted**
 
@@ -185,27 +195,27 @@ In class we do this together for Q1. Then complete it for your chosen question, 
 2. How much did the estimate move after adjustment, and in which direction? What does that tell you about confounding by indication?
 3. Does the adjusted 95% CI include the "no effect" value (1 for a ratio, 0 for a difference)?
 
-**Part B: complete case vs multiple imputation** (read the result from your pack)
+**Part B: complete case vs multiple imputation**
 
 4. How many patients were in the complete-case model, and how many in the multiple-imputation model? Who was left out of the complete-case analysis?
 5. Is the multiple-imputation estimate close to the complete-case estimate?
 
 **Part C (Q1 only): Kaplan–Meier and Cox**
 
-6. Survival at day 28 in each group; the log-rank p; the adjusted Cox HR with its 95% CI. Why do the logistic (p = 0.044) and Cox (p = 0.053) results tell the same story?
+6. Give the survival at day 28 in each group, the log-rank p, and the adjusted Cox HR with its 95% CI. Why do the logistic (p = 0.044) and Cox (p = 0.053) results tell the same story?
 
-**Your two Results sentences** (crude, then adjusted, with CIs; "associated with", not "caused"):
+**Your two Results sentences** (crude, then adjusted, with CIs, "associated with", not "caused"):
 
 > ______________________________________________________________________________
 
 
 * * *
 
-## Exercise 9: Proposal builder 6 worksheet (individual)
+## Exercise 9: Proposal builder 6 (your own proposal)
 
-Your **own** question again. The instructor models each part on the running example; you draft the sample-size inputs in class (8 minutes) and finish the rest as homework. Copy the answers into Part 3 of your proposal template (`Research_Proposal_Template.docx`, sent by email).
+**Task.** Draft Part 3 of your proposal for your own question: sample size, analysis plan, confounders and missing-data plan. First watch the instructor fill it in for the running example. In class, fill in 9.1 (10 minutes). Finish 9.2 to 9.4 at home, then copy your answers into Part 3 of the proposal template (`Research_Proposal_Template.docx`, sent by email).
 
-### 9.1 Sample-size statement (8 min)
+### 9.1 Sample-size statement
 
 | Input | Your value | Source (paper, audit, pilot, clinical judgement) |
 |---|---|---|
@@ -216,21 +226,21 @@ Your **own** question again. The instructor models each part on the running exam
 | Power | 80% / 90% | |
 | Expected drop-out | | |
 
-**Sentence** (use the spreadsheet `sample_size_calculator.xlsx`, sent by email, or email the instructor):
+**Sentence.** Find the number per group with the spreadsheet `sample_size_calculator.xlsx` (sent by email), then complete:
 
-> Assuming ______ in the control group and ______ in the intervention group, ______ patients per group give ____% power at a two-sided alpha of 5%; allowing ____% loss, we will recruit ______ patients in total.
+> Assuming ______ in the control group and ______ in the intervention group, ______ patients per group give ____% power at a two-sided alpha of 5%. Allowing ____% loss, we will recruit ______ patients in total.
 
-### 9.2 Plain-language analysis plan (10 min)
+### 9.2 Plain-language analysis plan
 
 | Step | What we will do |
 |---|---|
-| Describe the patients (Table 1) | Numerical symmetric variables as ______; skewed as ______; categories as ______ |
+| Describe the patients (Table 1) | Numerical symmetric variables as ______, skewed as ______, categories as ______ |
 | Compare the primary outcome | Test: ______ because the outcome is ______ |
 | Report the effect | Effect measure (difference / RR / OR / HR) with 95% CI: ______ |
 | Deal with confounding (observational designs only) | We will adjust for: ______ using ______ (e.g. logistic regression) |
 | Missing data | We will report how many values are missing for each variable and prevent it by: ______ |
 
-### 9.3 Confounders (5 min)
+### 9.3 Confounders
 
 | Confounder | Why it is a confounder (linked to exposure AND outcome, not caused by the exposure) |
 |---|---|
@@ -240,7 +250,7 @@ Your **own** question again. The instructor models each part on the running exam
 
 Expected number of events: ____  Maximum number of model terms (about 1 per 10 events): ____
 
-### 9.4 Missing-data plan (7 min)
+### 9.4 Missing-data plan
 
 | Question | Our answer |
 |---|---|

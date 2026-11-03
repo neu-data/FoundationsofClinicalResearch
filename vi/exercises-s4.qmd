@@ -10,28 +10,29 @@ Họ và tên: ______________________________   Khoa/Phòng: ___________________
 
 Gõ câu trả lời vào tệp Word, hoặc in bản PDF. Chuẩn bị sẵn bút, giấy và máy tính bỏ túi (hoặc điện thoại). Chỉ cần phép chia đơn giản.
 
-| Phần | Hoạt động | Khi nào | Cách làm |
-|---|---|---|---|
-| A | Phát hiện sai lệch (4 tình huống) | Cuối phần 4.1 (5 phút) | Cả lớp: bình chọn cho từng tình huống, một cách khắc phục gõ vào khung chat |
-| B | Nhiễu hay thay đổi tác động? (3 tình huống) | Bài về nhà (không bắt buộc) | Tự làm |
-| C | Hai phép tính bảng 2x2 | Sau giờ nghỉ (15 phút) | Cả lớp: bình chọn cho từng đáp án |
-| D | PPV ở hai bối cảnh | Bài về nhà (không bắt buộc) | Tự làm |
-| E | Đọc biểu đồ rừng và chọn công cụ đánh giá nguy cơ sai lệch | Cuối phần 4.3 (8 phút) | Cả lớp: bình chọn và khung chat |
-| F | Xây dựng đề cương 4: phơi nhiễm, kết cục và sai lệch | Cuối buổi (38 phút) và bài về nhà | Giảng viên làm mẫu trực tiếp, sau đó bạn viết bản nháp của mình |
+| Phần | Nhiệm vụ | Khi nào |
+|---|---|---|
+| A | Gọi tên sai lệch chính trong 4 tình huống, và một cách để giảm | Cuối phần 4.1 |
+| B | Nhiễu hay thay đổi tác động? (3 tình huống) | Ở nhà (không bắt buộc) |
+| C | Hai phép tính bảng 2x2 | Sau giờ nghỉ |
+| D | PPV ở hai bối cảnh | Ở nhà (không bắt buộc) |
+| E | Đọc biểu đồ rừng và chọn công cụ đánh giá nguy cơ sai lệch | Cuối phần 4.3 |
+| F | Xây dựng đề cương 4: viết nháp mục 2.4 đến 2.6 của đề cương | Cuối buổi, hoàn thành ở nhà |
+
+Phần C và E còn có **thực hành thêm** (tự học) cho sau buổi.
 
 **Câu hỏi xuyên suốt:** ở người lớn bị sốc nhiễm khuẩn, chiến lược hạn chế dịch, so với chăm sóc thường quy, có làm giảm tử vong 28 ngày không?
-**Hai bài báo** (tệp PDF gửi trước Buổi 1): Bài báo 1, Boulet 2024 (thử nghiệm ngẫu nhiên thí điểm về hạn chế dịch), Bài báo 2, Hyun 2023 (nghiên cứu thuần tập từ sổ đăng ký về cân bằng dịch và tử vong).
 
-**Từ khóa của buổi học:** sai lệch · nhiễu · thay đổi tác động (tương tác) · quan hệ nhân quả ngược · nguy cơ · nguy cơ tương đối (RR) · hiệu số nguy cơ (RD) · số người cần điều trị (NNT) · tỷ số chênh (OR) · độ nhạy · độ đặc hiệu · giá trị tiên đoán dương và âm (PPV, NPV) · đường cong ROC · biểu đồ rừng (forest plot) · I² (tính không đồng nhất) · công cụ đánh giá nguy cơ sai lệch.
-
-**Các chữ viết tắt khác trong phiếu:** ICU = khoa hồi sức tích cực, KTC = khoảng tin cậy (CI), RCT = thử nghiệm lâm sàng ngẫu nhiên có đối chứng.
+**Chữ viết tắt:** ICU = khoa hồi sức tích cực, KTC = khoảng tin cậy (CI), RCT = thử nghiệm lâm sàng ngẫu nhiên có đối chứng, RR = nguy cơ tương đối, RD = hiệu số nguy cơ, NNT = số người cần điều trị, OR = tỷ số chênh, PPV và NPV = giá trị tiên đoán dương và âm.
 
 
 * * *
 
 ## Phần A: Phát hiện sai lệch
 
-**Cách làm.** Giảng viên trình chiếu từng tình huống và mở bình chọn: **sai lệch chọn lựa**, **sai lệch nhớ lại**, **sai lệch người quan sát** hay **nhiễu**. Sau khi có kết quả, gõ **một cách thực tế** để giảm sai lệch đó vào khung chat.
+**Nhiệm vụ.** Với mỗi tình huống, ghi sai lệch chính (chọn trong danh sách) và một cách thực tế để giảm sai lệch đó. Bạn sẽ bình chọn sai lệch trong buổi học, nên hãy chuẩn bị sẵn câu trả lời.
+
+> **Chọn trong:** sai lệch chọn lựa · sai lệch nhớ lại · sai lệch người quan sát · nhiễu
 
 | # | Tình huống | Sai lệch chính | Một cách để giảm |
 |---|---|---|---|
@@ -45,7 +46,9 @@ Gõ câu trả lời vào tệp Word, hoặc in bản PDF. Chuẩn bị sẵn b�
 
 ## Phần B: Nhiễu hay thay đổi tác động? (bài về nhà, không bắt buộc)
 
-**Hướng dẫn.** Mỗi nghiên cứu chia kết quả theo một yếu tố thứ ba. So sánh các tầng **với nhau** và **với kết quả chung (thô)**. Quyết định: **nhiễu**, **thay đổi tác động (tương tác)** hay **không phải cả hai**. Sau đó nói tác giả nên báo cáo gì.
+**Nhiệm vụ.** Mỗi nghiên cứu chia kết quả theo một yếu tố thứ ba. So sánh các tầng **với nhau** và **với kết quả chung (thô)**. Ghi câu trả lời của bạn và điều tác giả nên báo cáo.
+
+> **Chọn trong:** nhiễu · thay đổi tác động (tương tác) · không phải cả hai
 
 > Quy tắc nhanh: các tầng giống nhau nhưng khác kết quả thô là nhiễu. Các tầng khác nhau là thay đổi tác động.
 
@@ -60,11 +63,10 @@ Gõ câu trả lời vào tệp Word, hoặc in bản PDF. Chuẩn bị sẵn b�
 
 ## Phần C: Hai phép tính bảng 2x2
 
-**Cách làm.** Vẽ từng bảng ra giấy trước. Sau đó giảng viên hỏi từng đáp án bằng bình chọn, kiểm tra trực tiếp bằng công cụ tính 2x2 trên màn hình chia sẻ, và một bạn tình nguyện nói kết quả bằng một câu đơn giản.
+**Nhiệm vụ.** Tự làm cả hai phép tính. Với mỗi phép tính, điền bảng 2x2, trả lời các câu hỏi và viết kết quả bằng **một câu** mà một đồng nghiệp chưa học nghiên cứu cũng hiểu. Chuẩn bị chia sẻ câu trả lời khi giảng viên mời.
 
-1. **Vẽ bảng 2x2 trước.** Phơi nhiễm (hoặc điều trị) theo **hàng**, nhóm phơi nhiễm hoặc được điều trị ở trên. Kết cục theo **cột**, "có kết cục" ở bên trái.
-2. Làm tròn đến hai chữ số thập phân.
-3. Nói kết quả bằng **một câu** mà một đồng nghiệp chưa học nghiên cứu cũng hiểu.
+- Vẽ bảng theo cách này: phơi nhiễm (hoặc điều trị) theo **hàng**, nhóm phơi nhiễm hoặc được điều trị ở trên. Kết cục theo **cột**, "có kết cục" ở bên trái.
+- Làm tròn đến hai chữ số thập phân.
 
 **Nhắc lại**
 
@@ -116,9 +118,9 @@ Một thử nghiệm phân bổ ngẫu nhiên 400 người lớn tại khoa nộ
 
 ## Phần D: PPV ở hai bối cảnh (bài về nhà, không bắt buộc)
 
-**Hướng dẫn.** Cùng một xét nghiệm có **độ nhạy 90%** và **độ đặc hiệu 80%**. Hoàn thành từng bảng cho 500 người, rồi tính PPV và NPV.
+**Nhiệm vụ.** Cùng một xét nghiệm có **độ nhạy 90%** và **độ đặc hiệu 80%**. Hoàn thành từng bảng cho 500 người, rồi tính PPV và NPV và trả lời các câu hỏi.
 
-> Số người mắc bệnh = tỷ lệ hiện mắc × 500. Dương tính thật (TP) = độ nhạy × số người mắc bệnh. Âm tính thật (TN) = độ đặc hiệu × số người không mắc bệnh. FP = dương tính giả; FN = âm tính giả.
+> Số người mắc bệnh = tỷ lệ hiện mắc × 500. Dương tính thật (TP) = độ nhạy × số người mắc bệnh. Âm tính thật (TN) = độ đặc hiệu × số người không mắc bệnh. FP = dương tính giả, FN = âm tính giả.
 
 **Bối cảnh 1: ICU, tỷ lệ hiện mắc 20%**
 
@@ -149,7 +151,7 @@ PPV = ______  NPV = ______
 
 ## Phần E: Đọc biểu đồ rừng và chọn công cụ đánh giá nguy cơ sai lệch
 
-**Cách làm.** Giảng viên trình chiếu biểu đồ trên màn hình chia sẻ và hỏi từng câu bằng bình chọn hoặc trong khung chat. Đây là biểu đồ trong phần 4.3 (sáu thử nghiệm giả định về hạn chế dịch so với thường quy, kết cục tử vong, gộp theo mô hình ảnh hưởng cố định).
+**Nhiệm vụ.** Tự làm. Trả lời câu 1 đến 3 về biểu đồ rừng, rồi chọn công cụ đánh giá nguy cơ sai lệch cho nghiên cứu a đến c. Chuẩn bị chia sẻ câu trả lời khi giảng viên mời. Đây là biểu đồ trong phần 4.3: sáu thử nghiệm giả định về hạn chế dịch so với thường quy, kết cục tử vong, gộp theo mô hình ảnh hưởng cố định.
 
 ![Biểu đồ rừng của sáu thử nghiệm giả định](images/practicals/sat2/forest_reading.png)
 
@@ -164,12 +166,14 @@ PPV = ______  NPV = ______
 
 **Đọc biểu đồ**
 
-1. (Bình chọn) Thử nghiệm nào có trọng số lớn nhất? Vì sao?  ______________________
-2. (Bình chọn) Có thử nghiệm đơn lẻ nào cho thấy tác động rõ ràng (KTC 95% không cắt qua 1) không?  ______________________
-3. (Khung chat) Hình thoi gộp có cắt qua RR = 1 không? Viết kết quả gộp bằng một câu đơn giản.  ______________________
+1. Thử nghiệm nào có trọng số lớn nhất? Vì sao?  ______________________
+2. Có thử nghiệm đơn lẻ nào cho thấy tác động rõ ràng (KTC 95% không cắt qua 1) không?  ______________________
+3. Hình thoi gộp có cắt qua RR = 1 không? Viết kết quả gộp bằng một câu đơn giản.  ______________________
 4. (Tự học) Thử nghiệm 3 chỉ theo hướng ngược lại (RR 1.14). Điều đó có đáng lo không? Vì sao?  ______________________
 
-**Chọn công cụ (bình chọn).** Với mỗi nghiên cứu, chọn: **RoB 2** (công cụ đánh giá nguy cơ sai lệch của Cochrane cho thử nghiệm ngẫu nhiên), **ROBINS-I** (nghiên cứu can thiệp không ngẫu nhiên), **thang Newcastle-Ottawa (hoặc ROBINS-E)** (nghiên cứu thuần tập hoặc bệnh–chứng về phơi nhiễm), **QUADAS-2** (nghiên cứu độ chính xác chẩn đoán) hoặc **AMSTAR 2** (tổng quan hệ thống).
+**Chọn công cụ.** Ghi một công cụ cho mỗi nghiên cứu.
+
+> **Chọn trong:** **RoB 2** (công cụ đánh giá nguy cơ sai lệch của Cochrane cho thử nghiệm ngẫu nhiên) · **ROBINS-I** (nghiên cứu can thiệp không ngẫu nhiên) · **thang Newcastle-Ottawa (hoặc ROBINS-E)** (nghiên cứu thuần tập hoặc bệnh–chứng về phơi nhiễm) · **QUADAS-2** (nghiên cứu độ chính xác chẩn đoán) · **AMSTAR 2** (tổng quan hệ thống)
 
 | # | Nghiên cứu | Công cụ |
 |---|---|---|
@@ -185,21 +189,15 @@ PPV = ______  NPV = ______
 
 ## Phần F: Xây dựng đề cương 4 (phơi nhiễm, kết cục và sai lệch)
 
-**Cách làm (38 phút).**
-
-1. **Xem (15 phút).** Giảng viên điền các dòng 4–6 dưới đây cho ví dụ xuyên suốt trên màn hình chia sẻ, vừa làm vừa nói ra suy nghĩ.
-2. **Viết nháp (16 phút).** Bạn điền các dòng tương tự cho câu hỏi của mình, làm yên lặng (không bắt buộc bật camera). Đặt câu hỏi trong khung chat.
-3. **Phản hồi (7 phút).** Ba bạn tình nguyện dán một sai lệch và cách khắc phục vào khung chat, giảng viên nhận xét.
-
-Sau đó hoàn thành ở nhà và chép câu trả lời vào mẫu đề cương (`Research_Proposal_Template_VN.docx`, Phần 2). Các dòng 1–3 (thiết kế, bối cảnh, đối tượng) đã viết nháp sau Buổi 3. Với mỗi kết cục, ghi rõ **cái gì**, **đo thế nào** và **khi nào**.
+**Nhiệm vụ.** Viết nháp mục 2.4 đến 2.6 của đề cương cho câu hỏi của bạn. Trước tiên xem giảng viên điền các mục này cho ví dụ xuyên suốt. Hoàn thành ở nhà, rồi chép câu trả lời vào Phần 2 của mẫu đề cương (`Research_Proposal_Template_VN.docx`). Mục 2.1 đến 2.3 (thiết kế, bối cảnh, đối tượng) đã viết nháp ở Buổi 3. Với mỗi kết cục, ghi rõ **cái gì**, **đo thế nào** và **khi nào**.
 
 **Câu hỏi nghiên cứu của tôi:** _______________________________________________
 
-| # | Mục | Cần viết gì | Câu trả lời của tôi |
-|---|---|---|---|
-| 4 | **Phơi nhiễm hoặc can thiệp** và **nhóm so sánh** | Chính xác phơi nhiễm hoặc can thiệp là gì, và được định nghĩa hoặc đo như thế nào? Nhóm so sánh là ai? | |
-| 5 | **Kết cục** | **MỘT kết cục chính**: là gì, đo thế nào và khi nào. **2–3 kết cục phụ.** | |
-| 6 | **Các sai lệch chính và cách giảm** | Nêu ít nhất **hai** mối đe dọa (chọn lựa, thông tin, nhiễu) và bước nào trong thiết kế giúp giảm từng mối đe dọa. | |
+| Mục | Cần viết gì | Câu trả lời của tôi |
+|---|---|---|
+| **2.4 Can thiệp hoặc phơi nhiễm, và nhóm so sánh** | Chính xác phơi nhiễm hoặc can thiệp là gì, và được định nghĩa hoặc đo như thế nào? Nhóm so sánh là ai? | |
+| **2.5 Kết cục** | **MỘT kết cục chính**: là gì, đo thế nào và khi nào. **2–3 kết cục phụ.** | |
+| **2.6 Các nguy cơ sai lệch chính và cách hạn chế** | Nêu ít nhất **hai** mối đe dọa (chọn lựa, thông tin, nhiễu) và bước nào trong thiết kế giúp giảm từng mối đe dọa. | |
 
 **Khẳng định cuối cùng của tôi sẽ là:** ☐ "gây ra" (thiết kế ngẫu nhiên) ☐ "có liên quan với" (thiết kế quan sát), vì ____________________
 
@@ -209,4 +207,4 @@ Sau đó hoàn thành ở nhà và chép câu trả lời vào mẫu đề cươ
 - [ ] Chỉ có MỘT kết cục chính, kèm phương pháp đo và thời điểm đo.
 - [ ] Nếu thiết kế là quan sát, tôi đã nêu các yếu tố gây nhiễu chính (nghĩ đến nhiễu do chỉ định).
 - [ ] Mỗi sai lệch có một bước giảm thiểu cụ thể ("chúng tôi sẽ cẩn thận" không phải là bước giảm thiểu).
-- [ ] Phần 2 đã hoàn chỉnh: thiết kế, bối cảnh, đối tượng (Buổi 3) + phơi nhiễm, nhóm so sánh, kết cục, sai lệch (hôm nay).
+- [ ] Phần 2 đã hoàn chỉnh: mục 2.1 đến 2.3 (Buổi 3) và 2.4 đến 2.6 (hôm nay).

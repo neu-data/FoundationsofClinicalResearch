@@ -8,25 +8,27 @@ title: "Buổi 5: Phiếu bài tập"
 
 Họ và tên: ______________________________   Khoa/Phòng: ______________________________
 
-Gõ câu trả lời vào tệp Word này hoặc in bản PDF. Bài tập 2, 6 và 7 làm trên lớp. Các bài **[FLUID-ICU]** dùng năm gói kết quả (`Results_Pack_Q1_VN.pdf` đến `Results_Pack_Q5_VN.pdf`, gửi qua email). Bài tập 8 là Phần 3 đề cương của riêng bạn.
+Gõ câu trả lời vào tệp Word, hoặc in bản PDF. Các bài có dấu **[FLUID-ICU]** dùng bộ dữ liệu của khóa học và năm gói kết quả (`Results_Pack_Q1_VN.pdf` đến `Results_Pack_Q5_VN.pdf`, gửi qua email). FLUID-ICU là dữ liệu mô phỏng.
 
-| # | Bài tập | Khi nào | Thời gian |
-|---|---|---|---|
-| 1 | Phân loại biến số | bài về nhà / tự kiểm tra (sau câu hỏi nhanh phần 5.1) | 5 phút |
-| 2 | Sửa các mục CRF viết chưa tốt | phần 5.1, cả lớp cùng làm | 7 phút |
-| 3 | Chọn cách tóm tắt phù hợp | kiểm tra nhanh phần 5.3 / bài về nhà | 3 phút |
-| 4 | Đánh giá một biểu đồ chưa tốt | bài về nhà | 5 phút |
-| 5 | [FLUID-ICU] Tìm lỗi trong dữ liệu thô FLUID-ICU | bài về nhà (sau phần trình diễn 5.2) | 5 phút |
-| 6 | [FLUID-ICU] Đọc Bảng 1 của FLUID-ICU | phần 5.4, cả lớp cùng làm | 10 phút |
-| 7 | [FLUID-ICU] Một câu hỏi FLUID-ICU dưới dạng câu PECO | phần 5.2, cả lớp cùng làm (Q1) | 4 phút |
-| 8 | Phiếu Xây dựng đề cương 5 (đề cương của riêng bạn) | xây dựng đề cương: giảng viên làm mẫu, bạn viết nháp; hoàn thành ở nhà | 30 phút |
+| # | Bài tập | Khi nào |
+|---|---|---|
+| 1 | Phân loại biến số | Ở nhà |
+| 2 | Sửa các mục CRF viết chưa tốt | Trên lớp, phần 5.1 |
+| 3 | Chọn cách tóm tắt phù hợp | Ở nhà |
+| 4 | Đánh giá một biểu đồ chưa tốt | Ở nhà |
+| 5 | [FLUID-ICU] Tìm lỗi trong dữ liệu thô | Ở nhà |
+| 6 | [FLUID-ICU] Đọc Bảng 1 của FLUID-ICU | Trên lớp, phần 5.4 |
+| 7 | [FLUID-ICU] Một câu hỏi FLUID-ICU dưới dạng câu PECO | Trên lớp, phần 5.2 |
+| 8 | Xây dựng đề cương 5: dữ liệu cho đề cương của bạn | Trên lớp (8.1), rồi ở nhà |
+
+**Chữ viết tắt:** CRF = phiếu thu thập dữ liệu, ICU = khoa hồi sức tích cực, IQR = khoảng tứ phân vị, SD = độ lệch chuẩn.
 
 
 * * *
 
 ## Bài tập 1: Phân loại biến số
 
-Với mỗi biến số, đánh dấu **một** loại.
+**Nhiệm vụ.** Với mỗi biến số, đánh dấu **một** loại. Sau đó trả lời câu hỏi thêm.
 
 | # | Biến số (nghiên cứu ICU về sốc nhiễm khuẩn) | Liên tục | Đếm | Nhị phân | Định danh | Thứ hạng | Thời gian đến biến cố |
 |---|---|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -48,7 +50,9 @@ Với mỗi biến số, đánh dấu **một** loại.
 
 ## Bài tập 2: Sửa các mục CRF viết chưa tốt
 
-Trong lớp, giảng viên trình chiếu từng mục trên màn hình chia sẻ; bạn gõ phiên bản viết lại vào khung chat. Mỗi mục dưới đây có thể được hai điều dưỡng điền theo hai cách khác nhau. Hãy viết lại để mục đó **chỉ có một cách hiểu**. Tự kiểm tra: có đơn vị? có thời điểm? chỉ một câu trả lời? có lựa chọn "không rõ / không làm"?
+**Nhiệm vụ.** Mỗi mục dưới đây có thể được hai điều dưỡng điền theo hai cách khác nhau. Với mỗi mục, ghi lỗi ở đâu, rồi viết lại để mục đó **chỉ có một cách hiểu**. Chuẩn bị đọc to một mục đã viết lại khi giảng viên mời.
+
+Kiểm tra từng mục viết lại: Câu hỏi có đơn vị không? Có thời điểm không? Chỉ có một câu trả lời? Có lựa chọn "không rõ / không làm"?
 
 | # | Mục chưa tốt | Sai ở đâu? | Mục bạn viết lại |
 |---|---|---|---|
@@ -62,7 +66,9 @@ Trong lớp, giảng viên trình chiếu từng mục trên màn hình chia s�
 
 ## Bài tập 3: Chọn cách tóm tắt phù hợp
 
-Với mỗi biến số, chọn cách tóm tắt bạn sẽ báo cáo trong Bảng 1 và loại biểu đồ tốt nhất.
+**Nhiệm vụ.** Với mỗi biến số, ghi hình dạng hoặc loại biến, cách tóm tắt bạn sẽ báo cáo trong Bảng 1, và loại biểu đồ tốt nhất.
+
+> **Chọn trong:** hình dạng hoặc loại: đối xứng · lệch phải · nhị phân · định danh. Cách tóm tắt: trung bình (SD) · trung vị (IQR) · n (%). Biểu đồ: biểu đồ cột · biểu đồ tần suất · biểu đồ hộp · biểu đồ phân tán
 
 | # | Biến số (200 người bệnh ICU) | Hình dạng / loại | Cách tóm tắt | Biểu đồ |
 |---|---|---|---|---|
@@ -78,25 +84,30 @@ Với mỗi biến số, chọn cách tóm tắt bạn sẽ báo cáo trong Bả
 
 ## Bài tập 4: Đánh giá một biểu đồ chưa tốt
 
+**Nhiệm vụ.** Xem ba poster mô tả dưới đây và trả lời câu 1 đến 5.
+
 Một poster ở hành lang bệnh viện có biểu đồ này (cân bằng dịch ở ngày 5, mỗi nhóm 24 người bệnh):
 
 ![Biểu đồ cột kèm thanh sai số](images/practicals/sat3/dynamite_bad.png)
 
 1. Mỗi cột thể hiện gì, và thanh sai số thể hiện gì? Còn thiếu gì?
 2. Nêu **hai điều người đọc không thể thấy** trong biểu đồ này.
-3. Vẽ lại (phác thảo) theo cách bạn sẽ trình bày trong một bài báo. Bạn được thêm gì?
+3. Phác thảo cách bạn sẽ trình bày cùng dữ liệu này trong một bài báo. Bạn được thêm gì?
 
 Poster thứ hai trình bày tử vong theo khoa bằng hai cột 31% (Khoa A) và 29% (Khoa B), với trục y chạy từ 28% đến 32%.
 
 4. Biểu đồ tạo ấn tượng gì, và bạn sẽ sửa thế nào?
-5. Poster thứ ba vẽ tỷ lệ tuân thủ vệ sinh tay (%) và tỷ lệ nhiễm khuẩn trên cùng một biểu đồ với hai trục y khác nhau, và viết "vệ sinh tay có hiệu quả!". Nêu hai lý do cần thận trọng.
+
+Poster thứ ba vẽ tỷ lệ tuân thủ vệ sinh tay (%) và tỷ lệ nhiễm khuẩn trên cùng một biểu đồ với hai trục y khác nhau, và viết "vệ sinh tay có hiệu quả!".
+
+5. Nêu hai lý do cần thận trọng.
 
 
 * * *
 
 ## Bài tập 5: [FLUID-ICU] Tìm lỗi trong dữ liệu thô FLUID-ICU
 
-Dưới đây là sáu ô được sao chép từ tệp thô `fluid_icu_raw.csv` (đúng như bốn ICU gửi về). Với mỗi ô, hãy nói sai ở đâu và script làm sạch nên làm gì.
+**Nhiệm vụ.** Sáu giá trị dưới đây lấy từ tệp thô `fluid_icu_raw.csv`, đúng như bốn ICU gửi về. Với mỗi giá trị, ghi sai ở đâu và script làm sạch nên làm gì. Sau đó trả lời câu hỏi thêm.
 
 | # | Cột | Giá trị trong tệp thô | Sai ở đâu? | Script nên làm gì? |
 |---|---|---|---|---|
@@ -107,14 +118,14 @@ Dưới đây là sáu ô được sao chép từ tệp thô `fluid_icu_raw.csv`
 | e | age | `210` | | |
 | f | mã người bệnh | `FLU-139` xuất hiện ở hai dòng giống hệt nhau | | |
 
-Câu hỏi thêm: vì sao không bao giờ được sửa tệp thô bằng tay? Nêu hai thông tin mà nhật ký làm sạch dữ liệu ghi lại cho mỗi thay đổi.
+**Câu hỏi thêm:** vì sao không bao giờ được sửa tệp thô bằng tay? Nêu hai thông tin mà nhật ký làm sạch dữ liệu ghi lại cho mỗi thay đổi.
 
 
 * * *
 
-## Bài tập 6: [FLUID-ICU] Đọc Bảng 1 của FLUID-ICU (gói kết quả phân tích)
+## Bài tập 6: [FLUID-ICU] Đọc Bảng 1 của FLUID-ICU
 
-Mở Bảng 1 (đặc điểm nền theo nhóm cân bằng dịch) trong bất kỳ gói kết quả nào: cả năm gói đều có cùng bảng này. Trên lớp, cả lớp cùng trả lời câu 1 đến 5; câu 6 dành cho bạn.
+**Nhiệm vụ.** Mở Bảng 1 (đặc điểm nền theo nhóm cân bằng dịch) trong gói kết quả bất kỳ. Cả năm gói đều có cùng bảng này. Tự trả lời câu 1 đến 5, cuối cùng là hai câu Kết quả của bạn, và chuẩn bị chia sẻ khi giảng viên mời. Câu 6 làm sau buổi học.
 
 1. Mỗi cột có bao nhiêu người bệnh? Vì sao tổng số là 618 mà không phải 620?
 2. Với **ba** biến số, ghi cách tóm tắt đã dùng (trung bình (SD), trung vị (IQR) hoặc n (%)) và vì sao.
@@ -136,13 +147,15 @@ Mở Bảng 1 (đặc điểm nền theo nhóm cân bằng dịch) trong bất k
 
 * * *
 
-## Bài tập 7: [FLUID-ICU] Một câu hỏi FLUID-ICU dưới dạng câu PECO (5.2)
+## Bài tập 7: [FLUID-ICU] Một câu hỏi FLUID-ICU dưới dạng câu PECO
 
-Trên lớp, cả lớp cùng điền bảng này cho Câu hỏi 1 (Q1). Khi bạn chọn câu hỏi của mình vào cuối Buổi 6, hãy điền lại cho câu hỏi đó. PECO: P = đối tượng, E = phơi nhiễm, C = so sánh, O = kết cục.
+**Nhiệm vụ.** Điền bảng này cho Câu hỏi 1 (Q1), dựa vào trang 1 của gói kết quả. Chuẩn bị đọc to câu của bạn khi giảng viên mời. Vào cuối Buổi 6 bạn chọn một trong năm câu hỏi: khi đó hãy điền lại bảng cho câu hỏi đó.
+
+PECO: P = đối tượng, E = phơi nhiễm, C = so sánh, O = kết cục.
 
 | | Câu trả lời của bạn |
 |---|---|
-| Câu hỏi bạn chọn (Q1 đến Q5), chép từ trang 1 của gói kết quả | |
+| Câu hỏi (Q1 đến Q5), chép từ trang 1 của gói kết quả | |
 | **P**: đối tượng | |
 | **E**: phơi nhiễm (tên biến trong từ điển dữ liệu) và loại biến | |
 | **C**: nhóm so sánh | |
@@ -153,11 +166,11 @@ Trên lớp, cả lớp cùng điền bảng này cho Câu hỏi 1 (Q1). Khi b�
 
 * * *
 
-## Bài tập 8: Phiếu Xây dựng đề cương 5 (cá nhân)
+## Bài tập 8: Phiếu Xây dựng đề cương 5
 
-Giảng viên làm mẫu từng phần với ví dụ xuyên suốt; sau đó bạn viết nháp bảng biến số trong lớp (8 phút) và hoàn thành phần còn lại ở nhà. Viết câu trả lời ở đây trước, rồi chép vào Phần 3 trong mẫu đề cương của riêng bạn (`Research_Proposal_Template_VN.docx`, gửi qua email). (Dùng câu hỏi **của riêng bạn**, không dùng bộ dữ liệu của khóa học.)
+**Nhiệm vụ.** Lập kế hoạch dữ liệu cho câu hỏi nghiên cứu **của riêng bạn**, không phải cho FLUID-ICU. Trước tiên xem giảng viên điền từng phần cho ví dụ xuyên suốt. Trên lớp, viết nháp bảng biến số (8.1, 10 phút). Ở nhà, hoàn thành 8.2 đến 8.4. Sau đó chép tất cả vào Phần 3 trong mẫu đề cương của bạn (`Research_Proposal_Template_VN.docx`, gửi qua email).
 
-### 8.1 Bảng biến số (8 phút)
+### 8.1 Bảng biến số (trên lớp)
 
 | Vai trò | Biến số | Cách đo (đơn vị, thời điểm) | Loại |
 |---|---|---|---|
@@ -169,9 +182,9 @@ Giảng viên làm mẫu từng phần với ví dụ xuyên suốt; sau đó b�
 | Yếu tố gây nhiễu 3 | | | |
 | Mô tả (ví dụ tuổi, giới) | | | |
 
-*Gợi ý: nếu thiết kế của bạn là RCT, yếu tố gây nhiễu ít là vấn đề hơn (nhờ phân bổ ngẫu nhiên), nhưng hãy liệt kê các biến nền chính bạn sẽ trình bày trong Bảng 1.*
+*Gợi ý: trong RCT, phân bổ ngẫu nhiên xử lý phần lớn yếu tố gây nhiễu. Thay vào đó, hãy liệt kê các biến nền chính bạn sẽ trình bày trong Bảng 1.*
 
-### 8.2 CRF thu nhỏ: 6–10 mục (10 phút)
+### 8.2 CRF thu nhỏ: 6–10 mục
 
 | # | Câu hỏi đúng như người thu thập dữ liệu sẽ đọc | Cách trả lời (ô số / ô đánh dấu / đơn vị) | Có lựa chọn "không rõ / không làm"? |
 |---|---|---|:-:|
@@ -184,7 +197,7 @@ Giảng viên làm mẫu từng phần với ví dụ xuyên suốt; sau đó b�
 | 7 | | | ☐ |
 | 8 | | | ☐ |
 
-### 8.3 Từ điển dữ liệu: 3–5 dòng + một quy tắc chất lượng dữ liệu (6 phút)
+### 8.3 Từ điển dữ liệu: 3–5 dòng và một kế hoạch chất lượng dữ liệu
 
 | Tên biến | Nhãn (ý nghĩa) | Loại | Đơn vị / mã | Giá trị cho phép |
 |---|---|---|---|---|
@@ -192,13 +205,13 @@ Giảng viên làm mẫu từng phần với ví dụ xuyên suốt; sau đó b�
 | | | | | |
 | | | | | |
 
-**Kế hoạch chất lượng dữ liệu (một hoặc hai câu):** ai kiểm tra phiếu, bao lâu một lần, và bạn sẽ chạy kiểm tra khoảng giá trị / tính nhất quán nào.
+**Kế hoạch chất lượng dữ liệu (một hoặc hai câu):** ai kiểm tra phiếu, bao lâu một lần, và bạn sẽ chạy kiểm tra khoảng giá trị hoặc tính nhất quán nào.
 
 > ______________________________________________________________________________
 
-### 8.4 Kế hoạch quản lý dữ liệu (6 phút)
+### 8.4 Kế hoạch quản lý dữ liệu
 
-| Câu hỏi | Câu trả lời của chúng tôi |
+| Câu hỏi | Câu trả lời của bạn |
 |---|---|
 | CRF giấy với nhập liệu kép, hay thu thập dữ liệu điện tử (ví dụ REDCap / KoBoToolbox)? | |
 | Mã nghiên cứu cho từng người bệnh? Danh sách liên kết mã được lưu ở đâu, và ai được mở? | |
