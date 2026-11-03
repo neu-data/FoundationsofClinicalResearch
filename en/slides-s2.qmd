@@ -312,7 +312,7 @@ Timing: 2 minutes.
 ::: {.notes}
 Show the three routes briefly. The demo uses route 2. Check the heading's definition before using it.
 
-Not every PubMed record has MeSH terms: new papers are not indexed yet, and papers in journals outside MEDLINE are never indexed. An example with MeSH: PMID 30664905.
+Not every PubMed record has MeSH terms: new papers are not indexed yet, and papers in journals outside MEDLINE are never indexed. An example with MeSH: search for “Pressure ulcers” in PubMed and open the first paper.
 
 Search details: run a search, click Advanced, open History and Search Details, then click Details: PubMed has mapped your words to MeSH.
 
@@ -518,15 +518,12 @@ INDIVIDUAL TASK · 5 min
 :::
 
 ::: {.neu-activity-steps style="--c:#0B376C"}
-- Take your own PICO question and your synonym list (Session 1 homework)
-- Exercise 1: write 2-4 synonyms for P, for I (or E) and for O
-- Join synonyms with OR in brackets, and the blocks with AND
-- Check which words are MeSH terms: MeSH Database or a known paper
-- We call on 2-3 people to read their string aloud, microphone on
+- Exercise sheet, Exercise 1: a search string for your own PICO question
+- Synonyms joined with OR in brackets, blocks joined with AND
 :::
 
 ::: {.neu-output style="--c:#0B376C"}
-**OUTPUT** One search string for your own question, ready to run in PubMed later today
+**OUTPUT** Work alone (5 min): write your search string, and be ready to read it out
 :::
 
 ::: {.notes}
@@ -588,7 +585,7 @@ Keep every reference you find, and use other people's work honestly.
 ::::
 
 ::: {.neu-takeaway}
-**KEY MESSAGE** A reference manager prevents the commonest error in proposals: wrong references.
+**KEY MESSAGE** Save each paper as you find it: the software builds the reference list, in any style.
 :::
 
 ::: {.notes}
@@ -600,25 +597,25 @@ Timing: 2 minutes.
 ## Citation styles: same paper, two looks
 
 ::: {.neu-intro}
-Use the style your target journal asks for. The reference manager switches in one click.
+The same paper in two styles built into Zotero. Use the style your target journal asks for.
 :::
 
 :::: {.neu-cards style="--n:2"}
 ::: {.neu-card .plain style="--c:#0D7377"}
-[Vancouver]{.neu-card-title}
+[NLM/Vancouver]{.neu-card-title}
 
-- Restricting IV fluid did not change 90-day mortality \[1\].
+- Restricting IV fluid did not change 90-day mortality (1).
 - **Reference list:**
-- Author AA, Author BB, et al. Title. J Abbrev. Year;Vol(Issue):pages.
-- [Numbered in the order cited. Used by most medical journals.]{style="color:#595959"}
+- Meyhoff TS, Hjortrup PB, Wetterslev J, Sivapalan P, Laake JH, Cronhjort M, et al. Restriction of Intravenous Fluid in ICU Patients with Septic Shock. N Engl J Med. 2022 Jun 30;386(26):2459–70. doi:10.1056/NEJMoa2202707 PubMed PMID: 35709019.
+- [Numbered in the order cited. Most medical journals use a numbered style.]{style="color:#595959"}
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
-[APA]{.neu-card-title}
+[APA 7th edition]{.neu-card-title}
 
 - Restricting IV fluid did not change 90-day mortality (Meyhoff et al., 2022).
 - **Reference list:**
-- Author, A. A., & Author, B. B. (Year). Title. Journal, Vol(Issue), pages.
-- [Author and year in the text. Common in nursing and social science.]{style="color:#595959"}
+- Meyhoff, T. S., Hjortrup, P. B., Wetterslev, J., … Perner, A. (2022). Restriction of Intravenous Fluid in ICU Patients with Septic Shock. The New England Journal of Medicine, 386(26), 2459–2470. https://doi.org/10.1056/NEJMoa2202707
+- [Author and year in the text, list in alphabetical order. Shortened here: APA lists the first 19 authors, …, then the last.]{style="color:#595959"}
 :::
 ::::
 
@@ -629,7 +626,11 @@ Use the style your target journal asks for. The reference manager switches in on
 ::: {.notes}
 Every journal states its style in the guide for authors. Cite the original study for facts, not a review that quotes it.
 
-Ask: 'Which style uses \[1\]?' Expected: Vancouver.
+Both examples are Zotero's own output for CLASSIC. Zotero names the styles 'NLM/Vancouver: Citing Medicine 2nd edition (citation-sequence)' and 'APA Style 7th edition'.
+
+Journals use their own variants of a numbered style, e.g. \[1\] or a superscript: always follow the journal's guide for authors.
+
+Ask: 'Which style numbers the citations (1)?' Expected: NLM/Vancouver.
 
 Timing: 2 minutes.
 :::
@@ -647,7 +648,7 @@ LIVE DEMO · 5 min
 - Check the entry: authors, title, journal, year, DOI, nothing typed by hand
 - In Word, Zotero tab: 'Add/Edit Citation', then type Meyhoff (first author of CLASSIC)
 - Click 'Add/Edit Bibliography': the reference list appears
-- Click 'Document Preferences': switch NLM/Vancouver to APA and back
+- Click 'Document Preferences': switch 'NLM/Vancouver: Citing Medicine 2nd edition (citation-sequence)' to 'APA Style 7th edition' and back
 :::
 :::
 ::: {.column width="40%"}
@@ -669,7 +670,7 @@ Script: s2\_demo.md, Part B. People repeat each step on their own computer. If Z
 
 If Zotero fails for you, show the screenshots.
 
-Zotero has no style called 'Vancouver'. The built-in one is 'NLM/Vancouver (Citing Medicine 2nd edition)', which numbers citations (1).
+In Zotero the numbered style is 'NLM/Vancouver: Citing Medicine 2nd edition (citation-sequence)', which numbers citations (1). The APA result for CLASSIC and Paper 2: Course/Demos/s2-demo-zotero.docx.
 
 Timing: 5 minutes.
 :::
@@ -695,7 +696,7 @@ Method: read, close the paper, write from memory, check facts, cite.
 ::: {.neu-card .plain style="--c:#2E8B57"}
 [Own words + citation]{.neu-card-title}
 
-- "A pilot trial in 48 patients found that limiting maintenance and drug-dilution fluids did not significantly change fluid balance after five days \[1\]."
+- "A pilot trial in 48 patients found that limiting maintenance and drug-dilution fluids did not significantly change fluid balance after five days (1)."
 - **[New structure, adds context, cited]{style="color:#2E8B57"}**
 :::
 ::::
@@ -756,8 +757,8 @@ QUICK QUIZ · 2 min
 :::
 
 ::: {.neu-activity-steps style="--c:#6C3483"}
-- You copy a sentence from an abstract, change two words and add \[3\]
-- You quote one sentence word for word, in quotation marks, with \[3\]
+- You copy a sentence from an abstract, change two words and add (3)
+- You quote one sentence word for word, in quotation marks, with (3)
 - You write a finding in your own words but forget the citation
 - You cite a paper you found quoted in a review, without reading it
 :::
@@ -1013,12 +1014,8 @@ INDIVIDUAL TASK · 12 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0B376C"}
-- Open Paper 1 (Boulet 2024, Crit Care): the abstract is on page 1
-- Fill the reading grid (Exercise 3): design, P, I vs C
-- Primary outcome, numbers screened and analysed
-- Main result with its 95% CI and p-value
-- Does the conclusion match the result? Any spin?
-- Type your primary outcome and main result in the chat
+- Exercise sheet, Exercise 3: the abstract of Paper 1 (Boulet 2024, page 1)
+- Design, PICO, primary outcome, main result, and any spin
 :::
 :::
 ::: {.column width="40%"}
@@ -1032,7 +1029,7 @@ Clock
 ::::
 
 ::: {.neu-output style="--c:#0B376C"}
-**OUTPUT** A completed abstract reading grid
+**OUTPUT** Work alone (8 min): fill in the reading grid, then type your primary outcome and main result in the chat
 :::
 
 ::: {.notes}
@@ -1113,7 +1110,7 @@ Timing: 3 minutes.
 
 
 ```{=html}
-<div style="position:relative;width:100%;aspect-ratio:12.3/4.2;container-type:inline-size;margin:0.2em auto;font-family:Arial,sans-serif;line-height:1.1"><div style="position:absolute;left:0.000%;top:0.000%;width:65.041%;height:26.190%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#5FA39B;border-radius:1.341cqw"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">What is known</div><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;margin-top:calc(3 * 0.11292cqw)">The problem and current practice, with references</div></div><svg viewBox="0 0 1230 420" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm8A99A341" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A99A3"/></marker></defs><line x1="400.0" y1="113.0" x2="400.0" y2="142.0" marker-end="url(#dgm8A99A341)" stroke="#8A99A3" stroke-width="4.17" stroke-linecap="round"/></svg><div style="position:absolute;left:5.285%;top:34.524%;width:54.472%;height:26.190%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0070C0;border-radius:1.341cqw"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">What is not known</div><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;margin-top:calc(3 * 0.11292cqw)">The gap: studies disagree, are too small or did not measure it</div></div><svg viewBox="0 0 1230 420" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm8A99A341" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A99A3"/></marker></defs><line x1="400.0" y1="258.0" x2="400.0" y2="287.0" marker-end="url(#dgm8A99A341)" stroke="#8A99A3" stroke-width="4.17" stroke-linecap="round"/></svg><div style="position:absolute;left:10.569%;top:69.048%;width:43.902%;height:26.190%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#055F56;border-radius:1.341cqw"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">Question and objectives</div><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;margin-top:calc(3 * 0.11292cqw)">Your PICO question, aim and objectives</div></div><div style="position:absolute;left:70.732%;top:0.000%;width:29.268%;height:45.238%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(8.6 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:1.236cqw"><div style="font-size:calc(16 * 0.11292cqw);color:#055F56;font-weight:700">Introduction</div><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">3 short paragraphs</div><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">About 300 words</div><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">A reference for every fact</div></div><div style="position:absolute;left:70.732%;top:51.190%;width:29.268%;height:48.810%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(8.6 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#FFFFFF;border:calc(2 * 0.11292cqw) solid #D9822B;border-radius:1.333cqw"><div style="font-size:calc(16 * 0.11292cqw);color:#D9822B;font-weight:700">Not in the Introduction</div><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">Your own data or results</div><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">Local figures only if they are published, with a reference</div></div></div>
+<div style="position:relative;width:100%;aspect-ratio:12.3/4.2;container-type:inline-size;margin:0.2em auto;font-family:Arial,sans-serif;line-height:1.1"><div style="position:absolute;left:0.000%;top:0.000%;width:65.041%;height:26.190%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#5FA39B;border-radius:1.341cqw"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">What is known</div><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;margin-top:calc(3 * 0.11292cqw)">The problem and current practice, with references</div></div><svg viewBox="0 0 1230 420" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm8A99A341" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A99A3"/></marker></defs><line x1="400.0" y1="113.0" x2="400.0" y2="142.0" marker-end="url(#dgm8A99A341)" stroke="#8A99A3" stroke-width="4.17" stroke-linecap="round"/></svg><div style="position:absolute;left:5.285%;top:34.524%;width:54.472%;height:26.190%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0070C0;border-radius:1.341cqw"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">What is not known</div><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;margin-top:calc(3 * 0.11292cqw)">The gap: studies disagree, are too small or did not measure it</div></div><svg viewBox="0 0 1230 420" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm8A99A341" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A99A3"/></marker></defs><line x1="400.0" y1="258.0" x2="400.0" y2="287.0" marker-end="url(#dgm8A99A341)" stroke="#8A99A3" stroke-width="4.17" stroke-linecap="round"/></svg><div style="position:absolute;left:10.569%;top:69.048%;width:43.902%;height:26.190%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#055F56;border-radius:1.341cqw"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">Aim and objectives</div><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;margin-top:calc(3 * 0.11292cqw)">What your study will do, and its objectives</div></div><div style="position:absolute;left:70.732%;top:0.000%;width:29.268%;height:45.238%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(8.6 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:1.236cqw"><div style="font-size:calc(16 * 0.11292cqw);color:#055F56;font-weight:700">Introduction</div><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">3 short paragraphs</div><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">About 300 words</div><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">A reference for every fact</div></div><div style="position:absolute;left:70.732%;top:51.190%;width:29.268%;height:48.810%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(8.6 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#FFFFFF;border:calc(2 * 0.11292cqw) solid #D9822B;border-radius:1.333cqw"><div style="font-size:calc(16 * 0.11292cqw);color:#D9822B;font-weight:700">Not in the Introduction</div><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">Your own data or results</div><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">Local figures only if they are published, with a reference</div></div></div>
 ```
 
 ::: {.neu-takeaway}
@@ -1132,7 +1129,7 @@ Timing: 3 minutes.
 
 
 ```{=html}
-<div style="position:relative;width:100%;aspect-ratio:12.3/4.2;container-type:inline-size;margin:0.2em auto;font-family:Arial,sans-serif;line-height:1.1"><div style="position:absolute;left:0.000%;top:0.000%;width:21.951%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#5FA39B;border-radius:1.220cqw"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">1</div><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700;margin-top:calc(1 * 0.11292cqw)">What is known</div></div><div style="position:absolute;left:23.171%;top:0.000%;width:76.829%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(10.1 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.813cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Septic shock is a leading cause of death in the ICU. Early fluids restore perfusion, but continued fluids often cause a positive fluid balance, which cohort studies link to higher mortality [2].</div></div><div style="position:absolute;left:0.000%;top:34.524%;width:21.951%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0070C0;border-radius:1.220cqw"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">2</div><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700;margin-top:calc(1 * 0.11292cqw)">What is not known</div></div><div style="position:absolute;left:23.171%;top:34.524%;width:76.829%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(10.1 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.813cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Large trials of restrictive fluids found no difference in mortality [3, 4], and a pilot trial targeting hidden fluids did not significantly reduce fluid balance [1]. Whether restriction reliably reduces fluid balance is still unclear.</div></div><div style="position:absolute;left:0.000%;top:69.048%;width:21.951%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#055F56;border-radius:1.220cqw"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">3</div><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700;margin-top:calc(1 * 0.11292cqw)">Question and objectives</div></div><div style="position:absolute;left:23.171%;top:69.048%;width:76.829%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(10.1 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.813cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">We therefore ask whether, in adults with septic shock, a restrictive fluid protocol reduces fluid balance at day 5 compared with usual care. Primary objective: to compare day-5 fluid balance between the groups.</div></div></div>
+<div style="position:relative;width:100%;aspect-ratio:12.3/4.2;container-type:inline-size;margin:0.2em auto;font-family:Arial,sans-serif;line-height:1.1"><div style="position:absolute;left:0.000%;top:0.000%;width:21.951%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#5FA39B;border-radius:1.220cqw"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">1</div><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700;margin-top:calc(1 * 0.11292cqw)">What is known</div></div><div style="position:absolute;left:23.171%;top:0.000%;width:76.829%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(10.1 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.813cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Septic shock is a leading cause of death in the intensive care unit (ICU). Early fluids restore perfusion, but fluids given after the first hours often lead to a positive fluid balance, which is associated with higher mortality in observational studies (1).</div></div><div style="position:absolute;left:0.000%;top:34.524%;width:21.951%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0070C0;border-radius:1.220cqw"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">2</div><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700;margin-top:calc(1 * 0.11292cqw)">What is not known</div></div><div style="position:absolute;left:23.171%;top:34.524%;width:76.829%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(10.1 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.813cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Two large randomised trials found that restricting fluids did not change mortality (2,3). A recent pilot trial that targeted non-resuscitation fluids did not significantly reduce fluid balance at day 5 (4). It therefore remains unclear whether fluid balance can be reduced reliably in routine care.</div></div><div style="position:absolute;left:0.000%;top:69.048%;width:21.951%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#055F56;border-radius:1.220cqw"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">3</div><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700;margin-top:calc(1 * 0.11292cqw)">Aim and objectives</div></div><div style="position:absolute;left:23.171%;top:69.048%;width:76.829%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(10.1 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.813cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">In this pilot randomised trial, we aim to assess whether a restrictive fluid protocol reduces cumulative fluid balance at day 5 compared with usual care in adults with septic shock. Our primary objective is to compare day-5 fluid balance between the two groups; our secondary objective is to assess the feasibility of a larger trial.</div></div></div>
 ```
 
 ::: {.neu-takeaway}
@@ -1141,6 +1138,10 @@ Timing: 3 minutes.
 
 ::: {.notes}
 Every factual sentence carries a reference. About 300 words is enough. Written in English, as the proposal is.
+
+References, numbered in the order first cited: (1) Hyun 2023; (2) CLASSIC, Meyhoff 2022; (3) CLOVERS, Shapiro 2023; (4) Boulet 2024.
+
+The last paragraph states the aim and the objectives in one flow, as published protocols and papers do.
 
 Timing: 4 minutes.
 :::
@@ -1212,12 +1213,8 @@ PROPOSAL BUILDER · 35 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#055F56"}
-- Watch us screen the running-example search live, and suggest papers and terms in the chat
-- Run your own search string in PubMed. Note the date and the number of hits
-- Screen titles and abstracts, pick 5 key papers and save them to Zotero
-- Fill one row per paper in the literature review worksheet
-- Draft your problem statement (known, not known, question) and a working title
-- Two volunteers read their title and gap sentence aloud
+- Proposal Part 1: search, 5 key references, literature review worksheet, problem statement, working title
+- First the instructor screens the running-example search live (10 min)
 :::
 :::
 ::: {.column width="40%"}
@@ -1232,7 +1229,7 @@ Timing
 ::::
 
 ::: {.neu-output style="--c:#055F56"}
-**OUTPUT** Your Proposal Part 1 continued: search, 5 references, problem statement, title
+**OUTPUT** Work alone (20 min): run your search, pick 5 papers, draft your problem statement and title (finish at home)
 :::
 
 ::: {.notes}

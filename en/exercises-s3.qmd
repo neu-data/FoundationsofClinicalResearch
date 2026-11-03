@@ -10,67 +10,60 @@ Name: ______________________________   Department: _____________________________
 
 Type your answers in the Word file, or print the PDF. No calculator is needed.
 
-| Part | Activity | When | How |
-|---|---|---|---|
-| A | Name that design (6 short abstracts on our fluid question) | End of section 3.1 (15 min) | Whole class: poll for each abstract, evidence phrase in the chat |
-| B | Choose the design (5 planning questions + your own question) | End of section 3.2 (15 min) | Whole class: poll for each question, your own design in the chat |
-| C | Proposal builder 3: design, setting and population | End of the session (42 min) and homework | Instructor models it live, then you draft your own |
+| Part | Task | When |
+|---|---|---|
+| A | Name the design of 6 short abstracts | End of section 3.1 |
+| B | Choose a design for 5 planning questions, then for your own question | End of section 3.2 |
+| C | Proposal builder 3: draft sections 2.1 to 2.3 of your proposal | End of the session, finish at home |
 
 Each part also has **extra practice** on other topics, for self-study after the session.
 
-**Our running question (from Session 1):** in adults with septic shock, does a restrictive fluid strategy, compared with usual care, reduce 28-day mortality?
-**The two papers** (PDFs sent before Session 1): Paper 1, Boulet 2024 (a pilot randomised trial of restrictive fluids), Paper 2, Hyun 2023 (a registry cohort of fluid balance and death).
+**Our running question:** in adults with septic shock, does a restrictive fluid strategy, compared with usual care, reduce 28-day mortality?
 
-**Key words of the day:** exposure (what comes first) · outcome (what we count later) · comparison group · observational (we watch) · experimental (we assign) · randomised (chance assigns) · cross-sectional (snapshot) · case-control (look back) · cohort (follow forward) · cluster, crossover and factorial trials · non-inferiority trial · pilot study · interrupted time series · qualitative research.
-
-**Abbreviations used on this sheet:** ICU = intensive care unit, RCT = randomised controlled trial.
+**Abbreviations:** ICU = intensive care unit, RCT = randomised controlled trial.
 
 
 * * *
 
 ## Part A: Name that design
 
-**How it runs.** The instructor shows one abstract at a time. For each one:
+**Task.** Read each abstract alone. Write its design (choose from the list below) and the words in the abstract that show it. Be ready to share your answer when the instructor asks.
 
-1. Ask yourself the three questions from the decision tree (below).
-2. Vote for the design in the poll.
-3. One volunteer types in the chat the **word or phrase from the abstract that proves it**.
+**Three questions name the design**
 
-**The decision tree in three questions**
+1. **Did the investigator assign the exposure or treatment?** If yes, **at random?** Yes: RCT. No: non-randomised intervention study.
+2. If not assigned: **is there a comparison group?** No: descriptive (case report or case series).
+3. If there is: **which came first?** Exposure first, then outcome: cohort. Outcome first, then look back: case-control. Both at the same moment: cross-sectional.
 
-- **Did the investigator ASSIGN the exposure or treatment?** If yes: **was it assigned at random?** (yes: RCT, no: non-randomised study)
-- If not assigned: **is there a comparison group?** (no: descriptive, such as a case series)
-- If there is: **in which direction does time run?** Exposure first, then outcome (cohort), outcome first, then look back (case-control), both at the same moment (cross-sectional).
-
-> **Design choices:** case report or case series · cross-sectional · case-control · cohort (prospective or retrospective) · non-randomised intervention study · randomised controlled trial (RCT) · systematic review and meta-analysis
+> **Choose from:** case report or case series · cross-sectional · case-control · cohort (prospective or retrospective) · non-randomised intervention study · RCT · systematic review and meta-analysis
 
 **Abstract 1.** Two hundred adults with septic shock were randomly allocated by a central computer to a restrictive fluid strategy or to usual care. Death by day 28 was recorded for every patient.
 
-Design: ______________________  Evidence: ______________________
+Design: ______________________  Words that show it: ______________________
 
 **Abstract 2.** On one day in March, two doctors reviewed all 64 patients with sepsis in four ICUs. For each patient they recorded the fluid balance that day and whether the patient had acute kidney injury that day.
 
-Design: ______________________  Evidence: ______________________
+Design: ______________________  Words that show it: ______________________
 
 **Abstract 3.** Forty ICU patients with sepsis who needed new dialysis were compared with 80 ICU patients with sepsis from the same units who did not. The investigators then looked back in the charts at each patient's fluid balance on day 3.
 
-Design: ______________________  Evidence: ______________________
+Design: ______________________  Words that show it: ______________________
 
 **Abstract 4.** Using electronic records from 2019 to 2022, the investigators identified 900 patients with septic shock and divided them by whether their fluid balance on day 3 was positive or negative. They then compared how many patients in each group died by day 28.
 
-Design: ______________________  Evidence: ______________________
+Design: ______________________  Words that show it: ______________________
 
 **Abstract 5.** Our ICU introduced a fluid-restriction protocol for all patients with septic shock on 1 January 2024. Mortality in the six months before was compared with mortality in the six months after.
 
-Design: ______________________  Evidence: ______________________
+Design: ______________________  Words that show it: ______________________
 
 **Abstract 6.** We searched three databases for randomised trials comparing restrictive with liberal fluid strategies in adults with septic shock, assessed each trial's risk of bias, and pooled 28-day mortality across nine trials.
 
-Design: ______________________  Evidence: ______________________
+Design: ______________________  Words that show it: ______________________
 
 ### Extra practice (self-study): other topics
 
-Same task, nine abstracts from other wards. The answers are in the solutions sheet, which the instructor shares after the session.
+Same task, nine abstracts from other wards. The answers are in the solutions sheet, shared after the session.
 
 **E1.** Two hundred and forty adults on mechanical ventilation were randomly allocated by a central computer to oral care with chlorhexidine twice daily or to standard oral care. Ventilator-associated pneumonia was recorded over 28 days by an assessor who did not know the group.
 
@@ -95,19 +88,23 @@ Same task, nine abstracts from other wards. The answers are in the solutions she
 
 ## Part B: Choose the design
 
-**How it runs.** For each question the instructor opens a poll with the design choices. Vote for the best **feasible** design. A volunteer then gives **one reason** and the design's **main weakness**, and the instructor types them in the table on the shared screen. Use the decision tree and the slide "Match the design to the question".
+**Task.** For each planning question, write the best design you could actually carry out, one reason for it, and its main weakness. Be ready to share your answer when the instructor asks.
+
+> **Choose from:** any design in Part A, or one of the designs from section 3.2: non-inferiority RCT · cluster RCT · interrupted time series · qualitative interviews or focus groups · pilot or feasibility study
 
 | # | Planning question (all on our fluid question) | Design | Reason | Main weakness |
 |---|---|---|---|---|
 | 1 | A restrictive strategy is cheaper and uses less fluid. We only need to show that 28-day mortality is not worse than with usual care. | | | |
-| 2 | A nurse-led fluid-balance charting protocol will be introduced in whole ICUs, nurses in one ICU cannot use it for only half their patients. | | | |
+| 2 | A nurse-led fluid-balance charting protocol will be introduced in whole ICUs. Nurses in one ICU cannot use it for only half their patients. | | | |
 | 3 | Our hospital's sepsis bundle, which includes a limit on maintenance fluids, started in 2023. We have monthly sepsis mortality for 3 years before and 2 years after. Did mortality fall? | | | |
 | 4 | Why do night-shift nurses find it hard to record urine output? | | | |
 | 5 | Before a large trial: can our two ICUs recruit enough patients and deliver restrictive fluids as planned? | | | |
 
-**Your own question.** At the end, type in the chat: *"My question: ... My design: ... At the end I may say: caused / associated with."* The instructor reads out and comments on four or five.
+**Your own question.** Write your research question, the design you will use, and what you will be allowed to say at the end: "caused" or only "associated with".
 
-My question: ______________________________  My design: __________________  "Caused" or "associated with": __________
+My question: ______________________________
+
+My design: ______________________________   I may say: "caused" / "associated with" (circle one)
 
 ### Extra practice (self-study): other topics
 
@@ -123,21 +120,15 @@ My question: ______________________________  My design: __________________  "Cau
 
 ## Part C: Proposal builder 3 (design, setting and population)
 
-**How it runs (42 minutes).**
+**Task.** Draft sections 2.1 to 2.3 of your proposal for your own question. First watch the instructor fill them in for the running example. Finish at home, then copy your answers into Part 2 of the proposal template (`Research_Proposal_Template.docx`). Sections 2.4 to 2.6 (exposure, outcomes, bias) follow in Session 4.
 
-1. **Watch (15 min).** The instructor fills in the three rows below for the running example on the shared screen, thinking aloud.
-2. **Draft (20 min).** You fill in the same three rows for your own question, quietly (cameras optional). Ask questions in the chat.
-3. **Feedback (7 min).** Three volunteers paste their design and justification in the chat, the instructor comments.
+**My research question (from Part 1 of my proposal):** _______________________________________________
 
-Then finish as homework and copy your answers into the proposal template (`Research_Proposal_Template.docx`, Part 2). The rest of Part 2 (exposure, comparator, outcomes, biases) is built in Session 4.
-
-**My research question (from my Proposal Part 1):** _______________________________________________
-
-| # | Section | What to write | My answer |
-|---|---|---|---|
-| 1 | **Study design** and **justification** | Name the design. In 3-5 sentences explain why it fits YOUR question, and why the "ideal" design is or is not feasible. | |
-| 2 | **Setting** | Where (type of unit, how many sites), when (study period), source of patients or records. You do not need to name your hospital. | |
-| 3 | **Population** | **Inclusion criteria** (3-5): who is eligible. **Exclusion criteria** (3-5): who is removed, and why. Exclusions should not just repeat the inclusions in the negative. | |
+| Section | What to write | My answer |
+|---|---|---|
+| **2.1 Study design and justification** | Name the design. In 3 to 5 sentences, say why it fits your question, and why the ideal design is or is not feasible. | |
+| **2.2 Setting** | Where (type of unit, how many sites), when (study period), and the source of patients or records. You do not need to name your hospital. | |
+| **2.3 Study population** | **Inclusion criteria** (3 to 5): who is eligible. **Exclusion criteria** (3 to 5): who is removed, and why. An exclusion is not just an inclusion turned negative. | |
 
 **Sketch your study on a timeline.** Write when the exposure is measured and when the outcome is measured:
 
@@ -150,5 +141,5 @@ Then finish as homework and copy your answers into the proposal template (`Resea
 - [ ] The design matches the type of question.
 - [ ] It is feasible in my setting (patients, time, data).
 - [ ] The inclusion criteria describe the P (Population) of my PICO and can be checked from records on day 1.
-- [ ] Every exclusion criterion has a reason (safety, outcome cannot be measured, and so on) and is not just the opposite of an inclusion.
+- [ ] Every exclusion criterion has a reason (safety, outcome cannot be measured, and so on).
 - [ ] I know what I will be allowed to claim: "caused" or "associated with".

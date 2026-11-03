@@ -54,9 +54,9 @@ About 2 minutes per question (10 minutes), then 5 minutes for participants' own 
 
 | # | Best feasible design | Reason | Main weakness |
 |---|---|---|---|
-| 1 | **Non-inferiority RCT** | We only need to show "not unacceptably worse"; the strategy has other advantages (cheaper, less fluid) | Needs a clinically justified margin fixed in advance; poor adherence can make the arms look falsely similar |
+| 1 | **Non-inferiority RCT** | The question is only whether restrictive fluids are not unacceptably worse for 28-day mortality, because they have other advantages (cheaper, less fluid given) | Needs a margin fixed in advance and justified clinically. Poor adherence works against the trial: if many patients in the restrictive arm still get the usual amount of fluid, both arms receive similar care, their results look similar, and the restrictive strategy can wrongly appear "not worse" |
 | 2 | **Cluster randomised trial** (randomise ICUs) | The protocol is delivered at unit level; randomising patients would contaminate | Needs more patients and units; the analysis must account for clustering; few clusters give chance imbalance |
-| 3 | **Interrupted time series** (quasi-experimental) | The change already happened to everyone; many monthly points before and after allow comparison with the existing trend | Other changes at the same time (co-interventions); no randomisation (strengthen with a control series) |
+| 3 | **Interrupted time series** (quasi-experimental) | The bundle has already started for every patient, so randomisation is no longer possible: this is what makes the design quasi-experimental. With monthly mortality for 3 years before and 2 years after, we can model the trend before the bundle and test whether the level or the slope changed after it. A simple before-after comparison would miss a fall that was already happening | Other changes at the same time (new staff, new guidelines) can explain a change; no randomisation. Strengthen it with a control series, e.g. a hospital without the bundle |
 | 4 | **Qualitative**: in-depth interviews or focus groups with night nurses | A "why" question about experience and work practice; numbers cannot answer it | Findings are not generalisable as numbers; depends on interviewer skill; small purposive sample |
 | 5 | **Pilot or feasibility study** | The question is "can we do it?" (recruitment, delivery, data completeness), not "does it work?" | Cannot show effectiveness; success criteria must be about feasibility |
 
@@ -81,13 +81,13 @@ About 2 minutes per question (10 minutes), then 5 minutes for participants' own 
 
 ## Part C: Proposal builder 3 (what to model live)
 
-The instructor fills this in on the shared screen during the first 15 minutes, thinking aloud. Each participant then writes the same three rows for their own question. There are no groups: every participant writes and submits their own proposal.
+The instructor fills this in on the shared screen during the first 15 minutes, thinking aloud. Each participant then writes the same three sections (2.1 to 2.3) for their own question. There are no groups: every participant writes and submits their own proposal.
 
 | Section | Model answer (observational version of the running question) |
 |---|---|
-| Design and justification | Retrospective cohort. Our question is about the effect of a fluid strategy on death; an RCT is the ideal design but is not feasible for one ICU without funding. Existing charts record daily fluid input and output, severity scores and outcomes, so a cohort can estimate the association between a positive fluid balance and death, and give the effect size for a future trial. We will say "associated with", not "caused". |
-| Setting | Adult mixed ICU of one teaching hospital; patients admitted over 3 calendar years; data from the electronic chart and the ICU register. |
-| Population | Inclusion: age 18 or over; septic shock (Sepsis-3 definition) on ICU admission; vasopressor started within 24 h of admission; ICU stay of 72 h or more. Exclusion: chronic dialysis (the fluid balance cannot be interpreted); transfer from another ICU after more than 24 h (early fluid not recorded here); treatment-limitation decision within 24 h; missing fluid charts on days 1-3. |
+| 2.1 Study design and justification | Retrospective cohort. Our question is about the effect of a fluid strategy on death; an RCT is the ideal design but is not feasible for one ICU without funding. Existing charts record daily fluid input and output, severity scores and outcomes, so a cohort can estimate the association between a positive fluid balance and death, and give the effect size for a future trial. We will say "associated with", not "caused". |
+| 2.2 Setting | Adult mixed ICU of one teaching hospital; patients admitted over 3 calendar years; data from the electronic chart and the ICU register. |
+| 2.3 Study population | Inclusion: age 18 or over; septic shock (Sepsis-3 definition) on ICU admission; vasopressor started within 24 h of admission; ICU stay of 72 h or more. Exclusion: chronic dialysis (the fluid balance cannot be interpreted); transfer from another ICU after more than 24 h (early fluid not recorded here); treatment-limitation decision within 24 h; missing fluid charts on days 1-3. |
 
 **Common problems to look for in the chat and in the drafts**
 

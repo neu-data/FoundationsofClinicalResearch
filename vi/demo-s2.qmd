@@ -28,12 +28,12 @@ Lưu ý: PubMed, Zotero và Google Scholar có giao diện tiếng Anh. Kịch b
    - `https://pubmed.ncbi.nlm.nih.gov/`
    - `https://scholar.google.com/`
 3. Đặt mức thu phóng trình duyệt 125–150% để học viên đọc được màn hình chia sẻ trên máy tính xách tay.
-4. Dán ba khối bên dưới vào một tệp văn bản để sao chép (gõ chuỗi dài trực tiếp vừa chậm vừa dễ sai).
-5. **Phương án dự phòng ngoại tuyến:** ngày hôm trước, chụp ảnh màn hình từng bước dưới đây (ô tìm kiếm, số kết quả, Search details, bộ lọc, một trang tóm tắt, Send to → Citation manager, bước nhập vào Zotero, trích dẫn trong Word ở cả hai kiểu, kết quả Google Scholar và "Cited by"). Sắp xếp theo thứ tự vào một bộ slide ngắn hoặc một thư mục, và gửi một bản cho giảng viên thứ hai để họ chia sẻ nếu đường truyền của anh chị bị lỗi. Ghi ngày và số kết quả trên mỗi ảnh.
-6. **Không** để lộ tài khoản My NCBI hoặc tài khoản Google cá nhân khi chia sẻ màn hình.
-7. **Phần mềm quản lý tài liệu tham khảo:** cài Zotero bản máy tính (miễn phí, zotero.org) và tiện ích cho Word trên máy tính dùng để trình chiếu. Bắt đầu với một thư viện thử nghiệm trống tên "Session 2 demo" và mở một tài liệu Word trống. Kiểm tra trước một lần rằng tệp `.nbib` nhập được (File → Import…). Nếu không cài được Zotero, dùng ảnh màn hình thay thế.
+4. **Phương án dự phòng ngoại tuyến:** ngày hôm trước, chụp ảnh màn hình từng bước dưới đây (ô tìm kiếm, số kết quả, Search details, bộ lọc, một trang tóm tắt, Send to → Citation manager, bước nhập vào Zotero, trích dẫn trong Word ở cả hai kiểu, kết quả Google Scholar và "Cited by"). Sắp xếp theo thứ tự vào một bộ slide ngắn hoặc một thư mục, và gửi một bản cho giảng viên thứ hai để họ chia sẻ nếu đường truyền của anh chị bị lỗi. Ghi ngày và số kết quả trên mỗi ảnh.
+5. **Không** để lộ tài khoản My NCBI hoặc tài khoản Google cá nhân khi chia sẻ màn hình.
+6. **Phần mềm quản lý tài liệu tham khảo:** cài Zotero bản máy tính (miễn phí, zotero.org) và tiện ích cho Word trên máy tính dùng để trình chiếu. Bắt đầu với một thư viện thử nghiệm trống tên "Session 2 demo" và mở một tài liệu Word trống. Kiểm tra trước một lần rằng tệp `.nbib` nhập được (File → Import…). Nếu không cài được Zotero, dùng ảnh màn hình thay thế.
 
 ### Các chuỗi để sao chép
+Sao chép trực tiếp từ tệp này khi trình diễn.
 
 **Bước 1: một từ khóa**
 ```
@@ -79,7 +79,7 @@ septic shock
 ### Bước 3: Xem "Search details" (1.5 phút)
 - **Làm:** ở trang Advanced, trong **History and Search Details**, bấm mũi tên (›) cạnh dòng mới nhất để mở phần chi tiết.
 - **Học viên thấy:** cách PubMed diễn dịch chuỗi tìm kiếm: thuật ngữ MeSH cùng các thuật ngữ hẹp hơn, các từ có dấu cắt cụt và các nhãn trường.
-- **Nói:** *"Đây là cách tốt nhất để kiểm tra chiến lược tìm kiếm. Hãy chép dòng này vào đề cương kèm ngày tìm kiếm."*
+- **Nói:** *"Đây là cách tốt nhất để kiểm tra chiến lược tìm kiếm. Phần này cho thấy chính xác PubMed hiểu các từ của mình ra sao. Với đề cương, hãy chép toàn bộ chuỗi tìm kiếm ở đây vào bản ghi tìm kiếm, kèm ngày tìm và số kết quả."* (Bản ghi tìm kiếm là Bước 2 của Phiếu tổng quan tài liệu.)
 - **Ý giảng dạy:** dấu sao tìm mọi đuôi từ, `[tiab]` nghĩa là tiêu đề/tóm tắt, và `[Mesh]` tìm luôn cả các đề mục hẹp hơn bên dưới.
 
 ### Bước 4: Thêm bộ lọc (2 phút)
@@ -108,8 +108,8 @@ septic shock
 - **Làm (PubMed):** quay lại trang kết quả, chọn 2–3 bài (ví dụ CLASSIC và Bài báo 1), rồi chọn **Send to** → **Citation manager** → **Create file**. Một tệp `.nbib` được tải về.
 - **Làm (Zotero):** trong Zotero bản máy tính, dùng **File → Import…** và chọn tệp `.nbib`. (Nhấp đúp vào tệp thường cũng được.)
 - **Học viên thấy:** mỗi bài hiện thành một mục với tác giả, tiêu đề, tạp chí, năm, tập, trang, PMID và DOI, không phải gõ tay gì cả.
-- **Làm (Word):** trong tài liệu trống, gõ một câu, ví dụ *"Hạn chế dịch truyền tĩnh mạch không làm thay đổi tử vong 90 ngày"*, rồi **thẻ Zotero → Add/Edit Citation**, gõ `Meyhoff` (tác giả đầu của CLASSIC) và nhấn Enter. Sau đó **Add/Edit Bibliography**. Rồi mở **Document Preferences** và đổi kiểu trích dẫn từ kiểu đánh số (kiểu Vancouver) sang **APA** rồi đổi lại.
-- **Học viên thấy:** `[1]` thành `(Meyhoff et al., 2022)` và danh mục tài liệu tham khảo tự định dạng lại. Đây chính là slide "Kiểu trích dẫn: một bài, hai cách trình bày" vừa xem, nhưng làm trực tiếp.
+- **Làm (Word):** trong tài liệu trống, gõ một câu, ví dụ *"Hạn chế dịch truyền tĩnh mạch không làm thay đổi tử vong 90 ngày"*, rồi **thẻ Zotero → Add/Edit Citation**, gõ `Meyhoff` (tác giả đầu của CLASSIC) và nhấn Enter. Sau đó **Add/Edit Bibliography**. Rồi mở **Document Preferences** và đổi kiểu trích dẫn từ **NLM/Vancouver: Citing Medicine 2nd edition (citation-sequence)** sang **APA Style 7th edition** rồi đổi lại. Đây là hai kiểu trên slide "Kiểu trích dẫn", cả hai đều có sẵn trong Zotero.
+- **Học viên thấy:** `(1)` thành `(Meyhoff et al., 2022)` và danh mục tài liệu tham khảo tự định dạng lại. `s2-demo-zotero.docx` (trong thư mục này) là kết quả kiểu APA cho CLASSIC và Bài báo 2. Đây chính là slide "Kiểu trích dẫn: một bài, hai cách trình bày" vừa xem, nhưng làm trực tiếp.
 - **Nói:** *"Thu thập, xuất, nhập, trích dẫn, lập danh mục. Không bao giờ gõ tay tài liệu tham khảo, và không bao giờ trích dẫn bài báo anh chị chưa đọc."*
 - **Học viên:** mọi người đã cài Zotero trong bài tập về nhà của Buổi 1, nên có thể làm lại bước nhập trên máy của mình cùng lúc với giảng viên.
 - **Nhắc đến (không trình diễn):** nút **Cite** trên mỗi bản ghi PubMed (một tài liệu); **Clipboard**; tài khoản **My NCBI** miễn phí để lưu chiến lược tìm kiếm và nhận thông báo qua email (*Create alert*); nút **Zotero Connector** trên trình duyệt để lưu một bài từ trang tạp chí chỉ bằng một cú bấm. Mendeley và EndNote hoạt động theo cách tương tự.

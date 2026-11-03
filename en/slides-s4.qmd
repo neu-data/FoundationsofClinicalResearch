@@ -45,7 +45,7 @@ QUICK QUIZ · 9 min
 - Q1. Patients with sepsis who died are compared with survivors for the fluid they received on days 1-3. Design?
 - Q2. Which design randomises whole intensive care units (ICUs) instead of patients?
 - Q3. Restrictive vs usual fluids: mortality difference 95% CI -1 to +3 points. Margin +4 points. Result?
-- Then re-read your own Proposal Part 2a (design, setting, population): 3 min
+- Then re-read your own proposal sections 2.1 to 2.3 (design, setting, population): 3 min
 :::
 :::
 ::: {.column width="40%"}
@@ -60,7 +60,7 @@ How we run it
 ::::
 
 ::: {.neu-output style="--c:#6C3483"}
-**OUTPUT** Poll answers, and your Part 2a ready to extend
+**OUTPUT** Poll answers, and your sections 2.1 to 2.3 ready to extend
 :::
 
 ::: {.notes}
@@ -1104,7 +1104,7 @@ PROPOSAL BUILDER · 40 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#055F56"}
-- Watch: the instructor writes Part 2b live for the running example (15 min)
+- Watch: the instructor writes sections 2.4 to 2.6 live for the running example (15 min)
 - Exposure or intervention, and comparator: exactly what, how much, when
 - One primary outcome (what, how, when) and 2-3 secondary outcomes
 - Two main biases, a concrete fix for each, and 'caused' or 'associated'
@@ -1130,7 +1130,7 @@ Check your draft
 :::
 
 ::: {.notes}
-15 minutes: fill in Part 2b for the running example on screen. 16 minutes: everyone drafts alone. 7 minutes: three volunteers read one bias and its fix.
+15 minutes: fill in sections 2.4 to 2.6 for the running example on screen. 16 minutes: everyone drafts alone. 7 minutes: three volunteers read one bias and its fix.
 
 Model: exposure positive balance at 72 h, comparator zero or negative, primary outcome death by day 28. Biases: severity (adjust or match), selection (consecutive patients), information (check 10% of charts). Full model in s4\_solutions, Part F.
 

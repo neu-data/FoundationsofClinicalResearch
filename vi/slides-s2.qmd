@@ -312,7 +312,7 @@ Thời gian: 2 phút.
 ::: {.notes}
 Giới thiệu nhanh ba cách. Phần trình diễn dùng cách 2. Đọc định nghĩa của tiêu đề trước khi dùng.
 
-Không phải bài nào trên PubMed cũng có MeSH: bài mới chưa được gắn nhãn, và bài của tạp chí không thuộc MEDLINE không được gắn. Ví dụ có MeSH: PMID 30664905.
+Không phải bài nào trên PubMed cũng có MeSH: bài mới chưa được gắn nhãn, và bài của tạp chí không thuộc MEDLINE không được gắn. Ví dụ có MeSH: search for “Pressure ulcers” in Pubmed, select the first paper.
 
 Search details: chạy tìm kiếm, bấm Advanced, mở History and Search Details, rồi bấm Details: PubMed đã tự gắn từ của bạn với MeSH.
 
@@ -518,15 +518,12 @@ BÀI TẬP CÁ NHÂN · 5 phút
 :::
 
 ::: {.neu-activity-steps style="--c:#0B376C"}
-- Lấy câu hỏi PICO của riêng bạn và danh sách từ đồng nghĩa (bài về nhà Buổi 1)
-- Bài tập 1: viết 2-4 từ đồng nghĩa (tiếng Anh) cho P, I (hoặc E) và O
-- Nối từ đồng nghĩa bằng OR trong ngoặc, các khối bằng AND
-- Kiểm tra từ nào là thuật ngữ MeSH: MeSH Database hoặc một bài đã biết
-- Giảng viên gọi 2-3 bạn bật micro đọc to chuỗi tìm kiếm của mình
+- Phiếu bài tập, Bài tập 1: chuỗi tìm kiếm cho câu hỏi PICO của bạn
+- Từ đồng nghĩa nối bằng OR trong ngoặc, các khối nối bằng AND
 :::
 
 ::: {.neu-output style="--c:#0B376C"}
-**SẢN PHẨM** Một chuỗi tìm kiếm cho câu hỏi của bạn, để chạy trên PubMed ở cuối buổi hôm nay
+**SẢN PHẨM** Làm riêng (5 phút): viết chuỗi tìm kiếm của bạn, và chuẩn bị đọc to khi được mời
 :::
 
 ::: {.notes}
@@ -588,7 +585,7 @@ Phần 2.2: 20:20-20:40. Thời gian: 30 giây.
 ::::
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Phần mềm quản lý tài liệu ngăn lỗi phổ biến nhất trong đề cương: trích dẫn sai.
+**THÔNG ĐIỆP CHÍNH** Lưu mỗi bài ngay khi tìm thấy: phần mềm tự lập danh mục tài liệu, theo kiểu nào cũng được.
 :::
 
 ::: {.notes}
@@ -600,25 +597,25 @@ Thời gian: 2 phút.
 ## Kiểu trích dẫn: một bài, hai cách trình bày
 
 ::: {.neu-intro}
-Dùng kiểu tạp chí yêu cầu. Phần mềm quản lý tài liệu đổi kiểu chỉ bằng một cú nhấp.
+Cùng một bài theo hai kiểu có sẵn trong Zotero. Dùng kiểu mà tạp chí đích yêu cầu.
 :::
 
 :::: {.neu-cards style="--n:2"}
 ::: {.neu-card .plain style="--c:#0D7377"}
-[Vancouver]{.neu-card-title}
+[NLM/Vancouver]{.neu-card-title}
 
-- Hạn chế dịch truyền không làm thay đổi tử vong 90 ngày \[1\].
+- Hạn chế dịch truyền không làm thay đổi tử vong 90 ngày (1).
 - **Danh mục tài liệu:**
-- Author AA, Author BB, et al. Title. J Abbrev. Year;Vol(Issue):pages.
-- [Đánh số theo thứ tự trích dẫn. Đa số tạp chí y khoa dùng.]{style="color:#595959"}
+- Meyhoff TS, Hjortrup PB, Wetterslev J, Sivapalan P, Laake JH, Cronhjort M, et al. Restriction of Intravenous Fluid in ICU Patients with Septic Shock. N Engl J Med. 2022 Jun 30;386(26):2459–70. doi:10.1056/NEJMoa2202707 PubMed PMID: 35709019.
+- [Đánh số theo thứ tự trích dẫn. Phần lớn tạp chí y khoa dùng một kiểu đánh số.]{style="color:#595959"}
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
-[APA]{.neu-card-title}
+[APA 7th edition]{.neu-card-title}
 
 - Hạn chế dịch truyền không làm thay đổi tử vong 90 ngày (Meyhoff et al., 2022).
 - **Danh mục tài liệu:**
-- Author, A. A., & Author, B. B. (Year). Title. Journal, Vol(Issue), pages.
-- [Tác giả và năm trong bài. Phổ biến ở điều dưỡng, khoa học xã hội.]{style="color:#595959"}
+- Meyhoff, T. S., Hjortrup, P. B., Wetterslev, J., … Perner, A. (2022). Restriction of Intravenous Fluid in ICU Patients with Septic Shock. The New England Journal of Medicine, 386(26), 2459–2470. https://doi.org/10.1056/NEJMoa2202707
+- [Tác giả và năm trong bài, danh mục theo ABC. Ở đây rút gọn: APA ghi 19 tác giả đầu, …, rồi tác giả cuối.]{style="color:#595959"}
 :::
 ::::
 
@@ -629,7 +626,11 @@ Dùng kiểu tạp chí yêu cầu. Phần mềm quản lý tài liệu đổi k
 ::: {.notes}
 Tạp chí nào cũng nêu kiểu trích dẫn trong hướng dẫn cho tác giả. Trích dẫn nghiên cứu gốc cho dữ kiện, không trích tổng quan nhắc lại nó.
 
-Hỏi: 'Kiểu nào dùng \[1\]?' Mong đợi: Vancouver.
+Hai ví dụ là kết quả Zotero tạo ra cho CLASSIC. Tên hai kiểu trong Zotero: 'NLM/Vancouver: Citing Medicine 2nd edition (citation-sequence)' và 'APA Style 7th edition'.
+
+Mỗi tạp chí có biến thể riêng của kiểu đánh số, ví dụ \[1\] hoặc số mũ: luôn làm theo hướng dẫn cho tác giả của tạp chí.
+
+Hỏi: 'Kiểu nào đánh số trích dẫn (1)?' Mong đợi: NLM/Vancouver.
 
 Thời gian: 2 phút.
 :::
@@ -647,7 +648,7 @@ TRÌNH DIỄN TRỰC TIẾP · 5 phút
 - Kiểm tra mục vừa nhập: tác giả, tiêu đề, tạp chí, năm, DOI, không gõ tay gì cả
 - Trong Word, thẻ Zotero: 'Add/Edit Citation', rồi gõ Meyhoff (tác giả đầu của CLASSIC)
 - Bấm 'Add/Edit Bibliography': danh mục tài liệu xuất hiện
-- Bấm 'Document Preferences': đổi NLM/Vancouver sang APA rồi đổi lại
+- Bấm 'Document Preferences': đổi 'NLM/Vancouver: Citing Medicine 2nd edition (citation-sequence)' sang 'APA Style 7th edition' rồi đổi lại
 :::
 :::
 ::: {.column width="40%"}
@@ -669,7 +670,7 @@ Kịch bản: s2\_demo\_VN.md, Phần B. Mọi người làm lại từng bướ
 
 Nếu Zotero của giảng viên lỗi, chiếu ảnh chụp màn hình.
 
-Zotero không có sẵn kiểu tên 'Vancouver'. Kiểu có sẵn là 'NLM/Vancouver (Citing Medicine 2nd edition)', đánh số (1).
+Trong Zotero, kiểu đánh số là 'NLM/Vancouver: Citing Medicine 2nd edition (citation-sequence)', đánh số trích dẫn (1). Kết quả kiểu APA cho CLASSIC và Bài báo 2: Course/Demos/s2-demo-zotero.docx.
 
 Thời gian: 5 phút.
 :::
@@ -695,7 +696,7 @@ Cách làm: đọc, gấp bài báo, viết theo trí nhớ, kiểm tra lại, t
 ::: {.neu-card .plain style="--c:#2E8B57"}
 [Lời của mình + trích dẫn]{.neu-card-title}
 
-- "A pilot trial in 48 patients found that limiting maintenance and drug-dilution fluids did not significantly change fluid balance after five days \[1\]."
+- "A pilot trial in 48 patients found that limiting maintenance and drug-dilution fluids did not significantly change fluid balance after five days (1)."
 - **[Cấu trúc mới, thêm bối cảnh, có trích dẫn]{style="color:#2E8B57"}**
 :::
 ::::
@@ -756,8 +757,8 @@ CÂU HỎI NHANH · 2 phút
 :::
 
 ::: {.neu-activity-steps style="--c:#6C3483"}
-- Bạn chép một câu từ tóm tắt, đổi hai từ và thêm \[3\]
-- Bạn trích nguyên văn một câu, trong ngoặc kép, có \[3\]
+- Bạn chép một câu từ tóm tắt, đổi hai từ và thêm (3)
+- Bạn trích nguyên văn một câu, trong ngoặc kép, có (3)
 - Bạn viết một phát hiện bằng lời của mình nhưng quên trích dẫn
 - Bạn trích dẫn một bài thấy được nhắc trong bài tổng quan, mà không đọc
 :::
@@ -1013,12 +1014,8 @@ BÀI TẬP CÁ NHÂN · 12 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0B376C"}
-- Mở Bài báo 1 (Boulet 2024, Crit Care): tóm tắt ở trang 1
-- Điền bảng đọc (Bài tập 3): thiết kế, P, I vs C
-- Kết cục chính, số sàng lọc và số phân tích
-- Kết quả chính kèm KTC 95% và giá trị p
-- Kết luận có khớp với kết quả? Có thổi phồng không?
-- Gõ kết cục chính và kết quả chính vào chat
+- Phiếu bài tập, Bài tập 3: phần tóm tắt của Bài báo 1 (Boulet 2024, trang 1)
+- Thiết kế, PICO, kết cục chính, kết quả chính, và có spin không
 :::
 :::
 ::: {.column width="40%"}
@@ -1032,7 +1029,7 @@ Thời gian
 ::::
 
 ::: {.neu-output style="--c:#0B376C"}
-**SẢN PHẨM** Một bảng đọc tóm tắt đã điền đủ
+**SẢN PHẨM** Làm riêng (8 phút): điền bảng đọc, rồi gõ kết cục chính và kết quả chính vào khung chat
 :::
 
 ::: {.notes}
@@ -1113,7 +1110,7 @@ Thời gian: 3 phút.
 
 
 ```{=html}
-<div style="position:relative;width:100%;aspect-ratio:12.3/4.2;container-type:inline-size;margin:0.2em auto;font-family:Arial,sans-serif;line-height:1.1"><div style="position:absolute;left:0.000%;top:0.000%;width:65.041%;height:26.190%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#5FA39B;border-radius:1.341cqw"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">Điều đã biết</div><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;margin-top:calc(3 * 0.11292cqw)">Vấn đề và thực hành hiện nay, có trích dẫn</div></div><svg viewBox="0 0 1230 420" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm8A99A341" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A99A3"/></marker></defs><line x1="400.0" y1="113.0" x2="400.0" y2="142.0" marker-end="url(#dgm8A99A341)" stroke="#8A99A3" stroke-width="4.17" stroke-linecap="round"/></svg><div style="position:absolute;left:5.285%;top:34.524%;width:54.472%;height:26.190%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0070C0;border-radius:1.341cqw"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">Điều chưa biết</div><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;margin-top:calc(3 * 0.11292cqw)">Khoảng trống: nghiên cứu mâu thuẫn, quá nhỏ hoặc chưa đo</div></div><svg viewBox="0 0 1230 420" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm8A99A341" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A99A3"/></marker></defs><line x1="400.0" y1="258.0" x2="400.0" y2="287.0" marker-end="url(#dgm8A99A341)" stroke="#8A99A3" stroke-width="4.17" stroke-linecap="round"/></svg><div style="position:absolute;left:10.569%;top:69.048%;width:43.902%;height:26.190%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#055F56;border-radius:1.341cqw"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">Câu hỏi và mục tiêu</div><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;margin-top:calc(3 * 0.11292cqw)">Câu hỏi PICO, mục đích và mục tiêu của bạn</div></div><div style="position:absolute;left:70.732%;top:0.000%;width:29.268%;height:45.238%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(8.6 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:1.236cqw"><div style="font-size:calc(16 * 0.11292cqw);color:#055F56;font-weight:700">Phần Đặt vấn đề</div><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">3 đoạn ngắn</div><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">Khoảng 300 từ</div><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">Mỗi dữ kiện có trích dẫn</div></div><div style="position:absolute;left:70.732%;top:51.190%;width:29.268%;height:48.810%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(8.6 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#FFFFFF;border:calc(2 * 0.11292cqw) solid #D9822B;border-radius:1.333cqw"><div style="font-size:calc(16 * 0.11292cqw);color:#D9822B;font-weight:700">Không đưa vào Đặt vấn đề</div><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">Số liệu hoặc kết quả của chính bạn</div><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">Số liệu địa phương chỉ khi đã công bố, có trích dẫn</div></div></div>
+<div style="position:relative;width:100%;aspect-ratio:12.3/4.2;container-type:inline-size;margin:0.2em auto;font-family:Arial,sans-serif;line-height:1.1"><div style="position:absolute;left:0.000%;top:0.000%;width:65.041%;height:26.190%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#5FA39B;border-radius:1.341cqw"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">Điều đã biết</div><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;margin-top:calc(3 * 0.11292cqw)">Vấn đề và thực hành hiện nay, có trích dẫn</div></div><svg viewBox="0 0 1230 420" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm8A99A341" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A99A3"/></marker></defs><line x1="400.0" y1="113.0" x2="400.0" y2="142.0" marker-end="url(#dgm8A99A341)" stroke="#8A99A3" stroke-width="4.17" stroke-linecap="round"/></svg><div style="position:absolute;left:5.285%;top:34.524%;width:54.472%;height:26.190%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0070C0;border-radius:1.341cqw"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">Điều chưa biết</div><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;margin-top:calc(3 * 0.11292cqw)">Khoảng trống: nghiên cứu mâu thuẫn, quá nhỏ hoặc chưa đo</div></div><svg viewBox="0 0 1230 420" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm8A99A341" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A99A3"/></marker></defs><line x1="400.0" y1="258.0" x2="400.0" y2="287.0" marker-end="url(#dgm8A99A341)" stroke="#8A99A3" stroke-width="4.17" stroke-linecap="round"/></svg><div style="position:absolute;left:10.569%;top:69.048%;width:43.902%;height:26.190%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#055F56;border-radius:1.341cqw"><div style="font-size:calc(18 * 0.11292cqw);color:#FFFFFF;font-weight:700">Mục đích và mục tiêu</div><div style="font-size:calc(15 * 0.11292cqw);color:#FFFFFF;margin-top:calc(3 * 0.11292cqw)">Nghiên cứu của bạn sẽ làm gì, và các mục tiêu</div></div><div style="position:absolute;left:70.732%;top:0.000%;width:29.268%;height:45.238%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(8.6 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:1.236cqw"><div style="font-size:calc(16 * 0.11292cqw);color:#055F56;font-weight:700">Phần Đặt vấn đề</div><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">3 đoạn ngắn</div><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">Khoảng 300 từ</div><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">Mỗi dữ kiện có trích dẫn</div></div><div style="position:absolute;left:70.732%;top:51.190%;width:29.268%;height:48.810%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(8.6 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#FFFFFF;border:calc(2 * 0.11292cqw) solid #D9822B;border-radius:1.333cqw"><div style="font-size:calc(16 * 0.11292cqw);color:#D9822B;font-weight:700">Không đưa vào Đặt vấn đề</div><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">Số liệu hoặc kết quả của chính bạn</div><div style="font-size:calc(16 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">Số liệu địa phương chỉ khi đã công bố, có trích dẫn</div></div></div>
 ```
 
 ::: {.neu-takeaway}
@@ -1132,7 +1129,7 @@ Thời gian: 3 phút.
 
 
 ```{=html}
-<div style="position:relative;width:100%;aspect-ratio:12.3/4.2;container-type:inline-size;margin:0.2em auto;font-family:Arial,sans-serif;line-height:1.1"><div style="position:absolute;left:0.000%;top:0.000%;width:21.951%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#5FA39B;border-radius:1.220cqw"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">1</div><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700;margin-top:calc(1 * 0.11292cqw)">Điều đã biết</div></div><div style="position:absolute;left:23.171%;top:0.000%;width:76.829%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(10.1 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.813cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Septic shock is a leading cause of death in the ICU. Early fluids restore perfusion, but continued fluids often cause a positive fluid balance, which cohort studies link to higher mortality [2].</div></div><div style="position:absolute;left:0.000%;top:34.524%;width:21.951%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0070C0;border-radius:1.220cqw"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">2</div><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700;margin-top:calc(1 * 0.11292cqw)">Điều chưa biết</div></div><div style="position:absolute;left:23.171%;top:34.524%;width:76.829%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(10.1 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.813cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Large trials of restrictive fluids found no difference in mortality [3, 4], and a pilot trial targeting hidden fluids did not significantly reduce fluid balance [1]. Whether restriction reliably reduces fluid balance is still unclear.</div></div><div style="position:absolute;left:0.000%;top:69.048%;width:21.951%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#055F56;border-radius:1.220cqw"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">3</div><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700;margin-top:calc(1 * 0.11292cqw)">Câu hỏi và mục tiêu</div></div><div style="position:absolute;left:23.171%;top:69.048%;width:76.829%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(10.1 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.813cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">We therefore ask whether, in adults with septic shock, a restrictive fluid protocol reduces fluid balance at day 5 compared with usual care. Primary objective: to compare day-5 fluid balance between the groups.</div></div></div>
+<div style="position:relative;width:100%;aspect-ratio:12.3/4.2;container-type:inline-size;margin:0.2em auto;font-family:Arial,sans-serif;line-height:1.1"><div style="position:absolute;left:0.000%;top:0.000%;width:21.951%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#5FA39B;border-radius:1.220cqw"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">1</div><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700;margin-top:calc(1 * 0.11292cqw)">Điều đã biết</div></div><div style="position:absolute;left:23.171%;top:0.000%;width:76.829%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(10.1 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.813cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Septic shock is a leading cause of death in the intensive care unit (ICU). Early fluids restore perfusion, but fluids given after the first hours often lead to a positive fluid balance, which is associated with higher mortality in observational studies (1).</div></div><div style="position:absolute;left:0.000%;top:34.524%;width:21.951%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0070C0;border-radius:1.220cqw"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">2</div><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700;margin-top:calc(1 * 0.11292cqw)">Điều chưa biết</div></div><div style="position:absolute;left:23.171%;top:34.524%;width:76.829%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(10.1 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.813cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Two large randomised trials found that restricting fluids did not change mortality (2,3). A recent pilot trial that targeted non-resuscitation fluids did not significantly reduce fluid balance at day 5 (4). It therefore remains unclear whether fluid balance can be reduced reliably in routine care.</div></div><div style="position:absolute;left:0.000%;top:69.048%;width:21.951%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#055F56;border-radius:1.220cqw"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">3</div><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700;margin-top:calc(1 * 0.11292cqw)">Mục đích và mục tiêu</div></div><div style="position:absolute;left:23.171%;top:69.048%;width:76.829%;height:29.762%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(10.1 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:0.813cqw"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">In this pilot randomised trial, we aim to assess whether a restrictive fluid protocol reduces cumulative fluid balance at day 5 compared with usual care in adults with septic shock. Our primary objective is to compare day-5 fluid balance between the two groups; our secondary objective is to assess the feasibility of a larger trial.</div></div></div>
 ```
 
 ::: {.neu-takeaway}
@@ -1141,6 +1138,10 @@ Thời gian: 3 phút.
 
 ::: {.notes}
 Mỗi câu nêu dữ kiện đều có số trích dẫn. Khoảng 300 từ là đủ. Viết bằng tiếng Anh, như đề cương.
+
+Tài liệu tham khảo, đánh số theo thứ tự trích dẫn lần đầu: (1) Hyun 2023; (2) CLASSIC, Meyhoff 2022; (3) CLOVERS, Shapiro 2023; (4) Boulet 2024.
+
+Đoạn cuối nêu mục đích và các mục tiêu liền một mạch, như cách các đề cương và bài báo đã công bố vẫn viết.
 
 Thời gian: 4 phút.
 :::
@@ -1212,12 +1213,8 @@ XÂY DỰNG ĐỀ CƯƠNG · 35 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#055F56"}
-- Xem giảng viên sàng lọc trực tiếp kết quả tìm kiếm của ví dụ xuyên suốt, và gợi ý bài và từ khóa trong chat
-- Chạy chuỗi tìm kiếm của bạn trên PubMed. Ghi ngày và số kết quả
-- Sàng lọc tiêu đề và tóm tắt, chọn 5 bài chính và lưu vào Zotero
-- Điền mỗi bài một dòng trong phiếu tổng quan tài liệu
-- Viết nháp đặt vấn đề (đã biết, chưa biết, câu hỏi) và tên đề tài tạm
-- Hai bạn tình nguyện đọc to tên đề tài và câu nêu khoảng trống
+- Phần 1 đề cương: tìm kiếm, 5 tài liệu chính, phiếu tổng quan tài liệu, đặt vấn đề, tên đề tài tạm
+- Trước tiên giảng viên sàng lọc trực tiếp kết quả tìm kiếm của ví dụ xuyên suốt (10 phút)
 :::
 :::
 ::: {.column width="40%"}
@@ -1232,7 +1229,7 @@ Thời gian
 ::::
 
 ::: {.neu-output style="--c:#055F56"}
-**SẢN PHẨM** Tiếp tục Đề cương Phần 1 của bạn: tìm kiếm, 5 tài liệu, đặt vấn đề, tên đề tài
+**SẢN PHẨM** Làm riêng (20 phút): chạy chuỗi tìm kiếm, chọn 5 bài, viết nháp đặt vấn đề và tên đề tài (hoàn thành ở nhà)
 :::
 
 ::: {.notes}

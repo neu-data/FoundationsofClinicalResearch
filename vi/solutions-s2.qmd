@@ -87,7 +87,7 @@ AND (prevent*[tiab] OR "multicomponent"[tiab] OR "non-pharmacological"[tiab] OR 
 | d) | **Có vấn đề: không trích dẫn** | Lời văn tốt, nhưng trình bày phát hiện của người khác mà không trích dẫn là đạo văn. |
 
 **Phần B: bản diễn giải mẫu**
-"Mortality and days alive without organ support at day 28 did not differ between the two groups, although the pilot trial was too small to detect such differences [1]." (Tạm dịch: Tử vong và số ngày còn sống không cần hỗ trợ cơ quan ở ngày 28 không khác nhau giữa hai nhóm, dù thử nghiệm thí điểm quá nhỏ để phát hiện những khác biệt như vậy [1].)
+"Mortality and days alive without organ support at day 28 did not differ between the two groups, although the pilot trial was too small to detect such differences (1)." (Tạm dịch: Tử vong và số ngày còn sống không cần hỗ trợ cơ quan ở ngày 28 không khác nhau giữa hai nhóm, dù thử nghiệm thí điểm quá nhỏ để phát hiện những khác biệt như vậy (1).)
 Thế nào là tốt: cấu trúc mới; dữ kiện không đổi (28 ngày, tử vong, số ngày còn sống không cần hỗ trợ sự sống, tương tự nhau); không khẳng định mạnh hơn (**không** viết "hạn chế dịch là an toàn"); có trích dẫn. Thêm "thử nghiệm quá nhỏ" là bối cảnh chính xác lấy từ bài báo (48 người bệnh; không đủ lực thống kê cho tử vong).
 
 
@@ -102,10 +102,10 @@ Thế nào là tốt: cấu trúc mới; dữ kiện không đổi (28 ngày, t�
 | I so với C | Hạn chế dịch tối ưu (giảm dịch duy trì và dịch pha thuốc trong 7 ngày đầu) so với chiến lược truyền dịch chuẩn |
 | Kết cục chính | **Cân bằng dịch tích lũy (ml/kg) trong 5 ngày đầu**, không phải tử vong |
 | Số liệu | 1201 người được sàng lọc; 50 người được phân bổ ngẫu nhiên; 2 người rút lui (nhóm chứng); 48 người được phân tích (24 người mỗi nhóm) |
-| Kết quả chính | Trung vị cân bằng dịch tích lũy ở ngày 5: 6.9 so với 35.0 ml/kg; hiệu số tuyệt đối 13.2 ml/kg (KTC 95% −15.2 đến 41.6), p = 0.42. Con số 13.2 là hiệu số trung bình (phần Phương pháp báo cáo hiệu số trung bình kèm KTC 95%), nên không bằng chênh lệch giữa hai trung vị. |
+| Kết quả chính | Trung vị cân bằng dịch tích lũy ở ngày 5: 6.9 so với 35.0 ml/kg; hiệu số tuyệt đối 13.2 ml/kg (KTC 95% −15.2 đến 41.6), p = 0.42. |
 | Kết luận | "...did not reduce the overall fluid balance at day 5" (không làm giảm cân bằng dịch chung ở ngày 5) |
 | Khớp với kết quả? | **Có**. KTC chứa 0, và kết luận nói "không làm giảm". |
-| Có spin trong phần tóm tắt? | **Không** trong kết luận của phần tóm tắt. (Spin xuất hiện trong phần *Bàn luận*, gọi p = 0.42 là "xu hướng không có ý nghĩa thống kê".) Điểm cần lưu ý: *thể tích* dịch (89.7 so với 114.3 ml/kg, p = 0.0506) là kết quả phụ, và phần tóm tắt báo cáo bốn chữ số thập phân cho một giá trị p sát ngưỡng. Đây là nhấn mạnh nhẹ, không phải một khẳng định. |
+| Có spin trong phần tóm tắt? | **Không.** Kết luận của phần tóm tắt khớp với kết quả chính. Spin nằm ở phần *Bàn luận*: tác giả gọi kết quả là "xu hướng không có ý nghĩa thống kê" (non-significant trend) về phía cân bằng dịch thấp hơn. Với p = 0.42 và KTC 95% từ −15.2 đến 41.6 ml/kg, dữ liệu hoàn toàn phù hợp với việc không có khác biệt, nên chữ "xu hướng" gợi ý một tác dụng mà thử nghiệm không chứng minh được. |
 | Đăng ký | ClinicalTrials.gov **NCT04947904** (đăng ký ngày 1 tháng 7 năm 2021, trước khi bắt đầu tuyển chọn vào tháng 9 năm 2021) |
 | Trả lời câu hỏi về tử vong 28 ngày của lớp? | **Không.** Đây là một nghiên cứu thí điểm nhỏ, được thiết kế đủ lực cho cân bằng dịch. Tử vong 28 ngày là kết cục phụ và tương tự nhau giữa hai nhóm: "không có bằng chứng về khác biệt", không phải "không có khác biệt". |
 
@@ -130,9 +130,11 @@ Giảng viên làm mẫu trực tiếp cho ví dụ xuyên suốt (phiên bản 
 **Từ khóa:** Fluid Therapy; Water-Electrolyte Balance; Critical Care; Vasoconstrictor Agents (thuật ngữ MeSH chưa có trong tên đề tài).
 
 **Đặt vấn đề (≈ 300 từ, ba đoạn)**
-1. *Điều đã biết:* sốc nhiễm khuẩn là nguyên nhân tử vong thường gặp tại ICU. Hồi sức dịch sớm giúp phục hồi tưới máu, nhưng tiếp tục truyền dịch thường dẫn đến cân bằng dịch dương, mà các nghiên cứu quan sát cho thấy có liên quan với tử vong cao hơn (ví dụ Hyun 2023).
-2. *Điều chưa biết:* các thử nghiệm lớn về hạn chế dịch (CLASSIC 2022; CLOVERS 2023) không thấy khác biệt về tử vong, và một nghiên cứu thí điểm nhắm vào dịch "không nhằm hồi sức" bị bỏ sót (Boulet 2024) không làm giảm có ý nghĩa cân bằng dịch ở ngày 5. Quy trình hạn chế dịch có thật sự làm giảm cân bằng dịch hay không vẫn chưa rõ.
-3. *Câu hỏi và mục tiêu:* ở người lớn bị sốc nhiễm khuẩn, quy trình hạn chế dịch so với chăm sóc thường quy có làm giảm cân bằng dịch tích lũy ngày 5 không? Mục tiêu chính: so sánh cân bằng dịch ngày 5 giữa hai nhóm.
+1. *Điều đã biết:* Sốc nhiễm khuẩn là nguyên nhân tử vong hàng đầu tại khoa hồi sức tích cực (ICU). Dịch sớm giúp phục hồi tưới máu, nhưng dịch truyền sau những giờ đầu thường dẫn đến cân bằng dịch dương, có liên quan với tử vong cao hơn trong các nghiên cứu quan sát (1).
+2. *Điều chưa biết:* Hai thử nghiệm ngẫu nhiên lớn cho thấy hạn chế dịch không làm thay đổi tử vong (2,3). Một thử nghiệm thí điểm gần đây nhắm vào dịch không nhằm hồi sức không làm giảm có ý nghĩa cân bằng dịch ở ngày 5 (4). Vì vậy, vẫn chưa rõ có thể giảm cân bằng dịch một cách ổn định trong chăm sóc thường quy hay không.
+3. *Mục đích và mục tiêu:* Trong thử nghiệm ngẫu nhiên thí điểm này, chúng tôi nhằm đánh giá liệu quy trình hạn chế dịch có làm giảm cân bằng dịch tích lũy ở ngày 5 so với chăm sóc thường quy ở người lớn bị sốc nhiễm khuẩn hay không. Mục tiêu chính là so sánh cân bằng dịch ngày 5 giữa hai nhóm; mục tiêu phụ là đánh giá tính khả thi của một thử nghiệm lớn hơn.
+
+Tài liệu tham khảo, theo thứ tự trích dẫn lần đầu: (1) Hyun 2023; (2) CLASSIC, Meyhoff 2022; (3) CLOVERS, Shapiro 2023; (4) Boulet 2024.
 
 *Nguyên tắc khoa học:* phần Đặt vấn đề không bao giờ chứa số liệu hay kết quả của chính bạn (kể cả kết quả đánh giá thực hành, audit, tại khoa). Chúng thuộc về phần Kết quả. Số liệu địa phương chỉ được dùng khi đã được công bố, kèm trích dẫn.
 

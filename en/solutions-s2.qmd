@@ -80,7 +80,7 @@ AND (prevent*[tiab] OR "multicomponent"[tiab] OR "non-pharmacological"[tiab] OR 
 | d) | **Problem: no citation** | Good wording, but presenting someone else's finding without a citation is plagiarism. |
 
 **Part B: model paraphrase**
-"Mortality and days alive without organ support at day 28 did not differ between the two groups, although the pilot trial was too small to detect such differences [1]."
+"Mortality and days alive without organ support at day 28 did not differ between the two groups, although the pilot trial was too small to detect such differences (1)."
 What good looks like: new structure; facts unchanged (28 days, mortality, days alive without life support, similar); no stronger claim (do **not** write "restriction is safe"); citation. Adding "the trial was too small" is accurate context from the paper (48 patients; not powered for mortality).
 
 
@@ -95,10 +95,10 @@ What good looks like: new structure; facts unchanged (28 days, mortality, days a
 | I vs C | Optimised fluid restriction (reducing maintenance fluids and fluids for drug dilution during the first 7 days) vs standard fluid strategy |
 | Primary outcome | **Cumulative fluid balance (ml/kg) in the first 5 days**, not mortality |
 | Numbers | 1,201 screened; 50 randomised; 2 withdrew (control); 48 analysed (24 per group) |
-| Main result | Median cumulative balance at day 5: 6.9 vs 35.0 ml/kg; absolute difference 13.2 ml/kg (95% CI −15.2 to 41.6), p = 0.42. The 13.2 is a difference in means (the Methods report the mean difference with its 95% CI), so it does not equal the gap between the medians. |
+| Main result | Median cumulative balance at day 5: 6.9 vs 35.0 ml/kg; absolute difference 13.2 ml/kg (95% CI −15.2 to 41.6), p = 0.42. |
 | Conclusion | "...did not reduce the overall fluid balance at day 5" |
 | Matches the result? | **Yes**. The CI includes zero, and the conclusion says "did not reduce". |
-| Spin in the abstract? | **No** in the abstract conclusion. (Spin appears in the *Discussion*, which calls p = 0.42 a "non-significant trend".) Watch-point: the fluid *volumes* (89.7 vs 114.3 ml/kg, p = 0.0506) are a secondary result, and the abstract reports four decimals for a borderline p. This is mild emphasis, not a claim. |
+| Spin in the abstract? | **No.** The abstract conclusion matches the primary result. The spin is in the *Discussion*, which calls the result a "non-significant trend" towards a lower fluid balance. With p = 0.42 and a 95% CI from −15.2 to 41.6 ml/kg, the data fit no difference at all, so the word "trend" suggests an effect the trial did not show. |
 | Registration | ClinicalTrials.gov **NCT04947904** (registered 1 July 2021, before recruitment began in September 2021) |
 | Answers our 28-day mortality question? | **No.** It is a small pilot powered for fluid balance. 28-day mortality was a secondary outcome and was similar between groups: "no evidence of a difference", not "no difference". |
 
@@ -123,9 +123,11 @@ The trainer models this live for the running example (the feasible pilot version
 **Keywords:** Fluid Therapy; Water-Electrolyte Balance; Critical Care; Vasoconstrictor Agents (MeSH terms not already in the title).
 
 **Problem statement (≈ 300 words, three paragraphs)**
-1. *Known:* septic shock is a common cause of ICU death. Early fluid resuscitation restores perfusion, but continued fluid often produces a positive fluid balance, which observational studies associate with higher mortality (e.g. Hyun 2023).
-2. *Not known:* large trials of restrictive fluids (CLASSIC 2022; CLOVERS 2023) found no mortality difference, and a pilot targeting hidden "non-resuscitative" fluids (Boulet 2024) did not significantly reduce fluid balance at day 5. Whether a restrictive protocol reliably reduces fluid balance is still unclear.
-3. *Question and objectives:* in adults with septic shock, does a restrictive fluid protocol, compared with usual care, reduce cumulative fluid balance at day 5? Primary objective: to compare day-5 fluid balance between the two groups.
+1. *Known:* Septic shock is a leading cause of death in the intensive care unit (ICU). Early fluids restore perfusion, but fluids given after the first hours often lead to a positive fluid balance, which is associated with higher mortality in observational studies (1).
+2. *Not known:* Two large randomised trials found that restricting fluids did not change mortality (2,3). A recent pilot trial that targeted non-resuscitation fluids did not significantly reduce fluid balance at day 5 (4). It therefore remains unclear whether fluid balance can be reduced reliably in routine care.
+3. *Aim and objectives:* In this pilot randomised trial, we aim to assess whether a restrictive fluid protocol reduces cumulative fluid balance at day 5 compared with usual care in adults with septic shock. Our primary objective is to compare day-5 fluid balance between the two groups; our secondary objective is to assess the feasibility of a larger trial.
+
+References, in the order first cited: (1) Hyun 2023; (2) CLASSIC, Meyhoff 2022; (3) CLOVERS, Shapiro 2023; (4) Boulet 2024.
 
 *Science rule:* the Introduction never contains your own data or results (no "our audit"). They belong in the Results. A local figure may appear only if it comes from a publication, with its reference.
 

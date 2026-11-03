@@ -54,9 +54,9 @@ Khoảng 2 phút cho mỗi câu hỏi (10 phút), rồi 5 phút cho câu hỏi c
 
 | # | Thiết kế khả thi tốt nhất | Lý do | Điểm yếu chính |
 |---|---|---|---|
-| 1 | **RCT không kém hơn** | Chỉ cần chứng minh "không tệ hơn ở mức không chấp nhận được"; chiến lược có ưu điểm khác (rẻ hơn, ít dịch hơn) | Cần một ngưỡng không kém hơn có lý giải lâm sàng, xác định trước; tuân thủ kém có thể làm hai nhánh trông giống nhau một cách giả tạo |
+| 1 | **RCT không kém hơn** | Câu hỏi chỉ là chiến lược hạn chế dịch có không tệ đến mức không chấp nhận được về tử vong 28 ngày hay không, vì chiến lược hạn chế dịch có ưu điểm khác (rẻ hơn, truyền ít dịch hơn) | Cần một ngưỡng xác định trước và có lý giải lâm sàng. Tuân thủ kém gây bất lợi cho thử nghiệm: nếu nhiều người bệnh ở nhánh hạn chế dịch vẫn được truyền lượng dịch như thường quy, hai nhánh thực chất được chăm sóc giống nhau, kết quả trông giống nhau, và chiến lược hạn chế dịch có thể bị kết luận sai là "không kém hơn" |
 | 2 | **Thử nghiệm ngẫu nhiên theo cụm** (phân bổ ngẫu nhiên các ICU) | Quy trình được triển khai ở cấp đơn vị; phân bổ ngẫu nhiên từng người bệnh sẽ gây "nhiễm chéo" giữa các nhóm | Cần nhiều người bệnh và đơn vị hơn; phân tích phải tính đến cụm; ít cụm dễ mất cân bằng do may rủi |
-| 3 | **Chuỗi thời gian ngắt quãng** (bán thực nghiệm) | Thay đổi đã xảy ra với mọi người; nhiều điểm hằng tháng trước và sau cho phép so sánh với xu hướng sẵn có | Có những thay đổi khác cùng lúc (đồng can thiệp); không phân bổ ngẫu nhiên (tăng cường bằng một chuỗi đối chứng) |
+| 3 | **Chuỗi thời gian ngắt quãng** (bán thực nghiệm) | Gói xử trí đã được áp dụng cho mọi người bệnh, nên không còn phân bổ ngẫu nhiên được nữa: đó là lý do thiết kế này là bán thực nghiệm. Với số liệu tử vong hằng tháng trong 3 năm trước và 2 năm sau, có thể mô hình hóa xu hướng trước khi áp dụng gói và kiểm định xem mức hoặc độ dốc có thay đổi sau đó không. Một so sánh trước-sau đơn giản sẽ bỏ sót trường hợp tử vong vốn đã đang giảm | Những thay đổi khác cùng lúc (nhân sự mới, hướng dẫn mới) có thể giải thích sự thay đổi; không phân bổ ngẫu nhiên. Tăng cường bằng một chuỗi đối chứng, ví dụ một bệnh viện không áp dụng gói |
 | 4 | **Định tính**: phỏng vấn sâu hoặc thảo luận nhóm tập trung với điều dưỡng trực đêm | Câu hỏi "vì sao" về trải nghiệm và thực hành công việc; con số không trả lời được | Kết quả không khái quát hóa dưới dạng con số; phụ thuộc vào kỹ năng người phỏng vấn; mẫu có chủ đích, nhỏ |
 | 5 | **Nghiên cứu thí điểm hoặc nghiên cứu khả thi** | Câu hỏi là "có làm được không?" (tuyển chọn, triển khai, độ đầy đủ của dữ liệu), không phải "có hiệu quả không?" | Không chứng minh được hiệu quả; tiêu chí thành công phải là về tính khả thi |
 
@@ -81,13 +81,13 @@ Khoảng 2 phút cho mỗi câu hỏi (10 phút), rồi 5 phút cho câu hỏi c
 
 ## Phần C: Xây dựng đề cương 3 (nội dung làm mẫu trực tiếp)
 
-Giảng viên điền phần này trên màn hình chia sẻ trong 15 phút đầu, vừa làm vừa nói ra suy nghĩ. Sau đó mỗi học viên viết ba dòng tương tự cho câu hỏi của mình. Không chia nhóm: mỗi học viên tự viết và nộp đề cương của riêng mình.
+Giảng viên điền phần này trên màn hình chia sẻ trong 15 phút đầu, vừa làm vừa nói ra suy nghĩ. Sau đó mỗi học viên viết ba mục tương tự (2.1 đến 2.3) cho câu hỏi của mình. Không chia nhóm: mỗi học viên tự viết và nộp đề cương của riêng mình.
 
 | Mục | Câu trả lời mẫu (phiên bản quan sát của câu hỏi xuyên suốt) |
 |---|---|
-| Thiết kế và lý giải | Thuần tập hồi cứu. Câu hỏi xuyên suốt là về tác động của một chiến lược truyền dịch lên tử vong; RCT là thiết kế lý tưởng nhưng không khả thi với một ICU không có kinh phí. Hồ sơ hiện có ghi lượng dịch vào và ra hằng ngày, điểm độ nặng và kết cục, nên nghiên cứu thuần tập có thể ước tính mối liên quan giữa cân bằng dịch dương và tử vong, và cung cấp độ lớn tác động cho một thử nghiệm trong tương lai. Sẽ nói "có liên quan với", không nói "gây ra". |
-| Bối cảnh | ICU hỗn hợp người lớn của một bệnh viện giảng dạy; người bệnh nhập viện trong 3 năm dương lịch; dữ liệu từ bệnh án điện tử và sổ theo dõi ICU. |
-| Đối tượng | Tiêu chuẩn chọn: từ 18 tuổi trở lên; sốc nhiễm khuẩn (định nghĩa Sepsis-3) khi vào ICU; bắt đầu thuốc vận mạch trong vòng 24 giờ sau khi vào ICU; nằm ICU từ 72 giờ trở lên. Tiêu chuẩn loại trừ: lọc máu mạn tính (không diễn giải được cân bằng dịch); chuyển từ ICU khác sau hơn 24 giờ (dịch truyền sớm không được ghi tại đây); quyết định hạn chế điều trị trong vòng 24 giờ; thiếu phiếu theo dõi dịch ngày 1–3. |
+| 2.1 Thiết kế nghiên cứu và lý giải | Thuần tập hồi cứu. Câu hỏi xuyên suốt là về tác động của một chiến lược truyền dịch lên tử vong; RCT là thiết kế lý tưởng nhưng không khả thi với một ICU không có kinh phí. Hồ sơ hiện có ghi lượng dịch vào và ra hằng ngày, điểm độ nặng và kết cục, nên nghiên cứu thuần tập có thể ước tính mối liên quan giữa cân bằng dịch dương và tử vong, và cung cấp độ lớn tác động cho một thử nghiệm trong tương lai. Sẽ nói "có liên quan với", không nói "gây ra". |
+| 2.2 Bối cảnh | ICU hỗn hợp người lớn của một bệnh viện giảng dạy; người bệnh nhập viện trong 3 năm dương lịch; dữ liệu từ bệnh án điện tử và sổ theo dõi ICU. |
+| 2.3 Đối tượng nghiên cứu | Tiêu chuẩn chọn: từ 18 tuổi trở lên; sốc nhiễm khuẩn (định nghĩa Sepsis-3) khi vào ICU; bắt đầu thuốc vận mạch trong vòng 24 giờ sau khi vào ICU; nằm ICU từ 72 giờ trở lên. Tiêu chuẩn loại trừ: lọc máu mạn tính (không diễn giải được cân bằng dịch); chuyển từ ICU khác sau hơn 24 giờ (dịch truyền sớm không được ghi tại đây); quyết định hạn chế điều trị trong vòng 24 giờ; thiếu phiếu theo dõi dịch ngày 1–3. |
 
 **Các vấn đề thường gặp cần chú ý trong khung chat và trong bản nháp**
 
