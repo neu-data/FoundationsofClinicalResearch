@@ -46,7 +46,7 @@ title: "Session 5: Live-demo script"
 | 10. Impossible values | range checks | age 210, weight 7 kg, a negative fluid output: set to NA + query; patient kept | "We cannot guess 21 or 71. We never delete the patient." |
 | 12. Derived variables | the fluid-balance formula | `cum_fluid_balance_d3_ml_kg`, `positive_balance_d3`, `aki_any` computed | "Derived values are calculated, never typed." |
 | 13. What is left | `colSums(is.na(dat))` | lactate 93 missing, a handful elsewhere | "These are REAL gaps. We handle them in Session 6." |
-| 14. Reproducibility | final `cat()` | `Cleaned data identical to the reference clean file: TRUE` / `byte-for-byte identical: TRUE` | "Anyone can re-run this and get exactly the same data." |
+| 14. Reproducibility | final `cat()` | `Cleaned data identical to the reference clean file: TRUE` | "Anyone can re-run this and get exactly the same data." |
 
 **If short of time:** run Steps 0, 2, 9, 10 and 14 only (4 minutes) and show the cleaning log for the rest.
 

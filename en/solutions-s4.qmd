@@ -15,8 +15,8 @@ Answer key for the Session 4 exercise sheet. Numbers checked with `2x2_calculato
 
 | # | Main bias | Why | One way to reduce it (any of these) |
 |---|---|---|---|
-| 1 | **Recall bias** (a type of information bias) | Families of patients who died search their memory harder than families of survivors, so exposures look more common in cases. | Use exposure data recorded before the outcome was known (charts, prescription records); ask both groups the same structured questions; blind interviewers to case or control status. |
-| 2 | **Observer bias** (information bias) | A soft, judgement-based outcome assessed by someone who knows the group. | Blinded outcome assessor; objective, pre-defined discharge criteria; a harder outcome (e.g. actual days to ICU discharge). |
+| 1 | **Recall bias** (a type of information bias) | Families of patients who died remember better than families of survivors, so exposures look more common in cases. | Use exposure data recorded before the outcome was known (charts, prescription records); ask both groups the same structured questions; blind interviewers to case or control status. |
+| 2 | **Observer bias** (information bias) | A soft, judgement-based outcome assessed by someone who knows which treatment each group received. | Blinded outcome assessor; objective, pre-defined discharge criteria; a harder outcome (e.g. actual days to ICU discharge). |
 | 3 | **Selection bias** | Requiring 3 days in the ICU leaves out the sickest patients who died early (and the mildest who left early); the sample no longer represents all patients with sepsis. This is exactly the limitation of Paper 2 (Hyun). | Include all eligible patients from admission; report how many were excluded and why; state the limitation and who the result applies to. |
 | 4 | **Confounding (by indication)** | Lactate (severity) leads to more fluid AND independently predicts death. The crude association overstates (or creates) the effect of fluid. | Randomise; or measure severity at baseline (lactate, SOFA score, vasopressor dose) and restrict, match or adjust; say "associated with", not "increases". |
 

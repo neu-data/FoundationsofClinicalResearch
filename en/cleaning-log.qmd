@@ -13,7 +13,7 @@ title: "Cleaning log"
 | **Raw file** | `fluid_icu_raw.csv` (identical content in `fluid_icu_raw.xlsx`): 623 rows, 29 columns, as received from ICU A-D |
 | **Clean file** | `fluid_icu_clean.csv` / `.rds`: 620 patients, 32 variables |
 | **Cleaning script** | `R/01_clean.R` (each step below is one block of the script) |
-| **Check** | The script rebuilds the clean file from the raw file and confirms it is identical, value for value and byte for byte |
+| **Check** | The script rebuilds the clean file from the raw file and confirms the data are identical, value for value (the CSV file itself may differ in formatting) |
 | **Rule** | The raw file is never edited. Every change is made by the script and written down here. |
 
 ## Problems found and what we did

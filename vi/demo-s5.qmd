@@ -46,7 +46,7 @@ title: "Buổi 5: Kịch bản trình diễn"
 | 10. Giá trị vô lý | kiểm tra khoảng giá trị | tuổi 210, cân nặng 7 kg, lượng dịch ra âm: đặt là NA và gửi câu hỏi xác minh; vẫn giữ người bệnh | "Không thể đoán là 21 hay 71. Không bao giờ xóa người bệnh." |
 | 12. Biến dẫn xuất | công thức cân bằng dịch | tính `cum_fluid_balance_d3_ml_kg`, `positive_balance_d3`, `aki_any` | "Giá trị dẫn xuất được tính ra, không bao giờ gõ tay." |
 | 13. Phần còn lại | `colSums(is.na(dat))` | lactat thiếu 93, rải rác vài giá trị thiếu ở biến khác | "Đây là những khoảng trống THẬT. Buổi 6 sẽ xử lý chúng." |
-| 14. Tính tái lập | lệnh `cat()` cuối cùng | `Cleaned data identical to the reference clean file: TRUE` / `byte-for-byte identical: TRUE` | "Ai cũng có thể chạy lại và được đúng dữ liệu này." |
+| 14. Tính tái lập | lệnh `cat()` cuối cùng | `Cleaned data identical to the reference clean file: TRUE` | "Ai cũng có thể chạy lại và được đúng dữ liệu này." |
 
 **Nếu thiếu thời gian:** chỉ chạy các Bước 0, 2, 9, 10 và 14 (4 phút) và cho xem nhật ký làm sạch cho phần còn lại.
 

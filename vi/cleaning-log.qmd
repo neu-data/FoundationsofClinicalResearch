@@ -15,7 +15,7 @@ title: "Nhật ký làm sạch"
 | **Tệp thô** | `fluid_icu_raw.csv` (nội dung giống hệt trong `fluid_icu_raw.xlsx`): 623 dòng, 29 cột, đúng như nhận từ ICU A-D |
 | **Tệp sạch** | `fluid_icu_clean.csv` / `.rds`: 620 người bệnh, 32 biến |
 | **Script làm sạch** | `R/01_clean.R` (mỗi bước dưới đây là một khối lệnh của script) |
-| **Kiểm tra** | Script dựng lại tệp sạch từ tệp thô và xác nhận kết quả giống hệt, từng giá trị và từng byte |
+| **Kiểm tra** | Script dựng lại tệp sạch từ tệp thô và xác nhận dữ liệu giống hệt, từng giá trị (bản thân tệp CSV có thể khác về định dạng) |
 | **Quy tắc** | Không bao giờ sửa tệp thô. Mọi thay đổi đều do script thực hiện và được ghi lại ở đây. |
 
 ## Các vấn đề phát hiện và cách đã xử lý
