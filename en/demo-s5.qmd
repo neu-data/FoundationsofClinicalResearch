@@ -23,7 +23,7 @@ title: "Session 5: Live-demo script"
 - [ ] R (4.x) and RStudio installed on the laptop you will screen-share from; packages: tidyverse, janitor, gtsummary, flextable, survival, survminer, mice, broom.
 - [ ] Open `FLUID-ICU/FLUID-ICU.Rproj` (sets the working folder). Run `01_clean.R` and `02_describe.R` once end to end. Both must finish without error.
 - [ ] Increase the editor and console font (Tools, Global Options, Appearance: 18 to 20 pt) so participants can read it on a small screen. Share only the RStudio window.
-- [ ] Keep the fallback figures open in an image viewer: `Course/Resources/figures/en/data/` (`raw_vs_clean.png`, `table1_snapshot.png`, `fluid_balance_hist.png`, `sofa_by_group.png`, `los_skewed.png`) and `FLUID-ICU/output/figures/`.
+- [ ] Keep the fallback figures open in an image viewer: `raw_vs_clean.png` and `table1_snapshot.png` in `Course/Resources/figures/en/data/`, and the five figures that `02_describe.R` saves in `FLUID-ICU/output/figures/` (`fig_shape_age_lactate.png`, `fig_fluid_balance_hist.png`, `fig_sofa_by_group.png`, `fig_infection_source.png`, `fig_los_survivors.png`). The slides of 5.4 show the same figures.
 - [ ] Open `FLUID-ICU/cleaning_log.md` and `data_dictionary.md` in a browser tab: you will show them.
 
 **Rules of the demo:** run one block at a time (Ctrl+Enter). Before each block, ask the class *"what do you expect?"* and read two or three chat answers After it, say *what was fixed and that it goes in the log*. Never type new code live, because the scripts are complete.
@@ -60,12 +60,13 @@ title: "Session 5: Live-demo script"
 | Block | What you show | Expected output (key_results.md) | Say |
 |---|---|---|---|
 | 1. Load | `dim(icu)`, `count(positive_balance_d3)` | 620 patients, positive balance **373/618 (60.4%)**, 2 without a balance | "618, not 620: two patients have no computable balance." |
-| 2. Shape first | mean/SD of age, median/IQR of lactate; quick histograms | age mean **62.6 (SD 15.2)**, lactate skewed | "Symmetric: mean (SD). Skewed: median (IQR)." |
+| 2. Shape first | 2a: histograms of age and lactate. 2b: mean next to median for each. 2c: the summary that fits | age bell-shaped, mean 62.6 close to median 62. Lactate with a long right tail, mean 2.9 above median 2.6. Then age **62.6 (SD 15.2)**, lactate **2.6 (IQR 1.7 to 3.7)** | "Look first, then choose. Symmetric: mean (SD). Skewed: median (IQR)." |
 | 3. Table 1 | the gtsummary table by group | negative n = 245, positive n = 373; SOFA **6 (4 to 8) vs 8 (6 to 10)**; vasopressor **24.9% vs 55.0%**; ventilation **39.6% vs 57.9%**; lactate **2.2 vs 2.9** mmol/L; heart failure **22.0% vs 11.5%**; missing counts shown; **no p-values** | "Were the groups alike at the start? No: the positive group was sicker." |
-| 4. Histogram | fluid balance by group | median **8.8 ml/kg (IQR -10.3 to 26.2)** | "Continuous exposure, cut at 0." |
-| 5. Boxplot | SOFA by group, with dots | medians 6 vs 8 | "Show every patient." |
+| 4. Histogram | fluid balance by group, with the median and IQR drawn on it | `fb_q` prints the quartiles. On the plot: the black line is the median, **8.8 ml/kg**, the grey band the IQR, **-10.3 to 26.2**, the dashed line the cut at 0 | "Continuous exposure, cut at 0." |
+| 5. Boxplot | SOFA by group, one dot per patient | `sofa_med` prints the medians. On the plot: **median 6** and **median 8** written next to each box, n under each group | "Show every patient." |
 | 6. Bar chart | infection source, sorted | respiratory most common | "Categories: sorted bars, not a 3-D pie." |
-| 7. Outcomes | described, not compared | 28-day mortality **179/620 (28.9%)**, ICU stay mean 7.3 vs median 6.0 days | "Described today, compared next Saturday." |
+| 7. ICU stay histogram | the 439 survivors with a balance (Q5) | median **6.2**, mean **7.5** days, both drawn on the plot | "A few long stays pull the mean up: report the median." |
+| 8. Outcomes | described, not compared | 28-day mortality **179/620 (28.9%)**, ICU stay in all 620 patients mean 7.3 vs median 6.0 days | "Described today, compared next Saturday." |
 
 **Close Part B:** *"This Table 1 is in every results pack, Q1 to Q5. Now we read it together as a reviewer would."* Then move to the whole-class reading of Table 1 (Exercise 6).
 
@@ -76,9 +77,9 @@ title: "Session 5: Live-demo script"
 
 | Problem | Do this |
 |---|---|
-| R or a package fails | Show `raw_vs_clean.png` and talk through the problems (Part A); show `table1_snapshot.png`, `fluid_balance_hist.png`, `sofa_by_group.png` (Part B). Teaching points are identical. |
+| R or a package fails | Show `raw_vs_clean.png` and talk through the problems (Part A). For Part B, show `table1_snapshot.png` and the figures in `FLUID-ICU/output/figures/`, or simply the four result slides of 5.4. Teaching points are identical. |
 | Screen sharing does not show RStudio legibly | Use the PNG figures and `cleaning_log.md` in a browser at 150% zoom. |
-| Running late | Part A: Steps 0, 2, 9, 10, 14. Part B: blocks 3 and 5 only. |
+| Running late | Part A: Steps 0, 2, 9, 10, 14. Part B: blocks 2, 3 and 5 only. |
 | A participant asks to run it themselves | Point to `FLUID-ICU/README.md` and the free *Clinical Data Analysis in R* course, and offer to help after the session. |
 
 ## Anticipated questions

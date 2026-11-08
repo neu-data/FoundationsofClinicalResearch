@@ -23,7 +23,7 @@ title: "Buổi 5: Kịch bản trình diễn"
 - [ ] Đã cài R (4.x) và RStudio trên máy tính dùng để chia sẻ màn hình; các gói: tidyverse, janitor, gtsummary, flextable, survival, survminer, mice, broom.
 - [ ] Mở `FLUID-ICU/FLUID-ICU.Rproj` (đặt thư mục làm việc). Chạy trọn `01_clean.R` và `02_describe.R` một lần từ đầu đến cuối. Cả hai phải chạy xong không lỗi.
 - [ ] Tăng cỡ chữ của cửa sổ soạn thảo và cửa sổ console (Tools, Global Options, Appearance: 18 đến 20 pt) để học viên đọc được trên màn hình nhỏ. Chỉ chia sẻ cửa sổ RStudio.
-- [ ] Mở sẵn các hình dự phòng trong trình xem ảnh: `Course/Resources/figures/vi/data/` (`raw_vs_clean.png`, `table1_snapshot.png`, `fluid_balance_hist.png`, `sofa_by_group.png`, `los_skewed.png`; bản tiếng Anh ở `Course/Resources/figures/en/data/`) và `FLUID-ICU/output/figures/`.
+- [ ] Mở sẵn các hình dự phòng trong trình xem ảnh: `raw_vs_clean.png` và `table1_snapshot.png` trong `Course/Resources/figures/vi/data/`, và năm hình mà `02_describe.R` lưu trong `FLUID-ICU/output/figures/` (`fig_shape_age_lactate.png`, `fig_fluid_balance_hist.png`, `fig_sofa_by_group.png`, `fig_infection_source.png`, `fig_los_survivors.png`). Các trang của 5.4 cho thấy đúng các hình này.
 - [ ] Mở `FLUID-ICU/cleaning_log.md` và `data_dictionary.md` trong một thẻ trình duyệt: giảng viên sẽ cho lớp xem hai tệp này.
 
 **Quy tắc khi trình diễn:** chạy từng khối một (Ctrl+Enter). Trước mỗi khối, hỏi cả lớp *"anh chị dự đoán sẽ thấy gì?"* và đọc hai hoặc ba câu trả lời trong khung chat. Sau mỗi khối, nói *vấn đề nào vừa được sửa và việc sửa đó được ghi vào nhật ký*. Không bao giờ gõ code mới trực tiếp, vì các script đã hoàn chỉnh.
@@ -60,12 +60,13 @@ title: "Buổi 5: Kịch bản trình diễn"
 | Khối | Cho lớp xem | Kết quả dự kiến (key_results.md) | Nói |
 |---|---|---|---|
 | 1. Nạp dữ liệu | `dim(icu)`, `count(positive_balance_d3)` | 620 người bệnh, cân bằng dịch dương **373/618 (60.4%)**, 2 người không có giá trị cân bằng dịch | "618, không phải 620: hai người bệnh không tính được cân bằng dịch." |
-| 2. Xem hình dạng trước | trung bình/SD của tuổi, trung vị/IQR của lactat; biểu đồ tần suất nhanh | tuổi trung bình **62.6 (SD 15.2)**, lactat lệch | "Đối xứng: trung bình (SD). Lệch: trung vị (IQR)." |
+| 2. Xem hình dạng trước | 2a: biểu đồ tần suất của tuổi và lactat. 2b: trung bình cạnh trung vị cho từng biến. 2c: cách tóm tắt phù hợp | tuổi hình chuông, trung bình 62.6 gần trung vị 62. Lactat có đuôi dài bên phải, trung bình 2.9 cao hơn trung vị 2.6. Sau đó tuổi **62.6 (SD 15.2)**, lactat **2.6 (IQR 1.7 đến 3.7)** | "Nhìn trước, rồi mới chọn. Đối xứng: trung bình (SD). Lệch: trung vị (IQR)." |
 | 3. Bảng 1 | bảng gtsummary theo nhóm | nhóm âm n = 245, nhóm dương n = 373; SOFA **6 (4 đến 8) so với 8 (6 đến 10)**; thuốc vận mạch **24.9% so với 55.0%**; thở máy **39.6% so với 57.9%**; lactat **2.2 so với 2.9** mmol/L; suy tim **22.0% so với 11.5%**; có hiển thị số thiếu; **không có giá trị p** | "Lúc ban đầu các nhóm có giống nhau không? Không: nhóm dương nặng hơn." |
-| 4. Biểu đồ tần suất | cân bằng dịch theo nhóm | trung vị **8.8 ml/kg (IQR -10.3 đến 26.2)** | "Phơi nhiễm liên tục, cắt tại 0." |
-| 5. Biểu đồ hộp | SOFA theo nhóm, có chấm điểm | trung vị 6 so với 8 | "Cho thấy từng người bệnh." |
+| 4. Biểu đồ tần suất | cân bằng dịch theo nhóm, có vẽ trung vị và IQR | `fb_q` in ra các tứ phân vị. Trên hình: đường đen là trung vị, **8.8 ml/kg**, vùng xám là IQR, **-10.3 đến 26.2**, đường đứt nét là điểm cắt tại 0 | "Phơi nhiễm liên tục, cắt tại 0." |
+| 5. Biểu đồ hộp | SOFA theo nhóm, mỗi chấm là một người bệnh | `sofa_med` in ra các trung vị. Trên hình: **median 6** và **median 8** ghi cạnh mỗi hộp, n dưới mỗi nhóm | "Cho thấy từng người bệnh." |
 | 6. Biểu đồ cột | nguồn nhiễm khuẩn, đã sắp xếp | hô hấp thường gặp nhất | "Biến phân loại: cột đã sắp xếp, không dùng biểu đồ tròn 3-D." |
-| 7. Kết cục | mô tả, chưa so sánh | tử vong 28 ngày **179/620 (28.9%)**, thời gian nằm ICU trung bình 7.3 so với trung vị 6.0 ngày | "Hôm nay mô tả, thứ Bảy tới mới so sánh." |
+| 7. Biểu đồ thời gian nằm ICU | 439 người sống sót có giá trị cân bằng dịch (Q5) | trung vị **6.2**, trung bình **7.5** ngày, cả hai được vẽ trên hình | "Vài ca nằm rất lâu kéo trung bình lên: hãy báo cáo trung vị." |
+| 8. Kết cục | mô tả, chưa so sánh | tử vong 28 ngày **179/620 (28.9%)**, thời gian nằm ICU ở cả 620 người bệnh trung bình 7.3 so với trung vị 6.0 ngày | "Hôm nay mô tả, thứ Bảy tới mới so sánh." |
 
 **Kết thúc Phần B:** *"Bảng 1 này có trong mọi gói kết quả, từ Q1 đến Q5. Giờ cả lớp cùng đọc nó như một người phản biện."* Sau đó chuyển sang phần cả lớp cùng đọc Bảng 1 (Bài tập 6).
 
@@ -76,9 +77,9 @@ title: "Buổi 5: Kịch bản trình diễn"
 
 | Sự cố | Cách xử lý |
 |---|---|
-| R hoặc một gói bị lỗi | Chiếu `raw_vs_clean.png` và giải thích các vấn đề (Phần A); chiếu `table1_snapshot.png`, `fluid_balance_hist.png`, `sofa_by_group.png` (Phần B). Các ý giảng dạy giữ nguyên. |
+| R hoặc một gói bị lỗi | Chiếu `raw_vs_clean.png` và giải thích các vấn đề (Phần A). Với Phần B, chiếu `table1_snapshot.png` và các hình trong `FLUID-ICU/output/figures/`, hoặc chỉ cần bốn trang kết quả của 5.4. Các ý giảng dạy giữ nguyên. |
 | Chia sẻ màn hình không hiển thị RStudio đủ rõ | Dùng các hình PNG và `cleaning_log.md` trong trình duyệt với mức thu phóng 150%. |
-| Bị trễ giờ | Phần A: Bước 0, 2, 9, 10, 14. Phần B: chỉ khối 3 và 5. |
+| Bị trễ giờ | Phần A: Bước 0, 2, 9, 10, 14. Phần B: chỉ khối 2, 3 và 5. |
 | Một học viên muốn tự chạy | Giới thiệu `FLUID-ICU/README.md` (bản tiếng Việt: `FLUID-ICU/README_VN.md`) và khóa học miễn phí *Clinical Data Analysis in R*, và đề nghị hỗ trợ sau buổi học. |
 
 ## Các câu hỏi có thể gặp

@@ -59,7 +59,7 @@ Download: [Word](files/data/results_packs/Results_Pack_Q4.docx) · [PDF](files/d
 |Cumulative fluid balance day 3, ml/kg |8.8 (-10.3, 26.2) |4.0 (-12.6, 22.7)            |18.4 (-0.3, 35.9)        |
 |&emsp;Missing                         |2                 |2                            |0                        |
 
-*Mean (SD); n (%); median (Q1, Q3). Missing = number of patients without that value.*
+*Mean (SD); n (%); median (Q1, Q3). Missing = number of patients without that value. Table 1 describes the patients at ICU admission only. The outcomes, such as 28-day death, are in the main results.*
 
 Files: `tables/table1_by_survival.csv` and `tables/table1_by_survival.docx`
 

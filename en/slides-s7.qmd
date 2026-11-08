@@ -49,13 +49,11 @@ QUICK QUIZ · 8 min
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#6C3483"}
-Answers
+How we run it
 
-- Confounding: part of the crude link came from severity
-- No: the CI includes 1
-- Complete-case analysis, or multiple imputation with a sensitivity analysis
-- Left the study alive. Outcome unknown after that
-- From your results pack
+- Answer in the poll
+- Results on screen, then the answer
+- One volunteer explains why
 :::
 :::
 ::::
@@ -67,7 +65,11 @@ Answers
 ::: {.notes}
 Recap (19:30-19:40). Start with two or three Session 6 exit answers.
 
-Questions 1-4: 30 seconds each, call on two or three people, then reveal. Question 1 leads to today: the Results report both crude and adjusted estimates.
+Questions 1-4: 30 seconds each in the poll. Show the results, then the answer, and ask one volunteer why.
+
+Answers: 1 confounding, part of the crude link came from severity. 2 no, the CI includes 1. 3 complete-case analysis, or multiple imputation with a sensitivity analysis. 4 the patient left the study alive, and the outcome after that is unknown.
+
+Question 1 leads to today: the Results report both crude and adjusted estimates.
 
 Question 5 in the chat: the main result of the question each person chose. Anyone without a question chooses one now.
 :::
@@ -436,7 +438,7 @@ Walk each patient through the flowchart on the previous slide.
 :::
 
 ::: {.notes}
-Call on someone for each patient before revealing.
+For each patient, call on someone to walk them through the flowchart.
 
 Mr A: consents himself. Mrs B: the representative consents, ask her when she can decide. Mr C: deferred consent, only if approved.
 
@@ -1041,7 +1043,7 @@ Methods say what you did. If a colleague could not redo the study from it, add d
 ::: {.notes}
 Methods: enough detail to repeat the study, in STROBE order.
 
-Good: Paper 1 describes its intervention well enough to replicate. To fix: Paper 2 never says how missing covariates were handled.
+Good: Paper 1 describes its intervention well enough to replicate. To fix: Paper 2 gives no sample-size statement.
 
 For FLUID-ICU, all the facts are in the results pack, the SAP and the data dictionary.
 :::
@@ -1158,9 +1160,11 @@ Poll: which item asks for crude and adjusted estimates? Expected: 16.
 :::
 
 ::: {.notes}
-A table must stand alone: a title that says what, who and when, n per column, units and summary per row, footnotes for abbreviations and missing data.
+The example is Paper 1's Table 1, rebuilt. A table must stand alone: a title that says what, in whom and when, n in every column header, units and summary in each row, footnotes for abbreviations. No p-values in an RCT's Table 1.
 
-Errors in the papers: wrong units (Paper 1), no numbers at risk under a Kaplan-Meier curve (Paper 2).
+Errors in the papers: sodium printed in the wrong unit, a copy-pasted row and wrong figure call-outs (Paper 1), units written '\* 10\^3/L' (Paper 2).
+
+Figures need a legend that stands alone and numbers at risk under Kaplan-Meier curves.
 
 Ask: what is wrong with a table titled 'Results'?
 :::
@@ -1246,19 +1250,19 @@ QUICK QUIZ · 3 min
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#6C3483"}
-Answers
+Choose
 
 - Methods
-- Results (participants)
-- Discussion (explains)
-- Methods (how) and Results (how many)
 - Results
+- Discussion
 :::
 :::
 ::::
 
 ::: {.notes}
 Check (21:32-21:35). One poll per sentence.
+
+Answers: 1 Methods, it says how we analysed. 2 Results, it reports the participants. 3 Discussion, it explains. 4 Methods and Results. 5 Results, an estimate with its CI.
 
 Sentence 4 is the trick: how missing data were handled is Methods, how many were missing is Results.
 
@@ -1380,7 +1384,7 @@ Full glossary (English-Vietnamese): the PDF sent by email
 :::
 
 ::: {.notes}
-Key words (22:20-22:22). Show the term, call on someone to explain it, then reveal.
+Key words (22:20-22:22). Read each term, call on someone to explain it, then read the plain-words column.
 :::
 
 ## Peer review: your reviewer and your deadlines
@@ -1473,18 +1477,20 @@ QUICK QUIZ · 2 min
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#6C3483"}
-Answers
+Choose
 
-- Must: a trial registry, before patient 1
-- Should: PROSPERO
-- Recommended, not required
-- Audit: no research registration, local approval
+- Must register
+- Should register
+- Recommended
+- Not needed
 :::
 :::
 ::::
 
 ::: {.notes}
-Extra check. One poll per scenario: must, should or not needed.
+Extra check. One poll per scenario.
+
+Answers: 1 must, in a trial registry before patient 1. 2 should, on PROSPERO. 3 recommended, not required. 4 not needed: an audit needs local approval, not a research registry.
 
 Scenario 4: an audit goes through the quality office, not a registry. To publish it as research, ask the ethics committee first.
 :::

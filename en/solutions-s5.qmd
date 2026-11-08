@@ -106,17 +106,28 @@ All numbers from `Results_Pack_Q1–Q5` (simulated data).
 
 ## Exercise 7: [FLUID-ICU] A FLUID-ICU question as a PECO sentence
 
-In class, everyone does Q1 alone, then a few people read their sentence. Participants redo it after choosing their own question at the end of Session 6.
+In class, everyone fills in the table for Q1 alone, then a few people read their sentence. Participants fill it in again after choosing their own question at the end of Session 6.
 
-| Q | Outcome (type) | Exposure (type) | Planned comparison / model |
+**The table for Q1**
+
+| | Model answer |
+|---|---|
+| The question (Q1 to Q5), copied from page 1 of its results pack | Q1: In adults with sepsis in the ICU, is a positive cumulative fluid balance by day 3 associated with higher 28-day mortality? |
+| **P**: population | Adults with sepsis admitted to one of the four ICUs |
+| **E**: exposure (variable name in the data dictionary) and its type | Positive fluid balance by day 3, `positive_balance_d3` (binary). It is derived from `cum_fluid_balance_d3_ml_kg` (continuous) |
+| **C**: comparator | A negative or zero fluid balance by day 3 |
+| **O**: outcome (variable name) and its type | Death from any cause by day 28, `died_28d` (binary). Also time to death, `time_to_event_28d` (time-to-event) |
+| One-sentence research question | "In adults with sepsis admitted to the ICU, is a positive cumulative fluid balance by day 3, compared with a negative balance, associated with higher 28-day mortality?" |
+| Which test will compare the groups? Which model will adjust? | Chi-square test for the crude comparison. Logistic regression to adjust. Kaplan-Meier and Cox regression for time to death |
+
+**When you redo the table for your own question (Q2 to Q5)**
+
+| Q | E: exposure (type) | O: outcome (type) | Test, then model |
 |---|---|---|---|
-| Q1 | Death by day 28 (binary; also time-to-event) | Positive balance by day 3 (binary) | Chi-square; logistic regression; Kaplan–Meier + Cox |
-| Q2 | AKI, KDIGO ≥ 1 (binary) | Cumulative balance, ml/kg (continuous, per 10 ml/kg) | Chi-square by group; logistic regression |
-| Q3 | Ventilator-free days to day 28 (count 0–28, skewed, piled at 0 and 28) | Cumulative balance (continuous) | Mann–Whitney; linear regression |
-| Q4 | Death by day 28 (binary) | Lactate at admission, mmol/L (continuous, 15% missing) | Logistic regression; complete case vs multiple imputation |
-| Q5 | ICU length of stay in survivors (continuous, right-skewed) | Positive balance (binary) | Mann–Whitney; linear regression on log scale |
-
-Example (Q1): "In adults with sepsis admitted to the ICU, is a positive cumulative fluid balance by day 3, compared with a negative balance, associated with higher 28-day mortality?"
+| Q2 | Cumulative balance, `cum_fluid_balance_d3_ml_kg` (continuous, per 10 ml/kg) | AKI, KDIGO stage 1 or more, `aki_any` (binary) | Chi-square by group, then logistic regression |
+| Q3 | Cumulative balance (continuous) | Ventilator-free days to day 28, `vent_free_days_28` (count 0 to 28, skewed, piled at 0 and 28) | Mann-Whitney, then linear regression |
+| Q4 | Lactate at admission, `lactate_mmol_l`, mmol/L (continuous, 15% missing) | Death by day 28, `died_28d` (binary) | Logistic regression, complete case and multiple imputation |
+| Q5 | Positive balance, `positive_balance_d3` (binary) | ICU length of stay in survivors, `icu_los_days` (continuous, right-skewed) | Mann-Whitney, then linear regression on the log scale |
 
 
 * * *

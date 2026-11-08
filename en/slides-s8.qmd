@@ -47,11 +47,11 @@ QUICK QUIZ · 5 min
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#6C3483"}
-Answers
+How we run it
 
-- The legal representative (or deferred consent, if the committee approved it)
-- Item 16 (main results)
-- Discussion, not Results
+- Answer in the poll
+- Results on screen, then the answer
+- One volunteer explains why
 :::
 :::
 ::::
@@ -61,7 +61,9 @@ Answers
 :::
 
 ::: {.notes}
-Recap (19:30-19:35). 2 minutes: everyone answers alone. Then one poll per question. Question 1 was the exit question of Session 7: call on two or three people to read their answer.
+Recap (19:30-19:35). 2 minutes: everyone answers alone. Then one poll per question. Show the results, then the answer. Question 1 was the exit question of Session 7: call on two or three people to read their answer.
+
+Answers: Q1, the legal representative, or deferred consent if the ethics committee approved it. The patient cannot consent. Q2, item 16 (main results), which asks for crude and adjusted estimates with their CIs. Q3, the Discussion, not the Results. The sentence explains a finding instead of reporting it.
 
 Question 3 leads into 8.1: the Discussion is where interpretation lives.
 :::
@@ -156,12 +158,12 @@ QUICK QUIZ · 2 min
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#6C3483"}
-Answers
+Choose
 
 - Paragraph 1: known
 - Paragraph 2: not known
 - Paragraph 3: aim
-- Not in the Introduction: your own results go in the Results
+- Not in the Introduction
 :::
 :::
 ::::
@@ -173,7 +175,7 @@ Answers
 ::: {.notes}
 Check (2 minutes). 1 minute alone, then one poll per sentence: known, not known, aim, or not in the Introduction. Call on one or two people to explain sentence 4.
 
-Sentence 4 is the trap: your own results never go in the Introduction.
+Answers: 1, known (paragraph 1): it is established practice. 2, not known (paragraph 2): it names the gap. 3, aim (paragraph 3): it states what we examined. 4, not in the Introduction: it is our own result, so it goes in the Results. Sentence 4 is the trap.
 :::
 
 ## Discussion: six moves
@@ -223,7 +225,7 @@ Sentence 4 is the trap: your own results never go in the Introduction.
 ::: {.notes}
 Six moves in order: answer, compare, explain, limitations with their direction, implications, conclusion.
 
-Paper 1 answers in its first sentence. Paper 2 misses survivor bias in its limitations.
+Paper 1 answers in its first sentence (p.8) and names control-group contamination as a limitation.
 
 Poll: which move do first-time writers skip? Expected: the direction of each limitation.
 :::
@@ -244,7 +246,7 @@ Six moves, one sentence each (simulated data).
 ::: {.notes}
 Six moves, one sentence each, numbers from results pack Q1 (simulated).
 
-The heart-failure interaction (OR 4.39 vs 1.29) is a hypothesis, not a finding.
+Move 4 gives the direction: residual confounding and reverse causation would make the association look bigger.
 
 The conclusion uses the same verb as the aim and the title: 'associated with'.
 :::
@@ -332,12 +334,10 @@ QUICK QUIZ · 2 min
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#6C3483"}
-Better
+Choose
 
-- '... was associated with ...'
-- '... was associated with higher odds of AKI'
-- 'HR 1.46 (1.00 to 2.13): the CI reaches 1'
-- Fine for prediction. For cause, 'associated with'
+- Fine
+- Fix
 :::
 :::
 ::::
@@ -349,7 +349,7 @@ Better
 ::: {.notes}
 Check (2 minutes). 1 minute alone, then one poll per sentence: 'fine' or 'fix'. Call on two or three people for the fix.
 
-Sentence 3: no 'trend', give the estimate and say the CI reaches 1. Sentence 4: 'predicts' is fine for prediction.
+Fixes: 1, fix: 'was associated with higher mortality', because a cohort cannot show cause. 2, fix: 'was associated with higher odds of AKI'. 3, fix: no 'trend', give HR 1.46 (1.00 to 2.13) and say the CI reaches 1. 4, fine for prediction. If the claim is about cause, use 'associated with'.
 :::
 
 ## The structured abstract: the shop window
@@ -410,12 +410,11 @@ QUICK QUIZ · 2 min
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#6C3483"}
-Better
+Check each sentence
 
-- Add design, setting, participants, exposure, outcome
-- Give n, %, and the OR with its 95% CI
-- 'was associated with': it is a cohort
-- Give the main numbers: the abstract must stand alone
+- Are the design, setting and participants stated?
+- Are the numbers given, with a 95% CI?
+- Does the verb match the design?
 :::
 :::
 ::::
@@ -426,6 +425,8 @@ Better
 
 ::: {.notes}
 Check (2 minutes). 1 minute alone, then call on one or two people per sentence for the fix.
+
+Fixes: 1, add the design, setting, participants, exposure and outcome. 2, give n, % and the OR with its 95% CI instead of 'significantly'. 3, say 'was associated with', because it is a cohort. 4, give the main numbers, because the abstract must stand alone.
 
 Every number in the abstract must match the Results.
 :::
@@ -884,13 +885,10 @@ QUICK QUIZ · 2 min
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#6C3483"}
-Answers
+Choose
 
-- Often: check it twice
-- False: duplicate submission
-- False: posted before peer review
-- True: politely, with evidence
-- False: STROBE (cohort)
+- True
+- False
 :::
 :::
 ::::
@@ -902,7 +900,7 @@ Answers
 ::: {.notes}
 Check (20:48-20:50). 1 minute alone, then one true/false poll each. Call on one or two people to explain statement 1.
 
-Statement 1 is 'often true'. Statement 3: a preprint is posted before peer review.
+Answers: 1, often true: many predatory journals write first, so check it twice. 2, false: that is duplicate submission. 3, false: a preprint is posted before peer review. 4, true: answer every point, politely and with evidence. 5, false: FLUID-ICU is a cohort, so it follows STROBE.
 :::
 
 ---
@@ -973,7 +971,9 @@ Same clinical question (fluids in septic shock), two designs. Both PDFs were sen
 ::: {.notes}
 Set-up (1 minute): same clinical question, two designs, the same 10 questions.
 
-Each participant fills in their own answer grid (Part D): Yes, No or Can't tell, plus the page.
+Paper 1: a pilot trial of 48 patients, with fluid balance on day 5 as the outcome. Paper 2: a matched cohort of 2516 patients, with 28-day mortality as the outcome.
+
+Ask everyone to open both PDFs now.
 :::
 
 ## The 10-question checklist (1-5)
@@ -1144,7 +1144,7 @@ RCT = randomised controlled trial. Pages and details: the trainers' appraisal gu
 ::: {.notes}
 Reveal this table only after the class has answered.
 
-Four messages: design sets the verb, a wide CI means 'we don't know yet', published is not the same as correct, name the reporting guideline.
+Three messages: design sets the verb, a wide CI means 'we don't know yet', and published is not the same as correct.
 
 Transition: 'Now some of your own proposals.'
 :::
@@ -1185,8 +1185,6 @@ Written proposal (criteria 1-11, /70): everyone. Criteria 12-16 (/30): presenter
 
 ::: {.notes}
 The written proposal is scored for everyone after the course. Criteria 12-16 score the presentation, for presenters only. Presenting does not lower the score.
-
-Feedback in 2 minutes: two people give two strengths and one suggestion, then the instructor, then the presenter says thank you.
 :::
 
 ## Proposal presentations
@@ -1227,7 +1225,7 @@ Slides: title, problem and PICO, design, data and analysis, ethics and feasibili
 
 Feedback (2 minutes): call on two people for two strengths and one suggestion (microphone on), then give yours.
 
-Feedback: a genuine strength, the most important improvement, one question if time allows. Check slide 6: journal, guideline, a calibrated title, author roles.
+Your feedback: a genuine strength, the most important improvement, one question if time allows. Check slide 6: journal, guideline, a calibrated title, author roles.
 
 If late, shorten the closing round, never the last talks. At 22:15 move to the closing.
 :::

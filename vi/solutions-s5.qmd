@@ -106,17 +106,28 @@ Mọi con số từ `FLUID-ICU/key_results.md` (dữ liệu mô phỏng).
 
 ## Bài tập 7: [FLUID-ICU] Một câu hỏi FLUID-ICU dưới dạng câu PECO
 
-Trên lớp, mỗi người tự làm Q1, rồi vài người đọc câu của mình. Học viên làm lại sau khi chọn câu hỏi của mình vào cuối Buổi 6.
+Trên lớp, mỗi người tự điền bảng cho Q1, rồi vài người đọc câu của mình. Học viên điền lại bảng sau khi chọn câu hỏi của mình vào cuối Buổi 6.
 
-| Q | Kết cục (loại) | Phơi nhiễm (loại) | Phép so sánh / mô hình dự kiến |
+**Bảng cho Q1**
+
+| | Đáp án mẫu |
+|---|---|
+| Câu hỏi (Q1 đến Q5), chép từ trang 1 của gói kết quả | Q1: Ở người lớn bị sepsis trong ICU, cân bằng dịch tích lũy dương đến ngày 3 có liên quan với tử vong 28 ngày cao hơn không? |
+| **P**: đối tượng | Người lớn bị sepsis nhập một trong bốn ICU |
+| **E**: phơi nhiễm (tên biến trong từ điển dữ liệu) và loại biến | Cân bằng dịch dương đến ngày 3, `positive_balance_d3` (nhị phân). Biến này được tính từ `cum_fluid_balance_d3_ml_kg` (liên tục) |
+| **C**: nhóm so sánh | Cân bằng dịch âm hoặc bằng 0 đến ngày 3 |
+| **O**: kết cục (tên biến) và loại biến | Tử vong do mọi nguyên nhân trước ngày 28, `died_28d` (nhị phân). Thêm thời gian đến tử vong, `time_to_event_28d` (thời gian đến sự kiện) |
+| Câu hỏi nghiên cứu viết thành một câu | "Ở người lớn bị sepsis vào ICU, cân bằng dịch tích lũy dương đến ngày 3, so với cân bằng dịch âm, có liên quan với tử vong 28 ngày cao hơn không?" |
+| Kiểm định nào sẽ so sánh các nhóm? Mô hình nào sẽ hiệu chỉnh? | Kiểm định khi bình phương cho so sánh thô. Hồi quy logistic để hiệu chỉnh. Kaplan-Meier và hồi quy Cox cho thời gian đến tử vong |
+
+**Khi điền lại bảng cho câu hỏi của bạn (Q2 đến Q5)**
+
+| Q | E: phơi nhiễm (loại) | O: kết cục (loại) | Kiểm định, rồi mô hình |
 |---|---|---|---|
-| Q1 | Tử vong trước ngày 28 (nhị phân; cũng là thời gian đến biến cố) | Cân bằng dịch dương đến ngày 3 (nhị phân) | Khi bình phương; hồi quy logistic; Kaplan–Meier + Cox |
-| Q2 | AKI, KDIGO ≥ 1 (nhị phân) | Cân bằng dịch tích lũy, ml/kg (liên tục, mỗi 10 ml/kg) | Khi bình phương theo nhóm; hồi quy logistic |
-| Q3 | Số ngày không thở máy đến ngày 28 (đếm 0–28, lệch, dồn ở 0 và 28) | Cân bằng dịch tích lũy (liên tục) | Mann–Whitney; hồi quy tuyến tính |
-| Q4 | Tử vong trước ngày 28 (nhị phân) | Lactate lúc nhập viện, mmol/L (liên tục, thiếu 15%) | Hồi quy logistic; trường hợp đầy đủ so với quy gán đa bội |
-| Q5 | Thời gian nằm ICU ở người sống sót (liên tục, lệch phải) | Cân bằng dịch dương (nhị phân) | Mann–Whitney; hồi quy tuyến tính trên thang logarit |
-
-Ví dụ (Q1): "Ở người lớn bị sepsis vào ICU, cân bằng dịch tích lũy dương đến ngày 3, so với cân bằng dịch âm, có liên quan với tử vong 28 ngày cao hơn không?"
+| Q2 | Cân bằng dịch tích lũy, `cum_fluid_balance_d3_ml_kg` (liên tục, mỗi 10 ml/kg) | AKI, KDIGO giai đoạn 1 trở lên, `aki_any` (nhị phân) | Khi bình phương theo nhóm, rồi hồi quy logistic |
+| Q3 | Cân bằng dịch tích lũy (liên tục) | Số ngày không thở máy đến ngày 28, `vent_free_days_28` (đếm 0 đến 28, lệch, dồn ở 0 và 28) | Mann-Whitney, rồi hồi quy tuyến tính |
+| Q4 | Lactat lúc vào ICU, `lactate_mmol_l`, mmol/L (liên tục, thiếu 15%) | Tử vong trước ngày 28, `died_28d` (nhị phân) | Hồi quy logistic, trường hợp đầy đủ và quy gán đa bội |
+| Q5 | Cân bằng dịch dương, `positive_balance_d3` (nhị phân) | Thời gian nằm ICU ở người sống sót, `icu_los_days` (liên tục, lệch phải) | Mann-Whitney, rồi hồi quy tuyến tính trên thang logarit |
 
 
 * * *

@@ -48,11 +48,11 @@ CÂU HỎI NHANH · 10 phút
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#6C3483"}
-Đáp án (công bố sau)
+Cách thực hiện
 
-- C1: trung vị (IQR)
-- C2: đơn vị (mmol/L), thời điểm, lựa chọn 'không làm'
-- C3: kiểm tra khoảng giá trị. Giá trị, cách sửa, lý do, ai và khi nào
+- C1 qua bình chọn, C2 và C3 trả lời trực tiếp
+- Xem kết quả, rồi công bố đáp án
+- Một bạn tình nguyện giải thích
 :::
 :::
 ::::
@@ -62,9 +62,9 @@ CÂU HỎI NHANH · 10 phút
 :::
 
 ::: {.notes}
-Ôn tập (19:30-19:40). Q1 bằng thăm dò, Q2 và Q3: mời hai hoặc ba người trả lời. Rồi mở đáp án.
+Ôn tập (19:30-19:40). C1 bằng thăm dò, C2 và C3: mời hai hoặc ba người trả lời. Rồi công bố đáp án.
 
-Q1: trung vị (IQR). Q2: đơn vị, thời điểm, lựa chọn 'không làm'. Q3: kiểm tra khoảng giá trị. Nhật ký ghi mã người bệnh, giá trị, việc đã làm, lý do, ai làm và khi nào.
+C1: trung vị (IQR), vì dữ liệu lệch. C2: đơn vị (mmol/L), thời điểm và lựa chọn 'không làm', để mọi nơi ghi lactat giống nhau. C3: kiểm tra khoảng giá trị, vì 210 không thể là tuổi. Nhật ký ghi mã người bệnh, giá trị, cách sửa, lý do, ai làm và khi nào.
 
 Trước đó, đọc ba hoặc bốn câu trả lời cuối Buổi 5 và sửa các hiểu lầm.
 :::
@@ -239,12 +239,11 @@ CÂU HỎI NHANH · 3 phút
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#6C3483"}
-Đáp án
+Cách thực hiện
 
-- Đúng
-- Sai: chưa biết
-- Sai: p giả định không có tác động
-- Đúng
+- Trả lời qua bình chọn
+- Xem kết quả, rồi công bố đáp án
+- Một bạn tình nguyện giải thích
 :::
 :::
 ::::
@@ -256,7 +255,7 @@ CÂU HỎI NHANH · 3 phút
 ::: {.notes}
 Kiểm tra (3 phút), mỗi câu một thăm dò đúng/sai.
 
-1 đúng. 2 sai: không có bằng chứng không phải là bằng chứng không có. 3 sai: p giả định không có tác động. 4 đúng.
+1 đúng: KTC là khoảng các giá trị hợp lý của HR thật. 2 sai: không có bằng chứng không phải là bằng chứng không có, nên ta chưa biết. 3 sai: p giả định không có tác động, nên không thể là xác suất không có tác động. 4 đúng: nhiều người bệnh hơn cho ước lượng chính xác hơn.
 
 Nếu lớp chia đôi ở câu 2 hoặc 3, quay lại hình giá trị p.
 :::
@@ -440,11 +439,12 @@ CÂU HỎI NHANH · 3 phút
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#6C3483"}
-Đáp án
+Chọn
 
+- Kiểm định t
+- Kiểm định t ghép cặp
 - Mann-Whitney U
 - Khi bình phương
-- t ghép cặp
 - Chính xác Fisher
 :::
 :::
@@ -457,7 +457,7 @@ CÂU HỎI NHANH · 3 phút
 ::: {.notes}
 Kiểm tra (3 phút), mỗi tình huống một thăm dò.
 
-1 Mann-Whitney (phân bố lệch, đây là Q5). 2 khi bình phương. 3 t-test bắt cặp. 4 Fisher chính xác.
+1 Mann-Whitney U: thời gian nằm ICU phân bố lệch (đây là Q5). 2 khi bình phương: kết cục có/không với tần số lớn. 3 kiểm định t ghép cặp: cùng người bệnh đo hai lần. 4 chính xác Fisher: tần số nhỏ (2 và 5 biến cố).
 
 Tiếp theo: các kiểm định này trên FLUID-ICU.
 :::
@@ -1161,6 +1161,8 @@ Thời gian: 2 phút.
 :::
 
 ::: {.notes}
+Các cột cho thấy tỷ lệ người bệnh không có lactat theo từng nhóm SOFA: 36% ở SOFA 0-4, giảm còn 1% ở SOFA từ 11 trở lên.
+
 Lactat thiếu ở 93 trên 620 (15.0%), chủ yếu ở người bệnh nhẹ hơn (trung vị SOFA 5 so với 8, tử vong 19.4% so với 30.6%).
 
 Vậy không phải MCAR: phân tích trường hợp đầy đủ loại bỏ người nhẹ hơn. MAR là hợp lý, phù hợp với quy gán đa bội.
@@ -1180,11 +1182,9 @@ Hỏi: vì sao người nhẹ hơn lại không được đo lactat?
 :::
 
 ::: {.notes}
-Phân tích độ nhạy định trước trong SAP.
+Phân tích độ nhạy cho dữ liệu thiếu, ở đây cho Q4: OR tử vong cho mỗi 1 mmol/L lactat. Mỗi mô hình chạy trên các trường hợp đầy đủ (n = 527) và sau quy gán (n = 620).
 
-Q4: OR mỗi mmol/L 1.39 (trường hợp đầy đủ, n = 527) so với 1.45 (quy gán, n = 620).
-
-Q1: OR đã hiệu chỉnh 1.70 (1.09 đến 2.64) khi quy gán so với 1.62 ở trường hợp đầy đủ.
+Chưa hiệu chỉnh: 1.38 so với 1.44. Hiệu chỉnh theo tuổi, giới và bệnh kèm: 1.39 so với 1.45. Thêm SOFA: 1.21 so với 1.23.
 
 Kết luận không phụ thuộc vào cách xử lý lactat bị thiếu.
 
@@ -1242,7 +1242,7 @@ Làm mẫu trên ví dụ xuyên suốt (một thử nghiệm hạn chế dịch
 
 - Tử vong 40% so với 30%
 - Lực thống kê 80%, alpha 5% hai phía
-- 356 mỗi nhóm, cộng thêm 10%
+- 356 mỗi nhóm, 396 khi tính 10% mất mẫu
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
 [Kế hoạch phân tích]{.neu-card-title}

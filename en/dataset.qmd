@@ -39,7 +39,7 @@ There are five questions on the data (Q1 to Q5). In class the instructor works t
 ```bash
 cd Course/Data      # or the folder where you unzipped FLUID-ICU_R_project.zip
 Rscript R/01_clean.R          # S5 demo: raw -> clean; checks the result equals the clean file
-Rscript R/02_describe.R       # S5 demo: Table 1 + histogram, boxplot, bar chart
+Rscript R/02_describe.R       # S5 demo: shapes, Table 1 and the figures on the 5.4 slides
 Rscript R/03_compare.R        # S6 demo: t-test, Mann-Whitney, chi-square
 Rscript R/04_models.R         # S6 demo: crude vs adjusted OR, forest plot, KM, Cox, interaction
 Rscript R/05_missing.R        # S6 demo: missing lactate, complete case vs multiple imputation

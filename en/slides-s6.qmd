@@ -24,7 +24,7 @@ format:
 - Proposal builder 6: sample size, analysis plan, missing-data plan
 
 ::: {.notes}
-Session 6 (19:30-22:30, break 20:40-20:55). The most technical session: go slowly, drop extra slides, never checks.
+Session 6 (19:30-22:30, break 20:40-20:55). The most technical session: go slowly and drop extra slides, but never the checks.
 
 FLUID-ICU returns in 6.2 (comparisons) and 6.4 (models, survival, missing data): Q1 in full, Q2 to Q5 briefly.
 
@@ -48,11 +48,11 @@ QUICK QUIZ · 10 min
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#6C3483"}
-Answers (reveal after)
+How we run it
 
-- Q1: median (IQR)
-- Q2: unit (mmol/L), time point, 'not done' option
-- Q3: range check. The value, the correction, the reason, who and when
+- Q1 in the poll, Q2 and Q3 aloud
+- Results on screen, then the answer
+- One volunteer explains why
 :::
 :::
 ::::
@@ -62,9 +62,9 @@ Answers (reveal after)
 :::
 
 ::: {.notes}
-Recap (19:30-19:40). Q1 as a poll, Q2 and Q3: call on two or three people. Then reveal.
+Recap (19:30-19:40). Q1 as a poll, Q2 and Q3: call on two or three people. Then give the answers.
 
-Q1: median (IQR). Q2: unit, time point, 'not done' option. Q3: range check. The log records the ID, the value, the action, the reason, who and when.
+Q1: median (IQR), because the data are skewed. Q2: the unit (mmol/L), the time point and a 'not done' option, so every site records lactate the same way. Q3: a range check, because 210 is not a possible age. The log records the ID, the value, the correction, the reason, who and when.
 
 First read three or four Session 5 exit answers and correct misunderstandings.
 :::
@@ -239,12 +239,11 @@ QUICK QUIZ · 3 min
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#6C3483"}
-Answers
+How we run it
 
-- True
-- False: we do not know
-- False: p assumes no effect
-- True
+- Answer in the poll
+- Results on screen, then the answer
+- One volunteer explains why
 :::
 :::
 ::::
@@ -256,7 +255,7 @@ Answers
 ::: {.notes}
 Check (3 minutes), one true/false poll each.
 
-1 true. 2 false: absence of evidence is not evidence of absence. 3 false: p assumes no effect. 4 true.
+1 true: the CI is the range of plausible values for the true HR. 2 false: absence of evidence is not evidence of absence, so we do not know. 3 false: p assumes there is no effect, so it cannot be the chance of no effect. 4 true: more patients give a more precise estimate.
 
 If the class splits on 2 or 3, go back to the p-value picture.
 :::
@@ -440,11 +439,12 @@ QUICK QUIZ · 3 min
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#6C3483"}
-Answers
+Choose
 
+- t-test
+- Paired t-test
 - Mann-Whitney U
 - Chi-square
-- Paired t-test
 - Fisher's exact
 :::
 :::
@@ -457,7 +457,7 @@ Answers
 ::: {.notes}
 Check (3 minutes), one poll per scenario.
 
-1 Mann-Whitney (skewed, this is Q5). 2 chi-square. 3 paired t-test. 4 Fisher's exact.
+1 Mann-Whitney U: ICU stay is skewed (this is Q5). 2 chi-square: a yes/no outcome with large counts. 3 paired t-test: the same patients measured twice. 4 Fisher's exact: the counts are small (2 and 5 events).
 
 Next: these tests on FLUID-ICU.
 :::
@@ -1161,6 +1161,8 @@ Timing: 2 minutes.
 :::
 
 ::: {.notes}
+The bars show the share of patients without lactate in each SOFA band: 36% at SOFA 0-4, falling to 1% at 11 or more.
+
 Lactate missing in 93 of 620 (15.0%), mostly in less sick patients (median SOFA 5 vs 8, mortality 19.4% vs 30.6%).
 
 So not MCAR: complete cases drop the less sick. MAR is plausible, which suits multiple imputation.
@@ -1180,11 +1182,9 @@ Ask: why would lactate not be measured in the less sick?
 :::
 
 ::: {.notes}
-The sensitivity analysis from the SAP.
+A sensitivity analysis for missing data, here on Q4: the OR for death per 1 mmol/L lactate. Each model is run on complete cases (n = 527) and after imputation (n = 620).
 
-Q4: OR per mmol/L 1.39 (complete case, n = 527) vs 1.45 (imputation, n = 620).
-
-Q1: adjusted OR 1.70 (1.09 to 2.64) with imputation vs 1.62 in complete cases.
+Unadjusted: 1.38 vs 1.44. Adjusted for age, sex and comorbidity: 1.39 vs 1.45. With SOFA added: 1.21 vs 1.23.
 
 The conclusion does not depend on how missing lactate was handled.
 
@@ -1242,7 +1242,7 @@ Modelled on the running example (a restrictive fluids trial).
 
 - Mortality 40% vs 30%
 - Power 80%, alpha 5% two-sided
-- 356 per group, plus 10%
+- 356 per group, 396 allowing for 10% loss
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
 [Analysis plan]{.neu-card-title}

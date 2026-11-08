@@ -49,13 +49,11 @@ CÂU HỎI NHANH · 8 phút
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#6C3483"}
-Đáp án
+Cách thực hiện
 
-- Nhiễu: một phần liên quan thô là do mức độ nặng
-- Không: KTC chứa giá trị 1
-- Phân tích các trường hợp đầy đủ, hoặc quy gán đa bội kèm phân tích độ nhạy
-- Rời nghiên cứu khi còn sống. Sau đó không biết kết cục
-- Theo gói kết quả phân tích của bạn
+- Trả lời qua bình chọn
+- Xem kết quả, rồi công bố đáp án
+- Một bạn tình nguyện giải thích
 :::
 :::
 ::::
@@ -67,7 +65,11 @@ CÂU HỎI NHANH · 8 phút
 ::: {.notes}
 Ôn tập (19:30-19:40). Mở đầu bằng hai hoặc ba câu trả lời cuối Buổi 6.
 
-Câu 1-4: mỗi câu 30 giây, mời hai hoặc ba người, rồi mở đáp án. Câu 1 dẫn vào bài hôm nay: phần Kết quả báo cáo cả ước lượng thô và đã hiệu chỉnh.
+Câu 1-4: mỗi câu 30 giây bình chọn. Chiếu kết quả, rồi công bố đáp án, và mời một bạn tình nguyện giải thích.
+
+Đáp án: 1 nhiễu, một phần liên quan thô là do mức độ nặng. 2 không, KTC chứa giá trị 1. 3 phân tích các trường hợp đầy đủ, hoặc quy gán đa bội kèm phân tích độ nhạy. 4 người bệnh rời nghiên cứu khi còn sống, và sau đó không biết kết cục.
+
+Câu 1 dẫn vào bài hôm nay: phần Kết quả báo cáo cả ước lượng thô và đã hiệu chỉnh.
 
 Câu 5 trong khung chat: kết quả chính của câu hỏi mỗi người đã chọn. Ai chưa chọn thì chọn ngay bây giờ.
 :::
@@ -436,7 +438,7 @@ Hỏi: gia đình từ chối sau khi đã đưa vào? Kỳ vọng: người b�
 :::
 
 ::: {.notes}
-Mời một người trả lời cho từng người bệnh trước khi mở đáp án.
+Với từng người bệnh, mời một người đưa người bệnh đó qua sơ đồ.
 
 Ông A: tự đồng ý. Bà B: người đại diện đồng ý, hỏi lại bà khi bà tự quyết được. Ông C: đồng ý trì hoãn, chỉ khi đã được duyệt.
 
@@ -1041,7 +1043,7 @@ Phương pháp nói rõ bạn đã làm gì. Nếu đồng nghiệp không làm 
 ::: {.notes}
 Phương pháp: đủ chi tiết để làm lại nghiên cứu, theo thứ tự STROBE.
 
-Tốt: Bài 1 mô tả can thiệp đủ để làm lại. Cần sửa: Bài 2 không nói biến hiệu chỉnh bị thiếu được xử lý thế nào.
+Tốt: Bài 1 mô tả can thiệp đủ để làm lại. Cần sửa: Bài 2 không nêu cỡ mẫu.
 
 Với FLUID-ICU, mọi thông tin có trong gói kết quả, SAP và từ điển dữ liệu.
 :::
@@ -1158,9 +1160,11 @@ Thăm dò: mục nào yêu cầu ước lượng thô và đã hiệu chỉnh? K
 :::
 
 ::: {.notes}
-Bảng phải tự đọc hiểu được: tên bảng nói cái gì, ai, khi nào, n mỗi cột, đơn vị và cách tóm tắt ở mỗi dòng, chú thích chữ viết tắt và dữ liệu thiếu.
+Ví dụ là Bảng 1 của Bài 1, được dựng lại. Bảng phải tự đọc hiểu được: tên bảng nói cái gì, ở ai, khi nào, n ở mỗi tiêu đề cột, đơn vị và cách tóm tắt ở mỗi dòng, chú thích giải nghĩa chữ viết tắt. Không có giá trị p ở Bảng 1 của RCT.
 
-Lỗi trong hai bài: sai đơn vị (Bài 1), không có số người còn nguy cơ dưới đường Kaplan-Meier (Bài 2).
+Lỗi trong hai bài: natri in sai đơn vị, một dòng chép trùng và dẫn sai số hình (Bài 1), đơn vị viết '\* 10\^3/L' (Bài 2).
+
+Hình cần chú thích tự đủ nghĩa và số người còn nguy cơ dưới đường Kaplan-Meier.
 
 Hỏi: bảng có tên 'Kết quả' thì sai ở đâu?
 :::
@@ -1246,19 +1250,19 @@ CÂU HỎI NHANH · 3 phút
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#6C3483"}
-Đáp án
+Chọn
 
 - Phương pháp
-- Kết quả (đối tượng)
-- Bàn luận (giải thích)
-- Phương pháp (cách xử lý) và Kết quả (bao nhiêu)
 - Kết quả
+- Bàn luận
 :::
 :::
 ::::
 
 ::: {.notes}
 Kiểm tra (21:32-21:35). Mỗi câu một thăm dò.
+
+Đáp án: 1 Phương pháp, câu này nói cách phân tích. 2 Kết quả, câu này báo cáo đối tượng. 3 Bàn luận, câu này giải thích. 4 Phương pháp và Kết quả. 5 Kết quả, một ước lượng kèm KTC.
 
 Câu 4 là câu bẫy: xử lý dữ liệu thiếu thế nào thuộc Phương pháp, thiếu bao nhiêu thuộc Kết quả.
 
@@ -1380,7 +1384,7 @@ Bảng thuật ngữ đầy đủ (Anh-Việt): tệp PDF gửi qua email
 :::
 
 ::: {.notes}
-Từ khóa (22:20-22:22). Chiếu thuật ngữ, mời một người giải thích, rồi mở cột bên phải.
+Từ khóa (22:20-22:22). Đọc từng thuật ngữ, mời một người giải thích, rồi đọc cột bên phải.
 :::
 
 ## Bình duyệt: người bình duyệt và các hạn nộp
@@ -1473,18 +1477,20 @@ CÂU HỎI NHANH · 2 phút
 :::
 ::: {.column width="40%"}
 ::: {.neu-side .plain style="--c:#6C3483"}
-Đáp án
+Chọn
 
-- Bắt buộc: cơ sở đăng ký thử nghiệm, trước người bệnh đầu tiên
-- Nên: PROSPERO
-- Khuyến khích, không bắt buộc
-- Audit: không đăng ký nghiên cứu. Phê duyệt nội bộ
+- Bắt buộc đăng ký
+- Nên đăng ký
+- Khuyến khích
+- Không cần
 :::
 :::
 ::::
 
 ::: {.notes}
-Kiểm tra bổ sung. Mỗi tình huống một thăm dò: bắt buộc, nên, hay không cần.
+Kiểm tra bổ sung. Mỗi tình huống một thăm dò.
+
+Đáp án: 1 bắt buộc, trên cơ sở đăng ký thử nghiệm, trước người bệnh đầu tiên. 2 nên, trên PROSPERO. 3 khuyến khích, không bắt buộc. 4 không cần: audit cần phê duyệt nội bộ, không đăng ký nghiên cứu.
 
 Tình huống 4: kiểm định chất lượng (audit) đi qua phòng quản lý chất lượng, không đăng ký. Nếu muốn công bố như nghiên cứu, hỏi hội đồng đạo đức trước.
 :::
