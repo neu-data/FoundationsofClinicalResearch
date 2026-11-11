@@ -67,9 +67,9 @@ Tệp: `tables/table1_by_balance_VN.csv` và `tables/table1_by_balance_VN.docx`
 - AKI (mọi giai đoạn) xảy ra ở 302/620 (48.7%) tổng số người bệnh; RRT ở 79/620 (12.7%).
 - AKI: cân bằng dương 230/373 (61.7%) so với cân bằng âm 71/245 (29.0%).
 - AKI tăng dần theo từng nhóm cân bằng dịch: <= 0: 29%; >0 đến 20: 54%; >20 đến 40: 63%; > 40: 75%.
-- OR thô cho mỗi 10 ml/kg cân bằng dịch tăng thêm: 1.37 (KTC 95% 1.27 đến 1.47).
-- OR hiệu chỉnh cho mỗi 10 ml/kg: **1.27 (KTC 95% 1.16 đến 1.40)**, p <0.001.
-- Cân bằng dương so với âm: OR thô 3.94 (KTC 95% 2.80 đến 5.60); OR hiệu chỉnh 2.70 (KTC 95% 1.76 đến 4.15).
+- OR thô cho mỗi 10 ml/kg cân bằng dịch tăng thêm: 1.37 (khoảng tin cậy 95% 1.27 đến 1.47).
+- OR hiệu chỉnh cho mỗi 10 ml/kg: **1.27 (khoảng tin cậy 95% 1.16 đến 1.40)**, p <0.001.
+- Cân bằng dương so với âm: OR thô 3.94 (khoảng tin cậy 95% 2.80 đến 5.60); OR hiệu chỉnh 2.70 (khoảng tin cậy 95% 1.76 đến 4.15).
 
 **Bảng 2. Giai đoạn AKI cao nhất theo KDIGO, theo nhóm cân bằng dịch**
 
@@ -95,13 +95,13 @@ Tệp: `tables/table3_aki_by_balance_category_VN.csv` và `tables/table3_aki_by_
 
 **Bảng 4. Hồi quy logistic cho AKI (hiệu chỉnh theo tuổi, SOFA, lactat, thuốc vận mạch, thở máy, bệnh thận mạn)**
 
-|Mô hình                                                            |n   |OR (KTC 95%)         |p      |
-|:------------------------------------------------------------------|:---|:--------------------|:------|
-|Cân bằng dịch mỗi 10 ml/kg, thô                                    |618 |1.37 (1.27 đến 1.47) |<0.001 |
-|Cân bằng dịch mỗi 10 ml/kg, hiệu chỉnh                             |527 |1.27 (1.16 đến 1.40) |<0.001 |
-|Cân bằng dương so với âm, thô                                      |618 |3.94 (2.80 đến 5.60) |<0.001 |
-|Cân bằng dương so với âm, hiệu chỉnh                               |527 |2.70 (1.76 đến 4.15) |<0.001 |
-|Cân bằng dịch mỗi 10 ml/kg, hiệu chỉnh (kết cục AKI giai đoạn 2-3) |527 |1.23 (1.12 đến 1.35) |<0.001 |
+|Mô hình                                                            |n   |OR (khoảng tin cậy 95%) |p      |
+|:------------------------------------------------------------------|:---|:-----------------------|:------|
+|Cân bằng dịch mỗi 10 ml/kg, thô                                    |618 |1.37 (1.27 đến 1.47)    |<0.001 |
+|Cân bằng dịch mỗi 10 ml/kg, hiệu chỉnh                             |527 |1.27 (1.16 đến 1.40)    |<0.001 |
+|Cân bằng dương so với âm, thô                                      |618 |3.94 (2.80 đến 5.60)    |<0.001 |
+|Cân bằng dương so với âm, hiệu chỉnh                               |527 |2.70 (1.76 đến 4.15)    |<0.001 |
+|Cân bằng dịch mỗi 10 ml/kg, hiệu chỉnh (kết cục AKI giai đoạn 2-3) |527 |1.23 (1.12 đến 1.35)    |<0.001 |
 
 Tệp: `tables/table4_aki_models_VN.csv` và `tables/table4_aki_models_VN.docx`
 
@@ -138,7 +138,7 @@ Tệp: `tables/table4_aki_models_VN.csv` và `tables/table4_aki_models_VN.docx`
 - Mục 12: phương pháp, gồm cách đưa phơi nhiễm liên tục vào mô hình (mỗi 10 ml/kg)
 - Mục 14: dữ liệu mô tả (Bảng 1)
 - Mục 15: dữ liệu kết cục (Bảng 2-3)
-- Mục 16: OR thô và hiệu chỉnh kèm KTC 95%; báo cáo ngưỡng của các nhóm (Bảng 3-4)
+- Mục 16: OR thô và hiệu chỉnh kèm khoảng tin cậy 95%; báo cáo ngưỡng của các nhóm (Bảng 3-4)
 - Mục 19: hạn chế (quan hệ nhân quả ngược và thời điểm)
 - Mục 17: kết cục phụ AKI giai đoạn 2-3
 

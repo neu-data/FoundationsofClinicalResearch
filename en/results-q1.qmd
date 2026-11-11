@@ -68,10 +68,10 @@ Read Table 1 first: the positive-balance group was **sicker** at baseline: media
 
 **Table 2. 28-day mortality by fluid-balance group (unadjusted)**
 
-|Outcome                              |Negative balance |Positive balance |Effect (95% CI)                                     |
-|:------------------------------------|:----------------|:----------------|:---------------------------------------------------|
-|Died by day 28, n/N (%)              |45/245 (18.4%)   |134/373 (35.9%)  |Risk difference 17.6 (95% CI 10.7 to 24.4); RR 1.96 |
-|Survival at day 28 (Kaplan-Meier), % |81.6             |64.1             |Log-rank p <0.001                                   |
+|Outcome                              |Negative balance |Positive balance |Effect (95% CI)                                                          |
+|:------------------------------------|:----------------|:----------------|:------------------------------------------------------------------------|
+|Died by day 28, n/N (%)              |45/245 (18.4%)   |134/373 (35.9%)  |Risk difference 17.6 (95% CI 10.7 to 24.4), RR 1.96, chi-square p <0.001 |
+|Survival at day 28 (Kaplan-Meier), % |81.6             |64.1             |Log-rank p <0.001                                                        |
 
 Files: `tables/table2_outcome.csv` and `tables/table2_outcome.docx`
 

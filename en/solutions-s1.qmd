@@ -58,7 +58,9 @@ Common error: choosing "septic shock" as the outcome. It has already happened an
 
 ## Exercise 1 (whole class): rescue the running example
 
-If the vote is split, work on A. No H0 and H1 here (they come in 1.3).
+**Poll:** there is no single right answer. All three versions are feasible. If the vote is split, work on A.
+
+The class fills the table, the sentence, the type and the FINER check for the chosen version. Model answers for each version follow. No H0 and H1 here (they come in 1.3).
 
 ### Version A: pilot trial (experimental, PICO)
 | P | Adults with septic shock in your ICU, within 24 h of starting vasopressors |
@@ -82,20 +84,22 @@ FINER: F green/amber (about 50 patients over 12–18 months) · I green · N amb
 
 *In adults with sepsis in our ICU, is a positive cumulative fluid balance by day 3, compared with a neutral or negative balance, associated with higher 28-day mortality?*
 Type: analytical, observational. This is Paper 2's question and the main question of the FLUID-ICU course study (Session 5).
-FINER watch-points: F depends on patient numbers and on records of daily fluid balance; confounding by indication (sicker patients get more fluid) must be handled (Session 4).
+FINER: F amber (depends on patient numbers and on daily fluid-balance records) · I green · N amber (Paper 2 asked it, but not in our setting) · E green (records only, needs approval or a waiver of consent) · R green. Watch-point: confounding by indication must be handled, because sicker patients get more fluid (Session 4).
 
 ### Version C: descriptive (P + O)
 | P | Adults with septic shock admitted to our ICU over 6 months |
 |---|---|
+| I / E | Not needed (descriptive question) |
+| C | Not needed (no comparison) |
 | O | Positive cumulative fluid balance |
 | T | On ICU day 3 |
 
 *What proportion of adults with septic shock in our ICU have a positive cumulative fluid balance on day 3?*
 Type: descriptive: we **estimate** a proportion with its 95% CI. In segment 1.3 this is the example of a question that needs no hypothesis.
-FINER: F green (routine charts) · N amber (local data are new) · E green (usually low risk; still needs approval for records) · R green (shows whether the problem exists here).
+FINER: F green (routine charts) · I green (shows the size of the problem here) · N amber (local data are new) · E green (usually low risk, but still needs approval for records) · R green (shows whether the problem exists here).
 
 **What good looks like (Exercise 1)**
-- All boxes filled; the comparison is named, not "nothing".
+- All boxes filled. For A and B the comparison is named, not "nothing".
 - One primary outcome, **measurable**, with a **time point**.
 - The sentence reads naturally and contains every PICO element.
 - Common faults to correct: two outcomes in one question ("mortality and length of stay"); outcome without time; population too broad ("all patients"); intervention not defined ("better care").
@@ -105,12 +109,17 @@ FINER: F green (routine charts) · N amber (local data are new) · E green (usua
 
 ## Exercise 2 (individual): aim, objectives and hypothesis for the pilot
 
-- *Aim:* To compare a restrictive fluid protocol with usual care in adults with septic shock in your ICU.
-- *Objectives:* Primary: to compare cumulative fluid balance (ml/kg) at day 5 between groups. Secondary: to estimate recruitment rate and protocol adherence (feasibility). (Optional third: to describe 28-day mortality and kidney injury needing dialysis in each group, exploratory.)
-- *Hypothesis:* H0: cumulative fluid balance at day 5 is the same in both groups. H1: it differs.
-- *Descriptive version C (no hypothesis):* To estimate the proportion of adults with septic shock in our ICU who have a positive cumulative fluid balance on day 3.
+**Aim:** To compare a restrictive fluid protocol with usual care in adults with septic shock in your ICU.
 
-**Vague-verb check (exit question 2):** rewrite "To understand fluid balance in our ICU" as *"To estimate the proportion of adults with septic shock in our ICU who have a positive cumulative fluid balance on day 3."*
+**Objectives:**
+1. ☑ *(Primary)* To compare cumulative fluid balance (ml/kg) at day 5 between groups.
+2. ☐ To estimate recruitment rate and protocol adherence (feasibility).
+
+**H0:** Cumulative fluid balance at day 5 is the same in both groups.
+
+**H1:** Cumulative fluid balance at day 5 differs between the groups.
+
+*Instructor note:* a third, exploratory objective is fine if a participant adds one, for example to describe 28-day mortality and kidney injury needing dialysis in each group.
 
 **What good looks like**
 - H0 always states "no difference / no association".
@@ -123,7 +132,9 @@ FINER: F green (routine charts) · N amber (local data are new) · E green (usua
 
 ## Exercise 3 (individual): Proposal builder 1, what good looks like
 
-The trainer models Part 1 on screen for version A of the running example.
+The trainer models Part 1 on screen for version A of the running example. The model follows steps 1 to 4 of the sheet.
+
+**Problem:** fluid overload in adults with septic shock in our ICU.
 
 **PICO(T):** P adults with septic shock within 24 h of starting vasopressors · I restrictive fluid protocol · C usual care · O cumulative fluid balance (ml/kg) · T at day 5.
 
@@ -153,7 +164,13 @@ The trainer models Part 1 on screen for version A of the running example.
 
 ## Exercise 4: Synonym list (homework)
 
-Model for the running example: **P** septic shock · sepsis · vasopressor-dependent sepsis; **I** fluid restriction · restrictive fluid · conservative fluid · de-resuscitation; **O** mortality · death · survival.
+Model for the running example:
+
+| PICO element | My word | English synonyms (2–3) |
+|---|---|---|
+| **P** | septic shock | sepsis · vasopressor-dependent sepsis |
+| **I / E** | restrictive fluid strategy | fluid restriction · restrictive fluid · conservative fluid |
+| **O** | death | mortality · survival |
 
 
 * * *
@@ -175,11 +192,14 @@ Model for the running example: **P** septic shock · sepsis · vasopressor-depen
 
 **Scenario B: Pressure injuries (descriptive first).** *What is the incidence of hospital-acquired pressure injuries (stage 2 or worse) among adults admitted to our medical ward over 6 months?* P adults admitted to the medical ward · O new pressure injury, stage 2 or worse · T during the admission, over 6 months. Descriptive: no hypothesis; estimate incidence with a 95% CI. Later analytical question: *does 2-hourly vs 4-hourly repositioning reduce new pressure injuries in at-risk adults?*
 
-**Scenario C: Delirium (experimental).** P adults aged 65+ after hip-fracture surgery · I daily multicomponent non-drug delirium-prevention bundle · C usual care · O incident delirium (validated tool, e.g. 4AT or CAM) · T first 7 postoperative days. FINER watch-points: **E** (consent from patients who may become confused) and **F** (staff time).
+**Scenario C: Delirium (experimental).** P adults aged 65+ after hip-fracture surgery · I daily multicomponent non-drug delirium-prevention bundle · C usual care · O incident delirium (validated tool, e.g. 4AT or CAM) · T first 7 postoperative days.
+*In adults aged 65 or over after hip-fracture surgery, does a daily non-drug delirium-prevention bundle, compared with usual care, reduce new delirium in the first 7 days after surgery?* FINER watch-points: **E** (consent from patients who may become confused) and **F** (staff time).
 
-**Scenario D: Stroke door-to-needle time (observational, PECO).** P adults with acute ischaemic stroke receiving thrombolysis in our emergency department · E pre-hospital ambulance alert · C no pre-alert · O door-to-needle time (minutes) · T from arrival to start of thrombolysis. The outcome is continuous, so the hypothesis is about a difference in median or mean time.
+**Scenario D: Stroke door-to-needle time (observational, PECO).** P adults with acute ischaemic stroke receiving thrombolysis in our emergency department · E pre-hospital ambulance alert · C no pre-alert · O door-to-needle time (minutes) · T from arrival to start of thrombolysis.
+*In adults with acute ischaemic stroke treated with thrombolysis in our emergency department, is a pre-hospital ambulance alert, compared with no alert, associated with a shorter door-to-needle time?* The outcome is continuous, so the hypothesis is about a difference in median or mean time.
 
-**Scenario E: Medication errors (experimental or before–after).** P adults transferred from ICU to a general ward · I pharmacist-led medication reconciliation at transfer · C usual transfer process · O patients with at least one medication discrepancy · T within 48 hours of transfer. Watch-point: define "medication error"; one primary outcome only.
+**Scenario E: Medication errors (experimental or before–after).** P adults transferred from ICU to a general ward · I pharmacist-led medication reconciliation at transfer · C usual transfer process · O patients with at least one medication discrepancy · T within 48 hours of transfer.
+*In adults moving from the ICU to a general ward, does pharmacist-led medication reconciliation at transfer, compared with the usual process, reduce the proportion of patients with a medication discrepancy within 48 hours?* Watch-point: define "medication error"; one primary outcome only.
 
 ### B. FINER: model answers
 | # | Main problem | Why |

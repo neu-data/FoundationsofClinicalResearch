@@ -40,38 +40,54 @@ Timing: 1 minute.
 QUICK QUIZ · 9 min
 :::
 
-:::: {.columns}
-::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
 - Q1. Your PubMed search finds 3,000 papers. Add a concept with AND, or a synonym with OR?
 - Q2. After the title and abstract, what do you read next in a paper?
 - Q3. An abstract says 'a trend towards lower mortality (p = 0.42)'. What is this called?
 - Then re-read your own research question (your Proposal Part 1 from Sessions 1 and 2): 3 min
 :::
-:::
-::: {.column width="40%"}
-::: {.neu-side .plain style="--c:#6C3483"}
-How we run it
-
-- Answer in the poll (30 s each)
-- Results on screen, then the answer
-- No marks, just a warm-up
-:::
-:::
-::::
 
 ::: {.neu-output style="--c:#6C3483"}
-**OUTPUT** Poll answers, and your own question re-read
+**OUTPUT** Answer each question in the poll (30 s each), then re-read your own question
 :::
 
 ::: {.notes}
-Three poll questions. Show results, then the answer.
-
-Answers: Q1 AND narrows, OR widens. Q2 the figures and tables. Q3 spin.
-
-After Q3 ask for a rewrite. Expected: 'mortality did not differ clearly between groups (p = 0.42)'.
+Three poll questions. No marks, just a warm-up. Show the results, then the next slide.
 
 Timing: 9 minutes.
+:::
+
+## Recap quiz: answers
+
+:::: {.neu-cards style="--n:3"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[Q1. AND]{.neu-card-title}
+
+- AND adds a concept and narrows
+- OR adds a synonym and widens
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[Q2. Figures and tables]{.neu-card-title}
+
+- They show the main results
+- Read them before the text
+:::
+::: {.neu-card .plain style="--c:#5FA39B"}
+[Q3. Spin]{.neu-card-title}
+
+- p = 0.42: no clear difference
+- 'A trend' makes it sound positive
+:::
+::::
+
+::: {.neu-takeaway}
+**KEY MESSAGE** Honest version: 'mortality did not differ clearly between groups (p = 0.42)'.
+:::
+
+::: {.notes}
+After Q3 ask for a rewrite, then compare it with the honest version at the bottom.
+
+Timing: within the 9 minutes of the quiz.
 :::
 
 ## Key words of the day
@@ -717,9 +733,42 @@ For each sentence
 :::
 
 ::: {.notes}
-Three-question poll. Answers: A right. B wrong, a cohort says 'associated with'. C right.
+Three-question poll. Show the results, then the answers on the next slide.
 
-Timing: 3 minutes. 3.1 ends here.
+Timing: 3 minutes.
+:::
+
+## Answers: caused or associated?
+
+:::: {.neu-cards style="--n:3"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[A. Right]{.neu-card-title}
+
+- An RCT assigns by chance
+- It may speak of an effect
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[B. Wrong]{.neu-card-title}
+
+- A cohort only watches
+- Say 'associated with'
+:::
+::: {.neu-card .plain style="--c:#5FA39B"}
+[C. Right]{.neu-card-title}
+
+- A one-day survey only watches
+- 'Associated with' fits
+:::
+::::
+
+::: {.neu-takeaway}
+**KEY MESSAGE** RCTs can say 'caused'. Observational designs say 'associated'.
+:::
+
+::: {.notes}
+For B, ask for the honest rewrite: 'a positive fluid balance was associated with higher 28-day mortality'.
+
+Timing: within the 3 minutes of the check. 3.1 ends here.
 :::
 
 ## Exercise: Name that design

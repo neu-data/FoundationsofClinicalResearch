@@ -9,7 +9,7 @@ title: "Buổi 6: Kịch bản trình diễn"
 | | Phần A: cỡ mẫu | Phần B: so sánh các nhóm | Phần C: mô hình và dữ liệu thiếu |
 |---|---|---|---|
 | **Thời điểm** | 6.1, sau slide *Cỡ mẫu: tác động lớn hơn, ít nhiễu hơn* (khoảng 20:05) | 6.2 (khoảng 20:21) | 6.4, trong khi chiếu các slide của mục này (21:30 đến 21:48) |
-| **Thời lượng** | 5 phút (Bước 2, 3 và một thay đổi; bản đầy đủ 8 phút nếu còn thời gian) | 6 phút | lồng vào các slide 6.4 (tổng cộng khoảng 8 phút chạy R, tùy chọn) |
+| **Thời lượng** | 5 phút (Bước 2, 3 và một thay đổi; bản đầy đủ 8 phút nếu còn thời gian) | 6 phút | lồng vào các slide 7.4 (tổng cộng khoảng 8 phút chạy R, tùy chọn) |
 | **Công cụ** | công cụ tính trực tuyến miễn phí (ví dụ OpenEpi) và `sample_size_calculator.xlsx` | `FLUID-ICU/R/03_compare.R` | `FLUID-ICU/R/04_models.R`, `05_missing.R` |
 
 Học viên **theo dõi màn hình chia sẻ của giảng viên và dự đoán trong khung chat**. Học viên không tự tính và không chạy code. FLUID-ICU là dữ liệu **mô phỏng**, và mọi con số về FLUID-ICU dưới đây lấy từ `Results_Pack_Q1–Q5`.
@@ -54,7 +54,7 @@ Dự kiến mỗi nhóm: Fleiss **356**, có hiệu chỉnh liên tục **376** 
 
 **Bước 5: Câu văn mẫu (1 phút).** Chỉ vào câu màu xanh lá ở cuối trang `2_Proportions` (bằng tiếng Anh). Nghĩa của câu: *"Giả định kết cục xảy ra ở 40% người bệnh nhóm 1 và 30% ở nhóm 2, 356 người bệnh mỗi nhóm cho lực thống kê 80% ... chúng tôi sẽ tuyển 396 người bệnh mỗi nhóm (tổng cộng 792)."*
 
-Liên hệ với FLUID-ICU: SAP của nghiên cứu (mục 11) nêu rằng khoảng 600 người bệnh cho lực thống kê khoảng 80% với OR 1.7 và khoảng 55% với OR 1.5: *"chỉ đủ lực thống kê cho một mối liên quan ở mức vừa phải."* Đó là lý do KTC sau hiệu chỉnh của nghiên cứu này rộng.
+Liên hệ với FLUID-ICU: SAP của nghiên cứu (mục 11) nêu rằng khoảng 600 người bệnh cho lực thống kê khoảng 80% với OR 1.7 và khoảng 55% với OR 1.5: *"chỉ đủ lực thống kê cho một mối liên quan ở mức vừa phải."* Đó là lý do khoảng tin cậy sau hiệu chỉnh của nghiên cứu này rộng.
 
 
 * * *
@@ -67,18 +67,18 @@ Trước mỗi khối, mời cả lớp gõ tên kiểm định vào khung chat,
 |---|---|---|---|
 | 1 | Tuổi (đối xứng) | kiểm định t Welch | trung bình 64.6 so với 61.4 tuổi |
 | 2–3 | SOFA, lactat (lệch / điểm số) | Mann–Whitney | SOFA 6 so với 8; lactat 2.2 so với 2.9 mmol/L (91 người không có lactat bị loại khỏi phép so sánh) |
-| 4 | Tử vong 28 ngày (nhị phân) | bảng 2×2 và khi bình phương | **134/373 (35.9%) so với 45/245 (18.4%)**; RD **17.6** điểm phần trăm (KTC 95% 10.7 đến 24.4); RR **1.96**; p < 0.001 |
-| 5 | AKI (nhị phân) | khi bình phương | **230/373 (61.7%) so với 71/245 (29.0%)** |
+| 4 | Tử vong 28 ngày (nhị phân) | bảng 2×2 và Chi bình phương | **134/373 (35.9%) so với 45/245 (18.4%)**; RD **17.6** điểm phần trăm (khoảng tin cậy 95% 10.7 đến 24.4); RR **1.96**; p < 0.001 |
+| 5 | AKI (nhị phân) | Chi bình phương | **230/373 (61.7%) so với 71/245 (29.0%)** |
 | 6 | Số ngày không thở máy (0–28, hai cụm) | Mann–Whitney | trung vị **20 (0 đến 28) so với 28 (22 đến 28)**; p < 0.001 |
-| 7 | Thời gian nằm ICU ở người sống (lệch): lỗi thường gặp | kiểm định t so với Mann–Whitney | chênh lệch trung bình theo kiểm định t **2.7** ngày so với Hodges–Lehmann **2.5** ngày (KTC 95% 1.8 đến 3.2); trung vị **7.5 so với 4.8** |
+| 7 | Thời gian nằm ICU ở người sống (lệch): lỗi thường gặp | kiểm định t so với Mann–Whitney | chênh lệch trung bình theo kiểm định t **2.7** ngày so với Hodges–Lehmann **2.5** ngày (khoảng tin cậy 95% 1.8 đến 3.2); trung vị **7.5 so với 4.8** |
 
-Ý giảng dạy: kiểm định đi theo loại kết cục, tác động được báo cáo kèm KTC 95% chứ không chỉ giá trị p, và mọi phép so sánh ở đây đều **chưa hiệu chỉnh** (nhóm dương nặng hơn: xem Bảng 1).
+Ý giảng dạy: kiểm định đi theo loại kết cục, tác động được báo cáo kèm khoảng tin cậy 95% chứ không chỉ giá trị p, và mọi phép so sánh ở đây đều **chưa hiệu chỉnh** (nhóm dương nặng hơn: xem Bảng 1).
 Dự phòng: slide *FLUID-ICU: bốn kết cục, bốn phép so sánh* (mọi kết quả trong một bảng).
 
 
 * * *
 
-## Phần C: Mô hình và dữ liệu thiếu (04_models.R và 05_missing.R, cùng các slide 6.4)
+## Phần C: Mô hình và dữ liệu thiếu (04_models.R và 05_missing.R, cùng các slide 7.4)
 
 Chạy từng khối khi đến slide tương ứng. Nếu thiếu thời gian, chỉ chiếu các hình (chúng chính là các slide).
 
@@ -87,7 +87,7 @@ Chạy từng khối khi đến slide tương ứng. Nếu thiếu thời gian, 
 | SAP có trước | mở `SAP_FLUID-ICU.md` | yếu tố gây nhiễu: tuổi, SOFA, lactat, thuốc vận mạch, thở máy, bệnh thận mạn; một tương tác (suy tim); CC và MI | "Đã quyết định trước khi ai đó nhìn thấy kết quả." |
 | OR thô và OR hiệu chỉnh | 04: khối 1–2 | OR thô **2.49 (1.70 đến 3.70)**, n = 618; OR thô trên cùng 527 người: **2.22 (1.48 đến 3.39)**; OR hiệu chỉnh **1.62 (1.02 đến 2.59)**, p = 0.044, n = 527 | "Nhiễu do chỉ định, giờ đã nhìn thấy được." |
 | Biểu đồ rừng | 04: khối 3–4 | mô hình hiệu chỉnh, hàng phơi nhiễm 1.62 | "Chỉ hàng phơi nhiễm là câu hỏi của mình." |
-| Kaplan–Meier | 04: khối 5 | tỷ lệ sống ngày 28 **81.6% so với 64.1%**; log-rank p < 0.001 (khi bình phương 21.4) | "Bậc thang, vạch kiểm duyệt, khoảng cách, số người còn nguy cơ." |
+| Kaplan–Meier | 04: khối 5 | tỷ lệ sống ngày 28 **81.6% so với 64.1%**; log-rank p < 0.001 (Chi bình phương 21.4) | "Bậc thang, vạch thông tin khuyết (censored), khoảng cách, số người còn nguy cơ." |
 | Cox | 04: khối 6 | HR thô **2.17 (1.55 đến 3.05)**, HR hiệu chỉnh **1.46 (1.00 đến 2.13)**, p = 0.053; kiểm định PH tổng thể p = 0.10 | "0.044 so với 0.053: cùng một kết luận." |
 | (bổ sung) Tương tác | 04: khối 7 | suy tim OR **4.39 (1.65 đến 12.38)**, n = 90; không suy tim **1.29 (0.77 đến 2.19)**, n = 437; p tương tác **0.031** | "Đã định trước, hợp lý, cần được xác nhận." |
 | Ai bị thiếu? | 05: khối 1–2 | thiếu lactat **93/620 (15.0%)**; SOFA 5 so với 8; tử vong **19.4% so với 30.6%** | "Không phải MCAR; MAR là hợp lý." |
@@ -113,8 +113,8 @@ Chỉ cho lớp thấy trong `05_missing.R` khối 4: mô hình quy gán có c�
 
 **"Sao OR giảm sau khi hiệu chỉnh?"** Người bệnh nặng hơn được truyền nhiều dịch hơn và tử vong nhiều hơn. Hiệu chỉnh so sánh những người bệnh có mức độ nặng tương tự, nên phần mối liên quan do mức độ nặng biến mất.
 
-**"p của mô hình Cox là 0.053, vậy là không có tác động?"** Không. HR (1.46) và OR (1.62) tương tự nhau, KTC chồng lấp, và bằng chứng là như nhau. Hãy đọc ước lượng và KTC, đừng chỉ nhìn xem p nằm bên nào của 0.05.
+**"p của mô hình Cox là 0.053, vậy là không có tác động?"** Không. HR (1.46) và OR (1.62) tương tự nhau, khoảng tin cậy chồng lấp, và bằng chứng là như nhau. Hãy đọc ước lượng và khoảng tin cậy, đừng chỉ nhìn xem p nằm bên nào của 0.05.
 
-**"Quy gán đa bội chẳng phải là bịa dữ liệu sao?"** Phương pháp này điền mỗi chỗ trống nhiều lần bằng các giá trị hợp lý được dự đoán từ dữ liệu đã ghi nhận, và nới rộng KTC để phản ánh sự không chắc chắn. Phương pháp hợp lệ khi dữ liệu là MAR. Luôn so sánh với phân tích trường hợp đầy đủ.
+**"Quy gán đa bội (multiple imputation) chẳng phải là bịa dữ liệu sao?"** Phương pháp này điền mỗi chỗ trống nhiều lần bằng các giá trị hợp lý được dự đoán từ dữ liệu đã ghi nhận, và nới rộng khoảng tin cậy để phản ánh sự không chắc chắn. Phương pháp hợp lệ khi dữ liệu là MAR. Luôn so sánh với phân tích trường hợp đầy đủ.
 
 **"Sao không hiệu chỉnh theo AKI?"** AKI xảy ra sau khi truyền dịch và có thể nằm trên đường nhân quả (một biến trung gian). Hiệu chỉnh theo AKI sẽ loại bỏ một phần tác động cần ước lượng. SAP loại AKI vì lý do đó.

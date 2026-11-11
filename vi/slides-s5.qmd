@@ -37,36 +37,52 @@ Không có công thức: hình, ví dụ minh họa, câu kiểm tra. Không bao
 CÂU HỎI NHANH · 10 phút
 :::
 
-:::: {.columns}
-::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
 - C1. Người hút thuốc được theo dõi 10 năm để xem ai bị đột quỵ. Đây là thiết kế gì?
 - C2. Trong một nghiên cứu thuần tập, người bệnh nhiễm khuẩn nặng hơn được truyền nhiều dịch hơn và tử vong nhiều hơn. Hiện tượng này gọi là gì?
 - C3. Tử vong 30% với chăm sóc thường quy và 20% với chiến lược mới. Nguy cơ tương đối (RR) và số người cần điều trị (NNT) là bao nhiêu?
 - Trả lời từng câu trong bình chọn (mỗi câu 1 phút), rồi cả lớp cùng thảo luận
 :::
-:::
-::: {.column width="40%"}
-::: {.neu-side .plain style="--c:#6C3483"}
-Cách thực hiện
-
-- Trả lời qua bình chọn
-- Xem kết quả, rồi công bố đáp án
-- Một bạn tình nguyện giải thích
-:::
-:::
-::::
 
 ::: {.neu-output style="--c:#6C3483"}
 **SẢN PHẨM** Mọi người nắm lại thiết kế, nhiễu và các số đo từ bảng 2x2
 :::
 
 ::: {.notes}
-Ôn tập (19:30-19:40). Mỗi câu một cuộc thăm dò, 1 phút mỗi câu. Cho xem kết quả, rồi công bố đáp án và mời một bạn giải thích.
+Ôn tập (19:30-19:40). Mỗi câu một cuộc thăm dò, 1 phút mỗi câu. Cho xem kết quả, rồi chiếu slide sau và mời một bạn giải thích.
+:::
 
-C1: thuần tập tiến cứu (bệnh-chứng bắt đầu từ kết cục). C2: nhiễu do chỉ định, lý do Bài báo 2 dùng ghép cặp theo điểm xu hướng. C3: RR = 20/30 = 0.67, RD = 10%, NNT = 1/0.10 = 10.
+## Câu hỏi ôn tập: đáp án
 
+:::: {.neu-cards style="--n:3"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[C1. Thuần tập tiến cứu]{.neu-card-title}
+
+- Bắt đầu từ phơi nhiễm (hút thuốc)
+- Theo dõi về phía trước đến đột quỵ
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[C2. Nhiễu do chỉ định]{.neu-card-title}
+
+- Mức độ nặng chi phối cả dịch và tử vong
+- Lý do Bài báo 2 ghép cặp theo điểm xu hướng
+:::
+::: {.neu-card .plain style="--c:#5FA39B"}
+[C3. RR 0.67, NNT 10]{.neu-card-title}
+
+- RR = 20/30 = 0.67
+- RD = 10%, nên NNT = 1/0.10 = 10
+:::
+::::
+
+::: {.neu-takeaway}
+**THÔNG ĐIỆP CHÍNH** Bệnh-chứng bắt đầu từ kết cục. Thuần tập bắt đầu từ phơi nhiễm.
+:::
+
+::: {.notes}
 Nếu một phần ba lớp sai C3, vẽ bảng 2x2 trên màn hình.
+
+Thời gian: trong 10 phút của phần ôn tập.
 :::
 
 ## 5.1 Dữ liệu tốt từ khâu thiết kế
@@ -200,15 +216,31 @@ Chọn
 ::::
 
 ::: {.neu-output style="--c:#6C3483"}
-**SẢN PHẨM** Mọi người gọi tên được các loại biến số
+**SẢN PHẨM** Mỗi biến một phiếu bình chọn: mọi người gọi tên được các loại biến số
 :::
 
 ::: {.notes}
-Kiểm tra (3 phút). Mỗi biến một cuộc thăm dò, với sáu lựa chọn bên phải. Cho xem kết quả, rồi công bố đáp án.
+Kiểm tra (3 phút). Mỗi biến một cuộc thăm dò, với sáu lựa chọn bên phải. Cho xem kết quả, rồi chiếu đáp án ở slide sau.
+:::
 
-Nhịp tim: liên tục. GCS: thứ hạng, thường được phân tích như số. Nhóm máu: định danh. Thở máy ngày 1: nhị phân. Thời gian đến khi rút ống: thời gian đến sự kiện, vì một số người bệnh không bao giờ được rút ống.
+## Đáp án: biến số loại gì?
 
+| Biến số | Loại | Lý do |
+|:---|:---|:---|
+| Nhịp tim | Liên tục | Một con số đo được |
+| GCS (3-15) | Thứ hạng | Các mức có thứ tự, thường được phân tích như số |
+| Nhóm máu | Định danh | Các nhóm không có thứ tự |
+| Thở máy ngày 1 | Nhị phân | Hai lựa chọn: có hoặc không |
+| Thời gian đến khi rút ống | Thời gian đến sự kiện | Một số người bệnh không bao giờ được rút ống |
+
+::: {.neu-takeaway}
+**THÔNG ĐIỆP CHÍNH** Loại biến số quyết định ô trong CRF, cách tóm tắt và kiểm định.
+:::
+
+::: {.notes}
 Nếu một phần ba lớp sai, quay lại trang trước.
+
+Thời gian: trong 3 phút của phần kiểm tra.
 :::
 
 ## Mục CRF tốt và chưa tốt
@@ -804,21 +836,21 @@ Trên lớp, cả lớp cùng đi qua năm câu. Cuối Buổi 6, mỗi anh ch�
 
 - Cân bằng dịch và số ngày không thở máy
 - Kết cục: số ngày từ 0 đến 28, lệch
-- Phân tích: Mann-Whitney và hồi quy tuyến tính
+- Phân tích: Wilcoxon rank-sum (Mann-Whitney) và hồi quy tuyến tính
 :::
 ::: {.neu-card .plain style="--c:#0070C0"}
 [Q4 Lactat]{.neu-card-title}
 
 - Lactat và tử vong 28 ngày
 - Kết cục: nhị phân. Lactat thiếu ở 15%
-- Phân tích: hồi quy logistic, trường hợp đầy đủ và quy gán đa bội
+- Phân tích: hồi quy logistic, trường hợp đầy đủ và quy gán đa bội (multiple imputation)
 :::
 ::: {.neu-card .plain style="--c:#055F56"}
 [Q5 Nằm ICU]{.neu-card-title}
 
 - Cân bằng dịch và thời gian nằm ICU ở người sống
 - Kết cục: số ngày, lệch
-- Phân tích: Mann-Whitney và hồi quy trên thang logarit
+- Phân tích: Wilcoxon rank-sum (Mann-Whitney) và hồi quy trên thang logarit
 :::
 ::::
 
@@ -987,7 +1019,7 @@ Dữ liệu đối xứng: trung bình (SD). Dữ liệu lệch: trung vị (IQR
 
 Đọc to 'trung vị 2.8 (IQR 1.5 đến 4.7)' bằng lời đơn giản.
 
-Lỗi thường gặp: trung bình đi với IQR, trung vị đi với SD, và nhầm SD (độ phân tán giữa người bệnh) với KTC (độ chính xác, 6.1).
+Lỗi thường gặp: trung bình đi với IQR, trung vị đi với SD, và nhầm SD (độ phân tán giữa người bệnh) với khoảng tin cậy (độ chính xác, 6.1).
 :::
 
 ## Vì sao là hai hình dạng này? Chúng bao phủ phần lớn dữ liệu lâm sàng
@@ -1037,15 +1069,50 @@ Chọn
 ::::
 
 ::: {.neu-output style="--c:#6C3483"}
-**SẢN PHẨM** Mọi học viên chọn đúng cách tóm tắt cho từng loại biến số
+**SẢN PHẨM** Mỗi mục một phiếu bình chọn: cách tóm tắt đúng cho từng loại biến số
 :::
 
 ::: {.notes}
-Kiểm tra (3 phút), mỗi mục một cuộc thăm dò. Cho xem kết quả, rồi công bố đáp án.
+Kiểm tra (3 phút), mỗi mục một cuộc thăm dò. Cho xem kết quả, rồi chiếu đáp án ở slide sau.
+:::
 
-Thời gian nằm viện: trung vị (IQR). Tuổi: trung bình (SD). Thở máy: n (%). Giai đoạn AKI: n (%) theo từng giai đoạn kèm biểu đồ cột, không bao giờ dùng 'giai đoạn trung bình'.
+## Đáp án: tóm tắt bằng gì?
 
+:::: {.neu-cards style="--n:4"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[Trung vị (IQR)]{.neu-card-title}
+
+- Thời gian nằm ICU bị lệch
+- Vài người nằm rất lâu
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[Trung bình (SD)]{.neu-card-title}
+
+- Tuổi có hình chuông
+- Nên dùng trung bình
+:::
+::: {.neu-card .plain style="--c:#5FA39B"}
+[n (%)]{.neu-card-title}
+
+- Có hoặc không
+- Đếm số và tỷ lệ phần trăm
+:::
+::: {.neu-card .plain style="--c:#0070C0"}
+[n (%) mỗi giai đoạn]{.neu-card-title}
+
+- Nhóm có thứ tự: biểu đồ cột
+- Không dùng 'giai đoạn trung bình'
+:::
+::::
+
+::: {.neu-takeaway}
+**THÔNG ĐIỆP CHÍNH** Lệch: trung vị (IQR). Hình chuông: trung bình (SD). Phân nhóm: n (%).
+:::
+
+::: {.notes}
 Nếu nhiều người sai mục 1, quay lại biểu đồ tần suất.
+
+Thời gian: trong 3 phút của phần kiểm tra.
 :::
 
 ## Biểu đồ nào cho loại dữ liệu nào?
@@ -1079,7 +1146,7 @@ Cùng 48 người bệnh, hai bức hình.
 ::: {.notes}
 Biểu đồ 'thuốc nổ' che mất hình dạng và giá trị ngoại lai. Các chấm cho thấy một người bệnh 160 ml/kg kéo trung bình lên và hai nhóm chồng lấn nhiều.
 
-Luôn ghi thanh sai số là SD, SE hay KTC 95%.
+Luôn ghi thanh sai số là SD, SE hay khoảng tin cậy 95%.
 
 Hỏi: chỉ nhìn hình bên trái, anh chị sẽ kết luận gì?
 
@@ -1281,7 +1348,7 @@ Hỏi: sao không dùng cột trung bình SOFA? Kỳ vọng: nó che mất độ
 ::: {.notes}
 Do 02\_describe.R tạo, khối 7. Thời gian nằm ICU ở 439 người sống sót lệch phải: trung bình 7.5, trung vị 6.2 ngày.
 
-Q5 báo cáo trung vị (IQR), dùng Mann-Whitney và thang logarit trong mô hình.
+Q5 báo cáo trung vị (IQR), dùng Wilcoxon rank-sum (Mann-Whitney) và thang logarit trong mô hình.
 
 Bảng 1 nào cũng có ít nhất một biến lệch.
 :::
@@ -1295,7 +1362,7 @@ CẢ LỚP CÙNG LÀM · 10 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0D7377"}
-- Bảng 1 của FLUID-ICU, trong gói kết quả bất kỳ (phiếu bài tập, Bài 6)
+- Bảng 1 của FLUID-ICU, trong gói kết quả Q1 (phiếu bài tập, Bài 6). Gói Q4 và Q5 có Bảng 1 khác
 - Bảng dùng cách tóm tắt nào, các nhóm có giống nhau lúc đầu không, và mô tả người bệnh thế nào?
 :::
 :::
@@ -1320,7 +1387,7 @@ Cả lớp, 10 phút (21:45-21:55). Bài 6. Đáp án: s5\_solutions\_VN.md.
 
 5 phút: mỗi người tự làm. Sau đó 4 phút: mời hai ba người nêu cách tóm tắt (tuổi: trung bình, SOFA: trung vị, vận mạch: n %), khác biệt lớn nhất (mức độ nặng) và hai câu của mình, rồi gõ phiên bản của lớp. Phút cuối: các gói Q2 đến Q5 có thêm gì (ví dụ, Q5 có bảng riêng cho người sống).
 
-Phiên bản của lớp, ví dụ 'Trong 620 người bệnh, 618 có cân bằng ngày 3 và 373 (60.4%) có cân bằng dương. Nhóm này nặng hơn (trung vị SOFA 8 so với 6, vận mạch 55.0% so với 24.9%).'
+Phiên bản của lớp, ví dụ 'Trong 620 người bệnh, 618 có cân bằng ngày 3 và 373 có cân bằng dương. Nhóm này nặng hơn (trung vị SOFA 8 so với 6, vận mạch 55% so với 25%).'
 
 Hai câu này là phần mở đầu của một phần Kết quả.
 :::

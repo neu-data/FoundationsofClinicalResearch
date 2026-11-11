@@ -4,90 +4,104 @@ title: "Buổi 8: Lời giải"
 
 [Tải bản PDF](files/sessions/s8_solutions_VN.pdf) · [Quay lại Buổi 8](session8.qmd)
 
-Đáp án cho `s8_exercises_VN.md` (phiếu bài tập Buổi 8), Phần A–C. Đáp án mẫu cho phần thẩm định (Phần D) nằm trong `appraisal_instructor_guide.md`. Số liệu trong Phần B lấy từ `Results_Pack_Q1–Q5` (dữ liệu MÔ PHỎNG).
+Đáp án cho `s8_exercises_VN.md` (phiếu bài tập Buổi 8), Phần A–D. Số liệu trong Phần B lấy từ gói kết quả Q1 (`FLUID-ICU/results_packs/Q1/results_pack_Q1_VN.md`, dữ liệu MÔ PHỎNG). Ghi chú giảng dạy đầy đủ cho Phần D nằm trong `appraisal_instructor_guide.md` (tiếng Anh).
 
 
 * * *
 
 ## Phần A: Bài tập viết
 
-### A1. Sửa spin (bản viết lại mẫu)
+### A1. Sửa spin
 
-| # | Bản viết lại mẫu | Vì sao |
+| # | Câu bạn viết lại (mẫu) | Vì sao |
 |---|---|---|
-| a | "Ước lượng điểm nghiêng về chiến lược hạn chế dịch, nhưng KTC 95% rộng (−15.2 đến 41.6 ml/kg) và có chứa giá trị không khác biệt; cần một thử nghiệm lớn hơn để phát hiện một tác động nhỏ hơn." | p = 0.42 không phải là xu hướng; báo cáo ước lượng và độ không chắc chắn của nó (chú giải #41). |
-| b | "Cân bằng dịch dương trong ngày ICU đầu tiên không liên quan với tử vong 28 ngày (HR 1.17, KTC 95% 0.85 đến 1.60)." | "Impact" (tác động) hàm ý nhân quả; nghiên cứu thuần tập chỉ cho thấy mối liên quan (#27). |
+| a | "Ước lượng điểm nghiêng về chiến lược hạn chế dịch, nhưng khoảng tin cậy 95% rộng (−15.2 đến 41.6 ml/kg) và có chứa giá trị không khác biệt. Cần một thử nghiệm lớn hơn để phát hiện một tác động nhỏ hơn." | p = 0.42 không phải là xu hướng. Báo cáo ước lượng và độ không chắc chắn của nó (chú giải #41). |
+| b | "Cân bằng dịch dương trong ngày ICU đầu tiên không liên quan với tử vong 28 ngày (HR 1.17, khoảng tin cậy 95% 0.85 đến 1.60)." | "Impact" (tác động) hàm ý nhân quả. Nghiên cứu thuần tập chỉ cho thấy mối liên quan (#27). |
 | c | "Positive cumulative fluid balance during the first three ICU days and 28-day mortality in sepsis: a propensity score-matched cohort study" (Cân bằng dịch tích lũy dương trong ba ngày ICU đầu tiên và tử vong 28 ngày trong sepsis: nghiên cứu thuần tập ghép cặp theo điểm xu hướng) | Tiêu đề phải tương xứng với thiết kế quan sát (#1). |
 | d | "Theo hiểu biết của chúng tôi, đây là một trong những mức cân bằng dịch ngày 5 thấp nhất được báo cáo trong các thử nghiệm về sốc nhiễm khuẩn [tài liệu tham khảo]", hoặc bỏ câu này. | So sánh bậc nhất cần có từ rào đón và trích dẫn (#40). |
 
-### A2. Bậc thang động từ
+### A2. Leo bậc thang động từ
 
-a: **được ghi nhận ở** (loạt ca bệnh) · b: **có liên quan với** (thuần tập) · c: **không làm giảm** (một RCT; thêm "trong nghiên cứu thí điểm này" vì cỡ mẫu nhỏ) · d: **làm giảm / gây ra** (các RCT lớn nhất quán và phân tích gộp) · e: **được ghi nhận / chiếm … %** (nghiên cứu mô tả cắt ngang).
+| # | Nghiên cứu | Động từ mạnh nhất mà vẫn trung thực |
+|---|---|---|
+| a | Loạt ca bệnh gồm 12 người bệnh | **được ghi nhận ở** |
+| b | Nghiên cứu thuần tập trên 3,000 người bệnh, có hiệu chỉnh theo mức độ nặng | **có liên quan với** |
+| c | Một thử nghiệm ngẫu nhiên trên 48 người bệnh | **đã làm giảm / không làm giảm** (thêm "trong nghiên cứu thí điểm này", vì thử nghiệm nhỏ) |
+| d | Năm thử nghiệm ngẫu nhiên lớn và một phân tích gộp, tất cả đều nhất quán | **gây ra** |
+| e | Khảo sát cắt ngang về mức độ đầy đủ của phiếu theo dõi | **được ghi nhận ở** (khảo sát mô tả chỉ báo cáo điều nó thấy, ví dụ "phiếu đầy đủ được ghi nhận ở 60% người bệnh") |
 
-### A3. Câu kết quả
+### A3. Viết câu kết quả
 
-1. "Trong thuần tập ghép cặp ngày 3, cân bằng dịch tích lũy dương có liên quan với tử vong 28 ngày cao hơn (HR 1.56, KTC 95% 1.10 đến 2.22; P = 0.012)."
-2. "Đến ngày 28, mỗi nhóm có 6 trên 24 người bệnh tử vong (nguy cơ tương đối 1.0, KTC 95% 0.38 đến 2.66)." Trong phần Bàn luận: "thử nghiệm quá nhỏ để đánh giá tử vong".
-3. "Trong thuần tập ngày 1, cân bằng dịch dương không liên quan với tử vong 28 ngày (HR 1.17, KTC 95% 0.85 đến 1.60; P = 0.354)." Không viết "không có tác động".
+1. "Ở thuần tập ghép cặp ngày 3, cân bằng dịch tích lũy dương có liên quan với tử vong 28 ngày cao hơn (HR 1.56, khoảng tin cậy 95% 1.10 đến 2.22, P = 0.012)."
+2. "Ở 48 người bệnh được phân bổ ngẫu nhiên, tử vong 28 ngày là 6 trên 24 ở nhóm hạn chế dịch và 6 trên 24 ở nhóm chứng (nguy cơ tương đối 1.0, khoảng tin cậy 95% 0.38 đến 2.66)."
+3. "Ở thuần tập ghép cặp ngày 1, cân bằng dịch dương không liên quan với tử vong 28 ngày (HR 1.17, khoảng tin cậy 95% 0.85 đến 1.60, P = 0.354)."
 
-### A4. Tên đề tài từ PICO (ví dụ xuyên suốt)
+*Ghi chú cho giảng viên.* Với câu 2, phần Bàn luận có thể thêm "thử nghiệm quá nhỏ để đánh giá tử vong". Với câu 3, không viết "không có tác động".
 
-"Restrictive vs usual fluids and 28-day mortality in septic shock: a randomised controlled trial" (14 từ). Hoặc, cho đề cương quan sát: "Cumulative fluid balance and 28-day mortality in adults with septic shock: a retrospective cohort study". Kiểm tra: 10–16 từ, nêu thiết kế, không dùng "impact", thiết kế quan sát dùng "and" / "association between".
+### A4. Tên đề tài từ PICO của bạn (ví dụ xuyên suốt)
+
+| Mục | Câu trả lời mẫu |
+|---|---|
+| PICO của tôi | P: người lớn bị sốc nhiễm khuẩn tại ICU của mình. E: cân bằng dịch tích lũy dương đến ngày 3. C: cân bằng dịch âm hoặc bằng 0. O: tử vong 28 ngày |
+| Tên đề tài tạm thời | "Cohort study of positive vs negative fluid balance in septic shock: association with 28-day mortality" (Nghiên cứu thuần tập về cân bằng dịch dương so với âm ở sốc nhiễm khuẩn: mối liên quan với tử vong 28 ngày) |
+| Số từ | 15 (tiếng Anh) |
+| Đã nêu thiết kế? | ☑ (nghiên cứu thuần tập) |
+| Động từ chừng mực? | ☑ ("mối liên quan với", vì thiết kế là quan sát) |
+
+*Ghi chú cho giảng viên.* Thiết kế cũng có thể đặt sau dấu hai chấm ở cuối, như ở Buổi 7: "Cumulative fluid balance and 28-day mortality in adults with septic shock: a retrospective cohort study" (14 từ). Chấp nhận cả hai cách. Tên một thử nghiệm sẽ là "Randomised controlled trial of restrictive vs usual fluids in septic shock: effect on 28-day mortality" (15 từ).
 
 
 * * *
 
-## Phần B: Thực hành bản thảo 2: hoàn thiện phần Kết quả, và mẫu cho các phần khác
+## Phần B: Thực hành bản thảo 2: hoàn thiện phần Kết quả
 
-### Hoàn thiện phần Kết quả Q1 của lớp (phần 1 của buổi thực hành)
-| Kiểm tra | Cách sửa điển hình trong bản nháp của lớp |
-|---|---|
-| Mọi con số khớp với gói kết quả Q1 | Sửa theo gói kết quả, ví dụ 134/373 (35.9%) |
-| Tỷ lệ phần trăm có mẫu số | "35.9%" thành "134 trên 373 (35.9%)" |
-| Có cả ước lượng thô và đã hiệu chỉnh | OR thô 2.49 (1.70 đến 3.70), hiệu chỉnh 1.62 (1.02 đến 2.59), n = 527 |
-| Bảng tự đọc hiểu được | Tên bảng nêu ai và khi nào, n mỗi cột, đơn vị, chú thích SOFA và IQR |
-| Không diễn giải | Xóa "vì người bệnh nặng hơn được truyền nhiều dịch hơn" |
-| Tên bài dự kiến | "Cân bằng dịch dương đến ngày 3 và tử vong 28 ngày ở người bệnh sepsis: một nghiên cứu thuần tập đa trung tâm" |
+Số liệu lấy từ gói kết quả Q1 (`FLUID-ICU/results_packs/Q1/results_pack_Q1_VN.md`, **DỮ LIỆU MÔ PHỎNG**). Bảng chứa mỗi con số được ghi trong ngoặc.
 
-Các mẫu dưới đây dành cho phần Đặt vấn đề, Bàn luận và Tóm tắt đã học ở 8.1. Các phần này không bắt buộc nộp. Dùng để định hướng, không dán nguyên văn. Học viên chọn Q2–Q5 theo cùng cấu trúc với gói kết quả của mình.
+### Phần Kết quả Q1 của lớp
+| Bước kiểm tra | Lỗi tôi tìm thấy (điển hình) | Cách tôi sửa |
+|---|---|---|
+| Con số | Một con số khác với gói Q1, tỷ lệ phần trăm không có mẫu số, hoặc chỉ có một trong hai ước lượng thô và hiệu chỉnh | Chép từng con số từ gói. "35.9%" thành "134 trên 373 (35.9%)" (Bảng 2). Ghi OR thô 2.49 (khoảng tin cậy 95% 1.70 đến 3.70) và OR hiệu chỉnh 1.62 (khoảng tin cậy 95% 1.02 đến 2.59), n = 527 (Bảng 3) |
+| Bảng và hình | Tên bảng không nêu ai và khi nào, không có n mỗi cột, không có đơn vị, không giải thích SOFA và IQR | Thêm tên bảng đầy đủ, n mỗi cột và đơn vị. Giải thích SOFA và IQR trong chú thích |
+| Từ ngữ | "vì người bệnh nặng hơn được truyền nhiều dịch hơn", "một xu hướng", "làm tăng tử vong" | Xóa lời giải thích (thuộc phần Bàn luận). Viết "có liên quan với" |
 
-Mọi con số lấy từ `Results_Pack_Q1–Q5` và gói kết quả Q1 (**DỮ LIỆU MÔ PHỎNG**). Tài liệu tham khảo để dạng giữ chỗ [n]; học viên dùng các tài liệu tham khảo từ Buổi 1–2 và Bài báo 1–2.
+Tên bài dự kiến cho Q1: "Positive fluid balance by day 3 and 28-day mortality in sepsis: a multicentre cohort study" (Cân bằng dịch dương đến ngày 3 và tử vong 28 ngày trong sepsis: nghiên cứu thuần tập đa trung tâm) (15 từ tiếng Anh, nêu thiết kế, không có động từ nhân quả).
 
-### Tiêu đề và từ khóa mẫu
+### Bản nháp phần Kết quả của tôi
+Tên bài dự kiến của tôi: mỗi học viên một câu trả lời. Kiểm tra bằng bước thứ tư: 10–16 từ, nêu thiết kế, dùng "có liên quan" cho thiết kế quan sát.
 
-**Positive fluid balance by day 3 and 28-day mortality in sepsis: a multicentre cohort study** (Cân bằng dịch dương đến ngày 3 và tử vong 28 ngày trong sepsis: nghiên cứu thuần tập đa trung tâm) (15 từ tiếng Anh; nêu thiết kế; từ ngữ chừng mực).
-Từ khóa: Fluid Therapy; Water-Electrolyte Balance; Critical Care; Mortality; Cohort Studies.
+### Các phần khác (không bắt buộc): bản mẫu
+Các bản mẫu này dành cho phần Đặt vấn đề, Bàn luận và Tóm tắt đã học ở 8.1. Dùng để định hướng, không dán nguyên văn. Số liệu lấy từ gói Q1 (Bảng 1 đến 6). Tài liệu tham khảo để dạng giữ chỗ [n]. Học viên dùng các tài liệu tham khảo từ Buổi 1–2 và Bài báo 1–2.
 
-### Đặt vấn đề mẫu (~300 từ, ba đoạn)
-
+**Đặt vấn đề mẫu (~300 từ, ba đoạn)**
 1. *Điều đã biết.* Dịch truyền tĩnh mạch là nền tảng trong điều trị sớm sepsis, nhưng dịch truyền vượt quá giai đoạn hồi sức sẽ tích lũy. Cân bằng dịch tích lũy dương có liên quan với tử vong cao hơn trong nhiều nghiên cứu quan sát, trong đó có một nghiên cứu thuần tập lớn ghép cặp theo điểm xu hướng cho thấy cân bằng dịch dương ở ngày ICU thứ 2 liên quan với tử vong 28 ngày cao hơn (HR 2.13) [Bài báo 2].
 2. *Điều chưa biết.* Vì người bệnh nặng hơn được truyền nhiều dịch hơn, vẫn chưa rõ bao nhiêu phần của mối liên quan này phản ánh mức độ nặng của bệnh (nhiễu do chỉ định) chứ không phải do chính dịch truyền [tài liệu tham khảo]. Các thử nghiệm ngẫu nhiên về chiến lược hạn chế dịch, như một nghiên cứu thí điểm gần đây nhắm vào dịch không nhằm hồi sức [Bài báo 1], đều nhỏ và chưa đưa ra kết luận.
 3. *Mục tiêu.* Vì vậy chúng tôi xem xét liệu cân bằng dịch tích lũy dương đến ngày ICU thứ 3 có liên quan với tử vong 28 ngày ở người lớn bị sepsis hay không, trước và sau khi hiệu chỉnh theo mức độ nặng.
 
-### Bàn luận mẫu (~500 từ, sáu bước)
+**Bàn luận mẫu (~500 từ, sáu bước)**
+1. **Trả lời.** Trong nghiên cứu thuần tập đa trung tâm này, cân bằng dịch dương đến ngày ICU thứ 3 có liên quan với tử vong 28 ngày cao hơn sau khi hiệu chỉnh theo mức độ nặng (OR hiệu chỉnh 1.62, khoảng tin cậy 95% 1.02 đến 2.59).
+2. **So sánh.** Chiều hướng phù hợp với Bài báo 2 (HR ngày 2 là 2.13, khoảng tin cậy 95% 1.48 đến 3.06), dù ước lượng hiệu chỉnh của chúng tôi nhỏ hơn. Khác biệt về đặc điểm người bệnh, thời điểm tính cân bằng dịch và bộ biến hiệu chỉnh có thể giải thích điều này.
+3. **Giải thích.** Phần lớn mối liên quan thô (OR 2.49) biến mất sau hiệu chỉnh, phù hợp với nhiễu do chỉ định. Người bệnh có cân bằng dịch dương nặng hơn (trung vị SOFA 8 so với 6, thuốc vận mạch 55% so với 25%). Tích lũy dịch có thể góp phần gây phù cơ quan, nhưng dữ liệu của chúng tôi không chứng minh được điều này.
+4. **Hạn chế.** Nhiễu tồn dư do mức độ nặng chưa được đo là rất có thể và sẽ phóng đại mối liên quan. Quan hệ nhân quả ngược (người bệnh diễn tiến xấu tích lũy dịch) cũng tác động theo cùng chiều. Người bệnh tử vong trước ngày 3 có ít thời gian tích lũy dịch hơn. HR Cox hiệu chỉnh (1.46, khoảng tin cậy 95% 1.00 đến 2.13) có giới hạn dưới bằng 1. Lactat bị thiếu ở 15%, nhưng quy gán đa bội (multiple imputation) cho ước lượng tương tự (OR 1.70). Mối liên quan có vẻ mạnh hơn ở người suy tim (OR hiệu chỉnh 4.39 so với 1.29, p tương tác 0.031) nhưng chỉ dựa trên 90 người bệnh và nên được xem là một giả thuyết. Dữ liệu là dữ liệu mô phỏng.
+5. **Ý nghĩa.** Các phát hiện này không đủ căn cứ để hạn chế dịch trong thực hành lâm sàng. Cần một thử nghiệm ngẫu nhiên về chiến lược truyền dịch sau giai đoạn hồi sức.
+6. **Kết luận.** Cân bằng dịch tích lũy dương đến ngày ICU thứ 3 có liên quan ở mức vừa phải với tử vong 28 ngày cao hơn. Phần lớn mối liên quan thô phản ánh mức độ nặng của bệnh.
 
-1. **Trả lời.** Trong nghiên cứu thuần tập đa trung tâm này, cân bằng dịch dương đến ngày ICU thứ 3 có liên quan với tử vong 28 ngày cao hơn sau khi hiệu chỉnh theo mức độ nặng (OR hiệu chỉnh 1.62, KTC 95% 1.02 đến 2.59).
-2. **So sánh.** Chiều hướng phù hợp với Bài báo 2 (HR ngày 2 là 2.13, KTC 95% 1.48 đến 3.06), dù ước lượng hiệu chỉnh của chúng tôi nhỏ hơn; khác biệt về đặc điểm người bệnh, thời điểm tính cân bằng dịch và bộ biến hiệu chỉnh có thể giải thích điều này.
-3. **Giải thích.** Phần lớn mối liên quan thô (OR 2.49) biến mất sau hiệu chỉnh, phù hợp với nhiễu do chỉ định: người bệnh có cân bằng dịch dương nặng hơn (trung vị SOFA 8 so với 6; thuốc vận mạch 55.0% so với 24.9%). Tích lũy dịch có thể góp phần gây phù cơ quan, nhưng dữ liệu của chúng tôi không chứng minh được điều này.
-4. **Hạn chế.** Nhiễu tồn dư do mức độ nặng chưa được đo là rất có thể và sẽ phóng đại mối liên quan; quan hệ nhân quả ngược (người bệnh diễn tiến xấu tích lũy dịch) cũng tác động theo cùng chiều. Người bệnh tử vong trước ngày 3 có ít thời gian tích lũy dịch hơn. HR Cox hiệu chỉnh (1.46, KTC 95% 1.00 đến 2.13) có giới hạn dưới bằng 1. Lactate bị thiếu ở 15%, nhưng quy gán đa bội cho ước lượng tương tự (OR 1.70). Mối liên quan có vẻ mạnh hơn ở người suy tim (OR hiệu chỉnh 4.39 so với 1.29; p tương tác 0.031) nhưng chỉ dựa trên 90 người bệnh và nên được xem là một giả thuyết. Dữ liệu là dữ liệu mô phỏng.
-5. **Ý nghĩa.** Các phát hiện này không đủ căn cứ để hạn chế dịch trong thực hành lâm sàng; cần một thử nghiệm ngẫu nhiên về chiến lược truyền dịch sau giai đoạn hồi sức.
-6. **Kết luận.** Cân bằng dịch tích lũy dương đến ngày ICU thứ 3 có liên quan ở mức vừa phải với tử vong 28 ngày cao hơn; phần lớn mối liên quan thô phản ánh mức độ nặng của bệnh.
-
-### Tóm tắt mẫu (≈190 từ)
-
+**Tóm tắt mẫu (khoảng 190 từ)**
 **Đặt vấn đề:** Cân bằng dịch dương có liên quan với tử vong trong sepsis, nhưng người bệnh nặng hơn được truyền nhiều dịch hơn. Chúng tôi xem xét mối liên quan này sau khi hiệu chỉnh theo mức độ nặng.
-**Phương pháp:** Nghiên cứu thuần tập tiến cứu đa trung tâm (dữ liệu giảng dạy mô phỏng) trên 620 người lớn bị sepsis tại bốn ICU, 2023–2024. Phơi nhiễm: cân bằng dịch tích lũy dương đến ngày ICU thứ 3. Kết cục: tử vong 28 ngày. Hồi quy logistic và Cox hiệu chỉnh theo tuổi, SOFA, lactate, thuốc vận mạch, thở máy và bệnh thận mạn; quy gán đa bội cho lactate bị thiếu.
-**Kết quả:** Trong 618 người bệnh được phân tích, 373 người (60.4%) có cân bằng dịch dương; 134/373 (35.9%) so với 45/245 (18.4%) tử vong. OR thô là 2.49 (KTC 95% 1.70 đến 3.70) và OR hiệu chỉnh là 1.62 (KTC 95% 1.02 đến 2.59); với quy gán là 1.70 (1.09 đến 2.64). HR hiệu chỉnh là 1.46 (KTC 95% 1.00 đến 2.13).
-**Kết luận:** Cân bằng dịch dương đến ngày 3 có liên quan ở mức vừa phải với tử vong 28 ngày; phần lớn mối liên quan thô phản ánh mức độ nặng của bệnh. Cần một thử nghiệm ngẫu nhiên trước khi thay đổi chiến lược truyền dịch.
+**Phương pháp:** Nghiên cứu thuần tập tiến cứu đa trung tâm (dữ liệu giảng dạy mô phỏng) trên 620 người lớn bị sepsis tại bốn ICU, 2023–2024. Phơi nhiễm: cân bằng dịch tích lũy dương đến ngày ICU thứ 3. Kết cục: tử vong 28 ngày. Hồi quy logistic và Cox hiệu chỉnh theo tuổi, SOFA, lactat, thuốc vận mạch, thở máy và bệnh thận mạn. Quy gán đa bội cho lactat bị thiếu.
+**Kết quả:** Trong 618 người bệnh được phân tích, 373 người (60.4%) có cân bằng dịch dương. 134/373 (35.9%) so với 45/245 (18.4%) tử vong. OR thô là 2.49 (khoảng tin cậy 95% 1.70 đến 3.70) và OR hiệu chỉnh là 1.62 (khoảng tin cậy 95% 1.02 đến 2.59). Với quy gán là 1.70 (1.09 đến 2.64). HR hiệu chỉnh là 1.46 (khoảng tin cậy 95% 1.00 đến 2.13).
+**Kết luận:** Cân bằng dịch dương đến ngày 3 có liên quan ở mức vừa phải với tử vong 28 ngày. Phần lớn mối liên quan thô phản ánh mức độ nặng của bệnh. Cần một thử nghiệm ngẫu nhiên trước khi thay đổi chiến lược truyền dịch.
 
-### Các điểm bàn luận riêng cho từng câu hỏi (từ các gói kết quả)
+*Ghi chú cho giảng viên: các điểm bàn luận cho Q2 đến Q5 (từ từng gói kết quả)*
 
-| Câu hỏi | Câu trả lời (số liệu từ key_results.md) | Hạn chế chính |
+| Câu hỏi | Câu trả lời (bảng trong gói) | Hạn chế chính |
 |---|---|---|
-| Q2 AKI | OR hiệu chỉnh 1.27 mỗi 10 ml/kg (KTC 95% 1.16 đến 1.40) | Quan hệ nhân quả ngược: AKI thiểu niệu gây tích lũy dịch |
-| Q3 VFD | Hiệu chỉnh −0.61 ngày mỗi 10 ml/kg (KTC 95% −1.00 đến −0.21) | Số ngày không thở máy gộp cả tử vong và thở máy; kết cục có phân phối lệch |
-| Q4 Lactate | OR hiệu chỉnh mỗi mmol/L 1.39 (CC, n = 527) so với 1.45 (MI, n = 620) | Không loại trừ được thiếu không ngẫu nhiên; MAR là hợp lý (thiếu ở người bệnh nhẹ hơn) |
-| Q5 Thời gian nằm ICU | Tỷ số trung bình nhân hiệu chỉnh 1.24 (KTC 95% 1.10 đến 1.39), người sống sót (n = 366 trong mô hình hiệu chỉnh) | Chỉ người sống sót (điều kiện hóa theo sống còn); kết cục có phân phối lệch |
+| Q2 AKI | OR hiệu chỉnh 1.27 mỗi 10 ml/kg (KTC 95% 1.16 đến 1.40) (Bảng 4 gói Q2) | Quan hệ nhân quả ngược: AKI thiểu niệu gây tích lũy dịch |
+| Q3 VFD | Hiệu chỉnh −0.61 ngày mỗi 10 ml/kg (KTC 95% −1.00 đến −0.21) (Bảng 3 gói Q3) | Số ngày không thở máy gộp cả tử vong và thở máy. Kết cục có phân phối lệch |
+| Q4 Lactat | OR hiệu chỉnh mỗi mmol/L 1.39 (CC, n = 527) so với 1.45 (MI, n = 620) (Bảng 4 gói Q4) | Không loại trừ được thiếu không ngẫu nhiên. MAR là hợp lý (thiếu ở người bệnh nhẹ hơn) |
+| Q5 Thời gian nằm ICU | Tỷ số trung bình nhân hiệu chỉnh 1.24 (KTC 95% 1.10 đến 1.39), người sống sót, n = 366 (Bảng 3 gói Q5) | Chỉ người sống sót (điều kiện hóa theo sống còn). Kết cục có phân phối lệch |
+
+
+* * *
 
 ## Phần C: Công bố
 
@@ -97,7 +111,7 @@ Từ khóa: Fluid Therapy; Water-Electrolyte Balance; Critical Care; Mortality; 
 1. Lời chào chung chung, tâng bốc ("Respected Professor/Doctor"), email gửi hàng loạt không được yêu cầu.
 2. Địa chỉ email miễn phí, không phải tên miền của nhà xuất bản.
 3. Lời khẳng định mơ hồ đã đọc "your excellent article" (không nêu tên bài).
-4. Phạm vi rộng một cách vô lý (y khoa, điều dưỡng, kỹ thuật, quản lý; "all areas of science").
+4. Phạm vi rộng một cách vô lý (y khoa, điều dưỡng, kỹ thuật, quản lý, "all areas of science").
 5. Chỉ số giả ("International Universal Index" impact factor). Chỉ Clarivate cấp Journal Impact Factor.
 6. Cam kết bình duyệt trong 48 giờ và xuất bản trong 5 ngày.
 7. Phí được giấu đến sau khi chấp nhận bài.
@@ -109,8 +123,8 @@ Từ khóa: Fluid Therapy; Water-Electrolyte Balance; Critical Care; Mortality; 
 | Tạp chí | Nhận định | Lý do |
 |---|---|---|
 | J1 | **Tin cậy** | Việc chỉ mục được xác minh tại nguồn, phí và thời gian minh bạch, biên tập viên kiểm chứng được, dùng bảng kiểm báo cáo. |
-| J2 | **Tránh** | Google Scholar / Index Copernicus không phải là chỉ mục chất lượng; chấp nhận trong 72 giờ; phí bị giấu; ban biên tập không kiểm chứng được. |
-| J3 | **Tin cậy / kiểm tra thêm** | Có trong DOAJ và chính sách rõ ràng là dấu hiệu tốt; chưa có hệ số ảnh hưởng là bình thường với tạp chí mới hoặc nhỏ. Kiểm tra xem tạp chí có đăng các nghiên cứu giống của bạn không. |
+| J2 | **Tránh** | Google Scholar / Index Copernicus không phải là chỉ mục chất lượng. Chấp nhận trong 72 giờ, phí bị giấu và ban biên tập không kiểm chứng được. |
+| J3 | **Tin cậy / kiểm tra thêm** | Có trong DOAJ và chính sách rõ ràng là dấu hiệu tốt. Chưa có hệ số ảnh hưởng là bình thường với tạp chí mới hoặc nhỏ. Kiểm tra xem tạp chí có đăng các nghiên cứu giống của bạn không. |
 | J4 | **Tránh** | Tạp chí "bị đánh cắp" (hijacked) hoặc giả danh. Luôn vào tạp chí thật qua website của nhà xuất bản hoặc NLM Catalog, không qua đường dẫn trong email. |
 
 
@@ -120,9 +134,52 @@ Từ khóa: Fluid Therapy; Water-Electrolyte Balance; Critical Care; Mortality; 
 
 | # | Phản hồi mẫu | Thay đổi |
 |---|---|---|
-| R1.1 | "Xin cảm ơn. Chúng tôi đồng ý rằng thiết kế của chúng tôi chỉ ủng hộ mối liên quan, không phải quan hệ nhân quả. Chúng tôi đã đổi tiêu đề thành '… và …: nghiên cứu thuần tập' và thay 'cải thiện' bằng 'có liên quan với' trong toàn bài." | Tiêu đề tr.1; tóm tắt; Bàn luận tr.x |
-| R1.2 | "Xin cảm ơn. Kết quả chính nay được báo cáo là RR 0.78 (KTC 95% 0.61 đến 0.99) trong phần tóm tắt, Kết quả và Bảng 2." | Tóm tắt; Kết quả tr.x |
-| R1.3 | "Cảm ơn người phản biện đã phát hiện điều này. 212 người bệnh được đưa vào và 4 người bị loại khỏi mô hình hiệu chỉnh vì thiếu lactate; sơ đồ dòng và văn bản nay thể hiện 212 người được đưa vào và 208 người được phân tích, kèm lý do." | Hình 1; Kết quả tr.x |
+| R1.1 | "Xin cảm ơn. Chúng tôi đồng ý rằng thiết kế của chúng tôi chỉ ủng hộ mối liên quan, không phải quan hệ nhân quả. Chúng tôi đã đổi tiêu đề thành '… và …: nghiên cứu thuần tập' và thay 'cải thiện' bằng 'có liên quan với' trong toàn bài." | Tiêu đề tr.1, tóm tắt, Bàn luận tr.x |
+| R1.2 | "Xin cảm ơn. Kết quả chính nay được báo cáo là RR 0.78 (khoảng tin cậy 95% 0.61 đến 0.99) trong phần tóm tắt, Kết quả và Bảng 2." | Tóm tắt, Kết quả tr.x |
+| R1.3 | "Cảm ơn người phản biện đã phát hiện điều này. 212 người bệnh được đưa vào và 4 người bị loại khỏi mô hình hiệu chỉnh vì thiếu lactat. Sơ đồ dòng và văn bản nay thể hiện 212 người được đưa vào và 208 người được phân tích, kèm lý do." | Hình 1, Kết quả tr.x |
 | R2.1 | (phản bác lịch sự) "Chúng tôi đồng ý tử vong 1 năm là quan trọng. Đề cương của chúng tôi, đã được hội đồng đạo đức chấp thuận, chỉ theo dõi người bệnh đến ngày 28, nên dữ liệu này không được thu thập. Chúng tôi nay nêu điều này như một hạn chế và đề xuất cho các nghiên cứu sau." | Hạn chế tr.x |
 
-Các điểm chấm: trả lời mọi nhận xét; cảm ơn mà không khúm núm; nêu vị trí cụ thể của mọi thay đổi; không bịa thêm dữ liệu mới; phản bác có lý do (đề cương, chấp thuận của hội đồng đạo đức).
+*Ghi chú cho giảng viên: các điểm chấm.* Mọi nhận xét đều được trả lời. Lời cảm ơn không khúm núm. Mọi thay đổi đều có vị trí cụ thể. Không bịa thêm dữ liệu mới. Phản bác nào cũng có lý do (đề cương, chấp thuận của hội đồng đạo đức).
+
+
+* * *
+
+## Phần D: Làm người phản biện (phiếu trả lời)
+
+Trên lớp, Bài báo 1 cần câu 4, 5, 7, 8 và 9, Bài báo 2 cần câu 4, 5, 8 và 9. Các dòng còn lại là đáp án bài về nhà. Chấp nhận "Không rõ" khi lý do hợp lý. Số trang là số trang của tạp chí.
+
+### Bài báo 1: Boulet 2024 (thử nghiệm ngẫu nhiên thí điểm)
+
+| # | Câu hỏi | Trả lời | Trang | Ghi chú (một dòng) |
+|---|---|---|---|---|
+| 1 | Câu hỏi | Có | 1, 3 | P: người lớn 18–85 tuổi bị sốc nhiễm khuẩn, trong 24 giờ sau khi bắt đầu thuốc vận mạch. I: chiến lược hạn chế dịch không nhằm hồi sức. C: chăm sóc thường quy. O: cân bằng dịch tích lũy ở ngày 5 |
+| 2 | Thiết kế | Có | 1, 3 | Thử nghiệm ngẫu nhiên thí điểm đa trung tâm, là thiết kế phù hợp để kiểm định một chiến lược có làm thay đổi cân bằng dịch không. Gọi là thí điểm nhưng cỡ mẫu lại tính theo hiệu quả |
+| 3 | Người tham gia | Không rõ | 3, 5, 10 | 50 trên 1201 người được sàng lọc được phân bổ ngẫu nhiên (khoảng 4%). Người bệnh nặng nhất bị loại, nên nhiều người bệnh của chúng ta không đủ tiêu chuẩn |
+| 4 | Nhóm so sánh | Có | 3, 6 | Phân bổ ngẫu nhiên làm các nhóm nhìn chung giống nhau. Creatinine cao hơn ở nhóm chứng, nhưng văn bản ở tr.5 nói ngược lại |
+| 5 | Sai lệch | Có | 3, 8 | Bác sĩ không được làm mù và chính họ kê dịch tạo nên kết cục. Nhóm chứng bị "nhiễm" chiến lược, kéo kết quả về phía không khác biệt |
+| 6 | Kết cục | Có | 4 | Một kết cục chính (cân bằng dịch ngày 5), đã đăng ký (NCT04947904) trước người bệnh đầu tiên |
+| 7 | Số liệu | Có | 6, 10 | Tác động: hiệu số 13.2 ml/kg. Khoảng tin cậy 95%: −15.2 đến 41.6 (p = 0.42). Rộng: chứa cả 0 và mức 30 ml/kg mà thử nghiệm dự định phát hiện |
+| 8 | Lời lẽ so với thiết kế | Không | 1, 10 | Kết luận trong tóm tắt ổn ("did not reduce"). Từ tìm thấy ở tr.10: "non-significant trend", "ever published", "regardless of severity" |
+| 9 | Hạn chế | Có | 8–10 | Trung thực và cụ thể. Bỏ sót: khối 2 người cùng với bác sĩ không được làm mù khiến đoán được lần phân bổ tiếp theo |
+| 10 | Ứng dụng | Không | toàn bài | Một thử nghiệm thí điểm 48 người với kết cục trung gian âm tính không thể thay đổi thực hành. Có thể là lý do để rà soát dịch duy trì tại khoa |
+
+**Nhận định trong một câu:** một thử nghiệm thí điểm được báo cáo tốt, không làm giảm cân bằng dịch ngày 5 và quá nhỏ để nói gì về tử vong.
+**Một điều nên học theo:** một kết cục chính được xác định trước và đăng ký trước người bệnh đầu tiên.
+
+### Bài báo 2: Hyun 2023 (thuần tập ghép cặp theo điểm xu hướng)
+
+| # | Câu hỏi | Trả lời | Trang | Ghi chú (một dòng) |
+|---|---|---|---|---|
+| 1 | Câu hỏi | Có | 1, 2 | P: người lớn bị sepsis nằm ICU ít nhất 3 ngày, 20 bệnh viện. E: cân bằng dịch tích lũy dương đến ngày 1, 2 hoặc 3. C: cân bằng dịch âm. O: tử vong 28 ngày |
+| 2 | Thiết kế | Có (cho mối liên quan) | 1, 2–3 | Thuần tập từ sổ đăng ký với ba thuần tập ghép cặp. Phù hợp cho câu hỏi về mối liên quan, không phải "impact" mang tính nhân quả trong tiêu đề |
+| 3 | Người tham gia | Không rõ | 2, 3 | 2516 trên 11,981 người được phân tích (khoảng 21%). Thiếu những người tử vong hoặc rời ICU trong 3 ngày đầu |
+| 4 | Nhóm so sánh | Không (chưa hoàn toàn) | 2–3, 4, 5–6 | Chỉ ghép cặp theo các biến đã đo. Lactat vẫn mất cân bằng (SMD 0.132 ở ngày 2 và 0.182 ở ngày 3, trên ngưỡng 0.1) |
+| 5 | Sai lệch | Có | 2–3, 7–8 | Không làm mù, nhưng tử vong là kết cục khách quan. Sai lệch chính là nhiễu do chỉ định (người bệnh nặng hơn được truyền nhiều dịch hơn), tác giả không nêu tên |
+| 6 | Kết cục | Không rõ | 3 | Tử vong 28 ngày, đo giống nhau. Không có kế hoạch phân tích đã đăng ký, và ba thuần tập cho ba so sánh chính |
+| 7 | Số liệu | Có | 1, 4 | Ngày 1 HR 1.17 (0.85 đến 1.60), ngày 2 HR 2.13 (1.48 đến 3.06), ngày 3 HR 1.56 (1.10 đến 2.22). Tương đối hẹp |
+| 8 | Lời lẽ so với thiết kế | Không | 1, 4, 7, 8 | Từ tìm thấy: "Impact" (tiêu đề), "did not impact" và "show" (tr.4), "most reliable" và "highest risk" (tr.7–8) |
+| 9 | Hạn chế | Có (một phần) | 7–8 | Có nêu yếu tố nhiễu chưa đo và chỉ một nhóm dân tộc. Bỏ sót: sai lệch người sống sót do quy tắc nằm ICU ít nhất 3 ngày |
+| 10 | Ứng dụng | Không | toàn bài | Ủng hộ việc xem lại cân bằng dịch hằng ngày, nhưng không chứng minh được rằng nhắm tới cân bằng dịch âm cứu được người bệnh |
+
+**Nhận định trong một câu:** một nghiên cứu thuần tập ghép cặp lớn cho thấy mối liên quan ở ngày 2 và 3, nhưng lời lẽ nhân quả vượt quá thiết kế.
+**Một điều nên học theo:** Bảng 1 có chênh lệch trung bình chuẩn hóa (SMD) và chú thích về dữ liệu thiếu.

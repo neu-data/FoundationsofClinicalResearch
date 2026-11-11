@@ -106,14 +106,14 @@ Tệp: `tables/table3_mortality_by_lactate_VN.csv` và `tables/table3_mortality_
 
 **Bảng 4. Lactat và tử vong 28 ngày: trường hợp đầy đủ so với quy gán đa bội**
 
-|Mô hình                                                                |Phương pháp             |n   |OR mỗi 1 mmol/L (KTC 95%) |p      |
-|:----------------------------------------------------------------------|:-----------------------|:---|:-------------------------|:------|
-|Chưa hiệu chỉnh                                                        |Trường hợp đầy đủ       |527 |1.38 (1.23 đến 1.55)      |<0.001 |
-|Chưa hiệu chỉnh                                                        |Quy gán đa bội (m = 20) |620 |1.44 (1.28 đến 1.61)      |<0.001 |
-|Hiệu chỉnh: tuổi, giới, đái tháo đường, bệnh thận mạn, suy tim (chính) |Trường hợp đầy đủ       |527 |1.39 (1.24 đến 1.57)      |<0.001 |
-|Hiệu chỉnh: tuổi, giới, đái tháo đường, bệnh thận mạn, suy tim (chính) |Quy gán đa bội (m = 20) |620 |1.45 (1.29 đến 1.64)      |<0.001 |
-|Mô hình chính + điểm SOFA                                              |Trường hợp đầy đủ       |527 |1.21 (1.05 đến 1.39)      |0.008  |
-|Mô hình chính + điểm SOFA                                              |Quy gán đa bội (m = 20) |620 |1.23 (1.07 đến 1.42)      |0.003  |
+|Mô hình                                                                |Phương pháp             |n   |OR mỗi 1 mmol/L (khoảng tin cậy 95%) |p      |
+|:----------------------------------------------------------------------|:-----------------------|:---|:------------------------------------|:------|
+|Chưa hiệu chỉnh                                                        |Trường hợp đầy đủ       |527 |1.38 (1.23 đến 1.55)                 |<0.001 |
+|Chưa hiệu chỉnh                                                        |Quy gán đa bội (m = 20) |620 |1.44 (1.28 đến 1.61)                 |<0.001 |
+|Hiệu chỉnh: tuổi, giới, đái tháo đường, bệnh thận mạn, suy tim (chính) |Trường hợp đầy đủ       |527 |1.39 (1.24 đến 1.57)                 |<0.001 |
+|Hiệu chỉnh: tuổi, giới, đái tháo đường, bệnh thận mạn, suy tim (chính) |Quy gán đa bội (m = 20) |620 |1.45 (1.29 đến 1.64)                 |<0.001 |
+|Mô hình chính + điểm SOFA                                              |Trường hợp đầy đủ       |527 |1.21 (1.05 đến 1.39)                 |0.008  |
+|Mô hình chính + điểm SOFA                                              |Quy gán đa bội (m = 20) |620 |1.23 (1.07 đến 1.42)                 |0.003  |
 
 Tệp: `tables/table4_cc_vs_mi_VN.csv` và `tables/table4_cc_vs_mi_VN.docx`
 
@@ -147,7 +147,7 @@ Tệp: `tables/table4_cc_vs_mi_VN.csv` và `tables/table4_cc_vs_mi_VN.docx`
 
 - Mục 12c: cách xử lý dữ liệu thiếu (quy gán đa bội, m = 20, các biến trong mô hình quy gán)
 - Mục 14b: số người tham gia bị thiếu dữ liệu ở từng biến (Bảng 1, Bảng 2)
-- Mục 16: ước lượng chưa hiệu chỉnh và đã hiệu chỉnh kèm KTC 95%; ngưỡng của các nhóm (Bảng 3)
+- Mục 16: ước lượng chưa hiệu chỉnh và đã hiệu chỉnh kèm khoảng tin cậy 95%; ngưỡng của các nhóm (Bảng 3)
 - Mục 17: phân tích độ nhạy (trường hợp đầy đủ so với quy gán đa bội, Bảng 4)
 - Mục 19: hạn chế (cơ chế dữ liệu thiếu)
 

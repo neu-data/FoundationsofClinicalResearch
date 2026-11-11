@@ -906,7 +906,7 @@ Thời gian: 3 phút.
 |:---|:---|
 | Bối cảnh | Vấn đề và mục tiêu (1-2 câu) |
 | Phương pháp | Thiết kế, bối cảnh, đối tượng, can thiệp/phơi nhiễm, so sánh, kết cục chính |
-| Kết quả | Số sàng lọc và phân tích, kết quả chính dưới dạng cỡ tác động + KTC 95% (+ p), tác hại chính |
+| Kết quả | Số sàng lọc và phân tích, kết quả chính dưới dạng cỡ tác động + khoảng tin cậy 95% (+ p), tác hại chính |
 | Kết luận | Trả lời câu hỏi chính, không hơn |
 | Đăng ký | Số đăng ký thử nghiệm (với thử nghiệm) |
 
@@ -919,7 +919,7 @@ Thường 250-300 từ
 :::
 
 ::: {.notes}
-Hỏi: 'Tóm tắt chỉ ghi: tử vong thấp hơn có ý nghĩa (p \< 0.05). Thiếu gì?' Mong đợi: tỷ lệ, mức độ tác động và KTC 95%.
+Hỏi: 'Tóm tắt chỉ ghi: tử vong thấp hơn có ý nghĩa (p \< 0.05). Thiếu gì?' Mong đợi: tỷ lệ, mức độ tác động và khoảng tin cậy 95%.
 
 Thời gian: 3 phút.
 :::
@@ -937,22 +937,22 @@ Số liệu minh họa. Hỏi mọi tóm tắt: lớn cỡ nào, chắc đến �
 - "Tử vong thấp hơn có ý nghĩa ở nhóm can thiệp (p \< 0.05)."
 - Không có số mỗi nhóm
 - Không có cỡ tác động
-- Không có KTC 95%
+- Không có khoảng tin cậy 95%
 - Không có mốc thời gian
 :::
 ::: {.neu-card .plain style="--c:#2E8B57"}
 [Câu kết quả tốt]{.neu-card-title}
 
-- "Tử vong 28 ngày là 30% ở nhóm hạn chế so với 38% ở nhóm thường quy (chênh lệch nguy cơ -8 điểm %, KTC 95% -15 đến -1)."
+- "Tử vong 28 ngày là 30% ở nhóm hạn chế so với 38% ở nhóm thường quy (chênh lệch nguy cơ -8 điểm %, khoảng tin cậy 95% -15 đến -1)."
 - Có số mỗi nhóm
 - Có cỡ tác động
-- Có KTC 95%
+- Có khoảng tin cậy 95%
 - Có mốc thời gian
 :::
 ::::
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Mỗi kết quả chính cần: số mỗi nhóm, cỡ tác động, KTC 95% và mốc thời gian.
+**THÔNG ĐIỆP CHÍNH** Mỗi kết quả chính cần: số mỗi nhóm, cỡ tác động, khoảng tin cậy 95% và mốc thời gian.
 :::
 
 ::: {.notes}
@@ -1004,7 +1004,7 @@ CÂU HỎI NHANH · 3 phút
 ::: {.notes}
 Từng câu một. 30 giây suy nghĩ, rồi mời một hai người.
 
-Đáp án: 1 Viết 'có liên quan với'. 2 p = 0.31: không khác biệt có ý nghĩa, KTC rộng. 3 Nêu kết cục chính trước. 4 Không có nhóm chứng, nên không quy được thay đổi cho quy trình.
+Đáp án: 1 Viết 'có liên quan với'. 2 p = 0.31: không khác biệt có ý nghĩa, khoảng tin cậy rộng. 3 Nêu kết cục chính trước. 4 Không có nhóm chứng, nên không quy được thay đổi cho quy trình.
 
 Thời gian: 3 phút.
 :::
@@ -1039,7 +1039,7 @@ Thời gian
 ::: {.notes}
 8 phút tự làm, rồi 4 phút mọi người gõ kết cục chính và kết quả chính vào chat.
 
-Ô khó nhất: kết cục chính là cân bằng dịch ngày 5, không phải tử vong. KTC 95% (-15.2 đến 41.6) cắt qua số 0.
+Ô khó nhất: kết cục chính là cân bằng dịch ngày 5, không phải tử vong. Khoảng tin cậy 95% (-15.2 đến 41.6) cắt qua số 0.
 
 Ai xong sớm: tìm từ nói quá trong tiêu đề Bài báo 2 ('Impact').
 
@@ -1055,7 +1055,7 @@ Thời gian: 12 phút.
 | I vs C | Hạn chế dịch duy trì và dịch pha thuốc (7 ngày) vs tiêu chuẩn |
 | Kết cục chính | Cân bằng dịch tích lũy ngày 5 (ml/kg) |
 | Số lượng | 1201 sàng lọc, 50 phân nhóm, 48 phân tích (24 mỗi nhóm) |
-| **Kết quả chính** | **Trung vị 6.9 vs 35.0 ml/kg. Chênh lệch 13.2 (KTC 95% -15.2 đến 41.6), p = 0.42** |
+| **Kết quả chính** | **Trung vị 6.9 vs 35.0 ml/kg. Chênh lệch 13.2 (khoảng tin cậy 95% -15.2 đến 41.6), p = 0.42** |
 | **Kết luận** | Không giảm cân bằng dịch ngày 5 (khớp với kết quả) |
 | Đăng ký | ClinicalTrials.gov NCT04947904 |
 
@@ -1066,7 +1066,7 @@ Thời gian: 12 phút.
 ::: {.notes}
 Hỏi từng dòng trong chat trước khi hiện đáp án.
 
-Ý chính: thí điểm, 48 người bệnh. Kết cục là cân bằng dịch, không phải tử vong. KTC chứa số 0. Kết luận khớp kết quả. Đã đăng ký.
+Ý chính: thí điểm, 48 người bệnh. Kết cục là cân bằng dịch, không phải tử vong. Khoảng tin cậy chứa số 0. Kết luận khớp kết quả. Đã đăng ký.
 
 Nếu có người hỏi: 13.2 là chênh lệch trung bình, không phải trung vị. Để sau.
 
@@ -1287,7 +1287,7 @@ Thời gian: 35 phút. Tổng kết lúc 22:25.
 :::
 
 ::: {.notes}
-Hỏi một người: 'Điều đầu tiên bạn tìm trong tóm tắt là gì?' Mong đợi: kết cục chính và kết quả kèm KTC.
+Hỏi một người: 'Điều đầu tiên bạn tìm trong tóm tắt là gì?' Mong đợi: kết cục chính và kết quả kèm khoảng tin cậy.
 
 Thời gian: 1.5 phút.
 :::

@@ -39,7 +39,7 @@ Dữ liệu lâm sàng thực tế thường phức tạp hơn bộ dữ liệu 
 
 Các nguyên tắc này áp dụng cho mọi học phần Cấp độ 3 và mọi buổi trong học phần.
 
-1. **Mỗi bài giảng đều có phần EDA.** Mỗi buổi có một phần về phân tích khám phá dữ liệu (exploratory data analysis, EDA) cho vấn đề phân tích của buổi đó: cần xem những số liệu tóm tắt và biểu đồ nào trước khi xây dựng mô hình, và chúng có thể cho thấy điều gì. Ví dụ: biểu đồ spaghetti và tình trạng thiếu dữ liệu theo thời gian với số đo lặp lại (Học phần E); kiểu theo dõi và kiểm duyệt trong phân tích sống còn (Học phần D); phân phối của xét nghiệm cần đánh giá theo tình trạng bệnh (Học phần C); đặc điểm các nghiên cứu và độ lớn tác động trước khi gộp (Học phần A).
+1. **Mỗi bài giảng đều có phần EDA.** Mỗi buổi có một phần về phân tích khám phá dữ liệu (exploratory data analysis, EDA) cho vấn đề phân tích của buổi đó: cần xem những số liệu tóm tắt và biểu đồ nào trước khi xây dựng mô hình, và chúng có thể cho thấy điều gì. Ví dụ: biểu đồ spaghetti và tình trạng thiếu dữ liệu theo thời gian với số đo lặp lại (Học phần E); kiểu theo dõi và thông tin khuyết (censored) trong phân tích sống còn (Học phần D); phân phối của xét nghiệm cần đánh giá theo tình trạng bệnh (Học phần C); đặc điểm các nghiên cứu và độ lớn tác động trước khi gộp (Học phần A).
 2. **Mỗi bài giảng đều có code vẽ biểu đồ.** Mỗi buổi cung cấp code ggplot2 dùng được ngay cho các biểu đồ mà vấn đề của buổi đó cần, đạt chuẩn tạp chí ngay từ đầu. Ví dụ: biểu đồ rừng và biểu đồ phễu (A), biểu đồ hiệu chuẩn (B), đường cong ROC (C), đường cong tỷ lệ mới mắc tích lũy (D), quỹ đạo từng cá nhân và giá trị dự báo từ mô hình (E). Các quy tắc chung cho biểu đồ đăng tạp chí (tệp vector và raster, kích thước, độ phân giải và phông chữ) được dạy một lần ở Học phần G rồi áp dụng trong mọi học phần.
 3. **Có thể lặp lại ngay từ đầu.** Bài tập của các học phần được làm trong một dự án có thể lặp lại (Học phần G), để người khác có thể chạy lại phân tích và báo cáo.
 
@@ -69,13 +69,13 @@ Các nguyên tắc này áp dụng cho mọi học phần Cấp độ 3 và mọ
 
 ### Học phần C: Nghiên cứu độ chính xác chẩn đoán
 
-**Mục tiêu.** Học viên có thể (1) thiết kế một nghiên cứu độ chính xác chẩn đoán (xét nghiệm cần đánh giá, tiêu chuẩn tham chiếu, phổ bệnh, làm mù, xác minh); (2) tính độ nhạy, độ đặc hiệu, giá trị tiên đoán và tỷ số khả dĩ kèm KTC 95%, và vẽ đường cong ROC kèm AUC; (3) chọn và lý giải một điểm cắt; (4) so sánh hai xét nghiệm trên cùng người bệnh; và (5) báo cáo theo STARD 2015 và thẩm định bằng QUADAS-2.
+**Mục tiêu.** Học viên có thể (1) thiết kế một nghiên cứu độ chính xác chẩn đoán (xét nghiệm cần đánh giá, tiêu chuẩn tham chiếu, phổ bệnh, làm mù, xác minh); (2) tính độ nhạy, độ đặc hiệu, giá trị tiên đoán và tỷ số khả dĩ kèm khoảng tin cậy 95%, và vẽ đường cong ROC kèm AUC; (3) chọn và lý giải một điểm cắt; (4) so sánh hai xét nghiệm trên cùng người bệnh; và (5) báo cáo theo STARD 2015 và thẩm định bằng QUADAS-2.
 
 **Điều kiện tham gia.** Cấp độ 2. Các gói: epiR, pROC.
 
 | Buổi | Nội dung | Sản phẩm |
 |---|---|---|
-| C1: Thiết kế, phân tích và báo cáo | Câu hỏi và thiết kế nghiên cứu chẩn đoán; sai lệch phổ bệnh, sai lệch xác minh và sai lệch do gộp xét nghiệm vào tiêu chuẩn tham chiếu (incorporation bias); bảng độ chính xác kèm KTC; giá trị tiên đoán ở các tỷ lệ hiện mắc khác nhau; ROC/AUC và điểm cắt (ví dụ lactate cho tử vong 28 ngày); so sánh hai xét nghiệm (ROC ghép cặp); STARD 2015 và QUADAS-2 | Phân tích độ chính xác hoàn chỉnh và một đề cương nghiên cứu dựa trên STARD |
+| C1: Thiết kế, phân tích và báo cáo | Câu hỏi và thiết kế nghiên cứu chẩn đoán; sai lệch phổ bệnh, sai lệch xác minh và sai lệch do gộp xét nghiệm vào tiêu chuẩn tham chiếu (incorporation bias); bảng độ chính xác kèm khoảng tin cậy; giá trị tiên đoán ở các tỷ lệ hiện mắc khác nhau; ROC/AUC và điểm cắt (ví dụ lactate cho tử vong 28 ngày); so sánh hai xét nghiệm (ROC ghép cặp); STARD 2015 và QUADAS-2 | Phân tích độ chính xác hoàn chỉnh và một đề cương nghiên cứu dựa trên STARD |
 | C2 (không bắt buộc): Câu hỏi chẩn đoán của bạn | Đề cương cho một nghiên cứu độ chính xác ở quy mô khoa; cỡ mẫu cho độ nhạy và độ đặc hiệu; biểu mẫu thu thập dữ liệu | Dàn ý đề cương |
 
 ### Học phần D: Phân tích sống còn nâng cao
@@ -126,7 +126,7 @@ Học phần này gồm các chủ đề về khả năng lặp lại và biểu
 
 ### Học phần H: Dữ liệu thiếu và phân tích độ nhạy chuyên sâu
 
-**Mục tiêu.** Học viên có thể (1) xây dựng và kiểm tra một mô hình quy gán đa bội (các biến cần đưa vào, đưa kết cục vào mô hình quy gán, số lần quy gán, sự hội tụ và phân phối của giá trị quy gán, quy tắc Rubin); (2) quy gán cẩn thận các số hạng phi tuyến, tương tác và dữ liệu đa tầng hoặc dữ liệu dọc; (3) lập kế hoạch và thực hiện phân tích độ nhạy cho các giả định về dữ liệu thiếu (bao gồm các kịch bản MNAR với hiệu chỉnh delta), giá trị ngoại lai, định nghĩa phơi nhiễm và kết cục, và nhiễu chưa đo lường (giới thiệu E-value); và (4) báo cáo dữ liệu thiếu và phân tích độ nhạy ngắn gọn, rõ ràng.
+**Mục tiêu.** Học viên có thể (1) xây dựng và kiểm tra một mô hình quy gán đa bội (multiple imputation) (các biến cần đưa vào, đưa kết cục vào mô hình quy gán, số lần quy gán, sự hội tụ và phân phối của giá trị quy gán, quy tắc Rubin); (2) quy gán cẩn thận các số hạng phi tuyến, tương tác và dữ liệu đa tầng hoặc dữ liệu dọc; (3) lập kế hoạch và thực hiện phân tích độ nhạy cho các giả định về dữ liệu thiếu (bao gồm các kịch bản MNAR với hiệu chỉnh delta), giá trị ngoại lai, định nghĩa phơi nhiễm và kết cục, và nhiễu chưa đo lường (giới thiệu E-value); và (4) báo cáo dữ liệu thiếu và phân tích độ nhạy ngắn gọn, rõ ràng.
 
 **Điều kiện tham gia.** Cấp độ 2 (kiến thức cơ bản về dữ liệu thiếu ở Buổi 1 và ít nhất một mô hình hồi quy). Các gói: mice, naniar, ggmice, EValue.
 

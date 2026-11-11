@@ -4,106 +4,143 @@ title: "Buổi 7: Lời giải"
 
 [Tải bản PDF](files/sessions/s7_solutions_VN.pdf) · [Quay lại Buổi 7](session7.qmd)
 
-Đáp án cho `s7_exercises_VN.md` (phiếu bài tập Buổi 7), Phần A–C. Số liệu trong Phần C lấy từ `Results_Pack_Q1–Q5` (dữ liệu MÔ PHỎNG). Trong lớp cả lớp cùng làm; các đáp án này dành cho giảng viên.
+Đáp án cho `s7_exercises_VN.md` (phiếu bài tập Buổi 7), Phần A–C. Số liệu trong Phần C lấy từ `FLUID-ICU/results_packs/Q1/results_pack_Q1_VN.md` (dữ liệu MÔ PHỎNG), và mỗi con số đều ghi rõ bảng trong gói kết quả. Trong lớp cả lớp cùng làm. Các đáp án này dành cho giảng viên.
 
 
 * * *
 
-## Phần A: Tình huống liêm chính
+## Phần A: Tình huống liêm chính: xanh, vàng hay đỏ?
 
-| # | Màu | Vì sao | Nên làm gì thay thế |
-|---|---|---|---|
-| 1 | **ĐỎ**: bịa đặt | Giá trị "nhớ lại" là dữ liệu bịa ra. | Ghi các giá trị là thiếu, báo cáo số thiếu, và (Cấp độ 2) xử lý trong phân tích. Phòng ngừa lần sau: lịch thu thập dữ liệu và kiểm tra đối chiếu với tài liệu gốc. |
-| 2 | **ĐỎ**: làm sai lệch | Loại dữ liệu sau khi thấy chúng làm yếu kết quả, mà không nói ra, là thay đổi phát hiện. | Xác định trước quy tắc cho giá trị vô lý trong kế hoạch chất lượng dữ liệu (Buổi 5); kiểm tra giá trị với tài liệu gốc; nếu việc loại là chính đáng, báo cáo và trình bày phân tích độ nhạy có và không có các người bệnh đó. |
-| 3 | **ĐỎ**: tác giả "danh dự" | Thâm niên không phải là đóng góp. Cần đủ cả bốn tiêu chí ICMJE. | Cảm ơn trưởng khoa trong phần Lời cảm ơn, hoặc mời đóng góp thực sự (ví dụ chỉnh sửa có tính phê bình) để đáp ứng đủ bốn tiêu chí. Thống nhất danh sách tác giả bằng văn bản ngay từ giai đoạn đề cương. |
-| 4a | **XANH** (có công khai) | Chỉnh sửa ngôn ngữ cho văn bản do chính tác giả viết, được tác giả kiểm tra và công khai, được ICMJE và COPE chấp nhận. Tác giả vẫn chịu trách nhiệm. | Kiểm tra chính sách về AI của tạp chí mục tiêu; công khai công cụ, phiên bản và mục đích sử dụng. |
-| 4b | **ĐỎ**: vi phạm bảo mật | Không bao giờ được dán dữ liệu người bệnh có thể định danh vào một công cụ AI công cộng. Phân tích cũng không có người chịu trách nhiệm và không lặp lại được. | Loại bỏ thông tin định danh; dùng phần mềm được cơ sở phê duyệt; phân tích do một người có tên cụ thể thực hiện và kiểm tra. |
-| 5 | **VÀNG đến ĐỎ**: xuất bản "cắt lát" / xuất bản trùng lặp | Chia một nghiên cứu thuần tập thành nhiều bài riêng mà không công khai làm sai lệch bằng chứng và có thể đếm trùng người bệnh. | Một bài chính với mọi kết cục đã xác định trước; bất kỳ bài phụ thực sự nào cũng phải dẫn chiếu bài chính và bổ sung điều mới. |
-| 6 | **ĐỎ** (vàng nếu nhỏ và đã sửa trước khi nộp): đạo văn | Chép nguyên văn mà không có dấu ngoặc kép là đạo văn kể cả khi có trích dẫn. | Diễn giải bằng lời của mình và trích dẫn, hoặc trích nguyên văn trong dấu ngoặc kép (hiếm trong viết y khoa lâm sàng). Phần mềm kiểm tra trùng lặp sẽ phát hiện. |
+| # | Màu | Vì sao? |
+|---|---|---|
+| 1 | **ĐỎ**: bịa đặt | Giá trị "nhớ lại" là dữ liệu bịa ra. |
+| 2 | **ĐỎ**: làm sai lệch | Loại dữ liệu sau khi thấy chúng làm yếu kết quả, mà không nói ra, là thay đổi phát hiện. |
+| 3 | **ĐỎ**: tác giả "danh dự" | Thâm niên không phải là đóng góp. Cần đủ cả bốn tiêu chí ICMJE. |
+| 4 (a) | **XANH** (có công khai) | Chỉnh sửa ngôn ngữ cho văn bản do chính tác giả viết, được tác giả kiểm tra và công khai, được ICMJE và COPE chấp nhận. Tác giả vẫn chịu trách nhiệm. |
+| 4 (b) | **ĐỎ**: vi phạm bảo mật | Không bao giờ được dán dữ liệu người bệnh có thể định danh vào một công cụ AI công cộng. Phân tích cũng không có người chịu trách nhiệm và không lặp lại được. |
+| 5 | **VÀNG đến ĐỎ**: xuất bản "cắt lát" hoặc xuất bản trùng lặp | Chia một nghiên cứu thuần tập thành nhiều bài riêng mà không công khai làm sai lệch bằng chứng và có thể đếm trùng người bệnh. |
+| 6 | **ĐỎ** (vàng nếu nhỏ và đã sửa trước khi nộp): đạo văn | Chép nguyên văn mà không có dấu ngoặc kép là đạo văn kể cả khi có trích dẫn. |
 
-**Ví dụ trên slide** (một đồng nghiệp cho mượn máy siêu âm và đề nghị đứng tên tác giả): **VÀNG/ĐỎ**. Cung cấp thiết bị không phải là đóng góp đủ để đứng tên tác giả, nên hãy cảm ơn trong phần Lời cảm ơn.
+*Ghi chú cho giảng viên: nên làm gì thay thế (nói sau mỗi lần bình chọn).*
+1. Ghi các giá trị là thiếu và báo cáo số giá trị thiếu. Lần sau, dùng lịch thu thập dữ liệu và kiểm tra đối chiếu với tài liệu gốc.
+2. Xác định trước quy tắc cho giá trị vô lý trong kế hoạch chất lượng dữ liệu (Buổi 5). Kiểm tra giá trị với tài liệu gốc. Nếu việc loại là chính đáng, báo cáo việc loại và trình bày kết quả có và không có các người bệnh này.
+3. Cảm ơn trưởng khoa trong phần Lời cảm ơn, hoặc mời đóng góp thực sự để đáp ứng đủ bốn tiêu chí. Thống nhất danh sách tác giả bằng văn bản ngay từ giai đoạn đề cương.
+4. (a) Kiểm tra chính sách về AI của tạp chí và công khai công cụ, phiên bản và mục đích sử dụng. (b) Loại bỏ thông tin định danh, dùng phần mềm được cơ sở phê duyệt, và để một người có tên cụ thể thực hiện và kiểm tra phân tích.
+5. Công bố một bài chính với mọi kết cục đã xác định trước. Bài phụ thực sự nào cũng phải trích dẫn bài chính và bổ sung điều mới.
+6. Diễn giải bằng lời của mình và trích dẫn, hoặc trích nguyên văn trong dấu ngoặc kép. Phần mềm kiểm tra trùng lặp sẽ phát hiện đoạn chép.
 
-Hướng dẫn: chạy mỗi tình huống dưới dạng bình chọn ba lựa chọn (xanh, vàng, đỏ). Khi kết quả bình chọn chia rẽ (thường ở 4a và 5), mời một người ở mỗi phía nêu lý do trong khung chat, rồi nêu quy tắc. Nhấn mạnh rằng sai sót trung thực không phải là hành vi sai trái nhưng phải được sửa công khai.
+*Ghi chú cho giảng viên: ví dụ trên slide* (một đồng nghiệp cho mượn máy siêu âm và đề nghị đứng tên tác giả) là **VÀNG/ĐỎ**. Cung cấp thiết bị không đủ để đứng tên tác giả, nên hãy cảm ơn trong phần Lời cảm ơn.
+
+*Ghi chú cho giảng viên: cách tổ chức.* Chạy mỗi tình huống dưới dạng bình chọn ba lựa chọn. Khi kết quả bình chọn chia rẽ (thường ở 4a và 5), mời một người ở mỗi phía nêu lý do trong khung chat, rồi nêu quy tắc. Sai sót trung thực không phải là hành vi sai trái, nhưng phải được sửa công khai.
 
 
 * * *
 
-## Phần B: Xây dựng đề cương 7: Phần 4 tốt trông như thế nào (ví dụ xuyên suốt: nghiên cứu quan sát tại ICU)
+## Phần B: Xây dựng đề cương 7: câu trả lời mẫu cho ví dụ xuyên suốt
 
-Dùng phần này làm mẫu để xây dựng trực tiếp trên màn hình chia sẻ trong lớp (20:30). Sau đó mỗi học viên viết Phần 4 cho đề cương của mình ở nhà.
+Ví dụ xuyên suốt: nghiên cứu thuần tập hồi cứu về cân bằng dịch và tử vong 28 ngày ở người lớn bị sốc nhiễm khuẩn tại ICU của mình. Điền trực tiếp từng khối trên màn hình chia sẻ, sau đó học viên viết câu trả lời của mình.
 
-### B1–B3. Đạo đức, bảo mật, tính khả thi
+### B1. Đạo đức và sự đồng ý tham gia
+| Câu hỏi | Câu trả lời mẫu |
+|---|---|
+| Hội đồng đạo đức nào, và hình thức xét duyệt nào? | Hội đồng đạo đức trong nghiên cứu y sinh học của cơ sở, trước khi thu thập bất kỳ dữ liệu nào. Chúng tôi dự kiến xét duyệt rút gọn vì dữ liệu lấy từ phiếu theo dõi thường quy, không thay đổi việc chăm sóc. Hội đồng là bên quyết định. |
+| Người tham gia là ai, và họ có tự quyết định được không? | Người lớn bị sốc nhiễm khuẩn nhập ICU của chúng tôi. Phần lớn không tự quyết định được khi đủ điều kiện (sốc, an thần, thở máy). |
+| Ai đồng ý tham gia? | Chúng tôi đề nghị miễn sự đồng ý của từng cá nhân. Nghiên cứu là hồi cứu, nguy cơ không vượt quá mức tối thiểu, và nhiều người bệnh không đủ năng lực quyết định hoặc đã ra viện. Nếu hội đồng yêu cầu, người bệnh đồng ý khi có thể, nếu không thì người đại diện hợp pháp. |
+| Ai lấy sự đồng ý, khi nào và ở đâu? | Không ai, nếu được miễn. Nếu cần sự đồng ý, một điều dưỡng nghiên cứu đã được tập huấn và không trực tiếp điều trị sẽ hỏi người bệnh khi họ tự quyết định được, hoặc hỏi người đại diện vào giờ thăm, tại ICU. |
+| Nguy cơ và gánh nặng, và cách giảm thiểu | Không thay đổi việc chăm sóc, nên không có nguy cơ thể chất hay gánh nặng thêm. Nguy cơ chính là lộ thông tin. Mã hóa, tệp khóa riêng và hạn chế quyền truy cập giúp giảm nguy cơ này (B2). |
+| Nghiên cứu có cần đăng ký không? | Không bắt buộc với nghiên cứu quan sát. Khuyến khích đăng ký, ví dụ trên ClinicalTrials.gov trước khi bắt đầu trích xuất dữ liệu. |
 
-> *Đạo đức và sự đồng ý tham gia.* Đề cương sẽ được nộp cho hội đồng đạo đức trong nghiên cứu y sinh học của cơ sở trước khi thu thập bất kỳ dữ liệu nào. Dữ liệu được lấy từ phiếu theo dõi thường quy tại ICU, không thay đổi việc chăm sóc. Chúng tôi sẽ đề nghị miễn sự đồng ý của từng cá nhân vì phần lớn người bệnh không đủ năng lực quyết định khi nhập viện và nghiên cứu không có nguy cơ vượt quá mức tối thiểu. Nếu hội đồng yêu cầu sự đồng ý, sẽ xin sự đồng ý của người bệnh khi họ có thể, hoặc của người đại diện hợp pháp.
->
-> *Bảo mật.* Mỗi người bệnh nhận một mã nghiên cứu (FLU-001 …). Họ tên, mã số bệnh viện và ngày sinh chỉ được ghi trên một tệp khóa lưu trên ổ đĩa có mật khẩu của cơ sở, chỉ nghiên cứu viên chính và một cán bộ quản lý dữ liệu được truy cập. Tệp phân tích chỉ chứa mã nghiên cứu, tuổi, tháng nhập viện và các biến nghiên cứu.
->
-> *Tính khả thi.* Năm ngoái khoa đã tiếp nhận khoảng 180 người lớn bị sốc nhiễm khuẩn; chúng tôi dự kiến tuyển 120 người bệnh đủ điều kiện trong 12 tháng. Hai điều dưỡng mỗi ca đã được tập huấn về CRF; dữ liệu được kiểm tra hằng tuần. Các khoản mục ngân sách: thời gian nhân lực cho nhập liệu, in ấn, phí truy cập mở.
->
-> *Phổ biến kết quả.* Tạp chí mục tiêu: một tạp chí điều dưỡng hồi sức được chỉ mục trong MEDLINE; dự phòng: một tạp chí hồi sức tổng quát. Hướng dẫn báo cáo: STROBE.
+### B2. Bảo mật thông tin
+| Câu hỏi | Câu trả lời mẫu |
+|---|---|
+| Thông tin định danh trực tiếp nào, và vì sao? | Họ tên, mã số bệnh viện và ngày sinh, chỉ để tìm hồ sơ và đối chiếu dữ liệu với tài liệu gốc. Các thông tin này chỉ nằm trong tệp khóa. |
+| Mỗi người bệnh được cấp mã nghiên cứu thế nào? | Mã theo thứ tự (FLU-001, FLU-002…) cấp khi người bệnh được đưa vào nghiên cứu. |
+| Tệp khóa lưu ở đâu, ai được mở? | Trên ổ đĩa có mật khẩu của cơ sở, tách riêng khỏi dữ liệu. Chỉ nghiên cứu viên chính và một cán bộ quản lý dữ liệu được mở. |
+| Dữ liệu đã loại bỏ thông tin định danh lưu ở đâu? | Trên máy chủ có mật khẩu được cơ sở phê duyệt. Tệp phân tích chỉ chứa mã nghiên cứu, tuổi, tháng nhập viện và các biến nghiên cứu. |
 
-Lỗi thường gặp cần sửa: "sẽ xin sự đồng ý" mà không nói ai/khi nào/thế nào; cho rằng nghiên cứu hồi cứu không cần hội đồng đạo đức xét duyệt; số tuyển chọn chép từ phép tính cỡ mẫu thay vì từ số người bệnh nhập khoa; không nêu nơi lưu tệp khóa.
+### B3. Kiểm tra tính khả thi
+| ✓ | Câu hỏi | Nhận xét mẫu |
+|---|---|---|
+| ☑ | **Thời gian** | Hội đồng đạo đức 1 đến 3 tháng, thu thập dữ liệu 12 tháng, sau đó phân tích và viết bài. |
+| ☑ | **Kinh phí** | Thời gian nhân lực cho nhập liệu, in ấn, phí truy cập mở. |
+| ☑ | **Nhân lực** | Hai điều dưỡng mỗi ca đã được tập huấn về CRF. Dữ liệu được kiểm tra hằng tuần. Một nhà thống kê phân tích. Thời gian dành riêng đã thống nhất với trưởng khoa. |
+| ☑ | **Người bệnh** | Năm ngoái khoảng 180 người lớn bị sốc nhiễm khuẩn. Dự kiến 120 người bệnh đủ điều kiện trong 12 tháng. |
+| ☑ | **Dữ liệu** | Phiếu theo dõi dịch, SOFA và lactat được ghi thường quy. Lượng dịch ra ban đêm và cuối tuần thường ghi thiếu. |
 
-### B4. Ví dụ kế hoạch công bố (cùng nghiên cứu quan sát tại ICU)
+Rủi ro lớn nhất về tính khả thi: phiếu theo dõi dịch ban đêm và cuối tuần ghi thiếu. Một cách khắc phục: cán bộ quản lý dữ liệu kiểm tra một mẫu phiếu với tài liệu gốc mỗi tuần.
 
-| Mục | Ví dụ |
+### B4. Kế hoạch công bố
+| Mục | Câu trả lời mẫu |
 |---|---|
 | Tên đề tài tạm thời | "Cumulative fluid balance and 28-day mortality in adults with septic shock: a retrospective cohort study" |
-| Tạp chí mục tiêu | Một tạp chí hồi sức hoặc điều dưỡng hồi sức được chỉ mục trong MEDLINE (đã kiểm tra trên NLM Catalog), biết rõ APC và giấy phép; dự phòng: một tạp chí hồi sức truy cập mở tổng quát có trong DOAJ |
+| Tạp chí mục tiêu (và một tạp chí dự phòng) | Một tạp chí hồi sức hoặc điều dưỡng hồi sức được chỉ mục trong MEDLINE (đã kiểm tra trên NLM Catalog), biết rõ APC và giấy phép. Dự phòng: một tạp chí hồi sức truy cập mở tổng quát có trong DOAJ |
 | Hướng dẫn báo cáo | STROBE (thuần tập), không phải CONSORT |
-| Đăng ký | Không bắt buộc với nghiên cứu quan sát; khuyến khích (ví dụ ClinicalTrials.gov) |
-| Tác giả và CRediT | Nghiên cứu viên chính: Conceptualization, Methodology, Writing (original draft); hai điều dưỡng: Investigation, Data curation; một thành viên thứ ba: Investigation, Writing (review and editing); nhà thống kê: Formal analysis; trưởng khoa: Supervision (chỉ khi đáp ứng đủ bốn tiêu chí ICMJE, nếu không thì đưa vào Lời cảm ơn) |
-| Xung đột lợi ích / tài trợ | Không có / hỗ trợ nội bộ của khoa |
-| Chia sẻ dữ liệu | Bộ dữ liệu đã loại bỏ thông tin định danh và từ điển dữ liệu có thể nhận từ tác giả liên hệ theo thỏa thuận sử dụng dữ liệu (nếu hội đồng đạo đức và sự đồng ý cho phép) |
+| Có cần đăng ký không? Ở đâu? | Không bắt buộc với nghiên cứu quan sát. Khuyến khích, ví dụ ClinicalTrials.gov (từ B1) |
+| Các tác giả và vai trò (CRediT) | Nghiên cứu viên chính: Conceptualization, Methodology, Writing (original draft). Hai điều dưỡng: Investigation, Data curation. Một thành viên thứ ba: Investigation, Writing (review and editing). Nhà thống kê: Formal analysis. Trưởng khoa: Supervision, chỉ khi đáp ứng đủ bốn tiêu chí ICMJE (nếu không thì đưa vào Lời cảm ơn) |
+| Xung đột lợi ích và nguồn tài trợ | Không có. Hỗ trợ nội bộ của khoa |
+| Tuyên bố chia sẻ dữ liệu | Bộ dữ liệu đã loại bỏ thông tin định danh và từ điển dữ liệu có thể nhận từ tác giả liên hệ theo thỏa thuận sử dụng dữ liệu, nếu hội đồng đạo đức và sự đồng ý cho phép |
 | Hội nghị | Tóm tắt tại hội nghị hồi sức toàn quốc sau lần phân tích đầu tiên |
 
-**Khung tóm tắt.** Đặt vấn đề: cân bằng dịch dương có thể liên quan với tử vong trong sốc nhiễm khuẩn; còn thiếu số liệu tại chỗ; chúng tôi nhằm đánh giá mối liên quan của nó với tử vong 28 ngày. Phương pháp: thuần tập hồi cứu, người lớn bị sốc nhiễm khuẩn, một ICU, 12 tháng; phơi nhiễm = cân bằng dịch tích lũy ở ngày 3; kết cục = tử vong 28 ngày; hồi quy logistic hiệu chỉnh theo mức độ nặng. Kết quả (dự kiến): "n người bệnh; tử vong 28 ngày x% so với y%; OR hiệu chỉnh (KTC 95%)". Kết luận (nếu dương tính): "Cân bằng dịch dương ở ngày 3 có liên quan với tử vong 28 ngày cao hơn"; (nếu không): "Chúng tôi không tìm thấy bằng chứng về mối liên quan; KTC không loại trừ một tác động có ý nghĩa lâm sàng".
+**Khung tóm tắt có cấu trúc**
 
-Lỗi thường gặp: nêu CONSORT cho nghiên cứu thuần tập; dùng "impact" hoặc "effect" trong tiêu đề; danh sách tác giả có những người chỉ thu thập dữ liệu; kết quả dự kiến viết thành con số ("tử vong giảm 30%").
+| Mục | Dòng mẫu |
+|---|---|
+| Đặt vấn đề | Cân bằng dịch dương có thể liên quan với tử vong trong sốc nhiễm khuẩn, nhưng còn thiếu số liệu tại chỗ. Chúng tôi nhằm đánh giá mối liên quan của nó với tử vong 28 ngày. |
+| Phương pháp | Thuần tập hồi cứu trên người lớn bị sốc nhiễm khuẩn tại một ICU trong 12 tháng. Phơi nhiễm: cân bằng dịch tích lũy ở ngày 3. Kết cục: tử vong 28 ngày. Hồi quy logistic hiệu chỉnh theo mức độ nặng. |
+| Kết quả (dự kiến) | "n người bệnh. Tử vong 28 ngày x% so với y%. OR hiệu chỉnh (khoảng tin cậy 95%)." |
+| Kết luận | Nếu dương tính: "Cân bằng dịch dương ở ngày 3 có liên quan với tử vong 28 ngày cao hơn." Nếu không: "Chúng tôi không tìm thấy bằng chứng về mối liên quan. Khoảng tin cậy không loại trừ một tác động có ý nghĩa lâm sàng." |
+
+*Ghi chú cho giảng viên: lỗi thường gặp cần sửa.* "Sẽ xin sự đồng ý" mà không nói ai, khi nào, thế nào. Cho rằng nghiên cứu hồi cứu không cần hội đồng đạo đức xét duyệt. Số tuyển chọn chép từ phép tính cỡ mẫu thay vì từ số người bệnh nhập khoa. Không nêu nơi lưu tệp khóa. Nêu CONSORT cho nghiên cứu thuần tập. Dùng "impact" hoặc "effect" trong tiêu đề. Danh sách tác giả có những người chỉ thu thập dữ liệu. Kết quả dự kiến viết thành con số ("tử vong giảm 30%").
 
 
 * * *
 
-## Phần C: Thực hành bản thảo 1: Kết quả mẫu cho Q1 (và Phương pháp mẫu)
+## Phần C: Thực hành bản thảo 1: Kết quả mẫu cho Q1
 
-Mọi con số lấy từ `Results_Pack_Q1–Q5` và `FLUID-ICU/results_packs/Q1/results_pack_Q1.md` (**DỮ LIỆU MÔ PHỎNG, KHÔNG PHẢI NGƯỜI BỆNH THẬT**). Dùng để định hướng bản nháp của lớp trong phần 1 của buổi thực hành (không dán nguyên văn). Học viên chọn Q2–Q5 theo cùng cấu trúc với số liệu từ gói kết quả của mình. Phương pháp mẫu đi kèm phần Phương pháp đã dạy ở 7.3 (slide 29 đến 31).
+Mọi con số lấy từ gói kết quả Q1 (`FLUID-ICU/results_packs/Q1/results_pack_Q1_VN.md`, **DỮ LIỆU MÔ PHỎNG, KHÔNG PHẢI NGƯỜI BỆNH THẬT**). Mỗi đoạn theo một dòng trong danh sách kiểm tra phần Kết quả của phiếu bài tập và ghi rõ bảng đã dùng. Dùng bản mẫu để định hướng bản nháp của lớp (không dán nguyên văn). Học viên chọn Q2–Q5 theo cùng cấu trúc với gói kết quả của mình. Mục cuối của mỗi gói, "Các mục STROBE mà gói này giúp bạn viết", cho biết bảng dùng cho từng mục.
 
 ### Kết quả mẫu (~300 từ)
 
-**Người tham gia.** Trong 620 người bệnh được tuyển, 618 người có cân bằng dịch ngày 3 và được đưa vào phân tích; 527 người có dữ liệu đầy đủ cho mô hình hiệu chỉnh (91 người thiếu lactate hoặc tuổi). Tuổi trung bình là 62.6 (SD 15.2), 376 trên 620 người (60.6%) là nam, và trung vị điểm SOFA là 7 (IQR 5 đến 9).
+**Tên bài dự kiến.** Positive fluid balance by day 3 and 28-day mortality in sepsis: a multicentre cohort study (Cân bằng dịch dương đến ngày 3 và tử vong 28 ngày trong sepsis: nghiên cứu thuần tập đa trung tâm).
 
-**Dữ liệu mô tả.** Cân bằng dịch dương đến ngày 3 xảy ra ở 373 trên 618 người bệnh (60.4%). Những người bệnh này nặng hơn lúc ban đầu (trung vị SOFA 8 [6 đến 10] so với 6 [4 đến 8]; thuốc vận mạch 205/373 [55.0%] so với 61/245 [24.9%]; thở máy 216/373 [57.9%] so với 97/245 [39.6%]) và ít bị suy tim hơn (43/373 [11.5%] so với 54/245 [22.0%]) (Bảng 1). Lactate bị thiếu ở 93 trên 620 người bệnh (15.0%).
+**Người tham gia (STROBE 13, mục 2 của gói).** Trong 620 người bệnh được tuyển, 618 người có cân bằng dịch ngày 3 và được đưa vào phân tích. 527 người có dữ liệu đầy đủ cho mô hình hiệu chỉnh (91 người thiếu lactat hoặc tuổi).
 
-**Dữ liệu kết cục.** Đến ngày 28, 134 trên 373 người bệnh (35.9%) có cân bằng dịch dương và 45 trên 245 người (18.4%) có cân bằng dịch âm đã tử vong (hiệu số nguy cơ 17.6 điểm phần trăm, KTC 95% 10.7 đến 24.4). Tỷ lệ sống Kaplan–Meier ở ngày 28 lần lượt là 64.1% và 81.6% (log-rank p < 0.001; Hình 1).
+**Dữ liệu mô tả (STROBE 14, Bảng 1).** Tuổi trung bình là 62.6 (SD 15.2), 375 trên 618 người (61%) là nam, và trung vị điểm SOFA là 7 (IQR 5 đến 9). Cân bằng dịch dương đến ngày 3 xảy ra ở 373 trên 618 người bệnh. Những người bệnh này nặng hơn lúc ban đầu: trung vị SOFA 8 (6 đến 10) so với 6 (4 đến 8), thuốc vận mạch 205 (55%) so với 61 (25%) và thở máy 216 (58%) so với 97 (40%). Họ ít bị suy tim hơn, 43 (12%) so với 54 (22%). Lactat bị thiếu ở 91 trên 618 người bệnh.
 
-**Kết quả chính.** OR thô cho tử vong khi cân bằng dịch dương là 2.49 (KTC 95% 1.70 đến 3.70); sau hiệu chỉnh là 1.62 (KTC 95% 1.02 đến 2.59; p = 0.044; n = 527) (Bảng 3). Tỷ số nguy cơ tức thời (HR) thô là 2.17 (KTC 95% 1.55 đến 3.05) và HR hiệu chỉnh là 1.46 (KTC 95% 1.00 đến 2.13; p = 0.053).
+**Dữ liệu kết cục (STROBE 15, Bảng 2).** Đến ngày 28, 134 trên 373 người bệnh (35.9%) có cân bằng dịch dương và 45 trên 245 người (18.4%) có cân bằng dịch âm đã tử vong (hiệu số nguy cơ 17.6 điểm phần trăm, khoảng tin cậy 95% 10.7 đến 24.4). Tỷ lệ sống Kaplan-Meier ở ngày 28 lần lượt là 64.1% và 81.6% (log-rank p < 0.001, Hình 1).
 
-**Các phân tích khác.** Với quy gán đa bội (n = 620), OR hiệu chỉnh là 1.70 (KTC 95% 1.09 đến 2.64). Mối liên quan khác nhau theo tình trạng suy tim (p tương tác = 0.031): OR hiệu chỉnh 4.39 (KTC 95% 1.65 đến 12.38) ở người có suy tim (n = 90) và 1.29 (KTC 95% 0.77 đến 2.19) ở người không suy tim (n = 437).
+**Kết quả chính (STROBE 16, Bảng 3 và 4).** OR thô cho tử vong khi cân bằng dịch dương là 2.49 (khoảng tin cậy 95% 1.70 đến 3.70). Sau hiệu chỉnh là 1.62 (khoảng tin cậy 95% 1.02 đến 2.59, p = 0.044, n = 527) (Bảng 3). Tỷ số nguy cơ tức thời (HR) thô là 2.17 (khoảng tin cậy 95% 1.55 đến 3.05) và HR hiệu chỉnh là 1.46 (khoảng tin cậy 95% 1.00 đến 2.13, p = 0.053) (Bảng 4).
 
-### Phương pháp mẫu (~300 từ)
+**Các phân tích khác (STROBE 17, Bảng 5 và 6).** Với quy gán đa bội (multiple imputation) (n = 620), OR hiệu chỉnh là 1.70 (khoảng tin cậy 95% 1.09 đến 2.64) (Bảng 6). Mối liên quan khác nhau theo tình trạng suy tim (p tương tác = 0.031). OR hiệu chỉnh là 4.39 (khoảng tin cậy 95% 1.65 đến 12.38) ở người có suy tim và 1.29 (khoảng tin cậy 95% 0.77 đến 2.19) ở người không suy tim (Bảng 5).
 
-**Thiết kế nghiên cứu và bối cảnh.** Chúng tôi phân tích FLUID-ICU, một nghiên cứu thuần tập tiến cứu đa trung tâm gồm những người lớn bị sepsis liên tiếp nhập bốn khoa hồi sức tích cực (ICU A–D) từ tháng 1 năm 2023 đến tháng 12 năm 2024. FLUID-ICU là bộ dữ liệu giảng dạy mô phỏng; không cần chấp thuận của hội đồng đạo đức hay sự đồng ý tham gia.
+**Sử dụng AI.** Không.
+
+*Ghi chú cho giảng viên.* Tỷ lệ phần trăm từ Bảng 1 được ghi đúng như gói đã làm tròn. Con số 373 trên 618 ở đoạn mô tả lấy từ tiêu đề cột của Bảng 1.
+
+### Phương pháp mẫu (phần không bắt buộc, ~300 từ)
+
+**Thiết kế nghiên cứu và bối cảnh.** Chúng tôi phân tích FLUID-ICU, một nghiên cứu thuần tập tiến cứu đa trung tâm gồm những người lớn bị sepsis liên tiếp nhập bốn khoa hồi sức tích cực (ICU A–D) từ tháng 1 năm 2023 đến tháng 12 năm 2024. FLUID-ICU là bộ dữ liệu giảng dạy mô phỏng. Không cần chấp thuận của hội đồng đạo đức hay sự đồng ý tham gia.
 
 **Người tham gia.** Mọi người lớn bị sepsis được tuyển vào nghiên cứu thuần tập đều đủ điều kiện. Người bệnh không có cân bằng dịch tích lũy ở ngày 3 bị loại khỏi phân tích phơi nhiễm.
 
-**Biến số.** Phơi nhiễm là cân bằng dịch tích lũy dương đến ngày ICU thứ 3, định nghĩa là tổng lượng dịch vào trừ tổng lượng dịch ra trong các ngày ICU 1–3 lớn hơn 0 ml/kg, so với cân bằng dịch âm hoặc bằng 0. Kết cục chính là tử vong do mọi nguyên nhân trong vòng 28 ngày sau khi vào ICU; trong phân tích sống còn, thời gian đến tử vong được kiểm duyệt ở ngày 28. Các yếu tố gây nhiễu được xác định trước trong kế hoạch phân tích thống kê: tuổi, điểm SOFA, lactate, việc dùng thuốc vận mạch, thở máy và bệnh thận mạn. Suy tim được xác định trước là yếu tố có thể thay đổi tác động.
+**Biến số.** Phơi nhiễm là cân bằng dịch tích lũy dương đến ngày ICU thứ 3, định nghĩa là tổng lượng dịch vào trừ tổng lượng dịch ra trong các ngày ICU 1–3 lớn hơn 0 ml/kg, so với cân bằng dịch âm hoặc bằng 0. Kết cục chính là tử vong do mọi nguyên nhân trong vòng 28 ngày sau khi vào ICU. Trong phân tích sống còn, người bệnh còn sống ở ngày 28 được ghi nhận là thông tin khuyết (censored) tại ngày 28. Các yếu tố gây nhiễu được xác định trước trong kế hoạch phân tích thống kê: tuổi, điểm SOFA, lactat, việc dùng thuốc vận mạch, thở máy và bệnh thận mạn. Suy tim được xác định trước là yếu tố có thể thay đổi tác động.
 
 **Nguồn dữ liệu và sai lệch.** Dữ liệu được thu thập từ phiếu theo dõi tại ICU trên một phiếu thu thập dữ liệu chuẩn. Để xử lý nhiễu do chỉ định (người bệnh nặng hơn được truyền nhiều dịch hơn), chúng tôi hiệu chỉnh theo các chỉ dấu mức độ nặng của bệnh và bệnh kèm theo.
 
-**Cỡ mẫu.** Mọi người bệnh đủ điều kiện trong nghiên cứu thuần tập đều được đưa vào; không tính cỡ mẫu riêng.
+**Cỡ mẫu.** Mọi người bệnh đủ điều kiện trong nghiên cứu thuần tập đều được đưa vào. Không tính cỡ mẫu riêng.
 
-**Phân tích thống kê.** Đặc điểm nền được trình bày dưới dạng trung bình (SD), trung vị (IQR) hoặc n (%), theo nhóm cân bằng dịch. Tử vong 28 ngày được so sánh bằng kiểm định khi bình phương, và tỷ số chênh (OR) thô và hiệu chỉnh được ước lượng bằng hồi quy logistic. Sống còn đến ngày 28 được mô tả bằng đường cong Kaplan–Meier (kiểm định log-rank) và phân tích bằng hồi quy Cox với cùng các biến hiệu chỉnh; giả định nguy cơ tỷ lệ đã được kiểm tra. Thay đổi tác động theo suy tim được kiểm định bằng một số hạng tương tác. Phân tích chính dùng các trường hợp đầy đủ; lactate bị thiếu được xử lý bằng quy gán đa bội (20 bộ dữ liệu) trong phân tích độ nhạy. Các ước lượng được báo cáo kèm khoảng tin cậy 95% (KTC). Phân tích dùng R 4.6 (các gói gtsummary, survival, mice).
+**Phân tích thống kê.** Đặc điểm nền được trình bày dưới dạng trung bình (SD), trung vị (IQR) hoặc n (%), theo nhóm cân bằng dịch. Tử vong 28 ngày được so sánh bằng kiểm định Chi bình phương, và tỷ số chênh (OR) thô và hiệu chỉnh được ước lượng bằng hồi quy logistic. Sống còn đến ngày 28 được mô tả bằng đường cong Kaplan–Meier (kiểm định log-rank) và phân tích bằng hồi quy Cox với cùng các biến hiệu chỉnh. Giả định nguy cơ tỷ lệ đã được kiểm tra. Thay đổi tác động theo suy tim được kiểm định bằng một số hạng tương tác. Phân tích chính dùng các trường hợp đầy đủ. Lactat bị thiếu được xử lý bằng quy gán đa bội (20 bộ dữ liệu) trong phân tích độ nhạy. Các ước lượng được báo cáo kèm khoảng tin cậy 95%. Phân tích dùng R 4.6 (các gói gtsummary, survival, mice).
 
-### Danh sách kiểm tra khi hướng dẫn (bản nháp của bất kỳ học viên nào)
+*Ghi chú cho giảng viên: danh sách kiểm tra khi hướng dẫn (bản nháp của bất kỳ học viên nào)*
 
 | Kiểm tra | Cách sửa điển hình |
 |---|---|
-| Phần Kết quả bắt đầu bằng người tham gia và sơ đồ dòng | Thêm "Trong 620 người được tuyển, 618 … 527 …" (Q1) |
+| Phần Kết quả bắt đầu bằng người tham gia và lưu đồ | Thêm "Trong 620 người được tuyển, 618 … 527 …" (Q1, mục 2 của gói) |
 | Có ước lượng thô VÀ đã hiệu chỉnh (STROBE 16) | Thêm ước lượng còn thiếu, kèm n |
 | Không diễn giải trong phần Kết quả | Chuyển "vì người bệnh nặng hơn…" sang phần Bàn luận |
-| Mọi tác động đều có KTC 95% | Chép từ gói kết quả |
-| Q4: trường hợp đầy đủ VÀ quy gán | CC OR 1.39 (1.24 đến 1.57) so với MI 1.45 (1.29 đến 1.64) mỗi mmol/L (hiệu chỉnh theo tuổi, giới, đái tháo đường, CKD, suy tim) |
-| Q5: trung vị/IQR, chỉ người sống sót | 439 người sống sót; trung vị 7.5 so với 4.8 ngày |
+| Mọi tác động đều có khoảng tin cậy 95% | Chép từ gói kết quả |
+| Q4: trường hợp đầy đủ VÀ quy gán | Bảng 4 gói Q4: CC OR 1.39 (1.24 đến 1.57), n = 527, so với MI 1.45 (1.29 đến 1.64), n = 620, mỗi mmol/L, hiệu chỉnh theo tuổi, giới, đái tháo đường, bệnh thận mạn và suy tim |
+| Q5: trung vị và IQR, chỉ người sống sót | Mục 2 gói Q5: 439 người sống sót. Bảng 2 gói Q5: trung vị thời gian nằm ICU 7.5 (5.2 đến 11.2) so với 4.8 (3.3 đến 7.1) ngày |
 | Bảng tự đọc hiểu được | Tên bảng, đơn vị, n mỗi cột, chú thích chữ viết tắt |
-| Có câu công khai sử dụng AI | Thêm "Sử dụng AI: không." hoặc câu một dòng trong hướng dẫn bài tập |
+| Có tên bài dự kiến và câu công khai sử dụng AI | Thêm cả hai, ví dụ "Sử dụng AI: không." hoặc câu một dòng trong hướng dẫn bài tập |
 | Phương pháp (nếu có nộp): mỗi kết quả có phương pháp | Thêm kiểm định hoặc mô hình và các biến hiệu chỉnh |

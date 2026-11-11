@@ -19,7 +19,7 @@ Tải về: [Word](files/data/results_packs/Results_Pack_Q1_VN.docx) · [PDF](fi
 - Thiết kế: nghiên cứu thuần tập tiến cứu đa trung tâm (quan sát).
 - Bối cảnh: 4 ICU (ICU A-D), người lớn bị sepsis được tuyển liên tiếp, thời gian tuyển từ tháng 1/2023 đến tháng 12/2024.
 - Phơi nhiễm: cân bằng dịch tích lũy dương vào ngày 3 (dịch vào trừ dịch ra trong các ngày ICU 1-3 > 0 ml/kg) so với cân bằng âm hoặc bằng 0.
-- Kết cục: tử vong do mọi nguyên nhân trong vòng 28 ngày kể từ khi nhập ICU (died_28d); thời gian đến tử vong cho phân tích sống còn (time_to_event_28d, kiểm duyệt tại ngày 28).
+- Kết cục: tử vong do mọi nguyên nhân trong vòng 28 ngày kể từ khi nhập ICU (died_28d); thời gian đến tử vong cho phân tích sống còn (time_to_event_28d, thông tin khuyết (censored) tại ngày 28).
 - Mẫu phân tích: 618 trong số 620 người bệnh (2 người không có cân bằng dịch ngày 3). Các mô hình hiệu chỉnh: 527 trường hợp đầy đủ.
 - Các yếu tố gây nhiễu xác định trước (SAP): tuổi, điểm SOFA, lactat, thuốc vận mạch, thở máy, bệnh thận mạn.
 - Phần mềm: R 4.6 (các gói gtsummary, survival, mice). Script: FLUID-ICU/R/.
@@ -68,39 +68,39 @@ Hãy đọc Bảng 1 trước: nhóm cân bằng dịch dương **nặng hơn** 
 
 **Bảng 2. Tử vong 28 ngày theo nhóm cân bằng dịch (chưa hiệu chỉnh)**
 
-|Kết cục                                |Cân bằng dịch âm |Cân bằng dịch dương |Tác động (KTC 95%)                                    |
-|:--------------------------------------|:----------------|:-------------------|:-----------------------------------------------------|
-|Tử vong trong 28 ngày, n/N (%)         |45/245 (18.4%)   |134/373 (35.9%)     |Hiệu số nguy cơ 17.6 (KTC 95% 10.7 đến 24.4); RR 1.96 |
-|Sống còn tại ngày 28 (Kaplan-Meier), % |81.6             |64.1                |Log-rank p <0.001                                     |
+|Kết cục                                |Cân bằng dịch âm |Cân bằng dịch dương |Tác động (khoảng tin cậy 95%)                                                              |
+|:--------------------------------------|:----------------|:-------------------|:------------------------------------------------------------------------------------------|
+|Tử vong trong 28 ngày, n/N (%)         |45/245 (18.4%)   |134/373 (35.9%)     |Hiệu số nguy cơ 17.6 (khoảng tin cậy 95% 10.7 đến 24.4), RR 1.96, p Chi bình phương <0.001 |
+|Sống còn tại ngày 28 (Kaplan-Meier), % |81.6             |64.1                |Log-rank p <0.001                                                                          |
 
 Tệp: `tables/table2_outcome_VN.csv` và `tables/table2_outcome_VN.docx`
 
 **Bảng 3. Hồi quy logistic cho tử vong 28 ngày: tỷ số chênh thô và hiệu chỉnh (mô hình hiệu chỉnh n = 527)**
 
-|Biến số                         |OR thô (KTC 95%)     |p thô  |OR hiệu chỉnh (KTC 95%) |p hiệu chỉnh |
-|:-------------------------------|:--------------------|:------|:-----------------------|:------------|
-|Cân bằng dịch dương (so với âm) |2.49 (1.70 đến 3.70) |<0.001 |1.62 (1.02 đến 2.59)    |0.044        |
-|Tuổi, mỗi năm                   |1.02 (1.01 đến 1.03) |<0.001 |1.02 (1.01 đến 1.04)    |0.002        |
-|Điểm SOFA, mỗi điểm             |1.26 (1.18 đến 1.35) |<0.001 |1.10 (1.01 đến 1.21)    |0.039        |
-|Lactat, mỗi mmol/L              |1.38 (1.23 đến 1.55) |<0.001 |1.15 (1.00 đến 1.32)    |0.059        |
-|Thuốc vận mạch                  |3.31 (2.31 đến 4.78) |<0.001 |1.86 (1.20 đến 2.88)    |0.005        |
-|Thở máy                         |2.98 (2.07 đến 4.34) |<0.001 |1.69 (1.11 đến 2.60)    |0.016        |
-|Bệnh thận mạn                   |2.58 (1.52 đến 4.36) |<0.001 |1.85 (1.00 đến 3.44)    |0.050        |
+|Biến số                         |OR thô (khoảng tin cậy 95%) |p thô  |OR hiệu chỉnh (khoảng tin cậy 95%) |p hiệu chỉnh |
+|:-------------------------------|:---------------------------|:------|:----------------------------------|:------------|
+|Cân bằng dịch dương (so với âm) |2.49 (1.70 đến 3.70)        |<0.001 |1.62 (1.02 đến 2.59)               |0.044        |
+|Tuổi, mỗi năm                   |1.02 (1.01 đến 1.03)        |<0.001 |1.02 (1.01 đến 1.04)               |0.002        |
+|Điểm SOFA, mỗi điểm             |1.26 (1.18 đến 1.35)        |<0.001 |1.10 (1.01 đến 1.21)               |0.039        |
+|Lactat, mỗi mmol/L              |1.38 (1.23 đến 1.55)        |<0.001 |1.15 (1.00 đến 1.32)               |0.059        |
+|Thuốc vận mạch                  |3.31 (2.31 đến 4.78)        |<0.001 |1.86 (1.20 đến 2.88)               |0.005        |
+|Thở máy                         |2.98 (2.07 đến 4.34)        |<0.001 |1.69 (1.11 đến 2.60)               |0.016        |
+|Bệnh thận mạn                   |2.58 (1.52 đến 4.36)        |<0.001 |1.85 (1.00 đến 3.44)               |0.050        |
 
 Tệp: `tables/table3_logistic_VN.csv` và `tables/table3_logistic_VN.docx`
 
-- OR thô (tất cả 618 người bệnh): **2.49 (KTC 95% 1.70 đến 3.70)**, p <0.001.
-- OR thô trên cùng 527 trường hợp đầy đủ: 2.22 (KTC 95% 1.48 đến 3.39).
-- OR hiệu chỉnh (tuổi, SOFA, lactat, thuốc vận mạch, thở máy, bệnh thận mạn): **1.62 (KTC 95% 1.02 đến 2.59)**, p 0.044.
+- OR thô (tất cả 618 người bệnh): **2.49 (khoảng tin cậy 95% 1.70 đến 3.70)**, p <0.001.
+- OR thô trên cùng 527 trường hợp đầy đủ: 2.22 (khoảng tin cậy 95% 1.48 đến 3.39).
+- OR hiệu chỉnh (tuổi, SOFA, lactat, thuốc vận mạch, thở máy, bệnh thận mạn): **1.62 (khoảng tin cậy 95% 1.02 đến 2.59)**, p 0.044.
 - Sống còn Kaplan-Meier tại ngày 28: 81.6% (âm) so với 64.1% (dương); log-rank p <0.001.
-- Tỷ số nguy cơ tức thời (HR) theo mô hình Cox: thô 2.17 (KTC 95% 1.55 đến 3.05); hiệu chỉnh **1.46 (KTC 95% 1.00 đến 2.13)**, p 0.053 (kiểm định giả định nguy cơ tỷ lệ, p toàn cục = 0.10).
+- Tỷ số nguy cơ tức thời (HR) theo mô hình Cox: thô 2.17 (khoảng tin cậy 95% 1.55 đến 3.05); hiệu chỉnh **1.46 (khoảng tin cậy 95% 1.00 đến 2.13)**, p 0.053 (kiểm định giả định nguy cơ tỷ lệ, p toàn cục = 0.10).
 
 **Bảng 4. Hồi quy Cox cho thời gian đến tử vong trong 28 ngày**
 
-|Mô hình                                          |n   |Số biến cố |HR (KTC 95%)         |p      |
-|:------------------------------------------------|:---|:----------|:--------------------|:------|
-|Thô                                              |618 |179        |2.17 (1.55 đến 3.05) |<0.001 |
-|Hiệu chỉnh (các yếu tố gây nhiễu xác định trước) |527 |161        |1.46 (1.00 đến 2.13) |0.053  |
+|Mô hình                                          |n   |Số biến cố |HR (khoảng tin cậy 95%) |p      |
+|:------------------------------------------------|:---|:----------|:-----------------------|:------|
+|Thô                                              |618 |179        |2.17 (1.55 đến 3.05)    |<0.001 |
+|Hiệu chỉnh (các yếu tố gây nhiễu xác định trước) |527 |161        |1.46 (1.00 đến 2.13)    |0.053  |
 
 Tệp: `tables/table4_cox_VN.csv` và `tables/table4_cox_VN.docx`
 
@@ -120,10 +120,10 @@ Tệp: `tables/table4_cox_VN.csv` và `tables/table4_cox_VN.docx`
 
 **Bảng 5. Thay đổi tác động theo suy tim (xác định trước)**
 
-|Phân nhóm     |Tử vong, cân bằng dịch âm |Tử vong, cân bằng dịch dương |OR hiệu chỉnh (KTC 95%) |p tương tác |
-|:-------------|:-------------------------|:----------------------------|:-----------------------|:-----------|
-|Không suy tim |34/191 (18%)              |108/330 (33%)                |1.29 (0.77 đến 2.19)    |0.031       |
-|Suy tim       |11/54 (20%)               |26/43 (60%)                  |4.39 (1.65 đến 12.38)   |0.031       |
+|Phân nhóm     |Tử vong, cân bằng dịch âm |Tử vong, cân bằng dịch dương |OR hiệu chỉnh (khoảng tin cậy 95%) |p tương tác |
+|:-------------|:-------------------------|:----------------------------|:----------------------------------|:-----------|
+|Không suy tim |34/191 (18%)              |108/330 (33%)                |1.29 (0.77 đến 2.19)               |0.031       |
+|Suy tim       |11/54 (20%)               |26/43 (60%)                  |4.39 (1.65 đến 12.38)              |0.031       |
 
 Tệp: `tables/table5_interaction_hf_VN.csv` và `tables/table5_interaction_hf_VN.docx`
 
@@ -133,12 +133,12 @@ Tệp: `tables/table5_interaction_hf_VN.csv` và `tables/table5_interaction_hf_V
 
 **Bảng 6. Các phân tích độ nhạy cho mối liên quan chính**
 
-|Phân tích                                 |n   |OR (KTC 95%)         |p      |
-|:-----------------------------------------|:---|:--------------------|:------|
-|Thô, tất cả người bệnh                    |618 |2.49 (1.70 đến 3.70) |<0.001 |
-|Thô, các trường hợp đầy đủ                |527 |2.22 (1.48 đến 3.39) |<0.001 |
-|Hiệu chỉnh, các trường hợp đầy đủ (chính) |527 |1.62 (1.02 đến 2.59) |0.044  |
-|Hiệu chỉnh, quy gán đa bội (m = 20)       |620 |1.70 (1.09 đến 2.64) |0.020  |
+|Phân tích                                 |n   |OR (khoảng tin cậy 95%) |p      |
+|:-----------------------------------------|:---|:-----------------------|:------|
+|Thô, tất cả người bệnh                    |618 |2.49 (1.70 đến 3.70)    |<0.001 |
+|Thô, các trường hợp đầy đủ                |527 |2.22 (1.48 đến 3.39)    |<0.001 |
+|Hiệu chỉnh, các trường hợp đầy đủ (chính) |527 |1.62 (1.02 đến 2.59)    |0.044  |
+|Hiệu chỉnh, quy gán đa bội (m = 20)       |620 |1.70 (1.09 đến 2.64)    |0.020  |
 
 Tệp: `tables/table6_sensitivity_VN.csv` và `tables/table6_sensitivity_VN.docx`
 
@@ -146,14 +146,14 @@ Tệp: `tables/table6_sensitivity_VN.csv` và `tables/table6_sensitivity_VN.docx
 
 - Người bệnh có cân bằng dịch dương tử vong nhiều hơn (36% so với 18%). Nhưng họ cũng nặng hơn.
 - Sau khi tính đến mức độ nặng, mối liên quan nhỏ đi nhiều (OR giảm từ 2.49 xuống 1.62). Phần lớn chênh lệch thô là do nhiễu do chỉ định.
-- Vẫn còn một mối liên quan vừa phải: KTC 95% chỉ vừa đủ loại trừ 1, và mô hình Cox cho HR tương tự với KTC vừa chạm 1. Bằng chứng ở mức yếu đến trung bình, không mạnh.
+- Vẫn còn một mối liên quan vừa phải: khoảng tin cậy 95% chỉ vừa đủ loại trừ 1, và mô hình Cox cho HR tương tự với khoảng tin cậy vừa chạm 1. Bằng chứng ở mức yếu đến trung bình, không mạnh.
 - Mối liên quan có vẻ mạnh hơn ở người bệnh suy tim (p tương tác 0.031). Phân tích này được xác định trước nhưng chỉ dựa trên 90 người bệnh suy tim, vì vậy hãy xem đây là một giả thuyết.
 
 ## 7. Kết quả này KHÔNG có nghĩa là gì
 
 - Kết quả KHÔNG cho thấy dịch GÂY RA tử vong. Đây là nghiên cứu quan sát: hãy viết 'có liên quan với', không viết 'gây ra' hay 'làm tăng'.
 - Kết quả KHÔNG khuyên bác sĩ hạn chế dịch. Chỉ một thử nghiệm ngẫu nhiên (như Bài báo 1) mới kiểm chứng được một chiến lược truyền dịch.
-- Giá trị p 0.044 không phải là 'bằng chứng chắc chắn'; KTC từ 1.02 đến 2.59 phù hợp với cả một tác động rất nhỏ lẫn một tác động lớn.
+- Giá trị p 0.044 không phải là 'bằng chứng chắc chắn'; khoảng tin cậy từ 1.02 đến 2.59 phù hợp với cả một tác động rất nhỏ lẫn một tác động lớn.
 
 ## 8. Các hạn chế cần bàn luận (gợi ý)
 
@@ -172,6 +172,6 @@ Tệp: `tables/table6_sensitivity_VN.csv` và `tables/table6_sensitivity_VN.docx
 - Mục 13: số người tham gia (câu mô tả lưu đồ)
 - Mục 14: dữ liệu mô tả (Bảng 1, dữ liệu thiếu)
 - Mục 15: dữ liệu kết cục (Bảng 2)
-- Mục 16: ước lượng chưa hiệu chỉnh và đã hiệu chỉnh kèm KTC 95% (Bảng 3-4)
+- Mục 16: ước lượng chưa hiệu chỉnh và đã hiệu chỉnh kèm khoảng tin cậy 95% (Bảng 3-4)
 - Mục 17: các phân tích khác (phân nhóm/tương tác và độ nhạy, Bảng 5-6)
 

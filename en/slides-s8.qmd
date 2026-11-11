@@ -37,35 +37,51 @@ Before: email the exercise sheet, the original papers and the class Q1 Results f
 QUICK QUIZ · 5 min
 :::
 
-:::: {.columns}
-::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
 - Who consents for a sedated patient in septic shock?
 - Which STROBE item asks for crude and adjusted estimates?
 - Where does 'this may be because sicker patients got more fluid' belong?
 :::
-:::
-::: {.column width="40%"}
-::: {.neu-side .plain style="--c:#6C3483"}
-How we run it
-
-- Answer in the poll
-- Results on screen, then the answer
-- One volunteer explains why
-:::
-:::
-::::
 
 ::: {.neu-output style="--c:#6C3483"}
 **OUTPUT** Work alone (2 min): answer the three questions, then vote in the poll
 :::
 
 ::: {.notes}
-Recap (19:30-19:35). 2 minutes: everyone answers alone. Then one poll per question. Show the results, then the answer. Question 1 was the exit question of Session 7: call on two or three people to read their answer.
+Recap (19:30-19:35). 2 minutes: everyone answers alone. Then one poll per question. Show the results, then the next slide. Question 1 was the exit question of Session 7: call on two or three people to read their answer.
+:::
 
-Answers: Q1, the legal representative, or deferred consent if the ethics committee approved it. The patient cannot consent. Q2, item 16 (main results), which asks for crude and adjusted estimates with their CIs. Q3, the Discussion, not the Results. The sentence explains a finding instead of reporting it.
+## Recap quiz: answers
 
+:::: {.neu-cards style="--n:3"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[Legal representative]{.neu-card-title}
+
+- The patient cannot consent
+- Or deferred consent, if the ethics committee approved it
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[STROBE item 16]{.neu-card-title}
+
+- Main results
+- Crude and adjusted estimates with their CIs
+:::
+::: {.neu-card .plain style="--c:#5FA39B"}
+[Discussion]{.neu-card-title}
+
+- The sentence explains a finding
+- It does not report one
+:::
+::::
+
+::: {.neu-takeaway}
+**KEY MESSAGE** The Discussion is where interpretation lives.
+:::
+
+::: {.notes}
 Question 3 leads into 8.1: the Discussion is where interpretation lives.
+
+Timing: within the 5 minutes of the recap.
 :::
 
 ## 8.1  \|  30 minutes
@@ -173,9 +189,46 @@ Choose
 :::
 
 ::: {.notes}
-Check (2 minutes). 1 minute alone, then one poll per sentence: known, not known, aim, or not in the Introduction. Call on one or two people to explain sentence 4.
+Check (2 minutes). 1 minute alone, then one poll per sentence. Call on one or two people to explain sentence 4. Answers on the next slide.
+:::
 
-Answers: 1, known (paragraph 1): it is established practice. 2, not known (paragraph 2): it names the gap. 3, aim (paragraph 3): it states what we examined. 4, not in the Introduction: it is our own result, so it goes in the Results. Sentence 4 is the trap.
+## Answers: known, not known or aim?
+
+:::: {.neu-cards style="--n:4"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[Known]{.neu-card-title}
+
+- Paragraph 1
+- Established practice
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[Not known]{.neu-card-title}
+
+- Paragraph 2
+- It names the gap
+:::
+::: {.neu-card .plain style="--c:#5FA39B"}
+[Aim]{.neu-card-title}
+
+- Paragraph 3
+- It states what we examined
+:::
+::: {.neu-card .plain style="--c:#0070C0"}
+[Not in the Introduction]{.neu-card-title}
+
+- Our own result
+- It goes in the Results
+:::
+::::
+
+::: {.neu-takeaway}
+**KEY MESSAGE** The Introduction never reports your own results.
+:::
+
+::: {.notes}
+Sentence 4 is the trap.
+
+Timing: within the 2 minutes of the check.
 :::
 
 ## Discussion: six moves
@@ -343,13 +396,50 @@ Choose
 ::::
 
 ::: {.neu-output style="--c:#6C3483"}
-**OUTPUT** Work alone (1 min): mark each sentence 'fine' or 'fix', and write the fix
+**OUTPUT** Work alone (1 min): write the fix, then vote 'fine' or 'fix' in the poll
 :::
 
 ::: {.notes}
-Check (2 minutes). 1 minute alone, then one poll per sentence: 'fine' or 'fix'. Call on two or three people for the fix.
+Check (2 minutes). 1 minute alone, then one poll per sentence. Call on two or three people for the fix. Fixes on the next slide.
+:::
 
-Fixes: 1, fix: 'was associated with higher mortality', because a cohort cannot show cause. 2, fix: 'was associated with higher odds of AKI'. 3, fix: no 'trend', give HR 1.46 (1.00 to 2.13) and say the CI reaches 1. 4, fine for prediction. If the claim is about cause, use 'associated with'.
+## Answers: fix the verb
+
+:::: {.neu-cards style="--n:4"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[Sentence 1: fix]{.neu-card-title}
+
+- 'was associated with higher mortality'
+- A cohort cannot show cause
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[Sentence 2: fix]{.neu-card-title}
+
+- 'was associated with higher odds of AKI'
+- Same reason: a cohort
+:::
+::: {.neu-card .plain style="--c:#5FA39B"}
+[Sentence 3: fix]{.neu-card-title}
+
+- No 'trend'. Give HR 1.46 (1.00 to 2.13)
+- Say the CI reaches 1
+:::
+::: {.neu-card .plain style="--c:#0070C0"}
+[Sentence 4: fine]{.neu-card-title}
+
+- Fine for prediction
+- For a claim about cause, use 'associated with'
+:::
+::::
+
+::: {.neu-takeaway}
+**KEY MESSAGE** In a cohort, the verb is 'associated with'.
+:::
+
+::: {.notes}
+Ask the class for the fix before you show it.
+
+Timing: within the 2 minutes of the check.
 :::
 
 ## The structured abstract: the shop window
@@ -420,15 +510,49 @@ Check each sentence
 ::::
 
 ::: {.neu-output style="--c:#6C3483"}
-**OUTPUT** Work alone (1 min): write a better version of each sentence
+**OUTPUT** Work alone (1 min): write a better version of each sentence, then post it in the chat
 :::
 
 ::: {.notes}
-Check (2 minutes). 1 minute alone, then call on one or two people per sentence for the fix.
+Check (2 minutes). 1 minute alone, then call on one or two people per sentence for the fix. Fixes on the next slide.
+:::
 
-Fixes: 1, add the design, setting, participants, exposure and outcome. 2, give n, % and the OR with its 95% CI instead of 'significantly'. 3, say 'was associated with', because it is a cohort. 4, give the main numbers, because the abstract must stand alone.
+## Answers: fix these abstract sentences
 
-Every number in the abstract must match the Results.
+:::: {.neu-cards style="--n:4"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[Methods]{.neu-card-title}
+
+- Add the design, setting, participants, exposure and outcome
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[Results]{.neu-card-title}
+
+- Give n, % and the OR with its 95% CI
+- Not 'significantly'
+:::
+::: {.neu-card .plain style="--c:#5FA39B"}
+[Conclusions]{.neu-card-title}
+
+- Say 'was associated with'
+- It is a cohort
+:::
+::: {.neu-card .plain style="--c:#0070C0"}
+[Results]{.neu-card-title}
+
+- Give the main numbers
+- The abstract must stand alone
+:::
+::::
+
+::: {.neu-takeaway}
+**KEY MESSAGE** Every number in the abstract must match the Results.
+:::
+
+::: {.notes}
+Ask for one class version of sentence 2 before you show the answers.
+
+Timing: within the 2 minutes of the check.
 :::
 
 ## Title and keywords: your PICO in one line
@@ -898,9 +1022,23 @@ Choose
 :::
 
 ::: {.notes}
-Check (20:48-20:50). 1 minute alone, then one true/false poll each. Call on one or two people to explain statement 1.
+Check (20:48-20:50). 1 minute alone, then one true/false poll each. Call on one or two people to explain statement 1. Answers on the next slide.
+:::
 
-Answers: 1, often true: many predatory journals write first, so check it twice. 2, false: that is duplicate submission. 3, false: a preprint is posted before peer review. 4, true: answer every point, politely and with evidence. 5, false: FLUID-ICU is a cohort, so it follows STROBE.
+## Answers: true or false?
+
+| Statement | Answer | Why |
+|:---|:---|:---|
+| A journal that e-mails me first is probably predatory | Often true | Many predatory journals write first, so check it twice |
+| I can send my paper to two journals at once | False | That is duplicate submission |
+| A preprint has been peer reviewed | False | A preprint is posted before peer review |
+| I must answer every reviewer comment | True | Answer every point, politely and with evidence |
+| The FLUID-ICU paper should follow CONSORT | False | FLUID-ICU is a cohort, so it follows STROBE |
+
+::: {.notes}
+Statement 1: an e-mail invitation is a warning sign, not proof. Check the journal before you reply.
+
+Timing: within the 2 minutes of the check.
 :::
 
 ---

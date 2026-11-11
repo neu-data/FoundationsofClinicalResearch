@@ -6,7 +6,7 @@ title: "Buổi 5: Lời giải"
 
 **Nền tảng Nghiên cứu Lâm sàng · Cấp độ 1** · bản dành cho giảng viên (không phát trước buổi học)
 
-Số thứ tự bài tập theo `s5_exercises_VN.md`. Mọi con số FLUID-ICU lấy từ `Results_Pack_Q1–Q5` (dữ liệu mô phỏng).
+Số thứ tự bài tập theo `s5_exercises_VN.md`. Mọi con số FLUID-ICU lấy từ các gói kết quả trong `FLUID-ICU/results_packs/` (dữ liệu mô phỏng).
 
 
 * * *
@@ -19,16 +19,16 @@ Số thứ tự bài tập theo `s5_exercises_VN.md`. Mọi con số FLUID-ICU l
 | b | Giới | **Nhị phân** | Hai nhóm. Mã hóa 1/2 không biến nó thành biến số dạng số. |
 | c | Thang điểm hôn mê Glasgow | **Thứ hạng** | Điểm có thứ tự (3–15) với các bước không đều nhau. Thường được *phân tích* như một con số, chấp nhận được nếu nêu rõ, nhưng bản chất là biến thứ hạng. |
 | d | Ổ nhiễm khuẩn | **Định danh** | Nhiều nhóm, không có thứ tự tự nhiên. |
-| e | Số thuốc vận mạch | **Đếm** | Số nguyên 0–3. Chấp nhận "thứ hạng" nếu học viên lập luận tốt; không phải liên tục. |
+| e | Số thuốc vận mạch | **Đếm** | Số nguyên 0–3. Chấp nhận "thứ hạng" nếu học viên lập luận tốt. Đây không phải biến liên tục. |
 | f | Cân bằng dịch tích lũy (ml/kg) | **Liên tục** | Có thể âm hoặc dương, nhận bất kỳ giá trị nào trên thang đo. Là kết cục chính của Bài báo 1. |
 | g | Còn sống ở ngày 28 | **Nhị phân** | Có/không. |
-| h | Thời gian đến tử vong, kiểm duyệt ở ngày 28 | **Thời gian đến biến cố** | Hai thông tin: bao lâu, và biến cố có xảy ra không. Phân tích bằng Kaplan–Meier / Cox. |
+| h | Thời gian đến tử vong, thông tin khuyết (censored) ở ngày 28 | **Thời gian đến biến cố** | Hai thông tin: bao lâu, và biến cố có xảy ra không. Phân tích bằng Kaplan–Meier / Cox. |
 | i | Đau từ không đến nặng | **Thứ hạng** | Các nhóm có thứ tự. |
 | j | Nhóm máu | **Định danh** | Không có thứ tự. |
 
 **Câu hỏi thêm:** bất kỳ biến liên tục nào (tuổi, cân bằng dịch, lactate). Bạn luôn có thể chia nhóm về sau, nhưng không thể lấy lại giá trị chính xác từ một nhóm.
 
-**Lỗi thường gặp:** gọi GCS là biến liên tục; gọi thời gian đến tử vong là biến liên tục (bỏ qua kiểm duyệt); gọi số thuốc vận mạch là biến liên tục.
+*Ghi chú cho giảng viên:* lỗi thường gặp là gọi GCS, thời gian đến tử vong (bỏ qua thông tin khuyết) hoặc số thuốc vận mạch là biến liên tục.
 
 
 * * *
@@ -38,11 +38,11 @@ Số thứ tự bài tập theo `s5_exercises_VN.md`. Mọi con số FLUID-ICU l
 | # | Mục chưa tốt | Vấn đề | Bản viết lại mẫu |
 |---|---|---|---|
 | a | Dịch đã truyền: ____ | Không có đơn vị, không có khung thời gian, không định nghĩa (dịch tinh thể? máu? dịch pha thuốc?) | "Tổng lượng dịch tĩnh mạch đã nhận từ lúc vào ICU đến giờ 24 (ml), gồm dịch tinh thể, dịch keo và dịch pha thuốc: [ ][ ][ ][ ][ ] ml   ☐ không ghi nhận" |
-| b | Cân nặng: ____ | Không có đơn vị; cân thật hay ước tính? lúc nào? | "Cân nặng lúc vào ICU (kg): [ ][ ][ ].[ ]   ☐ cân thật  ☐ ước tính  ☐ không có" |
+| b | Cân nặng: ____ | Không có đơn vị. Cân thật hay ước tính? Lúc nào? | "Cân nặng lúc vào ICU (kg): [ ][ ][ ].[ ]   ☐ cân thật  ☐ ước tính  ☐ không có" |
 | c | Bệnh kèm theo: ________ | Ghi tự do: không thể phân tích, chính tả khác nhau | Danh sách đánh dấu: "Bệnh kèm theo có lúc nhập viện (đánh dấu TẤT CẢ các mục phù hợp): ☐ đái tháo đường ☐ bệnh thận mạn ☐ suy tim ☐ COPD ☐ xơ gan ☐ ung thư ☐ không có ☐ không rõ" |
 | d | Lactate cao? Có / Không | Ý kiến (cao theo ngưỡng của ai?), mất giá trị, không có thời điểm | "Lactate huyết thanh lúc vào ICU (mmol/L): [ ][ ].[ ]   ☐ không làm" (định nghĩa "cao" sau, khi phân tích) |
 
-Chấp nhận mọi phiên bản qua được bốn bước kiểm tra (đơn vị, thời điểm, một cách hiểu, lựa chọn không rõ). Khen những câu trả lời nhận ra rằng thu thập *con số* tốt hơn thu thập có/không.
+*Ghi chú cho giảng viên:* chấp nhận mọi phiên bản qua được bốn bước kiểm tra (đơn vị, thời điểm, một cách hiểu, lựa chọn không rõ). Khen những câu trả lời nhận ra rằng thu thập *con số* tốt hơn thu thập có/không.
 
 
 * * *
@@ -64,10 +64,10 @@ Chấp nhận mọi phiên bản qua được bốn bước kiểm tra (đơn v�
 ## Bài tập 4: Đánh giá một biểu đồ chưa tốt
 
 1. Mỗi cột là **trung bình** cân bằng dịch của mỗi nhóm. Thanh sai số là **sai số chuẩn (SE)**, chỉ vẽ một chiều. Thiếu: từng người bệnh, độ phân tán (SD hoặc IQR), hình dạng phân phối (độ lệch), n của mỗi nhóm trên biểu đồ, và thanh sai số thể hiện gì.
-2. Bất kỳ hai điều nào: dữ liệu **lệch**; **một người bệnh cực trị** (160 ml/kg) kéo trung bình của nhóm chăm sóc thường quy lên; hai nhóm **chồng lấn** nhiều; trung vị; số người bệnh; các giá trị âm.
+2. Bất kỳ hai điều nào: dữ liệu **lệch**, **một người bệnh cực trị** (160 ml/kg) kéo trung bình của nhóm chăm sóc thường quy lên, hai nhóm **chồng lấn** nhiều, trung vị, số người bệnh, các giá trị âm.
 3. Chấm (mỗi chấm một người bệnh) cộng với biểu đồ hộp cho mỗi nhóm (xem slide "chấm + hộp"), trục y có ghi đơn vị, n ghi dưới mỗi nhóm. Bạn được thêm: thấy được hình dạng, độ phân tán, giá trị ngoại lai và mức chồng lấn, và người đọc tự đánh giá được phép so sánh.
-4. Trục bị cắt làm khác biệt 2 điểm phần trăm (31% so với 29%) trông như gấp ba lần. Cách sửa: cột bắt đầu từ 0 và ghi giá trị (hoặc trình bày hiệu số kèm KTC 95%).
-5. (i) Tác giả tự chọn hai thang đo, nên có thể làm hai đường cắt nhau hoặc đi cùng nhau ở bất kỳ đâu họ muốn; (ii) hai xu hướng theo thời gian cùng đi lên hay xuống là **tương quan, không phải quan hệ nhân quả** (có thể có những thay đổi khác cùng lúc). Tốt hơn: hai khung dùng chung trục thời gian, và một thiết kế phù hợp (ví dụ chuỗi thời gian ngắt quãng, Buổi 3).
+4. Trục bị cắt làm khác biệt 2 điểm phần trăm (31% so với 29%) trông như gấp ba lần. Cách sửa: cột bắt đầu từ 0 và ghi giá trị (hoặc trình bày hiệu số kèm khoảng tin cậy 95%).
+5. (i) Tác giả tự chọn hai thang đo, nên có thể làm hai đường cắt nhau hoặc đi cùng nhau ở bất kỳ đâu họ muốn. (ii) Hai xu hướng theo thời gian cùng đi lên hay xuống là **tương quan, không phải quan hệ nhân quả** (có thể có những thay đổi khác cùng lúc). Tốt hơn: hai khung dùng chung trục thời gian, và một thiết kế phù hợp (ví dụ chuỗi thời gian ngắt quãng, Buổi 3).
 
 
 * * *
@@ -80,9 +80,9 @@ Chấp nhận mọi phiên bản qua được bốn bước kiểm tra (đơn v�
 |---|---|---|
 | a | Một biến được mã hóa nhiều kiểu (và có khoảng trắng ở đầu) | Mã hóa lại thành `Female` / `Male` |
 | b | Ngày ở nhiều định dạng khác nhau (03/04: tháng Ba hay tháng Tư?) | Đọc từng định dạng một cách tường minh và chuyển về một định dạng ngày (YYYY-MM-DD) |
-| c | ICU C báo cáo lactate theo mg/dL, không phải mmol/L (lớn hơn khoảng 9 lần; phát hiện bằng cách so sánh trung vị theo ICU) | Chia các giá trị của ICU C cho 9.01 (1 mmol/L = 9.01 mg/dL); xác nhận với phòng xét nghiệm của cơ sở |
+| c | ICU C báo cáo lactate theo mg/dL, không phải mmol/L (lớn hơn khoảng 9 lần, phát hiện bằng cách so sánh trung vị theo ICU) | Chia các giá trị của ICU C cho 9.01 (1 mmol/L = 9.01 mg/dL), và xác nhận với phòng xét nghiệm của cơ sở |
 | d | `999` là mã cho giá trị thiếu, không phải lactate | Đặt thành giá trị thiếu (NA) |
-| e | Tuổi không thể có (ngoài khoảng cho phép) | Đặt thành giá trị thiếu, gửi câu hỏi xác minh cho cơ sở; giữ người bệnh |
+| e | Tuổi không thể có (ngoài khoảng cho phép) | Đặt thành giá trị thiếu, gửi câu hỏi xác minh cho cơ sở, và giữ người bệnh |
 | f | Bản ghi trùng lặp | Kiểm tra hai dòng giống hệt nhau, giữ một bản (623 dòng thành 620 người bệnh) |
 
 Câu hỏi thêm: sửa bằng tay thì không ai thấy và không lặp lại được. Một script cùng nhật ký cho phép bất kỳ ai kiểm tra và lặp lại mọi thay đổi. Nhật ký ghi vấn đề, bao nhiêu bản ghi, đã làm gì, và vì sao (cùng các câu hỏi xác minh đã gửi).
@@ -92,14 +92,23 @@ Câu hỏi thêm: sửa bằng tay thì không ai thấy và không lặp lại 
 
 ## Bài tập 6: [FLUID-ICU] Đọc Bảng 1 của FLUID-ICU
 
-Mọi con số từ `FLUID-ICU/key_results.md` (dữ liệu mô phỏng).
+Mọi con số lấy từ Bảng 1 của gói kết quả Q1 (gói Q2 và Q3 có cùng bảng này).
 
-1. Cân bằng dịch âm n = 245, dương n = 373, tổng 618. Hai trong số 620 người bệnh được tuyển không tính được cân bằng dịch ngày 3 (một cân nặng hoặc lượng dịch ra không thể có đã được đặt thành giá trị thiếu khi làm sạch), nên không xếp được vào nhóm nào.
-2. Câu trả lời dự kiến: trung bình (SD) cho tuổi, gần đối xứng (64.6 so với 61.4 tuổi); trung vị (IQR) cho SOFA, một điểm số có phân phối lệch (6 (4 đến 8) so với 8 (6 đến 10)); trung vị (IQR) cho lactate, lệch phải (2.2 (1.4 đến 3.0) so với 2.9 (1.9 đến 4.0) mmol/L); n (%) cho thuốc vận mạch, thở máy, suy tim và giới.
-3. Mức độ nặng: SOFA 8 so với 6; thuốc vận mạch 205/373 (55.0%) so với 61/245 (24.9%); thở máy 216/373 (57.9%) so với 97/245 (39.6%). (Suy tim theo chiều ngược lại: 43/373 (11.5%) so với 54/245 (22.0%), vì bác sĩ truyền ít dịch hơn khi người bệnh suy tim.)
-4. Lactate: thiếu 91 trong 618 (93 trong toàn bộ 620 người được tuyển, 15.0%).
-5. Câu mẫu: "Trong 620 người bệnh được tuyển, 618 người tính được cân bằng dịch ngày 3, trong đó 373 người (60.4%) có cân bằng dịch dương. Người bệnh có cân bằng dịch dương nặng hơn lúc nhập viện (trung vị SOFA 8 so với 6; thuốc vận mạch 55.0% so với 24.9%; thở máy 57.9% so với 39.6%)."
-6. Lớn hơn: nhóm cân bằng dịch dương nặng hơn, và người bệnh nặng hơn tử vong nhiều hơn, nên mối liên quan thô trộn lẫn dịch truyền với mức độ nặng (nhiễu do chỉ định). Được xác nhận ở Buổi 6: OR thô 2.49 so với OR hiệu chỉnh 1.62.
+1. Cân bằng dịch âm n = 245, dương n = 373, tổng 618 (tiêu đề các cột của Bảng 1). Hai trong số 620 người bệnh được tuyển không có cân bằng dịch ngày 3 (thiếu cân nặng hoặc lượng dịch ra sau khi làm sạch), nên không xếp được vào nhóm nào (lưu đồ người tham gia, mục 2).
+2. Đáp án mẫu:
+
+| Biến số | Cách tóm tắt đã dùng | Vì sao dùng cách này? |
+|---|---|---|
+| Tuổi | Trung bình (SD): 64.6 (15.0) so với 61.4 (15.2) tuổi | Phân phối gần đối xứng |
+| Điểm SOFA | Trung vị (Q1, Q3): 6 (4, 8) so với 8 (6, 10) | Điểm số có phân phối lệch |
+| Thuốc vận mạch lúc nhập ICU | n (%): 61 (25%) so với 205 (55%) | Nhị phân (có/không) |
+
+3. Không. Nhóm cân bằng dịch dương nặng hơn. Khác biệt lớn nhất là thuốc vận mạch lúc nhập ICU: 205 (55%) so với 61 (25%). SOFA (8 so với 6) và thở máy (216 (58%) so với 97 (40%)) cũng theo cùng hướng.
+4. Lactat, thiếu 91 giá trị.
+5. Câu mẫu: "Trong 620 người bệnh được tuyển, 618 người có cân bằng dịch ngày 3, và 373 người trong số đó có cân bằng dịch dương. Người bệnh có cân bằng dịch dương nặng hơn lúc nhập ICU (trung vị SOFA 8 so với 6, thuốc vận mạch 55% so với 25%, thở máy 58% so với 40%)."
+6. Lớn hơn. Nhóm cân bằng dịch dương nặng hơn, và người bệnh nặng hơn tử vong nhiều hơn, nên mối liên quan thô trộn lẫn dịch truyền với mức độ nặng (nhiễu do chỉ định).
+
+*Ghi chú cho giảng viên:* suy tim theo chiều ngược lại, 43 (12%) so với 54 (22%), vì bác sĩ truyền ít dịch hơn khi người bệnh suy tim. Buổi 6 xác nhận câu 6: OR thô 2.49 so với OR hiệu chỉnh 1.62 (gói Q1, Bảng 3).
 
 
 * * *
@@ -118,43 +127,77 @@ Trên lớp, mỗi người tự điền bảng cho Q1, rồi vài người đ�
 | **C**: nhóm so sánh | Cân bằng dịch âm hoặc bằng 0 đến ngày 3 |
 | **O**: kết cục (tên biến) và loại biến | Tử vong do mọi nguyên nhân trước ngày 28, `died_28d` (nhị phân). Thêm thời gian đến tử vong, `time_to_event_28d` (thời gian đến sự kiện) |
 | Câu hỏi nghiên cứu viết thành một câu | "Ở người lớn bị sepsis vào ICU, cân bằng dịch tích lũy dương đến ngày 3, so với cân bằng dịch âm, có liên quan với tử vong 28 ngày cao hơn không?" |
-| Kiểm định nào sẽ so sánh các nhóm? Mô hình nào sẽ hiệu chỉnh? | Kiểm định khi bình phương cho so sánh thô. Hồi quy logistic để hiệu chỉnh. Kaplan-Meier và hồi quy Cox cho thời gian đến tử vong |
+| Kiểm định nào sẽ so sánh các nhóm? Mô hình nào sẽ hiệu chỉnh? | Kiểm định Chi bình phương cho so sánh thô. Hồi quy logistic để hiệu chỉnh. Kaplan-Meier và hồi quy Cox cho thời gian đến tử vong |
 
 **Khi điền lại bảng cho câu hỏi của bạn (Q2 đến Q5)**
 
 | Q | E: phơi nhiễm (loại) | O: kết cục (loại) | Kiểm định, rồi mô hình |
 |---|---|---|---|
-| Q2 | Cân bằng dịch tích lũy, `cum_fluid_balance_d3_ml_kg` (liên tục, mỗi 10 ml/kg) | AKI, KDIGO giai đoạn 1 trở lên, `aki_any` (nhị phân) | Khi bình phương theo nhóm, rồi hồi quy logistic |
-| Q3 | Cân bằng dịch tích lũy (liên tục) | Số ngày không thở máy đến ngày 28, `vent_free_days_28` (đếm 0 đến 28, lệch, dồn ở 0 và 28) | Mann-Whitney, rồi hồi quy tuyến tính |
-| Q4 | Lactat lúc vào ICU, `lactate_mmol_l`, mmol/L (liên tục, thiếu 15%) | Tử vong trước ngày 28, `died_28d` (nhị phân) | Hồi quy logistic, trường hợp đầy đủ và quy gán đa bội |
-| Q5 | Cân bằng dịch dương, `positive_balance_d3` (nhị phân) | Thời gian nằm ICU ở người sống sót, `icu_los_days` (liên tục, lệch phải) | Mann-Whitney, rồi hồi quy tuyến tính trên thang logarit |
+| Q2 | Cân bằng dịch tích lũy, `cum_fluid_balance_d3_ml_kg` (liên tục, mỗi 10 ml/kg) | AKI, KDIGO giai đoạn 1 trở lên, `aki_any` (nhị phân) | Chi bình phương theo nhóm, rồi hồi quy logistic |
+| Q3 | Cân bằng dịch tích lũy (liên tục) | Số ngày không thở máy đến ngày 28, `vent_free_days_28` (đếm 0 đến 28, lệch, dồn ở 0 và 28) | Kiểm định Wilcoxon rank-sum (Mann-Whitney U), rồi hồi quy tuyến tính |
+| Q4 | Lactat lúc vào ICU, `lactate_mmol_l`, mmol/L (liên tục, thiếu 15%) | Tử vong trước ngày 28, `died_28d` (nhị phân) | Hồi quy logistic, trường hợp đầy đủ và quy gán đa bội (multiple imputation) |
+| Q5 | Cân bằng dịch dương, `positive_balance_d3` (nhị phân) | Thời gian nằm ICU ở người sống sót, `icu_los_days` (liên tục, lệch phải) | Kiểm định Wilcoxon rank-sum (Mann-Whitney U), rồi hồi quy tuyến tính trên thang logarit |
 
 
 * * *
 
 ## Bài tập 8: Xây dựng đề cương 5 (câu trả lời tốt trông như thế nào)
 
-**Bảng biến số**
+Giảng viên điền phần này cho ví dụ xuyên suốt, một thử nghiệm so sánh chiến lược hạn chế dịch với chăm sóc thường quy.
 
-| Vai trò | Biến số | Cách đo | Loại |
+### 8.1 Bảng biến số
+
+| Vai trò | Biến số | Cách đo (đơn vị, thời điểm) | Loại |
 |---|---|---|---|
-| Kết cục chính | Tử vong trước ngày 28 | Hồ sơ bệnh viện / gọi điện ở ngày 28 | Nhị phân |
-| Kết cục phụ | Cân bằng dịch tích lũy ở ngày 5 | Phiếu theo dõi dịch, ml/kg cân nặng lúc nhập viện | Liên tục |
-| Can thiệp | Chiến lược hạn chế dịch so với thường quy | Phân bổ ngẫu nhiên | Nhị phân |
-| Biến nền / yếu tố gây nhiễu | Tuổi, điểm SOFA, lactate lúc nhập viện, ổ nhiễm khuẩn | CRF lúc vào ICU | Liên tục, điểm gần như thứ hạng, liên tục, định danh |
+| Kết cục chính | Tử vong trước ngày 28 | Hồ sơ bệnh viện hoặc gọi điện ở ngày 28 | Nhị phân |
+| Kết cục phụ | Cân bằng dịch tích lũy ở ngày 5 | Phiếu theo dõi dịch, ml/kg cân nặng lúc nhập ICU, ngày 5 | Liên tục |
+| Phơi nhiễm / can thiệp | Chiến lược hạn chế dịch so với thường quy | Phân bổ ngẫu nhiên | Nhị phân |
+| Yếu tố gây nhiễu 1 | Tuổi | Năm, lúc nhập ICU | Liên tục |
+| Yếu tố gây nhiễu 2 | Điểm SOFA | Điểm, trong 24 giờ đầu | Điểm thứ hạng |
+| Yếu tố gây nhiễu 3 | Lactat huyết thanh | mmol/L, lúc nhập ICU | Liên tục |
+| Mô tả | Giới, ổ nhiễm khuẩn chính | Lúc nhập ICU | Nhị phân, định danh |
 
-**Cỡ mẫu:** tử vong 40% so với 30%, alpha 5% hai phía, lực thống kê 80% cho 356 người mỗi nhóm (bảng tính trang 2). Chia cho (1 − 0.10) được 396 người mỗi nhóm, tổng cộng 792.
+Trong thử nghiệm, tuổi, SOFA và lactat là các biến nền chính cho Bảng 1 (xem gợi ý trên phiếu).
 
-**Kế hoạch phân tích:** mô tả bằng trung bình (SD) / trung vị (IQR) / n (%); so sánh tử vong 28 ngày bằng kiểm định khi bình phương; báo cáo nguy cơ tương đối và hiệu số nguy cơ kèm KTC 95%; so sánh cân bằng dịch bằng Mann–Whitney và báo cáo trung vị (IQR) mỗi nhóm. (Thiết kế quan sát: thêm "hiệu chỉnh theo tuổi, SOFA và lactate bằng hồi quy logistic".)
+### 8.2 CRF thu nhỏ
 
-**Kiểm tra nhanh cho giảng viên (khi làm mẫu, và khi đọc bản nháp gửi qua email):**
+| # | Câu hỏi đúng như người thu thập dữ liệu sẽ đọc | Cách trả lời | Có lựa chọn "không rõ / không làm"? |
+|---|---|---|:-:|
+| 1 | Mã nghiên cứu | FLU-[ ][ ][ ] | Không |
+| 2 | Tuổi lúc nhập ICU (năm) | [ ][ ][ ] | ☑ |
+| 3 | Giới | ☐ nam ☐ nữ | Không |
+| 4 | Ổ nhiễm khuẩn chính | ☐ phổi ☐ tiết niệu ☐ ổ bụng ☐ khác | ☑ |
+| 5 | Điểm SOFA trong 24 giờ đầu (0 đến 24) | [ ][ ] | ☑ |
+| 6 | Lactat huyết thanh lúc nhập ICU (mmol/L) | [ ][ ].[ ] | ☑ |
+| 7 | Cân bằng dịch tích lũy từ lúc nhập ICU đến ngày 5 (ml) | ☐ + ☐ − [ ][ ][ ][ ][ ] ml | ☑ |
+| 8 | Còn sống ở ngày 28 | ☐ có ☐ không | ☑ |
+
+### 8.3 Từ điển dữ liệu và kế hoạch chất lượng dữ liệu
+
+| Tên biến | Nhãn (ý nghĩa) | Loại | Đơn vị / mã | Giá trị cho phép |
+|---|---|---|---|---|
+| fb_d5 | Cân bằng dịch tích lũy, ngày 5 | Liên tục | ml/kg | -100 đến 300 |
+| age | Tuổi lúc nhập ICU | Liên tục | năm | 18 đến 110 |
+| sex | Giới | Nhị phân | 1 = nam, 2 = nữ | 1, 2 |
+| died28 | Tử vong trước ngày 28 | Nhị phân | 0 = sống, 1 = tử vong | 0, 1 |
+
+**Kế hoạch chất lượng dữ liệu:** điều dưỡng nghiên cứu kiểm tra các mục bị thiếu trên mọi phiếu hằng tuần. Mỗi tháng, người quản lý dữ liệu chạy kiểm tra khoảng giá trị (ví dụ tuổi 18 đến 110) và một kiểm tra tính nhất quán (ngày tử vong không trước ngày nhập ICU).
+
+### 8.4 Kế hoạch quản lý dữ liệu
+
+| Câu hỏi | Đáp án mẫu |
+|---|---|
+| CRF giấy với nhập liệu kép, hay thu thập dữ liệu điện tử? | Thu thập dữ liệu điện tử (REDCap), có kiểm tra khoảng giá trị và logic khi nhập |
+| Mã nghiên cứu cho từng người bệnh? Danh sách liên kết mã được lưu ở đâu, và ai được mở? | Có. Danh sách liên kết mã là một tệp riêng, có khóa. Chỉ nghiên cứu viên chính và người quản lý dữ liệu được mở. |
+| Quy tắc kiểm tra khi nhập liệu (hai ví dụ từ từ điển dữ liệu của bạn) | Tuổi 18 đến 110 năm. fb_d5 từ -100 đến 300 ml/kg. |
+| Nhật ký thay đổi dữ liệu / nhật ký làm sạch: ai ghi lại các thay đổi? | REDCap ghi lại mọi thay đổi. Người quản lý dữ liệu giữ nhật ký làm sạch. |
+| Sao lưu (3-2-1) và tuyên bố chia sẻ dữ liệu trong phiếu đồng ý | Sao lưu có mã hóa: ba bản, trên hai loại phương tiện, một bản ở nơi khác. Phiếu đồng ý ghi rằng dữ liệu đã mã hóa có thể được chia sẻ với các nhà nghiên cứu khác. |
+
+*Ghi chú cho giảng viên: kiểm tra nhanh khi làm mẫu, và khi đọc bản nháp gửi qua email.*
 
 | Thành phần | Đạt yêu cầu | Cần cải thiện |
 |---|---|---|
-| Bảng biến số | Kết cục, phơi nhiễm và ≥ 3 yếu tố gây nhiễu, đều có loại biến | Yếu tố gây nhiễu thực ra là kết cục; không ghi loại biến |
-| CRF thu nhỏ | 6–10 mục, có đơn vị, thời điểm, lựa chọn không rõ | > 15 mục; ghi tự do; không có đơn vị |
+| Bảng biến số | Kết cục, phơi nhiễm và ≥ 3 yếu tố gây nhiễu, đều có loại biến | Yếu tố gây nhiễu thực ra là kết cục, không ghi loại biến |
+| CRF thu nhỏ | 6–10 mục, có đơn vị, thời điểm, lựa chọn không rõ | > 15 mục, ghi tự do, không có đơn vị |
 | Từ điển dữ liệu | 3–5 dòng có mã và khoảng giá trị cho phép | Tên biến có khoảng trắng, không có mã |
-| Cỡ mẫu | 4 thông số có nêu nguồn | "Mọi người bệnh trong một năm" |
-| Kế hoạch phân tích | Tóm tắt + kiểm định + chỉ số tác động kèm KTC 95% | "Dữ liệu sẽ được phân tích bằng SPSS" |
-
-**Quản lý dữ liệu (đạt yêu cầu):** EDC có kiểm tra khoảng giá trị và logic khi nhập (hoặc phiếu giấy với nhập liệu kép cho các biến chính); mã nghiên cứu cho từng người bệnh, danh sách liên kết mã được lưu riêng và khóa; nhật ký thay đổi dữ liệu/nhật ký làm sạch; tệp xuất thô chỉ đọc, các phiên bản có ghi ngày, sao lưu mã hóa theo nguyên tắc 3-2-1; tuyên bố chia sẻ dữ liệu trong phiếu đồng ý.
+| Quản lý dữ liệu | EDC hoặc nhập liệu kép, mã nghiên cứu, nhật ký thay đổi, sao lưu | Tên người bệnh trong tệp dữ liệu, không sao lưu |

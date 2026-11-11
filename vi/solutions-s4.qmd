@@ -47,19 +47,19 @@ Lỗi điển hình: gọi tình huống 2 là "nhiễu" vì các con số thay 
 | Hạn chế dịch | a = 20 | b = 180 | 200 |
 | Chăm sóc thường quy | c = 30 | d = 170 | 200 |
 
-| Chỉ số | Cách tính | Đáp án |
-|---|---|---|
-| Nguy cơ, hạn chế dịch | 20 / 200 | **0.10 (10%)** |
-| Nguy cơ, chăm sóc thường quy | 30 / 200 | **0.15 (15%)** |
-| RR | 0.10 / 0.15 | **0.67** |
-| RD | 0.10 − 0.15 | **−0.05 (ít hơn 5 điểm phần trăm)** |
-| NNT | 1 / 0.05 | **20** |
-| OR | (20 × 170) / (180 × 30) = 3400 / 5400 | **0.63** |
+| Câu | Chỉ số | Cách tính | Đáp án |
+|---|---|---|---|
+| 1 | Nguy cơ, hạn chế dịch | 20 / 200 | **0.10 (10%)** |
+| 1 | Nguy cơ, chăm sóc thường quy | 30 / 200 | **0.15 (15%)** |
+| 2 | RR | 0.10 / 0.15 | **0.67** |
+| 3 | RD | 0.10 − 0.15 | **−0.05 (ít hơn 5 điểm phần trăm)** |
+| 4 | NNT | 1 / 0.05 | **20** |
+| 5 | OR | (20 × 170) / (180 × 30) = 3400 / 5400 | **0.63** |
 
-- **Vì sao NNT khác ví dụ mẫu?** Cùng RR (0.67), nhưng nguy cơ nền thấp hơn (15% thay vì 30%), nên hiệu số tuyệt đối giảm một nửa (5 thay vì 10 điểm) và NNT tăng gấp đôi (20 thay vì 10).
-- **Câu mẫu:** "Với hạn chế dịch, 10 trên 100 người bệnh tử vong trước ngày 28, so với 15 trên 100 người với chăm sóc thường quy: cứ điều trị khoảng 20 người bệnh thì tránh được một ca tử vong."
+6. **Vì sao NNT khác ví dụ mẫu?** Cùng RR (0.67), nhưng nguy cơ nền thấp hơn (15% thay vì 30%), nên hiệu số tuyệt đối giảm một nửa (5 thay vì 10 điểm) và NNT tăng gấp đôi (20 thay vì 10).
+7. **Một câu cho đồng nghiệp:** "Với hạn chế dịch, 10 trên 100 người bệnh tử vong trước ngày 28, so với 15 trên 100 người với chăm sóc thường quy: cứ điều trị khoảng 20 người bệnh thì tránh được một ca tử vong."
 
-Lỗi thường gặp: chia cho sai tổng số (50 hoặc 400); viết RD là 5 thay vì 0.05 rồi tính NNT = 0.2; vẽ bảng với kết cục theo hàng.
+**Ghi chú cho giảng viên.** Các lỗi thường gặp là chia cho sai tổng số (50 hoặc 400), viết RD là 5 thay vì 0.05 rồi tính NNT = 0.2, và vẽ bảng với kết cục theo hàng.
 
 ### Phép tính 2: nghiên cứu bệnh–chứng về dịch truyền
 
@@ -68,12 +68,12 @@ Lỗi thường gặp: chia cho sai tổng số (50 hoặc 400); viết RD là 5
 | Cân bằng dịch dương ngày 3 | a = 24 | b = 16 |
 | Cân bằng dịch bằng 0 hoặc âm | c = 16 | d = 64 |
 
-- **OR** = (24 × 64) / (16 × 16) = 1536 / 256 = **6.0**
-- **Vì sao không tính được nguy cơ, RR hay NNT?** Nhà nghiên cứu tự chọn số người có và không lọc máu (40 và 80, tỷ lệ 1:2). Tỷ lệ cần lọc máu trong nghiên cứu do thiết kế quyết định, không phải do tự nhiên, nên "nguy cơ" tính theo hàng không có ý nghĩa. OR vẫn hợp lệ vì không phụ thuộc vào tỷ lệ chọn mẫu.
-- **Quan hệ nhân quả ngược?** Có, rất có thể: thận suy giảm tạo ít nước tiểu hơn, và ít nước tiểu ra làm cân bằng dịch dương. Tổn thương thận có thể đã xảy ra trước.
-- **Câu mẫu:** "Người bệnh cần lọc máu có odds cân bằng dịch dương vào ngày 3 cao gấp khoảng sáu lần so với người bệnh ICU tương tự không cần lọc máu. Nghiên cứu quan sát này không thể chứng minh dịch truyền gây suy thận: người bệnh nặng hơn được truyền nhiều dịch hơn, và chính thận suy giảm làm cân bằng dịch dương."
+1. **OR** = (24 × 64) / (16 × 16) = 1536 / 256 = **6.0**
+2. **Vì sao không tính được nguy cơ, RR hay NNT?** Nhà nghiên cứu tự chọn số người có và không lọc máu (40 và 80, tỷ lệ 1:2). Tỷ lệ cần lọc máu trong nghiên cứu do thiết kế quyết định, không phải do tự nhiên, nên "nguy cơ" tính theo hàng không có ý nghĩa. OR vẫn hợp lệ vì không phụ thuộc vào tỷ lệ chọn mẫu.
+3. **Quan hệ nhân quả ngược?** Có, rất có thể: thận suy giảm tạo ít nước tiểu hơn, và ít nước tiểu ra làm cân bằng dịch dương. Tổn thương thận có thể đã xảy ra trước.
+4. **Một câu cho đồng nghiệp:** "Người bệnh cần lọc máu có odds cân bằng dịch dương vào ngày 3 cao gấp khoảng sáu lần so với người bệnh ICU tương tự không cần lọc máu. Nghiên cứu quan sát này không thể chứng minh dịch truyền gây suy thận: người bệnh nặng hơn được truyền nhiều dịch hơn, và chính thận suy giảm làm cân bằng dịch dương."
 
-Lưu ý về công cụ tính: nếu nhập các số này vào trang Association, công cụ sẽ cho "nguy cơ" 60% và 20%. Dùng điều này để nhấn mạnh cảnh báo màu đỏ trên trang: với dữ liệu bệnh–chứng, chỉ đọc OR.
+**Ghi chú cho giảng viên.** Nếu nhập các số này vào trang Association, công cụ sẽ cho "nguy cơ" 60% và 20%. Dùng điều này để nhấn mạnh cảnh báo màu đỏ trên trang: với dữ liệu bệnh–chứng, chỉ đọc OR.
 
 ### Thực hành thêm (tự học): thử nghiệm đệm chống loét
 
@@ -134,10 +134,10 @@ Các con số được tính bằng gộp nghịch đảo phương sai (mô hìn
 | Thử nghiệm 6 | 0.62 (0.23–1.69) | 5% |
 | **Gộp** | **0.79 (0.64–0.98)** | I² = 0% |
 
-1. **Trọng số lớn nhất:** Thử nghiệm 4 (38%). Đây là thử nghiệm lớn nhất với nhiều ca tử vong nhất (103), nên có KTC hẹp nhất.
-2. **Có thử nghiệm đơn lẻ nào rõ ràng không?** Không. Mọi KTC riêng lẻ đều cắt qua 1.
-3. **Kết quả gộp:** hình thoi không cắt qua 1. *"Qua sáu thử nghiệm này, chiến lược hạn chế dịch có liên quan với nguy cơ tử vong tương đối thấp hơn khoảng 21% (RR 0.79, KTC 95% 0.64 đến 0.98); giới hạn trên gần với không có tác động."* (Với thử nghiệm ngẫu nhiên, có thể chấp nhận "làm giảm"; điểm chính là phải nêu KTC.) Gõ câu tốt nhất bạn nghe được lên màn hình chia sẻ.
-4. **Thử nghiệm 3 (tự học):** không đáng lo nhiều. Thử nghiệm nhỏ (trọng số 5%, 15 ca tử vong) với KTC rất rộng, chồng lên mọi thử nghiệm khác; I² = 0% nghĩa là độ phân tán phù hợp với may rủi.
+1. **Trọng số lớn nhất:** Thử nghiệm 4 (38%). Đây là thử nghiệm lớn nhất với nhiều ca tử vong nhất (103), nên có khoảng tin cậy hẹp nhất.
+2. **Có thử nghiệm đơn lẻ nào rõ ràng không?** Không. Mọi khoảng tin cậy riêng lẻ đều cắt qua 1.
+3. **Kết quả gộp:** hình thoi không cắt qua 1. *"Qua sáu thử nghiệm này, chiến lược hạn chế dịch có liên quan với nguy cơ tử vong tương đối thấp hơn khoảng 21% (RR 0.79, khoảng tin cậy 95% 0.64 đến 0.98). Giới hạn trên gần với không có tác động."* (Với thử nghiệm ngẫu nhiên, có thể chấp nhận "làm giảm". Điểm chính là phải nêu khoảng tin cậy.) Gõ câu tốt nhất bạn nghe được lên màn hình chia sẻ.
+4. **Thử nghiệm 3 (tự học):** không đáng lo nhiều. Thử nghiệm nhỏ (trọng số 5%, 15 ca tử vong) với khoảng tin cậy rất rộng, chồng lên mọi thử nghiệm khác. I² = 0% nghĩa là độ phân tán phù hợp với may rủi.
 
 **Chọn công cụ**
 
@@ -165,7 +165,7 @@ Giảng viên điền phần này trên màn hình chia sẻ trong 15 phút đ�
 | 2.5 Kết cục | Chính: tử vong do mọi nguyên nhân trước ngày 28 sau khi vào ICU (hồ sơ bệnh viện; gọi điện nếu đã ra viện). Phụ: tổn thương thận cấp đến ngày 7 (tiêu chuẩn KDIGO); số ngày còn sống và không thở máy đến ngày 28; thời gian nằm ICU. |
 | 2.6 Các nguy cơ sai lệch chính và cách hạn chế | Nhiễu do chỉ định (người bệnh nặng hơn được truyền nhiều dịch hơn): ghi điểm SOFA, lactate, liều thuốc vận mạch, tuổi và bệnh kèm theo lúc vào ICU rồi hiệu chỉnh hoặc ghép cặp. Sai lệch chọn lựa (yêu cầu nằm ICU 72 giờ loại các ca tử vong sớm): nêu là hạn chế và báo cáo số bị loại và lý do. Sai lệch thông tin (phiếu theo dõi dịch không đầy đủ, thiếu lượng nước tiểu ban đêm): định nghĩa xác định trước, hai người thu thập dữ liệu với kiểm tra nhập liệu kép trên 10% mẫu. |
 
-Khẳng định: "có liên quan với" (thiết kế quan sát).
+**Khẳng định cuối cùng của tôi sẽ là:** "có liên quan với", vì đây là thiết kế quan sát. Cân bằng dịch không được phân bổ ngẫu nhiên, nên người bệnh nặng hơn có thể đã được truyền nhiều dịch hơn.
 
 **Các vấn đề thường gặp cần chú ý trong bản nháp**
 

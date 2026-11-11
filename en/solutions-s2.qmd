@@ -43,16 +43,26 @@ If many miss 4 or 5, spend one extra minute: objectives use measurable verbs; H0
 
 **Warm-up:** `septic shock OR fluids` gives more hits (either term). `sepsis` gives more hits than `sepsis NOT neonatal` (NOT removes papers).
 
-**Model string for the running example** (as in the demo):
+**Build your search: model table for the running example**
+
+| Block | Concept | Synonyms (2–4). (M) marks a MeSH term |
+|---|---|---|
+| **P** | Septic shock | Shock, Septic (M) · septic shock · sepsis |
+| **I / E** | Restrictive fluid strategy | Fluid Therapy (M) · fluid restriction · restrictive fluid · conservative fluid |
+| **O** | Death | Mortality (M) · mortality · death |
+
+**Model search string** (as in the demo):
 ```
 ("Shock, Septic"[Mesh] OR "septic shock"[tiab] OR sepsis[tiab])
 AND ("Fluid Therapy"[Mesh] OR "fluid restrict*"[tiab] OR "restrictive fluid*"[tiab] OR "conservative fluid*"[tiab])
 AND ("Mortality"[Mesh] OR mortality[tiab] OR death[tiab])
 ```
-Sensible extra synonyms for the I block: `de-resuscitation[tiab]`, `deresuscitation[tiab]`, `"fluid balance"[tiab]`, `"Water-Electrolyte Balance"[Mesh]`.
-Sensible filters (each with a reason): article type *Randomized Controlled Trial* + *Systematic Review* (treatment question); *Adult: 19+ years* (our population); publication date *10 years* (current practice). Avoid *Free full text* (loses key papers).
 
-**Model string for Scenario C (delirium)**
+**One filter, and why:** article type *Randomized Controlled Trial* and *Systematic Review*, because this is a treatment question. Other sensible filters are *Adult: 19+ years* (our population) and publication date *10 years* (current practice). Avoid *Free full text*, which loses key papers.
+
+**Share your search: synonyms the class may suggest** for the I block: `de-resuscitation[tiab]`, `deresuscitation[tiab]`, `"fluid balance"[tiab]`, `"Water-Electrolyte Balance"[Mesh]`.
+
+*Instructor note:* if a participant builds the search for Scenario C (delirium) from the Session 1 extra practice, this is a model string.
 ```
 (Delirium[Mesh] OR delirium[tiab] OR "acute confusion"[tiab])
 AND ("Hip Fractures"[Mesh] OR "hip fracture*"[tiab])
@@ -74,7 +84,7 @@ AND (prevent*[tiab] OR "multicomponent"[tiab] OR "non-pharmacological"[tiab] OR 
 **Part A**
 | Version | Verdict | Why |
 |---|---|---|
-| a) | **Problem: patchwriting** | Same structure and almost the same words as the source; one word swapped ("mortality" for "death"). Plagiarism even though it is cited. |
+| a) | **Problem: patchwriting** | Same structure and almost the same words as the source. One word swapped ("death" for "mortality"). Plagiarism even though it is cited. |
 | b) | **OK** | New structure, adds context (matched registry cohort, 28-day mortality), keeps the calibrated word "associated", gives numbers and the citation. |
 | c) | **Problem: distorts the source** | "Giving more fluid ... doubles the risk" turns an observational *association* into causation, and "doubles" overstates (HR 2.13 only for day 2; 1.56 for day 3). Citation does not fix misrepresentation. |
 | d) | **Problem: no citation** | Good wording, but presenting someone else's finding without a citation is plagiarism. |
@@ -115,23 +125,19 @@ What good looks like: new structure; facts unchanged (28 days, mortality, days a
 
 ## Exercise 4: Proposal builder 2 (what good looks like)
 
-The trainer models this live for the running example (the feasible pilot version A from Session 1); each participant then does the same for their own question. Use it as the quality benchmark, not as the answer.
+The trainer models this live for the running example (the feasible pilot version A from Session 1). Each participant then does the same for their own question. Use it as the quality benchmark, not as the answer. The model follows the steps of the sheet.
 
-**Search (documented):** PubMed, date, the string from Exercise 1, filters (article type RCT + systematic review; adults; 10 years), number of hits; plus a check of ClinicalTrials.gov for ongoing trials.
+**Minutes 0–10: what the trainer shows**
 
-**Working title:** *Restrictive versus usual fluids in adults with septic shock: a pilot randomised trial* (13 words).
-**Keywords:** Fluid Therapy; Water-Electrolyte Balance; Critical Care; Vasoconstrictor Agents (MeSH terms not already in the title).
+1. Run the full string from the PubMed demo (`s2_demo.md`, Strings to copy, Step 3) with the filters RCT and systematic review, adults, 10 years. Write the search record on screen: database, date, string, filters, number of results. The number changes every day, so read it from the screen.
+2. Screen the first titles aloud. Keep adults with sepsis or septic shock, a comparison of fluid strategies or fluid balance, and a trial, cohort or review. Skip children, burns and surgery, and trials of one fluid type against another (crystalloid against colloid). Participants suggest papers and keywords in the chat.
+3. Save Boulet 2024 and CLASSIC to Zotero (*Send to → Citation manager*) and fill their two worksheet rows together (model rows below).
+4. Search ClinicalTrials.gov for "septic shock" and "fluid" to show how to look for ongoing trials.
+5. Ask for keywords in the chat. Model answer: the four MeSH terms in step 5 below.
 
-**Problem statement (≈ 300 words, three paragraphs)**
-1. *Known:* Septic shock is a leading cause of death in the intensive care unit (ICU). Early fluids restore perfusion, but fluids given after the first hours often lead to a positive fluid balance, which is associated with higher mortality in observational studies (1).
-2. *Not known:* Two large randomised trials found that restricting fluids did not change mortality (2,3). A recent pilot trial that targeted non-resuscitation fluids did not significantly reduce fluid balance at day 5 (4). It therefore remains unclear whether fluid balance can be reduced reliably in routine care.
-3. *Aim and objectives:* In this pilot randomised trial, we aim to assess whether a restrictive fluid protocol reduces cumulative fluid balance at day 5 compared with usual care in adults with septic shock. Our primary objective is to compare day-5 fluid balance between the two groups. Our secondary objective is to assess the feasibility of a larger trial.
+**1. Search record (also the "Search used for the references" box):** PubMed, the date, the string from Exercise 1, the filters (article type RCT and systematic review, adults, 10 years) and the number of hits. Then a check of ClinicalTrials.gov for ongoing trials.
 
-References, in the order first cited: (1) Hyun 2023, (2) CLASSIC, Meyhoff 2022, (3) CLOVERS, Shapiro 2023; (4) Boulet 2024.
-
-*Science rule:* the Introduction never contains your own data or results (no "our audit"). They belong in the Results. A local figure may appear only if it comes from a publication, with its reference.
-
-**Five key references (model)**
+**2. Five key references (model)**
 | # | Reference | Why included |
 |---|---|---|
 | 1 | Boulet N, et al. *Crit Care* 2024;28:429 (pilot RCT, n = 48) | Closest design and outcome; primary outcome not significantly different |
@@ -142,15 +148,7 @@ References, in the order first cited: (1) Hyun 2023, (2) CLASSIC, Meyhoff 2022, 
 
 *Instructor note:* check citation details against PubMed before distributing. Participants must verify every reference themselves, which is exactly the habit to practise.
 
-**The live part (minutes 0–10): what the trainer shows**
-
-1. Run the full string from the PubMed demo (`s2_demo.md`, Strings to copy, Step 3) with the filters RCT and systematic review, adults, 10 years. Write the search record on screen: database, date, string, filters, number of results. The number changes every day, so read it from the screen.
-2. Screen the first titles aloud. Keep adults with sepsis or septic shock, a comparison of fluid strategies or fluid balance, and a trial, cohort or review. Skip children, burns and surgery, and trials of one fluid type against another (crystalloid against colloid). Participants suggest papers and keywords in the chat.
-3. Save Boulet 2024 and CLASSIC to Zotero (*Send to → Citation manager*) and fill their two worksheet rows together (model rows below).
-4. Search ClinicalTrials.gov for "septic shock" and "fluid" to show how to look for ongoing trials.
-5. Ask for keywords in the chat. Model answer: the four MeSH terms above.
-
-**Literature review worksheet: model rows**
+**3. Literature review worksheet: model rows**
 
 | # | Study | Design, size | Compared | Primary outcome: result | Key limitation | Why it matters for our question |
 |---|---|---|---|---|---|---|
@@ -159,6 +157,23 @@ References, in the order first cited: (1) Hyun 2023, (2) CLASSIC, Meyhoff 2022, 
 | 3 | Meyhoff 2022, *N Engl J Med* (CLASSIC) | RCT, 1,554 adults with septic shock | Restrictive vs standard intravenous fluid | 90-day death 42.3% vs 42.1%, no difference | Clinicians not blinded | Restriction did not change mortality in a large trial |
 | 4 | Shapiro 2023, *N Engl J Med* (CLOVERS) | RCT, 1,563 adults with sepsis-induced hypotension | Restrictive (earlier vasopressors) vs liberal fluid | Death before discharge home by day 90: 14.0% vs 14.9%, no difference | Open label, early phase of care only | Confirms CLASSIC in a different population |
 | 5 | Evans 2021, *Crit Care Med* (Surviving Sepsis Campaign) | International guideline | Not applicable | No recommendation on restrictive vs liberal fluid after initial resuscitation (insufficient evidence) | Expert judgement where evidence is weak | Shows the uncertainty our pilot addresses |
+
+**4. Problem statement (about 300 words, three paragraphs)**
+1. *Known:* Septic shock is a leading cause of death in the intensive care unit (ICU). Early fluids restore perfusion, but fluids given after the first hours often lead to a positive fluid balance, which is associated with higher mortality in observational studies (1).
+2. *Not known:* Two large randomised trials found that restricting fluids did not change mortality (2,3). A recent pilot trial that targeted non-resuscitation fluids did not significantly reduce fluid balance at day 5 (4). It therefore remains unclear whether fluid balance can be reduced reliably in routine care.
+3. *Aim and objectives:* In this pilot randomised trial, we aim to assess whether a restrictive fluid protocol reduces cumulative fluid balance at day 5 compared with usual care in adults with septic shock. Our primary objective is to compare day-5 fluid balance between the two groups. Our secondary objective is to assess the feasibility of a larger trial.
+
+References, in the order first cited: (1) Hyun 2023, (2) CLASSIC, Meyhoff 2022, (3) CLOVERS, Shapiro 2023, (4) Boulet 2024.
+
+*Science rule:* the Introduction never contains your own data or results (no "our audit"). They belong in the Results. A local figure may appear only if it comes from a publication, with its reference.
+
+**5. Working title and keywords**
+
+| | |
+|---|---|
+| Working title | *Restrictive versus usual fluids in adults with septic shock: a pilot randomised trial* |
+| Number of words | 13 |
+| Keywords | 1. Fluid Therapy 2. Water-Electrolyte Balance 3. Critical Care 4. Vasoconstrictor Agents (MeSH terms not already in the title) |
 
 **Feedback guide when reading drafts (not a grade)**
 | Element | Good | Needs work |

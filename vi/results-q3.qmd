@@ -65,9 +65,9 @@ Tệp: `tables/table1_by_balance_VN.csv` và `tables/table1_by_balance_VN.docx`
 ## 4. Kết quả chính
 
 - VFD trung vị (IQR): cân bằng dương 20 (0 đến 28) so với âm 28 (22 đến 28) ngày; Mann-Whitney p <0.001.
-- Hồi quy tuyến tính, thô: -1.48 (KTC 95% -1.84 đến -1.13) ngày cho mỗi 10 ml/kg.
-- Hồi quy tuyến tính, hiệu chỉnh: **-0.61 (KTC 95% -1.00 đến -0.21) ngày cho mỗi 10 ml/kg**, p 0.003.
-- Cân bằng dương so với âm, chênh lệch đã hiệu chỉnh: -2.78 (KTC 95% -4.76 đến -0.80) ngày.
+- Hồi quy tuyến tính, thô: -1.48 (khoảng tin cậy 95% -1.84 đến -1.13) ngày cho mỗi 10 ml/kg.
+- Hồi quy tuyến tính, hiệu chỉnh: **-0.61 (khoảng tin cậy 95% -1.00 đến -0.21) ngày cho mỗi 10 ml/kg**, p 0.003.
+- Cân bằng dương so với âm, chênh lệch đã hiệu chỉnh: -2.78 (khoảng tin cậy 95% -4.76 đến -0.80) ngày.
 
 **Bảng 2. Số ngày không thở máy theo nhóm cân bằng dịch**
 
@@ -84,12 +84,12 @@ Tệp: `tables/table2_vfd_by_group_VN.csv` và `tables/table2_vfd_by_group_VN.do
 
 **Bảng 3. Liên quan giữa cân bằng dịch và số ngày không thở máy**
 
-|Mô hình                                                 |n   |Chênh lệch VFD, ngày (KTC 95%) |p      |
-|:-------------------------------------------------------|:---|:------------------------------|:------|
-|Cân bằng dịch mỗi 10 ml/kg, thô (tuyến tính)            |618 |-1.48 (-1.84 đến -1.13)        |<0.001 |
-|Cân bằng dịch mỗi 10 ml/kg, hiệu chỉnh (tuyến tính)     |527 |-0.61 (-1.00 đến -0.21)        |0.003  |
-|Cân bằng dương so với âm, hiệu chỉnh (tuyến tính)       |527 |-2.78 (-4.76 đến -0.80)        |0.006  |
-|Cân bằng dương so với âm, Mann-Whitney (Hodges-Lehmann) |618 |-3.0 (-5.0 đến 0.0)            |<0.001 |
+|Mô hình                                                 |n   |Chênh lệch VFD, ngày (khoảng tin cậy 95%) |p      |
+|:-------------------------------------------------------|:---|:-----------------------------------------|:------|
+|Cân bằng dịch mỗi 10 ml/kg, thô (tuyến tính)            |618 |-1.48 (-1.84 đến -1.13)                   |<0.001 |
+|Cân bằng dịch mỗi 10 ml/kg, hiệu chỉnh (tuyến tính)     |527 |-0.61 (-1.00 đến -0.21)                   |0.003  |
+|Cân bằng dương so với âm, hiệu chỉnh (tuyến tính)       |527 |-2.78 (-4.76 đến -0.80)                   |0.006  |
+|Cân bằng dương so với âm, Mann-Whitney (Hodges-Lehmann) |618 |-3.0 (-5.0 đến 0.0)                       |<0.001 |
 
 *Giá trị âm = ít ngày không thở máy hơn. Hiệu chỉnh theo tuổi, SOFA, lactat, thuốc vận mạch, thở máy, bệnh thận mạn.*
 
@@ -106,7 +106,7 @@ Tệp: `tables/table3_vfd_models_VN.csv` và `tables/table3_vfd_models_VN.docx`
 ## 5. Ý nghĩa (bằng lời đơn giản)
 
 - Người bệnh tích lũy nhiều dịch hơn có ít ngày còn sống và không thở máy hơn.
-- Sau hiệu chỉnh, mỗi 10 ml/kg tăng thêm liên quan với ít hơn khoảng 0.6 ngày không thở máy (KTC 95% 0.2 đến 1.0).
+- Sau hiệu chỉnh, mỗi 10 ml/kg tăng thêm liên quan với ít hơn khoảng 0.6 ngày không thở máy (khoảng tin cậy 95% 0.2 đến 1.0).
 - VFD không có phân phối hình chuông: nhiều người bệnh ở mức 0 (tử vong) hoặc 28 (không thở máy). Trung vị và kiểm định Mann-Whitney mô tả biến này một cách trung thực; mô hình tuyến tính cho một chênh lệch trung bình dễ đọc nhưng các giả định của mô hình bị vi phạm phần nào.
 
 ## 6. Kết quả này KHÔNG có nghĩa là gì
@@ -126,6 +126,6 @@ Tệp: `tables/table3_vfd_models_VN.csv` và `tables/table3_vfd_models_VN.docx`
 - Mục 7: định nghĩa chính xác kết cục gộp VFD
 - Mục 12: phương pháp (vì sao dùng mô hình phi tham số và tuyến tính)
 - Mục 14: dữ liệu mô tả (Bảng 1)
-- Mục 15-16: tóm tắt kết cục và chênh lệch đã hiệu chỉnh kèm KTC 95%
+- Mục 15-16: tóm tắt kết cục và chênh lệch đã hiệu chỉnh kèm khoảng tin cậy 95%
 - Mục 19: hạn chế của một kết cục gộp, phân phối lệch
 

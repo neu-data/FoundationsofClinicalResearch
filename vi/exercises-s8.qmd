@@ -51,13 +51,13 @@ Với mỗi nghiên cứu, ghi động từ mạnh nhất mà thiết kế của
 | d | Năm thử nghiệm ngẫu nhiên lớn và một phân tích gộp, tất cả đều nhất quán | |
 | e | Khảo sát cắt ngang về mức độ đầy đủ của phiếu theo dõi cân bằng dịch tại hai ICU | |
 
-### A3. Viết câu kết quả (con số + KTC, không dùng tính từ)
+### A3. Viết câu kết quả (con số + khoảng tin cậy, không dùng tính từ)
 
-Viết một câu cho mỗi kết quả, theo mẫu "Ở [ai], [kết cục] [tác động] ([chỉ số] [giá trị], KTC 95% [giới hạn dưới] đến [giới hạn trên])".
+Viết một câu cho mỗi kết quả, theo mẫu "Ở [ai], [kết cục] [tác động] ([chỉ số] [giá trị], khoảng tin cậy 95% [giới hạn dưới] đến [giới hạn trên])".
 
-1. Bài báo 2, thuần tập ngày 3: tử vong 28 ngày, cân bằng dịch dương so với âm, HR 1.56, KTC 95% 1.10 đến 2.22, P = 0.012.
-2. Bài báo 1: tử vong trước ngày 28, 6/24 (hạn chế dịch) so với 6/24 (nhóm chứng), nguy cơ tương đối 1.0, KTC 95% 0.38 đến 2.66.
-3. Bài báo 2, thuần tập ngày 1: HR 1.17, KTC 95% 0.85 đến 1.60, P = 0.354.
+1. Bài báo 2, thuần tập ngày 3: tử vong 28 ngày, cân bằng dịch dương so với âm, HR 1.56, khoảng tin cậy 95% 1.10 đến 2.22, P = 0.012.
+2. Bài báo 1: tử vong trước ngày 28, 6/24 (hạn chế dịch) so với 6/24 (nhóm chứng), nguy cơ tương đối 1.0, khoảng tin cậy 95% 0.38 đến 2.66.
+3. Bài báo 2, thuần tập ngày 1: HR 1.17, khoảng tin cậy 95% 0.85 đến 1.60, P = 0.354.
 
 ### A4. Tên đề tài từ PICO của bạn
 
@@ -98,7 +98,7 @@ Tên bài dự kiến của tôi: ______________________________________________
 
 ### Kiểm tra lần cuối trước khi gửi
 - [ ] Mọi con số khớp với gói kết quả
-- [ ] Tỷ lệ phần trăm có mẫu số, ước lượng có KTC 95%
+- [ ] Tỷ lệ phần trăm có mẫu số, ước lượng có khoảng tin cậy 95%
 - [ ] Báo cáo cả ước lượng thô và đã hiệu chỉnh
 - [ ] Bảng 1 và một bảng hoặc hình chính tự đọc hiểu được
 - [ ] Không bình luận và không dùng từ nhân quả

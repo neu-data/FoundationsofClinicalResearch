@@ -47,19 +47,19 @@ Typical error: calling scenario 2 "confounding" because the numbers change. Ask:
 | Restrictive | a = 20 | b = 180 | 200 |
 | Usual care | c = 30 | d = 170 | 200 |
 
-| Measure | Working | Answer |
-|---|---|---|
-| Risk, restrictive | 20 / 200 | **0.10 (10%)** |
-| Risk, usual care | 30 / 200 | **0.15 (15%)** |
-| RR | 0.10 / 0.15 | **0.67** |
-| RD | 0.10 − 0.15 | **−0.05 (5 percentage points fewer)** |
-| NNT | 1 / 0.05 | **20** |
-| OR | (20 × 170) / (180 × 30) = 3400 / 5400 | **0.63** |
+| Question | Measure | Working | Answer |
+|---|---|---|---|
+| 1 | Risk, restrictive | 20 / 200 | **0.10 (10%)** |
+| 1 | Risk, usual care | 30 / 200 | **0.15 (15%)** |
+| 2 | RR | 0.10 / 0.15 | **0.67** |
+| 3 | RD | 0.10 − 0.15 | **−0.05 (5 percentage points fewer)** |
+| 4 | NNT | 1 / 0.05 | **20** |
+| 5 | OR | (20 × 170) / (180 × 30) = 3400 / 5400 | **0.63** |
 
-- **Why is the NNT different from the worked example?** Same RR (0.67), but the baseline risk is lower (15% instead of 30%), so the absolute difference halves (5 instead of 10 points) and the NNT doubles (20 instead of 10).
-- **Model sentence:** "With restrictive fluids, 10 in 100 patients died by day 28 compared with 15 in 100 with usual care: about one death prevented for every 20 patients treated."
+6. **Why is the NNT different from the worked example?** Same RR (0.67), but the baseline risk is lower (15% instead of 30%), so the absolute difference halves (5 instead of 10 points) and the NNT doubles (20 instead of 10).
+7. **One sentence for a colleague:** "With restrictive fluids, 10 in 100 patients died by day 28 compared with 15 in 100 with usual care: about one death prevented for every 20 patients treated."
 
-Common errors: dividing by the wrong total (50 or 400); writing RD as 5 instead of 0.05 and then NNT = 0.2; table drawn with the outcome in rows.
+**Instructor note.** Common errors are dividing by the wrong total (50 or 400), writing RD as 5 instead of 0.05 and then NNT = 0.2, and drawing the table with the outcome in rows.
 
 ### Calculation 2: fluid case-control study
 
@@ -68,12 +68,12 @@ Common errors: dividing by the wrong total (50 or 400); writing RD as 5 instead 
 | Positive fluid balance on day 3 | a = 24 | b = 16 |
 | Zero or negative balance | c = 16 | d = 64 |
 
-- **OR** = (24 × 64) / (16 × 16) = 1536 / 256 = **6.0**
-- **Why no risk, RR or NNT?** The investigators chose how many people with and without dialysis to include (40 and 80, a 1:2 ratio). The proportion needing dialysis in the study is fixed by design, not by nature, so a "risk" calculated from the rows is meaningless. The OR is valid because it does not depend on the sampling ratio.
-- **Reverse causation?** Yes, quite possibly: failing kidneys make less urine, and less urine out makes the fluid balance positive. The kidney injury may have come first.
-- **Model sentence:** "Patients who needed dialysis had about six times the odds of a positive fluid balance on day 3, compared with similar ICU patients who did not. This observational study cannot show that the fluid caused the kidney failure: sicker patients receive more fluid, and failing kidneys themselves make the balance positive."
+1. **OR** = (24 × 64) / (16 × 16) = 1536 / 256 = **6.0**
+2. **Why no risk, RR or NNT?** The investigators chose how many people with and without dialysis to include (40 and 80, a 1:2 ratio). The proportion needing dialysis in the study is fixed by design, not by nature, so a "risk" calculated from the rows is meaningless. The OR is valid because it does not depend on the sampling ratio.
+3. **Reverse causation?** Yes, quite possibly: failing kidneys make less urine, and less urine out makes the fluid balance positive. The kidney injury may have come first.
+4. **One sentence for a colleague:** "Patients who needed dialysis had about six times the odds of a positive fluid balance on day 3, compared with similar ICU patients who did not. This observational study cannot show that the fluid caused the kidney failure: sicker patients receive more fluid, and failing kidneys themselves make the balance positive."
 
-Calculator caution: typed into the Association sheet, these numbers give "risks" of 60% and 20%. Use this to reinforce the red warning on the sheet: for case-control data, read only the OR.
+**Instructor note.** Typed into the Association sheet, these numbers give "risks" of 60% and 20%. Use this to reinforce the red warning on the sheet: for case-control data, read only the OR.
 
 ### Extra practice (self-study): pressure-relieving mattress trial
 
@@ -165,7 +165,7 @@ The instructor fills this in on the shared screen during the first 15 minutes, t
 | 2.5 Outcomes | Primary: death from any cause by day 28 after ICU admission (hospital record; phone call if discharged). Secondary: acute kidney injury by day 7 (KDIGO criteria); days alive and free of mechanical ventilation by day 28; ICU length of stay. |
 | 2.6 Main threats of bias and how they are reduced | Confounding by indication (sicker patients receive more fluid): record SOFA score, lactate, vasopressor dose, age and comorbidity at admission and adjust or match. Selection bias (requiring 72 h of ICU stay excludes early deaths): state it as a limitation and report how many were excluded and why. Information bias (incomplete fluid charts, missing night-time urine output): pre-specified definitions, two data collectors with a double-entry check on a 10% sample. |
 
-Claim: "associated with" (observational design).
+**My claim at the end will be:** "associated with", because the design is observational. The fluid balance was not assigned at random, so sicker patients may have received more fluid.
 
 **Common problems to look for in the drafts**
 

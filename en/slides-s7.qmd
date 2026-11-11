@@ -37,8 +37,6 @@ If time is short, drop extra slides, never the workshop.
 QUICK QUIZ · 8 min
 :::
 
-:::: {.columns}
-::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
 - A crude OR (odds ratio) is 2.1. The adjusted OR is 1.4. What happened?
 - HR (hazard ratio) 0.85, 95% CI 0.60 to 1.20: a clear benefit?
@@ -46,32 +44,55 @@ QUICK QUIZ · 8 min
 - Kaplan-Meier curve: what does a 'censored' patient mean?
 - The FLUID-ICU question you chose (Q1 to Q5): what is its main result? Answer in the chat
 :::
-:::
-::: {.column width="40%"}
-::: {.neu-side .plain style="--c:#6C3483"}
-How we run it
-
-- Answer in the poll
-- Results on screen, then the answer
-- One volunteer explains why
-:::
-:::
-::::
 
 ::: {.neu-output style="--c:#6C3483"}
-**OUTPUT** Everyone re-activated: adjustment, CIs, missing data, survival
+**OUTPUT** Questions 1 to 4 in the poll. Question 5 in the chat
 :::
 
 ::: {.notes}
 Recap (19:30-19:40). Start with two or three Session 6 exit answers.
 
-Questions 1-4: 30 seconds each in the poll. Show the results, then the answer, and ask one volunteer why.
-
-Answers: 1 confounding, part of the crude link came from severity. 2 no, the CI includes 1. 3 complete-case analysis, or multiple imputation with a sensitivity analysis. 4 the patient left the study alive, and the outcome after that is unknown.
-
-Question 1 leads to today: the Results report both crude and adjusted estimates.
+Questions 1-4: 30 seconds each in the poll. Show the results, then the next slide, and ask one volunteer why.
 
 Question 5 in the chat: the main result of the question each person chose. Anyone without a question chooses one now.
+:::
+
+## Recap quiz: answers
+
+:::: {.neu-cards style="--n:4"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[Confounding]{.neu-card-title}
+
+- Part of the crude link
+- came from severity
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[No]{.neu-card-title}
+
+- The CI includes 1
+:::
+::: {.neu-card .plain style="--c:#5FA39B"}
+[Two options]{.neu-card-title}
+
+- Complete-case analysis
+- or multiple imputation with a sensitivity analysis
+:::
+::: {.neu-card .plain style="--c:#0070C0"}
+[Censored]{.neu-card-title}
+
+- Left the study alive
+- The outcome after that is unknown
+:::
+::::
+
+::: {.neu-takeaway}
+**KEY MESSAGE** The Results report both the crude and the adjusted estimate.
+:::
+
+::: {.notes}
+Question 1 leads to today: the Results report both crude and adjusted estimates.
+
+Timing: within the 8 minutes of the recap.
 :::
 
 ## Today: finish the proposal, start the paper
@@ -845,15 +866,46 @@ Scenario 1
 ::::
 
 ::: {.neu-output style="--c:#6C3483"}
-**OUTPUT** Work alone (2 min): a colour and one reason for scenarios 1, 3 and 4. Scenarios 2, 5 and 6 at home
+**OUTPUT** Work alone (2 min) on scenarios 1, 3 and 4, then vote a colour in the poll. Scenarios 2, 5 and 6 at home
 :::
 
 ::: {.notes}
-Scenarios (20:25-20:30). Scenarios and answers: s7\_exercises Part A and s7\_solutions.
+Scenarios (20:25-20:30). Scenarios: s7\_exercises Part A.
 
-2 minutes: everyone works alone on scenarios 1, 3 and 4. Then 3 minutes: one poll per scenario (green, amber, red), and call on one person from the largest and one from the smallest colour for a reason.
+2 minutes: everyone works alone on scenarios 1, 3 and 4. Then 3 minutes: one poll per scenario (green, amber, red), and call on one person from the largest and one from the smallest colour for a reason. Answers on the next slide.
+:::
 
-Answers: 1 red (fabrication), 3 red (gift authorship), 4 green for checked and disclosed polishing, red for the patient spreadsheet.
+## Answers: integrity scenarios
+
+:::: {.neu-cards style="--n:3"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[Scenario 1: red]{.neu-card-title}
+
+- Fabrication
+- 'Remembered' values are invented data
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[Scenario 3: red]{.neu-card-title}
+
+- Gift authorship
+- Seniority is not a contribution
+:::
+::: {.neu-card .plain style="--c:#5FA39B"}
+[Scenario 4: green and red]{.neu-card-title}
+
+- Green: language polishing, checked and disclosed
+- Red: patient spreadsheet in a public AI tool
+:::
+::::
+
+::: {.neu-takeaway}
+**KEY MESSAGE** Red is misconduct. Scenarios 2, 5 and 6 are homework.
+:::
+
+::: {.notes}
+All six answers: s7\_solutions Part A. Scenario 4 has two parts. The author stays responsible for the polished text. Identifiable patient data never go into a public AI tool.
+
+Timing: within the 5 minutes of the scenarios.
 :::
 
 ## Proposal builder 7: ethics, registration, feasibility, publication plan
@@ -1259,14 +1311,34 @@ Choose
 :::
 ::::
 
+::: {.neu-output style="--c:#6C3483"}
+**OUTPUT** One poll vote per sentence
+:::
+
 ::: {.notes}
-Check (21:32-21:35). One poll per sentence.
+Check (21:32-21:35). One poll per sentence. Show the results, then the answers on the next slide.
+:::
 
-Answers: 1 Methods, it says how we analysed. 2 Results, it reports the participants. 3 Discussion, it explains. 4 Methods and Results. 5 Results, an estimate with its CI.
+## Answers: Methods, Results or Discussion?
 
+| Sentence | Section | Why |
+|:---|:---|:---|
+| Logistic regression adjusted for SOFA and age | Methods | It says how we analysed |
+| 618 of 620 had a day-3 balance | Results | It reports the participants |
+| 'This may be because...' | Discussion | It explains a finding |
+| Lactate missing in 15.0%, imputed | Methods and Results | How it was handled is Methods. How many were missing is Results |
+| Adjusted OR 1.62, 95% CI 1.02 to 2.59 | Results | An estimate with its CI |
+
+::: {.neu-takeaway}
+**KEY MESSAGE** Methods say what we did. Results say what we found. The Discussion explains it.
+:::
+
+::: {.notes}
 Sentence 4 is the trick: how missing data were handled is Methods, how many were missing is Results.
 
 Sentence 3 is the classic error: interpretation in the Results.
+
+Timing: within the 3 minutes of the check.
 :::
 
 ## Manuscript workshop 1  \|  45 minutes
@@ -1487,12 +1559,49 @@ Choose
 :::
 ::::
 
+::: {.neu-output style="--c:#6C3483"}
+**OUTPUT** One poll vote per scenario
+:::
+
 ::: {.notes}
-Extra check. One poll per scenario.
+Extra check. One poll per scenario. Show the results, then the answers on the next slide.
+:::
 
-Answers: 1 must, in a trial registry before patient 1. 2 should, on PROSPERO. 3 recommended, not required. 4 not needed: an audit needs local approval, not a research registry.
+## Answers: register or not?
 
+:::: {.neu-cards style="--n:4"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[Trial: must]{.neu-card-title}
+
+- In a trial registry
+- before patient 1
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[Review: should]{.neu-card-title}
+
+- On PROSPERO
+:::
+::: {.neu-card .plain style="--c:#5FA39B"}
+[Cohort: recommended]{.neu-card-title}
+
+- Not required
+:::
+::: {.neu-card .plain style="--c:#0070C0"}
+[Audit: not needed]{.neu-card-title}
+
+- Local approval
+- not a research registry
+:::
+::::
+
+::: {.neu-takeaway}
+**KEY MESSAGE** Register a trial before the first patient. An audit needs local approval only.
+:::
+
+::: {.notes}
 Scenario 4: an audit goes through the quality office, not a registry. To publish it as research, ask the ethics committee first.
+
+Timing: within the 2 minutes of the check.
 :::
 
 ## CRediT: say who did what

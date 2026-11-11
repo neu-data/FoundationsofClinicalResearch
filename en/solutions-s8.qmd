@@ -4,81 +4,99 @@ title: "Session 8: Solutions"
 
 [Download the PDF](files/sessions/s8_solutions.pdf) · [Back to Session 8](session8.qmd)
 
-Answer keys for `s8_exercises.md` (Session 8 exercise sheet), Parts A–C. Model answers for the appraisal (Part D) are in `appraisal_instructor_guide.md`. Numbers in Part B are from `Results_Pack_Q1–Q5` (SIMULATED data).
+Answer keys for `s8_exercises.md` (Session 8 exercise sheet), Parts A–D. Numbers in Part B are from the Q1 results pack (`FLUID-ICU/results_packs/Q1/results_pack_Q1.md`, SIMULATED data). The full teaching notes for Part D are in `appraisal_instructor_guide.md`.
 
 
 * * *
 
 ## Part A: Writing exercises
 
-### A1. Fix the spin (model rewrites)
-| # | Model rewrite | Why |
+### A1. Fix the spin
+| # | Your rewrite (model) | Why |
 |---|---|---|
-| a | "The point estimate favoured the restrictive strategy, but the 95% CI was wide (−15.2 to 41.6 ml/kg) and included no difference; a larger trial would be needed to detect a smaller effect." | p = 0.42 is not a trend; report the estimate and its uncertainty (annotation #41). |
-| b | "A positive fluid balance on the first ICU day was not associated with 28-day mortality (HR 1.17, 95% CI 0.85 to 1.60)." | "Impact" is causal; the cohort shows association only (#27). |
+| a | "The point estimate favoured the restrictive strategy, but the 95% CI was wide (−15.2 to 41.6 ml/kg) and included no difference. A larger trial would be needed to detect a smaller effect." | p = 0.42 is not a trend. Report the estimate and its uncertainty (annotation #41). |
+| b | "A positive fluid balance on the first ICU day was not associated with 28-day mortality (HR 1.17, 95% CI 0.85 to 1.60)." | "Impact" is causal. The cohort shows association only (#27). |
 | c | "Positive cumulative fluid balance during the first three ICU days and 28-day mortality in sepsis: a propensity score-matched cohort study" | Title must match the observational design (#1). |
 | d | "To our knowledge, this is among the lowest day-5 fluid balances reported in septic shock trials [refs]", or delete the sentence. | Superlatives need protection and a citation (#40). |
 
-### A2. Verb ladder
-a: **was observed in** (case series) · b: **is associated with** (cohort) · c: **did not reduce** (one RCT; add "in this pilot" because it is small) · d: **reduces / causes** (consistent large RCTs and meta-analysis) · e: **was observed / was … %** (descriptive cross-sectional).
+### A2. Climb the verb ladder
+| # | Study | Strongest honest verb |
+|---|---|---|
+| a | Case series of 12 patients | **was observed in** |
+| b | Cohort of 3,000 patients, adjusted for severity | **is associated with** |
+| c | One randomised trial of 48 patients | **reduced / did not reduce** (add "in this pilot", because the trial is small) |
+| d | Five large randomised trials and a meta-analysis, all consistent | **causes** |
+| e | Cross-sectional survey of chart completeness | **was observed in** (a descriptive survey only reports what it saw, e.g. "complete charts were observed in 60% of patients") |
 
-### A3. Results sentences
-1. "In the Day-3 matched cohort, a positive cumulative fluid balance was associated with higher 28-day mortality (HR 1.56, 95% CI 1.10 to 2.22; P = 0.012)."
-2. "By day 28, 6 of 24 patients had died in each group (relative risk 1.0, 95% CI 0.38 to 2.66)." In the Discussion: "the trial was too small to assess mortality".
-3. "In the Day-1 cohort, a positive fluid balance was not associated with 28-day mortality (HR 1.17, 95% CI 0.85 to 1.60; P = 0.354)." Do not write "had no effect".
+### A3. Write the results sentence
+1. "In the Day-3 matched cohort, a positive cumulative fluid balance was associated with higher 28-day mortality (HR 1.56, 95% CI 1.10 to 2.22, P = 0.012)."
+2. "In the 48 randomised patients, 28-day mortality was 6 of 24 in the restrictive group and 6 of 24 in the control group (relative risk 1.0, 95% CI 0.38 to 2.66)."
+3. "In the Day-1 matched cohort, a positive fluid balance was not associated with 28-day mortality (HR 1.17, 95% CI 0.85 to 1.60, P = 0.354)."
 
-### A4. Title from PICO (running example)
-"Restrictive vs usual fluids and 28-day mortality in septic shock: a randomised controlled trial" (14 words). Or, for an observational proposal: "Cumulative fluid balance and 28-day mortality in adults with septic shock: a retrospective cohort study". Check: 10–16 words, design named, no "impact", observational = "and" / "association between".
+*Instructor note.* For sentence 2, the Discussion can add that "the trial was too small to assess mortality". For sentence 3, do not write "had no effect".
+
+### A4. A title from your PICO (running example)
+| Item | Model answer |
+|---|---|
+| My PICO | P: adults with septic shock in our ICU. E: positive cumulative fluid balance by day 3. C: negative or zero balance. O: 28-day mortality |
+| Working title | "Cohort study of positive vs negative fluid balance in septic shock: association with 28-day mortality" |
+| Word count | 15 |
+| Design named? | ☑ (cohort study) |
+| Calibrated verb? | ☑ ("association with", as the design is observational) |
+
+*Instructor note.* The design can also come after a colon at the end, as in Session 7: "Cumulative fluid balance and 28-day mortality in adults with septic shock: a retrospective cohort study" (14 words). Accept both. A trial title would read "Randomised controlled trial of restrictive vs usual fluids in septic shock: effect on 28-day mortality" (15 words).
 
 
 * * *
 
-## Part B: Manuscript workshop 2: improving the Results, and models for the other sections
+## Part B: Manuscript workshop 2: improve your Results section
 
-### Improving the class Q1 Results (part 1 of the workshop)
-| Check | Typical fix in the class draft |
-|---|---|
-| Every number matches results pack Q1 | Correct it from the pack, e.g. 134/373 (35.9%) |
-| Percentages with denominators | "35.9%" becomes "134 of 373 (35.9%)" |
-| Crude and adjusted both given | Crude OR 2.49 (1.70 to 3.70), adjusted 1.62 (1.02 to 2.59), n = 527 |
-| Tables stand alone | Title with who and when, n per column, units, footnote for SOFA and IQR |
-| No interpretation | Delete "because sicker patients received more fluid" |
-| Working title | "Positive fluid balance by day 3 and 28-day mortality in sepsis: a multicentre cohort study" |
+Numbers are from the Q1 results pack (`FLUID-ICU/results_packs/Q1/results_pack_Q1.md`, **SIMULATED DATA**). The table for each number is given in brackets.
 
-The models below are for the Introduction, Discussion and Abstract taught in 8.1. They are optional to submit. Use them to steer, do not paste them. Participants who chose Q2–Q5 follow the same structure with their own pack.
+### The class Q1 Results
+| Check | Problem I found (typical) | My fix |
+|---|---|---|
+| Numbers | A number that differs from pack Q1, a percentage without its denominator, or only one of the crude and adjusted estimates | Copy each number from the pack. "35.9%" becomes "134 of 373 (35.9%)" (Table 2). Give the crude OR 2.49 (95% CI 1.70 to 3.70) and the adjusted OR 1.62 (95% CI 1.02 to 2.59), n = 527 (Table 3) |
+| Tables and figure | A table title without who and when, no n per column, no units, SOFA and IQR not explained | Add a full title, n per column and units. Explain SOFA and IQR in a footnote |
+| Words | "because sicker patients received more fluid", "a trend", "increased mortality" | Delete the explanation (it belongs in the Discussion). Write "was associated with" |
 
-All numbers from `Results_Pack_Q1–Q5` and results pack Q1 (**SIMULATED DATA**). References are placeholders [n]; participants use their Session 1–2 references and Papers 1–2.
+Working title for Q1: "Positive fluid balance by day 3 and 28-day mortality in sepsis: a multicentre cohort study" (15 words, design named, no causal verb).
 
-### Model title and keywords
-**Positive fluid balance by day 3 and 28-day mortality in sepsis: a multicentre cohort study** (15 words; design named; calibrated).
-Keywords: Fluid Therapy; Water-Electrolyte Balance; Critical Care; Mortality; Cohort Studies.
+### My own Results draft
+My working title: answers vary. Check it with the fourth check: 10–16 words, the design named, "associated" for an observational design.
 
-### Model Introduction (~300 words, three paragraphs)
+### Other sections (optional): models
+These models are for the Introduction, Discussion and Abstract taught in 8.1. Use them to steer, do not paste them. Numbers are from pack Q1 (Tables 1 to 6). References are placeholders [n]. Participants use their Session 1–2 references and Papers 1–2.
+
+**Model Introduction (~300 words, three paragraphs)**
 1. *Known.* Intravenous fluids are a cornerstone of early sepsis treatment, but fluid given beyond the resuscitation phase accumulates. A positive cumulative fluid balance has been associated with higher mortality in several observational studies, including a large propensity-matched cohort in which a positive balance on ICU day 2 was associated with higher 28-day mortality (HR 2.13) [Paper 2].
 2. *Not known.* Because sicker patients receive more fluid, it remains uncertain how much of this association reflects illness severity (confounding by indication) rather than fluid itself [refs]. Randomised trials of restrictive strategies, such as a recent pilot targeting non-resuscitative fluids [Paper 1], have been small and inconclusive.
 3. *Aim.* We therefore examined whether a positive cumulative fluid balance by ICU day 3 was associated with 28-day mortality in adults with sepsis, before and after adjustment for severity.
 
-### Model Discussion (~500 words, six moves)
+**Model Discussion (~500 words, six moves)**
 1. **Answer.** In this multicentre cohort, a positive fluid balance by ICU day 3 was associated with higher 28-day mortality after adjustment for severity (adjusted OR 1.62, 95% CI 1.02 to 2.59).
-2. **Compare.** The direction agrees with Paper 2 (day-2 HR 2.13, 95% CI 1.48 to 3.06), although our adjusted estimate was smaller; differences in case mix, timing of the balance and adjustment sets may explain this.
-3. **Explain.** Most of the crude association (OR 2.49) disappeared after adjustment, consistent with confounding by indication: patients with a positive balance were sicker (median SOFA 8 vs 6; vasopressors 55.0% vs 24.9%). Fluid accumulation may contribute to organ oedema, but our data cannot show this.
-4. **Limitations.** Residual confounding by unmeasured severity is likely and would exaggerate the association; reverse causation (patients who deteriorate accumulate fluid) acts in the same direction. Patients who died before day 3 had less time to accumulate fluid. The adjusted Cox HR (1.46, 95% CI 1.00 to 2.13) had a lower limit at 1. Lactate was missing in 15%, but multiple imputation gave a similar estimate (OR 1.70). The association looked stronger in heart failure (adjusted OR 4.39 vs 1.29; p for interaction 0.031) but was based on 90 patients and should be treated as a hypothesis. The data are simulated.
-5. **Implications.** These findings do not justify restricting fluid in clinical practice; a randomised trial of fluid strategies after the resuscitation phase is needed.
-6. **Conclusion.** A positive cumulative fluid balance by ICU day 3 was modestly associated with higher 28-day mortality; most of the crude association reflected severity of illness.
+2. **Compare.** The direction agrees with Paper 2 (day-2 HR 2.13, 95% CI 1.48 to 3.06), although our adjusted estimate was smaller. Differences in case mix, timing of the balance and adjustment sets may explain this.
+3. **Explain.** Most of the crude association (OR 2.49) disappeared after adjustment, consistent with confounding by indication. Patients with a positive balance were sicker (median SOFA 8 vs 6, vasopressors 55% vs 25%). Fluid accumulation may contribute to organ oedema, but our data cannot show this.
+4. **Limitations.** Residual confounding by unmeasured severity is likely and would exaggerate the association. Reverse causation (patients who deteriorate accumulate fluid) acts in the same direction. Patients who died before day 3 had less time to accumulate fluid. The adjusted Cox HR (1.46, 95% CI 1.00 to 2.13) had a lower limit at 1. Lactate was missing in 15%, but multiple imputation gave a similar estimate (OR 1.70). The association looked stronger in heart failure (adjusted OR 4.39 vs 1.29, p for interaction 0.031) but was based on 90 patients and should be treated as a hypothesis. The data are simulated.
+5. **Implications.** These findings do not justify restricting fluid in clinical practice. A randomised trial of fluid strategies after the resuscitation phase is needed.
+6. **Conclusion.** A positive cumulative fluid balance by ICU day 3 was modestly associated with higher 28-day mortality. Most of the crude association reflected severity of illness.
 
-### Model abstract (≈190 words)
+**Model abstract (about 190 words)**
 **Background:** A positive fluid balance is associated with death in sepsis, but sicker patients receive more fluid. We examined the association after adjustment for severity.
-**Methods:** Multicentre prospective cohort (simulated teaching data) of 620 adults with sepsis in four ICUs, 2023–2024. Exposure: positive cumulative fluid balance by ICU day 3. Outcome: 28-day mortality. Logistic and Cox regression adjusted for age, SOFA, lactate, vasopressors, mechanical ventilation and chronic kidney disease; multiple imputation for missing lactate.
-**Results:** Of 618 patients analysed, 373 (60.4%) had a positive balance; 134/373 (35.9%) vs 45/245 (18.4%) died. The crude OR was 2.49 (95% CI 1.70 to 3.70) and the adjusted OR 1.62 (95% CI 1.02 to 2.59); with imputation 1.70 (1.09 to 2.64). The adjusted HR was 1.46 (95% CI 1.00 to 2.13).
-**Conclusions:** A positive fluid balance by day 3 was modestly associated with 28-day mortality; most of the crude association reflected illness severity. A randomised trial is needed before fluid strategies are changed.
+**Methods:** Multicentre prospective cohort (simulated teaching data) of 620 adults with sepsis in four ICUs, 2023–2024. Exposure: positive cumulative fluid balance by ICU day 3. Outcome: 28-day mortality. Logistic and Cox regression adjusted for age, SOFA, lactate, vasopressors, mechanical ventilation and chronic kidney disease. Multiple imputation for missing lactate.
+**Results:** Of 618 patients analysed, 373 (60.4%) had a positive balance. 134/373 (35.9%) vs 45/245 (18.4%) died. The crude OR was 2.49 (95% CI 1.70 to 3.70) and the adjusted OR 1.62 (95% CI 1.02 to 2.59). With imputation it was 1.70 (1.09 to 2.64). The adjusted HR was 1.46 (95% CI 1.00 to 2.13).
+**Conclusions:** A positive fluid balance by day 3 was modestly associated with 28-day mortality. Most of the crude association reflected illness severity. A randomised trial is needed before fluid strategies are changed.
 
-### Question-specific Discussion points (from the packs)
-| Question | Answer sentence (numbers from key_results.md) | Key limitation |
+*Instructor note: Discussion points for Q2 to Q5 (from each pack)*
+| Question | Answer sentence (pack table) | Key limitation |
 |---|---|---|
-| Q2 AKI | Adjusted OR 1.27 per 10 ml/kg (95% CI 1.16 to 1.40) | Reverse causation: oliguric AKI causes fluid accumulation |
-| Q3 VFD | Adjusted −0.61 days per 10 ml/kg (95% CI −1.00 to −0.21) | VFD combines death and ventilation; skewed outcome |
-| Q4 Lactate | Adjusted OR per mmol/L 1.39 (CC, n = 527) vs 1.45 (MI, n = 620) | Missing not at random cannot be excluded; MAR plausible (missing in less sick patients) |
-| Q5 ICU stay | Adjusted ratio of geometric means 1.24 (95% CI 1.10 to 1.39), survivors (n = 366 adjusted) | Survivors only (conditioning on survival); skewed outcome |
+| Q2 AKI | Adjusted OR 1.27 per 10 ml/kg (95% CI 1.16 to 1.40) (Q2 pack Table 4) | Reverse causation: oliguric AKI causes fluid accumulation |
+| Q3 VFD | Adjusted −0.61 days per 10 ml/kg (95% CI −1.00 to −0.21) (Q3 pack Table 3) | VFD combines death and ventilation. Skewed outcome |
+| Q4 Lactate | Adjusted OR per mmol/L 1.39 (CC, n = 527) vs 1.45 (MI, n = 620) (Q4 pack Table 4) | Missing not at random cannot be excluded. MAR is plausible (missing in less sick patients) |
+| Q5 ICU stay | Adjusted ratio of geometric means 1.24 (95% CI 1.10 to 1.39), survivors, n = 366 (Q5 pack Table 3) | Survivors only (conditioning on survival). Skewed outcome |
+
+
+* * *
 
 ## Part C: Getting published
 
@@ -88,7 +106,7 @@ Keywords: Fluid Therapy; Water-Electrolyte Balance; Critical Care; Mortality; Co
 1. Generic flattering greeting ("Respected Professor/Doctor"), unsolicited mass e-mail.
 2. Free e-mail address, not a publisher domain.
 3. Vague claim to have read "your excellent article" (no title).
-4. Absurdly broad scope (medicine, nursing, engineering, management; "all areas of science").
+4. Absurdly broad scope (medicine, nursing, engineering, management, "all areas of science").
 5. A fake metric ("International Universal Index" impact factor). Only Clarivate issues the Journal Impact Factor.
 6. Guaranteed review in 48 h and publication in 5 days.
 7. Fees hidden until after acceptance.
@@ -99,8 +117,8 @@ Keywords: Fluid Therapy; Water-Electrolyte Balance; Critical Care; Mortality; Co
 | Journal | Verdict | Reason |
 |---|---|---|
 | J1 | **Trust** | Indexing verified at source, transparent fees and timelines, verifiable editors, uses reporting checklists. |
-| J2 | **Avoid** | Google Scholar / Index Copernicus are not quality indexes; 72-h acceptance; hidden fees; unverifiable board. |
-| J3 | **Trust / check further** | DOAJ listing and clear policies are good signs; no impact factor is normal for a new or small journal. Check it publishes work like yours. |
+| J2 | **Avoid** | Google Scholar / Index Copernicus are not quality indexes. Acceptance in 72 h, hidden fees and an unverifiable board. |
+| J3 | **Trust / check further** | DOAJ listing and clear policies are good signs. No impact factor is normal for a new or small journal. Check it publishes work like yours. |
 | J4 | **Avoid** | A "hijacked" or look-alike journal. Always reach the real journal through its publisher's website or the NLM Catalog, not through an e-mail link. |
 
 
@@ -110,9 +128,50 @@ Keywords: Fluid Therapy; Water-Electrolyte Balance; Critical Care; Mortality; Co
 
 | # | Model response | Change |
 |---|---|---|
-| R1.1 | "Thank you. We agree that our design supports association, not causation. We have changed the title to '… and …: a cohort study' and replaced 'improves' with 'was associated with' throughout." | Title p.1; abstract; Discussion p.x |
-| R1.2 | "Thank you. The main result is now reported as RR 0.78 (95% CI 0.61 to 0.99) in the abstract, Results and Table 2." | Abstract; Results p.x |
-| R1.3 | "Thank you for spotting this. 212 patients were included and 4 were excluded from the adjusted model because of missing lactate; the flow diagram and text now show 212 included and 208 analysed, with reasons." | Fig. 1; Results p.x |
+| R1.1 | "Thank you. We agree that our design supports association, not causation. We have changed the title to '… and …: a cohort study' and replaced 'improves' with 'was associated with' throughout." | Title p.1, abstract, Discussion p.x |
+| R1.2 | "Thank you. The main result is now reported as RR 0.78 (95% CI 0.61 to 0.99) in the abstract, Results and Table 2." | Abstract, Results p.x |
+| R1.3 | "Thank you for spotting this. 212 patients were included and 4 were excluded from the adjusted model because of missing lactate. The flow diagram and text now show 212 included and 208 analysed, with reasons." | Fig. 1, Results p.x |
 | R2.1 | (polite rebuttal) "We agree 1-year mortality is important. Our protocol, approved by the ethics committee, followed patients to day 28 only, so these data were not collected. We now mention this as a limitation and suggest it for future studies." | Limitations p.x |
 
-Marking points: every comment answered; thanks without grovelling; concrete location of every change; no new data invented; disagreement supported by a reason (protocol, ethics approval).
+*Instructor note: marking points.* Every comment is answered. Thanks are given without grovelling. Every change has a concrete location. No new data are invented. Any disagreement has a reason (protocol, ethics approval).
+
+
+* * *
+
+## Part D: Be the reviewer (answer grid)
+
+In class, Paper 1 needs questions 4, 5, 7, 8 and 9, and Paper 2 needs questions 4, 5, 8 and 9. The other rows are the homework answers. Accept "Can't tell" when the reason is good. Page numbers are the journal's own.
+
+### Paper 1: Boulet 2024 (randomised pilot trial)
+| # | Question | Answer | Page | Note (one line) |
+|---|---|---|---|---|
+| 1 | Question | Yes | 1, 3 | P: adults 18–85 with septic shock, within 24 h of starting vasopressors. I: restrictive strategy for non-resuscitation fluids. C: usual care. O: cumulative fluid balance at day 5 |
+| 2 | Design | Yes | 1, 3 | Multicentre randomised pilot trial, the right design to test whether a strategy changes fluid balance. It is called a pilot but has an efficacy-based sample size |
+| 3 | Participants | Can't tell | 3, 5, 10 | 50 of 1201 screened were randomised (about 4%). The sickest patients were excluded, so many of our patients would not qualify |
+| 4 | Comparison groups | Yes | 3, 6 | Randomisation made the groups broadly similar. Creatinine was higher in the control group, but the text on p.5 says the opposite |
+| 5 | Bias | Yes | 3, 8 | Clinicians were not blinded and they prescribe the fluids that make up the outcome. Contamination of the control group pushes towards no difference |
+| 6 | Outcome | Yes | 4 | One primary outcome (fluid balance at day 5), registered (NCT04947904) before the first patient |
+| 7 | Numbers | Yes | 6, 10 | Effect: difference 13.2 ml/kg. 95% CI: −15.2 to 41.6 (p = 0.42). Wide: it includes 0 and the 30 ml/kg the trial planned to detect |
+| 8 | Words vs design | No | 1, 10 | The abstract conclusion is fine ("did not reduce"). Words found on p.10: "non-significant trend", "ever published", "regardless of severity" |
+| 9 | Limitations | Yes | 8–10 | Honest and specific. Missed: blocks of 2 with unblinded clinicians make the next allocation predictable |
+| 10 | Use | No | whole paper | A 48-patient pilot with a negative surrogate outcome cannot change practice. It can prompt a local audit of maintenance fluids |
+
+**Verdict in one sentence:** a well-reported pilot trial that did not reduce day-5 fluid balance and is too small to say anything about mortality.
+**One thing to copy:** one pre-specified primary outcome, registered before the first patient.
+
+### Paper 2: Hyun 2023 (propensity-score-matched cohort)
+| # | Question | Answer | Page | Note (one line) |
+|---|---|---|---|---|
+| 1 | Question | Yes | 1, 2 | P: adults with sepsis in ICU for at least 3 days, 20 hospitals. E: positive cumulative fluid balance by day 1, 2 or 3. C: negative balance. O: 28-day mortality |
+| 2 | Design | Yes (for an association) | 1, 2–3 | Registry cohort with three matched cohorts. It suits a question about association, not the causal "impact" in the title |
+| 3 | Participants | Can't tell | 2, 3 | 2516 of 11,981 analysed (about 21%). Patients who died or left the ICU within 3 days are missing |
+| 4 | Comparison groups | No (not fully) | 2–3, 4, 5–6 | Matching on measured variables only. Lactate stayed imbalanced (SMD 0.132 on day 2 and 0.182 on day 3, above the 0.1 target) |
+| 5 | Bias | Yes | 2–3, 7–8 | No blinding, but death is objective. The main bias is confounding by indication (sicker patients got more fluid), which the authors do not name |
+| 6 | Outcome | Can't tell | 3 | 28-day mortality, measured the same way. No registered analysis plan, and three cohorts give three primary comparisons |
+| 7 | Numbers | Yes | 1, 4 | Day 1 HR 1.17 (0.85 to 1.60), day 2 HR 2.13 (1.48 to 3.06), day 3 HR 1.56 (1.10 to 2.22). Moderately narrow |
+| 8 | Words vs design | No | 1, 4, 7, 8 | Words found: "Impact" (title), "did not impact" and "show" (p.4), "most reliable" and "highest risk" (pp.7–8) |
+| 9 | Limitations | Yes (partly) | 7–8 | Unmeasured confounders and single ethnic group are stated. Missed: survivor bias from the rule of at least 3 ICU days |
+| 10 | Use | No | whole paper | It supports a daily review of fluid balance, but cannot show that aiming for a negative balance saves lives |
+
+**Verdict in one sentence:** a large matched cohort that shows an association on days 2 and 3, but its causal wording goes beyond the design.
+**One thing to copy:** a Table 1 with standardised mean differences and missing-data footnotes.

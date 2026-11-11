@@ -57,7 +57,7 @@ Type your answers in the Word file, or print the PDF.
 
 **Task.** For each scenario, write the test you would use and one reason. Decide in three steps: the type of outcome (a number or a category), then its shape or the counts, then whether the same patients are measured twice (paired).
 
-> **Choose from:** t-test · paired t-test · Mann-Whitney U · Wilcoxon signed-rank · chi-square · Fisher's exact · McNemar
+> **Choose from:** t-test · paired t-test · Wilcoxon rank-sum (Mann-Whitney U) · Wilcoxon signed-rank · chi-square · Fisher's exact · McNemar
 
 | # | Scenario | Test | Why? |
 |---|---|---|---|
@@ -93,17 +93,29 @@ Bonus: a bedside glucose meter and the laboratory have r = 0.97 in 50 patients. 
 
 ## Exercise 4: [FLUID-ICU] Interpret the comparison (6.2)
 
-**Task.** Fill in the table and write one Results sentence. In class, do it for Q1 with the comparison table in the Q1 results pack. At home, do it again for your chosen question with the comparison table in its results pack.
+**Task.** Fill in the table and write one Results sentence. In class, do it for Q1. At home, do it again for your chosen question. All the numbers are in the results pack of the question. The second table shows where to find them.
 
 | | Your answer |
 |---|---|
 | Outcome and its type | |
-| Test used, and why this test | |
-| Result in the negative-balance group (n (%) or median (IQR)) | |
-| Result in the positive-balance group | |
-| Effect with 95% CI (difference, risk difference, ratio or Hodges–Lehmann difference) | |
+| Test, and why this test | |
+| Result in the negative-balance group (Q4: survivors), n (%) or median (IQR) | |
+| Result in the positive-balance group (Q4: patients who died) | |
+| Effect with 95% CI (risk difference, ratio or Hodges–Lehmann difference) | |
 | p-value | |
 | One reason this unadjusted comparison could be biased | |
+
+**Where to find the numbers in the results pack**
+
+| Question | Result in each group | Effect with 95% CI, and p-value |
+|---|---|---|
+| Q1 | Table 2, row "Died by day 28" | Table 2, same row: risk difference with its 95% CI and the chi-square p |
+| Q2 | Section 4, line "AKI: positive balance ... vs negative balance" | Table 4, row "Positive vs negative balance, crude" (odds ratio) |
+| Q3 | Table 2, row "VFD, median (IQR)" | Table 3, row "Positive vs negative balance, Mann-Whitney (Hodges-Lehmann)" |
+| Q4 | Table 1, row "Lactate, mmol/L" | Table 4, row "Unadjusted", method "Complete case" (odds ratio per 1 mmol/L) |
+| Q5 | Table 2, row "Median (IQR), days" | Table 3, row "Mann-Whitney (Hodges-Lehmann difference, days)" |
+
+The Q1 and Q2 packs do not name the test for this comparison, so choose it yourself (Exercise 2 helps). In Q4, the odds ratio comes from an unadjusted logistic regression. For the reason for bias, compare the two groups in Table 1 of the same pack.
 
 **Your Results sentence** (no "significant" on its own, no causal words):
 
@@ -182,7 +194,17 @@ A (simulated) trial randomised 200 adults with septic shock to a restrictive flu
 
 ## Exercise 8: [FLUID-ICU] Interpret the model: crude vs adjusted, complete case vs imputation (6.4)
 
-**Task.** Fill in Parts A and B and write two Results sentences. In class, do Part A and the sentences for Q1 with the model table in the Q1 results pack. At home, do Parts A and B for your chosen question with the regression table and the missing-data table in its results pack. Part C is for Q1 only.
+**Task.** Fill in the parts and write two Results sentences. In class, do Part A and the sentences for Q1. At home, do Parts B and C for Q1. Then do Part A again for your chosen question, and Part B too if you chose Q4. Only the Q1 and Q4 packs have a multiple-imputation analysis. The table below shows where to find each number.
+
+**Where to find the numbers in the results pack**
+
+| Question | Part A: crude and adjusted estimate, 95% CI and n | Confounders (question 1) | Part B: complete case vs multiple imputation (questions 4 and 5) |
+|---|---|---|---|
+| Q1 | Table 6, rows "Crude, all patients" and "Adjusted, complete cases (main)". Table 3 gives the same odds ratios. | Section 2, line "Pre-specified confounders (SAP)" | Table 6, rows "Adjusted, complete cases (main)" and "Adjusted, multiple imputation (m = 20)". Who was left out: participant flow at the end of section 2 |
+| Q2 | Table 4, rows "Balance per 10 ml/kg, crude" and "Balance per 10 ml/kg, adjusted" | Section 2, line "Pre-specified confounders (SAP)" | Not in this pack |
+| Q3 | Table 3, rows "Balance per 10 ml/kg, crude (linear)" and "Balance per 10 ml/kg, adjusted (linear)" | Section 2, line "Pre-specified confounders (SAP)" | Not in this pack |
+| Q4 | Table 4, rows "Unadjusted" and "Adjusted: age, sex, diabetes, CKD, heart failure (main)", both with method "Complete case" | Table 4, row name "Adjusted: ..." | Table 4, the two "(main)" rows. Who was left out: Table 2 |
+| Q5 | Table 3, rows "Log-linear, crude (ratio of geometric means)" and "Log-linear, adjusted (ratio of geometric means)" | Section 2, line "Pre-specified confounders (SAP)" | Not in this pack |
 
 **Part A: crude vs adjusted**
 
@@ -195,14 +217,14 @@ A (simulated) trial randomised 200 adults with septic shock to a restrictive flu
 2. How much did the estimate move after adjustment, and in which direction? What does that tell you about confounding by indication?
 3. Does the adjusted 95% CI include the "no effect" value (1 for a ratio, 0 for a difference)?
 
-**Part B: complete case vs multiple imputation**
+**Part B (Q1 and Q4 only): complete case vs multiple imputation**
 
 4. How many patients were in the complete-case model, and how many in the multiple-imputation model? Who was left out of the complete-case analysis?
 5. Is the multiple-imputation estimate close to the complete-case estimate?
 
 **Part C (Q1 only): Kaplan–Meier and Cox**
 
-6. Give the survival at day 28 in each group, the log-rank p, and the adjusted Cox HR with its 95% CI. Why do the logistic (p = 0.044) and Cox (p = 0.053) results tell the same story?
+6. Give the survival at day 28 in each group and the log-rank p (Table 2 of the Q1 pack), and the adjusted Cox HR with its 95% CI (Table 4). Why do the logistic (p = 0.044) and Cox (p = 0.053) results tell the same story?
 
 **Your two Results sentences** (crude, then adjusted, with CIs, "associated with", not "caused"):
 

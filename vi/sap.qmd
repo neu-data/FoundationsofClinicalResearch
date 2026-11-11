@@ -35,7 +35,7 @@ Mỗi mục tiêu phụ tương ứng với một câu hỏi của khóa học (
 | Kết cục | Loại | Định nghĩa (biến số) | Thời điểm |
 |---|---|---|---|
 | **Kết cục chính:** tử vong do mọi nguyên nhân | Nhị phân | `died_28d` = Yes | Ngày 28 |
-| Thời gian đến tử vong | Thời gian đến biến cố | `time_to_event_28d` (số ngày từ khi nhập ICU đến khi tử vong; người sống bị kiểm duyệt tại ngày 28) kèm `died_28d` | Đến ngày 28 |
+| Thời gian đến tử vong | Thời gian đến biến cố | `time_to_event_28d` (số ngày từ khi nhập ICU đến khi tử vong; người sống có thông tin khuyết (censored) tại ngày 28) kèm `died_28d` | Đến ngày 28 |
 | AKI | Nhị phân (giai đoạn thứ bậc) | `aki_any` = KDIGO giai đoạn >= 1 (`aki_stage`, giai đoạn cao nhất, các ngày ICU 1-7) | Ngày 1-7 |
 | Số ngày không thở máy | Biến đếm 0-28 | `vent_free_days_28`; bằng 0 nếu tử vong trước ngày 28 | Ngày 28 |
 | Thời gian nằm ICU | Liên tục, phân phối lệch | `icu_los_days`, phân tích ở người bệnh còn sống đến ngày 28 | Khi chuyển khỏi ICU |
@@ -63,20 +63,20 @@ Một lưu đồ STROBE sẽ báo cáo số người bệnh ở từng bước.
 |---|---|
 | **Kết cục** | Tử vong 28 ngày, quần thể phơi nhiễm |
 | **Phương pháp** | Hồi quy logistic đa biến |
-| **Thước đo tác động** | Tỷ số chênh (OR) (cân bằng dương so với âm) kèm KTC 95%; cũng báo cáo OR thô và hiệu số nguy cơ |
+| **Thước đo tác động** | Tỷ số chênh (OR) (cân bằng dương so với âm) kèm khoảng tin cậy 95%; cũng báo cáo OR thô và hiệu số nguy cơ |
 | **Hiệu chỉnh** | Tuổi, điểm SOFA, lactat, thuốc vận mạch, thở máy, bệnh thận mạn (xem mục 7) |
-| **Mức ý nghĩa** | Hai phía, mức 5%. Ước lượng và KTC của nó là kết quả; giá trị p chỉ hỗ trợ |
+| **Mức ý nghĩa** | Hai phía, mức 5%. Ước lượng và khoảng tin cậy của nó là kết quả; giá trị p chỉ hỗ trợ |
 
-Phân tích hỗ trợ: đường cong Kaplan-Meier theo nhóm kèm số người bệnh còn nguy cơ và kiểm định log-rank; mô hình hồi quy Cox nguy cơ tỷ lệ (thô và hiệu chỉnh theo cùng các yếu tố gây nhiễu), tỷ số nguy cơ tức thời (HR) kèm KTC 95%; giả định nguy cơ tỷ lệ được kiểm tra bằng phần dư Schoenfeld (`cox.zph`).
+Phân tích hỗ trợ: đường cong Kaplan-Meier theo nhóm kèm số người bệnh còn nguy cơ và kiểm định log-rank; mô hình hồi quy Cox nguy cơ tỷ lệ (thô và hiệu chỉnh theo cùng các yếu tố gây nhiễu), tỷ số nguy cơ tức thời (HR) kèm khoảng tin cậy 95%; giả định nguy cơ tỷ lệ được kiểm tra bằng phần dư Schoenfeld (`cox.zph`).
 
 ## 6. Các phân tích phụ (hỗ trợ / thăm dò)
 
 | Mục tiêu | Tóm tắt | Kiểm định / mô hình | Thước đo tác động |
 |---|---|---|---|
-| AKI (Q2) | n (%) theo nhóm và theo nhóm cân bằng dịch (<= 0, > 0-20, > 20-40, > 40 ml/kg) | Khi bình phương; hồi quy logistic, cân bằng dịch theo mỗi 10 ml/kg, hiệu chỉnh như ở mục 7 | OR mỗi 10 ml/kg (KTC 95%) |
-| Số ngày không thở máy (Q3) | Trung vị (IQR) theo nhóm; trình bày phân bố | Mann-Whitney; hồi quy tuyến tính, cân bằng dịch theo mỗi 10 ml/kg, có hiệu chỉnh | Chênh lệch số ngày (KTC 95%); chênh lệch Hodges-Lehmann |
-| Lactat (Q4) | Trung vị (IQR) theo tình trạng sống còn; tử vong theo nhóm lactat (< 2, 2-4, > 4 mmol/L) | Hồi quy logistic, lactat theo mỗi 1 mmol/L, hiệu chỉnh theo tuổi, giới, đái tháo đường, bệnh thận mạn, suy tim; mô hình thứ hai thêm SOFA | OR mỗi 1 mmol/L (KTC 95%) |
-| Thời gian nằm ICU (Q5) | Trung vị (IQR), người sống | Mann-Whitney; hồi quy tuyến tính trên log(thời gian nằm ICU), có hiệu chỉnh | Tỷ số trung bình nhân (KTC 95%) |
+| AKI (Q2) | n (%) theo nhóm và theo nhóm cân bằng dịch (<= 0, > 0-20, > 20-40, > 40 ml/kg) | Chi bình phương; hồi quy logistic, cân bằng dịch theo mỗi 10 ml/kg, hiệu chỉnh như ở mục 7 | OR mỗi 10 ml/kg (khoảng tin cậy 95%) |
+| Số ngày không thở máy (Q3) | Trung vị (IQR) theo nhóm; trình bày phân bố | Mann-Whitney; hồi quy tuyến tính, cân bằng dịch theo mỗi 10 ml/kg, có hiệu chỉnh | Chênh lệch số ngày (khoảng tin cậy 95%); chênh lệch Hodges-Lehmann |
+| Lactat (Q4) | Trung vị (IQR) theo tình trạng sống còn; tử vong theo nhóm lactat (< 2, 2-4, > 4 mmol/L) | Hồi quy logistic, lactat theo mỗi 1 mmol/L, hiệu chỉnh theo tuổi, giới, đái tháo đường, bệnh thận mạn, suy tim; mô hình thứ hai thêm SOFA | OR mỗi 1 mmol/L (khoảng tin cậy 95%) |
+| Thời gian nằm ICU (Q5) | Trung vị (IQR), người sống | Mann-Whitney; hồi quy tuyến tính trên log(thời gian nằm ICU), có hiệu chỉnh | Tỷ số trung bình nhân (khoảng tin cậy 95%) |
 
 Các so sánh giữa nhóm không có trong bảng (tuổi, SOFA, lactat giữa các nhóm) dùng kiểm định t cho biến đối xứng và kiểm định Mann-Whitney cho biến lệch hoặc biến điểm số.
 
@@ -86,11 +86,11 @@ Các so sánh giữa nhóm không có trong bảng (tuổi, SOFA, lactat giữa 
 
 ## 8. Phân nhóm và tương tác (xác định trước)
 
-Một yếu tố thay đổi tác động được xác định trước: **suy tim** (chiều dự kiến: mối liên quan giữa cân bằng dịch dương và tử vong mạnh hơn ở người bệnh suy tim, vì những người bệnh này chịu dịch kém hơn). Kiểm định bằng số hạng tương tác positive_balance_d3 x heart_failure trong mô hình chính (kiểm định Wald và kiểm định tỷ số khả dĩ). Báo cáo OR trong từng phân nhóm kèm KTC 95%. Giá trị p tương tác < 0.05 sẽ được mô tả là bằng chứng về thay đổi tác động cần được xác nhận thêm, không phải là một phát hiện chắc chắn.
+Một yếu tố thay đổi tác động được xác định trước: **suy tim** (chiều dự kiến: mối liên quan giữa cân bằng dịch dương và tử vong mạnh hơn ở người bệnh suy tim, vì những người bệnh này chịu dịch kém hơn). Kiểm định bằng số hạng tương tác positive_balance_d3 x heart_failure trong mô hình chính (kiểm định Wald và kiểm định tỷ số khả dĩ). Báo cáo OR trong từng phân nhóm kèm khoảng tin cậy 95%. Giá trị p tương tác < 0.05 sẽ được mô tả là bằng chứng về thay đổi tác động cần được xác nhận thêm, không phải là một phát hiện chắc chắn.
 
 ## 9. So sánh bội
 
-Một kết cục chính được kiểm định ở mức 5%. Các kết cục phụ và phân tích phân nhóm được báo cáo kèm KTC 95% và được diễn giải là thăm dò; không hiệu chỉnh cho so sánh bội.
+Một kết cục chính được kiểm định ở mức 5%. Các kết cục phụ và phân tích phân nhóm được báo cáo kèm khoảng tin cậy 95% và được diễn giải là thăm dò; không hiệu chỉnh cho so sánh bội.
 
 ## 10. Dữ liệu thiếu
 
@@ -98,12 +98,12 @@ Một kết cục chính được kiểm định ở mức 5%. Các kết cục 
 |---|---|
 | **Đánh giá** | n (%) bị thiếu cho mọi biến và theo nhóm; so sánh người bệnh có và không có lactat (SOFA, MAP, thuốc vận mạch, ICU, tử vong) để đánh giá cơ chế thiếu (MCAR hay MAR) |
 | **Dự kiến** | Thiếu lactat ở 10-20% (không đo ở người bệnh ít nặng và ở ICU không có máy phân tích tại giường); mọi biến khác < 2% |
-| **Cách tiếp cận chính** | Q1-Q3, Q5: trường hợp đầy đủ. Q4 (lactat là phơi nhiễm): quy gán đa bội bằng chuỗi phương trình (`mice`), m = 20, ghép trung bình dự báo (predictive mean matching) cho biến liên tục và hồi quy logistic cho biến nhị phân. Mô hình quy gán gồm kết cục (`died_28d`), mọi biến đồng biến trong mô hình và các yếu tố dự báo việc thiếu (SOFA, APACHE II, MAP, thuốc vận mạch, thở máy, ICU, nguồn nhiễm khuẩn, nhóm cân bằng dịch). Kết quả được gộp theo quy tắc Rubin |
+| **Cách tiếp cận chính** | Q1-Q3, Q5: trường hợp đầy đủ. Q4 (lactat là phơi nhiễm): quy gán đa bội (multiple imputation) bằng chuỗi phương trình (`mice`), m = 20, ghép trung bình dự báo (predictive mean matching) cho biến liên tục và hồi quy logistic cho biến nhị phân. Mô hình quy gán gồm kết cục (`died_28d`), mọi biến đồng biến trong mô hình và các yếu tố dự báo việc thiếu (SOFA, APACHE II, MAP, thuốc vận mạch, thở máy, ICU, nguồn nhiễm khuẩn, nhóm cân bằng dịch). Kết quả được gộp theo quy tắc Rubin |
 | **Độ nhạy** | Lặp lại mô hình chính của Q1 bằng quy gán đa bội; Q4 báo cáo cả trường hợp đầy đủ và quy gán đa bội |
 
 ## 11. Cỡ mẫu
 
-FLUID-ICU tuyển tất cả người bệnh đủ tiêu chuẩn trong 2 năm tại 4 ICU (dự kiến khoảng 600). Giả định: tử vong 28 ngày khoảng 20% ở người bệnh có cân bằng dịch âm, và khoảng 40% người bệnh có cân bằng dịch âm (Bài báo 2 và số liệu audit tại chỗ). Với 240 so với 360 người bệnh và mức ý nghĩa 5% hai phía, nghiên cứu có lực thống kê (power) khoảng 80% để phát hiện OR 1.7 (tử vong 20% so với 30%) và khoảng 55% cho OR 1.5. Vì vậy nghiên cứu chỉ đủ lực thống kê cho một mối liên quan ở mức vừa phải; KTC 95% sẽ cho thấy độ chính xác đạt được.
+FLUID-ICU tuyển tất cả người bệnh đủ tiêu chuẩn trong 2 năm tại 4 ICU (dự kiến khoảng 600). Giả định: tử vong 28 ngày khoảng 20% ở người bệnh có cân bằng dịch âm, và khoảng 40% người bệnh có cân bằng dịch âm (Bài báo 2 và số liệu audit tại chỗ). Với 240 so với 360 người bệnh và mức ý nghĩa 5% hai phía, nghiên cứu có lực thống kê (power) khoảng 80% để phát hiện OR 1.7 (tử vong 20% so với 30%) và khoảng 55% cho OR 1.5. Vì vậy nghiên cứu chỉ đủ lực thống kê cho một mối liên quan ở mức vừa phải; khoảng tin cậy 95% sẽ cho thấy độ chính xác đạt được.
 
 ## 12. Phần mềm
 
@@ -124,7 +124,7 @@ R phiên bản 4.6 với các gói tidyverse, gtsummary, flextable, broom, survi
 
 **Bảng 2. Kết cục theo nhóm và các mối liên quan đã hiệu chỉnh**
 
-| Kết cục | Âm | Dương | Tác động thô (KTC 95%) | Tác động hiệu chỉnh (KTC 95%) | p |
+| Kết cục | Âm | Dương | Tác động thô (khoảng tin cậy 95%) | Tác động hiệu chỉnh (khoảng tin cậy 95%) | p |
 |---|---|---|---|---|---|
 | Tử vong 28 ngày, n (%) | | | OR __ | OR __ | |
 | AKI (KDIGO >= 1), n (%) | | | OR mỗi 10 ml/kg __ | __ | |

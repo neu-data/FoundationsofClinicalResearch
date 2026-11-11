@@ -55,6 +55,6 @@ Tên biến và các giá trị mã hóa (`No` / `Yes`, `Female` / `Male`, `ICU 
 | 29 | `vent_free_days_28` | Số ngày không thở máy đến ngày 28 | Số (số nguyên) | Ngày | 0 đến 28 | Không có | Số ngày còn sống và không thở máy xâm nhập đến ngày 28; bằng 0 nếu tử vong; bằng 28 nếu không thở máy và còn sống. Cột thô 'VFD 28'. Kết cục cho Q3. |
 | 30 | `icu_los_days` | Thời gian nằm ICU | Số | Ngày (1 chữ số thập phân) | > 0 | Không có | Lệch phải. Với người bệnh tử vong, thời gian nằm kết thúc khi tử vong. Kết cục cho Q5 (người sống). |
 | 31 | `died_28d` | Tử vong do mọi nguyên nhân trong 28 ngày | Nhị phân | No / Yes | No, Yes | Không có | Kết cục chính (Q1, Q4). Tệp thô mã hóa lẫn lộn. |
-| 32 | `time_to_event_28d` | Thời gian từ khi nhập ICU đến tử vong hoặc kiểm duyệt | Số (số nguyên) | Ngày | 1 đến 28 | Không có | Ngày tử vong nếu tử vong; 28 (kiểm duyệt) nếu còn sống tại ngày 28. Dùng cùng died_28d cho Kaplan-Meier và Cox. Cột thô 'Time to event 28d (days)'. |
+| 32 | `time_to_event_28d` | Thời gian từ khi nhập ICU đến tử vong hoặc thông tin khuyết (censored) | Số (số nguyên) | Ngày | 1 đến 28 | Không có | Ngày tử vong nếu tử vong; 28 (thông tin khuyết) nếu còn sống tại ngày 28. Dùng cùng died_28d cho Kaplan-Meier và Cox. Cột thô 'Time to event 28d (days)'. |
 
 Tên cột trong tệp thô được đặt theo kiểu bảng tính (ví dụ `Weight (kg)`, `MAP (mmHg)`); `janitor::clean_names()` cùng bốn lần đổi tên cho ra các tên ở trên (xem `R/01_clean.R`, bước 1).

@@ -39,7 +39,7 @@ Gõ câu trả lời vào tệp Word, hoặc in bản PDF. Các bài có dấu *
 | e | Số thuốc vận mạch đang dùng ở giờ 24 (0, 1, 2, 3) | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | f | Cân bằng dịch tích lũy ở ngày 5 (ml/kg) | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | g | Còn sống ở ngày 28 (có / không) | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| h | Thời gian từ lúc vào ICU đến tử vong (người bệnh còn sống ở ngày 28 bị kiểm duyệt) | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| h | Thời gian từ lúc vào ICU đến tử vong (người bệnh còn sống ở ngày 28 có thông tin khuyết (censored)) | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | i | Đau: không / nhẹ / vừa / nặng | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | j | Nhóm máu (A, B, AB, O) | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 
@@ -125,7 +125,7 @@ Poster thứ ba vẽ tỷ lệ tuân thủ vệ sinh tay (%) và tỷ lệ nhi�
 
 ## Bài tập 6: [FLUID-ICU] Đọc Bảng 1 của FLUID-ICU
 
-**Nhiệm vụ.** Mở Bảng 1 (đặc điểm nền theo nhóm cân bằng dịch) trong gói kết quả bất kỳ. Cả năm gói đều có cùng bảng này. Tự trả lời câu 1 đến 5, cuối cùng là hai câu Kết quả của bạn, và chuẩn bị chia sẻ khi giảng viên mời. Câu 6 làm sau buổi học.
+**Nhiệm vụ.** Mở Bảng 1 (đặc điểm nền theo nhóm cân bằng dịch) trong gói kết quả Q1. Gói Q2 và Q3 có cùng bảng này. Gói Q4 và Q5 có Bảng 1 khác, nên đừng dùng chúng ở đây. Với câu 1, đọc thêm lưu đồ người tham gia ở cuối mục 2. Tự trả lời câu 1 đến 5, cuối cùng là hai câu Kết quả của bạn, và chuẩn bị chia sẻ khi giảng viên mời. Câu 6 làm sau buổi học.
 
 1. Mỗi cột có bao nhiêu người bệnh? Vì sao tổng số là 618 mà không phải 620?
 2. Với **ba** biến số, ghi cách tóm tắt đã dùng (trung bình (SD), trung vị (IQR) hoặc n (%)) và vì sao.

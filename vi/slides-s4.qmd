@@ -39,38 +39,54 @@ Thời gian: 1 phút.
 CÂU HỎI NHANH · 9 phút
 :::
 
-:::: {.columns}
-::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
 - C1. Người bệnh sepsis đã tử vong được so sánh với người sống sót về lượng dịch đã nhận ở ngày 1-3. Thiết kế?
 - C2. Thiết kế nào phân nhóm ngẫu nhiên cả đơn vị hồi sức tích cực (ICU) thay vì từng người bệnh?
-- C3. Hạn chế dịch so với thường quy: hiệu số tử vong, KTC 95% từ -1 đến +3 điểm. Ngưỡng +4 điểm. Kết quả?
+- C3. Hạn chế dịch so với thường quy: hiệu số tử vong, khoảng tin cậy 95% từ -1 đến +3 điểm. Ngưỡng +4 điểm. Kết quả?
 - Sau đó đọc lại mục 2.1 đến 2.3 của đề cương (thiết kế, bối cảnh, đối tượng): 3 phút
 :::
-:::
-::: {.column width="40%"}
-::: {.neu-side .plain style="--c:#6C3483"}
-Cách thực hiện
-
-- Trả lời qua bình chọn
-- Xem kết quả, rồi công bố đáp án
-- Một bạn tình nguyện giải thích
-:::
-:::
-::::
 
 ::: {.neu-output style="--c:#6C3483"}
-**SẢN PHẨM** Câu trả lời bình chọn, và mục 2.1 đến 2.3 sẵn sàng để viết tiếp
+**SẢN PHẨM** Trả lời từng câu qua bình chọn, rồi chuẩn bị mục 2.1 đến 2.3 để viết tiếp
 :::
 
 ::: {.notes}
-Ba câu bình chọn.
-
-Đáp án: Câu 1 bệnh-chứng (chọn theo kết cục). Câu 2 thử nghiệm ngẫu nhiên theo cụm. Câu 3 không kém hơn: cả KTC nằm dưới ngưỡng +4.
-
-Nếu có người nói 'dùng hồ sơ nên là thuần tập', hỏi: chọn theo điều đã xảy ra với họ hay theo điều họ được nhận?
+Ba câu bình chọn. Hiện kết quả, rồi chiếu slide sau. Mời một bạn tình nguyện giải thích.
 
 Thời gian: 9 phút.
+:::
+
+## Câu hỏi ôn tập: đáp án
+
+:::: {.neu-cards style="--n:3"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[C1. Bệnh-chứng]{.neu-card-title}
+
+- Người bệnh được chọn theo kết cục
+- Rồi nhìn lại lượng dịch đã nhận
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[C2. RCT theo cụm]{.neu-card-title}
+
+- Phân nhóm ngẫu nhiên cả ICU
+- Không phải từng người bệnh
+:::
+::: {.neu-card .plain style="--c:#5FA39B"}
+[C3. Không kém hơn]{.neu-card-title}
+
+- Cả khoảng tin cậy, -1 đến +3
+- nằm dưới ngưỡng +4
+:::
+::::
+
+::: {.neu-takeaway}
+**THÔNG ĐIỆP CHÍNH** Chọn theo kết cục: bệnh-chứng. Chọn theo phơi nhiễm: thuần tập.
+:::
+
+::: {.notes}
+Nếu có người nói 'dùng hồ sơ nên là thuần tập', hỏi: chọn theo điều đã xảy ra với họ hay theo điều họ được nhận?
+
+Thời gian: trong 9 phút của phần ôn tập.
 :::
 
 ## Từ khóa của ngày hôm nay
@@ -550,11 +566,48 @@ Bình chọn một
 :::
 
 ::: {.notes}
-Bốn câu bình chọn. Sau mỗi câu, mời một hai người đề xuất cách khắc phục.
+Bốn câu bình chọn. Sau mỗi câu, mời một hai người đề xuất cách khắc phục. Đáp án và cách khắc phục ở slide sau.
 
-Đáp án: 1 sai lệch nhớ lại (kiểm chứng bằng hồ sơ bệnh án). 2 sai lệch người quan sát (người đánh giá được làm mù). 3 sai lệch chọn lựa (chọn mọi người từ khi nhập viện, báo cáo số bị loại). 4 nhiễu do chỉ định (phân bổ ngẫu nhiên, hoặc đo mức độ nặng và hiệu chỉnh).
+Thời gian: 5 phút.
+:::
 
-Thời gian: 5 phút. Kết thúc phần 4.1.
+## Đáp án: phát hiện sai lệch
+
+:::: {.neu-cards style="--n:4"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[Sai lệch nhớ lại]{.neu-card-title}
+
+- Gia đình người tử vong nhớ nhiều hơn
+- Khắc phục: đối chiếu hồ sơ bệnh án
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[Sai lệch người quan sát]{.neu-card-title}
+
+- Người đánh giá biết nhóm
+- Khắc phục: người đánh giá được làm mù
+:::
+::: {.neu-card .plain style="--c:#5FA39B"}
+[Sai lệch chọn lựa]{.neu-card-title}
+
+- Bỏ sót người tử vong sớm
+- Khắc phục: chọn mọi người từ khi nhập viện
+:::
+::: {.neu-card .plain style="--c:#0070C0"}
+[Yếu tố nhiễu]{.neu-card-title}
+
+- Mức độ nặng chi phối cả dịch và tử vong
+- Khắc phục: phân bổ ngẫu nhiên, hoặc hiệu chỉnh
+:::
+::::
+
+::: {.neu-takeaway}
+**THÔNG ĐIỆP CHÍNH** Gọi tên sai lệch, rồi nêu cách khắc phục.
+:::
+
+::: {.notes}
+Tình huống 4 là nhiễu do chỉ định. Nếu không phân bổ ngẫu nhiên được, đo mức độ nặng và hiệu chỉnh. Với tình huống 3, báo cáo thêm số bị loại.
+
+Thời gian: trong 5 phút của câu hỏi. Kết thúc phần 4.1.
 :::
 
 ## 4.2  Đo lường bệnh và mối liên quan
@@ -984,19 +1037,19 @@ Thời gian: 2.5 phút.
 
 
 ```{=html}
-<div style="position:relative;width:100%;aspect-ratio:12.3/4.3;container-type:inline-size;margin:0.2em auto;font-family:Arial,sans-serif;line-height:1.1"><div style="position:absolute;left:1.626%;top:0.000%;width:14.634%;height:9.302%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;font-weight:700">Nghiên cứu</div></div><div style="position:absolute;left:13.008%;top:0.000%;width:10.569%;height:9.302%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;font-weight:700">Trọng số</div></div><div style="position:absolute;left:57.317%;top:0.000%;width:17.886%;height:9.302%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;font-weight:700">RR (KTC 95%)</div></div><svg viewBox="0 0 1230 430" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm1A1A1A22" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1A1A1A"/></marker></defs><line x1="519.6" y1="42.0" x2="519.6" y2="372.0" stroke="#1A1A1A" stroke-width="2.22" stroke-linecap="round"/></svg><svg viewBox="0 0 1230 430" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm0B376C31" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0B376C"/></marker></defs><line x1="416.4" y1="65.0" x2="571.0" y2="65.0" stroke="#0B376C" stroke-width="3.12" stroke-linecap="round"/></svg><div style="position:absolute;left:39.610%;top:13.596%;width:1.063%;height:3.040%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0B376C"></div><svg viewBox="0 0 1230 430" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm0B376C31" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0B376C"/></marker></defs><line x1="448.2" y1="110.0" x2="548.1" y2="110.0" stroke="#0B376C" stroke-width="3.12" stroke-linecap="round"/></svg><div style="position:absolute;left:39.778%;top:23.551%;width:1.419%;height:4.060%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0B376C"></div><svg viewBox="0 0 1230 430" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm0B376C31" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0B376C"/></marker></defs><line x1="429.7" y1="155.0" x2="640.8" y2="155.0" stroke="#0B376C" stroke-width="3.12" stroke-linecap="round"/></svg><div style="position:absolute;left:43.032%;top:34.784%;width:0.883%;height:2.525%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0B376C"></div><svg viewBox="0 0 1230 430" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm0B376C31" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0B376C"/></marker></defs><line x1="450.4" y1="200.0" x2="530.6" y2="200.0" stroke="#0B376C" stroke-width="3.12" stroke-linecap="round"/></svg><div style="position:absolute;left:39.080%;top:44.158%;width:1.646%;height:4.707%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0B376C"></div><svg viewBox="0 0 1230 430" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm0B376C31" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0B376C"/></marker></defs><line x1="427.1" y1="245.0" x2="543.5" y2="245.0" stroke="#0B376C" stroke-width="3.12" stroke-linecap="round"/></svg><div style="position:absolute;left:38.771%;top:55.157%;width:1.272%;height:3.640%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0B376C"></div><svg viewBox="0 0 1230 430" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm0B376C31" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0B376C"/></marker></defs><line x1="349.5" y1="290.0" x2="580.3" y2="290.0" stroke="#0B376C" stroke-width="3.12" stroke-linecap="round"/></svg><div style="position:absolute;left:37.301%;top:66.179%;width:0.883%;height:2.525%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0B376C"></div><svg viewBox="0 0 1230 430" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><polygon points="467.9,335.0 492.3,319.0 517.2,335.0 492.3,351.0" fill="#055F56"/></svg><div style="position:absolute;left:1.626%;top:10.698%;width:14.634%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Thử nghiệm 1</div></div><div style="position:absolute;left:13.008%;top:10.698%;width:10.569%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#8A99A3">10%</div></div><div style="position:absolute;left:57.317%;top:10.698%;width:17.886%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">0.80 (0.41-1.56)</div></div><div style="position:absolute;left:1.626%;top:21.163%;width:14.634%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Thử nghiệm 2</div></div><div style="position:absolute;left:13.008%;top:21.163%;width:10.569%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#8A99A3">25%</div></div><div style="position:absolute;left:57.317%;top:21.163%;width:17.886%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">0.83 (0.54-1.28)</div></div><div style="position:absolute;left:1.626%;top:31.628%;width:14.634%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Thử nghiệm 3</div></div><div style="position:absolute;left:13.008%;top:31.628%;width:10.569%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#8A99A3">5%</div></div><div style="position:absolute;left:57.317%;top:31.628%;width:17.886%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">1.14 (0.46-2.85)</div></div><div style="position:absolute;left:1.626%;top:42.093%;width:14.634%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Thử nghiệm 4</div></div><div style="position:absolute;left:13.008%;top:42.093%;width:10.569%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#8A99A3">38%</div></div><div style="position:absolute;left:57.317%;top:42.093%;width:17.886%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">0.78 (0.55-1.10)</div></div><div style="position:absolute;left:1.626%;top:52.558%;width:14.634%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Thử nghiệm 5</div></div><div style="position:absolute;left:13.008%;top:52.558%;width:10.569%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#8A99A3">18%</div></div><div style="position:absolute;left:57.317%;top:52.558%;width:17.886%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">0.74 (0.45-1.23)</div></div><div style="position:absolute;left:1.626%;top:63.023%;width:14.634%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Thử nghiệm 6</div></div><div style="position:absolute;left:13.008%;top:63.023%;width:10.569%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#8A99A3">5%</div></div><div style="position:absolute;left:57.317%;top:63.023%;width:17.886%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">0.62 (0.23-1.69)</div></div><div style="position:absolute;left:1.626%;top:73.488%;width:14.634%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;font-weight:700">Gộp</div></div><div style="position:absolute;left:57.317%;top:73.488%;width:17.886%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#055F56;font-weight:700">0.79 (0.64-0.98)</div></div><div style="position:absolute;left:22.728%;top:87.209%;width:18.699%;height:7.442%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:right;align-items:stretch"><div style="font-size:calc(13 * 0.11292cqw);color:#8A99A3">lợi cho hạn chế</div></div><div style="position:absolute;left:43.054%;top:87.209%;width:18.699%;height:7.442%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(13 * 0.11292cqw);color:#8A99A3">lợi cho thường quy</div></div><div style="position:absolute;left:1.626%;top:88.372%;width:17.886%;height:7.907%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(1.4 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#8A99A3;border-radius:1.382cqw"><div style="font-size:calc(12 * 0.11292cqw);color:#FFFFFF;font-weight:700">thử nghiệm giả định</div></div><div style="position:absolute;left:73.171%;top:8.140%;width:26.829%;height:15.116%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(14 * 0.11292cqw);color:#0B376C;font-weight:700">ô vuông = một nghiên cứu</div><div style="font-size:calc(14 * 0.11292cqw);color:#0B376C;font-weight:700;margin-top:calc(3 * 0.11292cqw)">(to hơn = trọng số lớn hơn,</div><div style="font-size:calc(14 * 0.11292cqw);color:#0B376C;font-weight:700;margin-top:calc(3 * 0.11292cqw)">tức chính xác hơn)</div></div><div style="position:absolute;left:73.171%;top:32.558%;width:26.829%;height:15.116%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(14 * 0.11292cqw);color:#0B376C;font-weight:700">đường ngang = KTC 95%</div></div><div style="position:absolute;left:73.171%;top:47.674%;width:26.829%;height:15.116%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(14 * 0.11292cqw);color:#1A1A1A;font-weight:700">đường dọc =</div><div style="font-size:calc(14 * 0.11292cqw);color:#1A1A1A;font-weight:700;margin-top:calc(3 * 0.11292cqw)">không tác động (RR = 1)</div></div><div style="position:absolute;left:73.171%;top:68.605%;width:26.829%;height:15.116%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(14 * 0.11292cqw);color:#055F56;font-weight:700">hình thoi = kết quả gộp,</div><div style="font-size:calc(14 * 0.11292cqw);color:#055F56;font-weight:700;margin-top:calc(3 * 0.11292cqw)">độ rộng = KTC 95%</div></div><div style="position:absolute;left:73.171%;top:86.512%;width:26.829%;height:12.791%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(12 * 0.11292cqw);color:#595959">RR: nguy cơ tương đối</div><div style="font-size:calc(12 * 0.11292cqw);color:#595959;margin-top:calc(3 * 0.11292cqw)">KTC: khoảng tin cậy</div></div></div>
+<div style="position:relative;width:100%;aspect-ratio:12.3/4.3;container-type:inline-size;margin:0.2em auto;font-family:Arial,sans-serif;line-height:1.1"><div style="position:absolute;left:1.626%;top:0.000%;width:14.634%;height:9.302%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;font-weight:700">Nghiên cứu</div></div><div style="position:absolute;left:13.008%;top:0.000%;width:10.569%;height:9.302%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;font-weight:700">Trọng số</div></div><div style="position:absolute;left:57.317%;top:0.000%;width:29.268%;height:9.302%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;font-weight:700">RR (khoảng tin cậy 95%)</div></div><svg viewBox="0 0 1230 430" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm1A1A1A22" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1A1A1A"/></marker></defs><line x1="519.6" y1="42.0" x2="519.6" y2="372.0" stroke="#1A1A1A" stroke-width="2.22" stroke-linecap="round"/></svg><svg viewBox="0 0 1230 430" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm0B376C31" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0B376C"/></marker></defs><line x1="416.4" y1="65.0" x2="571.0" y2="65.0" stroke="#0B376C" stroke-width="3.12" stroke-linecap="round"/></svg><div style="position:absolute;left:39.610%;top:13.596%;width:1.063%;height:3.040%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0B376C"></div><svg viewBox="0 0 1230 430" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm0B376C31" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0B376C"/></marker></defs><line x1="448.2" y1="110.0" x2="548.1" y2="110.0" stroke="#0B376C" stroke-width="3.12" stroke-linecap="round"/></svg><div style="position:absolute;left:39.778%;top:23.551%;width:1.419%;height:4.060%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0B376C"></div><svg viewBox="0 0 1230 430" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm0B376C31" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0B376C"/></marker></defs><line x1="429.7" y1="155.0" x2="640.8" y2="155.0" stroke="#0B376C" stroke-width="3.12" stroke-linecap="round"/></svg><div style="position:absolute;left:43.032%;top:34.784%;width:0.883%;height:2.525%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0B376C"></div><svg viewBox="0 0 1230 430" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm0B376C31" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0B376C"/></marker></defs><line x1="450.4" y1="200.0" x2="530.6" y2="200.0" stroke="#0B376C" stroke-width="3.12" stroke-linecap="round"/></svg><div style="position:absolute;left:39.080%;top:44.158%;width:1.646%;height:4.707%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0B376C"></div><svg viewBox="0 0 1230 430" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm0B376C31" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0B376C"/></marker></defs><line x1="427.1" y1="245.0" x2="543.5" y2="245.0" stroke="#0B376C" stroke-width="3.12" stroke-linecap="round"/></svg><div style="position:absolute;left:38.771%;top:55.157%;width:1.272%;height:3.640%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0B376C"></div><svg viewBox="0 0 1230 430" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><marker id="dgm0B376C31" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0B376C"/></marker></defs><line x1="349.5" y1="290.0" x2="580.3" y2="290.0" stroke="#0B376C" stroke-width="3.12" stroke-linecap="round"/></svg><div style="position:absolute;left:37.301%;top:66.179%;width:0.883%;height:2.525%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0B376C"></div><svg viewBox="0 0 1230 430" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><polygon points="467.9,335.0 492.3,319.0 517.2,335.0 492.3,351.0" fill="#055F56"/></svg><div style="position:absolute;left:1.626%;top:10.698%;width:14.634%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Thử nghiệm 1</div></div><div style="position:absolute;left:13.008%;top:10.698%;width:10.569%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#8A99A3">10%</div></div><div style="position:absolute;left:57.317%;top:10.698%;width:17.886%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">0.80 (0.41-1.56)</div></div><div style="position:absolute;left:1.626%;top:21.163%;width:14.634%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Thử nghiệm 2</div></div><div style="position:absolute;left:13.008%;top:21.163%;width:10.569%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#8A99A3">25%</div></div><div style="position:absolute;left:57.317%;top:21.163%;width:17.886%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">0.83 (0.54-1.28)</div></div><div style="position:absolute;left:1.626%;top:31.628%;width:14.634%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Thử nghiệm 3</div></div><div style="position:absolute;left:13.008%;top:31.628%;width:10.569%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#8A99A3">5%</div></div><div style="position:absolute;left:57.317%;top:31.628%;width:17.886%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">1.14 (0.46-2.85)</div></div><div style="position:absolute;left:1.626%;top:42.093%;width:14.634%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Thử nghiệm 4</div></div><div style="position:absolute;left:13.008%;top:42.093%;width:10.569%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#8A99A3">38%</div></div><div style="position:absolute;left:57.317%;top:42.093%;width:17.886%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">0.78 (0.55-1.10)</div></div><div style="position:absolute;left:1.626%;top:52.558%;width:14.634%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Thử nghiệm 5</div></div><div style="position:absolute;left:13.008%;top:52.558%;width:10.569%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#8A99A3">18%</div></div><div style="position:absolute;left:57.317%;top:52.558%;width:17.886%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">0.74 (0.45-1.23)</div></div><div style="position:absolute;left:1.626%;top:63.023%;width:14.634%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Thử nghiệm 6</div></div><div style="position:absolute;left:13.008%;top:63.023%;width:10.569%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#8A99A3">5%</div></div><div style="position:absolute;left:57.317%;top:63.023%;width:17.886%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">0.62 (0.23-1.69)</div></div><div style="position:absolute;left:1.626%;top:73.488%;width:14.634%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;font-weight:700">Gộp</div></div><div style="position:absolute;left:57.317%;top:73.488%;width:17.886%;height:8.837%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#055F56;font-weight:700">0.79 (0.64-0.98)</div></div><div style="position:absolute;left:22.728%;top:87.209%;width:18.699%;height:7.442%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:right;align-items:stretch"><div style="font-size:calc(13 * 0.11292cqw);color:#8A99A3">lợi cho hạn chế</div></div><div style="position:absolute;left:43.054%;top:87.209%;width:18.699%;height:7.442%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(13 * 0.11292cqw);color:#8A99A3">lợi cho thường quy</div></div><div style="position:absolute;left:1.626%;top:88.372%;width:17.886%;height:7.907%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(1.4 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#8A99A3;border-radius:1.382cqw"><div style="font-size:calc(12 * 0.11292cqw);color:#FFFFFF;font-weight:700">thử nghiệm giả định</div></div><div style="position:absolute;left:73.171%;top:8.140%;width:26.829%;height:15.116%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(14 * 0.11292cqw);color:#0B376C;font-weight:700">ô vuông = một nghiên cứu</div><div style="font-size:calc(14 * 0.11292cqw);color:#0B376C;font-weight:700;margin-top:calc(3 * 0.11292cqw)">(to hơn = trọng số lớn hơn,</div><div style="font-size:calc(14 * 0.11292cqw);color:#0B376C;font-weight:700;margin-top:calc(3 * 0.11292cqw)">tức chính xác hơn)</div></div><div style="position:absolute;left:73.171%;top:32.558%;width:26.829%;height:15.116%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(14 * 0.11292cqw);color:#0B376C;font-weight:700">đường ngang = khoảng tin cậy 95%</div></div><div style="position:absolute;left:73.171%;top:47.674%;width:26.829%;height:15.116%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(14 * 0.11292cqw);color:#1A1A1A;font-weight:700">đường dọc =</div><div style="font-size:calc(14 * 0.11292cqw);color:#1A1A1A;font-weight:700;margin-top:calc(3 * 0.11292cqw)">không tác động (RR = 1)</div></div><div style="position:absolute;left:73.171%;top:68.605%;width:26.829%;height:15.116%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(14 * 0.11292cqw);color:#055F56;font-weight:700">hình thoi = kết quả gộp,</div><div style="font-size:calc(14 * 0.11292cqw);color:#055F56;font-weight:700;margin-top:calc(3 * 0.11292cqw)">độ rộng = khoảng tin cậy 95%</div></div><div style="position:absolute;left:73.171%;top:86.512%;width:26.829%;height:12.791%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(12 * 0.11292cqw);color:#595959">RR: nguy cơ tương đối</div><div style="font-size:calc(12 * 0.11292cqw);color:#595959;margin-top:calc(3 * 0.11292cqw)">CI: khoảng tin cậy</div></div></div>
 ```
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Ô vuông = nghiên cứu, đường ngang = KTC, hình thoi = kết quả gộp, đường dọc = không tác động.
+**THÔNG ĐIỆP CHÍNH** Ô vuông = nghiên cứu, đường ngang = khoảng tin cậy, hình thoi = kết quả gộp, đường dọc = không tác động.
 :::
 
 ::: {.notes}
 Trọng số đến từ độ chính xác của từng thử nghiệm, chủ yếu là cỡ mẫu và số biến cố (phương pháp nghịch đảo phương sai).
 
-Bốn bước: đường không tác động, hình vuông (trọng số), đường ngang (KTC), hình thoi: RR 0.79 (0.64-0.98).
+Bốn bước: đường không tác động, hình vuông (trọng số), đường ngang (khoảng tin cậy), hình thoi: RR 0.79 (0.64-0.98).
 
-Từng thử nghiệm đều cắt qua 1, nhưng kết quả gộp thì không. KTC cắt qua 1 là chưa chắc chắn, không phải không có tác động.
+Từng thử nghiệm đều cắt qua 1, nhưng kết quả gộp thì không. Khoảng tin cậy cắt qua 1 là chưa chắc chắn, không phải không có tác động.
 
 Chưa hỏi lớp: bài tập cuối phần 4.3 dùng biểu đồ này.
 
@@ -1015,7 +1068,7 @@ Thời gian: 3.5 phút.
 :::
 
 ::: {.notes}
-Khi không đồng nhất cao, hỏi vì sao: người bệnh, liều, thời điểm, định nghĩa hay nguy cơ sai lệch. Mô hình hiệu ứng ngẫu nhiên chỉ làm KTC rộng ra.
+Khi không đồng nhất cao, hỏi vì sao: người bệnh, liều, thời điểm, định nghĩa hay nguy cơ sai lệch. Mô hình hiệu ứng ngẫu nhiên chỉ làm khoảng tin cậy rộng ra.
 
 Hỏi: 'Một lý do các thử nghiệm dịch truyền không thống nhất?' Mong đợi: quần thể, quy trình hoặc thời điểm khác nhau.
 
@@ -1063,7 +1116,7 @@ Câu 7-9 trong bảng kiểm thẩm định 10 câu dùng ở Buổi 8
 ::: {.neu-card .plain style="--c:#0B376C"}
 [Con số khớp lời lẽ]{.neu-card-title}
 
-- Cỡ tác động kèm KTC 95%
+- Cỡ tác động kèm khoảng tin cậy 95%
 - Tác động tương đối và tuyệt đối
 - Không nói 'xu hướng' khi p = 0.42
 :::
@@ -1106,7 +1159,7 @@ CẢ LỚP CÙNG LÀM · 8 phút
 Nhắc lại
 
 - Ô vuông = một nghiên cứu
-- Đường ngang = KTC 95%
+- Đường ngang = khoảng tin cậy 95%
 - Hình thoi = kết quả gộp
 - Công cụ: xem bảng ở hai slide trước
 :::
@@ -1122,7 +1175,7 @@ Nhắc lại
 
 Đáp án: Thử nghiệm 4 có trọng số lớn nhất (38%). Mọi thử nghiệm đều cắt qua 1. Hình thoi thì không: nguy cơ tương đối thấp hơn khoảng 21%, giới hạn trên gần không tác động. Công cụ: RoB 2 cho Boulet, Newcastle-Ottawa hoặc ROBINS-E cho Hyun, AMSTAR 2 cho tổng quan.
 
-Luôn nêu KTC cùng hình thoi. Nếu thiếu thời gian, chỉ làm câu về hình thoi và công cụ.
+Luôn nêu khoảng tin cậy cùng hình thoi. Nếu thiếu thời gian, chỉ làm câu về hình thoi và công cụ.
 
 Đáp án: s4\_solutions\_VN, Phần E.
 
@@ -1328,13 +1381,46 @@ Chọn
 ::::
 
 ::: {.neu-output style="--c:#6C3483"}
-**SẢN PHẨM** Mỗi câu một sai lệch (đáp án trong ghi chú)
+**SẢN PHẨM** Mỗi câu một sai lệch, gõ vào khung chat
 :::
 
 ::: {.notes}
-Đáp án: A sai lệch chọn lựa. B sai lệch người quan sát. C sai lệch đo lường, làm sai phép so sánh vì chỉ xảy ra ở một khoa.
+Tùy chọn. Một phút trả lời trong chat, rồi chiếu slide sau.
 
 Thời gian: 2 phút nếu dùng.
+:::
+
+## Đáp án: sai lệch nào? (ví dụ khác)
+
+:::: {.neu-cards style="--n:3"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[A. Sai lệch chọn lựa]{.neu-card-title}
+
+- Chỉ hỏi người sống sót
+- Thiếu những người đã tử vong
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[B. Sai lệch người quan sát]{.neu-card-title}
+
+- Điều dưỡng biết trị liệu
+- Điều đó có thể ảnh hưởng điểm đau
+:::
+::: {.neu-card .plain style="--c:#5FA39B"}
+[C. Sai lệch đo lường]{.neu-card-title}
+
+- Sai số chỉ ở một khoa
+- Nên làm sai phép so sánh
+:::
+::::
+
+::: {.neu-takeaway}
+**THÔNG ĐIỆP CHÍNH** Sai số chỉ ở một phía làm sai phép so sánh.
+:::
+
+::: {.notes}
+C: một cái cân sai ở mọi khoa làm lệch mọi giá trị. Chỉ sai ở một khoa thì làm sai phép so sánh.
+
+Thời gian: trong 2 phút, nếu dùng.
 :::
 
 ## Ví dụ khác: tìm yếu tố nhiễu

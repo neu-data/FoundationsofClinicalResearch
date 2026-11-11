@@ -60,7 +60,7 @@ About 2 minutes per question (10 minutes), then 5 minutes for participants' own 
 | 4 | **Qualitative**: in-depth interviews or focus groups with night nurses | A "why" question about experience and work practice; numbers cannot answer it | Findings are not generalisable as numbers; depends on interviewer skill; small purposive sample |
 | 5 | **Pilot or feasibility study** | The question is "can we do it?" (recruitment, delivery, data completeness), not "does it work?" | Cannot show effectiveness; success criteria must be about feasibility |
 
-**Participants' own questions (chat).** Read out four or five. Push for **feasibility**: one unit, no funding, 12-24 months often means a retrospective cohort, a cross-sectional study or an interrupted time series rather than a trial. Check the claim: an observational design must say "associated with".
+**Your own question (chat).** Answers vary. Read out four or five. Push for **feasibility**: one unit, no funding, 12-24 months often means a retrospective cohort, a cross-sectional study or an interrupted time series rather than a trial. Check the claim: an observational design must say "associated with".
 
 **Facilitation notes**
 
@@ -88,6 +88,12 @@ The instructor fills this in on the shared screen during the first 15 minutes, t
 | 2.1 Study design and justification | Retrospective cohort. Our question is about the effect of a fluid strategy on death; an RCT is the ideal design but is not feasible for one ICU without funding. Existing charts record daily fluid input and output, severity scores and outcomes, so a cohort can estimate the association between a positive fluid balance and death, and give the effect size for a future trial. We will say "associated with", not "caused". |
 | 2.2 Setting | Adult mixed ICU of one teaching hospital; patients admitted over 3 calendar years; data from the electronic chart and the ICU register. |
 | 2.3 Study population | Inclusion: age 18 or over; septic shock (Sepsis-3 definition) on ICU admission; vasopressor started within 24 h of admission; ICU stay of 72 h or more. Exclusion: chronic dialysis (the fluid balance cannot be interpreted); transfer from another ICU after more than 24 h (early fluid not recorded here); treatment-limitation decision within 24 h; missing fluid charts on days 1-3. |
+
+**Timeline for the model answer**
+
+| Start: exposure measured | Follow-up | End: outcome measured |
+|---|---|---|
+| ICU admission to day 3: cumulative fluid balance from the fluid charts | From day 3 to day 28 | Death from any cause by day 28, from the ICU register and the hospital record |
 
 **Common problems to look for in the chat and in the drafts**
 

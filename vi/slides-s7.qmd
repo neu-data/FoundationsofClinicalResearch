@@ -37,41 +37,62 @@ Nếu thiếu giờ, bỏ slide bổ sung, không bỏ phần thực hành.
 CÂU HỎI NHANH · 8 phút
 :::
 
-:::: {.columns}
-::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
 - OR (tỷ số chênh) thô là 2.1. OR hiệu chỉnh là 1.4. Điều gì đã xảy ra?
-- HR (tỷ số nguy cơ tức thời) 0.85, KTC 95% 0.60 đến 1.20: có lợi rõ ràng không?
+- HR (tỷ số nguy cơ tức thời) 0.85, khoảng tin cậy 95% 0.60 đến 1.20: có lợi rõ ràng không?
 - Lactat bị thiếu ở 15% người bệnh. Nêu một cách xử lý
-- Đường cong Kaplan-Meier: người bệnh 'bị kiểm duyệt' nghĩa là gì?
+- Đường cong Kaplan-Meier: người bệnh 'có thông tin khuyết (censored)' nghĩa là gì?
 - Câu hỏi FLUID-ICU bạn đã chọn (Q1 đến Q5): kết quả chính là gì? Trả lời trong khung chat
 :::
-:::
-::: {.column width="40%"}
-::: {.neu-side .plain style="--c:#6C3483"}
-Cách thực hiện
-
-- Trả lời qua bình chọn
-- Xem kết quả, rồi công bố đáp án
-- Một bạn tình nguyện giải thích
-:::
-:::
-::::
 
 ::: {.neu-output style="--c:#6C3483"}
-**SẢN PHẨM** Mọi người nhớ lại: hiệu chỉnh, KTC, dữ liệu bị thiếu, sống còn
+**SẢN PHẨM** Câu 1 đến 4 trả lời qua bình chọn. Câu 5 trả lời trong khung chat
 :::
 
 ::: {.notes}
 Ôn tập (19:30-19:40). Mở đầu bằng hai hoặc ba câu trả lời cuối Buổi 6.
 
-Câu 1-4: mỗi câu 30 giây bình chọn. Chiếu kết quả, rồi công bố đáp án, và mời một bạn tình nguyện giải thích.
-
-Đáp án: 1 nhiễu, một phần liên quan thô là do mức độ nặng. 2 không, KTC chứa giá trị 1. 3 phân tích các trường hợp đầy đủ, hoặc quy gán đa bội kèm phân tích độ nhạy. 4 người bệnh rời nghiên cứu khi còn sống, và sau đó không biết kết cục.
-
-Câu 1 dẫn vào bài hôm nay: phần Kết quả báo cáo cả ước lượng thô và đã hiệu chỉnh.
+Câu 1-4: mỗi câu 30 giây bình chọn. Chiếu kết quả, rồi chiếu slide sau, và mời một bạn tình nguyện giải thích.
 
 Câu 5 trong khung chat: kết quả chính của câu hỏi mỗi người đã chọn. Ai chưa chọn thì chọn ngay bây giờ.
+:::
+
+## Câu hỏi ôn tập: đáp án
+
+:::: {.neu-cards style="--n:4"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[Nhiễu]{.neu-card-title}
+
+- Một phần liên quan thô
+- là do mức độ nặng
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[Không]{.neu-card-title}
+
+- Khoảng tin cậy chứa giá trị 1
+:::
+::: {.neu-card .plain style="--c:#5FA39B"}
+[Hai cách]{.neu-card-title}
+
+- Phân tích các trường hợp đầy đủ
+- hoặc quy gán đa bội (multiple imputation) kèm phân tích độ nhạy
+:::
+::: {.neu-card .plain style="--c:#0070C0"}
+[Bị thông tin khuyết]{.neu-card-title}
+
+- Rời nghiên cứu khi còn sống
+- Sau đó không biết kết cục
+:::
+::::
+
+::: {.neu-takeaway}
+**THÔNG ĐIỆP CHÍNH** Phần Kết quả báo cáo cả ước lượng thô và ước lượng đã hiệu chỉnh.
+:::
+
+::: {.notes}
+Câu 1 dẫn vào bài hôm nay: phần Kết quả báo cáo cả ước lượng thô và đã hiệu chỉnh.
+
+Thời gian: trong 8 phút của phần ôn tập.
 :::
 
 ## Hôm nay: hoàn thành đề cương, bắt đầu bài báo
@@ -845,15 +866,46 @@ Tình huống 1
 ::::
 
 ::: {.neu-output style="--c:#6C3483"}
-**SẢN PHẨM** Làm riêng (2 phút): chọn màu và một lý do cho tình huống 1, 3 và 4. Tình huống 2, 5 và 6 làm ở nhà
+**SẢN PHẨM** Làm riêng (2 phút) tình huống 1, 3 và 4, rồi chọn màu qua bình chọn. Tình huống 2, 5 và 6 làm ở nhà
 :::
 
 ::: {.notes}
-Tình huống (20:25-20:30). Tình huống và đáp án: s7\_exercises\_VN Phần A và s7\_solutions\_VN.
+Tình huống (20:25-20:30). Tình huống: s7\_exercises\_VN Phần A.
 
-2 phút: mỗi người tự làm tình huống 1, 3 và 4. Sau đó 3 phút: bình chọn từng tình huống (xanh, vàng, đỏ), mời một người ở màu đông nhất và một người ở màu ít nhất nêu lý do.
+2 phút: mỗi người tự làm tình huống 1, 3 và 4. Sau đó 3 phút: bình chọn từng tình huống (xanh, vàng, đỏ), mời một người ở màu đông nhất và một người ở màu ít nhất nêu lý do. Đáp án ở slide sau.
+:::
 
-Đáp án: 1 đỏ (bịa đặt), 3 đỏ (tác giả danh dự), 4 xanh nếu chỉnh tiếng Anh có kiểm tra và công khai, đỏ với bảng tính người bệnh.
+## Đáp án: tình huống liêm chính
+
+:::: {.neu-cards style="--n:3"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[Tình huống 1: đỏ]{.neu-card-title}
+
+- Bịa đặt
+- Giá trị 'nhớ lại' là dữ liệu bịa ra
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[Tình huống 3: đỏ]{.neu-card-title}
+
+- Tác giả 'danh dự'
+- Thâm niên không phải là đóng góp
+:::
+::: {.neu-card .plain style="--c:#5FA39B"}
+[Tình huống 4: xanh và đỏ]{.neu-card-title}
+
+- Xanh: chỉnh sửa ngôn ngữ, có kiểm tra và công khai
+- Đỏ: bảng tính người bệnh trong công cụ AI công cộng
+:::
+::::
+
+::: {.neu-takeaway}
+**THÔNG ĐIỆP CHÍNH** Đỏ là hành vi sai trái. Tình huống 2, 5 và 6 làm ở nhà.
+:::
+
+::: {.notes}
+Đáp án cả sáu tình huống: s7\_solutions\_VN Phần A. Tình huống 4 có hai phần. Tác giả vẫn chịu trách nhiệm cho văn bản đã chỉnh sửa. Không bao giờ đưa dữ liệu người bệnh có thể định danh vào công cụ AI công cộng.
+
+Thời gian: trong 5 phút của phần tình huống.
 :::
 
 ## Xây dựng đề cương 7: đạo đức, đăng ký, khả thi, kế hoạch công bố
@@ -1079,7 +1131,7 @@ Mục STROBE 12 cho Q1: mỗi quyết định một câu, tất cả được ch
 - Tử vong 28 ngày: kiểm định chi bình phương. Tỷ số chênh thô và hiệu chỉnh bằng hồi quy logistic (tuổi, điểm SOFA, lactat, vận mạch, thở máy, bệnh thận mạn).
 - Thời gian đến tử vong: đường cong Kaplan-Meier (kiểm định log-rank) và hồi quy Cox với cùng các biến. Kiểm tra giả định nguy cơ tỷ lệ.
 - Thay đổi tác động theo suy tim: một số hạng tương tác (định trước).
-- Phân tích chính trên các trường hợp đầy đủ. Lactat bị thiếu (15%) được xử lý bằng quy gán đa bội (20 bộ dữ liệu) trong phân tích độ nhạy.
+- Phân tích chính trên các trường hợp đầy đủ. Lactat bị thiếu (15%) được xử lý bằng quy gán đa bội (multiple imputation) (20 bộ dữ liệu) trong phân tích độ nhạy.
 - Ước lượng kèm khoảng tin cậy 95%. Phân tích bằng R 4.6.
 
 ::: {.notes}
@@ -1098,9 +1150,9 @@ Mỗi con số trong phần Kết quả phải truy được về một câu ở
 - Bài 1: sàng lọc 1201, phân nhóm 50, phân tích 48
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
-[2  Con số kèm KTC]{.neu-card-title}
+[2  Con số kèm khoảng tin cậy]{.neu-card-title}
 
-- Độ lớn tác động kèm khoảng tin cậy 95% (KTC 95%)
+- Độ lớn tác động kèm khoảng tin cậy 95%
 - Không phải 'p = 0.42, không có ý nghĩa'
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
@@ -1118,11 +1170,11 @@ Mỗi con số trong phần Kết quả phải truy được về một câu ở
 ::::
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Đối tượng trước, rồi mỗi kết cục là độ lớn tác động kèm KTC 95%.
+**THÔNG ĐIỆP CHÍNH** Đối tượng trước, rồi mỗi kết cục là độ lớn tác động kèm khoảng tin cậy 95%.
 :::
 
 ::: {.notes}
-Bốn quy tắc. Người tham gia trước, kèm lưu đồ. Tác động kèm KTC 95%, không viết 'p = 0.42, không có ý nghĩa'. Không bình luận. Mỗi số một chỗ, và văn bản phải khớp với bảng: văn bản và Bảng 1 của Bài 1 mâu thuẫn về creatinine.
+Bốn quy tắc. Người tham gia trước, kèm lưu đồ. Tác động kèm khoảng tin cậy 95%, không viết 'p = 0.42, không có ý nghĩa'. Không bình luận. Mỗi số một chỗ, và văn bản phải khớp với bảng: văn bản và Bảng 1 của Bài 1 mâu thuẫn về creatinine.
 
 Trước khi nộp, đối chiếu mọi con số với gói kết quả.
 :::
@@ -1136,9 +1188,9 @@ Trước khi nộp, đối chiếu mọi con số với gói kết quả.
 - Mục 13: Trong 620 người bệnh được đưa vào, 618 có cân bằng dịch ngày 3 và được phân tích, 527 có đủ dữ liệu cho mô hình hiệu chỉnh.
 - Mục 14: 373 người (60.4%) có cân bằng dương. Nhóm này nặng hơn: SOFA trung vị 8 so với 6. Vận mạch 55.0% so với 24.9% (Bảng 1).
 - Mục 15: Đến ngày 28, 134 trên 373 (35.9%) người bệnh cân bằng dương và 45 trên 245 (18.4%) người bệnh cân bằng âm đã tử vong.
-- Mục 16: OR thô 2.49 (KTC 95% 1.70 đến 3.70). OR hiệu chỉnh 1.62 (KTC 95% 1.02 đến 2.59).
-- Mục 17: Quy gán đa bội: OR hiệu chỉnh 1.70 (1.09 đến 2.64). HR Cox hiệu chỉnh 1.46 (1.00 đến 2.13).
-- [Không 'vì', không 'có ý nghĩa', không 'gợi ý': chỉ con số kèm KTC 95%.]{style="color:#0B376C"}
+- Mục 16: OR thô 2.49 (khoảng tin cậy 95% 1.70 đến 3.70). OR hiệu chỉnh 1.62 (khoảng tin cậy 95% 1.02 đến 2.59).
+- Mục 17: Quy gán đa bội (multiple imputation): OR hiệu chỉnh 1.70 (1.09 đến 2.64). HR Cox hiệu chỉnh 1.46 (1.00 đến 2.13).
+- [Không 'vì', không 'có ý nghĩa', không 'gợi ý': chỉ con số kèm khoảng tin cậy 95%.]{style="color:#0B376C"}
 
 ::: {.notes}
 Mọi con số từ gói kết quả Q1 (mô phỏng). Mỗi mục STROBE một câu, từ 13 đến 17.
@@ -1215,7 +1267,7 @@ FLUID-ICU là nghiên cứu thuần tập, nên bài báo theo STROBE. Các số
 - 13  Đối tượng và sơ đồ
 - 14  Dữ liệu mô tả (Bảng 1)
 - 15  Dữ liệu kết cục
-- 16  Kết quả chính: thô và hiệu chỉnh, KTC 95%
+- 16  Kết quả chính: thô và hiệu chỉnh, khoảng tin cậy 95%
 - 17  Phân tích khác
 :::
 ::::
@@ -1245,7 +1297,7 @@ CÂU HỎI NHANH · 3 phút
 - 'Trong 620 người bệnh được đưa vào, 618 có cân bằng dịch ngày 3.'
 - 'Điều này có thể do người bệnh nặng hơn được truyền nhiều dịch hơn.'
 - 'Lactat bị thiếu ở 15.0% người bệnh và được quy gán.'
-- 'Tử vong 28 ngày cao hơn khi cân bằng dương (OR hiệu chỉnh 1.62, KTC 95% 1.02 đến 2.59).'
+- 'Tử vong 28 ngày cao hơn khi cân bằng dương (OR hiệu chỉnh 1.62, khoảng tin cậy 95% 1.02 đến 2.59).'
 :::
 :::
 ::: {.column width="40%"}
@@ -1259,14 +1311,34 @@ Chọn
 :::
 ::::
 
+::: {.neu-output style="--c:#6C3483"}
+**SẢN PHẨM** Mỗi câu một phiếu bình chọn
+:::
+
 ::: {.notes}
-Kiểm tra (21:32-21:35). Mỗi câu một thăm dò.
+Kiểm tra (21:32-21:35). Mỗi câu một thăm dò. Chiếu kết quả, rồi chiếu đáp án ở slide sau.
+:::
 
-Đáp án: 1 Phương pháp, câu này nói cách phân tích. 2 Kết quả, câu này báo cáo đối tượng. 3 Bàn luận, câu này giải thích. 4 Phương pháp và Kết quả. 5 Kết quả, một ước lượng kèm KTC.
+## Đáp án: Phương pháp, Kết quả hay Bàn luận?
 
+| Câu | Phần | Lý do |
+|:---|:---|:---|
+| Hồi quy logistic hiệu chỉnh theo SOFA và tuổi | Phương pháp | Câu này nói cách phân tích |
+| 618 trong 620 người có cân bằng ngày 3 | Kết quả | Câu này báo cáo đối tượng |
+| 'Điều này có thể do...' | Bàn luận | Câu này giải thích một phát hiện |
+| Lactat thiếu ở 15.0%, được quy gán | Phương pháp và Kết quả | Xử lý thế nào thuộc Phương pháp. Thiếu bao nhiêu thuộc Kết quả |
+| OR hiệu chỉnh 1.62, khoảng tin cậy 95% 1.02 đến 2.59 | Kết quả | Một ước lượng kèm khoảng tin cậy |
+
+::: {.neu-takeaway}
+**THÔNG ĐIỆP CHÍNH** Phương pháp nói điều đã làm. Kết quả nói điều đã thấy. Bàn luận giải thích.
+:::
+
+::: {.notes}
 Câu 4 là câu bẫy: xử lý dữ liệu thiếu thế nào thuộc Phương pháp, thiếu bao nhiêu thuộc Kết quả.
 
 Câu 3 là lỗi kinh điển: bình luận trong phần Kết quả.
+
+Thời gian: trong 3 phút của phần kiểm tra.
 :::
 
 ## Thực hành bản thảo 1  \|  45 phút
@@ -1325,7 +1397,7 @@ Với mỗi khối, mọi người tự viết trước (người tham gia và B
 
 Thứ tự: lưu đồ, câu về Bảng 1, số tử vong mỗi nhóm, OR thô và hiệu chỉnh, HR Cox và quy gán.
 
-Câu gợi ý: 'Có con số nào thiếu KTC không?' 'Có tính từ nào nên thay bằng con số?' 'Có bình luận nào không?'
+Câu gợi ý: 'Có con số nào thiếu khoảng tin cậy không?' 'Có tính từ nào nên thay bằng con số?' 'Có bình luận nào không?'
 
 Khoảng 300 từ. Gửi bản nháp của lớp dạng PDF sau buổi học.
 :::
@@ -1427,7 +1499,7 @@ Mang về
 
 - Chưa phê duyệt thì không có dữ liệu, kể cả 'vài ca'
 - Mọi tác giả đủ bốn tiêu chí. Khai báo mọi lợi ích
-- Kết quả = con số kèm KTC, không bình luận
+- Kết quả = con số kèm khoảng tin cậy, không bình luận
 :::
 :::
 ::::
@@ -1487,12 +1559,49 @@ Chọn
 :::
 ::::
 
+::: {.neu-output style="--c:#6C3483"}
+**SẢN PHẨM** Mỗi tình huống một phiếu bình chọn
+:::
+
 ::: {.notes}
-Kiểm tra bổ sung. Mỗi tình huống một thăm dò.
+Kiểm tra bổ sung. Mỗi tình huống một thăm dò. Chiếu kết quả, rồi chiếu đáp án ở slide sau.
+:::
 
-Đáp án: 1 bắt buộc, trên cơ sở đăng ký thử nghiệm, trước người bệnh đầu tiên. 2 nên, trên PROSPERO. 3 khuyến khích, không bắt buộc. 4 không cần: audit cần phê duyệt nội bộ, không đăng ký nghiên cứu.
+## Đáp án: có cần đăng ký không?
 
+:::: {.neu-cards style="--n:4"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[Thử nghiệm: bắt buộc]{.neu-card-title}
+
+- Trên cơ sở đăng ký thử nghiệm
+- trước người bệnh đầu tiên
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[Tổng quan: nên]{.neu-card-title}
+
+- Trên PROSPERO
+:::
+::: {.neu-card .plain style="--c:#5FA39B"}
+[Thuần tập: khuyến khích]{.neu-card-title}
+
+- Không bắt buộc
+:::
+::: {.neu-card .plain style="--c:#0070C0"}
+[Audit: không cần]{.neu-card-title}
+
+- Cần phê duyệt nội bộ
+- không đăng ký nghiên cứu
+:::
+::::
+
+::: {.neu-takeaway}
+**THÔNG ĐIỆP CHÍNH** Đăng ký thử nghiệm trước người bệnh đầu tiên. Audit chỉ cần phê duyệt nội bộ.
+:::
+
+::: {.notes}
 Tình huống 4: kiểm định chất lượng (audit) đi qua phòng quản lý chất lượng, không đăng ký. Nếu muốn công bố như nghiên cứu, hỏi hội đồng đạo đức trước.
+
+Thời gian: trong 2 phút của phần kiểm tra.
 :::
 
 ## CRediT: ghi rõ ai làm gì

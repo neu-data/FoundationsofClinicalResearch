@@ -12,7 +12,7 @@ Gõ câu trả lời vào tệp Word, hoặc in bản PDF.
 
 | # | Bài tập | Khi nào |
 |---|---|---|
-| 1 | Đúng hay sai: KTC, giá trị p và so sánh bội | Phần 6.1, hoặc ở nhà |
+| 1 | Đúng hay sai: khoảng tin cậy, giá trị p và so sánh bội | Phần 6.1, hoặc ở nhà |
 | 2 | Chọn kiểm định | Phần 6.1, hoặc ở nhà |
 | 3 | Ghép hệ số r với biểu đồ phân tán | Ở nhà |
 | 4 | [FLUID-ICU] Diễn giải phép so sánh | Phần 6.2 cho Q1, sau đó ở nhà cho câu hỏi của bạn |
@@ -35,18 +35,18 @@ Gõ câu trả lời vào tệp Word, hoặc in bản PDF.
 
 | # | Nhận định | |
 |---|---|:-:|
-| 1 | Bài báo 2 báo cáo HR 2.13 (KTC 95% 1.48 đến 3.06). Dữ liệu phù hợp với một tỷ số nguy cơ tức thời thật nằm ở bất kỳ đâu trong khoảng từ khoảng 1.5 đến khoảng 3.1. | Đ / S |
+| 1 | Bài báo 2 báo cáo HR 2.13 (khoảng tin cậy 95% 1.48 đến 3.06). Dữ liệu phù hợp với một tỷ số nguy cơ tức thời thật nằm ở bất kỳ đâu trong khoảng từ khoảng 1.5 đến khoảng 3.1. | Đ / S |
 | 2 | Bài báo 1 có p = 0.42 cho cân bằng dịch, vậy chiến lược hạn chế dịch không có tác động gì lên cân bằng dịch. | Đ / S |
 | 3 | p = 0.03 nghĩa là có 3% xác suất giả thuyết không (không có khác biệt) là đúng. | Đ / S |
-| 4 | Nếu KTC 95% của hiệu số giữa hai trung bình chứa 0, giá trị p lớn hơn 0.05. | Đ / S |
+| 4 | Nếu khoảng tin cậy 95% của hiệu số giữa hai trung bình chứa 0, giá trị p lớn hơn 0.05. | Đ / S |
 | 5 | Khi các yếu tố khác như nhau, nghiên cứu lớn hơn cho khoảng tin cậy hẹp hơn. | Đ / S |
 | 6 | p < 0.001 chứng minh tác động lớn và quan trọng về mặt lâm sàng. | Đ / S |
-| 7 | Nếu lặp lại cùng một nghiên cứu nhiều lần, khoảng 95% các KTC 95% sẽ chứa giá trị thật. | Đ / S |
+| 7 | Nếu lặp lại cùng một nghiên cứu nhiều lần, khoảng 95% các khoảng tin cậy 95% sẽ chứa giá trị thật. | Đ / S |
 | 8 | Một kết quả "âm tính" (p > 0.05) trong một thử nghiệm thí điểm nhỏ có thể là sai lầm loại II. | Đ / S |
 | 9 | Alpha (thường là 5%) là nguy cơ chấp nhận được khi kết luận có tác động trong khi thực ra không có. | Đ / S |
 | 10 | p = 0.06 cho thấy "một xu hướng tiến tới có ý nghĩa thống kê". | Đ / S |
 | 11 | Nếu bạn kiểm định 20 kết cục khác nhau và không kết cục nào có tác động thật, bạn thường vẫn tìm thấy ít nhất một kết cục có p < 0.05. | Đ / S |
-| 12 | Lactate đo trên cùng 40 người bệnh lúc nhập viện và 6 giờ sau nên được so sánh bằng kiểm định t không ghép cặp. | Đ / S |
+| 12 | Lactat đo trên cùng 40 người bệnh lúc nhập viện và 6 giờ sau nên được so sánh bằng kiểm định t không ghép cặp. | Đ / S |
 | 13 | Một thử nghiệm có p hai phía = 0.08 theo đúng hướng dự kiến, vì vậy tác giả có thể báo cáo p một phía = 0.04 thay thế. | Đ / S |
 | 14 | Thử nghiệm không kém hơn chỉ đơn giản là thử nghiệm vượt trội được phân tích bằng kiểm định một phía. | Đ / S |
 
@@ -57,7 +57,7 @@ Gõ câu trả lời vào tệp Word, hoặc in bản PDF.
 
 **Nhiệm vụ.** Với mỗi tình huống, ghi kiểm định bạn sẽ dùng và một lý do. Quyết định theo ba bước: loại kết cục (một số đo hay một phân loại), rồi hình dạng phân phối hoặc số đếm, rồi có phải cùng người bệnh được đo hai lần không (ghép cặp).
 
-> **Chọn trong:** kiểm định t · kiểm định t ghép cặp · Mann-Whitney U · Wilcoxon dấu hạng · khi bình phương · Fisher chính xác · McNemar
+> **Chọn trong:** kiểm định t · kiểm định t ghép cặp · Wilcoxon rank-sum (Mann-Whitney U) · Wilcoxon dấu hạng · Chi bình phương · Fisher chính xác · McNemar
 
 | # | Tình huống | Kiểm định | Vì sao? |
 |---|---|---|---|
@@ -65,7 +65,7 @@ Gõ câu trả lời vào tệp Word, hoặc in bản PDF.
 | b | Thời gian nằm ICU (phân phối lệch) ở nhóm hạn chế dịch so với nhóm chăm sóc thường quy, mỗi nhóm 24 người bệnh. | | |
 | c | Tử vong 28 ngày (có/không) ở 200 người bệnh có cân bằng dịch dương so với 200 người có cân bằng dịch âm. | | |
 | d | Tổn thương thận cấp cần lọc máu: 2 trên 24 người bệnh ở một nhóm so với 5 trên 24 ở nhóm kia. | | |
-| e | Lactate huyết thanh lúc vào ICU và 6 giờ sau trên cùng 40 người bệnh (các thay đổi phân bố gần đối xứng). | | |
+| e | Lactat huyết thanh lúc vào ICU và 6 giờ sau trên cùng 40 người bệnh (các thay đổi phân bố gần đối xứng). | | |
 | f | Tổn thương do tì đè (có/không) ở cùng 80 người bệnh được đánh giá trước và sau một quy trình xoay trở mới. | | |
 
 
@@ -93,17 +93,29 @@ Câu hỏi thêm: máy đo đường huyết tại giường và phòng xét ngh
 
 ## Bài tập 4: [FLUID-ICU] Diễn giải phép so sánh (6.2)
 
-**Nhiệm vụ.** Điền bảng và viết một câu Kết quả. Trên lớp, làm cho Q1 với bảng so sánh trong gói kết quả Q1. Ở nhà, làm lại cho câu hỏi bạn chọn với bảng so sánh trong gói kết quả của câu hỏi đó.
+**Nhiệm vụ.** Điền bảng và viết một câu Kết quả. Trên lớp, làm cho Q1. Ở nhà, làm lại cho câu hỏi bạn chọn. Mọi con số đều có trong gói kết quả của câu hỏi. Bảng thứ hai cho biết tìm chúng ở đâu.
 
 | | Câu trả lời của bạn |
 |---|---|
 | Kết cục và loại biến | |
-| Kiểm định đã dùng, và vì sao dùng kiểm định này | |
-| Kết quả ở nhóm cân bằng dịch âm (n (%) hoặc trung vị (IQR)) | |
-| Kết quả ở nhóm cân bằng dịch dương | |
-| Tác động kèm KTC 95% (hiệu số, hiệu số nguy cơ, tỷ số hoặc hiệu số Hodges–Lehmann) | |
+| Kiểm định, và vì sao dùng kiểm định này | |
+| Kết quả ở nhóm cân bằng dịch âm (Q4: nhóm sống), n (%) hoặc trung vị (IQR) | |
+| Kết quả ở nhóm cân bằng dịch dương (Q4: nhóm tử vong) | |
+| Tác động kèm khoảng tin cậy 95% (hiệu số nguy cơ, tỷ số hoặc hiệu số Hodges–Lehmann) | |
 | Giá trị p | |
 | Một lý do khiến phép so sánh chưa hiệu chỉnh này có thể bị sai lệch | |
+
+**Tìm các con số ở đâu trong gói kết quả**
+
+| Câu hỏi | Kết quả ở mỗi nhóm | Tác động kèm khoảng tin cậy 95%, và giá trị p |
+|---|---|---|
+| Q1 | Bảng 2, dòng "Tử vong trong 28 ngày" | Bảng 2, cùng dòng: hiệu số nguy cơ kèm khoảng tin cậy 95% và p Chi bình phương |
+| Q2 | Mục 4, dòng "AKI: cân bằng dương ... so với cân bằng âm" | Bảng 4, dòng "Cân bằng dương so với âm, thô" (tỷ số chênh) |
+| Q3 | Bảng 2, dòng "VFD, trung vị (IQR)" | Bảng 3, dòng "Cân bằng dương so với âm, Mann-Whitney (Hodges-Lehmann)" |
+| Q4 | Bảng 1, dòng "Lactat, mmol/L" | Bảng 4, dòng "Chưa hiệu chỉnh", phương pháp "Trường hợp đầy đủ" (tỷ số chênh mỗi 1 mmol/L) |
+| Q5 | Bảng 2, dòng "Trung vị (IQR), ngày" | Bảng 3, dòng "Mann-Whitney (chênh lệch Hodges-Lehmann, ngày)" |
+
+Gói kết quả Q1 và Q2 không nêu tên kiểm định cho phép so sánh này, nên bạn tự chọn (Bài tập 2 sẽ giúp bạn). Ở Q4, tỷ số chênh lấy từ hồi quy logistic chưa hiệu chỉnh. Để tìm lý do sai lệch, so sánh hai nhóm trong Bảng 1 của cùng gói kết quả.
 
 **Câu Kết quả của bạn** (không dùng chữ "có ý nghĩa" đứng một mình, không dùng từ chỉ quan hệ nhân quả):
 
@@ -135,7 +147,7 @@ Một nghiên cứu thuần tập (giả lập) trên 600 người lớn nằm I
 
 1. Đây là loại kết cục gì, và vì sao dùng hồi quy logistic?
 2. Giá trị "không có tác động" của các con số trong bảng này là bao nhiêu?
-3. Với mỗi dòng, KTC 95% có chứa giá trị không có tác động không? Đánh dấu ✔ (không chứa) hoặc ✖ (có chứa).
+3. Với mỗi dòng, khoảng tin cậy 95% có chứa giá trị không có tác động không? Đánh dấu ✔ (không chứa) hoặc ✖ (có chứa).
 4. Viết **một câu bằng ngôn ngữ dễ hiểu** cho dòng benzodiazepine.
 5. Diễn giải dòng tuổi: "1.30 mỗi 10 năm" có nghĩa gì đối với một người bệnh lớn hơn 20 tuổi?
 6. Những dòng nào phù hợp với việc không có mối liên quan?
@@ -156,7 +168,7 @@ Một thử nghiệm (mô phỏng) phân bổ ngẫu nhiên 200 người lớn b
 2. Các vạch dọc nhỏ trên đường cong có ý nghĩa gì?
 3. Ở ngày 21, nhóm chăm sóc thường quy còn bao nhiêu người bệnh đang được theo dõi (còn trong nhóm nguy cơ)? Vì sao con số này giảm ngay cả ở nhóm có ít người tử vong?
 4. "log-rank p = 0.009" cho bạn biết điều gì? Nó **không** cho biết điều gì?
-5. Mô hình nào sẽ cho tỷ số nguy cơ tức thời kèm KTC 95%, và bạn sẽ kiểm tra giả định nào bằng cách nhìn các đường cong?
+5. Mô hình nào sẽ cho tỷ số nguy cơ tức thời kèm khoảng tin cậy 95%, và bạn sẽ kiểm tra giả định nào bằng cách nhìn các đường cong?
 6. Bạn có hài lòng nếu tác giả trình bày hình này **không kèm** số người còn trong nhóm nguy cơ không? Vì sao?
 
 
@@ -170,7 +182,7 @@ Một thử nghiệm (mô phỏng) phân bổ ngẫu nhiên 200 người lớn b
 
 | # | Tình huống | Cơ chế | Hệ quả đối với phân tích các trường hợp đầy đủ |
 |---|---|---|---|
-| a | 12 mẫu máu xét nghiệm lactate bị mất khi thùng vận chuyển bị rơi. | | |
+| a | 12 mẫu máu xét nghiệm lactat bị mất khi thùng vận chuyển bị rơi. | | |
 | b | Cân nặng bị thiếu thường hơn ở người bệnh nhập viện ban đêm. Giờ nhập viện được ghi cho mọi người. | | |
 | c | Điểm đau bị thiếu ở những người bệnh đau nhiều nhất, vì họ không thể hoàn thành bảng hỏi. | | |
 | d | Tình trạng ở ngày 28 bị thiếu ở những người bệnh chuyển sang bệnh viện khác, thường vì họ đang diễn tiến xấu. | | |
@@ -180,9 +192,19 @@ Một thử nghiệm (mô phỏng) phân bổ ngẫu nhiên 200 người lớn b
 
 * * *
 
-## Bài tập 8: [FLUID-ICU] Diễn giải mô hình: thô so với hiệu chỉnh, trường hợp đầy đủ so với quy gán (6.4)
+## Bài tập 8: [FLUID-ICU] Diễn giải mô hình: thô so với hiệu chỉnh, trường hợp đầy đủ so với quy gán đa bội (multiple imputation) (6.4)
 
-**Nhiệm vụ.** Điền Phần A và B và viết hai câu Kết quả. Trên lớp, làm Phần A và hai câu cho Q1 với bảng mô hình trong gói kết quả Q1. Ở nhà, làm Phần A và B cho câu hỏi bạn chọn với bảng hồi quy và bảng dữ liệu thiếu trong gói kết quả của câu hỏi đó. Phần C chỉ dành cho Q1.
+**Nhiệm vụ.** Điền các phần và viết hai câu Kết quả. Trên lớp, làm Phần A và hai câu cho Q1. Ở nhà, làm Phần B và C cho Q1. Sau đó làm lại Phần A cho câu hỏi bạn chọn, và cả Phần B nếu bạn chọn Q4. Chỉ gói kết quả Q1 và Q4 có phân tích quy gán đa bội. Bảng dưới đây cho biết tìm từng con số ở đâu.
+
+**Tìm các con số ở đâu trong gói kết quả**
+
+| Câu hỏi | Phần A: ước lượng thô và hiệu chỉnh, khoảng tin cậy 95% và n | Yếu tố gây nhiễu (câu 1) | Phần B: trường hợp đầy đủ so với quy gán đa bội (câu 4 và 5) |
+|---|---|---|---|
+| Q1 | Bảng 6, dòng "Thô, tất cả người bệnh" và "Hiệu chỉnh, các trường hợp đầy đủ (chính)". Bảng 3 cho cùng các tỷ số chênh. | Mục 2, dòng "Các yếu tố gây nhiễu xác định trước (SAP)" | Bảng 6, dòng "Hiệu chỉnh, các trường hợp đầy đủ (chính)" và "Hiệu chỉnh, quy gán đa bội (m = 20)". Ai bị loại: lưu đồ người tham gia ở cuối mục 2 |
+| Q2 | Bảng 4, dòng "Cân bằng dịch mỗi 10 ml/kg, thô" và "Cân bằng dịch mỗi 10 ml/kg, hiệu chỉnh" | Mục 2, dòng "Các yếu tố gây nhiễu xác định trước (SAP)" | Không có trong gói này |
+| Q3 | Bảng 3, dòng "Cân bằng dịch mỗi 10 ml/kg, thô (tuyến tính)" và "Cân bằng dịch mỗi 10 ml/kg, hiệu chỉnh (tuyến tính)" | Mục 2, dòng "Các yếu tố gây nhiễu xác định trước (SAP)" | Không có trong gói này |
+| Q4 | Bảng 4, dòng "Chưa hiệu chỉnh" và "Hiệu chỉnh: tuổi, giới, đái tháo đường, bệnh thận mạn, suy tim (chính)", cả hai với phương pháp "Trường hợp đầy đủ" | Bảng 4, tên dòng "Hiệu chỉnh: ..." | Bảng 4, hai dòng "(chính)". Ai bị loại: Bảng 2 |
+| Q5 | Bảng 3, dòng "Tuyến tính trên thang log, thô (tỷ số trung bình nhân)" và "Tuyến tính trên thang log, hiệu chỉnh (tỷ số trung bình nhân)" | Mục 2, dòng "Các yếu tố gây nhiễu xác định trước (SAP)" | Không có trong gói này |
 
 **Phần A: thô so với hiệu chỉnh**
 
@@ -193,18 +215,18 @@ Một thử nghiệm (mô phỏng) phân bổ ngẫu nhiên 200 người lớn b
 
 1. Mô hình hiệu chỉnh gồm những yếu tố gây nhiễu nào? Chúng có được chọn trước khi phân tích không (xem SAP)?
 2. Ước lượng thay đổi bao nhiêu sau khi hiệu chỉnh, và theo hướng nào? Điều đó cho bạn biết gì về nhiễu do chỉ định?
-3. KTC 95% đã hiệu chỉnh có chứa giá trị "không có tác động" (1 với tỷ số, 0 với hiệu số) không?
+3. khoảng tin cậy 95% đã hiệu chỉnh có chứa giá trị "không có tác động" (1 với tỷ số, 0 với hiệu số) không?
 
-**Phần B: trường hợp đầy đủ so với quy gán đa bội**
+**Phần B (chỉ Q1 và Q4): trường hợp đầy đủ so với quy gán đa bội**
 
 4. Mô hình trường hợp đầy đủ có bao nhiêu người bệnh, và mô hình quy gán đa bội có bao nhiêu? Ai bị loại khỏi phân tích trường hợp đầy đủ?
 5. Ước lượng quy gán đa bội có gần với ước lượng trường hợp đầy đủ không?
 
 **Phần C (chỉ Q1): Kaplan–Meier và Cox**
 
-6. Ghi tỷ lệ sống ở ngày 28 của mỗi nhóm, giá trị p của log-rank, và HR Cox đã hiệu chỉnh kèm KTC 95%. Vì sao kết quả logistic (p = 0.044) và Cox (p = 0.053) cho cùng một thông điệp?
+6. Ghi tỷ lệ sống ở ngày 28 của mỗi nhóm và giá trị p của log-rank (Bảng 2 của gói Q1), và HR Cox đã hiệu chỉnh kèm khoảng tin cậy 95% (Bảng 4). Vì sao kết quả logistic (p = 0.044) và Cox (p = 0.053) cho cùng một thông điệp?
 
-**Hai câu Kết quả của bạn** (thô, rồi hiệu chỉnh, kèm KTC, dùng "có liên quan với", không dùng "gây ra"):
+**Hai câu Kết quả của bạn** (thô, rồi hiệu chỉnh, kèm khoảng tin cậy, dùng "có liên quan với", không dùng "gây ra"):
 
 > ______________________________________________________________________________
 
@@ -236,7 +258,7 @@ Một thử nghiệm (mô phỏng) phân bổ ngẫu nhiên 200 người lớn b
 |---|---|
 | Mô tả người bệnh (Bảng 1) | Biến số dạng số phân phối đối xứng trình bày bằng ______, phân phối lệch bằng ______, biến phân loại bằng ______ |
 | So sánh kết cục chính | Kiểm định: ______ vì kết cục là ______ |
-| Báo cáo tác động | Chỉ số tác động (hiệu số / RR / OR / HR) kèm KTC 95%: ______ |
+| Báo cáo tác động | Chỉ số tác động (hiệu số / RR / OR / HR) kèm khoảng tin cậy 95%: ______ |
 | Xử lý nhiễu (chỉ với thiết kế quan sát) | Chúng tôi sẽ hiệu chỉnh theo: ______ bằng ______ (ví dụ hồi quy logistic) |
 | Dữ liệu thiếu | Chúng tôi sẽ báo cáo số giá trị thiếu của từng biến và phòng ngừa bằng cách: ______ |
 

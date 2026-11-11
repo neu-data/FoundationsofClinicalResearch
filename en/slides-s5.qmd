@@ -37,36 +37,52 @@ No formulas: picture, worked example, check. Never skip the checks.
 QUICK QUIZ · 10 min
 :::
 
-:::: {.columns}
-::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
 - Q1. Patients who smoke are followed for 10 years to see who develops a stroke. Which design?
 - Q2. In a cohort, sicker septic patients receive more fluid and die more often. What is this called?
 - Q3. Mortality is 30% with usual care and 20% with a new strategy. What are the risk ratio (RR) and the number needed to treat (NNT)?
 - Answer each question in the poll (1 minute each), then we discuss
 :::
-:::
-::: {.column width="40%"}
-::: {.neu-side .plain style="--c:#6C3483"}
-How we run it
-
-- Answer in the poll
-- Results on screen, then the answer
-- One volunteer explains why
-:::
-:::
-::::
 
 ::: {.neu-output style="--c:#6C3483"}
 **OUTPUT** Everyone back on track with designs, confounding and the 2x2 measures
 :::
 
 ::: {.notes}
-Recap (19:30-19:40). One poll per question, 1 minute each. Show the results, then the answer, and ask one volunteer to explain.
+Recap (19:30-19:40). One poll per question, 1 minute each. Show the results, then the next slide, and ask one volunteer to explain.
+:::
 
-Q1: prospective cohort (case-control starts from the outcome). Q2: confounding by indication, the reason Paper 2 used propensity matching. Q3: RR = 20/30 = 0.67, RD = 10%, NNT = 1/0.10 = 10.
+## Recap quiz: answers
 
-If a third get Q3 wrong, draw the 2x2 table on screen.
+:::: {.neu-cards style="--n:3"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[Q1. Prospective cohort]{.neu-card-title}
+
+- Starts from the exposure (smoking)
+- Follows people forward to stroke
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[Q2. Confounding by indication]{.neu-card-title}
+
+- Severity drives both fluid and death
+- Why Paper 2 used propensity matching
+:::
+::: {.neu-card .plain style="--c:#5FA39B"}
+[Q3. RR 0.67, NNT 10]{.neu-card-title}
+
+- RR = 20/30 = 0.67
+- RD = 10%, so NNT = 1/0.10 = 10
+:::
+::::
+
+::: {.neu-takeaway}
+**KEY MESSAGE** Case-control starts from the outcome. A cohort starts from the exposure.
+:::
+
+::: {.notes}
+If a third got Q3 wrong, draw the 2x2 table on screen.
+
+Timing: within the 10 minutes of the recap.
 :::
 
 ## 5.1 Good data by design
@@ -200,15 +216,31 @@ Choose
 ::::
 
 ::: {.neu-output style="--c:#6C3483"}
-**OUTPUT** Everyone can name the variable types
+**OUTPUT** One poll vote per variable: everyone can name the variable types
 :::
 
 ::: {.notes}
-Check (3 minutes). One poll per variable, with the six options on the right. Show the results, then the answer.
+Check (3 minutes). One poll per variable, with the six options on the right. Show the results, then the answers on the next slide.
+:::
 
-Heart rate: continuous. GCS: ordinal, often analysed as a number. Blood group: nominal. Ventilated on day 1: binary. Time to extubation: time-to-event, because some patients are never extubated.
+## Answers: what type of variable?
 
-If a third get it wrong, go back one slide.
+| Variable | Type | Why |
+|:---|:---|:---|
+| Heart rate | Continuous | A measured number |
+| GCS (3-15) | Ordinal | Ordered levels, often analysed as a number |
+| Blood group | Nominal | Categories with no order |
+| Ventilated on day 1 | Binary | Two options: yes or no |
+| Time to extubation | Time-to-event | Some patients are never extubated |
+
+::: {.neu-takeaway}
+**KEY MESSAGE** The variable type decides the CRF box, the summary and the test.
+:::
+
+::: {.notes}
+If a third got it wrong, go back one slide.
+
+Timing: within the 3 minutes of the check.
 :::
 
 ## Good vs bad CRF items
@@ -804,7 +836,7 @@ In class we work through all five together. At the end of Session 6 you choose o
 
 - Fluid balance and ventilator-free days
 - Outcome: days from 0 to 28, skewed
-- Analysis: Mann-Whitney and linear regression
+- Analysis: Wilcoxon rank-sum (Mann-Whitney) and linear regression
 :::
 ::: {.neu-card .plain style="--c:#0070C0"}
 [Q4 Lactate]{.neu-card-title}
@@ -818,7 +850,7 @@ In class we work through all five together. At the end of Session 6 you choose o
 
 - Fluid balance and ICU stay in survivors
 - Outcome: days, skewed
-- Analysis: Mann-Whitney and regression on the log scale
+- Analysis: Wilcoxon rank-sum (Mann-Whitney) and regression on the log scale
 :::
 ::::
 
@@ -1037,15 +1069,50 @@ Choose
 ::::
 
 ::: {.neu-output style="--c:#6C3483"}
-**OUTPUT** Every participant can pick the right summary for a variable type
+**OUTPUT** One poll vote per item: the right summary for each variable type
 :::
 
 ::: {.notes}
-Check (3 minutes), one poll per item. Show the results, then the answer.
+Check (3 minutes), one poll per item. Show the results, then the answers on the next slide.
+:::
 
-Length of stay: median (IQR). Age: mean (SD). Ventilated: n (%). AKI stage: n (%) per stage with a bar chart, never a 'mean stage'.
+## Answers: which summary?
 
-If many miss item 1, return to the histogram.
+:::: {.neu-cards style="--n:4"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[Median (IQR)]{.neu-card-title}
+
+- ICU stay is skewed
+- A few patients stay very long
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[Mean (SD)]{.neu-card-title}
+
+- Age is bell-shaped
+- So the mean fits
+:::
+::: {.neu-card .plain style="--c:#5FA39B"}
+[n (%)]{.neu-card-title}
+
+- Yes or no
+- Count and percent
+:::
+::: {.neu-card .plain style="--c:#0070C0"}
+[n (%) per stage]{.neu-card-title}
+
+- Ordered categories: bar chart
+- Never a 'mean stage'
+:::
+::::
+
+::: {.neu-takeaway}
+**KEY MESSAGE** Skewed: median (IQR). Bell-shaped: mean (SD). Categories: n (%).
+:::
+
+::: {.notes}
+If many missed item 1, return to the histogram.
+
+Timing: within the 3 minutes of the check.
 :::
 
 ## Which graph for which data?
@@ -1281,7 +1348,7 @@ Ask: why not a bar of the mean SOFA? Expected: it would hide the spread and the 
 ::: {.notes}
 Made by 02\_describe.R, block 7. ICU stay in the 439 survivors is right-skewed: mean 7.5, median 6.2 days.
 
-Q5 reports medians (IQR), uses Mann-Whitney and a log scale in the model.
+Q5 reports medians (IQR), uses Wilcoxon rank-sum (Mann-Whitney) and a log scale in the model.
 
 Every Table 1 has at least one skewed variable.
 :::
@@ -1295,7 +1362,7 @@ WHOLE-CLASS TASK · 10 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0D7377"}
-- Table 1 of FLUID-ICU, in any results pack (exercise sheet, Exercise 6)
+- Table 1 of FLUID-ICU, in the Q1 results pack (exercise sheet, Exercise 6). The Q4 and Q5 packs have a different Table 1
 - Which summaries does it use, were the groups alike at the start, and how would you describe the patients?
 :::
 :::
@@ -1320,7 +1387,7 @@ Whole class, 10 minutes (21:45-21:55). Exercise 6. Answers: s5\_solutions.md.
 
 5 minutes: everyone works alone. Then 4 minutes: call on two or three people for the summaries (age mean, SOFA median, vasopressor n %), the biggest difference (severity) and their two sentences, and type a class version. Last minute: what the Q2 to Q5 packs add (for example, Q5 has a survivors-only table).
 
-A class version, e.g. 'Of 620 patients, 618 had a day-3 balance and 373 (60.4%) were positive. They were sicker (median SOFA 8 vs 6, vasopressor 55.0% vs 24.9%).'
+A class version, e.g. 'Of 620 patients, 618 had a day-3 balance and 373 were positive. They were sicker (median SOFA 8 vs 6, vasopressor 55% vs 25%).'
 
 These sentences are the start of a Results section.
 :::

@@ -41,7 +41,7 @@ Kỹ năng thực hành chỉ được dạy ở mức phân tích cần đến:
 Khi kết thúc Cấp độ 2, học viên có thể:
 
 1. Nhập, làm sạch và mô tả một bộ dữ liệu lâm sàng bằng script R, và lập Bảng 1.
-2. Mô tả dữ liệu thiếu và giải thích sự khác nhau giữa phân tích ca đầy đủ (complete-case) và quy gán đa bội.
+2. Mô tả dữ liệu thiếu và giải thích sự khác nhau giữa phân tích ca đầy đủ (complete-case) và quy gán đa bội (multiple imputation).
 3. Chọn mô hình hồi quy phù hợp dựa trên loại kết cục và câu hỏi nghiên cứu.
 4. Khám phá dữ liệu trước khi xây dựng mô hình, bằng các số liệu tóm tắt và biểu đồ phù hợp với vấn đề phân tích.
 5. Xây dựng, kiểm tra, diễn giải và báo cáo mô hình tuyến tính, logistic, mô hình cho biến đếm (Poisson, nhị thức âm, thừa số 0) và mô hình Cox, bao gồm cả nhiễu và tương tác.
@@ -97,13 +97,13 @@ Khi kết thúc Cấp độ 2, học viên có thể:
 
 ### Buổi 3: Hồi quy logistic chuyên sâu
 
-- **EDA cho kết cục nhị phân:** tỷ lệ kết cục theo từng biến dự báo phân loại (kèm KTC 95%); biểu đồ hộp của các biến dự báo liên tục theo kết cục; tỷ lệ có kết cục theo các nhóm (thập phân vị) của một biến dự báo liên tục, để xem mối liên quan có tuyến tính trên thang log-odds hay không; kiểm tra mỗi ô đều có đủ biến cố.
+- **EDA cho kết cục nhị phân:** tỷ lệ kết cục theo từng biến dự báo phân loại (kèm khoảng tin cậy 95%); biểu đồ hộp của các biến dự báo liên tục theo kết cục; tỷ lệ có kết cục theo các nhóm (thập phân vị) của một biến dự báo liên tục, để xem mối liên quan có tuyến tính trên thang log-odds hay không; kiểm tra mỗi ô đều có đủ biến cố.
 - **Mô hình:** số chênh và tỷ số chênh; hàm liên kết logit; ý nghĩa các hệ số; OR cho biến dự báo liên tục theo một đơn vị có ý nghĩa; OR thô và OR đã hiệu chỉnh (thấy rõ nhiễu do chỉ định).
 - **Xây dựng mô hình:** số biến cố trên mỗi biến và quá khớp; vì sao chọn biến từng bước (stepwise) gây hiểu sai; nhiễu và tương tác (thay đổi tác động), cách kiểm định và báo cáo một tương tác.
 - **Giả định và kiểm tra:** tính tuyến tính trên thang logit (so sánh spline với chia nhóm); hiện tượng tách biệt (separation) và dữ liệu thưa; các quan sát có ảnh hưởng lớn; phần dư với **DHARMa**.
 - **Cơ bản về hiệu năng mô hình:** khả năng phân biệt (đường cong ROC, AUC với **pROC**) và hiệu chuẩn (quan sát so với dự báo theo nhóm nguy cơ); vì sao những chỉ số này quan trọng với mục đích dự báo hơn là giải thích.
 - **Giới thiệu kết cục thứ bậc:** hồi quy logistic số chênh tỷ lệ (proportional odds) cho kết cục có thứ bậc như giai đoạn AKI 0 đến 3 (`MASS::polr`), và giả định chính của mô hình này.
-- **Báo cáo:** bảng OR thô và OR đã hiệu chỉnh kèm KTC 95%; biểu đồ rừng (forest plot) của các OR; cách viết theo STROBE.
+- **Báo cáo:** bảng OR thô và OR đã hiệu chỉnh kèm khoảng tin cậy 95%; biểu đồ rừng (forest plot) của các OR; cách viết theo STROBE.
 - **FLUID-ICU:** cân bằng dịch dương và tử vong 28 ngày (Q1: OR thô 2.49, OR đã hiệu chỉnh 1.62), cùng tương tác với suy tim; cân bằng dịch và AKI (Q2).
 - **Sản phẩm:** `04_logistic.R`, bảng OR thô và OR đã hiệu chỉnh, một biểu đồ rừng và một đoạn diễn giải ngắn.
 
@@ -114,7 +114,7 @@ Khi kết thúc Cấp độ 2, học viên có thể:
 - **Hồi quy Poisson:** hàm liên kết log; tỷ số tỷ suất (rate ratio) và cách diễn giải; offset cho thời gian theo dõi khác nhau (ví dụ số ngày nằm ICU), và khi nào cần offset.
 - **Giả định và kiểm tra:** trung bình bằng phương sai; tính độc lập; kiểm định quá phân tán (overdispersion) và kiểm tra phần dư (**DHARMa**, `performance::check_overdispersion`); quá phân tán ảnh hưởng thế nào đến sai số chuẩn và giá trị p.
 - **Khi mô hình Poisson không phù hợp:** hồi quy nhị thức âm (`MASS::glm.nb`); sai số chuẩn vững (sandwich) là một cách khác; so sánh mô hình Poisson và nhị thức âm (AIC, biểu đồ phần dư, số đếm quan sát so với dự báo).
-- **Báo cáo:** bảng tỷ số tỷ suất kèm KTC 95%; câu "tỷ suất ... cao gấp X lần ...".
+- **Báo cáo:** bảng tỷ số tỷ suất kèm khoảng tin cậy 95%; câu "tỷ suất ... cao gấp X lần ...".
 - **FLUID-ICU:** một kết cục dạng biến đếm mô phỏng (đề xuất: số lần nhiễm khuẩn mắc phải tại ICU, với thời gian nằm ICU làm offset; xem các vấn đề còn mở).
 - **Sản phẩm:** `05_count.R`, so sánh mô hình Poisson và nhị thức âm, và bảng tỷ số tỷ suất kèm phần diễn giải.
 
@@ -132,13 +132,13 @@ Khi kết thúc Cấp độ 2, học viên có thể:
 
 ### Buổi 6: Phân tích sống còn: Kaplan–Meier và mô hình Cox
 
-- **Dữ liệu thời gian đến biến cố:** dữ liệu bị kiểm duyệt (censoring), và vì sao bỏ qua nó sẽ cho kết quả sai; hàm sống còn và hàm nguy cơ tức thời bằng lời đơn giản; cách sắp xếp dữ liệu để phân tích (thời gian và tình trạng biến cố).
-- **EDA cho dữ liệu thời gian đến biến cố:** thời gian theo dõi và số biến cố theo nhóm; kiểm duyệt xảy ra khi nào và có khác nhau giữa các nhóm hay không; đường cong Kaplan–Meier theo từng biến dự báo phân loại chính, kèm số người còn nguy cơ (**ggsurvfit**).
-- **Kaplan–Meier và kiểm định log-rank:** tỷ lệ sống còn tại một thời điểm cố định kèm KTC 95%; thời gian sống còn trung vị; kiểm định log-rank so sánh điều gì.
+- **Dữ liệu thời gian đến biến cố:** dữ liệu có thông tin khuyết (censoring), và vì sao bỏ qua nó sẽ cho kết quả sai; hàm sống còn và hàm nguy cơ tức thời bằng lời đơn giản; cách sắp xếp dữ liệu để phân tích (thời gian và tình trạng biến cố).
+- **EDA cho dữ liệu thời gian đến biến cố:** thời gian theo dõi và số biến cố theo nhóm; thông tin khuyết xảy ra khi nào và có khác nhau giữa các nhóm hay không; đường cong Kaplan–Meier theo từng biến dự báo phân loại chính, kèm số người còn nguy cơ (**ggsurvfit**).
+- **Kaplan–Meier và kiểm định log-rank:** tỷ lệ sống còn tại một thời điểm cố định kèm khoảng tin cậy 95%; thời gian sống còn trung vị; kiểm định log-rank so sánh điều gì.
 - **Mô hình Cox:** tỷ số nguy cơ tức thời và ý nghĩa của nó (cũng như điều nó không có nghĩa); HR thô và HR đã hiệu chỉnh; biến dự báo liên tục theo một đơn vị có ý nghĩa.
 - **Giả định nguy cơ tỷ lệ:** ý nghĩa của giả định; kiểm tra bằng phần dư Schoenfeld (`cox.zph`) và biểu đồ log-minus-log; xử lý khi giả định không được đáp ứng (phân tầng; giới thiệu cách chia thời gian theo dõi). Biến số thay đổi theo thời gian và nguy cơ cạnh tranh được nhắc đến và được dạy ở Cấp độ 3 (Học phần D).
 - **Các kiểm tra khác:** dạng hàm của biến dự báo liên tục; các quan sát có ảnh hưởng lớn.
-- **Báo cáo:** biểu đồ Kaplan–Meier kèm số người còn nguy cơ; bảng HR thô và HR đã hiệu chỉnh kèm KTC 95%; nêu việc kiểm tra giả định nguy cơ tỷ lệ trong phần Phương pháp.
+- **Báo cáo:** biểu đồ Kaplan–Meier kèm số người còn nguy cơ; bảng HR thô và HR đã hiệu chỉnh kèm khoảng tin cậy 95%; nêu việc kiểm tra giả định nguy cơ tỷ lệ trong phần Phương pháp.
 - **FLUID-ICU:** cân bằng dịch dương và sống còn 28 ngày (Q1: Kaplan–Meier 81.6% so với 64.1% tại ngày 28; HR đã hiệu chỉnh 1.46; kiểm định tổng thể giả định nguy cơ tỷ lệ p = 0.10), so sánh với kết quả hồi quy logistic ở Buổi 3.
 - **Sản phẩm:** `07_survival.R`, một biểu đồ Kaplan–Meier, bảng HR kèm kiểm tra giả định nguy cơ tỷ lệ và một đoạn diễn giải ngắn. *Buổi gặp riêng thứ 2 diễn ra sau buổi này.*
 
@@ -151,7 +151,7 @@ Khi kết thúc Cấp độ 2, học viên có thể:
 
 ### Buổi 8: Dự án phân tích (II): viết phần Kết quả và chia sẻ
 
-- **Viết phần Kết quả:** từ kết quả phân tích đến văn bản; nêu độ lớn tác động kèm KTC 95% trước giá trị p; ngôn ngữ chừng mực; các con số khớp nhau giữa văn bản, bảng và biểu đồ; các mục STROBE (hoặc CONSORT) cho phần Kết quả; đoạn phân tích thống kê cho phần Phương pháp.
+- **Viết phần Kết quả:** từ kết quả phân tích đến văn bản; nêu độ lớn tác động kèm khoảng tin cậy 95% trước giá trị p; ngôn ngữ chừng mực; các con số khớp nhau giữa văn bản, bảng và biểu đồ; các mục STROBE (hoặc CONSORT) cho phần Kết quả; đoạn phân tích thống kê cho phần Phương pháp.
 - **Trên lớp:** giảng viên cùng cả lớp viết đoạn Kết quả cho câu hỏi mẫu. Sau đó học viên tự viết bản nháp phần Kết quả của mình.
 - **Chia sẻ lại:** trong giờ cuối, một số học viên (nếu có thể thì mỗi loại mô hình một người) trình bày trước lớp trong 5 phút câu hỏi, lựa chọn mô hình, các kiểm tra và kết quả chính của mình. Giảng viên và cả lớp nhận xét về lựa chọn mô hình, các kiểm tra và cách diễn đạt.
 - **Sản phẩm:** một phần Kết quả (khoảng 300 đến 500 từ) kèm Bảng 1, một bảng kết quả chính và một biểu đồ, cùng các script R đã tạo ra chúng.
@@ -186,7 +186,7 @@ Không yêu cầu một dự án có thể lặp lại hoàn chỉnh với báo 
 |---|---|---|
 | Sản phẩm từng buổi (Buổi 1 đến 6) | 40% | Hoàn thành và chạy được (đạt hoặc không đạt cho từng sản phẩm, kèm phản hồi ngắn) |
 | Dự án phân tích: script và mô hình (Buổi 7) | 30% | Script chạy được; mô hình phù hợp với câu hỏi và kết cục; đã làm EDA; đã kiểm tra giả định; diễn giải đúng |
-| Dự án phân tích: phần Kết quả (Buổi 8) | 30% | Độ lớn tác động kèm KTC 95%; bảng và văn bản khớp nhau; đủ các mục của hướng dẫn báo cáo; ngôn ngữ chừng mực |
+| Dự án phân tích: phần Kết quả (Buổi 8) | 30% | Độ lớn tác động kèm khoảng tin cậy 95%; bảng và văn bản khớp nhau; đủ các mục của hướng dẫn báo cáo; ngôn ngữ chừng mực |
 
 Điểm số dùng để phản hồi, không dùng để xếp hạng.
 

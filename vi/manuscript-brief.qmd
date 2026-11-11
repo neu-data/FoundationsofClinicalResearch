@@ -21,7 +21,7 @@ Tải về: [Word](files/assignments/Manuscript_Brief_VN.docx) · [PDF](files/as
 
 ## 1. Mục đích
 
-Bạn viết phần Kết quả của một bài báo FLUID-ICU theo đúng chuẩn tạp chí yêu cầu: mọi số liệu đều đúng, mọi ước lượng đều kèm KTC 95%, bảng tự đọc hiểu được và không diễn giải.
+Bạn viết phần Kết quả của một bài báo FLUID-ICU theo đúng chuẩn tạp chí yêu cầu: mọi số liệu đều đúng, mọi ước lượng đều kèm khoảng tin cậy 95%, bảng tự đọc hiểu được và không diễn giải.
 
 
 * * *
@@ -35,7 +35,7 @@ Cả lớp cùng làm năm câu hỏi ở Buổi 5 và 6 (Q1 làm đầy đủ).
 | **Q1** | Cân bằng dịch dương đến ngày 3 có liên quan với tử vong 28 ngày cao hơn không? | Hồi quy logistic thô và đã hiệu chỉnh (OR), đường cong Kaplan-Meier và mô hình Cox (HR) |
 | **Q2** | Cân bằng dịch tích lũy có liên quan với tổn thương thận cấp (AKI) không? | Hồi quy logistic thô và đã hiệu chỉnh |
 | **Q3** | Cân bằng dịch tích lũy có liên quan với số ngày không thở máy ít hơn không? | Hồi quy tuyến tính và một phép so sánh phi tham số |
-| **Q4** | Lactat ban đầu có liên quan với tử vong 28 ngày không, và câu trả lời có thay đổi theo cách xử lý lactat bị thiếu không? | Hồi quy logistic, phân tích các trường hợp đầy đủ so với quy gán đa bội |
+| **Q4** | Lactat ban đầu có liên quan với tử vong 28 ngày không, và câu trả lời có thay đổi theo cách xử lý lactat bị thiếu không? | Hồi quy logistic, phân tích các trường hợp đầy đủ so với quy gán đa bội (multiple imputation) |
 | **Q5** | Ở người sống sót, cân bằng dịch có liên quan với thời gian nằm ICU dài hơn không? | Trung vị (IQR), hồi quy tuyến tính trên thang logarit hoặc kiểm định phi tham số |
 
 
@@ -62,7 +62,7 @@ Nếu gói kết quả thiếu thông tin, hãy hỏi giảng viên.
 | Phần | Yêu cầu |
 |---|---|
 | Tên bài dự kiến | Một dòng, nêu đối tượng, phơi nhiễm, kết cục và thiết kế, ví dụ "Cân bằng dịch dương đến ngày 3 và tử vong 28 ngày ở người bệnh sepsis: một nghiên cứu thuần tập đa trung tâm" |
-| Nội dung phần Kết quả | Mục 13 đến 17 của STROBE, theo thứ tự: (1) người tham gia và lưu đồ, (2) đặc điểm ban đầu (Bảng 1) và dữ liệu thiếu, (3) số kết cục ở mỗi nhóm, (4) kết quả chính, thô và đã hiệu chỉnh, kèm KTC 95%, (5) các phân tích khác trong gói kết quả (phân tích độ nhạy, quy gán hoặc phân nhóm). Khoảng 400 đến 600 từ |
+| Nội dung phần Kết quả | Mục 13 đến 17 của STROBE, theo thứ tự: (1) người tham gia và lưu đồ, (2) đặc điểm ban đầu (Bảng 1) và dữ liệu thiếu, (3) số kết cục ở mỗi nhóm, (4) kết quả chính, thô và đã hiệu chỉnh, kèm khoảng tin cậy 95%, (5) các phân tích khác trong gói kết quả (phân tích độ nhạy, quy gán hoặc phân nhóm). Khoảng 400 đến 600 từ |
 | Bảng 1 | Đặc điểm ban đầu, lấy từ gói kết quả |
 | Một bảng hoặc hình kết quả chính | Ví dụ ước lượng thô và đã hiệu chỉnh, hoặc đường cong Kaplan-Meier (Q1) |
 | Câu công khai sử dụng AI | Xem mục 6 |
@@ -71,7 +71,7 @@ Bảng 1 và bảng hoặc hình kết quả chính đã có sẵn trong gói k�
 
 **Sẵn sàng để nộp** nghĩa là:
 - mọi số liệu khớp với gói kết quả
-- tỷ lệ phần trăm có mẫu số, ước lượng có KTC 95%
+- tỷ lệ phần trăm có mẫu số, ước lượng có khoảng tin cậy 95%
 - mỗi bảng và hình tự đọc hiểu được (tên, đơn vị, n, giải thích chữ viết tắt)
 - không diễn giải ("vì", "gợi ý rằng", "có xu hướng có ý nghĩa")
 - viết trong mẫu, ở thì quá khứ

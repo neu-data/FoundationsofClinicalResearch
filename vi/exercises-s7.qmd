@@ -118,10 +118,12 @@ Rủi ro lớn nhất về tính khả thi: ______________________  Một cách 
 Bản nháp của lớp được gửi dạng PDF sau buổi học. Nếu bạn chọn Q1, hãy viết bằng lời của mình.
 
 ### Danh sách kiểm tra phần Kết quả (mục STROBE)
+Mỗi mục cần số liệu từ một chỗ cụ thể trong gói. Với Q1, số người tham gia nằm ở mục 2 của gói, sau đó là Bảng 1 (14), Bảng 2 (15), Bảng 3 và 4 (16) và Bảng 5 và 6 (17). Với Q2 đến Q5, mục cuối của gói, "Các mục STROBE mà gói này giúp bạn viết", cho biết bảng dùng cho từng mục.
+
 - [ ] Người tham gia trước: số được thu nhận, được phân tích và bị loại, kèm lý do (13)
 - [ ] Bảng 1 trong một hoặc hai câu có số liệu. Có báo cáo dữ liệu thiếu (14)
 - [ ] Số kết cục ở mỗi nhóm, kèm mẫu số (15)
-- [ ] Kết quả chính: ước lượng **thô và đã hiệu chỉnh** kèm KTC 95% (16)
+- [ ] Kết quả chính: ước lượng **thô và đã hiệu chỉnh** kèm khoảng tin cậy 95% (16)
 - [ ] Các phân tích khác trong gói kết quả: độ nhạy, quy gán hoặc phân nhóm (17)
 - [ ] Bảng 1 và một bảng hoặc hình chính tự đọc hiểu được
 - [ ] Không bình luận ("vì", "gợi ý rằng") và không dùng từ nhân quả

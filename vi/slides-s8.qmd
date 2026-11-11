@@ -37,35 +37,51 @@ Trước buổi học: gửi email phiếu bài tập, hai bài báo gốc và p
 CÂU HỎI NHANH · 5 phút
 :::
 
-:::: {.columns}
-::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#6C3483"}
 - Ai đồng ý cho người bệnh sốc nhiễm khuẩn đang an thần?
 - Mục STROBE nào yêu cầu ước lượng thô và hiệu chỉnh?
 - Câu 'có thể do người bệnh nặng hơn được truyền nhiều dịch hơn' thuộc phần nào?
 :::
-:::
-::: {.column width="40%"}
-::: {.neu-side .plain style="--c:#6C3483"}
-Cách thực hiện
-
-- Trả lời qua bình chọn
-- Xem kết quả, rồi công bố đáp án
-- Một bạn tình nguyện giải thích
-:::
-:::
-::::
 
 ::: {.neu-output style="--c:#6C3483"}
 **SẢN PHẨM** Làm riêng (2 phút): trả lời ba câu hỏi, rồi bình chọn
 :::
 
 ::: {.notes}
-Ôn tập (19:30-19:35). 2 phút: mỗi người tự trả lời. Sau đó mỗi câu một thăm dò. Xem kết quả, rồi công bố đáp án. Câu 1 là câu hỏi cuối Buổi 7: mời hai ba người đọc câu trả lời của mình.
+Ôn tập (19:30-19:35). 2 phút: mỗi người tự trả lời. Sau đó mỗi câu một thăm dò. Xem kết quả, rồi chiếu slide sau. Câu 1 là câu hỏi cuối Buổi 7: mời hai ba người đọc câu trả lời của mình.
+:::
 
-Đáp án: Câu 1, người đại diện hợp pháp, hoặc đồng ý trì hoãn nếu hội đồng đạo đức đã duyệt. Người bệnh không thể tự đồng ý. Câu 2, mục 16 (kết quả chính), yêu cầu ước lượng thô và hiệu chỉnh kèm KTC. Câu 3, Bàn luận, không phải Kết quả. Câu này giải thích một phát hiện chứ không báo cáo nó.
+## Câu hỏi ôn tập: đáp án
 
+:::: {.neu-cards style="--n:3"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[Người đại diện hợp pháp]{.neu-card-title}
+
+- Người bệnh không thể tự đồng ý
+- Hoặc đồng ý trì hoãn, nếu hội đồng đạo đức đã duyệt
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[Mục 16 của STROBE]{.neu-card-title}
+
+- Kết quả chính
+- Ước lượng thô và hiệu chỉnh kèm khoảng tin cậy
+:::
+::: {.neu-card .plain style="--c:#5FA39B"}
+[Bàn luận]{.neu-card-title}
+
+- Câu này giải thích một phát hiện
+- Nó không báo cáo phát hiện
+:::
+::::
+
+::: {.neu-takeaway}
+**THÔNG ĐIỆP CHÍNH** Bàn luận là nơi để diễn giải.
+:::
+
+::: {.notes}
 Câu 3 dẫn vào 8.1: Bàn luận là nơi để diễn giải.
+
+Thời gian: trong 5 phút của phần ôn tập.
 :::
 
 ## 8.1  \|  30 phút
@@ -173,9 +189,46 @@ Chọn
 :::
 
 ::: {.notes}
-Kiểm tra (2 phút). 1 phút tự làm, rồi mỗi câu một thăm dò: đã biết, chưa biết, mục tiêu, hay không thuộc Đặt vấn đề. Mời một hai người giải thích câu 4.
+Kiểm tra (2 phút). 1 phút tự làm, rồi mỗi câu một thăm dò. Mời một hai người giải thích câu 4. Đáp án ở slide sau.
+:::
 
-Đáp án: 1, điều đã biết (đoạn 1): đây là thực hành đã được công nhận. 2, điều chưa biết (đoạn 2): câu này nêu khoảng trống. 3, mục tiêu (đoạn 3): câu này nêu điều chúng tôi đánh giá. 4, không thuộc Đặt vấn đề: đây là kết quả của chính nghiên cứu, nên nằm ở phần Kết quả. Câu 4 là câu bẫy.
+## Đáp án: đã biết, chưa biết hay mục tiêu?
+
+:::: {.neu-cards style="--n:4"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[Điều đã biết]{.neu-card-title}
+
+- Đoạn 1
+- Thực hành đã được công nhận
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[Điều chưa biết]{.neu-card-title}
+
+- Đoạn 2
+- Câu này nêu khoảng trống
+:::
+::: {.neu-card .plain style="--c:#5FA39B"}
+[Mục tiêu]{.neu-card-title}
+
+- Đoạn 3
+- Câu này nêu điều chúng tôi đánh giá
+:::
+::: {.neu-card .plain style="--c:#0070C0"}
+[Không thuộc Đặt vấn đề]{.neu-card-title}
+
+- Kết quả của chính nghiên cứu
+- Nằm ở phần Kết quả
+:::
+::::
+
+::: {.neu-takeaway}
+**THÔNG ĐIỆP CHÍNH** Phần Đặt vấn đề không bao giờ báo cáo kết quả của chính bạn.
+:::
+
+::: {.notes}
+Câu 4 là câu bẫy.
+
+Thời gian: trong 2 phút của phần kiểm tra.
 :::
 
 ## Bàn luận: sáu bước
@@ -236,10 +289,10 @@ Thăm dò: người mới viết hay bỏ bước nào? Kỳ vọng: hướng sa
 Sáu bước, mỗi bước một câu (dữ liệu mô phỏng).
 :::
 
-- 1 Trả lời: Cân bằng dương đến ngày 3 có liên quan với tử vong 28 ngày cao hơn (OR hiệu chỉnh 1.62, KTC 95% 1.02 đến 2.59).
+- 1 Trả lời: Cân bằng dương đến ngày 3 có liên quan với tử vong 28 ngày cao hơn (OR hiệu chỉnh 1.62, khoảng tin cậy 95% 1.02 đến 2.59).
 - 2 So sánh: Phù hợp với Bài 2 (HR ngày 2 là 2.13), dù ước lượng hiệu chỉnh của chúng tôi nhỏ hơn.
 - 3 Giải thích: Phần lớn liên quan thô (OR 2.49) phản ánh nhiễu do chỉ định: người bệnh nặng hơn được truyền nhiều dịch hơn.
-- 4 Hạn chế: Nhiễu còn sót và quan hệ nhân quả ngược có thể phóng đại mối liên quan. KTC của HR Cox hiệu chỉnh chạm 1.00.
+- 4 Hạn chế: Nhiễu còn sót và quan hệ nhân quả ngược có thể phóng đại mối liên quan. Khoảng tin cậy của HR Cox hiệu chỉnh chạm 1.00.
 - 5 Hàm ý: Dữ liệu này không đủ để khuyến cáo hạn chế dịch. Cần một thử nghiệm ngẫu nhiên (như Bài 1).
 - 6 Kết luận: 'có liên quan với', cùng động từ với mục tiêu, tóm tắt và tiêu đề.
 
@@ -282,7 +335,7 @@ Thô 2.49, hiệu chỉnh 1.62, quy gán 1.70. Mức giảm là bài học của
 
 KTC đã hiệu chỉnh bắt đầu từ 1.02: 'vẫn còn một mối liên quan vừa phải'.
 
-Hỏi: nếu KTC đã hiệu chỉnh cắt qua 1 thì sao? Kỳ vọng: 'không có bằng chứng rõ về mối liên quan sau hiệu chỉnh', không phải 'không có tác động'.
+Hỏi: nếu khoảng tin cậy đã hiệu chỉnh cắt qua 1 thì sao? Kỳ vọng: 'không có bằng chứng rõ về mối liên quan sau hiệu chỉnh', không phải 'không có tác động'.
 :::
 
 ## Ngôn ngữ chừng mực: chọn động từ theo thiết kế
@@ -328,7 +381,7 @@ CÂU HỎI NHANH · 2 phút
 ::: {.neu-activity-steps style="--c:#6C3483"}
 - 'Cân bằng dương gây ra tử vong cao hơn (OR 1.62).'
 - 'Quá tải dịch làm tăng AKI (tổn thương thận cấp) (OR 1.27 mỗi 10 ml/kg).'
-- 'Có xu hướng tử vong (HR Cox 1.46, KTC 95% 1.00 đến 2.13).'
+- 'Có xu hướng tử vong (HR Cox 1.46, khoảng tin cậy 95% 1.00 đến 2.13).'
 - 'Lactat dự báo tử vong (OR 1.39 mỗi mmol/L).'
 :::
 :::
@@ -343,13 +396,50 @@ Chọn
 ::::
 
 ::: {.neu-output style="--c:#6C3483"}
-**SẢN PHẨM** Làm riêng (1 phút): đánh dấu mỗi câu 'ổn' hay 'cần sửa', và viết cách sửa
+**SẢN PHẨM** Làm riêng (1 phút): viết cách sửa, rồi bình chọn 'ổn' hay 'cần sửa'
 :::
 
 ::: {.notes}
-Kiểm tra (2 phút). 1 phút tự làm, rồi mỗi câu một thăm dò: 'ổn' hay 'cần sửa'. Mời hai ba người nêu cách sửa.
+Kiểm tra (2 phút). 1 phút tự làm, rồi mỗi câu một thăm dò. Mời hai ba người nêu cách sửa. Cách sửa ở slide sau.
+:::
 
-Cách sửa: 1, cần sửa: 'có liên quan với tử vong cao hơn', vì nghiên cứu thuần tập không chứng minh được nhân quả. 2, cần sửa: 'có liên quan với khả năng AKI cao hơn'. 3, cần sửa: không dùng 'xu hướng', nêu HR 1.46 (1.00 đến 2.13) và nói KTC chạm 1. 4, ổn nếu là dự báo. Nếu nói về nhân quả, dùng 'có liên quan với'.
+## Đáp án: sửa động từ
+
+:::: {.neu-cards style="--n:4"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[Câu 1: cần sửa]{.neu-card-title}
+
+- 'có liên quan với tử vong cao hơn'
+- Thuần tập không chứng minh được nhân quả
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[Câu 2: cần sửa]{.neu-card-title}
+
+- 'có liên quan với khả năng AKI cao hơn'
+- Cùng lý do: thuần tập
+:::
+::: {.neu-card .plain style="--c:#5FA39B"}
+[Câu 3: cần sửa]{.neu-card-title}
+
+- Không dùng 'xu hướng'. Nêu HR 1.46 (1.00 đến 2.13)
+- Nói khoảng tin cậy chạm 1
+:::
+::: {.neu-card .plain style="--c:#0070C0"}
+[Câu 4: ổn]{.neu-card-title}
+
+- Ổn nếu là dự báo
+- Nếu nói về nhân quả, dùng 'có liên quan với'
+:::
+::::
+
+::: {.neu-takeaway}
+**THÔNG ĐIỆP CHÍNH** Với nghiên cứu thuần tập, động từ là 'có liên quan với'.
+:::
+
+::: {.notes}
+Hỏi cả lớp cách sửa trước khi chiếu đáp án.
+
+Thời gian: trong 2 phút của phần kiểm tra.
 :::
 
 ## Tóm tắt có cấu trúc: phần được đọc đầu tiên
@@ -358,7 +448,7 @@ Cách sửa: 1, cần sửa: 'có liên quan với tử vong cao hơn', vì nghi
 |:---|:---|:---|
 | Đặt vấn đề | Vấn đề, khoảng trống và mục tiêu trong 1-2 câu |
 | Phương pháp | Thiết kế, bối cảnh, đối tượng, phơi nhiễm, kết cục chính, phân tích | Bài 2: quần thể, bối cảnh và cỡ mẫu |
-| Kết quả | Số được phân tích. Tác động chính kèm KTC 95%. Kết quả phụ chính | Bài 2: mọi kết quả dạng HR (KTC 95%) |
+| Kết quả | Số được phân tích. Tác động chính kèm khoảng tin cậy 95%. Kết quả phụ chính | Bài 2: mọi kết quả dạng HR (khoảng tin cậy 95%) |
 | Kết luận | Trả lời mục tiêu bằng lời văn mà thiết kế cho phép | Bài 1: kết quả âm tính nêu thẳng thắn |
 
 ::: {.neu-table-caption}
@@ -368,7 +458,7 @@ Cách sửa: 1, cần sửa: 'có liên quan với tử vong cao hơn', vì nghi
 ::: {.notes}
 Tóm tắt có cấu trúc, 250-300 từ, phải tự đứng được.
 
-Bài 2 nêu mọi kết quả dạng HR kèm KTC. Bài 1 nêu thẳng kết quả âm tính.
+Bài 2 nêu mọi kết quả dạng HR kèm khoảng tin cậy. Bài 1 nêu thẳng kết quả âm tính.
 
 Viết sau cùng và kiểm tra mọi con số khớp với văn bản và bảng.
 :::
@@ -382,15 +472,15 @@ Chép số liệu từ phần Kết quả của bạn (dữ liệu mô phỏng, 
 - **Tiêu đề: Cân bằng dịch dương đến ngày 3 và tử vong 28 ngày ở người bệnh sepsis: nghiên cứu thuần tập đa trung tâm**
 - Đặt vấn đề: Cân bằng dịch dương liên quan với tử vong trong sepsis, nhưng người bệnh nặng hơn được truyền nhiều dịch hơn. Chúng tôi đánh giá mối liên quan sau khi hiệu chỉnh theo mức độ nặng.
 - Phương pháp: Nghiên cứu thuần tập tiến cứu (dữ liệu giảng dạy mô phỏng), 620 người lớn, 4 ICU, 2023-2024. Phơi nhiễm: cân bằng dương đến ngày 3. Kết cục: tử vong 28 ngày. Hồi quy logistic và Cox hiệu chỉnh theo mức độ nặng.
-- Kết quả: Trong 618 người bệnh, 373 (60.4%) có cân bằng dương. Tử vong 35.9% so với 18.4%. OR thô 2.49 (1.70 đến 3.70). OR hiệu chỉnh 1.62 (KTC 95% 1.02 đến 2.59).
+- Kết quả: Trong 618 người bệnh, 373 (60.4%) có cân bằng dương. Tử vong 35.9% so với 18.4%. OR thô 2.49 (1.70 đến 3.70). OR hiệu chỉnh 1.62 (khoảng tin cậy 95% 1.02 đến 2.59).
 - Kết luận: Cân bằng dương có liên quan ở mức vừa phải với tử vong 28 ngày. Phần lớn mối liên quan thô phản ánh mức độ nặng. Cần một thử nghiệm ngẫu nhiên.
 
 ::: {.notes}
 Ví dụ mẫu (mô phỏng). Tên bài là bắt buộc với mọi người. Tóm tắt không bắt buộc nộp, nhưng ai cũng cần biết cách viết.
 
-Kết luận: 'có liên quan ở mức vừa phải', khớp với KTC 1.02 đến 2.59.
+Kết luận: 'có liên quan ở mức vừa phải', khớp với khoảng tin cậy 1.02 đến 2.59.
 
-Hỏi: câu nào thay đổi nếu KTC là 0.95 đến 2.40? Kỳ vọng: Kết quả và Kết luận.
+Hỏi: câu nào thay đổi nếu khoảng tin cậy là 0.95 đến 2.40? Kỳ vọng: Kết quả và Kết luận.
 :::
 
 ## Kiểm tra: sửa các câu trong tóm tắt
@@ -413,22 +503,56 @@ CÂU HỎI NHANH · 2 phút
 Kiểm tra từng câu
 
 - Đã nêu thiết kế, bối cảnh và đối tượng chưa?
-- Có con số kèm KTC 95% chưa?
+- Có con số kèm khoảng tin cậy 95% chưa?
 - Động từ có đúng với thiết kế không?
 :::
 :::
 ::::
 
 ::: {.neu-output style="--c:#6C3483"}
-**SẢN PHẨM** Làm riêng (1 phút): viết lại từng câu cho tốt hơn
+**SẢN PHẨM** Làm riêng (1 phút): viết lại từng câu cho tốt hơn, rồi gửi vào khung chat
 :::
 
 ::: {.notes}
-Kiểm tra (2 phút). 1 phút tự làm, rồi mỗi câu mời một hai người nêu cách sửa.
+Kiểm tra (2 phút). 1 phút tự làm, rồi mỗi câu mời một hai người nêu cách sửa. Cách sửa ở slide sau.
+:::
 
-Cách sửa: 1, thêm thiết kế, bối cảnh, đối tượng, phơi nhiễm và kết cục. 2, nêu n, % và OR kèm KTC 95% thay cho 'có ý nghĩa'. 3, dùng 'có liên quan với', vì đây là nghiên cứu thuần tập. 4, nêu các con số chính, vì tóm tắt phải đọc hiểu được khi tách riêng.
+## Đáp án: sửa các câu trong tóm tắt
 
-Mọi con số trong tóm tắt phải khớp với phần Kết quả.
+:::: {.neu-cards style="--n:4"}
+::: {.neu-card .plain style="--c:#0D7377"}
+[Phương pháp]{.neu-card-title}
+
+- Thêm thiết kế, bối cảnh, đối tượng, phơi nhiễm và kết cục
+:::
+::: {.neu-card .plain style="--c:#0B376C"}
+[Kết quả]{.neu-card-title}
+
+- Nêu n, % và OR kèm khoảng tin cậy 95%
+- Không dùng 'có ý nghĩa'
+:::
+::: {.neu-card .plain style="--c:#5FA39B"}
+[Kết luận]{.neu-card-title}
+
+- Dùng 'có liên quan với'
+- Đây là nghiên cứu thuần tập
+:::
+::: {.neu-card .plain style="--c:#0070C0"}
+[Kết quả]{.neu-card-title}
+
+- Nêu các con số chính
+- Tóm tắt phải đọc hiểu được khi tách riêng
+:::
+::::
+
+::: {.neu-takeaway}
+**THÔNG ĐIỆP CHÍNH** Mọi con số trong tóm tắt phải khớp với phần Kết quả.
+:::
+
+::: {.notes}
+Trước khi chiếu đáp án, mời lớp viết chung một phiên bản cho câu 2.
+
+Thời gian: trong 2 phút của phần kiểm tra.
 :::
 
 ## Tiêu đề và từ khóa: PICO của bạn trong một dòng
@@ -834,7 +958,7 @@ Nhận xét, câu trả lời, và chính xác chỗ đã sửa. Ví dụ minh h
 [R1.1]{.neu-card-title}
 
 - Nhận xét: đề nghị không gọi p = 0.42 là 'xu hướng không có ý nghĩa'.
-- [Chấp nhận: cảm ơn, chúng tôi đồng ý. Đã báo cáo ước lượng kèm KTC 95% và bỏ chữ 'xu hướng'.]{style="color:#2E8B57"}
+- [Chấp nhận: cảm ơn, chúng tôi đồng ý. Đã báo cáo ước lượng kèm khoảng tin cậy 95% và bỏ chữ 'xu hướng'.]{style="color:#2E8B57"}
 - Thay đổi: Bàn luận, tr.10, dòng 4-6
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
@@ -898,9 +1022,23 @@ Chọn
 :::
 
 ::: {.notes}
-Kiểm tra (20:48-20:50). 1 phút tự làm, rồi mỗi câu một thăm dò đúng/sai. Mời một hai người giải thích câu 1.
+Kiểm tra (20:48-20:50). 1 phút tự làm, rồi mỗi câu một thăm dò đúng/sai. Mời một hai người giải thích câu 1. Đáp án ở slide sau.
+:::
 
-Đáp án: 1, thường đúng: nhiều tạp chí săn mồi chủ động gửi email trước, nên cần kiểm tra kỹ. 2, sai: đó là nộp trùng lặp. 3, sai: bản tiền ấn phẩm được đăng trước khi bình duyệt. 4, đúng: trả lời mọi ý, lịch sự và có bằng chứng. 5, sai: FLUID-ICU là nghiên cứu thuần tập, nên theo STROBE.
+## Đáp án: đúng hay sai?
+
+| Câu | Đáp án | Lý do |
+|:---|:---|:---|
+| Tạp chí gửi email mời trước thường là tạp chí săn mồi | Thường đúng | Nhiều tạp chí săn mồi chủ động gửi email trước, nên cần kiểm tra kỹ |
+| Gửi bài cho hai tạp chí cùng lúc | Sai | Đó là nộp trùng lặp |
+| Bản tiền ấn phẩm đã được bình duyệt | Sai | Bản tiền ấn phẩm được đăng trước khi bình duyệt |
+| Phải trả lời mọi nhận xét của người phản biện | Đúng | Trả lời mọi ý, lịch sự và có bằng chứng |
+| Bài báo FLUID-ICU nên theo CONSORT | Sai | FLUID-ICU là nghiên cứu thuần tập, nên theo STROBE |
+
+::: {.notes}
+Câu 1: email mời là dấu hiệu cảnh báo, không phải bằng chứng. Kiểm tra tạp chí trước khi trả lời.
+
+Thời gian: trong 2 phút của phần kiểm tra.
 :::
 
 ---
@@ -1026,8 +1164,8 @@ Câu 3 là giá trị ngoại suy: người bệnh của bạn có được đư
 ::: {.neu-card .plain style="--c:#0B376C"}
 [7  Con số]{.neu-card-title}
 
-- Kết quả chính là số đo tác động nào, kèm KTC 95%?
-- KTC hẹp hay rộng?
+- Kết quả chính là số đo tác động nào, kèm khoảng tin cậy 95%?
+- Khoảng tin cậy hẹp hay rộng?
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}
 [8  Lời văn và thiết kế]{.neu-card-title}
@@ -1098,7 +1236,7 @@ Câu 1-3, 6 và 10 làm ở nhà.
 [Bài 1: thử nghiệm ngẫu nhiên (n = 48)]{.neu-card-title}
 
 - Ngẫu nhiên quyết định nhóm: yếu tố đã biết và chưa biết đều cân bằng
-- Cân bằng dịch ngày 5: chênh 13.2 ml/kg (KTC 95% -15.2 đến 41.6), p = 0.42
+- Cân bằng dịch ngày 5: chênh 13.2 ml/kg (khoảng tin cậy 95% -15.2 đến 41.6), p = 0.42
 - **[Được nói: 'không làm giảm']{style="color:#2E8B57"}**
 - [Nhưng quá nhỏ để chắc chắn: không có 'xu hướng']{style="color:#C0392B"}
 :::
@@ -1106,7 +1244,7 @@ Câu 1-3, 6 và 10 làm ở nhà.
 [Bài 2: thuần tập ghép cặp (n = 2516)]{.neu-card-title}
 
 - Bác sĩ quyết định dịch truyền: chỉ yếu tố đo được mới cân bằng
-- Cân bằng dương ngày 2 và tử vong 28 ngày: HR 2.13 (KTC 95% 1.48 đến 3.06)
+- Cân bằng dương ngày 2 và tử vong 28 ngày: HR 2.13 (khoảng tin cậy 95% 1.48 đến 3.06)
 - **[Được nói: 'có liên quan với']{style="color:#2E8B57"}**
 - [Không nói 'tác động' hay 'chứng tỏ': người bệnh nặng hơn được truyền nhiều hơn]{style="color:#C0392B"}
 :::
@@ -1132,7 +1270,7 @@ Thăm dò: bài nào mạnh hơn về nhân quả, bài nào về nguy cơ ngoà
 |:---|:---|
 | Các nhóm tương đồng nhờ | Phân nhóm ngẫu nhiên 1:1 (khối 2) | Ghép cặp theo điểm xu hướng (chỉ yếu tố đã đo) |
 | Ai biết nhóm | Bác sĩ biết. Người bệnh, người phân tích thống kê được làm mù | Tất cả (quan sát) |
-| Kết quả chính | 13.2 ml/kg (KTC 95% -15.2 đến 41.6), p = 0.42 | Ngày 2: HR 2.13 (1.48 đến 3.06) |
+| Kết quả chính | 13.2 ml/kg (khoảng tin cậy 95% -15.2 đến 41.6), p = 0.42 | Ngày 2: HR 2.13 (1.48 đến 3.06) |
 | Hạn chế bị bỏ sót | Khối 2 với bác sĩ không bị làm mù | Sai lệch người sống sót (nằm ICU từ 3 ngày) |
 | Lỗi lời văn | 'Xu hướng không có ý nghĩa' (p = 0.42) | 'Impact', 'did not impact', 'show' |
 | Được kết luận | Không giảm cân bằng dịch ngày 5 (thí điểm nhỏ) | Cân bằng dương liên quan với tử vong |
@@ -1144,7 +1282,7 @@ RCT = thử nghiệm ngẫu nhiên có đối chứng. Số trang và chi tiết
 ::: {.notes}
 Chỉ mở bảng này sau khi lớp đã trả lời.
 
-Ba thông điệp: thiết kế quyết định động từ, KTC rộng nghĩa là 'chưa biết', và đã công bố không có nghĩa là đúng.
+Ba thông điệp: thiết kế quyết định động từ, khoảng tin cậy rộng nghĩa là 'chưa biết', và đã công bố không có nghĩa là đúng.
 
 Chuyển ý: 'Giờ đến một số đề cương của các bạn.'
 :::
@@ -1299,7 +1437,7 @@ Bài luyện viết bổ sung (làm ở nhà). Nếu làm trên lớp: 6 phút t
 
 Hai câu: câu 'xu hướng không có ý nghĩa' của Bài 1 và tiêu đề của Bài 2. Khung tóm tắt: mỗi phần một dòng cho Đặt vấn đề, Phương pháp, Kết quả dự kiến, Kết luận.
 
-Viết lại câu 'xu hướng' của Bài 1: 'Ước lượng điểm nghiêng về chiến lược hạn chế, nhưng KTC 95% rộng (-15.2 đến 41.6 ml/kg) và chứa giá trị không tác động.'
+Viết lại câu 'xu hướng' của Bài 1: 'Ước lượng điểm nghiêng về chiến lược hạn chế, nhưng khoảng tin cậy 95% rộng (-15.2 đến 41.6 ml/kg) và chứa giá trị không tác động.'
 
 Tên bài của Bài 2: 'mối liên quan', không phải 'tác động'.
 :::
@@ -1420,7 +1558,7 @@ Bổ sung. Bị từ chối là bình thường. Từ chối ngay từ đầu: �
 
 
 ```{=html}
-<div style="position:relative;width:100%;aspect-ratio:12.3/4.3;container-type:inline-size;margin:0.2em auto;font-family:Arial,sans-serif;line-height:1.1"><div style="position:absolute;left:0.000%;top:0.000%;width:46.341%;height:100.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#FFFFFF;border:calc(2 * 0.11292cqw) solid #8A99A3"></div><div style="position:absolute;left:0.244%;top:0.698%;width:45.854%;height:13.953%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#055F56"><div style="font-size:calc(16 * 0.11292cqw);color:#FFFFFF;font-weight:700">Tiêu đề ngắn = phát hiện chính</div></div><div style="position:absolute;left:0.813%;top:17.442%;width:14.228%;height:37.209%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:1.041cqw"><div style="font-size:calc(14 * 0.11292cqw);color:#1A1A1A">Tại sao?</div><div style="font-size:calc(14 * 0.11292cqw);color:#1A1A1A;margin-top:calc(0 * 0.11292cqw)">Làm gì?</div><div style="font-size:calc(14 * 0.11292cqw);color:#1A1A1A;margin-top:calc(0 * 0.11292cqw)">(sơ đồ)</div></div><div style="position:absolute;left:15.854%;top:17.442%;width:29.675%;height:37.209%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5"></div><div style="position:absolute;left:15.854%;top:18.140%;width:29.675%;height:9.302%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(14 * 0.11292cqw);color:#1A1A1A;font-weight:700">Một hình lớn</div></div><div style="position:absolute;left:21.138%;top:41.860%;width:4.472%;height:10.465%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377"></div><div style="position:absolute;left:28.049%;top:34.884%;width:4.472%;height:17.442%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0B376C"></div><div style="position:absolute;left:34.959%;top:30.233%;width:4.472%;height:22.093%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#5FA39B"></div><div style="position:absolute;left:0.813%;top:58.140%;width:44.715%;height:26.744%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:1.122cqw"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">Thông điệp mang về</div><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700;margin-top:calc(0 * 0.11292cqw)">trong một câu</div></div><div style="position:absolute;left:2.439%;top:87.209%;width:29.268%;height:10.465%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(13 * 0.11292cqw);color:#8A99A3">logo, liên hệ</div></div><div style="position:absolute;left:39.431%;top:87.209%;width:5.691%;height:11.163%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#1A1A1A"><div style="font-size:calc(14 * 0.11292cqw);color:#FFFFFF;font-weight:700">QR</div></div><div style="position:absolute;left:49.593%;top:0.000%;width:50.407%;height:47.674%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:1.000cqw"></div><div style="position:absolute;left:49.593%;top:0.000%;width:50.407%;height:12.791%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0B376C;border-radius:0.894cqw"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">Tóm tắt hội nghị</div></div><div style="position:absolute;left:51.626%;top:13.953%;width:47.561%;height:32.558%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Có cấu trúc, thường 250-300 từ</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">Cùng logic IMRaD, số liệu thật + KTC</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">Đúng hạn và đúng mẫu</div></div><div style="position:absolute;left:49.593%;top:52.326%;width:50.407%;height:47.674%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:1.000cqw"></div><div style="position:absolute;left:49.593%;top:52.326%;width:50.407%;height:12.791%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:0.894cqw"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">Poster</div></div><div style="position:absolute;left:51.626%;top:66.279%;width:47.561%;height:32.558%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Đọc được từ 2 mét, ít chữ</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">Một thông điệp, một hình</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">Sau đó viết bài báo đầy đủ</div></div></div>
+<div style="position:relative;width:100%;aspect-ratio:12.3/4.3;container-type:inline-size;margin:0.2em auto;font-family:Arial,sans-serif;line-height:1.1"><div style="position:absolute;left:0.000%;top:0.000%;width:46.341%;height:100.000%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#FFFFFF;border:calc(2 * 0.11292cqw) solid #8A99A3"></div><div style="position:absolute;left:0.244%;top:0.698%;width:45.854%;height:13.953%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#055F56"><div style="font-size:calc(16 * 0.11292cqw);color:#FFFFFF;font-weight:700">Tiêu đề ngắn = phát hiện chính</div></div><div style="position:absolute;left:0.813%;top:17.442%;width:14.228%;height:37.209%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:1.041cqw"><div style="font-size:calc(14 * 0.11292cqw);color:#1A1A1A">Tại sao?</div><div style="font-size:calc(14 * 0.11292cqw);color:#1A1A1A;margin-top:calc(0 * 0.11292cqw)">Làm gì?</div><div style="font-size:calc(14 * 0.11292cqw);color:#1A1A1A;margin-top:calc(0 * 0.11292cqw)">(sơ đồ)</div></div><div style="position:absolute;left:15.854%;top:17.442%;width:29.675%;height:37.209%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5"></div><div style="position:absolute;left:15.854%;top:18.140%;width:29.675%;height:9.302%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(14 * 0.11292cqw);color:#1A1A1A;font-weight:700">Một hình lớn</div></div><div style="position:absolute;left:21.138%;top:41.860%;width:4.472%;height:10.465%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377"></div><div style="position:absolute;left:28.049%;top:34.884%;width:4.472%;height:17.442%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0B376C"></div><div style="position:absolute;left:34.959%;top:30.233%;width:4.472%;height:22.093%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#5FA39B"></div><div style="position:absolute;left:0.813%;top:58.140%;width:44.715%;height:26.744%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:1.122cqw"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">Thông điệp mang về</div><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700;margin-top:calc(0 * 0.11292cqw)">trong một câu</div></div><div style="position:absolute;left:2.439%;top:87.209%;width:29.268%;height:10.465%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch"><div style="font-size:calc(13 * 0.11292cqw);color:#8A99A3">logo, liên hệ</div></div><div style="position:absolute;left:39.431%;top:87.209%;width:5.691%;height:11.163%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#1A1A1A"><div style="font-size:calc(14 * 0.11292cqw);color:#FFFFFF;font-weight:700">QR</div></div><div style="position:absolute;left:49.593%;top:0.000%;width:50.407%;height:47.674%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:1.000cqw"></div><div style="position:absolute;left:49.593%;top:0.000%;width:50.407%;height:12.791%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0B376C;border-radius:0.894cqw"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">Tóm tắt hội nghị</div></div><div style="position:absolute;left:51.626%;top:13.953%;width:47.561%;height:32.558%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Có cấu trúc, thường 250-300 từ</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">Cùng logic IMRaD, số liệu thật + khoảng tin cậy</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">Đúng hạn và đúng mẫu</div></div><div style="position:absolute;left:49.593%;top:52.326%;width:50.407%;height:47.674%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#EAF2F5;border-radius:1.000cqw"></div><div style="position:absolute;left:49.593%;top:52.326%;width:50.407%;height:12.791%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:center;align-items:stretch;background:#0D7377;border-radius:0.894cqw"><div style="font-size:calc(17 * 0.11292cqw);color:#FFFFFF;font-weight:700">Poster</div></div><div style="position:absolute;left:51.626%;top:66.279%;width:47.561%;height:32.558%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:calc(4.3 * 0.11292cqw);overflow:visible;text-align:left;align-items:stretch"><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A">Đọc được từ 2 mét, ít chữ</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">Một thông điệp, một hình</div><div style="font-size:calc(15 * 0.11292cqw);color:#1A1A1A;margin-top:calc(3 * 0.11292cqw)">Sau đó viết bài báo đầy đủ</div></div></div>
 ```
 
 ::: {.neu-takeaway}
@@ -1428,7 +1566,7 @@ Bổ sung. Bị từ chối là bình thường. Từ chối ngay từ đầu: �
 :::
 
 ::: {.notes}
-Bổ sung. Tóm tắt hội nghị có số liệu thật kèm KTC, không bao giờ ghi 'kết quả sẽ được trình bày'. Poster là bảng quảng cáo: một thông điệp, một hình, đọc được từ 2 mét. Mẫu: Conference\_Abstract\_Template\_VN.
+Bổ sung. Tóm tắt hội nghị có số liệu thật kèm khoảng tin cậy, không bao giờ ghi 'kết quả sẽ được trình bày'. Poster là bảng quảng cáo: một thông điệp, một hình, đọc được từ 2 mét. Mẫu: Conference\_Abstract\_Template\_VN.
 :::
 
 ## Từ câu hỏi đến công bố: những gì bạn làm được
@@ -1444,7 +1582,7 @@ Bổ sung. Tóm tắt hội nghị có số liệu thật kèm KTC, không bao g
 [Viết]{.neu-card-title}
 
 - IMRaD đúng thứ tự
-- Con số kèm KTC
+- Con số kèm khoảng tin cậy
 - Động từ đúng thiết kế
 :::
 ::: {.neu-card .plain style="--c:#5FA39B"}

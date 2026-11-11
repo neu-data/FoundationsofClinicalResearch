@@ -46,7 +46,15 @@ Nếu nhiều học viên sai câu 4 hoặc 5, dành thêm một phút: mục ti
 
 **Khởi động:** `septic shock OR fluids` cho nhiều kết quả hơn (chỉ cần một trong hai từ). `sepsis` cho nhiều kết quả hơn `sepsis NOT neonatal` (NOT loại bớt bài báo).
 
-**Chuỗi mẫu cho ví dụ xuyên suốt** (như trong phần trình diễn):
+**Xây chuỗi tìm kiếm: bảng mẫu cho ví dụ xuyên suốt**
+
+| Khối | Khái niệm | Từ đồng nghĩa (2–4). (M) đánh dấu thuật ngữ MeSH |
+|---|---|---|
+| **P** | Sốc nhiễm khuẩn | Shock, Septic (M) · septic shock · sepsis |
+| **I / E** | Chiến lược hạn chế dịch | Fluid Therapy (M) · fluid restriction · restrictive fluid · conservative fluid |
+| **O** | Tử vong | Mortality (M) · mortality · death |
+
+**Chuỗi tìm kiếm mẫu** (như trong phần trình diễn):
 
 ```
 ("Shock, Septic"[Mesh] OR "septic shock"[tiab] OR sepsis[tiab])
@@ -54,10 +62,11 @@ AND ("Fluid Therapy"[Mesh] OR "fluid restrict*"[tiab] OR "restrictive fluid*"[ti
 AND ("Mortality"[Mesh] OR mortality[tiab] OR death[tiab])
 ```
 
-Các từ đồng nghĩa hợp lý có thể thêm cho khối I: `de-resuscitation[tiab]`, `deresuscitation[tiab]`, `"fluid balance"[tiab]`, `"Water-Electrolyte Balance"[Mesh]`.
-Các bộ lọc hợp lý (mỗi bộ lọc kèm lý do): loại bài *Randomized Controlled Trial* + *Systematic Review* (câu hỏi về điều trị); *Adult: 19+ years* (đối tượng của câu hỏi); năm công bố *10 years* (thực hành hiện tại). Tránh *Free full text* (bỏ sót các bài báo quan trọng).
+**Một bộ lọc, và vì sao:** loại bài *Randomized Controlled Trial* và *Systematic Review*, vì đây là câu hỏi về điều trị. Các bộ lọc hợp lý khác là *Adult: 19+ years* (đối tượng của câu hỏi) và năm công bố *10 years* (thực hành hiện tại). Tránh *Free full text*, vì bộ lọc này làm mất các bài báo quan trọng.
 
-**Chuỗi mẫu cho Tình huống C (mê sảng)**
+**Chia sẻ chuỗi tìm kiếm: các từ đồng nghĩa cả lớp có thể gợi ý** cho khối I: `de-resuscitation[tiab]`, `deresuscitation[tiab]`, `"fluid balance"[tiab]`, `"Water-Electrolyte Balance"[Mesh]`.
+
+*Ghi chú cho giảng viên:* nếu học viên xây chuỗi tìm kiếm cho Tình huống C (mê sảng) trong phần thực hành thêm của Buổi 1, đây là chuỗi mẫu.
 
 ```
 (Delirium[Mesh] OR delirium[tiab] OR "acute confusion"[tiab])
@@ -122,23 +131,19 @@ Thế nào là tốt: cấu trúc mới; dữ kiện không đổi (28 ngày, t�
 
 ## Bài tập 4: Xây dựng đề cương 2 (thế nào là tốt)
 
-Giảng viên làm mẫu trực tiếp cho ví dụ xuyên suốt (phiên bản thí điểm khả thi A từ Buổi 1); sau đó mỗi học viên làm tương tự cho câu hỏi của mình. Dùng làm chuẩn chất lượng, không phải làm đáp án.
+Giảng viên làm mẫu trực tiếp cho ví dụ xuyên suốt (phiên bản thí điểm khả thi A từ Buổi 1). Sau đó mỗi học viên làm tương tự cho câu hỏi của mình. Dùng làm chuẩn chất lượng, không phải làm đáp án. Bài mẫu đi theo các bước của phiếu bài tập.
 
-**Tìm kiếm (có ghi lại):** PubMed, ngày tìm, chuỗi tìm kiếm từ Bài tập 1, bộ lọc (loại bài RCT + tổng quan hệ thống; người lớn; 10 năm), số kết quả; cộng với việc kiểm tra ClinicalTrials.gov để tìm các thử nghiệm đang tiến hành.
+**Phút 0–10: giảng viên trình bày gì**
 
-**Tên đề tài tạm thời:** *Restrictive versus usual fluids in adults with septic shock: a pilot randomised trial* (13 từ).
-**Từ khóa:** Fluid Therapy; Water-Electrolyte Balance; Critical Care; Vasoconstrictor Agents (thuật ngữ MeSH chưa có trong tên đề tài).
+1. Chạy chuỗi tìm kiếm đầy đủ trong phần trình diễn PubMed (`s2_demo_VN.md`, Các chuỗi để sao chép, Bước 3) với bộ lọc RCT và tổng quan hệ thống, người lớn, 10 năm. Ghi lại trên màn hình: cơ sở dữ liệu, ngày, chuỗi tìm kiếm, bộ lọc, số kết quả. Số kết quả thay đổi mỗi ngày, nên đọc trực tiếp trên màn hình.
+2. Đọc to và sàng lọc các tiêu đề đầu tiên. Giữ bài ở người lớn bị sepsis hoặc sốc nhiễm khuẩn, có so sánh chiến lược dịch hoặc cân bằng dịch, là thử nghiệm, nghiên cứu thuần tập hoặc tổng quan. Bỏ bài ở trẻ em, bỏng, phẫu thuật, và thử nghiệm so sánh hai loại dịch (tinh thể với keo). Học viên gợi ý bài và từ khóa trong chat.
+3. Lưu Boulet 2024 và CLASSIC vào Zotero (*Send to → Citation manager*) và cùng điền hai dòng phiếu tổng quan (dòng mẫu bên dưới).
+4. Tìm "septic shock" và "fluid" trên ClinicalTrials.gov để chỉ cách tìm thử nghiệm đang tiến hành.
+5. Hỏi từ khóa trong chat. Đáp án mẫu: bốn thuật ngữ MeSH ở bước 5 bên dưới.
 
-**Đặt vấn đề (≈ 300 từ, ba đoạn)**
-1. *Điều đã biết:* Sốc nhiễm khuẩn là nguyên nhân tử vong hàng đầu tại khoa hồi sức tích cực (ICU). Dịch sớm giúp phục hồi tưới máu, nhưng dịch truyền sau những giờ đầu thường dẫn đến cân bằng dịch dương, có liên quan với tử vong cao hơn trong các nghiên cứu quan sát (1).
-2. *Điều chưa biết:* Hai thử nghiệm ngẫu nhiên lớn cho thấy hạn chế dịch không làm thay đổi tử vong (2,3). Một thử nghiệm thí điểm gần đây nhắm vào dịch không nhằm hồi sức không làm giảm có ý nghĩa cân bằng dịch ở ngày 5 (4). Vì vậy, vẫn chưa rõ có thể giảm cân bằng dịch một cách ổn định trong chăm sóc thường quy hay không.
-3. *Mục đích và mục tiêu:* Trong thử nghiệm ngẫu nhiên thí điểm này, chúng tôi nhằm đánh giá liệu quy trình hạn chế dịch có làm giảm cân bằng dịch tích lũy ở ngày 5 so với chăm sóc thường quy ở người lớn bị sốc nhiễm khuẩn hay không. Mục tiêu chính là so sánh cân bằng dịch ngày 5 giữa hai nhóm. Mục tiêu phụ là đánh giá tính khả thi của một thử nghiệm lớn hơn.
+**1. Ghi lại tìm kiếm (cũng là ô "Chuỗi tìm kiếm đã dùng cho tài liệu tham khảo"):** PubMed, ngày tìm, chuỗi tìm kiếm từ Bài tập 1, các bộ lọc (loại bài RCT và tổng quan hệ thống, người lớn, 10 năm) và số kết quả. Sau đó kiểm tra ClinicalTrials.gov để tìm các thử nghiệm đang tiến hành.
 
-Tài liệu tham khảo, theo thứ tự trích dẫn lần đầu: (1) Hyun 2023, (2) CLASSIC, Meyhoff 2022, (3) CLOVERS, Shapiro 2023; (4) Boulet 2024.
-
-*Nguyên tắc khoa học:* phần Đặt vấn đề không bao giờ chứa số liệu hay kết quả của chính bạn (kể cả kết quả đánh giá thực hành, audit, tại khoa). Chúng thuộc về phần Kết quả. Số liệu địa phương chỉ được dùng khi đã được công bố, kèm trích dẫn.
-
-**Năm tài liệu tham khảo chính (mẫu)**
+**2. Năm tài liệu tham khảo chính (mẫu)**
 
 | # | Tài liệu tham khảo | Lý do chọn |
 |---|---|---|
@@ -150,15 +155,7 @@ Tài liệu tham khảo, theo thứ tự trích dẫn lần đầu: (1) Hyun 202
 
 *Ghi chú cho giảng viên:* kiểm tra thông tin trích dẫn với PubMed trước khi phát. Học viên phải tự kiểm tra mọi tài liệu tham khảo, đó chính là thói quen cần luyện.
 
-**Phần làm mẫu (phút 0–10): giảng viên trình bày gì**
-
-1. Chạy chuỗi tìm kiếm đầy đủ trong phần trình diễn PubMed (`s2_demo_VN.md`, Các chuỗi để sao chép, Bước 3) với bộ lọc RCT và tổng quan hệ thống, người lớn, 10 năm. Ghi lại trên màn hình: cơ sở dữ liệu, ngày, chuỗi tìm kiếm, bộ lọc, số kết quả. Số kết quả thay đổi mỗi ngày, nên đọc trực tiếp trên màn hình.
-2. Đọc to và sàng lọc các tiêu đề đầu tiên. Giữ bài ở người lớn bị sepsis hoặc sốc nhiễm khuẩn, có so sánh chiến lược dịch hoặc cân bằng dịch, là thử nghiệm, nghiên cứu thuần tập hoặc tổng quan. Bỏ bài ở trẻ em, bỏng, phẫu thuật, và thử nghiệm so sánh hai loại dịch (tinh thể với keo). Học viên gợi ý bài và từ khóa trong chat.
-3. Lưu Boulet 2024 và CLASSIC vào Zotero (*Send to → Citation manager*) và cùng điền hai dòng phiếu tổng quan (dòng mẫu bên dưới).
-4. Tìm "septic shock" và "fluid" trên ClinicalTrials.gov để chỉ cách tìm thử nghiệm đang tiến hành.
-5. Hỏi từ khóa trong chat. Đáp án mẫu: bốn thuật ngữ MeSH ở trên.
-
-**Phiếu tổng quan tài liệu: dòng mẫu**
+**3. Bảng tổng quan tài liệu: dòng mẫu**
 
 | # | Nghiên cứu | Thiết kế, cỡ mẫu | So sánh | Kết cục chính: kết quả | Hạn chế chính | Vì sao quan trọng với câu hỏi của chúng ta |
 |---|---|---|---|---|---|---|
@@ -167,6 +164,23 @@ Tài liệu tham khảo, theo thứ tự trích dẫn lần đầu: (1) Hyun 202
 | 3 | Meyhoff 2022, *N Engl J Med* (CLASSIC) | RCT, 1554 người lớn bị sốc nhiễm khuẩn | Hạn chế dịch so với dịch truyền tĩnh mạch tiêu chuẩn | Tử vong 90 ngày 42.3% so với 42.1%, không khác biệt | Bác sĩ không được làm mù | Hạn chế dịch không làm thay đổi tử vong trong một thử nghiệm lớn |
 | 4 | Shapiro 2023, *N Engl J Med* (CLOVERS) | RCT, 1563 người lớn bị tụt huyết áp do sepsis | Hạn chế dịch (dùng vận mạch sớm hơn) so với truyền dịch tự do | Tử vong trước khi ra viện về nhà trong 90 ngày: 14.0% so với 14.9%, không khác biệt | Không làm mù, chỉ giai đoạn đầu của điều trị | Khẳng định kết quả của CLASSIC ở một quần thể khác |
 | 5 | Evans 2021, *Crit Care Med* (Surviving Sepsis Campaign) | Hướng dẫn quốc tế | Không áp dụng | Không có khuyến cáo về hạn chế dịch so với truyền dịch tự do sau hồi sức ban đầu (chưa đủ bằng chứng) | Ý kiến chuyên gia khi bằng chứng còn yếu | Cho thấy điều còn chưa chắc chắn mà nghiên cứu thí điểm của chúng ta giải quyết |
+
+**4. Đặt vấn đề (khoảng 300 từ, ba đoạn)**
+1. *Điều đã biết:* Sốc nhiễm khuẩn là nguyên nhân tử vong hàng đầu tại khoa hồi sức tích cực (ICU). Dịch sớm giúp phục hồi tưới máu, nhưng dịch truyền sau những giờ đầu thường dẫn đến cân bằng dịch dương, có liên quan với tử vong cao hơn trong các nghiên cứu quan sát (1).
+2. *Điều chưa biết:* Hai thử nghiệm ngẫu nhiên lớn cho thấy hạn chế dịch không làm thay đổi tử vong (2,3). Một thử nghiệm thí điểm gần đây nhắm vào dịch không nhằm hồi sức không làm giảm có ý nghĩa cân bằng dịch ở ngày 5 (4). Vì vậy, vẫn chưa rõ có thể giảm cân bằng dịch một cách ổn định trong chăm sóc thường quy hay không.
+3. *Mục đích và mục tiêu:* Trong thử nghiệm ngẫu nhiên thí điểm này, chúng tôi nhằm đánh giá liệu quy trình hạn chế dịch có làm giảm cân bằng dịch tích lũy ở ngày 5 so với chăm sóc thường quy ở người lớn bị sốc nhiễm khuẩn hay không. Mục tiêu chính là so sánh cân bằng dịch ngày 5 giữa hai nhóm. Mục tiêu phụ là đánh giá tính khả thi của một thử nghiệm lớn hơn.
+
+Tài liệu tham khảo, theo thứ tự trích dẫn lần đầu: (1) Hyun 2023, (2) CLASSIC, Meyhoff 2022, (3) CLOVERS, Shapiro 2023, (4) Boulet 2024.
+
+*Nguyên tắc khoa học:* phần Đặt vấn đề không bao giờ chứa số liệu hay kết quả của chính bạn (kể cả kết quả đánh giá thực hành, audit, tại khoa). Chúng thuộc về phần Kết quả. Số liệu địa phương chỉ được dùng khi đã được công bố, kèm trích dẫn.
+
+**5. Tên đề tài tạm thời và từ khóa**
+
+| | |
+|---|---|
+| Tên đề tài tạm thời | *Restrictive versus usual fluids in adults with septic shock: a pilot randomised trial* |
+| Số từ | 13 |
+| Từ khóa | 1. Fluid Therapy 2. Water-Electrolyte Balance 3. Critical Care 4. Vasoconstrictor Agents (thuật ngữ MeSH chưa có trong tên đề tài) |
 
 **Hướng dẫn phản hồi khi đọc bản nháp (không chấm điểm)**
 
