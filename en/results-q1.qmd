@@ -147,7 +147,7 @@ Files: `tables/table6_sensitivity.csv` and `tables/table6_sensitivity.docx`
 - Patients with a positive fluid balance died more often (36% vs 18%). But they were also sicker.
 - After taking severity into account, the association became much smaller (OR fell from 2.49 to 1.62). Much of the crude difference was confounding by indication.
 - A modest association remained: the 95% CI only just excludes 1, and the Cox model gives a similar HR whose CI just touches 1. The evidence is weak-to-moderate, not strong.
-- The association looked stronger in patients with heart failure (p for interaction 0.031). This was pre-specified but is based on only 90 patients with heart failure, so treat it as a hypothesis.
+- The association looked stronger in patients with heart failure (p for interaction 0.031). This was pre-specified but is based on only 90 patients with heart failure in the adjusted model (complete cases), so treat it as a hypothesis.
 
 ## 7. What this does NOT mean
 

@@ -14,7 +14,7 @@ Type your answers into this Word file or print the PDF.
 |---|---|---|
 | A | Integrity scenarios: green, amber or red? | End of section 7.2, finish at home |
 | B | Proposal builder 7: write Part 4 of your proposal (ethics, registration, feasibility, publication plan) | In class, before the break. Anything left: at home |
-| C | **Manuscript workshop 1**: write the Results section for your FLUID-ICU question | After section 7.3, finish at home |
+| C | **Manuscript workshop 1**: write the Results section for your own FLUID-ICU question | After section 7.3 (45 minutes), finish at home |
 
 Files you need (sent by email): the results pack for your question (`Results_Pack_QN.pdf`), the manuscript template (`Manuscript_Template_IMRaD.docx`), Paper 1 (Boulet 2024) and Paper 2 (Hyun 2023).
 
@@ -23,7 +23,7 @@ Files you need (sent by email): the results pack for your question (`Results_Pac
 
 ## Part A: Integrity scenarios: green, amber or red?
 
-**Task.** For each scenario, choose a colour and write one sentence explaining why. In class, do scenarios 1, 3 and 4 alone, then vote in the poll and be ready to give your reason when the instructor asks. Do scenarios 2, 5 and 6 at home.
+**Task.** For each scenario, choose a colour and write one sentence explaining why. In class, do scenarios 1, 3, 4a and 4b alone, then vote in the poll and be ready to give your reason when the instructor asks. Do scenarios 2, 5 and 6 at home.
 
 > **Choose from:** **GREEN** = acceptable as described · **AMBER** = acceptable **only if** something is fixed or disclosed (say what) · **RED** = research misconduct or a serious breach. Do not do it.
 
@@ -32,8 +32,8 @@ Files you need (sent by email): the results pack for your question (`Results_Pac
 | 1 | Three patients' day-3 fluid charts are lost. A resident "remembers roughly" what their balances were and enters values so the dataset is complete. | | |
 | 2 | After seeing the results, the team removes two patients with "strange" fluid values because they weaken the association. The paper does not mention it. | | |
 | 3 | The head of department did not take part in the study but asks to be last author "because it is my department". | | |
-| 4 | (a) A nurse uses an AI chatbot to improve the English of the Discussion she wrote, checks every sentence, and states this in the Acknowledgements. (b) A colleague uploads the study spreadsheet (names and hospital numbers included) to a free public chatbot and asks it to "run the statistics". | (a) | |
-| | | (b) | |
+| 4a | A nurse uses an AI chatbot to improve the English of the Discussion she wrote, checks every sentence, and states this in the Acknowledgements. | | |
+| 4b | A colleague uploads the study spreadsheet (names and hospital numbers included) to a free public chatbot and asks it to "run the statistics". | | |
 | 5 | A cohort of patients with sepsis like FLUID-ICU is published as three papers (mortality, acute kidney injury and ICU stay) in three journals, none mentioning the others. | | |
 | 6 | Two paragraphs of a published review are copied word for word into your Introduction. The review is cited at the end of the paragraph, but there are no quotation marks. | | |
 
@@ -61,7 +61,7 @@ Your answers become Part 4 of your written proposal and slides 5 (ethics and fea
 |---|---|
 | Which direct identifiers will you collect (if any), and why? | |
 | How will each patient get a study code? | |
-| Where is the key file (code to identity) kept, and who can open it? | |
+| Where is the identifying file (study code linked to identity) kept, and who can open it? | |
 | Where will the de-identified data be stored (institution-approved, password-protected)? | |
 
 ### B3. Feasibility check (tick and comment)
@@ -79,10 +79,10 @@ Biggest feasibility risk: ______________________  One fix: _____________________
 | Item | Your answer |
 |---|---|
 | Working title (from your PICO: design, I vs C, P, O, in 10 to 16 words) | |
-| Target journal (and a back-up), checked in DOAJ / NLM Catalog, with fees and licence known | |
+| Target journal (and a back-up), checked in the Directory of Open Access Journals (DOAJ) and the National Library of Medicine (NLM) Catalog, with fees and licence known | |
 | Reporting guideline (CONSORT / STROBE / STARD / PRISMA / SPIRIT / CARE) | |
 | Registration needed? Where? (from B1) | |
-| Authors (all four ICMJE criteria) and their roles (CRediT) | |
+| Authors (all four criteria of the International Committee of Medical Journal Editors, ICMJE) and their roles (Contributor Roles Taxonomy, CRediT) | |
 | Conflicts of interest and funding to declare | |
 | Data-sharing statement (what, where, under which conditions) | |
 | Conference where you would present an abstract first | |
@@ -99,9 +99,11 @@ Biggest feasibility risk: ______________________  One fix: _____________________
 
 * * *
 
-## Part C: Manuscript workshop 1: the Results section
+## Part C: Manuscript workshop 1: the Results section for your question
 
-**Task.** Write the **Results section** for your FLUID-ICU question, using only the results pack for that question. In class we first write the Results for Q1 together, block by block: for each block you write the sentences alone, then share them when the instructor asks. Then start the Results for your own question. Finish at home and hand it in (see "Deliverable" below). Only the Results section is required. You may add other sections in the same file (`Manuscript_Brief.pdf`).
+**Task.** For the whole workshop (45 minutes), write the **Results section for the question you chose** (Q1 to Q5), using only the results pack for that question. Work through the five blocks below in order. For each block, the table shows where the numbers are in your pack and gives one model sentence from Q1. The Q1 sentences show the style only. Do not copy them, even if you chose Q1. Ask the instructor in the chat when you are stuck. Finish at home and hand in the full Results section (see "Deliverable" below).
+
+Timing, as on the slides: blocks 1 to 4 (STROBE 13 to 16) in part 1 (25 minutes), block 5 (STROBE 17), the list of tables and figures and the number check in part 2 (20 minutes).
 
 | Question | Topic | Results pack |
 |---|---|---|
@@ -111,27 +113,57 @@ Biggest feasibility risk: ______________________  One fix: _____________________
 | Q4 | Initial lactate and 28-day mortality, complete case vs multiple imputation | `Results_Pack_Q4.pdf` |
 | Q5 | Fluid balance and ICU length of stay among survivors | `Results_Pack_Q5.pdf` |
 
-The class draft is sent as a PDF after the session. If you chose Q1, write it in your own words.
+### Where to find the numbers in your pack
+The blocks follow items 13 to 17 of STROBE (Strengthening the Reporting of Observational Studies in Epidemiology).
 
-### Results checklist (STROBE items)
-Each item says where to find the numbers. For Q1, the participant numbers are in section 2 of the pack, then Table 1 (14), Table 2 (15), Tables 3 and 4 (16) and Tables 5 and 6 (17). For Q2 to Q5, the last section of your pack, "Which STROBE items this pack helps you write", names the table for each item.
+| Block | Q1 | Q2 | Q3 | Q4 | Q5 |
+|---|---|---|---|---|---|
+| 1. Participants (13) | Section 2 | Section 2 | Section 2 | Section 2 | Section 2 |
+| 2. Baseline and missing data (14) | Table 1 | Table 1 | Table 1 | Tables 1 and 2, Figure 1 | Table 1 |
+| 3. Outcome per group (15) | Table 2, Figure 1 | Tables 2 and 3, Figure 1 | Table 2, Figures 1 and 2 | Table 3, Figure 2 | Table 2, Figures 1 and 2 |
+| 4. Main result, crude and adjusted (16) | Tables 3 and 4, Figures 2 and 3 | Table 4 (per 10 ml/kg), Figure 2 | Table 3 (per 10 ml/kg) | Table 4 (unadjusted and adjusted), Figure 3 | Table 3 (log-linear, crude and adjusted) |
+| 5. Other analyses (17) | Tables 5 and 6, Figure 4 | Table 4 (positive vs negative, AKI stage 2 to 3) | Table 3 (positive vs negative, Mann-Whitney) | Table 4 (models with SOFA) | Table 3 (Mann-Whitney, per 10 ml/kg) |
 
-- [ ] Participants first: numbers enrolled, analysed and excluded, with reasons (13)
-- [ ] Table 1 in one or two sentences, with numbers. Missing data reported (14)
-- [ ] Outcome numbers per group, with denominators (15)
-- [ ] Main result: **crude and adjusted** estimate with 95% CI (16)
-- [ ] Other analyses in your pack: sensitivity, imputation or subgroup (17)
-- [ ] Table 1 and one main table or figure that stand alone
-- [ ] No interpretation ("because", "suggests") and no causal words
-- [ ] A working title and the AI-use statement
+### Write your Results, block by block
+Rules for every sentence: numbers exactly as in your pack, percentages with n/N, every estimate with its 95% confidence interval (CI), past tense, "associated with" and no interpretation.
+
+| Block | Model sentence (Q1, for style only) | My sentences (my question) |
+|---|---|---|
+| 1. Participants: enrolled, analysed, excluded, with reasons | "Of 620 patients enrolled, 618 had a day-3 fluid balance and were analysed. The adjusted model included 527 patients with complete data." | |
+| 2. Baseline characteristics and missing data | "Patients with a positive balance had a higher median SOFA score than those with a negative balance (8 [IQR 6 to 10] vs 6 [4 to 8]). Lactate was missing in 91 of 618 patients." | |
+| 3. Outcome numbers per group, with denominators | "By day 28, 134 of 373 patients (35.9%) with a positive balance and 45 of 245 (18.4%) with a negative balance had died (Table 2)." | |
+| 4. Main result: crude and adjusted, with 95% CI | "The crude odds ratio (OR) for death was 2.49 (95% CI 1.70 to 3.70). After adjustment it was 1.62 (95% CI 1.02 to 2.59, n = 527) (Table 3)." | |
+| 5. Other analyses in your pack | "With multiple imputation (n = 620), the adjusted OR was 1.70 (95% CI 1.09 to 2.64) (Table 6)." | |
+
+### Every table and figure in my pack
+List each table and figure in your pack. Tick when it is in your draft, and note where the text cites it. Your submitted Results must include all of them (`Manuscript_Brief.pdf`).
+
+| Table or figure in my pack | In my draft? | Cited in the text (block) |
+|---|---|---|
+| | ☐ | |
+| | ☐ | |
+| | ☐ | |
+| | ☐ | |
+| | ☐ | |
+| | ☐ | |
+| | ☐ | |
+| | ☐ | |
+| | ☐ | |
+| | ☐ | |
 
 ### Question-specific reminders
 - **Q3:** ventilator-free days are skewed and count death as zero.
 - **Q4:** report both the complete-case and the multiple-imputation estimates.
-- **Q5:** survivors only. Use medians and IQR.
+- **Q5:** survivors only. Use medians and interquartile ranges (IQR).
+
+### Finish at home
+- [ ] All five blocks written, with every result in your pack
+- [ ] Every table and figure from your pack included, cited in the text and able to stand alone (title, units, n, abbreviations)
+- [ ] No interpretation ("because", "suggests") and no causal words
+- [ ] A working title and the AI-use statement
 
 ### Methods (taught in 7.3, optional to submit)
-If you also submit the Methods, use STROBE items 4 to 12: design and setting, participants, variables, data sources, bias, study size ("all eligible patients in the cohort were included"), statistical methods and missing data. The facts are in your results pack, `SAP_FLUID-ICU.pdf` and `Data_Dictionary.pdf`.
+If you also submit the Methods, use STROBE items 4 to 12: design and setting, participants, variables, data sources, bias, study size ("all eligible patients in the cohort were included"), statistical methods and missing data. The facts are in your results pack, the statistical analysis plan (`SAP_FLUID-ICU.pdf`) and `Data_Dictionary.pdf`.
 
 ### Deliverable
-Your Results section, named `Surname_Firstname_Results_QN.docx`, emailed to your reviewer and to the instructor (myluong1710@gmail.com) **by 23:59 on Sunday 20 December 2026 (Vietnam time)**. Your reviewer is announced at the end of today's session.
+Your Results section, named `Surname_Firstname_Results_QN.docx`, emailed to your reviewer and to the instructor (myluong1710@gmail.com) **by 23:59 on Sunday 20 December 2026 (Vietnam time)**. It reports all the results in your pack (`Manuscript_Brief.pdf`). Your reviewer is announced at the end of today's session.

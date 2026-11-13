@@ -49,7 +49,7 @@ If your draft has not arrived by the morning of Monday 21 December, email the au
 | 5 | Main result: crude and adjusted estimates with 95% CI | | |
 | 6 | Other analyses from the pack reported (sensitivity, imputation or subgroup) | | |
 | 7 | Every number agrees with the results pack | | |
-| 8 | Tables and figure stand alone (title, units, n, abbreviations) | | |
+| 8 | Every table and figure from the pack is included, cited in the text and stands alone (title, units, n, abbreviations) | | |
 | 9 | No interpretation and no causal words ("because", "caused", "trend") | | |
 | 10 | AI-use statement present | | |
 
@@ -67,37 +67,70 @@ If your draft has not arrived by the morning of Monday 21 December, email the au
 
 * * *
 
-## 4. Review report template
+## 4. What a good review report looks like
+
+A review report helps the author improve the draft. It is more than a list of yes and no answers. Use this structure:
+
+| Part | What it contains |
+|---|---|
+| Summary | One paragraph: what the draft reports, in your own words, and its two main strengths |
+| Major points | Problems that change the numbers or the reader's trust: wrong numbers, missing results, missing 95% confidence intervals (CI), causal words. Number them M1, M2 and so on |
+| Minor points | Wording, formatting, labels, abbreviations not explained. Number them m1, m2 and so on |
+| Recommendation | Accept as it is, minor revision or major revision, with one sentence on why |
+
+**Tone.** Be polite and specific. Give the line, table or figure for every point. Say what the problem is and suggest a fix. Write about the text, not the author.
+
+### Example review (about 250 words)
+
+Invented for teaching. It reviews a Q1 draft and checks every number against the Q1 results pack.
+
+> **Summary.** The draft reports 28-day mortality in 618 adults with sepsis by fluid balance at day 3. Patients with a positive balance died more often, and the association was smaller after adjustment. The participant flow is clear and complete (lines 1 to 4). Table 1 is well laid out and shows the missing data for each variable.
+>
+> **Major points**
+> - M1. Line 12 gives the adjusted odds ratio (OR) of 1.62 without its 95% CI. Please add "95% CI 1.02 to 2.59" (pack Table 3).
+> - M2. Line 14 states that a positive balance "increased the risk of death". FLUID-ICU is a cohort study, so I suggest "was associated with higher 28-day mortality".
+> - M3. Line 9 reports 136 deaths in the positive-balance group, but Table 2 gives 134 of 373. Please check every number in the text against the tables.
+> - M4. The heart failure analysis (pack Table 5 and Figure 4) is not reported. The brief asks for all the results in the pack.
+>
+> **Minor points**
+> - m1. Lines 9 and 10 give percentages without denominators ("35.9% vs 18.4%"). Please write "134 of 373 (35.9%) vs 45 of 245 (18.4%)".
+> - m2. The footnote of Table 2 does not explain "RR".
+> - m3. Line 16 calls the Cox result "borderline significant". I suggest reporting the hazard ratio of 1.46 (95% CI 1.00 to 2.13) without a label.
+>
+> **Recommendation:** major revision. The draft is clear and well organised, and each change above is quick to make.
+
+
+* * *
+
+## 5. Review report template
 
 Copy this into `Surname_Firstname_Review.docx`.
 
 **Draft reviewed:** author ______________, Question Q___, working title: ______________________________
 **Reviewer:** ______________  **Date:** ____________
 
-**1. Summary** (2 or 3 sentences): what the Results show, in your own words.
+**1. Summary** (one paragraph): what the Results show, in your own words, and two genuine strengths.
 
-**2. Strengths** (2 points).
-
-**3. Major comments** (each with page/line, the problem and a suggestion).
+**2. Major points** (each with line, table or figure, the problem and a suggestion).
 
 - M1.
 - M2.
 
-**4. Minor comments.**
+**3. Minor points.**
 
 - m1.
 - m2.
 
-**5. Results checklist:** attach the completed table from section 2.
+**4. Results checklist:** attach the completed table from section 2.
 
-**6. Optional parts** (if sent): one or two comments on each.
+**5. Optional parts** (if sent): one or two comments on each.
 
-**7. Recommendation** (tick one): ☐ Accept as it is ☐ Minor revision ☐ Major revision
+**6. Recommendation** (tick one, and add one sentence on why): ☐ Accept as it is ☐ Minor revision ☐ Major revision
 
 
 * * *
 
-## 5. How authors respond (author)
+## 6. How authors respond (author)
 
 1. Read the review, then wait a day before replying.
 2. Use `Response_to_Reviewers_Template.docx`. Thank the reviewer in one sentence.
@@ -115,6 +148,6 @@ Copy this into `Surname_Firstname_Review.docx`.
 
 * * *
 
-## 6. Marking
+## 7. Marking
 
 The review you give and your response are criteria 8 and 9 of `Manuscript_Rubric.pdf` (20 points).

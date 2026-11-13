@@ -10,7 +10,7 @@ Tải về: [Word](files/assignments/Manuscript_Brief_VN.docx) · [PDF](files/as
 
 **Tổ chức:** Neudata (*#ClearDataClearImpact*)
 **Ai làm:** mỗi học viên tự làm. Không làm theo nhóm.
-**Bắt buộc:** một **phần Kết quả** hoàn chỉnh, sẵn sàng để nộp tạp chí, cho một câu hỏi FLUID-ICU (Q1 đến Q5), kèm tên bài dự kiến, Bảng 1 và một bảng hoặc hình kết quả chính.
+**Bạn nộp gì (bắt buộc):** một **phần Kết quả** sẵn sàng để công bố cho một câu hỏi FLUID-ICU (Q1 đến Q5), báo cáo **tất cả kết quả trong gói kết quả của bạn**: mọi bảng và mọi hình, và mỗi bảng, hình đều được mô tả trong phần lời. Kèm tên bài dự kiến và câu công khai sử dụng AI.
 **Không bắt buộc:** Phương pháp, Đặt vấn đề, Bàn luận và Tóm tắt. Giảng viên cũng nhận xét các phần này.
 **Chúng tôi cung cấp:** kết quả. Bạn không phải phân tích dữ liệu.
 **Thời điểm gửi hướng dẫn này:** cuối Buổi 6, khi bạn chọn câu hỏi.
@@ -21,14 +21,14 @@ Tải về: [Word](files/assignments/Manuscript_Brief_VN.docx) · [PDF](files/as
 
 ## 1. Mục đích
 
-Bạn viết phần Kết quả của một bài báo FLUID-ICU theo đúng chuẩn tạp chí yêu cầu: mọi số liệu đều đúng, mọi ước lượng đều kèm khoảng tin cậy 95%, bảng tự đọc hiểu được và không diễn giải.
+Bạn viết phần Kết quả của một bài báo FLUID-ICU theo đúng chuẩn tạp chí yêu cầu. Bài báo cáo tất cả kết quả trong gói kết quả, không chọn lọc. Mọi số liệu đều đúng, mọi ước lượng đều kèm khoảng tin cậy 95%, mọi bảng và hình tự đọc hiểu được, và không diễn giải.
 
 
 * * *
 
 ## 2. Chọn một câu hỏi (cuối Buổi 6)
 
-Cả lớp cùng làm năm câu hỏi ở Buổi 5 và 6 (Q1 làm đầy đủ). Đến cuối Buổi 6, hãy chọn một câu hỏi và báo cho giảng viên trong khung chat hoặc qua email. Nhiều học viên có thể chọn cùng một câu hỏi. Q1 được làm mẫu trực tiếp ở Buổi 7 nên dễ bắt đầu nhất.
+Cả lớp cùng làm năm câu hỏi ở Buổi 5 và 6 (Q1 làm đầy đủ). Đến cuối Buổi 6, hãy chọn một câu hỏi và báo cho giảng viên trong khung chat hoặc qua email. Nhiều học viên có thể chọn cùng một câu hỏi. Các ví dụ trên lớp dùng Q1, nhưng mọi gói kết quả đều có cùng cấu trúc. Ở Buổi 7 và 8, bạn dành toàn bộ thời gian thực hành cho câu hỏi của mình.
 
 | Q | Câu hỏi nghiên cứu | Phân tích chính trong gói kết quả |
 |---|---|---|
@@ -62,14 +62,14 @@ Nếu gói kết quả thiếu thông tin, hãy hỏi giảng viên.
 | Phần | Yêu cầu |
 |---|---|
 | Tên bài dự kiến | Một dòng, nêu đối tượng, phơi nhiễm, kết cục và thiết kế, ví dụ "Cân bằng dịch dương đến ngày 3 và tử vong 28 ngày ở người bệnh sepsis: một nghiên cứu thuần tập đa trung tâm" |
-| Nội dung phần Kết quả | Mục 13 đến 17 của STROBE, theo thứ tự: (1) người tham gia và lưu đồ, (2) đặc điểm ban đầu (Bảng 1) và dữ liệu thiếu, (3) số kết cục ở mỗi nhóm, (4) kết quả chính, thô và đã hiệu chỉnh, kèm khoảng tin cậy 95%, (5) các phân tích khác trong gói kết quả (phân tích độ nhạy, quy gán hoặc phân nhóm). Khoảng 400 đến 600 từ |
-| Bảng 1 | Đặc điểm ban đầu, lấy từ gói kết quả |
-| Một bảng hoặc hình kết quả chính | Ví dụ ước lượng thô và đã hiệu chỉnh, hoặc đường cong Kaplan-Meier (Q1) |
+| Nội dung phần Kết quả | Mục 13 đến 17 của STROBE (Strengthening the Reporting of Observational Studies in Epidemiology, hướng dẫn báo cáo nghiên cứu quan sát), theo thứ tự: (1) người tham gia và lưu đồ, (2) đặc điểm ban đầu (Bảng 1) và dữ liệu thiếu, (3) số kết cục ở mỗi nhóm, (4) kết quả chính, thô và đã hiệu chỉnh, kèm khoảng tin cậy 95%, (5) các phân tích khác trong gói kết quả (phân tích độ nhạy, quy gán hoặc phân nhóm). Báo cáo mọi kết quả trong gói. Khoảng 400 đến 600 từ |
+| Tất cả bảng và hình trong gói kết quả | Bảng 1, các bảng kết quả chính, các bảng phân tích khác và mọi hình. Mỗi bảng, hình đều được nhắc đến trong phần lời. Hình lặp lại nội dung của một bảng có thể đưa vào tài liệu bổ sung, nhưng không được bỏ sót kết quả nào |
 | Câu công khai sử dụng AI | Xem mục 6 |
 
-Bảng 1 và bảng hoặc hình kết quả chính đã có sẵn trong gói kết quả (mỗi câu hỏi Q1 đến Q5 có một gói). Bạn sao chép, định dạng lại và viết phần lời.
+Tất cả bảng và hình đã có sẵn trong gói kết quả (mỗi câu hỏi Q1 đến Q5 có một gói). Bạn sao chép, định dạng lại và viết phần lời báo cáo chúng.
 
-**Sẵn sàng để nộp** nghĩa là:
+**Sẵn sàng để công bố** nghĩa là:
+- mọi bảng và hình trong gói đều có mặt và được nhắc đến trong phần lời
 - mọi số liệu khớp với gói kết quả
 - tỷ lệ phần trăm có mẫu số, ước lượng có khoảng tin cậy 95%
 - mỗi bảng và hình tự đọc hiểu được (tên, đơn vị, n, giải thích chữ viết tắt)
@@ -96,8 +96,8 @@ Gửi các phần không bắt buộc trong cùng tệp với phần Kết quả
 |---|---|
 | Buổi 5 và 6 | Cả lớp cùng đọc dữ liệu, Bảng 1 và các kết quả |
 | Cuối Buổi 6 (5/12) | Bạn chọn câu hỏi và nhận hướng dẫn này |
-| Buổi 7 (12/12) | Học IMRaD, Phương pháp và Kết quả. Hội thảo viết bản thảo 1: giảng viên viết trực tiếp phần Kết quả của Q1 cùng cả lớp, sau đó bạn bắt đầu viết bài của mình. **Công bố người bình duyệt của bạn** |
-| Buổi 8 (19/12) | Học Đặt vấn đề, Bàn luận, Tóm tắt và tên bài. Hội thảo viết bản thảo 2: hoàn thiện phần Kết quả |
+| Buổi 7 (12/12) | Học IMRaD, Phương pháp và Kết quả. Thực hành bản thảo 1 (45 phút): bạn viết phần Kết quả cho câu hỏi của mình, dùng vài ví dụ ngắn của Q1 làm mẫu. Hoàn thành ở nhà. **Công bố người bình duyệt của bạn** |
+| Buổi 8 (19/12) | Học Đặt vấn đề, Bàn luận, Tóm tắt và tên bài. Thực hành bản thảo 2: bạn kiểm tra và hoàn thiện phần Kết quả cho câu hỏi của mình |
 | **23:59, Chủ nhật 20/12/2026** (giờ Việt Nam) | Hạn nộp bản nháp phần Kết quả. Gửi email cho người bình duyệt của bạn và cho giảng viên |
 | **Thứ Tư 30/12/2026** | Hạn nộp bản nhận xét bình duyệt. Gửi email cho tác giả và cho giảng viên |
 | **Thứ Bảy 9/1/2027** | Hạn nộp phần Kết quả đã sửa và thư phản hồi người bình duyệt |

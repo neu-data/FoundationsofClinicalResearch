@@ -4,7 +4,7 @@ title: "Session 8: Solutions"
 
 [Download the PDF](files/sessions/s8_solutions.pdf) · [Back to Session 8](session8.qmd)
 
-Answer keys for `s8_exercises.md` (Session 8 exercise sheet), Parts A–D. Numbers in Part B are from the Q1 results pack (`FLUID-ICU/results_packs/Q1/results_pack_Q1.md`, SIMULATED data). The full teaching notes for Part D are in `appraisal_instructor_guide.md`.
+Answer keys for `s8_exercises.md` (Session 8 exercise sheet), Parts A–D. Numbers in Part B are from the results pack of each question (`FLUID-ICU/results_packs/QN/results_pack_QN.md`, SIMULATED data). The full teaching notes for Part D are in `appraisal_instructor_guide.md`.
 
 
 * * *
@@ -49,23 +49,30 @@ Answer keys for `s8_exercises.md` (Session 8 exercise sheet), Parts A–D. Numbe
 
 * * *
 
-## Part B: Manuscript workshop 2: improve your Results section
+## Part B: Manuscript workshop 2: complete the Results section for your question
 
-Numbers are from the Q1 results pack (`FLUID-ICU/results_packs/Q1/results_pack_Q1.md`, **SIMULATED DATA**). The table for each number is given in brackets.
+Answers depend on the question each participant chose. Numbers are from that question's results pack (`FLUID-ICU/results_packs/QN/results_pack_QN.md`, **SIMULATED DATA**). The table for each number is given in brackets. The numbers a complete draft contains, block by block for Q1 to Q5, are in the Session 7 solutions, Part C.
 
-### The class Q1 Results
-| Check | Problem I found (typical) | My fix |
+### My Results draft: typical problems and fixes
+| Check | Problem found (typical) | Fix |
 |---|---|---|
-| Numbers | A number that differs from pack Q1, a percentage without its denominator, or only one of the crude and adjusted estimates | Copy each number from the pack. "35.9%" becomes "134 of 373 (35.9%)" (Table 2). Give the crude OR 2.49 (95% CI 1.70 to 3.70) and the adjusted OR 1.62 (95% CI 1.02 to 2.59), n = 527 (Table 3) |
-| Tables and figure | A table title without who and when, no n per column, no units, SOFA and IQR not explained | Add a full title, n per column and units. Explain SOFA and IQR in a footnote |
+| Numbers | A number that differs from the pack, a percentage without its denominator, or an estimate without its 95% CI | Copy each number from the pack. Example (Q1): "35.9%" becomes "134 of 373 (35.9%)" (Table 2) |
+| Completeness | Results from the pack left out | Q1: the Cox model (Table 4), heart failure (Table 5, Figure 4) and multiple imputation (Table 6). Q2: positive vs negative balance and AKI stage 2 to 3 (Table 4). Q3: positive vs negative balance and the Mann-Whitney result (Table 3). Q4: either the complete-case or the imputed estimate, the models with SOFA (Table 4), and who is missing lactate (Table 2, Figure 1). Q5: the Hodges-Lehmann difference and the ratio per 10 ml/kg (Table 3) |
+| Tables and figures | A table title without who and when, no n per column, no units, abbreviations not explained, a figure never cited in the text | Add a full title, n per column and units. Explain SOFA, IQR, OR and CI in a footnote. Cite each table and figure in the text |
 | Words | "because sicker patients received more fluid", "a trend", "increased mortality" | Delete the explanation (it belongs in the Discussion). Write "was associated with" |
 
-Working title for Q1: "Positive fluid balance by day 3 and 28-day mortality in sepsis: a multicentre cohort study" (15 words, design named, no causal verb).
+### My working title (model titles)
+| Question | Model working title | Words |
+|---|---|---|
+| Q1 | "Positive fluid balance by day 3 and 28-day mortality in sepsis: a multicentre cohort study" | 15 |
+| Q2 | "Cumulative fluid balance by day 3 and acute kidney injury in sepsis: a multicentre cohort study" | 16 |
+| Q3 | "Cumulative fluid balance and ventilator-free days in sepsis: a multicentre cohort study" | 12 |
+| Q4 | "Admission lactate and 28-day mortality in sepsis: complete-case and imputed analyses of a multicentre cohort" | 15 |
+| Q5 | "Fluid balance and ICU length of stay in sepsis survivors: a multicentre cohort study" | 14 |
 
-### My own Results draft
-My working title: answers vary. Check it with the fourth check: 10–16 words, the design named, "associated" for an observational design.
+Each title names the design and uses no causal verb. Accept any title that passes the fifth check.
 
-### Other sections (optional): models
+### Instructor note: models for the optional sections (Q1)
 These models are for the Introduction, Discussion and Abstract taught in 8.1. Use them to steer, do not paste them. Numbers are from pack Q1 (Tables 1 to 6). References are placeholders [n]. Participants use their Session 1–2 references and Papers 1–2.
 
 **Model Introduction (~300 words, three paragraphs)**

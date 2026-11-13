@@ -49,7 +49,7 @@ Nếu đến sáng thứ Hai 21/12 bạn vẫn chưa nhận được bản nháp
 | 5 | Kết quả chính: ước lượng thô và đã hiệu chỉnh kèm khoảng tin cậy 95% | | |
 | 6 | Có báo cáo các phân tích khác trong gói kết quả (độ nhạy, quy gán hoặc phân nhóm) | | |
 | 7 | Mọi số liệu khớp với gói kết quả | | |
-| 8 | Bảng và hình tự đọc hiểu được (tên, đơn vị, n, chữ viết tắt) | | |
+| 8 | Mọi bảng và hình trong gói đều có mặt, được nhắc đến trong phần lời và tự đọc hiểu được (tên, đơn vị, n, chữ viết tắt) | | |
 | 9 | Không diễn giải và không dùng từ nhân quả ("vì", "gây ra", "xu hướng") | | |
 | 10 | Có câu công khai sử dụng AI | | |
 
@@ -67,37 +67,70 @@ Nếu đến sáng thứ Hai 21/12 bạn vẫn chưa nhận được bản nháp
 
 * * *
 
-## 4. Mẫu bản bình duyệt
+## 4. Một bản bình duyệt tốt trông như thế nào
+
+Bản bình duyệt giúp tác giả cải thiện bản nháp. Bản bình duyệt không chỉ là một danh sách câu trả lời có hoặc không. Dùng cấu trúc sau:
+
+| Phần | Nội dung |
+|---|---|
+| Tóm tắt | Một đoạn: bản nháp báo cáo gì, bằng lời của bạn, và hai điểm mạnh chính |
+| Nhận xét chính | Các vấn đề làm thay đổi số liệu hoặc độ tin cậy của bài: số liệu sai, thiếu kết quả, thiếu khoảng tin cậy 95%, dùng từ nhân quả. Đánh số M1, M2, v.v. |
+| Nhận xét phụ | Cách diễn đạt, trình bày, nhãn, chữ viết tắt chưa giải thích. Đánh số m1, m2, v.v. |
+| Đề xuất | Chấp nhận như hiện tại, sửa nhỏ hoặc sửa lớn, kèm một câu giải thích vì sao |
+
+**Giọng văn.** Lịch sự và cụ thể. Ghi dòng, bảng hoặc hình cho mỗi nhận xét. Nêu vấn đề và gợi ý cách sửa. Nhận xét về bài viết, không nhận xét về tác giả.
+
+### Ví dụ một bản bình duyệt (khoảng 250 từ)
+
+Ví dụ hư cấu để giảng dạy. Bản này bình duyệt một bản nháp Q1 và đối chiếu mọi con số với gói kết quả Q1.
+
+> **Tóm tắt.** Bản nháp báo cáo tử vong 28 ngày ở 618 người lớn bị sepsis theo cân bằng dịch ở ngày 3. Người bệnh có cân bằng dịch dương tử vong nhiều hơn, và mối liên quan nhỏ hơn sau hiệu chỉnh. Lưu đồ người tham gia rõ ràng và đầy đủ (dòng 1 đến 4). Bảng 1 trình bày tốt và cho thấy dữ liệu thiếu của từng biến.
+>
+> **Nhận xét chính**
+> - M1. Dòng 12 ghi tỷ số chênh (OR) hiệu chỉnh 1.62 mà không có khoảng tin cậy 95%. Đề nghị thêm "khoảng tin cậy 95% 1.02 đến 2.59" (Bảng 3 của gói).
+> - M2. Dòng 14 viết cân bằng dịch dương "làm tăng nguy cơ tử vong". FLUID-ICU là nghiên cứu thuần tập, nên tôi đề nghị viết "có liên quan với tử vong 28 ngày cao hơn".
+> - M3. Dòng 9 ghi 136 ca tử vong ở nhóm cân bằng dịch dương, nhưng Bảng 2 ghi 134 trên 373. Đề nghị đối chiếu mọi con số trong phần lời với các bảng.
+> - M4. Phân tích theo suy tim (Bảng 5 và Hình 4 của gói) chưa được báo cáo. Hướng dẫn bài tập yêu cầu báo cáo tất cả kết quả trong gói.
+>
+> **Nhận xét phụ**
+> - m1. Dòng 9 và 10 ghi tỷ lệ phần trăm không có mẫu số ("35.9% so với 18.4%"). Đề nghị viết "134 trên 373 (35.9%) so với 45 trên 245 (18.4%)".
+> - m2. Chú thích của Bảng 2 chưa giải thích "RR".
+> - m3. Dòng 16 gọi kết quả Cox là "có ý nghĩa ở mức ranh giới". Tôi đề nghị báo cáo tỷ số nguy cơ tức thời 1.46 (khoảng tin cậy 95% 1.00 đến 2.13) mà không gắn nhãn.
+>
+> **Đề xuất:** sửa lớn. Bản nháp rõ ràng và có bố cục tốt, và mỗi thay đổi trên đều sửa nhanh.
+
+
+* * *
+
+## 5. Mẫu bản bình duyệt
 
 Chép mẫu này vào `Surname_Firstname_Review.docx`.
 
 **Bản nháp được bình duyệt:** tác giả ______________, Câu hỏi Q___, tên bài dự kiến: ______________________________
 **Người bình duyệt:** ______________  **Ngày:** ____________
 
-**1. Tóm tắt** (2 hoặc 3 câu): phần Kết quả cho thấy gì, bằng lời của bạn.
+**1. Tóm tắt** (một đoạn): phần Kết quả cho thấy gì, bằng lời của bạn, và hai điểm mạnh thật sự.
 
-**2. Điểm mạnh** (2 ý).
-
-**3. Nhận xét chính** (mỗi nhận xét có trang/dòng, vấn đề và một gợi ý).
+**2. Nhận xét chính** (mỗi nhận xét có dòng, bảng hoặc hình, vấn đề và một gợi ý).
 
 - M1.
 - M2.
 
-**4. Nhận xét phụ.**
+**3. Nhận xét phụ.**
 
 - m1.
 - m2.
 
-**5. Bảng kiểm phần Kết quả:** đính kèm bảng đã điền ở mục 2.
+**4. Bảng kiểm phần Kết quả:** đính kèm bảng đã điền ở mục 2.
 
-**6. Các phần không bắt buộc** (nếu có): một hoặc hai nhận xét cho mỗi phần.
+**5. Các phần không bắt buộc** (nếu có): một hoặc hai nhận xét cho mỗi phần.
 
-**7. Đề xuất** (đánh dấu một ô): ☐ Chấp nhận như hiện tại ☐ Sửa nhỏ ☐ Sửa lớn
+**6. Đề xuất** (đánh dấu một ô, kèm một câu giải thích vì sao): ☐ Chấp nhận như hiện tại ☐ Sửa nhỏ ☐ Sửa lớn
 
 
 * * *
 
-## 5. Tác giả phản hồi thế nào (tác giả)
+## 6. Tác giả phản hồi thế nào (tác giả)
 
 1. Đọc bản bình duyệt, rồi chờ một ngày trước khi trả lời.
 2. Dùng `Response_to_Reviewers_Template_VN.docx`. Cảm ơn người bình duyệt trong một câu.
@@ -115,6 +148,6 @@ Chép mẫu này vào `Surname_Firstname_Review.docx`.
 
 * * *
 
-## 6. Chấm điểm
+## 7. Chấm điểm
 
 Bản bình duyệt bạn viết và phần phản hồi của bạn là tiêu chí 8 và 9 của `Manuscript_Rubric_VN.pdf` (20 điểm).

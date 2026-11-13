@@ -147,7 +147,7 @@ Tệp: `tables/table6_sensitivity_VN.csv` và `tables/table6_sensitivity_VN.docx
 - Người bệnh có cân bằng dịch dương tử vong nhiều hơn (36% so với 18%). Nhưng họ cũng nặng hơn.
 - Sau khi tính đến mức độ nặng, mối liên quan nhỏ đi nhiều (OR giảm từ 2.49 xuống 1.62). Phần lớn chênh lệch thô là do nhiễu do chỉ định.
 - Vẫn còn một mối liên quan vừa phải: khoảng tin cậy 95% chỉ vừa đủ loại trừ 1, và mô hình Cox cho HR tương tự với khoảng tin cậy vừa chạm 1. Bằng chứng ở mức yếu đến trung bình, không mạnh.
-- Mối liên quan có vẻ mạnh hơn ở người bệnh suy tim (p tương tác 0.031). Phân tích này được xác định trước nhưng chỉ dựa trên 90 người bệnh suy tim, vì vậy hãy xem đây là một giả thuyết.
+- Mối liên quan có vẻ mạnh hơn ở người bệnh suy tim (p tương tác 0.031). Phân tích này được xác định trước nhưng chỉ dựa trên 90 người bệnh suy tim trong mô hình hiệu chỉnh (trường hợp đầy đủ), vì vậy hãy xem đây là một giả thuyết.
 
 ## 7. Kết quả này KHÔNG có nghĩa là gì
 

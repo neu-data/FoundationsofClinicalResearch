@@ -10,7 +10,7 @@ Download: [Word](files/assignments/Manuscript_Brief.docx) · [PDF](files/assignm
 
 **Organisation:** Neudata (*#ClearDataClearImpact*)
 **Who:** every participant, on their own. There are no groups.
-**Required:** a complete, submission-ready **Results section** for one FLUID-ICU question (Q1 to Q5), with a working title, Table 1 and one main results table or figure.
+**What you submit (required):** a publication-ready **Results section** for one FLUID-ICU question (Q1 to Q5) that reports **all the results in your results pack**: every table and every figure, each described in the text. Add a working title and an AI-use statement.
 **Optional:** Methods, Introduction, Discussion and Abstract. Trainers give feedback on these too.
 **What we give you:** the results. You do not analyse any data.
 **Shared:** at the end of Session 6, when you choose your question.
@@ -21,14 +21,14 @@ Download: [Word](files/assignments/Manuscript_Brief.docx) · [PDF](files/assignm
 
 ## 1. Purpose
 
-You write the Results section of a FLUID-ICU paper to the standard a journal expects: every number correct, every estimate with its 95% CI, tables that stand alone and no interpretation.
+You write the Results section of a FLUID-ICU paper to the standard a journal expects. It reports all the results in your results pack, not a selection. Every number is correct, every estimate has its 95% confidence interval (CI), every table and figure stands alone, and there is no interpretation.
 
 
 * * *
 
 ## 2. Choose one question (end of Session 6)
 
-All five questions are worked through in Sessions 5 and 6 (Q1 in full). By the end of Session 6, choose one and tell the instructor in the chat or by email. Any number of participants may choose the same question. Q1 is modelled live in Session 7, so it is the easiest start.
+All five questions are worked through in Sessions 5 and 6 (Q1 in full). By the end of Session 6, choose one and tell the instructor in the chat or by email. Any number of participants may choose the same question. The worked examples in class use Q1, but every results pack has the same structure. In Sessions 7 and 8 you spend the whole workshop time on your own question.
 
 | Q | Research question | Main analysis in the results pack |
 |---|---|---|
@@ -62,14 +62,14 @@ If something is missing from your results pack, ask the instructor.
 | Part | What we expect |
 |---|---|
 | Working title | One line naming the population, exposure, outcome and design, e.g. "Positive fluid balance by day 3 and 28-day mortality in sepsis: a multicentre cohort study" |
-| Results text | STROBE items 13 to 17, in this order: (1) participants and flow, (2) baseline characteristics (Table 1) and missing data, (3) outcome numbers per group, (4) the main result, crude and adjusted, with 95% CI, (5) other analyses in your pack (sensitivity, imputation or subgroup). About 400 to 600 words |
-| Table 1 | Baseline characteristics, from your results pack |
-| Main results table or figure | e.g. crude and adjusted estimates, or the Kaplan-Meier curve (Q1) |
+| Results text | Items 13 to 17 of STROBE (Strengthening the Reporting of Observational Studies in Epidemiology), in this order: (1) participants and flow, (2) baseline characteristics (Table 1) and missing data, (3) outcome numbers per group, (4) the main result, crude and adjusted, with 95% CI, (5) the other analyses in your pack (sensitivity, imputation or subgroup). Every result in the pack is reported. About 400 to 600 words |
+| All tables and figures from your pack | Table 1, the main results tables, the tables of other analyses and every figure. Each one is cited in the text. A figure that repeats a table may go in a supplementary file, but no result is left out |
 | AI-use statement | See section 6 |
 
-Table 1 and the main results table or figure come ready in your results pack (one pack per question, Q1 to Q5). You copy and format them, and write the text.
+All the tables and figures come ready in your results pack (one pack per question, Q1 to Q5). You copy and format them, and write the text that reports them.
 
-**Submission-ready** means:
+**Publication-ready** means:
+- every table and figure in your pack is included and cited in the text
 - every number agrees with your results pack
 - percentages have denominators and estimates have 95% CIs
 - each table and figure stands alone (title, units, n, abbreviations explained)
@@ -96,8 +96,8 @@ Send optional parts in the same file as your Results. They are not marked.
 |---|---|
 | Sessions 5 and 6 | The class reads the data, Table 1 and the results together |
 | End of Session 6 (5 December) | You choose your question and receive this brief |
-| Session 7 (12 December) | IMRaD, Methods and Results taught. Manuscript workshop 1: the instructor writes the Q1 Results live with the class, then you start yours. **Your reviewer is announced** |
-| Session 8 (19 December) | Introduction, Discussion, abstract and title taught. Manuscript workshop 2: improve your Results section |
+| Session 7 (12 December) | IMRaD, Methods and Results taught. Manuscript workshop 1 (45 minutes): you write the Results section for your own question, with short Q1 examples as a model. You finish at home. **Your reviewer is announced** |
+| Session 8 (19 December) | Introduction, Discussion, abstract and title taught. Manuscript workshop 2: you check and complete the Results section for your own question |
 | **23:59, Sunday 20 December 2026** (Vietnam time) | Results draft due. Email it to your reviewer and to the instructor |
 | **Wednesday 30 December 2026** | Review report due. Email it to the author and to the instructor |
 | **Saturday 9 January 2027** | Revised Results section and response to the reviewer due |

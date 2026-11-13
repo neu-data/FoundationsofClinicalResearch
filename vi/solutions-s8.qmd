@@ -4,7 +4,7 @@ title: "Buổi 8: Lời giải"
 
 [Tải bản PDF](files/sessions/s8_solutions_VN.pdf) · [Quay lại Buổi 8](session8.qmd)
 
-Đáp án cho `s8_exercises_VN.md` (phiếu bài tập Buổi 8), Phần A–D. Số liệu trong Phần B lấy từ gói kết quả Q1 (`FLUID-ICU/results_packs/Q1/results_pack_Q1_VN.md`, dữ liệu MÔ PHỎNG). Ghi chú giảng dạy đầy đủ cho Phần D nằm trong `appraisal_instructor_guide.md` (tiếng Anh).
+Đáp án cho `s8_exercises_VN.md` (phiếu bài tập Buổi 8), Phần A–D. Số liệu trong Phần B lấy từ gói kết quả của từng câu hỏi (`FLUID-ICU/results_packs/QN/results_pack_QN_VN.md`, dữ liệu MÔ PHỎNG). Ghi chú giảng dạy đầy đủ cho Phần D nằm trong `appraisal_instructor_guide.md` (tiếng Anh).
 
 
 * * *
@@ -53,23 +53,30 @@ title: "Buổi 8: Lời giải"
 
 * * *
 
-## Phần B: Thực hành bản thảo 2: hoàn thiện phần Kết quả
+## Phần B: Thực hành bản thảo 2: hoàn thiện phần Kết quả cho câu hỏi của bạn
 
-Số liệu lấy từ gói kết quả Q1 (`FLUID-ICU/results_packs/Q1/results_pack_Q1_VN.md`, **DỮ LIỆU MÔ PHỎNG**). Bảng chứa mỗi con số được ghi trong ngoặc.
+Đáp án phụ thuộc vào câu hỏi mỗi học viên đã chọn. Số liệu lấy từ gói kết quả của câu hỏi đó (`FLUID-ICU/results_packs/QN/results_pack_QN_VN.md`, **DỮ LIỆU MÔ PHỎNG**). Bảng chứa mỗi con số được ghi trong ngoặc. Các con số mà một bản nháp đầy đủ cần có, theo từng khối cho Q1 đến Q5, nằm trong đáp án Buổi 7, Phần C.
 
-### Phần Kết quả Q1 của lớp
-| Bước kiểm tra | Lỗi tôi tìm thấy (điển hình) | Cách tôi sửa |
+### Bản nháp phần Kết quả của tôi: lỗi điển hình và cách sửa
+| Bước kiểm tra | Lỗi tìm thấy (điển hình) | Cách sửa |
 |---|---|---|
-| Con số | Một con số khác với gói Q1, tỷ lệ phần trăm không có mẫu số, hoặc chỉ có một trong hai ước lượng thô và hiệu chỉnh | Chép từng con số từ gói. "35.9%" thành "134 trên 373 (35.9%)" (Bảng 2). Ghi OR thô 2.49 (khoảng tin cậy 95% 1.70 đến 3.70) và OR hiệu chỉnh 1.62 (khoảng tin cậy 95% 1.02 đến 2.59), n = 527 (Bảng 3) |
-| Bảng và hình | Tên bảng không nêu ai và khi nào, không có n mỗi cột, không có đơn vị, không giải thích SOFA và IQR | Thêm tên bảng đầy đủ, n mỗi cột và đơn vị. Giải thích SOFA và IQR trong chú thích |
+| Con số | Một con số khác với gói, tỷ lệ phần trăm không có mẫu số, hoặc ước lượng không có khoảng tin cậy 95% | Chép từng con số từ gói. Ví dụ (Q1): "35.9%" thành "134 trên 373 (35.9%)" (Bảng 2) |
+| Tính đầy đủ | Bỏ sót kết quả có trong gói | Q1: mô hình Cox (Bảng 4), suy tim (Bảng 5, Hình 4) và quy gán đa bội (Bảng 6). Q2: cân bằng dịch dương so với âm và AKI giai đoạn 2 đến 3 (Bảng 4). Q3: cân bằng dịch dương so với âm và kết quả Mann-Whitney (Bảng 3). Q4: thiếu ước lượng trường hợp đầy đủ hoặc ước lượng quy gán, các mô hình có SOFA (Bảng 4), và ai bị thiếu lactat (Bảng 2, Hình 1). Q5: chênh lệch Hodges-Lehmann và tỷ số mỗi 10 ml/kg (Bảng 3) |
+| Bảng và hình | Tên bảng không nêu ai và khi nào, không có n mỗi cột, không có đơn vị, không giải thích chữ viết tắt, có hình không được nhắc đến trong phần lời | Thêm tên bảng đầy đủ, n mỗi cột và đơn vị. Giải thích SOFA, IQR, OR và khoảng tin cậy trong chú thích. Nhắc đến từng bảng và hình trong phần lời |
 | Từ ngữ | "vì người bệnh nặng hơn được truyền nhiều dịch hơn", "một xu hướng", "làm tăng tử vong" | Xóa lời giải thích (thuộc phần Bàn luận). Viết "có liên quan với" |
 
-Tên bài dự kiến cho Q1: "Positive fluid balance by day 3 and 28-day mortality in sepsis: a multicentre cohort study" (Cân bằng dịch dương đến ngày 3 và tử vong 28 ngày trong sepsis: nghiên cứu thuần tập đa trung tâm) (15 từ tiếng Anh, nêu thiết kế, không có động từ nhân quả).
+### Tên bài dự kiến của tôi (tên bài mẫu)
+| Câu hỏi | Tên bài mẫu | Số từ (tiếng Anh) |
+|---|---|---|
+| Q1 | "Positive fluid balance by day 3 and 28-day mortality in sepsis: a multicentre cohort study" (Cân bằng dịch dương đến ngày 3 và tử vong 28 ngày trong sepsis: nghiên cứu thuần tập đa trung tâm) | 15 |
+| Q2 | "Cumulative fluid balance by day 3 and acute kidney injury in sepsis: a multicentre cohort study" (Cân bằng dịch tích lũy đến ngày 3 và tổn thương thận cấp trong sepsis: nghiên cứu thuần tập đa trung tâm) | 16 |
+| Q3 | "Cumulative fluid balance and ventilator-free days in sepsis: a multicentre cohort study" (Cân bằng dịch tích lũy và số ngày không thở máy trong sepsis: nghiên cứu thuần tập đa trung tâm) | 12 |
+| Q4 | "Admission lactate and 28-day mortality in sepsis: complete-case and imputed analyses of a multicentre cohort" (Lactat lúc nhập ICU và tử vong 28 ngày trong sepsis: phân tích trường hợp đầy đủ và quy gán trong một nghiên cứu thuần tập đa trung tâm) | 15 |
+| Q5 | "Fluid balance and ICU length of stay in sepsis survivors: a multicentre cohort study" (Cân bằng dịch và thời gian nằm ICU ở người bệnh sepsis sống sót: nghiên cứu thuần tập đa trung tâm) | 14 |
 
-### Bản nháp phần Kết quả của tôi
-Tên bài dự kiến của tôi: mỗi học viên một câu trả lời. Kiểm tra bằng bước thứ tư: 10–16 từ, nêu thiết kế, dùng "có liên quan" cho thiết kế quan sát.
+Mỗi tên bài đều nêu thiết kế và không dùng động từ nhân quả. Chấp nhận mọi tên bài đạt bước kiểm tra thứ năm.
 
-### Các phần khác (không bắt buộc): bản mẫu
+### Ghi chú cho giảng viên: bản mẫu cho các phần không bắt buộc (Q1)
 Các bản mẫu này dành cho phần Đặt vấn đề, Bàn luận và Tóm tắt đã học ở 8.1. Dùng để định hướng, không dán nguyên văn. Số liệu lấy từ gói Q1 (Bảng 1 đến 6). Tài liệu tham khảo để dạng giữ chỗ [n]. Học viên dùng các tài liệu tham khảo từ Buổi 1–2 và Bài báo 1–2.
 
 **Đặt vấn đề mẫu (~300 từ, ba đoạn)**
@@ -95,10 +102,10 @@ Các bản mẫu này dành cho phần Đặt vấn đề, Bàn luận và Tóm 
 
 | Câu hỏi | Câu trả lời (bảng trong gói) | Hạn chế chính |
 |---|---|---|
-| Q2 AKI | OR hiệu chỉnh 1.27 mỗi 10 ml/kg (KTC 95% 1.16 đến 1.40) (Bảng 4 gói Q2) | Quan hệ nhân quả ngược: AKI thiểu niệu gây tích lũy dịch |
-| Q3 VFD | Hiệu chỉnh −0.61 ngày mỗi 10 ml/kg (KTC 95% −1.00 đến −0.21) (Bảng 3 gói Q3) | Số ngày không thở máy gộp cả tử vong và thở máy. Kết cục có phân phối lệch |
+| Q2 AKI | OR hiệu chỉnh 1.27 mỗi 10 ml/kg (khoảng tin cậy 95% 1.16 đến 1.40) (Bảng 4 gói Q2) | Quan hệ nhân quả ngược: AKI thiểu niệu gây tích lũy dịch |
+| Q3 VFD | Hiệu chỉnh −0.61 ngày mỗi 10 ml/kg (khoảng tin cậy 95% −1.00 đến −0.21) (Bảng 3 gói Q3) | Số ngày không thở máy gộp cả tử vong và thở máy. Kết cục có phân phối lệch |
 | Q4 Lactat | OR hiệu chỉnh mỗi mmol/L 1.39 (CC, n = 527) so với 1.45 (MI, n = 620) (Bảng 4 gói Q4) | Không loại trừ được thiếu không ngẫu nhiên. MAR là hợp lý (thiếu ở người bệnh nhẹ hơn) |
-| Q5 Thời gian nằm ICU | Tỷ số trung bình nhân hiệu chỉnh 1.24 (KTC 95% 1.10 đến 1.39), người sống sót, n = 366 (Bảng 3 gói Q5) | Chỉ người sống sót (điều kiện hóa theo sống còn). Kết cục có phân phối lệch |
+| Q5 Thời gian nằm ICU | Tỷ số trung bình nhân hiệu chỉnh 1.24 (khoảng tin cậy 95% 1.10 đến 1.39), người sống sót, n = 366 (Bảng 3 gói Q5) | Chỉ người sống sót (điều kiện hóa theo sống còn). Kết cục có phân phối lệch |
 
 
 * * *
@@ -171,7 +178,7 @@ Trên lớp, Bài báo 1 cần câu 4, 5, 7, 8 và 9, Bài báo 2 cần câu 4, 
 | # | Câu hỏi | Trả lời | Trang | Ghi chú (một dòng) |
 |---|---|---|---|---|
 | 1 | Câu hỏi | Có | 1, 2 | P: người lớn bị sepsis nằm ICU ít nhất 3 ngày, 20 bệnh viện. E: cân bằng dịch tích lũy dương đến ngày 1, 2 hoặc 3. C: cân bằng dịch âm. O: tử vong 28 ngày |
-| 2 | Thiết kế | Có (cho mối liên quan) | 1, 2–3 | Thuần tập từ sổ đăng ký với ba thuần tập ghép cặp. Phù hợp cho câu hỏi về mối liên quan, không phải "impact" mang tính nhân quả trong tiêu đề |
+| 2 | Thiết kế | Có (cho mối liên quan) | 1, 2–3 | Thuần tập từ một hệ thống lưu trữ dữ liệu (registry) với ba thuần tập ghép cặp. Phù hợp cho câu hỏi về mối liên quan, không phải "impact" mang tính nhân quả trong tiêu đề |
 | 3 | Người tham gia | Không rõ | 2, 3 | 2516 trên 11,981 người được phân tích (khoảng 21%). Thiếu những người tử vong hoặc rời ICU trong 3 ngày đầu |
 | 4 | Nhóm so sánh | Không (chưa hoàn toàn) | 2–3, 4, 5–6 | Chỉ ghép cặp theo các biến đã đo. Lactat vẫn mất cân bằng (SMD 0.132 ở ngày 2 và 0.182 ở ngày 3, trên ngưỡng 0.1) |
 | 5 | Sai lệch | Có | 2–3, 7–8 | Không làm mù, nhưng tử vong là kết cục khách quan. Sai lệch chính là nhiễu do chỉ định (người bệnh nặng hơn được truyền nhiều dịch hơn), tác giả không nêu tên |
