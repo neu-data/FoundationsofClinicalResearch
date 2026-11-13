@@ -850,7 +850,7 @@ Trên lớp, cả lớp cùng đi qua năm câu. Cuối Buổi 6, mỗi anh ch�
 
 - Cân bằng dịch và thời gian nằm ICU ở người sống
 - Kết cục: số ngày, lệch
-- Phân tích: Wilcoxon rank-sum (Mann-Whitney) và hồi quy trên thang logarit
+- Phân tích: Wilcoxon rank-sum (Mann-Whitney) và hồi quy tuyến tính trên log(số ngày nằm ICU)
 :::
 ::::
 
@@ -1348,7 +1348,7 @@ Hỏi: sao không dùng cột trung bình SOFA? Kỳ vọng: nó che mất độ
 ::: {.notes}
 Do 02\_describe.R tạo, khối 7. Thời gian nằm ICU ở 439 người sống sót lệch phải: trung bình 7.5, trung vị 6.2 ngày.
 
-Q5 báo cáo trung vị (IQR), dùng Wilcoxon rank-sum (Mann-Whitney) và thang logarit trong mô hình.
+Q5 báo cáo trung vị (IQR), dùng Wilcoxon rank-sum (Mann-Whitney), và hồi quy tuyến tính trên log của số ngày nằm ICU, cho tỷ số trung bình nhân.
 
 Bảng 1 nào cũng có ít nhất một biến lệch.
 :::
@@ -1574,7 +1574,6 @@ THẢO LUẬN · 5 phút
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#1F5C7A"}
-- Từ khóa và tóm tắt (hai trang trước)
 - Câu hỏi cuối buổi trong khung chat: một lỗi chất lượng dữ liệu tìm thấy trong FLUID-ICU, và cách sửa
 - Về nhà: hoàn thành Phần 3 (nửa đầu) đề cương của chính anh chị
 - Xem qua năm gói kết quả. Anh chị chọn câu hỏi vào cuối Buổi 6

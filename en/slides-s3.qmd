@@ -359,7 +359,7 @@ Ask: 'Why can you not calculate the risk of candidaemia here?' Expected: we chos
 Timing: 2.5 minutes.
 :::
 
-## Another example: a case-control study in the ICU
+## The same case-control study, step by step
 
 ::: {.neu-intro}
 Question: is parenteral nutrition a risk factor for candidaemia in the ICU?
@@ -398,7 +398,7 @@ Question: is parenteral nutrition a risk factor for candidaemia in the ICU?
 :::
 
 ::: {.notes}
-Take your time: Session 4 uses the same numbers to calculate the OR.
+The candidaemia study of the previous slide, in five steps with its numbers. Take your time: Session 4 uses the same numbers to calculate the OR.
 
 Why 80 controls? Cases are few and fixed, so extra controls add precision cheaply. Two to four controls per case is usual; beyond four, little is gained.
 
@@ -624,6 +624,7 @@ Strengths and weaknesses at a glance
 
 - [+ rare outcomes]{style="color:#2E8B57"}
 - [+ few patients, fast]{style="color:#2E8B57"}
+- [+ long time from exposure to disease]{style="color:#2E8B57"}
 - [- recall bias]{style="color:#B23B2E"}
 - [- confounding]{style="color:#B23B2E"}
 - [- odds ratio only]{style="color:#B23B2E"}

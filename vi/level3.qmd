@@ -21,7 +21,7 @@ Cấp độ 3 gồm các **học phần chuyên sâu** cho dữ liệu và câu 
 
 ## 1. Cấp độ 3 là gì
 
-Dữ liệu lâm sàng thực tế thường phức tạp hơn bộ dữ liệu thuần tập dùng ở Cấp độ 1 và 2: đo lặp lại trên cùng người bệnh, người bệnh theo cụm trong khoa phòng hoặc bệnh viện, các kết cục cạnh tranh, sổ đăng ký thường quy quy mô lớn, hoặc câu hỏi về dự báo và chẩn đoán thay vì mối liên quan. Cấp độ 3 gồm các học phần chuyên sâu, mỗi học phần gắn với loại dữ liệu hoặc câu hỏi mà học viên gặp trong công việc của mình. Cấp độ 3 cũng bao gồm các chủ đề về kỹ năng làm nghiên cứu đã chuyển ra khỏi Cấp độ 2 để Cấp độ 2 tập trung vào mô hình thống kê: dự án có thể lặp lại, quản lý phiên bản, báo cáo Quarto, biểu đồ đạt yêu cầu của tạp chí, dữ liệu thiếu và phân tích độ nhạy chuyên sâu (Học phần G và H). Neudata tổ chức các học phần dưới dạng hội thảo và tư vấn: một đợt giảng dạy ngắn, tập trung, sau đó là thực hành trên chính dự án của học viên, với sự hỗ trợ của Neudata cho đến khi có một kế hoạch phân tích hoặc một phân tích vững chắc.
+Dữ liệu lâm sàng thực tế thường phức tạp hơn bộ dữ liệu thuần tập dùng ở Cấp độ 1 và 2: đo lặp lại trên cùng người bệnh, người bệnh theo cụm trong khoa phòng hoặc bệnh viện, các kết cục cạnh tranh, hệ thống lưu trữ thông tin thường quy quy mô lớn, hoặc câu hỏi về dự báo và chẩn đoán thay vì mối liên quan. Cấp độ 3 gồm các học phần chuyên sâu, mỗi học phần gắn với loại dữ liệu hoặc câu hỏi mà học viên gặp trong công việc của mình. Cấp độ 3 cũng bao gồm các chủ đề về kỹ năng làm nghiên cứu đã chuyển ra khỏi Cấp độ 2 để Cấp độ 2 tập trung vào mô hình thống kê: dự án có thể lặp lại, quản lý phiên bản, báo cáo Quarto, biểu đồ đạt yêu cầu của tạp chí, dữ liệu thiếu và phân tích độ nhạy chuyên sâu (Học phần G và H). Neudata tổ chức các học phần dưới dạng hội thảo và tư vấn: một đợt giảng dạy ngắn, tập trung, sau đó là thực hành trên chính dự án của học viên, với sự hỗ trợ của Neudata cho đến khi có một kế hoạch phân tích hoặc một phân tích vững chắc.
 
 ## 2. Hình thức
 
@@ -100,16 +100,16 @@ Các nguyên tắc này áp dụng cho mọi học phần Cấp độ 3 và mọ
 | E1: Số đo lặp lại theo thời gian | Dữ liệu dạng dài và dạng rộng; biểu đồ spaghetti; vì sao hồi quy thông thường không đúng với số đo lặp lại; mô hình hỗn hợp tuyến tính cho số đo hằng ngày (ví dụ cân bằng dịch hoặc SOFA ngày 1 đến 3); hệ số chặn và hệ số góc ngẫu nhiên; thời gian là một biến dự báo | Phân tích mô hình hỗn hợp cho một kết cục đo lặp lại kèm một đoạn Kết quả |
 | E2: Kết cục theo cụm và GEE | Kết cục nhị phân đo lặp lại hoặc theo cụm; mô hình hỗn hợp logistic; GEE, tác động trung bình quần thể và tác động theo cá thể; ICC; kiểm tra mô hình; báo cáo | So sánh ước lượng từ mô hình hỗn hợp và GEE cho một câu hỏi |
 
-### Học phần F: Dữ liệu phức tạp: thiết kế theo cụm, số đo lặp lại và sổ đăng ký lớn
+### Học phần F: Dữ liệu phức tạp: thiết kế theo cụm, số đo lặp lại và hệ thống lưu trữ thông tin lớn
 
-**Mục tiêu.** Học viên có thể (1) nhận biết dữ liệu theo cụm (người bệnh trong khoa phòng, ICU hoặc bệnh viện) và hệ quả của nó đối với sai số chuẩn và cỡ mẫu; (2) phân tích dữ liệu thử nghiệm ngẫu nhiên theo cụm và dữ liệu đa trung tâm (tác động của trung tâm, hệ số thiết kế); (3) làm việc với bộ dữ liệu thường quy lớn và sổ đăng ký (liên kết dữ liệu, kiểm tra chất lượng dữ liệu ở quy mô lớn, các hệ thống mã hóa như ICD, xử lý dữ liệu hiệu quả trong R); và (4) lập kế hoạch phân tích nhân quả cho dữ liệu quan sát (DAG, điểm xu hướng, giới thiệu ý tưởng thử nghiệm mục tiêu (target trial)).
+**Mục tiêu.** Học viên có thể (1) nhận biết dữ liệu theo cụm (người bệnh trong khoa phòng, ICU hoặc bệnh viện) và hệ quả của nó đối với sai số chuẩn và cỡ mẫu; (2) phân tích dữ liệu thử nghiệm ngẫu nhiên theo cụm và dữ liệu đa trung tâm (tác động của trung tâm, hệ số thiết kế); (3) làm việc với bộ dữ liệu thường quy lớn và hệ thống lưu trữ thông tin (liên kết dữ liệu, kiểm tra chất lượng dữ liệu ở quy mô lớn, các hệ thống mã hóa như ICD, xử lý dữ liệu hiệu quả trong R); và (4) lập kế hoạch phân tích nhân quả cho dữ liệu quan sát (DAG, điểm xu hướng, giới thiệu ý tưởng thử nghiệm mục tiêu (target trial)).
 
 **Điều kiện tham gia.** Cấp độ 2; nên học trước Học phần E. Các gói: data.table hoặc arrow, MatchIt, WeightIt, cobalt, dagitty.
 
 | Buổi | Nội dung | Sản phẩm |
 |---|---|---|
 | F1: Dữ liệu theo cụm và đa trung tâm | Hệ số thiết kế và ICC; trung tâm là tác động cố định hay tác động ngẫu nhiên; sai số chuẩn vững theo cụm; phân tích một nghiên cứu ngẫu nhiên theo cụm hoặc đa trung tâm; báo cáo (CONSORT mở rộng cho thử nghiệm theo cụm) | Kế hoạch phân tích cho một bộ dữ liệu theo cụm hoặc đa trung tâm |
-| F2: Sổ đăng ký lớn và dữ liệu thường quy | Liên kết dữ liệu và loại bỏ thông tin định danh; chất lượng dữ liệu ở quy mô lớn; hệ thống mã hóa; xử lý dữ liệu hiệu quả; câu hỏi nhân quả từ dữ liệu thường quy (DAG, điểm xu hướng với ghép cặp, trọng số và kiểm tra cân bằng, và giới thiệu mô phỏng thử nghiệm mục tiêu); báo cáo theo RECORD | Kế hoạch quản lý và phân tích dữ liệu cho một câu hỏi dựa trên sổ đăng ký |
+| F2: Hệ thống lưu trữ thông tin lớn và dữ liệu thường quy | Liên kết dữ liệu và loại bỏ thông tin định danh; chất lượng dữ liệu ở quy mô lớn; hệ thống mã hóa; xử lý dữ liệu hiệu quả; câu hỏi nhân quả từ dữ liệu thường quy (DAG, điểm xu hướng với ghép cặp, trọng số và kiểm tra cân bằng, và giới thiệu mô phỏng thử nghiệm mục tiêu); báo cáo theo RECORD | Kế hoạch quản lý và phân tích dữ liệu cho một câu hỏi dựa trên hệ thống lưu trữ thông tin |
 
 ### Học phần G: Nghiên cứu có thể lặp lại và kết quả đạt chuẩn công bố
 
@@ -144,7 +144,7 @@ Học phần này gồm các chủ đề về khả năng lặp lại và biểu
 | Kiểm tra một xét nghiệm, thang điểm hoặc dấu hiệu phát hiện bệnh tốt đến đâu | **C**: Độ chính xác chẩn đoán |
 | Phân tích kết cục thời gian đến biến cố có biến cố cạnh tranh hoặc phơi nhiễm thay đổi | **D**: Phân tích sống còn nâng cao |
 | Phân tích các số đo lặp lại theo thời gian trên cùng người bệnh | **E**: Dữ liệu dọc và mô hình hỗn hợp |
-| Phân tích dữ liệu đa trung tâm, thử nghiệm ngẫu nhiên theo cụm hoặc sổ đăng ký | **F**: Dữ liệu phức tạp |
+| Phân tích dữ liệu đa trung tâm, thử nghiệm ngẫu nhiên theo cụm hoặc hệ thống lưu trữ thông tin | **F**: Dữ liệu phức tạp |
 | Tạo một phân tích mà người khác chạy lại được, và biểu đồ đạt yêu cầu của tạp chí | **G**: Nghiên cứu có thể lặp lại (nên học đầu tiên) |
 | Xử lý dữ liệu thiếu đúng cách và kiểm tra xem kết luận có vững hay không | **H**: Dữ liệu thiếu và phân tích độ nhạy |
 

@@ -850,7 +850,7 @@ In class we work through all five together. At the end of Session 6 you choose o
 
 - Fluid balance and ICU stay in survivors
 - Outcome: days, skewed
-- Analysis: Wilcoxon rank-sum (Mann-Whitney) and regression on the log scale
+- Analysis: Wilcoxon rank-sum (Mann-Whitney) and linear regression on log(ICU days)
 :::
 ::::
 
@@ -1348,7 +1348,7 @@ Ask: why not a bar of the mean SOFA? Expected: it would hide the spread and the 
 ::: {.notes}
 Made by 02\_describe.R, block 7. ICU stay in the 439 survivors is right-skewed: mean 7.5, median 6.2 days.
 
-Q5 reports medians (IQR), uses Wilcoxon rank-sum (Mann-Whitney) and a log scale in the model.
+Q5 reports medians (IQR), uses Wilcoxon rank-sum (Mann-Whitney), and linear regression on the log of ICU days, which gives a ratio of geometric means.
 
 Every Table 1 has at least one skewed variable.
 :::
@@ -1574,7 +1574,6 @@ DISCUSSION · 5 min
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#1F5C7A"}
-- Key words and recap (previous two slides)
 - Exit question in the chat: one data-quality problem found in FLUID-ICU, and how it was fixed
 - Homework: finish Part 3 (first half) of your own proposal
 - Look through the five results packs. You choose your question at the end of Session 6

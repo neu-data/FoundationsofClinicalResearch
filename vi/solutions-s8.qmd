@@ -178,7 +178,7 @@ Trên lớp, Bài báo 1 cần câu 4, 5, 7, 8 và 9, Bài báo 2 cần câu 4, 
 | # | Câu hỏi | Trả lời | Trang | Ghi chú (một dòng) |
 |---|---|---|---|---|
 | 1 | Câu hỏi | Có | 1, 2 | P: người lớn bị sepsis nằm ICU ít nhất 3 ngày, 20 bệnh viện. E: cân bằng dịch tích lũy dương đến ngày 1, 2 hoặc 3. C: cân bằng dịch âm. O: tử vong 28 ngày |
-| 2 | Thiết kế | Có (cho mối liên quan) | 1, 2–3 | Thuần tập từ một hệ thống lưu trữ dữ liệu (registry) với ba thuần tập ghép cặp. Phù hợp cho câu hỏi về mối liên quan, không phải "impact" mang tính nhân quả trong tiêu đề |
+| 2 | Thiết kế | Có (cho mối liên quan) | 1, 2–3 | Thuần tập từ một hệ thống lưu trữ thông tin (registry) với ba thuần tập ghép cặp. Phù hợp cho câu hỏi về mối liên quan, không phải "impact" mang tính nhân quả trong tiêu đề |
 | 3 | Người tham gia | Không rõ | 2, 3 | 2516 trên 11,981 người được phân tích (khoảng 21%). Thiếu những người tử vong hoặc rời ICU trong 3 ngày đầu |
 | 4 | Nhóm so sánh | Không (chưa hoàn toàn) | 2–3, 4, 5–6 | Chỉ ghép cặp theo các biến đã đo. Lactat vẫn mất cân bằng (SMD 0.132 ở ngày 2 và 0.182 ở ngày 3, trên ngưỡng 0.1) |
 | 5 | Sai lệch | Có | 2–3, 7–8 | Không làm mù, nhưng tử vong là kết cục khách quan. Sai lệch chính là nhiễu do chỉ định (người bệnh nặng hơn được truyền nhiều dịch hơn), tác giả không nêu tên |

@@ -13,7 +13,7 @@ title: "Buổi 2: Lời giải"
 
 ## Câu hỏi ôn tập: đáp án Buổi 1
 
-1. **Bài báo 1 (Boulet 2024) là thử nghiệm** (RCT thí điểm, pilot RCT); **Bài báo 2 (Hyun 2023) là nghiên cứu thuần tập** (thuần tập ghép cặp từ sổ đăng ký).
+1. **Bài báo 1 (Boulet 2024) là thử nghiệm** (RCT thí điểm, pilot RCT); **Bài báo 2 (Hyun 2023) là nghiên cứu thuần tập** (thuần tập ghép cặp từ hệ thống lưu trữ thông tin).
 2. **P** người lớn bị sepsis · **E** cân bằng dịch tích lũy dương đến ngày 3 · **C** cân bằng dịch trung tính hoặc âm · **O** tử vong · **T** trước ngày 28 (câu hỏi PECO: E = phơi nhiễm).
 3. **Feasible (khả thi)**: kết cục tử vong cần hơn 1000 người bệnh.
 4. **"Ước tính tỷ lệ người bệnh có cân bằng dịch dương vào ngày 3"**: động từ đo lường được. "Tìm hiểu" không đo lường được.
@@ -91,7 +91,7 @@ AND (prevent*[tiab] OR "multicomponent"[tiab] OR "non-pharmacological"[tiab] OR 
 | Phiên bản | Nhận định | Vì sao |
 |---|---|---|
 | a) | **Có vấn đề: viết chắp vá** | Cùng cấu trúc và gần như cùng từ ngữ với nguồn; chỉ đổi một từ ("death" thay cho "mortality"). Vẫn là đạo văn dù có trích dẫn. |
-| b) | **Đạt** | Cấu trúc mới, thêm bối cảnh (thuần tập ghép cặp từ sổ đăng ký, tử vong 28 ngày), giữ từ chừng mực "associated", có số liệu và trích dẫn. |
+| b) | **Đạt** | Cấu trúc mới, thêm bối cảnh (thuần tập ghép cặp từ hệ thống lưu trữ thông tin, tử vong 28 ngày), giữ từ chừng mực "associated", có số liệu và trích dẫn. |
 | c) | **Có vấn đề: bóp méo nguồn** | "Giving more fluid ... doubles the risk" biến một *mối liên quan* quan sát thành quan hệ nhân quả, và "doubles" (gấp đôi) là phóng đại (HR 2.13 chỉ ở ngày 2; ngày 3 là 1.56). Trích dẫn không sửa được việc trình bày sai. |
 | d) | **Có vấn đề: không trích dẫn** | Lời văn tốt, nhưng trình bày phát hiện của người khác mà không trích dẫn là đạo văn. |
 
@@ -160,7 +160,7 @@ Giảng viên làm mẫu trực tiếp cho ví dụ xuyên suốt (phiên bản 
 | # | Nghiên cứu | Thiết kế, cỡ mẫu | So sánh | Kết cục chính: kết quả | Hạn chế chính | Vì sao quan trọng với câu hỏi của chúng ta |
 |---|---|---|---|---|---|---|
 | 1 | Boulet 2024, *Crit Care* | RCT thí điểm, 3 ICU, 50 người được phân nhóm, 48 người được phân tích | Hạn chế dịch duy trì và dịch pha thuốc trong 7 ngày so với chăm sóc tiêu chuẩn | Cân bằng dịch tích lũy ngày 5: trung vị 6.9 so với 35.0 ml/kg, p = 0.42, không khác biệt có ý nghĩa | Cỡ mẫu nhỏ, không đủ lực cho tử vong, bác sĩ không được làm mù | Thiết kế và kết cục gần nhất với nghiên cứu thí điểm của chúng ta |
-| 2 | Hyun 2023, *Ann Intensive Care* | Thuần tập ghép cặp theo điểm xu hướng, hệ thống lưu trữ dữ liệu (registry) đa trung tâm, 20 bệnh viện, 2516 người bệnh | Cân bằng dịch tích lũy dương so với âm vào cuối ngày ICU thứ 1, 2 hoặc 3 | Tử vong 28 ngày: HR 1.17 (KTC 95% 0.85 đến 1.60) ở ngày 1, 2.13 (1.48 đến 3.06) ở ngày 2, 1.56 (1.10 đến 2.22) ở ngày 3 | Nghiên cứu quan sát, có thể bị nhiễu | Cân bằng dịch có liên quan với tử vong, nên đáng để giảm |
+| 2 | Hyun 2023, *Ann Intensive Care* | Thuần tập ghép cặp theo điểm xu hướng, hệ thống lưu trữ thông tin (registry) đa trung tâm, 20 bệnh viện, 2516 người bệnh | Cân bằng dịch tích lũy dương so với âm vào cuối ngày ICU thứ 1, 2 hoặc 3 | Tử vong 28 ngày: HR 1.17 (KTC 95% 0.85 đến 1.60) ở ngày 1, 2.13 (1.48 đến 3.06) ở ngày 2, 1.56 (1.10 đến 2.22) ở ngày 3 | Nghiên cứu quan sát, có thể bị nhiễu | Cân bằng dịch có liên quan với tử vong, nên đáng để giảm |
 | 3 | Meyhoff 2022, *N Engl J Med* (CLASSIC) | RCT, 1554 người lớn bị sốc nhiễm khuẩn | Hạn chế dịch so với dịch truyền tĩnh mạch tiêu chuẩn | Tử vong 90 ngày 42.3% so với 42.1%, không khác biệt | Bác sĩ không được làm mù | Hạn chế dịch không làm thay đổi tử vong trong một thử nghiệm lớn |
 | 4 | Shapiro 2023, *N Engl J Med* (CLOVERS) | RCT, 1563 người lớn bị tụt huyết áp do sepsis | Hạn chế dịch (dùng vận mạch sớm hơn) so với truyền dịch tự do | Tử vong trước khi ra viện về nhà trong 90 ngày: 14.0% so với 14.9%, không khác biệt | Không làm mù, chỉ giai đoạn đầu của điều trị | Khẳng định kết quả của CLASSIC ở một quần thể khác |
 | 5 | Evans 2021, *Crit Care Med* (Surviving Sepsis Campaign) | Hướng dẫn quốc tế | Không áp dụng | Không có khuyến cáo về hạn chế dịch so với truyền dịch tự do sau hồi sức ban đầu (chưa đủ bằng chứng) | Ý kiến chuyên gia khi bằng chứng còn yếu | Cho thấy điều còn chưa chắc chắn mà nghiên cứu thí điểm của chúng ta giải quyết |

@@ -793,7 +793,7 @@ Kết quả âm tính ít được công bố hơn (sai lệch xuất bản), n�
 
 So sánh kết cục chính đã đăng ký với bài báo. Bài báo 1 đăng ký NCT04947904, trước khi nhận người bệnh đầu tiên.
 
-Hỏi: 'Vì sao kiểm tra sổ đăng ký trước khi làm thử nghiệm của mình?' Mong đợi: có thể người khác đang làm đúng nghiên cứu đó.
+Hỏi: 'Vì sao kiểm tra hệ thống đăng ký thử nghiệm trước khi làm thử nghiệm của mình?' Mong đợi: có thể người khác đang làm đúng nghiên cứu đó.
 
 Thời gian: 3 phút. Phần 2.2 kết thúc lúc 20:40.
 :::
@@ -1096,7 +1096,7 @@ Phần 2.4: 21:35-21:50. Thời gian: 30 giây.
 | Nghiên cứu | Thiết kế, cỡ mẫu | So sánh | Kết cục chính: kết quả | Hạn chế chính |
 |:---|:---|:---|:---|:---|
 | Boulet 2024 Crit Care | RCT thí điểm (pilot RCT), 3 ICU, n = 48 | Hạn chế dịch "ẩn" vs tiêu chuẩn | Cân bằng dịch ngày 5: khác biệt không ý nghĩa | Cỡ mẫu nhỏ, không đủ lực cho tử vong |
-| Hyun 2023 Ann Intensive Care | Thuần tập ghép cặp, sổ đăng ký, 20 BV | Cân bằng dịch dương vs âm | Tử vong 28 ngày cao hơn nếu dương ở ngày 2-3 | Quan sát: có thể có yếu tố gây nhiễu |
+| Hyun 2023 Ann Intensive Care | Thuần tập ghép cặp, hệ thống lưu trữ thông tin, 20 BV | Cân bằng dịch dương vs âm | Tử vong 28 ngày cao hơn nếu dương ở ngày 2-3 | Quan sát: có thể có yếu tố gây nhiễu |
 | Meyhoff 2022 N Engl J Med | RCT lớn (CLASSIC), n = 1554 | Hạn chế vs dịch tĩnh mạch chuẩn | Tử vong 90 ngày 42.3% vs 42.1%: không khác | Bác sĩ không được làm mù |
 | **[Bài báo 4 của bạn]{style="color:#595959"}** | [...]{style="color:#595959"} | [...]{style="color:#595959"} | [...]{style="color:#595959"} | [...]{style="color:#595959"} |
 
@@ -1377,10 +1377,10 @@ Tùy chọn. Dùng nếu còn thời gian, hoặc để tự học.
 | Web of Science, Scopus | Nhiều ngành, có liên kết tới các bài trích dẫn mỗi bài | Trả phí |
 | CINAHL | Điều dưỡng và các ngành sức khỏe liên quan | Trả phí |
 | Epistemonikos | Tổng quan hệ thống về sức khỏe, nhiều ngôn ngữ | Miễn phí |
-| Sổ đăng ký | Thử nghiệm: ClinicalTrials.gov, WHO ICTRP. Tổng quan: PROSPERO | Miễn phí |
+| Hệ thống đăng ký nghiên cứu | Thử nghiệm: ClinicalTrials.gov, WHO ICTRP. Tổng quan: PROSPERO | Miễn phí |
 
 ::: {.notes}
-Với đề cương Cấp độ 1, PubMed và một sổ đăng ký là đủ. Câu hỏi điều trị nên bắt đầu từ Cochrane Library. Phần lớn cơ sở dữ liệu khác cần tài khoản của cơ quan.
+Với đề cương Cấp độ 1, PubMed và một hệ thống đăng ký nghiên cứu là đủ. Câu hỏi điều trị nên bắt đầu từ Cochrane Library. Phần lớn cơ sở dữ liệu khác cần tài khoản của cơ quan.
 
 Thời gian: 2 phút nếu dùng.
 :::
