@@ -665,10 +665,6 @@ Watch for
 :::
 ::::
 
-::: {.neu-output style="--c:#B5651D"}
-**OUTPUT** Everyone has seen the full cycle: collect, export, import, cite, list
-:::
-
 ::: {.notes}
 Script: s2\_demo.md, Part B. People repeat each step on their own computer. If Zotero fails for someone, they watch and fix it later with the second trainer.
 
@@ -1434,10 +1430,6 @@ LIVE DEMO · 3 min
 - Look: journals, theses, preprints, ranked by a hidden algorithm
 - Under a key trial, click 'Cited by', then search within citing articles
 - Click the quote icon to see export formats
-:::
-
-::: {.neu-output style="--c:#B5651D"}
-**OUTPUT** Participants see what Scholar adds and what it lacks
 :::
 
 ::: {.notes}

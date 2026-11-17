@@ -179,9 +179,8 @@ Rủi ro lớn nhất về tính khả thi: phiếu theo dõi dịch ban đêm v
 | Q5: trung vị và IQR, chỉ người sống sót | Mục 2 gói Q5: 439 người sống sót. Bảng 2 gói Q5: trung vị thời gian nằm ICU 7.5 (5.2 đến 11.2) so với 4.8 (3.3 đến 7.1) ngày |
 | Bảng tự đọc hiểu được | Tên bảng, đơn vị, n mỗi cột, chú thích chữ viết tắt |
 | Có tên bài dự kiến và câu công khai sử dụng AI | Thêm cả hai, ví dụ "Sử dụng AI: không." hoặc câu một dòng trong hướng dẫn bài tập |
-| Phương pháp (nếu có nộp): mỗi kết quả có phương pháp | Thêm kiểm định hoặc mô hình và các biến hiệu chỉnh |
 
-### Ghi chú cho giảng viên: Phương pháp mẫu cho Q1 (phần không bắt buộc, ~300 từ)
+### Ghi chú cho giảng viên: Phương pháp mẫu cho Q1 (học ở 7.3, học viên không viết, ~300 từ)
 
 **Thiết kế nghiên cứu và bối cảnh.** Chúng tôi phân tích FLUID-ICU, một nghiên cứu thuần tập tiến cứu đa trung tâm gồm những người lớn bị sepsis liên tiếp nhập bốn khoa hồi sức tích cực (ICU A–D) từ tháng 1 năm 2023 đến tháng 12 năm 2024. FLUID-ICU là bộ dữ liệu giảng dạy mô phỏng. Không cần chấp thuận của hội đồng đạo đức hay phiếu đồng ý của người bệnh.
 

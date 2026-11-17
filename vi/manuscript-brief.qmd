@@ -11,7 +11,7 @@ Tải về: [Word](files/assignments/Manuscript_Brief_VN.docx) · [PDF](files/as
 **Tổ chức:** Neudata (*#ClearDataClearImpact*)
 **Ai làm:** mỗi học viên tự làm. Không làm theo nhóm.
 **Bạn nộp gì (bắt buộc):** một **phần Kết quả** sẵn sàng để công bố cho một câu hỏi FLUID-ICU (Q1 đến Q5), báo cáo **tất cả kết quả trong gói kết quả của bạn**: mọi bảng và mọi hình, và mỗi bảng, hình đều được mô tả trong phần lời. Kèm tên bài dự kiến và câu công khai sử dụng AI.
-**Không bắt buộc:** Phương pháp, Đặt vấn đề, Bàn luận và Tóm tắt. Giảng viên cũng nhận xét các phần này.
+**Chỉ viết phần Kết quả.** Phương pháp, Đặt vấn đề, Bàn luận và Tóm tắt được dạy ở Buổi 7 và 8 để bạn đọc được bài báo và sau này viết được một bài báo đầy đủ. Bạn không viết các phần này cho khóa học.
 **Chúng tôi cung cấp:** kết quả. Bạn không phải phân tích dữ liệu.
 **Thời điểm gửi hướng dẫn này:** cuối Buổi 6, khi bạn chọn câu hỏi.
 **Chấm theo:** `Manuscript_Rubric_VN.pdf`. Bình duyệt: `Peer_Review_Instructions_VN.pdf`.
@@ -46,8 +46,8 @@ Cả lớp cùng làm năm câu hỏi ở Buổi 5 và 6 (Q1 làm đầy đủ).
 | Tệp | Dùng để làm gì |
 |---|---|
 | `Results_Pack_QN_VN.pdf` (N = số câu hỏi của bạn) | Toàn bộ số liệu: lưu đồ người tham gia, Bảng 1, các bảng kết quả, các hình, ghi chú bằng ngôn ngữ đơn giản |
-| `Manuscript_Template_IMRaD_VN.docx` | Viết bài trong mẫu này. Phần Kết quả được đánh dấu là bắt buộc |
-| `SAP_FLUID-ICU_VN.pdf` và `Data_Dictionary_VN.pdf` | Định nghĩa biến và phương pháp phân tích, cho phần Phương pháp (không bắt buộc) |
+| `Manuscript_Template_IMRaD_VN.docx` | Viết phần Kết quả và tên bài dự kiến trong mẫu này |
+| `SAP_FLUID-ICU_VN.pdf` và `Data_Dictionary_VN.pdf` | Định nghĩa biến và phương pháp phân tích, để kiểm tra cách diễn đạt của bạn |
 | `Response_to_Reviewers_Template_VN.docx` | Để trả lời người bình duyệt |
 
 Nếu gói kết quả thiếu thông tin, hãy hỏi giảng viên.
@@ -75,17 +75,6 @@ Tất cả bảng và hình đã có sẵn trong gói kết quả (mỗi câu h�
 - mỗi bảng và hình tự đọc hiểu được (tên, đơn vị, n, giải thích chữ viết tắt)
 - không diễn giải ("vì", "gợi ý rằng", "có xu hướng có ý nghĩa")
 - viết trong mẫu, ở thì quá khứ
-
-### Không bắt buộc (khuyến khích)
-
-| Phần | Ghi chú |
-|---|---|
-| Phương pháp | Mục 4 đến 12 của STROBE. Mọi thông tin có trong gói kết quả, SAP và từ điển dữ liệu. Học ở Buổi 7 |
-| Đặt vấn đề | Ba đoạn: điều đã biết, điều chưa biết, mục tiêu. Học ở Buổi 8 |
-| Bàn luận | Sáu bước: trả lời, so sánh, giải thích, hạn chế, ý nghĩa, kết luận. Học ở Buổi 8 |
-| Tóm tắt | Có cấu trúc, không quá 250 từ. Học ở Buổi 8 |
-
-Gửi các phần không bắt buộc trong cùng tệp với phần Kết quả. Các phần này không tính điểm.
 
 
 * * *
@@ -131,5 +120,5 @@ Viết bằng tiếng Anh. Nếu bạn thấy không thể viết bằng tiếng
 
 ## 8. Nhận xét
 
-- Bạn nhận một bản bình duyệt từ bạn cùng lớp, và nhận xét viết của giảng viên về phần Kết quả đã sửa (hoặc bản nháp, nếu không có bản sửa) và về các phần không bắt buộc bạn gửi.
+- Bạn nhận một bản bình duyệt từ bạn cùng lớp, và nhận xét viết của giảng viên về phần Kết quả đã sửa (hoặc bản nháp, nếu không có bản sửa).
 

@@ -166,8 +166,8 @@ Liệt kê từng bảng và hình trong gói của bạn. Đánh dấu khi đã
 - [ ] Không diễn giải ("vì", "gợi ý rằng") và không dùng từ nhân quả
 - [ ] Tên bài dự kiến và câu công khai sử dụng AI
 
-### Phương pháp (học ở 7.3, không bắt buộc nộp)
-Nếu bạn nộp thêm phần Phương pháp, dùng mục 4 đến 12 của STROBE: thiết kế và bối cảnh, người tham gia, biến số, nguồn dữ liệu, sai lệch, cỡ mẫu ("mọi người bệnh đủ tiêu chuẩn trong nghiên cứu thuần tập đều được đưa vào"), phương pháp thống kê và dữ liệu thiếu. Thông tin có trong gói kết quả, kế hoạch phân tích thống kê (`SAP_FLUID-ICU_VN.pdf`) và `Data_Dictionary_VN.pdf`.
+### Đọc phần Phương pháp (học ở 7.3)
+Bạn không viết phần Phương pháp cho khóa học. Khi đọc một bài báo, hãy đối chiếu phần Phương pháp với mục 4 đến 12 của STROBE: thiết kế và bối cảnh, người tham gia, biến số, nguồn dữ liệu, sai lệch, cỡ mẫu, phương pháp thống kê và dữ liệu thiếu. Với FLUID-ICU, các thông tin này có trong gói kết quả, kế hoạch phân tích thống kê (`SAP_FLUID-ICU_VN.pdf`) và `Data_Dictionary_VN.pdf`. Dùng chúng để kiểm tra phần Kết quả của bạn dùng cùng định nghĩa.
 
 ### Sản phẩm cần nộp
 Phần Kết quả của bạn, đặt tên `Surname_Firstname_Results_QN.docx`, gửi email cho người bình duyệt của bạn và giảng viên Vương Mỹ Lượng (myluong1710@gmail.com) **trước 23:59 Chủ nhật 20/12/2026 (giờ Việt Nam)**. Phần này báo cáo tất cả kết quả trong gói của bạn (`Manuscript_Brief_VN.pdf`). Người bình duyệt của bạn được công bố cuối buổi học hôm nay.

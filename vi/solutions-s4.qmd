@@ -120,7 +120,7 @@ Các số này khớp với slide "Cùng một xét nghiệm, bối cảnh khác
 
 ## Phần E: Đọc biểu đồ rừng và chọn công cụ đánh giá nguy cơ sai lệch (cả lớp, 8 phút)
 
-4 phút: mọi người tự làm câu 1 đến 3 và công cụ a đến c. Sau đó 4 phút: mời hai hoặc ba người trả lời từng câu.
+4 phút: mọi người tự làm câu 1 đến 3, và công cụ a đến c nếu còn thời gian (không bắt buộc). Sau đó 4 phút: mời hai hoặc ba người trả lời từng câu.
 
 Các con số được tính bằng gộp nghịch đảo phương sai (mô hình ảnh hưởng cố định) các log tỷ số nguy cơ trong `figs_sat2.py`.
 

@@ -17,7 +17,7 @@ An optional reference: you do not need to read it before the course. The one doc
 
 ## Welcome
 
-Every day you make clinical decisions that research could improve. Over eight weeks, with one online session every Saturday evening (19:30 to 22:30, Vietnam time; Session 1 on Sunday 1 November), this course takes you through the whole research process: from a question at the bedside, to a sound study design, to analysing data, to writing and publishing the paper.
+Every day you make clinical decisions that research could improve. Over eight weeks, with one online session every Saturday evening (19:30 to 22:30, Vietnam time, with Session 1 on Sunday 1 November), this course takes you through the whole research process: from a question at the bedside, to a sound study design, to analysing data, to writing and publishing the paper.
 
 You do not need any research or statistics background. We go slowly, with pictures, one running example and a lot of short polls and questions in the chat. The course is fully online and you join from home. There are no groups or breakout rooms: the whole class works through every exercise together, with the instructor. You will never be asked to calculate anything beyond a simple 2×2 table, and you do not need any software: the trainers run the analyses, and you learn to read and write them up.
 
@@ -31,7 +31,7 @@ You do not need any research or statistics background. We go slowly, with pictur
 | **4** | 4 | **BIAS & EFFECT:** bias, confounding, RR/OR/NNT, diagnostic tests, forest plots | Proposal: exposure, outcomes, bias plan |
 | **5** | 5 | **DATA:** CRFs, data management, describing data, *meeting the course dataset* | Proposal: variables, CRF, data plan · Manuscript: Table 1 understood |
 | **6** | 6 | **ANALYSE:** CIs, p-values, tests, regression, survival, missing data, *analysing the course dataset* | Proposal: sample size, analysis plan · Manuscript: results interpreted, question chosen |
-| **7** | 7 | **PROTECT & WRITE:** ethics, integrity, Methods and Results | Proposal: ethics, feasibility, publication plan · Manuscript: Results section |
+| **7** | 7 | **PROTECT & WRITE:** ethics, integrity and the Results section | Proposal: ethics, feasibility, publication plan · Manuscript: Results section |
 | **8** | 8 | **PUBLISH:** Introduction, Discussion, abstract and title, improving the Results, journals, submission, peer review and presentations | Manuscript: Results section submitted · Proposal submitted (about 5 volunteers present) |
 
 Each session lasts 3 hours with a 15-minute break. It has a short recap, two teaching blocks with frequent "check your understanding" moments (a quick poll or an answer in the chat), and a proposal-builder segment in which the instructor shows the next part of the proposal on the running example. You then write the same part for your own question at home. Each session also has extra slides at the end for anyone who wants to read further at home.
@@ -44,7 +44,7 @@ One clinical topic travels with us: **fluids in septic shock**. In Weeks 1 to 4 
 Everyone works on their own products. There are no groups.
 
 1. **A research proposal on your own question**, from your own department, built one part at a time as homework and submitted in Session 8 (written proposal + 6 slides). About 5 volunteers also present their proposal in Session 8 (6 minutes + 2 minutes of feedback). Presenting is optional. Details: the proposal brief (`Proposal_Brief.pdf`, sent by email before Session 1).
-2. **The Results section of a paper from the course dataset.** At the end of Session 6 you choose ONE of the five FLUID-ICU questions, Q1 to Q5. We give you the results in a results pack, and you write a submission-ready Results section. All sections of a paper are taught in Sessions 7 and 8. Only the Results section must be submitted, the others are optional. The instructor models the Results in Session 7, and you finish yours by 23:59 on Sunday 20 December 2026 (Vietnam time). After the course you review one classmate's draft (reviewer assigned at random in Session 7) and revise yours. Details: the manuscript brief (`Manuscript_Brief.pdf`, sent by email at the end of Session 6).
+2. **The Results section of a paper from the course dataset.** At the end of Session 6 you choose ONE of the five FLUID-ICU questions, Q1 to Q5. We give you the results in a results pack, and you write a submission-ready Results section. All sections of a paper are taught in Sessions 7 and 8. Only the Results section (with a working title) is written for the course. The other sections are taught so you can read papers and write a full paper later. The instructor models the Results in Session 7, and you finish yours by 23:59 on Sunday 20 December 2026 (Vietnam time). After the course you review one classmate's draft (reviewer assigned at random in Session 7) and revise yours. Details: the manuscript brief (`Manuscript_Brief.pdf`, sent by email at the end of Session 6).
 
 ## Between sessions (about 30 to 60 minutes a week)
 
@@ -70,7 +70,7 @@ Every file comes by email, in English and Vietnamese (the Vietnamese file ends i
 |---|---|
 | Before Session 1 | Proposal brief (`Proposal_Brief.pdf`), `Presentation_Guide.pdf`, `Proposal_Rubric.pdf`, the proposal template (`Research_Proposal_Template.docx`), Papers 1 and 2 (original PDFs), the Session 1 exercise sheet, the English–Vietnamese glossary (`Glossary_EN_VN.pdf`) |
 | Before Session 2 | `Literature_Review_Worksheet.docx` |
-| Session 4 | `Risk_of_Bias_Tool_Chooser.pdf` (before), `2x2_calculator.xlsx` (after) |
+| Session 4 | `Risk_of_Bias_Tool_Chooser.pdf` (before), `2x2_calculator.xlsx` (before) |
 | Before Session 5 | The five results packs (`Results_Pack_Q1.pdf` to `Results_Pack_Q5.pdf`), `Data_Dictionary.pdf`, `CRF_Template.docx` |
 | Before Session 6 | The FLUID-ICU analysis plan (`SAP_FLUID-ICU.pdf`), `Statistical_Analysis_Plan_Template.docx`, `sample_size_calculator.xlsx` |
 | End of Session 6 | Manuscript brief (`Manuscript_Brief.pdf`), `Manuscript_Template_IMRaD.docx`, `Manuscript_Rubric.pdf`, `Peer_Review_Instructions.pdf`, `Response_to_Reviewers_Template.docx` |
@@ -84,7 +84,7 @@ Every exercise sheet arrives by email before its session, as a Word file and a P
 In Session 1 and again at the end of Session 8 you answer the same 24 questions online (a link is posted in the chat). You give your full name so that your two attempts can be compared. Only the course team sees names and scores, and you do not see the answers until after Session 8. The quiz measures what the *course* achieved, not you.
 
 ## After the course
-Take your proposal to the ethics committee. If you like, add the other sections to your Results section. This course is Level 1. If you want to run analyses yourself, Level 2 is a hands-on course in R (prerequisite: this course and the free *Clinical Data Analysis in R* course). Level 3 offers advanced, specialised methods on request.
+Take your proposal to the ethics committee. Later, you can use what you learned in Sessions 7 and 8 to write the full paper. This course is Level 1. If you want to run analyses yourself, Level 2 is a hands-on course in R (prerequisite: this course and the free *Clinical Data Analysis in R* course). Level 3 offers advanced, specialised methods on request.
 
 
 * * *

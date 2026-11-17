@@ -300,23 +300,23 @@ Most important: build the protection into the design. Repair what is left in the
 
 :::: {.neu-cards style="--n:3"}
 ::: {.neu-card .plain style="--c:#0D7377"}
-[Randomise and conceal allocation]{.neu-card-title}
+[Trials: randomise and conceal]{.neu-card-title}
 
 - Chance decides the group
 - Balances known and unknown confounders
 - Nobody can predict the next allocation
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
-[Blind]{.neu-card-title}
+[Trials: blind]{.neu-card-title}
 
 - Patients, clinicians, assessors, analysts
 - Makes outcome measurement reliable
 - At the very least: blind the assessor
 :::
 ::: {.neu-card .plain style="--c:#0070C0"}
-[Restrict, match, adjust]{.neu-card-title}
+[Observational: restrict, match, adjust]{.neu-card-title}
 
-- Restrict: include one level only, e.g. only septic shock
+- Restrict: e.g. only septic shock (other factors can still confound)
 - Match: pair patients with the same confounder values
 - Adjust: statistical methods in the analysis
 - **[Only for confounders known and measured]{style="color:#B23B2E"}**
@@ -330,7 +330,9 @@ Most important: build the protection into the design. Repair what is left in the
 ::: {.notes}
 Stress this: preventing bias in the design is the most important step. The analysis can only repair part of it.
 
-Restriction: include only one level of a confounder (e.g. only septic shock), so it cannot differ between groups. Matching: pair patients with the same values of the confounders. Adjustment: statistical methods in the analysis. All three work only for confounders that are known and measured.
+The first two cards are for trials. The third is what observational studies have, since they cannot randomise. Trials can also restrict (eligibility criteria) and adjust.
+
+Restriction: include only one level of a confounder. If everyone has septic shock, shock vs no shock cannot differ between the groups, so it cannot confound. It removes only that one factor: severity within septic shock (e.g. SOFA) can still differ and still confound, and needs matching or adjustment. Matching: pair patients with the same values of the confounders. Adjustment: statistical methods in the analysis. All three work only for confounders that are known and measured.
 
 Weighting methods such as inverse probability weighting share the idea of matching: make the groups comparable on measured confounders. Hyun used restriction and propensity score matching.
 
@@ -352,6 +354,10 @@ Timing: 2 minutes.
 The stars mark a factor nobody measured. Before allocation: 10 severe patients and 6 with the hidden factor (one of them severe). After randomisation: 5 severe and 3 starred in each group, by chance alone.
 
 This balance holds on average. Small trials can still be unbalanced: Boulet had higher baseline creatinine in one arm.
+
+This is why randomisation is needed, and why the randomised trial is the best design for a causal question.
+
+Examples of other factors that randomisation balances, besides severity (SOFA): kidney function, fluid already given, age, sex.
 
 Timing: 1.5 minutes.
 :::
@@ -504,6 +510,8 @@ Failing kidneys make less urine, so the balance becomes positive. That is why Hy
 
 A gap in time in practice: measure the exposure in one window and count only outcomes that start after it. Then the outcome cannot have caused the exposure.
 
+Researchers should consider reverse causation in observational and descriptive studies.
+
 Timing: 2.5 minutes.
 :::
 
@@ -531,6 +539,8 @@ Viewpoints are clues, not a score. Stop at temporality (essential) and experimen
 For Hyun: possible, not proven.
 
 Poll: 'Which viewpoint does an RCT give that no cohort can?' Expected: experiment.
+
+The nine viewpoints help researchers judge whether an association in their own study is causal.
 
 Timing: 4.5 minutes.
 :::
@@ -726,7 +736,7 @@ Worked example: restrictive 20/100 died, usual care 30/100 died
 ::::
 
 ::: {.neu-takeaway}
-**KEY MESSAGE** Ratios tell you how strong. Differences tell you how many patients.
+**KEY MESSAGE** RR and OR give the relative effect. RD and NNT give the absolute effect.
 :::
 
 ::: {.notes}
@@ -774,6 +784,8 @@ Ask: 'Our OR was 0.58 and RR 0.67. Why?' Expected: death is common.
 
 The next slide answers 'when do we use the OR at all?'
 
+Tell participants to play with the 2x2 table on slide 25, in their own copy of the 2x2 calculator, to get a feel for it.
+
 Timing: 1.5 minutes.
 :::
 
@@ -783,7 +795,7 @@ Timing: 1.5 minutes.
 |:---|:---|:---|
 | RCT, cohort | Risk in each group, RR, RD, NNT (also OR, from logistic regression) | People are followed from exposure to outcome, so risk can be calculated |
 | Case-control | OR only | We choose how many cases and controls, so risk cannot be calculated. The OR does not depend on that choice |
-| Cross-sectional | Prevalence, prevalence ratio, OR | Exposure and outcome at one moment: no follow-up, so no risk over time |
+| Cross-sectional | Prevalence in each group, prevalence ratio (one prevalence divided by the other), OR | Exposure and outcome at one moment: no follow-up, so no risk over time |
 | Time to event | Hazard ratio (HR) | Compares event rates over time (Session 6) |
 
 ::: {.neu-table-caption}
@@ -797,6 +809,8 @@ The OR is not wrong, but it overstates the effect when the outcome is common and
 ::: {.notes}
 Answers the question 'Why not always the OR?' The design decides which measures exist. Only a design that follows people over time gives a risk.
 
+Cross-sectional: the prevalence is the proportion with the outcome at that moment in one group (e.g. 30 of 100 exposed). The prevalence ratio divides the two groups' prevalences (30% / 15% = 2.0), just as the RR divides two risks.
+
 Timing: 1.5 minutes.
 :::
 
@@ -806,33 +820,17 @@ Timing: 1.5 minutes.
 LIVE DEMO · 8 min
 :::
 
-:::: {.columns}
-::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#B5651D"}
 - The instructor shares the screen: 2x2\_calculator.xlsx, sheet Association
+- Open your own copy (sent with the exercise sheet) and follow along
 - Enter a, b, c, d from the worked example: 20, 80, 30, 70
 - Read the risks, RR, RD, NNT and OR, and the plain-language lines
 - Change the deaths to 2 and 3 of 100: watch the OR approach the RR
 - Point at the red line: case-control data give an OR only
 :::
-:::
-::: {.column width="40%"}
-::: {.neu-side .plain style="--c:#B5651D"}
-Watch for
-
-- Same layout as the slide
-- Relative vs absolute effect
-- Rare outcome: OR close to RR
-:::
-:::
-::::
-
-::: {.neu-output style="--c:#B5651D"}
-**OUTPUT** Everyone has seen every measure computed from one table
-:::
 
 ::: {.notes}
-Script: s4\_demo.md. File: 2x2\_calculator.xlsx, pre-filled. Participants watch. Email the file afterwards.
+Script: s4\_demo.md. File: 2x2\_calculator.xlsx, pre-filled. Participants follow along in their own copy (sent with the exercise sheet).
 
 Key moment: a = 2, c = 3. RR stays 0.67, OR becomes 0.66, NNT jumps to 100.
 
@@ -1089,11 +1087,13 @@ Timing: 3 minutes.
 | Systematic review | AMSTAR 2 | PRISMA |
 
 ::: {.neu-table-caption}
-RoB 2: Cochrane risk-of-bias tool for randomised trials. ROBINS-I / -E: risk of bias in non-randomised studies of interventions / exposures. QUADAS-2: for diagnostic accuracy studies. AMSTAR 2: for systematic reviews. The reporting guidelines are covered in Session 8.
+RoB 2: Cochrane risk-of-bias tool for randomised trials. ROBINS-I / -E: risk of bias in non-randomised studies of interventions / exposures. QUADAS-2: for diagnostic accuracy studies. AMSTAR 2: for systematic reviews. These tools are used mainly in systematic reviews (e.g. RoB 2 in Cochrane reviews). To read a single paper, the 10-question checklist (Session 8) is enough.
 :::
 
 ::: {.notes}
 Reporting guidelines check what was reported. Risk-of-bias tools judge trust. Judge by domain, do not add up stars.
+
+How common are they? Mostly a tool for systematic reviewers: RoB 2 is required in Cochrane reviews of trials, ROBINS-I for non-randomised studies, QUADAS-2 for diagnostic reviews. Clinicians reading one paper rarely fill them in. Participants only need to know the tool exists and recognise it in a review.
 
 One-page version: Risk\_of\_Bias\_Tool\_Chooser.pdf.
 
@@ -1154,7 +1154,8 @@ WHOLE-CLASS TASK · 8 min
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0D7377"}
 - The forest plot of six fluid trials (exercise sheet, Part E)
-- Read the plot, then choose a risk-of-bias tool for three studies
+- Read the plot: questions 1 to 3
+- If there is time: choose a risk-of-bias tool for three studies
 :::
 :::
 ::: {.column width="40%"}
@@ -1170,7 +1171,7 @@ Reminder
 ::::
 
 ::: {.neu-output style="--c:#0D7377"}
-**OUTPUT** Work alone (4 min): answer questions 1 to 3 and choose the tools for studies a to c
+**OUTPUT** Work alone (4 min): answer questions 1 to 3. If there is time, choose the tools for studies a to c
 :::
 
 ::: {.notes}
@@ -1178,7 +1179,7 @@ Reminder
 
 Answers: Trial 4 has most weight (38%). Every trial crosses 1. The diamond does not: about 21% lower relative risk, upper limit near no effect. Tools: RoB 2 for Boulet, Newcastle-Ottawa or ROBINS-E for Hyun, AMSTAR 2 for a review.
 
-Always say the CI with the diamond. If short of time, do the diamond sentence and the tools only.
+Always say the CI with the diamond. The tool choice is optional: skip it if short of time (see the note on the previous slide).
 
 Key: s4\_solutions, Part E.
 

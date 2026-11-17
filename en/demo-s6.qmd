@@ -9,7 +9,7 @@ title: "Session 6: Live-demo script"
 | | Part A: sample size | Part B: compare groups | Part C: models and missing data |
 |---|---|---|---|
 | **Slot** | 6.1, after the slide *Sample size: bigger effect, less noise* (about 20:05) | 6.2 (about 20:21) | 6.4, while showing its slides (21:30 to 21:48) |
-| **Duration** | 5 min (Steps 2, 3 and one change; full version 8 min if time allows) | 6 min | woven into the 6.4 slides (about 8 min of R in total, optional) |
+| **Duration** | 5 min (Steps 2, 3 and one change, full version 8 min if time allows) | 6 min | woven into the 6.4 slides (about 8 min of R in total, optional) |
 | **Tool** | free online calculator (e.g. OpenEpi) + `sample_size_calculator.xlsx` | `FLUID-ICU/R/03_compare.R` | `FLUID-ICU/R/04_models.R`, `05_missing.R` |
 
 Participants **watch your shared screen and predict in the chat**. They never calculate or run code. FLUID-ICU is **simulated**, and all its numbers below come from `Results_Pack_Q1–Q5`.
@@ -59,7 +59,7 @@ Link to FLUID-ICU: its SAP (section 11) states that about 600 patients give abou
 
 ## Part B: Comparing two groups in FLUID-ICU (03_compare.R, 6 minutes)
 
-Before each block, ask the class for the test in the chat, using the decision table.
+Before each block, ask the class for the test in the chat, using the decision tree.
 
 | Block | Outcome (type) | Test | Expected output (key_results.md) |
 |---|---|---|---|

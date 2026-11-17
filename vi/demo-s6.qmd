@@ -9,7 +9,7 @@ title: "Buổi 6: Kịch bản trình diễn"
 | | Phần A: cỡ mẫu | Phần B: so sánh các nhóm | Phần C: mô hình và dữ liệu thiếu |
 |---|---|---|---|
 | **Thời điểm** | 6.1, sau slide *Cỡ mẫu: tác động lớn hơn, ít nhiễu hơn* (khoảng 20:05) | 6.2 (khoảng 20:21) | 6.4, trong khi chiếu các slide của mục này (21:30 đến 21:48) |
-| **Thời lượng** | 5 phút (Bước 2, 3 và một thay đổi; bản đầy đủ 8 phút nếu còn thời gian) | 6 phút | lồng vào các slide 7.4 (tổng cộng khoảng 8 phút chạy R, tùy chọn) |
+| **Thời lượng** | 5 phút (Bước 2, 3 và một thay đổi, bản đầy đủ 8 phút nếu còn thời gian) | 6 phút | lồng vào các slide 6.4 (tổng cộng khoảng 8 phút chạy R, tùy chọn) |
 | **Công cụ** | công cụ tính trực tuyến miễn phí (ví dụ OpenEpi) và `sample_size_calculator.xlsx` | `FLUID-ICU/R/03_compare.R` | `FLUID-ICU/R/04_models.R`, `05_missing.R` |
 
 Học viên **theo dõi màn hình chia sẻ của giảng viên và dự đoán trong khung chat**. Học viên không tự tính và không chạy code. FLUID-ICU là dữ liệu **mô phỏng**, và mọi con số về FLUID-ICU dưới đây lấy từ `Results_Pack_Q1–Q5`.
@@ -61,7 +61,7 @@ Liên hệ với FLUID-ICU: SAP của nghiên cứu (mục 11) nêu rằng kho�
 
 ## Phần B: So sánh hai nhóm trong FLUID-ICU (03_compare.R, 6 phút)
 
-Trước mỗi khối, mời cả lớp gõ tên kiểm định vào khung chat, dựa vào bảng quyết định.
+Trước mỗi khối, mời cả lớp gõ tên kiểm định vào khung chat, dựa vào cây quyết định.
 
 | Khối | Kết cục (loại) | Kiểm định | Kết quả dự kiến (key_results.md) |
 |---|---|---|---|
@@ -78,7 +78,7 @@ Dự phòng: slide *FLUID-ICU: bốn kết cục, bốn phép so sánh* (mọi k
 
 * * *
 
-## Phần C: Mô hình và dữ liệu thiếu (04_models.R và 05_missing.R, cùng các slide 7.4)
+## Phần C: Mô hình và dữ liệu thiếu (04_models.R và 05_missing.R, cùng các slide 6.4)
 
 Chạy từng khối khi đến slide tương ứng. Nếu thiếu thời gian, chỉ chiếu các hình (chúng chính là các slide).
 

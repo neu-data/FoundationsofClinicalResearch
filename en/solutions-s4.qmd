@@ -120,7 +120,7 @@ These match the slide "Same test, different setting" (4.3) and the prevalence ta
 
 ## Part E: Read a forest plot and choose the risk-of-bias tool (whole class, 8 minutes)
 
-4 minutes: everyone works alone on questions 1 to 3 and tools a to c. Then 4 minutes: call on two or three people for each answer.
+4 minutes: everyone works alone on questions 1 to 3, and tools a to c if there is time (optional). Then 4 minutes: call on two or three people for each answer.
 
 Numbers are computed by inverse-variance (fixed-effect) pooling of the log risk ratios in `figs_sat2.py`.
 

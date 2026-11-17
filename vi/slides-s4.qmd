@@ -300,23 +300,23 @@ Quan trọng nhất: phòng sai lệch ngay từ thiết kế. Xử lý phần c
 
 :::: {.neu-cards style="--n:3"}
 ::: {.neu-card .plain style="--c:#0D7377"}
-[Phân nhóm ngẫu nhiên và che giấu phân bổ]{.neu-card-title}
+[Thử nghiệm: ngẫu nhiên, che giấu]{.neu-card-title}
 
 - May rủi quyết định nhóm
 - Cân bằng yếu tố nhiễu đã biết và chưa biết
 - Không ai đoán được lần phân bổ kế tiếp
 :::
 ::: {.neu-card .plain style="--c:#0B376C"}
-[Làm mù]{.neu-card-title}
+[Thử nghiệm: làm mù]{.neu-card-title}
 
 - Người bệnh, bác sĩ, người đánh giá, người phân tích
 - Đảm bảo đo kết cục đáng tin cậy
 - Tối thiểu: làm mù người đánh giá
 :::
 ::: {.neu-card .plain style="--c:#0070C0"}
-[Giới hạn, ghép cặp, hiệu chỉnh]{.neu-card-title}
+[Quan sát: giới hạn, ghép cặp, hiệu chỉnh]{.neu-card-title}
 
-- Giới hạn: chỉ chọn một mức, vd. chỉ sốc nhiễm khuẩn
+- Giới hạn: vd. chỉ sốc nhiễm khuẩn (yếu tố khác vẫn có thể gây nhiễu)
 - Ghép cặp: ghép người bệnh có cùng giá trị yếu tố nhiễu
 - Hiệu chỉnh: các phương pháp thống kê trong phân tích
 - **[Chỉ với yếu tố nhiễu đã biết và đã đo]{style="color:#B23B2E"}**
@@ -330,7 +330,9 @@ Quan trọng nhất: phòng sai lệch ngay từ thiết kế. Xử lý phần c
 ::: {.notes}
 Nhấn mạnh: phòng sai lệch ngay từ thiết kế là bước quan trọng nhất. Phân tích chỉ sửa được một phần.
 
-Giới hạn: chỉ chọn một mức của yếu tố nhiễu (vd. chỉ sốc nhiễm khuẩn), nên yếu tố đó không thể khác giữa hai nhóm. Ghép cặp: ghép người bệnh có cùng giá trị các yếu tố nhiễu. Hiệu chỉnh: các phương pháp thống kê trong phân tích. Cả ba chỉ dùng được với yếu tố nhiễu đã biết và đã đo.
+Hai thẻ đầu dành cho thử nghiệm. Thẻ thứ ba là cách của nghiên cứu quan sát, vì không phân nhóm ngẫu nhiên được. Thử nghiệm cũng có thể giới hạn (tiêu chuẩn chọn) và hiệu chỉnh.
+
+Giới hạn: chỉ chọn một mức của yếu tố nhiễu. Nếu mọi người đều sốc nhiễm khuẩn, có sốc hay không thì không thể khác giữa hai nhóm, nên không gây nhiễu được. Cách này chỉ loại được đúng yếu tố đó: mức độ nặng trong nhóm sốc nhiễm khuẩn (vd. SOFA) vẫn có thể khác và vẫn gây nhiễu, nên cần ghép cặp hoặc hiệu chỉnh. Ghép cặp: ghép người bệnh có cùng giá trị các yếu tố nhiễu. Hiệu chỉnh: các phương pháp thống kê trong phân tích. Cả ba chỉ dùng được với yếu tố nhiễu đã biết và đã đo.
 
 Các phương pháp trọng số như trọng số nghịch đảo xác suất (IPW) có cùng ý tưởng với ghép cặp: làm cho các nhóm so sánh được về các yếu tố nhiễu đã đo. Hyun dùng giới hạn và ghép cặp theo điểm xu hướng.
 
@@ -352,6 +354,10 @@ Thời gian: 2 phút.
 Ngôi sao là một yếu tố không ai đo. Trước khi phân bổ: 10 người bệnh nặng và 6 người có yếu tố ẩn (một người trong số đó bệnh nặng). Sau khi phân nhóm ngẫu nhiên: mỗi nhóm có 5 người nặng và 3 người có ngôi sao, chỉ nhờ may rủi.
 
 Sự cân bằng này là tính trung bình. Thử nghiệm nhỏ vẫn có thể mất cân bằng: Boulet có creatinine ban đầu cao hơn ở một nhóm.
+
+Đây là lý do cần phân nhóm ngẫu nhiên, và vì sao thử nghiệm ngẫu nhiên là thiết kế tốt nhất cho câu hỏi nhân quả.
+
+Ví dụ các yếu tố khác được phân nhóm ngẫu nhiên cân bằng, ngoài mức độ nặng (SOFA): chức năng thận, lượng dịch đã truyền, tuổi, giới.
 
 Thời gian: 1.5 phút.
 :::
@@ -504,6 +510,8 @@ Thận suy làm giảm nước tiểu, nên cân bằng dịch dương lên. Vì
 
 Khoảng cách thời gian trong thực tế: đo phơi nhiễm trong một khoảng thời gian, và chỉ tính các kết cục bắt đầu sau đó. Khi đó kết cục không thể là nguyên nhân của phơi nhiễm.
 
+Nhà nghiên cứu cần cân nhắc quan hệ nhân quả ngược trong các nghiên cứu quan sát, mô tả.
+
 Thời gian: 2.5 phút.
 :::
 
@@ -531,6 +539,8 @@ Các quan điểm là manh mối, không phải bảng chấm điểm. Dừng �
 Với Hyun: có thể, chưa chứng minh.
 
 Bình chọn: 'Quan điểm nào RCT cho được mà thuần tập không cho được?' Mong đợi: thực nghiệm.
+
+9 yếu tố giúp nhà nghiên cứu đánh giá mối quan hệ nhân quả trong nghiên cứu của mình.
 
 Thời gian: 4.5 phút.
 :::
@@ -726,7 +736,7 @@ Ví dụ: hạn chế dịch 20/100 tử vong, thường quy 30/100 tử vong
 ::::
 
 ::: {.neu-takeaway}
-**THÔNG ĐIỆP CHÍNH** Tỷ số cho biết mạnh đến đâu. Hiệu số cho biết bao nhiêu người bệnh.
+**THÔNG ĐIỆP CHÍNH** RR và OR cho biết tác động tương đối. RD và NNT cho biết tác động tuyệt đối.
 :::
 
 ::: {.notes}
@@ -774,6 +784,8 @@ Hỏi: 'OR của mình là 0.58, RR 0.67. Vì sao khác?' Mong đợi: tử vong
 
 Slide sau trả lời câu hỏi 'khi nào thì dùng OR?'
 
+Đề nghị học viên thử thay đổi bảng 2x2 ở slide 25, trên bản công cụ tính bảng 2x2 của mình, để hiểu rõ hơn.
+
 Thời gian: 1.5 phút.
 :::
 
@@ -782,8 +794,8 @@ Thời gian: 1.5 phút.
 | Thiết kế | Số đo có thể báo cáo | Vì sao |
 |:---|:---|:---|
 | RCT, thuần tập | Nguy cơ từng nhóm, RR, RD, NNT (cả OR, từ hồi quy logistic) | Người bệnh được theo dõi từ phơi nhiễm đến kết cục, nên tính được nguy cơ |
-| Bệnh–chứng | Chỉ OR | Ta chọn số ca bệnh và ca chứng, nên không tính được nguy cơ. OR không phụ thuộc vào lựa chọn đó |
-| Cắt ngang | Tỷ lệ hiện mắc, tỷ số hiện mắc, OR | Phơi nhiễm và kết cục tại cùng một thời điểm: không theo dõi, nên không có nguy cơ theo thời gian |
+| Bệnh–chứng | Chỉ OR | Nhà nghiên cứu chọn số ca bệnh và ca chứng, nên không tính được nguy cơ. OR không phụ thuộc vào lựa chọn đó |
+| Cắt ngang | Tỷ lệ hiện mắc ở từng nhóm, tỷ số hiện mắc (tỷ lệ hiện mắc nhóm này chia nhóm kia), OR | Phơi nhiễm và kết cục tại cùng một thời điểm: không theo dõi, nên không có nguy cơ theo thời gian |
 | Thời gian đến biến cố | Tỷ số nguy cơ tức thời (HR) | So sánh tốc độ xảy ra biến cố theo thời gian (Buổi 6) |
 
 ::: {.neu-table-caption}
@@ -797,6 +809,8 @@ OR không sai, nhưng phóng đại tác động khi kết cục thường gặp
 ::: {.notes}
 Trả lời câu hỏi 'Sao không luôn dùng OR?' Thiết kế quyết định có những số đo nào. Chỉ thiết kế theo dõi người bệnh theo thời gian mới cho ra nguy cơ.
 
+Cắt ngang: tỷ lệ hiện mắc là tỷ lệ người có kết cục tại thời điểm đó trong một nhóm (vd. 30 trên 100 người phơi nhiễm). Tỷ số hiện mắc chia tỷ lệ hiện mắc của hai nhóm (30% / 15% = 2.0), giống như RR chia hai nguy cơ.
+
 Thời gian: 1.5 phút.
 :::
 
@@ -806,33 +820,17 @@ Thời gian: 1.5 phút.
 TRÌNH DIỄN TRỰC TIẾP · 8 phút
 :::
 
-:::: {.columns}
-::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#B5651D"}
 - Giảng viên chia sẻ màn hình: 2x2\_calculator.xlsx, trang Association
+- Mở bản của bạn (gửi kèm phiếu bài tập) và làm theo
 - Nhập a, b, c, d của ví dụ: 20, 80, 30, 70
 - Đọc nguy cơ, RR, RD, NNT, OR, và các câu diễn giải
 - Đổi số tử vong thành 2 và 3 trên 100: xem OR tiến gần RR
 - Chỉ vào dòng chữ đỏ: dữ liệu bệnh–chứng chỉ cho OR
 :::
-:::
-::: {.column width="40%"}
-::: {.neu-side .plain style="--c:#B5651D"}
-Chú ý
-
-- Cùng cách trình bày như slide
-- Tác động tương đối và tuyệt đối
-- Kết cục hiếm: OR gần RR
-:::
-:::
-::::
-
-::: {.neu-output style="--c:#B5651D"}
-**SẢN PHẨM** Mọi người thấy mọi số đo được tính từ một bảng
-:::
 
 ::: {.notes}
-Kịch bản: s4\_demo\_VN.md. Tệp: 2x2\_calculator.xlsx, đã điền sẵn. Học viên chỉ xem. Gửi tệp qua email sau buổi học.
+Kịch bản: s4\_demo\_VN.md. Tệp: 2x2\_calculator.xlsx, đã điền sẵn. Học viên làm theo trên bản của mình (gửi kèm phiếu bài tập).
 
 Điểm chính: a = 2, c = 3. RR vẫn 0.67, OR thành 0.66, NNT tăng lên 100.
 
@@ -1089,11 +1087,13 @@ Thời gian: 3 phút.
 | Tổng quan hệ thống | AMSTAR 2 | PRISMA |
 
 ::: {.neu-table-caption}
-RoB 2: công cụ đánh giá nguy cơ sai lệch của Cochrane cho thử nghiệm ngẫu nhiên. ROBINS-I / -E: nguy cơ sai lệch trong nghiên cứu không ngẫu nhiên về can thiệp / phơi nhiễm. QUADAS-2: cho nghiên cứu chẩn đoán. AMSTAR 2: cho tổng quan hệ thống. Các hướng dẫn báo cáo được học ở Buổi 8.
+RoB 2: công cụ đánh giá nguy cơ sai lệch của Cochrane cho thử nghiệm ngẫu nhiên. ROBINS-I / -E: nguy cơ sai lệch trong nghiên cứu không ngẫu nhiên về can thiệp / phơi nhiễm. QUADAS-2: cho nghiên cứu chẩn đoán. AMSTAR 2: cho tổng quan hệ thống. Các công cụ này chủ yếu dùng trong tổng quan hệ thống (vd. RoB 2 trong các tổng quan Cochrane). Để đọc một bài báo, bảng kiểm 10 câu hỏi (Buổi 8) là đủ.
 :::
 
 ::: {.notes}
 Hướng dẫn báo cáo kiểm tra điều đã báo cáo. Công cụ nguy cơ sai lệch đánh giá độ tin cậy. Đánh giá theo từng lĩnh vực, không cộng sao.
+
+Có phổ biến không? Chủ yếu là công cụ của người làm tổng quan hệ thống: RoB 2 bắt buộc trong tổng quan Cochrane về thử nghiệm, ROBINS-I cho nghiên cứu không ngẫu nhiên, QUADAS-2 cho tổng quan chẩn đoán. Bác sĩ đọc một bài báo hiếm khi điền các công cụ này. Học viên chỉ cần biết công cụ tồn tại và nhận ra nó trong một tổng quan.
 
 Bản một trang: Risk\_of\_Bias\_Tool\_Chooser.pdf.
 
@@ -1154,7 +1154,8 @@ CẢ LỚP CÙNG LÀM · 8 phút
 ::: {.column width="60%"}
 ::: {.neu-activity-steps style="--c:#0D7377"}
 - Biểu đồ rừng của sáu thử nghiệm dịch truyền (phiếu bài tập, Phần E)
-- Đọc biểu đồ, rồi chọn công cụ đánh giá nguy cơ sai lệch cho ba nghiên cứu
+- Đọc biểu đồ: câu 1 đến 3
+- Nếu còn thời gian: chọn công cụ đánh giá nguy cơ sai lệch cho ba nghiên cứu
 :::
 :::
 ::: {.column width="40%"}
@@ -1170,7 +1171,7 @@ Nhắc lại
 ::::
 
 ::: {.neu-output style="--c:#0D7377"}
-**SẢN PHẨM** Làm riêng (4 phút): trả lời câu 1 đến 3 và chọn công cụ cho nghiên cứu a đến c
+**SẢN PHẨM** Làm riêng (4 phút): trả lời câu 1 đến 3. Nếu còn thời gian, chọn công cụ cho nghiên cứu a đến c
 :::
 
 ::: {.notes}
@@ -1178,7 +1179,7 @@ Nhắc lại
 
 Đáp án: Thử nghiệm 4 có trọng số lớn nhất (38%). Mọi thử nghiệm đều cắt qua 1. Hình thoi thì không: nguy cơ tương đối thấp hơn khoảng 21%, giới hạn trên gần không tác động. Công cụ: RoB 2 cho Boulet, Newcastle-Ottawa hoặc ROBINS-E cho Hyun, AMSTAR 2 cho tổng quan.
 
-Luôn nêu khoảng tin cậy cùng hình thoi. Nếu thiếu thời gian, chỉ làm câu về hình thoi và công cụ.
+Luôn nêu khoảng tin cậy cùng hình thoi. Phần chọn công cụ là không bắt buộc: bỏ qua nếu thiếu thời gian (xem ghi chú ở slide trước).
 
 Đáp án: s4\_solutions\_VN, Phần E.
 
